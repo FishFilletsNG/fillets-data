@@ -36,9 +36,6 @@ end
 function getModelsTable()
     return models_table
 end
-function setModelsTable(new_models)
-    models_table = new_models
-end
 
 local unit_table = {}
 function getUnitTable()
