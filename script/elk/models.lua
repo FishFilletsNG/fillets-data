@@ -116,3 +116,4 @@ X
 addItemAnim(item_light, "images/"..codename.."/naboj.png")
 
 
+
