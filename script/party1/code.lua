@@ -1,6 +1,7 @@
 file_include("script/prog_compatible.lua")
 
 --NOTE: glasses must be together in models.lua
+--NOTE: last glass is the plate
 local glasses = {}
 for i = 0, 8 do
     glasses[i] = getModelsTable()[sklenka.index + i]
@@ -49,13 +50,13 @@ local function prog_init()
         return function()
             if no_dialog() and isReady(small) and isReady(big) then
                 pomb1 = false
-                for pom1, glass in ipairs(glasses) do
+                for pom1, glass in pairs(glasses) do
                     if glass.dir == dir_left or glass.dir == dir_right then
                         pomb1 = true
                     end
                 end
                 pomb2 = false
-                --NOTE: glass num. 8 is not used here
+                --NOTE: glass num.8(=plate) is not used here
                 for pom1 = 0, 7 do
                     local glass = glasses[pom1]
                     if glass.Y == 27 and glass.X == 36 and ocel.X == 37 then
@@ -515,7 +516,7 @@ local function prog_init()
         end
 
         return function()
-            for pom1, glass in ipairs(glasses) do
+            for pom1, glass in pairs(glasses) do
                 pom2 = room.globpole[1000 + pom1]
                 if glass.dir ~= dir_no then
                     if pom2 == 0 then
@@ -531,9 +532,8 @@ local function prog_init()
                     glass.afaze = 2 - math.mod(math.floor(pom2 / 3), 2)
                 end
                 room.globpole[1000 + pom1] = pom2
-                sklenka:updateAnim()
+                glass:updateAnim()
             end
-
         end
     end
 
