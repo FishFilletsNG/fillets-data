@@ -43,6 +43,7 @@ local function prog_init()
                 end
                 room.pocitadlo = room.pocitadlo - 1
             elseif isReady(small) and big:isOut() and room.jo == 0 and (small.X < 2 or small.X > 25) then
+                --TODO: be busy without break
                 switch(random(2)){
                     [0] = function()
                         addm(0, "del-m-jedn0", true)
