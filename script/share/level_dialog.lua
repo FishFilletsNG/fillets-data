@@ -28,11 +28,17 @@ function dialogLoad(prefix)
     select_addFlag = oldfunc
 
     for key, lang in pairs(langs) do
-        if "" == DialogState.DEFAULT_LANG then
-            DialogState.DEFAULT_LANG = lang
+        local dialogFile = prefix.."dialogs_"..lang..".lua"
+        if file_exists(dialogFile) then
+            if "" == DialogState.DEFAULT_LANG then
+                DialogState.DEFAULT_LANG = lang
+            end
+            DialogState.lang = lang
+            file_include(dialogFile)
+        else
+            print(string.format("DEBUG: missing subtitles"..
+                "; lang=%q; file=%q", lang, dialogFile))
         end
-        DialogState.lang = lang
-        file_include(prefix.."dialogs_"..lang..".lua")
     end
 end
 
