@@ -1,4 +1,4 @@
-dialog_addDialog("dr1-m-dlouho", "en", "", "font_small", "This ship must sank long time ago.")
+dialog_addDialog("dr1-m-dlouho", "en", "", "font_small", "This ship must have sunk long time ago.")
 dialog_addDialog("dr1-m-dlouho", "cs", "sound/"..codename.."/cs/dr1-m-dlouho.ogg", "font_small", "Tahle loď tu asi leží už dlouho.")
 dialog_addDialog("dr1-m-dlouho", "fr", "", "font_small", "Ce bateau a coulé il y a longtemps.")
 dialog_addDialog("dr1-m-dlouho", "de", "", "font_small", "Dieses Schiff muss vor langer Zeit gesunken sein.")
@@ -36,7 +36,7 @@ dialog_addDialog("dr1-v-thorson", "cs", "sound/"..codename.."/cs/dr1-v-thorson.o
 dialog_addDialog("dr1-v-thorson", "fr", "", "font_big", "Il est même possible qu'il ait appartenu à Thorson le Dur.")
 dialog_addDialog("dr1-v-thorson", "de", "", "font_big", "Es ist sogar möglich, dass es Thorson dem Harten gehörte.")
 
-dialog_addDialog("dr1-x-erik", "en", "", "font_lightgrey", "I always thought I am the fishing boat of Eric the Unready... But today I learned the truth. Yes, it`s never too late to start a new life!")
+dialog_addDialog("dr1-x-erik", "en", "", "font_lightgrey", "I always thought I was the fishing boat of Eric the Unready... But today I learned the truth. Yes, it`s never too late to start a new life!")
 dialog_addDialog("dr1-x-erik", "cs", "sound/"..codename.."/cs/dr1-x-erik.ogg", "font_lightgrey", "Vždycky jsem si myslel, že jsem byl rybářský člun Erika Nepřipraveného... Ale dnes jsem se konečně dozvěděl pravdu. Nu což, nikdy není pozdě začít nový život!")
 dialog_addDialog("dr1-x-erik", "fr", "", "font_lightgrey", "J'ai toujours pensé que j'étais le bateau de pêche d'Eric le Jamais Prêt... Mais aujourd'hui j'ai appris la vérité. Oui, il n'est jamais trop tard pour commencer une nouvelle vie.")
 dialog_addDialog("dr1-x-erik", "de", "", "font_lightgrey", "Ich dachte immer ich bin das Fischerboot Eric des Unfertigen... Aber heute habe ich die Wahrheit erfahren. Ja, es ist nie zu spät, ein neues Leben anzufangen!")

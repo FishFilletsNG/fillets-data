@@ -3,7 +3,7 @@ dialog_addDialog("war-m-hrad", "cs", "sound/"..codename.."/cs/war-m-hrad.ogg", "
 dialog_addDialog("war-m-hrad", "fr", "", "font_small", "Je suis prisonnier sous le château.")
 dialog_addDialog("war-m-hrad", "de", "", "font_small", "Ich bin under der Burg eingeschlossen.")
 
-dialog_addDialog("war-m-ocel", "en", "", "font_small", "How did the steel got into this castle?")
+dialog_addDialog("war-m-ocel", "en", "", "font_small", "How did the steel get into this castle?")
 dialog_addDialog("war-m-ocel", "cs", "sound/"..codename.."/cs/war-m-ocel.ogg", "font_small", "Jak se do toho hradu dostala ocel?")
 dialog_addDialog("war-m-ocel", "fr", "", "font_small", "Comment l'acier à pénétrer ce château ?")
 dialog_addDialog("war-m-ocel", "de", "", "font_small", "Wie ist der Stahl in die Burg gekommen?")
@@ -38,17 +38,17 @@ dialog_addDialog("war-v-povedome", "cs", "sound/"..codename.."/cs/war-v-povedome
 dialog_addDialog("war-v-povedome", "fr", "", "font_big", "Je trouve ça étonnamment familier.")
 dialog_addDialog("war-v-povedome", "de", "", "font_big", "Das kommt mir hier irgendwie bekannt vor.")
 
-dialog_addDialog("war-v-pohadka", "en", "", "font_big", "When the MS Word or another boring application is running on this machine, we, the computer games characters, get together in the C:\\WINDOWS\\CONFIG directory and talk.")
+dialog_addDialog("war-v-pohadka", "en", "", "font_big", "When MS Word or another boring application is running on this machine, we, the computer game characters, get together in the C:\\WINDOWS\\CONFIG directory and talk.")
 dialog_addDialog("war-v-pohadka", "cs", "sound/"..codename.."/cs/war-v-pohadka.ogg", "font_big", "Když na tomhle počítači běží Word nebo jiná zbytečnost, my, postavičky z počítačových her, se scházíme v adresáři C:\\WINDOWS\\CONFIG a povídáme si.")
 dialog_addDialog("war-v-pohadka", "fr", "", "font_big", "Quand MS Word ou une autre application rébarbative tourne sur cette machine, nous, les personnages des jeux vidéo, nous rendons dans le répertoire C:\\WINDOWS\\CONFIG pour discuter.")
 dialog_addDialog("war-v-pohadka", "de", "", "font_big", "Wenn MS Word oder andere Langweilerprogramme auf dem Rechner laufen, treffen wir Spielfiguren uns im Verzeichnis C:\\WINDOWS\\CONFIG und quatschen.")
 
-dialog_addDialog("war-m-pichat", "en", "", "font_small", "When we don`t know what to do, we play hide-and-seek in registry. That`s why your Windows sometimes crashes if you don`t play any game for a long period of time.")
+dialog_addDialog("war-m-pichat", "en", "", "font_small", "When we don`t know what to do, we play hide-and-seek in the registry. That`s why your Windows sometimes crashes if you don`t play any games for a long period of time.")
 dialog_addDialog("war-m-pichat", "cs", "sound/"..codename.."/cs/war-m-pichat.ogg", "font_small", "Když nemáme do čeho píchnout, hrajeme si na schovávanou v registrační databázi. Proto ti občas přestanou fungovat Windows, když dlouho nehraješ žádnou hru.")
 dialog_addDialog("war-m-pichat", "fr", "", "font_small", "Quand nous ne savons pas quoi faire, nous jouons à cache-cache dans la base de registre. C'est une des raisons des crashs de Windows si vous ne jouez à aucun jeux pendant trop longtemps.")
 dialog_addDialog("war-m-pichat", "de", "", "font_small", "Wenn wir nicht wissen, was wir machen sollen, spielen wir Verstecken in der Registry. Darum stürzt Windows immer ab, wenn man nicht ab und zu ein Spiel spielt.")
 
-dialog_addDialog("war-v-prozradit", "en", "", "font_big", "You shouldn`t give that away. I only wanted to say that it looks very similar to this level. So many computer games characters.")
+dialog_addDialog("war-v-prozradit", "en", "", "font_big", "You shouldn`t give that away. I only wanted to say that it looks very similar to this level. So many computer game characters.")
 dialog_addDialog("war-v-prozradit", "cs", "sound/"..codename.."/cs/war-v-prozradit.ogg", "font_big", "To jsi neměla prozrazovat. Já jsem chtěl jenom říct, že to tam vypadá skoro stejně jako tady. Spousta postaviček z her.")
 dialog_addDialog("war-v-prozradit", "fr", "", "font_big", "Tu ne devrais pas parler de ça. Je voulais seulement dire qu'il ressemblait beaucoup à ce niveau. Il y a tant de personnage de jeux.")
 dialog_addDialog("war-v-prozradit", "de", "", "font_big", "Das hättest du nicht verraten sollen. Ich wollte nur sagen, dass es dort so ähnlich wie hier aussieht. So viele Spielfiguren.")
@@ -58,12 +58,12 @@ dialog_addDialog("war-m-aznato", "cs", "sound/"..codename.."/cs/war-m-aznato.ogg
 dialog_addDialog("war-m-aznato", "fr", "", "font_small", "Mais ce n'est pas si difficile de sortir d'ici.")
 dialog_addDialog("war-m-aznato", "de", "", "font_small", "Aber dort kommt man leichter wieder raus.")
 
-dialog_addDialog("war-v-blizzard", "en", "", "font_big", "The makers of this game would like to express their admiration for the Blizzard Entertainment company and would wish it many successful games.")
+dialog_addDialog("war-v-blizzard", "en", "", "font_big", "The makers of this game would like to express their admiration for the Blizzard Entertainment company and wish them many successful games.")
 dialog_addDialog("war-v-blizzard", "cs", "sound/"..codename.."/cs/war-v-blizzard.ogg", "font_big", "Tvůrci této hry by rádi vyjádřili svůj obdiv firmě Blizzard Entertainment a popřáli jí mnoho dalších úspěchů.")
 dialog_addDialog("war-v-blizzard", "fr", "", "font_big", "Les développeurs de ce jeu souhaitaient montrer leur admiration pour la compagnie Blizzard Entertainment et leur souhaiter beaucoup de bons jeux.")
 dialog_addDialog("war-v-blizzard", "de", "", "font_big", "Die Ersteller dieses Spiels möchten ihre Bewunderung für Blizzard Entertainment ausdrücken und wünschen ihnen viele erfolgreiche Spiele.")
 
-dialog_addDialog("war-m-hodiny", "en", "", "font_small", "And they would also like to thank for so many hours of neatly killed time.")
+dialog_addDialog("war-m-hodiny", "en", "", "font_small", "And they would also like to thank them for so many hours of neatly killed time.")
 dialog_addDialog("war-m-hodiny", "cs", "sound/"..codename.."/cs/war-m-hodiny.ogg", "font_small", "A také jí poděkovali za nespočet hodin příjemně zabitého času.")
 dialog_addDialog("war-m-hodiny", "fr", "", "font_small", "Et ils voulaient aussi les remercier pour tout ce temps si bien massacré,.. passé.")
 dialog_addDialog("war-m-hodiny", "de", "", "font_small", "Und sie möchten sich auch für die vielen Stunden wunderbar totgeschlagener Zeit bedanken.")

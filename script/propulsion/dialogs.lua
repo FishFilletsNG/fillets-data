@@ -18,7 +18,7 @@ dialog_addDialog("poh-m-reaktor", "cs", "sound/"..codename.."/cs/poh-m-reaktor.o
 dialog_addDialog("poh-m-reaktor", "fr", "", "font_small", "Et à quoi sert cette centrale nucléaire ?")
 dialog_addDialog("poh-m-reaktor", "de", "", "font_small", "Und wofür war das Kernkraftwerk?")
 
-dialog_addDialog("poh-v-automat", "en", "", "font_big", "Can`t you see? It powers that Coca-cola vending machine over there.")
+dialog_addDialog("poh-v-automat", "en", "", "font_big", "Can`t you see? It powers that Coca-Cola vending machine over there.")
 dialog_addDialog("poh-v-automat", "cs", "sound/"..codename.."/cs/poh-v-automat.ogg", "font_big", "Nevidíš? Napájí támhle ten automat na Coca-Colu.")
 dialog_addDialog("poh-v-automat", "fr", "", "font_big", "Tu ne vois pas ? Elle fournit le courant pour le distributeur de boissons là bas.")
 dialog_addDialog("poh-v-automat", "de", "", "font_big", "Siehst du es nicht? Es treibt den Getränkeautomaten da drüben an.")
@@ -63,7 +63,7 @@ dialog_addDialog("poh-m-dobre", "cs", "sound/"..codename.."/cs/poh-m-dobre.ogg",
 dialog_addDialog("poh-m-dobre", "fr", "", "font_small", "Ok, emportons celle-ci.")
 dialog_addDialog("poh-m-dobre", "de", "", "font_small", "Gut, wir sollten ihn nehmen.")
 
-dialog_addDialog("poh-v-forma", "en", "", "font_big", "Look, there is some strange life form, over there. Won`t we try to contact them?")
+dialog_addDialog("poh-v-forma", "en", "", "font_big", "Look, there is some strange life form, over there. Shouldn`t we try to contact them?")
 dialog_addDialog("poh-v-forma", "cs", "sound/"..codename.."/cs/poh-v-forma.ogg", "font_big", "Hele, támhleto je nějaká zvláštní forma života. Nezkusíme navázat kontakt?")
 dialog_addDialog("poh-v-forma", "fr", "", "font_big", "Regarde, il y a des formes de vie étranges plus loin. Nous devons essayer de les contacter, non ?")
 dialog_addDialog("poh-v-forma", "de", "", "font_big", "Schau, da drüben ist eine seltsame Lebensform. Sollen wir versuchen, mit ihnen Kontakt aufzunehmen?")
@@ -104,7 +104,7 @@ dialog_addDialog("poh-v-setkani", "fr", "", "font_big", "Je n'ai jamais imaginé
 dialog_addDialog("poh-v-setkani", "de", "", "font_big", "Ich hätte nie gedacht, dass ein Treffen mit Außerirdischen so aussieht.")
 dialog_addDialog("poh-v-setkani", "de_CH", "", "font_big", "Ich hätte nie gedacht, dass ein Treffen mit Ausserirdischen so aussieht.")
 
-dialog_addDialog("poh-m-sestra", "en", "", "font_small", "And what have you expected? That they will kidnap your sister?")
+dialog_addDialog("poh-m-sestra", "en", "", "font_small", "And what did you expect? That they will kidnap your sister?")
 dialog_addDialog("poh-m-sestra", "cs", "sound/"..codename.."/cs/poh-m-sestra.ogg", "font_small", "A cos čekal? Že unesou tvou sestru?")
 dialog_addDialog("poh-m-sestra", "fr", "", "font_small", "Et qu'espérais-tu ? Qu'ils vont kidnapper ta soeur ?")
 dialog_addDialog("poh-m-sestra", "de", "", "font_small", "Und was hast du erwartet? Dass sie deine Schwester entführen?")

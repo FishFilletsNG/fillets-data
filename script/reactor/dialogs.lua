@@ -75,7 +75,7 @@ dialog_addDialog("rea-v-takvidis", "cs", "sound/"..codename.."/cs/rea-v-takvidis
 dialog_addDialog("rea-v-takvidis", "fr", "", "font_big", "Tu vois ?")
 dialog_addDialog("rea-v-takvidis", "de", "", "font_big", "Siehst du?")
 
-dialog_addDialog("rea-m-doufam", "en", "", "font_small", "I hope we don`t start some upleasant reaction.")
+dialog_addDialog("rea-m-doufam", "en", "", "font_small", "I hope we don`t start some unpleasant reaction.")
 dialog_addDialog("rea-m-doufam", "cs", "sound/"..codename.."/cs/rea-m-doufam.ogg", "font_small", "Doufám, že tím nezpůsobíme nějakou nežádoucí reakci.")
 dialog_addDialog("rea-m-doufam", "fr", "", "font_small", "J'espère que nous n'avons pas déclencher de réaction.")
 dialog_addDialog("rea-m-doufam", "de", "", "font_small", "Ich hoffe, wir starten keine unangenehme Reaktion.")

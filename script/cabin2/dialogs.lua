@@ -49,12 +49,12 @@ dialog_addDialog("ka2-v-papousek", "cs", "sound/"..codename.."/cs/ka2-v-papousek
 dialog_addDialog("ka2-v-papousek", "fr", "", "font_big", "Regarde ce perroquet !!!")
 dialog_addDialog("ka2-v-papousek", "de", "", "font_big", "Schau, der Papagei!!!")
 
-dialog_addDialog("ka2-m-kostra", "en", "", "font_small", "So what, a normal skeleton.")
+dialog_addDialog("ka2-m-kostra", "en", "", "font_small", "So what? It's a normal skeleton.")
 dialog_addDialog("ka2-m-kostra", "cs", "sound/"..codename.."/cs/ka2-m-kostra.ogg", "font_small", "No co, obyčejná kostřička.")
 dialog_addDialog("ka2-m-kostra", "fr", "", "font_small", "Et alors, un squelette normal.")
 dialog_addDialog("ka2-m-kostra", "de", "", "font_small", "Na und? Ein normales Skelett.")
 
-dialog_addDialog("ka2-m-posledni", "en", "", "font_small", "Did you see it? This room is almost the last one. Could this really be that treasure?")
+dialog_addDialog("ka2-m-posledni", "en", "", "font_small", "Can you see it? This room is almost the last in the row. Could this really be that treasure?")
 dialog_addDialog("ka2-m-posledni", "cs", "sound/"..codename.."/cs/ka2-m-posledni.ogg", "font_small", "Hele, tahle místnost už je skoro poslední v řadě. Že by v té truhle byl přece jenom ten poklad?")
 dialog_addDialog("ka2-m-posledni", "fr", "", "font_small", "Tu as vu ? Cette pièce et quasiment identique à la précédente. Se pourrait-il que se soit vraiment le trésor ?")
 dialog_addDialog("ka2-m-posledni", "de", "", "font_small", "Hast du gesehen? Das ist fast der letzte Raum. Könnte das wirklich der Schatz sein?")
@@ -64,7 +64,7 @@ dialog_addDialog("ka2-v-mapa0", "cs", "sound/"..codename.."/cs/ka2-v-mapa0.ogg",
 dialog_addDialog("ka2-v-mapa0", "fr", "", "font_big", "Et qu'est qu'il y a dans les deux autres ?")
 dialog_addDialog("ka2-v-mapa0", "de", "", "font_big", "Und was ist dann in den anderen zwei?")
 
-dialog_addDialog("ka2-v-mapa1", "en", "", "font_big", "They told us clearly to find the map. Nobody mentioned a treasure.")
+dialog_addDialog("ka2-v-mapa1", "en", "", "font_big", "They told us clearly to find the map. Nobody mentioned treasure.")
 dialog_addDialog("ka2-v-mapa1", "cs", "sound/"..codename.."/cs/ka2-v-mapa1.ogg", "font_big", "Říkali nám jasně: najděte mapu. O pokladu řeč nebyla.")
 dialog_addDialog("ka2-v-mapa1", "fr", "", "font_big", "Ils nous ont clairement dit de trouver la carte. Personne n'a parlé de trésor.")
 dialog_addDialog("ka2-v-mapa1", "de", "", "font_big", "Die haben uns eindeutig gesagt, dass wir die Karte finden sollen. Niemand hat einen Schatz erwähnt.")
@@ -74,7 +74,7 @@ dialog_addDialog("ka2-v-mapa2", "cs", "sound/"..codename.."/cs/ka2-v-mapa2.ogg",
 dialog_addDialog("ka2-v-mapa2", "fr", "", "font_big", "Soit pas si contrariant. Les auteurs du jeu voulait sûrement que le joueur sache.")
 dialog_addDialog("ka2-v-mapa2", "de", "", "font_big", "Nerv nicht. Die Spieleschreiber würden es dem Spieler sicherlich sagen.")
 
-dialog_addDialog("ka2-m-chapadlo", "en", "", "font_small", "This octopus has unpleasantly knotted tentacles. I won`t fit between them.")
+dialog_addDialog("ka2-m-chapadlo", "en", "", "font_small", "This octopus has unpleasantly knotted tentacles. I can`t fit between them.")
 dialog_addDialog("ka2-m-chapadlo", "cs", "sound/"..codename.."/cs/ka2-m-chapadlo.ogg", "font_small", "Ta chobotnice má nepříjemně zasukovaná chapadla. Nevejdu se mezi ně.")
 dialog_addDialog("ka2-m-chapadlo", "fr", "", "font_small", "Cette pieuvre a emmêlé ces tentacules de manière disgracieuse. Je ne peux pas me glisser entre elles.")
 dialog_addDialog("ka2-m-chapadlo", "de", "", "font_small", "Dieser Krake hat ziemlich verknotete Fangarme. Da pass ich nicht dazwischen.")

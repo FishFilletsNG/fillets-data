@@ -38,12 +38,12 @@ dialog_addDialog("dir-v-rada2", "cs", "sound/"..codename.."/cs/dir-v-rada2.ogg",
 dialog_addDialog("dir-v-rada2", "fr", "", "font_big", "Ce doit être quelque indice, à nouveau.")
 dialog_addDialog("dir-v-rada2", "de", "", "font_big", "Das war ja wieder ein Ratschlag.")
 
-dialog_addDialog("dir-v-rada3", "en", "", "font_big", "I am sorry I have no ears. I could plug them.")
+dialog_addDialog("dir-v-rada3", "en", "", "font_big", "It's a shame I have no ears. I could plug them.")
 dialog_addDialog("dir-v-rada3", "cs", "sound/"..codename.."/cs/dir-v-rada3.ogg", "font_big", "Ach jo, škoda že nemám uši. Zacpal bych si je.")
 dialog_addDialog("dir-v-rada3", "fr", "", "font_big", "Je suis désolé, je n'ai pas d'oreilles. Je pourrais les boucher.")
 dialog_addDialog("dir-v-rada3", "de", "", "font_big", "Schade, dass ich keine Ohren habe. Die könnte ich zuhalten.")
 
-dialog_addDialog("dir-v-rada4", "en", "", "font_big", "I am fed up to my gills with its nonsenses.")
+dialog_addDialog("dir-v-rada4", "en", "", "font_big", "I am fed up to my gills with its nonsense.")
 dialog_addDialog("dir-v-rada4", "cs", "sound/"..codename.."/cs/dir-v-rada4.ogg", "font_big", "Už těch jejích nesmyslů mám po krk.")
 dialog_addDialog("dir-v-rada4", "fr", "", "font_big", "J'y perds mes branchies avec ces non-sens.")
 dialog_addDialog("dir-v-rada4", "de", "", "font_big", "Dieser Unsinn steht mir bis zu den Kiemen!")
@@ -79,7 +79,7 @@ dialog_addDialog("dir-hs-konec0", "fr", "", "font_statue", "Détruisez quelque m
 dialog_addDialog("dir-hs-konec0", "de", "", "font_statue", "ein paar Mauern niederreißt.")
 dialog_addDialog("dir-hs-konec0", "de_CH", "", "font_statue", "ein paar Mauern niederreisst.")
 
-dialog_addDialog("dir-hs-konec1", "en", "", "font_statue", "break off few stones from the wall and plug the holes with them.")
+dialog_addDialog("dir-hs-konec1", "en", "", "font_statue", "break off a few stones from the wall and plug the holes with them.")
 dialog_addDialog("dir-hs-konec1", "cs", "sound/"..codename.."/cs/dir-hs-konec1.ogg", "font_statue", "vylomit pár kamenů ze zdi a ucpat ty díry.")
 dialog_addDialog("dir-hs-konec1", "fr", "", "font_statue", "Enlever quelques pierres du mur et boucher les trous avec.")
 dialog_addDialog("dir-hs-konec1", "de", "", "font_statue", "ein paar Steine aus der Mauer brecht und die Löcher damit stopft.")

@@ -1,9 +1,9 @@
-dialog_addDialog("kni-m-svicny", "en", "", "font_small", "From treasury to the candlestick warehouse. Now, this is what I call a progress.")
+dialog_addDialog("kni-m-svicny", "en", "", "font_small", "From the treasury to the candlestick warehouse. Now, that is what I call progress.")
 dialog_addDialog("kni-m-svicny", "cs", "sound/"..codename.."/cs/kni-m-svicny.ogg", "font_small", "Z pokladnice do skladu svícnů. Tomu říkám pokrok.")
 dialog_addDialog("kni-m-svicny", "fr", "", "font_small", "De la chambre du trésor à la réserve de bougie. Maintenant, je pense que nous avançons.")
 dialog_addDialog("kni-m-svicny", "de", "", "font_small", "Aus der Schatzkammer in einen Kerzenladen. Das nenne ich Fortschritt.")
 
-dialog_addDialog("kni-v-ber", "en", "", "font_big", "You have to look at the bright side. There is nothing that looks like grail here.")
+dialog_addDialog("kni-v-ber", "en", "", "font_big", "You have to look on the bright side. There is nothing that looks like a grail here.")
 dialog_addDialog("kni-v-ber", "cs", "sound/"..codename.."/cs/kni-v-ber.ogg", "font_big", "Ber to z té lepší stránky. Tady například není nic, co by se podobalo grálu.")
 dialog_addDialog("kni-v-ber", "fr", "", "font_big", "Regarde du coté de la lumière. Il n'y a rien qui ressemble au Graal ici.")
 dialog_addDialog("kni-v-ber", "de", "", "font_big", "Du muss positiv denken. Hier ist wenigsten kein Gral im Weg.")
@@ -23,7 +23,7 @@ dialog_addDialog("kni-v-padavko", "cs", "sound/"..codename.."/cs/kni-v-padavko.o
 dialog_addDialog("kni-v-padavko", "fr", "", "font_big", "Laisse moi tranquille, têtard chétif.")
 dialog_addDialog("kni-v-padavko", "de", "", "font_big", "Lass mich in Ruhe, du abgemagerte Kaulquappe!")
 
-dialog_addDialog("kni-m-hromado", "en", "", "font_small", "Cut this crap, you misshaped heap of muscles and scales, will you?")
+dialog_addDialog("kni-m-hromado", "en", "", "font_small", "Cut the crap, you misshaped heap of muscles and scales, will you?")
 dialog_addDialog("kni-m-hromado", "cs", "sound/"..codename.."/cs/kni-m-hromado.ogg", "font_small", "Na ty tvoje řeči jsem tak akorát zvědavá, ty hromado svalů a ploutví.")
 dialog_addDialog("kni-m-hromado", "fr", "", "font_small", "Espèce d'excrément, tas difforme de muscles et d'écailles.")
 dialog_addDialog("kni-m-hromado", "de", "", "font_small", "Pass bloß auf, du unförmiger Haufen Muskeln und Schuppen!")
@@ -44,7 +44,7 @@ dialog_addDialog("kni-v-amforstvi", "cs", "sound/"..codename.."/cs/kni-v-amforst
 dialog_addDialog("kni-v-amforstvi", "fr", "", "font_big", "Tu veux dire un entrepôt d'amphores.")
 dialog_addDialog("kni-v-amforstvi", "de", "", "font_big", "Du meinst Amphorenlager.")
 
-dialog_addDialog("kni-m-amfornictvi", "en", "", "font_small", "No, it should be amphoraware.")
+dialog_addDialog("kni-m-amfornictvi", "en", "", "font_small", "No, it should be amphora warehouse.")
 dialog_addDialog("kni-m-amfornictvi", "cs", "sound/"..codename.."/cs/kni-m-amfornictvi.ogg", "font_small", "Když už, tak: amfórnictví.")
 dialog_addDialog("kni-m-amfornictvi", "fr", "", "font_small", "Non, ce serait plutôt un dépôt d'amphores.")
 dialog_addDialog("kni-m-amfornictvi", "de", "", "font_small", "Es heißt wahrscheinlich Amphorerei.")

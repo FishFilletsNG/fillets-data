@@ -23,7 +23,7 @@ dialog_addDialog("tr-v-prezil", "cs", "sound/"..codename.."/cs/tr-v-prezil.ogg",
 dialog_addDialog("tr-v-prezil", "fr", "", "font_big", "Au moins le bonhomme de neige a survécu.")
 dialog_addDialog("tr-v-prezil", "de", "", "font_big", "Wenigstens hat der Schneemann überlebt.")
 
-dialog_addDialog("tr-m-cvicit", "en", "", "font_small", "Mabye you should start thinking about how to manipulate the tables.")
+dialog_addDialog("tr-m-cvicit", "en", "", "font_small", "Maybe you should start thinking about how to manipulate the tables.")
 dialog_addDialog("tr-m-cvicit", "cs", "sound/"..codename.."/cs/tr-m-cvicit.ogg", "font_small", "Měl by sis cvičit manipulaci se stoly.")
 dialog_addDialog("tr-m-cvicit", "fr", "", "font_small", "Tu devrais commencer à réfléchir à comment déplacer les tables.")
 dialog_addDialog("tr-m-cvicit", "de", "", "font_small", "Vielleicht solltest du darüber nachdenken, wie man mit Tischen umgeht.")

@@ -214,7 +214,7 @@ dialog_addDialog("vit-v-pockej", "fr", "", "font_big", "Attends, je dois y réfl
 dialog_addDialog("vit-v-pockej", "de", "", "font_big", "Warte, ich muss darüber einen Moment nachdenken...")
 dialog_addDialog("vit-v-pockej", "it", "", "font_big", "Aspetta, devo pensarci ancora un momento...")
 
-dialog_addDialog("vit-m-vecnost", "en", "", "font_small", "Just imagine that that head has been like this all these years...")
+dialog_addDialog("vit-m-vecnost", "en", "", "font_small", "Just imagine - that head has been like doing this all these years...")
 dialog_addDialog("vit-m-vecnost", "cs", "sound/"..codename.."/cs/vit-m-vecnost.ogg", "font_small", "Představ si, že ta hlava tohle dělá celou věčnost...")
 dialog_addDialog("vit-m-vecnost", "fr", "", "font_small", "Pense un peu que cette tête est comme ça depuis tant d'année...")
 dialog_addDialog("vit-m-vecnost", "de", "", "font_small", "Stell dir bloß vor, dass dieser Kopf die ganzen Jahre so war...")

@@ -13,7 +13,7 @@ dialog_addDialog("gr-m-zare0", "cs", "sound/"..codename.."/cs/gr-m-zare0.ogg", "
 dialog_addDialog("gr-m-zare0", "fr", "", "font_small", "Ne peux-tu voir l'auréole ?")
 dialog_addDialog("gr-m-zare0", "de", "", "font_small", "Siehst Du nicht den Heiligenschein?")
 
-dialog_addDialog("gr-m-zare1", "en", "", "font_small", "Can`t you see how it glows among the other?")
+dialog_addDialog("gr-m-zare1", "en", "", "font_small", "Can`t you see how it glows among the others?")
 dialog_addDialog("gr-m-zare1", "cs", "sound/"..codename.."/cs/gr-m-zare1.ogg", "font_small", "Nevidíš, jak mezi těmi ostatními září?")
 dialog_addDialog("gr-m-zare1", "fr", "", "font_small", "Ne peux-tu voir comme il brille parmi les autres ?")
 dialog_addDialog("gr-m-zare1", "de", "", "font_small", "Siehst Du nicht, wie er zwischen den anderen leuchtet?")
@@ -23,13 +23,13 @@ dialog_addDialog("gr-m-zare2", "cs", "sound/"..codename.."/cs/gr-m-zare2.ogg", "
 dialog_addDialog("gr-m-zare2", "fr", "", "font_small", "Ne peux-tu voir qu'il est placé de façon ostensible au milieu de la cave ?")
 dialog_addDialog("gr-m-zare2", "de", "", "font_small", "Siehst Du nicht, wie auffällig er in der Mitte der Höhle platziert ist?")
 
-dialog_addDialog("gr-v-nic0", "en", "", "font_big", "Halo means nothing. Holy Grail could look quite plainly.")
+dialog_addDialog("gr-v-nic0", "en", "", "font_big", "The halo means nothing. The Holy Grail could look quite plain.")
 dialog_addDialog("gr-v-nic0", "cs", "sound/"..codename.."/cs/gr-v-nic0.ogg", "font_big", "Svatozář nic neznamená. Svatý grál může vypadat i úplně obyčejně.")
 dialog_addDialog("gr-v-nic0", "fr", "", "font_big", "L'auréole ne veut rien dire. Le sacré Graal pourrait être parfaitement simple.")
 dialog_addDialog("gr-v-nic0", "de", "", "font_big", "Ein Heiligenschein heißt gar nichts. Der Heilige Gral kann ziemlich einfach aussehen.")
 dialog_addDialog("gr-v-nic0", "de_CH", "", "font_big", "Ein Heiligenschein heisst gar nichts. Der Heilige Gral kann ziemlich einfach aussehen.")
 
-dialog_addDialog("gr-v-nic1", "en", "", "font_big", "It`s not everything gold that glitters. No one ever said that Holy Grail must glow.")
+dialog_addDialog("gr-v-nic1", "en", "", "font_big", "All that glitters is not gold. No one ever said that Holy Grail must glow.")
 dialog_addDialog("gr-v-nic1", "cs", "sound/"..codename.."/cs/gr-v-nic1.ogg", "font_big", "Není všechno zlato, co se třpytí. Nikde není psáno, že Svatý grál musí zářit.")
 dialog_addDialog("gr-v-nic1", "fr", "", "font_big", "Tout ce qui brille n'est pas or. Personne n'a jamais dit que le Graal devait luire.")
 dialog_addDialog("gr-v-nic1", "de", "", "font_big", "Es ist nicht alles Gold, was glänzt. Niemand hat je behauptet, dass der Heilige Gral leuchtet.")
@@ -69,7 +69,7 @@ dialog_addDialog("gr-m-svaty1", "cs", "sound/"..codename.."/cs/gr-m-svaty1.ogg",
 dialog_addDialog("gr-m-svaty1", "fr", "", "font_small", "Notre but dans ce niveau est de faire sortir le sacré Graal.")
 dialog_addDialog("gr-m-svaty1", "de", "", "font_small", "In dieser Ebene ist unser Ziel, den Heiligen Gral herauszuschieben.")
 
-dialog_addDialog("gr-v-vsechny1", "en", "", "font_big", "No, to push out all Grails.")
+dialog_addDialog("gr-v-vsechny1", "en", "", "font_big", "No, to push out all the Grails.")
 dialog_addDialog("gr-v-vsechny1", "cs", "sound/"..codename.."/cs/gr-v-vsechny1.ogg", "font_big", "Ne, všechny grály!")
 dialog_addDialog("gr-v-vsechny1", "fr", "", "font_big", "Non, de faire sortir tous les graals.")
 dialog_addDialog("gr-v-vsechny1", "de", "", "font_big", "Nein, alle Grale herauszuschieben.")

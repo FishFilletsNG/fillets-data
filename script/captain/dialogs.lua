@@ -8,7 +8,7 @@ dialog_addDialog("vl-v-kaj1", "cs", "sound/"..codename.."/cs/vl-v-kaj1.ogg", "fo
 dialog_addDialog("vl-v-kaj1", "fr", "", "font_big", "C'était sûrement la cabine du capitaine.")
 dialog_addDialog("vl-v-kaj1", "de", "", "font_big", "Das war sicherlich eine Kapitänskajüte.")
 
-dialog_addDialog("vl-v-kaj2", "en", "", "font_big", "What would you expect after so many years.")
+dialog_addDialog("vl-v-kaj2", "en", "", "font_big", "What would you expect after so many years?")
 dialog_addDialog("vl-v-kaj2", "cs", "sound/"..codename.."/cs/vl-v-kaj2.ogg", "font_big", "Co bys chtěla po tolika letech.")
 dialog_addDialog("vl-v-kaj2", "fr", "", "font_big", "Qu'est-ce que tu espérais après tant d'années.")
 dialog_addDialog("vl-v-kaj2", "de", "", "font_big", "Was erwartest du nach so vielen Jahren?")
@@ -33,7 +33,7 @@ dialog_addDialog("vl-m-oko", "cs", "sound/"..codename.."/cs/vl-m-oko.ogg", "font
 dialog_addDialog("vl-m-oko", "fr", "", "font_small", "Quel drôle d'oeil.")
 dialog_addDialog("vl-m-oko", "de", "", "font_small", "Das Auge sieht komisch aus.")
 
-dialog_addDialog("vl-v-silha", "en", "", "font_big", "This eye squints kind of sneaky.")
+dialog_addDialog("vl-v-silha", "en", "", "font_big", "This eye squints kind of sneakily.")
 dialog_addDialog("vl-v-silha", "cs", "sound/"..codename.."/cs/vl-v-silha.ogg", "font_big", "To oko potměšile šilhá.")
 dialog_addDialog("vl-v-silha", "fr", "", "font_big", "Cet oeil louche de façon sournoise.")
 dialog_addDialog("vl-v-silha", "de", "", "font_big", "Das Auge schielt irgendwie hinterhältig.")
@@ -53,7 +53,7 @@ dialog_addDialog("vl-leb-kecy2", "cs", "sound/"..codename.."/cs/vl-leb-kecy2.ogg
 dialog_addDialog("vl-leb-kecy2", "fr", "", "font_lightgrey", "Après ce fortuit accident avec une cuillère à thé, ma vision du monde à complètement changé.")
 dialog_addDialog("vl-leb-kecy2", "de", "", "font_lightgrey", "Nach diesem unglücklichen Unfall mit dem Teelöffel sehe ich die Welt mit ganz anderen Augen.")
 
-dialog_addDialog("vl-leb-kecy3", "en", "", "font_lightgrey", "Why am I here, after all? As if they can`t put here some chest... or chamber pot.")
+dialog_addDialog("vl-leb-kecy3", "en", "", "font_lightgrey", "Why am I here, after all? As if they can`t put some chest here... or a chamber pot.")
 dialog_addDialog("vl-leb-kecy3", "cs", "sound/"..codename.."/cs/vl-leb-kecy3.ogg", "font_lightgrey", "Proč já tady vlastně musím být. Jako by sem místo mě nemohli vrznout třeba truhlu... nebo kastról.")
 dialog_addDialog("vl-leb-kecy3", "fr", "", "font_lightgrey", "Pourquoi suis-je ici après tout ? Comme s'il ne pouvait pas ici mettre un coffre... ou un pot de chambre.")
 dialog_addDialog("vl-leb-kecy3", "de", "", "font_lightgrey", "Warum bin ich überhaupt hier? Irgendeine Truhe hätte auch gereicht... oder ein Nachttopf.")

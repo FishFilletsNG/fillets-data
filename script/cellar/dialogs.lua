@@ -16,7 +16,7 @@ dialog_addDialog("pra-v-nahore", "fr", "", "font_big", "Hé, range les objets co
 dialog_addDialog("pra-v-nahore", "de", "", "font_big", "He, Räum da oben mal ein bisschen auf. Aber sei vorsichtig!")
 dialog_addDialog("pra-v-nahore", "it", "", "font_big", "Ehi, sitema un po' là sopra. Ma sii prudente!")
 
-dialog_addDialog("pra-m-nepohnu", "en", "", "font_small", "I can`t move this. This is a steel.")
+dialog_addDialog("pra-m-nepohnu", "en", "", "font_small", "I can`t move this. This is steel.")
 dialog_addDialog("pra-m-nepohnu", "cs", "sound/"..codename.."/cs/pra-m-nepohnu.ogg", "font_small", "S tímhle já nepohnu, to je ocel.")
 dialog_addDialog("pra-m-nepohnu", "fr", "", "font_small", "Je ne peux pas bouger ça. C'est en acier")
 dialog_addDialog("pra-m-nepohnu", "de", "", "font_small", "Das kann ich nicht bewegen. Das ist Stahl.")
@@ -94,13 +94,13 @@ dialog_addDialog("pra-v-spatne", "fr", "", "font_big", "Ca sent mauvais. Tu vas 
 dialog_addDialog("pra-v-spatne", "de", "", "font_big", "Das sieht ziemlich schlecht aus. Du musst die Ebene neustarten.")
 dialog_addDialog("pra-v-spatne", "it", "", "font_big", "Brutto affare. Dovrai ricominciare il livello.")
 
-dialog_addDialog("pra-m-pustis", "en", "", "font_small", "If you drop this and I`ll stay here, I will never get out.")
+dialog_addDialog("pra-m-pustis", "en", "", "font_small", "If you drop that and I stay here, I will never get out.")
 dialog_addDialog("pra-m-pustis", "cs", "sound/"..codename.."/cs/pra-m-pustis.ogg", "font_small", "Jestli to pustíš a já zůstanu tady, nedostanu se už nikdy ven.")
 dialog_addDialog("pra-m-pustis", "fr", "", "font_small", "Si tu le lâche et que je reste ici, je ne pourrais jamais sortir.")
 dialog_addDialog("pra-m-pustis", "de", "", "font_small", "Wenn du das fallenlässt und ich hierbleibe, komme ich nie raus.")
 dialog_addDialog("pra-m-pustis", "it", "", "font_small", "Se lo fai cadere e io me ne resto qui, non riuscirò mai ad uscire.")
 
-dialog_addDialog("pra-v-zavazis", "en", "", "font_big", "You stand in my way there. Try to hide somewhere else.")
+dialog_addDialog("pra-v-zavazis", "en", "", "font_big", "You are standing in my way there. Try to hide somewhere else.")
 dialog_addDialog("pra-v-zavazis", "cs", "sound/"..codename.."/cs/pra-v-zavazis.ogg", "font_big", "Tam mi zavazíš, zkus se schovat jinde.")
 dialog_addDialog("pra-v-zavazis", "fr", "", "font_big", "Tu es sur mon passage là. Cache toi ailleurs.")
 dialog_addDialog("pra-v-zavazis", "de", "", "font_big", "Du bist mir im Weg. Versuche, dich woanders zu verstecken.")
@@ -118,7 +118,7 @@ dialog_addDialog("pra-v-prekvapit", "fr", "", "font_big", "Un peu de patience, t
 dialog_addDialog("pra-v-prekvapit", "de", "", "font_big", "Abwarten und Tee trinken.")
 dialog_addDialog("pra-v-prekvapit", "it", "", "font_big", "Aspetta e guarda.")
 
-dialog_addDialog("pra-m-kniha", "en", "", "font_small", "We will give you a hint here, player. You have to put that book over there left.")
+dialog_addDialog("pra-m-kniha", "en", "", "font_small", "We will give you a hint here, player. You have to put that book over there, to the left.")
 dialog_addDialog("pra-m-kniha", "cs", "sound/"..codename.."/cs/pra-m-kniha.ogg", "font_small", "Tady ti, hráči, poradíme - tu knihu musíš dostat támhle vlevo.")
 dialog_addDialog("pra-m-kniha", "fr", "", "font_small", "Nous allons te donner une astuce maintenant. Tu dois pousser ce livre sur la gauche tout au bout.")
 dialog_addDialog("pra-m-kniha", "de", "", "font_small", "Wir werden dir hier einen einen Tipp geben, Spieler. Du musst das Buch nach da drüben links bringen.")

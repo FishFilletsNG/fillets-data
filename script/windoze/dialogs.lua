@@ -20,7 +20,7 @@ dialog_addDialog("win-m-costim2", "fr", "", "font_small", "Et si nous fermions q
 dialog_addDialog("win-m-costim2", "de", "", "font_small", "Wollen wir versuchen, einige der Fenster zu schließen?")
 dialog_addDialog("win-m-costim2", "de_CH", "", "font_small", "Wollen wir versuchen, einige der Fenster zu schliessen?")
 
-dialog_addDialog("win-m-costim3", "en", "", "font_small", "What about shutting down the whole thing and switch to command prompt only?")
+dialog_addDialog("win-m-costim3", "en", "", "font_small", "What about shutting down the whole thing and switching to command prompt only?")
 dialog_addDialog("win-m-costim3", "cs", "sound/"..codename.."/cs/win-m-costim3.ogg", "font_small", "Co takhle to celé vypnout a nabootovat v DOSu?")
 dialog_addDialog("win-m-costim3", "fr", "", "font_small", "Et si nous arrêtons tout pour passer en mode commandes en ligne.")
 dialog_addDialog("win-m-costim3", "de", "", "font_small", "Wie wäre es, wenn wir das ganze Ding runterfahren und zur Kommandozeile umschalten?")
@@ -40,7 +40,7 @@ dialog_addDialog("win-m-nemusim", "cs", "sound/"..codename.."/cs/win-m-nemusim.o
 dialog_addDialog("win-m-nemusim", "fr", "", "font_small", "J'ai pas besoin de les compter. Il y en a quatre-vingt quinze.")
 dialog_addDialog("win-m-nemusim", "de", "", "font_small", "Die muss ich nicht zählen. Es sind fünfundneunzig.")
 
-dialog_addDialog("win-m-blok", "en", "", "font_small", "Can you see that Notepad? Now it`s good time to send a message to the player!")
+dialog_addDialog("win-m-blok", "en", "", "font_small", "Can you see that Notepad? Now is a good time to send a message to the player!")
 dialog_addDialog("win-m-blok", "cs", "sound/"..codename.."/cs/win-m-blok.ogg", "font_small", "Hele, vidíš ten Poznámkový blok? Vhodná chvíle poslat hráči nějaký vzkaz!")
 dialog_addDialog("win-m-blok", "fr", "", "font_small", "Peux-tu voir cet éditeur de texte ? C'est l'occasion d'envoyer un message au joueur(se) !")
 dialog_addDialog("win-m-blok", "de", "", "font_small", "Siehst du den Notizblock? Das ist die Gelegeheit, dem Spieler eine Nachricht zu schicken!")
@@ -55,17 +55,17 @@ dialog_addDialog("win-m-dira", "cs", "sound/"..codename.."/cs/win-m-dira.ogg", "
 dialog_addDialog("win-m-dira", "fr", "", "font_small", "Ce système doit avoir une faille quelque part.")
 dialog_addDialog("win-m-dira", "de", "", "font_small", "Das System muss irgendwo ein Loch haben.")
 
-dialog_addDialog("win-v-tamhle", "en", "", "font_big", "Surely, it`s in the lower right corner.")
+dialog_addDialog("win-v-tamhle", "en", "", "font_big", "Sure. It`s in the lower right corner.")
 dialog_addDialog("win-v-tamhle", "cs", "sound/"..codename.."/cs/win-v-tamhle.ogg", "font_big", "Jistě, támhle vpravo dole.")
 dialog_addDialog("win-v-tamhle", "fr", "", "font_big", "Bien sûr, dans le coin inférieur droit.")
 dialog_addDialog("win-v-tamhle", "de", "", "font_big", "Sicher, es ist unten rechts.")
 
-dialog_addDialog("win-m-okno", "en", "", "font_small", "Can you see this big window on the right?!")
+dialog_addDialog("win-m-okno", "en", "", "font_small", "Can you see that big window on the right?!")
 dialog_addDialog("win-m-okno", "cs", "sound/"..codename.."/cs/win-m-okno.ogg", "font_small", "Vidíš to velké okno napravo?!")
 dialog_addDialog("win-m-okno", "fr", "", "font_small", "Peux-tu voir cette grande fenêtre sur la droite ?!")
 dialog_addDialog("win-m-okno", "de", "", "font_small", "Siehst du das rechts das große Fenster?!")
 
-dialog_addDialog("win-v-hra", "en", "", "font_big", "Oh, no! This must be the original version of this game.")
+dialog_addDialog("win-v-hra", "en", "", "font_big", "Oh, no! That must be the original version of this game.")
 dialog_addDialog("win-v-hra", "cs", "sound/"..codename.."/cs/win-v-hra.ogg", "font_big", "No to snad ne! To je původní verze této hry.")
 dialog_addDialog("win-v-hra", "fr", "", "font_big", "Oh, non ! Ce doit être la version originale de ce jeu.")
 dialog_addDialog("win-v-hra", "de", "", "font_big", "Oh, nein! Das muss die Originalversion dieses Spiels sein.")
@@ -115,7 +115,7 @@ dialog_addDialog("win-v-pockej", "cs", "sound/"..codename.."/cs/win-v-pockej.ogg
 dialog_addDialog("win-v-pockej", "fr", "", "font_big", "Un moment joueur(se). Nous devons apporter quelques éclaircissements. Ces deux poissons, c'est nous plus jeunes.")
 dialog_addDialog("win-v-pockej", "de", "", "font_big", "Einen Moment, Spieler. Wir müssen etwas klarstellen. Diese beiden Fische sind unsere jüngeren Egos.")
 
-dialog_addDialog("win-m-zavrene", "en", "", "font_small", "You are right. They are closed there, poor souls.")
+dialog_addDialog("win-m-zavrene", "en", "", "font_small", "You are right. They are trapped there, poor souls.")
 dialog_addDialog("win-m-zavrene", "cs", "sound/"..codename.."/cs/win-m-zavrene.ogg", "font_small", "Máš pravdu. Jsou tam chudinky zavřené.")
 dialog_addDialog("win-m-zavrene", "fr", "", "font_small", "Tu as raison. Il sont prisonniers, les pauvres diables.")
 dialog_addDialog("win-m-zavrene", "de", "", "font_small", "Du hast Recht. Die armen Seelen sind dort eingeschlossen.")

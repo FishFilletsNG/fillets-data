@@ -4,7 +4,7 @@ dialog_addDialog("ufo-v-znicilo", "fr", "", "font_big", "Nous devons être proch
 dialog_addDialog("ufo-v-znicilo", "de", "", "font_big", "Wir müssen nahe am Ziel unseres Auftrags sein. Das ist sicherlich das UFO, das unser Haus zerstört hat.")
 dialog_addDialog("ufo-v-znicilo", "it", "", "font_big", "Ci stiamo avvicinando alla fine della nostra missione. Questo dev'essere l'UFO che ci ha distrutto casa.")
 
-dialog_addDialog("ufo-m-osmy", "en", "", "font_small", "Are you sure? This is but the eighth level.")
+dialog_addDialog("ufo-m-osmy", "en", "", "font_small", "Are you sure? This is only the eighth level.")
 dialog_addDialog("ufo-m-osmy", "cs", "sound/"..codename.."/cs/ufo-m-osmy.ogg", "font_small", "Myslíš? Vždyť je to teprve osmý level od začátku.")
 dialog_addDialog("ufo-m-osmy", "fr", "", "font_small", "Tu es sûr ? C'est seulement le niveau huit.")
 dialog_addDialog("ufo-m-osmy", "de", "", "font_small", "Bist du sicher? Das ist erst die achte Ebene.")
@@ -28,7 +28,7 @@ dialog_addDialog("ufo-v-hur", "fr", "", "font_big", "Ca pourrait être pire. Pou
 dialog_addDialog("ufo-v-hur", "de", "", "font_big", "Es könnte schlimmer sein. Ich kann mir einen Raum vorstellen, in dem nichts weiter als Stahl ist.")
 dialog_addDialog("ufo-v-hur", "it", "", "font_big", "Poteva andare peggio. Prova a immaginare una stanza dove non c'è nient'altro che acciaio.")
 
-dialog_addDialog("ufo-m-ne", "en", "", "font_small", "My goodness? What should I do in such a level?")
+dialog_addDialog("ufo-m-ne", "en", "", "font_small", "My goodness! What should I do in such a level?")
 dialog_addDialog("ufo-m-ne", "cs", "sound/"..codename.."/cs/ufo-m-ne.ogg", "font_small", "To snad ne. Co bych v takové místnosti dělala?")
 dialog_addDialog("ufo-m-ne", "fr", "", "font_small", "Mon dieu ? Que pourrais-je faire dans un tel niveau ?")
 dialog_addDialog("ufo-m-ne", "de", "", "font_small", "Meine Güte! Was würde ich in solch einer Ebene tun?")
@@ -76,7 +76,7 @@ dialog_addDialog("ufo-v-zjistit0", "fr", "", "font_big", "Le plus important, ess
 dialog_addDialog("ufo-v-zjistit0", "de", "", "font_big", "Zuallererst sollten wir herausfinden, warum sie überhaupt gekommen sind.")
 dialog_addDialog("ufo-v-zjistit0", "it", "", "font_big", "Ma soprattutto, dovremmo scoprire perché sono arrivati.")
 
-dialog_addDialog("ufo-v-zjistit1", "en", "", "font_big", "You know, most of all I wonder why have they crashed just here.")
+dialog_addDialog("ufo-v-zjistit1", "en", "", "font_big", "You know, most of all I wonder why they crashed just here.")
 dialog_addDialog("ufo-v-zjistit1", "cs", "sound/"..codename.."/cs/ufo-v-zjistit1.ogg", "font_big", "Víš, nejvíc by mě zajímalo, proč ztroskotali právě tady.")
 dialog_addDialog("ufo-v-zjistit1", "fr", "", "font_big", "Tu sais, je me demande juste pourquoi ils se sont écrasés ici.")
 dialog_addDialog("ufo-v-zjistit1", "de", "", "font_big", "Weißt du, am meisten frage ich mich, warum sie genau hier abgestürzt sind.")

@@ -23,12 +23,12 @@ dialog_addDialog("zav-v-venku", "cs", "sound/"..codename.."/cs/zav-v-venku.ogg",
 dialog_addDialog("zav-v-venku", "fr", "", "font_big", "Ce sera bien plus joli quand nous sortirons.")
 dialog_addDialog("zav-v-venku", "de", "", "font_big", "Es wäre viel schöner, wenn wir hier rauskommen.")
 
-dialog_addDialog("zav-v-zaval", "en", "", "font_big", "This is very dangerous cave-in. We are lucky we stayed alive.")
+dialog_addDialog("zav-v-zaval", "en", "", "font_big", "This is very dangerous cave-in. We are lucky to be alive.")
 dialog_addDialog("zav-v-zaval", "cs", "sound/"..codename.."/cs/zav-v-zaval.ogg", "font_big", "To je ale nebezpečný zával. Máme štěstí, že jsme zůstaly naživu.")
 dialog_addDialog("zav-v-zaval", "fr", "", "font_big", "C'est une grotte très dangereuse. Nous avons eut de la chance en restant vivant.")
 dialog_addDialog("zav-v-zaval", "de", "", "font_big", "Das ist ein ziemlich gefährlicher Höhleneinsturz. Wir haben Glück, dass wir noch leben.")
 
-dialog_addDialog("zav-m-hopskok", "en", "", "font_small", "Don`t speak so soon. We`re still in here.")
+dialog_addDialog("zav-m-hopskok", "en", "", "font_small", "Don`t speak too soon. We`re still in here.")
 dialog_addDialog("zav-m-hopskok", "cs", "sound/"..codename.."/cs/zav-m-hopskok.ogg", "font_small", "Neříkej hop, dokud nepřeskočíš.")
 dialog_addDialog("zav-m-hopskok", "fr", "", "font_small", "Ne parle pas trop vite. Nous ne sommes pas encore dehors.")
 dialog_addDialog("zav-m-hopskok", "de", "", "font_small", "Nicht so voreilig. Wir sind noch hier drin.")

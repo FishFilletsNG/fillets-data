@@ -64,7 +64,7 @@ dialog_addDialog("mik-m-proc", "fr", "", "font_small", "Poisson blanc, pourquoi 
 dialog_addDialog("mik-m-proc", "de", "", "font_small", "Weißer Fisch, warum hast du so große Augen?")
 dialog_addDialog("mik-m-proc", "de_CH", "", "font_small", "Weisser Fisch, warum hast du so grosse Augen?")
 
-dialog_addDialog("mik-v-videt", "en", "", "font_big", "The better to see you with.")
+dialog_addDialog("mik-v-videt", "en", "", "font_big", "All the better to see you with.")
 dialog_addDialog("mik-v-videt", "cs", "sound/"..codename.."/cs/mik-v-videt.ogg", "font_big", "To aby tě lépe viděla.")
 dialog_addDialog("mik-v-videt", "fr", "", "font_big", "C'est pour mieux te voir.")
 dialog_addDialog("mik-v-videt", "de", "", "font_big", "Um dich besser zu sehen.")

@@ -33,7 +33,7 @@ dialog_addDialog("map-v-cojetam", "cs", "sound/"..codename.."/cs/map-v-cojetam.o
 dialog_addDialog("map-v-cojetam", "fr", "", "font_big", "Qu'est-ce qu'il peut y avoir sur cette carte ?")
 dialog_addDialog("map-v-cojetam", "de", "", "font_big", "Was könnte auf der Karte sein?")
 
-dialog_addDialog("map-v-poklady", "en", "", "font_big", "Do you think that it really shows Silver`s treasures?")
+dialog_addDialog("map-v-poklady", "en", "", "font_big", "Do you think that it really shows Silver`s treasure?")
 dialog_addDialog("map-v-poklady", "cs", "sound/"..codename.."/cs/map-v-poklady.ogg", "font_big", "Myslíš, že opravdu ukazuje Silverovy poklady?")
 dialog_addDialog("map-v-poklady", "fr", "", "font_big", "Est-ce que tu penses qu'elle indique vraiment l'emplacement du trésor du Capitaine Silver ?")
 dialog_addDialog("map-v-poklady", "de", "", "font_big", "Denkst Du, sie führt wirklich zu Silvers Schatz?")
@@ -53,12 +53,12 @@ dialog_addDialog("map-x-hlemyzdi", "cs", "sound/"..codename.."/cs/map-x-hlemyzdi
 dialog_addDialog("map-x-hlemyzdi", "fr", "", "font_yellow", "Vous voulez dire Snails, n'est-ce pas ?")
 dialog_addDialog("map-x-hlemyzdi", "de", "", "font_yellow", "Du meinst Escargots, oder?")
 
-dialog_addDialog("map-v-oci", "en", "", "font_big", "We`d need more of that glass eyes.")
+dialog_addDialog("map-v-oci", "en", "", "font_big", "We`d need more glass eyes.")
 dialog_addDialog("map-v-oci", "cs", "sound/"..codename.."/cs/map-v-oci.ogg", "font_big", "Chtělo by to víc těch skleněných očí.")
 dialog_addDialog("map-v-oci", "fr", "", "font_big", "Nous avons besoin d'autres yeux de verre.")
 dialog_addDialog("map-v-oci", "de", "", "font_big", "Wir werden mehr von diesen Glasaugen brauchen.")
 
-dialog_addDialog("map-v-restart", "en", "", "font_big", "The easiest way to do it would be to get to the upper part of this level. Let`s try to restart it, maybe we shall appear there.")
+dialog_addDialog("map-v-restart", "en", "", "font_big", "The easiest way to do it would be to get to the upper part of this level. Let`s try to restart it, maybe we will appear there.")
 dialog_addDialog("map-v-restart", "cs", "sound/"..codename.."/cs/map-v-restart.ogg", "font_big", "Nejjednodušší by bylo připlout do této místnosti támhle vrchem. Zkusme ji restartovat, jestli se neobjevíme tam.")
 dialog_addDialog("map-v-restart", "fr", "", "font_big", "La manière la plus simple serait de commencer de la partie supérieure du niveau. Essayons de le recommencer, peut-être que nous apparaîtrons là haut.")
 dialog_addDialog("map-v-restart", "de", "", "font_big", "Am einfachsten wäre es, wenn wir in den oberen Teil der Ebene kommen würden. Lass uns neustarten, vielleicht erscheinen wir dann dort.")
@@ -73,7 +73,7 @@ dialog_addDialog("map-m-pohnout", "cs", "sound/"..codename.."/cs/map-m-pohnout.o
 dialog_addDialog("map-m-pohnout", "fr", "", "font_small", "Enfin nous avons réussit à la bouger.")
 dialog_addDialog("map-m-pohnout", "de", "", "font_small", "Wir haben sie bewegt!.")
 
-dialog_addDialog("map-v-dal", "en", "", "font_big", "Let`s keep on good work.")
+dialog_addDialog("map-v-dal", "en", "", "font_big", "Let`s keep up the good work.")
 dialog_addDialog("map-v-dal", "cs", "sound/"..codename.."/cs/map-v-dal.ogg", "font_big", "Jen tak dál.")
 dialog_addDialog("map-v-dal", "fr", "", "font_big", "Continuons sur notre lancée.")
 dialog_addDialog("map-v-dal", "de", "", "font_big", "Weiter so!")

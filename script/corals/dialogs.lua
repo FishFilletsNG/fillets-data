@@ -88,7 +88,7 @@ dialog_addDialog("re-m-uzitecny1", "fr", "", "font_small", "Ce crabe peut sûrem
 dialog_addDialog("re-m-uzitecny1", "de", "", "font_small", "Diese Krabbe wird uns sicher helfen, hier rauszukommen.")
 dialog_addDialog("re-m-uzitecny1", "it", "", "font_small", "Questo granchio ci aiuterà di sicuro nella soluzione.")
 
-dialog_addDialog("re-k-budi", "en", "", "font_crab", "Who is waking me up?")
+dialog_addDialog("re-k-budi", "en", "", "font_crab", "Who woke me up?")
 dialog_addDialog("re-k-budi", "cs", "sound/"..codename.."/cs/re-k-budi.ogg", "font_crab", "Kdo mě budí?")
 dialog_addDialog("re-k-budi", "fr", "", "font_crab", "Qui me réveille ?")
 dialog_addDialog("re-k-budi", "de", "", "font_crab", "Wer weckt mich auf?")

@@ -1,4 +1,4 @@
-dialog_addDialog("sm-m-prolezame", "en", "", "font_small", "We are crawling through wasteyard for six levels now.")
+dialog_addDialog("sm-m-prolezame", "en", "", "font_small", "We have been crawling through wasteyard for six levels now.")
 dialog_addDialog("sm-m-prolezame", "cs", "sound/"..codename.."/cs/sm-m-prolezame.ogg", "font_small", "Už šestou místnost prolézáme smetiště.")
 dialog_addDialog("sm-m-prolezame", "fr", "", "font_small", "Nous nageons à travers des décharges depuis six niveaux maintenant.")
 dialog_addDialog("sm-m-prolezame", "de", "", "font_small", "Seit sechs Ebenen kriechen wir durch diesen Schrottplatz.")
@@ -13,7 +13,7 @@ dialog_addDialog("sm-v-jine1", "cs", "sound/"..codename.."/cs/sm-v-jine1.ogg", "
 dialog_addDialog("sm-v-jine1", "fr", "", "font_big", "Mais non, je pense qu'il y a quelque chose qui ne va pas.")
 dialog_addDialog("sm-v-jine1", "de", "", "font_big", "Aber halt, ich denke hier ist etwas eigenartig.")
 
-dialog_addDialog("sm-v-jine2", "en", "", "font_big", "No, I think there is something here, what cannot be found anywhere else.")
+dialog_addDialog("sm-v-jine2", "en", "", "font_big", "No, I think there is something here, that cannot be found anywhere else.")
 dialog_addDialog("sm-v-jine2", "cs", "sound/"..codename.."/cs/sm-v-jine2.ogg", "font_big", "Ne, myslím, že tu je něco, co není nikde jinde.")
 dialog_addDialog("sm-v-jine2", "fr", "", "font_big", "Non, je pense qu'il y a quelque chose ici, qui ne peut être trouvé nul part ailleurs.")
 dialog_addDialog("sm-v-jine2", "de", "", "font_big", "Naja, ich glaube wir finden hier etwas, was es sonst nirgends gibt.")
@@ -63,7 +63,7 @@ dialog_addDialog("sm-v-charon", "cs", "sound/"..codename.."/cs/sm-v-charon.ogg",
 dialog_addDialog("sm-v-charon", "fr", "", "font_big", "C'est le vieux Charon, passeur des morts.")
 dialog_addDialog("sm-v-charon", "de", "", "font_big", "Das ist der alte Charon, Fährmann der Toten.")
 
-dialog_addDialog("sm-m-codela", "en", "", "font_small", "And what does he do on the wasteyard?")
+dialog_addDialog("sm-m-codela", "en", "", "font_small", "And what does he do in the wasteyard?")
 dialog_addDialog("sm-m-codela", "cs", "sound/"..codename.."/cs/sm-m-codela.ogg", "font_small", "A co dělá na smetišti?")
 dialog_addDialog("sm-m-codela", "fr", "", "font_small", "Et que fait-il dans la décharge ?")
 dialog_addDialog("sm-m-codela", "de", "", "font_small", "Und was macht er auf einem Müllplatz?")
@@ -98,7 +98,7 @@ dialog_addDialog("sm-m-proc", "cs", "sound/"..codename.."/cs/sm-m-proc.ogg", "fo
 dialog_addDialog("sm-m-proc", "fr", "", "font_small", "Pourquoi ?")
 dialog_addDialog("sm-m-proc", "de", "", "font_small", "Warum?")
 
-dialog_addDialog("sm-v-podivej", "en", "", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn`t it the most fitting example of what I was speaking about?")
+dialog_addDialog("sm-v-podivej", "en", "", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn`t it the most fitting example of what I was talking about?")
 dialog_addDialog("sm-v-podivej", "cs", "sound/"..codename.."/cs/sm-v-podivej.ogg", "font_big", "Podívej se na ni. Běží stále vpřed a zůstává na místě. Není to snad nejkrásnější příklad toho, o čem jsem mluvil?")
 dialog_addDialog("sm-v-podivej", "fr", "", "font_big", "Regarde la. Elle n'arrête pas de nager mais reste à la même place. Est-ce qu'elle n'est pas le meilleur exemple de ce que je dis ?")
 dialog_addDialog("sm-v-podivej", "de", "", "font_big", "Schau sie dir doch mal an. Sie rennt auf der Stelle. Ist das nicht das passendste Beispiel für Sinnlosigkeit?")

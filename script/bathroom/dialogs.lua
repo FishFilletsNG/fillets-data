@@ -33,7 +33,7 @@ dialog_addDialog("br-m-vsim2", "cs", "sound/"..codename.."/cs/br-m-vsim2.ogg", "
 dialog_addDialog("br-m-vsim2", "fr", "", "font_small", "N'est-il pas étrange que...")
 dialog_addDialog("br-m-vsim2", "de", "", "font_small", "Ist es nicht seltsam, dass...")
 
-dialog_addDialog("br-v-nerozvadet0", "en", "", "font_big", "Don`t speak about it.")
+dialog_addDialog("br-v-nerozvadet0", "en", "", "font_big", "Don`t talk about it.")
 dialog_addDialog("br-v-nerozvadet0", "cs", "sound/"..codename.."/cs/br-v-nerozvadet0.ogg", "font_big", "Já bych to nerozváděl.")
 dialog_addDialog("br-v-nerozvadet0", "fr", "", "font_big", "N'en parlons pas.")
 dialog_addDialog("br-v-nerozvadet0", "de", "", "font_big", "Schweig still!")
@@ -84,7 +84,7 @@ dialog_addDialog("br-m-poklady", "cs", "sound/"..codename.."/cs/br-m-poklady.ogg
 dialog_addDialog("br-m-poklady", "fr", "", "font_small", "Maintenant c'est un vrai trésor.")
 dialog_addDialog("br-m-poklady", "de", "", "font_small", "Das ist mal ein echter Schatz!")
 
-dialog_addDialog("br-v-nechat", "en", "", "font_big", "We should have let it alone.")
+dialog_addDialog("br-v-nechat", "en", "", "font_big", "We should have left it alone.")
 dialog_addDialog("br-v-nechat", "cs", "sound/"..codename.."/cs/br-v-nechat.ogg", "font_big", "Měli jsme ji nechat tam, kde byla.")
 dialog_addDialog("br-v-nechat", "fr", "", "font_big", "Nous devrions le laissez seul.")
 dialog_addDialog("br-v-nechat", "de", "", "font_big", "Wir hätten es in Ruhe lassen sollen.")
@@ -99,7 +99,7 @@ dialog_addDialog("br-m-ahoj", "cs", "sound/"..codename.."/cs/br-m-ahoj.ogg", "fo
 dialog_addDialog("br-m-ahoj", "fr", "", "font_small", "Hé ho, à l'intérieur.")
 dialog_addDialog("br-m-ahoj", "de", "", "font_small", "Hallo da drin!.")
 
-dialog_addDialog("br-v-draha", "en", "", "font_big", "This must be better than rollercoaster.")
+dialog_addDialog("br-v-draha", "en", "", "font_big", "This must be better than a rollercoaster.")
 dialog_addDialog("br-v-draha", "cs", "sound/"..codename.."/cs/br-v-draha.ogg", "font_big", "To je určitě lepší než horská dráha.")
 dialog_addDialog("br-v-draha", "fr", "", "font_big", "Ce doit être mieux que le rouleau des vagues.")
 dialog_addDialog("br-v-draha", "de", "", "font_big", "Das muss besser als Achterbahn sein.")

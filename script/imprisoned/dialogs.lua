@@ -13,7 +13,7 @@ dialog_addDialog("ncp-v-dostala", "cs", "sound/"..codename.."/cs/ncp-v-dostala.o
 dialog_addDialog("ncp-v-dostala", "fr", "", "font_big", "Comment tu t'es débrouillée pour arriver là-dedans ?")
 dialog_addDialog("ncp-v-dostala", "de", "", "font_big", "Wie bist du da reingekommen?")
 
-dialog_addDialog("ncp-v-sasanka", "en", "", "font_big", "Stop playing with anemone and help me to get us out of here.")
+dialog_addDialog("ncp-v-sasanka", "en", "", "font_big", "Stop playing with anemones and help me to get us out of here.")
 dialog_addDialog("ncp-v-sasanka", "cs", "sound/"..codename.."/cs/ncp-v-sasanka.ogg", "font_big", "Nehrej si se sasankou a pojďme se radši nějak dostat ven.")
 dialog_addDialog("ncp-v-sasanka", "fr", "", "font_big", "Arrête de jouer avec l'anémone et aide-moi à nous sortir d'ici.")
 dialog_addDialog("ncp-v-sasanka", "de", "", "font_big", "Hör auf, mit der Seeanemone zu spielen und hilf uns, hier rauszukommen.")
@@ -23,7 +23,7 @@ dialog_addDialog("ncp-m-nekoukej", "cs", "sound/"..codename.."/cs/ncp-m-nekoukej
 dialog_addDialog("ncp-m-nekoukej", "fr", "", "font_small", "Ne sois pas étonné.")
 dialog_addDialog("ncp-m-nekoukej", "de", "", "font_small", "Nicht erschrecken, kleines Seepferdchen.")
 
-dialog_addDialog("ncp-m-komari", "en", "", "font_small", "There is so many carols here...")
+dialog_addDialog("ncp-m-komari", "en", "", "font_small", "There are so many carols here...")
 dialog_addDialog("ncp-m-komari", "cs", "sound/"..codename.."/cs/ncp-m-komari.ogg", "font_small", "Tady je ale všude komárů...")
 dialog_addDialog("ncp-m-komari", "fr", "", "font_small", "Il y a tellement de chorales ici...")
 dialog_addDialog("ncp-m-komari", "de", "", "font_small", "Hier sind so viele Krallen...")

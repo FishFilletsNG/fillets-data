@@ -8,22 +8,22 @@ dialog_addDialog("sv-v-bezsneku", "cs", "sound/"..codename.."/cs/sv-v-bezsneku.o
 dialog_addDialog("sv-v-bezsneku", "fr", "", "font_big", "Au moins il n'y a pas ces escargots si attentionnés ici.")
 dialog_addDialog("sv-v-bezsneku", "de", "", "font_big", "Zumindest sind hier keine ach-so-diensteifrigen Schnecken.")
 
-dialog_addDialog("sv-m-utecha", "en", "", "font_small", "This is but little consolation.")
+dialog_addDialog("sv-m-utecha", "en", "", "font_small", "This is just a small consolation.")
 dialog_addDialog("sv-m-utecha", "cs", "sound/"..codename.."/cs/sv-m-utecha.ogg", "font_small", "To je jen slabá útěcha.")
 dialog_addDialog("sv-m-utecha", "fr", "", "font_small", "C'est une bien maigre consolation.")
 dialog_addDialog("sv-m-utecha", "de", "", "font_small", "Das ist aber nur ein schwacher Trost.")
 
-dialog_addDialog("sv-v-chtel", "en", "", "font_big", "Thinking about it, I always wanted to see the tank from within.")
+dialog_addDialog("sv-v-chtel", "en", "", "font_big", "Thinking about it, I always wanted to see a tank from within.")
 dialog_addDialog("sv-v-chtel", "cs", "sound/"..codename.."/cs/sv-v-chtel.ogg", "font_big", "Vlasntě jsem si vždycky chtěl prohlédnout tank zevnitř.")
 dialog_addDialog("sv-v-chtel", "fr", "", "font_big", "En y repensant, J'ai toujours voulu voir un char de l'intérieur.")
 dialog_addDialog("sv-v-chtel", "de", "", "font_big", "Wenn ich so drüber nachdenke, wollte ich schon immer den Panzer von innen sehen.")
 
-dialog_addDialog("sv-m-doscasu", "en", "", "font_small", "It seems you will have plenty of opportunity to do this.")
+dialog_addDialog("sv-m-doscasu", "en", "", "font_small", "It seems you will have plenty of opportunity to do that.")
 dialog_addDialog("sv-m-doscasu", "cs", "sound/"..codename.."/cs/sv-m-doscasu.ogg", "font_small", "Na to teď budeš mít času víc než dost.")
 dialog_addDialog("sv-m-doscasu", "fr", "", "font_small", "Et bien tu vas avoir toute l'opportunité de le faire.")
 dialog_addDialog("sv-m-doscasu", "de", "", "font_small", "Es scheint so, als wenn du dazu reichlich Gelegenheit haben wirst.")
 
-dialog_addDialog("sv-m-tank", "en", "", "font_small", "How did this tank got into the sea?")
+dialog_addDialog("sv-m-tank", "en", "", "font_small", "How did this tank get into the sea?")
 dialog_addDialog("sv-m-tank", "cs", "sound/"..codename.."/cs/sv-m-tank.ogg", "font_small", "Jak se asi dostal ten tank do moře?")
 dialog_addDialog("sv-m-tank", "fr", "", "font_small", "Comment ce char est tombé dans la mer ?")
 dialog_addDialog("sv-m-tank", "de", "", "font_small", "Wie ist dieser Panzer ins Meer gekommen?")

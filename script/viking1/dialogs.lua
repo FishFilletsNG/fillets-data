@@ -39,7 +39,7 @@ dialog_addDialog("dr-m-hruza", "cs", "sound/"..codename.."/cs/dr-m-hruza.ogg", "
 dialog_addDialog("dr-m-hruza", "fr", "", "font_small", "C'est fou. On dirait qu'ils sont vivants.")
 dialog_addDialog("dr-m-hruza", "de", "", "font_small", "Das ist schrecklich. Die sehen aus, als wären sie immer noch lebendig.")
 
-dialog_addDialog("d1-1-hudba0", "en", "", "font_viking1", "Music is gone!")
+dialog_addDialog("d1-1-hudba0", "en", "", "font_viking1", "The music is gone!")
 dialog_addDialog("d1-1-hudba0", "cs", "sound/"..codename.."/cs/d1-1-hudba0.ogg", "font_viking1", "Hudba je v tahu!")
 dialog_addDialog("d1-1-hudba0", "fr", "", "font_viking1", "La musique est partie !")
 dialog_addDialog("d1-1-hudba0", "de", "", "font_viking1", "Die Musik ist aus!")

@@ -13,7 +13,7 @@ dialog_addDialog("pyr-m-plaz", "cs", "sound/"..codename.."/cs/pyr-m-plaz.ogg", "
 dialog_addDialog("pyr-m-plaz", "fr", "", "font_small", "C'est quoi cette reptation à l'extérieur ?")
 dialog_addDialog("pyr-m-plaz", "de", "", "font_small", "Was krabbelt dort drüben?")
 
-dialog_addDialog("pyr-v-druha", "en", "", "font_big", "You can`t see it from here? It`s on the other side of wall.")
+dialog_addDialog("pyr-v-druha", "en", "", "font_big", "You can`t see it from here. It`s on the other side of wall.")
 dialog_addDialog("pyr-v-druha", "cs", "sound/"..codename.."/cs/pyr-v-druha.ogg", "font_big", "To přece nevidíš. Vždyť je to na druhé straně zdi.")
 dialog_addDialog("pyr-v-druha", "fr", "", "font_big", "Tu peux le voir d'ici ? C'est de l'autre coté du mur.")
 dialog_addDialog("pyr-v-druha", "de", "", "font_big", "Kannst du es von da aus nicht sehen? Es ist auf der anderen Seite der Mauer.")

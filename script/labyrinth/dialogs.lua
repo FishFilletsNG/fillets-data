@@ -13,7 +13,7 @@ dialog_addDialog("bl-m-funkce", "cs", "sound/"..codename.."/cs/bl-m-funkce.ogg",
 dialog_addDialog("bl-m-funkce", "fr", "", "font_small", "Le poste d'assistant pour la coordination du design a été créé à cause de ce niveau. Ainsi l'auteur a son propre mérite.")
 dialog_addDialog("bl-m-funkce", "de", "", "font_small", "Die Stelle des Assistentenstellvertreters des Entwurfskoordinators wurde aufgrund dieser Ebene eingeführt. Damit wurde der Verfasser geehrt.")
 
-dialog_addDialog("bl-v-pozadi", "en", "", "font_big", "Enough about the game background and let`s get to work.")
+dialog_addDialog("bl-v-pozadi", "en", "", "font_big", "Enough about the game background. Let`s get to work.")
 dialog_addDialog("bl-v-pozadi", "cs", "sound/"..codename.."/cs/bl-v-pozadi.ogg", "font_big", "Dosti již o pozadí hry a vzhůru do řešení.")
 dialog_addDialog("bl-v-pozadi", "fr", "", "font_big", "Ca Suffit avec l'équipe du jeu et maintenant bossons un peu.")
 dialog_addDialog("bl-v-pozadi", "de", "", "font_big", "Genug zum Hintergrund des Spiels und ran an die Arbeit.")
@@ -23,7 +23,7 @@ dialog_addDialog("bl-m-koral0", "cs", "sound/"..codename.."/cs/bl-m-koral0.ogg",
 dialog_addDialog("bl-m-koral0", "fr", "", "font_small", "Quel étrange corail.")
 dialog_addDialog("bl-m-koral0", "de", "", "font_small", "Das ist eine ziemlich seltsame Koralle.")
 
-dialog_addDialog("bl-v-koral1", "en", "", "font_big", "This is a very particular coral.")
+dialog_addDialog("bl-v-koral1", "en", "", "font_big", "This is a very peculiar coral.")
 dialog_addDialog("bl-v-koral1", "cs", "sound/"..codename.."/cs/bl-v-koral1.ogg", "font_big", "To je velmi členitý korál.")
 dialog_addDialog("bl-v-koral1", "fr", "", "font_big", "C'est un corail très particulier.")
 dialog_addDialog("bl-v-koral1", "de", "", "font_big", "Das ist eine sehr ungewöhnliche Koralle.")
@@ -55,7 +55,7 @@ dialog_addDialog("bl-v-pestovany", "cs", "sound/"..codename.."/cs/bl-v-pestovany
 dialog_addDialog("bl-v-pestovany", "fr", "", "font_big", "Il a soigneusement grandit pour un jeu de logique.")
 dialog_addDialog("bl-v-pestovany", "de", "", "font_big", "Sie ist sorgfältig für die Logikspieler gewachsen.")
 
-dialog_addDialog("bl-v-proc", "en", "", "font_big", "Why do you want to put that coral down, after all?")
+dialog_addDialog("bl-v-proc", "en", "", "font_big", "Why do you want to put that coral down, anyway?")
 dialog_addDialog("bl-v-proc", "cs", "sound/"..codename.."/cs/bl-v-proc.ogg", "font_big", "Proč chceš vlastně ten korál sundávat?")
 dialog_addDialog("bl-v-proc", "fr", "", "font_big", "Pourquoi tu veux faire tomber le corail, après tout ?")
 dialog_addDialog("bl-v-proc", "de", "", "font_big", "Warum willst du die Koralle überhaupt runterholen?")
@@ -70,7 +70,7 @@ dialog_addDialog("bl-m-snecku0", "cs", "sound/"..codename.."/cs/bl-m-snecku0.ogg
 dialog_addDialog("bl-m-snecku0", "fr", "", "font_small", "Escargot content, escargot heureux, sort tes cornes...")
 dialog_addDialog("bl-m-snecku0", "de", "", "font_small", "Schnecklein, Schnecklein komm heraus...")
 
-dialog_addDialog("bl-v-dost0", "en", "", "font_big", "Stop it! As if you don`t know that no object  will move if we don`t push it first!")
+dialog_addDialog("bl-v-dost0", "en", "", "font_big", "Stop it! As if you don`t know that no object will move if we don`t push it first!")
 dialog_addDialog("bl-v-dost0", "cs", "sound/"..codename.."/cs/bl-v-dost0.ogg", "font_big", "Nech toho! Dobře víš, že tady se žádný předmět nepohne, když do něho nestrčíme.")
 dialog_addDialog("bl-v-dost0", "fr", "", "font_big", "Arrête ça ! Comme si tu ne savais pas qu'aucun objet ne bouge si nous ne l'avons pas pousser avant !")
 dialog_addDialog("bl-v-dost0", "de", "", "font_big", "Hör auf! Du weißt doch, dass sich Gegenstände nur bewegen, wenn wir sie schieben!")

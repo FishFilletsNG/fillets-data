@@ -8,18 +8,18 @@ dialog_addDialog("disk-m-tady", "cs", "sound/"..codename.."/cs/disk-m-tady.ogg",
 dialog_addDialog("disk-m-tady", "fr", "", "font_small", "Penses-tu que c'est ça ?")
 dialog_addDialog("disk-m-tady", "de", "", "font_small", "Denkst du, das ist sie?")
 
-dialog_addDialog("disk-m-vejit", "en", "", "font_small", "How could it all fit on one three and half inch floppy?")
+dialog_addDialog("disk-m-vejit", "en", "", "font_small", "How could it all fit on one three and a half inch floppy?")
 dialog_addDialog("disk-m-vejit", "cs", "sound/"..codename.."/cs/disk-m-vejit.ogg", "font_small", "Jak by se to mohlo vejít na jednu tři a půl palcovou disketu?")
 dialog_addDialog("disk-m-vejit", "fr", "", "font_small", "Comment cela pourrait-il tenir sur une disquette trois pouces et demi ?")
 dialog_addDialog("disk-m-vejit", "de", "", "font_small", "Wie kann das alles auf eine Dreieinhalb-Zoll-Diskette passen?")
 
-dialog_addDialog("disk-v-metrova", "en", "", "font_big", "Look how much bigger than me it is. It is more than thirty and half feet floppy.")
+dialog_addDialog("disk-v-metrova", "en", "", "font_big", "Look how much bigger than me it is. It is a three and a half meter floppy.")
 dialog_addDialog("disk-v-metrova", "cs", "sound/"..codename.."/cs/disk-v-metrova.ogg", "font_big", "Podívej, o kolik je to větší než já. To je spíš třiceti pěti metrová disketa.")
 dialog_addDialog("disk-v-metrova", "fr", "", "font_big", "Regarde, elle est bien plus grande que moi. Ce serait plutôt une disquette trente pieds et demi.")
 dialog_addDialog("disk-v-metrova", "de", "", "font_big", "Schau, sie ist viel größer als ich. Es ist eine Dreieinhalb-Meter-Diskette.")
 dialog_addDialog("disk-v-metrova", "de_CH", "", "font_big", "Schau, sie ist viel grösser als ich. Es ist eine Dreieinhalb-Meter-Diskette.")
 
-dialog_addDialog("disk-m-velka", "en", "", "font_small", "That`s better. Big plan, big disk. This makes sense.")
+dialog_addDialog("disk-m-velka", "en", "", "font_small", "That`s better. Big plan, big disk. That makes sense.")
 dialog_addDialog("disk-m-velka", "cs", "sound/"..codename.."/cs/disk-m-velka.ogg", "font_small", "Tak to je lepší. Velký plán, velká disketa. To dává smysl.")
 dialog_addDialog("disk-m-velka", "fr", "", "font_small", "Effectivement. Gros plan, grosse disquette. Ca se tient.")
 dialog_addDialog("disk-m-velka", "de", "", "font_small", "Das ist besser. Großer Plan, große Diskette. Das macht Sinn.")
@@ -35,7 +35,7 @@ dialog_addDialog("disk-v-tezko", "cs", "sound/"..codename.."/cs/disk-v-tezko.ogg
 dialog_addDialog("disk-v-tezko", "fr", "", "font_big", "Ca va être difficile.")
 dialog_addDialog("disk-v-tezko", "de", "", "font_big", "Das wird schwierig.")
 
-dialog_addDialog("disk-v-nejde", "en", "", "font_big", "I think it can`t be done. Why should be they hiding it here, if we could lift it?")
+dialog_addDialog("disk-v-nejde", "en", "", "font_big", "I don't think it can be done. Why would they be hiding it here, if we could lift it?")
 dialog_addDialog("disk-v-nejde", "cs", "sound/"..codename.."/cs/disk-v-nejde.ogg", "font_big", "Podle mě to vůbec nejde. Proč by ji sem jinak schovávali?")
 dialog_addDialog("disk-v-nejde", "fr", "", "font_big", "Je ne pense pas que ce soit possible. Pourquoi est-ce qu'ils l'auraient cachée ici, si nous pouvons la soulever ?")
 dialog_addDialog("disk-v-nejde", "de", "", "font_big", "Ich denke, es ist nicht möglich. Warum sollten sie sie hier verstecken, wenn wir sie anheben können?")
@@ -45,7 +45,7 @@ dialog_addDialog("disk-v-ulamu", "cs", "sound/"..codename.."/cs/disk-v-ulamu.ogg
 dialog_addDialog("disk-v-ulamu", "fr", "", "font_big", "Tais-toi, ou je te casse une patte !")
 dialog_addDialog("disk-v-ulamu", "de", "", "font_big", "Ruhe, oder ich brech` dir die Kontakte ab!")
 
-dialog_addDialog("disk-v-kriz", "en", "", "font_big", "Can you see that steel cross? This is a grave of our hopes.")
+dialog_addDialog("disk-v-kriz", "en", "", "font_big", "Can you see that steel cross? This is the grave of our hopes.")
 dialog_addDialog("disk-v-kriz", "cs", "sound/"..codename.."/cs/disk-v-kriz.ogg", "font_big", "Vidíš ten ocelový kříž? To je hrob našich nadějí.")
 dialog_addDialog("disk-v-kriz", "fr", "", "font_big", "Peux-tu voir cette croix en acier ? C'est pour enterrer nos espoirs.")
 dialog_addDialog("disk-v-kriz", "de", "", "font_big", "Siehst du das Stahlkreuz? Das ist das Grab unser Hoffnungen.")
@@ -111,7 +111,7 @@ dialog_addDialog("disk-m-potvory", "cs", "sound/"..codename.."/cs/disk-m-potvory
 dialog_addDialog("disk-m-potvory", "fr", "", "font_small", "Argh. Des monstres.")
 dialog_addDialog("disk-m-potvory", "de", "", "font_small", "Ihhh. Diese Monster.")
 
-dialog_addDialog("disk-v-pozor", "en", "", "font_big", "Above all, we must be careful not to take them with the disk. The player wouldn`t be happy if we pour them on his desktop.")
+dialog_addDialog("disk-v-pozor", "en", "", "font_big", "Above all, we must be careful not to take them with the disk. The player wouldn`t be happy if we pour them on their desktop.")
 dialog_addDialog("disk-v-pozor", "cs", "sound/"..codename.."/cs/disk-v-pozor.ogg", "font_big", "Hlavně si musíme dát pozor, abychom je neodnesli i s disketou. To by se nám hráč poděkoval, kdybychom mu je vysypali na desktop.")
 dialog_addDialog("disk-v-pozor", "fr", "", "font_big", "Après tout, nous devons prendre gare à ne pas les emporter avec la disquette. Le joueur(euse) ne serait pas content(e) si nous les déversons sur son bureau.")
 dialog_addDialog("disk-v-pozor", "de", "", "font_big", "Wir müssen sehr vorsichtig sein, die nicht mit der Diskette mitzunehmen. Der Spieler wäre nicht sehr glücklich, wenn wir sie auf seinen Rechner loslassen.")

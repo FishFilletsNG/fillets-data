@@ -86,7 +86,7 @@ dialog_addDialog("zel-v-cosedeje", "cs", "sound/"..codename.."/cs/zel-v-cosedeje
 dialog_addDialog("zel-v-cosedeje", "fr", "", "font_big", "Qu'est-ce qui nous arrive ?")
 dialog_addDialog("zel-v-cosedeje", "de", "", "font_big", "Was passiert mit uns?")
 
-dialog_addDialog("zel-m-cimtoje", "en", "", "font_small", "What it can mean?")
+dialog_addDialog("zel-m-cimtoje", "en", "", "font_small", "What can it mean?")
 dialog_addDialog("zel-m-cimtoje", "cs", "sound/"..codename.."/cs/zel-m-cimtoje.ogg", "font_small", "Čím to může být způsobeno?")
 dialog_addDialog("zel-m-cimtoje", "fr", "", "font_small", "Se pourrait-il ?")
 dialog_addDialog("zel-m-cimtoje", "de", "", "font_small", "Was kann es bedeuten?")
@@ -147,7 +147,7 @@ dialog_addDialog("zel-v-tvary", "cs", "sound/"..codename.."/cs/zel-v-tvary.ogg",
 dialog_addDialog("zel-v-tvary", "fr", "", "font_big", "D'où peuvent bien venir tant de formes étranges ?")
 dialog_addDialog("zel-v-tvary", "de", "", "font_big", "Woher kommen so viele bizarre Formen?")
 
-dialog_addDialog("zel-m-jednoduse", "en", "", "font_small", "It`s easy - designers create tricky problem and leave the drawing to the graphic artists.")
+dialog_addDialog("zel-m-jednoduse", "en", "", "font_small", "It`s easy - designers create tricky problems and leave the drawing to the graphic artists.")
 dialog_addDialog("zel-m-jednoduse", "cs", "sound/"..codename.."/cs/zel-m-jednoduse.ogg", "font_small", "Jednoduše - programátoři vytvoří zapeklitý problém a grafici to pak nakreslí.")
 dialog_addDialog("zel-m-jednoduse", "fr", "", "font_small", "Facile - Les créateurs ont conçu d'épineux problèmes et ont laissé les artistes les dessiner.")
 dialog_addDialog("zel-m-jednoduse", "de", "", "font_small", "Das ist leicht - die Entwickler denken sich knifflige Probleme aus und überlassen das Malen den Künstlern.")

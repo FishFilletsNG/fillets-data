@@ -38,12 +38,12 @@ dialog_addDialog("lod-v-internovat", "cs", "sound/"..codename.."/cs/lod-v-intern
 dialog_addDialog("lod-v-internovat", "fr", "", "font_big", "Nous ne pouvons pas les laisser continuer comme ça. Nous devons les arrêter.")
 dialog_addDialog("lod-v-internovat", "de", "", "font_big", "Wir können es nicht so lassen. Wir müssen sie einlochen.")
 
-dialog_addDialog("lod-m-co", "en", "", "font_small", "What do we must?")
+dialog_addDialog("lod-m-co", "en", "", "font_small", "What must we do?")
 dialog_addDialog("lod-m-co", "cs", "sound/"..codename.."/cs/lod-m-co.ogg", "font_small", "Cože je musíme?")
 dialog_addDialog("lod-m-co", "fr", "", "font_small", "Que devons nous faire ?")
 dialog_addDialog("lod-m-co", "de", "", "font_small", "Was müssen wir?")
 
-dialog_addDialog("lod-v-cvok", "en", "", "font_big", "Put them into mad... I mean into detainment facility of FDTO.")
+dialog_addDialog("lod-v-cvok", "en", "", "font_big", "Put them into the mad... I mean into the detainment facility of FDTO.")
 dialog_addDialog("lod-v-cvok", "cs", "sound/"..codename.."/cs/lod-v-cvok.ogg", "font_big", "Zavřít do cvok... chci říct do nápravně-výchovného zařízení FDTO.")
 dialog_addDialog("lod-v-cvok", "fr", "", "font_big", "Les mettre en priso... En cellule de détention de la FDTO.")
 dialog_addDialog("lod-v-cvok", "de", "", "font_big", "Sie ins Irren... ich meine in die Haftanstalt der FDTO stecken.")
@@ -58,12 +58,12 @@ dialog_addDialog("lod-v-golf", "cs", "sound/"..codename.."/cs/lod-v-golf.ogg", "
 dialog_addDialog("lod-v-golf", "fr", "", "font_big", "Bien sûr. Si nous en laissons un ici, il pourrait avoir n'importe qu'elle idée folle. Il pourrait commencer à jouer au golf par exemple.")
 dialog_addDialog("lod-v-golf", "de", "", "font_big", "Natürlich. Wenn wir einen hierlassen, fällt ihm vielleicht eine verrückte Idee ein. Er könnte zum Beispiel anfangen, Golf zu spielen.")
 
-dialog_addDialog("lod-m-jednoho", "en", "", "font_small", "Hardly with this club. I think we`ll be happy if we manage to get one. The other one will be harmless then.")
+dialog_addDialog("lod-m-jednoho", "en", "", "font_small", "Hardly with this club. I think we should be happy if we manage to get one. The other one will be harmless then.")
 dialog_addDialog("lod-m-jednoho", "cs", "sound/"..codename.."/cs/lod-m-jednoho.ogg", "font_small", "S touhle holí těžko. Myslím, že budeme rádi, když dostaneme jednoho. Ten druhý už nebude nebezpečný.")
 dialog_addDialog("lod-m-jednoho", "fr", "", "font_small", "Difficilement avec ce club. Je pense que nous serons contents d'en attraper un. L'autre deviendra alors inoffensif.")
 dialog_addDialog("lod-m-jednoho", "de", "", "font_small", "Wohl kaum mit diesem Schläger. Ich denke, wir werden froh sein, wenn wir einen rausbekommen. Der andere wird dann harmlos sein.")
 
-dialog_addDialog("lod-v-koho", "en", "", "font_big", "Well. And whom?")
+dialog_addDialog("lod-v-koho", "en", "", "font_big", "Well. Which one?")
 dialog_addDialog("lod-v-koho", "cs", "sound/"..codename.."/cs/lod-v-koho.ogg", "font_big", "Tak dobře. A koho?")
 dialog_addDialog("lod-v-koho", "fr", "", "font_big", "Bien. Et lequel ?")
 dialog_addDialog("lod-v-koho", "de", "", "font_big", "Gut. Und welchen?")
@@ -118,7 +118,7 @@ dialog_addDialog("lod-m-palka", "cs", "sound/"..codename.."/cs/lod-m-palka.ogg",
 dialog_addDialog("lod-m-palka", "fr", "", "font_small", "C'est vrai. Ce serait plus facile si cette raquette de ping-pong était ailleurs.")
 dialog_addDialog("lod-m-palka", "de", "", "font_small", "Das ist wahr. Es wäre viel leichter, wenn der Tischtennisschläger irgendwo anders wäre.")
 
-dialog_addDialog("lod-v-micky", "en", "", "font_big", "By the way, did you notice that the real golf ball is in the upper left corner while that thing in the in the lower right corner is the cricket ball?")
+dialog_addDialog("lod-v-micky", "en", "", "font_big", "By the way, did you notice that the real golf ball is in the upper left corner while that thing in the lower right corner is a cricket ball?")
 dialog_addDialog("lod-v-micky", "cs", "sound/"..codename.."/cs/lod-v-micky.ogg", "font_big", "Všimla sis mimochodem, že skutečný golfový míček je vlevo nahoře, zatímco vpravo dole je míček na kriket?")
 dialog_addDialog("lod-v-micky", "fr", "", "font_big", "A propos, tu as noté que la véritable balle de golf est dans le coin supérieur gauche, tandis que dans le coin inférieur droit se trouve une balle de cricket ?")
 dialog_addDialog("lod-v-micky", "de", "", "font_big", "Hast du übrigens bemerkt, dass der echte Golfball in der Ecke oben links und das Ding in der Ecke unten rechts der Kricktball ist?")
@@ -134,7 +134,7 @@ dialog_addDialog("lod-v-kdovi", "fr", "", "font_big", "Qui sait ?")
 dialog_addDialog("lod-v-kdovi", "de", "", "font_big", "Wer weiß.")
 dialog_addDialog("lod-v-kdovi", "de_CH", "", "font_big", "Wer weiss.")
 
-dialog_addDialog("lod-m-micek", "en", "", "font_small", "I thought it`s a table tennis ball up there.")
+dialog_addDialog("lod-m-micek", "en", "", "font_small", "I thought it was a table tennis ball up there.")
 dialog_addDialog("lod-m-micek", "cs", "sound/"..codename.."/cs/lod-m-micek.ogg", "font_small", "Měla jsem pocit, že to nahoře je ping-pongový míček.")
 dialog_addDialog("lod-m-micek", "fr", "", "font_small", "Je pense que c'est une balle de ping-pong là haut.")
 dialog_addDialog("lod-m-micek", "de", "", "font_small", "Ich habe gedacht, da oben ist ein Tennisball.")
@@ -144,7 +144,7 @@ dialog_addDialog("lod-v-rozliseni", "cs", "sound/"..codename.."/cs/lod-v-rozlise
 dialog_addDialog("lod-v-rozliseni", "fr", "", "font_big", "Difficile à dire avec un écran à cette résolution.")
 dialog_addDialog("lod-v-rozliseni", "de", "", "font_big", "Schwierig zu sagen, bei dieser Bildschirmauflösung.")
 
-dialog_addDialog("lod-m-bohove", "en", "", "font_small", "This time our goal is to get out any of that gods.")
+dialog_addDialog("lod-m-bohove", "en", "", "font_small", "This time our goal is to get out one of those gods.")
 dialog_addDialog("lod-m-bohove", "cs", "sound/"..codename.."/cs/lod-m-bohove.ogg", "font_small", "Naším úkolem je tentokrát dostat ven z místnosti kteréhokoliv z těch bohů.")
 dialog_addDialog("lod-m-bohove", "fr", "", "font_small", "Cette fois, notre but est de faire sortir un de ces dieux.")
 dialog_addDialog("lod-m-bohove", "de", "", "font_small", "Diesmal ist unser Ziel, einen der Götter herauszubekommen.")
@@ -319,12 +319,12 @@ dialog_addDialog("b2-rikal1", "cs", "sound/"..codename.."/cs/b2-rikal1.ogg", "fo
 dialog_addDialog("b2-rikal1", "fr", "", "font_cyan", "Tu as déjà essayé ça !")
 dialog_addDialog("b2-rikal1", "de", "", "font_cyan", "Das hast du schon versucht!")
 
-dialog_addDialog("b2-rikal2", "en", "", "font_cyan", "You already said this!")
+dialog_addDialog("b2-rikal2", "en", "", "font_cyan", "You already said that!")
 dialog_addDialog("b2-rikal2", "cs", "sound/"..codename.."/cs/b2-rikal2.ogg", "font_cyan", "Tohle jsi už říkal!")
 dialog_addDialog("b2-rikal2", "fr", "", "font_cyan", "Tu as déjà dit ça !")
 dialog_addDialog("b2-rikal2", "de", "", "font_cyan", "Das hast du schon gesagt!")
 
-dialog_addDialog("b2-nemuze", "en", "", "font_cyan", "There can`t be miss on this space.")
+dialog_addDialog("b2-nemuze", "en", "", "font_cyan", "It can`t be a miss on this space.")
 dialog_addDialog("b2-nemuze", "cs", "sound/"..codename.."/cs/b2-nemuze.ogg", "font_cyan", "Na tomhle poli nemůže být voda!")
 dialog_addDialog("b2-nemuze", "fr", "", "font_cyan", "Il n'y a pas de manqué ici.")
 dialog_addDialog("b2-nemuze", "de", "", "font_cyan", "Auf dem Feld kann es nicht daneben gehen!")
@@ -334,7 +334,7 @@ dialog_addDialog("b2-podvadis", "cs", "sound/"..codename.."/cs/b2-podvadis.ogg",
 dialog_addDialog("b2-podvadis", "fr", "", "font_cyan", "Tu as triché !!!")
 dialog_addDialog("b2-podvadis", "de", "", "font_cyan", "Du schummelst!!!")
 
-dialog_addDialog("b2-spatne", "en", "", "font_cyan", "I have tried this - and you said 'miss`!")
+dialog_addDialog("b2-spatne", "en", "", "font_cyan", "I have tried that - and you said 'miss`!")
 dialog_addDialog("b2-spatne", "cs", "sound/"..codename.."/cs/b2-spatne.ogg", "font_cyan", "Tohle jsem už zkoušel - a ty jsi řekl 'voda'!")
 dialog_addDialog("b2-spatne", "fr", "", "font_cyan", "J'ai tiré ici - et tu as répondu 'raté' !")
 dialog_addDialog("b2-spatne", "de", "", "font_cyan", "Das habe ich versucht - und du hast \"Daneben\" gesagt!")

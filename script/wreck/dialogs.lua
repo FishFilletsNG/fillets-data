@@ -16,7 +16,7 @@ dialog_addDialog("pot-v-jmeno", "fr", "", "font_big", "Le titre du niveau.")
 dialog_addDialog("pot-v-jmeno", "de", "", "font_big", "Die Überschrift dieser Ebene.")
 dialog_addDialog("pot-v-jmeno", "it", "", "font_big", "Il titolo di questo livello.")
 
-dialog_addDialog("pot-v-slus", "en", "", "font_big", "It suits you well.")
+dialog_addDialog("pot-v-slus", "en", "", "font_big", "It suits you.")
 dialog_addDialog("pot-v-slus", "cs", "sound/"..codename.."/cs/pot-v-slus.ogg", "font_big", "Moc ti to sluší.")
 dialog_addDialog("pot-v-slus", "fr", "", "font_big", "Ca te va bien.")
 dialog_addDialog("pot-v-slus", "de", "", "font_big", "Das steht dir gut.")

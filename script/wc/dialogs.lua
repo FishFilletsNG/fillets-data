@@ -1,4 +1,4 @@
-dialog_addDialog("wc-v-oblibene", "en", "", "font_big", "Toilet is David`s favorite place.")
+dialog_addDialog("wc-v-oblibene", "en", "", "font_big", "The toilet is David`s favorite place.")
 dialog_addDialog("wc-v-oblibene", "cs", "sound/"..codename.."/cs/wc-v-oblibene.ogg", "font_big", "WC je oblíbeným Davidovým místem.")
 dialog_addDialog("wc-v-oblibene", "fr", "", "font_big", "Les toilettes est le lieu préféré de David.")
 dialog_addDialog("wc-v-oblibene", "de", "", "font_big", "Die Toilette ist Davids Lieblingsplatz.")
@@ -34,7 +34,7 @@ dialog_addDialog("wc-m-prasecinky", "fr", "", "font_small", "Ne t'avais-je pas d
 dialog_addDialog("wc-m-prasecinky", "de", "", "font_small", "Habe ich dir nicht gesagt, dass WIR keine Toilette mit Wasserspülung brauchen?")
 dialog_addDialog("wc-m-prasecinky", "it", "", "font_small", "Non ti avevo detto che NON ci serve un bagno con lo sciacquone? Perdipiù decorato con le tue macchie!")
 
-dialog_addDialog("wc-v-hygiena", "en", "", "font_big", "The flushing toilet is more hygienical and when under water even more ecological.")
+dialog_addDialog("wc-v-hygiena", "en", "", "font_big", "The flushing toilet is more hygienic and when under water even more ecological.")
 dialog_addDialog("wc-v-hygiena", "cs", "sound/"..codename.."/cs/wc-v-hygiena.ogg", "font_big", "Splachovací záchod je hygieničtější a pod vodou i ekologičtější.")
 dialog_addDialog("wc-v-hygiena", "fr", "", "font_big", "La chasse d'eau est plus hygiénique et sous l'eau même plus écologique.")
 dialog_addDialog("wc-v-hygiena", "de", "", "font_big", "Eine Wasserspülung ist hygienischer und unter Wasser auch umweltfreundlicher.")
@@ -46,7 +46,7 @@ dialog_addDialog("wc-m-vlezt", "fr", "", "font_small", "Heureusement, je ne dois
 dialog_addDialog("wc-m-vlezt", "de", "", "font_small", "Zum Glück muss ich nicht reinklettern.")
 dialog_addDialog("wc-m-vlezt", "it", "", "font_small", "Per fortuna, non devo arrampicarmici dentro.")
 
-dialog_addDialog("wc-m-hrbitov", "en", "", "font_small", "I don`t feel very well here. I feel like in the cemetery.")
+dialog_addDialog("wc-m-hrbitov", "en", "", "font_small", "I don`t feel very well here. I feel like I'm in the cemetery.")
 dialog_addDialog("wc-m-hrbitov", "cs", "sound/"..codename.."/cs/wc-m-hrbitov.ogg", "font_small", "Necítím se tady dobře. Připadám si jako na hřbitově.")
 dialog_addDialog("wc-m-hrbitov", "fr", "", "font_small", "Je ne me sens pas très bien ici. Je me sens comme au cimetière.")
 dialog_addDialog("wc-m-hrbitov", "de", "", "font_small", "Ich fühle mich hier nicht gut. Ist wie auf dem Friedhof.")

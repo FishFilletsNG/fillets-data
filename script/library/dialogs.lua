@@ -1,4 +1,4 @@
-dialog_addDialog("vrak-v-vraky0", "en", "", "font_big", "These shipwrecs grow more and more arrogant.")
+dialog_addDialog("vrak-v-vraky0", "en", "", "font_big", "These shipwrecks grow more and more arrogant.")
 dialog_addDialog("vrak-v-vraky0", "cs", "sound/"..codename.."/cs/vrak-v-vraky0.ogg", "font_big", "Ty vraky lodí jsou čím dál drzejší.")
 dialog_addDialog("vrak-v-vraky0", "fr", "", "font_big", "Ces épaves de bateaux sont de plus en plus énervantes.")
 dialog_addDialog("vrak-v-vraky0", "de", "", "font_big", "Diese Schiffwracks werden immer arroganter.")
@@ -163,7 +163,7 @@ dialog_addDialog("vrak-m-cteni1", "fr", "", "font_small", "Si tu faisais des tra
 dialog_addDialog("vrak-m-cteni1", "de", "", "font_small", "Wenn du ein wenig Sport machen würdest, anstatt blödes Zeug zu lesen, würdest du reinpassen.")
 dialog_addDialog("vrak-m-cteni1", "it", "", "font_small", "Se facessi un po' di attività invece di leggere quelle stramberie ci passeresti.")
 
-dialog_addDialog("vrak-m-cteni2", "en", "", "font_small", "I told you not to buy that Compleate Dictionary of Abnormal.")
+dialog_addDialog("vrak-m-cteni2", "en", "", "font_small", "I told you not to buy that Complete Dictionary of the Abnormal.")
 dialog_addDialog("vrak-m-cteni2", "cs", "sound/"..codename.."/cs/vrak-m-cteni2.ogg", "font_small", "Říkala jsem ti, ať nekupuješ ten Velký slovník abnormálních výrazů.")
 dialog_addDialog("vrak-m-cteni2", "fr", "", "font_small", "Je t'avais dis de ne pas acheter ce dictionnaire complet de l'anormal.")
 dialog_addDialog("vrak-m-cteni2", "de", "", "font_small", "Ich habe dir doch gesagt, du sollst nicht dieses \"Wörterbuch des Abnormalen\" kaufen.")
@@ -211,7 +211,7 @@ dialog_addDialog("vrak-m-ocel", "fr", "", "font_small", "Et comment suis-je cens
 dialog_addDialog("vrak-m-ocel", "de", "", "font_small", "Wie soll ich denn dort durch den Stahl kommen?!")
 dialog_addDialog("vrak-m-ocel", "it", "", "font_small", "Come posso arrivarci attraverso quell'acciaio?!")
 
-dialog_addDialog("vrak-m-restart", "en", "", "font_small", "What about restarting and trying it again from the scratch?")
+dialog_addDialog("vrak-m-restart", "en", "", "font_small", "What about restarting and trying it again from scratch?")
 dialog_addDialog("vrak-m-restart", "cs", "sound/"..codename.."/cs/vrak-m-restart.ogg", "font_small", "Co takhle restartovat a zkusit to znovu?")
 dialog_addDialog("vrak-m-restart", "fr", "", "font_small", "Que penses-tu de recommencer à zéro ce niveau.")
 dialog_addDialog("vrak-m-restart", "de", "", "font_small", "Wie wäre es mit neustarten und von vorne anfangen?")

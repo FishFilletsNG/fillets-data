@@ -38,7 +38,7 @@ dialog_addDialog("bar-m-panb", "cs", "sound/"..codename.."/cs/bar-m-panb.ogg", "
 dialog_addDialog("bar-m-panb", "fr", "", "font_small", "Oui. Allons-y. Nous pouvons le jeter sur la pelouse de M. B. après tout.")
 dialog_addDialog("bar-m-panb", "de", "", "font_small", "Ja. An die Arbeit. Wir können ihn dann auf den Hof des Herrn B. werfen.")
 
-dialog_addDialog("bar-m-rada", "en", "", "font_small", "I think I grow to like them.")
+dialog_addDialog("bar-m-rada", "en", "", "font_small", "I think I am growing to like them.")
 dialog_addDialog("bar-m-rada", "cs", "sound/"..codename.."/cs/bar-m-rada.ogg", "font_small", "Vlastně je začínám mít docela ráda.")
 dialog_addDialog("bar-m-rada", "fr", "", "font_small", "Je commence à aimer ça.")
 dialog_addDialog("bar-m-rada", "de", "", "font_small", "Ich fange an, sie zu mögen.")
@@ -58,12 +58,12 @@ dialog_addDialog("bar-v-sbirka", "cs", "sound/"..codename.."/cs/bar-v-sbirka.ogg
 dialog_addDialog("bar-v-sbirka", "fr", "", "font_big", "Une collection de monstruosité si tendre. Ca me désole de les abandonner.")
 dialog_addDialog("bar-v-sbirka", "de", "", "font_big", "So eine hübsche Monstersammlung. Ich werde es bedauern, sie zurückzulassen.")
 
-dialog_addDialog("bar-m-dost0", "en", "", "font_small", "This won`t happen any time soon.")
+dialog_addDialog("bar-m-dost0", "en", "", "font_small", "That won`t happen any time soon.")
 dialog_addDialog("bar-m-dost0", "cs", "sound/"..codename.."/cs/bar-m-dost0.ogg", "font_small", "Na to máš ještě dost času.")
 dialog_addDialog("bar-m-dost0", "fr", "", "font_small", "Bientôt ça n'arrivera plus.")
 dialog_addDialog("bar-m-dost0", "de", "", "font_small", "Das wird nicht so schnell passieren.")
 
-dialog_addDialog("bar-m-dost1", "en", "", "font_small", "You are going to have a plenty of time to enjoy them.")
+dialog_addDialog("bar-m-dost1", "en", "", "font_small", "You are going to have plenty of time to enjoy them.")
 dialog_addDialog("bar-m-dost1", "cs", "sound/"..codename.."/cs/bar-m-dost1.ogg", "font_small", "Bojím se, že ti to ještě dlouho líto být nemusí.")
 dialog_addDialog("bar-m-dost1", "fr", "", "font_small", "Tu vas avoir tout le temps de les admirer.")
 dialog_addDialog("bar-m-dost1", "de", "", "font_small", "Du wirst viel Zeit haben, dich an ihnen zu erfreuen.")
@@ -115,7 +115,7 @@ dialog_addDialog("bar-v-pld", "cs", "sound/"..codename.."/cs/bar-v-pld.ogg", "fo
 dialog_addDialog("bar-v-pld", "fr", "", "font_big", "Jette un oeil à la chose. Il semble identique, et plus il grandit plus il est repoussant.")
 dialog_addDialog("bar-v-pld", "de", "", "font_big", "Schau dir dieses rosa Ding an. Es sieht zwar immernoch genauso aus aber es wird immer abscheulicher.")
 
-dialog_addDialog("bar-m-pudy", "en", "", "font_small", "But even it harbors some motherly instincts. Look how he cares about the little one.")
+dialog_addDialog("bar-m-pudy", "en", "", "font_small", "But even it harbors some motherly instincts. Look how it cares about the little one.")
 dialog_addDialog("bar-m-pudy", "cs", "sound/"..codename.."/cs/bar-m-pudy.ogg", "font_small", "Ale i v něm dřímou mateřské pudy. Podívej, jak se stará o to maličké.")
 dialog_addDialog("bar-m-pudy", "fr", "", "font_small", "Mais même s'il fait preuve d'instincts maternelle, regarde comme il prend soin du petit.")
 dialog_addDialog("bar-m-pudy", "de", "", "font_small", "Aber sogar dieses Ding hat Muttergefühle. Schau nur, wie es sich um das Kleine kümmert.")
@@ -130,12 +130,12 @@ dialog_addDialog("bar-m-rybka", "cs", "sound/"..codename.."/cs/bar-m-rybka.ogg",
 dialog_addDialog("bar-m-rybka", "fr", "", "font_small", "Ce poisson m'est familier.")
 dialog_addDialog("bar-m-rybka", "de", "", "font_small", "Dieser Fisch kommt mir bekannt vor.")
 
-dialog_addDialog("bar-v-fotka", "en", "", "font_big", "Maybe it was on that photo from power plant.")
+dialog_addDialog("bar-v-fotka", "en", "", "font_big", "Maybe it was in that photo from the power plant.")
 dialog_addDialog("bar-v-fotka", "cs", "sound/"..codename.."/cs/bar-v-fotka.ogg", "font_big", "Možná, že byla na té fotografii z elekrárny.")
 dialog_addDialog("bar-v-fotka", "fr", "", "font_big", "Peut-être qu'il était sur la photo de la centrale électrique.")
 dialog_addDialog("bar-v-fotka", "de", "", "font_big", "Vielleicht war er auf dem Foto vom Kraftwerk.")
 
-dialog_addDialog("bar-v-krab", "en", "", "font_big", "The poor crab. So many pincers and no head. Although... maybe he is better off than we.")
+dialog_addDialog("bar-v-krab", "en", "", "font_big", "The poor crab. So many pincers and no head. Although... maybe he is better off than us.")
 dialog_addDialog("bar-v-krab", "cs", "sound/"..codename.."/cs/bar-v-krab.ogg", "font_big", "Chudák ten krab. Tolik klepet a žádná hlava. I když... možná je mu takhle líp než nám.")
 dialog_addDialog("bar-v-krab", "fr", "", "font_big", "Pauvre crabe. Tant de pinces et pas de tête. Après tout... peut-être qu'il est meilleur que nous.")
 dialog_addDialog("bar-v-krab", "de", "", "font_big", "Die arme Krabbe. So viele Scheren und kein Kopf. Obwohl... vielleicht ist sie besser dran als wir.")

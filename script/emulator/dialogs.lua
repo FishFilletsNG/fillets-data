@@ -23,18 +23,18 @@ dialog_addDialog("zx-m-premyslis", "cs", "sound/"..codename.."/cs/zx-m-premyslis
 dialog_addDialog("zx-m-premyslis", "fr", "", "font_small", "A quoi penses-tu en ce moment ?")
 dialog_addDialog("zx-m-premyslis", "de", "", "font_small", "Worüber denkst du gerade nach?")
 
-dialog_addDialog("zx-v-pamet", "en", "", "font_big", "Well, I just realized that only the animations of us two would fill up the RAM of ZX Spectrum.")
+dialog_addDialog("zx-v-pamet", "en", "", "font_big", "Well, I just realized that the animations of us two alone would fill up the RAM of a ZX Spectrum.")
 dialog_addDialog("zx-v-pamet", "cs", "sound/"..codename.."/cs/zx-v-pamet.ogg", "font_big", "Ále, jen jsem si uvědomil, že do paměti ZX Spectra by se nevešly ani animace nás dvou, natož pak takováto hra.")
 dialog_addDialog("zx-v-pamet", "fr", "", "font_big", "Et bien, je viens de réaliser que nos animations seules pourraient remplir la RAM du ZX Spectrum.")
 dialog_addDialog("zx-v-pamet", "de", "", "font_big", "Nunja, mir ist gerade klar geworden, dass allein unsere Animation den Arbeitsspeicher des ZX Spectrum gefüllt hätte.")
 
-dialog_addDialog("zx-v-otazka", "en", "", "font_big", "Do you know that your question alone in the format of WAV file would overfill the RAM of ZX Spectrum? And imagine how many such sounds are in this game.")
+dialog_addDialog("zx-v-otazka", "en", "", "font_big", "Do you know that your question alone in WAV format would overfill the RAM of ZX Spectrum? And imagine how many such sounds are in this game.")
 dialog_addDialog("zx-v-otazka", "cs", "sound/"..codename.."/cs/zx-v-otazka.ogg", "font_big", "Uvědomuješ si, že ta tvá otázka by jako zvukový soubor zaplnila celou paměť ZX Spectra? A uvědom si, kolik takových zvuků je v téhle hře.")
 dialog_addDialog("zx-v-otazka", "fr", "", "font_big", "Est-ce que tu sais que ta question seule au format WAV risque de ne pas tenir dans la RAM du ZX Spectrum ? Et imagine la quantité de sons qu'il y a dans ce jeu.")
 dialog_addDialog("zx-v-otazka", "de", "", "font_big", "Weißt du, dass allein deine Frage als WAV-Datei den Arbeitsspeicher des ZX Spectrum überfüllt hätte? Und stell dir vor, wie viele dieser Töne in diesem Spiel sind.")
 dialog_addDialog("zx-v-otazka", "de_CH", "", "font_big", "Weisst du, dass allein deine Frage als WAV-Datei den Arbeitsspeicher des ZX Spectrum überfüllt hätte? Und stell dir vor, wie viele dieser Töne in diesem Spiel sind.")
 
-dialog_addDialog("zx-m-necodosebe", "en", "", "font_small", "But still, these games had something to them, hadn`t they?")
+dialog_addDialog("zx-m-necodosebe", "en", "", "font_small", "But still, these games had something to them, didn`t they?")
 dialog_addDialog("zx-m-necodosebe", "cs", "sound/"..codename.."/cs/zx-m-necodosebe.ogg", "font_small", "Ale přesto ty hry měly něco do sebe, ne?")
 dialog_addDialog("zx-m-necodosebe", "fr", "", "font_small", "Et puis, ces jeux ont-ils encore quelque chose pour eux ?")
 dialog_addDialog("zx-m-necodosebe", "de", "", "font_small", "Trotzdem hatten diese Spiele etwas an sich, oder?")
@@ -64,7 +64,7 @@ dialog_addDialog("zx-m-highway", "cs", "sound/"..codename.."/cs/zx-m-highway.ogg
 dialog_addDialog("zx-m-highway", "fr", "", "font_small", "Bien sûr, ils viennent de Highway Encounter.")
 dialog_addDialog("zx-m-highway", "de", "", "font_small", "Ja sicher, die sind aus Highway Encounter.")
 
-dialog_addDialog("zx-v-nahravani", "en", "", "font_big", "I wonder what is loading just now.")
+dialog_addDialog("zx-v-nahravani", "en", "", "font_big", "I wonder what is loading right now.")
 dialog_addDialog("zx-v-nahravani", "cs", "sound/"..codename.."/cs/zx-v-nahravani.ogg", "font_big", "To by mě zajímalo, co se tu právě nahrává.")
 dialog_addDialog("zx-v-nahravani", "fr", "", "font_big", "Je me demande à quoi correspond le chargement en cours.")
 dialog_addDialog("zx-v-nahravani", "de", "", "font_big", "Ich frage mich, was gerade lädt.")

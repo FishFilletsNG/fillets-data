@@ -3,17 +3,17 @@ dialog_addDialog("let-m-divna", "cs", "sound/"..codename.."/cs/let-m-divna.ogg",
 dialog_addDialog("let-m-divna", "fr", "", "font_small", "Quel est ce drôle de navire ?")
 dialog_addDialog("let-m-divna", "de", "", "font_small", "Was für ein seltsames Schiff ist das denn?")
 
-dialog_addDialog("let-v-vrak0", "en", "", "font_big", "This is a wreck of civilian airplane LC-10 Lemura.")
+dialog_addDialog("let-v-vrak0", "en", "", "font_big", "This is the wreck of the civilian airplane LC-10 Lemura.")
 dialog_addDialog("let-v-vrak0", "cs", "sound/"..codename.."/cs/let-v-vrak0.ogg", "font_big", "To je vrak dopravního letadla LC-10 Lemura.")
 dialog_addDialog("let-v-vrak0", "fr", "", "font_big", "C'est l'épave d'un avion civile LC-10 Lemura.")
 dialog_addDialog("let-v-vrak0", "de", "", "font_big", "Das ist das Wrack des Passagierfluzeuges LC-10 Lemura.")
 
-dialog_addDialog("let-v-vrak1", "en", "", "font_big", "This is a wreck of civilian airplane Atlantobus.")
+dialog_addDialog("let-v-vrak1", "en", "", "font_big", "This is the wreck of the civilian airplane Atlantobus.")
 dialog_addDialog("let-v-vrak1", "cs", "sound/"..codename.."/cs/let-v-vrak1.ogg", "font_big", "To je vrak dopravního letadla Atlantobus.")
 dialog_addDialog("let-v-vrak1", "fr", "", "font_big", "Ca, c'est l'épave d'un avion civile Atlantobus.")
 dialog_addDialog("let-v-vrak1", "de", "", "font_big", "Das ist das Wrack des Passagierfluzeuges Atlantobus.")
 
-dialog_addDialog("let-v-vrak2", "en", "", "font_big", "This is a wreck of civilian airplane Poseidon 737.")
+dialog_addDialog("let-v-vrak2", "en", "", "font_big", "This is the wreck of the civilian airplane Poseidon 737.")
 dialog_addDialog("let-v-vrak2", "cs", "sound/"..codename.."/cs/let-v-vrak2.ogg", "font_big", "To je vrak dopravního letadla Poseidon 737.")
 dialog_addDialog("let-v-vrak2", "fr", "", "font_big", "Et ici, d'un avion civile Poséidon 737.")
 dialog_addDialog("let-v-vrak2", "de", "", "font_big", "Das ist das Wrack des Passagierfluzeuges Poseidon 737.")

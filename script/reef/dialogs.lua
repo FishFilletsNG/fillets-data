@@ -28,13 +28,13 @@ dialog_addDialog("uts-m-lastura", "fr", "", "font_small", "Je dois probablement 
 dialog_addDialog("uts-m-lastura", "de", "", "font_small", "Ich hätte wahrscheinlich diese Muschel zuerst anheben sollen.")
 dialog_addDialog("uts-m-lastura", "it", "", "font_small", "Forse, prima, dovevo alzare quella conchiglia.")
 
-dialog_addDialog("uts-v-poradi", "en", "", "font_big", "Maybe we would have to switch these objects.")
+dialog_addDialog("uts-v-poradi", "en", "", "font_big", "Maybe we have to switch these objects.")
 dialog_addDialog("uts-v-poradi", "cs", "sound/"..codename.."/cs/uts-v-poradi.ogg", "font_big", "Možná bude potřeba vyměnit pořadí těch předmětů.")
 dialog_addDialog("uts-v-poradi", "fr", "", "font_big", "Peut-être devrions-nous échanger la place de ces objets.")
 dialog_addDialog("uts-v-poradi", "de", "", "font_big", "Vielleicht müssen wir diese Gegenstände vertauschen.")
 dialog_addDialog("uts-v-poradi", "it", "", "font_big", "Mi sa che dovremmo scambiare questi oggetti.")
 
-dialog_addDialog("uts-m-matrace", "en", "", "font_small", "Mattress. The best thing you can get under water.")
+dialog_addDialog("uts-m-matrace", "en", "", "font_small", "A mattress. The best thing you can get under water.")
 dialog_addDialog("uts-m-matrace", "cs", "sound/"..codename.."/cs/uts-m-matrace.ogg", "font_small", "Matrace. To nejlepší, co pod vodou seženete.")
 dialog_addDialog("uts-m-matrace", "fr", "", "font_small", "Un matelas. La meilleure chose que l'on peut trouver sous l'eau.")
 dialog_addDialog("uts-m-matrace", "de", "", "font_small", "Eine Matratze. Das beste Ding, das man unter Wasser haben kann.")
@@ -94,7 +94,7 @@ dialog_addDialog("uts-m-zelvy", "fr", "", "font_small", "Les tortues corail, par
 dialog_addDialog("uts-m-zelvy", "de", "", "font_small", "Zum Beispiel Korallenschildkröten.")
 dialog_addDialog("uts-m-zelvy", "it", "", "font_small", "Tartarughe dei coralli, per esempio.")
 
-dialog_addDialog("uts-m-batyskaf", "en", "", "font_small", "And moreover I have a suspicion that microscope is in one bathyscaph.")
+dialog_addDialog("uts-m-batyskaf", "en", "", "font_small", "And moreover I have a suspicion that there's a microscope in a bathyscaph.")
 dialog_addDialog("uts-m-batyskaf", "cs", "sound/"..codename.."/cs/uts-m-batyskaf.ogg", "font_small", "A navíc mi něco říká, že mikroskop je v jednom batyskafu.")
 dialog_addDialog("uts-m-batyskaf", "fr", "", "font_small", "De plus je crois que le microscope se trouve dans un bathyscaphe.")
 dialog_addDialog("uts-m-batyskaf", "de", "", "font_small", "Und außerdem habe ich den Verdacht, dass dieses Mikroskop in einem Tauchboot ist.")

@@ -113,7 +113,7 @@ dialog_addDialog("kuch-v-kreslo1", "cs", "sound/"..codename.."/cs/kuch-v-kreslo1
 dialog_addDialog("kuch-v-kreslo1", "fr", "", "font_big", "Il ne devrait pas y avoir de fauteuil dans une cuisine.")
 dialog_addDialog("kuch-v-kreslo1", "de", "", "font_big", "In einer Küche sollten es keine Sessel geben.")
 
-dialog_addDialog("kuch-m-kreslo2", "en", "", "font_small", "Everybody want to rest sometimes.")
+dialog_addDialog("kuch-m-kreslo2", "en", "", "font_small", "Everybody wants to rest sometimes.")
 dialog_addDialog("kuch-m-kreslo2", "cs", "sound/"..codename.."/cs/kuch-m-kreslo2.ogg", "font_small", "Každý si chce někdy odpočinout.")
 dialog_addDialog("kuch-m-kreslo2", "fr", "", "font_small", "Tout le monde peut se reposer par moment.")
 dialog_addDialog("kuch-m-kreslo2", "de", "", "font_small", "Jeder will sich mal ausruhen.")
@@ -128,7 +128,7 @@ dialog_addDialog("kuch-v-serie", "cs", "sound/"..codename.."/cs/kuch-v-serie.ogg
 dialog_addDialog("kuch-v-serie", "fr", "", "font_big", "Elles sont produites en masse, tu sais.")
 dialog_addDialog("kuch-v-serie", "de", "", "font_big", "Das sind Massenprodukte, weißt du?.")
 
-dialog_addDialog("kuch-m-pekne", "en", "", "font_small", "But they are nice. We`ll order us a few, too.")
+dialog_addDialog("kuch-m-pekne", "en", "", "font_small", "But they are nice. We should order a few too.")
 dialog_addDialog("kuch-m-pekne", "cs", "sound/"..codename.."/cs/kuch-m-pekne.ogg", "font_small", "Ale jsou pěkné. Taky si takové pořídíme.")
 dialog_addDialog("kuch-m-pekne", "fr", "", "font_small", "Mais elles sont pas mal. Commandons en quelques unes, nous aussi.")
 dialog_addDialog("kuch-m-pekne", "de", "", "font_small", "Aber die sind hübsch. Wir werden uns auch ein paar bestellen.")

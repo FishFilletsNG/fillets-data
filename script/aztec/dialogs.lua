@@ -8,7 +8,7 @@ dialog_addDialog("bot-v-uveznen0", "cs", "sound/"..codename.."/cs/bot-v-uveznen0
 dialog_addDialog("bot-v-uveznen0", "fr", "", "font_big", "Il est bloqué par les amphores.")
 dialog_addDialog("bot-v-uveznen0", "de", "", "font_big", "Es ist von Amphoren verschüttet.")
 
-dialog_addDialog("bot-v-uveznen1", "en", "", "font_big", "It got itself drunk among amphoras.")
+dialog_addDialog("bot-v-uveznen1", "en", "", "font_big", "It got itself drunk among the amphoras.")
 dialog_addDialog("bot-v-uveznen1", "cs", "sound/"..codename.."/cs/bot-v-uveznen1.ogg", "font_big", "Opíjel se mezi amforami.")
 dialog_addDialog("bot-v-uveznen1", "fr", "", "font_big", "Il est devenu saoul au milieu des amphores.")
 dialog_addDialog("bot-v-uveznen1", "de", "", "font_big", "Es hat sich zwischen Amphoren betrunken.")
@@ -28,12 +28,12 @@ dialog_addDialog("bot-m-vidim", "cs", "sound/"..codename.."/cs/bot-m-vidim.ogg",
 dialog_addDialog("bot-m-vidim", "fr", "", "font_small", "Finalement, je peux voir de nouveau type de crâne.")
 dialog_addDialog("bot-m-vidim", "de", "", "font_small", "Endlich sehe ich mal einen anderen Schädel.")
 
-dialog_addDialog("bot-v-vsim", "en", "", "font_big", "Did you notice that totem? This is Mexican god Shelloxuatl.")
+dialog_addDialog("bot-v-vsim", "en", "", "font_big", "Did you notice that totem? It is the Mexican god Shelloxuatl.")
 dialog_addDialog("bot-v-vsim", "cs", "sound/"..codename.."/cs/bot-v-vsim.ogg", "font_big", "Všimla sis toho totemu? To je mexický bůh Škleboxuatl.")
 dialog_addDialog("bot-v-vsim", "fr", "", "font_big", "Tu as remarqué ce totem ? C'est le dieux mexicain Shelloxuatl.")
 dialog_addDialog("bot-v-vsim", "de", "", "font_big", "Das du das Totem gesehen? Das ist der mexikanische Gott Shelloxuatl.")
 
-dialog_addDialog("bot-m-vypada", "en", "", "font_small", "It looks like that.")
+dialog_addDialog("bot-m-vypada", "en", "", "font_small", "It looks like it.")
 dialog_addDialog("bot-m-vypada", "cs", "sound/"..codename.."/cs/bot-m-vypada.ogg", "font_small", "Vypadá na to.")
 dialog_addDialog("bot-m-vypada", "fr", "", "font_small", "Il ressemble à ça.")
 dialog_addDialog("bot-m-vypada", "de", "", "font_small", "So sieht es aus.")
@@ -48,12 +48,12 @@ dialog_addDialog("bot-v-vsak0", "cs", "sound/"..codename.."/cs/bot-v-vsak0.ogg",
 dialog_addDialog("bot-v-vsak0", "fr", "", "font_big", "Et bien, tu n'es pas un ours après tout.")
 dialog_addDialog("bot-v-vsak0", "de", "", "font_big", "Na und, du bist ja auch un-menschlich.")
 
-dialog_addDialog("bot-v-vsak1", "en", "", "font_big", "Don`t forget we are under water.")
+dialog_addDialog("bot-v-vsak1", "en", "", "font_big", "Don`t forget that we are under water.")
 dialog_addDialog("bot-v-vsak1", "cs", "sound/"..codename.."/cs/bot-v-vsak1.ogg", "font_big", "Však jsme také pod vodou.")
 dialog_addDialog("bot-v-vsak1", "fr", "", "font_big", "N'oublie pas que nous sommes sous l'eau.")
 dialog_addDialog("bot-v-vsak1", "de", "", "font_big", "Vergiss nicht, dass wir unter Wasser sind.")
 
-dialog_addDialog("bot-m-ble", "en", "", "font_small", "Yuck. The authors could spare us that animation.")
+dialog_addDialog("bot-m-ble", "en", "", "font_small", "Yuck. The authors could have spared us that animation.")
 dialog_addDialog("bot-m-ble", "cs", "sound/"..codename.."/cs/bot-m-ble.ogg", "font_small", "Blé... Tuhle animaci si autoři mohli odpustit.")
 dialog_addDialog("bot-m-ble", "fr", "", "font_small", "Argh. Les auteurs auraient put nous épargner cette animation.")
 dialog_addDialog("bot-m-ble", "de", "", "font_small", "Bäh. Die Animation hätten sich die Autoren sparen können.")

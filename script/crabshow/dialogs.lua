@@ -1,4 +1,4 @@
-dialog_addDialog("sec-v-ven0", "en", "", "font_big", "I am closed here.")
+dialog_addDialog("sec-v-ven0", "en", "", "font_big", "I am trapped here.")
 dialog_addDialog("sec-v-ven0", "cs", "sound/"..codename.."/cs/sec-v-ven0.ogg", "font_big", "Jsem tu zavřený.")
 dialog_addDialog("sec-v-ven0", "fr", "", "font_big", "Là, je suis enfermé.")
 dialog_addDialog("sec-v-ven0", "de", "", "font_big", "Ich bin hier eingeschlossen.")
@@ -34,7 +34,7 @@ dialog_addDialog("sec-m-kamen", "cs", "sound/"..codename.."/cs/sec-m-kamen.ogg",
 dialog_addDialog("sec-m-kamen", "fr", "", "font_small", "Essaie de détacher des pierres du mur.")
 dialog_addDialog("sec-m-kamen", "de", "", "font_small", "Versuche, einen Stein in der Mauer zu lockern.")
 
-dialog_addDialog("sec-m-krab", "en", "", "font_small", "Isn`t that crab little bit strange?")
+dialog_addDialog("sec-m-krab", "en", "", "font_small", "Isn`t that crab a little bit strange?")
 dialog_addDialog("sec-m-krab", "cs", "sound/"..codename.."/cs/sec-m-krab.ogg", "font_small", "Nezdá se ti ten krab poněkud úchylný?")
 dialog_addDialog("sec-m-krab", "fr", "", "font_small", "Ce crabe, n'est-il pas un petit peu étrange ?")
 dialog_addDialog("sec-m-krab", "de", "", "font_small", "Ist die Krabbe nicht ein wenig seltsam?")
@@ -59,12 +59,12 @@ dialog_addDialog("sec-v-normalni0", "cs", "sound/"..codename.."/cs/sec-v-normaln
 dialog_addDialog("sec-v-normalni0", "fr", "", "font_big", "Je le trouve normal.")
 dialog_addDialog("sec-v-normalni0", "de", "", "font_big", "Ich denke, sie ist normal.")
 
-dialog_addDialog("sec-v-normalni1", "en", "", "font_big", "Yes, it`s little weird.")
+dialog_addDialog("sec-v-normalni1", "en", "", "font_big", "Yes, it`s a little weird.")
 dialog_addDialog("sec-v-normalni1", "cs", "sound/"..codename.."/cs/sec-v-normalni1.ogg", "font_big", "Je trochu zvláštní...")
 dialog_addDialog("sec-v-normalni1", "fr", "", "font_big", "Oui il paraît dérangé.")
 dialog_addDialog("sec-v-normalni1", "de", "", "font_big", "Ja, die ist ein wenig verrückt.")
 
-dialog_addDialog("sec-m-balonky", "en", "", "font_small", "We should be glad we got all those balls.")
+dialog_addDialog("sec-m-balonky", "en", "", "font_small", "We should be glad we have all these balls.")
 dialog_addDialog("sec-m-balonky", "cs", "sound/"..codename.."/cs/sec-m-balonky.ogg", "font_small", "Ještě, že tu jsou všechny ty balónky.")
 dialog_addDialog("sec-m-balonky", "fr", "", "font_small", "Nous devrions être content d'avoir toutes ces balles.")
 dialog_addDialog("sec-m-balonky", "de", "", "font_small", "Ein Glück, dass wir so viele Bälle haben.")
@@ -79,7 +79,7 @@ dialog_addDialog("sec-v-pocit", "cs", "sound/"..codename.."/cs/sec-v-pocit.ogg",
 dialog_addDialog("sec-v-pocit", "fr", "", "font_big", "J'ai l'impression que j'oublie quelque chose.")
 dialog_addDialog("sec-v-pocit", "de", "", "font_big", "Ich hab so ein komisches Gefühl.")
 
-dialog_addDialog("sec-m-pocity", "en", "", "font_small", "Your feeling... think about how to get us out.")
+dialog_addDialog("sec-m-pocity", "en", "", "font_small", "Your feelings... think about how to get us out.")
 dialog_addDialog("sec-m-pocity", "cs", "sound/"..codename.."/cs/sec-m-pocity.ogg", "font_small", "Tvoje pocity... radši přemýšlej jak ven.")
 dialog_addDialog("sec-m-pocity", "fr", "", "font_small", "Tes intuitions... Réfléchit plutôt à comment sortir.")
 dialog_addDialog("sec-m-pocity", "de", "", "font_small", "Deine Gefühle... denk darüber nach, wie wir hier rauskommen.")

@@ -3,7 +3,7 @@ dialog_addDialog("mot-m-info", "cs", "sound/"..codename.."/cs/mot-m-info.ogg", "
 dialog_addDialog("mot-m-info", "fr", "", "font_small", "Je pense que nous pouvons glaner quelques informations à propos de la propulsion interstellaire ici.")
 dialog_addDialog("mot-m-info", "de", "", "font_small", "Ich glaube, hier können wir ein paar Informationen über den intergalaktischen Antrieb bekommen.")
 
-dialog_addDialog("mot-v-konvencni", "en", "", "font_big", "This looks more like a conventional propulsion for the landing craft.")
+dialog_addDialog("mot-v-konvencni", "en", "", "font_big", "This looks more like conventional propulsion for the landing craft.")
 dialog_addDialog("mot-v-konvencni", "cs", "sound/"..codename.."/cs/mot-v-konvencni.ogg", "font_big", "Tohle vypadá spíš na konvenční pohon pro výsadková vozidla.")
 dialog_addDialog("mot-v-konvencni", "fr", "", "font_big", "Ceci ressemble plus à la propulsion conventionnelle d'un véhicule terrestre.")
 dialog_addDialog("mot-v-konvencni", "de", "", "font_big", "Das sieht eher wie ein gewöhnlicher Antrieb für das Landungsschiff aus.")
@@ -13,7 +13,7 @@ dialog_addDialog("mot-m-tak", "cs", "sound/"..codename.."/cs/mot-m-tak.ogg", "fo
 dialog_addDialog("mot-m-tak", "fr", "", "font_small", "Enfin. Nous avons trouvé l'accès. Nous avons atteint un des objectifs de notre mission.")
 dialog_addDialog("mot-m-tak", "de", "", "font_small", "So. Wir haben den Antrieb gefunden. Wir haben ein Ziel unserer Aufgabe erreicht.")
 
-dialog_addDialog("mot-v-zavery", "en", "", "font_big", "Don`t be hasty. We didn`t search the whole wreck yet.")
+dialog_addDialog("mot-v-zavery", "en", "", "font_big", "Don`t be so hasty. We haven`t searched the whole wreck yet.")
 dialog_addDialog("mot-v-zavery", "cs", "sound/"..codename.."/cs/mot-v-zavery.ogg", "font_big", "Nedělej ukvapené závěry. Ještě jsme neprohlédli celý vrak.")
 dialog_addDialog("mot-v-zavery", "fr", "", "font_big", "Pas de précipitation. Nous n'avons pas encore fouillé toute l'épave.")
 dialog_addDialog("mot-v-zavery", "de", "", "font_big", "Nicht so voreilig. Wir haben noch nicht das ganze Wrack abgesucht.")
@@ -44,7 +44,7 @@ dialog_addDialog("mot-v-funkce1", "cs", "sound/"..codename.."/cs/mot-v-funkce1.o
 dialog_addDialog("mot-v-funkce1", "fr", "", "font_big", "Je me réjouis que nous ne pouvons rien tourner ici.")
 dialog_addDialog("mot-v-funkce1", "de", "", "font_big", "Ich bin ziemlich froh, dass wir hier nichts anschalten können.")
 
-dialog_addDialog("mot-v-funkce2", "en", "", "font_big", "We should be happy that we didn`t switch anything on yet.")
+dialog_addDialog("mot-v-funkce2", "en", "", "font_big", "We should be happy that we could not switch anything on yet.")
 dialog_addDialog("mot-v-funkce2", "cs", "sound/"..codename.."/cs/mot-v-funkce2.ogg", "font_big", "Naše štěstí je, že tu nemůžeme nic zapnout.")
 dialog_addDialog("mot-v-funkce2", "fr", "", "font_big", "Nous devrions être contents d'être incapables d'allumer quoique ce soit.")
 dialog_addDialog("mot-v-funkce2", "de", "", "font_big", "Wir sollten froh sein, dass wir hier noch nichts angeschaltet haben.")

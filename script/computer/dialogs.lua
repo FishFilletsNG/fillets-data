@@ -8,12 +8,12 @@ dialog_addDialog("poc-m-lezt1", "cs", "sound/"..codename.."/cs/poc-m-lezt1.ogg",
 dialog_addDialog("poc-m-lezt1", "fr", "", "font_small", "Quel sorte de lieu est-ce ?")
 dialog_addDialog("poc-m-lezt1", "de", "", "font_small", "Wo sind wir hier?")
 
-dialog_addDialog("poc-m-lezt2", "en", "", "font_small", "Wow, that`s a place.")
+dialog_addDialog("poc-m-lezt2", "en", "", "font_small", "Wow, what a place!")
 dialog_addDialog("poc-m-lezt2", "cs", "sound/"..codename.."/cs/poc-m-lezt2.ogg", "font_small", "To je teda místo.")
 dialog_addDialog("poc-m-lezt2", "fr", "", "font_small", "Ouah, ça c'est du lieu.")
 dialog_addDialog("poc-m-lezt2", "de", "", "font_small", "Boa, wie sieht`s hier denn aus?")
 
-dialog_addDialog("poc-v-kam0", "en", "", "font_big", "Where can man - I mean fish - get by climbing into toilet?")
+dialog_addDialog("poc-v-kam0", "en", "", "font_big", "Where can man - I mean fish - get by climbing into a toilet?")
 dialog_addDialog("poc-v-kam0", "cs", "sound/"..codename.."/cs/poc-v-kam0.ogg", "font_big", "Kam tak člověk - chci říci ryba - může vlézt záchodem?")
 dialog_addDialog("poc-v-kam0", "fr", "", "font_big", "Par où les hommes - je veux dire les poissons - grimpent aux toilettes ?")
 dialog_addDialog("poc-v-kam0", "de", "", "font_big", "Wohin kommt man, äh - ich meine Fisch, wenn er in eine Toilette klettert?")
@@ -23,7 +23,7 @@ dialog_addDialog("poc-v-kam1", "cs", "sound/"..codename.."/cs/poc-v-kam1.ogg", "
 dialog_addDialog("poc-v-kam1", "fr", "", "font_big", "Ca ressemble à un douillet petit dépotoir.")
 dialog_addDialog("poc-v-kam1", "de", "", "font_big", "Sieht wie ein hübscher kleiner Müllplatz aus.")
 
-dialog_addDialog("poc-v-kam2", "en", "", "font_big", "Look, what kind of things have the people flushed down the toilet.")
+dialog_addDialog("poc-v-kam2", "en", "", "font_big", "Look, what kind of things people have flushed down the toilet.")
 dialog_addDialog("poc-v-kam2", "cs", "sound/"..codename.."/cs/poc-v-kam2.ogg", "font_big", "Podívej, co ty lidi nenaházeli do záchodu.")
 dialog_addDialog("poc-v-kam2", "fr", "", "font_big", "Regarde, qu'est-ce les gens ont bien put jeter dans les WC.")
 dialog_addDialog("poc-v-kam2", "de", "", "font_big", "Sieh nur, was die Leute so die Toilette runterspülen!")
@@ -38,17 +38,17 @@ dialog_addDialog("poc-v-nenajde", "cs", "sound/"..codename.."/cs/poc-v-nenajde.o
 dialog_addDialog("poc-v-nenajde", "fr", "", "font_big", "Tu peux trouver beaucoup de choses bizarres dans un tel dépotoir.")
 dialog_addDialog("poc-v-nenajde", "de", "", "font_big", "Man kann viele seltsame Dinge auf so einer Müllkippe finden.")
 
-dialog_addDialog("poc-m-myslis", "en", "", "font_small", "Do you think this is the computer that`s in stake in this game?")
+dialog_addDialog("poc-m-myslis", "en", "", "font_small", "Do you think this is the computer that`s at stake in this game?")
 dialog_addDialog("poc-m-myslis", "cs", "sound/"..codename.."/cs/poc-m-myslis.ogg", "font_small", "Myslíš, že tohle je ten počítač, o který se tu hraje?")
 dialog_addDialog("poc-m-myslis", "fr", "", "font_small", "Penses-tu que c'est l'ordinateur dont il est question dans ce jeu ?")
 dialog_addDialog("poc-m-myslis", "de", "", "font_small", "Denkst du, dass es in diesem Spiel um diesen Rechner geht?")
 
-dialog_addDialog("poc-v-multimed", "en", "", "font_big", "Surely not! This is no powerful multimedia computer. This is but XT machine with twelve inch display.")
+dialog_addDialog("poc-v-multimed", "en", "", "font_big", "Surely not! This is no powerful multimedia computer. This is but an XT machine with a twelve inch display.")
 dialog_addDialog("poc-v-multimed", "cs", "sound/"..codename.."/cs/poc-v-multimed.ogg", "font_big", "No dovol! Tohle přece není výkoný multimediální počítač. To je XTéčko s dvanáctipalcovým monitorem.")
 dialog_addDialog("poc-v-multimed", "fr", "", "font_big", "Sûrement pas ! Ce n'est pas un ordinateur multimédia puissant. Ce n'est qu'un XT avec écran 12 pouces.")
 dialog_addDialog("poc-v-multimed", "de", "", "font_big", "Bestimmt nicht! Das ist kein leistungsstarker Multimedia-Rechner. Das ist nur eine XT-Maschine mit 12-Zoll Bildschirm.")
 
-dialog_addDialog("poc-v-vyresil", "en", "", "font_big", "The one who will solve, I mean who have solved, will receive, I mean received, MMX based machine with 3Dfx card, plenty of RAM, huge hard disk...")
+dialog_addDialog("poc-v-vyresil", "en", "", "font_big", "The one who solves, I mean who has solved this, will receive, I mean will have received, MMX based machine with a 3Dfx card, plenty of RAM, a huge hard disk...")
 dialog_addDialog("poc-v-vyresil", "cs", "sound/"..codename.."/cs/poc-v-vyresil.ogg", "font_big", "Ten, kdo první vyřeší, chci říci vyřešil, všechny zbývající levely, vyhraje, chci říci vyhrál, počítač s technologií MMX, 3Dfx kartou, spoustou paměti, obřím diskem...")
 dialog_addDialog("poc-v-vyresil", "fr", "", "font_big", "Celui qui résoudra, je veux dire a résolu, recevra, je veux dire a reçu, un ordinateur MMX avec une carte vidéo 3Dfx, beaucoup de RAM, un énorme disque...")
 dialog_addDialog("poc-v-vyresil", "de", "", "font_big", "Diejenigen, die das Spiel lösen, ich meine gelöst haben, bekommen, äh haben schon einen MMX-Rechner bekommen mit 3D-Karte, massig Arbeitsspeicher, riesiger Festplatte...")
@@ -78,7 +78,7 @@ dialog_addDialog("poc-v-stahni", "cs", "sound/"..codename.."/cs/poc-v-stahni.ogg
 dialog_addDialog("poc-v-stahni", "fr", "", "font_big", "Qu'est que nous attendons alors ? Récupérons les données sur la disquette et partons.")
 dialog_addDialog("poc-v-stahni", "de", "", "font_big", "Worauf warten wir? Speicher die verdächtigen Daten auf Diskette und weg hier!")
 
-dialog_addDialog("poc-m-ukryta", "en", "", "font_small", "It won`t be as easy as that. The data are surely going to be hidden somewhere. We have to go in.")
+dialog_addDialog("poc-m-ukryta", "en", "", "font_small", "It won`t be as easy as that. The data is surely going to be hidden somewhere. We have to go in.")
 dialog_addDialog("poc-m-ukryta", "cs", "sound/"..codename.."/cs/poc-m-ukryta.ogg", "font_small", "To nebude tak jednoduché. Data v něm budou určitě dobře ukryta. Budu se muset dostat dovnitř.")
 dialog_addDialog("poc-m-ukryta", "fr", "", "font_small", "Ce n'est pas aussi simple que ça. Les données sont sûrement cachées. Introduisons nous à l'intérieur.")
 dialog_addDialog("poc-m-ukryta", "de", "", "font_small", "So leicht wird das nicht sein. Die Daten sind sicherlich irgendwo versteckt. Wir müssen reingehen.")

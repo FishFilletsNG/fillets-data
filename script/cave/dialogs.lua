@@ -8,12 +8,12 @@ dialog_addDialog("jes-v-tojo", "cs", "sound/"..codename.."/cs/jes-v-tojo.ogg", "
 dialog_addDialog("jes-v-tojo", "fr", "", "font_big", "Et bien, oui.")
 dialog_addDialog("jes-v-tojo", "de", "", "font_big", "Oh ja.")
 
-dialog_addDialog("jes-m-tvor", "en", "", "font_small", "That red creature is little bit strange.")
+dialog_addDialog("jes-m-tvor", "en", "", "font_small", "That red creature is a little bit strange.")
 dialog_addDialog("jes-m-tvor", "cs", "sound/"..codename.."/cs/jes-m-tvor.ogg", "font_small", "Ten červený tvor má trochu zvláštní tvar.")
 dialog_addDialog("jes-m-tvor", "fr", "", "font_small", "Cette créature rouge est un poil étrange.")
 dialog_addDialog("jes-m-tvor", "de", "", "font_small", "Diese rote Kreatur ist ein wenig merkwürdig.")
 
-dialog_addDialog("jes-v-nestezuj", "en", "", "font_big", "It may be true, but I think we are going to need it.")
+dialog_addDialog("jes-v-nestezuj", "en", "", "font_big", "That may be true, but I think we are going to need it.")
 dialog_addDialog("jes-v-nestezuj", "cs", "sound/"..codename.."/cs/jes-v-nestezuj.ogg", "font_big", "Nestěžuj si. Něco mi říká, že se to bude ještě hodit.")
 dialog_addDialog("jes-v-nestezuj", "fr", "", "font_big", "C'est peut-être vrai, mais je pense que nous allons en avoir besoin.")
 dialog_addDialog("jes-v-nestezuj", "de", "", "font_big", "Kann sein. Ich denke aber, wir werden sie brauchen.")
@@ -29,7 +29,7 @@ dialog_addDialog("jes-m-ryba", "fr", "", "font_small", "Ce poisson blanc est un 
 dialog_addDialog("jes-m-ryba", "de", "", "font_small", "Dieser weiße Fisch ist ein schreckliches Hindernis.")
 dialog_addDialog("jes-m-ryba", "de_CH", "", "font_small", "Dieser weisse Fisch ist ein schreckliches Hindernis.")
 
-dialog_addDialog("jes-v-kamen", "en", "", "font_big", "Fish? I thought it`s only a stone.")
+dialog_addDialog("jes-v-kamen", "en", "", "font_big", "Fish? I thought it was only a stone.")
 dialog_addDialog("jes-v-kamen", "cs", "sound/"..codename.."/cs/jes-v-kamen.ogg", "font_big", "Ryba? Myslel jsem, že je to jen kámen.")
 dialog_addDialog("jes-v-kamen", "fr", "", "font_big", "Un poisson ? Je croyais que c'était juste une pierre.")
 dialog_addDialog("jes-v-kamen", "de", "", "font_big", "Fisch? Ich dachte, das ist nur ein Stein.")
@@ -44,7 +44,7 @@ dialog_addDialog("jes-m-deprese", "cs", "sound/"..codename.."/cs/jes-m-deprese.o
 dialog_addDialog("jes-m-deprese", "fr", "", "font_small", "Et pas de dépression. Nous allons trouver la solution en un rien de temps.")
 dialog_addDialog("jes-m-deprese", "de", "", "font_small", "Jetzt sei nicht depressiv. Das werden wir ruckzuck gelöst haben.")
 
-dialog_addDialog("jes-v-nevim", "en", "", "font_big", "I am not that sure.")
+dialog_addDialog("jes-v-nevim", "en", "", "font_big", "I am not so sure.")
 dialog_addDialog("jes-v-nevim", "cs", "sound/"..codename.."/cs/jes-v-nevim.ogg", "font_big", "No nevím...")
 dialog_addDialog("jes-v-nevim", "fr", "", "font_big", "Je ne suis pas si sûr.")
 dialog_addDialog("jes-v-nevim", "de", "", "font_big", "Ich bin da nicht so sicher.")

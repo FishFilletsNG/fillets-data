@@ -1,4 +1,4 @@
-dialog_addDialog("puc-m-koukej", "en", "", "font_small", "Look, what can we find on such a dump.")
+dialog_addDialog("puc-m-koukej", "en", "", "font_small", "Look what we can find on such a dump.")
 dialog_addDialog("puc-m-koukej", "cs", "sound/"..codename.."/cs/puc-m-koukej.ogg", "font_small", "Koukej, co se na takovém smetišti najde.")
 dialog_addDialog("puc-m-koukej", "fr", "", "font_small", "Regarde, que pouvons-nous trouver dans un tel dépotoir.")
 dialog_addDialog("puc-m-koukej", "de", "", "font_small", "Schau, was man alles so auf einer Müllhalde finden kann!")
@@ -13,7 +13,7 @@ dialog_addDialog("puc-v-videl", "cs", "sound/"..codename.."/cs/puc-v-videl.ogg",
 dialog_addDialog("puc-v-videl", "fr", "", "font_big", "Je suis sûr que j'ai vu cette femme quelque part.")
 dialog_addDialog("puc-v-videl", "de", "", "font_big", "Ich hab die Frau mit Sicherheit schon mal gesehen.")
 
-dialog_addDialog("puc-m-oblicej", "en", "", "font_small", "You are probably wrong, it`s a completely plain face.")
+dialog_addDialog("puc-m-oblicej", "en", "", "font_small", "You are probably wrong. It`s a completely plain face.")
 dialog_addDialog("puc-m-oblicej", "cs", "sound/"..codename.."/cs/puc-m-oblicej.ogg", "font_small", "To se ti jen zdá, je to úplně tuctový obličej.")
 dialog_addDialog("puc-m-oblicej", "fr", "", "font_small", "Tu te trompes probablement. C'est un visage plutôt discret.")
 dialog_addDialog("puc-m-oblicej", "de", "", "font_small", "Du irrst dich wahrscheinlich, das ist ein einfaches Gesicht.")

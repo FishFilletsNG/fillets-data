@@ -222,12 +222,12 @@ dialog_addDialog("ch-r-anavic1", "fr", "", "font_robodog", "Et tout le monde sai
 dialog_addDialog("ch-r-anavic1", "de", "", "font_robodog", "Und jeder weiß, dass jemand anders ihn umgebracht hat, die können nichts beweisen.")
 dialog_addDialog("ch-r-anavic1", "de_CH", "", "font_robodog", "Und jeder weiss, dass jemand anders ihn umgebracht hat, die können nichts beweisen.")
 
-dialog_addDialog("ch-r-anavic2", "en", "", "font_robodog", "And who cares for few soldiers.")
+dialog_addDialog("ch-r-anavic2", "en", "", "font_robodog", "And who cares about a few soldiers.")
 dialog_addDialog("ch-r-anavic2", "cs", "sound/"..codename.."/cs/ch-r-anavic2.ogg", "font_robodog", "A pro těch pár sedláků se nikdo nezblázní.")
 dialog_addDialog("ch-r-anavic2", "fr", "", "font_robodog", "Et qui se soucie de quelques soldats.")
 dialog_addDialog("ch-r-anavic2", "de", "", "font_robodog", "Und wen kümmern schon ein paar Soldaten.")
 
-dialog_addDialog("ch-r-anavic3", "en", "", "font_robodog", "And they told me that that regulatory rod isn`t important.")
+dialog_addDialog("ch-r-anavic3", "en", "", "font_robodog", "And they told me that the regulatory rod wasn`t important.")
 dialog_addDialog("ch-r-anavic3", "cs", "sound/"..codename.."/cs/ch-r-anavic3.ogg", "font_robodog", "A navíc říkali, že ta regulační tyč není v reaktoru důležitá.")
 dialog_addDialog("ch-r-anavic3", "fr", "", "font_robodog", "Et ils m'ont dit que ce bouton de régulation n'était pas important.")
 dialog_addDialog("ch-r-anavic3", "de", "", "font_robodog", "Und die haben mir gesagt, dass dieser Regulatorbrennstab unwichtig ist.")

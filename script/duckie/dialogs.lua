@@ -33,7 +33,7 @@ dialog_addDialog("odp-v-vtip", "cs", "sound/"..codename.."/cs/odp-v-vtip.ogg", "
 dialog_addDialog("odp-v-vtip", "fr", "", "font_big", "C'était une blague. Hé, hé.")
 dialog_addDialog("odp-v-vtip", "de", "", "font_big", "Das war mal ein Witz. Hah, hah.")
 
-dialog_addDialog("odp-m-predmet", "en", "", "font_small", "And there is even no funny animated object here.")
+dialog_addDialog("odp-m-predmet", "en", "", "font_small", "And there isn't even a funny animated object here.")
 dialog_addDialog("odp-m-predmet", "cs", "sound/"..codename.."/cs/odp-m-predmet.ogg", "font_small", "A není tu žádný veselý animovaný předmět.")
 dialog_addDialog("odp-m-predmet", "fr", "", "font_small", "Et il n'y même pas d'objet animé marrant ici.")
 dialog_addDialog("odp-m-predmet", "de", "", "font_small", "Hier ist nichtmal ein lustiger animierter Gegenstand.")
