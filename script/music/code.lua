@@ -5,7 +5,6 @@
 local function prog_init()
     initModels()
     local pokus = getRestartCount()
-    local roompole = createArray(1)
     local updateCycles = 0
 
 
@@ -16,10 +15,7 @@ local function prog_init()
         room.hlaskam = 0
         room.hlaskav = 0
         --TODO: allow to ask for music_volume
-        local music_volume = 50
-        if roompole[0] == 0 then
-            roompole[0] = music_volume
-        end
+        local startVolume = optionsGetAsInt("volume_sound")
         room.rozbito = 0
 
         return function()
@@ -39,9 +35,8 @@ local function prog_init()
                                 addv(10, "ves-v-vyp")
                             end,
                         }
-                    elseif roompole[0] > music_volume and music_volume < 16 then
-                        --TODO: do this when music is lowered
-                        roompole[0] = 0
+                    elseif startVolume > optionsGetAsInt("volume_sound") and optionsGetAsInt("volume_sound") < 16 then
+                        startVolume = 0
                         addm(15, "ves-m-dik")
                         addv(random(20) + 10, "ves-v-stejne")
                     end
