@@ -115,7 +115,7 @@ local function prog_init()
                     if odd(room.pobliz) then
                         krab:planDialog(5, "re-k-spim")
                     else
-                        krab:PlanDialog(5, "re-k-otravujete")
+                        krab:planDialog(5, "re-k-otravujete")
                     end
                 elseif room.rozhovor == 0 and room.pobliz > 1 and random(333) == 1 then
                     room.rozhovor = 1
