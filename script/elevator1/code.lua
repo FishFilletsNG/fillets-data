@@ -102,8 +102,9 @@ local function prog_init()
     local function prog_init_vytah()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
-        --FIXME: spec 4
-        spec = 4
+        --NOTE: double rope
+        game_addDecor("rope", vytah.index, stroj.index, 43, 0, 58, 27)
+        game_addDecor("rope", vytah.index, stroj.index, 43 + 3, 0, 58 + 3, 27)
 
         return function()
             if vytah.dir == dir_up then
@@ -117,9 +118,6 @@ local function prog_init()
     -- -------------------------------------------------------------
     local function prog_init_stroj()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
-
-        --FIXME: spec 3
-        spec = 3
 
         return function()
             if stroj.X == vytah.X - 1 then
