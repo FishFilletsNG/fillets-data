@@ -60,8 +60,7 @@ dialog_addDialog("deu-p-streng", "en", "sound/"..codename.."/en/deu-p-streng.ogg
 
 dialog_addDialog("deu-p-ordnung", "en", "sound/"..codename.."/en/deu-p-ordnung.ogg", "font_parrot", "Das ist in Ordnung, Herr Oberleutnant!")
 
-dialog_addDialog("deu-p-skoll", "en", "sound/"..codename.."/en/deu-p-skoll.ogg", "font_parrot", "Skoll!")
-dialog_addDialog("deu-p-skoll", "de", "sound/"..codename.."/en/deu-p-skoll.ogg", "font_parrot", "Skol!")
+dialog_addDialog("deu-p-skoll", "en", "sound/"..codename.."/en/deu-p-skoll.ogg", "font_parrot", "Skål!")
 
 dialog_addDialog("deu-p-trinken0", "en", "sound/"..codename.."/en/deu-p-trinken0.ogg", "font_parrot", "Guten Morgen, mein Herr! Wollen Sie noch einen Tee?")
 
