@@ -3,7 +3,7 @@
 worldmap_addDesc("menu", "en", "Game menu", "Fish Fillets - Next Generation")
 worldmap_addDesc("menu", "cs", "Herní menu", "Fish Fillets - Next Generation")
 worldmap_addDesc("menu", "fr", "Menu", "Fish Fillets - Next Generation")
-worldmap_addDesc("menu", "de", "Menü", "Fischfilets - Die n�chste Generation")
+worldmap_addDesc("menu", "de", "Menü", "Fischfilets - Die nächste Generation")
 
 worldmap_addDesc("start", "en", "How It All Started", "Fish House")
 worldmap_addDesc("start", "cs", "Jak to všechno začalo", "Rybí domeček")
