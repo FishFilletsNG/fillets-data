@@ -38,7 +38,7 @@ node_bestSolution("society", 122, "Josef Peterka")
 node_bestSolution("creatures", 447, "Josef Peterka")
 node_bestSolution("cancan", 578, "Mark Byers")
 node_bestSolution("pearls", 513, "Josef Peterka")
---node_bestSolution("turtle", 0, "")
+node_bestSolution("turtle", 1958, "Josef Peterka")
  
 node_bestSolution("computer", 156, "Josef Peterka")
 node_bestSolution("noground", 44, "Heiko Luettges")
