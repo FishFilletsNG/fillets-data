@@ -50,10 +50,10 @@ end
 function isIn(item, table)
     for index, value in pairs(table) do
         if value == item then
-            return True
+            return true
         end
     end
-    return False
+    return false
 end
 
 -- -----------------------------------------------------------------
