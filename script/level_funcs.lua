@@ -128,73 +128,73 @@ end
 
 -- -----------------------------------------------------------------
 function addFishAnim(model, look_dir, directory)
-    model:addDuplexAnim("skeleton", directory.."/left/skeleton0.png",
-            directory.."/right/skeleton0.png")
+    model:addDuplexAnim("skeleton", directory.."/left/body_skeleton_00.png",
+            directory.."/right/body_skeleton_00.png")
 
-    model:addDuplexAnim("rest", directory.."/left/rest0.png",
-            directory.."/right/rest0.png")
-    model:addDuplexAnim("rest", directory.."/left/rest1.png",
-            directory.."/right/rest1.png")
-    model:addDuplexAnim("rest", directory.."/left/rest2.png",
-            directory.."/right/rest2.png")
+    model:addDuplexAnim("rest", directory.."/left/body_rest_00.png",
+            directory.."/right/body_rest_00.png")
+    model:addDuplexAnim("rest", directory.."/left/body_rest_01.png",
+            directory.."/right/body_rest_01.png")
+    model:addDuplexAnim("rest", directory.."/left/body_rest_02.png",
+            directory.."/right/body_rest_02.png")
 
-    model:addDuplexAnim("vertical_up", directory.."/left/vertical0.png",
-            directory.."/right/vertical0.png")
-    model:addDuplexAnim("vertical_up", directory.."/left/vertical1.png",
-            directory.."/right/vertical1.png")
-    model:addDuplexAnim("vertical_up", directory.."/left/vertical2.png",
-            directory.."/right/vertical2.png")
-    model:addDuplexAnim("vertical_up", directory.."/left/vertical3.png",
-            directory.."/right/vertical3.png")
-    model:addDuplexAnim("vertical_up", directory.."/left/vertical4.png",
-            directory.."/right/vertical4.png")
-    model:addDuplexAnim("vertical_up", directory.."/left/vertical5.png",
-            directory.."/right/vertical5.png")
+    model:addDuplexAnim("vertical_up", directory.."/left/body_vertical_00.png",
+            directory.."/right/body_vertical_00.png")
+    model:addDuplexAnim("vertical_up", directory.."/left/body_vertical_01.png",
+            directory.."/right/body_vertical_01.png")
+    model:addDuplexAnim("vertical_up", directory.."/left/body_vertical_02.png",
+            directory.."/right/body_vertical_02.png")
+    model:addDuplexAnim("vertical_up", directory.."/left/body_vertical_03.png",
+            directory.."/right/body_vertical_03.png")
+    model:addDuplexAnim("vertical_up", directory.."/left/body_vertical_04.png",
+            directory.."/right/body_vertical_04.png")
+    model:addDuplexAnim("vertical_up", directory.."/left/body_vertical_05.png",
+            directory.."/right/body_vertical_05.png")
 
-    model:addDuplexAnim("vertical_down", directory.."/left/vertical5.png",
-            directory.."/right/vertical5.png")
-    model:addDuplexAnim("vertical_down", directory.."/left/vertical4.png",
-            directory.."/right/vertical4.png")
-    model:addDuplexAnim("vertical_down", directory.."/left/vertical3.png",
-            directory.."/right/vertical3.png")
-    model:addDuplexAnim("vertical_down", directory.."/left/vertical2.png",
-            directory.."/right/vertical2.png")
-    model:addDuplexAnim("vertical_down", directory.."/left/vertical1.png",
-            directory.."/right/vertical1.png")
-    model:addDuplexAnim("vertical_down", directory.."/left/vertical0.png",
-            directory.."/right/vertical0.png")
+    model:addDuplexAnim("vertical_down", directory.."/left/body_vertical_05.png",
+            directory.."/right/body_vertical_05.png")
+    model:addDuplexAnim("vertical_down", directory.."/left/body_vertical_04.png",
+            directory.."/right/body_vertical_04.png")
+    model:addDuplexAnim("vertical_down", directory.."/left/body_vertical_03.png",
+            directory.."/right/body_vertical_03.png")
+    model:addDuplexAnim("vertical_down", directory.."/left/body_vertical_02.png",
+            directory.."/right/body_vertical_02.png")
+    model:addDuplexAnim("vertical_down", directory.."/left/body_vertical_01.png",
+            directory.."/right/body_vertical_01.png")
+    model:addDuplexAnim("vertical_down", directory.."/left/body_vertical_00.png",
+            directory.."/right/body_vertical_00.png")
 
-    model:addDuplexAnim("swam", directory.."/left/swam0.png",
-            directory.."/right/swam0.png")
-    model:addDuplexAnim("swam", directory.."/left/swam1.png",
-            directory.."/right/swam1.png")
-    model:addDuplexAnim("swam", directory.."/left/swam2.png",
-            directory.."/right/swam2.png")
-    model:addDuplexAnim("swam", directory.."/left/swam3.png",
-            directory.."/right/swam3.png")
-    model:addDuplexAnim("swam", directory.."/left/swam4.png",
-            directory.."/right/swam4.png")
-    model:addDuplexAnim("swam", directory.."/left/swam5.png",
-            directory.."/right/swam5.png")
+    model:addDuplexAnim("swam", directory.."/left/body_swam_00.png",
+            directory.."/right/body_swam_00.png")
+    model:addDuplexAnim("swam", directory.."/left/body_swam_01.png",
+            directory.."/right/body_swam_01.png")
+    model:addDuplexAnim("swam", directory.."/left/body_swam_02.png",
+            directory.."/right/body_swam_02.png")
+    model:addDuplexAnim("swam", directory.."/left/body_swam_03.png",
+            directory.."/right/body_swam_03.png")
+    model:addDuplexAnim("swam", directory.."/left/body_swam_04.png",
+            directory.."/right/body_swam_04.png")
+    model:addDuplexAnim("swam", directory.."/left/body_swam_05.png",
+            directory.."/right/body_swam_05.png")
 
-    model:addDuplexAnim("turn", directory.."/left/turn0.png",
-            directory.."/right/turn0.png")
-    model:addDuplexAnim("turn", directory.."/left/turn1.png",
-            directory.."/right/turn1.png")
-    model:addDuplexAnim("turn", directory.."/left/turn2.png",
-            directory.."/right/turn2.png")
+    model:addDuplexAnim("turn", directory.."/left/body_turn_00.png",
+            directory.."/right/body_turn_00.png")
+    model:addDuplexAnim("turn", directory.."/left/body_turn_01.png",
+            directory.."/right/body_turn_01.png")
+    model:addDuplexAnim("turn", directory.."/left/body_turn_02.png",
+            directory.."/right/body_turn_02.png")
 
     -- heads
     model:addDuplexAnim("head_talking",
-            directory.."/heads/left/head_talking0.png",
-            directory.."/heads/right/head_talking0.png")
+            directory.."/heads/left/head_talking_00.png",
+            directory.."/heads/right/head_talking_00.png")
 
     model:addDuplexAnim("head_talking",
-            directory.."/heads/left/head_talking1.png",
-            directory.."/heads/right/head_talking1.png")
+            directory.."/heads/left/head_talking_01.png",
+            directory.."/heads/right/head_talking_01.png")
     model:addDuplexAnim("head_talking",
-            directory.."/heads/left/head_talking2.png",
-            directory.."/heads/right/head_talking2.png")
+            directory.."/heads/left/head_talking_02.png",
+            directory.."/heads/right/head_talking_02.png")
 
     model:runAnim("rest")
 end
