@@ -70,7 +70,7 @@ end
 local function anim_next(model)
     -- Process next symbol, uppercase letters are not blocking.
     local symbol = "A"
-    while string.lower(symbol) ~= symbol and model.anim_pos < string.len(model.anim) do
+    while string.lower(symbol) ~= symbol and model.anim_pos <= string.len(model.anim) do
         symbol = anim_getSymbol(model)
         anim_incPos(model)
         switch(string.lower(symbol)){
