@@ -24,7 +24,7 @@ dialog_addDialog("pap-m-teorie", "fr", "", "font_small", "Arrête de rêver et c
 
 dialog_addDialog("pap-m-radio", "en", "", "font_small", "This looks like a radio.")
 dialog_addDialog("pap-m-radio", "cs", "sound/"..codename.."/cs/pap-m-radio.ogg", "font_small", "Tohle vypadá jako rádio.")
-dialog_addDialog("pap-m-radio", "fr", "", "font_small", "Ca ressemble à une radio".)
+dialog_addDialog("pap-m-radio", "fr", "", "font_small", "Ca ressemble à une radio.")
 
 dialog_addDialog("pap-v-radio", "en", "", "font_big", "How could a radio get here?")
 dialog_addDialog("pap-v-radio", "cs", "sound/"..codename.."/cs/pap-v-radio.ogg", "font_big", "Kde by se tady vzalo rádio?")
