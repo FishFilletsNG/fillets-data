@@ -29,10 +29,14 @@ function script_loadState()
     local models = getModelsTable()
     local saved_table = unpickle_table(saved_models)
 
-    for model_key, model in pairs(saved_table) do
+    --NOTE: methods was not saved.
+    for model_key, model in pairs(models) do
         for param_key, param in pairs(model) do
-            models[model.index][param_key] = param
+            if nil == saved_table[model_key][param_key] and type(param) == "function" then
+                saved_table[model_key][param_key] = param
+            end
         end
     end
+    setModelsTable(saved_table)
 end
 
