@@ -102,9 +102,9 @@ local function prog_init()
                 end,
                 [10] = function() 
                     plzik.afaze = 4
-				if modelEquals(-1, plzik.X + 1, plzik.Y + 2) then
-                    stav = 21 + random(20)
-				end
+                    if modelEquals(-1, plzik.X + 1, plzik.Y + 2) then
+                        stav = 21 + random(20)
+                    end
                 end,
                 [15] = function() 
                     plzik.afaze = 5
@@ -121,7 +121,7 @@ local function prog_init()
                     end
                 end,
             }
-			plzik:setAnim("default", plzik.afaze)
+            plzik:setAnim("default", plzik.afaze)
         end
     end
     local function prog_init_snecek()
@@ -156,9 +156,9 @@ local function prog_init()
                     elseif random(100) < 2 or smer == -1 and sour == 0 or smer == 1 and sour == 15 then
                         smer = -smer
                     elseif smer < 0 then
-						sour = sour - 1
+                        sour = sour - 1
                     elseif smer > 0 then
-						sour = sour + 1
+                        sour = sour + 1
                     end
                 end,
                 [3] = function() 
@@ -197,7 +197,7 @@ local function prog_init()
                     end
                 end,
             }
-			snecek:setAnim("default", snecek.afaze)
+            snecek:setAnim("default", snecek.afaze)
         end
     end
 
