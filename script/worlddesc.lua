@@ -213,7 +213,7 @@ worldmap_addDesc("duckie", "de", "Abenteuer mit Rosa Entlein", "Halde")
 worldmap_addDesc("puzzle", "en", "Shredded Stickman", "Dump")
 worldmap_addDesc("puzzle", "cs", "Rozstříhaná čmáranice", "Smetiště")
 worldmap_addDesc("puzzle", "fr", "Eparpillement", "le dépotoir")
-worldmap_addDesc("puzzle", "de", "Zerrissener Stiftmann", "Halde")
+worldmap_addDesc("puzzle", "de", "Ablenkung", "Halde")
 
 worldmap_addDesc("dump", "en", "Real Chaos", "Dump")
 worldmap_addDesc("dump", "cs", "Opravdový chaos", "Smetiště")
