@@ -100,7 +100,7 @@ local function anim_next(model)
                 model.anim_pos = 1
             end,
             default = function()
-                error("SCRIPT_ERROR unknown anim symbol; symbol="..symbol.."; pos="..model.anim_pos)
+                error("SCRIPT_ERROR unknown anim symbol; symbol="..symbol.."; pos="..model.anim_pos.."; anim="..model.anim)
             end,
         }
     end
