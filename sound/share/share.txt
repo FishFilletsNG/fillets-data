@@ -1,0 +1,32 @@
+
+$vol
+ 50
+sp-ocel1
+sp-ocel2
+sp-zuch1
+sp-zuch2
+$vol
+ 15
+sp-bubles1
+sp-bubles2
+sp-bubles3
+sp-bubles4
+sp-bubles5
+sp-bubles6
+$vol 
+ 150
+sp-smrt
+sp-smrt1
+sp-smrt2
+$vol
+ 100
+jo-v-0
+jo-v-1
+jo-v-2
+jo-v-3
+jo-v-4
+jo-m-0
+jo-m-1
+jo-m-2
+jo-m-3
+jo-m-4
