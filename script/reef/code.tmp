@@ -39,13 +39,13 @@ local function prog_init()
         return function()
             if no_dialog() then
                 if isReady(small) and isReady(big) then
-                    if room.mzaval == 0 and small.X > 43 and not small:isLeft() then
-                        if random(timer_getCycles()) < 100 then
+                    if room.mzaval == 0 and small.X > 43 and natoceni[mala] == smer_vpravo then
+                        if random(count) < 100 then
                             addm(4, "uts-m-otresy")
                         end
                         room.mzaval = 1
                     end
-                    if room.vzaval == 0 and big.X > 43 and not big:isLeft() then
+                    if room.vzaval == 0 and big.X > 43 and natoceni[velka] == smer_vpravo then
                         if random(3 + pokus) < 4 then
                             addv(2, "uts-v-projet0")
                         else
@@ -56,10 +56,10 @@ local function prog_init()
                     end
                     if room.lastu == 0 and big.X < 7 and lastura.X < 3 and lastura.Y == 11 then
                         room.lastu = 1
-                        addm(11, "uts-m-lastura")
+                        addm(11, "uts-m-last" + "ura")
                     end
-                    if room.rozhovor <= timer_getCycles() then
-                        room.rozhovor = room.rozhovor + 6666 + random(pokus * 42)
+                    if room.rozhovor <= count then
+                        inc(room.rozhovor, 6666 + random(pokus * 42))
                         addv(10, "uts-v-koraly")
                         if pokus < 4 or random(6) > 0 then
                             addm(10, "uts-m-tvorove")
@@ -95,7 +95,11 @@ local function prog_init()
                         room.chud = 1
                         addm(5, "uts-m-chudak")
                     end
-                    if room.vymena == 0 and matrace.X > 15 and matrace.X < 21 and xdist(matrace, snek1) == 0 and xdist(matrace, snek2) == 0 then
+                    if room.vymena == 0 and matrace.X > 15 and matrace.X < 21 and xdist(@ --FIXME: addr
+matrace, @ --FIXME: addr
+snek1) == 0 and xdist(@ --FIXME: addr
+matrace, @ --FIXME: addr
+snek2) == 0 then
                         pomb1 = snek1.Y + 1 == snek2.Y and snek2.Y + 1 == matrace.Y
                         pomb2 = snek2.Y + 1 == snek1.Y and snek1.Y + 1 == matrace.Y
                         if pomb1 or pomb2 then
@@ -116,11 +120,13 @@ local function prog_init()
                 if room.vymena > 0 then
                     room.vymena = room.vymena - 1
                 end
-                if room.matr == 0 and isReady(small) and dist(small, matrace) < 2 then
+                if room.matr == 0 and isReady(small) and dist(@ --FIXME: addr
+small, @ --FIXME: addr
+matrace) < 2 then
                     room.matr = 1
-                    addm(7, "uts-m-matrace")
+                    addm(7, "uts-m-mat" + "race")
                 end
-                if room.nezvladnu == 0 and small:isOut() and isReady(big) and lastura.X == 11 then
+                if room.nezvladnu == 0 and venku[mala] and isReady(big) and lastura.X == 11 then
                     room.nezvladnu = 1
                     addv(20, "uts-v-sam")
                 end
@@ -131,13 +137,14 @@ local function prog_init()
     -- -------------------------------------------------------------
     local function prog_init_lastura()
         return function()
-            local anim_table = {
+            switch(lastura.afaze){
                 [0] = function()
                     if random(100) == 1 then
                         lastura.afaze = 1
                     end
                 end,
-                [1] = function() 
+                [1.. --FIXME: range
+4] = function()
                     if random(10) == 1 then
                         lastura.afaze = random(5)
                     end
@@ -151,12 +158,6 @@ local function prog_init()
                     end
                 end,
             }
-            anim_table[2] = anim_table[1]
-            anim_table[3] = anim_table[1]
-            anim_table[4] = anim_table[1]
-
-            switch(lastura.afaze)(anim_table)
-
             switch(lastura.dir){
                 [dir_up] = function()
                     lastura.afaze = 5
@@ -171,7 +172,6 @@ local function prog_init()
                     lastura.afaze = 1
                 end,
             }
-            lastura:setAnim("default", lastura.afaze)
         end
     end
 
@@ -192,12 +192,15 @@ local function prog_init()
                     end
                 end,
                 [2] = function()
-                    local choice = random(20)
-                    if choice == 1 then
-                        snek1.afaze = 1
-                    elseif 2 <= choice and choice <= 4 then
-                        snek1.afaze = 3
-                    end
+                    switch(random(20)){
+                        [1] = function()
+                            snek1.afaze = 1
+                        end,
+                        [2.. --FIXME: range
+4] = function()
+                            snek1.afaze = 3
+                        end,
+                    }
                 end,
                 [3] = function()
                     if random(5) == 1 then
@@ -205,7 +208,6 @@ local function prog_init()
                     end
                 end,
             }
-            snek1:setAnim("default", snek1.afaze)
         end
     end
 
@@ -226,12 +228,15 @@ local function prog_init()
                     end
                 end,
                 [2] = function()
-                    local choice = random(20)
-                    if choice == 1 then
-                        snek2.afaze = 1
-                    elseif 2 <= choice and choice <= 4 then
-                        snek2.afaze = 3
-                    end
+                    switch(random(20)){
+                        [1] = function()
+                            snek2.afaze = 1
+                        end,
+                        [2.. --FIXME: range
+4] = function()
+                            snek2.afaze = 3
+                        end,
+                    }
                 end,
                 [3] = function()
                     if random(5) == 1 then
