@@ -59,11 +59,6 @@ dialog_addDialog("tet-m-pozor", "cs", "sound/"..codename.."/cs/tet-m-pozor.ogg",
 dialog_addDialog("tet-m-pozor", "fr", "", "font_small", "Fais attention, nous sommes fragile.")
 dialog_addDialog("tet-m-pozor", "de", "", "font_small", "Pass auf, dass Du uns nicht wehtust.")
 
-dialog_addDialog("tet-v-hotovo", "en", "", "font_big", "Okay, I`m done. Input XTETRIS and you can get to it. Control the cubes by arrow keys or numpad.")
-dialog_addDialog("tet-v-hotovo", "cs", "sound/"..codename.."/cs/tet-v-hotovo.ogg", "font_big", "A je to hotovo. Napiš XTETRIS a můžeš se dát do toho. Ovládej to šipkama nebo numerickou klávesnicí.")
-dialog_addDialog("tet-v-hotovo", "fr", "", "font_big", "Okay, c'est fait. Entre XTETRIS pour y accéder. Dirige les cubes par les flèches ou le pavé numérique.")
-dialog_addDialog("tet-v-hotovo", "de", "", "font_big", "Gut, Ich bin fertig. Gib XTETRIS ein und Du kannst loslegen. Steuere die Teile mit den Pfeiltasten oder dem Ziffernblock.")
-
 dialog_addDialog("tet-v-kostky", "en", "", "font_big", "We will have to stack these pieces more efficiently, perhaps.")
 dialog_addDialog("tet-v-kostky", "cs", "sound/"..codename.."/cs/tet-v-kostky.ogg", "font_big", "Asi tam budeme muset ty kostky naskládat úsporněji.")
 dialog_addDialog("tet-v-kostky", "fr", "", "font_big", "Nous devons ranger ces pièces de manière plus efficace, peut-être.")

@@ -52,7 +52,6 @@ local function prog_init()
                     if random(100) < 50 then
                         addm(60, "tet-m-pozor")
                     end
-                    addv(60, "tet-v-hotovo")
                 elseif room.konec == 0 and trubka.X == 29 and trubka.dir == dir_no then
                     room.konec = 1
                     pom2 = 100
