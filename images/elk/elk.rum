@@ -1,0 +1,342 @@
+REDIT FILE from 22.3.1998 1:38:24
+Deutsche
+Deutsche
+1 0 5 10 5 0 0 0 0 0  Params
+-2147483632 Grid
+45 32
+Deutsche-pozadi.BMP
+0 obsolete
+0 Ext
+Deutsche-okoli.BMP
+65280 Mask
+0 Ext
+605 WlList
+1024 1280 1536 1792 2048 2304 2560 2816 3072
+3328 3584 3840 4096 4352 4608 4864 5120 5376 5632
+5888 6144 6400 6656 6912 7168 7424 7680 7936 1025
+1281 2049 2305 2561 2817 3073 3329 3585 3841 4097
+4353 4609 4865 5121 5377 5633 5889 6145 6401 6657
+6913 7169 7425 7681 7937 1026 1282 2306 2562 2818
+3074 3330 3586 3842 4098 4354 4610 4866 5122 5378
+5634 5890 6146 6402 6658 6914 7170 7426 7682 7938
+1027 1283 2563 2819 3075 3331 3587 3843 4099 4355
+4611 4867 5123 5379 5635 5891 6147 6403 6659 6915
+7171 7427 7683 7939 516 1028 1284 2564 2820 3076
+3332 3588 3844 4100 4356 4612 4868 5124 5380 5636
+5892 6148 6404 6660 6916 7172 7428 7684 7940 517
+773 1029 1285 1541 2821 3077 3333 3589 3845 4101
+4357 4613 4869 5125 5381 5637 5893 6149 6405 6661
+6917 7173 7429 7685 7941 2566 2822 3078 3334 3590
+3846 4102 4358 4614 4870 5126 5382 5638 5894 6150
+6406 6662 6918 7174 7430 7686 7942 2567 2823 3079
+3335 3591 3847 4103 4359 4615 4871 5127 5383 5639
+5895 6151 6407 6663 6919 7175 7431 7687 7943 2568
+2824 3080 3336 3592 3848 4104 4360 4616 4872 5128
+5384 5640 5896 6152 6408 6664 6920 7176 7432 7688
+7944 2569 2825 3081 3593 3849 4105 4361 4617 4873
+5129 5385 5641 5897 6153 6409 6665 6921 7177 7433
+7689 7945 522 778 1034 1290 1546 2826 3082 3850
+4106 4362 4618 4874 5130 5386 5642 5898 6154 6410
+6666 6922 7178 7434 7690 7946 523 1035 1291 2571
+2827 3083 4107 4363 4619 4875 5131 5387 5643 5899
+6155 6411 6667 6923 7179 7435 7691 7947 1036 1292
+2572 2828 3084 4108 4364 4620 4876 5900 6156 6412
+6668 6924 7180 7436 7692 7948 1037 1293 2573 2829
+3085 4365 4621 6157 6413 6669 6925 7181 7437 7693
+7949 1038 1294 2574 2830 3086 6414 6670 6926 7182
+7438 7694 7950 1039 1295 2575 2831 3087 6415 6671
+6927 7183 7439 7695 7951 1040 1296 1552 2832 3088
+5392 6672 6928 7184 7440 7696 7952 1041 1297 2577
+2833 3089 5393 5649 6417 6673 6929 7185 7441 7697
+7953 1042 1298 2578 2834 3090 5650 5906 6162 6418
+6674 7442 7698 7954 1043 1299 2579 2835 3091 5907
+6163 6419 7443 7699 7955 1044 1300 2580 2836 3092
+6164 7700 7956 1045 1301 2581 2837 3093 4117 4373
+7701 7957 1302 1558 2326 2582 4374 4630 7958 1559
+2327 4631 4887 7959 1304 1560 2328 2584 4632 4888
+5144 7960 1049 1305 1561 2329 2585 2841 4377 4633
+4889 7705 7961 4122 4378 4634 7706 7962 3867 4123
+4379 7707 7963 3612 3868 4124 7452 7708 7964 3613
+3869 7197 7453 7709 7965 3358 3614 7198 7454 7710
+7966 3359 7199 7455 7711 7967 3360 7200 7456 7712
+7968 3105 3361 6945 7201 7457 7713 7969 3106 3362
+6690 6946 7202 7458 7714 7970 3107 3363 6435 6691
+6947 7203 7459 7715 7971 2340 2596 3108 3364 3620
+3876 6180 6436 6692 6948 7204 7460 7716 7972 2085
+2341 2597 2853 3109 3365 3621 3877 4133 5925 6181
+6437 6949 7205 7461 7717 7973 2854 3110 3366 3622
+3878 4134 5670 5926 6182 6950 7206 7462 7718 7974
+3111 3367 3623 3879 4135 4391 4647 4903 5159 5415
+5671 6951 7207 7463 7719 7975 2856 3112 3368 3624
+3880 4136 4392 4648 4904 6952 7208 7464 7720 7976
+2857 3113 3625 3881 4137 7209 7465 7721 7977 3882
+4138 7210 7466 7722 7978 3883 4139 7211 7467 7723
+7979 3884 7212 7468 7724 7980
+15 Prg1
+name room
+var uvod
+var olosech
+var poslhlaska
+var dalsihlaska
+var pochlasek
+ini
+uvod:=0;
+olosech:=0;
+poslhlaska:=0;
+{0 - was is den los nebo wunschen Sie}
+{1 - papousci zblechty}
+{2 - losi zblechty}
+dalsihlaska:=random(300)+50;
+pochlasek:=0;
+94 Prg2
+if no_dialog and zije[mala] and zije[velka] then
+  begin
+    if uvod=0 then
+      begin
+        uvod:=1;
+        case pokus of 
+          1:pom1:=2;
+          2:pom1:=1;
+          else pom1:=random(3);
+        end;
+        adddel(10+random(20));
+        if pom1>=1 then
+          begin
+            addm(0,'deu-m-valka');
+            addv(10,'deu-v-nepratelstvi');
+          end;
+        if pom1>=2 then
+          begin
+            addm(random(20)+5,'deu-m-bojovat');
+            addv(3,'deu-v-losa');
+          end;
+      end
+    else if (olosech=0) and (dist(@malar,@loos)<=2) and (random(100)<3) then
+      begin
+        olosech:=1;
+        case pokus of
+          1:pom1:=1;
+          2:pom1:=2;
+          else pom1:=random(3);
+        end;
+        case pom1 of
+          1:begin
+              addv(10,'deu-v-radsi');
+              addd(random(10)+5,'deu-l-pozalsta',101,loos.cinnost);
+              addd(0,'deu-p-schnell',111,papouch.cinnost);
+            end;
+          2:begin
+              addm(10,'deu-m-zvlastni');
+              addv(8,'deu-v-slysel');
+              addd(10,'deu-l-los',101,loos.cinnost);
+              addset(loos.cinnost,30);
+            end;
+        end;
+      end;
+  end;
+
+if no_dialog then
+  begin
+    if dalsihlaska>0 then dec(dalsihlaska);
+
+    if dalsihlaska=0 then
+      begin
+        inc(pochlasek);
+        dalsihlaska:=random(300)+pochlasek*30;
+        pom1:=random(2);
+        if pom1=poslhlaska then pom1:=2;
+        poslhlaska:=pom1;
+        case pom1 of
+          0:if random(2)=0 then
+              addd(20,'deu-p-trinken'+chr(random(2)+48),111,papouch.cinnost)
+            else
+              begin
+                addd(20,'deu-p-los',111,papouch.cinnost);
+                addd(random(20)+5,'deu-l-los'+chr(48+random(2)),101,loos.cinnost);
+              end;
+          1:begin
+              case random(6) of
+                0:addd(20,'deu-p-schnell',111,papouch.cinnost);
+                1:addd(20,'deu-p-jawohl',111,papouch.cinnost);
+                2:addd(20,'deu-p-stimmt',111,papouch.cinnost);
+                3:addd(20,'deu-p-streng',111,papouch.cinnost);
+                4:addd(20,'deu-p-ordnung',111,papouch.cinnost);
+                5:addd(20,'deu-p-skoll',111,papouch.cinnost);
+              end;
+            end;
+          2:begin
+              case random(6) of
+                0:addd(20,'deu-l-ja',101,loos.cinnost);
+                1:addd(20,'deu-l-neznaju',101,loos.cinnost);
+                2:addd(20,'deu-l-nesmotrel',101,loos.cinnost);
+                3:begin
+                    addd(20,'deu-l-zivjot',101,loos.cinnost);
+                    addset(loos.cinnost,30);
+                  end;
+                4:addd(20,'deu-l-necital',101,loos.cinnost);
+                5:begin
+                    addd(20,'deu-l-tovarisci',101,loos.cinnost);
+                    addset(loos.cinnost,30);
+                  end;
+              end;
+            end;
+        end;
+      end;
+  end;
+9 Items
+17 8 3 2
+papouchA1.BMP
+65280 Mask
+1 Kind
+1 Ext
+4 Prg1
+name papouch
+var cinnost
+ini
+cinnost:=0;
+3 Prg2
+case cinnost of
+  111:afaze:=random(2);
+end;
+5 List
+0 256 1 257 258
+11 1 1 1
+maly snek1.BMP
+65280 Mask
+1 Kind
+3 Ext
+4 Prg1
+name snecik
+var kouka
+ini 
+kouka:=0;
+13 Prg2
+if dir<>dir_no then kouka:=random(100)+10
+else if kouka>0 then dec(kouka);
+
+if kouka>0 then
+  begin
+    if afaze<2 then inc(afaze);
+  end
+else
+  if afaze>0 then dec(afaze);
+
+    
+
+      
+1 List
+0
+29 20 7 8
+los1.BMP
+65280 Mask
+1 Kind
+7 Ext
+4 Prg1
+name loos
+var cinnost
+ini
+cinnost:=0;
+40 Prg2
+pomb1:=count mod 3=0;
+
+case cinnost of
+  0:begin
+      afaze:=3;
+      if random(1000)<3 then cinnost:=1;
+    end;
+  1:begin
+      if pomb1 then 
+        if random(100)<5 then afaze:=3
+        else afaze:=0;
+      if random(1000)<2 then cinnost:=0;
+    end;
+ 10:begin
+      setanim(this,'a3d3a4a5a6a7d2a6a5a4a3');
+      cinnost:=11;
+    end;
+ 11:begin
+      goanim(this);
+      if anim='' then
+        if random(100)<30 then cinnost:=10
+        else cinnost:=0;
+    end;
+ 20:begin
+      setanim(this,'a3d5a4d1a5d1a6d1a7d12a6d1a5d1a4d1a3');
+      cinnost:=21;
+    end;
+ 21:begin
+      goanim(this);
+      if anim='' then cinnost:=0;
+    end;
+ 30:cinnost:=random(2)*10+10;
+101:if pomb1 then
+      begin
+        pom1:=random(2);
+        if pom1=afaze then pom1:=2;
+        if (pom1=0) and (random(100)<8) then afaze:=3
+        else afaze:=pom1;
+      end;
+end;
+38 List
+256 512 768 1 257 513 769 1025 1537
+1793 2 258 514 770 1026 1282 1538 1794 515
+1027 1283 1539 4 260 516 772 1028 1284 1540
+5 261 517 773 1029 1285 262 518 774
+31 15 2 5
+4-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 768 1024 1
+34 17 4 2
+5-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+8 8 3 1
+6-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+13 8 1 2
+naboj.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+29 6 8 6
+9-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+20 List
+0 1 2 258 514 770 259 771 1027
+260 1028 1284 261 517 1285 518 774 1030 1286
+1287
+17 6 1 2
+naboj.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+EOF

@@ -1,0 +1,387 @@
+REDIT FILE from 22.3.1998 12:58:03
+Batyskaf
+Batyskaf
+0 1 8 20 12 0 0 0 0 0  Params
+33023 Grid
+46 20
+Batyskaf-p.bmp
+0 obsolete
+0 Ext
+Batyskaf-w.bmp
+65280 Mask
+0 Ext
+232 WlList
+3329 3585 3841 1282 1538 3074 3330 3586 3842
+4098 1027 1283 1539 1795 2051 2307 2563 2819 3075
+3331 1028 1284 1540 1796 2052 2308 2564 2820 3076
+3332 1285 1541 3077 3333 3589 3845 4101 1286 1542
+3334 3590 3846 1287 1543 1288 1544 1289 1545 1290
+1546 1291 1547 2059 2315 2571 2827 3083 3339 3595
+3851 1292 1548 1804 2060 4108 1293 1549 1805 4109
+1038 1294 1550 4110 4366 783 1039 1295 1807 4111
+4367 784 1040 4112 4368 785 1041 4113 4369 530
+786 1042 2066 4114 4370 531 787 4115 4371 4627
+532 788 4116 4372 4628 533 789 4117 4373 4629
+534 2838 4118 4374 4630 535 2839 4119 4375 4631
+536 792 2840 4120 4376 4632 537 793 2841 4121
+4377 4633 538 794 2842 4122 4378 4634 539 795
+1051 2843 4123 4379 796 1052 2844 4124 4380 797
+1053 2845 4125 4381 798 1054 1310 4126 4382 1055
+1311 1567 4127 4383 1312 1568 1824 3104 3360 4128
+1313 1569 1825 2081 4129 1314 1570 2082 2338 3106
+3362 3618 3874 1315 1571 1316 1572 1317 1573 1318
+1574 1319 1575 3367 3623 3879 1320 1576 3112 3368
+3624 3880 4136 1065 1321 1577 1833 2089 2345 2601
+2857 3113 3369 1066 1322 1578 1834 2090 2346 2602
+2858 3114 3370 1323 1579 3115 3371 3627 3883 4139
+3372 3628 3884
+21 Prg1
+name main
+var aktivni
+var poc
+var zvon
+var halo
+var mikros
+var nemam
+var odsud
+var pronej
+var uhnu
+var teduz
+ini
+aktivni:=@main;
+poc:=random(50+pokus)+100;
+halo:=0;
+mikros:=0;
+nemam:=200;
+odsud:=0;
+pronej:=10+random(50);
+uhnu:=500+random(500);
+teduz:=0;
+178 Prg2
+case aktivni of
+ @main:
+   if poc>0 then dec(poc) else
+    begin
+     pomb1:=(zluty.x=ztel.x)and(zluty.y+3=ztel.y);
+     pomb2:=(modry.x=mtel.x)and(modry.y+3=mtel.y);
+     poc:=random(80)+50;
+     zvon:=0;
+     if pomb1 then
+      if pomb2 then
+       if odd(random(10)) then aktivni:=@zluty
+       else aktivni:=@modry
+      else aktivni:=@zluty
+     else if pomb2 then aktivni:=@modry
+          else aktivni:=@ibudik;
+    end;
+ @zluty:
+   if poc=0 then 
+    begin 
+     ksnd(51);
+     poc:=random(30)+30; aktivni:=@main;
+     zluty.afaze:=0;
+    end
+   else
+    begin
+     dec(poc);
+     if pronej>0 then dec(pronej);
+     if (zluty.x=ztel.x)and(zluty.y+3=ztel.y) then
+      if playing(51) then 
+       begin 
+        inc(zvon);
+        if odd(zvon) then zluty.afaze:=1
+		     else zluty.afaze:=2;
+       end
+      else
+       if zvon>0 then begin dec(zvon); zluty.afaze:=0 end
+       else snd('bat-t-phone0',51)
+     else
+      begin
+       ksnd(51);
+       zluty.afaze:=0;
+       aktivni:=@ztel;
+       halo:=1;
+      end;
+    end;
+ @modry:
+   if poc=0 then 
+    begin 
+     ksnd(52);
+     poc:=random(30)+30; aktivni:=@main;
+     modry.afaze:=0;
+    end
+   else
+    begin
+     dec(poc);
+     if pronej>0 then dec(pronej);
+     if (modry.x=mtel.x)and(modry.y+3=mtel.y) then
+      if playing(52) then 
+       begin 
+        inc(zvon);
+        if odd(zvon) then modry.afaze:=1
+		     else modry.afaze:=2;
+       end
+      else
+       if zvon>0 then begin dec(zvon); modry.afaze:=0 end
+       else snd('bat-t-phone1',52)
+     else
+      begin
+       ksnd(52);
+       modry.afaze:=0;
+       aktivni:=@mtel;
+       halo:=1;
+      end;
+   end;
+ @ztel,@mtel:
+   if halo<>2 then
+    begin
+     aktivni:=@main;
+     poc:=random(100)+30;
+    end;
+ @ibudik:
+   if poc>0 then dec(poc)
+   else if not playing(50) then
+    sndcyc('bat-t-budik',50)
+   else
+    if ibudik.dir<>dir_no then
+     begin ksnd(50); aktivni:=-1; end;
+end;
+
+if halo=1 then
+ begin
+  halo:=2;
+  if pokus>5 then pom1:=random(11) else pom1:=random(8);
+  case pom1 of
+   0: pom2:=1+2;
+   1: pom2:=1+4+16;
+   2: pom2:=1+8;
+   3: pom2:=32;
+   4: pom2:=32+16;
+   5: pom2:=1+4;
+   6: pom2:=1+8+16;
+   7: pom2:=2;
+   else pom2:=0;
+  end;
+  if pom2 and 1 >0 then addd(5,'bat-p-0',49,noprom);
+  if pom2 and 2 >0 then addd(5,'bat-p-1',49,noprom);
+  if pom2 and 4 >0 then addd(5,'bat-p-2',49,noprom);
+  if pom2 and 8 >0 then addd(5,'bat-p-3',49,noprom);
+  if pom2 and 32 >0 then addd(5,'bat-p-5',49,noprom);
+  if pom2 and 16 >0 then addd(5,'bat-p-4',49,noprom);
+  if pom2=0 then addd(5,'bat-p-zhov'+chr(48+random(2)),49,noprom);
+  addset(halo,0);
+ end;
+
+if no_dialog and zije[mala] and zije[velka] then
+ begin
+  if (count=20)and(random(pokus)<3) then
+   addm(5,'bat-m-tohle')
+  else
+  
+  if (mikros=0)and(dist(@malar,@mikroskop)<3)and(mikroskop.dir<>dir_no)
+    and (random(10)=1) then
+   begin
+    mikros:=1;
+    addm(6,'bat-m-mikro');
+   end
+  else
+
+  if (odsud=0)and(zluty.x>32)and(dist(@malar,@zluty)<4)and(random(30)=1) then
+   begin
+    odsud:=1;
+    addm(7,'bat-m-sluch');
+   end
+  else
+  
+  if (teduz=0)and(aktivni=-1)and(random(70)=1) then
+   begin
+    teduz:=1;
+    addv(8,'bat-v-klid');
+   end   
+  else
+
+  if nemam>0 then dec(nemam) else
+  case aktivni of
+   @ibudik: if random(100)=1 then
+      begin
+       nemam:=200+random(200);
+       addv(1,'bat-v-vyp');
+      end;
+   @zluty,@modry: if random(100)=1 then
+      begin
+       nemam:=200+random(200);
+       if dist(@malar,aktivni)<dist(@velkar,aktivni)
+        then addv(1,'bat-v-zved1')
+        else addv(1,'bat-v-zved0');      
+      end;
+   end;
+
+ end;
+
+if no_dialog then
+ if (pronej=0)and((aktivni=@zluty)or(aktivni=@modry))and(random(30)=1) then
+  begin
+   pronej:=random(100);
+   addd(3,'bat-s-prome'+chr(48+random(3)),111,snek.mluvi);
+  end
+ else
+ if (uhnu=0)and((aktivni=-1)or((poc>30)and(aktivni=@main))) then
+  begin
+   uhnu:=300+random(300);
+   pom2:=random(4);
+   if (pom2<>1)or(roompole[1]>0) then
+    addd(12,'bat-s-sn'+'ek'+chr(48+pom2),111,snek.mluvi);
+   inc(roompole[1]);
+  end;
+
+
+if uhnu>0 then dec(uhnu);
+12 Items
+26 8 3 1
+Batyskaf-little-Tmp.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+15 11 4 2
+Batyskaf-big-Tmp.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+29 8 1 3
+Batyskaf-3-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+29 5 1 3
+Batyskaf-3-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+18 5 1 3
+dalekohled1.BMP
+65280 Mask
+1 Kind
+1 Ext
+4 Prg1
+name dhled
+var padal
+ini
+padal:=0;
+12 Prg2
+if padal=4 then begin afaze:=0;padal:=0 end
+else
+if padal=3 then padal:=4
+else
+if padal=2 then padal:=3
+else
+if dir=dir_down then padal:=1
+else 
+if padal=1 then begin
+                  afaze:=1;
+                  padal:=2;
+                end;
+3 List
+0 256 512
+28 14 3 2
+snek1.BMP
+65280 Mask
+1 Kind
+1 Ext
+4 Prg1
+name snek
+var mluvi
+ini
+mluvi:=0;
+1 Prg2
+if odd(count) and (mluvi<>0) then afaze:=random(2) else afaze:=0;
+5 List
+0 256 257 2 258
+15 15 1 1
+budik0.BMP
+65280 Mask
+1 Kind
+1 Ext
+1 Prg1
+name ibudik
+1 Prg2
+if odd(count) and playing(50) then afaze:=1 else afaze:=0;
+1 List
+0
+22 4 3 3
+mikroskop0.BMP
+16711935 Mask
+1 Kind
+2 Ext
+4 Prg1
+name mikroskop
+var poc
+ini
+poc:=0;
+6 Prg2
+if poc>0 then dec(poc)
+else begin
+      afaze:=random(3);
+      poc:=random(6);
+     end;
+if dir<>dir_no then poc:=0;
+5 List
+256 1 257 513 2
+22 6 4 3
+sluch1.BMP
+65280 Mask
+1 Kind
+2 Ext
+1 Prg1
+name zluty
+0 Prg2
+6 List
+256 512 257 258 259 515
+20 14 4 2
+mtelefon.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name mtel
+0 Prg2
+6 List
+0 256 257 258 3 259
+20 11 4 3
+msluch1.BMP
+65280 Mask
+1 Kind
+2 Ext
+1 Prg1
+name modry
+0 Prg2
+6 List
+256 512 257 258 259 515
+22 9 4 2
+telefon.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name ztel
+0 Prg2
+6 List
+0 256 257 258 3 259
+EOF

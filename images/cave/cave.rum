@@ -1,0 +1,406 @@
+REDIT FILE from 21.3.1998 20:27:57
+jeskyne
+jeskyne
+0 0 5 10 5 0 0 0 0 0  Params
+4210816 Grid
+32 28
+jeskyne-p.BMP
+0 obsolete
+0 Ext
+jeskyne-w.BMP
+65280 Mask
+0 Ext
+377 WlList
+512 768 1024 1280 1536 1792 2048 2304 2560
+2816 3072 3328 3584 3840 4096 4352 4608 4864 5120
+5376 5632 5888 6144 6400 6656 6912 769 1025 1281
+1537 1793 2049 2305 2561 2817 3073 3329 3585 3841
+4097 4353 4609 4865 5121 5377 5633 5889 6145 6401
+6657 6913 2 2562 2818 3074 3330 3586 3842 4098
+4354 4610 5122 5378 5634 5890 6146 6402 6658 6914
+3 4355 5379 5635 5891 6147 6403 6659 6915 4
+5380 5636 5892 6148 6404 6660 6916 5 261 5381
+5637 5893 6149 6405 6661 6917 6 262 5894 6150
+6406 6662 6918 7 263 519 3847 5895 6151 6407
+6663 6919 8 264 520 3848 6152 6408 6664 6920
+9 265 521 3849 6921 10 266 522 778 6154
+6410 6666 6922 11 267 523 779 6667 6923 12
+268 524 780 1036 6668 6924 13 269 525 781
+1037 6669 6925 14 270 526 782 1038 6670 6926
+15 271 527 783 1039 2319 6671 6927 16 272
+528 784 1040 6672 6928 17 273 529 785 1041
+6673 6929 18 274 6674 6930 19 275 531 787
+1043 2067 6675 6931 20 276 532 788 1044 6676
+6932 21 277 533 789 1045 1301 6677 6933 22
+278 534 790 1046 1302 6678 6934 23 279 535
+791 1047 1303 1559 6679 6935 24 280 536 792
+1048 1304 1560 1816 6680 6936 25 281 537 793
+1049 1305 1561 1817 2073 6681 6937 26 282 538
+794 1050 1306 1562 1818 2074 2330 3610 5914 6170
+6426 6682 6938 27 283 539 795 1051 1307 1563
+1819 2075 2331 2587 2843 3099 3355 3611 3867 4123
+4379 4891 6427 6683 6939 28 284 540 796 1052
+1308 1564 1820 2076 2332 2588 2844 3100 3356 3612
+3868 4124 4380 4892 6684 6940 29 285 541 797
+1053 1309 1565 1821 2077 2333 2589 2845 3101 3357
+3613 3869 4125 4381 4637 4893 6685 6941 30 286
+542 798 1054 1310 1566 1822 2078 2334 2590 2846
+3102 3358 3614 3870 4126 4382 4638 4894 5150 6430
+6686 6942 31 287 543 799 1055 1311 1567 1823
+2079 2335 2591 2847 3103 3359 3615 3871 4127 4383
+4639 4895 5151 5407 5663 6431 6687 6943
+16 Prg1
+name room
+var vzperac
+var blbecek
+var neprojedu
+var orybe
+var kecy 
+var potvurka
+var onetopyrovi
+ini
+vzperac:=0;
+blbecek:=0;
+neprojedu:=0;
+orybe:=0;
+kecy:=0;
+potvurka:=0;
+onetopyrovi:=0;
+107 Prg2
+if zije[mala] and zije[velka] and no_dialog then
+  begin
+    if (look_at(@malar,@netopyr)) and (malar.y>17)
+       and(malar.y<22) and (vzperac=0) and
+       ((netopyr.afaze=2)or(netopyr.afaze=3))and(random(100)<4)
+      then
+      begin
+        addm(random(20),'jes-m-net'+'opyr');
+        addv(random(5),'jes-v-tojo');
+        vzperac:=1;
+      end
+  else
+    if (look_at(@malar,@blbec)) and (dist(@malar,@blbec)<3)
+       and (blbecek=0)and (random(100)<2)
+      then
+      begin
+        addm(random(5),'jes-m-tvor');
+        blbecek:=1;
+      end 
+  else
+    if (velkar.x=3)and(velkar.y=15)and(tycka.x=10)and(tycka.y=15)
+       and (neprojedu=0)and (random(100)<3)
+      then
+      begin
+        addv(0,'jes-v-uzke');
+        neprojedu:=1;
+      end  
+  else
+    if (look_at(@malar,@rybka))
+       and (tycka.x=10) and (tycka.y=17) and(random(100)<30)
+       and (orybe=0)
+      then
+      begin
+        orybe:=1;
+        addm(random(5),'jes-m-ryba');
+        addv(random(5),'jes-v-kamen');
+      end
+  else
+    if (random(1000)<3)and(kecy=0) then
+      begin
+        case random(3) of
+          0:addv(random(5),'jes-v-gral');
+          1:begin
+              addv(random(5),'jes-v-gral');
+              addm(random(5),'jes-m-deprese'); 
+            end;
+          2:begin
+              addv(random(5),'jes-v-gral');
+              addm(random(5),'jes-m-deprese'); 
+              addv(random(5),'jes-v-nevim');
+            end;
+        end;
+        kecy:=1; 
+      end
+  else
+    if (kecy=1)and(velkar.y>19)and(random(100)<30) then
+      begin
+        addm(random(5),'jes-m-takvidis');
+        kecy:=2;
+      end
+  else
+    if (potvurka=0)and(random(100)<5) 
+       and(look_at(@malar,@das))and(dist(@malar,@das)<4)
+      then
+      begin
+        case random(3)of
+          0: addm(1,'jes-m-potvora0');
+          1: addm(1,'jes-m-potvora1');
+          2: addm(1,'jes-m-potvora2');
+        end;
+        case random(3)of
+          0: addv(random(5),'jes-v-potvora0');
+          1: addv(random(5),'jes-v-potvora1');
+          2: addv(random(5),'jes-v-potvora2');
+        end;
+        potvurka:=1; 
+      end
+  else
+    if (onetopyrovi=0) and (look_at(@malar,@netopyr)) 
+       and (dist(@malar,@netopyr)<4) and (random(1000)<2)
+      then  
+      begin
+        onetopyrovi:=1;
+        addm(1,'jes-m-netopyr0');
+        case random(3) of
+          0: addv(random(5),'jes-v-netopyr0'); 
+          1: addv(random(5),'jes-v-netopyr1');
+          2: addv(random(5),'jes-v-netopyr2');    
+        end; 
+        case random(3) of
+          0: addm(random(5),'jes-m-netopyr1'); 
+          1: addm(random(5),'jes-m-netopyr2');
+          2: addm(random(5),'jes-m-netopyr3');   
+        end;
+      end
+  else
+    if (potvurka=1)and(das.x=17)and(das.y=7)
+       and (random(1000)<4)
+      then
+      begin
+        case random(2) of
+          0: addv(random(5),'jes-v-nechut0');
+          1: addv(random(5),'jes-v-nechut1');
+        end;
+        potvurka:=2;
+      end; 
+  end;
+12 Items
+18 19 2 3
+netopejr1.BMP
+65280 Mask
+1 Kind
+3 Ext
+8 Prg1
+name netopyr
+var kridla
+var oci
+var vzpira
+ini
+kridla:=-1*(random(200)+20);
+oci:=0;
+vzpira:=0;
+29 Prg2
+  if (oci=0) and (random(100)<30) then oci:=1
+else
+  if random(100)<60 then oci:=0;
+
+if (tycka.x=10) and (tycka.y=15)
+    and (vaza.x=18) and (vaza.y=16) and (netopyr.x=18)
+     and (netopyr.y=19)  
+  then
+  begin
+    if kridla<0 then inc(kridla)
+  else
+    if (kridla=0) and (vzpira<7) and (tycka.x=10) and (tycka.y=15)
+       and (vaza.x=18) and (vaza.y=16) and (netopyr.x=18)
+       and (netopyr.y=19)  
+      then
+      begin
+        afaze:=oci+2;
+        inc(vzpira);
+      end 
+  else
+    if (vzpira>=7)and (kridla=0) then
+      begin  
+        vzpira:=0;
+        kridla:=-1*(random(300)+5);
+        afaze:=oci;
+      end
+  end
+else
+  afaze:=oci;     
+4 List
+0 256 512 257
+2 1 3 1
+jeskyne-1-Tmp.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+2 2 4 2
+jeskyne-2-Tmp.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+10 15 17 1
+tyc0.bmp
+65280 Mask
+2 Kind
+1 Ext
+1 Prg1
+name tycka
+3 Prg2
+if (netopyr.afaze=2)or(netopyr.afaze=3) then
+  afaze:=1
+else afaze:=0;
+17 List
+0 1 2 3 4 5 6 7 8
+9 10 11 12 13 14 15 16
+17 7 4 2
+das-1.BMP
+16777215 Mask
+1 Kind
+8 Ext
+1 Prg1
+name das
+7 Prg2
+case afaze of
+  0,2,3,4,6,7:inc(afaze);
+  1:if random(100)<10 then afaze:=6
+    else inc(afaze);
+  5:afaze:=0;
+  8:afaze:=5;
+end;	
+5 List
+0 1 2 3 259
+18 3 1 4
+krapnik3.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 512 768
+18 24 1 2
+amfora.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+11 24 4 2
+Zahavec1.BMP
+65280 Mask
+1 Kind
+8 Ext
+8 Prg1
+name blbec
+var faze
+var udivenej
+ini
+faze:=0;
+udivenej:=0;
+
+  
+20 Prg2
+if count mod 2=0 then
+  case faze of
+    0,1:inc(faze);
+    2:faze:=0;
+  end;
+
+if dir<>dir_no then udivenej:=random(100)+30;
+
+if udivenej>0 then
+  begin
+    dec(udivenej);
+    if random(100)<20 then 
+      afaze:=3*faze+1
+    else
+      afaze:=3*faze+2;
+  end
+else
+  afaze:=3*faze;
+  
+   
+5 List
+0 1 257 2 3
+26 18 2 1
+rybicka h1.BMP
+65280 Mask
+1 Kind
+3 Ext
+4 Prg1
+name rybka
+var faze
+ini
+faze:=-random(200)-100;
+32 Prg2
+case faze of
+  -10..0:begin
+           afaze:=1;
+           inc(faze);
+         end;
+       1:begin
+           afaze:=2;
+           if random(100)<25 then inc(faze);
+         end;
+       2:begin
+           afaze:=1;
+           inc(faze);
+         end;
+       3:begin 
+           afaze:=3;
+           if random(100)<25 then inc(faze);
+         end;
+       4:begin
+           afaze:=1;
+           if random(100)<15 then faze:=1
+           else
+             faze:=-random(200)-100;
+         end;
+    else begin
+           afaze:=0;
+           inc(faze);
+         end;
+end;
+
+           
+            
+  
+2 List
+0 1
+12 23 1 1
+muslicka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+18 16 1 3
+vazav0.BMP
+65280 Mask
+1 Kind
+1 Ext
+1 Prg1
+name vaza
+3 Prg2
+if (netopyr.afaze=2)or(netopyr.afaze=3) then
+  afaze:=1
+else afaze:=0;
+3 List
+0 256 512
+18 22 1 2
+vaza cervena.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+EOF

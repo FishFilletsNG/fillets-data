@@ -1,0 +1,1602 @@
+REDIT FILE from 18.3.1998 20:52:02
+Banka
+Laboratoø^Laboratory
+1 1 5 10 5 0 0 0 0 0  Params
+12632256 Grid
+48 35
+Banka-p.BMP
+0 obsolete
+0 Ext
+Banka-w.bmp
+65280 Mask
+0 Ext
+256 WlList
+5632 6400 5633 6401 5634 6402 771 1027 1283
+1539 1795 2051 2307 2563 2819 3075 3331 3587 3843
+4099 4355 4611 4867 5123 5379 5635 6403 6659 6915
+7171 7427 7683 7939 772 2052 5636 6404 7940 773
+2053 5637 6405 7941 774 2054 5638 6406 7942 775
+2055 5639 6407 6663 7943 776 2056 6664 7944 777
+6665 7945 778 6666 7946 779 6667 7947 780 6668
+7948 781 4109 6669 7949 782 4110 4366 4622 4878
+6670 7950 783 5391 6671 7951 784 5392 6672 7952
+785 5393 6673 7953 786 2834 4114 5394 6674 7954
+787 2835 4115 5395 6675 7955 788 2836 4116 5396
+6676 7956 789 2837 4117 5397 6677 7957 790 2838
+4118 5398 6678 7958 791 2839 4119 5399 6679 7959
+792 2840 4120 5400 6680 7960 793 2841 4121 5401
+6681 7961 794 2842 4122 5402 5658 5914 6682 7962
+795 2843 4123 5659 6683 7963 796 2844 4124 5660
+6684 7964 797 2845 4125 5661 6685 7965 798 4126
+5406 5662 5918 6686 7966 799 4127 5407 6687 7967
+800 4128 5408 6688 7968 801 4129 5409 6689 7969
+802 4130 5410 6690 7970 803 4131 5411 6691 7971
+804 4132 5412 6692 7972 805 4133 5413 6693 7973
+806 4134 5414 6694 7974 807 4135 5415 6695 7975
+808 7976 809 7977 810 7978 811 7979 812 1068
+1324 1580 1836 2092 2348 2604 2860 3116 3372 3628
+3884 4140 4396 4652 4908 5164 5420 5676 5932 6188
+6444 6700 6956 7212 7468 7724 7980
+44 Prg1
+name room
+var hnerus
+var kdy
+var kdy2
+var uvod
+var pokusy
+var nerus
+var zij
+var bojidole
+var pldicim
+var pldiciv
+var kouk
+var fuja
+var ruk
+var zku
+var nep
+var vic
+var mrt
+var nedobre
+var jej
+var kolem
+ini
+uvod:=0;
+if pokus>15 then uvod:=random(2);
+pokusy:=0;
+bojidole:=0;
+nerus:=pokus div 2;hnerus:=0;
+if random(10)<pokus then zij:=1
+ else zij:=0;
+kdy:=random(1000*pokus);
+kdy2:=random(2000*pokus);
+if random(20)<pokus then pldicim:=1
+ else pldicim:=0;
+pldiciv:=0;
+kouk:=0;
+fuja:=-42;
+ruk:=0;
+zku:=0;
+nep:=0;
+vic:=0;
+mrt:=0;
+if (pokus mod 3)>0 then nedobre:=0 else nedobre:=1;
+jej:=0;
+kolem:=0;
+185 Prg2
+if no_dialog and zije[mala] and zije[velka] then
+ begin
+  if uvod=0 then
+   begin
+    uvod:=1;
+    addm(random(42)+14,'bank-m-labolator'+chr(49+random(3)));
+    if (pokus>random(5))and(random(4)=1) then
+     begin
+      pokusy:=1;
+      addv(10,'bank-v-pokusy'+chr(49+random(2)));
+     end;
+   end;
+  
+  if (bojidole=0)and(malar.y>26)and(malar.x<20) then
+   begin
+    bojidole:=1;
+    addm(10,'bank-m-bojim');
+    if random(3)<>1 then addm(10,'bank-m-ocicka');
+    if random(3)<>1 then addv(15,'bank-v-pomoc');
+   end;
+
+  if count=kdy2 then
+   if random(5)<3 then
+    begin
+     addm(20,'bank-m-prohlednout');
+     addv(22,'bank-v-vypad'+chr(49+random(2)));
+    end
+   else
+    addm(20,'bank-m-tvorove');
+
+  if (pldicim=0)and(malar.x>27)and(malar.y<17) then
+   begin
+    addm(8,'bank-m-nesetkala');
+    pldicim:=1;
+   end;
+  if (pldiciv=0)and(velkar.x>27)and(velkar.y<17) then
+   begin
+    addv(25,'bank-v-mnozeni');
+    pldiciv:=1;
+   end;
+
+  if (kouk=0)and(malar.y>26)and(malar.x+1<=oka.x) then
+   begin
+    kouk:=1;
+    addm(2,'bank-m-kouka');
+   end;
+
+  if fuja+50<count then
+   if ((lahvac.rozbit=10)and(dist(@malar,@lahvac)<4))
+    or ((oka.dir<>dir_no)and(dist(@malar,@oka)<4)) then
+      begin
+       addm(5,'bank-m-fuj');
+       fuja:=count;
+      end;
+
+  if (ruk=0)and(ruka.cinnost=2) then
+   begin
+    ruk:=1;
+    addm(12,'bank-m-nervozni');
+   end;
+
+  if zku=0 then
+   begin
+    pom2:=0;
+    for pom1:=0 to 15 do
+     if dist(@malar,@zkum+pom1)<2 then pom2:=1;
+    if pom2=1 then
+     begin
+      zku:=1;
+      addm(7,'bank-m-zkumavka');
+     end;
+   end;
+
+  if (kolem=0) and no_dialog and
+    (kouk+zku+ruk+pldicim+pldiciv+bojidole+jej
+      +zij+uvod+pokusy+nep+mrt+nedobre>7) then
+    begin
+     kolem:=1;
+     addm(42,'bank-m-hlavakolem');
+    end;
+
+  if (nep=0)and(velkar.x=40)and(velkar.y>13) then
+   begin
+    nep:=1;    
+    addv(4,'bank-v-neproplavu'+chr(49+random(2)));
+   end;
+
+  if (vic<2)and(count mod 8=1) then
+   begin
+    pom2:=0;
+    for pom1:=1 to itemcount-1 do
+     with Items[pom1]^ do
+      if (y<21)and(y>17)and(x>14)and(x<29) then inc(pom2);
+    if (vic=0)and(pom2=5) then
+     begin
+      addv(5,'bank-v-nahazet');
+      inc(vic);
+     end;
+    if (vic=1)and(pom2=7) then
+     begin
+      addv(5,'bank-v-jeste');
+      inc(vic);
+     end;
+   end;
+
+  if (mrt=0)and(dist(@malar,@kostra)<3) then
+   begin
+    mrt:=1;
+    if random(3)<>1 then addm(1,'bank-m-mrtvolka');
+    case random(5) of
+     1,2: addm(9,'bank-m-prehnal1');
+     3,4: addm(9,'bank-m-prehnal2');
+     end;
+   end;
+
+  if (nedobre=0)and(lahvac.dir<>dir_no) then
+   begin
+    nedobre:=1;
+    addv(10,'bank-v-flaska');
+   end;
+
+  if lahvac.afaze=25 then
+   if random(2)=1 then
+    addm(5,'bank-m-rozbila');
+
+ 
+  if (jej=0)and(((dolni1.zije=-4)and(dist(@dolni1,@malar)<11))
+              or((dolni2.zije=-4)and(dist(@dolni2,@malar)<11))) then
+    begin
+     jej:=1;
+     addm(5,'bank-m-jejda');
+    end;
+
+  if (pokusy=0)and((velkar.x>32)or(velkar.y>17)) then
+   begin
+    pokusy:=1;
+    if random(3)<>1 then
+     begin
+      addv(10,'bank-v-p'+'okusy'+chr(49+random(2)));
+      hnerus:=1;
+     end;
+   end;
+
+  if (zij=0)and(count>(10000-kdy-kdy2)div 16) then
+   begin
+    zij:=1;
+    addv(random(50),'bank-v-zije');
+    hnerus:=1;
+   end;
+
+  if (count=kdy) then
+    if random(3)=1 then
+     begin
+      addv(20,'bank-v-potvory');
+      if random(3)=1 then hnerus:=1;
+     end
+    else addm(20,'bank-m-organismy');
+
+ end;
+
+
+if hnerus=1 then
+  if (random(5)+nerus<4) then
+   begin
+    inc(nerus);
+    addm(10,'bank-m-n'+'erus');
+   end;
+hnerus:=0;
+
+if count>kdy then inc(kdy,1000+random(10000));
+if count>kdy2 then inc(kdy2,1000+random(10000));
+
+if (count mod 800)=777 then
+  case random(10) of
+   1: ruk:=0;
+   2: kouk:=0;
+   3: mrt:=0;
+   4: nedobre:=0;
+   5: jej:=0;
+   6: kolem:=0;
+   7: nerus:=0;
+   8: pokusy:=0;
+   9: zij:=0;
+   0: bojidole:=0;
+  end;
+78 Items
+32 8 7 8
+Klec0.BMP
+65280 Mask
+2 Kind
+1 Ext
+1 Prg1
+name klicka
+1 Prg2
+afaze:=count mod 2;
+29 List
+0 256 512 768 1024 1280 1536 1792 1
+1793 2 1794 3 1027 1283 1539 1795 4 1796
+5 1797 6 262 518 774 1030 1286 1542 1798
+7 13 3 1
+Banka-little.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+7 10 4 2
+Banka-big.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+6 15 9 2
+Banka-3-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+11 List
+0 256 257 258 259 260 5 261 6
+7 8
+17 7 3 4
+Banka-4-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+0 256 512 768 1 769 2 258 514
+770
+24 7 4 4
+Banka-5-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+11 List
+0 256 768 1 769 2 770 3 259
+515 771
+37 18 4 3
+Banka-6-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name zataras
+1 Prg2
+if dir<>dir_no then room.nep:=1;
+10 List
+0 256 512 1 513 2 514 3 259
+515
+32 17 4 4
+Banka-7-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+0 256 512 768 1 769 2 514 770
+3
+12 14 2 1
+zk lezici.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+25 8 2 1
+horni tvor0.BMP
+16711935 Mask
+1 Kind
+5 Ext
+5 Prg1
+name horni1
+var oci
+var poloha
+ini
+oci:=0;
+14 Prg2
+poloha:=0;
+if dolni1.zije>0 then
+  if xdist(this,@dolni1)=0 then poloha:=3
+  else if y=dolni1.y then
+    case xdist(this,@dolni1) of
+      1..3:poloha:=1;
+    -3..-1:poloha:=2;
+    end;
+
+if (count mod 3 = 0)and(random(100)<40) then oci:=random(5);
+
+if random(100)<2 then afaze:=5
+else if poloha>0 then afaze:=poloha
+else afaze:=oci;
+2 List
+0 1
+25 9 2 1
+spodni tvor0.BMP
+16711935 Mask
+1 Kind
+5 Ext
+6 Prg1
+name dolni1
+var oci
+var zije
+ini
+oci:=0;
+zije:=-99;
+20 Prg2
+if (horni1.x<>x)and(zije=-99) then zije:=-7;
+
+if zije=-99 then
+else if zije<=0 then
+  begin
+    inc(zije);
+    afaze:=1;
+  end
+else
+  begin
+    if (count mod 3 = 0)and(random(100)<40) then oci:=random(4)+2;
+    pom1:=horni1.poloha;
+
+    if random(100)<2 then afaze:=1
+    else if pom1>0 then 
+      if pom1=3 then afaze:=3
+      else afaze:=3+pom1
+    else afaze:=oci;
+  end;
+
+2 List
+0 1
+15 24 1 2
+zk b0.bmp
+16711935 Mask
+1 Kind
+2 Ext
+11 Prg1
+name zkum
+ini
+for pom1:=0 to 15 do
+  begin
+    globpole[pom1]:=random(100)+10;
+    Items[@zkum+pom1]^.afaze:=0;
+    if random(2)=0 then
+      globpole[pom1]:=-globpole[pom1];
+  end;
+    
+    
+20 Prg2
+for pom1:=0 to 15 do
+  begin
+    if globpole[pom1]>0 then
+      begin
+        dec(globpole[pom1]);
+        if globpole[pom1]=0 then globpole[pom1]:=-random(100)-10;
+        if odd(count+pom1) then
+          if random(2)>0 then 
+            Items[@zkum+pom1]^.afaze:=(Items[@zkum+pom1]^.afaze+1)mod 3
+          else
+            Items[@zkum+pom1]^.afaze:=(Items[@zkum+pom1]^.afaze+2)mod 3;
+      end
+    else
+      begin
+        inc(globpole[pom1]);
+        if globpole[pom1]=0 then globpole[pom1]:=random(100)+10;
+        Items[@zkum+pom1]^.afaze:=0;
+      end;
+  end;
+
+2 List
+0 256
+19 24 1 2
+zk r0.bmp
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+21 24 1 2
+zk zd0.bmp
+16711935 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+27 14 1 2
+zk c0.bmp
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+23 14 1 2
+zk m0.bmp
+16711935 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+20 9 1 2
+zk c0.bmp
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+19 27 1 2
+zk m0.bmp
+16711935 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+26 14 1 2
+zk f0.bmp
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+21 27 1 2
+zk f0.bmp
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+24 14 1 2
+zk o0.bmp
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+8 5 1 2
+zk b0.bmp
+16711935 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+19 29 1 2
+zk o0.bmp
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+18 29 1 2
+zk r0.bmp
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+17 29 1 2
+zk zd0.bmp
+16711935 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+20 29 1 2
+zk m0.bmp
+16711935 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+21 29 1 2
+zk c0.bmp
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+17 27 1 2
+zk y.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+25 14 1 2
+zk y.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+20 27 1 2
+zk z.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+28 24 1 2
+zk z.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+34 29 2 1
+horni tvor0.BMP
+16711935 Mask
+1 Kind
+5 Ext
+5 Prg1
+name horni2
+var oci
+var poloha
+ini
+oci:=0;
+14 Prg2
+poloha:=0;
+if dolni2.zije>0 then
+  if xdist(this,@dolni2)=0 then poloha:=3
+  else if y=dolni2.y then
+    case xdist(this,@dolni2) of
+      1..3:poloha:=1;
+    -3..-1:poloha:=2;
+    end;
+
+if (count mod 3 = 0)and(random(100)<40) then oci:=random(5);
+
+if random(100)<2 then afaze:=5
+else if poloha>0 then afaze:=poloha
+else afaze:=oci;
+2 List
+0 1
+34 30 2 1
+spodni tvor0.BMP
+16711935 Mask
+1 Kind
+5 Ext
+6 Prg1
+name dolni2
+var oci
+var zije
+ini
+oci:=0;
+zije:=-99;
+20 Prg2
+if (horni2.x<>x)and(zije=-99) then zije:=-7;
+
+if zije=-99 then
+else if zije<=0 then
+  begin
+    inc(zije);
+    afaze:=1;
+  end
+else
+  begin
+    if (count mod 3 = 0)and(random(100)<40) then oci:=random(4)+2;
+    pom1:=horni2.poloha;
+
+    if random(100)<2 then afaze:=1
+    else if pom1>0 then 
+      if pom1=3 then afaze:=3
+      else afaze:=3+pom1
+    else afaze:=oci;
+  end;
+
+2 List
+0 1
+6 7 3 1
+nuz.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+38 30 3 1
+mrtvolka0.BMP
+16711935 Mask
+1 Kind
+8 Ext
+4 Prg1
+name kostra
+var citac
+ini
+citac:=random(200)+200;
+11 Prg2
+if afaze<8 then
+  if citac=0 then
+    begin
+      inc(afaze);
+      citac:=random(200)+200;
+    end
+  else
+    dec(citac);
+
+      
+    
+3 List
+0 1 2
+35 7 4 1
+pilka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 1 2 3
+36 6 4 1
+injekc.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 1 2 3
+7 6 1 1
+oko 0.bmp
+65280 Mask
+1 Kind
+4 Ext
+6 Prg1
+name oko
+var cinnost
+var faze
+var citac
+ini
+cinnost:=0;
+78 Prg2
+case cinnost of
+  0:begin
+      if random(100)<10 then
+        case random(8) of
+          0..2:
+            begin
+              citac:=random(5)+5;
+              cinnost:=1;
+              faze:=random(2)*2;
+            end;
+          3:begin
+              citac:=random(3)+2;
+              cinnost:=2;
+              faze:=random(2)*2;
+            end;
+          4..6:
+            begin
+              citac:=random(12)+12;
+              cinnost:=3+random(2);
+            end;
+          7:begin
+              citac:=random(10)+2;
+              cinnost:=5;
+            end;
+        end; 
+    end;
+  1,2:
+    begin
+      case faze of
+        0:begin
+            if cinnost=1 then afaze:=1
+                         else afaze:=3;
+            if random(100)<20 then inc(faze);
+          end;
+        1:begin
+            afaze:=0;
+            inc(faze);
+          end;
+        2:begin
+            if cinnost=1 then afaze:=2
+                         else afaze:=4;
+            if random(100)<20 then inc(faze);
+          end;
+        3:begin
+            afaze:=0;
+            dec(citac);
+            if citac=0 then cinnost:=0
+                       else faze:=0;
+          end;
+      end; 
+    end;
+  3,4,5:
+    begin
+      case cinnost of
+        3:case afaze of
+            0:afaze:=random(4)+1;
+            1:afaze:=3;
+            2:afaze:=4;
+            3:afaze:=2;
+            4:afaze:=1;
+          end;
+        4:case afaze of
+            0:afaze:=random(4)+1;
+            1:afaze:=4;
+            2:afaze:=3;
+            3:afaze:=1;
+            4:afaze:=2;
+          end;
+        5:if random(100)<40 then afaze:=random(5);
+      end;
+      dec(citac);
+      if citac=0 then 
+        begin
+          cinnost:=0;
+          afaze:=0;
+        end;
+    end;
+end;               
+1 List
+0
+29 15 1 1
+q0.bmp
+16711935 Mask
+1 Kind
+7 Ext
+7 Prg1
+name qldik1
+var zije
+var oci
+ini
+afaze:=5;
+zije:=0;
+oci:=0;
+8 Prg2
+if dir<>dir_no then zije:=1;
+if count mod 3=0 then
+  if zije>0 then
+    begin
+      if random(100)<20 then oci:=random(5);
+      if random(100)<4 then afaze:=5
+      else afaze:=oci;
+    end;
+1 List
+0
+23 30 1 1
+q0.bmp
+16711935 Mask
+1 Kind
+7 Ext
+7 Prg1
+name qldik2
+var zije
+var oci
+ini
+afaze:=5;
+zije:=0;
+oci:=0;
+8 Prg2
+if dir<>dir_no then zije:=1;
+if count mod 3=0 then
+  if zije>0 then
+    begin
+      if random(100)<20 then oci:=random(5);
+      if random(100)<4 then afaze:=5
+      else afaze:=oci;
+    end;
+1 List
+0
+34 18 1 1
+q0.bmp
+16711935 Mask
+1 Kind
+7 Ext
+6 Prg1
+name qldik3
+var oci
+var skace
+ini
+oci:=0;
+skace:=0;
+19 Prg2
+if count mod 2=0 then
+  if skace=0 then
+    begin
+      if random(100)<1 then skace:=random(7)*2+3;
+      if random(100)<4 then afaze:=5
+      else 
+        begin
+          if random(100)<30 then oci:=random(5);
+          afaze:=oci;
+        end;
+    end
+  else
+    begin
+      if odd(skace) then afaze:=6
+      else afaze:=7;
+      dec(skace);
+    end;
+              
+  
+1 List
+0
+19 13 4 3
+lahvac0.BMP
+65280 Mask
+1 Kind
+33 Ext
+13 Prg1
+name lahvac
+var rozbit
+var stav
+var vnitrek
+var smer
+var pada
+ini
+rozbit:=0;
+vnitrek:=random(4);
+stav:=0;
+smer:=random(2);
+pada:=0;
+  
+129 Prg2
+case rozbit of
+  0:begin
+      if (count mod 4=0) then
+        case random(4) of
+          0:vnitrek:=(vnitrek+1)mod 4;
+          1:vnitrek:=(vnitrek+3)mod 4;
+        end;
+      case stav of
+        0:if random(100)<5 then 
+            begin
+              stav:=10+random(2)*10;
+              smer:=1-smer;
+              afaze:=0;
+            end
+          else if random(100)<7 then 
+            begin
+              stav:=1+random(2);
+              afaze:=7+stav*4+vnitrek mod 2;
+            end
+          else afaze:=vnitrek;
+        1,2:
+          if random(100)<7 then
+            begin
+              afaze:=7+stav*4+vnitrek mod 2;
+              stav:=0;
+            end
+          else if (random(100)<7) and (stav=2) then
+            begin
+              stav:=3;
+              afaze:=19;
+            end
+          else 
+            begin
+              afaze:=9+4*stav+vnitrek mod 2;
+              if random(100)<5 then dec(afaze,2);
+            end;
+        3:if random(100)<7 then
+            begin
+              stav:=2;
+              afaze:=15+vnitrek mod 2;
+            end
+          else if random(100)<7 then
+            begin
+              stav:=4;
+              afaze:=22+vnitrek mod 2;
+            end
+          else
+            if (vnitrek mod 2=1) and (random(100)<10) then afaze:=19
+            else afaze:=20+vnitrek mod 2;
+        4:if random(100)<7 then
+            begin
+              stav:=3;
+              afaze:=20+vnitrek mod 2;
+            end;
+       10..15:
+          begin
+            if smer=0 then afaze:=stav-5
+            else afaze:=25-stav-5;
+            if stav=15 then stav:=0
+            else inc(stav);
+          end;
+       20..25:
+          if count mod 3=0 then
+            begin
+              if smer=0 then afaze:=stav-15
+              else afaze:=45-stav-15;
+              if stav=25 then stav:=0
+              else inc(stav);
+            end;
+      end;
+      if Dir=dir_down then pada:=1
+      else if pada=1 then rozbit:=1;
+    end;
+  1..4:
+    begin
+      afaze:=23+rozbit;
+      inc(rozbit);
+    end;
+  5:begin
+      stav:=random(30)+30;
+      inc(rozbit);
+    end;
+  6:if (stav=0)or(Dir=dir_left)or(Dir=dir_right) then 
+      begin
+        inc(rozbit);
+        stav:=0;
+      end
+    else 
+      dec(stav);
+  7:if (Dir<>dir_no) then
+      begin
+        stav:=random(10)+10;
+        rozbit:=10;
+        afaze:=31+random(3);
+      end
+    else
+      case stav of
+        0:if random(100)<7 then
+            begin
+              stav:=1+random(2);
+              if stav=1 then afaze:=28
+              else afaze:=30;
+            end
+          else 
+            afaze:=27;
+        1:if random(100)<7 then 
+            begin
+              stav:=0;
+              afaze:=28;
+            end
+          else 
+            if random(100)<5 then afaze:=28
+            else afaze:=29;
+        2:if random(100)<7 then stav:=0;
+      end;
+ 10:if stav=0 then
+      begin
+        stav:=random(10)+10;
+        rozbit:=6;
+        afaze:=27;
+      end
+    else
+      begin
+        if odd(count) then  
+          if random(2)=0 then afaze:=(afaze-30)mod 3+31
+          else afaze:=(afaze-29)mod 3+31;
+        dec(stav);
+      end;
+end;
+6 List
+1 257 513 2 258 514
+26 28 2 3
+oka0.BMP
+16711935 Mask
+1 Kind
+14 Ext
+10 Prg1
+name oka
+var kuk
+var smer
+var novysmer
+var impuls
+var faze
+ini
+impuls:=0;
+kuk:=0;
+smer:=4;
+59 Prg2
+if dir<>dir_no then 
+  begin
+    if impuls=0 then faze:=0;
+    impuls:=4;
+  end;
+
+if impuls>0 then
+  begin
+    if faze<impuls then
+      afaze:=7+faze
+    else
+      afaze:=15-2*impuls+faze;
+    inc(faze);
+    if faze=2*impuls then 
+      begin
+        faze:=0;
+        dec(impuls);
+      end;
+  end
+else if kuk>0 then
+  begin
+    afaze:=1;
+    dec(kuk);
+    smer:=4;
+  end
+else
+  begin
+    if aktivni=mala then 
+      begin
+        pom1:=xdist(@malar,this);
+        pom2:=ydist(@malar,this);
+      end
+    else if aktivni=velka then
+      begin
+        pom1:=xdist(@velkar,this);
+        pom2:=ydist(@velkar,this);
+      end;
+
+    if (aktivni=mala)or(aktivni=velka) then
+      begin
+        if pom1<0 then
+          begin
+            if abs(pom1)>=2*abs(pom2) then novysmer:=6
+            else if abs(pom2)>=2*abs(pom1) then novysmer:=4
+            else novysmer:=5
+          end
+        else   
+          begin
+            if abs(pom1)>=2*abs(pom2) then novysmer:=2
+            else if abs(pom2)>=2*abs(pom1) then novysmer:=4
+            else novysmer:=3
+          end;
+      end;
+    if smer=-1 then smer:=novysmer
+    else if smer<novysmer then inc(smer)
+    else if smer>novysmer then dec(smer);
+    afaze:=smer;
+    if random(200)<1 then kuk:=random(4)+4;
+  end;
+6 List
+0 256 512 1 257 513
+29 28 2 3
+med.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 1 257 513
+9 24 2 2
+mala0.BMP
+65280 Mask
+1 Kind
+6 Ext
+7 Prg1
+name malej
+var oci
+var houpe
+var faze
+ini
+houpe:=0;
+oci:=0;
+28 Prg2
+if count mod 3=0 then
+  if random(100)<10 then oci:=random(5);
+
+if (dir<>dir_no)and(houpe=0)then 
+  begin
+    faze:=0;
+    houpe:=1;
+  end;
+
+case houpe of
+  0:begin
+      if random(100)<2 then afaze:=4
+      else afaze:=oci;
+    end;
+  1:begin
+      inc(faze);
+      case faze of
+        1:afaze:=5;
+        4:afaze:=6;
+        6:if dir=dir_no then 
+            begin
+              houpe:=0;
+              oci:=0;
+            end
+          else faze:=0;
+      end;
+    end;
+end;
+4 List
+0 256 1 257
+32 28 2 3
+sklena0.BMP
+16711935 Mask
+1 Kind
+11 Ext
+8 Prg1
+name ruka
+var cinnost
+var faze
+var smer
+ini
+cinnost:=0;
+smer:=0;
+faze:=0;
+58 Prg2
+
+if odd(count) then
+  begin
+    pomb1:=(xdist(this,@malar)=0)and(ydist(this,@malar)>0)
+           and(ydist(this,@malar)<10);
+    pomb2:=(xdist(this,@velkar)=0)and(ydist(this,@velkar)>0)
+           and(ydist(this,@velkar)<10);
+
+    if pomb1 and pomb2 then 
+      if malar.Y>velkar.Y then pomb2:=false;
+
+    if pomb1 or pomb2 then
+      begin
+        if cinnost<>2 then faze:=0;
+        cinnost:=2;
+        if pomb1 then
+          if natoceni[mala]=smer_vlevo then smer:=0
+          else smer:=1
+        else
+          if natoceni[velka]=smer_vlevo then smer:=0
+          else smer:=1
+      end
+    else 
+      if cinnost=2 then
+        begin        
+          cinnost:=0;
+          faze:=0;
+        end;
+    case cinnost of
+      0:begin
+          if random(100)<2 then 
+            begin
+              cinnost:=1;
+              afaze:=0;
+              faze:=(random(3)+2)*2;
+            end
+          else
+            begin
+              if random(100)<3 then smer:=1-smer;
+              if smer=0 then faze:=(faze+1)mod 7
+              else faze:=(faze+6)mod 7;
+              afaze:=faze;
+            end;
+        end;
+      1:begin
+          dec(faze);
+          if odd(faze) then afaze:=7
+          else afaze:=0;
+          if faze=0 then cinnost:=0;
+        end;
+      2:begin
+          faze:=1-faze;
+          afaze:=8+faze+smer*2;
+        end;
+    end;
+  end; 
+      
+  
+6 List
+0 256 512 1 257 513
+38 24 3 2
+kreveta.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 257 258
+33 18 1 2
+zk y.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+9 27 1 4
+dvere.bmp
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name dvere1
+0 Prg2
+4 List
+0 256 512 768
+12 27 1 4
+dvere.bmp
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name dvere2
+0 Prg2
+4 List
+0 256 512 768
+33 9 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+36 Ext
+5 Prg1
+name pldicek
+var pocet
+ini
+pocet:=0;
+InitPldici(@pldicek,pocet);
+1 Prg2
+PrgPldici(@pldicek,pocet);
+1 List
+0
+33 10 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+33 11 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+33 12 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+33 13 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+33 14 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+34 9 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+34 10 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+34 11 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+34 12 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+34 13 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+34 14 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+35 9 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+35 10 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+35 11 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+36 9 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+36 10 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+36 11 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+36 12 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+36 13 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+36 14 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+37 9 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+37 10 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+37 11 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+37 12 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+37 13 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+37 14 1 1
+p0.bmp
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+5 27 3 4
+Mutant0.bmp
+16711935 Mask
+1 Kind
+9 Ext
+6 Prg1
+name mutant
+ini
+// 0-4 - dole
+// 5   - vycuc
+// 6-8 - mrk
+// 9   - vycuc doprava
+14 Prg2
+if odd(count) then
+if (dvere1.dir=dir_no)and(dvere2.dir=dir_no) then
+ case afaze of
+  0..4: case random(20) of
+          0: afaze:=5;
+          1..3: afaze:=random(5);
+         end;
+  5,9: if random(4)=2 then afaze:=5+random(5);
+  else case random(20) of
+         0..1: afaze:=random(5);
+         2..7: afaze:=6+random(3);
+        end;
+ end
+else afaze:=9;
+5 List
+768 257 513 769 770
+EOF

@@ -1,0 +1,499 @@
+REDIT FILE from 12.3.1998 0:11:58
+Secret
+Secret
+0 1 5 10 5 0 0 0 0 0  Params
+8421631 Grid
+39 32
+Secret-p.BMP
+0 obsolete
+0 Ext
+Secret-w.BMP
+65280 Mask
+0 Ext
+323 WlList
+0 2048 5632 7424 7680 7936 1 2049 3841
+5633 7425 7681 7937 2 258 2050 3842 5634 7426
+7682 7938 3 259 515 771 2051 3843 5635 7427
+7683 7939 4 516 772 1028 1284 1540 1796 2052
+2308 2564 2820 3076 3332 3588 3844 4100 4356 4612
+4868 5124 5380 5636 5892 6148 6404 6660 6916 7172
+7428 7684 7940 5 261 517 773 2053 3845 7429
+7685 7941 6 262 2054 7430 7686 7942 7 2055
+7431 7687 7943 8 2056 7432 7688 7944 9 2057
+5641 7433 7689 7945 10 2058 3850 5642 7434 7690
+7946 11 2059 3851 5643 7435 7691 7947 12 268
+2060 3852 5644 7436 7692 7948 13 269 525 781
+2061 3853 5645 7693 7949 14 526 782 1550 1806
+2062 2318 2574 2830 3086 3342 5390 5646 5902 6158
+6414 7694 7950 15 271 527 783 2063 5647 7695
+7951 16 272 2064 5648 7440 7696 7952 17 5649
+7441 7697 7953 18 5650 7442 7698 7954 19 5651
+7443 7699 7955 20 5652 7444 7700 7956 21 3861
+7701 7957 22 278 3862 7958 23 279 535 791
+2071 3863 5655 7447 7703 7959 24 536 792 1560
+1816 2072 2328 3096 3352 3608 3864 4120 4376 4632
+4888 5400 5656 5912 6168 6424 7704 7960 25 281
+537 2073 7449 7705 7961 26 282 2074 5658 7450
+7706 7962 27 2075 5659 7707 7963 28 3868 7708
+7964 29 3869 7453 7709 7965 30 3870 5662 7710
+7966 31 2079 3871 5663 7711 7967 32 288 2080
+3872 5664 7712 7968 33 289 545 801 2081 3873
+5665 7713 7969 34 546 802 1058 1314 1570 1826
+2082 2338 2594 2850 3106 3362 3874 4130 4898 5154
+5410 5666 5922 6178 7458 7714 7970 35 291 547
+803 2083 5667 7459 7715 7971 36 292 2084 5668
+7460 7716 7972 37 2085 7461 7717 7973 38 3878
+7206 7462 7718 7974
+23 Prg1
+name room
+var uvod
+var poslvykrik
+var pocetvykriku
+var venku
+var obaloncich
+var omeste
+var okrabech
+var osose
+var opocitech
+ini
+uvod:=10+random(10);
+poslvykrik:=-1;
+pocetvykriku:=0;
+venku:=1;
+obaloncich:=random(20)+40;
+omeste:=random(2);
+okrabech:=0;
+osose:=random(4000)+3000;
+if (pokus>1)and(random(100)<50) then
+  opocitech:=random(1500)+1000
+else 
+  opocitech:=-1;
+77 Prg2
+if no_dialog and zije[mala] and zije[velka] then
+  begin
+    if uvod>0 then 
+      begin
+        if (cihla.X=cihla.XStart)and(cihla.Y=cihla.YStart) then
+          dec(uvod)
+        else
+          begin
+            uvod:=-1;
+            venku:=0;
+          end;
+      end;
+    if osose>0 then dec(osose);
+    if opocitech>0 then dec(opocitech);
+
+    if obaloncich>0 then
+      if (balon1.dir<>dir_no)or(balon2.dir<>dir_no)or(balon3.dir<>dir_no)
+         or(lbalon.dir<>dir_no)or(rbalon.dir<>dir_no) then
+        dec(obaloncich);
+
+    if uvod=0 then
+      begin
+        uvod:=100+random(200);
+        inc(pocetvykriku);
+        pom1:=random(2);
+        if pom1=poslvykrik then pom1:=2;
+        if (pocetvykriku in [5,11,16]) then pom1:=3;
+        poslvykrik:=pom1;
+        case pom1 of
+          0..2:addv(3,'sec-v-ven'+chr(pom1+48));
+          3:begin
+              addv(3,'sec-v-zavreny');
+              addm(10,'sec-m-kamen');
+            end;
+        end;
+      end
+    else if venku=0 then
+      begin
+        venku:=1;
+        addm(random(10)+10,'sec-m-ven'+chr(random(2)+48));
+      end
+    else if (obaloncich=0) then
+      begin
+        obaloncich:=-1;
+        addm(5,'sec-m-balonky');
+      end
+    else if (omeste=0)and(random(3000)=0) then
+      begin
+        omeste:=1;
+        addv(10,'sec-v-mesto');
+      end
+    else if (okrabech=0)and(random(2000)=0) then
+      begin
+        okrabech:=1;
+        addm(20,'sec-m-krab');
+        addv(10,'sec-v-ktery');
+        addm(5,'sec-m-dole'+chr(random(2)+48));
+        addv(5+random(20),'sec-v-normalni'+chr(random(2)+48));
+      end
+    else if (osose=0) then
+      begin
+        osose:=-1;
+        addv(40,'sec-v-socha');
+        addm(random(10)+4,'sec-m-situace');
+        adddel(random(15)+5);
+        addset(drzka.cinnost,1);
+      end
+    else if (opocitech=0) then
+      begin
+        opocitech:=-1;
+        addv(20,'sec-v-pocit');
+        addm(5,'sec-m-pocity');
+        addv(0,'sec-v-pockej');
+        addv(random(30)+40,'sec-v-oci');
+        addm(4,'sec-m-program');
+      end;
+  end;
+19 Items
+14 4 1 2
+zed-big.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name cihla
+0 Prg2
+2 List
+0 256
+18 26 2 3
+hlava 1.BMP
+65280 Mask
+1 Kind
+19 Ext
+5 Prg1
+name drzka
+var cinnost
+ini
+cinnost:=0;
+afaze:=0;
+10 Prg2
+case cinnost of
+  1:begin
+      setanim(this,'a5d2a10d11a11d4a10d4a11d4a10d4a11d4a10d?20-40a9');
+      inc(cinnost);
+    end;
+  2:begin
+      goanim(this);
+    end;
+end;
+  
+6 List
+0 256 512 1 257 513
+17 26 1 3
+6-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+20 26 1 3
+6-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+34 14 1 1
+zed-small.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+14 19 3 1
+15-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name scully
+0 Prg2
+3 List
+0 1 2
+7 5 4 2
+16-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name mulder
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+26 7 1 1
+balonek1.bmp
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name lbalon
+8 Prg2
+if dir=dir_left then if afaze=0 then afaze:=3 else dec(afaze)
+else if dir=dir_right then if afaze=3 then afaze:=0 else inc(afaze)
+else
+if (x=krab.x)and(y-3=krab.y) then
+ begin
+  if afaze=3 then afaze:=0 else inc(afaze);
+  krab.beh:=1;
+ end
+1 List
+0
+31 7 1 1
+balonek1.bmp
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name rbalon
+8 Prg2
+if dir=dir_left then if afaze=0 then afaze:=3 else dec(afaze)
+else if dir=dir_right then if afaze=3 then afaze:=0 else inc(afaze)
+else
+if (x-5=krab.x)and(y-3=krab.y) then
+ begin
+  if afaze=0 then afaze:=3 else dec(afaze);
+  krab.beh:=1;
+ end
+1 List
+0
+12 14 1 1
+balonek1.bmp
+65280 Mask
+1 Kind
+3 Ext
+4 Prg1
+name balon1
+var pauza
+ini
+pauza:=random(200);
+10 Prg2
+if dir=dir_left then if afaze=0 then afaze:=3 else dec(afaze)
+else if dir=dir_right then if afaze=3 then afaze:=0 else inc(afaze)
+else
+if pauza=0 then pauza:=random(320)-60;
+if pauza<0 then
+ begin
+  if afaze=3 then afaze:=0 else inc(afaze);
+  inc(pauza)
+ end
+else dec(pauza);
+1 List
+0
+15 18 1 1
+balonek1.bmp
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name balon2
+2 Prg2
+if dir=dir_left then if afaze=0 then afaze:=3 else dec(afaze)
+else if dir=dir_right then if afaze=3 then afaze:=0 else inc(afaze)
+1 List
+0
+19 25 1 1
+balonek1.bmp
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name balon3
+2 Prg2
+if dir=dir_left then if afaze=0 then afaze:=3 else dec(afaze)
+else if dir=dir_right then if afaze=3 then afaze:=0 else inc(afaze)
+1 List
+0
+23 1 3 3
+anticka hlava ulomena.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+1
+3 1 3 3
+anticka hlava1.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name hlava1
+6 Prg2
+{case count mod 20 of
+ 0,13: afaze:=0;
+ 2,5,8,12,15: afaze:=1;
+ 3,7,14: afaze:=2;
+ 9,17: afaze:=3;
+end;}
+1 List
+1
+13 1 3 3
+anticka hlava1.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name hlava2
+6 Prg2
+{case (count div 2) mod 20 of
+ 0,13: afaze:=0;
+ 2,5,8,12,15: afaze:=1;
+ 3,7,14: afaze:=2;
+ 9,17: afaze:=3;
+end;}
+1 List
+1
+33 1 3 3
+anticka hlava1.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name hlava3
+7 Prg2
+{case (count div 3) mod 20 of
+ 0,13: afaze:=0;
+ 2,5,8,12,15: afaze:=1;
+ 3,7,14: afaze:=2;
+ 9,17: afaze:=3;
+end;
+}
+1 List
+1
+26 4 6 3
+kr0.BMP
+65280 Mask
+1 Kind
+17 Ext
+16 Prg1
+name krab
+var beh
+var oci
+var voci
+var mrac
+var nohy
+ini
+beh:=0;
+oci:=1;
+voci:=1;
+mrac:=1;
+nohy:=1;
+afaze:=10;
+// oci: 0..2 (left,mid,right)
+// mrac: 0..1 (yes,no)
+// nohy: 0..2 (ven,norm,dovnitr)
+34 Prg2
+if beh=1 then
+ begin
+  if nohy=2 then nohy:=0 else inc(nohy);
+  beh:=0;
+ end
+else
+ nohy:=1;
+
+if random(20)=1 then mrac:=1-mrac;
+
+if ((xdist(little,this)=0)and(ydist(little,this)<=0)) then
+ if scully.x<x then oci:=0
+ else if scully.x>x+3 then oci:=2
+ else oci:=1
+else
+if ((xdist(big,this)=0)and(ydist(big,this)<=0)) then
+ if mulder.x<x-1 then oci:=0
+ else if mulder.x>x+3 then oci:=2
+ else oci:=1
+else
+if odd(count) then
+ begin
+  case random(11) of
+    0..5: if voci=3 then voci:=0 else inc(voci);
+    6: if voci=0 then voci:=3 else dec(voci);
+    9: voci:=random(4);
+   end;
+  if voci=3 then oci:=1 else oci:=voci;
+ end;
+
+afaze:=oci+mrac*3+nohy*6;
+
+//voci    0 1 2
+//          3
+10 List
+256 512 257 2 258 3 259 260 261
+517
+20 20 3 2
+shrimp1.bmp
+65280 Mask
+1 Kind
+4 Ext
+6 Prg1
+name shrimp
+ini
+afaze:=4;
+// faze oka:    3
+//            2 4 0
+//              1
+22 Prg2
+if odd(count) then
+ case krab.oci of
+  0: afaze:=2;
+  2: afaze:=0;
+  1: case krab.voci of
+      1: case random(10) of
+          0: afaze:=3;
+          1..6: afaze:=4;
+          else afaze:=1;
+         end;
+      3: case random(10) of
+          0..3: afaze:=3;
+          4..9: afaze:=4;
+          else afaze:=1;
+         end;
+      else case count mod 8 of
+            0,1: afaze:=1;
+            4,5: afaze:=3;
+            else afaze:=4;
+           end;
+     end;
+ end;
+4 List
+0 256 1 2
+29 21 2 1
+krab1.BMP
+65280 Mask
+1 Kind
+5 Ext
+8 Prg1
+name krabik
+var spi
+ini
+spi:=0;
+afaze:=0;
+//         3        1 spi
+//       4 0 5
+//         2
+13 Prg2
+if odd(count) then
+if spi>0 then begin afaze:=1; dec(spi) end
+else
+begin
+ case shrimp.afaze of
+  0: afaze:=5;
+  1: afaze:=2;
+  2: afaze:=4;
+  3: afaze:=3;
+  4: afaze:=0;
+ end;
+if random(100)=14 then spi:=random(30);
+end;
+2 List
+0 1
+EOF

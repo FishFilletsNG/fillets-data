@@ -1,0 +1,263 @@
+REDIT FILE from 25.2.1998 1:56:28
+Zdviz1
+Dùm s výtahem
+0 1 5 10 5 0 0 0 0 0  Params
+-2147483632 Grid
+34 36
+Zdviz1-p.BMP
+0 obsolete
+0 Ext
+Zdviz1-w.BMP
+65280 Mask
+0 Ext
+277 WlList
+1536 1792 2048 2304 2560 2816 3072 3328 3584
+3840 4096 4352 4608 4864 5120 5376 5632 5888 6144
+6400 6656 6912 7168 7424 7680 7936 8192 8448 8704
+8960 1793 8193 8449 8705 8961 1794 8194 8450 8706
+8962 1795 8195 8451 8707 8963 1796 8196 8452 8708
+8964 517 773 1029 1797 8197 8453 8709 8965 518
+774 1030 8198 8454 8710 8966 519 775 1031 1799
+8199 8455 8711 8967 520 776 1032 1800 8200 8456
+8712 8968 521 777 1033 1801 8201 8457 8713 8969
+522 778 1802 8202 8458 8714 8970 523 779 1803
+8203 8459 8715 8971 524 780 1804 8204 8460 8716
+8972 525 1805 2573 2829 3085 3341 3597 3853 4109
+4365 4621 4877 5133 5389 6157 6413 6669 6925 7181
+7437 8461 8717 8973 526 8462 8974 8975 8976 8977
+8978 531 8467 8979 532 1812 2580 2836 3092 3348
+3604 3860 4116 4372 4628 4884 5140 5396 5652 5908
+6164 6420 7188 7444 8212 8468 8724 8980 533 789
+1813 8213 8469 8725 8981 534 790 1814 8214 8470
+8726 8982 535 791 1815 8215 8471 8727 8983 536
+792 1048 1816 8216 8472 8728 8984 537 793 1049
+1817 8217 8473 8729 8985 538 794 1050 1818 8218
+8474 8730 8986 539 795 1051 8219 8475 8731 8987
+540 796 1052 1820 8220 8476 8732 8988 1821 8221
+8477 8733 8989 1822 8222 8478 8734 8990 1823 8223
+8479 8735 8991 1824 8224 8480 8736 8992 1569 1825
+2081 2337 2593 2849 3105 3361 3617 3873 4129 4385
+4641 4897 5153 5409 5665 5921 6177 6433 6689 6945
+7201 7457 7713 7969 8225 8481 8737 8993
+23 Prg1
+name room
+var uvod
+var lastura
+var lebzna
+var jizdam
+var jizdav
+var huhuh
+ini
+uvod:=0;
+lebzna:=0;
+lastura:=0;
+jizdam:=random(15)+3;
+jizdav:=random(50)+10;
+if pokus>1 then
+  begin
+    if random(100)<30 then uvod:=1;
+    if random(100)<50 then lastura:=1;
+    if random(100)<60 then lebzna:=1;
+    if random(100)<20 then jizdam:=-1;
+    if random(100)<30 then jizdav:=-1;
+  end;
+
+huhuh:=0;
+53 Prg2
+if zije[mala] and zije[velka] and no_dialog then
+  begin
+    if (uvod=0) then
+      begin
+        addv(random(20)+50,'zd1-v-civil');
+        case roompole[0] of
+          0:addm(random(10),'zd1-m-dolu');
+          1:begin
+              addm(random(10),'zd1-m-tlac');
+              inc(roompole[0]);
+            end;
+          2:if random(2)=0 then addm(random(10),'zd1-m-tlac')
+            else addm(random(10),'zd1-m-dolu');
+        end;
+        uvod:=1;
+      end;
+
+    if (lastura=0) and (look_at(@malar,@shelka)) and 
+      (abs(ydist(@malar,@shelka))<3)and(random(100)<1) then
+      begin
+        if random(2)=0 then addm(0,'zd1-m-last')
+        else addm(0,'zd1-m-poved');
+        if random(2)=0 then addv(random(10),'zd1-v-talis')
+        else addv(random(3),'zd1-v-styd');
+        lastura:=1;
+      end
+    else if (lebzna=0) and (look_at(@velkar,@llebka)) and 
+      (abs(ydist(@velkar,@llebka))<3)and(random(100)<1) then
+      begin
+        addv(20,'zd1-v-lebka');
+        addm(random(8),'zd1-m-stejne');
+        lebzna:=1;
+      end
+    else if (malar.jede=jizdam) then
+      begin
+        addm(0,'zd1-m-cesta');
+        jizdam:=-1;
+      end
+    else if (velkar.jede=jizdav) then
+      begin
+        addv(0,'zd1-v-krecek');
+        addm(3,'zd1-m-slap');
+        jizdav:=-1;
+      end
+    else if random(1000)<8 then
+      begin
+        pom1:=huhuh;
+        if huhuh=0 then huhuh:=random(3)+1
+        else huhuh:=random(4)+1;
+        if pom1=huhuh then huhuh:=5;
+        addd(5,'zd1-x-huhu'+chr(huhuh+48),101,dedek.mluvi);
+      end;
+  end;      
+9 Items
+14 6 6 7
+Zdviz-1-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+4 Prg1
+name vytah
+var jede
+ini
+spec:=4;
+2 Prg2
+if dir=dir_up then
+  if roompole[0]=0 then roompole[0]:=1;
+22 List
+0 256 512 768 1536 1 769 1537 2
+770 1538 3 771 1539 4 772 1540 5 773
+1029 1285 1541
+13 3 8 4
+stroj1.BMP
+65280 Mask
+2 Kind
+5 Ext
+3 Prg1
+name stroj
+ini
+spec:=3;
+16 Prg2
+if (X=vytah.X-1) then
+  begin
+    if ((Dir=dir_no)and(vytah.Dir=dir_down)) then pom1:=2
+    else if ((Dir=dir_up)and(vytah.Dir=dir_no)) then pom1:=1
+    else if ((Dir=dir_no)and(vytah.Dir=dir_up)) then pom1:=-1
+    else if ((Dir=dir_down)and(vytah.Dir=dir_no)) then pom1:=-2
+    else pom1:=0;
+
+    afaze:=afaze+pom1;
+    if afaze>5 then dec(afaze,6)
+    else if afaze<0 then inc(afaze,6);
+  end;
+
+   
+      
+      
+18 List
+512 768 513 2 258 514 3 259 515
+4 260 516 5 261 517 518 519 775
+7 31 1 1
+shell1.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name shelka
+0 Prg2
+1 List
+0
+8 31 1 1
+hlava m-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+1 Prg1
+name hlavicka
+6 Prg2
+if (afaze=0)and(random(100)<2) 
+ or(afaze<>0)and(random(100)<5) then
+  begin
+    afaze:=random(3);
+  end;
+  
+1 List
+0
+3 29 3 3
+kriz1.BMP
+65280 Mask
+1 Kind
+2 Ext
+4 Prg1
+name dedek
+var mluvi
+ini
+mluvi:=0;
+4 Prg2
+if mluvi<>0 then
+  afaze:=random(2)+1
+else
+  afaze:=0;
+5 List
+256 1 257 513 258
+26 25 3 1
+Zdviz-7-Tmp.bmp
+65280 Mask
+3 Kind
+0 Ext
+4 Prg1
+name malar
+var jede
+ini
+jede:=0;
+4 Prg2
+if (vytah.dir=dir_up) 
+    and(X>=vytah.X)and(X<vytah.X+4)
+    and(Y>vytah.Y)and(Y<vytah.Y+6) then
+  inc(jede);
+3 List
+0 1 2
+4 24 4 2
+7-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+4 Prg1
+name velkar
+var jede
+ini
+jede:=0;
+4 Prg2
+if (vytah.dir=dir_up) 
+    and(X>=vytah.X)and(X<vytah.X+3)
+    and(Y>vytah.Y)and(Y<vytah.Y+5) then
+  inc(jede);
+8 List
+0 256 1 257 2 258 3 259
+29 30 2 2
+lebzna.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name llebka
+0 Prg2
+3 List
+0 1 257
+13 8 1 2
+amfora zelena.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+EOF

@@ -1,0 +1,543 @@
+REDIT FILE from 23.3.1998 11:34:58
+Smetak
+Smeák
+1 1 5 10 5 0 0 0 0 0  Params
+3178664 Grid
+43 32
+Smetak-p.BMP
+0 obsolete
+0 Ext
+Smetak-w.BMP
+65280 Mask
+0 Ext
+597 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 3072 3328 3584 3840 4096 4352 4608 4864 5120
+5376 5632 5888 6144 6400 6656 6912 7168 7424 7680
+7936 1 257 513 769 1025 1281 1537 1793 2049
+2305 3073 3329 3585 3841 4097 4353 4609 4865 5121
+5377 5633 5889 6145 6401 6657 6913 7169 7425 7681
+7937 2 258 514 770 1026 1282 1538 1794 2050
+2306 3074 3330 3586 3842 4098 4354 4610 4866 5122
+5378 5634 5890 6146 6402 6658 6914 7170 7426 7682
+7938 3 259 515 1283 1539 1795 2051 2307 3075
+3331 3587 3843 4099 6403 6659 6915 7171 7427 7683
+7939 4 260 516 1796 2052 2308 3076 6404 7428
+7684 7940 5 261 517 2053 2309 3077 6405 7429
+7685 7941 6 262 518 2310 3078 6406 7430 7686
+7942 7 263 519 775 2311 3079 3847 5639 5895
+6407 6919 7431 7687 7943 8 264 520 2312 3080
+3848 5896 6920 7432 7688 7944 9 265 521 1033
+1289 1545 1801 2057 2313 3081 3849 4105 5897 7433
+7689 7945 10 266 522 3082 3850 4106 4874 5898
+7434 7690 7946 11 267 523 3851 4875 5899 6155
+6923 7435 7691 7947 12 268 524 3084 3340 4364
+4876 5900 6156 7436 7692 7948 13 269 525 4877
+5901 6157 7437 7693 7949 14 270 526 3086 3342
+6158 7438 7694 7950 15 271 527 3087 3343 3855
+4111 4879 5903 6159 7439 7695 7951 16 272 528
+3088 3344 3856 4880 7440 7696 7952 17 273 529
+3089 3345 3857 4113 4369 4881 6161 7441 7697 7953
+18 274 530 3090 3346 3858 4882 5138 6674 7442
+7698 7954 19 275 531 3091 3347 3859 4883 5139
+6419 6675 7443 7699 7955 20 276 532 3860 4884
+5140 6420 6676 7444 7700 7956 21 277 533 3093
+4885 5141 5397 6677 7189 7445 7701 7957 22 278
+534 6678 7190 7446 7702 7958 23 279 535 4887
+5143 6679 7191 7447 7703 7959 24 280 536 4888
+5144 7192 7448 7704 7960 25 281 537 4889 5145
+7193 7449 7705 7961 26 282 538 4890 5146 7194
+7450 7706 7962 27 283 539 4891 5147 5915 6683
+6939 7195 7451 7707 7963 28 284 540 5916 6684
+6940 7196 7452 7708 7964 29 285 541 1309 4893
+6685 6941 7197 7453 7709 7965 30 286 542 1310
+6686 6942 7198 7454 7710 7966 31 287 543 1311
+2591 2847 3871 4127 6687 6943 7199 7455 7711 7967
+32 288 544 1312 6944 7200 7456 7712 7968 33
+289 545 1313 6945 7201 7457 7713 7969 34 290
+546 1314 4386 5410 6690 6946 7202 7458 7714 7970
+35 291 547 1315 4387 4643 5411 5667 6691 6947
+7203 7459 7715 7971 36 292 548 3108 3364 6692
+6948 7204 7460 7716 7972 37 293 549 3109 3365
+6693 6949 7205 7461 7717 7973 38 294 550 3110
+6694 6950 7206 7462 7718 7974 39 295 551 2087
+6951 7207 7463 7719 7975 40 296 552 1064 1320
+1576 1832 2088 2344 2600 2856 3112 3368 3624 3880
+4136 4392 4648 4904 5160 5416 5672 5928 6184 6440
+6696 6952 7208 7464 7720 7976 41 297 553 1065
+1321 1577 1833 2089 2345 2601 2857 3113 3369 3625
+3881 4137 4393 4649 4905 5161 5417 5673 5929 6185
+6441 6697 6953 7209 7465 7721 7977 42 298 554
+1066 1322 1578 1834 2090 2346 2602 2858 3114 3370
+3626 3882 4138 4394 4650 4906 5162 5418 5674 5930
+6186 6442 6698 6954 7210 7466 7722 7978
+12 Prg1
+name room
+var uvod
+var obudikovi
+var okramech
+var olodi
+var sbirka
+ini
+uvod:=0;
+obudikovi:=0;
+okramech:=nah(1000,3000);
+olodi:=0;
+sbirka:=nah(300,1200);
+69 Prg2
+if zije[mala] and zije[velka] and no_dialog then
+  begin
+    if (okramech>0) then dec(okramech);
+    if (sbirka>0) then dec(sbirka); 
+    if (uvod=0) then
+      begin
+        uvod:=1;
+        addm(nah(15,30),'sm-m-prolezame');
+        case random(3) of
+          0:addv(random(5),'sm-v-jine0');
+          1:addv(random(5),'sm-v-jine1');
+          2:addv(random(5),'sm-v-jine2');
+        end;
+      end
+  else
+    if (obudikovi=0) and look_at(@malar,@budik) and 
+       (dist(@malar,@budik)<3) and (random(100)<1) then
+      begin
+        obudikovi:=1;
+        addv(0,'sm-v-bu'+'dik');
+        if random(2)<1 then addm(random(5),'sm-m-normalni');
+      end
+  else
+    if (okramech=0) then 
+      begin
+        okramech:=nah(1000,3000);
+        case random(4) of
+         0:addm(random(10),'sm-m-kramy0');
+         1:addm(random(10),'sm-m-kramy1');
+         2:addv(random(10),'sm-v-kramy2');
+         3:addv(random(10),'sm-v-kramy3');
+        end;
+      end
+ else
+   if (olodi=0) and (lod.dir<>dir_no) then
+     begin
+       olodi:=1;
+       case random(2) of
+         0:begin
+             addv(random(7),'sm-v-lod');
+             addm(random(7),'sm-m-dedek');
+             addv(random(7),'sm-v-charon');
+             addm(random(7),'sm-m-codela');
+            end;
+         1:begin
+             addv(random(7),'sm-v-charon');
+             addm(random(7),'sm-m-codela');  
+           end;
+       end;
+       case random(2) of
+         0:addv(random(7),'sm-v-duchodce0');
+         1:addv(random(7),'sm-v-duchodce1');
+       end;
+     end
+  else
+    if (sbirka=0) then
+      begin
+        sbirka:=-1;
+        addv(random(10),'sm-v-sb'+'irka');
+        addm(random(7),'sm-m-namaloval');
+          if (mic.beha=1) then
+            begin
+              addv(random(7),'sm-v-marnost');
+              addm(random(7),'sm-m-proc');
+              addv(random(7),'sm-v-podivej');
+              addd(random(7),'sm-x-med'+'uza',101,meduza.keca);
+            end;          
+      end; 
+  end;
+36 Items
+11 11 1 3
+medusa1.BMP
+65280 Mask
+1 Kind
+2 Ext
+5 Prg1
+name meduza
+var keca
+ini
+afaze:=0;
+keca:=0;
+11 Prg2
+if keca<>101 then
+  begin
+    if (x=mic.x) and (y=mic.y-3) then
+      begin
+        mic.beha:=1;
+        afaze:=(afaze+1) mod 3;
+      end
+    else mic.beha:=0;
+  end
+ else mic.beha:=0;  
+
+3 List
+0 256 512
+11 14 1 1
+balonek1.bmp
+65280 Mask
+1 Kind
+3 Ext
+5 Prg1
+name mic
+var beha
+ini
+beha:=1;
+afaze:=0;
+2 Prg2
+if beha=1 then
+  afaze:=(afaze+1) mod 4;
+1 List
+0
+16 16 1 1
+matka A.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+18 14 2 1
+cola.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+20 12 2 3
+zralok.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 512 513
+14 5 1 7
+zebrik.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+0 256 512 768 1024 1280 1536
+10 21 1 2
+amfora zelena.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+38 10 1 2
+Meduza1.BMP
+65280 Mask
+1 Kind
+1 Ext
+1 Prg1
+name meduza2
+1 Prg2
+if random(100)<20 then afaze:=random(2);
+2 List
+0 256
+36 10 1 2
+Meduzaz1.BMP
+65280 Mask
+1 Kind
+1 Ext
+1 Prg1
+name meduza1
+1 Prg2
+if random(100)<20 then afaze:=random(2);
+2 List
+0 256
+37 10 1 2
+Flaska.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+36 21 4 4
+harmonika.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+768 513 769 258 514 770 3 259 515
+771
+28 6 8 2
+mnohonozka0.BMP
+65280 Mask
+1 Kind
+1 Ext
+1 Prg1
+name stonozka
+2 Prg2
+if random(100)<5 then
+  afaze:=random(2);
+9 List
+256 257 258 259 260 261 262 7 263
+29 8 7 3
+Smetak-13-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+0 256 1 2 3 4 5 6 262
+518
+30 9 5 1
+stozar v.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+0 1 2 3 4
+34 14 2 3
+Kotva.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+256 512 1 257 513
+34 18 2 3
+Retez.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 257 513
+26 20 6 4
+charon.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name lod
+0 Prg2
+11 List
+256 257 513 258 514 515 516 5 261
+517 773
+37 25 1 1
+sklenicka pr.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+28 16 1 2
+Smetak-19-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+28 18 1 3
+Smetak-20-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+23 24 2 2
+lodnisroub.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+31 12 1 3
+Smetak-20-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+15 8 3 2
+ostnatec0.BMP
+65280 Mask
+1 Kind
+2 Ext
+5 Prg1
+name ostnatec
+var kukuc
+ini
+afaze:=0;
+kukuc:=nah(10,30);
+11 Prg2
+if (kukuc>0) and (afaze<>0) then dec(kukuc)
+else
+  if (kukuc=0) then
+    begin
+      kukuc:=nah(10,30);
+      afaze:=0;
+    end
+  else
+  if random(100)<1 then
+    afaze:=random(2)+1
+  else afaze:=0;
+4 List
+256 1 257 2
+16 10 5 2
+pohr.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 257 258 259 260
+17 14 1 1
+tenisak.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+16 17 1 2
+lahev.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+9 3 3 1
+Savle.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+7 17 3 3
+Uhor0.BMP
+65280 Mask
+1 Kind
+1 Ext
+1 Prg1
+name uhor
+1 Prg2
+if random(100)<5 then afaze:=random(2);
+5 List
+0 256 512 1 2
+10 19 5 3
+sekyrka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+256 257 258 259 515 4 260 516
+9 18 2 1
+Musla.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+7 16 1 1
+budik0.BMP
+65280 Mask
+1 Kind
+1 Ext
+1 Prg1
+name budik
+6 Prg2
+case count mod 9 of
+ 0:afaze:=0;
+ 5:afaze:=1;
+end;
+if not playing(940) then
+  sndcyc('sm-x-tiktak',940);
+1 List
+0
+5 20 1 5
+stozar v l.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+0 256 512 768 1024
+11 26 2 1
+bota.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+12 25 6 3
+zavora.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 1 2 3 4 260 516 5
+3 19 3 1
+Smetak-35-Tmp.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+3 17 4 2
+Smetak-36-Tmp.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+EOF

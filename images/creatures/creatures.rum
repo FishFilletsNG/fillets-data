@@ -1,0 +1,751 @@
+REDIT FILE from 5.3.1998 23:16:37
+Koraly
+Korálový útes: Spící tvoreèkové^Coral reef: Sleeping beauties
+1 1 5 10 5 0 0 0 0 0  Params
+-2147483632 Grid
+43 35
+koraly-p.BMP
+0 obsolete
+0 Ext
+Koraly-w.BMP
+65280 Mask
+0 Ext
+668 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5632 5888 6144 6400 6656 6912 7168 7424 7680
+7936 8192 8448 8704 1 257 513 769 1025 1281
+1537 1793 2049 2817 3073 3329 3841 4097 4353 4609
+4865 6401 6657 6913 7169 7425 7681 7937 8193 8449
+8705 2 258 514 770 1026 1538 1794 3074 3842
+4098 4866 5122 7426 7682 7938 8194 8450 8706 3
+259 515 771 1027 2819 3075 3843 4867 5123 5379
+5635 7939 8195 8451 8707 4 260 516 772 1028
+2820 3076 4356 4868 5124 5380 5636 5892 6148 7940
+8196 8452 8708 5 261 517 773 2821 3077 4357
+4869 5125 5381 5637 5893 6149 8197 8453 8709 6
+262 518 774 3078 3334 4358 5382 5638 5894 8198
+8454 8710 7 263 519 775 3079 3335 4103 4359
+4615 4871 7943 8199 8455 8711 8 264 520 776
+3080 3336 3592 3848 4104 4360 4616 4872 7176 7432
+7688 7944 8200 8456 8712 9 265 521 777 1545
+1801 3081 3337 3593 3849 4105 4361 6921 7177 7433
+7689 7945 8201 8457 8713 10 266 522 1802 2058
+3082 3338 3594 3850 7690 7946 8202 8458 8714 11
+267 523 1547 1803 2059 3083 3339 3595 3851 8203
+8459 8715 12 268 524 1548 1804 2060 5388 8204
+8460 8716 13 269 525 1549 1805 2061 2317 3085
+5389 7949 8205 8461 8717 14 270 526 1550 1806
+2062 2318 3086 5134 5390 7950 8206 8462 8718 15
+271 527 1551 1807 2063 2319 5135 5391 5647 5903
+6159 8207 8463 8719 16 272 528 1552 1808 2064
+2320 4880 5136 5392 5648 5904 6160 6416 6672 8464
+8720 17 273 529 1553 1809 2065 2321 5137 5393
+5649 5905 6161 6417 6673 8465 8721 18 274 530
+1554 1810 2066 5394 6418 8466 8722 19 275 531
+1555 1811 2067 8211 8467 8723 20 276 532 1556
+1812 2068 5140 6164 6420 8212 8468 8724 21 277
+533 1557 1813 2069 2325 5141 5909 6165 6421 7701
+7957 8213 8469 8725 22 278 534 790 1558 1814
+2070 2326 2582 5142 5398 5654 5910 6166 7190 7446
+7702 7958 8214 8470 8726 23 279 535 791 1815
+2071 2327 3607 5399 5655 5911 6167 7191 7447 7703
+7959 8215 8471 8727 24 280 536 792 1560 1816
+2072 3352 3608 5656 5912 6168 7192 7448 7704 7960
+8216 8472 8728 25 281 537 793 1561 1817 2073
+3353 3609 3865 5401 5657 5913 6169 7449 7705 7961
+8217 8473 8729 26 282 538 794 1562 1818 2074
+3098 3354 3610 3866 5402 5658 5914 6170 7194 7450
+7706 7962 8218 8474 8730 27 283 539 795 1563
+1819 2075 3099 3355 3611 5147 5403 5659 5915 6171
+6939 7195 7451 7707 7963 8219 8475 8731 28 284
+540 796 1564 1820 3356 5148 5404 5660 5916 6172
+6940 7196 7452 7708 7964 8220 8476 8732 29 285
+541 797 1565 5405 5661 5917 7453 7709 7965 8221
+8477 8733 30 286 798 5662 5918 7710 7966 8222
+8478 8734 31 799 5407 5663 5919 8479 8735 32
+5664 5920 8480 8736 33 5921 8481 8737 34 8482
+8738 35 291 547 1827 8483 8739 36 292 548
+1828 8484 8740 1573 1829 2085 2341 8485 8741 1574
+1830 2086 2342 2598 2854 8230 8486 8742 1831 2087
+2343 2599 2855 3111 3367 7719 7975 8231 8487 8743
+1832 2088 2344 2600 2856 3112 3368 3624 3880 4136
+4648 4904 5160 5928 6952 7208 7464 7720 7976 8232
+8488 8744 41 297 553 809 1833 2089 2345 2601
+2857 3113 3369 3625 3881 4137 4393 4649 4905 5161
+5417 5673 5929 6185 6441 6697 6953 7209 7465 7721
+7977 8233 8489 8745 42 298 554 810 1066 1322
+1578 1834 2090 2346 2602 2858 3114 3370 3626 3882
+4138 4394 4650 4906 5162 5418 5674 5930 6186 6442
+6698 6954 7210 7466 7722 7978 8234 8490 8746
+19 Prg1
+name room
+var quvod
+var vydrz
+var komentovaly
+var qhlaska
+var pouzito
+var kreseni
+ini
+{ uvodni hlaska }
+quvod:=random(20)+20;
+{ hlasky o koralech }
+qhlaska:=random(100)+100;
+pouzito:=0;
+{ vesele hlasky po chobotnici }
+{ nasrane hlasky po chobotnici }
+vydrz:=random(2)+2;
+komentovaly:=0;
+{ dve hlasky k reseni }
+kreseni:=0;
+106 Prg2
+if zije[mala]and zije[velka] and no_dialog and ((balalajka.cinnost=0)or(balalajka.cinnost>70)) then
+  begin
+    if quvod>0 then dec(quvod);
+    if balalajka.hrala>0 then quvod:=-1;
+    if qhlaska>0 then dec(qhlaska);
+
+    if komentovaly<balalajka.hrala then
+      begin
+        if pokus<1000 then inc(pokus,1000);
+        komentovaly:=balalajka.hrala;
+        if komentovaly<=vydrz then
+          case random(4) of
+            0..1:
+              begin
+                if random(2)=1 then 
+                  addv(6,'kor-v-juchacka')
+		else 
+                  addv(6,'kor-v-vali');
+                case random(3) of
+                  0:addm(3,'kor-m-hraje');
+                  1:addm(3,'kor-m-nachob');
+                end;
+              end;
+            2:addv(0,'kor-v-odvaz');
+            3:begin
+                addm(6,'kor-m-vsimlsis');
+	 	addv(2,'kor-v-avidelas');
+                addm(4,'kor-m-tovis');
+              end;
+          end
+        else
+          begin
+            pom1:=random(6); {0..1 mala, 2..3 velka, 4..5 obe}
+            for pom2:=1 to 2 do
+              begin
+                if (pom2=1)and(pom1 in [0,1,4])and(random(3)=0) or (pom2=2)and(pom1=5) then
+                  case random(2) of
+                    0:addm(5,'kor-m-jinou');
+                    1:addm(5,'kor-m-neprehani');
+                  end
+                else if  (pom2=1)and(pom1<=1) then
+                  addm(5,'kor-m-lezekrkem');
+                if (pom2=1)and(pom1 in [2,3,5]) or (pom2=2)and(pom1=4) then
+                  case random(2) of
+                    0:addv(5,'kor-v-lezekrkem');
+                    1:addv(5,'kor-v-kostice');
+                  end;
+              end;
+          end;
+      end
+    else if (kreseni=0)and(velkar.X>=30)and(velkar.Y=5)and(elko.X=30) then
+      begin
+        inc(kreseni);
+        addv(5,'kor-v-odsud');
+        addm(8,'kor-m-budesmuset');
+      end
+    else if (kreseni=1) and (FArray[10,6]=item_water) and (FArray[23,6]=item_water) then
+      inc(kreseni)
+    else if (kreseni=2) and ((FArray[10,6]>=@sas1)and(FArray[10,6]<=@sas6) or 
+(FArray[23,6]>=@sas1)and(FArray[23,6]<=@sas6)) then
+      begin
+        inc(kreseni);
+        addm(10,'kor-m-neniono');
+        addm(20,'kor-m-tudiru');
+      end
+    else if qhlaska=0 then
+      begin
+        qhlaska:=random(600)+200;
+        pom1:=random(6);
+        if (pouzito and bitpole[pom1])=0 then
+          case pom1 of
+            0:addm(10,'kor-m-dusi');
+            1:addm(10,'kor-m-pocit');
+            2:addm(10,'kor-m-bizarni');
+            3:addv(10,'kor-v-bermudy');
+            4:addv(10,'kor-v-inteligentni');
+            5:addv(10,'kor-v-jedovate');
+          end;
+        pouzito:=pouzito or bitpole[pom1];
+      end
+    else if quvod=0 then 
+      begin
+        case pokus of
+          1..1000:quvod:=random(2)+1;
+          1001..2000:begin quvod:=3;inc(pokus,1000); end;
+          else quvod:=random(4);
+        end;
+        case quvod of
+          0..1:
+            begin
+	      addv(10,'kor-v-podivej');
+	      addm(2,'kor-m-vzdyt');
+	      addv(6,'kor-v-treba');
+            end;
+          2..3:
+            begin
+              addm(10,'kor-m-podivej');
+              addv(5,'kor-v-spitu');
+              if random(100)<40 then addm(2,'kor-m-avlada');
+              addv(10,'kor-v-nicje');
+              if quvod=3 then addm(5,'kor-m-pokud');
+            end;
+        end;
+        quvod:=-1;
+      end;
+  end;
+21 Items
+23 12 2 1
+krab1.BMP
+65280 Mask
+1 Kind
+9 Ext
+6 Prg1
+name krab1
+var krabfaze
+var cekat
+ini
+krabfaze:=1;
+cekat:=0;
+27 Prg2
+if playing(10) then
+  begin
+    case count mod 4 of
+      0,1:krabfaze:=7;
+      2,3:krabfaze:=9;
+    end;
+  end
+else
+  if krabfaze<=2 then krabfaze:=1
+  else krabfaze:=2;
+
+
+if krab1.krabfaze=2 then cekat:=random(70)+30;
+if krab1.krabfaze<=2 then
+  if cekat=0 then
+    afaze:=1
+  else
+    begin
+      afaze:=0;
+      dec(cekat);
+    end
+else 
+  if (FArray[x,y+1]<>item_water)and(FArray[x+1,y+1]<>item_water) then
+    afaze:=krab1.krabfaze
+  else
+    if random(100)<50 then 
+      afaze:=random(4)+2;
+2 List
+0 1
+18 18 5 2
+balal 1.BMP
+65280 Mask
+1 Kind
+10 Ext
+8 Prg1
+name balalajka
+var cinnost
+var tcatcat
+var hrala
+ini
+cinnost:=0;
+hrala:=0;
+tcatcat:=random(15)+10;
+50 Prg2
+if (dir<>dir_no)and (cinnost=0) then inc(cinnost);
+
+case cinnost of
+  0:case count mod 18 of
+      0:if tcatcat=0 then 
+          begin
+            snd('kor-chob-tca',501);
+            tcatcat:=random(15)+10;
+          end
+	else
+          begin
+            snd('kor-chob-psi',501);
+            dec(tcatcat);
+          end;
+      1..10:afaze:=0;
+      11:snd('kor-chob-chro',501);
+      else afaze:=1;
+    end;
+  1:begin
+      inc(hrala);
+      zrus_dialogy;
+      afaze:=2;
+      ksnd(501)
+    end;
+  6:afaze:=3;
+ 10:afaze:=4;
+ 13:afaze:=3;
+ 15:afaze:=4;
+ 17:afaze:=5;                 
+ 19:begin
+      music('rybky08',10);
+    end;
+ 21,23,25,27:afaze:=6;
+ 22,24,26,28:if random(100)<10 then
+               afaze:=7
+             else
+               afaze:=8;
+ 29,31,33,35:afaze:=9;
+ 30,32,34,36:afaze:=10;
+
+ 83:afaze:=5;
+ 90:cinnost:=0;
+end;
+
+if (cinnost>20) and (cinnost<80) and not playing(10) then cinnost:=80
+else
+  if cinnost=36 then cinnost:=21
+  else 
+    if cinnost>0 then inc(cinnost);
+      
+8 List
+256 1 257 2 258 3 259 260
+10 4 2 2
+sasanka1.BMP
+65280 Mask
+1 Kind
+7 Ext
+8 Prg1
+name sas1
+var sasfaze
+var noha
+var kvet
+ini
+sasfaze:=-1;
+kvet:=random(2)*2+1;
+noha:=random(2);
+28 Prg2
+if playing(10) then 
+  begin
+    case count mod 8 of
+      0,1,2,3:pom1:=0;
+      4,5,6,7:pom1:=1;
+    end;
+    case count mod 8 of
+      0,3,4,7:pom2:=2;
+      1,2,5,6:pom2:=1;
+    end;
+    sasfaze:=pom1*4+pom2;
+  end
+else
+  sasfaze:=-1;
+
+if (FArray[X+1,Y-1]=item_water)or(FArray[X+1,Y-1]=item_wall) then
+  if sasfaze>=0 then 
+    afaze:=sasfaze
+  else 
+    begin
+      if (count mod 3=0)and(random(100)<50) then
+        kvet:=random(2)*2+1;
+      if (count mod 4=0)and(random(100)<30) then
+        noha:=random(2);
+      afaze:=noha*4+kvet;
+    end
+else
+  afaze:=0;
+2 List
+1 257
+12 4 2 2
+sasanka1.BMP
+65280 Mask
+1 Kind
+7 Ext
+6 Prg1
+name sas2
+var noha
+var kvet
+ini
+kvet:=random(2)*2+1;
+noha:=random(2);
+13 Prg2
+if (FArray[X+1,Y-1]=item_water)or(FArray[X+1,Y-1]=item_wall) then
+  if sas1.sasfaze>=0 then 
+    afaze:=sas1.sasfaze
+  else 
+    begin
+      if (count mod 3=0)and(random(100)<50) then
+        kvet:=random(2)*2+1;
+      if (count mod 4=0)and(random(100)<30) then
+        noha:=random(2);
+      afaze:=noha*4+kvet;
+    end
+else
+  afaze:=0;
+2 List
+1 257
+14 4 2 2
+sasanka1.BMP
+65280 Mask
+1 Kind
+7 Ext
+6 Prg1
+name sas3
+var noha
+var kvet
+ini
+kvet:=random(2)*2+1;
+noha:=random(2);
+13 Prg2
+if (FArray[X+1,Y-1]=item_water)or(FArray[X+1,Y-1]=item_wall) then
+  if sas1.sasfaze>=0 then 
+    afaze:=sas1.sasfaze
+  else 
+    begin
+      if (count mod 3=0)and(random(100)<50) then
+        kvet:=random(2)*2+1;
+      if (count mod 4=0)and(random(100)<30) then
+        noha:=random(2);
+      afaze:=noha*4+kvet;
+    end
+else
+  afaze:=0;
+2 List
+1 257
+16 4 2 2
+sasanka1.BMP
+65280 Mask
+1 Kind
+7 Ext
+6 Prg1
+name sas4
+var noha
+var kvet
+ini
+kvet:=random(2)*2+1;
+noha:=random(2);
+13 Prg2
+if (FArray[X+1,Y-1]=item_water)or(FArray[X+1,Y-1]=item_wall) then
+  if sas1.sasfaze>=0 then 
+    afaze:=sas1.sasfaze
+  else 
+    begin
+      if (count mod 3=0)and(random(100)<50) then
+        kvet:=random(2)*2+1;
+      if (count mod 4=0)and(random(100)<30) then
+        noha:=random(2);
+      afaze:=noha*4+kvet;
+    end
+else
+  afaze:=0;
+2 List
+1 257
+18 4 2 2
+sasanka1.BMP
+65280 Mask
+1 Kind
+7 Ext
+6 Prg1
+name sas5
+var noha
+var kvet
+ini
+kvet:=random(2)*2+1;
+noha:=random(2);
+13 Prg2
+if (FArray[X+1,Y-1]=item_water)or(FArray[X+1,Y-1]=item_wall) then
+  if sas1.sasfaze>=0 then 
+    afaze:=sas1.sasfaze
+  else 
+    begin
+      if (count mod 3=0)and(random(100)<50) then
+        kvet:=random(2)*2+1;
+      if (count mod 4=0)and(random(100)<30) then
+        noha:=random(2);
+      afaze:=noha*4+kvet;
+    end
+else
+  afaze:=0;
+2 List
+1 257
+20 4 2 2
+sasanka1.BMP
+65280 Mask
+1 Kind
+7 Ext
+6 Prg1
+name sas6
+var noha
+var kvet
+ini
+kvet:=random(2)*2+1;
+noha:=random(2);
+13 Prg2
+if (FArray[X+1,Y-1]=item_water)or(FArray[X+1,Y-1]=item_wall) then
+  if sas1.sasfaze>=0 then 
+    afaze:=sas1.sasfaze
+  else 
+    begin
+      if (count mod 3=0)and(random(100)<50) then
+        kvet:=random(2)*2+1;
+      if (count mod 4=0)and(random(100)<30) then
+        noha:=random(2);
+      afaze:=noha*4+kvet;
+    end
+else
+  afaze:=0;
+2 List
+1 257
+26 10 1 2
+ocel-2.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+27 11 1 1
+maly snek1.BMP
+65280 Mask
+1 Kind
+3 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+30 2 4 3
+ocel-1.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name elko
+0 Prg2
+6 List
+0 1 2 3 259 515
+37 5 2 1
+krab1.BMP
+65280 Mask
+1 Kind
+9 Ext
+4 Prg1
+name krab2
+var cekat
+ini
+cekat:=0;
+15 Prg2
+if krab1.krabfaze=2 then cekat:=random(70)+30;
+if krab1.krabfaze<=2 then 
+  if cekat=0 then
+    afaze:=1
+  else
+    begin
+      afaze:=0;
+      dec(cekat);
+    end
+else 
+  if (FArray[x,y+1]<>item_water)and(FArray[x+1,y+1]<>item_water) then
+    afaze:=krab1.krabfaze
+  else
+    if random(100)<50 then 
+      afaze:=random(4)+2;
+2 List
+0 1
+2 14 2 1
+krab1.BMP
+65280 Mask
+1 Kind
+9 Ext
+4 Prg1
+name krab3
+var cekat
+ini
+cekat:=0;
+15 Prg2
+if krab1.krabfaze=2 then cekat:=random(70)+30;
+if krab1.krabfaze<=2 then 
+  if cekat=0 then
+    afaze:=1
+  else
+    begin
+      afaze:=0;
+      dec(cekat);
+    end
+else 
+  if (FArray[x,y+1]<>item_water)and(FArray[x+1,y+1]<>item_water) then
+    afaze:=krab1.krabfaze
+  else
+    if random(100)<50 then 
+      afaze:=random(4)+2;
+2 List
+0 1
+11 20 2 1
+krab1.BMP
+65280 Mask
+1 Kind
+9 Ext
+4 Prg1
+name krab4
+var cekat
+ini
+cekat:=0;
+15 Prg2
+if krab1.krabfaze=2 then cekat:=random(70)+30;
+if krab1.krabfaze<=2 then 
+  if cekat=0 then
+    afaze:=1
+  else
+    begin
+      afaze:=0;
+      dec(cekat);
+    end
+else 
+  if (FArray[x,y+1]<>item_water)and(FArray[x+1,y+1]<>item_water) then
+    afaze:=krab1.krabfaze
+  else
+    if random(100)<50 then 
+      afaze:=random(4)+2;
+2 List
+0 1
+4 16 2 1
+krab1.BMP
+65280 Mask
+1 Kind
+9 Ext
+4 Prg1
+name krab5
+var cekat
+ini
+cekat:=0;
+15 Prg2
+if krab1.krabfaze=2 then cekat:=random(70)+30;
+if krab1.krabfaze<=2 then 
+  if cekat=0 then
+    afaze:=1
+  else
+    begin
+      afaze:=0;
+      dec(cekat);
+    end
+else 
+  if (FArray[x,y+1]<>item_water)and(FArray[x+1,y+1]<>item_water) then
+    afaze:=krab1.krabfaze
+  else
+    if random(100)<50 then 
+      afaze:=random(4)+2;
+2 List
+0 1
+22 27 2 1
+krab1.BMP
+65280 Mask
+1 Kind
+9 Ext
+4 Prg1
+name krab6
+var cekat
+ini
+cekat:=0;
+15 Prg2
+if krab1.krabfaze=2 then cekat:=random(70)+30;
+if krab1.krabfaze<=2 then 
+  if cekat=0 then
+    afaze:=1
+  else
+    begin
+      afaze:=0;
+      dec(cekat);
+    end
+else 
+  if (FArray[x,y+1]<>item_water)and(FArray[x+1,y+1]<>item_water) then
+    afaze:=krab1.krabfaze
+  else
+    if random(100)<50 then 
+      afaze:=random(4)+2;
+2 List
+0 1
+18 24 2 4
+ocel-3.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+0 1 257 513 769
+2 26 4 2
+18-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+2 25 3 1
+19-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+40 6 1 1
+shell1.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+10 11 3 3
+sepie 1.BMP
+65280 Mask
+1 Kind
+12 Ext
+6 Prg1
+name sepie
+var mrk
+var nohy
+ini
+mrk:=0;
+nohy:=0;
+28 Prg2
+pomb1:=Dir=dir_down; {pada}
+pomb2:=(FArray[X,Y+1]=item_water)and(FArray[X+1,Y+1]=item_water)
+  and(FArray[X+2,Y+3]<>item_water); {stoji}
+
+if mrk>0 then dec(mrk)
+else if random(100)<15 then mrk:=random(3)+2;
+
+if pomb1 or not pomb2 then
+  begin
+    if odd(count) then
+      nohy:=(nohy+2+random(2)*2)mod 3;
+    afaze:=nohy;
+    if pomb1 then afaze:=nohy+3
+    else
+      if mrk>0 then afaze:=nohy+6
+      else afaze:=nohy;
+  end
+else
+  begin
+    if (dir=dir_left)or(dir=dir_right) then
+      nohy:=(nohy+1)mod 2
+    else
+      nohy:=0;
+    if mrk>0 then afaze:=2*nohy+10
+    else afaze:=2*nohy+9;
+  end; 
+      
+
+5 List
+0 1 2 258 514
+EOF

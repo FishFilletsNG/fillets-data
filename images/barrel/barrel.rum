@@ -1,0 +1,903 @@
+REDIT FILE from 22.3.1998 12:35:55
+Barely
+Barely
+1 0 5 10 5 0 0 0 0 0  Params
+-2147483632 Grid
+50 39
+Barely-poz.BMP
+0 obsolete
+0 Ext
+Barely-okoli.BMP
+65280 Mask
+0 Ext
+652 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 6144 6400 6656 6912 7168
+7424 7680 7936 8192 8704 8960 9216 9472 9728 1
+257 513 769 1025 1281 1537 1793 2049 2305 2561
+2817 3073 3329 3585 3841 4097 4353 4609 4865 5121
+5377 5633 5889 6145 6401 6657 6913 7169 7425 7681
+7937 8193 8705 8961 9217 9473 9729 2 258 514
+770 1026 1282 1538 1794 2050 2306 2562 2818 3074
+3330 3586 3842 4098 4354 4610 4866 5122 5378 5634
+5890 6146 6402 6658 6914 7170 7426 7682 7938 8706
+8962 9218 9474 9730 3 259 515 771 1027 1283
+1539 1795 2051 2307 2563 2819 3075 3331 3587 3843
+4099 4355 4611 4867 5123 5379 5635 5891 6147 6403
+6659 6915 7171 7427 7683 8963 9219 9475 9731 4
+260 516 1028 1284 1540 1796 2052 2308 2564 2820
+3076 3332 3588 3844 4100 4356 4612 4868 5124 5380
+5636 5892 6148 6404 6660 6916 7172 7428 7684 8964
+9220 9476 9732 5 261 517 1797 2053 2309 2565
+2821 3077 3333 3589 3845 4101 4357 4613 4869 5125
+5381 5637 5893 6149 6405 6661 6917 7173 7429 7685
+8965 9221 9477 9733 6 262 1542 1798 2054 2310
+2566 2822 3078 3334 3590 3846 4102 4358 4614 4870
+5382 5638 5894 6150 6406 6662 6918 7174 9222 9478
+9734 7 1287 1543 1799 2055 2311 2567 2823 3079
+3335 3591 3847 4103 4359 4615 5895 6151 6407 6663
+6919 7175 9223 9479 9735 8 1288 1544 1800 2312
+2568 2824 3080 3336 3592 3848 4104 4360 4616 6152
+6408 6664 6920 7176 9224 9480 9736 9 265 521
+1289 1545 1801 2569 2825 3081 3337 3593 3849 4105
+4361 4617 9225 9481 9737 10 266 522 2570 2826
+3082 3338 3850 4106 4362 8970 9226 9482 9738 11
+267 8971 9227 9483 9739 8972 9228 9484 9740 7693
+8973 9229 9485 9741 7950 8974 9230 9486 9742 7951
+8207 8975 9231 9487 9743 7952 8208 9488 9744 7953
+8209 9489 9745 8210 9746 8211 9747 3860 8212 9492
+9748 21 277 789 1045 1813 2581 3349 3605 3861
+8213 9493 9749 22 1558 1814 2070 2582 2838 4118
+8214 9494 9750 23 4119 4375 8215 9495 9751 4120
+4376 8216 9496 9752 4377 8217 9241 9497 9753 4378
+8218 9242 9498 9754 8219 9243 9499 9755 8220 9500
+9756 29 4381 8221 9501 9757 30 4382 8222 9502
+9758 31 4383 8223 9503 9759 32 4384 4640 8224
+9504 9760 33 545 4129 8225 9505 9761 34 546
+4130 8226 9506 9762 35 547 4131 4387 8227 9251
+9507 9763 36 4132 8996 9252 9508 9764 37 8741
+8997 9253 9509 9765 38 294 8486 8742 8998 9254
+9510 9766 39 8743 8999 9255 9511 9767 40 296
+9256 9512 9768 41 297 8489 8745 9001 9257 9513
+9769 42 298 8490 8746 9002 9258 9514 9770 43
+299 8491 8747 9003 9259 9515 9771 44 300 556
+8236 8492 8748 9004 9260 9516 9772 45 301 557
+7981 8237 8493 8749 9005 9261 9517 9773 46 302
+558 2094 2350 2606 2862 3118 3374 4142 5166 7982
+8238 8494 8750 9006 9262 9518 9774 47 303 559
+1839 2095 2351 2607 2863 3119 3375 3631 3887 4143
+4399 4911 5167 5423 5679 5935 6191 6447 6703 6959
+7215 7471 7727 7983 8239 8495 8751 9007 9263 9519
+9775 48 1072 1328 1584 1840 2096 2352 2608 2864
+3120 3376 3632 3888 4144 4400 4656 4912 5168 5424
+5680 5936 6192 6448 6704 6960 7216 7472 7728 7984
+8240 8496 8752 9008 9264 9520 9776 817 1073 1329
+1585 1841 2097 2353 2609 2865 3121 3377 3633 3889
+4145 4401 4657 4913 5169 5425 5681 5937 6193 6449
+6705 6961 7217 7473 7729 7985 8241 8497 8753 9009
+9265 9521 9777
+27 Prg1
+name room
+var uvod
+var celakrajni
+var ozviratkach
+var hl1
+var hl2
+var hl3
+var hl4
+var onoze
+var opldech
+var okukajde
+var okrabovi
+var okachne
+ini
+gspec:=9;
+uvod:=0;
+celakrajni:=0;
+ozviratkach:=0;
+hl1:=random(400)+400;
+hl2:=hl1+random(800)+800;
+hl3:=hl2+random(1600)+1600;
+hl4:=hl3+random(3200)+3200;
+onoze:=0;
+opldech:=0;
+okukajde:=0;
+okrabovi:=0;
+okachne:=0;
+116 Prg2
+if StdKrajniHlaska then
+  begin
+    addm(6,'bar-m-ba'+'rel');
+    if (random(100)<30)or(celakrajni=0) then addv(random(10)+5,'bar-v-genofond');
+    celakrajni:=1;
+    StdKonecKrajniHlasky;
+  end;
+
+if no_dialog and zije[mala] and zije[velka] then
+  begin
+    if hl1>0 then dec(hl1);
+    if hl2>0 then dec(hl2);
+    if hl3>0 then dec(hl3);
+    if hl4>0 then dec(hl4);
+
+    if uvod=0 then
+      begin
+        uvod:=1;
+        case pokus of
+          1:pom1:=5;
+          2:pom1:=nah(2,4);
+          else pom1:=random(6);
+        end;
+        adddel(10+random(20));
+        if pom1>=4 then
+          case random(2) of
+            0:addv(0,'bar-v-videt0');
+            1:addm(0,'bar-m-videt1');
+          end;
+        if pom1>=5 then
+          addv(5,'bar-v-co');
+        if pom1>=2 then
+          begin
+            addm(10,'bar-m-pobit');
+            addd(2,'bar-x-suckne',201,pldik.cinnost);
+            addv(10,'bar-v-priciny');
+            addd(2,'bar-x-suckano',202,pldik.cinnost);
+          end;
+        if pom1>=4 then
+          addm(random(30)+10,'bar-m-no');
+        if pom1>=2 then
+          addv(5,'bar-v-sud');
+        if pom1>=3 then
+          addm(5,'bar-m-panb');
+      end
+    else if (hl1=0)or(hl2=0)or(hl3=0)or(hl4=0) then
+      begin
+        if hl1=0 then hl1:=-1;
+        if hl2=0 then hl2:=-1;
+        if hl3=0 then hl3:=-1;
+        if hl4=0 then hl4:=-1;
+        if ozviratkach=0 then pom1:=random(2)
+        else if ozviratkach=15 then
+          begin
+            ozviratkach:=0;
+            pom1:=random(4);
+          end
+        else 
+          repeat
+            pom1:=random(4);
+          until ozviratkach and bitpole[pom1]=0;
+        ozviratkach:=ozviratkach or bitpole[pom1];
+        adddel(50+random(100));
+        case pom1 of
+          0:begin
+              addm(0,'bar-m-rada');
+              addv(7,'bar-v-kdyby'+chr(48+random(2)));
+            end;
+          1:begin
+              addm(0,'bar-m-mutanti');
+              if random(100)<50 then addv(10,'bar-v-ufouni');
+              addm(random(50)+10,'bar-m-zmeni');
+            end;
+          2:begin
+              addv(0,'bar-v-lih');
+              addm(8,'bar-m-fdto');
+              addd(3,'bar-x-vypr',5,noprom);
+              addm(10,'bar-m-promin');
+            end;
+          3:begin
+              addv(0,'bar-v-sbirka');
+              addm(10,'bar-m-dost'+chr(48+random(2)));
+            end;
+        end;
+      end
+    else if (onoze=0)and(nozka.cinnost<20)and(dist(little,@nozka)<5)
+        and(random(1000)<2) then
+      begin
+        onoze:=1;
+        addm(3,'bar-m-noha');
+      end
+    else if (opldech=0)and(dist(big,@pldotec)<=5)and(random(100)<1) then
+      begin
+        opldech:=1;
+        addv(10,'bar-v-pld');
+        addm(6,'bar-m-pudy');
+        addv(2,'bar-v-traverza');
+        addd(2,'bar-x-suckne',201,pldik.cinnost);
+      end
+    else if (okukajde=0)and(kukajda.dir<>dir_no)and(random(100)<2)and(aktivni=mala) then
+      begin
+        okukajde:=1;
+        addm(10,'bar-m-rybka');
+        if random(100)<70 then addv(random(30)+5,'bar-v-fotka');
+      end
+    else if (okrabovi=0)and(look_at(big,@krabik))and(dist(big,@krabik)<=3)and(random(100)<1)then
+      begin
+        okrabovi:=1;
+        addv(10,'bar-v-krab');
+      end
+    else if (okachne=0)and(kachnicka.dir<>dir_no)and(aktivni=mala)and(random(100)<10)then
+      begin
+        okachne:=1;
+        addm(5,'bar-m-kachna');
+      end;
+  end;
+19 Items
+29 3 9 13
+barel1.bmp
+16711935 Mask
+1 Kind
+4 Ext
+3 Prg1
+name barel
+ini
+setanim(@barel,'a0d8a1a2a3a4d3a3a2a1R');
+2 Prg2
+Spec9(this,9,13);
+goanim(this);
+99 List
+0 1024 2048 3072 1 257 513 769 1025
+1281 1537 1793 2049 2305 2561 2817 3073 2 258
+514 770 1026 1282 1538 1794 2050 2306 2562 2818
+3074 3 259 515 771 1027 1283 1539 1795 2051
+2307 2563 2819 3075 4 260 516 772 1028 1284
+1540 1796 2052 2308 2564 2820 3076 5 261 517
+773 1029 1285 1541 1797 2053 2309 2565 2821 3077
+6 262 518 774 1030 1286 1542 1798 2054 2310
+2566 2822 3078 7 263 519 775 1031 1287 1543
+1799 2055 2311 2567 2823 3079 8 1032 2056 3080
+23 11 3 1
+2-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+41 10 4 2
+3-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+19 34 4 3
+kachna0.BMP
+65280 Mask
+1 Kind
+8 Ext
+4 Prg1
+name kachnicka
+var cinnost
+ini
+cinnost:=random(100)+10;
+25 Prg2
+if cinnost>0 then
+  begin
+    if playing(701) then ksnd(701);
+    if odd(count)and(random(100)<10) then
+      afaze:=random(5);
+    dec(cinnost);
+    if cinnost=0 then
+      begin
+        afaze:=5;
+        cinnost:=-30-random(60);
+      end;
+  end
+else
+  begin
+    if not playing(701) then
+      sndcyc('bar-x-kchkch',701);
+    afaze:=(afaze-5+1)mod 4+5;
+    inc(cinnost);
+    if cinnost=0 then
+      begin
+        afaze:=0;
+        cinnost:=30+random(100);
+      end;
+  end;
+    
+6 List
+256 257 513 2 258 3
+10 14 6 10
+had1.BMP
+65280 Mask
+1 Kind
+11 Ext
+6 Prg1
+name had
+var streva
+var huba
+ini
+streva:=random(4);
+huba:=random(3);
+10 Prg2
+if count mod 3=0 then
+  case huba of
+    0:if random(1000)<15 then huba:=random(2)+1;
+  1,2:if random(1000)<15 then huba:=0
+      else if random(100)<50 then huba:=3-huba;
+  end;
+
+streva:=(streva+1)mod 4;
+
+afaze:=4*huba+streva;
+17 List
+0 1 257 513 514 770 1026 1538 1794
+2050 1027 1283 1539 2051 2052 2308 2053
+19 13 1 1
+oko0.bmp
+65280 Mask
+1 Kind
+4 Ext
+6 Prg1
+name ocicko
+var cinnost
+var faze
+var citac
+ini
+cinnost:=0;
+78 Prg2
+case cinnost of
+  0:begin
+      if random(100)<10 then
+        case random(8) of
+          0..2:
+            begin
+              citac:=random(5)+5;
+              cinnost:=1;
+              faze:=random(2)*2;
+            end;
+          3:begin
+              citac:=random(3)+2;
+              cinnost:=2;
+              faze:=random(2)*2;
+            end;
+          4..6:
+            begin
+              citac:=random(12)+12;
+              cinnost:=3+random(2);
+            end;
+          7:begin
+              citac:=random(10)+2;
+              cinnost:=5;
+            end;
+        end; 
+    end;
+  1,2:
+    begin
+      case faze of
+        0:begin
+            if cinnost=1 then afaze:=1
+                         else afaze:=3;
+            if random(100)<20 then inc(faze);
+          end;
+        1:begin
+            afaze:=0;
+            inc(faze);
+          end;
+        2:begin
+            if cinnost=1 then afaze:=2
+                         else afaze:=4;
+            if random(100)<20 then inc(faze);
+          end;
+        3:begin
+            afaze:=0;
+            dec(citac);
+            if citac=0 then cinnost:=0
+                       else faze:=0;
+          end;
+      end; 
+    end;
+  3,4,5:
+    begin
+      case cinnost of
+        3:case afaze of
+            0:afaze:=random(4)+1;
+            1:afaze:=3;
+            2:afaze:=4;
+            3:afaze:=2;
+            4:afaze:=1;
+          end;
+        4:case afaze of
+            0:afaze:=random(4)+1;
+            1:afaze:=4;
+            2:afaze:=3;
+            3:afaze:=1;
+            4:afaze:=2;
+          end;
+        5:if random(100)<40 then afaze:=random(5);
+      end;
+      dec(citac);
+      if citac=0 then 
+        begin
+          cinnost:=0;
+          afaze:=0;
+        end;
+    end;
+end;               
+1 List
+0
+37 14 4 2
+kukajda0.BMP
+65280 Mask
+1 Kind
+17 Ext
+8 Prg1
+name kukajda
+var ploutvicka
+var oci
+var mrknuti
+ini
+ploutvicka:=0;
+oci:=0;
+mrknuti:=0;
+19 Prg2
+ploutvicka:=(ploutvicka+1)mod 6;
+case ploutvicka of
+  0,1:afaze:=0;
+  2,5:afaze:=1;
+  3,4:afaze:=2;
+end;
+
+if random(100)<3 then oci:=random(5);
+
+if mrknuti>0 then 
+  begin
+    dec(mrknuti);
+    afaze:=afaze+15;
+  end
+else
+  begin
+    afaze:=afaze+oci*3;
+    if random(100)<4 then mrknuti:=random(3)+2;
+  end;
+7 List
+0 1 257 2 258 3 259
+28 28 4 4
+killer1.BMP
+16711935 Mask
+1 Kind
+5 Ext
+6 Prg1
+name killer
+var ocas
+var usmev
+ini
+ocas:=0;
+usmev:=0;
+18 Prg2
+if odd(count) then ocas:=1-ocas;
+
+if usmev>0 then
+  begin
+    dec(usmev);
+    afaze:=ocas;
+  end
+else
+  begin
+    if random(100)<2 then 
+      begin
+        usmev:=random(30)+10;
+        snd('bar-x-gr'+chr(random(3)+48),801);
+      end;
+    afaze:=2*ocas+2;
+    if random(100)<7 then inc(afaze);
+  end;
+
+10 List
+0 256 1 257 769 2 258 514 770
+259
+37 5 3 5
+hlubinna0.BMP
+65280 Mask
+1 Kind
+8 Ext
+6 Prg1
+name hlubinna
+var ploutvicka
+var zzzeni
+ini
+ploutvicka:=0;
+zzzeni:=0;
+22 Prg2
+ploutvicka:=(ploutvicka+1)mod 5;
+case ploutvicka of
+  0,1,2:afaze:=ploutvicka;
+  3:afaze:=1;
+  4:afaze:=0;
+end;
+
+if zzzeni>0 then
+  begin
+    inc(afaze,6);
+    dec(zzzeni)
+  end
+else if random(100)<5 then inc(afaze,3)
+else if random(1000)<15 then 
+  begin
+    inc(afaze,6);
+    zzzeni:=5;
+    snd('bar-x-zzz',901);
+  end;
+
+
+
+7 List
+0 256 257 513 769 770 1026
+18 14 3 1
+krab0.BMP
+65280 Mask
+1 Kind
+5 Ext
+4 Prg1
+name krabik
+var oci
+ini
+oci:=0;
+5 Prg2
+if odd(count)and(random(100)<10) then
+  oci:=random(5);
+
+if random(100)<10 then afaze:=5
+else afaze:=oci;
+3 List
+0 1 2
+43 29 2 3
+12-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 1 257 513
+21 2 6 2
+baget0.BMP
+65280 Mask
+1 Kind
+1 Ext
+1 Prg1
+name baget
+2 Prg2
+if random(100)<6 then afaze:=1
+else afaze:=0;
+7 List
+0 1 257 258 259 260 261
+23 28 2 4
+noha0.BMP
+65280 Mask
+1 Kind
+11 Ext
+8 Prg1
+name nozka
+var cinnost
+var oci
+var dup
+ini
+cinnost:=random(100)+20;
+dup:=0;
+oci:=0;
+29 Prg2
+if odd(count)and(random(100)<10) then
+  oci:=random(5);
+
+if cinnost>0 then
+  begin
+    dec(cinnost);
+    dup:=0;
+    if cinnost=0 then
+      begin
+        cinnost:=-20-random(60);
+      end;
+  end
+else
+  begin
+    if count mod 3=0 then 
+      begin
+        dup:=1-dup;
+        if dup=0 then snd('bar-x-tup',951);
+      end;
+    if (cinnost<-1)or(dup=0) then inc(cinnost);
+    if cinnost=0 then
+      begin
+        cinnost:=10+random(150);
+      end;
+  end;
+    
+if random(100)<4 then afaze:=5
+else afaze:=oci;
+afaze:=afaze+dup*6;
+5 List
+0 256 512 768 769
+38 32 3 1
+pldik0.BMP
+65280 Mask
+1 Kind
+13 Ext
+9 Prg1
+name pldik
+var cinnost
+var oci
+var suckani
+var suckfaze
+ini
+cinnost:=0;
+oci:=0;
+suckani:=0;
+56 Prg2
+case cinnost of
+  0:begin
+      if random(1000)<5 then cinnost:=1;
+      if random(100)<5 then 
+        begin
+          oci:=random(5);
+          if oci>0 then inc(oci);
+        end;
+      if (suckani=0)and(random(100)<4) then 
+        begin
+          suckani:=random(5)+1;
+          suckfaze:=0;
+        end
+    end;
+  1:begin
+      if random(1000)<10 then cinnost:=0;
+      oci:=6;
+      if (suckani=0)and(random(100)<4) then 
+        begin
+          suckani:=random(4)+1;
+          suckfaze:=0;
+        end
+    end;
+201:begin
+      if not playing(201) then cinnost:=0;
+      oci:=1;
+      if suckani=0 then
+        begin
+          suckani:=1000;
+          suckfaze:=0;
+        end;
+    end;
+202:begin
+      if not playing(202) then cinnost:=0;
+      oci:=0;
+      if suckani=0 then
+        begin
+          suckani:=1000;
+          suckfaze:=0;
+        end;
+    end;
+end;
+
+afaze:=oci*2;
+if random(100)<5 then afaze:=12;
+
+if suckani>0 then
+  begin
+    case suckfaze of
+      0:if cinnost<200 then snd('bar-x-suck'+chr(random(4)+48),251);
+      1..3:inc(afaze);
+      5:dec(suckani);
+    end;
+    suckfaze:=(suckfaze+1)mod 6;
+  end;
+    
+3 List
+0 1 2
+22 0 7 3
+shark1.bmp
+65280 Mask
+1 Kind
+3 Ext
+6 Prg1
+name shark
+var oci
+var pusa
+ini
+oci:=random(2);
+pusa:=random(2);
+6 Prg2
+if random(1000)<5 then oci:=1-oci;
+if random(1000)<5 then pusa:=1-pusa;
+
+afaze:=oci+pusa*2;
+
+if (oci=0)and(random(100)<3) then inc(afaze);
+9 List
+256 257 258 259 260 516 261 6 262
+5 29 7 4
+pld 1.BMP
+65280 Mask
+1 Kind
+15 Ext
+14 Prg1
+name pldotec
+var del
+var vlnit
+var ocko
+var faze
+var smer
+var smutny
+ini
+vlnit:=0;
+del:=0;
+ocko:=0;
+smer:=0;
+faze:=0;
+smutny:=0;
+71 Prg2
+case dir of
+  dir_no:if vlnit=-1 then vlnit:=8;
+  dir_down:vlnit:=-1;
+  else vlnit:=8;
+end;
+
+if vlnit>0 then smutny:=0;
+
+
+if vlnit>0 then
+ if del=0 then
+  begin
+    case vlnit of
+      8,7,6:del:=1;
+      5,4,3:del:=2;
+      else del:=3;
+    end;
+    if random(2)=0 then
+      afaze:=(afaze+1)mod 4
+    else
+      afaze:=(afaze+3)mod 4;
+    dec(vlnit);
+    if vlnit=0 then del:=0;
+    if vlnit=0 then afaze:=0
+    else if vlnit=1 then afaze:=3;
+  end
+ else
+  dec(del)
+else if smutny>0 then
+  begin
+    if ocko=0 then
+      if random(100)<10 then ocko:=3;
+    if ocko>0 then dec(ocko);
+    if ocko>0 then afaze:=15
+    else afaze:=14;
+    dec(smutny);
+  end
+else
+  begin
+    if random(100)<10 then smer:=1-smer;
+    case faze of
+      0:begin
+          afaze:=0;
+          if random(100)<10 then faze:=1;
+        end;
+    1,4:begin
+          inc(faze);
+          afaze:=4;
+        end;
+    2,3:begin
+          inc(faze);
+          afaze:=5;
+        end;
+     5:begin
+          afaze:=0;
+          faze:=0;
+        end;
+    end;
+    case afaze of
+      0:if smer=1 then afaze:=6;
+      4:if smer=1 then afaze:=7;
+    end;
+
+    if ocko=0 then
+      if random(100)<10 then ocko:=3;
+    if ocko>0 then dec(ocko);
+
+    if ocko>0 then
+      if afaze=0 then afaze:=9
+      else afaze:=afaze+6;
+  end;
+19 List
+512 257 513 2 258 514 770 3 259
+515 771 4 260 516 772 261 517 773 518
+28 1 6 3
+18-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+256 512 1 257 2 3 4 5
+13 29 8 3
+double1_0.BMP
+65280 Mask
+1 Kind
+6 Ext
+8 Prg1
+name levahlava
+var cinnost
+var kouka
+var makoukat
+ini
+kouka:=random(3);
+makoukat:=kouka;
+cinnost:=0;
+33 Prg2
+if (kouka=0)and(pravahlava.kouka=0)and(cinnost=0)and(levahlava.cinnost=0)
+and (makoukat=0)and(pravahlava.makoukat=0)and(random(100)<5) then
+  begin
+    cinnost:=2;
+    pravahlava.cinnost:=2;
+  end;
+
+if kouka<>makoukat then
+  if (kouka=1)or(makoukat=1) then kouka:=makoukat
+  else kouka:=1;
+
+case cinnost of
+  0:begin
+      if random(1000)<5 then cinnost:=1
+      else if random(100)<5 then makoukat:=random(3);
+      afaze:=kouka*2;
+      if afaze>0 then inc(afaze);
+      if random(100)<95 then inc(afaze);
+    end;
+  1:begin
+      afaze:=kouka*2;
+      if afaze>0 then inc(afaze);
+      if random(1000)<5 then cinnost:=0;
+    end;
+  2:begin
+      afaze:=2;
+      if random(100)<3 then
+        begin
+          cinnost:=0;
+          pravahlava.cinnost:=0;
+        end;
+    end;
+end;
+4 List
+257 259 260 262
+13 29 8 3
+double2_0.BMP
+65280 Mask
+1 Kind
+6 Ext
+8 Prg1
+name pravahlava
+var cinnost
+var kouka
+var makoukat
+ini
+kouka:=random(3);
+makoukat:=kouka;
+cinnost:=0;
+21 Prg2
+if kouka<>makoukat then
+  if (kouka=1)or(makoukat=1) then kouka:=makoukat
+  else kouka:=1;
+
+case cinnost of
+  0:begin
+      if random(1000)<5 then cinnost:=1
+      else if random(100)<5 then makoukat:=random(3);
+      afaze:=kouka*2;
+      if afaze>0 then inc(afaze);
+      if random(100)<95 then inc(afaze);
+    end;
+  1:begin
+      afaze:=kouka*2;
+      if afaze>0 then inc(afaze);
+      if random(1000)<5 then cinnost:=0;
+    end;
+  2:begin
+      afaze:=2;
+    end;
+end;
+6 List
+0 1 258 261 518 519
+EOF

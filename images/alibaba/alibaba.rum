@@ -1,0 +1,616 @@
+REDIT FILE from 25.3.1998 4:43:19
+knihovna
+knihovna
+1 1 5 10 5 0 0 0 0 0  Params
+255 Grid
+40 30
+pozadi.BMP
+0 obsolete
+0 Ext
+knihovna-zed1.BMP
+65280 Mask
+0 Ext
+448 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 6144 6400 6656 6912 7168
+7424 1 257 513 769 7169 7425 2 258 514
+770 7170 7426 3 259 515 771 7171 7427 4
+260 516 772 1796 2052 2308 2564 2820 3076 3332
+3588 3844 4100 4356 4612 4868 5124 5380 5892 6148
+6404 6660 7172 7428 5 261 517 773 1797 2053
+2309 3333 3589 3845 4101 4357 4613 4869 5893 6149
+7173 7429 6 262 518 774 2054 2310 3334 3590
+4614 4870 5894 6150 7174 7430 775 3335 3591 5895
+6151 7175 7431 776 3336 3592 5896 6152 7176 7432
+777 3337 3593 5897 6153 7177 7433 778 3338 3594
+5898 6154 7178 7434 11 779 2059 2315 2571 3339
+3595 4619 4875 5131 5899 6155 7179 7435 12 780
+2060 2316 3596 4620 4876 6156 7180 7436 13 781
+2061 2317 3597 4621 4877 6157 7181 7437 14 782
+2062 2318 3342 3598 4622 4878 5902 6158 7182 7438
+15 783 2319 3599 4879 6159 7439 16 784 2320
+3600 4880 6160 7440 17 785 2065 2321 3345 3601
+4625 4881 5905 6161 7185 7441 18 786 2322 3346
+3602 4882 5906 6162 7442 19 787 2323 3347 3603
+4883 5907 6163 7443 20 788 2068 2324 3348 3604
+3860 4628 4884 5908 6164 6420 7188 7444 21 789
+2069 2325 3349 3605 4629 4885 5909 6165 7189 7445
+22 790 2070 2326 3350 3606 4630 4886 5910 6166
+7190 7446 23 791 2071 2327 3351 3607 4631 4887
+5911 6167 7191 7447 24 792 1048 2072 2328 3352
+3608 4632 4888 5912 6168 7192 7448 25 2073 2329
+3353 3609 4633 4889 5913 6169 7193 7449 26 2074
+2330 4634 4890 7194 7450 27 2075 2331 4635 4891
+7195 7451 28 2076 2332 4636 4892 7196 7452 29
+285 541 797 1053 2077 2333 4637 4893 7197 7453
+30 286 542 798 2078 2334 3358 3614 4638 4894
+5918 6174 7198 7454 31 287 543 799 2079 2335
+2591 2847 3103 3359 3615 4639 4895 5151 5407 5663
+5919 6175 7199 7455 32 288 544 800 2080 2336
+4640 4896 5152 5408 5664 5920 6176 6432 6688 7200
+7456 33 289 545 801 7201 7457 34 290 546
+802 7202 7458 35 291 547 803 7203 7459 36
+292 548 804 7204 7460 37 293 549 805 1573
+7205 7461 38 294 550 806 1574 7206 7462 39
+295 551 807 1063 1319 1575 1831 2087 2343 2599
+2855 3111 3367 3623 3879 4135 4391 4647 4903 5159
+5415 5671 5927 6183 6439 6695 6951 7207 7463
+6 Prg1
+name room
+var cas
+var zakaz
+ini
+cas:=random(100)+10;
+zakaz:=0;
+47 Prg2
+pom1:=99;
+
+if no_dialog and zije[mala] and zije[velka] then
+ if cas>0 then dec(cas)
+ else
+  begin
+   cas:=random(1000)+600;
+   pom1:=roompole[1];
+   if pom1 mod 4=2 then
+    if zakaz=1 then inc(pom1);
+   pom2:=pom1 mod 4;
+   inc(pom1);
+   pom1:=pom1 mod 4;
+   roompole[1]:=pom1;
+  end;
+
+case pom2 of
+ 0: begin
+     addm(7,'kni-m-svicny');
+     if (pokus<3)or(random(3)>0) then addv(7,'kni-v-ber');
+    end;
+ 1: begin
+     addv(7,'kni-v-prolezt');
+     addm(7,'kni-m-tloustka');
+     addv(7,'kni-v-padavko');
+     addm(7,'kni-m-hromado');
+     adddel(7);
+     addset(busy[velka],1);
+     addv(1,'kni-v-vypni');
+     addset(busy[velka],0);
+    end;
+ 2: begin
+     addm(7,'kni-m-hrncirstvi');
+     addv(7,'kni-v-amforstvi');
+     addm(7,'kni-m-amfornictvi');
+    end;
+ 3: begin
+     addm(7,'kni-m-mise');
+     addv(7,'kni-v-proc');
+     addm(7,'kni-m-cetky');
+     adddel(14);
+     addset(busy[mala],1);
+     addm(1,'kni-m-kramy');
+     addset(busy[mala],0);
+    end;
+ end;
+
+44 Items
+25 4 2 1
+drahokam 0.BMP
+65280 Mask
+1 Kind
+5 Ext
+5 Prg1
+name universal
+var kdo
+var co
+ini
+co:=0;
+29 Prg2
+case co of
+ 0: begin
+     case random(10) of
+      1: co:=1;
+      2: co:=8;
+     end;
+     if co<>0 then kdo:=random(3)+this;
+    end;
+ 1..3: begin
+        Items[kdo]^.afaze:=co;
+        inc(co);
+       end;
+ 4..6: begin
+        Items[kdo]^.afaze:=7-co;
+        inc(co);
+       end;
+ 8..9: begin
+        Items[kdo]^.afaze:=co-4;
+        inc(co);
+       end;
+ 10..11: begin
+          Items[kdo]^.afaze:=15-co;
+          inc(co);
+         end;
+ else begin
+       Items[kdo]^.afaze:=0;
+       co:=0;
+      end;
+end;
+2 List
+0 1
+18 21 2 2
+koruna0.BMP
+65280 Mask
+1 Kind
+5 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+18 11 2 2
+koruna0.BMP
+65280 Mask
+1 Kind
+5 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+12 26 2 2
+svicen.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+12 16 2 2
+svicen.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+12 6 2 2
+svicen.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+5 27 3 1
+1-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+5 25 4 2
+2-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+1 Prg2
+if y<18 then room.zakaz:=1;
+8 List
+0 256 1 257 2 258 3 259
+6 7 6 1
+3-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 1 2 3 4 5
+25 12 6 1
+3-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 1 2 3 4 5
+6 17 6 1
+3-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 1 2 3 4 5
+25 22 6 1
+3-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 1 2 3 4 5
+32 10 1 7
+7-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+0 256 512 768 1024 1280 1536
+31 17 3 1
+prsten-31.BMP
+65280 Mask
+1 Kind
+5 Ext
+4 Prg1
+name pc2
+var stav
+ini
+stav:=0;
+7 Prg2
+if stav>0 then dec(stav) else stav:=random(300)+50;
+case stav of
+ 2..3: dec(afaze);
+ 6..7: inc(afaze);
+ 8: if random(2)=1 then afaze:=0 else afaze:=3;
+end;
+ 
+3 List
+0 1 2
+35 5 3 1
+vazav.BMP
+65280 Mask
+1 Kind
+0 Ext
+9 Prg1
+name switcher
+ini
+if random(3)=1 then
+ begin
+  X:=pazur.XStart;
+  Y:=pazur.YStart;
+  pazur.X:=XStart;
+  pazur.Y:=YStart;
+ end;
+0 Prg2
+3 List
+0 1 2
+25 5 3 1
+prsten-5.BMP
+65280 Mask
+1 Kind
+1 Ext
+3 Prg1
+name pf2
+ini
+afaze:=random(2);
+0 Prg2
+3 List
+0 1 2
+7 5 3 1
+vazav.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+4 6 3 1
+vazav1.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+4 5 3 1
+drahokam b2.BMP
+16711935 Mask
+1 Kind
+1 Ext
+1 Prg1
+name db1
+1 Prg2
+if dir=dir_no then afaze:=0 else afaze:=1;
+3 List
+0 1 2
+7 6 3 1
+prsten-5.BMP
+65280 Mask
+1 Kind
+1 Ext
+3 Prg1
+name pf1
+ini
+afaze:=random(2);
+0 Prg2
+3 List
+0 1 2
+23 7 3 1
+vazav.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+20 6 3 1
+drahokam b0.BMP
+65280 Mask
+1 Kind
+1 Ext
+1 Prg1
+name db2
+1 Prg2
+if dir=dir_no then afaze:=0 else afaze:=1;
+3 List
+0 1 2
+22 5 3 1
+vazav1.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+33 4 3 1
+prsten-4.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name pazur
+0 Prg2
+3 List
+0 1 2
+20 4 3 1
+prsten-21.BMP
+65280 Mask
+1 Kind
+5 Ext
+4 Prg1
+name pc1
+var stav
+ini
+stav:=0;
+7 Prg2
+if stav>0 then dec(stav) else stav:=random(300)+50;
+case stav of
+ 2..3: dec(afaze);
+ 6..7: inc(afaze);
+ 8: if random(2)=1 then afaze:=0 else afaze:=3;
+end;
+ 
+3 List
+0 1 2
+26 6 1 2
+amfora cervena-a.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+27 6 1 2
+pohar.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+28 6 1 2
+amfora zelena-a.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+29 6 1 2
+amfora-a.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+30 6 1 2
+vaza cervena-a.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+4 4 2 1
+pohar-a.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+20 5 2 1
+amfora.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+21 7 2 1
+vaza cervena.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+24 6 2 1
+amfora zelena.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+12 25 1 1
+krystal0.BMP
+16711935 Mask
+1 Kind
+27 Ext
+12 Prg1
+name krystal
+ini
+for pom1:=0 to 9 do
+ with Items[@krystal+pom1]^ do
+  begin
+   pom2:=random(7)*4;
+   if pom2=24 then mask:=malar.mask
+              else mask:=db1.mask;
+   afaze:=pom2;
+   globpole[pom1]:=0;
+   globpole[pom1+10]:=pom2;
+  end;
+14 Prg2
+for pom1:=0 to 9 do
+ with Items[@krystal+pom1]^ do
+  begin
+   case globpole[pom1] of
+    0: if random(25)=1 then inc(globpole[pom1]);
+    1..5: inc(globpole[pom1]);
+    6: globpole[pom1]:=0;
+   end;
+   case globpole[pom1] of
+    0..3: pom2:=globpole[pom1];
+    4..6: pom2:=7-globpole[pom1];
+   end;
+   afaze:=globpole[pom1+10]+pom2;
+  end;
+1 List
+0
+13 25 1 1
+krystal0.BMP
+16711935 Mask
+1 Kind
+27 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+18 20 1 1
+krystal0.BMP
+16711935 Mask
+1 Kind
+27 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+19 20 1 1
+krystal0.BMP
+16711935 Mask
+1 Kind
+27 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+12 15 1 1
+krystal0.BMP
+16711935 Mask
+1 Kind
+27 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+13 15 1 1
+krystal0.BMP
+16711935 Mask
+1 Kind
+27 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+18 10 1 1
+krystal0.BMP
+16711935 Mask
+1 Kind
+27 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+19 10 1 1
+krystal0.BMP
+16711935 Mask
+1 Kind
+27 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+12 5 1 1
+krystal0.BMP
+16711935 Mask
+1 Kind
+27 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+13 5 1 1
+krystal0.BMP
+16711935 Mask
+1 Kind
+27 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+EOF

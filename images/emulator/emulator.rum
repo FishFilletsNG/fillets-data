@@ -1,0 +1,475 @@
+REDIT FILE from 19.3.1998 3:12:27
+ZX
+ZX Spectrum
+0 0 0 1 1 0 0 0 0 0  Params
+-2147483632 Grid
+47 36
+zx-pozadi.bmp
+0 obsolete
+0 Ext
+ZX-Tmp.bmp
+0 Mask
+0 Ext
+573 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 6144 6400 6656 6912 7168
+7424 7680 7936 8192 8448 8704 8960 1 257 513
+769 1025 1281 1537 1793 2049 2305 2561 2817 3073
+3329 3585 3841 4097 4353 4609 4865 5121 5377 5633
+5889 6145 6401 6657 6913 7169 7425 7681 8193 8449
+8961 2 258 514 770 1026 1282 1538 1794 2050
+2306 2562 2818 3074 3330 3586 3842 4098 4354 4610
+4866 5122 5378 5634 5890 6146 6402 6658 6914 7170
+7426 7682 8450 8706 8962 259 515 1539 1795 2051
+2307 2563 2819 3075 3331 3587 3843 4099 4355 4611
+4867 5123 5379 5635 5891 6147 6403 6659 6915 7171
+7427 7683 8707 8963 260 516 1540 1796 2052 8964
+261 517 1541 1797 2053 5637 8965 1798 2054 5382
+5638 5894 8966 1799 2055 5639 8967 1800 2056 8968
+1801 2057 8969 10 266 522 778 1034 1802 2058
+8970 11 267 523 779 1035 4875 8971 12 268
+524 780 1036 2572 2828 4620 4876 5132 8204 8460
+8972 13 269 525 781 1037 2061 2317 2573 2829
+4877 8205 8461 8973 14 270 526 782 1038 1806
+2062 2318 2574 2830 8462 8974 15 271 527 783
+1039 1807 2063 2319 8463 8975 16 272 528 2064
+2320 8464 8976 17 273 529 2065 2321 8465 8977
+18 274 530 786 1042 2066 2322 8466 8978 19
+275 531 787 1043 2067 2323 8467 8979 20 276
+532 2068 2324 8468 8980 21 277 533 2069 2325
+8469 8981 22 2070 2326 2582 2838 3094 3350 3606
+3862 4118 4374 4630 4886 5142 5398 5654 5910 6166
+6422 6678 6934 8470 8982 23 2071 2327 2583 2839
+3095 3351 3607 3863 4119 4375 4631 4887 5143 5399
+5655 5911 6167 6423 6679 6935 8471 8983 24 2072
+2328 8472 8984 25 8985 26 2074 2330 2586 2842
+3098 3354 3610 3866 4122 4378 4634 4890 5146 5402
+8986 27 283 539 795 2075 2331 2587 2843 3099
+3355 3611 3867 4123 4379 4635 4891 5147 5403 5659
+5915 6171 6427 6683 6939 8987 28 284 540 796
+8732 8988 8733 8989 30 286 542 8734 8990 31
+287 543 8735 8991 32 288 544 8736 8992 33
+289 545 8737 8993 34 290 546 8738 8994 35
+291 547 8739 8995 36 292 548 8740 8996 37
+293 549 2597 2853 3109 3621 4133 4389 4645 5157
+5413 5669 8741 8997 38 294 550 2598 2854 3110
+3622 4134 4390 4646 5158 5414 5670 8742 8998 39
+295 551 1319 1575 1831 2087 2343 2599 2855 3111
+8743 8999 40 1320 1576 1832 2088 2344 2600 2856
+3112 5416 5672 8744 9000 41 1577 1833 5417 5673
+8745 9001 42 1578 1834 8746 9002 43 1579 1835
+8747 9003 44 1580 1836 2092 2348 2604 2860 3116
+5420 5676 5932 6188 6444 6700 6956 7212 7468 7724
+7980 8236 8492 8748 9004 45 301 557 813 1069
+1325 1581 1837 2093 2349 2605 2861 3117 4141 4397
+4653 4909 5165 5421 5677 5933 6189 6445 6701 6957
+7213 7469 7725 7981 8237 8493 8749 9005 46 302
+558 814 1070 1326 1582 1838 2094 2350 2606 2862
+3118 3374 3630 3886 4142 4398 4654 4910 5166 5422
+5678 5934 6190 6446 6702 6958 7214 7470 7726 7982
+8238 8494 8750 9006
+27 Prg1
+name Spectrum
+var uvod
+var nekdy
+var pixely
+var hra
+var lore
+var pocitadlo
+var premyslis
+var load
+var opakovani
+var tlaci
+var skladat
+var miner
+ini
+gspec:=42;
+pocitadlo:=0;
+uvod:=0;
+nekdy:=100+random(5000);
+pixely:=0;
+hra:=0;
+lore:=0;
+premyslis:=0;
+load:=0;
+opakovani:=0;
+tlaci:=0;
+skladat:=0;
+miner:=0;
+116 Prg2
+if no_dialog and zije[mala] and zije[velka] then
+ begin
+  if (nekdy>0) then dec(nekdy);
+  inc(pocitadlo);
+
+
+  if (uvod=0) then
+   begin
+    uvod:=1;
+    case pokus of
+     1:pom1:=1;
+     2:pom1:=2;
+     else pom1:=random(2)+1;
+    end;
+    if (pom1=1) then
+     begin
+      addm(random(42)+9,'zx-m-pametnici');
+       if(pokus<5+random(5)) or (random(100)<50) then
+        addv(15,'zx-v-osmibit');
+     end
+    else
+     begin
+      addv(random(42)+9,'zx-v-roboti');
+      addm(9,'zx-m-highway');
+     end;
+   end
+  else
+
+
+  if (pixely=0) and (nekdy=0) then
+   begin
+    pixely:=1;
+    addm(9,'zx-m-pixel');
+    if (random(100)<40) and (hra=0) then
+     begin
+      hra:=1;
+      addv(5,'zx-v-hry');
+     end;
+   end
+  else
+
+
+  if (hra=0) and (velkar.dir <> dir_no) and (jet.dir <> dir_no) then 
+   begin
+    hra:=1;
+    addv(20+random(50),'zx-v-hry');
+   end
+  else
+
+
+  if (premyslis=0) and (velkar.nehybe_se > 90) and (pocitadlo>500+random(200)) then
+   begin
+    premyslis:=1;
+    addm(0,'zx-m-premy'+'slis');
+    if (hra=0) and (random(100)<25) then
+     begin
+      addv(4,'zx-v-hry');
+      hra:=1;
+     end
+    else
+     begin
+      pom1:=random(6);
+      if pom1<5 then addv(12,'zx-v-pamet');
+      if pom1>1 then addv(5+random(4),'zx-v-otazka');
+      if random(5)>0 then addm(10+random(4),'zx-m-necodosebe');
+     end
+   end
+  else
+
+  if (lore=0) and (dist(@knightik,@malar)<5) and (malar.y in [2,3,4]) and
+   (natoceni[mala]=smer_vpravo) and(random(100) < 20) then
+   begin
+    lore:=1;
+    addm(0+9*random(2),'zx-m-knight');
+   end
+  else
+
+  if (load<4) and (pocitadlo>400+200*load+random(200)) then
+   begin
+    inc(load);
+    if (load=1) then addv(0,'zx-v-nahravani')
+     else if(random(2)=0) then addv(0,'zx-v-nahravani');
+   end
+  else
+
+  if (tlaci=0) and (malar.dir<>dir_no) and (tlaceno = true) and
+  (malar.tlacit_jeste=0)then
+   begin
+    tlaci:=1;
+    addm(5,'zx-m-ocel');
+   end
+  else
+
+  if (skladat=0) and (roompole[2]<2) and ((jet1.dir<>dir_no) or (jet2.dir<>dir_no)
+  or (jet3.dir<>dir_no)) and (malar.dir<>dir_no) and (random(8)=0) then
+   if (pokus>2) and (random(100)<60) then skladat:=1
+   else
+    begin
+     skladat:=1;
+     inc(roompole[2]);
+     addm(9,'zx-m-jetpack');
+    end
+  else
+
+  if (miner=0) and (velkar.dir=dir_no) and 
+  (dist(@manic,@velkar)<6) and (random(100)<8) then
+   if (pokus>3) and (random(100)<10+50*roompole[1]) then miner:=1
+   else
+    begin
+     roompole[1]:=1;
+     miner:=1;
+     addv(5,'zx-v-manicminer');
+    end;
+
+ end
+ else pocitadlo:=0;
+22 Items
+12 15 2 3
+hwhero.bmp
+0 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 1 257 513
+4 19 2 3
+hwlife.bmp
+0 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 1 257 513
+6 27 13 5
+hwscore.bmp
+0 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+65 List
+0 256 512 768 1024 1 257 513 769
+1025 2 258 514 770 1026 3 259 515 771
+1027 4 260 516 772 1028 5 261 517 773
+1029 6 262 518 774 1030 7 263 519 775
+1031 8 264 520 776 1032 9 265 521 777
+1033 10 266 522 778 1034 11 267 523 779
+1035 12 268 524 780 1036
+14 15 2 2
+hwtron.bmp
+0 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+22 3 5 5
+hwzone.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+25 List
+0 256 512 768 1024 1 257 513 769
+1025 2 258 514 770 1026 3 259 515 771
+1027 4 260 516 772 1028
+39 31 3 3
+jed.bmp
+0 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+256 512 1 257 513 258 514
+35 8 3 2
+jpazur.bmp
+0 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 1 257 2 258
+34 11 3 2
+jpfial.bmp
+0 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 1 257 2 258
+31 8 3 5
+jphero.bmp
+0 Mask
+1 Kind
+0 Ext
+1 Prg1
+name jet
+0 Prg2
+10 List
+0 256 512 768 1 257 513 769 1025
+258
+32 13 6 1
+jppodkl.bmp
+0 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 1 2 3 4 5
+40 12 3 3
+jprak2.bmp
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name jet2
+0 Prg2
+7 List
+256 512 1 257 513 258 514
+40 17 3 3
+jprak3.bmp
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name jet1
+0 Prg2
+9 List
+0 256 512 1 257 513 2 258 514
+42 2 3 4
+knight0.BMP
+0 Mask
+1 Kind
+6 Ext
+6 Prg1
+name knightik
+var poc
+var stav
+ini
+stav:=0;
+poc:=random(200)+100;
+20 Prg2
+case stav of
+ 0,2: if poc>0 then dec(poc)
+       else
+        begin
+         inc(stav);
+         poc:=42;
+        end;
+ 1,3: if poc=0 then begin
+                     if stav=3 then stav:=0 else stav:=2;
+                     afaze:=stav*3;
+                     poc:=300-stav*50;
+                    end
+               else begin
+                     dec(poc);
+                     if poc mod 3=2 then afaze:=random(4)+2;
+                    end;
+ 5,6,7,8: inc(stav);
+ 9: begin stav:=0;afaze:=0 end;
+ end;
+if (stav=0)and(random(100)=14) then begin stav:=5;afaze:=1 end;
+12 List
+0 256 512 768 1 257 513 769 2
+258 514 770
+10 5 1 2
+mmhero.bmp
+0 Mask
+1 Kind
+0 Ext
+1 Prg1
+name manic
+0 Prg2
+2 List
+0 256
+6 18 2 3
+hwlife.bmp
+0 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 1 257 513
+10 16 2 3
+hwlife.bmp
+0 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 1 257 513
+8 17 2 3
+hwlife.bmp
+0 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 1 257 513
+14 5 2 2
+mmtrub0.bmp
+0 Mask
+1 Kind
+3 Ext
+2 Prg1
+name trubys
+ini
+1 Prg2
+if afaze=3 then afaze:=0 else inc(afaze);
+4 List
+0 256 1 257
+14 17 4 2
+20-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+4 Prg1
+name velkar
+var nehybe_se
+ini
+nehybe_se:=0;
+4 Prg2
+ if (velkar.dir <> dir_no) then
+  nehybe_se:=0
+ else
+  inc(nehybe_se);
+8 List
+0 256 1 257 2 258 3 259
+8 20 3 1
+19-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+4 Prg1
+name malar
+var tlacit_jeste
+ini
+tlacit_jeste:=20+random(80);
+3 Prg2
+if (malar.dir <> dir_no) and (tlacit_jeste>0) and
+(tlaceno=true) then
+ dec(tlacit_jeste); 
+3 List
+0 1 2
+40 8 3 3
+jprak1.bmp
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name jet3
+0 Prg2
+3 List
+1 257 513
+0 31 5 5
+spectrum.bmp
+16777215 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+769
+EOF

@@ -1,0 +1,432 @@
+REDIT FILE from 21.3.1998 17:04:45
+bathroom
+bathroom
+0 0 5 10 5 0 0 0 0 0  Params
+-2147483632 Grid
+31 32
+bathroom-p.bmp
+0 obsolete
+0 Ext
+bathroom-zed.bmp
+65280 Mask
+0 Ext
+225 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 6144 6400 6656 7424 7680
+7936 1 2817 4097 6401 6657 7425 7681 7937 2
+2818 4098 6402 6658 7938 3 2819 4099 6403 6659
+7427 7683 7939 4 2820 4100 6404 6660 7684 7940
+5 2821 4101 7429 7685 7941 6 2822 4102 7430
+7686 7942 7 7431 7687 7943 8 7432 7688 7944
+9 7433 7689 7945 10 7434 7690 7946 11 7435
+7691 7947 12 7436 7692 7948 13 7437 7693 7949
+14 7438 7694 7950 15 7439 7695 7951 16 784
+7440 7696 7952 17 7441 7697 7953 18 7442 7698
+7954 19 7443 7699 7955 20 7444 7700 7956 21
+5397 7445 7701 7957 22 5398 7446 7702 7958 23
+5399 7447 7703 7959 24 5400 7448 7704 7960 25
+5401 7449 7705 7961 26 794 1050 1818 2074 2842
+3098 3866 4122 5402 7450 7706 7962 27 1051 2075
+3099 4123 5403 7451 7707 7963 28 1052 2076 3100
+4124 5404 7452 7708 7964 29 1053 2077 3101 4125
+5405 7453 7709 7965 30 286 542 798 1054 1310
+1566 1822 2078 2334 2590 2846 3102 3358 3614 3870
+4126 4382 4638 4894 5150 5406 5662 5918 6174 6430
+6686 6942 7198 7454 7710 7966
+22 Prg1
+name room
+var switch
+var kdy
+var bav
+var sprs
+var sp
+var pokl
+ini
+switch:=2-pokus mod 2;
+kdy:=20+random(20);
+bav:=random(150);
+sprs:=0;
+sp:=0;
+pokl:=0;
+
+// 1 bydli
+// 2 dva hajzly
+// 3 sprcha obecne
+// 4 poklady
+// 5 sprcha dole
+// 6 ahoj tvore
+// 7 bavi se dobre
+92 Prg2
+pom1:=0;
+if kdy>0 then dec(kdy);
+if bav>0 then dec(bav);
+
+if no_dialog and zije[mala] and zije[velka] then
+ begin
+  if kdy=0 then
+   begin
+    pom1:=switch;
+    switch:=3-switch;
+    kdy:=500+random(1000);
+   end; 
+  if sprs=0 then
+   if (dist(@malar,@sprc)<2) or (sprc.dir<>dir_no) then
+    if random(20)=1 then
+     begin
+      sprs:=1;
+      pom1:=3;
+     end;
+  if (bav=0)and((whirlpool.tvor>0)and((dist(@malar,@whirlpool)<2))or(whirlpool.dir<>dir_no)) then
+   begin
+    if playing(105)or(whirlpool.dir<>dir_no) then pom2:=random(200) else pom2:=random(500);
+    case pom2 of
+      6: pom1:=6;
+      7: pom1:=7;
+     end;
+   end;
+  if (sp=0)and(sprc.dir=dir_down)and(random(10)=1) then
+   begin
+    sp:=1;
+    pom1:=5;
+   end;
+  if (pokl=0) and (malar.x<=sprc.x) and (malar.y<=sprc.y) then
+   begin
+    pokl:=1;
+    pom1:=4;
+   end;
+ end;
+
+if pom1>=6 then bav:=random(1000)+1000;
+
+case pom1 of
+ 1: begin
+     if random(4)>0 then addv(7,'br-v-komfort');
+     addm(7,'br-m-bydli');
+     if random(5)>0 then
+      begin
+       addv(7,'br-v-santusak');
+       if random(6)>0 then addm(7,'br-m-podvodnik');
+      end;
+    end;
+
+ 2: begin
+     addm(7,'br-m-vsim'+chr(48+random(3)));
+     addv(0,'br-v-nerozvadet'+chr(48+random(3)));
+     if random(7)>0 then
+     begin
+     addm(10,'br-m-dva');
+     addv(5,'br-v-dost');
+     end;
+    end;
+
+ 3: begin
+     addm(7,'br-m-sprcha');
+     addv(7,'br-v-lazen');
+     if random(7)>0 then
+     begin
+      addm(9,'br-m-zapnout');
+      addv(6,'br-v-shodit');
+     end;
+    end;
+
+ 4: addm(random(10)+2,'br-m-poklady');
+         
+ 5: begin
+     addv(7,'br-v-nechat');
+     if random(7)>0 then addm(7,'br-m-nefunguje');
+    end;
+
+ 6: begin
+     if playing(105) then adddel(13);
+     if random(7)>0 then addm(7,'br-m-ahoj');
+     addv(7,'br-v-draha');
+     if random(6)>0 then addm(7,'br-m-zkusit');
+    end;
+
+ 7: begin
+     if playing(105) then adddel(16);
+     addm(7,'br-m-bavi');
+    end;
+
+end;
+28 Items
+26 23 3 1
+1-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+25 24 4 2
+2-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+21 25 3 4
+hajzl.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+0 256 512 768 513 769 514
+2 21 3 4
+hajzl.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+0 256 512 768 513 769 514
+15 26 2 3
+bedna.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 1 257 513
+16 23 2 3
+radio.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 1 257 513
+17 20 2 3
+kufr.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 1 257 513
+16 17 2 3
+kos.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 1 257 513
+21 17 3 4
+pracka1.BMP
+65280 Mask
+1 Kind
+9 Ext
+4 Prg1
+name whirlpool
+var tvor
+ini
+tvor:=0;
+16 Prg2
+if anim='' then
+ case random(5) of
+  0,1,2: setanim(this,
+          'd13a0a1a2a3a0a1a2a3a0a1a2a3a0a1a2a3d8a3a2a1a0a3a2a1a0a3a2a1a0a3a2a1a0');
+  3: if count>20 then
+      setanim(this,'d?2-8S1,1a4d?2-5a5a4d?1-3a5d?1-3a4d?2-7a5d?1-3S1,0a0d?2-4');
+  4: if count>20 then
+      setanim(this,'d?1-3S1,1a4d?1-5a5d?1-5a4d?1-5'+
+       'a6a7a8a9a6a7a8a9a6a7a8a9a6a7a8a9d?2-5a4d?1-3a5d1a4d?1-3'+
+       'a9a8a7a6a9a8a7a6a9a8a7a6a9a8a7a6d?1-3a4d?1-3S1,0a0');
+ end;
+
+if odd(count) then goanim(this)
+else
+ if (tvor=1) and (afaze>5) and (not playing(105)) and (random(20)=1) then
+  snd('br-x-pracka',105);
+12 List
+0 256 512 768 1 257 513 769 2
+258 514 770
+3 19 1 1
+hajzlak.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+19 28 1 1
+shell1.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+26 28 1 1
+hajzlak.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+4 2 1 1
+balonek1.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+25 19 1 2
+sapon.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+4 1 7 10
+sprcha.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name sprc
+0 Prg2
+18 List
+2304 1 257 513 769 1025 1281 1537 1793
+2049 2305 2 2306 3 4 5 6 262
+13 1 9 2
+ploutve.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+11 List
+256 257 258 3 259 260 5 261 262
+263 264
+2 14 7 2
+kartac.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+256 1 257 258 259 260 261 262
+8 27 1 2
+20-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+1 4 3 2
+kvetinac.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 1 257 2
+3 3 2 1
+bota.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+2 6 2 1
+botka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+2 7 2 2
+klobouk.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+1 7 2 4
+zidle.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 768 513 769
+26 1 1 1
+hajzlak.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+28 20 1 1
+balonek1.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+28 10 1 1
+kouleA.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+29 6 1 1
+balonek2.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+27 14 2 1
+Musla.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+EOF

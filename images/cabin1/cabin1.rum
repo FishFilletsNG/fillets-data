@@ -1,0 +1,411 @@
+REDIT FILE from 6.3.1998 2:27:47
+Kajuta1
+Vrak lodi: Kajuta 1. dùstojníka^In the wreck: 1st mate's cabin
+0 0 5 10 5 0 0 0 0 0  Params
+-2147483632 Grid
+24 22
+kajuta1p.BMP
+0 obsolete
+0 Ext
+kajuta1w.BMP
+65280 Mask
+0 Ext
+233 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 1 257 513 769 1025 1281 1537
+1793 2049 2305 2561 2817 3073 3329 4353 4609 4865
+5121 5377 2 258 514 770 1026 1282 1538 1794
+2050 2306 2562 2818 3074 3330 4354 4610 4866 5122
+5378 3 259 5123 5379 4 260 5124 5380 5
+261 5125 5381 6 262 5126 5382 7 263 1799
+2055 2311 2567 2823 3079 3335 3591 4359 5127 5383
+8 264 2056 4360 5128 5384 9 265 2057 4361
+5129 5385 10 266 2058 4362 5130 5386 11 267
+4363 5131 5387 12 268 5132 5388 13 269 4109
+5133 5389 14 270 3086 4110 5134 5390 15 271
+3087 4111 5135 5391 16 272 2064 3088 4112 5136
+5392 17 273 2065 3089 4113 4881 5137 5393 18
+274 2066 3090 4114 4882 5138 5394 19 275 2067
+3091 4115 4883 5139 5395 20 276 788 2068 3092
+4116 4884 5140 5396 21 277 533 789 1045 1301
+1557 1813 2069 2325 2581 2837 3093 3349 3605 3861
+4117 4885 5141 5397 22 278 534 790 1046 1302
+1558 1814 2070 2326 2582 2838 3094 3350 3606 3862
+4118 4886 5142 5398 23 279 535 791 1047 1303
+1559 1815 2071 2327 2583 2839 3095 3351 3607 3863
+4119 4887 5143 5399
+26 Prg1
+name room
+var podekovat
+var atmosf
+var podiv
+var chob
+var truh
+var mov
+var nekro
+ini
+podekovat:=0;
+if random(100)<50 then
+  begin
+    atmosf:=random(200)+100;
+    podiv:=-1;
+  end
+else
+  begin
+    podiv:=20;
+    atmosf:=-1;
+  end;
+chob:=random(2)+1;
+truh:=random(40)+10;
+mov:=0;     
+nekro:=0;
+
+StdHlaskySmrti:=false;
+108 Prg2
+if not zije[mala] and not venku[mala] 
+ or not zije[velka] and not venku[velka] then
+  begin
+    if nekro=0 then 
+      addd(6,'k1-pap-karamba',101,papouch.stav);
+    nekro:=1;
+  end
+else
+  begin
+    if chobot.Dir<>dir_no then podekovat:=1;
+ 
+    if atmosf>=0 then
+      begin
+        if (atmosf=0) then
+          if no_dialog then
+            begin
+              addv(50,'k1-v-citis');
+              addm(1,'k1-m-kolebku');
+              addv(2,'k1-v-cit');
+            end
+          else inc(atmosf,20);
+        dec(atmosf);
+      end;
+
+    if podiv>=0 then
+      if (xdist(@malar,@lebka)<=2)and look_at(@malar,@lebka) and
+        (lebka.Dir=dir_no) then
+          begin
+            if (podiv=0)and(malar.cinnost=0) then 
+              if no_dialog then
+                begin
+                  addm(20,'k1-m-podivin');
+                  addv(2,'k1-v-proc');
+                  addm(2,'k1-m-lebku');
+                  addv(2,'k1-v-jejeho');
+                  if random(2)=0 then addm(5,'k1-m-mysli');
+                end
+              else
+                inc(podiv,10);
+            dec(podiv);
+          end;
+
+    if (podekovat=0)and(malar.Y<=7)and(malar.X=17) then
+      begin
+        podekovat:=1;
+        if no_dialog then
+          begin
+            addm(5,'k1-m-diky');
+            addv(3,'k1-v-radose');
+          end;
+      end;
+
+    case chob of
+      1:if (malar.X=chobot.X+1)and(malar.Y=chobot.Y) then
+          begin
+            if no_dialog then 
+              begin
+                addv(0,'k1-v-opatrne');
+                addm(3,'k1-m-tospisona');
+              end; 
+            chob:=0;
+          end;
+      2:if look_at(@malar,@chobot)and (dist(@malar,@chobot)=2) then
+          begin
+            if no_dialog then 
+              begin
+                addm(4,'k1-m-chobotnice');
+                addv(6,'k1-v-patrila');
+                addd(8,'k1-pap-drahousek',101,papouch.stav);
+              end; 
+            chob:=0;
+          end;
+    end;
+
+    if truh>=0 then
+      if dist(@malar,@truhla)<2 then
+        if truh=0 then
+          if no_dialog then
+            begin
+              dec(truh);
+              case random(2) of
+                0:begin
+                    addm(0,'k1-m-copak');
+                    addv(3,'k1-v-kdovi');
+                    addd(6,'k1-pap-drahokamy',101,papouch.stav);
+                  end;
+                1:begin
+                    addm(0,'k1-m-myslis');
+                    addv(random(10),'k1-v-bedna');
+                  end;
+              end;
+            end
+          else inc(truh,10)
+        else dec(truh);
+
+    if (mov=0) and (random(100)<1) then gspec:=3;
+
+    if gspec=4 then
+      if is_dialog then gspec:=3
+      else                                   
+        begin
+          mov:=1;
+          addm(4,'k1-m-codelas');
+          addset(gspec,0);
+          addv(3,'k1-v-promin');
+        end;
+  end;
+   
+9 Items
+2 15 2 2
+truhla.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name truhla
+2 Prg2
+if (Dir<>dir_no) and (gfaze=0) then
+  Snd('k1-x-vrz',300);
+4 List
+0 256 1 257
+8 15 3 2
+papouchA1.BMP
+65280 Mask
+1 Kind
+1 Ext
+12 Prg1
+name papouch
+var strcil
+var stav
+var smalse
+var nekoukej
+var tlustej
+ini
+stav:=0;
+strcil:=0;
+smalse:=0;
+nekoukej:=0;
+tlustej:=0;
+62 Prg2
+case stav of
+  0:if no_dialog then 
+    if ((Dir=dir_left)or(Dir=dir_right)) and (strcil=0) and (random(6)=0) then
+      begin
+        strcil:=1;
+        addd(0,'k1-pap-nestrkej',101,stav);
+      end
+    else if (Y=18)and(smalse=0) then
+      begin
+        smalse:=1;
+        addd(0,'k1-pap-prekazet',101,stav);
+      end
+    else if (poklop.Y=7)and(malar.Y>7)and(malar.Y<17)and(malar.X>7)and
+             (velkar.Y<7)and(smalse=0) then
+      begin
+        smalse:=1;
+        addd(0,'k1-pap-prcice',101,stav);
+      end
+    else if (nekoukej=0)and(dist(little,this)<=1) and (random(100)<5) then
+      begin
+        nekoukej:=1;
+        addd(0,'k1-pap-vodprejskni',102,stav);
+      end
+    else if (nekoukej=0)and(dist(big,this)<=1) and (random(100)<5) then
+      begin
+        nekoukej:=2;
+        addd(0,'k1-pap-vodprejskni',102,stav);
+      end
+    else if (nekoukej=1)and(dist(little,this)>2) and (random(100)<25) then
+      begin
+        addd(0,'k1-pap-noproto',101,stav);
+      end
+    else if (nekoukej=2)and (dist(big,this)>2) and (random(100)<25) then
+      begin
+        addd(0,'k1-pap-noproto',101,stav);
+      end
+    else if (tlustej=0)and(trubka.X>=13)and(trubka.Y=18) then
+      begin
+        tlustej:=1;
+        addd(0,'k1-pap-sestlustej',101,stav);
+        stav:=1;
+      end
+     else if (random(250)=0) then
+       begin
+         case random(7) of
+           0:addd(0,'k1-pap-sucharek',101,stav);
+           1:addd(0,'k1-pap-kruty',101,stav);
+           2:addd(0,'k1-pap-3xkruty',101,stav);
+           3:addd(0,'k1-pap-kruci',101,stav);
+           4:addd(0,'k1-pap-sakris',101,stav);
+           5:addd(0,'k1-pap-trhnisi',101,stav);
+           6:addd(0,'k1-pap-problem',101,stav);
+         end;
+         stav:=1;
+       end;
+  101:
+    begin
+      if nekoukej>0 then nekoukej:=3;
+      afaze:=random(2);
+    end;
+  102:afaze:=random(2);
+end;
+5 List
+0 256 1 257 258
+16 2 5 2
+lampa.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 1 2 3 4
+3 5 5 2
+chobotnice0.BMP
+16711935 Mask
+1 Kind
+8 Ext
+10 Prg1
+name chobot
+var chapadla
+var oci
+var akcnost
+var lastdir
+ini
+lastdir:=dir_no; 
+oci:=0;
+chapadla:=0;
+akcnost:=2;
+41 Prg2
+if Dir<>Dir_no then akcnost:=7
+else
+  if (akcnost>2)and(count mod 5=0) then dec(akcnost);
+
+if Dir<>lastdir  then 
+  begin
+    if not Playing(301) then
+      if Dir=dir_down then Snd('k1-chob-p',301)
+      else if Dir<>dir_no then
+        case random(3) of
+          0:Snd('k1-chob-1',301);
+          1:Snd('k1-chob-2',301);
+          2:Snd('k1-chob-3',301);
+        end;
+    lastdir:=Dir;
+  end;
+
+if (dir=Dir_no)and(count mod akcnost=0) then
+  if random(2)=0 then
+    begin
+       if chapadla<2 then inc(chapadla)
+       else chapadla:=0;
+    end
+  else
+    begin
+       if chapadla>0 then dec(chapadla)
+       else chapadla:=2;
+    end;
+pomb1:=((xdist(little,this)=0)and(ydist(little,this)<=0))
+  or((xdist(big,this)=0)and(ydist(big,this)<=0));
+pomb1:=pomb1 or (dir<>Dir_no);
+    
+if pomb1 then oci:=1;
+case oci of
+  0:if random(100)<10 then oci:=2;
+  2:if random(100)<10 then oci:=0;
+  1:if not pomb1 and(random(100)<20) then oci:=0;
+end;
+afaze:=oci+3*chapadla;
+
+
+7 List
+0 256 257 258 259 4 260
+13 10 2 2
+lebzna.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name lebka
+0 Prg2
+3 List
+0 1 257
+14 14 1 2
+trubka1.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name trubka
+0 Prg2
+2 List
+0 256
+10 7 7 1
+trubka2.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name poklop
+0 Prg2
+7 List
+0 1 2 3 4 5 6
+17 13 3 1
+mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+8 Prg1
+name malar
+var leb
+var cinnost
+var delay
+ini
+leb:=0;
+cinnost:=0;
+delay:=0;
+11 Prg2
+if no_dialog then
+case cinnost of
+  0:if (lebka.Dir<>dir_no)and(lebka.Dir<>dir_down)and(aktivni=mala)and
+      ((leb=0)or(random(100)<10))and(gfaze=0) then
+      begin
+        leb:=1;
+        talk('k1-m-fuj',2);
+      end;
+end;
+
+
+3 List
+0 1 2
+16 14 4 2
+velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+5 Prg1
+name velkar
+var cinnost
+ini
+cinnost:=0;
+
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+EOF

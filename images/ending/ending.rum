@@ -1,0 +1,319 @@
+REDIT FILE from 25.3.1998 4:48:02
+Zaver
+Zaver
+1 0 4 12 5 0 0 0 0 0  Params
+-2147483632 Grid
+29 27
+Prvni-p.bmp
+0 obsolete
+0 Ext
+Prvni-w.bmp
+65280 Mask
+0 Ext
+277 WlList
+1280 1536 1792 2048 2304 2560 2816 3072 3328
+3584 3840 4096 4352 4608 4864 5120 5376 5632 5888
+1025 1281 1537 1793 2049 2305 2561 2817 3073 3329
+3585 3841 4097 4353 4609 4865 5121 5377 5633 5889
+1026 1282 1538 1794 2050 2306 2562 2818 3074 3330
+3586 3842 4098 4354 4610 4866 5122 5378 5634 5890
+1027 1283 1539 1795 2051 2307 2563 4867 5123 5379
+5635 5891 1028 1284 1540 1796 2052 2308 5124 5380
+5636 5892 1541 1797 2053 2309 5381 5637 5893 1542
+1798 2054 2310 5382 5638 5894 1543 1799 2055 5639
+5895 1544 1800 2056 5640 5896 1545 1801 2057 5641
+5897 1290 1546 1802 2058 5642 5898 1291 1547 1803
+5643 5899 1292 1548 1804 5644 5900 269 1293 1549
+1805 5645 5901 270 526 782 1038 1294 1550 1806
+5646 5902 5647 5903 272 528 784 1040 1296 1552
+1808 2064 5648 5904 273 1553 1809 2065 5649 5905
+1554 1810 2066 2322 5650 5906 1555 1811 2067 2323
+5651 5907 1300 1556 1812 2068 2324 5652 5908 1301
+1557 1813 2069 2325 2581 5653 5909 1046 1302 1558
+1814 2070 2326 2582 5654 5910 1047 1303 1559 1815
+2071 2327 2583 2839 3095 5655 5911 1304 1560 1816
+2072 2328 2584 2840 3096 3352 5656 5912 1049 1305
+1561 1817 2073 2329 2585 2841 3097 3353 3609 5401
+5657 5913 1306 1562 1818 2074 2330 2586 2842 3098
+3354 3610 5146 5402 5658 5914 1051 1307 1563 1819
+2075 2331 2587 2843 3099 3355 3611 3867 5147 5403
+5659 5915 1052 1308 1564 1820 2076 2332 2588 2844
+3100 3356 3612 3868 5148 5404 5660 5916
+8 Prg1
+name zaver
+var uvod
+var hlaska
+var cas
+ini
+uvod:=0;
+hlaska:=0;
+zavermode:=true;
+132 Prg2
+if uvod=0 then
+  begin
+    uvod:=1;
+    addv(20,'z-v-doma');
+    addm(10,'z-m-pocit');
+    addd(random(10)+5,'bar-x-suckano',202,pldik.cinnost);
+    addv(random(20)+10,'z-v-sef');
+    addm(5,'z-m-nemluv');
+    addv(2,'z-v-slyset');
+    addm(6,'z-m-netusi');
+    
+    addd(5,'z-c-konkretne',10,noprom);
+    adddel(3);
+    addset(hlaska,1);
+  end
+else if uvod=2 then
+  begin
+    uvod:=3;
+    adddel(5);
+    addset(tvrdaryba,mala);
+    addset(tvrdex,14);
+    addset(tvrdey,16);
+    addset(natvrdo,1);
+    addm(5,'z-m-dlouho');
+    addset(busy[velka],1);
+    addv(10,'z-v-pozdrav');
+    addset(busy[mala],1);
+    addset(busy[velka],0);
+    addset(busy[mala],1);
+    addset(tvrdaryba,velka);
+    addset(tvrdex,15);
+    addset(tvrdey,15);
+    addm(5,'z-m-oblicej');
+    addset(natvrdo,1);
+    addv(0,'z-v-forky');
+    adddel(2);
+    addset(busy[velka],1);
+    addset(busy[mala],1);
+    addd(2,'z-o-blahoprejeme',3,noprom);
+    adddel(20);
+    addset(konec,1);
+  end;
+
+if hlaska=1 then 
+  begin
+    cas:=round(cas_hry*24);
+    globtit:=inttostr(cas);
+  end;
+      
+
+if (hlaska>=1)and not talking(10) then
+  begin
+    pom1:=hlaska;
+    inc(hlaska);
+    if cas>=1000 then
+      begin
+        if cas>=2000 then
+          begin
+            dec(pom1);
+            if pom1=0 then 
+              talk('z-c-'+inttostr(cas div 1000),10);
+          end;
+        if cas div 1000 in [2,3,4] then
+          begin
+            dec(pom1);
+            if pom1=0 then 
+              talk('z-c-tisice',10);
+          end
+        else
+          begin
+            dec(pom1);
+            if pom1=0 then 
+              talk('z-c-tisic',10);
+          end;
+      end;
+    case cas mod 1000 div 100 of
+      0:;
+      1:begin
+          dec(pom1);
+          if pom1=0 then 
+            talk('z-c-100',10);
+        end;
+      2:begin
+          dec(pom1);
+          if pom1=0 then 
+            talk('z-c-200',10);
+        end;
+    3,4:begin
+          dec(pom1);
+          if pom1=0 then 
+            talk('z-c-'+inttostr(cas mod 1000 div 100),10);
+          dec(pom1);
+          if pom1=0 then 
+            talk('z-c-sta',10);
+        end;
+   else begin
+          dec(pom1);
+          if pom1=0 then 
+            talk('z-c-'+inttostr(cas mod 1000 div 100),10);
+          dec(pom1);
+          if pom1=0 then 
+            talk('z-c-set',10);
+        end;
+    end;
+    if (cas mod 100<20)and(cas mod 100>0) then
+      begin
+        dec(pom1);
+        if pom1=0 then
+          talk('z-c-'+inttostr(cas mod 100),10);
+      end 
+    else if cas mod 100>=20 then
+      begin
+        dec(pom1);
+        if pom1=0 then
+          talk('z-c-'+inttostr((cas mod 100 div 10)*10),10);
+        if cas mod 10>0 then
+          begin
+            dec(pom1);
+            if pom1=0 then
+              talk('z-c-'+inttostr(cas mod 10),10);
+          end;
+      end;
+    dec(pom1);
+    if pom1=0 then 
+      begin
+        hlaska:=0;
+        talk('z-c-hodin',10);
+        uvod:=2;
+      end;
+    
+  end;
+   
+7 Items
+7 17 4 5
+zidle m.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+0 256 512 768 1024 513 514 515 771
+1027
+20 17 4 5
+zidle v.BMP
+16711935 Mask
+1 Kind
+0 Ext
+1 Prg1
+name zidlev
+0 Prg2
+10 List
+512 768 1024 513 514 3 259 515 771
+1027
+12 18 7 4
+stul.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+13 List
+0 1 257 513 769 2 3 4 5
+261 517 773 6
+8 17 3 1
+Prvni-5-Tmp.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+19 17 4 2
+Prvni-6-Tmp.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+8 18 3 1
+polstar.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+14 21 3 1
+pldik0.BMP
+65280 Mask
+1 Kind
+13 Ext
+9 Prg1
+name pldik
+var cinnost
+var oci
+var suckani
+var suckfaze
+ini
+cinnost:=0;
+oci:=0;
+suckani:=0;
+56 Prg2
+case cinnost of
+  0:begin
+      if random(1000)<5 then cinnost:=1;
+      if random(100)<5 then 
+        begin
+          oci:=random(5);
+          if oci>0 then inc(oci);
+        end;
+      if (suckani=0)and(random(100)<2) then 
+        begin
+          suckani:=random(5)+1;
+          suckfaze:=0;
+        end
+    end;
+  1:begin
+      if random(1000)<10 then cinnost:=0;
+      oci:=6;
+      if (suckani=0)and(random(100)<2) then 
+        begin
+          suckani:=random(4)+1;
+          suckfaze:=0;
+        end
+    end;
+201:begin
+      if not playing(201) then cinnost:=0;
+      oci:=1;
+      if suckani=0 then
+        begin
+          suckani:=1000;
+          suckfaze:=0;
+        end;
+    end;
+202:begin
+      if not playing(202) then cinnost:=0;
+      oci:=0;
+      if suckani=0 then
+        begin
+          suckani:=1000;
+          suckfaze:=0;
+        end;
+    end;
+end;
+
+afaze:=oci*2;
+if random(100)<5 then afaze:=12;
+
+if suckani>0 then
+  begin
+    case suckfaze of
+      0:if cinnost<200 then snd('bar-x-suck'+chr(random(4)+48),251);
+      1..3:inc(afaze);
+      5:dec(suckani);
+    end;
+    suckfaze:=(suckfaze+1)mod 6;
+  end;
+    
+3 List
+0 1 2
+EOF

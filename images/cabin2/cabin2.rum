@@ -1,0 +1,413 @@
+REDIT FILE from 23.3.1998 1:08:08
+Kajuta2
+Kajuta 2. dùstojníka
+0 0 5 10 5 0 0 0 0 0  Params
+16744576 Grid
+28 24
+kajuta2p.BMP
+0 obsolete
+0 Ext
+kajuta2w.BMP
+255 Mask
+0 Ext
+287 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 1 257 513 769 1025
+1281 1537 1793 2049 2305 2561 2817 3073 3329 3585
+3841 4609 4865 5121 5377 5633 5889 2 258 514
+770 1026 1282 1538 1794 2050 2306 2562 2818 3074
+3330 3586 4610 4866 5122 5378 5634 5890 3 259
+515 771 1027 1283 1539 1795 2051 2307 2563 2819
+3075 3331 3587 4611 4867 5123 5379 5635 5891 4
+260 5636 5892 5 261 5637 5893 6 262 5638
+5894 7 263 5639 5895 8 264 1800 2056 2312
+2568 2824 3080 3336 3592 4616 5640 5896 9 265
+2057 2313 3849 4617 5641 5897 10 266 4618 5642
+5898 11 267 2315 4619 5643 5899 12 268 2316
+4620 5644 5900 13 269 2317 4621 5645 5901 14
+270 2318 4622 5646 5902 15 271 2319 3599 5647
+5903 16 272 4368 5648 5904 17 273 4369 5649
+5905 18 274 4370 5650 5906 19 275 3347 4371
+5651 5907 20 276 2324 3348 4372 5396 5652 5908
+21 277 2325 3349 4373 5397 5653 5909 22 278
+2326 3350 4374 5398 5654 5910 23 279 1815 2327
+3351 4375 5399 5655 5911 24 280 792 2328 2584
+3352 4376 5400 5656 5912 25 281 537 793 1049
+1305 1561 1817 2073 2329 2585 2841 3097 3353 3609
+3865 4121 4377 5401 5657 5913 26 282 538 794
+1050 1306 1562 1818 2074 2330 2586 2842 3098 3354
+3610 3866 4122 4378 5402 5658 5914 27 283 539
+795 1051 1307 1563 1819 2075 2331 2587 2843 3099
+3355 3611 3867 4123 4379 5403 5659 5915
+22 Prg1
+name room
+var uvod
+var zivy
+var poklad
+var chobotnicka
+var chobotnicka1
+var kostricky
+var mysleni
+var posvitime
+var hrbet
+var operenej
+ini
+uvod:=0;
+zivy:=0;
+poklad:=0;
+chobotnicka:=0;
+chobotnicka1:=0;
+kostricky:=nah(200,1000);
+mysleni:=nah(1000,5000);
+posvitime:=0;
+hrbet:=nah(25,100);
+operenej:=0;
+105 Prg2
+if zije[mala] and zije[velka] and no_dialog then
+  begin
+    if zivy>0 then inc(zivy);
+    if zivy>50 then zivy:=0;
+    if kostricky>0 then dec(kostricky);
+    if mysleni>0 then dec(mysleni);
+    if (hrbet>0)and(velkar.y=poklop.y+1) and 
+       (poklop.y<poklop.ystart)
+      then dec(hrbet);
+    
+    if (uvod=0) then
+      begin
+        if (pokus=1)or(random(100)<50) then
+          begin
+            addv(nah(20,30),'ka2-v-nekde');
+            if random(100)<40 then addm(random(5),'ka2-m-kdepak');
+          end;
+        uvod:=1; 
+      end
+  else
+    if (papzivy.afaze in [0..8]) and (operenej=0)
+       then
+      begin      
+        addv(0,'ka2-v-papousek');
+        operenej:=1;
+        zivy:=1;
+      end
+  else
+    if look_at(@malar,@papzivy) and (zivy>0) and 
+       (zivy<50) and(operenej=1) then
+      begin  
+        addm(0,'ka2-m-kostra');
+        zivy:=0;
+        operenej:=0;
+      end 
+  else
+    if (dist(@malar,@truhla)<=3) and (poklad=0)
+       and(look_at(@malar,@truhla)) and (random(100)<10)then
+      begin
+        poklad:=1;
+        addm(random(5),'ka2-m-posledni');
+        case random(7) of
+          0..1: addv(random(5),'ka2-v-mapa0');
+          2..3: addv(random(5),'ka2-v-mapa1');
+          4..5: addv(random(5),'ka2-v-mapa2');
+        end;
+      end   
+  else
+    if (malar.x>=chobot.x)and(malar.x<=chobot.x+4)
+       and(malar.y=chobot.y-1)and (chobotnicka=0) 
+       and (random(100)<2) then
+      begin
+        chobotnicka:=1;
+        addm(1,'ka2-m-chapadlo');
+        case random(3) of
+          0: addv(random(5)+10,'ka2-v-fik');
+          1:begin
+              addv(random(5)+10,'ka2-v-fik');
+              addd(5,'k1-chob-p',301,noprom);
+              addv(random(5),'ka2-v-napad');
+            end;
+        end;
+      end  
+  else
+    if (dist(@malar,@chobot)<=2) and look_at(@malar,@chobot)
+       and (chobotnicka1=0)and(chobotnicka=1)and(random(100)<3) then
+      begin
+        chobotnicka1:=-1;
+        addm(1,'ka2-m-hej');
+        case random(3) of
+          0..1: addm(nah(30,50),'ka2-m-diky');
+        end;            
+      end
+  else
+    if (kostricky=0)and (malar.x>8)and
+       (velkar.x>8) then
+      begin
+        kostricky:=-1;
+        addv(random(5),'ka2-v-kostry');
+        if random(100)<70 then
+          addm(random(5),'ka2-m-patrne');
+      end
+  else
+    if (mysleni=0) and (delay[mala]>40) and (delay[velka]>40)
+      then
+      begin
+        mysleni:=-1;
+        addv(random(10),'ka2-v-myslet');
+        addm(random(5),'ka2-m-tezko');
+      end
+  else
+    if (lampa.dir<>dir_no) and (posvitime=0)
+       and (random(100)<40) then
+      begin
+        addm(10,'ka2-m-svitit');
+        posvitime:=1;
+      end
+  else
+    if (hrbet=0)and (velkar.y=poklop.y+1) and 
+       (poklop.y<poklop.ystart) then      
+      begin
+        hrbet:=-1;
+        addv(0,'ka2-v-hr'+'bet');
+      end;
+  end; 
+10 Items
+3 16 2 2
+truhla.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name truhla
+3 Prg2
+if (Dir<>dir_no) and (gfaze=0) then
+  Snd('k1-x-vrz',300);
+  
+4 List
+0 256 1 257
+8 16 3 2
+papouchA1.BMP
+65280 Mask
+1 Kind
+1 Ext
+4 Prg1
+name papouch
+var stav
+ini
+stav:=0;
+13 Prg2
+if (stav=0)and(random(250)=0)and no_dialog then
+  begin
+    case random(7) of
+      0:addd(0,'k1-pap-sucharek',101,stav);
+      1:addd(0,'k1-pap-kruty',101,stav);
+      2:addd(0,'k1-pap-3xkruty',101,stav);
+      3:addd(0,'k1-pap-kruci',101,stav);
+      4:addd(0,'k1-pap-sakris',101,stav);
+      5:addd(0,'k1-pap-trhnisi',101,stav);
+      6:addd(0,'k1-pap-problem',101,stav);
+    end;
+  end
+else if stav=101 then afaze:=random(2);
+5 List
+0 256 1 257 258
+20 2 5 2
+lampa.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name lampa
+0 Prg2
+6 List
+0 256 1 2 3 4
+4 5 5 2
+chobotnice0.BMP
+16711935 Mask
+1 Kind
+8 Ext
+10 Prg1
+name chobot
+var chapadla
+var oci
+var akcnost
+var lastdir
+ini
+lastdir:=dir_no; 
+oci:=0;
+chapadla:=0;
+akcnost:=2;
+41 Prg2
+if Dir<>Dir_no then akcnost:=7
+else
+  if (akcnost>2)and(count mod 5=0) then dec(akcnost);
+
+if Dir<>lastdir  then 
+  begin
+    if not Playing(301) then
+      if Dir=dir_down then Snd('k1-chob-p',301)
+      else if Dir<>dir_no then
+        case random(3) of
+          0:Snd('k1-chob-1',301);
+          1:Snd('k1-chob-2',301);
+          2:Snd('k1-chob-3',301);
+        end;
+    lastdir:=Dir;
+  end;
+
+if (dir=Dir_no)and(count mod akcnost=0) then
+  if random(2)=0 then
+    begin
+       if chapadla<2 then inc(chapadla)
+       else chapadla:=0;
+    end
+  else
+    begin
+       if chapadla>0 then dec(chapadla)
+       else chapadla:=2;
+    end;
+pomb1:=((xdist(little,this)=0)and(ydist(little,this)<=0))
+  or((xdist(big,this)=0)and(ydist(big,this)<=0));
+pomb1:=pomb1 or (dir<>Dir_no);
+    
+if pomb1 then oci:=1;
+case oci of
+  0:if random(100)<10 then oci:=2;
+  2:if random(100)<10 then oci:=0;
+  1:if not pomb1 and(random(100)<20) then oci:=0;
+end;
+afaze:=oci+3*chapadla;
+
+
+8 List
+0 256 1 257 258 259 4 260
+18 11 2 2
+lebzna.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name lebka
+0 Prg2
+3 List
+0 1 257
+19 15 1 2
+trubka1.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+15 8 6 1
+trubka2.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name poklop
+0 Prg2
+6 List
+0 1 2 3 4 5
+21 14 3 1
+mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+4 Prg1
+name malar
+var lebku
+ini
+lebku:=0;
+7 Prg2
+{if (lebka.Dir<>dir_no)and(lebka.Dir<>dir_down)and(aktivni=mala)and
+   ((lebku=0)or(random(100)<10))and(gfaze=0) then
+  begin
+    lebku:=1;
+    Snd('l-fuj',2);
+  end;
+ }    
+3 List
+0 1 2
+21 15 4 2
+velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+11 16 3 2
+pap-zivy0.BMP
+16711935 Mask
+1 Kind
+9 Ext
+8 Prg1
+name papzivy
+var cinnost
+var pocet
+var delay
+ini
+cinnost:=0;
+pocet:=0;
+afaze:=9;
+55 Prg2
+if (cinnost>0)and(cinnost<20)and(aktivni=mala)and(gstav=stav_otocka) then
+  begin
+    if cinnost<5 then cinnost:=24-cinnost
+    else cinnost:=20;
+  end;
+case cinnost of
+  0:if random(1000)<4 then
+      if ((xdist(@malar,this)>1)and(natoceni[mala]=smer_vpravo))
+        or((xdist(@malar,this)<-1)and(natoceni[mala]=smer_vlevo)) 
+      then cinnost:=1;
+  1..4:
+    begin
+      afaze:=9-cinnost;
+      inc(cinnost);
+    end;
+  5:begin
+      delay:=random(5)+2;
+      inc(cinnost);
+    end;
+  6:if delay>0 then dec(delay)
+    else inc(cinnost);
+  7:begin
+      afaze:=0;
+      inc(cinnost);
+      delay:=random(100)+10;
+    end;
+  8:if delay>0 then dec(delay)
+    else 
+      begin
+        inc(cinnost);
+        delay:=random(60)+20;
+      end;
+  9:begin
+      if odd(count) then afaze:=random(4)+1;
+      if delay>0 then dec(delay)
+      else cinnost:=7;
+    end;
+ 20..23:
+    begin
+      afaze:=cinnost-14;
+      inc(cinnost);
+    end;
+ 24:cinnost:=0;
+end;
+
+
+
+   
+
+      
+            
+      
+ 
+     
+  
+4 List
+0 256 257 258
+EOF

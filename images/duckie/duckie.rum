@@ -1,0 +1,220 @@
+REDIT FILE from 2.3.1998 12:21:17
+Odpadky
+Odpadky
+0 0 5 10 5 0 0 0 0 0  Params
+32768 Grid
+27 21
+Odpadky-p.bmp
+0 obsolete
+0 Ext
+Odpadky-w.bmp
+65280 Mask
+0 Ext
+333 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 4864 5120 1 257 513 769
+1025 1281 1537 1793 2049 2305 2561 2817 3073 3329
+4609 4865 5121 2 258 514 770 1026 1282 1538
+1794 2050 2306 2562 2818 3074 3330 4610 4866 5122
+3 259 515 771 1027 1283 1539 1795 2051 2307
+2563 2819 3075 3331 4355 4611 4867 5123 4 260
+516 772 1028 1284 1540 1796 2052 2308 2564 2820
+3076 3332 4100 4356 4612 4868 5124 5 261 517
+773 1029 3333 4101 4357 4613 4869 5125 6 262
+518 774 1030 3334 4102 4358 4614 4870 5126 519
+775 1031 3335 4103 4359 4615 4871 5127 3336 4104
+4360 4616 4872 5128 521 777 1033 4105 4361 4617
+4873 5129 522 778 1034 4106 4362 4618 4874 5130
+779 1035 4107 4363 4619 4875 5131 12 3084 3340
+3596 3852 4108 4364 4620 4876 5132 13 269 525
+781 1037 4109 4365 4621 4877 5133 14 270 526
+782 4110 4366 4622 4878 5134 15 271 527 783
+1039 4111 4367 4623 4879 5135 16 272 528 784
+1040 4112 4368 4624 4880 5136 17 273 529 785
+1041 3345 4113 4369 4625 4881 5137 18 274 530
+3346 4114 4370 4626 4882 5138 19 275 531 787
+1043 3347 4115 4371 4627 4883 5139 20 276 532
+788 1044 3348 4116 4372 4628 4884 5140 21 277
+533 789 1045 3349 4117 4373 4629 4885 5141 22
+278 534 790 1046 1302 1558 1814 2070 2326 2582
+2838 3094 3350 4118 4374 4630 4886 5142 23 279
+535 791 1047 1303 1559 1815 2071 2327 2583 2839
+3095 3351 4375 4631 4887 5143 24 280 536 792
+1048 1304 1560 1816 2072 2328 2584 2840 3096 3352
+4632 4888 5144 25 281 537 793 1049 1305 1561
+1817 2073 2329 2585 2841 3097 4633 4889 5145 26
+282 538 794 1050 1306 1562 1818 2074 2330 2586
+4378 4634 4890 5146
+10 Prg1
+name room
+var osneh
+var okach
+var okoh
+var oanim
+ini
+osneh:=0;
+okach:=0;
+okoh:=0;
+oanim:=0;
+40 Prg2
+if zije[mala]and zije[velka] and no_dialog then
+  begin
+    if (oanim=1) then
+      begin
+        oanim:=3;
+        addm(random(50)+20,'odp-m-predmet');
+        case random(4) of
+          0:addv(5,'odp-v-pozadi');
+          1:addv(5,'odp-v-pohni');
+       2..3:begin
+              addv(5,'odp-v-coja');
+              addset(velkar.xichtit,1);
+              adddel(random(20)+15);
+              addset(velkar.xichtit,0);
+              addv(3,'odp-v-nestacim');
+            end;
+        end;
+      end
+    else if (osneh=0)and(natoceni[velka]=smer_vlevo)and(natoceni[mala]=smer_vlevo)
+       and(random(1000)<2) then
+      begin
+        addv(5,'odp-v-snehulak');
+        addm(random(10),'odp-m-blaznis');
+        osneh:=1;
+        if (oanim=0)and(random(100)<60)then oanim:=1;
+      end
+    else if (okoh=0)and(abs(xdist(@kohoutek,@velkar))<=1)and(random(1000)<3) then
+      begin
+        addm(10,'odp-m-kohout');
+        addv(10,'odp-v-vtip');
+        okoh:=1;
+      end
+    else if (okach=0)and(random(1000)<1) then
+      begin
+        addv(100,'odp-v-kachna');
+        addm(5,'odp-m-zda'+chr(48+random(2)));
+        okach:=1;
+        if (oanim=0)and(random(100)<90)then oanim:=1;
+      end;
+  end;
+12 Items
+9 12 3 1
+Odpadky-little.bmp
+65280 Mask
+3 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+16 8 4 2
+Odpadky-big.bmp
+65280 Mask
+4 Kind
+0 Ext
+4 Prg1
+name velkar
+var xichtit
+ini
+xichtit:=0;
+6 Prg2
+if xichtit=1 then 
+  begin
+    xicht[velka]:=random(hl_max+1);
+  end
+else
+  xicht[velka]:=0;
+8 List
+0 256 1 257 2 258 3 259
+11 10 2 2
+roura m.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 257
+8 10 3 3
+roura st.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+0 256 512 1 2
+5 12 2 1
+cola.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+8 9 4 1
+prkno.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 1 2 3
+11 6 2 3
+kohoutek.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name kohoutek
+0 Prg2
+4 List
+256 512 1 257
+15 10 4 3
+kachna.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+0 1 257 513 514 259 515
+14 9 2 1
+cola.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+14 6 6 2
+roura v.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 1 2 3 4 5 261
+19 7 3 6
+Odpadky-11-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+9 List
+1024 1280 1 257 1025 258 514 770 1026
+8 1 2 1
+cola.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+EOF

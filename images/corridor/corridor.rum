@@ -1,0 +1,611 @@
+REDIT FILE from 20.3.1998 17:34:34
+Chodba
+Chodba
+0 1 5 10 5 0 0 0 0 0  Params
+16777215 Grid
+34 37
+chodba-p2.BMP
+0 obsolete
+0 Ext
+chodba-okoli.BMP
+65280 Mask
+0 Ext
+437 WlList
+0 256 1536 1792 2048 2304 2560 2816 3072
+3328 3584 3840 4096 4352 4608 4864 5120 5376 5632
+5888 6144 6400 6656 6912 7168 7424 7680 7936 8192
+8448 8704 8960 9216 1 257 1537 1793 2049 2305
+2561 2817 3073 3329 3585 3841 4097 4353 4609 4865
+5121 5377 5633 5889 6145 6401 6657 6913 7169 7425
+7681 7937 8193 8449 8705 8961 9217 2 258 1538
+1794 2050 2306 2562 2818 3074 3330 3586 3842 4098
+4354 4610 4866 5122 5378 5634 5890 6146 6402 6658
+6914 7170 7426 7682 7938 8194 8450 8706 8962 9218
+2051 9219 4 260 1796 2052 3844 4100 9220 5
+261 1797 3845 4101 9221 6 262 1798 3846 4102
+9222 7 263 1799 3847 4103 9223 8 264 1544
+1800 2056 3848 4104 4872 5896 9224 9 265 1545
+2825 3849 4105 4873 5897 9225 10 1290 1546 1802
+2058 2826 3850 4106 4874 5898 9226 11 267 1291
+1547 1803 2059 2827 3851 4107 4875 5899 6155 6411
+6667 9227 12 268 1292 1548 1804 2060 2828 3852
+4108 4876 5900 8972 9228 13 269 1549 1805 2061
+2829 3853 4109 5901 8717 8973 9229 14 270 2830
+3854 4110 4878 8462 8718 8974 9230 15 271 1295
+1551 1807 2063 2575 2831 3855 4111 5903 16 272
+528 4880 5136 5904 17 273 529 4881 5137 5905
+18 274 2834 3858 4114 5906 19 275 2835 3859
+4115 4883 8467 8723 8979 9235 20 276 1556 1812
+2068 2836 3860 4116 5908 8724 8980 9236 21 277
+1301 1557 1813 2069 2837 3861 4117 4885 5909 6165
+8981 9237 22 278 1302 1558 1814 2070 2838 3862
+4118 4886 5910 9238 23 1303 1559 1815 2071 2839
+3863 4119 4887 5911 9239 24 280 1560 2840 3864
+4120 4888 5912 9240 25 281 1561 1817 2073 3865
+4121 4889 5913 9241 26 282 1818 3866 4122 4890
+9242 27 283 1819 4891 9243 28 284 1820 4892
+9244 29 285 1821 2077 4893 9245 2078 9246 31
+287 1567 1823 2079 2335 2591 2847 3103 3359 3615
+3871 4127 4383 4639 4895 5151 5407 5663 5919 6175
+6431 6687 6943 7199 7455 7711 7967 8223 8479 8735
+8991 9247 32 288 1568 1824 2080 2336 2592 2848
+3104 3360 3616 3872 4128 4384 4640 4896 5152 5408
+5664 5920 6176 6432 6688 6944 7200 7456 7712 7968
+8224 8480 8736 8992 9248 33 289 1569 1825 2081
+2337 2593 2849 3105 3361 3617 3873 4129 4385 4641
+4897 5153 5409 5665 5921 6177 6433 6689 6945 7201
+7457 7713 7969 8225 8481 8737 8993 9249
+17 Prg1
+name room
+var bliknul
+var tma
+var oci
+var last
+var rpesmala
+var rpesvelka
+var nerusit
+var cpsa
+var pesmluvi
+ini
+bliknul:=0;
+last:=random(2);
+rpesmala:=0;
+rpesvelka:=0;
+nerusit:=0;
+pesmluvi:=0;
+73 Prg2
+if no_dialog and zije[mala] and zije[velka] then
+  begin
+    if (gspec=2)and(tma>0) then dec(tma);
+    if gspec<>2 then tma:=random(100)+50;
+    if bliknul=1 then 
+      begin
+        inc(bliknul);
+        addm(random(10)+10,'ch-m-rozsvit'+chr(random(3)+48));
+        addv(random(15)+2,'ch-v-pockej'+chr(random(3)+48));
+      end
+    else if bliknul=3 then
+      begin
+        inc(bliknul);
+        addm(random(10),'ch-m-blik'+chr(random(2)+49));
+        oci:=bliknul+2;
+      end
+    else if (oci<bliknul)and(oci>0) then
+      begin
+        if random(100)<40 then 
+          begin
+            oci:=0;
+            addm(3,'ch-m-blik0');
+          end
+        else
+          oci:=bliknul;
+      end
+    else if (tma=0) then
+      begin
+        tma:=random(300)+100;
+        if random(100)<80 then last:=1-last;
+        case last of
+          0:begin
+              addv(0,'ch-v-halo'+chr(random(3)+48));
+              addm(random(20),'ch-m-tady'+chr(random(3)+48));
+            end;
+          1:begin
+              addm(0,'ch-m-bojim'+chr(random(3)+48));
+              addv(random(20),'ch-v-neboj'+chr(random(3)+48));
+            end;
+        end;
+      end
+    else if (rpesvelka=0)and(gstav<>2) and(velkar.Y>=20)and(random(100)<2) then
+      begin
+        rpesvelka:=1;
+        nerusit:=1;
+        pom1:=random(4)+48;
+        addv(10,'ch-v-robopes');
+        addm(random(5),'ch-m-ten');
+        addv(random(10),'ch-v-zapada');
+        addm(5+random(10),'ch-m-odpoved'+chr(pom1));
+        if random(100)<70 then
+          begin
+            addv(random(20)+10,'ch-v-smysl');
+            if random(100)<80 then addm(random(10)+5,'ch-m-vubec');
+          end;
+        cpsa:=random(2);
+        addd(random(20),'ch-r-nevsimej'+chr(random(3)+48),10,pesmluvi);
+        addd(random(20),'ch-r-hracka',10,pesmluvi);
+        addd(10+random(20),'ch-r-ikdyz'+chr(random(4)+48),10,pesmluvi);
+        addd(10+random(20),'ch-r-anavic'+chr(pom1),10,pesmluvi);
+        addset(nerusit,0);
+      end
+    else if (rpesmala=0)
+         and(malar.Y>=28)and((malar.X<=11)or(malar.X>=20))
+         and(random(100)<3) then
+      begin
+        if (rpesvelka=1)and(random(3)<2) then
+          addv(2,'ch-v-pozor')
+        else
+          addm(2,'ch-m-doufam');
+        rpesmala:=1;
+      end;
+  end;
+27 Items
+22 30 9 6
+robright1.BMP
+65280 Mask
+1 Kind
+8 Ext
+4 Prg1
+name rightpes
+var faze
+ini
+faze:=0;
+16 Prg2
+if faze=2 then faze:=0
+          else inc(faze);
+
+if gspec=2 then 
+  begin
+    afaze:=faze+3;
+    spec:=2;
+  end
+else 
+  begin
+    afaze:=faze;
+    spec:=0;
+    if (room.pesmluvi<>0)and(room.cpsa=1)and(random(2)=0) then
+      afaze:=afaze+6;
+  end;
+  
+30 List
+0 256 512 1280 1 513 769 1025 1281
+770 1026 771 1027 772 1028 261 773 1029 262
+518 774 1030 263 519 775 1031 1287 520 776
+1288
+3 30 9 6
+robleft1.BMP
+65280 Mask
+1 Kind
+8 Ext
+4 Prg1
+name leftpes
+var faze
+ini
+faze:=0;
+17 Prg2
+if faze=2 then faze:=0
+          else inc(faze);
+
+if gspec=2 then 
+  begin
+    afaze:=faze+3;
+    spec:=2;
+  end
+else 
+  begin
+    afaze:=faze;
+    spec:=0;
+    if (room.pesmluvi<>0)and(room.cpsa=0)and(random(2)=0) then
+      afaze:=afaze+6;
+  end;
+  
+  
+30 List
+512 768 1280 257 513 769 1025 1281 258
+514 770 1026 259 771 1027 772 1028 773 1029
+774 1030 7 519 775 1031 1287 8 264 520
+1288
+15 3 2 2
+vypinac1.BMP
+65280 Mask
+1 Kind
+2 Ext
+6 Prg1
+name vypinac
+var stav
+ini 
+stav:=0;
+gspec:=0;
+spec:=2;
+29 Prg2
+case stav of
+  0:if ((Dir=dir_left)or(Dir=dir_right))and(gfaze=0) then
+      begin
+        inc(stav);
+        afaze:=1;
+        Talk('ch-x-click1',200);
+      end;
+  1:begin
+      inc(stav);
+      afaze:=2;
+      gspec:=2;
+      ToRecord('x');
+      ToRecord('2');
+      inc(room.bliknul);
+      if room.nerusit=0 then zrus_dialogy;
+    end;
+  2:if ((Dir=dir_left)or(Dir=dir_right))and(gfaze=0) then
+      begin
+        stav:=0;
+        afaze:=0;
+        gspec:=0;
+        Talk('ch-x-click2',200);
+        ToRecord('x');
+        ToRecord('0');
+        inc(room.bliknul);
+        if room.nerusit=0 then zrus_dialogy;
+      end;
+end;
+   
+4 List
+0 256 1 257
+27 6 3 1
+mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+4 5 4 2
+Chodba-3-Tmp.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+3 0 1 5
+Chodba-4-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+0 256 512 768 1024
+30 0 1 5
+Chodba-5-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+0 256 512 768 1024
+10 1 1 1
+Chodba-6-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+10 4 1 1
+Chodba-7-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+23 1 1 1
+Chodba-8-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+23 4 1 1
+Chodba-9-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+23 2 1 2
+dvere-b1.bmp
+16711935 Mask
+1 Kind
+3 Ext
+6 Prg1
+name dvere1
+var faze
+var pocit
+ini
+faze:=0;
+pocit:=2;
+16 Prg2
+if pocit>0 then dec(pocit)
+else begin
+      pocit:=5;
+      faze:=1-faze;
+     end;
+
+if gspec=2 then 
+  begin
+    afaze:=faze+2;
+    spec:=2;
+  end
+else 
+  begin
+    afaze:=faze;
+    spec:=0;
+  end;
+2 List
+0 256
+9 9 1 2
+dvere-b1.bmp
+16711935 Mask
+1 Kind
+3 Ext
+6 Prg1
+name dvere2
+var faze
+var pocit
+ini
+faze:=0;
+pocit:=1;
+16 Prg2
+if pocit>0 then dec(pocit)
+else begin
+      pocit:=1;
+      faze:=1-faze;
+     end;
+
+if gspec=2 then 
+  begin
+    afaze:=faze+2;
+    spec:=2;
+  end
+else 
+  begin
+    afaze:=faze;
+    spec:=0;
+  end;
+2 List
+0 256
+10 2 1 2
+dvere-a1.bmp
+16711935 Mask
+1 Kind
+3 Ext
+6 Prg1
+name dvere3
+var faze
+var pocit
+ini
+faze:=0;
+pocit:=2;
+16 Prg2
+if pocit>0 then dec(pocit)
+else begin
+      pocit:=4;
+      faze:=1-faze;
+     end;
+
+if gspec=2 then 
+  begin
+    afaze:=faze+2;
+    spec:=2;
+  end
+else 
+  begin
+    afaze:=faze;
+    spec:=0;
+  end;
+2 List
+0 256
+24 9 1 2
+dvere-a1.bmp
+16711935 Mask
+1 Kind
+3 Ext
+6 Prg1
+name dvere4
+var faze
+var pocit
+ini
+faze:=0;
+pocit:=1;
+16 Prg2
+if pocit>0 then dec(pocit)
+else begin
+      pocit:=2;
+      faze:=1-faze;
+     end;
+
+if gspec=2 then 
+  begin
+    afaze:=faze+2;
+    spec:=2;
+  end
+else 
+  begin
+    afaze:=faze;
+    spec:=0;
+  end;
+2 List
+0 256
+9 7 1 2
+Chodba-14-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+24 7 1 2
+Chodba-15-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+25 22 5 1
+poklop1.BMP
+16711935 Mask
+1 Kind
+3 Ext
+6 Prg1
+name poklop2
+var faze
+var pocit
+ini
+faze:=1;
+pocit:=1;
+16 Prg2
+if pocit>0 then dec(pocit)
+else begin
+      pocit:=3;
+      faze:=1-faze;
+     end;
+
+if gspec=2 then 
+  begin
+    afaze:=faze+2;
+    spec:=2;
+  end
+else 
+  begin
+    afaze:=faze;
+    spec:=0;
+  end;
+5 List
+0 1 2 3 4
+4 22 5 1
+poklop1.BMP
+16711935 Mask
+1 Kind
+3 Ext
+6 Prg1
+name poklop1
+var faze
+var pocit
+ini
+faze:=0;
+pocit:=1;
+16 Prg2
+if pocit>0 then dec(pocit)
+else begin
+      pocit:=3;
+      faze:=1-faze;
+     end;
+
+if gspec=2 then 
+  begin
+    afaze:=faze+2;
+    spec:=2;
+  end
+else 
+  begin
+    afaze:=faze;
+    spec:=0;
+  end;
+5 List
+0 1 2 3 4
+12 32 10 1
+Chodba-20-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+0 1 2 3 4 5 6 7 8
+9
+14 26 1 3
+Chodba-21-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+14 29 1 3
+Chodba-22-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+19 29 1 3
+Chodba-23-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+19 26 1 3
+Chodba-24-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+19 25 1 1
+Chodba-25-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+14 25 1 1
+Chodba-26-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+12 34 1 1
+matka A.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+EOF

@@ -1,0 +1,521 @@
+REDIT FILE from 6.3.1998 22:30:09
+Bottles
+Láhve
+1 1 5 10 5 0 0 0 0 0  Params
+255 Grid
+48 39
+bottles-p.BMP
+0 obsolete
+0 Ext
+bottles-wall.BMP
+65280 Mask
+0 Ext
+575 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 6144 6400 6656 6912 7168
+7424 7680 7936 8192 8448 8704 9728 1 257 513
+769 1025 1281 1537 1793 2049 2305 2561 2817 3073
+3329 3585 3841 4097 4353 4609 4865 5121 5377 5633
+5889 6145 6401 6657 6913 7169 7425 7681 7937 8193
+8449 8705 9729 2 258 514 770 1026 1282 1538
+1794 2050 2306 2562 2818 3074 3330 3586 3842 4098
+4354 4610 4866 5122 5378 5634 5890 6146 6402 6658
+6914 7170 7426 7682 7938 8194 8450 8706 9730 3
+259 515 771 1027 1283 1539 1795 2051 2307 2563
+2819 3075 3331 3587 3843 4099 4355 4611 4867 5123
+5379 5635 5891 6147 6403 6659 6915 7171 8195 8451
+8707 9475 9731 4 260 516 772 1028 1284 1540
+1796 2052 2308 2564 2820 3076 3332 3588 3844 4356
+4612 4868 5124 5380 5892 6148 6404 6660 6916 7172
+8196 8452 8708 9732 5 261 517 773 8197 8453
+8709 9733 6 262 518 774 1286 8198 8454 8710
+9734 7 263 519 775 1287 8199 9735 8 264
+520 776 1288 8200 9736 9 265 521 777 1289
+9737 10 266 522 778 8714 9738 11 267 523
+779 3083 3339 3595 3851 4107 4363 4619 4875 5387
+5643 5899 6155 6411 6667 8203 8459 8715 9739 12
+268 524 780 2572 2828 8204 8460 8716 9740 13
+269 2573 8973 9741 14 270 782 2574 8206 8462
+8718 9742 15 271 527 783 2575 8207 8463 8719
+9743 16 272 528 784 2576 8208 8464 8720 9744
+17 273 529 785 2577 3345 3601 8209 9745 18
+274 530 786 2578 3346 3602 8210 9746 19 275
+531 787 2579 8211 9747 20 276 532 788 2580
+9748 21 277 533 789 9749 22 278 534 2582
+9750 23 279 535 2583 7191 8215 9751 24 280
+2584 6680 8216 9752 25 281 2585 6169 8217 8729
+9753 26 2586 7706 8218 8474 8730 9754 27 2587
+7707 8219 8475 8731 9755 28 2588 5660 8220 8476
+8732 9756 29 285 2589 5149 8221 8477 8733 9757
+30 286 2590 4638 8222 8478 8734 9758 31 287
+543 2591 8223 8479 8735 9759 32 288 544 2592
+8736 9760 33 289 545 801 2593 8737 9761 34
+802 9762 35 547 803 1059 1315 1571 1827 2083
+2339 2595 9763 36 2340 2596 8740 9764 37 8741
+9765 38 2342 2598 2854 3110 3366 3622 3878 4902
+5926 6182 6438 6694 6950 7206 7462 7718 7974 8230
+8486 8742 9766 39 2343 2599 2855 3111 3367 3623
+3879 4903 5927 6183 6439 6695 6951 7207 7463 7719
+7975 8231 8487 8743 9767 40 9768 41 9769 42
+9770 43 9771 44 2348 2604 2860 3116 3884 4140
+4396 4652 4908 5164 5420 5676 5932 6188 6444 7212
+7468 7724 7980 8236 8492 8748 9772 45 9773 46
+302 558 814 1070 1326 1582 1838 2094 2350 2606
+2862 3118 3374 3630 3886 4142 4398 4654 4910 5166
+5422 5678 5934 6190 6446 6702 6958 7214 7470 7726
+7982 8238 8494 8750 9006 9262 9774 47 303 559
+815 1071 1327 1583 1839 2095 2351 2607 2863 3119
+3375 3631 3887 4143 4399 4655 4911 5167 5423 5679
+5935 6191 6447 6703 6959 7215 7471 7727 7983 8239
+8495 8751 9007 9263 9519 9775
+17 Prg1
+name room
+var uvod
+var olebce
+var odrackovi
+var osklebakovi
+var osklebu
+var opadu
+ini
+olebce:=0;
+odrackovi:=0;
+if (pokus>1) and (random(100)<50) then
+  odrackovi:=1;
+osklebakovi:=random(2000)+500;
+osklebu:=0;
+opadu:=0;
+if pokus=1 then uvod:=1
+else uvod:=random(3);
+64 Prg2
+if no_dialog and zije[mala] and zije[velka] then
+  begin
+    pom1:=0;
+    for pom2:=1 to ItemCount do
+      if pom2<>@konik then
+        with Items[pom2]^ do
+          if (List.num=2) and (dir=dir_down) and (Y>=10) then
+            inc(pom1);
+    if osklebakovi>0 then dec(osklebakovi);
+
+    if (uvod=1) then
+      begin
+        uvod:=0;
+        addm(random(40)+20,'bot-m-vidis');
+        addv(random(10),'bot-v-uveznen'+chr(random(2)+48));
+        addm(random(50)+10,'bot-m-zajem');
+        addv(random(10),'bot-v-podivat');
+      end
+    else if (uvod=2)and(malar.Y<=9) then
+      begin
+        uvod:=0;
+        addm(random(40)+20,'bot-m-vidis');
+        addv(random(10),'bot-v-uveznen'+chr(random(2)+48));
+      end
+    else if (olebce=0)and (dist(@malar,@lebzna)<4) then
+      begin
+        olebce:=1;
+        case random(2) of
+          0:addm(5,'bot-m-lebka');
+          1:addm(5,'bot-m-vidim');
+        end;
+      end
+    else if (odrackovi=0) and look_at(@malar,@zlaty) and
+      (dist(@malar,@zlaty)<4) and (random(100)<6) then
+      begin
+        odrackovi:=1;
+        addm(5,'bot-m-zivy');
+      end
+    else if osklebakovi=0 then
+      begin
+        addv(50,'bot-v-vsim');
+        addm(random(20),'bot-m-vypada');
+        addset(sklebak.cinnost,10);
+        osklebakovi:=-1;
+      end
+    else if (osklebu=0) and playing(110) then
+      osklebu:=1
+    else if (osklebu=1)and not playing(110) then
+      if dist(@malar,@sklebak)<3 then
+        begin
+          osklebu:=2;
+          addm(10,'bot-m-ble');
+          if random(100)<60 then 
+            addv(random(10)+5,'bot-v-totem');
+        end
+      else 
+        osklebu:=0
+    else if (opadu=0)and(pom1=1)and(random(100)<5) then
+      begin
+        opadu:=1;
+        addm(10,'bot-m-padaji');
+        addv(random(20),'bot-v-vsak'+chr(random(2)+48));
+      end;  
+  end;
+35 Items
+3 29 3 1
+Bottles-little.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+3 30 4 2
+Bottles-big.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+8 27 2 5
+Bottles-3-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 768 1024 1
+27 8 1 2
+amfora cervena.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+28 8 1 2
+amfora zelena.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+28 4 1 2
+vaza.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+12 15 1 3
+vazav.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+12 29 1 3
+vazavh.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+12 11 9 19
+drak.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+37 List
+1792 3584 513 1793 2817 3073 3329 3585 3841
+4097 4353 4609 2 258 514 770 1026 1794 2306
+2562 2818 259 1027 1283 1539 1795 2307 2819 260
+1796 2052 2308 5 261 262 263 264
+34 15 6 8
+totem0.BMP
+65280 Mask
+1 Kind
+5 Ext
+4 Prg1
+name sklebak
+var cinnost
+ini
+cinnost:=0;
+31 Prg2
+case cinnost of
+  0:begin
+      afaze:=0;
+      if random(1000)<5 then
+        case random(2) of
+          0:cinnost:=10;
+          1:cinnost:=20;
+        end;
+    end;
+ 10:begin
+      setanim(this,'a2a3a4R');
+      snd('bot-x-smich',110);
+      inc(cinnost);
+    end;
+ 11:begin
+      goanim(this);
+      if not talking(110) then cinnost:=100;
+    end;
+ 20:begin
+      afaze:=5;
+      snd('bot-x-gr'+chr(random(2)+48),110);
+      inc(cinnost);
+    end;
+ 21:if not talking(110) then cinnost:=100;
+100:begin
+      afaze:=0;
+      inc(cinnost);
+    end;
+120:cinnost:=0;
+else inc(cinnost);
+end;
+24 List
+512 768 513 769 2 258 514 770 1026
+1282 1538 1794 3 259 515 771 1027 1283 1539
+1795 516 772 517 773
+30 35 5 2
+drak m0.BMP
+65280 Mask
+1 Kind
+1 Ext
+3 Prg1
+name zlaty
+ini
+setanim(@zlaty,'a0d2a1d2R');
+1 Prg2
+goanim(this);
+6 List
+256 257 258 3 259 4
+44 26 1 2
+vaza cervena.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+9 4 1 1
+hlavicka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+39 2 1 7
+sloupek.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+0 256 512 768 1024 1280 1536
+11 20 2 1
+Bottles-35-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+26 8 1 2
+konik1.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name konik
+0 Prg2
+2 List
+0 256
+25 8 1 2
+amfora zelena.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+24 8 1 2
+vaza.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+25 6 1 2
+amfora cervena.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+26 6 1 2
+vaza.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+27 2 1 2
+vaza.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+27 6 1 2
+amfora zelena.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+26 4 1 2
+amfora zelena.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+29 6 1 2
+amfora zelena.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+6 4 1 1
+hlavicka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+8 4 1 1
+hlavicka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+7 4 1 1
+hlavicka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+35 1 1 1
+hlavicka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+44 14 1 1
+hlavicka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+32 37 1 1
+hlavicka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+42 2 3 3
+skull0.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name lebzna
+2 Prg2
+if odd(count) then
+  afaze:=(afaze+1)mod 4;
+9 List
+0 256 512 1 257 513 2 258 514
+27 4 1 2
+amfora cervena.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+29 8 1 2
+amfora.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+28 6 1 2
+amfora.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+30 8 1 2
+vaza cervena.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+EOF

@@ -1,0 +1,284 @@
+REDIT FILE from 23.2.1998 19:06:41
+dela
+Dìla
+1 0 5 10 5 0 0 0 0 0  Params
+16777215 Grid
+30 27
+dela-p.BMP
+0 obsolete
+0 Ext
+dela-w.bmp
+65280 Mask
+0 Ext
+278 WlList
+0 256 512 768 1024 1280 2304 2560 2816
+3072 4096 4352 4608 4864 5120 5376 5632 5888 6144
+6400 6656 1 257 513 769 1025 1281 2305 2561
+2817 3073 4097 4353 4609 4865 5121 5377 5633 5889
+6145 6401 6657 2 258 2562 4354 4610 4866 5122
+5378 5634 5890 6146 6402 6658 3 259 2563 4355
+5635 5891 6147 6403 6659 4 260 2564 4356 5892
+6148 6404 6660 5 261 2565 4357 6149 6405 6661
+6 262 2566 4358 6150 6406 6662 7 263 2567
+4359 6151 6407 6663 8 264 2568 4360 6152 6408
+6664 9 265 2569 4361 6153 6409 6665 10 266
+6154 6410 6666 11 267 6155 6411 6667 12 268
+6156 6412 6668 13 269 4621 6157 6413 6669 14
+270 4622 6158 6414 6670 15 271 3599 4879 6159
+6415 6671 16 272 3600 4880 6160 6416 6672 17
+273 3345 5137 6161 6417 6673 18 274 3346 5138
+6162 6418 6674 19 275 3091 5395 6163 6419 6675
+20 276 3092 4372 5396 6164 6420 6676 21 277
+2837 4373 6165 6421 6677 22 278 2838 4374 6166
+6422 6678 23 279 2583 4375 6167 6423 6679 24
+280 2584 4376 6168 6424 6680 25 281 2585 4377
+5913 6169 6425 6681 26 282 2586 4378 5402 5658
+5914 6170 6426 6682 27 283 2587 4379 4635 4891
+5147 5403 5659 5915 6171 6427 6683 28 284 540
+796 1052 1308 2332 2588 2844 3100 4124 4380 4636
+4892 5148 5404 5660 5916 6172 6428 6684 29 285
+541 797 1053 1309 2333 2589 2845 3101 4125 4381
+4637 4893 5149 5405 5661 5917 6173 6429 6685
+11 Prg1
+name room
+var uvod
+var tuseni
+var pocitadlo
+var jo 
+ini
+if random(100)<50 then uvod:=0
+  else uvod:=1;
+tuseni:=0;
+jo:=0;
+pocitadlo:=random(500)+500;
+36 Prg2
+if zije[mala] and zije[velka] and no_dialog then
+  begin
+    case uvod of
+      0: begin
+           addv(20+random(30),'del-v-dve');
+           addm(random(5),'del-m-voda');     
+           uvod:=2;
+         end;
+      1: begin
+           addm(20+random(30),'del-m-ci');     
+           addv(random(5),'del-v-splet');
+           uvod:=2;
+         end;
+    end; 
+    if (pocitadlo<1) and (tuseni=0) then 
+      begin
+         addv(random(5),'del-v-mec');
+         addm(random(5),'del-m-tus');
+         tuseni:=1;
+      end; 
+    pocitadlo:=pocitadlo-1;
+  end
+else
+  if zije[mala] and venku[velka] and (jo=0)
+     and ((malar.x<2) or (malar.x>25))    
+    then
+    begin
+      busy[mala]:=1;
+      case random(2) of
+        0: addm(0,'del-m-jedn0');
+        1: addm(0,'del-m-jedn1');
+      end;
+      addm(random(5),'del-m-jedn2');
+      jo:=1;
+      addset(busy[mala],0);     
+    end;
+18 Items
+3 15 2 2
+ocel-1.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+2 2 6 3
+delo1.BMP
+65280 Mask
+1 Kind
+2 Ext
+1 Prg1
+name delo1
+5 Prg2
+case (count+1) mod 4 of
+  0,2:afaze:=2;
+  1:afaze:=0;
+  3:afaze:=1;
+end;
+11 List
+0 256 1 257 2 3 4 260 516
+261 517
+25 15 2 2
+ocel-1.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+4 8 2 2
+ocel-1.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+24 8 2 2
+ocel-1.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+22 2 6 3
+deloRev1.BMP
+65280 Mask
+1 Kind
+2 Ext
+1 Prg1
+name delo3
+5 Prg2
+case count mod 4 of
+  0,2:afaze:=2;
+  1:afaze:=0;
+  3:afaze:=1;
+end;
+11 List
+256 512 1 257 513 2 3 4 260
+5 261
+11 21 2 3
+sud.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 1 257 513
+16 4 2 3
+sud.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 1 257 513
+12 16 7 3
+mec.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+9 List
+256 257 258 259 4 260 516 261 262
+14 7 3 1
+mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+17 7 4 2
+velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+9 13 2 4
+sekera.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+0 256 512 768 1
+1 13 6 3
+delo1.BMP
+65280 Mask
+1 Kind
+2 Ext
+1 Prg1
+name delo2
+5 Prg2
+case (count+3) mod 4 of
+  0,2:afaze:=2;
+  1:afaze:=0;
+  3:afaze:=1;
+end;
+11 List
+0 256 1 257 2 3 4 260 516
+261 517
+23 13 6 3
+deloRev1.BMP
+65280 Mask
+1 Kind
+2 Ext
+1 Prg1
+name delo4
+5 Prg2
+case (count+1) mod 4 of
+  0,2:afaze:=2;
+  1:afaze:=0;
+  3:afaze:=1;
+end;
+11 List
+256 512 1 257 513 2 3 4 260
+5 261
+9 23 1 1
+kouleA.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+10 23 1 1
+kouleB.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+11 20 1 1
+kouleC.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+8 9 1 1
+kouleD.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+EOF

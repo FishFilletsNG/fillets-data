@@ -1,0 +1,585 @@
+REDIT FILE from 7.4.1998 12:29:14
+kankan
+Kankán
+0 0 5 10 5 0 0 0 0 0  Params
+16776960 Grid
+41 35
+kankan-p.BMP
+0 obsolete
+0 Ext
+kankan-w.bmp
+16711935 Mask
+0 Ext
+640 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 6144 6400 6656 7680 7936
+8192 8448 8704 1 257 513 769 1025 1281 1537
+3073 3329 3585 3841 4097 4353 4609 4865 5121 5377
+5633 5889 6145 6401 6657 7937 8193 8449 8705 2
+258 514 770 1026 1282 1538 3074 3330 7938 8194
+8450 8706 3 259 515 771 1027 1283 1539 3075
+3331 7939 8195 8451 8707 4 260 516 772 1028
+1284 1540 3332 7940 8196 8452 8708 5 261 517
+773 1029 1285 1541 3333 6149 6405 6661 7941 8197
+8453 8709 6 262 518 774 1030 1286 1542 2310
+3334 4102 4358 5638 6150 6406 6662 7942 8198 8454
+8710 7 263 519 775 1031 1287 1543 2311 3335
+4103 4359 4871 5383 5639 6151 6407 6663 7943 8199
+8455 8711 8 264 520 776 1032 1288 1544 2568
+4360 4872 5384 5640 6664 6920 7176 7944 8200 8456
+8712 9 265 521 777 1033 1289 1545 2569 3337
+4105 4361 4873 5385 5641 6665 6921 7177 7945 8201
+8457 8713 10 266 522 778 1034 2314 3338 4106
+4362 4874 5386 5642 6666 6922 7178 7946 8202 8458
+8714 11 267 523 779 1035 1291 3339 4107 4875
+5387 5643 6667 6923 7179 7947 8203 8459 8715 12
+268 524 780 1036 1292 3340 4108 4876 6668 6924
+7948 8204 8460 8716 13 269 525 781 1037 1293
+3341 4877 6669 6925 7949 8205 8461 8717 14 270
+526 782 1038 1294 4878 6670 7950 8206 8462 8718
+15 271 527 783 1039 1295 4879 7951 8207 8463
+8719 16 272 528 784 1040 2320 4880 6928 7952
+8208 8464 8720 17 2321 4881 5649 6673 6929 7953
+8209 8465 8721 18 2322 3090 3346 3602 4370 4882
+5650 5906 6674 6930 7954 8210 8466 8722 19 4883
+5651 5907 6931 7955 8211 8467 8723 20 2324 3092
+3348 3604 4884 5652 5908 6932 8468 8724 21 789
+1045 1301 2325 3093 3349 3605 4885 6933 8725 22
+790 1046 1302 3606 4886 6934 7958 8214 8470 8726
+23 791 1047 1303 2327 3095 3351 3607 5655 5911
+6935 7959 8215 8471 8727 24 792 1048 1304 2328
+3096 3352 3608 5656 5912 6936 7960 8216 8472 8728
+25 793 1049 2329 3609 5657 5913 6937 7961 8217
+8473 8729 26 794 1050 2330 3610 4890 5658 5914
+6938 7962 8218 8474 8730 27 795 1051 2331 3611
+3867 4635 6683 6939 7963 8219 8475 8731 28 796
+1052 2332 4636 8220 8476 8732 29 797 2333 4125
+4637 5661 7965 8221 8477 8733 30 798 1054 1310
+2334 5662 5918 7966 8222 8478 8734 31 799 1055
+1311 2335 5663 5919 7967 8223 8479 8735 32 800
+1056 1312 2336 5664 5920 7968 8224 8480 8736 33
+801 1057 1313 2337 5665 5921 6177 6433 6689 6945
+7457 7713 7969 8225 8481 8737 34 802 1058 1314
+3618 3874 4130 4386 5666 5922 6178 6434 6690 6946
+7202 7458 7714 7970 8226 8482 8738 35 5667 5923
+6179 6435 6691 6947 7203 7459 7715 7971 8227 8483
+8739 36 5668 5924 6180 6436 6692 6948 7204 7460
+7716 7972 8228 8484 8740 37 5669 5925 6181 6437
+6693 6949 7205 7461 7717 7973 8229 8485 8741 38
+5670 5926 6182 6438 6694 6950 7206 7462 7718 7974
+8230 8486 8742 39 295 551 807 1063 1319 1575
+1831 2087 2343 2599 2855 3111 3367 3623 3879 4135
+4391 4647 4903 5671 5927 6183 6439 6695 6951 7207
+7463 7719 7975 8231 8487 8743 40 296 552 808
+1064 1320 1576 1832 2088 2344 2600 2856 3112 3368
+3624 3880 4136 4392 4648 4904 5160 5416 5672 5928
+6184 6440 6696 6952 7208 7464 7720 7976 8232 8488
+8744
+4 Prg1
+name room
+var druh
+ini
+druh:=1;
+0 Prg2
+21 Items
+6 12 2 1
+krab1.BMP
+65280 Mask
+1 Kind
+9 Ext
+7 Prg1
+name krab1
+var muze
+var krok
+var ceka
+ini
+ceka:=10;
+krok:=0;
+68 Prg2
+muze:=0;
+krab2.muze:=0;
+krab3.muze:=0;
+krab4.muze:=0;
+
+if (krab2.Y=krab1.Y)and(dist(@krab1,@krab2)=1) then 
+  begin
+    muze:=1;
+    krab2.muze:=1;
+  end;
+
+if (krab3.Y=krab1.Y)and(dist(@krab1,@krab3)=1) then
+  begin
+    muze:=1;
+    krab3.muze:=1;
+  end;
+
+if (krab4.Y=krab1.Y)and(dist(@krab1,@krab4)=1) then
+  begin
+    muze:=1;
+    krab4.muze:=1;
+  end;
+   
+if (krab3.Y=krab2.Y)and(dist(@krab2,@krab3)=1) then
+  begin
+    krab2.muze:=1;
+    krab3.muze:=1;
+  end;
+
+if (krab4.Y=krab2.Y)and(dist(@krab2,@krab4)=1) then
+  begin
+    krab2.muze:=1;
+    krab4.muze:=1;
+  end;
+   
+if (krab4.Y=krab3.Y)and(dist(@krab3,@krab4)=1) then
+  begin
+    krab3.muze:=1;
+    krab4.muze:=1;
+  end;
+
+if count mod 2=0 then   
+  if krok=7 then krok:=0
+	    else inc(krok);
+
+if ceka>0 then dec(ceka);
+if (dir<>Dir_no)or not playing(-999) then ceka:=20;
+
+if (muze=1) and (ceka=0) and playing(-999) then
+ if room.druh=0 then
+  case krab1.krok of
+    1,3,5,7:afaze:=7;
+    2,4,6,0:afaze:=9;
+  end
+ else
+  case krab1.krok of
+    1,3,5,7:afaze:=0;
+    0:afaze:=6;
+    2:afaze:=7;
+    4:afaze:=8;
+    6:afaze:=9;
+  end
+ 
+else
+  if (afaze>5)or((count mod 3=0)and(random(100)<40)) then
+    afaze:=random(6);
+
+
+2 List
+0 1
+8 12 2 1
+krab1.BMP
+65280 Mask
+1 Kind
+9 Ext
+5 Prg1
+name krab2
+var muze
+var ceka
+ini
+ceka:=20;
+21 Prg2
+if ceka>0 then dec(ceka);
+if (dir<>Dir_no)or not playing(-999) then ceka:=20;
+
+if (muze=1) and (ceka=0) and playing(-999) then
+ if room.druh=0 then
+  case krab1.krok of
+    1,3,5,7:afaze:=7;
+    2,4,6,0:afaze:=9;
+  end
+ else
+  case krab1.krok of
+    1,3,5,7:afaze:=0;
+    0:afaze:=6;
+    2:afaze:=7;
+    4:afaze:=8;
+    6:afaze:=9;
+  end
+else
+  if (afaze>5)or((count mod 3=0)and(random(100)<40)) then
+    afaze:=random(6);
+
+2 List
+0 1
+10 12 2 1
+krab1.BMP
+65280 Mask
+1 Kind
+9 Ext
+5 Prg1
+name krab3
+var muze
+var ceka
+ini
+ceka:=30;
+21 Prg2
+if ceka>0 then dec(ceka);
+if (dir<>Dir_no)or not playing(-999) then ceka:=20;
+
+if (muze=1) and (ceka=0) and playing(-999) then
+ if room.druh=0 then
+  case krab1.krok of
+    1,3,5,7:afaze:=7;
+    2,4,6,0:afaze:=9;
+  end
+ else
+  case krab1.krok of
+    1,3,5,7:afaze:=0;
+    0:afaze:=6;
+    2:afaze:=7;
+    4:afaze:=8;
+    6:afaze:=9;
+  end
+else
+  if (afaze>5)or((count mod 3=0)and(random(100)<40)) then
+    afaze:=random(6);
+
+2 List
+0 1
+12 12 2 1
+krab1.BMP
+65280 Mask
+1 Kind
+9 Ext
+5 Prg1
+name krab4
+var muze
+var ceka
+ini
+ceka:=40;
+21 Prg2
+if ceka>0 then dec(ceka);
+if (dir<>Dir_no)or not playing(-999) then ceka:=20;
+
+if (muze=1) and (ceka=0) and playing(-999) then
+ if room.druh=0 then
+  case krab1.krok of
+    1,3,5,7:afaze:=7;
+    2,4,6,0:afaze:=9;
+  end
+ else
+  case krab1.krok of
+    1,3,5,7:afaze:=0;
+    0:afaze:=6;
+    2:afaze:=7;
+    4:afaze:=8;
+    6:afaze:=9;
+  end
+else
+  if (afaze>5)or((count mod 3=0)and(random(100)<40)) then
+    afaze:=random(6);
+
+2 List
+0 1
+19 10 5 7
+tecko.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+11 List
+0 256 512 768 1024 1280 1536 1281 1282
+1283 1284
+20 16 6 3
+klavir 1.BMP
+65280 Mask
+1 Kind
+9 Ext
+9 Prg1
+name klavir
+var ruce
+var otocka
+var mrknuti
+var vyruseni
+ini
+ruce:=0;
+otocka:=-random(100)-100;
+vyruseni:=0;
+54 Prg2
+if dir<>dir_no then
+  begin
+    KSnd(-999);
+    vyruseni:=20+random(25);
+  end;
+    
+if vyruseni>0 then
+  begin
+    if no_dialog then 
+      begin
+        dec(vyruseni);
+        if vyruseni=0 then MusicCycle(MusName,-999,MusCycle);
+      end;
+    if random(100)<3 then afaze:=8
+    else afaze:=6;
+  end
+else
+  begin
+    if not playing(-999) then MusicCycle(MusName,-999,MusCycle);
+    if (otocka>0)and(mrknuti>0) then
+      begin
+        if ruce=0 then ruce:=2
+        else if ruce=2 then ruce:=0
+        else ruce:=random(2)*2;
+        afaze:=8+ruce div 2;
+        dec(mrknuti);
+        dec(otocka);
+      end
+    else
+      begin
+        ruce:=(ruce+random(3)+1)mod 4;
+        if otocka>0 then
+          begin
+            afaze:=4+ruce;
+            if random(100)<7 then mrknuti:=1+random(4);
+            dec(otocka); 
+          end
+        else
+          begin
+            afaze:=ruce; 
+            inc(otocka);
+            if otocka=0 then
+              begin
+                otocka:=random(10)+50;
+                mrknuti:=0;
+              end;
+          end;
+      end;  
+    if otocka=0 then otocka:=-random(300)-150;
+  end;
+    
+  
+
+    
+10 List
+256 1 257 513 2 258 3 259 260
+261
+18 7 1 2
+kankan-7-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+17 6 1 3
+kankan-8-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+23 10 7 2
+kankan-9-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+256 257 258 259 260 261 6 262
+27 25 3 3
+sepie 1.BMP
+65280 Mask
+1 Kind
+12 Ext
+6 Prg1
+name sepie
+var mrk
+var nohy
+ini
+mrk:=0;
+nohy:=0;
+28 Prg2
+pomb1:=Dir=dir_down; {pada}
+pomb2:=(FArray[X,Y+1]=item_water)and(FArray[X+1,Y+1]=item_water)
+  and(FArray[X+2,Y+3]<>item_water); {stoji}
+
+if mrk>0 then dec(mrk)
+else if random(100)<15 then mrk:=random(3)+2;
+
+if pomb1 or not pomb2 then
+  begin
+    if odd(count) then
+      nohy:=(nohy+2+random(2)*2)mod 3;
+    afaze:=nohy;
+    if pomb1 then afaze:=nohy+3
+    else
+      if mrk>0 then afaze:=nohy+6
+      else afaze:=nohy;
+  end
+else
+  begin
+    if (dir=dir_left)or(dir=dir_down) then
+      nohy:=(nohy+1)mod 2
+    else
+      nohy:=0;
+    if mrk>0 then afaze:=2*nohy+10
+    else afaze:=2*nohy+9;
+  end; 
+      
+
+5 List
+0 1 2 258 514
+14 26 3 3
+koral S.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+512 1 257 513 2
+17 25 1 1
+kankan-12-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+31 21 6 1
+rejnok1.BMP
+65280 Mask
+1 Kind
+11 Ext
+6 Prg1
+name rejnok
+var pozice
+var nespi
+ini 
+pozice:=0;
+nespi:=0;
+18 Prg2
+if (count mod 2 = 0)or (nespi>20) then 
+  begin
+    if pozice=5 then pozice:=0
+		else inc(pozice);
+    if Dir<>dir_no then nespi:=random(60)+20;
+    if nespi>0 then
+      begin
+        if random(100)<13 then afaze:=pozice
+			  else afaze:=pozice+6;
+        dec(nespi);
+      end
+    else
+      afaze:=pozice;
+  end;
+    
+    
+
+
+6 List
+0 1 2 3 4 5
+10 7 1 1
+shell1.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+10 8 1 1
+muslicka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+10 5 1 2
+kankan-16-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+24 4 6 4
+kankan-17-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name trubka
+0 Prg2
+11 List
+512 768 257 513 258 259 515 516 5
+261 517
+28 7 2 2
+sasanka1.BMP
+65280 Mask
+1 Kind
+7 Ext
+6 Prg1
+name sasanka
+var noha
+var kvet
+ini
+noha:=0;
+kvet:=0;
+14 Prg2
+if FArray[X,Y-1]=item_water then
+  begin
+    case count mod 8 of
+      0,1,2,3:noha:=0;
+      4,5,6,7:noha:=1;
+    end;
+    case count mod 8 of
+      0,3,4,7:kvet:=1;
+      1,2,5,6:kvet:=0;
+    end;
+    afaze:=noha*4+kvet+1;
+  end
+else 
+  afaze:=1;
+2 List
+1 257
+14 15 4 2
+velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+4 Prg1
+name velkar
+var ptalnyni
+ini
+ptalnyni:=0;
+8 Prg2
+if (ptalnyni=1) and playing(-999) then
+  ptalnyni:=0
+else if (ptalnyni=0) and not playing(-999)and(random(1000)<15) then
+  begin
+    ptalnyni:=1;
+    addv(3,'kan-v-proc');
+  end;
+    
+8 List
+0 256 1 257 2 258 3 259
+14 14 3 1
+mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+25 28 1 3
+kankan-21-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+EOF
