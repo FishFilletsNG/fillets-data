@@ -14,7 +14,7 @@ label_text("solver_better2", "cs", "Koukni na http://fillets.sf.net/halloffame.p
 
 -- menu
 label_text("menu_sound", "en", "Sound volume");
-label_text("menu_sound", "cs", "Hlasitost zvuku");
+label_text("menu_sound", "cs", "Hlasitost zvuků");
 
 label_text("menu_music", "en", "Music volume");
 label_text("menu_music", "cs", "Hlasitost hudby");
