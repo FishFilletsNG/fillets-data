@@ -64,6 +64,10 @@ label_text("solver_equals", "it",
 [[
 La tua soluzione è pari a quella migliore.
 ]])
+label_text("solver_equals", "de",
+[[
+Deine Lösung ist genauso gut wie die beste bekannte Lösung.
+]])
 
 -- menu
 label_text("menu_sound", "en", "Sound volume");
@@ -81,7 +85,7 @@ label_text("menu_music", "it", "Volume musica");
 label_text("menu_lang", "en", "Choose language");
 label_text("menu_lang", "cs", "Výběr jazyka");
 label_text("menu_lang", "fr", "Choix de la langue");
-label_text("menu_lang", "de", "Sprache der Untertitel");
+label_text("menu_lang", "de", "Spracheauswahl");
 label_text("menu_lang", "it", "Scegli la lingua");
 
 label_text("menu_speech", "en", "Choose speech");
