@@ -1,7 +1,3 @@
-dialog_addFont("font_small", "font/font_small.png")
-dialog_addFont("font_big", "font/font_big.png")
-
-
 dialog_addDialog("wc-v-oblibene", "en", "", "font_big", "Toilet is David`s favorite place.")
 dialog_addDialog("wc-v-oblibene", "cs", "sound/"..codename.."/cs/wc-v-oblibene.ogg", "font_big", "WC je oblíbeným Davidovým místem.")
 

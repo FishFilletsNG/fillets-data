@@ -1,7 +1,3 @@
-dialog_addFont("font_small", "font/font_small.png")
-dialog_addFont("font_big", "font/font_big.png")
-
-
 dialog_addDialog("sv-m-pomohli", "en", "", "font_small", "This is some improvement. From bathyscaph to tank, this is like from line to the net.")
 dialog_addDialog("sv-m-pomohli", "cs", "sound/"..codename.."/cs/sv-m-pomohli.ogg", "font_small", "To jsme si pomohli. Z batyskafu do tanku, to je jako ze sítì do podbìráku.")
 

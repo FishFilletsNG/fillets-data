@@ -1,7 +1,3 @@
-dialog_addFont("font_small", "font/font_small.png")
-dialog_addFont("font_big", "font/font_big.png")
-
-
 dialog_addDialog("kos-m-uklid0", "en", "", "font_small", "It`s been a long time since we`ve been here...")
 dialog_addDialog("kos-m-uklid0", "cs", "sound/"..codename.."/cs/kos-m-uklid0.ogg", "font_small", "Tady jsme u¾ dlouho nebyli.")
 dialog_addDialog("kos-m-uklid0", "fr", "", "font_small", "Ca fait un moment que nous ne sommes pas venu ici...")

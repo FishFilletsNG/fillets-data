@@ -1,7 +1,3 @@
-dialog_addFont("font_small", "font/font_small.png")
-dialog_addFont("font_big", "font/font_big.png")
-
-
 dialog_addDialog("poc-m-lezt0", "en", "", "font_small", "That`s another fine mess.")
 dialog_addDialog("poc-m-lezt0", "cs", "sound/"..codename.."/cs/poc-m-lezt0.ogg", "font_small", "Kam jsme to zase vlezli?")
 

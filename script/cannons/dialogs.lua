@@ -1,7 +1,3 @@
-dialog_addFont("font_small", "font/font_small.png")
-dialog_addFont("font_big", "font/font_big.png")
-
-
 dialog_addDialog("del-v-dve", "en", "", "font_big", "See? This ship had two gun decks. It must have been a man-of-war. The acrid smell of gunpowder still seems to linger in the air...")
 dialog_addDialog("del-v-dve", "cs", "sound/"..codename.."/cs/del-v-dve.ogg", "font_big", "Vidí¹? Tahle loï mìla dvì dìlové paluby. To byla jistì øadová loï. Jako by se tu ve vzduchu je¹tì vzná¹ela vùnì støelného prachu.")
 

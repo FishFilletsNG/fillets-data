@@ -1,6 +1,3 @@
-dialog_addFont("font_big", "font/font_big.png")
-dialog_addFont("font_small", "font/font_small.png")
-
 dialog_addDialog("tr-m-chlad1", "en", "", "font_small", "I`m kind of cold.")
 dialog_addDialog("tr-m-chlad1", "cs", "sound/"..codename.."/cs/tr-m-chlad1.ogg", "font_small", "Je mi nìjak chladno.")
 

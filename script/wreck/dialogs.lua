@@ -1,6 +1,3 @@
-dialog_addFont("font_big", "font/font_big.png")
-dialog_addFont("font_small", "font/font_small.png")
-
 dialog_addDialog("pot-v-lod", "en", "", "font_big", "Could this be Captain Silver`s ship?")
 dialog_addDialog("pot-v-lod", "cs", "sound/"..codename.."/cs/pot-v-lod.ogg", "font_big", "®e by to byla ta Silverova loï?")
 

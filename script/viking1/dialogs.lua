@@ -1,11 +1,3 @@
-dialog_addFont("font_big", "font/font_big.png")
-dialog_addFont("font_viking4", "font/font_viking4.png")
-dialog_addFont("font_viking5", "font/font_viking5.png")
-dialog_addFont("font_viking1", "font/font_viking1.png")
-dialog_addFont("font_viking2", "font/font_viking2.png")
-dialog_addFont("font_viking3", "font/font_viking3.png")
-dialog_addFont("font_small", "font/font_small.png")
-
 dialog_addDialog("d1-z-b1", "en", "sound/"..codename.."/en/d1-z-b1.ogg")
 
 dialog_addDialog("d1-z-b2", "en", "sound/"..codename.."/en/d1-z-b2.ogg")

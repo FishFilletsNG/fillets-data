@@ -1,7 +1,3 @@
-dialog_addFont("font_small", "font/font_small.png")
-dialog_addFont("font_big", "font/font_big.png")
-
-
 dialog_addDialog("ufo-v-znicilo", "en", "", "font_big", "We must be getting near the end of our mission. This is surely the UFO that destroyed our house.")
 dialog_addDialog("ufo-v-znicilo", "cs", "sound/"..codename.."/cs/ufo-v-znicilo.ogg", "font_big", "Blí¾íme se konci na¹í cesty: tohle je jistì to UFO, co nám znièilo domeèek.")
 

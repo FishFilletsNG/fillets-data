@@ -1,7 +1,3 @@
-dialog_addFont("font_small", "font/font_small.png")
-dialog_addFont("font_big", "font/font_big.png")
-
-
 dialog_addDialog("vrak-v-vraky0", "en", "", "font_big", "These shipwrecs grow more and more arrogant.")
 dialog_addDialog("vrak-v-vraky0", "cs", "sound/"..codename.."/cs/vrak-v-vraky0.ogg", "font_big", "Ty vraky lodí jsou èím dál drzej¹í.")
 

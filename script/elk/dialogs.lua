@@ -1,8 +1,3 @@
-dialog_addFont("font_big", "font/font_big.png")
-dialog_addFont("font_elk", "font/font_elk.png")
-dialog_addFont("font_small", "font/font_small.png")
-dialog_addFont("font_parrot", "font/font_parrot.png")
-
 dialog_addDialog("deu-m-valka", "en", "", "font_small", "The war goes on even here, on the ocean floor.")
 dialog_addDialog("deu-m-valka", "cs", "sound/"..codename.."/cs/deu-m-valka.ogg", "font_small", "Válka pokraèuje i v hlubinách.")
 

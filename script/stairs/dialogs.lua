@@ -1,7 +1,3 @@
-dialog_addFont("font_small", "font/font_small.png")
-dialog_addFont("font_big", "font/font_big.png")
-
-
 dialog_addDialog("sch-m-spadlo", "en", "", "font_small", "Something fell here again.")
 dialog_addDialog("sch-m-spadlo", "cs", "sound/"..codename.."/cs/sch-m-spadlo.ogg", "font_small", "Co nám to sem zase spadlo?")
 

@@ -1,6 +1,3 @@
-dialog_addFont("font_big", "font/font_big.png")
-dialog_addFont("font_small", "font/font_small.png")
-
 dialog_addDialog("pt1-m-parnicek", "en", "", "font_small", "Look. The party boat.")
 dialog_addDialog("pt1-m-parnicek", "cs", "sound/"..codename.."/cs/pt1-m-parnicek.ogg", "font_small", "Hleïme. Výletní parníèek.")
 

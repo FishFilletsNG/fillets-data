@@ -1,6 +1,3 @@
-dialog_addFont("font_big", "font/font_big.png")
-dialog_addFont("font_small", "font/font_small.png")
-
 dialog_addDialog("let-m-divna", "en", "", "font_small", "What kind of strange ship is that?")
 dialog_addDialog("let-m-divna", "cs", "sound/"..codename.."/cs/let-m-divna.ogg", "font_small", "Co je to za divnou loï?")
 

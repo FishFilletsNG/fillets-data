@@ -1,7 +1,3 @@
-dialog_addFont("font_big", "font/font_big.png")
-dialog_addFont("font_white", "font/font_white.png")
-dialog_addFont("font_small", "font/font_small.png")
-
 dialog_addDialog("zr-x-nabito", "en", "", "font_white", "FIRST TORPEDO BAY LOADED...")
 dialog_addDialog("zr-x-nabito", "cs", "sound/"..codename.."/cs/zr-x-nabito.ogg", "font_white", "PRVNÍ NÁBOJOVÁ KOMORA NABITA...")
 

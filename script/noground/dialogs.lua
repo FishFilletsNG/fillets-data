@@ -1,7 +1,3 @@
-dialog_addFont("font_small", "font/font_small.png")
-dialog_addFont("font_big", "font/font_big.png")
-
-
 dialog_addDialog("nog-v-zvlastni", "en", "", "font_big", "This is a very strange room.")
 dialog_addDialog("nog-v-zvlastni", "cs", "sound/"..codename.."/cs/nog-v-zvlastni.ogg", "font_big", "Tohle je ale zvlá¹tní místnost.")
 

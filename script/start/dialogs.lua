@@ -1,107 +1,103 @@
-dialog_addFont("font_big", "font/font_big.png")
-dialog_addFont("font_small", "font/font_small.png")
-dialog_addFont("font_steel", "font/font_steel.png")
-
 dialog_addDialog("1st-m-cotobylo", "en", "", "font_small", "What was that?")
 dialog_addDialog("1st-m-cotobylo", "cs", "sound/"..codename.."/cs/1st-m-cotobylo.ogg", "font_small", "Co to bylo?")
 
 dialog_addDialog("1st-v-netusim", "en", "", "font_big", "I have no idea.")
-dialog_addDialog("1st-v-netusim", "cs", "sound/"..codename.."/cs/1st-v-netusim.ogg", "font_big", "Nem·m tuπenÌ.")
+dialog_addDialog("1st-v-netusim", "cs", "sound/"..codename.."/cs/1st-v-netusim.ogg", "font_big", "Nem√°m tu≈°en√≠.")
 
 dialog_addDialog("1st-v-ven", "en", "", "font_big", "We should go and have a look outside.")
-dialog_addDialog("1st-v-ven", "cs", "sound/"..codename.."/cs/1st-v-ven.ogg", "font_big", "MÏli bychom se podÌvat ven.")
+dialog_addDialog("1st-v-ven", "cs", "sound/"..codename.."/cs/1st-v-ven.ogg", "font_big", "Mƒõli bychom se pod√≠vat ven.")
 
 dialog_addDialog("1st-m-pockej", "en", "", "font_small", "Wait! I`m going with you.")
-dialog_addDialog("1st-m-pockej", "cs", "sound/"..codename.."/cs/1st-m-pockej.ogg", "font_small", "PoËkej na mÏ, jdu s tebou!")
+dialog_addDialog("1st-m-pockej", "cs", "sound/"..codename.."/cs/1st-m-pockej.ogg", "font_small", "Poƒçkej na mƒõ, jdu s tebou!")
 
 dialog_addDialog("1st-m-proc", "en", "", "font_small", "Why isn`t anything happening?")
-dialog_addDialog("1st-m-proc", "cs", "sound/"..codename.."/cs/1st-m-proc.ogg", "font_small", "ProË se nic nedÏje?")
+dialog_addDialog("1st-m-proc", "cs", "sound/"..codename.."/cs/1st-m-proc.ogg", "font_small", "Proƒç se nic nedƒõje?")
 
 dialog_addDialog("1st-m-hej", "en", "", "font_small", "Hey, player!")
-dialog_addDialog("1st-m-hej", "cs", "sound/"..codename.."/cs/1st-m-hej.ogg", "font_small", "Hej, hr·Ëi!")
+dialog_addDialog("1st-m-hej", "cs", "sound/"..codename.."/cs/1st-m-hej.ogg", "font_small", "Hej, hr√°ƒçi!")
 
 dialog_addDialog("1st-v-navod1", "en", "", "font_big", "You can control us with arrow keys and use the space bar to switch fish.")
-dialog_addDialog("1st-v-navod1", "cs", "sound/"..codename.."/cs/1st-v-navod1.ogg", "font_big", "M˘æeπ n·s ovl·dat kurzorov˝mi πipkami a mezernÌkem mezi n·mi p¯epÌnat.")
+dialog_addDialog("1st-v-navod1", "cs", "sound/"..codename.."/cs/1st-v-navod1.ogg", "font_big", "M≈Ø≈æe≈° n√°s ovl√°dat kurzorov√Ωmi ≈°ipkami a mezern√≠kem mezi n√°mi p≈ôep√≠nat.")
 
 dialog_addDialog("1st-m-navod2", "en", "", "font_small", "Or you can use the keyboard -- you can see the keys on the control panel.")
-dialog_addDialog("1st-m-navod2", "cs", "sound/"..codename.."/cs/1st-m-navod2.ogg", "font_small", "TakÈ m˘æeπ pouæÌt p¯ÌmÈ ovl·d·nÌ - kl·vesy jsou naps·ny na ovl·dacÌm panelu.")
+dialog_addDialog("1st-m-navod2", "cs", "sound/"..codename.."/cs/1st-m-navod2.ogg", "font_small", "Tak√© m≈Ø≈æe≈° pou≈æ√≠t p≈ô√≠m√© ovl√°d√°n√≠ - kl√°vesy jsou naps√°ny na ovl√°dac√≠m panelu.")
 
 dialog_addDialog("1st-v-navod3", "en", "", "font_big", "There you can also see which one of us is presently active.")
-dialog_addDialog("1st-v-navod3", "cs", "sound/"..codename.."/cs/1st-v-navod3.ogg", "font_big", "Tam takÈ vidÌπ, kdo z n·s je zrovna aktivnÌ.")
+dialog_addDialog("1st-v-navod3", "cs", "sound/"..codename.."/cs/1st-v-navod3.ogg", "font_big", "Tam tak√© vid√≠≈°, kdo z n√°s je zrovna aktivn√≠.")
 
 dialog_addDialog("1st-m-navod4", "en", "", "font_small", "Or you can control us with the mouse -- left-click somewhere and...")
-dialog_addDialog("1st-m-navod4", "cs", "sound/"..codename.."/cs/1st-m-navod4.ogg", "font_small", "A nebo myπkou - nÏkam ukaæ lev˝m tlaËÌtkem a kdyæ tam m˘æeme dojet...")
+dialog_addDialog("1st-m-navod4", "cs", "sound/"..codename.."/cs/1st-m-navod4.ogg", "font_small", "A nebo my≈°kou - nƒõkam uka≈æ lev√Ωm tlaƒç√≠tkem a kdy≈æ tam m≈Ø≈æeme dojet...")
 
 dialog_addDialog("1st-v-navod5", "en", "", "font_big", "...if we can get there without moving anything...")
-dialog_addDialog("1st-v-navod5", "cs", "sound/"..codename.."/cs/1st-v-navod5.ogg", "font_big", "...aniæ bychom nÏËÌm h˝bali...")
+dialog_addDialog("1st-v-navod5", "cs", "sound/"..codename.."/cs/1st-v-navod5.ogg", "font_big", "...ani≈æ bychom nƒõƒç√≠m h√Ωbali...")
 
 dialog_addDialog("1st-m-navod6", "en", "", "font_small", "...we`ll follow your clicks.")
 dialog_addDialog("1st-m-navod6", "cs", "sound/"..codename.."/cs/1st-m-navod6.ogg", "font_small", "...tak tam jedeme.")
 
 dialog_addDialog("1st-v-navod7", "en", "", "font_big", "And when you right-click somewhere, we`ll try to get there, pushing aside all obstacles in our way.")
-dialog_addDialog("1st-v-navod7", "cs", "sound/"..codename.."/cs/1st-v-navod7.ogg", "font_big", "A kdyæ nÏkam klikneπ prav˝m, tak tÌm smÏrem zkr·tka zkusÌme jet, p¯ek·æky nep¯ek·æky...")
+dialog_addDialog("1st-v-navod7", "cs", "sound/"..codename.."/cs/1st-v-navod7.ogg", "font_big", "A kdy≈æ nƒõkam klikne≈° prav√Ωm, tak t√≠m smƒõrem zkr√°tka zkus√≠me jet, p≈ôek√°≈æky nep≈ôek√°≈æky...")
 
 dialog_addDialog("1st-m-navod8", "en", "", "font_small", "Your goal should be to get both of us outside.")
-dialog_addDialog("1st-m-navod8", "cs", "sound/"..codename.."/cs/1st-m-navod8.ogg", "font_small", "No a tv˝m cÌlem by mÏlo b˝t dostat n·s oba ven.")
+dialog_addDialog("1st-m-navod8", "cs", "sound/"..codename.."/cs/1st-m-navod8.ogg", "font_small", "No a tv√Ωm c√≠lem by mƒõlo b√Ωt dostat n√°s oba ven.")
 
 dialog_addDialog("1st-v-davej", "en", "", "font_big", "And be careful not to hurt us. If you drop something on us or...")
-dialog_addDialog("1st-v-davej", "cs", "sound/"..codename.."/cs/1st-v-davej.ogg", "font_big", "A d·vej pozor, aª n·m neublÌæÌπ. Kdyæ n·m nÏco hodÌπ na hlavu nebo...")
+dialog_addDialog("1st-v-davej", "cs", "sound/"..codename.."/cs/1st-v-davej.ogg", "font_big", "A d√°vej pozor, a≈• n√°m neubl√≠≈æ√≠≈°. Kdy≈æ n√°m nƒõco hod√≠≈° na hlavu nebo...")
 
 dialog_addDialog("1st-m-nechtoho", "en", "", "font_small", "Oh, stop it. We`ll tell him in the next level.")
-dialog_addDialog("1st-m-nechtoho", "cs", "sound/"..codename.."/cs/1st-m-nechtoho.ogg", "font_small", "Uæ toho nech, to mu ¯ekneme v p¯ÌπtÌ mÌstnosti.")
+dialog_addDialog("1st-m-nechtoho", "cs", "sound/"..codename.."/cs/1st-m-nechtoho.ogg", "font_small", "U≈æ toho nech, to mu ≈ôekneme v p≈ô√≠≈°t√≠ m√≠stnosti.")
 
 dialog_addDialog("1st-v-takdobre", "en", "", "font_big", "Okay.")
-dialog_addDialog("1st-v-takdobre", "cs", "sound/"..codename.."/cs/1st-v-takdobre.ogg", "font_big", "Tak dob¯e.")
+dialog_addDialog("1st-v-takdobre", "cs", "sound/"..codename.."/cs/1st-v-takdobre.ogg", "font_big", "Tak dob≈ôe.")
 
 dialog_addDialog("1st-m-neprojedu", "en", "", "font_small", "I can`t get through here. That steel cylinder is in the way.")
-dialog_addDialog("1st-m-neprojedu", "cs", "sound/"..codename.."/cs/1st-m-neprojedu.ogg", "font_small", "Tudy neprojedu. ZavazÌ mi ten ocelov˝ v·lec.")
+dialog_addDialog("1st-m-neprojedu", "cs", "sound/"..codename.."/cs/1st-m-neprojedu.ogg", "font_small", "Tudy neprojedu. Zavaz√≠ mi ten ocelov√Ω v√°lec.")
 
 dialog_addDialog("1st-m-nepohnu", "en", "", "font_small", "I can`t move that cylinder. Can you help me?")
-dialog_addDialog("1st-m-nepohnu", "cs", "sound/"..codename.."/cs/1st-m-nepohnu.ogg", "font_small", "S tou ocelÌ nepohnu. Nechceπ mi pomoct?")
+dialog_addDialog("1st-m-nepohnu", "cs", "sound/"..codename.."/cs/1st-m-nepohnu.ogg", "font_small", "S tou ocel√≠ nepohnu. Nechce≈° mi pomoct?")
 
 dialog_addDialog("1st-v-takukaz", "en", "", "font_big", "No problem...")
-dialog_addDialog("1st-v-takukaz", "cs", "sound/"..codename.."/cs/1st-v-takukaz.ogg", "font_big", "Tak ukaæ...")
+dialog_addDialog("1st-v-takukaz", "cs", "sound/"..codename.."/cs/1st-v-takukaz.ogg", "font_big", "Tak uka≈æ...")
 
 dialog_addDialog("1st-m-hmmm", "en", "", "font_small", "Wow, you moved it! I could never do that!")
-dialog_addDialog("1st-m-hmmm", "cs", "sound/"..codename.."/cs/1st-m-hmmm.ogg", "font_small", "Hmmm... Pohneπ s tÌm. To j· bych nedok·zala!")
+dialog_addDialog("1st-m-hmmm", "cs", "sound/"..codename.."/cs/1st-m-hmmm.ogg", "font_small", "Hmmm... Pohne≈° s t√≠m. To j√° bych nedok√°zala!")
 
 dialog_addDialog("1st-m-diky", "en", "", "font_small", "Thanks, now I can go with you.")
-dialog_addDialog("1st-m-diky", "cs", "sound/"..codename.."/cs/1st-m-diky.ogg", "font_small", "DÌky, uæ m˘æu jÌt s tebou.")
+dialog_addDialog("1st-m-diky", "cs", "sound/"..codename.."/cs/1st-m-diky.ogg", "font_small", "D√≠ky, u≈æ m≈Ø≈æu j√≠t s tebou.")
 
 dialog_addDialog("1st-v-nemuzu", "en", "", "font_big", "Darn it, I can`t get through.")
-dialog_addDialog("1st-v-nemuzu", "cs", "sound/"..codename.."/cs/1st-v-nemuzu.ogg", "font_big", "ZatracenÏ, nem˘æu tudy prolÈzt.")
+dialog_addDialog("1st-v-nemuzu", "cs", "sound/"..codename.."/cs/1st-v-nemuzu.ogg", "font_big", "Zatracenƒõ, nem≈Ø≈æu tudy prol√©zt.")
 
 dialog_addDialog("1st-v-pribral", "en", "", "font_big", "I must have gained some weight.")
-dialog_addDialog("1st-v-pribral", "cs", "sound/"..codename.."/cs/1st-v-pribral.ogg", "font_big", "NÏjak jsem asi p¯ibral.")
+dialog_addDialog("1st-v-pribral", "cs", "sound/"..codename.."/cs/1st-v-pribral.ogg", "font_big", "Nƒõjak jsem asi p≈ôibral.")
 
 dialog_addDialog("1st-v-posunout", "en", "", "font_big", "Could you push the chair a little bit to the left?")
-dialog_addDialog("1st-v-posunout", "cs", "sound/"..codename.."/cs/1st-v-posunout.ogg", "font_big", "Nem˘æeπ posunout tu æidli kousek vlevo?")
+dialog_addDialog("1st-v-posunout", "cs", "sound/"..codename.."/cs/1st-v-posunout.ogg", "font_big", "Nem≈Ø≈æe≈° posunout tu ≈æidli kousek vlevo?")
 
 dialog_addDialog("1st-v-chyba", "en", "", "font_big", "Ooops! That was a mistake. Both of us have to be able to leave in order to continue.")
-dialog_addDialog("1st-v-chyba", "cs", "sound/"..codename.."/cs/1st-v-chyba.ogg", "font_big", "Tak to byla chyba. Spr·vnÈ ¯eπenÌ musÌ b˝t takovÈ, abychom odjeli oba.")
+dialog_addDialog("1st-v-chyba", "cs", "sound/"..codename.."/cs/1st-v-chyba.ogg", "font_big", "Tak to byla chyba. Spr√°vn√© ≈ôe≈°en√≠ mus√≠ b√Ωt takov√©, abychom odjeli oba.")
 
 dialog_addDialog("1st-v-nedostanu", "en", "", "font_big", "There`s no way I can get out now. You`ll have to restart the level.")
-dialog_addDialog("1st-v-nedostanu", "cs", "sound/"..codename.."/cs/1st-v-nedostanu.ogg", "font_big", "J· uæ se teÔ ven nedostanu. MusÌπ celou mÌstnost hr·t znovu.")
+dialog_addDialog("1st-v-nedostanu", "cs", "sound/"..codename.."/cs/1st-v-nedostanu.ogg", "font_big", "J√° u≈æ se teƒè ven nedostanu. Mus√≠≈° celou m√≠stnost hr√°t znovu.")
 
 dialog_addDialog("1st-v-stiskni", "en", "", "font_big", "You have to press the long arrow on your keyboard.")
-dialog_addDialog("1st-v-stiskni", "cs", "sound/"..codename.."/cs/1st-v-stiskni.ogg", "font_big", "Stiskni tlaËÌtko zpÏtnÈho v˝mazu.")
+dialog_addDialog("1st-v-stiskni", "cs", "sound/"..codename.."/cs/1st-v-stiskni.ogg", "font_big", "Stiskni tlaƒç√≠tko zpƒõtn√©ho v√Ωmazu.")
 
 dialog_addDialog("1st-m-backspace", "en", "", "font_small", "Humans call it a backspace key.")
-dialog_addDialog("1st-m-backspace", "cs", "sound/"..codename.."/cs/1st-m-backspace.ogg", "font_small", "On myslÌ backspace.")
+dialog_addDialog("1st-m-backspace", "cs", "sound/"..codename.."/cs/1st-m-backspace.ogg", "font_small", "On mysl√≠ backspace.")
 
 dialog_addDialog("1st-v-jedno", "en", "", "font_big", "Whatever. It was funnier in Czech.")
 dialog_addDialog("1st-v-jedno", "cs", "sound/"..codename.."/cs/1st-v-jedno.ogg", "font_big", "To je jedno.")
 
 dialog_addDialog("1st-v-najit", "en", "", "font_big", "The restart option is also located on the control panel.")
-dialog_addDialog("1st-v-najit", "cs", "sound/"..codename.."/cs/1st-v-najit.ogg", "font_big", "M˘æeπ si to najÌt i na ovl·dacÌm panelu.")
+dialog_addDialog("1st-v-najit", "cs", "sound/"..codename.."/cs/1st-v-najit.ogg", "font_big", "M≈Ø≈æe≈° si to naj√≠t i na ovl√°dac√≠m panelu.")
 
 dialog_addDialog("1st-m-pokud", "en", "", "font_small", "If you think you would rather restart the level, no problem.")
-dialog_addDialog("1st-m-pokud", "cs", "sound/"..codename.."/cs/1st-m-pokud.ogg", "font_small", "Pokud m·π pocit, æe jsi uæ ¯eπenÌ zkazil, nevadÌ.")
+dialog_addDialog("1st-m-pokud", "cs", "sound/"..codename.."/cs/1st-m-pokud.ogg", "font_small", "Pokud m√°≈° pocit, ≈æe jsi u≈æ ≈ôe≈°en√≠ zkazil, nevad√≠.")
 
 dialog_addDialog("1st-v-znovu", "en", "", "font_big", "You just have to press the long arrow on your keyboard.")
-dialog_addDialog("1st-v-znovu", "cs", "sound/"..codename.."/cs/1st-v-znovu.ogg", "font_big", "Chceπ-li to zkustit znovu, stiskni tlaËÌtko zpÏtnÈho v˝mazu.")
+dialog_addDialog("1st-v-znovu", "cs", "sound/"..codename.."/cs/1st-v-znovu.ogg", "font_big", "Chce≈°-li to zkustit znovu, stiskni tlaƒç√≠tko zpƒõtn√©ho v√Ωmazu.")
 
-dialog_addDialog("1st-x-ocel", "en", "", "font_steel", "I`m a heavy steel cylinder. It`s not easy to move me around. Such a tiny fish, like the orange one over there, simply has no chance. I could smash her without any problem.")
-dialog_addDialog("1st-x-ocel", "cs", "sound/"..codename.."/cs/1st-x-ocel.ogg", "font_steel", "Jsem tÏæk˝ ocelov˝ v·lec. Pohnout se mnou nenÌ nic jednoduchÈho. Takov· mal· rybka, jako je t·mhleta oranæov·, v˘bec nem· πanci. Rozm·Ëknul bych ji jedna dvÏ.")
+dialog_addDialog("1st-x-ocel", "en", "", "font_darkgrey", "I`m a heavy steel cylinder. It`s not easy to move me around. Such a tiny fish, like the orange one over there, simply has no chance. I could smash her without any problem.")
+dialog_addDialog("1st-x-ocel", "cs", "sound/"..codename.."/cs/1st-x-ocel.ogg", "font_darkgrey", "Jsem tƒõ≈æk√Ω ocelov√Ω v√°lec. Pohnout se mnou nen√≠ nic jednoduch√©ho. Takov√° mal√° rybka, jako je t√°mhleta oran≈æov√°, v≈Øbec nem√° ≈°anci. Rozm√°ƒçknul bych ji jedna dvƒõ.")
 
 

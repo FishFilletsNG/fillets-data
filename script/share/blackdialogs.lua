@@ -1,7 +1,3 @@
-dialog_addFont("font_big", "font/font_big.png")
-dialog_addFont("font_small", "font/font_small.png")
-dialog_addFont("font_parrot", "font/font_parrot.png")
-
 dialog_addDialog("smrt-v-0", "en", "", "font_big", "Oh, shoot!")
 dialog_addDialog("smrt-v-0", "cs", "sound/blackjokes/cs/smrt-v-0.ogg", "font_big", "No a je to v ...")
 

@@ -123,11 +123,10 @@ end
 -- -----------------------------------------------------------------
 -- Loading resources
 -- -----------------------------------------------------------------
-function addItemAnim(model, picture_00)
-    -- store all "picture_*.png" sprites to object anim
-    local anim_name = "default"
-    model:addAnim(anim_name, picture_00)
+function imgList(picture_00)
+    -- return table of available sprites _00, _01, _02, ...
     --TODO: support others than .png
+    local list = {picture_00}
     local index = 1
     local ext = ".png"
     local base, ok = string.gsub(picture_00, "_00"..ext.."$", "_")
@@ -138,11 +137,20 @@ function addItemAnim(model, picture_00)
         end
 
         if file_exists(next_file) then
-            model:addAnim(anim_name, next_file)
+            table.insert(list, next_file)
         else
             ok = 0
         end
         index = index + 1
+    end
+    return list
+end
+
+function addItemAnim(model, picture_00)
+    -- store all "picture_*.png" sprites to object anim
+    local anim_name = "default"
+    for index, filename in ipairs(imgList(picture_00)) do
+        model:addAnim(anim_name, filename)
     end
 
     model:setAnim(anim_name, 0)
@@ -153,6 +161,24 @@ function addHeadAnim(model, directory, anim, phase)
             directory.."/heads/left/head_"..phase..".png",
             directory.."/heads/right/head_"..phase..".png")
 end
+function addBodyAnim(model, directory, anim, phase)
+    local picture_00 = directory.."/left/body_"..phase..".png"
+    for index, filename in ipairs(imgList(picture_00)) do
+        model:addDuplexAnim(anim,
+                filename,
+                string.gsub(filename, "/left/body_", "/right/body_"))
+    end
+end
+function addBodyAnimBackward(model, directory, anim, phase)
+    local picture_00 = directory.."/left/body_"..phase..".png"
+    local list = imgList(picture_00)
+    for index = table.getn(list), 1, -1 do
+        local filename = list[index]
+        model:addDuplexAnim(anim,
+                filename,
+                string.gsub(filename, "/left/body_", "/right/body_"))
+    end
+end
 
 function addFishAnim(model, look_dir, directory)
     -- NOTE: remark fish in unit_table
@@ -162,68 +188,15 @@ function addFishAnim(model, look_dir, directory)
     end
     model:setGoal("goal_escape")
 
-    model:addDuplexAnim("skeleton", directory.."/left/body_skeleton_00.png",
-            directory.."/right/body_skeleton_00.png")
+    addBodyAnim(model, directory, "skeleton", "skeleton_00")
+    addBodyAnim(model, directory, "rest", "rest_00")
 
-    model:addDuplexAnim("rest", directory.."/left/body_rest_00.png",
-            directory.."/right/body_rest_00.png")
-    model:addDuplexAnim("rest", directory.."/left/body_rest_01.png",
-            directory.."/right/body_rest_01.png")
-    model:addDuplexAnim("rest", directory.."/left/body_rest_02.png",
-            directory.."/right/body_rest_02.png")
+    addBodyAnim(model, directory, "vertical_up", "vertical_00")
+    addBodyAnimBackward(model, directory, "vertical_down", "vertical_00")
 
-    model:addDuplexAnim("vertical_up", directory.."/left/body_vertical_00.png",
-            directory.."/right/body_vertical_00.png")
-    model:addDuplexAnim("vertical_up", directory.."/left/body_vertical_01.png",
-            directory.."/right/body_vertical_01.png")
-    model:addDuplexAnim("vertical_up", directory.."/left/body_vertical_02.png",
-            directory.."/right/body_vertical_02.png")
-    model:addDuplexAnim("vertical_up", directory.."/left/body_vertical_03.png",
-            directory.."/right/body_vertical_03.png")
-    model:addDuplexAnim("vertical_up", directory.."/left/body_vertical_04.png",
-            directory.."/right/body_vertical_04.png")
-    model:addDuplexAnim("vertical_up", directory.."/left/body_vertical_05.png",
-            directory.."/right/body_vertical_05.png")
-
-    model:addDuplexAnim("vertical_down", directory.."/left/body_vertical_05.png",
-            directory.."/right/body_vertical_05.png")
-    model:addDuplexAnim("vertical_down", directory.."/left/body_vertical_04.png",
-            directory.."/right/body_vertical_04.png")
-    model:addDuplexAnim("vertical_down", directory.."/left/body_vertical_03.png",
-            directory.."/right/body_vertical_03.png")
-    model:addDuplexAnim("vertical_down", directory.."/left/body_vertical_02.png",
-            directory.."/right/body_vertical_02.png")
-    model:addDuplexAnim("vertical_down", directory.."/left/body_vertical_01.png",
-            directory.."/right/body_vertical_01.png")
-    model:addDuplexAnim("vertical_down", directory.."/left/body_vertical_00.png",
-            directory.."/right/body_vertical_00.png")
-
-    model:addDuplexAnim("swam", directory.."/left/body_swam_00.png",
-            directory.."/right/body_swam_00.png")
-    model:addDuplexAnim("swam", directory.."/left/body_swam_01.png",
-            directory.."/right/body_swam_01.png")
-    model:addDuplexAnim("swam", directory.."/left/body_swam_02.png",
-            directory.."/right/body_swam_02.png")
-    model:addDuplexAnim("swam", directory.."/left/body_swam_03.png",
-            directory.."/right/body_swam_03.png")
-    model:addDuplexAnim("swam", directory.."/left/body_swam_04.png",
-            directory.."/right/body_swam_04.png")
-    model:addDuplexAnim("swam", directory.."/left/body_swam_05.png",
-            directory.."/right/body_swam_05.png")
-
-    model:addDuplexAnim("turn", directory.."/left/body_turn_00.png",
-            directory.."/right/body_turn_00.png")
-    model:addDuplexAnim("turn", directory.."/left/body_turn_01.png",
-            directory.."/right/body_turn_01.png")
-    model:addDuplexAnim("turn", directory.."/left/body_turn_02.png",
-            directory.."/right/body_turn_02.png")
-
-    model:addDuplexAnim("talk", directory.."/left/body_talk_00.png",
-            directory.."/right/body_talk_00.png")
-    model:addDuplexAnim("talk", directory.."/left/body_talk_01.png",
-            directory.."/right/body_talk_01.png")
-    model:addDuplexAnim("talk", directory.."/left/body_talk_02.png",
-            directory.."/right/body_talk_02.png")
+    addBodyAnim(model, directory, "swam", "swam_00")
+    addBodyAnim(model, directory, "turn", "turn_00")
+    addBodyAnim(model, directory, "talk", "talk_00")
 
     -- heads
     addHeadAnim(model, directory, "head_talking", "talking_00")

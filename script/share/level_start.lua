@@ -31,6 +31,7 @@ function initModels()
 
     stdBlackJokeLoad()
     stdBublesLoad()
+    loadFonts()
 end
 
 
