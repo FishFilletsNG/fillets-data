@@ -23,7 +23,7 @@ function createRoom(width, height, picture)
 end
 
 function setRoomWaves(double_amp, periode, inv_speed)
-    level_setRoomWaves(double_amp/2.0, periode, 1.0/inv_speed)
+    level_setRoomWaves(double_amp/2, periode, 1/inv_speed)
 end
 
 local models_table = {}
