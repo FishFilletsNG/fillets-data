@@ -161,7 +161,7 @@ end
 function addHeadAnim(model, directory, anim, phase)
     local left_path = directory.."/heads/left/head_"..phase..".png"
     if file_exists(left_path) then
-        model:addAnim(anim, directory.."/heads/left/head_"..phase..".png")
+        model:addAnim(anim, left_path)
         model:addAnim(anim, directory.."/heads/right/head_"..phase..".png",
                 LOOK_RIGHT)
     else
