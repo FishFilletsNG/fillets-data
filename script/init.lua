@@ -1,15 +1,15 @@
 -- There is place to customize game before start
 
-print("-- script init start --")
--- sendMsg(name.app, "hello from lua")
--- sendMsg(name.app, "inc_loglevel")
-print("-- script init finish --")
-
+--NOTE: hack, lang Czech = cs
+local lang = getParam("lang")
+if lang == "Cz" then
+    setParam("lang", "cs")
+end
 
 
 -- -----------------------------------------------------------------
 --TODO: make game menu and load/save
-start = tonumber(getParam("levelnum") or 1)
+local start = tonumber(getParam("levelnum") or 1)
 
 --[[
 function nextLevel()
@@ -23,7 +23,7 @@ function nextLevel()
 end
 ]]
 
-level_list = {
+local level_list = {
 [01] = "script/start.lua",
 [02] = "script/briefcase.lua",
 [03] = "script/cellar/cellar.lua",

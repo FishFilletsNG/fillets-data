@@ -30,13 +30,16 @@ function createRoom(width, height, picture)
 
     sound_addSound("dead_small", "sound/share/sp-dead_small.ogg")
     sound_addSound("dead_big", "sound/share/sp-dead_big.ogg")
+
+    --NOTE: hack, "pause" dialog is used to delay dialogs
+    dialog_addDialog("pause", "en", "", "", "")
 end
 
 local models_table = {}
 function addModel(name, x, y, picture, shape)
     local model_index = game_addModel(name, x, y, picture, shape)
     local model = createObject(model_index)
-    table.insert(models_table, model)
+    models_table[model_index] = model
     return model
 end
 
@@ -48,7 +51,7 @@ end
 function createObject(model_index)
     local object = {}
     object.index = model_index
-    object.talk_phase = nil
+    object.talk_phase = false
 
     object.addAnim = function(self, anim_name, filename)
         model_addAnim(self.index, anim_name, filename)
@@ -150,9 +153,11 @@ function animateFish(model)
             model:runAnim("swam")
         elseif "turn" == action then
             model:runAnim("turn")
+        elseif "activate" == action then
+            model:setAnim("turn", 0)
         elseif "busy" == action then
             --TODO: better talk sequence
-            model:setAnim("turn", 1)
+            model:setAnim("turn", 0)
         else
             model:runAnim("rest")
         end
@@ -164,7 +169,7 @@ end
 -- -----------------------------------------------------------------
 function animateHead(model)
     if model:isAlive() then
-        if "turn" ~= model:getAction() then
+        if "turn" ~= model:getAction() and "activate" ~= model:getAction() then
             local state = model:getState()
 
             if "talking" == state then
@@ -184,7 +189,7 @@ function animateHead(model)
                     end
                 end
             else
-                model.talk_phase = nil
+                model.talk_phase = false
 
                 if "pushing" == state then
                     model:useSpecialAnim("head_pushing", 0)
@@ -272,7 +277,6 @@ function addFishAnim(model, look_dir, directory)
 end
 
 -- -----------------------------------------------------------------
-
 function switch(case)
   return function(codetable)
            local f = codetable[case] or codetable.default
@@ -286,4 +290,6 @@ function switch(case)
          end
 end
 
+-- -----------------------------------------------------------------
+file_include("script/prog_save.lua")
 
