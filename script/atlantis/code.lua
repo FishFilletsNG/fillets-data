@@ -8,8 +8,10 @@ local function prog_init()
     local pokus = getRestartCount()
 
     --NOTE: a final level
+    --TODO: final shout
     small:setGoal("goal_alive")
     big:setGoal("goal_alive")
+    spunt:setGoal("goal_out")
 
     -- -------------------------------------------------------------
     local function prog_init_room()
@@ -139,8 +141,6 @@ local function prog_init()
     -- -------------------------------------------------------------
     local function prog_init_spunt()
         return function()
-            --TODO: final shout
-            spunt:setGoal("goal_out")
         end
     end
 
@@ -295,9 +295,6 @@ local function prog_init()
     -- -------------------------------------------------------------
     local function prog_init_hlava1()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
-
-        --TEST: escape
-        hlava1:setGoal("goal_out")
 
         hlava1.huba = 0
         hlava1.ksicht = randint(10, 100)
