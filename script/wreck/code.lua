@@ -57,7 +57,7 @@ local function prog_init()
                 elseif room.ooceli == 0 and (big.X == 16 and big.Y == 3 and big:isLeft() or big.X < 16 and big.Y == 4) then
                     switch(random(2)){
                         [0] = function()
-                            addv(0, "pot-v-pohnu")
+                            addv(0, "pot-v-nehnu")
                         end,
                         [1] = function()
                             addv(0, "pot-v-trub")
