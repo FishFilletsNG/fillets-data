@@ -76,7 +76,8 @@ local function prog_init()
                 planBusy(small, false)
             end
             if room.hlaska == 1 then
-                room.cas = math.floor(0.5 + optionsGetAsInt("playtime") * 24)
+                room.cas = math.floor(0.5 +
+                        optionsGetAsInt("playtime") / 3600)
             end
             if room.hlaska >= 1 and not room:isTalking() then
                 pom1 = room.hlaska
