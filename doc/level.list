@@ -1,74 +1,74 @@
 Nr | codename      | English name               | Czech name
 ---+---------------+----------------------------+----------------------------
-01 | start         | How It All Started         | Jak to v¹echno zaèalo
-02 | briefcase     | Briefcase Message          | Podivná zásilka
-03 | cellar        | Rehearsal in Cellar        | Zkou¹ka ve sklepì
+01 | start         | How It All Started         | Jak to vÅ¡echno zaÄalo
+02 | briefcase     | Briefcase Message          | PodivnÃ¡ zÃ¡silka
+03 | cellar        | Rehearsal in Cellar        | ZkouÅ¡ka ve sklepÄ›
 04 | library       | Library Flotsam            | Co zbylo z knihovny
-05 | stairs        | Plants on the Stairs       | Zeleò na schodi¹ti
-06 | broom         | A Mess in the Boiler Room  | Nepoøádek v kotelnì
-07 | reef          | Under the Reef             | Pod útesem
-08 | wc            | Closed in the Closet       | Zamèeni na WC
-09 | submarine     | Drowned Submarine          | Utonulá ponorka
-10 | party1        | Picnic Boat                | Vıletní loï
-11 | elk           | Great War                  | Velká vlastenecká válka
-12 | wreck         | The Ship of Captain Silver | Loï kapitána Silvera
-13 | viking1       | The Last Voyage            | Poslední plavba
-14 | airplane      | Altitude: Minus 9000 Feet  | Vı¹ka: -9000 stop
+05 | stairs        | Plants on the Stairs       | ZeleÅˆ na schodiÅ¡ti
+06 | broom         | A Mess in the Boiler Room  | NepoÅ™Ã¡dek v kotelnÄ›
+07 | reef          | Under the Reef             | Pod Ãºtesem
+08 | wc            | Closed in the Closet       | ZamÄeni na WC
+09 | submarine     | Drowned Submarine          | UtonulÃ¡ ponorka
+10 | party1        | Picnic Boat                | VÃ½letnÃ­ loÄ
+11 | elk           | Great War                  | VelkÃ¡ vlasteneckÃ¡ vÃ¡lka
+12 | wreck         | The Ship of Captain Silver | LoÄ kapitÃ¡na Silvera
+13 | viking1       | The Last Voyage            | PoslednÃ­ plavba
+14 | airplane      | Altitude: Minus 9000 Feet  | VÃ½Å¡ka: -9000 stop
 15 | bathyscaph    | Bathyscaph                 | Batyskaf
-16 | tank          | Amphibious Tank            | Oboj¾ivelnı tank
-17 | viking2       | Eight Vikings in a Boat    | Osm vikingù a pes
-18 | party2        | Return from the Party      | Návrat z vıletu
-19 | gods          | The Gods Must Be Mad       | Bohové musí bıt ¹ílení
-20 | elevator1     | House with an Elevator     | Dùm s vıtahem
-21 | city          | Welcome To Our City        | Vítejte ve mìstì!
-22 | ufo           | Independence Day           | Den nezávislosti
-23 | columns       | The Columns                | Na kolonádì
-24 | pavement      | Uneven Pavement            | Nerovná dla¾ba
-25 | pyramid       | Mr. Cheops` House          | Dùm pana Cheopse
-26 | music         | A Bit of Music             | Pro potì¹ení
-27 | crabshow      | Crab Freak Show            | Paniptikum korı¹ù
-28 | elevator2     | Another elevator           | Druhı dùm s vıtahem
+16 | tank          | Amphibious Tank            | ObojÅ¾ivelnÃ½ tank
+17 | viking2       | Eight Vikings in a Boat    | Osm vikingÅ¯ a pes
+18 | party2        | Return from the Party      | NÃ¡vrat z vÃ½letu
+19 | gods          | The Gods Must Be Mad       | BohovÃ© musÃ­ bÃ½t Å¡Ã­lenÃ­
+20 | elevator1     | House with an Elevator     | DÅ¯m s vÃ½tahem
+21 | city          | Welcome To Our City        | VÃ­tejte ve mÄ›stÄ›!
+22 | ufo           | Independence Day           | Den nezÃ¡vislosti
+23 | columns       | The Columns                | Na kolonÃ¡dÄ›
+24 | pavement      | Uneven Pavement            | NerovnÃ¡ dlaÅ¾ba
+25 | pyramid       | Mr. Cheops` House          | DÅ¯m pana Cheopse
+26 | music         | A Bit of Music             | Pro potÄ›Å¡enÃ­
+27 | crabshow      | Crab Freak Show            | Paniptikum korÃ½Å¡Å¯
+28 | elevator2     | Another elevator           | DruhÃ½ dÅ¯m s vÃ½tahem
 29 | atlantis      | And How It Was             | Tak takhle to bylo
-30 | corals        | First Bizarre Things       | První bizarnosti
-31 | labyrinth     | Labyrinth                  | Bludi¹tì
-32 | imprisoned    | Imprisoned                 | Uvìznìni
-33 | society       | Closed Society             | Uzavøená spoleènost
-34 | creatures     | Sleeping Creatures         | Spící tvoreèkové
-35 | cancan        | Cancan Crabs               | Kankánoví krabíci
-36 | pearls        | One More Pearl; Please!    | Je¹tì jednu perlièku!
-37 | turtle        | Telepathic Devil           | Telepatická mrcha
-38 | computer      | The Deep Server            | Hlubinnı server
-39 | noground      | Almost No Wall             | Skoro ¾ádná zeï
-40 | bathroom      | Plumbman`s Refuse          | Instalatérskı odpad
-41 | duckie        | Adventure with Pink Duckie | Dobrodru¾ství s kachnièkou
-42 | puzzle        | Shredded Stickman          | Rozstøíhaná èmáranice
-43 | dump          | Real Chaos                 | Opravdovı chaos
-44 | barrel        | Outraged Greenpeace        | Greenpeace by zuøili
-45 | cabin1        | The First Mate`s Cabin     | Kajuta prvního dùstojníka
-46 | snowman       | The Winter Mess Hall       | Zimní jídelna
+30 | corals        | First Bizarre Things       | PrvnÃ­ bizarnosti
+31 | labyrinth     | Labyrinth                  | BludiÅ¡tÄ›
+32 | imprisoned    | Imprisoned                 | UvÄ›znÄ›ni
+33 | society       | Closed Society             | UzavÅ™enÃ¡ spoleÄnost
+34 | creatures     | Sleeping Creatures         | SpÃ­cÃ­ tvoreÄkovÃ©
+35 | cancan        | Cancan Crabs               | KankÃ¡novÃ­ krabÃ­ci
+36 | pearls        | One More Pearl; Please!    | JeÅ¡tÄ› jednu perliÄku!
+37 | turtle        | Telepathic Devil           | TelepatickÃ¡ mrcha
+38 | computer      | The Deep Server            | HlubinnÃ½ server
+39 | noground      | Almost No Wall             | Skoro Å¾Ã¡dnÃ¡ zeÄ
+40 | bathroom      | Plumbman`s Refuse          | InstalatÃ©rskÃ½ odpad
+41 | duckie        | Adventure with Pink Duckie | DobrodruÅ¾stvÃ­ s kachniÄkou
+42 | puzzle        | Shredded Stickman          | RozstÅ™Ã­hanÃ¡ ÄmÃ¡ranice
+43 | dump          | Real Chaos                 | OpravdovÃ½ chaos
+44 | barrel        | Outraged Greenpeace        | Greenpeace by zuÅ™ili
+45 | cabin1        | The First Mate`s Cabin     | Kajuta prvnÃ­ho dÅ¯stojnÃ­ka
+46 | snowman       | The Winter Mess Hall       | ZimnÃ­ jÃ­delna
 47 | cannons       | Fire!                      | Pal!
-48 | kitchen       | Ship Kitchen               | Lodní kuchynì
-49 | cabin2        | Second Mate`s Cabin        | Kajuta druhého dùstojníka
-50 | captain       | Captain`s Cabin            | Kapitánova kajuta
-51 | map           | Silver`s Hideout           | Silverova tajná skrı¹
+48 | kitchen       | Ship Kitchen               | LodnÃ­ kuchynÄ›
+49 | cabin2        | Second Mate`s Cabin        | Kajuta druhÃ©ho dÅ¯stojnÃ­ka
+50 | captain       | Captain`s Cabin            | KapitÃ¡nova kajuta
+51 | map           | Silver`s Hideout           | Silverova tajnÃ¡ skrÃ½Å¡
 52 | reactor       | Power Plant                | Reaktor
-53 | magnet        | Strange Forces             | Neznámé síly
+53 | magnet        | Strange Forces             | NeznÃ¡mÃ© sÃ­ly
 54 | engine        | Brm... Brm...              | Brm brm...
-55 | steel         | Nothing but steel          | Ocel; samá ocel
-56 | corridor      | Guarded Corridor           | Pøísnì støe¾ená chodba
-57 | experiments   | Biological Experiments     | Biologické experimenty
-58 | propulsion    | The Real Propulsion        | Skuteènı pohon
-59 | aztec         | Aztec Art Hall             | Sál aztéckého umìní
-60 | gems          | Shiny Cave-in              | Blıskavı zával
-61 | chest         | Giant`s Chest              | Truhlièka obra Kolodìje
-62 | alibaba       | The Hall of Ali-baba       | Alibabùv sál
-63 | cave          | The Deepest Cave           | Nejhlub¹í jeskynì
-64 | grail         | What Would King Arthur Say?| Artu¹ by se divil
+55 | steel         | Nothing but steel          | Ocel; samÃ¡ ocel
+56 | corridor      | Guarded Corridor           | PÅ™Ã­snÄ› stÅ™eÅ¾enÃ¡ chodba
+57 | experiments   | Biological Experiments     | BiologickÃ© experimenty
+58 | propulsion    | The Real Propulsion        | SkuteÄnÃ½ pohon
+59 | aztec         | Aztec Art Hall             | SÃ¡l aztÃ©ckÃ©ho umÄ›nÃ­
+60 | gems          | Shiny Cave-in              | BlÃ½skavÃ½ zÃ¡val
+61 | chest         | Giant`s Chest              | TruhliÄka obra KolodÄ›je
+62 | alibaba       | The Hall of Ali-baba       | AlibabÅ¯v sÃ¡l
+63 | cave          | The Deepest Cave           | NejhlubÅ¡Ã­ jeskynÄ›
+64 | grail         | What Would King Arthur Say?| ArtuÅ¡ by se divil
 65 | tetris        | TETRIS                     | TETRIS
-66 | emulator      | Emulator                   | Emulátor
+66 | emulator      | Emulator                   | EmulÃ¡tor
 67 | warcraft      | Garden of War              | Garden of War
-68 | windoze       | Favorites                  | Oblíbené polo¾ky
-69 | hardware      | A Hardware Problem         | Hardwarovı problém
+68 | windoze       | Favorites                  | OblÃ­benÃ© poloÅ¾ky
+69 | hardware      | A Hardware Problem         | HardwarovÃ½ problÃ©m
 70 | floppy        | Read Only                  | Read only
 71 | ending        | At Home                    | Doma
 72 | score         | Special Score              | Special Score
