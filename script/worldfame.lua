@@ -9,7 +9,7 @@ node_bestSolution("reef", 169, "Pavel Danihelka")
 node_bestSolution("wc", 100, "Pavel Danihelka")
  
 node_bestSolution("submarine", 83, "Pavel Danihelka")
-node_bestSolution("party1", 238, "Mark Byers")
+node_bestSolution("party1", 236, "Mark Byers")
 node_bestSolution("elk", 257, "Pavel Danihelka")
 node_bestSolution("wreck", 91, "Hynek Vychodil")
 node_bestSolution("viking1", 119, "Pavel Danihelka")
