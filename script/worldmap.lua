@@ -65,7 +65,8 @@ branch_addNode("imprisoned", "society", "script/society/init.lua", 418, 346)
 branch_addNode("society", "creatures", "script/creatures/init.lua", 412, 383)
 branch_addNode("creatures", "cancan", "script/cancan/init.lua", 386, 406)
 branch_addNode("cancan", "pearls", "script/pearls/init.lua", 352, 408)
-branch_addNode("pearls", "turtle", "script/turtle/init.lua", 337, 375)
+branch_addNode("pearls", "turtle", "script/turtle/init.lua", 337, 375,
+        false, "images/turtle/poster.png")
 
 -- Treasure Cave
 branch_addNode("labyrinth", "aztec", "script/aztec/init.lua", 407, 282, true)

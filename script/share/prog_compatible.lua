@@ -3,12 +3,7 @@
 -- -----------------------------------------------------------------
 
 file_include("script/share/prog_goanim.lua")
-
-dir_no = 0
-dir_up = 1
-dir_down = 2
-dir_left = 3
-dir_right = 4
+file_include("script/share/prog_finder.lua")
 
 -- -----------------------------------------------------------------
 -- Compatibility functions

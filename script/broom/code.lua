@@ -17,6 +17,9 @@ local function prog_init()
         room.namet = 0
 
         return function()
+            --TEST: finder
+            print(findDir(small, 20, 10))
+
             if metla.X == 12 and (metla.Y == 12 or metla.Y == 13 or metla.Y == 14) and not isReady(big) and not small:isOut() then
                 roompole[0] = 1
             end

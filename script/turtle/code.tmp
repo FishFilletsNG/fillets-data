@@ -1,0 +1,533 @@
+
+-- -----------------------------------------------------------------
+-- Init
+-- -----------------------------------------------------------------
+local function prog_init()
+    initModels()
+    sound_playMusic("music/rybky05.ogg")
+    local pokus = getRestartCount()
+
+
+    -- -------------------------------------------------------------
+    local function prog_init_room()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        gspec = 9
+        natvrdo = 0
+        room.blbnout = 300 + random(300)
+        room.kolikrat = 0
+        room.hlouposti = random(1000) + 500
+        room.kolikhlouposti = 0
+        room.poslhloupost = random(3)
+        room.cosedelo = 0
+        room.uvod = 0
+
+        return function()
+            if stdKrajniHlaska then
+                addv(5, "zel-v-ukol")
+                StdKonecKrajniHlasky()
+            end
+            if isReady(small) and isReady(big) and no_dialog() and natvrdo == 0 then
+                for pom1 = 1, 5 do
+                    if room.blbnout > 0 then
+                        room.blbnout = room.blbnout - 1
+                    end
+                end
+                if room.hlouposti > 0 then
+                    room.hlouposti = room.hlouposti - 1
+                end
+                if room.blbnout == 0 and natvrdo == 0 and delay[mala] > 40 and delay[velka] > 40 then
+                    pomb1 = true
+                    tvrdaryba = random(2) + 1
+                    if tvrdaryba == mala then
+                        pom2 = 2
+                    else
+                        pom2 = 3
+                    end
+                    for pom1 = 0, pom2 do
+                        --FIXME: WITH
+                        with --FIXME: pointer
+Items[cobj[tvrdaryba]]^ do
+                            if not (FArray[room.X + pom1, room.Y - 1] IN --FIXME: IN
+{item_water, item_wall}) then
+                                pomb1 = false
+                            end
+                        end
+                    end
+                    if pomb1 then
+                        tvrdex = random(rwidth - 2) + 1
+                        tvrdey = random(rheight - 2) + 1
+                        if abs((--FIXME: pointer
+Items[cobj[tvrdaryba]]^).x - tvrdex) + abs((--FIXME: pointer
+Items[cobj[tvrdaryba]]^).y - tvrdey) > 8 and najdi_smer(tvrdaryba, tvrdex, tvrdey) ~= dir_no then
+                            natvrdo = 1
+                        end
+                        if natvrdo == 1 then
+                            room.blbnout = (room.kolikrat + 3) * (random(100) + 50)
+                        end
+                    end
+                end
+                if room.hlouposti > 0 then
+                    room.hlouposti = room.hlouposti - 1
+                end
+                if natvrdo == 1 then
+                    room.kolikrat = room.kolikrat + 1
+                    if roompole[0] <= 1 then
+                        pom1 = random(3)
+                        switch(pom1){
+                            [0, 2] = function()
+                                if tvrdaryba == mala then
+                                    addv(random(10), "zel-v-coto" + chr(48 + pom1))
+                                else
+                                    addm(random(10), "zel-m-coto" + chr(48 + pom1))
+                                end
+                                room.cosedelo = tvrdaryba + 2
+                            end,
+                            [1] = function()
+                                room.cosedelo = tvrdaryba
+                            end,
+                        }
+                    elseif random(100) < 60 then
+                        if tvrdaryba == mala then
+                            addm(random(60), "zel-m-potvora" + chr(48 + random(2)))
+                        else
+                            addv(random(60), "zel-v-stacit" + chr(48 + random(2)))
+                        end
+                    end
+                    if roompole[0] == 0 then
+                        roompole[0] = roompole[0] + 1
+                    end
+                    if random(100) < room.kolikrat * 10 - 50 then
+                        if roompole[0] == 1 then
+                            roompole[0] = roompole[0] + 1
+                            room.cosedelo = tvrdaryba + 4
+                        end
+                    end
+                elseif room.cosedelo > 0 then
+                    if room.cosedelo <= 2 then
+                        if room.cosedelo == 1 then
+                            addv(random(10), "zel-v-coto1")
+                        else
+                            addm(random(10), "zel-m-coto1")
+                        end
+                        inc(room.cosedelo, 2)
+                    end
+                    if room.cosedelo > 4 or random(100) < 50 or room.kolikrat <= 2 then
+                        if odd(room.cosedelo) then
+                            addm(random(3) + 3, "zel-m-nevim" + chr(48 + random(2)))
+                        else
+                            addv(random(3) + 3, "zel-v-nevim" + chr(48 + random(2)))
+                        end
+                    end
+                    if room.cosedelo > 4 or random(100) < 40 and room.kolikrat >= 3 then
+                        if odd(room.cosedelo) then
+                            addv(random(30) + 10, "zel-v-cosedeje")
+                        else
+                            addm(random(30) + 10, "zel-m-cimtoje")
+                        end
+                    end
+                    if room.cosedelo > 4 then
+                        adddel(random(30) + 10)
+                        addset(small.hlasit, 1)
+                        addv(0, "zel-v-tazelva")
+                        switch(random(2)){
+                            [0] = function()
+                                addm(random(20) + 4, "zel-m-jasne")
+                            end,
+                            [1] = function()
+                                addv(random(20) + 4, "zel-v-pochyby")
+                            end,
+                        }
+                    end
+                    room.cosedelo = 0
+                elseif room.uvod == 0 then
+                    room.uvod = 1
+                    if roompole[0] < 2 then
+                        addv(10 + random(25), "zel-v-ze" + "lva" + chr(48 + random(2)))
+                        addm(nah(5, 20), "zel-m-fotky" + chr(48 + random(2)))
+                        addv(5, "zel-v-zmistnosti0")
+                    elseif random(100) < 120 - pokus * 10 then
+                        addv(random(60) + 10, "zel-v-zmistnosti1")
+                    end
+                elseif room.hlouposti == 0 then
+                    room.kolikhlouposti = room.kolikhlouposti + 1
+                    room.hlouposti = room.kolikhlouposti * (1500 + random(1500))
+                    pom1 = random(2)
+                    if pom1 == room.poslhloupost then
+                        pom1 = 2
+                    end
+                    room.poslhloupost = pom1
+                    switch(pom1){
+                        [0] = function()
+                            addv(50, "zel-v-bizarni")
+                        end,
+                        [1] = function()
+                            addm(50, "zel-m-priroda")
+                        end,
+                        [2] = function()
+                            addv(50, "zel-v-tvary")
+                            if random(100) < 60 then
+                                addm(50, "zel-m-jednoduse")
+                            end
+                        end,
+                    }
+                end
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_zelva()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        zelva.stav = 4
+        zelva.xicht = 0
+        zelva.napad = 0
+        zelva.pozadavek = 0
+
+        return function()
+            Spec9(this, 7, 3)
+            if natvrdo == 1 then
+                zelva.pozadavek = 7
+            end
+            switch(zelva.pozadavek){
+                [8] = function()
+                    if zelva.stav == 8 then
+                        zelva.pozadavek = 0
+                    end
+                end,
+                [0] = function()
+                    if zelva.dir ~= dir_no then
+                        zelva.pozadavek = 8
+                    end
+                end,
+                [7] = function()
+                    if natvrdo == 0 then
+                        zelva.pozadavek = 0
+                    end
+                end,
+            }
+            if zelva.anim ~= "" then
+                goanim(this)
+            else
+                if zelva.pozadavek == 0 and zelva.napad == 0 then
+                    switch(zelva.stav){
+                        [8] = function()
+                            if random(100) < 2 then
+                                zelva.napad = 1
+                            end
+                        end,
+                        [1] = function()
+                            switch(random(400)){
+                                [0] = function()
+                                    zelva.napad = 8
+                                end,
+                                [1, 2] = function()
+                                    zelva.napad = 2
+                                end,
+                                [3, 4] = function()
+                                    zelva.napad = 3
+                                end,
+                                [5.. --FIXME: range
+7] = function()
+                                    zelva.napad = 4
+                                end,
+                            }
+                        end,
+                        [2, 3] = function()
+                            if random(100) < 6 then
+                                zelva.napad = 1
+                            end
+                        end,
+                        [4] = function()
+                            switch(random(100)){
+                                [0] = function()
+                                    zelva.napad = 1
+                                end,
+                                [1] = function()
+                                    zelva.napad = 5
+                                end,
+                                [2] = function()
+                                    zelva.napad = 6
+                                end,
+                            }
+                        end,
+                        [5, 6] = function()
+                            if random(100) < 2 then
+                                zelva.napad = 4
+                            end
+                        end,
+                    }
+                elseif zelva.pozadavek ~= 0 and zelva.pozadavek ~= zelva.stav and zelva.napad == 0 then
+                    switch(zelva.pozadavek){
+                        [7] = function()
+                            switch(zelva.stav){
+                                [2, 3, 8] = function()
+                                    zelva.napad = 1
+                                end,
+                                [1, 5, 6] = function()
+                                    zelva.napad = 4
+                                end,
+                                [4] = function()
+                                    zelva.napad = 7
+                                end,
+                            }
+                        end,
+                        [8] = function()
+                            switch(zelva.stav){
+                                [5, 6] = function()
+                                    zelva.napad = 4
+                                end,
+                                [4, 2, 3] = function()
+                                    zelva.napad = 1
+                                end,
+                                [1] = function()
+                                    zelva.napad = 8
+                                end,
+                            }
+                        end,
+                    }
+                end
+                switch(zelva.stav){
+                    [8] = function()
+                        zelva.xicht = 27
+                        switch(zelva.napad){
+                            [1] = function()
+                                setanim(this, "S4,29S3,0S1,1")
+                            end,
+                        }
+                    end,
+                    [1] = function()
+                        if random(100) < 5 then
+                            if random(2) == 0 then
+                                zelva.xicht = 29
+                            else
+                                zelva.xicht = nah(31, 33)
+                            end
+                        end
+                        switch(zelva.napad){
+                            [8] = function()
+                                setanim(this, "S4,27S3,0S1,8")
+                            end,
+                            [2] = function()
+                                setanim(this, "s4,36S4,38S3,0S1,2")
+                            end,
+                            [3] = function()
+                                setanim(this, "s4,37S4,42S3,0S1,3")
+                            end,
+                            [4] = function()
+                                setanim(this, "s4,34s4,35S4,0S3,0S1,4")
+                            end,
+                        }
+                    end,
+                    [2] = function()
+                        if random(100) < 5 then
+                            if random(2) == 0 then
+                                zelva.xicht = 38
+                            else
+                                zelva.xicht = 40 + random(2)
+                            end
+                        end
+                        switch(zelva.napad){
+                            [1] = function()
+                                setanim(this, "s4,36S4,29S3,0S1,1")
+                            end,
+                        }
+                    end,
+                    [3] = function()
+                        if random(100) < 5 then
+                            if random(2) == 0 then
+                                zelva.xicht = 42
+                            else
+                                zelva.xicht = 44 + random(2)
+                            end
+                        end
+                        switch(zelva.napad){
+                            [1] = function()
+                                setanim(this, "s4,37S4,29S3,0S1,1")
+                            end,
+                        }
+                    end,
+                    [4] = function()
+                        if random(100) < 5 then
+                            if random(2) == 0 then
+                                zelva.xicht = 0
+                            else
+                                zelva.xicht = random(3) * 2 + 2
+                            end
+                        end
+                        switch(zelva.napad){
+                            [1] = function()
+                                setanim(this, "s4,35s4,34S4,29S3,0S1,1")
+                            end,
+                            [5] = function()
+                                setanim(this, "s4,13S4,16S3,0S1,5")
+                            end,
+                            [6] = function()
+                                setanim(this, "s4,18S4,19S3,0S1,6")
+                            end,
+                            [7] = function()
+                                setanim(this, "S4,8S3,0S1,7")
+                            end,
+                        }
+                    end,
+                    [5] = function()
+                        if random(100) < 5 then
+                            if random(2) == 0 then
+                                zelva.xicht = 14
+                            else
+                                zelva.xicht = 16 + 7 * random(2)
+                            end
+                        end
+                        switch(zelva.napad){
+                            [4] = function()
+                                setanim(this, "s4,13S4,0S3,0S1,4")
+                            end,
+                        }
+                    end,
+                    [6] = function()
+                        if random(100) < 5 then
+                            if random(2) == 0 then
+                                zelva.xicht = 19
+                            else
+                                zelva.xicht = 21 + 4 * random(2)
+                            end
+                        end
+                        switch(zelva.napad){
+                            [4] = function()
+                                setanim(this, "s4,18S4,0S3,0S1,4")
+                            end,
+                        }
+                    end,
+                    [7] = function()
+                        switch(zelva.xicht){
+                            [8.. --FIXME: range
+10] = function()
+                                zelva.xicht = zelva.xicht + 1
+                            end,
+                            default = function()
+                                zelva.xicht = 8
+                            end,
+                        }
+                        if zelva.pozadavek ~= 7 then
+                            setanim(this, "s4,12d4S3,0S1,4")
+                        end
+                    end,
+                }
+                goanim(this)
+            end
+            zelva.afaze = zelva.xicht
+            if zelva.afaze IN --FIXME: IN
+{0, 2, 4, 6, 14, 16, 19, 21, 23, 25, 27, 29, 38, 42} then
+                if random(100) < 5 then
+                    zelva.afaze = zelva.afaze + 1
+                end
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_perla()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        perla.anim = "a0d?0-90La1a2a3a2a1a0d?10-100G"
+
+        return function()
+            goanim(this)
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_small()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        small.hlasit = 0
+
+        return function()
+            if small.hlasit == 1 then
+                small.hlasit = 0
+                talk("zel-m-tazelva", mala)
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_rybka()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        rybka.cinnost = 0
+
+        return function()
+            if rybka.dir ~= dir_no then
+                rybka.cinnost = 1
+                rybka.anim = ""
+                for pom1 = 1, random(5) + 5 do
+                    rybka.anim = rybka.anim + "a" + IntToStr(random(3) + 1)
+                end
+                for pom1 = 1, random(5) + 5 do
+                    rybka.anim = rybka.anim + "a" + IntToStr(random(3) + 1) + "d1"
+                end
+                for pom1 = 1, random(5) + 5 do
+                    rybka.anim = rybka.anim + "a" + IntToStr(random(3) + 1) + "d2"
+                end
+                for pom1 = 1, random(5) + 5 do
+                    rybka.anim = rybka.anim + "a" + IntToStr(random(3) + 1) + "d3"
+                end
+                rybka.anim = rybka.anim + "S1,0"
+                resetanim(this)
+            end
+            switch(rybka.cinnost){
+                [0] = function()
+                    setanim(this, "a0d?30-200S1,2d?10-40s1,1r")
+                    rybka.cinnost = 1
+                end,
+                [1] = function()
+                    goanim(this)
+                end,
+                [2] = function()
+                    goanim(this)
+                    if math.mod(count, 3) == 0 then
+                        rybka.afaze = random(3) + 1
+                    end
+                end,
+            }
+        end
+    end
+
+    -- --------------------
+    local update_table = {}
+    local subinit
+    subinit = prog_init_room()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_zelva()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_perla()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_small()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_rybka()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    return update_table
+end
+local update_table = prog_init()
+
+
+-- -----------------------------------------------------------------
+-- Update
+-- -----------------------------------------------------------------
+function prog_update()
+    for key, subupdate in pairs(update_table) do
+        subupdate()
+    end
+end
+
