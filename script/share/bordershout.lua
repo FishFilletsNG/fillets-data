@@ -15,6 +15,7 @@ local function playShout(unit)
                 unit:talk("sp-shout_big_0"..random(4))
             end
         end
+        game_killPlan()
     end
 end
 

@@ -12,7 +12,12 @@ local function rememberUsed(n)
 end
 
 -- -----------------------------------------------------------------
+-- NOTE: uses 'small' and 'big' names for fishes
 local function selectJoke(n)
+    if not small:isAlive() or not big:isAlive() then
+        return
+    end
+
     switch(n){
         [0] = function()
             if level_getDepth() ~= 15 then
@@ -204,7 +209,6 @@ function stdBoreJokeLoad()
     file_include("script/share/boredialogs.lua")
 end
 
--- NOTE: uses 'small' and 'big' names for fishes
 function stdBoreJoke()
     if no_dialog() then
         local now = game_getCycles()

@@ -132,8 +132,7 @@ local function prog_init()
                     if kufr.delay > 0 then
                         kufr.delay = kufr.delay - 1
                     else
-                        level_newDemo("script/"..codename.."/demo_briefcase.lua",
-                                "images/demo_briefcase/bg.png", 0, 315)
+                        level_newDemo("script/"..codename.."/demo_briefcase.lua")
                         kufr.faze = kufr.faze + 1
                     end
                 end,
