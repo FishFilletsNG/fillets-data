@@ -1,6 +1,6 @@
 dialog_addDialog("zd1-v-civil", "en", "", "font_big", "What a glorious civilization. So many centuries under water and their elevators still work.")
 dialog_addDialog("zd1-v-civil", "cs", "sound/"..codename.."/cs/zd1-v-civil.ogg", "font_big", "Jaká to byla vyspělá civilizace. Staletí pod vodou a jejich výtahy ještě jezdí.")
-dialog_addDialog("zd1-v-civil", "fr", "", "font_big", "Quelle glorieuse civilisation. Plusieurs siècles sous l'eau et les ascenseurs fonctionne toujours.")
+dialog_addDialog("zd1-v-civil", "fr", "", "font_big", "Quelle glorieuse civilisation. Plusieurs siècles sous l'eau et les ascenseurs fonctionnent toujours.")
 
 dialog_addDialog("zd1-m-tlac", "en", "", "font_small", "Especially, when we push them.")
 dialog_addDialog("zd1-m-tlac", "cs", "sound/"..codename.."/cs/zd1-m-tlac.ogg", "font_small", "Zvláště, když zatlačíme.")
@@ -32,7 +32,7 @@ dialog_addDialog("zd1-v-lebka", "fr", "", "font_big", "Ce crâne semble familier
 
 dialog_addDialog("zd1-m-stejne", "en", "", "font_small", "All human skulls look the same... Unlike fish skeletons.")
 dialog_addDialog("zd1-m-stejne", "cs", "sound/"..codename.."/cs/zd1-m-stejne.ogg", "font_small", "Všechny lidské lebky vypadají stejně... Na rozdíl od rybích kostřiček.")
-dialog_addDialog("zd1-m-stejne", "fr", "", "font_small", "Tous les crânes humains se ressemble... Contrairement aux squelettes de poissons.")
+dialog_addDialog("zd1-m-stejne", "fr", "", "font_small", "Tous les crânes humains se ressemblent... Contrairement aux squelettes de poissons.")
 
 dialog_addDialog("zd1-m-cesta", "en", "", "font_small", "This is a tough path.")
 dialog_addDialog("zd1-m-cesta", "cs", "sound/"..codename.."/cs/zd1-m-cesta.ogg", "font_small", "To je ale cesta.")
