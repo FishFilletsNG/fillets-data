@@ -2,7 +2,7 @@
 
 --NOTE: hack for win32, lang Czech = cs
 --NOTE: first five characters from LC_CTYPE are stored in "lang" param
-local lang = string.sub(getParam("lang"), 1, 5)
+local lang = string.sub(getParam("lang") or "", 1, 5)
 winCodes = {
     Czech = "cs",
     Engli = "en",
