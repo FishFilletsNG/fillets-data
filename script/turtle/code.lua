@@ -69,7 +69,6 @@ local function prog_init()
         local boring = 0
         local roompole = createArray(1)
 
-        --FIXME: natvrdo, tvrdaryba
         room.natvrdo = 0
         room.tvrdaryba = 0
         room.blbnout = 300 + random(300)
