@@ -6,7 +6,11 @@ LOOK_RIGHT = 1
 -- -----------------------------------------------------------------
 function random(limit)
     -- return number from [0, limit)
-    return math.random(limit) - 1
+    if limit <= 0 then
+        return 0
+    else
+        return math.random(limit) - 1
+    end
 end
 -- -----------------------------------------------------------------
 function randint(start, max)
