@@ -106,7 +106,7 @@ local function prog_init()
     local function prog_init_meduza()
         return function()
             meduza.afaze = random(3)
-			meduza:updateAnim()
+            meduza:updateAnim()
         end
     end
 

@@ -6,7 +6,7 @@ local function prog_init()
     initModels()
     sound_playMusic("music/rybky14.ogg")
     local pokus = getRestartCount()
-	local roompole = {0}
+    local roompole = {0}
 
 
     -- -------------------------------------------------------------
@@ -59,7 +59,7 @@ local function prog_init()
         ocicko.cinnost = 0
 
         return function()
-			local cinnost_table = {
+            local cinnost_table = {
                 [0] = function()
                     if random(100) < 10 then
                         switch(random(8)){
@@ -193,12 +193,12 @@ local function prog_init()
                 end,
             }
 
-			cinnost_table[2] = cinnost_table[1]
-			cinnost_table[4] = cinnost_table[3]
-			cinnost_table[5] = cinnost_table[3]
+            cinnost_table[2] = cinnost_table[1]
+            cinnost_table[4] = cinnost_table[3]
+            cinnost_table[5] = cinnost_table[3]
 
             switch(ocicko.cinnost)(cinnost_table)
-			ocicko:updateAnim()
+            ocicko:updateAnim()
         end
     end
 
