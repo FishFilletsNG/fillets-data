@@ -35,7 +35,8 @@ local function prog_init()
             if room.dark then
                 for key, model in pairs({small, big}) do
                     if model:isAlive() then
-                        if model:getAction() == "turn" or random(100) < 6 then
+                        local action = model:getAction()
+                        if action == "turn" or action == "activate" or random(100) < 6 then
                             model_useSpecialAnim(model.index, "head_dark", 1)
                         else
                             model_useSpecialAnim(model.index, "head_dark", 0)
