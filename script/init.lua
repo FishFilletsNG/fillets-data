@@ -8,26 +8,28 @@ print("-- script init finish --")
 
 
 -- -----------------------------------------------------------------
-start = 0
---TEST: function test_nextLevel()
-function xnextLevel()
+--TODO: make game menu and load/save
+start = tonumber(getParam("levelnum") or 1)
+
+function nextLevel()
     -- set param "level" to select level
-    start = start + 1
     level = level_list[start]
     if level then
         setParam("level", level)
+        setParam("levelnum", start)
     end
+    start = start + 1
 end
 
 level_list = {
 [01] = "script/start.lua",
 [02] = "script/briefcase.lua",
-[03] = "script/cellar.lua",
+[03] = "script/cellar/cellar.lua",
 [04] = "script/library/library.lua",
-[05] = "script/stairs.lua",
-[06] = "script/broom.lua",
-[07] = "script/reef.lua",
-[08] = "script/wc.lua",
+[05] = "script/stairs/stairs.lua",
+[06] = "script/broom/broom.lua",
+[07] = "script/reef/reef.lua",
+[08] = "script/wc/wc.lua",
 [09] = "script/submarine.lua",
 [10] = "script/party1.lua",
 [11] = "script/elk.lua",
