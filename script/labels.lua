@@ -52,6 +52,15 @@ Hai battuto il RECORD!
 Consulta http://fillets.sf.net/halloffame.php
 ]])
 
+label_text("solver_equals", "en",
+[[
+Your solution is as good as the best known one.
+]])
+label_text("solver_equals", "cs",
+[[
+Vyrovnal jsi nejlepší známé řešení.
+]])
+
 -- menu
 label_text("menu_sound", "en", "Sound volume");
 label_text("menu_sound", "cs", "Hlasitost zvuků");
