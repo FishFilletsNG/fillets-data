@@ -26,7 +26,7 @@ dialog_addDialog("bat-v-vyp", "de", "", "font_big", "Sollte ich das nicht ausmac
 dialog_addDialog("bat-v-klid", "en", "", "font_big", "Now it will be quiet here.")
 dialog_addDialog("bat-v-klid", "cs", "sound/"..codename.."/cs/bat-v-klid.ogg", "font_big", "Teď už bude klid.")
 dialog_addDialog("bat-v-klid", "fr", "", "font_big", "Maintenant c'est calme ici.")
-dialog_addDialog("bat-v-klid", "de", "", "font_big", "Jetzt kehr wieder Ruhe ein.")
+dialog_addDialog("bat-v-klid", "de", "", "font_big", "Endlich wieder Ruhe hier.")
 
 dialog_addDialog("bat-m-sluch", "en", "", "font_small", "We can`t get the receiver from there.")
 dialog_addDialog("bat-m-sluch", "cs", "sound/"..codename.."/cs/bat-m-sluch.ogg", "font_small", "Odsud to sluchátko už nedostaneme.")
