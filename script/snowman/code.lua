@@ -14,7 +14,8 @@ local function prog_init()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
         room.rozh = random(50) + 10
-        StdHlaskySmrti = false
+        --NOTE: turn off standard black jokes
+        stdBlackJoke = function() end
 
         return function()
             if game_getCycles() == room.rozh then
