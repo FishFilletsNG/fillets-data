@@ -1,0 +1,21 @@
+CE
+sch-m-spadlo
+ M: Co nám to sem zase spadlo?
+ M: Something fell here again.
+sch-v-lastura
+ V: Nìjaká lastura. Asi ji budem muset vystrkat nahoru.
+ V: It`s some kind of shell. We`ll probably have to push it upstairs again.
+
+sch-v-setkani
+ V: Setkání lastury s kvìtináèem. To je skoro jako setkání žehlièky s šicím strojem na operaèním stole.
+ V: I can see it now: 'Shell Meets Flowerpot`. That`s almost like an iron and a sewing machine meeting on an operating table.
+
+sch-m-moc0
+ M: Nìjak jsem se do toho moc zabrala.
+ M: I`m sorry, I got a bit carried away.
+sch-m-moc1
+ M: Na chvíli jsem se zamyslela.
+ M: Sorry, I was momentarily distracted.
+sch-m-moc2
+ M: Kam to vlastnì strkám?
+ M: Where I am going with this shell?
