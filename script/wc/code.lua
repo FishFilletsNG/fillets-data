@@ -16,7 +16,7 @@ local function prog_init()
         if pokus == 1 or random(100) < 50 then
             room.uvod = 1
             room.druha = random(2) + 2
-        else 
+        else
             room.uvod = 2
             room.druha = random(2) * 2 + 1
         end
@@ -24,7 +24,7 @@ local function prog_init()
         room.timerdruhe = random(1000) + 500
 
         return function()
-            if (no_dialog() and isReady(small)) and isReady(big) then
+            if no_dialog() and isReady(small) and isReady(big) then
                 if room.timerdruhe > 0 then
                     room.timerdruhe = room.timerdruhe - 1
                 end
@@ -34,7 +34,7 @@ local function prog_init()
                     room.uvod = 0
                     if pokus ~= 1 then
                         adddel(random(500) + 20)
-                    else 
+                    else
                         adddel(random(20) + 20)
                     end
                 elseif room.timerdruhe == 0 then
@@ -47,16 +47,16 @@ local function prog_init()
                 end
                 if pom1 > 0 then
                     switch(pom1){
-                        [1] = function() 
+                        [1] = function()
                             addm(0, "wc-m-prasecinky")
                             addv(random(10), "wc-v-hygiena")
                         end,
-                        [2] = function() 
+                        [2] = function()
                             addm(0, "wc-m-hrbitov")
                             addv(random(5), "wc-v-coze")
                             addm(random(10) + 5, "wc-m-nevis")
                         end,
-                        [3] = function() 
+                        [3] = function()
                             addv(0, "wc-v-oblibene")
                             addm(0, "wc-m-coze")
                             addv(5, "wc-v-neznas")
