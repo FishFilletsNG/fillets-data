@@ -1,0 +1,13 @@
+0                          0... talking_00
+tlačí-c-m                  1... pushing
+mrk-1-c-m                  2... blink, small_smile
+šoking-c-m                 3... shock
+úsměv-c-m                  4... smile
+mluví-c-m                  5... talking_01
+mluví-c2-m                 6... talking_02
+zamračení-c-m              7... scowl_00
+typická Dana-c-m           8... scowl_01
+mluví-typická-m            9...
+mluví-typická2-m           10..                       
+
+width = 14px

@@ -1,0 +1,13 @@
+0                   0... talking_00
+M_H_tlaci           1... pushing
+M_H_mrk             2... blink, small_smile
+M_H_sok             3... shock
+M_H_usmev           4... smile
+M_H_mluvi           5... talking_01
+M_H_mluvi_1         6... talking_02
+M_H_mluvi_oko       7... scowl_00
+M_H_mluvi_1oko      8... scowl_01
+M_H_tlaci moc       9...
+M_H_skleb_1         10..                       
+
+width = 19px
