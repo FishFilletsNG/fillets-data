@@ -4,7 +4,7 @@ dialog_addDialog("pt1-m-parnicek", "fr", "", "font_small", "Regarde. une bateau 
 
 dialog_addDialog("pt1-v-predtucha", "en", "", "font_big", "I have a feeling that this is not going to be a normal picnic.")
 dialog_addDialog("pt1-v-predtucha", "cs", "sound/"..codename.."/cs/pt1-v-predtucha.ogg", "font_big", "Mám takovou předtuchu, že to nebudou žádní normální výletníci.")
-dialog_addDialog("pt1-v-predtucha", "fr", "", "font_big", "J'ai l'intuition que ça ne va pas être un pic-nique normal.")
+dialog_addDialog("pt1-v-predtucha", "fr", "", "font_big", "J'ai l'intuition que ça ne va pas être un pique-nique normal.")
 
 dialog_addDialog("pt1-m-predtucha", "en", "", "font_small", "You and your feelings. Surely it`s full of kind and friendly people.")
 dialog_addDialog("pt1-m-predtucha", "cs", "sound/"..codename.."/cs/pt1-m-predtucha.ogg", "font_small", "Ty tvoje předtuchy. Určitě to budou milí a přátelští lidé.")
@@ -12,7 +12,7 @@ dialog_addDialog("pt1-m-predtucha", "fr", "", "font_small", "Toi et ton intuitio
 
 dialog_addDialog("pt1-m-kostlivec", "en", "", "font_small", "Maybe, you were right. This is a strange picnic.")
 dialog_addDialog("pt1-m-kostlivec", "cs", "sound/"..codename.."/cs/pt1-m-kostlivec.ogg", "font_small", "Možná, žes měl pravdu. Jsou to divní výletníci.")
-dialog_addDialog("pt1-m-kostlivec", "fr", "", "font_small", "Tu as peut-être raison. C'est tout de même un étrange pic-nique.")
+dialog_addDialog("pt1-m-kostlivec", "fr", "", "font_small", "Tu as peut-être raison. C'est tout de même un étrange pique-nique.")
 
 dialog_addDialog("pt1-m-vylezt0", "en", "", "font_small", "Do you think they could get out of this boat?")
 dialog_addDialog("pt1-m-vylezt0", "cs", "sound/"..codename.."/cs/pt1-m-vylezt0.ogg", "font_small", "Myslíš, že by mohli z té lodi vylézt?")
