@@ -1,11 +1,12 @@
 
-eDir = {}
-eDir.DIR_NO = 0
-eDir.DIR_UP = 1
-eDir.DIR_DOWN = 2
-eDir.DIR_LEFT = 3
-eDir.DIR_RIGHT = 4
+function createRoom(width, height, picture)
+    game_createRoom(width, height, picture)
+end
 
+function addModel(name, x, y, picture, shape)
+    model_index = game_addModel(name, x, y, picture, shape)
+    return createObject(model_index)
+end
 
 -- -----------------------------------------------------------------
 function createObject(model_index)
@@ -18,8 +19,14 @@ function createObject(model_index)
     object.addDuplexAnim = function(self, anim_name, left_file, right_file)
         model_addDuplexAnim(self.index, anim_name, left_file, right_file)
     end
+    object.runAnim = function(self, anim_name, phase)
+        model_runAnim(self.index, anim_name, phase)
+    end
     object.setAnim = function(self, anim_name, phase)
         model_setAnim(self.index, anim_name, phase)
+    end
+    object.setSpecialAnim = function(self, anim_name, phase)
+        model_setSpecialAnim(self.index, anim_name, phase)
     end
 
     object.X = function(self)
@@ -36,6 +43,12 @@ function createObject(model_index)
     object.isAlive = function(self)
         return model_isAlive(self.index)
     end
+    object.isTalking = function(self)
+        return model_isTalking(self.index)
+    end
+    object.planDialog = function(self, dialog, delay)
+        return model_planDialog(self.index, dialog, delay)
+    end
 
     return object
 end
@@ -45,18 +58,18 @@ function animateFish(model)
         action = model:getAction()
 
         if "move_up" == action then
-            model:setAnim("vertical_up")
+            model:runAnim("vertical_up")
         elseif "move_down" == action then
-            model:setAnim("vertical_down")
+            model:runAnim("vertical_down")
         elseif "move_left" == action or "move_right" == action then
-            model:setAnim("swam")
+            model:runAnim("swam")
         elseif "turn" == action then
-            model:setAnim("turn")
+            model:runAnim("turn")
         else
-            model:setAnim("rest")
+            model:runAnim("rest")
         end
     else
-        model:setAnim("skeleton")
+        model:runAnim("skeleton")
     end
 end
 
@@ -83,7 +96,6 @@ function addFishAnim(model, fish_name)
     "images/fishes/"..fish_name.."/right/"..fish_name.."_rest1.png")
     model:addDuplexAnim("rest", "images/fishes/"..fish_name.."/left/"..fish_name.."_rest2.png",
     "images/fishes/"..fish_name.."/right/"..fish_name.."_rest2.png")
-    model:setAnim("rest")
 
     model:addDuplexAnim("vertical_up", "images/fishes/"..fish_name.."/left/"..fish_name.."_vertical0.png",
     "images/fishes/"..fish_name.."/right/"..fish_name.."_vertical0.png")
@@ -130,5 +142,11 @@ function addFishAnim(model, fish_name)
     "images/fishes/"..fish_name.."/right/"..fish_name.."_turn1.png")
     model:addDuplexAnim("turn", "images/fishes/"..fish_name.."/left/"..fish_name.."_turn2.png",
     "images/fishes/"..fish_name.."/right/"..fish_name.."_turn2.png")
+
+    -- heads
+    model:addDuplexAnim("head_talking", "images/fishes/"..fish_name.."/heads/left/"..fish_name.."_head_talking0.png", "images/fishes/"..fish_name.."/heads/right/"..fish_name.."_head_talking0.png")
+
+    model:addDuplexAnim("head_talking", "images/fishes/"..fish_name.."/heads/left/"..fish_name.."_head_talking1.png", "images/fishes/"..fish_name.."/heads/right/"..fish_name.."_head_talking1.png")
+    model:addDuplexAnim("head_talking", "images/fishes/"..fish_name.."/heads/left/"..fish_name.."_head_talking2.png", "images/fishes/"..fish_name.."/heads/right/"..fish_name.."_head_talking2.png")
 end
 

@@ -1,3 +1,7 @@
+
+-- TODO: find file in userdir or systemdir
+require("script/level_funcs.lua")
+
 createRoom(40, 35, "images/Pravidla/Pravidla-p.png")
 
 addModel("item_fixed", 0, 0, "images/Pravidla/Pravidla-w.png",
@@ -138,31 +142,58 @@ X
 ]])
 
 
--- TODO: find file in userdir or systemdir
-require("script/level_funcs.lua")
-
 -- -----------------------------------------------------------------
 -- LITTLE fish
-little = createObject(little)
 addFishAnim(little, "little")
+
+dialog_addDialog("pra-m-chytit", "english", "sound/Pravidla/pra-m-chytit.wav",
+    "Now I cannot take the axe. The can is in the way.")
+dialog_addDialog("pra-v-vzit", "english", "sound/Pravidla/pra-v-vzit.wav",
+    "You mustn`t push the axe!")
+dialog_addDialog("pra-m-prisun", "english", "sound/Pravidla/pra-m-prisun.wav",
+    "If you can push that can to me, I`ll shove the axe on it and everything will be okay.")
 
 -- -----------------------------------------------------------------
 -- BIG fish
-big = createObject(big)
 addFishAnim(big, "big")
 
+start = 1
 -- ---------------------------------------------------------------
 -- Update
 -- ---------------------------------------------------------------
 function nextRound() 
     animateFish(little)
     animateFish(big)
+
+    -- TEST: dialogs
+    if start == 1 then
+        start = 2
+        little:planDialog("pra-m-chytit", 50)
+        big:planDialog("pra-v-vzit", 50)
+        little:planDialog("pra-m-prisun", 50)
+    end
+
+    if little:isTalking() then
+        -- print("little is talking")
+        little:setSpecialAnim("head_talking", math.random(3) - 1)
+    else
+        little:setSpecialAnim("", 0)
+    end
+    if big:isTalking() then
+        -- print("big is talking")
+        big:setSpecialAnim("head_talking", math.random(3) - 1)
+    else
+        big:setSpecialAnim("", 0)
+    end
 end
+
 
 function update()
     -- print("script update")
     -- x, y =  model_getLoc(little)
     -- print(x .. ", " .. y)
+    --
+
 
 end
 
