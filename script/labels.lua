@@ -94,6 +94,7 @@ label_text("menu_lang", "it", "Scegli la lingua");
 
 label_text("menu_speech", "en", "Choose speech");
 label_text("menu_speech", "cs", "Výběr mluvy");
+label_text("menu_speech", "fr", "Choix des paroles");
 label_text("menu_speech", "de", "Sprache der Tonausgabe");
 label_text("menu_speech", "it", "Scegli i dialoghi");
 
