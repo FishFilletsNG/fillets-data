@@ -1,10 +1,10 @@
 
 dialogId("kos-m-uklid0", "font_small", "It`s been a long time since we`ve been here...")
-dialogStr("E` da tanto che non veninamo qui...")
+dialogStr("È da tanto che non veninamo qui...")
 
 
 dialogId("kos-m-uklid1", "font_small", "Nobody has cleaned up in here for a long time.")
-dialogStr("E` tanto che qui nessuno viene a pulire.")
+dialogStr("È tanto che qui nessuno viene a pulire.")
 
 
 dialogId("kos-m-uklid2", "font_small", "I knew we`d have to clean this room up.")
@@ -49,4 +49,3 @@ dialogStr("Buttà tutto laggiù e ce ne potremo andare.")
 
 dialogId("kos-m-zamet3", "font_small", "Forget that bin and just sweep the garbage down.")
 dialogStr("Lascia stare quel cestino e ficca la spazzatura laggiù.")
-

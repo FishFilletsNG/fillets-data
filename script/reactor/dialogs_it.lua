@@ -40,7 +40,7 @@ dialogStr("Allora che altro è?")
 
 
 dialogId("rea-m-cojavim", "font_small", "How should I know? A cinematoscope? A child`s toy? A shooting gallery?")
-dialogStr("Come faccio a saperlo? Un cinemascopio? Un gioco per bambini? Un tiro a segno?")
+dialogStr("Come faccio a saperlo? Un cinematografo? Un gioco per bambini? Un tiro a segno?")
 
 
 dialogId("rea-v-radeji", "font_big", "I`d rather stick to a more rational explanation.")
@@ -56,11 +56,11 @@ dialogStr("Bene allora quanti dischi volanti, per la tua opinione, hanno un tiro
 
 
 dialogId("rea-v-takvidis", "font_big", "You see?")
-dialogStr("Hai visto?")
+dialogStr("Visto?")
 
 
 dialogId("rea-m-doufam", "font_small", "I hope we don`t start some unpleasant reaction.")
-dialogStr("Spero solo che non inneschiamo qualche reazione.")
+dialogStr("Speriamo solo di non innescare qualche reazione.")
 
 
 dialogId("rea-v-nemudruj", "font_big", "Don`t think. Just push the rods.")
