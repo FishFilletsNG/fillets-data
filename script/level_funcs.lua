@@ -5,10 +5,10 @@ LOOK_RIGHT = 1
 function createRoom(width, height, picture)
     -- TODO: wavy params
     game_createRoom(width, height, picture)
-    sound_addSound("impact_light", "sound/share/sp-zuch1.wav")
-    sound_addSound("impact_light", "sound/share/sp-zuch2.wav")
-    sound_addSound("impact_heavy", "sound/share/sp-ocel1.wav")
-    sound_addSound("impact_heavy", "sound/share/sp-ocel2.wav")
+    sound_addSound("impact_light", "sound/share/sp-zuch1.ogg")
+    sound_addSound("impact_light", "sound/share/sp-zuch2.ogg")
+    sound_addSound("impact_heavy", "sound/share/sp-ocel1.ogg")
+    sound_addSound("impact_heavy", "sound/share/sp-ocel2.ogg")
 end
 
 local models_table = {}
