@@ -24,12 +24,12 @@ dialog_addDialog("let-v-oko", "fr", "", "font_big", "Peux-tu voir cet oeil ? Té
 dialog_addDialog("let-v-oko", "de", "", "font_big", "Siehst du das Auge? Ein stiller Zeuge der Tragödie... Jemand traute diesem Flugzeug - und das Glasauge ist alles, was er hinterließ.")
 dialog_addDialog("let-v-oko", "de_CH", "", "font_big", "Siehst du das Auge? Ein stiller Zeuge der Tragödie... Jemand traute diesem Flugzeug - und das Glasauge ist alles, was er hinterliess.")
 
-dialog_addDialog("let-m-oko", "en", "", "font_small", "This is not a glass eye but gyroscope. At least in this level.")
+dialog_addDialog("let-m-oko", "en", "", "font_small", "This is not a glass eye but a gyroscope. At least in this level.")
 dialog_addDialog("let-m-oko", "cs", "sound/"..codename.."/cs/let-m-oko.ogg", "font_small", "To není skleněné oko, ale gyroskop. Aspoň v této místnosti.")
 dialog_addDialog("let-m-oko", "fr", "", "font_small", "Ce n'est pas un oeil de verre mais un gyroscope. Au moins dans ce niveau.")
 dialog_addDialog("let-m-oko", "de", "", "font_small", "Das ist kein Glasauge sondern ein Kreisel. Zumindest in dieser Ebene.")
 
-dialog_addDialog("let-m-sedadlo", "en", "", "font_small", "Seats. Why is there so many seats here?")
+dialog_addDialog("let-m-sedadlo", "en", "", "font_small", "Seats. Why are there so many seats here?")
 dialog_addDialog("let-m-sedadlo", "cs", "sound/"..codename.."/cs/let-m-sedadlo.ogg", "font_small", "Sedadla. Proč jsou tu všude sedadla?")
 dialog_addDialog("let-m-sedadlo", "fr", "", "font_small", "Des sièges. Pourquoi y en a-t-il autant ici ?")
 dialog_addDialog("let-m-sedadlo", "de", "", "font_small", "Sitze. Warum sind hier so viele Sitze?")
