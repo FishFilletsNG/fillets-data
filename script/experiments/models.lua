@@ -437,157 +437,157 @@ item_light = addModel("item_light", 33, 10,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 33, 11,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 33, 12,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 33, 13,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 33, 14,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 34, 9,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 34, 10,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 34, 11,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 34, 12,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 34, 13,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 34, 14,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 35, 9,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 35, 10,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 35, 11,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 36, 9,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 36, 10,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 36, 11,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 36, 12,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 36, 13,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 36, 14,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 37, 9,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 37, 10,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 37, 11,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 37, 12,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 37, 13,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 item_light = addModel("item_light", 37, 14,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/p0.png")
+addItemAnim(item_light, "images/"..codename.."/p_00.png")
 
 mutant = addModel("item_light", 5, 27,
 [[

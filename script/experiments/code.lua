@@ -1,4 +1,6 @@
 
+file_include("script/"..codename.."/prog_pld.lua")
+
 -- -----------------------------------------------------------------
 -- Init
 -- -----------------------------------------------------------------
@@ -1072,12 +1074,10 @@ local function prog_init()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
         pldicek.pocet = 0
-        --TODO: pldlici
-        -- InitPldici(pldicek, pldicek.pocet)
+        initPldici(pldicek)
 
         return function()
-            --TODO: pldlici
-            -- PrgPldici(pldicek, pldicek.pocet)
+            progPldici(pldicek)
         end
     end
 
