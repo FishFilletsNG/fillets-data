@@ -42,8 +42,8 @@ function addv(time, text, busy)
     big:planDialog(time, text, busy)
 end
 function adddel(time)
-    -- hack, big fish is used to say nothing
-    big:planDialog(time, "pause")
+    -- hack, room is used to say nothing
+    room:planDialog(time, "pause")
 end
 
 -- -----------------------------------------------------------------
@@ -85,7 +85,7 @@ end
 
 function look_at(fish, object)
     local dx = xdist(fish, object)
-    return (fish:isLeft() and dx < 0) or dx > 0
+    return (fish:isLeft() and dx > 0) or dx < 0
 end
 -- -----------------------------------------------------------------
 -- Alternative for FArray
