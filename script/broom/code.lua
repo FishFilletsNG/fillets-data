@@ -7,7 +7,7 @@ local function prog_init()
     initModels()
     sound_playMusic("music/rybky01.ogg")
     local pokus = getRestartCount()
-	local roompole_0 = 0
+    local roompole_0 = 0
 
     local function prog_init_wall()
         local uvod
@@ -82,7 +82,7 @@ local function prog_init()
                     end,
                 }
             end
-			metla:setAnim("default", metla.afaze)
+            metla:setAnim("default", metla.afaze)
         end
     end
 

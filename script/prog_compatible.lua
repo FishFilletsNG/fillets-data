@@ -32,6 +32,10 @@ end
 function addv(time, text)
     big:planDialog(time, text)
 end
+function adddel(time)
+    -- hack, big fish is used to say nothing
+    big:planDialog(time, "pause")
+end
 
 -- -----------------------------------------------------------------
 function xdist(one, second)
