@@ -71,31 +71,29 @@ end
 -- -----------------------------------------------------------------
 -- Planning functions
 -- -----------------------------------------------------------------
-function isTime(delay, count)
+local function isTime(delay, count)
     return count >= delay
 end
 
-function planDialog(actor_index, delay, dialog, action)
+function planTimeAction(delay, action)
+    local waitTime = 0
     game_planAction(function(count)
-            if isTime(delay, count) and dialog_empty() then
-                model_talk(actor_index, dialog)
-                if nil ~= action then
-                    action()
-                end
-                return true
-            else
-                return false
+            local done = false
+            if not dialog_empty() then
+                waitTime = count
+            elseif isTime(delay + waitTime, count) then
+                action()
+                done = true
             end
+            return done
         end)
 end
 
-function planTimeAction(delay, action)
-    game_planAction(function(count)
-            if isTime(delay, count) and dialog_empty() then
-                action()
-                return true
-            else
-                return false
+function planDialog(actor_index, delay, dialog, action)
+    planTimeAction(delay, function()
+            model_talk(actor_index, dialog)
+            if nil ~= action then
+            action()
             end
         end)
 end
