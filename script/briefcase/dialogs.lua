@@ -13,12 +13,12 @@ dialog_addDialog("kuf-v-noco", "de_CH", "", "font_big", "Du weisst, wir können 
 dialog_addDialog("kuf-v-hod", "en", "", "font_big", "Let`s push it down so we can take a look at it.")
 dialog_addDialog("kuf-v-hod", "cs", "sound/"..codename.."/cs/kuf-v-hod.ogg", "font_big", "Hodíme to dolů a podíváme se na to.")
 dialog_addDialog("kuf-v-hod", "fr", "", "font_big", "Poussons le, ainsi nous pourrons regarder.")
-dialog_addDialog("kuf-v-hod", "de", "", "font_big", "Lass sie uns runterschieben, damit wir einen Blick reinwerfen können.")
+dialog_addDialog("kuf-v-hod", "de", "", "font_big", "Schieben wir ihn runter, damit wir einen Blick reinwerfen können.")
 
 dialog_addDialog("kuf-v-doprace", "en", "", "font_big", "Well, let`s get to work.")
 dialog_addDialog("kuf-v-doprace", "cs", "sound/"..codename.."/cs/kuf-v-doprace.ogg", "font_big", "Tak, pusťme se do práce.")
 dialog_addDialog("kuf-v-doprace", "fr", "", "font_big", "Et bien, allons bosser.")
-dialog_addDialog("kuf-v-doprace", "de", "", "font_big", "Na dann, an die Arbeit!.")
+dialog_addDialog("kuf-v-doprace", "de", "", "font_big", "Na dann, ran an die Arbeit!")
 
 dialog_addDialog("kuf-v-dotoho", "en", "", "font_big", "So, now we can finally get started.")
 dialog_addDialog("kuf-v-dotoho", "cs", "sound/"..codename.."/cs/kuf-v-dotoho.ogg", "font_big", "Tak, a teď už se do toho konečně pustíme.")
@@ -40,7 +40,7 @@ dialog_addDialog("kuf-v-jeste", "cs", "sound/"..codename.."/cs/kuf-v-jeste.ogg",
 dialog_addDialog("kuf-v-jeste", "fr", "", "font_big", "Devons-nous le regarder à nouveau ?")
 dialog_addDialog("kuf-v-jeste", "de", "", "font_big", "Wollen wir es nochmal ansehen?")
 
-dialog_addDialog("kuf-m-disk", "en", "", "font_small", "How? The disk self-destructed")
+dialog_addDialog("kuf-m-disk", "en", "", "font_small", "How? The disk self-destructed.")
 dialog_addDialog("kuf-m-disk", "cs", "sound/"..codename.."/cs/kuf-m-disk.ogg", "font_small", "Jak? Disk se zničil.")
 dialog_addDialog("kuf-m-disk", "fr", "", "font_small", "Comment ? le message s'est autodétruit.")
 dialog_addDialog("kuf-m-disk", "de", "", "font_small", "Wie? Die Nachricht hat sich selbst zerstört.")
@@ -58,7 +58,7 @@ dialog_addDialog("kuf-m-pravda", "de", "", "font_small", "Das ist wahr...")
 dialog_addDialog("kuf-m-dodilny", "en", "", "font_small", "Come on, let`s take the player into the workshop and show him the work safety regulations.")
 dialog_addDialog("kuf-m-dodilny", "cs", "sound/"..codename.."/cs/kuf-m-dodilny.ogg", "font_small", "Pojď, vezmeme hráče do dílny a ukážeme mu pravidla bezpečnosti práce.")
 dialog_addDialog("kuf-m-dodilny", "fr", "", "font_small", "Viens, emmenons le joueur dans l'atelier et montrons-lui le travail sans risque.")
-dialog_addDialog("kuf-m-dodilny", "de", "", "font_small", "Los, lass uns den Spieler mit in die Werkstatt nehmen und ihm die Sicherheitsbestimmungen zeigen.")
+dialog_addDialog("kuf-m-dodilny", "de", "", "font_small", "Na los, lass uns den Spieler mit in die Werkstatt nehmen und ihm die Sicherheitsbestimmungen zeigen.")
 
 dialog_addDialog("kuf-v-napad", "en", "", "font_big", "Good idea.")
 dialog_addDialog("kuf-v-napad", "cs", "sound/"..codename.."/cs/kuf-v-napad.ogg", "font_big", "Dobrý nápad.")
@@ -68,7 +68,7 @@ dialog_addDialog("kuf-v-napad", "de", "", "font_big", "Gute Idee.")
 dialog_addDialog("kuf-m-nezvednu", "en", "", "font_small", "I can`t lift it. Can you give it a try?")
 dialog_addDialog("kuf-m-nezvednu", "cs", "sound/"..codename.."/cs/kuf-m-nezvednu.ogg", "font_small", "Já to nenadzvednu, zkus to ty.")
 dialog_addDialog("kuf-m-nezvednu", "fr", "", "font_small", "Je ne peux pas le soulever. Peux-tu essayer ?")
-dialog_addDialog("kuf-m-nezvednu", "de", "", "font_small", "Ich krieg das nicht hoch. Kannst du es versuchen?")
+dialog_addDialog("kuf-m-nezvednu", "de", "", "font_small", "Ich kann das nicht anheben. Versuchst Du es mal?")
 
 dialog_addDialog("kuf-m-kousek", "en", "", "font_small", "Just a little bit higher so I can swim underneath you.")
 dialog_addDialog("kuf-m-kousek", "cs", "sound/"..codename.."/cs/kuf-m-kousek.ogg", "font_small", "Ještě kousek, ať pod tebou můžu projet.")
@@ -139,12 +139,12 @@ dialog_addDialog("help13", "en", "", "font_small", "And unlike my bigger partner
 dialog_addDialog("help13", "cs", "sound/"..codename.."/cs/help13.ogg", "font_small", "A já, na rozdíl od většího kamaráda, nejen že nepohnu s ocelovými předměty, ale nesmím je ani držet.")
 dialog_addDialog("help13", "fr", "", "font_small", "Et contrairement à mon ami costaud, je ne peux pas bouger ou même porter des objet en acier.")
 dialog_addDialog("help13", "de", "", "font_small", "Und im Gegensatz zu meinem größeren Partner kann ich keine Gegenstände aus Stahl tragen oder bewegen.")
-dialog_addDialog("help13", "de_CH", "", "font_small", "Und im Gegensatz zu meinem grösseren Partner kann ich keine Gegenstände aus Stahl tragen oder bewegen.")
+dialog_addDialog("help13", "de_CH", "", "font_small", "Und im Gegensatz zu meinem grösseren Partner kann ich keine Gegenstände aus Stahl bewegen oder sogar tragen.")
 
 dialog_addDialog("help14", "en", "", "font_big", "We have loaded our saved game for the last time. Now we`ll show you all the things we`re capable of.")
 dialog_addDialog("help14", "cs", "sound/"..codename.."/cs/help14.ogg", "font_big", "Naposledy jsme nahráli pozici. Teď ti ukážeme, co dělat umíme.")
 dialog_addDialog("help14", "fr", "", "font_big", "Nous chargeons notre sauvegarde pour la dernière fois. Nous allons te montrer ce que nous sommes capables de faire.")
-dialog_addDialog("help14", "de", "", "font_big", "Wir haben unser gespeichertes Spiel zum letzten Mal geladen. Jetzt zeigen wir dir, wozu wir sonst noch in der Lage sind.")
+dialog_addDialog("help14", "de", "", "font_big", "Wir haben unser gespeichertes Spiel zum letzten Mal geladen. Jetzt zeigen wir dir all das, was wir können.")
 
 dialog_addDialog("help15", "en", "", "font_small", "We can always pick up objects and then let them fall.")
 dialog_addDialog("help15", "cs", "sound/"..codename.."/cs/help15.ogg", "font_small", "Předmět můžeme vždy zvedat a zase pouštět.")
@@ -174,7 +174,7 @@ dialog_addDialog("help19", "de", "", "font_small", "Wir können einen Gegenstand
 dialog_addDialog("help20", "en", "", "font_big", "We can also swim freely under an object which we are supporting and pass it to the other fish.")
 dialog_addDialog("help20", "cs", "sound/"..codename.."/cs/help20.ogg", "font_big", "Můžeme také pod předmětem volně proplouvat a předávat si jej.")
 dialog_addDialog("help20", "fr", "", "font_big", "Nous pouvons nager librement sous un objet que nous supportons tous les deux et le passer à l'autre poisson.")
-dialog_addDialog("help20", "de", "", "font_big", "Wir können auch unter dem Gegenstand, den wir tragen, langschwimmenund ihn dem anderen Fisch übergeben.")
+dialog_addDialog("help20", "de", "", "font_big", "Wir können auch unter dem Gegenstand, den wir tragen, langschwimmen und ihn dem anderen Fisch übergeben.")
 
 dialog_addDialog("help21", "en", "", "font_small", "And we can push objects off of each other`s back, as long as the object falls down immediately.")
 dialog_addDialog("help21", "cs", "sound/"..codename.."/cs/help21.ogg", "font_small", "A pokud předmět hned spadne, můžeme ho jedna z druhé shodit.")
@@ -189,6 +189,6 @@ dialog_addDialog("help22", "de", "", "font_big", "Das war`s mit Regeln. Wenn du 
 dialog_addDialog("help23", "en", "", "font_small", "In summary, we can only lift objects, let them drop, push them along a solid surface, push them onto a surface, and push them off of each other.")
 dialog_addDialog("help23", "cs", "sound/"..codename.."/cs/help23.ogg", "font_small", "Já bych to ještě shrnula. Předměty můžeme beztrestně pouze zvedat, pouštět, posouvat po pevné podložce, na něco je nasouvat nebo je ze sebe shazovat.")
 dialog_addDialog("help23", "fr", "", "font_small", "En résumé, nous pouvons seulement soulevez les objets, les laisser tomber, les pousser le long d'une surface solide, les pousser sur une surface, et les faire tomber de l'un de nous.")
-dialog_addDialog("help23", "de", "", "font_small", "Zusammengefasst, können wir Gegenstände anheben, fallenlassen, sowohl über und auf eine feste Oberfläche als auch von unseren Rücken herunterschieben.")
+dialog_addDialog("help23", "de", "", "font_small", "Zusammengefasst: Wir können Gegenstände nur anheben, fallenlassen, über und auf eine feste Oberfläche schieben und von unseren Rücken herunterschieben.")
 
 
