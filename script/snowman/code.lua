@@ -92,7 +92,6 @@ local function prog_init()
                     end
                 end
                 if pom1 == 0 and snehulak.afaze == 1 then
-                    --TODO: this is lang independent sound
                     snehulak:talk("tr-x-koste")
                     if no_dialog() then
                         addm(2, "tr-m-au"..(random(2) + 1))

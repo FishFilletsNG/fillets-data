@@ -97,8 +97,8 @@ function createObject(model_index)
     object.killSound = function(self)
         return model_killSound(self.index)
     end
-    object.planDialog = function(self, dialog, delay, action)
-        return planDialog(self.index, dialog, delay, action)
+    object.planDialog = function(self, delay, dialog, action)
+        return planDialog(self.index, delay, dialog, action)
     end
     object.setGoal = function(self, goalname)
         return model_setGoal(self.index, goalname)

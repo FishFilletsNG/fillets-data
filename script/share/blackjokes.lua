@@ -199,7 +199,7 @@ function stdBlackJoke()
             }
         elseif hlaska == hobe and PoslSmrtObou ~= 1 then
             PoslSmrtObou = 1
-            room:planDialog("smrt-x-obe")
+            room:planDialog(0, "smrt-x-obe")
             addv(2, "smrt-v-obe")
             addm(0, "smrt-m-obe")
         end

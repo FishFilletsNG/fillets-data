@@ -47,6 +47,15 @@ function createArray(size)
     return array
 end
 
+function isIn(item, table)
+    for index, value in pairs(table) do
+        if value == item then
+            return True
+        end
+    end
+    return False
+end
+
 -- -----------------------------------------------------------------
 -- Planning functions
 -- -----------------------------------------------------------------
@@ -54,10 +63,7 @@ function isTime(delay, count)
     return count >= delay
 end
 
-function planDialog(actor_index, dialog, delay, action)
-    if delay == nil then
-        delay = 0
-    end
+function planDialog(actor_index, delay, dialog, action)
     game_planAction(function(count)
             if isTime(delay, count) and dialog_empty() then
                 model_talk(actor_index, dialog)

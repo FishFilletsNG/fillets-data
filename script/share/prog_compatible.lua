@@ -34,10 +34,10 @@ end
 -- Planning
 -- -----------------------------------------------------------------
 function addm(time, text)
-    small:planDialog(text, time)
+    small:planDialog(time, text)
 end
 function addv(time, text)
-    big:planDialog(text, time)
+    big:planDialog(time, text)
 end
 function adddel(time)
     -- plan delay
@@ -50,7 +50,7 @@ function planSet(model, variable_name, value)
 end
 function planDialogSet(time, text, value, model, variable_name)
     -- plan value set, and unset after dialog end
-    model:planDialog(text, time, function() model[variable_name] = value end)
+    model:planDialog(time, text, function() model[variable_name] = value end)
     planTimeAction(0, function() model[variable_name] = 0 end)
 end
 

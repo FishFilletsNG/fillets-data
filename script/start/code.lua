@@ -198,7 +198,7 @@ local function prog_init()
                     end
                 end,
                 [8] = function()
-                    trubka:planDialog("1st-x-ocel")
+                    trubka:planDialog(0, "1st-x-ocel")
                     trubka.cinnost = trubka.cinnost + 1
                 end,
                 [9] = function()
