@@ -74,7 +74,7 @@ X
 ]])
 addItemAnim(item_heavy, "images/"..codename.."/4-ocel.png")
 
-small = addModel("fish_small", 13, 19,
+small = addModel("fish_small", 7, 12,
 [[
 XXX
 ]])
