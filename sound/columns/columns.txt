@@ -36,8 +36,8 @@ sl-v-pust
  V: Teď to opatrně pusť.
  V: And now ease it down, carefully.
 sl-m-jekot
- x
- x
+x
+x
 sl-v-barbarka
  V: Barbarko! Nemůžeš si dát trochu pozor?!
  V: You barbarian! Can`t you be a little bit cautious?!
