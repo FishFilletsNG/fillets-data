@@ -16,6 +16,13 @@ function getRestartCount()
     return game_getRestartCounter()
 end
 
+function createArray(size)
+    local array = {}
+    for i = 0, size - 1 do
+        array[i] = 0
+    end
+    return array
+end
 -- -----------------------------------------------------------------
 -- Compatibility functions
 -- -----------------------------------------------------------------
@@ -26,11 +33,11 @@ dir_left = 3
 dir_right = 4
 
 -- -----------------------------------------------------------------
-function addm(time, text)
-    small:planDialog(time, text)
+function addm(time, text, busy)
+    small:planDialog(time, text, busy)
 end
-function addv(time, text)
-    big:planDialog(time, text)
+function addv(time, text, busy)
+    big:planDialog(time, text, busy)
 end
 function adddel(time)
     -- hack, big fish is used to say nothing
@@ -73,10 +80,16 @@ function dist(one, second)
     local dy = math.abs(ydist(one, second))
     return math.max(dx, dy)
 end
+
+function look_at(fish, object)
+    local dx = xdist(fish, object)
+    return (fish:isLeft() and dx < 0) or dx > 0
+end
 -- -----------------------------------------------------------------
 -- Alternative for FArray
 -- -----------------------------------------------------------------
 function modelEquals(model_index, x, y)
+    -- index -1 is for empty space (water)
     return model_equals(model_index, x, y)
 end
 
