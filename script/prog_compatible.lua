@@ -13,18 +13,13 @@ function odd(number)
 end
 
 function getRestartCount()
-    -- FIXME: implement
-    return random(4)
+    local counter = game_getRestartCounter()
+    print("TEST: counter="..counter)
+    return counter
 end
 
 -- -----------------------------------------------------------------
 -- Compatibility functions
--- -----------------------------------------------------------------
-function random(limit)
-    -- return number from [0, limit)
-    return math.random(limit) - 1
-end
-
 -- -----------------------------------------------------------------
 function addm(time, text)
     small:planDialog(time, text)
