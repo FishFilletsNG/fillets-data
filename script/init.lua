@@ -11,6 +11,7 @@ print("-- script init finish --")
 --TODO: make game menu and load/save
 start = tonumber(getParam("levelnum") or 1)
 
+--[[
 function nextLevel()
     -- set param "level" to select level
     level = level_list[start]
@@ -20,6 +21,7 @@ function nextLevel()
     end
     start = start + 1
 end
+]]
 
 level_list = {
 [01] = "script/start.lua",
