@@ -133,8 +133,8 @@ local function prog_init()
                     if kufr.delay > 0 then
                         kufr.delay = kufr.delay - 1
                     else
-                        --FIXME: InitKufrDemo
-                        --InitKufrDemo()
+                        game_newDemo("script/"..codename.."/demo_briefcase.lua",
+                        "images/demo_briefcase/bg.png", 0, 315)
                         kufr.faze = kufr.faze + 1
                     end
                 end,

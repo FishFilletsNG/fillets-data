@@ -1,39 +1,39 @@
-dialog_addFont("font_small", "font/font_small.png")
 dialog_addFont("font_big", "font/font_big.png")
+dialog_addFont("font_altar", "font/font_altar.png")
+dialog_addFont("font_small", "font/font_small.png")
 
+dialog_addDialog("kd-uvod", "en", "", "font_altar", "Good morning, fish. This is an affair of the gravest importance and so we have chosen you, our ablest underwater agents.")
+dialog_addDialog("kd-uvod", "cs", "sound/"..codename.."/cs/kd-uvod.ogg", "font_altar", "Dobrý den, ryby. Tentokrát jde o zále¾itost mimoøádného významu, proto se obracíme na vás jako na na¹e nejschopnìj¹í agenty pod vodou.")
 
-dialog_addDialog("KD-uvod", "en", "", "@", "Good morning, fish. This is an affair of the gravest importance and so we have chosen you, our ablest underwater agents.")
-dialog_addDialog("KD-uvod", "cs", "sound/"..codename.."/cs/KD-uvod.ogg", "@", "Dobrý den, ryby. Tentokrát jde o zále¾itost mimoøádného významu, proto se obracíme na vás jako na na¹e nejschopnìj¹í agenty pod vodou.")
+dialog_addDialog("kd-ufo", "en", "", "font_altar", "Agents of FDTO - Fish Detective Training Organization - managed to get hold of several amateur snapshots of an extraterrestrial object which has crashed somewhere in your vicinity. Your mission, if you choose to accept it, will be to recover the UFO and acquire all the information you can about the principles and nature of interstellar propulsion.")
+dialog_addDialog("kd-ufo", "cs", "sound/"..codename.."/cs/kd-ufo.ogg", "font_altar", "Informátorùm na¹í Fakt Dìsnì Tajné Organizace se podaøilo získat nìkolik amatérských zábìrù mimozemského objektu, který se zøítil nìkam do va¹í oblasti. Va¹ím úkolem, pokud ho pøijmete, bude UFO najít a získat informace o principech a konstrukci mezihvìzdného pohonu.")
 
-dialog_addDialog("KD-ufo", "en", "", "@", "Agents of FDTO - Fish Detective Training Organization - managed to get hold of several amateur snapshots of an extraterrestrial object which has crashed somewhere in your vicinity. Your mission, if you choose to accept it, will be to recover the UFO and acquire all the information you can about the principles and nature of interstellar propulsion.")
-dialog_addDialog("KD-ufo", "cs", "sound/"..codename.."/cs/KD-ufo.ogg", "@", "Informátorùm na¹í Fakt Dìsnì Tajné Organizace se podaøilo získat nìkolik amatérských zábìrù mimozemského objektu, který se zøítil nìkam do va¹í oblasti. Va¹ím úkolem, pokud ho pøijmete, bude UFO najít a získat informace o principech a konstrukci mezihvìzdného pohonu.")
+dialog_addDialog("kd-mesto", "en", "", "font_altar", "You should also try to close some of our as yet unsolved cases. We are mostly interested in the circumstances surrounding the sinking of the mythical city, by chance in the same area.")
+dialog_addDialog("kd-mesto", "cs", "sound/"..codename.."/cs/kd-mesto.ogg", "font_altar", "Zároveò zkuste pohnout s na¹imi starými nevyøe¹enými pøípady. Pøedev¹ím jsou to nejasnosti kolem potopení dávného mýtického mìsta, shodou okolností v té¾e oblasti.")
 
-dialog_addDialog("KD-mesto", "en", "", "@", "You should also try to close some of our as yet unsolved cases. We are mostly interested in the circumstances surrounding the sinking of the mythical city, by chance in the same area.")
-dialog_addDialog("KD-mesto", "cs", "sound/"..codename.."/cs/KD-mesto.ogg", "@", "Zároveò zkuste pohnout s na¹imi starými nevyøe¹enými pøípady. Pøedev¹ím jsou to nejasnosti kolem potopení dávného mýtického mìsta, shodou okolností v té¾e oblasti.")
+dialog_addDialog("kd-bermudy", "en", "", "font_altar", "This case may be connected to the mystery of the Bermuda Triangle. Find out why so many ships and planes have disappeared in this area over the past several decades.")
+dialog_addDialog("kd-bermudy", "cs", "sound/"..codename.."/cs/kd-bermudy.ogg", "font_altar", "S tím mù¾e souviset i záhada Bermudského trojúhelníku. Zjistìte, proè se v nìm u¾ po léta ztrácejí lodì a letadla.")
 
-dialog_addDialog("KD-bermudy", "en", "", "@", "This case may be connected to the mystery of the Bermuda Triangle. Find out why so many ships and planes have disappeared in this area over the past several decades.")
-dialog_addDialog("KD-bermudy", "cs", "sound/"..codename.."/cs/KD-bermudy.ogg", "@", "S tím mù¾e souviset i záhada Bermudského trojúhelníku. Zjistìte, proè se v nìm u¾ po léta ztrácejí lodì a letadla.")
+dialog_addDialog("kd-silver", "en", "", "font_altar", "One of the lost ships is rumored to have belonged to the legendary Captain Silver. There are still many uncertainties surrounding this famous pirate. Most of all we are interested in the map which shows the location of his buried treasure.")
+dialog_addDialog("kd-silver", "cs", "sound/"..codename.."/cs/kd-silver.ogg", "font_altar", "Navíc jedna ze ztracených lodí údajnì patøila legendárnímu kapitánu Silverovi. Kolem tohoto slavného piráta je stále mnoho nejasností. Nás pøedev¹ím zajímá mapa místa, kam zakopal své poklady.")
 
-dialog_addDialog("KD-silver", "en", "", "@", "One of the lost ships is rumored to have belonged to the legendary Captain Silver. There are still many uncertainties surrounding this famous pirate. Most of all we are interested in the map which shows the location of his buried treasure.")
-dialog_addDialog("KD-silver", "cs", "sound/"..codename.."/cs/KD-silver.ogg", "@", "Navíc jedna ze ztracených lodí údajnì patøila legendárnímu kapitánu Silverovi. Kolem tohoto slavného piráta je stále mnoho nejasností. Nás pøedev¹ím zajímá mapa místa, kam zakopal své poklady.")
+dialog_addDialog("kd-pocitac", "en", "", "font_altar", "One of your most important tasks is to find the computer hidden in the deep by a certain criminal organization. It contains data about a project which could change the entire world.")
+dialog_addDialog("kd-pocitac", "cs", "sound/"..codename.."/cs/kd-pocitac.ogg", "font_altar", "Jedním z nejdùle¾itìj¹ích úkolù je najít poèítaè, který v hlubinách ukryla nejmenovaná zloèinná organizace. Obsahuje údaje o projektu, který by mohl zmìnit celý svìt.")
 
-dialog_addDialog("KD-pocitac", "en", "", "@", "One of your most important tasks is to find the computer hidden in the deep by a certain criminal organization. It contains data about a project which could change the entire world.")
-dialog_addDialog("KD-pocitac", "cs", "sound/"..codename.."/cs/KD-pocitac.ogg", "@", "Jedním z nejdùle¾itìj¹ích úkolù je najít poèítaè, který v hlubinách ukryla nejmenovaná zloèinná organizace. Obsahuje údaje o projektu, který by mohl zmìnit celý svìt.")
+dialog_addDialog("kd-zelva", "en", "", "font_altar", "You should also find and detain the mysterious coral turtle. It escaped from the FDTO interrogation facility. It is not armed, but it supposedly has telepathic abilities.")
+dialog_addDialog("kd-zelva", "cs", "sound/"..codename.."/cs/kd-zelva.ogg", "font_altar", "Také je tøeba zajistit tajemnou ¾elvu, ¾elvu korálovou, je¾ uprchla z nápravnì výchovné laboratoøe FDTO. Není ozbrojena, ale zøejmì má telepatické schopnosti.")
 
-dialog_addDialog("KD-zelva", "en", "", "@", "You should also find and detain the mysterious coral turtle. It escaped from the FDTO interrogation facility. It is not armed, but it supposedly has telepathic abilities.")
-dialog_addDialog("KD-zelva", "cs", "sound/"..codename.."/cs/KD-zelva.ogg", "@", "Také je tøeba zajistit tajemnou ¾elvu, ¾elvu korálovou, je¾ uprchla z nápravnì výchovné laboratoøe FDTO. Není ozbrojena, ale zøejmì má telepatické schopnosti.")
+dialog_addDialog("kd-elektr", "en", "", "font_altar", "We have been notified that a certain nuclear power plant has been dumping its radioactive waste illegally. Check it out.")
+dialog_addDialog("kd-elektr", "cs", "sound/"..codename.."/cs/kd-elektr.ogg", "font_altar", "Byli jsme upozornìni, ¾e jistá jaderná elektrárna se zbavuje radiaktivního odpadu nelegálním zpùsobem. Provìøte to.")
 
-dialog_addDialog("KD-elektr", "en", "", "@", "We have been notified that a certain nuclear power plant has been dumping its radioactive waste illegally. Check it out.")
-dialog_addDialog("KD-elektr", "cs", "sound/"..codename.."/cs/KD-elektr.ogg", "@", "Byli jsme upozornìni, ¾e jistá jaderná elektrárna se zbavuje radiaktivního odpadu nelegálním zpùsobem. Provìøte to.")
+dialog_addDialog("kd-gral", "en", "", "font_altar", "And don`t forget to find the holy grail.")
+dialog_addDialog("kd-gral", "cs", "sound/"..codename.."/cs/kd-gral.ogg", "font_altar", "A také nezapomeòte najít svatý grál.")
 
-dialog_addDialog("KD-gral", "en", "", "@", "And don`t forget to find the holy grail.")
-dialog_addDialog("KD-gral", "cs", "sound/"..codename.."/cs/KD-gral.ogg", "@", "A také nezapomeòte najít svatý grál.")
+dialog_addDialog("kd-zaver", "en", "", "font_altar", "And as usual: If anyone from your team is injured or killed, Altar will deny any knowledge of your existence and the level will be restarted.")
+dialog_addDialog("kd-zaver", "cs", "sound/"..codename.."/cs/kd-zaver.ogg", "font_altar", "A jako v¾dy: Bude-li nìkdo z va¹eho týmu uvìznìn èi zabit, Altar se od v¹eho distancuje a místnost bude restartována.")
 
-dialog_addDialog("KD-zaver", "en", "", "@", "And as usual: If anyone from your team is injured or killed, Altar will deny any knowledge of your existence and the level will be restarted.")
-dialog_addDialog("KD-zaver", "cs", "sound/"..codename.."/cs/KD-zaver.ogg", "@", "A jako v¾dy: Bude-li nìkdo z va¹eho týmu uvìznìn èi zabit, Altar se od v¹eho distancuje a místnost bude restartována.")
-
-dialog_addDialog("KD-znici", "en", "", "@", "This disk will self-destruct in five seconds.")
-dialog_addDialog("KD-znici", "cs", "sound/"..codename.."/cs/KD-znici.ogg", "@", "Tento disk se znièí za pìt sekund.")
+dialog_addDialog("kd-znici", "en", "", "font_altar", "This disk will self-destruct in five seconds.")
+dialog_addDialog("kd-znici", "cs", "sound/"..codename.."/cs/kd-znici.ogg", "font_altar", "Tento disk se znièí za pìt sekund.")
 
 dialog_addDialog("kuf-m-je", "en", "", "font_small", "Oh no, not again...")
 dialog_addDialog("kuf-m-je", "cs", "sound/"..codename.."/cs/kuf-m-je.ogg", "font_small", "Jé, u¾ zase...")
@@ -148,4 +148,5 @@ dialog_addDialog("help22", "cs", "sound/"..codename.."/cs/help22.ogg", "font_big
 
 dialog_addDialog("help23", "en", "", "font_small", "In summary, we can only lift objects, let them drop, push them along a solid surface, push them onto a surface, and push them off of each other.")
 dialog_addDialog("help23", "cs", "sound/"..codename.."/cs/help23.ogg", "font_small", "Já bych to je¹tì shrnula. Pøedmìty mù¾eme beztrestnì pouze zvedat, pou¹tìt, posouvat po pevné podlo¾ce, na nìco je nasouvat nebo je ze sebe shazovat.")
+
 
