@@ -73,7 +73,16 @@ function animateFish(model)
     end
 end
 
-
+-- -----------------------------------------------------------------
+function animateHead(model)
+    if model:isAlive() then
+        if "turn" ~= model:getAction() then
+            if model:isTalking() then
+                model:useSpecialAnim("head_talking", math.random(3) - 1)
+            end
+        end
+    end
+end
 
 -- -----------------------------------------------------------------
 function addd(time, text, who)

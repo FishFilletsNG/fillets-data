@@ -145,16 +145,27 @@ X
 -- LITTLE fish
 addFishAnim(little, "little")
 
-dialog_addDialog("pra-m-chytit", "english", "sound/Pravidla/pra-m-chytit.wav",
-    "Now I cannot take the axe. The can is in the way.")
-dialog_addDialog("pra-v-vzit", "english", "sound/Pravidla/pra-v-vzit.wav",
-    "You mustn`t push the axe!")
-dialog_addDialog("pra-m-prisun", "english", "sound/Pravidla/pra-m-prisun.wav",
-    "If you can push that can to me, I`ll shove the axe on it and everything will be okay.")
-
 -- -----------------------------------------------------------------
 -- BIG fish
 addFishAnim(big, "big")
+
+
+-- TEST: dialogs
+dialog_addFont("little", "font/little.png")
+dialog_addFont("big", "font/big.png")
+
+dialog_addDialog("pra-m-chytit", "english", "little",
+    "sound/Pravidla/pra-m-chytit.wav",
+    "Now I cannot take the axe. The can is in the way.")
+
+dialog_addDialog("pra-m-prisun", "english", "little",
+    "sound/Pravidla/pra-m-prisun.wav",
+    "If you can push that can to me, I`ll shove the axe on it and everything will be okay.")
+
+dialog_addDialog("pra-v-vzit", "english", "big",
+    "sound/Pravidla/pra-v-vzit.wav",
+    "You mustn`t push the axe!")
+
 
 start = 1
 -- ---------------------------------------------------------------
@@ -167,24 +178,11 @@ function nextRound()
     -- TEST: dialogs
     if start == 1 then
         start = 2
-        little:planDialog("pra-m-chytit", 50)
+        little:planDialog("pra-m-chytit", 30)
         big:planDialog("pra-v-vzit", 50)
-        big:planDialog("pra-v-vzit", 50)
-        big:planDialog("pra-v-vzit", 50)
-        little:planDialog("pra-m-prisun", 50)
-        little:planDialog("pra-m-chytit", 50)
-        little:planDialog("pra-m-prisun", 50)
+        little:planDialog("pra-m-prisun", 30)
     end
 
-    
-    if little:isTalking() and "turn" ~= little:getAction() then
-        -- print("little is talking")
-        little:useSpecialAnim("head_talking", math.random(3) - 1)
-    end
-    if big:isTalking() and "turn" ~= big:getAction() then
-        -- print("big is talking")
-        big:useSpecialAnim("head_talking", math.random(3) - 1)
-    end
 end
 
 
@@ -194,7 +192,8 @@ function update()
     -- print(x .. ", " .. y)
     --
 
-
+    animateHead(little)
+    animateHead(big)
 end
 
 
