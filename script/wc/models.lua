@@ -1,7 +1,7 @@
 
 createRoom(23, 22, "images/"..codename.."/wc-p.png")
 
-wall = addModel("item_fixed", 0, 0,
+room = addModel("item_fixed", 0, 0,
 [[
 .......................
 .......................
@@ -26,7 +26,7 @@ XXXXXXXXXXXXX...XXXXXXX
 XXXXXXXXXXXXX...XXXXXXX
 XXXXXXXXXXXXXX..XXXXXXX
 ]])
-addItemAnim(wall, "images/"..codename.."/wc-w.png")
+addItemAnim(room, "images/"..codename.."/wc-w.png")
 
 item_light = addModel("item_light", 11, 9,
 [[

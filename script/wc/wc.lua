@@ -1,6 +1,6 @@
 file_include('script/level_funcs.lua')
 
-codename = "wc"
+codename = 'wc'
 
 -- ---------------------------------------------------------------
 -- Models
