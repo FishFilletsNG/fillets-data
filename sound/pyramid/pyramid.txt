@@ -13,6 +13,9 @@ pyr-v-druha
  V: To přece nevidíš. Vždyť je to na druhé straně zdi.
  V: You can`t see it from here? It`s on the other side of wall.
 
+pyr-m-nudi
+ M: Podívej, ta ženská se snad nudí!
+ M: Look, the woman is bored!
 pyr-v-sark
  V: Tak tobě se zdá, že to trvá dlouho?
  V: Do you think that this is taking us too long?
