@@ -262,7 +262,7 @@ if no_dialog and zije[mala] and zije[velka] then
   if (stoji>1000+2000*roompole[2])and(velkar.pryc=1) then
    begin
     stoji:=0;
-    addv(16,'kuch-m-zapeklite');
+    addm(16,'kuch-m-zapeklite');
     inc(roompole[2]);
    end;
 

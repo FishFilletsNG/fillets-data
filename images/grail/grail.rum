@@ -177,7 +177,7 @@ case pom2 of
     end;
  2: begin
      addv(10,'gr-v-tuseni');      //jine nez se zda
-     addv(10,'gr-m-tuseni');
+     addm(10,'gr-m-tuseni');
     end;
  3: begin
      addm(10,'gr-m-svaty0');     //odneseme svaty nebo vse

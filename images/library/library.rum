@@ -144,7 +144,7 @@ if no_dialog and zije[mala] and zije[velka] then
       begin
         oost:=1;
         zavaziv:=1;
-        addm(3,'vrak-v-potvurka');
+        addv(3,'vrak-v-potvurka');
       end
     else if (vlevo=0)and(sklibak.X=10)and(sklibak.Y=31)and(random(100)<2) then
       begin
