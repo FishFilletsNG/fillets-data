@@ -7,7 +7,7 @@ local function prog_init()
     initModels()
     sound_playMusic("music/rybky14.ogg")
     local pokus = getRestartCount()
-    local roompole = createArray(100)
+
 
     -- -------------------------------------------------------------
     local function prog_init_room()
@@ -31,10 +31,14 @@ local function prog_init()
                 if room.uvod == 0 then
                     room.uvod = 1
                     if random(100) < math.floor(200 / pokus) then
-                        addm(random(10) + 5, "poc-m-lezt"..random(3))
-                        addv(random(10), "poc-v-kam"..random(4))
+                        addm(random(10) + 5, "poc-m-lezt" + chr(48 + random(3)))
+                        addv(random(10), "poc-v-kam" + chr(48 + random(4)))
                     end
-                elseif room.onachazeni == 0 and dist(big, monitoor) <= 1 and look_at(big, monitoor) and random(100) < 7 then
+                elseif room.onachazeni == 0 and dist(@ --FIXME: addr
+big, @ --FIXME: addr
+monitoor) <= 1 and look_at(@ --FIXME: addr
+big, @ --FIXME: addr
+monitoor) and random(100) < 7 then
                     room.onachazeni = 1
                     if random(100) < 60 then
                         addv(5, "poc-v-nenajde")
@@ -81,7 +85,11 @@ local function prog_init()
                             room.ovyvrtce = 0
                         end,
                     }
-                elseif room.ovyvrtce == 0 and big.Y == vrtidlo.Y + 2 and dist(big, vrtidlo) == 0 and dist(small, vrtidlo) > 2 and random(100) < 2 then
+                elseif room.ovyvrtce == 0 and big.Y == vrtidlo.Y + 2 and dist(@ --FIXME: addr
+big, @ --FIXME: addr
+vrtidlo) == 0 and dist(@ --FIXME: addr
+small, @ --FIXME: addr
+vrtidlo) > 2 and random(100) < 2 then
                     room.ovyvrtce = 1
                     addm(4, "poc-m-vyvrtka")
                 elseif room.okramu == 0 and (monitoor.dir == dir_up or pociitac.dir == dir_up) and random(100) < 8 then
