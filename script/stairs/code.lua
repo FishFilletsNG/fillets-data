@@ -67,7 +67,7 @@ local function prog_init()
             if plzik.dir ~= dir_no then
                 plzik.stav = 15
             end
-            if modelEquals(-1, plzik.X + 1, plzik.Y + 2) then
+            if isWater(plzik.X + 1, plzik.Y + 2) then
                 plzik.stav = 10
             end
             switch(plzik.stav){
@@ -101,7 +101,7 @@ local function prog_init()
                 end,
                 [10] = function()
                     plzik.afaze = 4
-                    if modelEquals(-1, plzik.X + 1, plzik.Y + 2) then
+                    if isWater(plzik.X + 1, plzik.Y + 2) then
                         plzik.stav = 21 + random(20)
                     end
                 end,
@@ -120,7 +120,7 @@ local function prog_init()
                     end
                 end,
             }
-            plzik:setAnim("default", plzik.afaze)
+            plzik:updateAnim()
         end
     end
 
@@ -195,7 +195,7 @@ local function prog_init()
                     end
                 end,
             }
-            snecek:setAnim("default", snecek.afaze)
+            snecek:updateAnim()
         end
     end
 

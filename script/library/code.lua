@@ -133,7 +133,7 @@ local function prog_init()
 
                 switch(sklibak.afaze)(anim_table)
             end
-            sklibak:setAnim("default", sklibak.afaze)
+            sklibak:updateAnim()
         end
     end
 

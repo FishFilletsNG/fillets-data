@@ -83,7 +83,7 @@ local function prog_init()
                     end,
                 }
             end
-            metla:setAnim("default", metla.afaze)
+            metla:updateAnim()
         end
     end
 

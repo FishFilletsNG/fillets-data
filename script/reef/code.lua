@@ -170,7 +170,7 @@ local function prog_init()
                     lastura.afaze = 1
                 end,
             }
-            lastura:setAnim("default", lastura.afaze)
+            lastura:updateAnim()
         end
     end
 
@@ -204,7 +204,7 @@ local function prog_init()
                     end
                 end,
             }
-            snek1:setAnim("default", snek1.afaze)
+            snek1:updateAnim()
         end
     end
 

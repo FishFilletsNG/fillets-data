@@ -75,7 +75,7 @@ local function prog_init()
                     delo1.afaze = 1
                 end,
             }
-            delo1:setAnim("default", delo1.afaze)
+            delo1:updateAnim()
         end
     end
 
@@ -96,7 +96,7 @@ local function prog_init()
                     delo3.afaze = 1
                 end,
             }
-            delo3:setAnim("default", delo3.afaze)
+            delo3:updateAnim()
         end
     end
 
@@ -117,7 +117,7 @@ local function prog_init()
                     delo2.afaze = 1
                 end,
             }
-            delo2:setAnim("default", delo2.afaze)
+            delo2:updateAnim()
         end
     end
 
@@ -138,7 +138,7 @@ local function prog_init()
                     delo4.afaze = 1
                 end,
             }
-            delo4:setAnim("default", delo4.afaze)
+            delo4:updateAnim()
         end
     end
 

@@ -115,3 +115,7 @@ function modelEquals(model_index, x, y)
     return model_equals(model_index, x, y)
 end
 
+function isWater(x, y)
+    return model_equals(-1, x, y)
+end
+
