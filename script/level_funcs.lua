@@ -5,17 +5,18 @@ function random(limit)
 end
 
 function createRoom(width, height, picture)
+    -- TODO: wavy params
     game_createRoom(width, height, picture)
 end
 
 function addModel(name, x, y, picture, shape)
-    model_index = game_addModel(name, x, y, picture, shape)
+    local model_index = game_addModel(name, x, y, picture, shape)
     return createObject(model_index)
 end
 
 -- -----------------------------------------------------------------
 function createObject(model_index)
-    object = {}
+    local object = {}
     object.index = model_index
 
     object.addAnim = function(self, anim_name, filename)
@@ -35,11 +36,11 @@ function createObject(model_index)
     end
 
     object.X = function(self)
-        x, y = model_getLoc(self.index)
+        local x, y = model_getLoc(self.index)
         return x
     end
     object.Y = function(self)
-        x, y = model_getLoc(self.index)
+        local x, y = model_getLoc(self.index)
         return y
     end
     object.getAction = function(self)
@@ -58,9 +59,34 @@ function createObject(model_index)
     return object
 end
 -- -----------------------------------------------------------------
+function addItemAnim(model, picture_00)
+    local anim_name = "default"
+    model:addAnim(anim_name, picture_00)
+    -- TODO: support others than .png
+    local index = 1
+    local ext = ".png"
+    local base, ok = string.gsub(picture_00, "_00"..ext.."$", "_")
+    while ok == 1 do
+        local next_file = base..index..ext
+        if index < 10 then
+            next_file = base.."0"..index..ext
+        end
+
+        if file_exists(next_file) then
+            model:addAnim(anim_name, next_file)
+        else
+            ok = 0
+        end
+        index = index + 1
+    end
+
+    model:setAnim(anim_name, 0)
+end
+
+-- -----------------------------------------------------------------
 function animateFish(model)
     if model:isAlive() then
-        action = model:getAction()
+        local action = model:getAction()
 
         if "move_up" == action then
             model:runAnim("vertical_up")
@@ -101,66 +127,75 @@ function addv(time, text)
 end
 
 -- -----------------------------------------------------------------
-function addFishAnim(model, fish_name)
-    model:addDuplexAnim("skeleton", "images/fishes/"..fish_name.."/left/"..fish_name.."_skeleton0.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_skeleton0.png")
-    model:addDuplexAnim("rest", "images/fishes/"..fish_name.."/left/"..fish_name.."_rest0.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_rest0.png")
-    model:addDuplexAnim("rest", "images/fishes/"..fish_name.."/left/"..fish_name.."_rest1.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_rest1.png")
-    model:addDuplexAnim("rest", "images/fishes/"..fish_name.."/left/"..fish_name.."_rest2.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_rest2.png")
+function addFishAnim(model, look_dir, directory)
+    model:addDuplexAnim("skeleton", directory.."/left/skeleton0.png",
+            directory.."/right/skeleton0.png")
 
-    model:addDuplexAnim("vertical_up", "images/fishes/"..fish_name.."/left/"..fish_name.."_vertical0.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_vertical0.png")
-    model:addDuplexAnim("vertical_up", "images/fishes/"..fish_name.."/left/"..fish_name.."_vertical1.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_vertical1.png")
-    model:addDuplexAnim("vertical_up", "images/fishes/"..fish_name.."/left/"..fish_name.."_vertical2.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_vertical2.png")
-    model:addDuplexAnim("vertical_up", "images/fishes/"..fish_name.."/left/"..fish_name.."_vertical3.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_vertical3.png")
-    model:addDuplexAnim("vertical_up", "images/fishes/"..fish_name.."/left/"..fish_name.."_vertical4.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_vertical4.png")
-    model:addDuplexAnim("vertical_up", "images/fishes/"..fish_name.."/left/"..fish_name.."_vertical5.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_vertical5.png")
+    model:addDuplexAnim("rest", directory.."/left/rest0.png",
+            directory.."/right/rest0.png")
+    model:addDuplexAnim("rest", directory.."/left/rest1.png",
+            directory.."/right/rest1.png")
+    model:addDuplexAnim("rest", directory.."/left/rest2.png",
+            directory.."/right/rest2.png")
 
-    model:addDuplexAnim("vertical_down", "images/fishes/"..fish_name.."/left/"..fish_name.."_vertical5.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_vertical5.png")
-    model:addDuplexAnim("vertical_down", "images/fishes/"..fish_name.."/left/"..fish_name.."_vertical4.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_vertical4.png")
-    model:addDuplexAnim("vertical_down", "images/fishes/"..fish_name.."/left/"..fish_name.."_vertical3.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_vertical3.png")
-    model:addDuplexAnim("vertical_down", "images/fishes/"..fish_name.."/left/"..fish_name.."_vertical2.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_vertical2.png")
-    model:addDuplexAnim("vertical_down", "images/fishes/"..fish_name.."/left/"..fish_name.."_vertical1.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_vertical1.png")
-    model:addDuplexAnim("vertical_down", "images/fishes/"..fish_name.."/left/"..fish_name.."_vertical0.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_vertical0.png")
+    model:addDuplexAnim("vertical_up", directory.."/left/vertical0.png",
+            directory.."/right/vertical0.png")
+    model:addDuplexAnim("vertical_up", directory.."/left/vertical1.png",
+            directory.."/right/vertical1.png")
+    model:addDuplexAnim("vertical_up", directory.."/left/vertical2.png",
+            directory.."/right/vertical2.png")
+    model:addDuplexAnim("vertical_up", directory.."/left/vertical3.png",
+            directory.."/right/vertical3.png")
+    model:addDuplexAnim("vertical_up", directory.."/left/vertical4.png",
+            directory.."/right/vertical4.png")
+    model:addDuplexAnim("vertical_up", directory.."/left/vertical5.png",
+            directory.."/right/vertical5.png")
 
-    model:addDuplexAnim("swam", "images/fishes/"..fish_name.."/left/"..fish_name.."_swam0.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_swam0.png")
-    model:addDuplexAnim("swam", "images/fishes/"..fish_name.."/left/"..fish_name.."_swam1.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_swam1.png")
-    model:addDuplexAnim("swam", "images/fishes/"..fish_name.."/left/"..fish_name.."_swam2.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_swam2.png")
-    model:addDuplexAnim("swam", "images/fishes/"..fish_name.."/left/"..fish_name.."_swam3.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_swam3.png")
-    model:addDuplexAnim("swam", "images/fishes/"..fish_name.."/left/"..fish_name.."_swam4.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_swam4.png")
-    model:addDuplexAnim("swam", "images/fishes/"..fish_name.."/left/"..fish_name.."_swam5.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_swam5.png")
+    model:addDuplexAnim("vertical_down", directory.."/left/vertical5.png",
+            directory.."/right/vertical5.png")
+    model:addDuplexAnim("vertical_down", directory.."/left/vertical4.png",
+            directory.."/right/vertical4.png")
+    model:addDuplexAnim("vertical_down", directory.."/left/vertical3.png",
+            directory.."/right/vertical3.png")
+    model:addDuplexAnim("vertical_down", directory.."/left/vertical2.png",
+            directory.."/right/vertical2.png")
+    model:addDuplexAnim("vertical_down", directory.."/left/vertical1.png",
+            directory.."/right/vertical1.png")
+    model:addDuplexAnim("vertical_down", directory.."/left/vertical0.png",
+            directory.."/right/vertical0.png")
 
-    model:addDuplexAnim("turn", "images/fishes/"..fish_name.."/left/"..fish_name.."_turn0.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_turn0.png")
-    model:addDuplexAnim("turn", "images/fishes/"..fish_name.."/left/"..fish_name.."_turn1.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_turn1.png")
-    model:addDuplexAnim("turn", "images/fishes/"..fish_name.."/left/"..fish_name.."_turn2.png",
-    "images/fishes/"..fish_name.."/right/"..fish_name.."_turn2.png")
+    model:addDuplexAnim("swam", directory.."/left/swam0.png",
+            directory.."/right/swam0.png")
+    model:addDuplexAnim("swam", directory.."/left/swam1.png",
+            directory.."/right/swam1.png")
+    model:addDuplexAnim("swam", directory.."/left/swam2.png",
+            directory.."/right/swam2.png")
+    model:addDuplexAnim("swam", directory.."/left/swam3.png",
+            directory.."/right/swam3.png")
+    model:addDuplexAnim("swam", directory.."/left/swam4.png",
+            directory.."/right/swam4.png")
+    model:addDuplexAnim("swam", directory.."/left/swam5.png",
+            directory.."/right/swam5.png")
+
+    model:addDuplexAnim("turn", directory.."/left/turn0.png",
+            directory.."/right/turn0.png")
+    model:addDuplexAnim("turn", directory.."/left/turn1.png",
+            directory.."/right/turn1.png")
+    model:addDuplexAnim("turn", directory.."/left/turn2.png",
+            directory.."/right/turn2.png")
 
     -- heads
-    model:addDuplexAnim("head_talking", "images/fishes/"..fish_name.."/heads/left/"..fish_name.."_head_talking0.png", "images/fishes/"..fish_name.."/heads/right/"..fish_name.."_head_talking0.png")
+    model:addDuplexAnim("head_talking",
+            directory.."/heads/left/head_talking0.png",
+            directory.."/heads/right/head_talking0.png")
 
-    model:addDuplexAnim("head_talking", "images/fishes/"..fish_name.."/heads/left/"..fish_name.."_head_talking1.png", "images/fishes/"..fish_name.."/heads/right/"..fish_name.."_head_talking1.png")
-    model:addDuplexAnim("head_talking", "images/fishes/"..fish_name.."/heads/left/"..fish_name.."_head_talking2.png", "images/fishes/"..fish_name.."/heads/right/"..fish_name.."_head_talking2.png")
+    model:addDuplexAnim("head_talking",
+            directory.."/heads/left/head_talking1.png",
+            directory.."/heads/right/head_talking1.png")
+    model:addDuplexAnim("head_talking",
+            directory.."/heads/left/head_talking2.png",
+            directory.."/heads/right/head_talking2.png")
+
+    model:runAnim("rest")
 end
 
