@@ -60,7 +60,7 @@ node_bestSolution("reactor", 163, "Pavel Danihelka")
 node_bestSolution("magnet", 410, "Ronny Standtke")
 node_bestSolution("engine", 323, "Ronny Standtke")
 node_bestSolution("steel", 189, "Tibor Zenis")
---node_bestSolution("corridor", 0, "")
+node_bestSolution("corridor", 574, "Ronny Standtke")
 --node_bestSolution("experiments", 0, "")
 --node_bestSolution("propulsion", 0, "")
  
