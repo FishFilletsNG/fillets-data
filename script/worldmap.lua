@@ -53,7 +53,8 @@ branch_addNode("magnet", "engine", "script/engine/init.lua", 95, 236)
 branch_addNode("engine", "steel", "script/steel/init.lua", 70, 210)
 branch_addNode("steel", "corridor", "script/corridor/init.lua", 78, 169)
 branch_addNode("corridor", "experiments", "script/experiments/init.lua", 111, 159)
-branch_addNode("experiments", "propulsion", "script/propulsion/init.lua", 118, 192)
+branch_addNode("experiments", "propulsion", "script/propulsion/init.lua", 118, 192,
+        false, "images/propulsion/poster.png")
 
 -- Coral reef
 branch_addNode("reef", "corals", "script/corals/init.lua", 329, 294, true)
