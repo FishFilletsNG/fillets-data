@@ -1,6 +1,6 @@
 dialog_addDialog("jed-m-libi", "en", "", "font_small", "It is lovely here.")
 dialog_addDialog("jed-m-libi", "cs", "sound/"..codename.."/cs/jed-m-libi.ogg", "font_small", "Tady se mi líbí.")
-dialog_addDialog("jed-m-libi", "fr", "", "font_small", "C'est adorable ici."
+dialog_addDialog("jed-m-libi", "fr", "", "font_small", "C'est adorable ici.")
 
 dialog_addDialog("jed-m-perly0", "en", "", "font_small", "So many pearls.")
 dialog_addDialog("jed-m-perly0", "cs", "sound/"..codename.."/cs/jed-m-perly0.ogg", "font_small", "Takových perel.")
