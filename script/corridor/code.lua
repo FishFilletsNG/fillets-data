@@ -101,11 +101,11 @@ local function prog_init()
                 elseif room.rpesvelka == 0 and big.Y >= 20 and random(100) < 2 then
                     room.rpesvelka = 1
                     room.nerusit = 1
-                    pom1 = random(4) + 48
+                    pom1 = random(4)
                     addv(10, "ch-v-robopes")
                     addm(random(5), "ch-m-ten")
                     addv(random(10), "ch-v-zapada")
-                    addm(5 + random(10), "ch-m-odpoved" + chr(pom1))
+                    addm(5 + random(10), "ch-m-odpoved"..pom1)
                     if random(100) < 70 then
                         addv(random(20) + 10, "ch-v-smysl")
                         if random(100) < 80 then
