@@ -71,6 +71,9 @@ label_text("menu_lang", "fr", "Choix de la langue");
 label_text("menu_lang", "de", "Sprachauswahl");
 label_text("menu_lang", "it", "Scegli la lingua");
 
+label_text("menu_speech", "en", "Choose speech");
+label_text("menu_speech", "cs", "Výběr mluvy");
+
 label_text("menu_subtitles", "en", "Show/hide subtitles");
 label_text("menu_subtitles", "cs", "Zobraz/skryj titulky");
 label_text("menu_subtitles", "fr", "Montrer/cacher les sous-titres");
