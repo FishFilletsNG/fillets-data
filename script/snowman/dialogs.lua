@@ -6,7 +6,7 @@ dialog_addDialog("tr-m-chlad1", "de", "", "font_small", "Mir ist etwas kalt.")
 dialog_addDialog("tr-v-jid1", "en", "", "font_big", "No wonder. This is the Winter Mess Hall.")
 dialog_addDialog("tr-v-jid1", "cs", "sound/"..codename.."/cs/tr-v-jid1.ogg", "font_big", "Není divu, vždyť tohle je Zimní jídelna.")
 dialog_addDialog("tr-v-jid1", "fr", "", "font_big", "T'inquiète pas. C'est un salon d'hiver")
-dialog_addDialog("tr-v-jid1", "de", "", "font_big", "Kein Wunder. Das ist die Wintermesse")
+dialog_addDialog("tr-v-jid1", "de", "", "font_big", "Kein Wunder. Das ist die Wintermesse.")
 
 dialog_addDialog("tr-m-chlad2", "en", "", "font_small", "I`m cold.")
 dialog_addDialog("tr-m-chlad2", "cs", "sound/"..codename.."/cs/tr-m-chlad2.ogg", "font_small", "Je mi zima.")
