@@ -1,17 +1,16 @@
 -- -----------------------------------------------------------------
 -- These function are called when save or load is made.
--- script_save() ... call level_save(serialized_level)
--- script_load() ... call level_load(saved_moves)
+-- script_save() ... calls level_save(serialized_level)
+-- script_load() ... calls level_load(saved_moves)
 --                   with global variable saved_moves
--- script_loadState() ... use global variable saved_models
+-- script_loadState() ... uses global variable saved_models
 --                        to restore model states
 -- -----------------------------------------------------------------
 
 file_include("script/share/Pickle.lua")
 
 function script_save()
-    local models = getModelsTable()
-    local serialized = pickle(models)
+    local serialized = pickle(getModelsTable())
     level_save(serialized)
 end
 
@@ -29,11 +28,13 @@ function script_loadState()
     local models = getModelsTable()
     local saved_table = unpickle_table(saved_models)
 
-    --NOTE: don't save objects in object, only primitive types.
+    --NOTE: don't save objects with cross references
+    --NOTE: objects address will be different after load
     for model_key, model in pairs(saved_table) do
         for param_key, param in pairs(model) do
             models[model_key][param_key] = param
         end
     end
 end
+
 
