@@ -10,7 +10,6 @@ local function prog_init()
     local roompole = createArray(100)
 
 
-
     -- -------------------------------------------------------------
     local function prog_init_room()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false

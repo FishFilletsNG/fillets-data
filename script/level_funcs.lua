@@ -97,11 +97,6 @@ function createObject(model_index)
         return model_isTalking(self.index)
     end
     object.planDialog = function(self, delay, dialog, busy)
-        if busy then
-            busy = 1
-        else
-            busy = 0
-        end
         return model_planDialog(self.index, delay, dialog, busy)
     end
     object.setGoal = function(self, goalname)

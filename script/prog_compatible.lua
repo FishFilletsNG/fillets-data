@@ -1,3 +1,5 @@
+-- there are functions used in levels to raise dialogs and animation
+--
 
 function no_dialog()
     return dialog_empty()
@@ -93,6 +95,7 @@ function modelEquals(model_index, x, y)
     return model_equals(model_index, x, y)
 end
 
+
 -- -----------------------------------------------------------------
 -- Init functions
 -- -----------------------------------------------------------------
@@ -135,6 +138,9 @@ local function updateModels()
     end
 end
 
+file_include("script/share/blackjokes.lua")
+file_include("script/share/bubles.lua")
+
 function script_update()
     -- this function is called after every game cycle
     animateFish(small)
@@ -144,6 +150,10 @@ function script_update()
 
     updateModels()
     prog_update()
+
+    stdBubles()
+    -- stdJoke()
+    stdBlackJoke()
 end
 
 
