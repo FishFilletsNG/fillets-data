@@ -163,9 +163,14 @@ function addItemAnim(model, picture_00)
 end
 
 function addHeadAnim(model, directory, anim, phase)
-    model:addDuplexAnim(anim,
-            directory.."/heads/left/head_"..phase..".png",
-            directory.."/heads/right/head_"..phase..".png")
+    local left_path = directory.."/heads/left/head_"..phase..".png"
+    if file_exists(left_path) then
+        model:addDuplexAnim(anim,
+                directory.."/heads/left/head_"..phase..".png",
+                directory.."/heads/right/head_"..phase..".png")
+    else
+        print("SCRIPT_WARNING head anim is not available", anim, directory, phase)
+    end
 end
 function addBodyAnim(model, directory, anim, phase)
     local picture_00 = directory.."/left/body_"..phase..".png"
