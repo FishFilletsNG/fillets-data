@@ -25,7 +25,6 @@ local function planHyb(unit, destX, destY)
                 local result = false
                 local dir = findDir(unit, destX, destY)
                 if dir == dir_no then
-                    print("end of show")
                     room.natvrdo = 0
                     result = true
                 else
