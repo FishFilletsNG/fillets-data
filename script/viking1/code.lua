@@ -158,9 +158,6 @@ local function prog_init()
     local function prog_init_hlavni()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
-        --TODO: reverse the picture
-        spec = 10
-
         return function()
             if hlavni:isTalking() then
                 hlavni.afaze = random(3)
@@ -284,8 +281,6 @@ local function prog_init()
 
         melodak2.hrat = -1
         melodak2.mrk = 0
-        --TODO: reverse picture
-        spec = 10
 
         return function()
             if room.startblok == 1 then
