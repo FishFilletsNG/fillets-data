@@ -113,37 +113,28 @@ dialog_addFont("big", "font/big.png")
 -- -----------------------------------------------------------------
 -- Dialogs
 dialog_addDialog("sch-m-spadlo", "english", "small",
-    "sound/schody/sch-m-spadlo.wav",
+    "sound/stairs/sch-m-spadlo.wav",
     "Something fell here again.")
 dialog_addDialog("sch-v-lastura", "english", "big",
-    "sound/schody/sch-v-lastura.wav",
+    "sound/stairs/sch-v-lastura.wav",
     "It`s some kind of shell. We`ll probably have to push it upstairs again.")
 
 dialog_addDialog("sch-v-setkani", "english", "big",
-    "sound/schody/sch-v-setkani.wav",
+    "sound/stairs/sch-v-setkani.wav",
     "I can see it now: 'Shell Meets Flowerpot`. That`s almost like an iron and a sewing machine meeting on an operating table.")
 
 dialog_addDialog("sch-m-moc0", "english", "small",
-    "sound/schody/sch-m-moc0.wav",
+    "sound/stairs/sch-m-moc0.wav",
     "I`m sorry, I got a bit carried away.")
 dialog_addDialog("sch-m-moc1", "english", "small",
-    "sound/schody/sch-m-moc1.wav",
+    "sound/stairs/sch-m-moc1.wav",
     "Sorry, I was momentarily distracted.")
 dialog_addDialog("sch-m-moc2", "english", "small",
-    "sound/schody/sch-m-moc2.wav",
+    "sound/stairs/sch-m-moc2.wav",
     "Where I am going with this shell?")
 
 -- -----------------------------------------------------------------
 
-plzik:addAnim("plz", "images/schody/plz0.png")
-plzik:addAnim("plz", "images/schody/plz1.png")
-plzik:addAnim("plz", "images/schody/plz2.png")
-plzik:addAnim("plz", "images/schody/plz3.png")
-plzik:addAnim("plz", "images/schody/plz4.png")
-plzik:addAnim("plz", "images/schody/plz5.png")
-plzik:addAnim("plz", "images/schody/plz6.png")
-
--- TODO: snek anim
 
 -- ---------------------------------------------------------------
 -- Init
@@ -214,40 +205,40 @@ function update()
 
     plzik_switch = {
         [0] = function()
-            plzik:setAnim("plz", 0)
+            plzik:setAnim("default", 0)
             if random(100) < 2 then
                 plzik.stav = plzik.stav + 1
             end
         end,
         [1] = function()
-            plzik:setAnim("plz", 5)
+            plzik:setAnim("default", 5)
             plzik.stav = plzik.stav + 1
         end,
         [2] = function()
-            plzik:setAnim("plz", random(3) + 1)
+            plzik:setAnim("default", random(3) + 1)
             plzik.stav = plzik.stav + 1
         end,
         [3] = function()
             -- TODO: offer odd() ?
             if random(100) < 20 then
-                plzik:setAnim("plz", random(3) + 1)
+                plzik:setAnim("default", random(3) + 1)
             end
             if random(1000) < 5 then
                 plzik.stav = plzik.stav + 1
             end
         end,
         [4] = function()
-            plzik:setAnim("plz", 5)
+            plzik:setAnim("default", 5)
             plzik.stav = 0
         end,
 
         [10] = function()
-            plzik:setAnim("plz", 4)
+            plzik:setAnim("default", 4)
             -- TODO: FArray
             plzik.stav = 21 + random(20) 
         end,
         [15] = function()
-            plzik:setAnim("plz", 5)
+            plzik:setAnim("default", 5)
             if plzik:getAction() == "rest" then
                 plzik.stav = 21 + random(20)
             end
@@ -263,5 +254,7 @@ function update()
     else
         plzik.stav = plzik.stav - 1
     end
+
+    -- TODO: snek anim
 end
 
