@@ -1,6 +1,7 @@
 
 codename = "briefcase"
-file_include("script/"..codename.."/dialogs_brief.lua")
+file_include("script/share/level_dialog.lua")
+dialogLoad("script/"..codename.."/brief_")
 
 local function planDelay(delay)
     if delay > 0 then

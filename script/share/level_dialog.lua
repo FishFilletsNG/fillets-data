@@ -16,7 +16,7 @@ local DialogState = {
     dialogs = {},
 }
 
--- Loads localized dialogs from dialogs_*.lua
+-- Loads localized dialogs from prefix.."dialogs_*.lua"
 function dialogLoad(prefix)
     -- NOTE: uses select_lang.lua to determine avaiable languages
     local langs = {}
@@ -62,20 +62,21 @@ function dialogId(dialogName, fontName, defaultSubtitle)
         else
             print(string.format("WARNING: extra foreign dialog"..
                 "; lang=%q; name=%q; subtitle=%q",
-                DialogState.lang, dialogName, defaultSubtitle))
+                DialogState.lang, dialogName, defaultSubtitle or ""))
         end
     else
         if primeDialog.font ~= fontName then
             print(string.format("WARNING: bad font for foreign dialog"..
                 "; lang=%q; name=%q; primeFont=%q; font=%q",
-                DialogState.lang, dialogName, primeDialog.font, fontName))
+                DialogState.lang, dialogName,
+                primeDialog.font or "", fontName or ""))
         end
         if primeDialog.subtitle ~= defaultSubtitle then
             print(string.format(
                 "WARNING: bad defaultSubtitle for foreign dialog"..
                 "; lang=%q; name=%q; primeSubtitle=%q; defaultSubtitle=%q",
                 DialogState.lang, dialogName,
-                primeDialog.subtitle, defaultSubtitle))
+                primeDialog.subtitle or "", defaultSubtitle or ""))
         end
     end
 end
@@ -83,8 +84,6 @@ end
 --- Defines text for localizated dialog
 -- @param subtitle localized text
 function dialogStr(subtitle)
-    --print("DEBUG: added dialog",
-    --    "lang="..DialogState.lang, "name="..DialogState.name)
     dialog_addDialog(DialogState.name, DialogState.lang,
         dataPathSound(DialogState.lang, DialogState.name),
         DialogState.font, subtitle)

@@ -217,7 +217,7 @@ end
 
 function stdBoreJokeLoad()
     lastDialog = game_getCycles()
-    file_include("script/share/boredialogs.lua")
+    dialogLoad("script/share/bore_")
 end
 
 function stdBoreJoke()

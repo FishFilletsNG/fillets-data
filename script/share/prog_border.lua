@@ -48,7 +48,7 @@ local loaded = false
 function stdBorderReportLoad()
     if not loaded then
         loaded = true
-        file_include("script/share/borderdialogs.lua")
+        dialogLoad("script/share/border_")
     end
 end
 -- -----------------------------------------------------------------
