@@ -39,34 +39,34 @@ local function prog_init()
                 if room.uvod == 0 then
                     room.uvod = 1
                     if pokus == 1 or random(100) < 70 then
-                        addv(10, "vrak-v-vraky"..random(3))
+                        addv(10, "vrak-v-vraky" + chr(48 + random(3)))
                     end
                     if pokus == 1 or random(100) < 70 then
-                        addm(10, "vrak-m-vrak"..random(3))
+                        addm(10, "vrak-m-vrak" + chr(48 + random(3)))
                     end
                 elseif room.oknihach == 0 or room.oknihach > 0 and big.X >= 12 then
                     room.oknihach = -100
                     if big.X >= 12 then
-                        addv(3, "vrak-v-nevejdu"..random(2))
+                        addv(3, "vrak-v-nevejdu" + chr(random(2) + 48))
                     end
-                    addm(10, "vrak-m-kupovat"..random(2))
+                    addm(10, "vrak-m-kupovat" + chr(random(2) + 48))
                     addm(10, "vrak-m-naco")
-                    room.vyber = {}
+                    room.vyber = 0
                     for pom2 = 1, 3 + random(2) do
                         repeat
                             pom1 = random(7)
-                        until not room.vyber[pom1]
-                        room.vyber[pom1] = true
-                        addm(random(10) + 5, "vrak-m-knihy"..pom1)
+                        until (room.vyber and bitpole[pom1]) == 0
+                        room.vyber = room.vyber or bitpole[pom1]
+                        addm(random(10) + 5, "vrak-m-knihy" + chr(pom1 + 48))
                     end
                     addv(20 + random(20), "vrak-v-vyhodit")
-                    room.vyber = {}
+                    room.vyber = 0
                     for pom2 = 1, 2 + random(2) do
                         repeat
                             pom1 = random(5)
-                        until not room.vyber[pom1]
-                        room.vyber[pom1] = true
-                        addv(random(10) + 5, "vrak-v-knihy"..pom1)
+                        until (room.vyber and bitpole[pom1]) == 0
+                        room.vyber = room.vyber or bitpole[pom1]
+                        addv(random(10) + 5, "vrak-v-knihy" + chr(pom1 + 48))
                     end
                     addm(0, "vrak-m-pohadky")
                 elseif room.rada == 0 then
@@ -80,15 +80,21 @@ local function prog_init()
                     end
                 elseif room.oknihach == -2 and big.X >= 12 then
                     room.oknihach = -500
-                    addm(5, "vrak-m-cteni"..random(3))
-                elseif oost == 0 and dist(small, sklibak) < 5 and random(100) < 3 then
+                    addm(5, "vrak-m-cteni" + chr(random(3) + 48))
+                elseif room.oost == 0 and dist(@ --FIXME: addr
+small, @ --FIXME: addr
+sklibak) < 5 and random(100) < 3 then
                     room.oost = 1
                     addm(random(10) + 5, "vrak-m-ostnatec")
-                elseif zavazim == 0 and (sklibak.X == 10 and sklibak.Y == 31) and dist(small, sklibak) <= 1 then
+                elseif room.zavazim == 0 and (sklibak.X == 10 and sklibak.Y == 31) and dist(@ --FIXME: addr
+small, @ --FIXME: addr
+sklibak) <= 1 then
                     room.oost = 1
                     room.zavazim = 1
                     addm(3, "vrak-m-zivocich")
-                elseif zavaziv == 0 and (sklibak.X == 8 and sklibak.Y == 5 or sklibak.X == 10 and sklibak.Y == 31) and dist(big, sklibak) <= 1 then
+                elseif room.zavaziv == 0 and (sklibak.X == 8 and sklibak.Y == 5 or sklibak.X == 10 and sklibak.Y == 31) and dist(@ --FIXME: addr
+big, @ --FIXME: addr
+sklibak) <= 1 then
                     room.oost = 1
                     room.zavaziv = 1
                     addv(3, "vrak-v-potvurka")
@@ -114,9 +120,9 @@ local function prog_init()
     -- -------------------------------------------------------------
     local function prog_init_sklibak()
         return function()
-            if math.mod(timer_getCycles(), 2) == 0 then
-                local anim_table = {
-                    [0] = function() 
+            if math.mod(count, 2) == 0 then
+                switch(sklibak.afaze){
+                    [0, 1] = function()
                         if random(100) < 5 then
                             sklibak.afaze = 1 - sklibak.afaze
                         end
@@ -130,11 +136,7 @@ local function prog_init()
                         end
                     end,
                 }
-                anim_table[1] = anim_table[0]
-
-                switch(sklibak.afaze)(anim_table)
             end
-            sklibak:setAnim("default", sklibak.afaze)
         end
     end
 

@@ -1,7 +1,7 @@
 
 createRoom(21, 37, "images/"..codename.."/vrak-pozadi.png")
 
-wall = addModel("item_fixed", 0, 0,
+room = addModel("item_fixed", 0, 0,
 [[
 ........XXXXXXXXXXXXX
 ...........XXXXXXXXXX
@@ -41,7 +41,7 @@ XXX...............XXX
 XXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXX
 ]])
-addItemAnim(wall, "images/"..codename.."/vrak-okoli.png")
+addItemAnim(room, "images/"..codename.."/vrak-okoli.png")
 
 big = addModel("fish_big", 4, 28,
 [[
