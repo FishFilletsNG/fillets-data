@@ -18,14 +18,14 @@ local function prog_init()
         StdHlaskySmrti = false
 
         return function()
-            if timer_getCycles() == room.rozh then
+            if game_getCycles() == room.rozh then
                 room.rozh = room.rozh + 500 + random(1000)
                 if no_dialog() then
                     if random(5) == 1 then
                         addm(2, "tr-m-ztuhl")
                     else
                         addm(3, "tr-m-chlad"..(random(2) + 1))
-                        if timer_getCycles() < 2000 or random(3) == 1 then
+                        if game_getCycles() < 2000 or random(3) == 1 then
                             addv(5, "tr-v-jid"..(random(2) + 1))
                         end
                     end
@@ -76,7 +76,7 @@ local function prog_init()
                     snehulak.afaze = 0
                     snehulak.prastil = 0
                 elseif Dir == dir_right then
-                    if odd(timer_getCycles()) then
+                    if odd(game_getCycles()) then
                         snehulak.afaze = 1 - snehulak.afaze
                     end
                 else

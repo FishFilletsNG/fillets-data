@@ -61,7 +61,7 @@ local function prog_init()
     -- -------------------------------------------------------------
     local function prog_init_metla()
         return function()
-            if odd(timer_getCycles()) then
+            if odd(game_getCycles()) then
                 switch(metla.afaze){
                     [0] = function()
                         if metla.dir == dir_left or metla.dir == dir_right then

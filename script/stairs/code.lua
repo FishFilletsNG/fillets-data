@@ -87,7 +87,7 @@ local function prog_init()
                     plzik.stav = plzik.stav + 1
                 end,
                 [3] = function()
-                    if odd(timer_getCycles()) then
+                    if odd(game_getCycles()) then
                         if random(100) < 20 then
                             plzik.afaze = random(3) + 1
                         end

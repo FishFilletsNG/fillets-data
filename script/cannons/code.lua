@@ -60,7 +60,7 @@ local function prog_init()
     -- -------------------------------------------------------------
     local function prog_init_delo1()
         return function()
-            switch(math.mod(timer_getCycles() + 1, 4)){
+            switch(math.mod(game_getCycles() + 1, 4)){
                 [0] = function()
                     delo1.afaze = 2
                 end,
@@ -81,7 +81,7 @@ local function prog_init()
     -- -------------------------------------------------------------
     local function prog_init_delo3()
         return function()
-            switch(math.mod(timer_getCycles(), 4)){
+            switch(math.mod(game_getCycles(), 4)){
                 [0] = function()
                     delo3.afaze = 2
                 end,
@@ -102,7 +102,7 @@ local function prog_init()
     -- -------------------------------------------------------------
     local function prog_init_delo2()
         return function()
-            switch(math.mod(timer_getCycles() + 3, 4)){
+            switch(math.mod(game_getCycles() + 3, 4)){
                 [0] = function()
                     delo2.afaze = 2
                 end,
@@ -123,7 +123,7 @@ local function prog_init()
     -- -------------------------------------------------------------
     local function prog_init_delo4()
         return function()
-            switch(math.mod(timer_getCycles() + 1, 4)){
+            switch(math.mod(game_getCycles() + 1, 4)){
                 [0] = function()
                     delo4.afaze = 2
                 end,

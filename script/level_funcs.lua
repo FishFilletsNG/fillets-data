@@ -173,7 +173,7 @@ function animateHead(model)
         if "talking" == state then
             if not model.talk_phase then
                 model.talk_phase = random(3)
-            elseif math.mod(timer_getCycles(), 2) == 0 then
+            elseif math.mod(game_getCycles(), 2) == 0 then
                 model.talk_phase = math.mod(
                     model.talk_phase + randint(1, 2), 3)
             end

@@ -40,7 +40,7 @@ local function prog_init()
             if no_dialog() then
                 if isReady(small) and isReady(big) then
                     if room.mzaval == 0 and small.X > 43 and not small:isLeft() then
-                        if random(timer_getCycles()) < 100 then
+                        if random(game_getCycles()) < 100 then
                             addm(4, "uts-m-otresy")
                         end
                         room.mzaval = 1
@@ -58,7 +58,7 @@ local function prog_init()
                         room.lastu = 1
                         addm(11, "uts-m-lastura")
                     end
-                    if room.rozhovor <= timer_getCycles() then
+                    if room.rozhovor <= game_getCycles() then
                         room.rozhovor = room.rozhovor + 6666 + random(pokus * 42)
                         addv(10, "uts-v-koraly")
                         if pokus < 4 or random(6) > 0 then

@@ -48,7 +48,7 @@ local function prog_init()
                     room.qnavod1 = -1
                     addm(5, "1st-m-proc")
                     addm(5, "1st-m-hej", true)
-                elseif timer_getCycles() >= room.qnavod2 and room.qnavod2 ~= -1 then
+                elseif game_getCycles() >= room.qnavod2 and room.qnavod2 ~= -1 then
                     room.qnavod1 = -1
                     addm(5, "1st-m-hej", true)
                 end
@@ -190,7 +190,7 @@ local function prog_init()
                         if trubka.afaze == 4 then
                             trubka.afaze = 5
                         end
-                        if math.mod(timer_getCycles(), 3) == 1 then
+                        if math.mod(game_getCycles(), 3) == 1 then
                             if random(2) == 0 then
                                 trubka.afaze = trubka.afaze + 1
                             else
