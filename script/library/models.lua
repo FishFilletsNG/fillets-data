@@ -1,4 +1,3 @@
-file_include("script/level_funcs.lua")
 
 createRoom(21, 37, "images/library/vrak-pozadi.png")
 
@@ -193,19 +192,3 @@ X
 X
 ]])
 addItemAnim(item_light, "images/library/kniha-a.png")
-
-
-
--- ---------------------------------------------------------------
--- Update
--- ---------------------------------------------------------------
-function nextRound() 
-    animateFish(small)
-    animateFish(big)
-end
-
-function update()
-    animateHead(small)
-    animateHead(big)
-end
-

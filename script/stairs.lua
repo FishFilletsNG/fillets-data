@@ -112,36 +112,38 @@ dialog_addFont("big", "font/big.png")
 
 -- -----------------------------------------------------------------
 -- Dialogs
-dialog_addDialog("sch-m-spadlo", "english", "small",
+dialog_addDialog("sch-m-spadlo", "english",
     "sound/stairs/sch-m-spadlo.wav",
-    "Something fell here again.")
-dialog_addDialog("sch-v-lastura", "english", "big",
+    "small", "Something fell here again.")
+dialog_addDialog("sch-v-lastura", "english",
     "sound/stairs/sch-v-lastura.wav",
-    "It`s some kind of shell. We`ll probably have to push it upstairs again.")
+    "big", "It`s some kind of shell. We`ll probably have to push it upstairs again.")
 
-dialog_addDialog("sch-v-setkani", "english", "big",
+dialog_addDialog("sch-v-setkani", "english",
     "sound/stairs/sch-v-setkani.wav",
-    "I can see it now: 'Shell Meets Flowerpot`. That`s almost like an iron and a sewing machine meeting on an operating table.")
+    "big", "I can see it now: 'Shell Meets Flowerpot`. That`s almost like an iron and a sewing machine meeting on an operating table.")
 
-dialog_addDialog("sch-m-moc0", "english", "small",
+dialog_addDialog("sch-m-moc0", "english",
     "sound/stairs/sch-m-moc0.wav",
-    "I`m sorry, I got a bit carried away.")
-dialog_addDialog("sch-m-moc1", "english", "small",
+    "small", "I`m sorry, I got a bit carried away.")
+dialog_addDialog("sch-m-moc1", "english",
     "sound/stairs/sch-m-moc1.wav",
-    "Sorry, I was momentarily distracted.")
-dialog_addDialog("sch-m-moc2", "english", "small",
+    "small", "Sorry, I was momentarily distracted.")
+dialog_addDialog("sch-m-moc2", "english",
     "sound/stairs/sch-m-moc2.wav",
-    "Where I am going with this shell?")
+    "small", "Where I am going with this shell?")
 
 -- -----------------------------------------------------------------
-
+file_include("script/prog_compatible.lua")
 
 -- ---------------------------------------------------------------
 -- Init
 -- ---------------------------------------------------------------
-function init()
-    -- TODO: offer number of restarts
-    pokus = random(4)
+function prog_init()
+    initModels()
+    sound_playMusic("music/rybky03.ogg")
+
+    pokus = getRestartCount()
     prehnala = 21
     if pokus == 1 then
         uvod = 0
@@ -155,27 +157,13 @@ function init()
 
     plzik.stav = 0
 end
-init()
-
-function no_dialog()
-    return not small:isTalking() and not big:isTalking()
-end
-
+prog_init()
 
 
 -- ---------------------------------------------------------------
 -- Update
 -- ---------------------------------------------------------------
-function nextRound() 
-    animateFish(small)
-    animateFish(big)
-end
-
-
-function update()
-    animateHead(small)
-    animateHead(big)
-
+function prog_update()
     -- TODO: offer no_dialog()
     if small:isAlive() and big:isAlive() and no_dialog() then
         if uvod < 3 then
@@ -188,10 +176,10 @@ function update()
                 big:planDialog(random(30), 'sch-v-lastura')
             end
             uvod = 3
-        elseif plzik:X() >= prehnala then
+        elseif plzik.X >= prehnala then
             small:planDialog(random(40), 'sch-m-moc'..random(3))
             prehnala = 100
-        elseif setk == 0 and plzik:X() == 10 and plzik:Y() == 14 then
+        elseif setk == 0 and plzik.X == 10 and plzik.Y == 14 then
             big:planDialog(random(40), 'sch-v-setkani')
             setk = 1
         end

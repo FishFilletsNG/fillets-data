@@ -2,19 +2,21 @@
 LOOK_LEFT = 0
 LOOK_RIGHT = 1
 
-function random(limit)
-    -- return number from [0, limit)
-    return math.random(limit) - 1
-end
-
 function createRoom(width, height, picture)
     -- TODO: wavy params
     game_createRoom(width, height, picture)
 end
 
+local models_table = {}
 function addModel(name, x, y, picture, shape)
     local model_index = game_addModel(name, x, y, picture, shape)
-    return createObject(model_index)
+    local model = createObject(model_index)
+    table.insert(models_table, model)
+    return model
+end
+
+function getModelsTable()
+    return models_table
 end
 
 -- -----------------------------------------------------------------
@@ -38,13 +40,8 @@ function createObject(model_index)
         model_useSpecialAnim(self.index, anim_name, phase)
     end
 
-    object.X = function(self)
-        local x, y = model_getLoc(self.index)
-        return x
-    end
-    object.Y = function(self)
-        local x, y = model_getLoc(self.index)
-        return y
+    object.getLoc = function(self)
+        return model_getLoc(self.index)
     end
     object.getAction = function(self)
         return model_getAction(self.index)
@@ -52,8 +49,17 @@ function createObject(model_index)
     object.isAlive = function(self)
         return model_isAlive(self.index)
     end
+    object.isOut = function(self)
+        return model_isOut(self.index)
+    end
     object.isLeft = function(self)
         return model_isLeft(self.index)
+    end
+    object.getW = function(self)
+        return model_getW(self.index)
+    end
+    object.getH = function(self)
+        return model_getH(self.index)
     end
     object.isTalking = function(self)
         return model_isTalking(self.index)
@@ -71,6 +77,8 @@ function createObject(model_index)
     return object
 end
 -- -----------------------------------------------------------------
+-- store all "picture_*.png" sprites to object anim
+--
 function addItemAnim(model, picture_00)
     local anim_name = "default"
     model:addAnim(anim_name, picture_00)
@@ -125,17 +133,6 @@ function animateHead(model)
             end
         end
     end
-end
-
--- -----------------------------------------------------------------
-function addd(time, text, who)
-    print("TEST: addd("..time..", "..who..") "..text)
-end
-function addm(time, text)
-    addd(time, text, "small")
-end
-function addv(time, text)
-    addd(time, text, "big")
 end
 
 -- -----------------------------------------------------------------
@@ -214,4 +211,20 @@ function addFishAnim(model, look_dir, directory)
     end
     model:setGoal("goal_escape")
 end
+
+-- -----------------------------------------------------------------
+
+function switch(case)
+  return function(codetable)
+           local f = codetable[case] or codetable.default
+           if f then
+             if type(f) == "function" then
+               return f(case)
+             else
+               error("case '"..tostring(case).."' is not a function")
+             end
+           end
+         end
+end
+
 
