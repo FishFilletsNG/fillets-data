@@ -1,17 +1,22 @@
 dialog_addDialog("dlg-x-poster1", "en", "", "font_poster", "Good morning, fish!")
 dialog_addDialog("dlg-x-poster1", "cs", "", "font_poster", "")
+dialog_addDialog("dlg-x-poster1", "fr", "", "font_poster", "Bonjour, poissons !")
 
 dialog_addDialog("dlg-x-poster2", "en", "", "font_poster", "Again, you didn't disappoint us. General Committee decided to decorate you with the highest orders. They are made of milk chocolate. Due to confidentiality, eat them immediately.")
 dialog_addDialog("dlg-x-poster2", "cs", "", "font_poster", "")
+dialog_addDialog("dlg-x-poster2", "fr", "", "font_poster", "A nouveau, vous ne nous avez pas déçu. Le commité Général a décidé de vous décorer de la plus haute distinction. Les médailles sont en chocolat. Pour cause de confidentialité, mangez les immédiatement.")
 
 dialog_addDialog("dlg-x-boss", "en", "", "font_poster", "BOSS")
 dialog_addDialog("dlg-x-boss", "cs", "", "font_poster", "")
+dialog_addDialog("dlg-x-boss", "fr", "", "font_poster", "PATRON")
 
 dialog_addDialog("dlg-x-poster3", "en", "", "font_poster", "PS: I understand this little pld issue, but next time please tell me in advance, so that we can provide an adoption permission.")
 dialog_addDialog("dlg-x-poster3", "cs", "", "font_poster", "")
+dialog_addDialog("dlg-x-poster3", "fr", "", "font_poster", "PS: Je comprends le problème avec la chose nommée pld, mais la prochaine fois prévenez moi, ainsi je pourrais demander une autorisation d'adoption.")
 
 dialog_addDialog("dlg-x-poster4", "en", "", "font_poster", "PPS: Tell me, where did you find such a good player that he managed it all? I wish he won the computer or at least some of the other prizes.")
 dialog_addDialog("dlg-x-poster4", "cs", "", "font_poster", "")
+dialog_addDialog("dlg-x-poster4", "fr", "", "font_poster", "PPS: Dites moi, où est-ce que vous avez trouvé un(e) si bon(ne) joueur(se) qui a tout résolu ? J'espère qu'il a gagné l'ordinateur où au moins un des prix.")
 
 -- -----------------------------------------------------------------
 file_include("script/share/prog_demo.lua")
