@@ -6,7 +6,7 @@ dialog_addDialog("dlg-x-poster1", "de", "", "font_poster", "Eichhörnchen - das 
 dialog_addDialog("dlg-x-poster2", "en", "", "font_poster", "Yes, a few cases of squirrel kidnaps were reported in past 5 years, especially from Arizona, Utah and Southern Moravia, but no one really took them seriously. Now we know the whole appalling truth. Technical description is included.")
 dialog_addDialog("dlg-x-poster2", "cs", "", "font_poster", "")
 dialog_addDialog("dlg-x-poster2", "fr", "", "font_poster", "Oui, plusieurs cas d'écureuils kidnappés ont été enregistrés dans les cinq dernières années, spécialement en Arizona, Utah et en Moravie du sud. Mais personne ne les a pris au sérieux. Maintenant nous connaissons l'effroyable et entière vérité. La description technique est incluse.")
-dialog_addDialog("dlg-x-poster2", "de", "", "font_poster", "Ja, von ein paar Eichhörnchen-Entführungen wurden in den letzten fünf Jahren berichtet, besonders in Arizona, Utah und dem Schwarzwald, aber niemand hat sie wirklich ernstgenommen. Jetzt kennen wir die ganze schreckliche Wahrheit. Technische Beschreibung liegt bei.")
+dialog_addDialog("dlg-x-poster2", "de", "", "font_poster", "Ja, von ein paar Eichhörnchen-Entführungen wurden in den letzten fünf Jahren berichtet, besonders aus Arizona, Utah und dem Schwarzwald, aber niemand hat sie wirklich ernstgenommen. Jetzt kennen wir die ganze schreckliche Wahrheit. Technische Beschreibung liegt bei.")
 
 -- -----------------------------------------------------------------
 file_include("script/share/prog_demo.lua")
