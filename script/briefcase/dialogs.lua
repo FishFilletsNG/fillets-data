@@ -68,17 +68,17 @@ dialog_addDialog("kuf-v-napad", "de", "", "font_big", "Gute Idee.")
 dialog_addDialog("kuf-m-nezvednu", "en", "", "font_small", "I can`t lift it. Can you give it a try?")
 dialog_addDialog("kuf-m-nezvednu", "cs", "sound/"..codename.."/cs/kuf-m-nezvednu.ogg", "font_small", "Já to nenadzvednu, zkus to ty.")
 dialog_addDialog("kuf-m-nezvednu", "fr", "", "font_small", "Je ne peux pas le soulever. Peux-tu essayer ?")
-dialog_addDialog("kuf-m-nezvednu", "de", "", "font_small", "Ich krieg das nicht hoch. Kannst Du es versuchen?")
+dialog_addDialog("kuf-m-nezvednu", "de", "", "font_small", "Ich krieg das nicht hoch. Kannst du es versuchen?")
 
 dialog_addDialog("kuf-m-kousek", "en", "", "font_small", "Just a little bit higher so I can swim underneath you.")
 dialog_addDialog("kuf-m-kousek", "cs", "sound/"..codename.."/cs/kuf-m-kousek.ogg", "font_small", "Ještě kousek, ať pod tebou můžu projet.")
 dialog_addDialog("kuf-m-kousek", "fr", "", "font_small", "Juste un petit peu plus haut, ainsi je pourrais nager sous toi.")
-dialog_addDialog("kuf-m-kousek", "de", "", "font_small", "Noch ein bisschen höher, so dass ich unter Dir durchschwimmen kann.")
+dialog_addDialog("kuf-m-kousek", "de", "", "font_small", "Noch ein bisschen höher, so dass ich unter dir durchschwimmen kann.")
 
 dialog_addDialog("help1", "en", "", "font_small", "For now, don`t touch anything, just watch and learn. We`ll show you what you should and shouldn`t do with us as well as what things we`re capable of.")
 dialog_addDialog("help1", "cs", "sound/"..codename.."/cs/help1.ogg", "font_small", "Teď na nic nesahej, jen se dívej. Ukážeme ti, co bys s námi neměl dělat a co dělat umíme.")
 dialog_addDialog("help1", "fr", "", "font_small", "Pour le moment ne touche à rien, regarde et apprends. Nous allons te montrer ce que tu peux et ne peux pas faire avec nous, ainsi que nos possibilités.")
-dialog_addDialog("help1", "de", "", "font_small", "Jetzt fass erst mal nichts an, schaue nur und lerne. Wir werden Dir zeigen, was Du mit uns tun und nicht tun solltest, und wozu wir noch so in der Lage sind.")
+dialog_addDialog("help1", "de", "", "font_small", "Jetzt fass erst mal nichts an, schaue nur und lerne. Wir werden dir zeigen, was du mit uns tun und nicht tun solltest, und wozu wir noch so in der Lage sind.")
 
 dialog_addDialog("help2", "en", "", "font_big", "Before entering the workshop, let`s save the game - just press the F2 key.")
 dialog_addDialog("help2", "cs", "sound/"..codename.."/cs/help2.ogg", "font_big", "Než vstoupíme do dílny, uložíme si pozici - dělá se to klávesou F2.")
@@ -88,7 +88,7 @@ dialog_addDialog("help2", "de", "", "font_big", "Lass uns das Spiel abspeichern,
 dialog_addDialog("help3", "en", "", "font_small", "First we`ll show you what can hurt us.")
 dialog_addDialog("help3", "cs", "sound/"..codename.."/cs/help3.ogg", "font_small", "Nejprve ti ukážeme, co nám ubližuje.")
 dialog_addDialog("help3", "fr", "", "font_small", "En premier nous allons te montrer ce qui peut nous blesser.")
-dialog_addDialog("help3", "de", "", "font_small", "Erst werden wir Dir zeigen, wass uns verletzen kann.")
+dialog_addDialog("help3", "de", "", "font_small", "Erst werden wir dir zeigen, wass uns verletzen kann.")
 
 dialog_addDialog("help4", "en", "", "font_big", "I`ll volunteer to be the dummy.")
 dialog_addDialog("help4", "cs", "sound/"..codename.."/cs/help4.ogg", "font_big", "Já budu dělat figuranta.")
@@ -144,7 +144,7 @@ dialog_addDialog("help13", "de_CH", "", "font_small", "Und im Gegensatz zu meine
 dialog_addDialog("help14", "en", "", "font_big", "We have loaded our saved game for the last time. Now we`ll show you all the things we`re capable of.")
 dialog_addDialog("help14", "cs", "sound/"..codename.."/cs/help14.ogg", "font_big", "Naposledy jsme nahráli pozici. Teď ti ukážeme, co dělat umíme.")
 dialog_addDialog("help14", "fr", "", "font_big", "Nous chargeons notre sauvegarde pour la dernière fois. Nous allons te montrer ce que nous sommes capables de faire.")
-dialog_addDialog("help14", "de", "", "font_big", "Wir haben unser gespeichertes Spiel zum letzten Mal geladen. Jetzt zeigen wir Dir, wozu wir sonst noch in der Lage sind.")
+dialog_addDialog("help14", "de", "", "font_big", "Wir haben unser gespeichertes Spiel zum letzten Mal geladen. Jetzt zeigen wir dir, wozu wir sonst noch in der Lage sind.")
 
 dialog_addDialog("help15", "en", "", "font_small", "We can always pick up objects and then let them fall.")
 dialog_addDialog("help15", "cs", "sound/"..codename.."/cs/help15.ogg", "font_small", "Předmět můžeme vždy zvedat a zase pouštět.")
@@ -184,7 +184,7 @@ dialog_addDialog("help21", "de", "", "font_small", "Und wir können uns Gegenst�
 dialog_addDialog("help22", "en", "", "font_big", "That`s about it for the rules. If you want to know more, press F1 and read the help section.")
 dialog_addDialog("help22", "cs", "sound/"..codename.."/cs/help22.ogg", "font_big", "Tak, to by asi bylo z pravidel všechno. Chceš-li vědět více, stiskni F1 a přečti si návod.")
 dialog_addDialog("help22", "fr", "", "font_big", "Voilà pour les règles. Si vous voulez en savoir plus, appuyer sur F1 et lisez l'aide.")
-dialog_addDialog("help22", "de", "", "font_big", "Das war`s mit Regeln. Wenn Du mehr wissen willst, drücke F1 und lies das Hilfe-Kapitel.")
+dialog_addDialog("help22", "de", "", "font_big", "Das war`s mit Regeln. Wenn du mehr wissen willst, drücke F1 und lies das Hilfe-Kapitel.")
 
 dialog_addDialog("help23", "en", "", "font_small", "In summary, we can only lift objects, let them drop, push them along a solid surface, push them onto a surface, and push them off of each other.")
 dialog_addDialog("help23", "cs", "sound/"..codename.."/cs/help23.ogg", "font_small", "Já bych to ještě shrnula. Předměty můžeme beztrestně pouze zvedat, pouštět, posouvat po pevné podložce, na něco je nasouvat nebo je ze sebe shazovat.")

@@ -61,7 +61,7 @@ dialog_addDialog("kuch-v-odsud0", "de", "", "font_big", "Ich komme hier nicht ra
 dialog_addDialog("kuch-m-premyslim0", "en", "", "font_small", "I`m just thinking how to help you.")
 dialog_addDialog("kuch-m-premyslim0", "cs", "sound/"..codename.."/cs/kuch-m-premyslim0.ogg", "font_small", "Zrovna přemýšlím, jak ti pomoci.")
 dialog_addDialog("kuch-m-premyslim0", "fr", "", "font_small", "Je réfléchis simplement à comment t'aider.")
-dialog_addDialog("kuch-m-premyslim0", "de", "", "font_small", "Mal sehen, wie ich Dir helfen kann.")
+dialog_addDialog("kuch-m-premyslim0", "de", "", "font_small", "Mal sehen, wie ich dir helfen kann.")
 
 dialog_addDialog("kuch-v-odsud1", "en", "", "font_big", "Help me somehow!")
 dialog_addDialog("kuch-v-odsud1", "cs", "sound/"..codename.."/cs/kuch-v-odsud1.ogg", "font_big", "Pomoz mi nějak!")
@@ -126,7 +126,7 @@ dialog_addDialog("kuch-m-stolky", "de", "", "font_small", "Ich habe diese Tische
 dialog_addDialog("kuch-v-serie", "en", "", "font_big", "They are mass-produced, you know.")
 dialog_addDialog("kuch-v-serie", "cs", "sound/"..codename.."/cs/kuch-v-serie.ogg", "font_big", "To víš, sériová dřevařská práce.")
 dialog_addDialog("kuch-v-serie", "fr", "", "font_big", "Elles sont produites en masse, tu sais.")
-dialog_addDialog("kuch-v-serie", "de", "", "font_big", "Das sind Massenprodukte, weißt Du?.")
+dialog_addDialog("kuch-v-serie", "de", "", "font_big", "Das sind Massenprodukte, weißt du?.")
 
 dialog_addDialog("kuch-m-pekne", "en", "", "font_small", "But they are nice. We`ll order us a few, too.")
 dialog_addDialog("kuch-m-pekne", "cs", "sound/"..codename.."/cs/kuch-m-pekne.ogg", "font_small", "Ale jsou pěkné. Taky si takové pořídíme.")

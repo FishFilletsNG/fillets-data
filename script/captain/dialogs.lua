@@ -11,12 +11,12 @@ dialog_addDialog("vl-v-kaj1", "de", "", "font_big", "Das war sicherlich eine Kap
 dialog_addDialog("vl-v-kaj2", "en", "", "font_big", "What would you expect after so many years.")
 dialog_addDialog("vl-v-kaj2", "cs", "sound/"..codename.."/cs/vl-v-kaj2.ogg", "font_big", "Co bys chtěla po tolika letech.")
 dialog_addDialog("vl-v-kaj2", "fr", "", "font_big", "Qu'est-ce que tu espèrais après tant d'années.")
-dialog_addDialog("vl-v-kaj2", "de", "", "font_big", "Was erwartest Du nach so vielen Jahren?")
+dialog_addDialog("vl-v-kaj2", "de", "", "font_big", "Was erwartest du nach so vielen Jahren?")
 
 dialog_addDialog("vl-m-hak", "en", "", "font_small", "Do you think that Silver had this hook in place of his hand?")
 dialog_addDialog("vl-m-hak", "cs", "sound/"..codename.."/cs/vl-m-hak.ogg", "font_small", "Myslíš, že ten hák měl Silver místo ruky? Jak by se do té kajuty vešel?")
 dialog_addDialog("vl-m-hak", "fr", "", "font_small", "Penses-tu que Silver avait ce crochet à la place d'une main.")
-dialog_addDialog("vl-m-hak", "de", "", "font_small", "Denkst Du dass Silver diesen Haken anstatt seiner Hand hatte?")
+dialog_addDialog("vl-m-hak", "de", "", "font_small", "Denkst du dass Silver diesen Haken anstatt seiner Hand hatte?")
 
 dialog_addDialog("vl-v-lodni", "en", "", "font_big", "This is a ship hook. It`s used to pull up boats...")
 dialog_addDialog("vl-v-lodni", "cs", "sound/"..codename.."/cs/vl-v-lodni.ogg", "font_big", "To je lodní hák. S ním se vytahují čluny...")

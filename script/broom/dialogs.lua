@@ -37,18 +37,18 @@ dialog_addDialog("kos-v-koste0", "de", "", "font_big", "Zum Glück haben wir die
 dialog_addDialog("kos-v-koste1", "en", "", "font_big", "Could you please hand me that broom?")
 dialog_addDialog("kos-v-koste1", "cs", "sound/"..codename.."/cs/kos-v-koste1.ogg", "font_big", "Podáš mi, prosím tě, to koště?")
 dialog_addDialog("kos-v-koste1", "fr", "", "font_big", "Peux-tu me donner ce balai s'il te plaît ?")
-dialog_addDialog("kos-v-koste1", "de", "", "font_big", "Könntest Du mir diesen Besen bringen?")
+dialog_addDialog("kos-v-koste1", "de", "", "font_big", "Könntest du mir diesen Besen bringen?")
 
 dialog_addDialog("kos-v-koste2", "en", "", "font_big", "Could you please hand me that broom? And try not to drop it on my head.")
 dialog_addDialog("kos-v-koste2", "cs", "sound/"..codename.."/cs/kos-v-koste2.ogg", "font_big", "Podáš mi, prosím tě, to koště? A zkus mi ho nehodit na hlavu.")
 dialog_addDialog("kos-v-koste2", "fr", "", "font_big", "Peux-tu me donner ce balai s'il te plaît ? Et n'essaie pas de me le jeter sur la tête.")
-dialog_addDialog("kos-v-koste2", "de", "", "font_big", "Könntest Du mir bitte diesen Besen bringen? Aber schmeiß ihn mir nicht auf den Kopf!")
+dialog_addDialog("kos-v-koste2", "de", "", "font_big", "Könntest du mir bitte diesen Besen bringen? Aber schmeiß ihn mir nicht auf den Kopf!")
 
 dialog_addDialog("kos-m-zamet0", "en", "", "font_small", "I think it`ll be fine if you just sweep it all down there.")
 dialog_addDialog("kos-m-zamet0", "cs", "sound/"..codename.."/cs/kos-m-zamet0.ogg", "font_small", "Myslím, že bude stačit, když to všechno zameteš dolů.")
 dialog_addDialog("kos-m-zamet0", "fr", "", "font_small", "Je pense que le mieux est que tu balaies tout dans le trou là bas.")
-dialog_addDialog("kos-m-zamet0", "de", "", "font_small", "Ich denke, es reicht, wenn Du einfach dort unten alles fegst.")
-dialog_addDialog("kos-m-zamet0", "de_CH", "", "font_small", "Ich denke, es reicht, wenn Du einfach dort unten alles wischst.")
+dialog_addDialog("kos-m-zamet0", "de", "", "font_small", "Ich denke, es reicht, wenn du einfach dort unten alles fegst.")
+dialog_addDialog("kos-m-zamet0", "de_CH", "", "font_small", "Ich denke, es reicht, wenn du einfach dort unten alles wischst.")
 
 dialog_addDialog("kos-m-zamet1", "en", "", "font_small", "It should all fit.")
 dialog_addDialog("kos-m-zamet1", "cs", "sound/"..codename.."/cs/kos-m-zamet1.ogg", "font_small", "Tam se toho vejde.")

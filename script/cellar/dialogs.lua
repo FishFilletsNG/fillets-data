@@ -1,7 +1,7 @@
 dialog_addDialog("pra-m-pravidla", "en", "", "font_small", "You know the rules already. Now you can practice them. We will give you some hints occasionally.")
 dialog_addDialog("pra-m-pravidla", "cs", "sound/"..codename.."/cs/pra-m-pravidla.ogg", "font_small", "Pravidla už znáš. Teď si je můžeš vyzkoušet v praxi. Budeme ti trochu radit.")
 dialog_addDialog("pra-m-pravidla", "fr", "", "font_small", "Tu connais déjà les règles. Maintenant tu peux t'exercer. Nous te donnerons quelques astuces de temps en temps.")
-dialog_addDialog("pra-m-pravidla", "de", "", "font_small", "Du kennst die Regeln bereits. Jetzt kannst Du sie üben. Wir werden Dir gelegentlich Tipps geben.")
+dialog_addDialog("pra-m-pravidla", "de", "", "font_small", "Du kennst die Regeln bereits. Jetzt kannst du sie üben. Wir werden dir gelegentlich Tipps geben.")
 
 dialog_addDialog("pra-v-klesnout", "en", "", "font_big", "I must not swim down now. And I cannot go up, either.")
 dialog_addDialog("pra-v-klesnout", "cs", "sound/"..codename.."/cs/pra-v-klesnout.ogg", "font_big", "Já například teď nesmím podklesnout dolů. A nahoru to také moc nejde.")
@@ -21,7 +21,7 @@ dialog_addDialog("pra-m-nepohnu", "de", "", "font_small", "Das kann ich nicht be
 dialog_addDialog("pra-m-zpatky", "en", "", "font_small", "Come back, you can`t go further!")
 dialog_addDialog("pra-m-zpatky", "cs", "sound/"..codename.."/cs/pra-m-zpatky.ogg", "font_small", "Pojeď zpátky, dál nemůžeš!")
 dialog_addDialog("pra-m-zpatky", "fr", "", "font_small", "Reviens, tu ne peux pas aller plus loin !")
-dialog_addDialog("pra-m-zpatky", "de", "", "font_small", "Komm zurück, Du kannst nicht weiter!")
+dialog_addDialog("pra-m-zpatky", "de", "", "font_small", "Komm zurück, du kannst nicht weiter!")
 
 dialog_addDialog("pra-v-zapeklita", "en", "", "font_big", "Hmm... This is tricky. If we push aside the honey, we will be smashed by that can of apricot jam.")
 dialog_addDialog("pra-v-zapeklita", "cs", "sound/"..codename.."/cs/pra-v-zapeklita.ogg", "font_big", "Hmmm... zapeklitá věc. Jakmile odstrčíme med, spadne na nás meruňková marmeláda.")
@@ -51,22 +51,22 @@ dialog_addDialog("pra-v-vzit", "de", "", "font_big", "Du darfst die Axt nicht sc
 dialog_addDialog("pra-m-prisun", "en", "", "font_small", "If you can push that can to me, I`ll shove the axe on it and everything will be okay.")
 dialog_addDialog("pra-m-prisun", "cs", "sound/"..codename.."/cs/pra-m-prisun.ogg", "font_small", "Když mi sem přisuneš sklenici, hodím ji na ni, to bude v pohodě.")
 dialog_addDialog("pra-m-prisun", "fr", "", "font_small", "Si tu peux pousser cette boite jusqu'à moi, je ferai glisser la hache dessus et tout sera bon.")
-dialog_addDialog("pra-m-prisun", "de", "", "font_small", "Wenn Du das Glas zu mir schiebst, schubse ich die Axt drauf und alles wird gut.")
+dialog_addDialog("pra-m-prisun", "de", "", "font_small", "Wenn du das Glas zu mir schiebst, schubse ich die Axt drauf und alles wird gut.")
 
 dialog_addDialog("pra-v-problem", "en", "", "font_big", "If you solve some specific part you can save the position.")
 dialog_addDialog("pra-v-problem", "cs", "sound/"..codename.."/cs/pra-v-problem.ogg", "font_big", "Když vyřešíš nějaký ucelený problém, můžeš si pozici uložit.")
 dialog_addDialog("pra-v-problem", "fr", "", "font_big", "Quand tu résouds une partie tu peux sauver la position.")
-dialog_addDialog("pra-v-problem", "de", "", "font_big", "Wenn Du einen Teil erledigt hast, kannst Du die Situation abspeichern.")
+dialog_addDialog("pra-v-problem", "de", "", "font_big", "Wenn du einen Teil erledigt hast, kannst du die Situation abspeichern.")
 
 dialog_addDialog("pra-m-reseni", "en", "", "font_small", "But only if you are sure of your solution.")
 dialog_addDialog("pra-m-reseni", "cs", "sound/"..codename.."/cs/pra-m-reseni.ogg", "font_small", "Ale jen pokud jsi přesvědčen, že řešení je správné.")
 dialog_addDialog("pra-m-reseni", "fr", "", "font_small", "Mais seulement si tu es sûr de ta position.")
-dialog_addDialog("pra-m-reseni", "de", "", "font_small", "Aber nur, wenn Du Dir Deiner Lösung sicher bist.")
+dialog_addDialog("pra-m-reseni", "de", "", "font_small", "Aber nur, wenn du dir deiner Lösung sicher bist.")
 
 dialog_addDialog("pra-v-ukladani", "en", "", "font_big", "Remember what we have said about saving positions.")
 dialog_addDialog("pra-v-ukladani", "cs", "sound/"..codename.."/cs/pra-v-ukladani.ogg", "font_big", "Nezapomeň, co jsme ti říkali o ukládání pozice.")
 dialog_addDialog("pra-v-ukladani", "fr", "", "font_big", "Rappel toi ce que nous avons dit à propos des sauvegardes.")
-dialog_addDialog("pra-v-ukladani", "de", "", "font_big", "Erinnere Dich daran, was wir über das Abspeichern von Situationen gesagt haben..")
+dialog_addDialog("pra-v-ukladani", "de", "", "font_big", "Erinnere dich daran, was wir über das Abspeichern von Situationen gesagt haben..")
 
 dialog_addDialog("pra-m-uvazovat", "en", "", "font_small", "I shouldn`t be thinking about this.")
 dialog_addDialog("pra-m-uvazovat", "cs", "sound/"..codename.."/cs/pra-m-uvazovat.ogg", "font_small", "O tomhle bych ani neměla uvažovat.")
@@ -81,12 +81,12 @@ dialog_addDialog("pra-v-spatne", "de", "", "font_big", "Das sieht ziemlich schle
 dialog_addDialog("pra-m-pustis", "en", "", "font_small", "If you drop this and I`ll stay here, I will never get out.")
 dialog_addDialog("pra-m-pustis", "cs", "sound/"..codename.."/cs/pra-m-pustis.ogg", "font_small", "Jestli to pustíš a já zůstanu tady, nedostanu se už nikdy ven.")
 dialog_addDialog("pra-m-pustis", "fr", "", "font_small", "Si tu le lâche et que je reste ici, je ne pourrais jamais sortir.")
-dialog_addDialog("pra-m-pustis", "de", "", "font_small", "Wenn Du das fallenlässt und ich hierbleibe, komme ich nie raus.")
+dialog_addDialog("pra-m-pustis", "de", "", "font_small", "Wenn du das fallenlässt und ich hierbleibe, komme ich nie raus.")
 
 dialog_addDialog("pra-v-zavazis", "en", "", "font_big", "You stand in my way there. Try to hide somewhere else.")
 dialog_addDialog("pra-v-zavazis", "cs", "sound/"..codename.."/cs/pra-v-zavazis.ogg", "font_big", "Tam mi zavazíš, zkus se schovat jinde.")
 dialog_addDialog("pra-v-zavazis", "fr", "", "font_big", "Tu es sur mon passage là. Cache toi ailleurs.")
-dialog_addDialog("pra-v-zavazis", "de", "", "font_big", "Du bist mir im Weg. Versuche, Dich woanders zu verstecken.")
+dialog_addDialog("pra-v-zavazis", "de", "", "font_big", "Du bist mir im Weg. Versuche, dich woanders zu verstecken.")
 
 dialog_addDialog("pra-m-strach", "en", "", "font_small", "Here? I`m little bit afraid. Will I get out?")
 dialog_addDialog("pra-m-strach", "cs", "sound/"..codename.."/cs/pra-m-strach.ogg", "font_small", "Tady? Mám trochu strach. Dostanu se pak ven?")
@@ -101,7 +101,7 @@ dialog_addDialog("pra-v-prekvapit", "de", "", "font_big", "Abwarten und Tee trin
 dialog_addDialog("pra-m-kniha", "en", "", "font_small", "We will give you a hint here, player. You have to put that book over there left.")
 dialog_addDialog("pra-m-kniha", "cs", "sound/"..codename.."/cs/pra-m-kniha.ogg", "font_small", "Tady ti, hráči, poradíme - tu knihu musíš dostat támhle vlevo.")
 dialog_addDialog("pra-m-kniha", "fr", "", "font_small", "Nous allons te donner une astuce maintenant. Tu dois pousser ce livre sur la gauche tout au bout.")
-dialog_addDialog("pra-m-kniha", "de", "", "font_small", "Wir werden Dir hier einen einen Tipp geben, Spieler. Du musst das Buch nach da drüben links bringen.")
+dialog_addDialog("pra-m-kniha", "de", "", "font_small", "Wir werden dir hier einen einen Tipp geben, Spieler. Du musst das Buch nach da drüben links bringen.")
 
 dialog_addDialog("pra-v-valec", "en", "", "font_big", "So that it will catch that steel cylinder when I push it.")
 dialog_addDialog("pra-v-valec", "cs", "sound/"..codename.."/cs/pra-v-valec.ogg", "font_big", "Aby se na ní zachytil ten ocelový válec, až do něj strčím.")
@@ -111,12 +111,12 @@ dialog_addDialog("pra-v-valec", "de", "", "font_big", "So dass es den Stahlzylin
 dialog_addDialog("pra-m-jakudelat", "en", "", "font_small", "But we will not tell you how to do it.")
 dialog_addDialog("pra-m-jakudelat", "cs", "sound/"..codename.."/cs/pra-m-jakudelat.ogg", "font_small", "Ale jak to udělat, v tom ti nebudeme radit.")
 dialog_addDialog("pra-m-jakudelat", "fr", "", "font_small", "Mais nous n'allons pas te dire comment faire.")
-dialog_addDialog("pra-m-jakudelat", "de", "", "font_small", "Wir werden Dir aber nicht sagen, wie.")
+dialog_addDialog("pra-m-jakudelat", "de", "", "font_small", "Wir werden dir aber nicht sagen, wie.")
 
 dialog_addDialog("pra-v-nezapomen", "en", "", "font_big", "Just remember that although we cannot push objects along each other`s back, we can push them down or onto some solid structure.")
 dialog_addDialog("pra-v-nezapomen", "cs", "sound/"..codename.."/cs/pra-v-nezapomen.ogg", "font_big", "Jen nezapomeň, že i když po sobě nemůžeme předměty posouvat, můžeme je na něco nasouvat a nebo je ze sebe shazovat.")
 dialog_addDialog("pra-v-nezapomen", "fr", "", "font_big", "Un petit rappel, nous ne pouvons pas pousser des objets que nous portons, nous pouvons les faire tomber ou les pousser sur une structure solide.")
-dialog_addDialog("pra-v-nezapomen", "de", "", "font_big", "Erinnere Dich: Wir können uns zwar keine Gegenstände über den Rücken schieben, aber wir können Sie runter oder auf eine feste Oberfläche schubsen.")
+dialog_addDialog("pra-v-nezapomen", "de", "", "font_big", "Erinnere dich: Wir können uns zwar keine Gegenstände über den Rücken schieben, aber wir können Sie runter oder auf eine feste Oberfläche schubsen.")
 
 dialog_addDialog("pra-v-objet", "en", "", "font_big", "What if I go the upper way?")
 dialog_addDialog("pra-v-objet", "cs", "sound/"..codename.."/cs/pra-v-objet.ogg", "font_big", "Co kdybych to objel vrchem.")
@@ -136,12 +136,12 @@ dialog_addDialog("pra-m-stava", "de", "", "font_small", "Sowas passiert manchmal
 dialog_addDialog("pra-v-dopredu", "en", "", "font_big", "Sometimes you have to think faaar ahead.")
 dialog_addDialog("pra-v-dopredu", "cs", "sound/"..codename.."/cs/pra-v-dopredu.ogg", "font_big", "V téhle hře je potřeba myslet móc daleko dopředu.")
 dialog_addDialog("pra-v-dopredu", "fr", "", "font_big", "De temps à autre, tu devras prévoir de nombreux mouvements à l'avance.")
-dialog_addDialog("pra-v-dopredu", "de", "", "font_big", "Manchmal musst Du seeehr weit vorausdenken.")
+dialog_addDialog("pra-v-dopredu", "de", "", "font_big", "Manchmal musst du seeehr weit vorausdenken.")
 
 dialog_addDialog("pra-m-restart", "en", "", "font_small", "And often you have to restart the level then.")
 dialog_addDialog("pra-m-restart", "cs", "sound/"..codename.."/cs/pra-m-restart.ogg", "font_small", "Často se pak stává, že musíš místnost restartovat.")
 dialog_addDialog("pra-m-restart", "fr", "", "font_small", "Et souvent tu devras tout recommencer.")
-dialog_addDialog("pra-m-restart", "de", "", "font_small", "Und häufig musst Du dann die Ebene neustarten.")
+dialog_addDialog("pra-m-restart", "de", "", "font_small", "Und häufig musst du dann die Ebene neustarten.")
 
 dialog_addDialog("pra-v-schvalne", "en", "", "font_big", "We admit that we did this on purpose.")
 dialog_addDialog("pra-v-schvalne", "cs", "sound/"..codename.."/cs/pra-v-schvalne.ogg", "font_big", "Přiznáváme, tohle jsme na tebe narafičili schválně.")
@@ -151,5 +151,5 @@ dialog_addDialog("pra-v-schvalne", "de", "", "font_big", "Wir geben zu, dass wir
 dialog_addDialog("pra-m-znovu", "en", "", "font_small", "So that you could try it again - this time without any hints.")
 dialog_addDialog("pra-m-znovu", "cs", "sound/"..codename.."/cs/pra-m-znovu.ogg", "font_small", "Aby sis to zkusil znovu - a tentokrát už bez našich rad.")
 dialog_addDialog("pra-m-znovu", "fr", "", "font_small", "Allez, recommence le niveau - Sans aide cette fois.")
-dialog_addDialog("pra-m-znovu", "de", "", "font_small", "So dass Du nochmal versuchen kannst - ohne Tipps.")
+dialog_addDialog("pra-m-znovu", "de", "", "font_small", "So dass du nochmal versuchen kannst - ohne Tipps.")
 

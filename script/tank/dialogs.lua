@@ -21,7 +21,7 @@ dialog_addDialog("sv-v-chtel", "de", "", "font_big", "Wenn ich so drüber nachde
 dialog_addDialog("sv-m-doscasu", "en", "", "font_small", "It seems you will have plenty of opportunity to do this.")
 dialog_addDialog("sv-m-doscasu", "cs", "sound/"..codename.."/cs/sv-m-doscasu.ogg", "font_small", "Na to teď budeš mít času víc než dost.")
 dialog_addDialog("sv-m-doscasu", "fr", "", "font_small", "Et bien tu vas avoir toute l'opportunité de le faire.")
-dialog_addDialog("sv-m-doscasu", "de", "", "font_small", "Es scheint so, als wenn Du dazu reichlich Gelegenheit haben wirst.")
+dialog_addDialog("sv-m-doscasu", "de", "", "font_small", "Es scheint so, als wenn du dazu reichlich Gelegenheit haben wirst.")
 
 dialog_addDialog("sv-m-tank", "en", "", "font_small", "How did this tank got into the sea?")
 dialog_addDialog("sv-m-tank", "cs", "sound/"..codename.."/cs/sv-m-tank.ogg", "font_small", "Jak se asi dostal ten tank do moře?")
@@ -36,12 +36,12 @@ dialog_addDialog("sv-v-obojzivelny", "de", "", "font_big", "Vielleicht war es ei
 dialog_addDialog("sv-m-kecy", "en", "", "font_small", "Sea amphibious tank? Just imagine: On the moonless night, the uncomprehending defenders bewilderedly watch the forest of snorkels emerging from the surf, searching in vain for the landing craft...")
 dialog_addDialog("sv-m-kecy", "cs", "sound/"..codename.."/cs/sv-m-kecy.ogg", "font_small", "Mořský obojživelný tank? Úplně to vidím před sebou: za bezměsíčné noci se k pobřeží omývanému vlnami šírého oceánu blíží les šnorchlů... a na písečné pláže vyjíždějí první obrněnci... konsternovaní obránci nechápavě hledají loď, která je tu vysadila...")
 dialog_addDialog("sv-m-kecy", "fr", "", "font_small", "Un blindé marin ? Imagine : une nuit sans lune, des défenseurs surpris et désorientés voient une forêt de tuba sortir des vagues, cherchant en vain l'embarcation...")
-dialog_addDialog("sv-m-kecy", "de", "", "font_small", "Ein Meeresschwimmpanzer? Stell Dir vor: In einer mondlosen Nacht, die verdatterten Verteidiger schauen fassungslos auf den aus der Brandung auftauchenden Wald aus Schnorcheln und suchen vergeblich das Landungsboot...")
+dialog_addDialog("sv-m-kecy", "de", "", "font_small", "Ein Meeresschwimmpanzer? Stell dir vor: In einer mondlosen Nacht, die verdatterten Verteidiger schauen fassungslos auf den aus der Brandung auftauchenden Wald aus Schnorcheln und suchen vergeblich das Landungsboot...")
 
 dialog_addDialog("sv-v-proc", "en", "", "font_big", "So why are you asking, if you are so darned clever?!")
 dialog_addDialog("sv-v-proc", "cs", "sound/"..codename.."/cs/sv-v-proc.ogg", "font_big", "Tak proč se ptáš, když jsi tak chytrá?!")
 dialog_addDialog("sv-v-proc", "fr", "", "font_big", "Pourquoi demandes-tu, si tu est si fichtrement savant ?!")
-dialog_addDialog("sv-v-proc", "de", "", "font_big", "Warum fragts Du eigentlich, Du Besserwisser?!")
+dialog_addDialog("sv-v-proc", "de", "", "font_big", "Warum fragts du eigentlich, du Besserwisser?!")
 
 dialog_addDialog("sv-v-potopena", "en", "", "font_big", "Maybe, there is a sunken landing craft nearby.")
 dialog_addDialog("sv-v-potopena", "cs", "sound/"..codename.."/cs/sv-v-potopena.ogg", "font_big", "Možná je tu potopená výsadková loď.")
@@ -56,7 +56,7 @@ dialog_addDialog("sv-m-pravdepodob", "de", "", "font_small", "Möglich ist alles
 dialog_addDialog("sv-m-munice", "en", "", "font_small", "Do you think that this ammunition could harm us?")
 dialog_addDialog("sv-m-munice", "cs", "sound/"..codename.."/cs/sv-m-munice.ogg", "font_small", "Myslíš, že ta munice je ještě funkční?")
 dialog_addDialog("sv-m-munice", "fr", "", "font_small", "Penses-tu que les munitions peuvent nous blesser ?")
-dialog_addDialog("sv-m-munice", "de", "", "font_small", "Denkst Du, dass diese Munition gefährlich ist?")
+dialog_addDialog("sv-m-munice", "de", "", "font_small", "Denkst du, dass diese Munition gefährlich ist?")
 
 dialog_addDialog("sv-v-nevim", "en", "", "font_big", "I don`t know. But surely, I`ll try to keep my distance from it.")
 dialog_addDialog("sv-v-nevim", "cs", "sound/"..codename.."/cs/sv-v-nevim.ogg", "font_big", "Nevím. Každopádně se od ní budu držet radši dál.")

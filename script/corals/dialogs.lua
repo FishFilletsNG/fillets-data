@@ -56,7 +56,7 @@ dialog_addDialog("re-v-nech", "de", "", "font_big", "Lass die Krabbe in Ruhe.")
 dialog_addDialog("re-v-nervozni", "en", "", "font_big", "Can`t you see how nervous it is?")
 dialog_addDialog("re-v-nervozni", "cs", "sound/"..codename.."/cs/re-v-nervozni.ogg", "font_big", "Nevidíš, jak je nervózní?")
 dialog_addDialog("re-v-nervozni", "fr", "", "font_big", "Ne peux-tu pas voir comme il est nerveux ?")
-dialog_addDialog("re-v-nervozni", "de", "", "font_big", "Siehst Du nicht wie nervös sie ist?")
+dialog_addDialog("re-v-nervozni", "de", "", "font_big", "Siehst du nicht wie nervös sie ist?")
 
 dialog_addDialog("re-v-obejit", "en", "", "font_big", "Try to do without that nervous crab.")
 dialog_addDialog("re-v-obejit", "cs", "sound/"..codename.."/cs/re-v-obejit.ogg", "font_big", "Zkusme se raději obejít bez toho nervózního kraba.")
@@ -86,7 +86,7 @@ dialog_addDialog("re-k-spim", "de", "", "font_crab", "Lass mich in Ruhe, ich sch
 dialog_addDialog("re-k-otravujete", "en", "", "font_crab", "What do you want from me?!?")
 dialog_addDialog("re-k-otravujete", "cs", "sound/"..codename.."/cs/re-k-otravujete.ogg", "font_crab", "Co tady otravujete?!?")
 dialog_addDialog("re-k-otravujete", "fr", "", "font_crab", "Que voulez-vous de moi ?!?")
-dialog_addDialog("re-k-otravujete", "de", "", "font_crab", "Was willst Du von mir?!?")
+dialog_addDialog("re-k-otravujete", "de", "", "font_crab", "Was willst du von mir?!?")
 
 dialog_addDialog("re-k-nesahej", "en", "", "font_crab", "Don`t touch me!")
 dialog_addDialog("re-k-nesahej", "cs", "sound/"..codename.."/cs/re-k-nesahej.ogg", "font_crab", "Nesahej na mě!")

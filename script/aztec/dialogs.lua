@@ -46,7 +46,7 @@ dialog_addDialog("bot-m-padaji", "de", "", "font_small", "Diese Amphoren fallen 
 dialog_addDialog("bot-v-vsak0", "en", "", "font_big", "Well, you are not a bear, after all.")
 dialog_addDialog("bot-v-vsak0", "cs", "sound/"..codename.."/cs/bot-v-vsak0.ogg", "font_big", "Však také nejsi člověk.")
 dialog_addDialog("bot-v-vsak0", "fr", "", "font_big", "Et bien, tu n'es pas un ours après tout.")
-dialog_addDialog("bot-v-vsak0", "de", "", "font_big", "Na und, Du bist ja auch un-menschlich.")
+dialog_addDialog("bot-v-vsak0", "de", "", "font_big", "Na und, du bist ja auch un-menschlich.")
 
 dialog_addDialog("bot-v-vsak1", "en", "", "font_big", "Don`t forget we are under water.")
 dialog_addDialog("bot-v-vsak1", "cs", "sound/"..codename.."/cs/bot-v-vsak1.ogg", "font_big", "Však jsme také pod vodou.")

@@ -21,7 +21,7 @@ dialog_addDialog("war-m-peoni", "de", "", "font_small", "Das sind keine Bauern s
 dialog_addDialog("war-v-doly", "en", "", "font_big", "Do you think that these mines contain captain Silver`s treasure?")
 dialog_addDialog("war-v-doly", "cs", "sound/"..codename.."/cs/war-v-doly.ogg", "font_big", "Myslíš, že v těch dolech jsou poklady kapitána Silvera?")
 dialog_addDialog("war-v-doly", "fr", "", "font_big", "Est-ce que tu penses que ces mines renferment le trésor du capitaine Silver ?")
-dialog_addDialog("war-v-doly", "de", "", "font_big", "Glaubst Du, dass Silvers Schatz in diesen Minen ist?")
+dialog_addDialog("war-v-doly", "de", "", "font_big", "Glaubst du, dass Silvers Schatz in diesen Minen ist?")
 
 dialog_addDialog("war-m-povazuji", "en", "", "font_small", "I consider this highly unlikely.")
 dialog_addDialog("war-m-povazuji", "cs", "sound/"..codename.."/cs/war-m-povazuji.ogg", "font_small", "Považuji to za krajně nepravděpodobné.")
@@ -51,7 +51,7 @@ dialog_addDialog("war-m-pichat", "de", "", "font_small", "Wenn wir nicht wissen,
 dialog_addDialog("war-v-prozradit", "en", "", "font_big", "You shouldn`t give that away. I only wanted to say that it looks very similar to this level. So many computer games characters.")
 dialog_addDialog("war-v-prozradit", "cs", "sound/"..codename.."/cs/war-v-prozradit.ogg", "font_big", "To jsi neměla prozrazovat. Já jsem chtěl jenom říct, že to tam vypadá skoro stejně jako tady. Spousta postaviček z her.")
 dialog_addDialog("war-v-prozradit", "fr", "", "font_big", "Tu ne devrais pas parler de ça. Je voulais seuleement dire qu'il ressemblait beaucoup à ce niveau. Il y a tant de personnage de jeux.")
-dialog_addDialog("war-v-prozradit", "de", "", "font_big", "Das hättest Du nicht verraten sollen. Ich wollte nur sagen, dass es dort so ähnlich wie hier aussieht. So viele Spielfiguren.")
+dialog_addDialog("war-v-prozradit", "de", "", "font_big", "Das hättest du nicht verraten sollen. Ich wollte nur sagen, dass es dort so ähnlich wie hier aussieht. So viele Spielfiguren.")
 
 dialog_addDialog("war-m-aznato", "en", "", "font_small", "But it`s not so difficult to get out of there.")
 dialog_addDialog("war-m-aznato", "cs", "sound/"..codename.."/cs/war-m-aznato.ogg", "font_small", "Až na to, že odtamtud není tak těžké se dostat.")

@@ -31,17 +31,17 @@ dialog_addDialog("vrak-m-vrak2", "de", "", "font_small", "Schau, es ist in unser
 dialog_addDialog("vrak-m-kupovat0", "en", "", "font_small", "See? You shouldn`t have bought so many books.")
 dialog_addDialog("vrak-m-kupovat0", "cs", "sound/"..codename.."/cs/vrak-m-kupovat0.ogg", "font_small", "To máš z toho, že kupuješ tolik knížek.")
 dialog_addDialog("vrak-m-kupovat0", "fr", "", "font_small", "Tu vois ? Tu n'aurais pas dû acheter tant de livres.")
-dialog_addDialog("vrak-m-kupovat0", "de", "", "font_small", "Siehst Du? Du hättest nicht so viele Bücher kaufen sollen.")
+dialog_addDialog("vrak-m-kupovat0", "de", "", "font_small", "Siehst du? Du hättest nicht so viele Bücher kaufen sollen.")
 
 dialog_addDialog("vrak-m-kupovat1", "en", "", "font_small", "You buy every book you can lay your hand on and now you have problems.")
 dialog_addDialog("vrak-m-kupovat1", "cs", "sound/"..codename.."/cs/vrak-m-kupovat1.ogg", "font_small", "To máš z toho, že koupíš každou knížku, kterou vidíš.")
 dialog_addDialog("vrak-m-kupovat1", "fr", "", "font_small", "Tu achètes tout les livres qui te passent sous les mains et maintenant tu as des problèmes.")
-dialog_addDialog("vrak-m-kupovat1", "de", "", "font_small", "Du kaufst jedes Buch, dass Du in die Finger bekommst und jetzt hast Du Probleme.")
+dialog_addDialog("vrak-m-kupovat1", "de", "", "font_small", "Du kaufst jedes Buch, dass du in die Finger bekommst und jetzt hast du Probleme.")
 
 dialog_addDialog("vrak-m-naco", "en", "", "font_small", "Why do you have to have so many of them?")
 dialog_addDialog("vrak-m-naco", "cs", "sound/"..codename.."/cs/vrak-m-naco.ogg", "font_small", "Na co ti všechny jsou?")
 dialog_addDialog("vrak-m-naco", "fr", "", "font_small", "Pourquoi dois-tu en posséder autant ?")
-dialog_addDialog("vrak-m-naco", "de", "", "font_small", "Warum hast Du so viele?")
+dialog_addDialog("vrak-m-naco", "de", "", "font_small", "Warum hast du so viele?")
 
 dialog_addDialog("vrak-m-knihy0", "en", "", "font_small", "ESP")
 dialog_addDialog("vrak-m-knihy0", "cs", "sound/"..codename.."/cs/vrak-m-knihy0.ogg", "font_small", "Paranormální jevy.")
@@ -134,12 +134,12 @@ dialog_addDialog("vrak-m-cteni0", "de", "", "font_small", "Wieso haben wir eigen
 dialog_addDialog("vrak-m-cteni1", "en", "", "font_small", "If you did some work-outs instead of reading about silly affairs you could fit yourself in.")
 dialog_addDialog("vrak-m-cteni1", "cs", "sound/"..codename.."/cs/vrak-m-cteni1.ogg", "font_small", "Kdybys místo čtení o nesmyslech trochu sportoval, vešel by ses tam.")
 dialog_addDialog("vrak-m-cteni1", "fr", "", "font_small", "Si tu faisais des travaux d'extérieur au lieu de lire ces idioties, tu pourrais passer.")
-dialog_addDialog("vrak-m-cteni1", "de", "", "font_small", "Wenn Du ein wenig Sport machen würdest, anstatt blödes Zeug zu lesen, würdest Du reinpassen.")
+dialog_addDialog("vrak-m-cteni1", "de", "", "font_small", "Wenn du ein wenig Sport machen würdest, anstatt blödes Zeug zu lesen, würdest du reinpassen.")
 
 dialog_addDialog("vrak-m-cteni2", "en", "", "font_small", "I told you not to buy that Compleate Dictionary of Abnormal.")
 dialog_addDialog("vrak-m-cteni2", "cs", "sound/"..codename.."/cs/vrak-m-cteni2.ogg", "font_small", "Říkala jsem ti, ať nekupuješ ten Velký slovník abnormálních výrazů.")
 dialog_addDialog("vrak-m-cteni2", "fr", "", "font_small", "Je t'avais dis de ne pas acheter ce dictionnaire complet de l'anormal.")
-dialog_addDialog("vrak-m-cteni2", "de", "", "font_small", "Ich habe Dir doch gesagt, Du sollst nicht dieses \"Wörterbuch des Abnormalen\" kaufen.")
+dialog_addDialog("vrak-m-cteni2", "de", "", "font_small", "Ich habe dir doch gesagt, du sollst nicht dieses \"Wörterbuch des Abnormalen\" kaufen.")
 
 dialog_addDialog("vrak-v-policky", "en", "", "font_big", "Let`s think. We can`t get these books off the shelf.")
 dialog_addDialog("vrak-v-policky", "cs", "sound/"..codename.."/cs/vrak-v-policky.ogg", "font_big", "Zamysleme se. Ty knihy nedostaneme z poliček.")
@@ -159,7 +159,7 @@ dialog_addDialog("vrak-m-ostnatec", "de", "", "font_small", "Wie ist der Stachle
 dialog_addDialog("vrak-m-zivocich", "en", "", "font_small", "You are in the way, strange life form!")
 dialog_addDialog("vrak-m-zivocich", "cs", "sound/"..codename.."/cs/vrak-m-zivocich.ogg", "font_small", "Živočichu, zavazíš!")
 dialog_addDialog("vrak-m-zivocich", "fr", "", "font_small", "Tu es sur le chemin, forme de vie étrange !")
-dialog_addDialog("vrak-m-zivocich", "de", "", "font_small", "Du bist im Weg, Du komische Lebensform!")
+dialog_addDialog("vrak-m-zivocich", "de", "", "font_small", "Du bist im Weg, du komische Lebensform!")
 
 dialog_addDialog("vrak-v-potvurka", "en", "", "font_big", "You are an obstacle, strange creature!")
 dialog_addDialog("vrak-v-potvurka", "cs", "sound/"..codename.."/cs/vrak-v-potvurka.ogg", "font_big", "Zavazíš, potvůrko!")
@@ -169,7 +169,7 @@ dialog_addDialog("vrak-v-potvurka", "de", "", "font_big", "Du bist ein Hindernis
 dialog_addDialog("vrak-v-snek", "en", "", "font_big", "Can`t you push that snail to me?")
 dialog_addDialog("vrak-v-snek", "cs", "sound/"..codename.."/cs/vrak-v-snek.ogg", "font_big", "Nemůžeš toho šneka posunout sem ke mně?")
 dialog_addDialog("vrak-v-snek", "fr", "", "font_big", "Peux-tu pousser cet escargot vers moi ?")
-dialog_addDialog("vrak-v-snek", "de", "", "font_big", "Kannst Du diese Schnecke zu mir schieben?")
+dialog_addDialog("vrak-v-snek", "de", "", "font_big", "Kannst du diese Schnecke zu mir schieben?")
 
 dialog_addDialog("vrak-m-ocel", "en", "", "font_small", "How am I to get there through that steel?!")
 dialog_addDialog("vrak-m-ocel", "cs", "sound/"..codename.."/cs/vrak-m-ocel.ogg", "font_small", "Jak se tam mám asi dostat, přes tu ocel?!")

@@ -36,12 +36,12 @@ dialog_addDialog("jed-m-flakas", "de", "", "font_small", "Du sitzt da oben rum u
 dialog_addDialog("jed-v-uzivat0", "en", "", "font_big", "Didn`t you say that you like the pearls?")
 dialog_addDialog("jed-v-uzivat0", "cs", "sound/"..codename.."/cs/jed-v-uzivat0.ogg", "font_big", "Vždyť jsi říkala, že máš perly ráda.")
 dialog_addDialog("jed-v-uzivat0", "fr", "", "font_big", "Tu n'as pas dis que tu aimais les perles ?")
-dialog_addDialog("jed-v-uzivat0", "de", "", "font_big", "Hast Du nicht gesagt, Du magst Perlen?")
+dialog_addDialog("jed-v-uzivat0", "de", "", "font_big", "Hast du nicht gesagt, du magst Perlen?")
 
 dialog_addDialog("jed-v-uzivat1", "en", "", "font_big", "Aren`t you happy with so many pearls?")
 dialog_addDialog("jed-v-uzivat1", "cs", "sound/"..codename.."/cs/jed-v-uzivat1.ogg", "font_big", "Můžeš si do sytosti užívat perel.")
 dialog_addDialog("jed-v-uzivat1", "fr", "", "font_big", "Tu n'es pas heureuses entourée de tant de perles ?")
-dialog_addDialog("jed-v-uzivat1", "de", "", "font_big", "Bist Du nicht glücklich mit so vielen Perlen?")
+dialog_addDialog("jed-v-uzivat1", "de", "", "font_big", "Bist du nicht glücklich mit so vielen Perlen?")
 
 dialog_addDialog("jed-m-perlorodka0", "en", "", "font_small", "I need one more pearl.")
 dialog_addDialog("jed-m-perlorodka0", "cs", "sound/"..codename.."/cs/jed-m-perlorodka0.ogg", "font_small", "Potřebuju ještě jednu perlu.")
@@ -61,7 +61,7 @@ dialog_addDialog("jed-m-perlorodka1", "de", "", "font_small", "Bitte, noch eine 
 dialog_addDialog("jed-m-perlorodka2", "en", "", "font_small", "My dearest friend, couldn`t you possibly lend me just one little pearl?")
 dialog_addDialog("jed-m-perlorodka2", "cs", "sound/"..codename.."/cs/jed-m-perlorodka2.ogg", "font_small", "Má drahá přítelkyně, nemůžeš mi, prosím, na chvilku půjčit jednu perličku?")
 dialog_addDialog("jed-m-perlorodka2", "fr", "", "font_small", "Mon plus cher ami, ne pourrais-tu pas me prêter juste une petite perle ?")
-dialog_addDialog("jed-m-perlorodka2", "de", "", "font_small", "Mein liebster Freund, könntest Du mir nicht vielleicht eine kleine Perle borgen?")
+dialog_addDialog("jed-m-perlorodka2", "de", "", "font_small", "Mein liebster Freund, könntest du mir nicht vielleicht eine kleine Perle borgen?")
 
 dialog_addDialog("jed-m-trubka", "en", "", "font_small", "I wonder if it wouldn`t be easier to shorten that steel pipe.")
 dialog_addDialog("jed-m-trubka", "cs", "sound/"..codename.."/cs/jed-m-trubka.ogg", "font_small", "Jestli by nebylo jednodušší tu ocelovou trubku zkrátit.")
@@ -76,21 +76,21 @@ dialog_addDialog("jed-v-ocet", "de", "", "font_big", "Kleopatra hat angeblich Pe
 dialog_addDialog("jed-m-moc", "en", "", "font_small", "Do you think we have too many of them?")
 dialog_addDialog("jed-m-moc", "cs", "sound/"..codename.."/cs/jed-m-moc.ogg", "font_small", "Zdá se ti snad, že jich tu máme moc?")
 dialog_addDialog("jed-m-moc", "fr", "", "font_small", "Penses-tu que nous en avons trop ?")
-dialog_addDialog("jed-m-moc", "de", "", "font_small", "Denkst Du, wir haben welche zuviel?")
+dialog_addDialog("jed-m-moc", "de", "", "font_small", "Denkst du, wir haben welche zuviel?")
 
 dialog_addDialog("jed-v-vzdelat", "en", "", "font_big", "Well, I just wanted to educate you a little.")
 dialog_addDialog("jed-v-vzdelat", "cs", "sound/"..codename.."/cs/jed-v-vzdelat.ogg", "font_big", "Jenom jsem tě chtěl trochu vzdělat.")
 dialog_addDialog("jed-v-vzdelat", "fr", "", "font_big", "Et bien, je voulais simplement apporter un peu de culture.")
-dialog_addDialog("jed-v-vzdelat", "de", "", "font_big", "Schon gut, ich wollte Dir nur etwas beibringen.")
+dialog_addDialog("jed-v-vzdelat", "de", "", "font_big", "Schon gut, ich wollte dir nur etwas beibringen.")
 
 dialog_addDialog("jed-v-poter", "en", "", "font_big", "Watching you, I have to think about how I played marbles with tadpoles.")
 dialog_addDialog("jed-v-poter", "cs", "sound/"..codename.."/cs/jed-v-poter.ogg", "font_big", "Když se na tebe dívám, vzpomínám, jak jsem hrál s potěrem kuličky.")
 dialog_addDialog("jed-v-poter", "fr", "", "font_big", "Regarde toi, tu me fais penser au temps ou je jouais au bille avec des tétards.")
-dialog_addDialog("jed-v-poter", "de", "", "font_big", "Wenn ich Dir so zusehe, muss ich daran denken, wie ich mit Kaulquappen Murmeln gespielt habe.")
+dialog_addDialog("jed-v-poter", "de", "", "font_big", "Wenn ich dir so zusehe, muss ich daran denken, wie ich mit Kaulquappen Murmeln gespielt habe.")
 
 dialog_addDialog("jed-m-kulicka", "en", "", "font_small", "You haven`t got a spare marble in your pocket, do you?")
 dialog_addDialog("jed-m-kulicka", "cs", "sound/"..codename.."/cs/jed-m-kulicka.ogg", "font_small", "Předpokládám, že ti nějaká kulička nezbyla v kapse, co?")
 dialog_addDialog("jed-m-kulicka", "fr", "", "font_small", "Tu n'as jamais eut de bille de rechange dans tes poches ?")
-dialog_addDialog("jed-m-kulicka", "de", "", "font_small", "Du hast keine Ersatzmurmel in Deinen Taschen, oder?")
+dialog_addDialog("jed-m-kulicka", "de", "", "font_small", "Du hast keine Ersatzmurmel in deinen Taschen, oder?")
 
 

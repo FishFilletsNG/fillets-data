@@ -57,7 +57,7 @@ dialog_addDialog("ka2-m-kostra", "de", "", "font_small", "Na und? Ein normales S
 dialog_addDialog("ka2-m-posledni", "en", "", "font_small", "Did you see it? This room is almost the last one. Could this really be that treasure?")
 dialog_addDialog("ka2-m-posledni", "cs", "sound/"..codename.."/cs/ka2-m-posledni.ogg", "font_small", "Hele, tahle místnost už je skoro poslední v řadě. Že by v té truhle byl přece jenom ten poklad?")
 dialog_addDialog("ka2-m-posledni", "fr", "", "font_small", "Tu as vu ? Cette pièce et quasiment identique à la précédente. Se pourrait-il que se soit vraiment le trésor ?")
-dialog_addDialog("ka2-m-posledni", "de", "", "font_small", "Hast Du gesehen? Das ist fast der letzte Raum. Könnte das wirklich der Schatz sein?")
+dialog_addDialog("ka2-m-posledni", "de", "", "font_small", "Hast du gesehen? Das ist fast der letzte Raum. Könnte das wirklich der Schatz sein?")
 
 dialog_addDialog("ka2-v-mapa0", "en", "", "font_big", "And what would be in the other two?")
 dialog_addDialog("ka2-v-mapa0", "cs", "sound/"..codename.."/cs/ka2-v-mapa0.ogg", "font_big", "Co by bylo v těch dalších dvou?")
@@ -92,7 +92,7 @@ dialog_addDialog("ka2-v-napad", "de", "", "font_big", "Tschuldigung, war ja nur 
 dialog_addDialog("ka2-m-hej", "en", "", "font_small", "Little octopus, couldn`t you move away a little bit, please?")
 dialog_addDialog("ka2-m-hej", "cs", "sound/"..codename.."/cs/ka2-m-hej.ogg", "font_small", "Hej, chobotničko, nemohla bys kousek uhnout?")
 dialog_addDialog("ka2-m-hej", "fr", "", "font_small", "Petite pieuvre, pourrais-tu te déplacer un petit peu, s'il te plaît ?")
-dialog_addDialog("ka2-m-hej", "de", "", "font_small", "Kleiner Krake, kannst Du bitte ein wenig zur Seite gehen?")
+dialog_addDialog("ka2-m-hej", "de", "", "font_small", "Kleiner Krake, kannst du bitte ein wenig zur Seite gehen?")
 
 dialog_addDialog("ka2-m-diky", "en", "", "font_small", "Hmm... thanks a lot.")
 dialog_addDialog("ka2-m-diky", "cs", "sound/"..codename.."/cs/ka2-m-diky.ogg", "font_small", "Hmmm... tak díky.")

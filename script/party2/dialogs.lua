@@ -6,12 +6,12 @@ dialog_addDialog("pt2-m-parnik", "de", "", "font_small", "Schon wieder dieses Ge
 dialog_addDialog("pt2-v-zmena", "en", "", "font_big", "Can you see it? Something has changed while we were away. I tell you, somebody is watching us.")
 dialog_addDialog("pt2-v-zmena", "cs", "sound/"..codename.."/cs/pt2-v-zmena.ogg", "font_big", "Vidíš? Něco se změnilo, zatímco jsme byli pryč. Říkám ti, že nás někdo pozoruje.")
 dialog_addDialog("pt2-v-zmena", "fr", "", "font_big", "Tu peux le voir ? Quelque chose a changé depuis que nous sommes partis. Je te dis que quelqu'un nous regarde.")
-dialog_addDialog("pt2-v-zmena", "de", "", "font_big", "Siehst Du es? Es hat sich etwas verändert während wir weg waren. Ich sag Dir, jemand beobachtet uns.")
+dialog_addDialog("pt2-v-zmena", "de", "", "font_big", "Siehst du es? Es hat sich etwas verändert während wir weg waren. Wetten, jemand beobachtet uns?")
 
 dialog_addDialog("pt2-m-hrac", "en", "", "font_small", "Why do you keep looking at us? Can`t you see it makes us nervous?")
 dialog_addDialog("pt2-m-hrac", "cs", "sound/"..codename.."/cs/pt2-m-hrac.ogg", "font_small", "Co se na nás pořád díváš? Nevidíš, že nás to znervózňuje?")
 dialog_addDialog("pt2-m-hrac", "fr", "", "font_small", "Pourquoi tu n'arrêtes pas de nous regarder ? tu ne vois pas que ça nous rends nerveux.")
-dialog_addDialog("pt2-m-hrac", "de", "", "font_small", "Warum glotzt Du uns so an? Siehst Du nicht, dass es uns nervös macht?")
+dialog_addDialog("pt2-m-hrac", "de", "", "font_small", "Warum glotzt du uns so an? Siehst du nicht, dass es uns nervös macht?")
 
 dialog_addDialog("pt2-m-piknik0", "en", "", "font_small", "It looks like their picnic is coming to an end.")
 dialog_addDialog("pt2-m-piknik0", "cs", "sound/"..codename.."/cs/pt2-m-piknik0.ogg", "font_small", "Koukám, že ten jejich piknik už pomalu končí.")

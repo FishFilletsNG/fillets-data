@@ -41,7 +41,7 @@ dialog_addDialog("jes-v-nevim", "de", "", "font_big", "Ich bin da nicht so siche
 
 dialog_addDialog("jes-m-takvidis", "en", "", "font_small", "See? You are here.")
 dialog_addDialog("jes-m-takvidis", "cs", "sound/"..codename.."/cs/jes-m-takvidis.ogg", "font_small", "Tak vidíš, už jsi tu.")
-dialog_addDialog("jes-m-takvidis", "de", "", "font_small", "Siehts Du? Du bist hier.")
+dialog_addDialog("jes-m-takvidis", "de", "", "font_small", "Siehts du? Du bist hier.")
 
 dialog_addDialog("jes-m-potvora0", "en", "", "font_small", "What kind of color-shifting monster is this?")
 dialog_addDialog("jes-m-potvora0", "cs", "sound/"..codename.."/cs/jes-m-potvora0.ogg", "font_small", "Co je to za opalizující potvoru?")

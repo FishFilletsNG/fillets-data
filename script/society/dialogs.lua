@@ -61,13 +61,13 @@ dialog_addDialog("mik-m-myslit", "de", "", "font_small", "Jetzt können wir in R
 dialog_addDialog("mik-m-proc", "en", "", "font_small", "White fish, why do you have such big eyes?")
 dialog_addDialog("mik-m-proc", "cs", "sound/"..codename.."/cs/mik-m-proc.ogg", "font_small", "Bílá rybo, proč máš tak veliké oči?")
 dialog_addDialog("mik-m-proc", "fr", "", "font_small", "Poisson blanc, pourquoi as-tu des yeux si grand ?")
-dialog_addDialog("mik-m-proc", "de", "", "font_small", "Weißer Fisch, warum hast Du so große Augen?")
-dialog_addDialog("mik-m-proc", "de_CH", "", "font_small", "Weisser Fisch, warum hast Du so grosse Augen?")
+dialog_addDialog("mik-m-proc", "de", "", "font_small", "Weißer Fisch, warum hast du so große Augen?")
+dialog_addDialog("mik-m-proc", "de_CH", "", "font_small", "Weisser Fisch, warum hast du so grosse Augen?")
 
 dialog_addDialog("mik-v-videt", "en", "", "font_big", "The better to see you with.")
 dialog_addDialog("mik-v-videt", "cs", "sound/"..codename.."/cs/mik-v-videt.ogg", "font_big", "To aby tě lépe viděla.")
 dialog_addDialog("mik-v-videt", "fr", "", "font_big", "C'est pour mieux te voir.")
-dialog_addDialog("mik-v-videt", "de", "", "font_big", "Um Dich besser zu sehen.")
+dialog_addDialog("mik-v-videt", "de", "", "font_big", "Um dich besser zu sehen.")
 
 dialog_addDialog("mik-m-konik", "en", "", "font_small", "I`ve seen this seahorse somewhere before.")
 dialog_addDialog("mik-m-konik", "cs", "sound/"..codename.."/cs/mik-m-konik.ogg", "font_small", "Tohohle koníka jsem už někde viděla.")

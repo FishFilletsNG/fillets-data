@@ -11,7 +11,7 @@ dialog_addDialog("zr-m-obliceje", "de", "", "font_small", "Hör auf Grimassen zu
 dialog_addDialog("zr-m-prestan", "en", "", "font_small", "Stop looking at yourself in the mirror and make yourself useful.")
 dialog_addDialog("zr-m-prestan", "cs", "sound/"..codename.."/cs/zr-m-prestan.ogg", "font_small", "Přestaň se prohlížet v zrcadle a radši něco dělej.")
 dialog_addDialog("zr-m-prestan", "fr", "", "font_small", "Arrête de t'admirer dans le miroir, et rends toi utile.")
-dialog_addDialog("zr-m-prestan", "de", "", "font_small", "Hör auf, Dich im Spiegel zu bewundern und mach Dich mal nützlich.")
+dialog_addDialog("zr-m-prestan", "de", "", "font_small", "Hör auf, dich im Spiegel zu bewundern und mach dich mal nützlich.")
 
 dialog_addDialog("zr-m-takfajn", "en", "", "font_small", "That`s great! He just goes on his merry little way, but what about me?")
 dialog_addDialog("zr-m-takfajn", "cs", "sound/"..codename.."/cs/zr-m-takfajn.ogg", "font_small", "Tak fajn, on si odjede - a co já?")
@@ -37,7 +37,7 @@ dialog_addDialog("zr-v-hej", "de", "", "font_big", "Hallo, ist da unten jemand?"
 dialog_addDialog("zr-v-halo", "en", "", "font_big", "Hello, can you hear me in there?")
 dialog_addDialog("zr-v-halo", "cs", "sound/"..codename.."/cs/zr-v-halo.ogg", "font_big", "Haló, slyšíš mě tam uvnitř?")
 dialog_addDialog("zr-v-halo", "fr", "", "font_big", "Salut, peux-tu m'entendre là dedans ?")
-dialog_addDialog("zr-v-halo", "de", "", "font_big", "Hallo, kannst Du mich da drin hören?")
+dialog_addDialog("zr-v-halo", "de", "", "font_big", "Hallo, kannst du mich da drin hören?")
 
 dialog_addDialog("zr-v-jetunekdo", "en", "", "font_big", "Is anybody here?")
 dialog_addDialog("zr-v-jetunekdo", "cs", "sound/"..codename.."/cs/zr-v-jetunekdo.ogg", "font_big", "Je tu někdóóó?")
@@ -78,6 +78,6 @@ dialog_addDialog("zr-v-opatrne", "de", "", "font_big", "Vorsichtig...")
 dialog_addDialog("zr-v-vzdyt", "en", "", "font_big", "Don`t say I didn`t warn you!")
 dialog_addDialog("zr-v-vzdyt", "cs", "sound/"..codename.."/cs/zr-v-vzdyt.ogg", "font_big", "Vždyť jsem ti to říkal!")
 dialog_addDialog("zr-v-vzdyt", "fr", "", "font_big", "Tu ne pourras pas dire que je ne t'ai pas prévenu !")
-dialog_addDialog("zr-v-vzdyt", "de", "", "font_big", "Sage nicht, ich hätte Dich nicht gewarnt!")
+dialog_addDialog("zr-v-vzdyt", "de", "", "font_big", "Sage nicht, ich hätte dich nicht gewarnt!")
 
 

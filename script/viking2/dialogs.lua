@@ -44,7 +44,7 @@ dialog_addDialog("dr1-x-erik", "de", "", "font_lightgrey", "Ich dachte immer ich
 dialog_addDialog("dr-m-podivej", "en", "", "font_small", "Look at that poor dog.")
 dialog_addDialog("dr-m-podivej", "cs", "sound/"..codename.."/cs/dr-m-podivej.ogg", "font_small", "Podívej, ten chudáček pejsek.")
 dialog_addDialog("dr-m-podivej", "fr", "", "font_small", "Jette un oeil à ce pauvre chien.")
-dialog_addDialog("dr-m-podivej", "de", "", "font_small", "Schau Dir den armen Hund an.")
+dialog_addDialog("dr-m-podivej", "de", "", "font_small", "Schau dir den armen Hund an.")
 
 dialog_addDialog("dr-m-nedycha", "en", "", "font_small", "Doesn't he seem to be breathing kind of strangely?")
 dialog_addDialog("dr-m-nedycha", "cs", "sound/"..codename.."/cs/dr-m-nedycha.ogg", "font_small", "Nedýchá nějak nemocně?")
@@ -69,12 +69,12 @@ dialog_addDialog("dr-8-ztichni1", "de", "", "font_viking8", "Halt den Mund!")
 dialog_addDialog("dr-8-ztichni2", "en", "", "font_viking8", "Will you shut up already!")
 dialog_addDialog("dr-8-ztichni2", "cs", "sound/"..codename.."/cs/dr-8-ztichni2.ogg", "font_viking8", "Buď už zticha!")
 dialog_addDialog("dr-8-ztichni2", "fr", "", "font_viking8", "Vas-Tu la fermer déjà !")
-dialog_addDialog("dr-8-ztichni2", "de", "", "font_viking8", "Wirst Du wohl endlich ruhig sein!")
+dialog_addDialog("dr-8-ztichni2", "de", "", "font_viking8", "Wirst du wohl endlich ruhig sein!")
 
 dialog_addDialog("dr-8-nenechas", "en", "", "font_viking8", "So, you`re not going to shut up, are you?")
 dialog_addDialog("dr-8-nenechas", "cs", "sound/"..codename.."/cs/dr-8-nenechas.ogg", "font_viking8", "Tak ty toho nenecháš?!")
 dialog_addDialog("dr-8-nenechas", "fr", "", "font_viking8", "Donc tu ne vas pas la fermer, si ?")
-dialog_addDialog("dr-8-nenechas", "de", "", "font_viking8", "So, Du willst Deine Klappe nicht halten, oder?")
+dialog_addDialog("dr-8-nenechas", "de", "", "font_viking8", "So, du willst deine Klappe nicht halten, oder?")
 
 dialog_addDialog("dr-8-aaa", "en", "", "font_viking8", "Aaaaargh...")
 dialog_addDialog("dr-8-aaa", "cs", "sound/"..codename.."/cs/dr-8-aaa.ogg", "font_viking8", "Ááááá...")
@@ -149,7 +149,7 @@ dialog_addDialog("dr-1-trpelivost", "de", "", "font_viking1", "Ein echter Kämpf
 dialog_addDialog("dr-2-urcite", "en", "", "font_viking2", "Are you sure this is how to get to Valhalla?")
 dialog_addDialog("dr-2-urcite", "cs", "sound/"..codename.."/cs/dr-2-urcite.ogg", "font_viking2", "Určitě se takhle dostaneme do Valhaly?")
 dialog_addDialog("dr-2-urcite", "fr", "", "font_viking2", "Vous êtes sûr que c'est la façon d'atteindre le Walhalla ?")
-dialog_addDialog("dr-2-urcite", "de", "", "font_viking2", "Bist Du sicher, dass man so nach Walhalla kommt?")
+dialog_addDialog("dr-2-urcite", "de", "", "font_viking2", "Bist du sicher, dass man so nach Walhalla kommt?")
 
 dialog_addDialog("dr-1-bojovnik", "en", "", "font_viking1", "A warrior has to trust his commander!")
 dialog_addDialog("dr-1-bojovnik", "cs", "sound/"..codename.."/cs/dr-1-bojovnik.ogg", "font_viking1", "Bojovník musí svému veliteli důvěřovat!")
@@ -199,7 +199,7 @@ dialog_addDialog("dr-3-stakovou", "de", "", "font_viking3", "Den Quatsch mach ic
 dialog_addDialog("dr-3-radeji", "en", "", "font_viking3", "You should stick to the Viking traditions instead.")
 dialog_addDialog("dr-3-radeji", "cs", "sound/"..codename.."/cs/dr-3-radeji.ogg", "font_viking3", "Raději kdyby ses držel vikingských tradic.")
 dialog_addDialog("dr-3-radeji", "fr", "", "font_viking3", "Tu devrais plutôt adhérer aux traditions viking à la place.")
-dialog_addDialog("dr-3-radeji", "de", "", "font_viking3", "Du solltest Dich lieber an die Wikinger-Traditionen halten.")
+dialog_addDialog("dr-3-radeji", "de", "", "font_viking3", "Du solltest dich lieber an die Wikinger-Traditionen halten.")
 
 dialog_addDialog("dr-4-moderni", "en", "", "font_viking4", "B-b-but I`m c-c-cool!")
 dialog_addDialog("dr-4-moderni", "cs", "sound/"..codename.."/cs/dr-4-moderni.ogg", "font_viking4", "N-n-náhodou, jsem m-moderní!")
@@ -230,7 +230,7 @@ dialog_addDialog("dr-3-nemel", "de", "", "font_viking3", "Hatte er nicht und bas
 dialog_addDialog("dr-4-myslis", "en", "", "font_viking4", "D-d-do you think that a b-b-beard would suit me b-b-better?")
 dialog_addDialog("dr-4-myslis", "cs", "sound/"..codename.."/cs/dr-4-myslis.ogg", "font_viking4", "M-m-myslíš, že by mi v-v-vous slušel l-lépe?")
 dialog_addDialog("dr-4-myslis", "fr", "", "font_viking4", "P-p-penses-tu que la b-b-barbe m'ira m-m-ieux ?")
-dialog_addDialog("dr-4-myslis", "de", "", "font_viking4", "D-d-denkst Du ein B-b-bart würde mir b-b-besser stehen?")
+dialog_addDialog("dr-4-myslis", "de", "", "font_viking4", "D-d-denkst du ein B-b-bart würde mir b-b-besser stehen?")
 
 dialog_addDialog("dr-3-samozrejme", "en", "", "font_viking3", "Definitely.")
 dialog_addDialog("dr-3-samozrejme", "cs", "sound/"..codename.."/cs/dr-3-samozrejme.ogg", "font_viking3", "Samozřejmě.")

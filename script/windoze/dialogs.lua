@@ -50,7 +50,7 @@ dialog_addDialog("win-v-tamhle", "de", "", "font_big", "Sicher, es ist unten rec
 
 dialog_addDialog("win-m-okno", "en", "", "font_small", "Can you see this big window on the right?!")
 dialog_addDialog("win-m-okno", "cs", "sound/"..codename.."/cs/win-m-okno.ogg", "font_small", "Vidíš to velké okno napravo?!")
-dialog_addDialog("win-m-okno", "de", "", "font_small", "Siehst Du das rechts das große Fenster?!")
+dialog_addDialog("win-m-okno", "de", "", "font_small", "Siehst du das rechts das große Fenster?!")
 
 dialog_addDialog("win-v-hra", "en", "", "font_big", "Oh, no! This must be the original version of this game.")
 dialog_addDialog("win-v-hra", "cs", "sound/"..codename.."/cs/win-v-hra.ogg", "font_big", "No to snad ne! To je původní verze této hry.")

@@ -58,7 +58,7 @@ dialog_addDialog("sl-m-jekot", "en", "sound/"..codename.."/en/sl-m-jekot.ogg")
 dialog_addDialog("sl-v-barbarka", "en", "", "font_big", "You barbarian! Can`t you be a little bit cautious?!")
 dialog_addDialog("sl-v-barbarka", "cs", "sound/"..codename.."/cs/sl-v-barbarka.ogg", "font_big", "Barbarko! Nemůžeš si dát trochu pozor?!")
 dialog_addDialog("sl-v-barbarka", "fr", "", "font_big", "Vandale ! Tu ne peux pas faire un petit peu attention ?!")
-dialog_addDialog("sl-v-barbarka", "de", "", "font_big", "Du Barbar! Kannst Du nicht ein wenig vorsichtiger sein?!")
+dialog_addDialog("sl-v-barbarka", "de", "", "font_big", "Du Barbar! Kannst du nicht ein wenig vorsichtiger sein?!")
 
 dialog_addDialog("sl-m-nelibila", "en", "", "font_small", "I didn`t like this sculpture anyway.")
 dialog_addDialog("sl-m-nelibila", "cs", "sound/"..codename.."/cs/sl-m-nelibila.ogg", "font_small", "Stejně se mi ta socha nelíbila.")

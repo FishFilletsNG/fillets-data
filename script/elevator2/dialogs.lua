@@ -16,7 +16,7 @@ dialog_addDialog("zd2-v-odlis1", "de", "", "font_big", "Der letzte hatte eine et
 dialog_addDialog("zd2-v-vlevo", "en", "", "font_big", "Can you see that thing in the lower left? This must be some ancient religious symbol.")
 dialog_addDialog("zd2-v-vlevo", "cs", "sound/"..codename.."/cs/zd2-v-vlevo.ogg", "font_big", "Vidíš tu věc vlevo dole? To je jistě nějaký prastarý náboženský symbol.")
 dialog_addDialog("zd2-v-vlevo", "fr", "", "font_big", "Peux-tu voir l'objet en bas à gauche ? Ce doit être un ancien symbole religieux.")
-dialog_addDialog("zd2-v-vlevo", "de", "", "font_big", "Kannst Du das Ding unten links sehen? Das muss ein uraltes religiöses Symbol sein.")
+dialog_addDialog("zd2-v-vlevo", "de", "", "font_big", "Kannst du das Ding unten links sehen? Das muss ein uraltes religiöses Symbol sein.")
 
 dialog_addDialog("zd2-m-nevid0", "en", "", "font_small", "Fortunately, I can`t see much of it.")
 dialog_addDialog("zd2-m-nevid0", "cs", "sound/"..codename.."/cs/zd2-m-nevid0.ogg", "font_small", "Naštěstí na něj moc nevidím.")
@@ -26,7 +26,7 @@ dialog_addDialog("zd2-m-nevid0", "de", "", "font_small", "Zum Glück kann ich ni
 dialog_addDialog("zd2-m-nevid1", "en", "", "font_small", "If you are right, I`d rather wouldn`t know what kind of religion it was.")
 dialog_addDialog("zd2-m-nevid1", "cs", "sound/"..codename.."/cs/zd2-m-nevid1.ogg", "font_small", "Jestli máš pravdu, tak radši nechci vědět koho.")
 dialog_addDialog("zd2-m-nevid1", "fr", "", "font_small", "Si tu as raison, je ne veux pas savoir de quelle religion il s'agissait.")
-dialog_addDialog("zd2-m-nevid1", "de", "", "font_small", "Wenn Du Recht hast, möchte ich lieber nicht wissen, was das für eine Religion war.")
+dialog_addDialog("zd2-m-nevid1", "de", "", "font_small", "Wenn du Recht hast, möchte ich lieber nicht wissen, was das für eine Religion war.")
 
 dialog_addDialog("zd2-v-symbol", "en", "", "font_big", "I am afraid that if we use that strange symbol we could unwillingly initiate some dark ritual.")
 dialog_addDialog("zd2-v-symbol", "cs", "sound/"..codename.."/cs/zd2-v-symbol.ogg", "font_big", "Bojím se, že při použítí toho podivného symbolu bezděky spustíme nějaký temný rituál.")
@@ -61,7 +61,7 @@ dialog_addDialog("zd2-x-hus1", "de", "", "font_lightgrey", "Komm mir nicht zu na
 dialog_addDialog("zd2-x-kricet", "en", "", "font_lightgrey", "I`ll scream if you touch me.")
 dialog_addDialog("zd2-x-kricet", "cs", "sound/"..codename.."/cs/zd2-x-kricet.ogg", "font_lightgrey", "Jestli na mě sáhneš, budu křičet.")
 dialog_addDialog("zd2-x-kricet", "fr", "", "font_lightgrey", "Je cris si vous me touchez.")
-dialog_addDialog("zd2-x-kricet", "de", "", "font_lightgrey", "Ich schreie, wenn Du mich anfässt.")
+dialog_addDialog("zd2-x-kricet", "de", "", "font_lightgrey", "Ich schreie, wenn du mich anfässt.")
 
 dialog_addDialog("zd2-x-krik0", "en", "", "font_lightgrey", "Aaaaa")
 dialog_addDialog("zd2-x-krik0", "cs", "sound/"..codename.."/cs/zd2-x-krik0.ogg", "font_lightgrey", "ááááaa")
@@ -101,7 +101,7 @@ dialog_addDialog("zd2-x-fuj", "de", "", "font_lightgrey", "Bäh, knabber nicht a
 dialog_addDialog("zd2-x-necurat", "en", "", "font_lightgrey", "Don`t think you can pee on me.")
 dialog_addDialog("zd2-x-necurat", "cs", "sound/"..codename.."/cs/zd2-x-necurat.ogg", "font_lightgrey", "Ne že se ke mě vyčůráš.")
 dialog_addDialog("zd2-x-necurat", "fr", "", "font_lightgrey", "N'imagine pas que tu peux me pisser dessus.")
-dialog_addDialog("zd2-x-necurat", "de", "", "font_lightgrey", "Denk nicht, Du kannst mich anpinkeln!")
+dialog_addDialog("zd2-x-necurat", "de", "", "font_lightgrey", "Denk nicht, du kannst mich anpinkeln!")
 
 dialog_addDialog("zd2-x-neklast", "en", "", "font_lightgrey", "Just forget about lying your spawn here.")
 dialog_addDialog("zd2-x-neklast", "cs", "sound/"..codename.."/cs/zd2-x-neklast.ogg", "font_lightgrey", "Jestli tady chceš klást jikry, tak na to zapomeň.")

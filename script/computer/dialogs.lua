@@ -41,7 +41,7 @@ dialog_addDialog("poc-v-nenajde", "de", "", "font_big", "Man kann viele seltsame
 dialog_addDialog("poc-m-myslis", "en", "", "font_small", "Do you think this is the computer that`s in stake in this game?")
 dialog_addDialog("poc-m-myslis", "cs", "sound/"..codename.."/cs/poc-m-myslis.ogg", "font_small", "Myslíš, že tohle je ten počítač, o který se tu hraje?")
 dialog_addDialog("poc-m-myslis", "fr", "", "font_small", "Penses-tu que c'est l'ordinateur dont il est question dans ce jeu ?")
-dialog_addDialog("poc-m-myslis", "de", "", "font_small", "Denkst Du, dass es in diesem Spiel um diesen Rechner geht?")
+dialog_addDialog("poc-m-myslis", "de", "", "font_small", "Denkst du, dass es in diesem Spiel um diesen Rechner geht?")
 
 dialog_addDialog("poc-v-multimed", "en", "", "font_big", "Surely not! This is no powerful multimedia computer. This is but XT machine with twelve inch display.")
 dialog_addDialog("poc-v-multimed", "cs", "sound/"..codename.."/cs/poc-v-multimed.ogg", "font_big", "No dovol! Tohle přece není výkoný multimediální počítač. To je XTéčko s dvanáctipalcovým monitorem.")

@@ -16,17 +16,17 @@ dialog_addDialog("puc-v-videl", "de", "", "font_big", "Ich hab die Frau mit Sich
 dialog_addDialog("puc-m-oblicej", "en", "", "font_small", "You are probably wrong, it`s a completely plain face.")
 dialog_addDialog("puc-m-oblicej", "cs", "sound/"..codename.."/cs/puc-m-oblicej.ogg", "font_small", "To se ti jen zdá, je to úplně tuctový obličej.")
 dialog_addDialog("puc-m-oblicej", "fr", "", "font_small", "Tu te trompes probablement. C'est un visage plutôt discret.")
-dialog_addDialog("puc-m-oblicej", "de", "", "font_small", "Du irrst Dich wahrscheinlich, das ist ein einfaches Gesicht.")
+dialog_addDialog("puc-m-oblicej", "de", "", "font_small", "Du irrst dich wahrscheinlich, das ist ein einfaches Gesicht.")
 
 dialog_addDialog("puc-m-pld0", "en", "", "font_small", "Look at that thing.")
 dialog_addDialog("puc-m-pld0", "cs", "sound/"..codename.."/cs/puc-m-pld0.ogg", "font_small", "Podívej na tu věc.")
 dialog_addDialog("puc-m-pld0", "fr", "", "font_small", "Regarde cet objet.")
-dialog_addDialog("puc-m-pld0", "de", "", "font_small", "Schau Dir das mal an.")
+dialog_addDialog("puc-m-pld0", "de", "", "font_small", "Schau dir das mal an.")
 
 dialog_addDialog("puc-m-pld1", "en", "", "font_small", "Look at that pld. What a monster.")
 dialog_addDialog("puc-m-pld1", "cs", "sound/"..codename.."/cs/puc-m-pld1.ogg", "font_small", "Podívej se na toho plda. To je ale potvora.")
 dialog_addDialog("puc-m-pld1", "fr", "", "font_small", "Regarde cet chose. Quel monstre.")
-dialog_addDialog("puc-m-pld1", "de", "", "font_small", "Schau Dir das mal an. Was für ein Monster!")
+dialog_addDialog("puc-m-pld1", "de", "", "font_small", "Schau dir das mal an. Was für ein Monster!")
 
 dialog_addDialog("puc-m-hele", "en", "", "font_small", "Oh, my, this is repulsive.")
 dialog_addDialog("puc-m-hele", "cs", "sound/"..codename.."/cs/puc-m-hele.ogg", "font_small", "Hele, to je ale nechutnost.")
@@ -61,7 +61,7 @@ dialog_addDialog("puc-m-stalo", "de", "", "font_small", "Aber es hat sich ausgez
 dialog_addDialog("puc-m-obraz", "en", "", "font_small", "Just imagine it was some precious painting and we have saved it!")
 dialog_addDialog("puc-m-obraz", "cs", "sound/"..codename.."/cs/puc-m-obraz.ogg", "font_small", "Představ si, že by to byl třeba nějaký vzácný obraz a my ho zachránili!")
 dialog_addDialog("puc-m-obraz", "fr", "", "font_small", "Imagine simplement que c'est un précieux tableau et que nous l'avons sauvé.")
-dialog_addDialog("puc-m-obraz", "de", "", "font_small", "Stell Dir vor, es war ein schönes Gemälde und wir haben es gerettet!")
+dialog_addDialog("puc-m-obraz", "de", "", "font_small", "Stell dir vor, es war ein schönes Gemälde und wir haben es gerettet!")
 
 dialog_addDialog("puc-v-nesmysl", "en", "", "font_big", "What  nonsense!")
 dialog_addDialog("puc-v-nesmysl", "cs", "sound/"..codename.."/cs/puc-v-nesmysl.ogg", "font_big", "Nesmysl!")

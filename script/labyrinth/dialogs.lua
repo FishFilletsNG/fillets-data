@@ -58,7 +58,7 @@ dialog_addDialog("bl-v-pestovany", "de", "", "font_big", "Sie ist sorgfältig f�
 dialog_addDialog("bl-v-proc", "en", "", "font_big", "Why do you want to put that coral down, after all?")
 dialog_addDialog("bl-v-proc", "cs", "sound/"..codename.."/cs/bl-v-proc.ogg", "font_big", "Proč chceš vlastně ten korál sundávat?")
 dialog_addDialog("bl-v-proc", "fr", "", "font_big", "Pourquoi tu veux faire tomber le corail, après tout ?")
-dialog_addDialog("bl-v-proc", "de", "", "font_big", "Warum willst Du die Koralle überhaupt runterholen?")
+dialog_addDialog("bl-v-proc", "de", "", "font_big", "Warum willst du die Koralle überhaupt runterholen?")
 
 dialog_addDialog("bl-m-zeptej", "en", "", "font_small", "I have no idea. Ask the player.")
 dialog_addDialog("bl-m-zeptej", "cs", "sound/"..codename.."/cs/bl-m-zeptej.ogg", "font_small", "To já nevím. Zeptej se hráče.")
@@ -94,7 +94,7 @@ dialog_addDialog("bl-m-snecku2", "de", "", "font_small", "Dann hör nicht zu. Sc
 dialog_addDialog("bl-v-dost2", "en", "", "font_big", "Stop it! Or I`ll drop that coral on your head!")
 dialog_addDialog("bl-v-dost2", "cs", "sound/"..codename.."/cs/bl-v-dost2.ogg", "font_big", "Nech toho!!! Nebo na tebe ten korál hodím!")
 dialog_addDialog("bl-v-dost2", "fr", "", "font_big", "Arrête ça ! Ou je te lâche ce corail sur la tête !")
-dialog_addDialog("bl-v-dost2", "de", "", "font_big", "Hör auf!!! Oder ich schmeiß Dir die Koralle auf den Kopf!")
-dialog_addDialog("bl-v-dost2", "de_CH", "", "font_big", "Hör auf!!! Oder ich schmeiss Dir die Koralle auf den Kopf!")
+dialog_addDialog("bl-v-dost2", "de", "", "font_big", "Hör auf!!! Oder ich schmeiß dir die Koralle auf den Kopf!")
+dialog_addDialog("bl-v-dost2", "de_CH", "", "font_big", "Hör auf!!! Oder ich schmeiss dir die Koralle auf den Kopf!")
 
 

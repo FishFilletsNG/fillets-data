@@ -16,7 +16,7 @@ dialog_addDialog("pyr-m-plaz", "de", "", "font_small", "Was krabbelt dort drübe
 dialog_addDialog("pyr-v-druha", "en", "", "font_big", "You can`t see it from here? It`s on the other side of wall.")
 dialog_addDialog("pyr-v-druha", "cs", "sound/"..codename.."/cs/pyr-v-druha.ogg", "font_big", "To přece nevidíš. Vždyť je to na druhé straně zdi.")
 dialog_addDialog("pyr-v-druha", "fr", "", "font_big", "Tu peux le voir d'ici ? C'est de l'autre coté du mur.")
-dialog_addDialog("pyr-v-druha", "de", "", "font_big", "Kannst Du es von da aus nicht sehen? Es ist auf der anderen Seite der Mauer.")
+dialog_addDialog("pyr-v-druha", "de", "", "font_big", "Kannst du es von da aus nicht sehen? Es ist auf der anderen Seite der Mauer.")
 
 dialog_addDialog("pyr-m-nudi", "en", "", "font_small", "Look, the woman is bored!")
 dialog_addDialog("pyr-m-nudi", "cs", "sound/"..codename.."/cs/pyr-m-nudi.ogg", "font_small", "Podívej, ta ženská se snad nudí!")
@@ -26,12 +26,12 @@ dialog_addDialog("pyr-m-nudi", "de", "", "font_small", "Schau, die Frau ist gela
 dialog_addDialog("pyr-v-sark", "en", "", "font_big", "Do you think that this is taking us too long?")
 dialog_addDialog("pyr-v-sark", "cs", "sound/"..codename.."/cs/pyr-v-sark.ogg", "font_big", "Tak tobě se zdá, že to trvá dlouho?")
 dialog_addDialog("pyr-v-sark", "fr", "", "font_big", "Tu penses qu'elle nous a trop parlé ?")
-dialog_addDialog("pyr-v-sark", "de", "", "font_big", "Denkst Du, wir brauchen hierfür zu lange?")
+dialog_addDialog("pyr-v-sark", "de", "", "font_big", "Denkst du, wir brauchen hierfür zu lange?")
 
 dialog_addDialog("pyr-m-zkus", "en", "", "font_small", "Try it yourself, if you`re so clever.")
 dialog_addDialog("pyr-m-zkus", "cs", "sound/"..codename.."/cs/pyr-m-zkus.ogg", "font_small", "Zkus si to sama, když jsi tak chytrá.")
 dialog_addDialog("pyr-m-zkus", "fr", "", "font_small", "Essaye toi même, si tu es si intelligent.")
-dialog_addDialog("pyr-m-zkus", "de", "", "font_small", "Versuch es selbst, wenn Du so schlau bist!")
+dialog_addDialog("pyr-m-zkus", "de", "", "font_small", "Versuch es selbst, wenn du so schlau bist!")
 
 dialog_addDialog("pyr-m-comy", "en", "", "font_small", "What should we say?")
 dialog_addDialog("pyr-m-comy", "cs", "sound/"..codename.."/cs/pyr-m-comy.ogg", "font_small", "A co máme říkat my?")

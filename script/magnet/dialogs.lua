@@ -76,7 +76,7 @@ dialog_addDialog("pap-v-nemir", "de", "", "font_big", "Hör auf, damit auf mich 
 dialog_addDialog("pap-m-nejde", "en", "", "font_small", "As if you don`t know that you can`t turn objects in this game.")
 dialog_addDialog("pap-m-nejde", "cs", "sound/"..codename.."/cs/pap-m-nejde.ogg", "font_small", "Jako bys nevěděl, že v této hře nejde předměty otáčet!")
 dialog_addDialog("pap-m-nejde", "fr", "", "font_small", "Comme si tu ne savais pas que tu ne peux pas faire pivoter les objets dans ce jeu.")
-dialog_addDialog("pap-m-nejde", "de", "", "font_small", "Als wenn Du nicht wüsstest, dass man in diesem Spiel keine Gegenstände drehen kann.")
+dialog_addDialog("pap-m-nejde", "de", "", "font_small", "Als wenn du nicht wüsstest, dass man in diesem Spiel keine Gegenstände drehen kann.")
 
 dialog_addDialog("pap-m-ocel", "en", "", "font_small", "There are too many steel constructions here.")
 dialog_addDialog("pap-m-ocel", "cs", "sound/"..codename.."/cs/pap-m-ocel.ogg", "font_small", "Je tu nějak moc těch ocelových konstrukcí.")

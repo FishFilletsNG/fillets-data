@@ -26,7 +26,7 @@ dialog_addDialog("wc-v-zmatek", "de", "", "font_big", "Du hast alles falsch vers
 dialog_addDialog("wc-m-prasecinky", "en", "", "font_small", "Didn`t I tell you, that WE don`t need a flushing toilet? And decorated with your smut, too!")
 dialog_addDialog("wc-m-prasecinky", "cs", "sound/"..codename.."/cs/wc-m-prasecinky.ogg", "font_small", "Já jsem ti říkala, že zrovna my splachovací záchod nepotřebujeme. A ještě tu visí ty tvoje prasečinky.")
 dialog_addDialog("wc-m-prasecinky", "fr", "", "font_small", "Ne t'avais-je pas dis que NOUS n'avons pas besoin de chasse d'eau ? Et décoré avec tes mochetés, en plus !")
-dialog_addDialog("wc-m-prasecinky", "de", "", "font_small", "Habe ich Dir nicht gesagt, dass WIR keine Toilette mit Wasserspülung brauchen?")
+dialog_addDialog("wc-m-prasecinky", "de", "", "font_small", "Habe ich dir nicht gesagt, dass WIR keine Toilette mit Wasserspülung brauchen?")
 
 dialog_addDialog("wc-v-hygiena", "en", "", "font_big", "The flushing toilet is more hygienical and when under water even more ecological.")
 dialog_addDialog("wc-v-hygiena", "cs", "sound/"..codename.."/cs/wc-v-hygiena.ogg", "font_big", "Splachovací záchod je hygieničtější a pod vodou i ekologičtější.")
@@ -46,11 +46,11 @@ dialog_addDialog("wc-m-hrbitov", "de", "", "font_small", "Ich fühle mich hier n
 dialog_addDialog("wc-v-coze", "en", "", "font_big", "What do you mean?")
 dialog_addDialog("wc-v-coze", "cs", "sound/"..codename.."/cs/wc-v-coze.ogg", "font_big", "Cože?")
 dialog_addDialog("wc-v-coze", "fr", "", "font_big", "Que veux-tu dire ?")
-dialog_addDialog("wc-v-coze", "de", "", "font_big", "Was meinst Du damit?")
+dialog_addDialog("wc-v-coze", "de", "", "font_big", "Was meinst du damit?")
 
 dialog_addDialog("wc-m-nevis", "en", "", "font_small", "Don`t you know where so many aquarium fish end their life?")
 dialog_addDialog("wc-m-nevis", "cs", "sound/"..codename.."/cs/wc-m-nevis.ogg", "font_small", "Copak nevíš, kde končí svůj život spousta akvarijních rybiček?")
 dialog_addDialog("wc-m-nevis", "fr", "", "font_small", "Ne sais-tu pas ou tant de poissons d'aquarium finissent leur vie ?")
-dialog_addDialog("wc-m-nevis", "de", "", "font_small", "Weißt Du nicht, wo so viele Aquariumfische ihr Leben lassen?")
-dialog_addDialog("wc-m-nevis", "de_CH", "", "font_small", "Weisst Du nicht, wo so viele Aquariumfische ihr Leben lassen?")
+dialog_addDialog("wc-m-nevis", "de", "", "font_small", "Weißt du nicht, wo so viele Aquariumfische ihr Leben lassen?")
+dialog_addDialog("wc-m-nevis", "de_CH", "", "font_small", "Weisst du nicht, wo so viele Aquariumfische ihr Leben lassen?")
 

@@ -16,8 +16,8 @@ dialog_addDialog("tet-m-usudek", "de", "", "font_small", "Aber jeder kann es sel
 dialog_addDialog("tet-v-myslim", "en", "", "font_big", "Do you know what I have in mind?")
 dialog_addDialog("tet-v-myslim", "cs", "sound/"..codename.."/cs/tet-v-myslim.ogg", "font_big", "Víš, co si myslím?")
 dialog_addDialog("tet-v-myslim", "fr", "", "font_big", "Sais-tu ce que j'ai en tête ?")
-dialog_addDialog("tet-v-myslim", "de", "", "font_big", "Weißt Du was ich denke?")
-dialog_addDialog("tet-v-myslim", "de_CH", "", "font_big", "Weisst Du was ich denke?")
+dialog_addDialog("tet-v-myslim", "de", "", "font_big", "Weißt du was ich denke?")
+dialog_addDialog("tet-v-myslim", "de_CH", "", "font_big", "Weisst du was ich denke?")
 
 dialog_addDialog("tet-m-ano", "en", "", "font_small", "Well?")
 dialog_addDialog("tet-m-ano", "cs", "sound/"..codename.."/cs/tet-m-ano.ogg", "font_small", "Ano?")
@@ -57,7 +57,7 @@ dialog_addDialog("tet-m-program", "de", "", "font_small", "Gut, versuche es zu p
 dialog_addDialog("tet-m-pozor", "en", "", "font_small", "Be careful, not to hurt us.")
 dialog_addDialog("tet-m-pozor", "cs", "sound/"..codename.."/cs/tet-m-pozor.ogg", "font_small", "Dej si pozor, ať nám něco neuděláš.")
 dialog_addDialog("tet-m-pozor", "fr", "", "font_small", "Fais attention, nous sommes fragile.")
-dialog_addDialog("tet-m-pozor", "de", "", "font_small", "Pass auf, dass Du uns nicht wehtust.")
+dialog_addDialog("tet-m-pozor", "de", "", "font_small", "Pass auf, dass du uns nicht wehtust.")
 
 dialog_addDialog("tet-v-kostky", "en", "", "font_big", "We will have to stack these pieces more efficiently, perhaps.")
 dialog_addDialog("tet-v-kostky", "cs", "sound/"..codename.."/cs/tet-v-kostky.ogg", "font_big", "Asi tam budeme muset ty kostky naskládat úsporněji.")

@@ -53,8 +53,8 @@ dialog_addDialog("kni-m-amfornictvi", "de_CH", "", "font_small", "Es heisst wahr
 dialog_addDialog("kni-m-mise", "en", "", "font_small", "You know what? I think that this mission really helped me.")
 dialog_addDialog("kni-m-mise", "cs", "sound/"..codename.."/cs/kni-m-mise.ogg", "font_small", "Víš, myslím, že tahle celá jeskynní mise mi hodně pomohla.")
 dialog_addDialog("kni-m-mise", "fr", "", "font_small", "Tu sais quoi ? Je trouve que cette mission m'aura vraiment aidé.")
-dialog_addDialog("kni-m-mise", "de", "", "font_small", "Weißt Du was? Ich glaube, dass mir dieser Auftrag wirklich geholfen hat.")
-dialog_addDialog("kni-m-mise", "de_CH", "", "font_small", "Weisst Du was? Ich glaube, dass mir dieser Auftrag wirklich geholfen hat.")
+dialog_addDialog("kni-m-mise", "de", "", "font_small", "Weißt du was? Ich glaube, dass mir dieser Auftrag wirklich geholfen hat.")
+dialog_addDialog("kni-m-mise", "de_CH", "", "font_small", "Weisst du was? Ich glaube, dass mir dieser Auftrag wirklich geholfen hat.")
 
 dialog_addDialog("kni-v-proc", "en", "", "font_big", "And why?")
 dialog_addDialog("kni-v-proc", "cs", "sound/"..codename.."/cs/kni-v-proc.ogg", "font_big", "A proč?")

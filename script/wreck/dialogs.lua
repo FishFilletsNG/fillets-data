@@ -6,7 +6,7 @@ dialog_addDialog("pot-v-lod", "de", "", "font_big", "Könnte dies Kapitän Silve
 dialog_addDialog("pot-m-soud", "en", "", "font_small", "What makes you think so?")
 dialog_addDialog("pot-m-soud", "cs", "sound/"..codename.."/cs/pot-m-soud.ogg", "font_small", "Z čeho tak soudíš?")
 dialog_addDialog("pot-m-soud", "fr", "", "font_small", "Qu'est-ce qui te fait dire ça ?")
-dialog_addDialog("pot-m-soud", "de", "", "font_small", "Wie kommst Du darauf?")
+dialog_addDialog("pot-m-soud", "de", "", "font_small", "Wie kommst du darauf?")
 
 dialog_addDialog("pot-v-jmeno", "en", "", "font_big", "The title of this level.")
 dialog_addDialog("pot-v-jmeno", "cs", "sound/"..codename.."/cs/pot-v-jmeno.ogg", "font_big", "Ze jména této místnosti.")
@@ -16,12 +16,12 @@ dialog_addDialog("pot-v-jmeno", "de", "", "font_big", "Die Überschrift dieser E
 dialog_addDialog("pot-v-slus", "en", "", "font_big", "It suits you well.")
 dialog_addDialog("pot-v-slus", "cs", "sound/"..codename.."/cs/pot-v-slus.ogg", "font_big", "Moc ti to sluší.")
 dialog_addDialog("pot-v-slus", "fr", "", "font_big", "Ca te va bien.")
-dialog_addDialog("pot-v-slus", "de", "", "font_big", "Das steht Dir gut.")
+dialog_addDialog("pot-v-slus", "de", "", "font_big", "Das steht dir gut.")
 
 dialog_addDialog("pot-m-dik", "en", "", "font_small", "Thanks, you too.")
 dialog_addDialog("pot-m-dik", "cs", "sound/"..codename.."/cs/pot-m-dik.ogg", "font_small", "Díky, tobě taky.")
 dialog_addDialog("pot-m-dik", "fr", "", "font_small", "Merci, toi aussi.")
-dialog_addDialog("pot-m-dik", "de", "", "font_small", "Danke, Dir auch.")
+dialog_addDialog("pot-m-dik", "de", "", "font_small", "Danke, dir auch.")
 
 dialog_addDialog("pot-v-cepic", "en", "", "font_big", "A very nice hat.")
 dialog_addDialog("pot-v-cepic", "cs", "sound/"..codename.."/cs/pot-v-cepic.ogg", "font_big", "Moc slušivá čepička.")
@@ -36,7 +36,7 @@ dialog_addDialog("pot-m-klob", "de", "", "font_small", "Dein Piratenhut ist auch
 dialog_addDialog("pot-v-hlave", "en", "", "font_big", "What is that on your head?")
 dialog_addDialog("pot-v-hlave", "cs", "sound/"..codename.."/cs/pot-v-hlave.ogg", "font_big", "Co to máš na hlavě?")
 dialog_addDialog("pot-v-hlave", "fr", "", "font_big", "Qu'as-tu au dessus de la tête ?")
-dialog_addDialog("pot-v-hlave", "de", "", "font_big", "Was ist das auf Deinem Kopf?")
+dialog_addDialog("pot-v-hlave", "de", "", "font_big", "Was ist das auf deinem Kopf?")
 
 dialog_addDialog("pot-m-zima", "en", "", "font_small", "My ears were freezing.")
 dialog_addDialog("pot-m-zima", "cs", "sound/"..codename.."/cs/pot-m-zima.ogg", "font_small", "Byla mi zima na uši...")
@@ -51,7 +51,7 @@ dialog_addDialog("pot-m-pujc", "de", "", "font_small", "Das nenne ich einen Hut!
 dialog_addDialog("pot-v-leda", "en", "", "font_big", "If you lend me yours.")
 dialog_addDialog("pot-v-leda", "cs", "sound/"..codename.."/cs/pot-v-leda.ogg", "font_big", "Leda za čepičku.")
 dialog_addDialog("pot-v-leda", "fr", "", "font_big", "Si tu me prêtes les tiens.")
-dialog_addDialog("pot-v-leda", "de", "", "font_big", "Wenn ich Deinen bekomme.")
+dialog_addDialog("pot-v-leda", "de", "", "font_big", "Wenn ich deinen bekomme.")
 
 dialog_addDialog("pot-m-velik", "en", "", "font_small", "This sure is a big stetson.")
 dialog_addDialog("pot-m-velik", "cs", "sound/"..codename.."/cs/pot-m-velik.ogg", "font_small", "To je ale veliký klobouk.")
@@ -107,7 +107,7 @@ dialog_addDialog("pot-v-plav", "de", "", "font_big", "Hör auf zu quatschen und 
 dialog_addDialog("pot-v-ponur", "en", "", "font_big", "Can you sense that atmosphere of doom and decay?")
 dialog_addDialog("pot-v-ponur", "cs", "sound/"..codename.."/cs/pot-v-ponur.ogg", "font_big", "Cítíš tu ponurou atmosféru zániku a pomíjivosti?")
 dialog_addDialog("pot-v-ponur", "fr", "", "font_big", "Ressens-tu ce mélange de malédiction et de pourriture dans l'air ?")
-dialog_addDialog("pot-v-ponur", "de", "", "font_big", "Spürst Du diese Atmosphäre von Untergang und Verwesung?")
+dialog_addDialog("pot-v-ponur", "de", "", "font_big", "Spürst du diese Atmosphäre von Untergang und Verwesung?")
 
 dialog_addDialog("pot-m-hnil", "en", "", "font_small", "No, just the mold.")
 dialog_addDialog("pot-m-hnil", "cs", "sound/"..codename.."/cs/pot-m-hnil.ogg", "font_small", "Cítím akorát hnilobu.")
@@ -117,7 +117,7 @@ dialog_addDialog("pot-m-hnil", "de", "", "font_small", "Nein, nur Schimmel.")
 dialog_addDialog("pot-m-vidis", "en", "", "font_small", "What do you see?")
 dialog_addDialog("pot-m-vidis", "cs", "sound/"..codename.."/cs/pot-m-vidis.ogg", "font_small", "Co tam vidíš?")
 dialog_addDialog("pot-m-vidis", "fr", "", "font_small", "Que vois-tu ?")
-dialog_addDialog("pot-m-vidis", "de", "", "font_small", "Was siehst Du?")
+dialog_addDialog("pot-m-vidis", "de", "", "font_small", "Was siehst du?")
 
 dialog_addDialog("pot-v-vidim", "en", "", "font_big", "I can see many interesting levels which we`ll have to solve.")
 dialog_addDialog("pot-v-vidim", "cs", "sound/"..codename.."/cs/pot-v-vidim.ogg", "font_big", "Vidím spoustu zajímavých místností, které budeme muset řešit.")

@@ -6,7 +6,7 @@ dialog_addDialog("br-v-komfort", "de", "", "font_big", "Ziemlich gemütlich für
 dialog_addDialog("br-m-bydli", "en", "", "font_small", "What do you think, does anybody live here?")
 dialog_addDialog("br-m-bydli", "cs", "sound/"..codename.."/cs/br-m-bydli.ogg", "font_small", "Myslíš, že tu někdo bydlí?")
 dialog_addDialog("br-m-bydli", "fr", "", "font_small", "Que crois-tu, que personne ne vit ici ?")
-dialog_addDialog("br-m-bydli", "de", "", "font_small", "Meinst Du, hier wohnt jemand?")
+dialog_addDialog("br-m-bydli", "de", "", "font_small", "Meinst du, hier wohnt jemand?")
 
 dialog_addDialog("br-v-santusak", "en", "", "font_big", "Some underwater homeless.")
 dialog_addDialog("br-v-santusak", "cs", "sound/"..codename.."/cs/br-v-santusak.ogg", "font_big", "Nějaký podvodní santusák.")
@@ -21,12 +21,12 @@ dialog_addDialog("br-m-podvodnik", "de", "", "font_small", "Wir sagen dazu \"Sch
 dialog_addDialog("br-m-vsim0", "en", "", "font_small", "Did you notice that...")
 dialog_addDialog("br-m-vsim0", "cs", "sound/"..codename.."/cs/br-m-vsim0.ogg", "font_small", "Všiml sis, že...")
 dialog_addDialog("br-m-vsim0", "fr", "", "font_small", "As-tu noté que...")
-dialog_addDialog("br-m-vsim0", "de", "", "font_small", "Hast Du bemerkt, dass...")
+dialog_addDialog("br-m-vsim0", "de", "", "font_small", "Hast du bemerkt, dass...")
 
 dialog_addDialog("br-m-vsim1", "en", "", "font_small", "Don`t you think that...")
 dialog_addDialog("br-m-vsim1", "cs", "sound/"..codename.."/cs/br-m-vsim1.ogg", "font_small", "Není ti divné, že...")
 dialog_addDialog("br-m-vsim1", "fr", "", "font_small", "Ne penses-tu pas que...")
-dialog_addDialog("br-m-vsim1", "de", "", "font_small", "Meinst Du, dass...")
+dialog_addDialog("br-m-vsim1", "de", "", "font_small", "Meinst du, dass...")
 
 dialog_addDialog("br-m-vsim2", "en", "", "font_small", "Isn`t it strange that...")
 dialog_addDialog("br-m-vsim2", "cs", "sound/"..codename.."/cs/br-m-vsim2.ogg", "font_small", "To je zvláštní, že...")
@@ -57,7 +57,7 @@ dialog_addDialog("br-m-dva", "de", "", "font_small", "Ja, aber warum ZWEI?")
 dialog_addDialog("br-v-dost", "en", "", "font_big", "Stop it, will you?")
 dialog_addDialog("br-v-dost", "cs", "sound/"..codename.."/cs/br-v-dost.ogg", "font_big", "Prosím tě, nech toho!")
 dialog_addDialog("br-v-dost", "fr", "", "font_big", "Arrête, veux-tu ?")
-dialog_addDialog("br-v-dost", "de", "", "font_big", "Wirst Du wohl aufhören!?")
+dialog_addDialog("br-v-dost", "de", "", "font_big", "Wirst du wohl aufhören!?")
 
 dialog_addDialog("br-m-sprcha", "en", "", "font_small", "I`ve seen many useless things, but an underwater shower...")
 dialog_addDialog("br-m-sprcha", "cs", "sound/"..codename.."/cs/br-m-sprcha.ogg", "font_small", "Viděla jsem tu hodně zbytečností, ale podvodní sprcha...")
@@ -72,7 +72,7 @@ dialog_addDialog("br-v-lazen", "de", "", "font_big", "Vielleicht versprüht sie 
 dialog_addDialog("br-m-zapnout", "en", "", "font_small", "Do you think we could turn it on?")
 dialog_addDialog("br-m-zapnout", "cs", "sound/"..codename.."/cs/br-m-zapnout.ogg", "font_small", "Myslíš, že bychom ji mohli zapnout?")
 dialog_addDialog("br-m-zapnout", "fr", "", "font_small", "Crois-tu que nous pourrons ouvrir le robinet ?")
-dialog_addDialog("br-m-zapnout", "de", "", "font_small", "Glaubst Du, wir können sie aufdrehen?")
+dialog_addDialog("br-m-zapnout", "de", "", "font_small", "Glaubst du, wir können sie aufdrehen?")
 
 dialog_addDialog("br-v-shodit", "en", "", "font_big", "Hardly. But we could push it down.")
 dialog_addDialog("br-v-shodit", "cs", "sound/"..codename.."/cs/br-v-shodit.ogg", "font_big", "Těžko. Ale mohli bychom ji shodit.")

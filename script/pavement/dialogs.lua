@@ -1,7 +1,7 @@
 dialog_addDialog("dir-m-rada0", "en", "", "font_small", "Stuff yourself with your advice.")
 dialog_addDialog("dir-m-rada0", "cs", "sound/"..codename.."/cs/dir-m-rada0.ogg", "font_small", "Nech si ty rady.")
 dialog_addDialog("dir-m-rada0", "fr", "", "font_small", "Garde tes conseils pour toi.")
-dialog_addDialog("dir-m-rada0", "de", "", "font_small", "Behalte Deine Ratschläge für Dich!")
+dialog_addDialog("dir-m-rada0", "de", "", "font_small", "Behalte deine Ratschläge für dich!")
 
 dialog_addDialog("dir-m-rada1", "en", "", "font_small", "We know that very well.")
 dialog_addDialog("dir-m-rada1", "cs", "sound/"..codename.."/cs/dir-m-rada1.ogg", "font_small", "To víme i bez tebe.")
