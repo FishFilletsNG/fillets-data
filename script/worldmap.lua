@@ -1,475 +1,74 @@
--- -----------------------------------------------------------------
--- ufo ->
--- UFO
-local branch_ufo = {
-    codename = "reactor",
-    datafile = "script/reactor/init.lua",
-    x = 167, y = 222,
-    hidden = true,
-    children = {{
-        codename = "magnet",
-        datafile = "script/magnet/init.lua",
-        x = 132, y = 238,
-        hidden = false,
-        children = {{
-            codename = "engine",
-            datafile = "script/engine/init.lua",
-            x = 95, y = 236,
-            hidden = false,
-            children = {{
-                codename = "steel",
-                datafile = "script/steel/init.lua",
-                x = 70, y = 210,
-                hidden = false,
-                children = {{
-                    codename = "corridor",
-                    datafile = "script/corridor/init.lua",
-                    x = 78, y = 169,
-                    hidden = false,
-                    children = {{
-                        codename = "experiments",
-                        datafile = "script/experiments/init.lua",
-                        x = 111, y = 159,
-                        hidden = false,
-                        children = {{
-                            codename = "propulsion",
-                            datafile = "script/propulsion/init.lua",
-                            x = 118, y = 192,
-                            hidden = false,
-                            children = {}
-                        }}
-                    }}
-                }}
-            }}
-        }}
-    }}
-}
--- -----------------------------------------------------------------
--- computer ->
--- Secret Computer
-local branch_secretComputer = {
-    codename = "tetris",
-    datafile = "script/tetris/init.lua",
-    x = 254, y = 349,
-    hidden = true,
-    children = {{
-        codename = "emulator",
-        datafile = "script/emulator/init.lua",
-        x = 226, y = 317,
-        hidden = false,
-        children = {{
-            codename = "warcraft",
-            datafile = "script/warcraft/init.lua",
-            x = 198, y = 290,
-            hidden = false,
-            children = {{
-                codename = "windoze",
-                datafile = "script/windoze/init.lua",
-                x = 162, y = 279,
-                hidden = false,
-                children = {{
-                    codename = "hardware",
-                    datafile = "script/hardware/init.lua",
-                    x = 129, y = 290,
-                    hidden = false,
-                    children = {{
-                        codename = "floppy",
-                        datafile = "script/floppy/init.lua",
-                        x = 97, y = 314,
-                        hidden = false,
-                        children = {}
-                    }}
-                }}
-            }}
-        }}
-    }}
-}
--- -----------------------------------------------------------------
--- wreck ->
--- Silver's Ship
-local branch_silverShip = {
-    codename = "cabin1",
-    datafile = "script/cabin1/init.lua",
-    x = 464, y = 227,
-    hidden = true,
-    children = {{
-        codename = "snowman",
-        datafile = "script/snowman/init.lua",
-        x = 487, y = 256,
-        hidden = false,
-        children = {{
-            codename = "cannons",
-            datafile = "script/cannons/init.lua",
-            x = 521, y = 271,
-            hidden = false,
-            children = {{
-                codename = "kitchen",
-                datafile = "script/kitchen/init.lua",
-                x = 558, y = 254,
-                hidden = false,
-                children = {{
-                    codename = "cabin2",
-                    datafile = "script/cabin2/init.lua",
-                    x = 571, y = 210,
-                    hidden = false,
-                    children = {{
-                        codename = "captain",
-                        datafile = "script/captain/init.lua",
-                        x = 550, y = 175,
-                        hidden = false,
-                        children = {{
-                            codename = "map",
-                            datafile = "script/map/init.lua",
-                            x = 510, y = 199,
-                            hidden = false,
-                            children = {}
-                        }}
-                    }}
-                }}
-            }}
-        }}
-    }}
-}
--- -------------------------------------------------------------------
--- labyrinth ->
--- Treasure Cave
-local branch_treasureCave = {
-    codename = "aztec",
-    datafile = "script/aztec/init.lua",
-    x = 407, y = 282,
-    hidden = true,
-    children = {{
-        codename = "gems",
-        datafile = "script/gems/init.lua",
-        x = 441, y = 291,
-        hidden = false,
-        children = {{
-            codename = "chest",
-            datafile = "script/chest/init.lua",
-            x = 469, y = 319,
-            hidden = false,
-            children = {{
-                codename = "alibaba",
-                datafile = "script/alibaba/init.lua",
-                x = 494, y = 341,
-                hidden = false,
-                children = {{
-                    codename = "cave",
-                    datafile = "script/cave/init.lua",
-                    x = 529, y = 334,
-                    hidden = false,
-                    children = {{
-                        codename = "grail",
-                        datafile = "script/grail/init.lua",
-                        x = 558, y = 318,
-                        hidden = false,
-                        children = {}
-                    }}
-                }}
-            }}
-        }}
-    }}
-}
--- -----------------------------------------------------------------
--- stairs ->
--- City in the Deep
-local branch_city = {
-    codename = "elevator1",
-    datafile = "script/elevator1/init.lua",
-    x = 247, y = 234,
-    hidden = true,
-    children = {{
-        codename = "city",
-        datafile = "script/city/init.lua",
-        x = 219, y = 217,
-        hidden = false,
-        children = {{
-            codename = "ufo",
-            datafile = "script/ufo/init.lua",
-            x = 192, y = 192,
-            hidden = false,
-            children = {
-                branch_ufo,
-                {
-                    codename = "columns",
-                    datafile = "script/columns/init.lua",
-                    x = 171, y = 161,
-                    hidden = false,
-                    children = {{
-                        codename = "pavement",
-                        datafile = "script/pavement/init.lua",
-                        x = 161, y = 125,
-                        hidden = false,
-                        children = {{
-                            codename = "pyramid",
-                            datafile = "script/pyramid/init.lua",
-                            x = 175, y = 81,
-                            hidden = false,
-                            children = {{
-                                codename = "music",
-                                datafile = "script/music/init.lua",
-                                x = 207, y = 52,
-                                hidden = false,
-                                children = {{
-                                    codename = "crabshow",
-                                    datafile = "script/crabshow/init.lua",
-                                    x = 244, y = 44,
-                                    hidden = false,
-                                    children = {{
-                                        codename = "elevator2",
-                                        datafile = "script/elevator2/init.lua",
-                                        x = 266, y = 77,
-                                        hidden = false,
-                                        children = {{
-                                            codename = "atlantis",
-                                            datafile = "script/atlantis/init.lua",
-                                            x = 251, y = 115,
-                                            hidden = false,
-                                            children = {}
-                                        }}
-                                    }}
-                                }}
-                            }}
-                        }}
-                    }}
-                }}
-        }}
-    }}
-}
--- -----------------------------------------------------------------
--- wc ->
--- Dump
-local branch_dump = {
-    codename = "computer",
-    datafile = "script/computer/init.lua",
-    x = 289, y = 368,
-    hidden = true,
-    children = {
-        branch_secretComputer,
-        {
-            codename = "noground",
-            datafile = "script/noground/init.lua",
-            x = 257, y = 397,
-            hidden = false,
-            children = {{
-                codename = "bathroom",
-                datafile = "script/bathroom/init.lua",
-                x = 217, y = 415,
-                hidden = false,
-                children = {{
-                    codename = "duckie",
-                    datafile = "script/duckie/init.lua",
-                    x = 170, y = 415,
-                    hidden = false,
-                    children = {{
-                        codename = "puzzle",
-                        datafile = "script/puzzle/init.lua",
-                        x = 138, y = 385,
-                        hidden = false,
-                        children = {{
-                            codename = "dump",
-                            datafile = "script/dump/init.lua",
-                            x = 154, y = 342,
-                            hidden = false,
-                            children = {{
-                                codename = "barrel",
-                                datafile = "script/barrel/init.lua",
-                                x = 192, y = 351,
-                                hidden = false,
-                                children = {}
-                            }}
-                        }}
-                    }}
-                }}
-            }}
-        }}
-}
--- -----------------------------------------------------------------
--- reef ->
--- Coral reef
-local branch_coralReef = {
-    codename = "corals",
-    datafile = "script/corals/init.lua",
-    x = 329, y = 294,
-    hidden = true,
-    children = {{
-        codename = "labyrinth",
-        datafile = "script/labyrinth/init.lua",
-        x = 367, y = 296,
-        hidden = false,
-        children = {
-            branch_treasureCave,
-            {
-                codename = "imprisoned",
-                datafile = "script/imprisoned/init.lua",
-                x = 401, y = 314,
-                hidden = false,
-                children = {{
-                    codename = "society",
-                    datafile = "script/society/init.lua",
-                    x = 418, y = 346,
-                    hidden = false,
-                    children = {{
-                        codename = "creatures",
-                        datafile = "script/creatures/init.lua",
-                        x = 412, y = 383,
-                        hidden = false,
-                        children = {{
-                            codename = "cancan",
-                            datafile = "script/cancan/init.lua",
-                            x = 386, y = 406,
-                            hidden = false,
-                            children = {{
-                                codename = "pearls",
-                                datafile = "script/pearls/init.lua",
-                                x = 352, y = 408,
-                                hidden = false,
-                                children = {{
-                                    codename = "turtle",
-                                    datafile = "script/turtle/init.lua",
-                                    x = 337, y = 375,
-                                    hidden = false,
-                                    children = {}
-                                }}
-                            }}
-                        }}
-                    }}
-                }}
-            }}
-    }}
-}
--- -----------------------------------------------------------------
--- library ->
--- Ship Wrecks
-local branch_shipWrecks = {
-    codename = "submarine",
-    datafile = "script/submarine/init.lua",
-    x = 340, y = 228,
-    hidden = true,
-    children = {{
-        codename = "party1",
-        datafile = "script/party1/init.lua",
-        x = 381, y = 224,
-        hidden = false,
-        children = {{
-            codename = "elk",
-            datafile = "script/elk/init.lua",
-            x = 422, y = 210,
-            hidden = false,
-            children = {{
-                codename = "wreck",
-                datafile = "script/wreck/init.lua",
-                x = 456, y = 189,
-                hidden = false,
-                children = {
-                    branch_silverShip,
-                    {
-                        codename = "viking1",
-                        datafile = "script/viking1/init.lua",
-                        x = 483, y = 158,
-                        hidden = false,
-                        children = {{
-                            codename = "airplane",
-                            datafile = "script/airplane/init.lua",
-                            x = 491, y = 119,
-                            hidden = false,
-                            children = {{
-                                codename = "bathyscaph",
-                                datafile = "script/bathyscaph/init.lua",
-                                x = 477, y = 84,
-                                hidden = false,
-                                children = {{
-                                    codename = "tank",
-                                    datafile = "script/tank/init.lua",
-                                    x = 446, y = 58,
-                                    hidden = false,
-                                    children = {{
-                                        codename = "viking2",
-                                        datafile = "script/viking2/init.lua",
-                                        x = 402, y = 61,
-                                        hidden = false,
-                                        children = {{
-                                            codename = "party2",
-                                            datafile = "script/party2/init.lua",
-                                            x = 372, y = 88,
-                                            hidden = false,
-                                            children = {{
-                                                codename = "gods",
-                                                datafile = "script/gods/init.lua",
-                                                x = 391, y = 124,
-                                                hidden = false,
-                                                children = {}
-                                            }}
-                                        }}
-                                    }}
-                                }}
-                            }}
-                        }}
-                    }}
-            }}
-        }}
-    }}
-}
--- -------------------------------------------------------------------
--- Fish House
-local branch_fishHouse = {
-    codename = "start",
-    datafile = "script/start/init.lua",
-    x = 320, y = 121,
-    hidden = false,
-    children = {{
-        codename = "briefcase",
-        datafile = "script/briefcase/init.lua",
-        x = 329, y = 153,
-        hidden = false,
-        children = {{
-            codename = "cellar",
-            datafile = "script/cellar/init.lua",
-            x = 320, y = 189,
-            hidden = false,
-            children = {{
-                codename = "library",
-                datafile = "script/library/init.lua",
-                x = 301, y = 224,
-                hidden = false,
-                children = {
-                    branch_shipWrecks,
-                    {
-                        codename = "stairs",
-                        datafile = "script/stairs/init.lua",
-                        x = 285, y = 252,
-                        hidden = false,
-                        children = {
-                            branch_city,
-                            {
-                                codename = "broom",
-                                datafile = "script/broom/init.lua",
-                                x = 279, y = 286,
-                                hidden = false,
-                                children = {{
-                                    codename = "reef",
-                                    datafile = "script/reef/init.lua",
-                                    x = 292, y = 315,
-                                    hidden = false,
-                                    children = {
-                                        branch_coralReef,
-                                        {
-                                            codename = "wc",
-                                            datafile = "script/wc/init.lua",
-                                            x = 314, y = 338,
-                                            hidden = false,
-                                            children = {
-                                                branch_dump
-                                            }
-                                        }}
-                                }}
-                            }}
-                    }}
-            }}
-        }}
-    }}
-}
--- -----------------------------------------------------------------
 
-worldway_parseWay(branch_fishHouse)
+-- branch_addNode(parent, codename, datafile, x, y, hidden=false, poster="")
+branch_addNode("", "start", "script/start/init.lua", 320, 121)
+branch_addNode("start", "briefcase", "script/briefcase/init.lua", 329, 153)
+branch_addNode("briefcase", "cellar", "script/cellar/init.lua", 320, 189)
+branch_addNode("cellar", "library", "script/library/init.lua", 301, 224)
+branch_addNode("library", "submarine", "script/submarine/init.lua", 340, 228)
+branch_addNode("submarine", "party1", "script/party1/init.lua", 381, 224)
+branch_addNode("party1", "elk", "script/elk/init.lua", 422, 210)
+branch_addNode("elk", "wreck", "script/wreck/init.lua", 456, 189)
+branch_addNode("wreck", "cabin1", "script/cabin1/init.lua", 464, 227)
+branch_addNode("cabin1", "snowman", "script/snowman/init.lua", 487, 256)
+branch_addNode("snowman", "cannons", "script/cannons/init.lua", 521, 271)
+branch_addNode("cannons", "kitchen", "script/kitchen/init.lua", 558, 254)
+branch_addNode("kitchen", "cabin2", "script/cabin2/init.lua", 571, 210)
+branch_addNode("cabin2", "captain", "script/captain/init.lua", 550, 175)
+branch_addNode("captain", "map", "script/map/init.lua", 510, 199)
+branch_addNode("wreck", "viking1", "script/viking1/init.lua", 483, 158)
+branch_addNode("viking1", "airplane", "script/airplane/init.lua", 491, 119)
+branch_addNode("airplane", "bathyscaph", "script/bathyscaph/init.lua", 477, 84)
+branch_addNode("bathyscaph", "tank", "script/tank/init.lua", 446, 58)
+branch_addNode("tank", "viking2", "script/viking2/init.lua", 402, 61)
+branch_addNode("viking2", "party2", "script/party2/init.lua", 372, 88)
+branch_addNode("party2", "gods", "script/gods/init.lua", 391, 124)
+branch_addNode("library", "stairs", "script/stairs/init.lua", 285, 252)
+branch_addNode("stairs", "elevator1", "script/elevator1/init.lua", 247, 234)
+branch_addNode("elevator1", "city", "script/city/init.lua", 219, 217)
+branch_addNode("city", "ufo", "script/ufo/init.lua", 192, 192)
+branch_addNode("ufo", "reactor", "script/reactor/init.lua", 167, 222)
+branch_addNode("reactor", "magnet", "script/magnet/init.lua", 132, 238)
+branch_addNode("magnet", "engine", "script/engine/init.lua", 95, 236)
+branch_addNode("engine", "steel", "script/steel/init.lua", 70, 210)
+branch_addNode("steel", "corridor", "script/corridor/init.lua", 78, 169)
+branch_addNode("corridor", "experiments", "script/experiments/init.lua", 111, 159)
+branch_addNode("experiments", "propulsion", "script/propulsion/init.lua", 118, 192)
+branch_addNode("ufo", "columns", "script/columns/init.lua", 171, 161)
+branch_addNode("columns", "pavement", "script/pavement/init.lua", 161, 125)
+branch_addNode("pavement", "pyramid", "script/pyramid/init.lua", 175, 81)
+branch_addNode("pyramid", "music", "script/music/init.lua", 207, 52)
+branch_addNode("music", "crabshow", "script/crabshow/init.lua", 244, 44)
+branch_addNode("crabshow", "elevator2", "script/elevator2/init.lua", 266, 77)
+branch_addNode("elevator2", "atlantis", "script/atlantis/init.lua", 251, 115,
+    false, "images/atlantis/poster.png")
+branch_addNode("stairs", "broom", "script/broom/init.lua", 279, 286)
+branch_addNode("broom", "reef", "script/reef/init.lua", 292, 315)
+branch_addNode("reef", "corals", "script/corals/init.lua", 329, 294)
+branch_addNode("corals", "labyrinth", "script/labyrinth/init.lua", 367, 296)
+branch_addNode("labyrinth", "aztec", "script/aztec/init.lua", 407, 282)
+branch_addNode("aztec", "gems", "script/gems/init.lua", 441, 291)
+branch_addNode("gems", "chest", "script/chest/init.lua", 469, 319)
+branch_addNode("chest", "alibaba", "script/alibaba/init.lua", 494, 341)
+branch_addNode("alibaba", "cave", "script/cave/init.lua", 529, 334)
+branch_addNode("cave", "grail", "script/grail/init.lua", 558, 318)
+branch_addNode("labyrinth", "imprisoned", "script/imprisoned/init.lua", 401, 314)
+branch_addNode("imprisoned", "society", "script/society/init.lua", 418, 346)
+branch_addNode("society", "creatures", "script/creatures/init.lua", 412, 383)
+branch_addNode("creatures", "cancan", "script/cancan/init.lua", 386, 406)
+branch_addNode("cancan", "pearls", "script/pearls/init.lua", 352, 408)
+branch_addNode("pearls", "turtle", "script/turtle/init.lua", 337, 375)
+branch_addNode("reef", "wc", "script/wc/init.lua", 314, 338)
+branch_addNode("wc", "computer", "script/computer/init.lua", 289, 368)
+branch_addNode("computer", "tetris", "script/tetris/init.lua", 254, 349)
+branch_addNode("tetris", "emulator", "script/emulator/init.lua", 226, 317)
+branch_addNode("emulator", "warcraft", "script/warcraft/init.lua", 198, 290)
+branch_addNode("warcraft", "windoze", "script/windoze/init.lua", 162, 279)
+branch_addNode("windoze", "hardware", "script/hardware/init.lua", 129, 290)
+branch_addNode("hardware", "floppy", "script/floppy/init.lua", 97, 314)
+branch_addNode("computer", "noground", "script/noground/init.lua", 257, 397)
+branch_addNode("noground", "bathroom", "script/bathroom/init.lua", 217, 415)
+branch_addNode("bathroom", "duckie", "script/duckie/init.lua", 170, 415)
+branch_addNode("duckie", "puzzle", "script/puzzle/init.lua", 138, 385)
+branch_addNode("puzzle", "dump", "script/dump/init.lua", 154, 342)
+branch_addNode("dump", "barrel", "script/barrel/init.lua", 192, 351)
 
