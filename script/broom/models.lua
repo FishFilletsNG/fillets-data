@@ -130,13 +130,3 @@ XXXXX
 ]])
 addItemAnim(item_light, "images/"..codename.."/uhlak.png")
 
---TEST: tux
-tux = addModel("fish_extra", 2, 14,
-[[
-XXX
-XXX
-XXX
-]])
-addFishAnim(tux, LOOK_RIGHT, "images/fishes/tux")
-
-
