@@ -52,37 +52,44 @@ dialog_addDialog("dir-hs-uvod0", "en", "", "font_statue", "It would be easiest i
 dialog_addDialog("dir-hs-uvod0", "cs", "sound/"..codename.."/cs/dir-hs-uvod0.ogg", "font_statue", "Nejjednodušší by bylo")
 dialog_addDialog("dir-hs-uvod0", "fr", "", "font_statue", "Ca serait plus facile si vous...")
 dialog_addDialog("dir-hs-uvod0", "de", "", "font_statue", "Am einfachsten wäre es, wenn ihr")
+dialog_addDialog("dir-hs-uvod0", "it", "", "font_statue", "Sarebbe più facile")
 
 dialog_addDialog("dir-hs-uvod1", "en", "", "font_statue", "You would be better off if you")
 dialog_addDialog("dir-hs-uvod1", "cs", "sound/"..codename.."/cs/dir-hs-uvod1.ogg", "font_statue", "Určitě by pomohlo")
 dialog_addDialog("dir-hs-uvod1", "fr", "", "font_statue", "Vous serez meilleurs si vous...")
 dialog_addDialog("dir-hs-uvod1", "de", "", "font_statue", "Ihr wärt besser dran, wenn ihr")
+dialog_addDialog("dir-hs-uvod1", "it", "", "font_statue", "Ve la cavereste meglio")
 
 dialog_addDialog("dir-hs-uvod2", "en", "", "font_statue", "It would help you if you")
 dialog_addDialog("dir-hs-uvod2", "cs", "sound/"..codename.."/cs/dir-hs-uvod2.ogg", "font_statue", "Možná by nebylo špatné")
 dialog_addDialog("dir-hs-uvod2", "fr", "", "font_statue", "Ca vous aiderait si vous...")
 dialog_addDialog("dir-hs-uvod2", "de", "", "font_statue", "Es würde helfen, wenn ihr")
+dialog_addDialog("dir-hs-uvod2", "it", "", "font_statue", "Vi sarebbe utile")
 
 dialog_addDialog("dir-hs-uvod3", "en", "", "font_statue", "I have an idea. What if you")
 dialog_addDialog("dir-hs-uvod3", "cs", "sound/"..codename.."/cs/dir-hs-uvod3.ogg", "font_statue", "Mám takový nápad. Co zkusit")
 dialog_addDialog("dir-hs-uvod3", "fr", "", "font_statue", "J'ai une idée. Si vous...")
 dialog_addDialog("dir-hs-uvod3", "de", "", "font_statue", "Ich habe eine Idee. Es wäre gut, wenn ihr")
+dialog_addDialog("dir-hs-uvod3", "it", "", "font_statue", "Ho un'idea. E")
 
 dialog_addDialog("dir-hs-uvod4", "en", "", "font_statue", "Sorry to interrupt, but what if you")
 dialog_addDialog("dir-hs-uvod4", "cs", "sound/"..codename.."/cs/dir-hs-uvod4.ogg", "font_statue", "Promiňte, že vám do toho mluvím, ale co takhle")
 dialog_addDialog("dir-hs-uvod4", "fr", "", "font_statue", "Désolé d'interrompre, mais si vous...")
 dialog_addDialog("dir-hs-uvod4", "de", "", "font_statue", "Entschuldigt wenn ich unterbreche. Es wäre gut, wenn ihr")
+dialog_addDialog("dir-hs-uvod4", "it", "", "font_statue", "Spiacente interrompervi, ma")
 
 dialog_addDialog("dir-hs-konec0", "en", "", "font_statue", "demolish some wall.")
 dialog_addDialog("dir-hs-konec0", "cs", "sound/"..codename.."/cs/dir-hs-konec0.ogg", "font_statue", "vybourat nějakou tu zeď.")
 dialog_addDialog("dir-hs-konec0", "fr", "", "font_statue", "Détruisez quelque mur.")
 dialog_addDialog("dir-hs-konec0", "de", "", "font_statue", "ein paar Mauern niederreißt.")
 dialog_addDialog("dir-hs-konec0", "de_CH", "", "font_statue", "ein paar Mauern niederreisst.")
+dialog_addDialog("dir-hs-konec0", "it", "", "font_statue", "se voi demoliste qualche parete.")
 
 dialog_addDialog("dir-hs-konec1", "en", "", "font_statue", "break off a few stones from the wall and plug the holes with them.")
 dialog_addDialog("dir-hs-konec1", "cs", "sound/"..codename.."/cs/dir-hs-konec1.ogg", "font_statue", "vylomit pár kamenů ze zdi a ucpat ty díry.")
 dialog_addDialog("dir-hs-konec1", "fr", "", "font_statue", "Enlever quelques pierres du mur et boucher les trous avec.")
 dialog_addDialog("dir-hs-konec1", "de", "", "font_statue", "ein paar Steine aus der Mauer brecht und die Löcher damit stopft.")
+dialog_addDialog("dir-hs-konec1", "it", "", "font_statue", "break off few stones from the wall and plug the holes with them.")
 
 dialog_addDialog("dir-hs-konec2", "en", "", "font_statue", "plug those holes with something so that that hooked steel wouldn`t get stuck there.")
 dialog_addDialog("dir-hs-konec2", "cs", "sound/"..codename.."/cs/dir-hs-konec2.ogg", "font_statue", "něčím ucpat ty díry, aby vám tam nezapadla ta zahnutá ocel.")
@@ -128,5 +135,3 @@ dialog_addDialog("k1-chob-3", "en", "sound/"..codename.."/en/k1-chob-3.ogg")
 dialog_addDialog("k1-chob-p", "en", "sound/"..codename.."/en/k1-chob-p.ogg")
 
 dialog_addDialog("k1-x-vrz", "en", "sound/"..codename.."/en/k1-x-vrz.ogg")
-
-
