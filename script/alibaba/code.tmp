@@ -1,0 +1,367 @@
+
+-- -----------------------------------------------------------------
+-- Init
+-- -----------------------------------------------------------------
+local function prog_init()
+    initModels()
+    sound_playMusic("music/rybky07.ogg")
+    local pokus = getRestartCount()
+
+
+    -- -------------------------------------------------------------
+    local function prog_init_room()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        room.cas = random(100) + 10
+        room.zakaz = 0
+
+        return function()
+            pom1 = 99
+            if no_dialog() and isReady(small) and isReady(big) then
+                if room.cas > 0 then
+                    room.cas = room.cas - 1
+                else
+                    room.cas = random(1000) + 600
+                    pom1 = roompole[1]
+                    if math.mod(pom1, 4) == 2 then
+                        if room.zakaz == 1 then
+                            pom1 = pom1 + 1
+                        end
+                    end
+                    pom2 = math.mod(pom1, 4)
+                    pom1 = pom1 + 1
+                    pom1 = math.mod(pom1, 4)
+                    roompole[1] = pom1
+                end
+            end
+            switch(pom2){
+                [0] = function()
+                    addm(7, "kni-m-svicny")
+                    if pokus < 3 or random(3) > 0 then
+                        addv(7, "kni-v-ber")
+                    end
+                end,
+                [1] = function()
+                    addv(7, "kni-v-prolezt")
+                    addm(7, "kni-m-tloustka")
+                    addv(7, "kni-v-padavko")
+                    addm(7, "kni-m-hromado")
+                    adddel(7)
+                    addset(busy[velka], 1)
+                    addv(1, "kni-v-vypni")
+                    addset(busy[velka], 0)
+                end,
+                [2] = function()
+                    addm(7, "kni-m-hrncirstvi")
+                    addv(7, "kni-v-amforstvi")
+                    addm(7, "kni-m-amfornictvi")
+                end,
+                [3] = function()
+                    addm(7, "kni-m-mise")
+                    addv(7, "kni-v-proc")
+                    addm(7, "kni-m-cetky")
+                    adddel(14)
+                    addset(busy[mala], 1)
+                    addm(1, "kni-m-kramy")
+                    addset(busy[mala], 0)
+                end,
+            }
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_universal()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        universal.co = 0
+
+        return function()
+            switch(universal.co){
+                [0] = function()
+                    switch(random(10)){
+                        [1] = function()
+                            universal.co = 1
+                        end,
+                        [2] = function()
+                            universal.co = 8
+                        end,
+                    }
+                    if universal.co ~= 0 then
+                        universal.kdo = random(3) + this
+                    end
+                end,
+                [1.. --FIXME: range
+3] = function()
+                    (--FIXME: pointer
+Items[universal.kdo]^).afaze = universal.co
+                    universal.co = universal.co + 1
+                end,
+                [4.. --FIXME: range
+6] = function()
+                    (--FIXME: pointer
+Items[universal.kdo]^).afaze = 7 - universal.co
+                    universal.co = universal.co + 1
+                end,
+                [8.. --FIXME: range
+9] = function()
+                    (--FIXME: pointer
+Items[universal.kdo]^).afaze = universal.co - 4
+                    universal.co = universal.co + 1
+                end,
+                [10.. --FIXME: range
+11] = function()
+                    (--FIXME: pointer
+Items[universal.kdo]^).afaze = 15 - universal.co
+                    universal.co = universal.co + 1
+                end,
+                default = function()
+                    (--FIXME: pointer
+Items[universal.kdo]^).afaze = 0
+                    universal.co = 0
+                end,
+            }
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_big()
+        return function()
+            if big.y < 18 then
+                room.zakaz = 1
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_pc2()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        pc2.stav = 0
+
+        return function()
+            if pc2.stav > 0 then
+                pc2.stav = pc2.stav - 1
+            else
+                pc2.stav = random(300) + 50
+            end
+            switch(pc2.stav){
+                [2.. --FIXME: range
+3] = function()
+                    pc2.afaze = pc2.afaze - 1
+                end,
+                [6.. --FIXME: range
+7] = function()
+                    pc2.afaze = pc2.afaze + 1
+                end,
+                [8] = function()
+                    if random(2) == 1 then
+                        pc2.afaze = 0
+                    else
+                        pc2.afaze = 3
+                    end
+                end,
+            }
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_switcher()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        if random(3) == 1 then
+            switcher.X = pazur.XStart
+            switcher.Y = pazur.YStart
+            pazur.X = switcher.XStart
+            pazur.Y = switcher.YStart
+        end
+
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_pf2()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        pf2.afaze = random(2)
+
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_db1()
+        return function()
+            if db1.dir == dir_no then
+                db1.afaze = 0
+            else
+                db1.afaze = 1
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_pf1()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        pf1.afaze = random(2)
+
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_db2()
+        return function()
+            if db2.dir == dir_no then
+                db2.afaze = 0
+            else
+                db2.afaze = 1
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_pc1()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        pc1.stav = 0
+
+        return function()
+            if pc1.stav > 0 then
+                pc1.stav = pc1.stav - 1
+            else
+                pc1.stav = random(300) + 50
+            end
+            switch(pc1.stav){
+                [2.. --FIXME: range
+3] = function()
+                    pc1.afaze = pc1.afaze - 1
+                end,
+                [6.. --FIXME: range
+7] = function()
+                    pc1.afaze = pc1.afaze + 1
+                end,
+                [8] = function()
+                    if random(2) == 1 then
+                        pc1.afaze = 0
+                    else
+                        pc1.afaze = 3
+                    end
+                end,
+            }
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_krystal()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        for pom1 = 0, 9 do
+            --FIXME: WITH
+            with --FIXME: pointer
+Items[(@ --FIXME: addr
+krystal) + pom1]^ do
+                pom2 = random(7) * 4
+                if pom2 == 24 then
+                    mask = small.mask
+                else
+                    mask = db1.mask
+                end
+                krystal.afaze = pom2
+                globpole[pom1] = 0
+                globpole[pom1 + 10] = pom2
+            end
+        end
+
+        return function()
+            for pom1 = 0, 9 do
+                --FIXME: WITH
+                with --FIXME: pointer
+Items[(@ --FIXME: addr
+krystal) + pom1]^ do
+                    switch(globpole[pom1]){
+                        [0] = function()
+                            if random(25) == 1 then
+                                globpole[pom1] = globpole[pom1] + 1
+                            end
+                        end,
+                        [1.. --FIXME: range
+5] = function()
+                            globpole[pom1] = globpole[pom1] + 1
+                        end,
+                        [6] = function()
+                            globpole[pom1] = 0
+                        end,
+                    }
+                    switch(globpole[pom1]){
+                        [0.. --FIXME: range
+3] = function()
+                            pom2 = globpole[pom1]
+                        end,
+                        [4.. --FIXME: range
+6] = function()
+                            pom2 = 7 - globpole[pom1]
+                        end,
+                    }
+                    krystal.afaze = globpole[pom1 + 10] + pom2
+                end
+            end
+        end
+    end
+
+    -- --------------------
+    local update_table = {}
+    local subinit
+    subinit = prog_init_room()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_universal()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_big()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_pc2()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_switcher()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_pf2()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_db1()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_pf1()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_db2()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_pc1()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_krystal()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    return update_table
+end
+local update_table = prog_init()
+
+
+-- -----------------------------------------------------------------
+-- Update
+-- -----------------------------------------------------------------
+function prog_update()
+    for key, subupdate in pairs(update_table) do
+        subupdate()
+    end
+end
+
