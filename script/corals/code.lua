@@ -27,66 +27,66 @@ local function prog_init()
                     room.zvednout = 1
                     addv(4, "re-v-ocel")
                 elseif room.uvod <= 0 then
-					local bit_spi = {}
+                    local bit_spi = {}
                     if krab.spi == 0 then
                         switch(random(10)){
                             [1] = function()
-								bit_spi[0] = true
-								bit_spi[2] = true
+                                bit_spi[0] = true
+                                bit_spi[2] = true
                             end,
                             [2] = function()
-								bit_spi[0] = true
-								bit_spi[2] = true
+                                bit_spi[0] = true
+                                bit_spi[2] = true
                             end,
                             [3] = function()
-								bit_spi[1] = true
-								bit_spi[3] = true
+                                bit_spi[1] = true
+                                bit_spi[3] = true
                             end,
                             [4] = function()
-								bit_spi[1] = true
-								bit_spi[3] = true
+                                bit_spi[1] = true
+                                bit_spi[3] = true
                             end,
                             [5] = function()
-								bit_spi[4] = true
-								bit_spi[5] = true
+                                bit_spi[4] = true
+                                bit_spi[5] = true
                             end,
                             [6] = function()
-								bit_spi[0] = true
-								bit_spi[2] = true
+                                bit_spi[0] = true
+                                bit_spi[2] = true
                             end,
                             [7] = function()
-								bit_spi[1] = true
-								bit_spi[3] = true
+                                bit_spi[1] = true
+                                bit_spi[3] = true
                             end,
                             [8] = function()
-								bit_spi[0] = true
-								bit_spi[4] = true
+                                bit_spi[0] = true
+                                bit_spi[4] = true
                             end,
                             [9] = function()
-								bit_spi[1] = true
-								bit_spi[2] = true
+                                bit_spi[1] = true
+                                bit_spi[2] = true
                             end,
                             [0] = function()
-								bit_spi[4] = true
+                                bit_spi[4] = true
                             end,
                         }
                     end
                     if bit_spi[0] then
                         addv(3 + random(9), "re-v-koraly0")
                     end
-					if bit_spi[1] then
+                    if bit_spi[1] then
                         addv(3 + random(9), "re-v-koraly1")
                     end
-					if bit_spi[2] then
+                    if bit_spi[2] then
                         addm(3 + random(9), "re-m-libi0")
                     end
-					if bit_spi[3] then
+                    if bit_spi[3] then
                         addm(3 + random(9), "re-m-libi1")
                     end
-					if bit_spi[4] then
+                    if bit_spi[4] then
                         addm(3 + random(9), "re-m-libi2")
                     end
-					if bit_spi[5] then
+                    if bit_spi[5] then
                         addv(3 + random(9), "re-v-pokoj")
                     end
                     room.uvod = 800 + random(300) + random(400)
@@ -97,7 +97,7 @@ local function prog_init()
                     krab.spi = 1
                 elseif room.bud == 0 and room.pobliz > random(800) then
                     room.bud = 1
-					krab:planDialog(2, "re-k-budi")
+                    krab:planDialog(2, "re-k-budi")
                     if room.ahojkrabe == 0 and random(2) == 1 then
                         room.ahojkrabe = 1
                         addm(5, "re-m-ahoj")
@@ -175,7 +175,7 @@ local function prog_init()
             elseif krab.dir == dir_down then
                 krab.afaze = random(9) + 1
             else
-				anim_table = {
+                anim_table = {
                     [99] = function()
                         krab.spi = 0
                         room.pobliz = -14 - random(50)
@@ -199,13 +199,13 @@ local function prog_init()
                         krab.afaze = 1
                     end,
                 }
-				anim_table[21] = anim_table[20]
-				anim_table[22] = anim_table[20]
-				anim_table[23] = anim_table[20]
-				anim_table[24] = anim_table[20]
-				anim_table[25] = anim_table[20]
-				anim_table[27] = anim_table[26]
-				anim_table[28] = anim_table[26]
+                anim_table[21] = anim_table[20]
+                anim_table[22] = anim_table[20]
+                anim_table[23] = anim_table[20]
+                anim_table[24] = anim_table[20]
+                anim_table[25] = anim_table[20]
+                anim_table[27] = anim_table[26]
+                anim_table[28] = anim_table[26]
 
                 switch(math.mod(random(krab.spi), 100))(anim_table)
             end
@@ -218,7 +218,7 @@ local function prog_init()
                 krab.dopad = krab.dopad + 1
             end
 
-			krab:updateAnim()
+            krab:updateAnim()
         end
     end
 

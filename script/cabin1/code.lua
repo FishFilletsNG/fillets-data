@@ -132,7 +132,7 @@ local function prog_init()
                         addm(4, "k1-m-codelas")
                         addset(gspec, 0)
                         addv(3, "k1-v-promin")
-					end
+                    end
                 end
                 ]]
             end
