@@ -1,5 +1,5 @@
-dialog_addFont("font_small", "font/small.png")
-dialog_addFont("font_big", "font/big.png")
+dialog_addFont("font_small", "font/font_small.png")
+dialog_addFont("font_big", "font/font_big.png")
 
 
 dialog_addDialog("del-v-dve", "en", "", "font_big", "See? This ship had two gun decks. It must have been a man-of-war. The acrid smell of gunpowder still seems to linger in the air...")
