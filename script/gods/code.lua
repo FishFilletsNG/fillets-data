@@ -599,15 +599,6 @@ local function prog_init()
         end
     end
 
-    -- -------------------------------------------------------------
-    local function prog_init_maska()
-        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
-
-        --TODO: mask shinking ship
-        maska:setEffect("invisible")
-
-    end
-
     -- --------------------
     local update_table = {}
     local subinit
@@ -628,10 +619,6 @@ local function prog_init()
         table.insert(update_table, subinit)
     end
     subinit = prog_init_objekty()
-    if subinit then
-        table.insert(update_table, subinit)
-    end
-    subinit = prog_init_maska()
     if subinit then
         table.insert(update_table, subinit)
     end

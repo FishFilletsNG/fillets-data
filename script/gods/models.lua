@@ -158,11 +158,4 @@ XXXX
 ]])
 addFishAnim(big, LOOK_LEFT, "images/fishes/big")
 
-maska = addModel("item_light", 0, 20,
-[[
-X
-]])
-addItemAnim(maska, "images/"..codename.."/maska.png")
-
-
 
