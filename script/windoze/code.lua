@@ -26,6 +26,7 @@ local function prog_init()
         room.hlasky = random(100) + 20
         room.nhlasek = 0
         local backup_stdBlackJokes = stdBlackJoke
+        local autoRestart = 0
 
         return function()
             if room.resit == 1 then
@@ -42,6 +43,16 @@ local function prog_init()
             else
                 staramala:setBusy(true)
                 staravelka:setBusy(true)
+            end
+            if autoRestart == 0 and ((not staramala:isAlive() and not staravelka:isAlive()) or (not small:isAlive() and not big:isAlive())) then
+                autoRestart = 1
+                level_planShow(function(count)
+                    if count == 60 then
+                        return level_action_restart()
+                    else
+                        return false
+                    end
+                end)
             end
 
             if room.resit == 0 and isReady(small) and isReady(big) then
@@ -69,12 +80,14 @@ local function prog_init()
                     stdBlackJoke = function() end
                 end
             end
-            if room.resit == 1 and room.umrela == 0 and isReady(staramala) and not staravelka:isAlive() then
-                room.umrela = 1
-                addm(5, "win-m-jejda")
-            elseif room.resit == 1 and room.umrela == 0 and isReady(staravelka) and not staramala:isAlive() then
-                room.umrela = 1
-                addv(5, "win-v-real")
+            if room.resit == 1 then
+                if room.umrela == 0 and isReady(staramala) and not staravelka:isAlive() then
+                    room.umrela = 1
+                    addm(5, "win-m-jejda")
+                elseif room.umrela == 0 and isReady(staravelka) and not staramala:isAlive() then
+                    room.umrela = 1
+                    addv(5, "win-v-real")
+                end
             end
             if room.resit ~= 1 and no_dialog() and isReady(small) and isReady(big) then
                 if room.navrhy > 0 then
