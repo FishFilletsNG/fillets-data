@@ -44,135 +44,102 @@ dialog_addDialog("z-o-blahoprejeme", "fr", "", "font_both", "FELICITATIONS!!!")
 
 dialog_addDialog("z-c-1", "en", "")
 dialog_addDialog("z-c-1", "cs", "sound/"..codename.."/cs/z-c-1.ogg")
-dialog_addDialog("z-c-1", "fr", "")
 
 dialog_addDialog("z-c-2", "en", "")
 dialog_addDialog("z-c-2", "cs", "sound/"..codename.."/cs/z-c-2.ogg")
-dialog_addDialog("z-c-2", "fr", "")
 
 dialog_addDialog("z-c-3", "en", "")
 dialog_addDialog("z-c-3", "cs", "sound/"..codename.."/cs/z-c-3.ogg")
-dialog_addDialog("z-c-3", "fr", "")
 
 dialog_addDialog("z-c-4", "en", "")
 dialog_addDialog("z-c-4", "cs", "sound/"..codename.."/cs/z-c-4.ogg")
-dialog_addDialog("z-c-4", "fr", "")
 
 dialog_addDialog("z-c-5", "en", "")
 dialog_addDialog("z-c-5", "cs", "sound/"..codename.."/cs/z-c-5.ogg")
-dialog_addDialog("z-c-5", "fr", "")
 
 dialog_addDialog("z-c-6", "en", "")
 dialog_addDialog("z-c-6", "cs", "sound/"..codename.."/cs/z-c-6.ogg")
-dialog_addDialog("z-c-6", "fr", "")
 
 dialog_addDialog("z-c-7", "en", "")
 dialog_addDialog("z-c-7", "cs", "sound/"..codename.."/cs/z-c-7.ogg")
-dialog_addDialog("z-c-7", "fr", "")
 
 dialog_addDialog("z-c-8", "en", "")
 dialog_addDialog("z-c-8", "cs", "sound/"..codename.."/cs/z-c-8.ogg")
-dialog_addDialog("z-c-8", "fr", "")
 
 dialog_addDialog("z-c-9", "en", "")
 dialog_addDialog("z-c-9", "cs", "sound/"..codename.."/cs/z-c-9.ogg")
-dialog_addDialog("z-c-9", "fr", "")
 
 dialog_addDialog("z-c-10", "en", "")
 dialog_addDialog("z-c-10", "cs", "sound/"..codename.."/cs/z-c-10.ogg")
-dialog_addDialog("z-c-10", "fr", "")
 
 dialog_addDialog("z-c-11", "en", "")
 dialog_addDialog("z-c-11", "cs", "sound/"..codename.."/cs/z-c-11.ogg")
-dialog_addDialog("z-c-11", "fr", "")
 
 dialog_addDialog("z-c-12", "en", "")
 dialog_addDialog("z-c-12", "cs", "sound/"..codename.."/cs/z-c-12.ogg")
-dialog_addDialog("z-c-12", "fr", "")
 
 dialog_addDialog("z-c-13", "en", "")
 dialog_addDialog("z-c-13", "cs", "sound/"..codename.."/cs/z-c-13.ogg")
-dialog_addDialog("z-c-13", "fr", "")
 
 dialog_addDialog("z-c-14", "en", "")
 dialog_addDialog("z-c-14", "cs", "sound/"..codename.."/cs/z-c-14.ogg")
-dialog_addDialog("z-c-14", "fr", "")
 
 dialog_addDialog("z-c-15", "en", "")
 dialog_addDialog("z-c-15", "cs", "sound/"..codename.."/cs/z-c-15.ogg")
-dialog_addDialog("z-c-15", "fr", "")
 
 dialog_addDialog("z-c-16", "en", "")
 dialog_addDialog("z-c-16", "cs", "sound/"..codename.."/cs/z-c-16.ogg")
-dialog_addDialog("z-c-16", "fr", "")
 
 dialog_addDialog("z-c-17", "en", "")
 dialog_addDialog("z-c-17", "cs", "sound/"..codename.."/cs/z-c-17.ogg")
-dialog_addDialog("z-c-17", "fr", "")
 
 dialog_addDialog("z-c-18", "en", "")
 dialog_addDialog("z-c-18", "cs", "sound/"..codename.."/cs/z-c-18.ogg")
-dialog_addDialog("z-c-18", "fr", "")
 
 dialog_addDialog("z-c-19", "en", "")
 dialog_addDialog("z-c-19", "cs", "sound/"..codename.."/cs/z-c-19.ogg")
-dialog_addDialog("z-c-19", "fr", "")
 
 dialog_addDialog("z-c-20", "en", "")
 dialog_addDialog("z-c-20", "cs", "sound/"..codename.."/cs/z-c-20.ogg")
-dialog_addDialog("z-c-20", "fr", "")
 
 dialog_addDialog("z-c-30", "en", "")
 dialog_addDialog("z-c-30", "cs", "sound/"..codename.."/cs/z-c-30.ogg")
-dialog_addDialog("z-c-30", "fr", "")
 
 dialog_addDialog("z-c-40", "en", "")
 dialog_addDialog("z-c-40", "cs", "sound/"..codename.."/cs/z-c-40.ogg")
-dialog_addDialog("z-c-40", "fr", "")
 
 dialog_addDialog("z-c-50", "en", "")
 dialog_addDialog("z-c-50", "cs", "sound/"..codename.."/cs/z-c-50.ogg")
-dialog_addDialog("z-c-50", "fr", "")
 
 dialog_addDialog("z-c-60", "en", "")
 dialog_addDialog("z-c-60", "cs", "sound/"..codename.."/cs/z-c-60.ogg")
-dialog_addDialog("z-c-60", "fr", "")
 
 dialog_addDialog("z-c-70", "en", "")
 dialog_addDialog("z-c-70", "cs", "sound/"..codename.."/cs/z-c-70.ogg")
-dialog_addDialog("z-c-70", "fr", "")
 
 dialog_addDialog("z-c-80", "en", "")
 dialog_addDialog("z-c-80", "cs", "sound/"..codename.."/cs/z-c-80.ogg")
-dialog_addDialog("z-c-80", "fr", "")
 
 dialog_addDialog("z-c-90", "en", "")
 dialog_addDialog("z-c-90", "cs", "sound/"..codename.."/cs/z-c-90.ogg")
-dialog_addDialog("z-c-90", "fr", "")
 
 dialog_addDialog("z-c-100", "en", "")
 dialog_addDialog("z-c-100", "cs", "sound/"..codename.."/cs/z-c-100.ogg")
-dialog_addDialog("z-c-100", "fr", "")
 
 dialog_addDialog("z-c-200", "en", "")
 dialog_addDialog("z-c-200", "cs", "sound/"..codename.."/cs/z-c-200.ogg")
-dialog_addDialog("z-c-200", "fr", "")
 
 dialog_addDialog("z-c-sta", "en", "")
 dialog_addDialog("z-c-sta", "cs", "sound/"..codename.."/cs/z-c-sta.ogg")
-dialog_addDialog("z-c-sta", "fr", "")
 
 dialog_addDialog("z-c-set", "en", "")
 dialog_addDialog("z-c-set", "cs", "sound/"..codename.."/cs/z-c-set.ogg")
-dialog_addDialog("z-c-set", "fr", "")
 
 dialog_addDialog("z-c-tisic", "en", "")
 dialog_addDialog("z-c-tisic", "cs", "sound/"..codename.."/cs/z-c-tisic.ogg")
-dialog_addDialog("z-c-tisic", "fr", "")
 
 dialog_addDialog("z-c-tisice", "en", "")
 dialog_addDialog("z-c-tisice", "cs", "sound/"..codename.."/cs/z-c-tisice.ogg")
-dialog_addDialog("z-c-tisice", "fr", "")
 
 dialog_addDialog("z-c-hodin", "en", "", "font_white", "To be specific, it took you %1 hours!")
 dialog_addDialog("z-c-hodin", "cs", "sound/"..codename.."/cs/z-c-hodin.ogg", "font_white", "Konkrétně %1 hodin!")
@@ -180,7 +147,6 @@ dialog_addDialog("z-c-hodin", "fr", "", "font_white", "Pour être précis, vous 
 
 dialog_addDialog("z-c-konkretne", "en", "")
 dialog_addDialog("z-c-konkretne", "cs", "sound/"..codename.."/cs/z-c-konkretne.ogg")
-dialog_addDialog("z-c-konkretne", "fr", "")
 
 dialog_addDialog("bar-x-suck0", "en", "sound/"..codename.."/en/bar-x-suck0.ogg")
 
