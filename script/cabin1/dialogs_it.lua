@@ -36,7 +36,7 @@ dialogStr("Sono afffarrri vostrrri!")
 
 
 dialogId("k1-pap-problem", "font_parrot", "Trrricky prrroblem, isn`t it?")
-dialogStr("E` un bel prrroblema, non è vvvero?")
+dialogStr("È un bel prrroblema, non è vvvero?")
 
 
 dialogId("k1-pap-sakris", "font_parrot", "Dang it!")
