@@ -1,5 +1,6 @@
 
 createRoom(34, 36, "images/"..codename.."/zdviz1-p.png")
+setRoomWaves(5, 10, 5)
 
 room = addModel("item_fixed", 0, 0,
 [[

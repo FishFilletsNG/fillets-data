@@ -10,19 +10,39 @@ function resetanim(model)
     model.anim_label = 1
 end
 
+function endanim(model)
+    -- returns true for just finished animation
+    local result = false
+    if model.anim_pos > string.len(model.anim) and model.anim ~= "" then
+        result = true
+    end
+    return result
+end
+
 function setanim(model, anim_string)
     resetanim(model)
-    model.anim_string = anim_string
+    model.anim = anim_string
 end
 
 local function anim_getSymbol(model)
-    return string.sub(model.anim_string, model.anim_pos, model.anim_pos)
+    return string.sub(model.anim, model.anim_pos, model.anim_pos)
 end
 local function anim_incPos(model)
     model.anim_pos = model.anim_pos + 1
 end
 
+local function anim_var(model)
+    -- var := \[[a-zA-Z]+\]
+    local istart, iend, str_var = string.find(model.anim,
+            "%[(%w+)%]", model.anim_pos)
+    if istart == nil then
+        error("SCRIPT_ERROR empty anim_var; anim="..model.anim)
+    end
+    return str_var
+end
+
 local function anim_number(model)
+    -- N := -?[0-9]+ | \?N.N
     local symbol = anim_getSymbol(model)
     if symbol == "?" then
         anim_incPos(model)
@@ -32,11 +52,11 @@ local function anim_number(model)
         return randint(int1, int2)
     end
 
-    local istart, iend, str_number = string.find(model.anim_string,
+    local istart, iend, str_number = string.find(model.anim,
             "(%-?%d+)", model.anim_pos)
     local number = 0
     if istart == nil then
-        print("SCRIPT_WARNING empty number; anim_string="..model.anim_string)
+        print("SCRIPT_WARNING empty number; anim="..model.anim)
     else
         model.anim_pos = iend + 1
         number = tonumber(str_number)
@@ -65,11 +85,10 @@ local function anim_next(model)
                 model.afaze = anim_number(model)
             end,
             ["s"] = function()
-                local addr = anim_number(model)
+                local var = anim_var(model)
                 anim_incPos(model)
                 local value = anim_number(model)
-                --TODO: replace sN,M with s"name",M
-                error("SCRIPT_ERROR anim_S is not implemented; addr="..addr.."; value="..value)
+                model[var] = value
             end,
             ["l"] = function()
                 model.anim_label = model.anim_pos
@@ -92,8 +111,8 @@ function goanim(model)
     -- goanim process next anim command
     if model.anim_delay > 0 then
         model.anim_delay = model.anim_delay - 1
-    elseif model.anim_pos > string.len(model.anim_string) then
-        model.anim_string = ""
+    elseif model.anim_pos > string.len(model.anim) then
+        model.anim = ""
         model.anim_pos = 1
     else
         anim_next(model)

@@ -25,7 +25,7 @@ function initModels()
         model.updateAnim = function(self)
             self:setAnim("default", self.afaze)
         end
-        model.anim_string = ""
+        model.anim = ""
         resetanim(model)
     end
 

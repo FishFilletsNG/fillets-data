@@ -22,6 +22,10 @@ function createRoom(width, height, picture)
     sound_addSound("dead_big", "sound/share/sp-dead_big.ogg")
 end
 
+function setRoomWaves(double_amp, periode, inv_speed)
+    level_setRoomWaves(double_amp/2.0, periode, 1.0/inv_speed)
+end
+
 local models_table = {}
 function addModel(name, x, y, picture, shape)
     local model_index = game_addModel(name, x, y, picture, shape)
