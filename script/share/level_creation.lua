@@ -92,6 +92,9 @@ function createObject(model_index)
     object.isLeft = function(self)
         return model_isLeft(self.index)
     end
+    object.isAtBorder = function(self)
+        return model_isAtBorder(self.index)
+    end
     object.getW = function(self)
         return model_getW(self.index)
     end

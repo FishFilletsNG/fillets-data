@@ -1,4 +1,6 @@
 
+file_include('script/share/prog_border.lua')
+
 -- -----------------------------------------------------------------
 -- Init
 -- -----------------------------------------------------------------
@@ -23,13 +25,9 @@ local function prog_init()
         room.zatraceny = randint(2000, 4000)
 
         return function()
-            --TODO: talk at room border
-            --[[
-            if StdKrajniHlaska then
+            if stdBorderReport() then
                 addv(random(10) + 5, "sp-v-ven")
-                StdKonecKrajniHlasky()
             end
-            ]]
             if isReady(small) and isReady(big) and no_dialog() then
                 if room.nechat > 0 then
                     room.nechat = room.nechat - 1

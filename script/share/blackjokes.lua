@@ -27,7 +27,7 @@ function stdBlackJoke()
     else
         hlaska = hzadna
         hlrestart = false
-        if (not small:isAlive() or not big:isAlive()) and alive_time + 8 == game_getCycles() and no_dialog() then
+        if (not small:isAlive() or not big:isAlive()) and alive_time + 8 == game_getCycles() then
             if isReady(big) or isReady(small) then
                 local joke_table = {
                     [1] = function()

@@ -1,4 +1,6 @@
 
+file_include('script/share/prog_border.lua')
+
 -- -----------------------------------------------------------------
 -- Init
 -- -----------------------------------------------------------------
@@ -8,6 +10,7 @@ local function prog_init()
     local pokus = getRestartCount()
 
     --NOTE: final level
+    --TODO: final shout
     small:setGoal("goal_alive")
     big:setGoal("goal_alive")
     mapous:setGoal("goal_out")
@@ -23,13 +26,9 @@ local function prog_init()
         return function()
             pom2 = 0
             if no_dialog() and isReady(small) and isReady(big) then
-                --TODO: talk at room border
-                --[[
-                if StdKrajniHlaska then
+                if stdBorderReport() then
                     addv(10, "map-v-ukol")
-                    StdKonecKrajniHlasky()
-                ]]
-                if game_getCycles() == 10 + pokus then
+                elseif game_getCycles() == 10 + pokus then
                     pom2 = 1
                 elseif room.poh == 0 and mapous.X ~= mapous.XStart then
                     pom2 = 6
