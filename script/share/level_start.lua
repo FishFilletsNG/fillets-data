@@ -9,6 +9,7 @@
 file_include("script/share/borejokes.lua")
 file_include("script/share/blackjokes.lua")
 file_include("script/share/bubles.lua")
+file_include("script/share/bordershout.lua")
 
 
 -- -----------------------------------------------------------------
@@ -30,6 +31,7 @@ function initModels()
         resetanim(model)
     end
 
+    borderShoutLoad()
     stdBoreJokeLoad()
     stdBlackJokeLoad()
     stdBublesLoad()
@@ -66,6 +68,7 @@ end
 function script_update()
     -- this function is called after every game cycle
     animateUnits()
+    borderShout()
 
     updateModels()
     prog_update()
