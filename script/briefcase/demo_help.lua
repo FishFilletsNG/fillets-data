@@ -1,9 +1,4 @@
 
-local function isWater(x, y)
-    -- index -1 is for empty space (water)
-    return model_equals(-1, x, y)
-end
-
 local function charAt(s, i)
     return string.sub(s, i, i)
 end

@@ -110,12 +110,14 @@ end
 -- -----------------------------------------------------------------
 -- Alternative for FArray
 -- -----------------------------------------------------------------
-function modelEquals(model_index, x, y)
+function modelEquals(model, x, y)
+    -- Compares this model and model on [x,y] position
     -- index -1 is for empty space (water)
-    return model_equals(model_index, x, y)
+    return model_equals(model.index, x, y)
 end
 
 function isWater(x, y)
+    -- Compares model on [x,y] position
     return model_equals(-1, x, y)
 end
 
