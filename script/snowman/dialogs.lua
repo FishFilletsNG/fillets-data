@@ -1,6 +1,5 @@
-dialog_addFont("font_small", "font/font_small.png")
 dialog_addFont("font_big", "font/font_big.png")
-
+dialog_addFont("font_small", "font/font_small.png")
 
 dialog_addDialog("tr-m-chlad1", "en", "", "font_small", "I`m kind of cold.")
 dialog_addDialog("tr-m-chlad1", "cs", "sound/"..codename.."/cs/tr-m-chlad1.ogg", "font_small", "Je mi nìjak chladno.")
@@ -32,6 +31,6 @@ dialog_addDialog("tr-m-au2", "cs", "sound/"..codename.."/cs/tr-m-au2.ogg", "font
 dialog_addDialog("tr-v-agres", "en", "", "font_big", "I`ve never seen such an agressive snowman.")
 dialog_addDialog("tr-v-agres", "cs", "sound/"..codename.."/cs/tr-v-agres.ogg", "font_big", "Tak agresívního snìhuláka jsem je¹tì nevidìl.")
 
-dialog_addDialog("tr-x-koste", "en", "")
-dialog_addDialog("tr-x-koste", "cs", "sound/"..codename.."/cs/tr-x-koste.ogg")
+dialog_addDialog("tr-x-koste", "en", "sound/"..codename.."/en/tr-x-koste.ogg")
+
 
