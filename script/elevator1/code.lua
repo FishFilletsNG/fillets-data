@@ -6,7 +6,7 @@ local function prog_init()
     initModels()
     sound_playMusic("music/rybky01.ogg")
     local pokus = getRestartCount()
-    local roompole = {0}
+    local roompole = createArray(1)
 
 
     -- -------------------------------------------------------------
