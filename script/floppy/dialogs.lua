@@ -82,25 +82,22 @@ dialog_addDialog("disk-x-jejda0", "cs", "sound/"..codename.."/cs/disk-x-jejda0.o
 dialog_addDialog("disk-x-jejda1", "en", "", "font_darkgrey", "Darn!")
 dialog_addDialog("disk-x-jejda1", "cs", "sound/"..codename.."/cs/disk-x-jejda1.ogg", "font_darkgrey", "Sakryš!")
 
-dialog_addDialog("disk-x-au0", "en", "", "font_darkgrey", "Oh.")
-dialog_addDialog("disk-x-au0", "cs", "sound/"..codename.."/cs/disk-x-au0.ogg", "font_darkgrey", "Au.")
+dialog_addDialog("disk-x-au0", "en", "sound/"..codename.."/en/disk-x-au0.ogg", "font_darkgrey", "Oh.")
+dialog_addDialog("disk-x-au0", "cs", "sound/"..codename.."/en/disk-x-au0.ogg", "font_darkgrey", "Au.")
 
-dialog_addDialog("disk-x-au1", "en", "", "font_darkgrey", "Ouch.")
-dialog_addDialog("disk-x-au1", "cs", "sound/"..codename.."/cs/disk-x-au1.ogg", "font_darkgrey", "Ouch.")
+dialog_addDialog("disk-x-au1", "en", "sound/"..codename.."/en/disk-x-au1.ogg", "font_darkgrey", "Ouch.")
+dialog_addDialog("disk-x-au1", "cs", "sound/"..codename.."/en/disk-x-au1.ogg", "font_darkgrey", "Ouch.")
 
-dialog_addDialog("disk-x-au2", "en", "", "font_darkgrey", "Yup.")
-dialog_addDialog("disk-x-au2", "cs", "sound/"..codename.."/cs/disk-x-au2.ogg", "font_darkgrey", "Áu.")
+dialog_addDialog("disk-x-au2", "en", "sound/"..codename.."/en/disk-x-au2.ogg", "font_darkgrey", "Yup.")
+dialog_addDialog("disk-x-au2", "cs", "sound/"..codename.."/en/disk-x-au2.ogg", "font_darkgrey", "Áu.")
 
 dialog_addDialog("disk-x-uzne", "en", "", "font_darkgrey", "Leave me alone!")
 dialog_addDialog("disk-x-uzne", "cs", "sound/"..codename.."/cs/disk-x-uzne.ogg", "font_darkgrey", "Nech mě už na pokoji!")
 
-dialog_addDialog("disk-x-vir0", "en", "", "font_green", "1060D0A2A050B508C34D590923763F6B5B466C0E6033A9")
-dialog_addDialog("disk-x-vir0", "cs", "sound/"..codename.."/cs/disk-x-vir0.ogg", "font_green", "1060D0A2A050B508C34D590923763F6B5B466C0E6033A9")
+dialog_addDialog("disk-x-vir0", "en", "sound/"..codename.."/en/disk-x-vir0.ogg", "font_green", "1060D0A2A050B508C34D590923763F6B5B466C0E6033A9")
 
-dialog_addDialog("disk-x-vir1", "en", "", "font_green", "033455D394F938E624A68CBCA301923784F35892")
-dialog_addDialog("disk-x-vir1", "cs", "sound/"..codename.."/cs/disk-x-vir1.ogg", "font_green", "033455D394F938E624A68CBCA301923784F35892")
+dialog_addDialog("disk-x-vir1", "en", "sound/"..codename.."/en/disk-x-vir1.ogg", "font_green", "033455D394F938E624A68CBCA301923784F35892")
 
-dialog_addDialog("disk-x-vir2", "en", "", "font_green", "1A566837C0323B0413239DD2374E9F0036C56B23074")
-dialog_addDialog("disk-x-vir2", "cs", "sound/"..codename.."/cs/disk-x-vir2.ogg", "font_green", "1A566837C0323B0413239DD2374E9F0036C56B23074")
+dialog_addDialog("disk-x-vir2", "en", "sound/"..codename.."/en/disk-x-vir2.ogg", "font_green", "1A566837C0323B0413239DD2374E9F0036C56B23074")
 
 
