@@ -109,7 +109,7 @@ worldmap_addDesc("music", "cs", "Pro potěšení", "Město v hlubinách")
 worldmap_addDesc("music", "fr", "Une note de musique", "Citée des profondeurs")
 
 worldmap_addDesc("crabshow", "en", "Crab Freak Show", "City In the Deep")
-worldmap_addDesc("crabshow", "cs", "Paniptikum korýšů", "Město v hlubinách")
+worldmap_addDesc("crabshow", "cs", "Panoptikum korýšů", "Město v hlubinách")
 worldmap_addDesc("crabshow", "fr", "La danse des crabes", "Citée des profondeurs")
 
 worldmap_addDesc("elevator2", "en", "Another elevator", "City In the Deep")
