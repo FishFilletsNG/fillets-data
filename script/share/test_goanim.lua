@@ -32,10 +32,11 @@ info("A1A2A3a4", model)
 goanim(model);
 info("R..a31", model)
 
-setanim(model, "a4S12,56a6")
+setanim(model, "a4S[var],56a6")
 info("setanim", model)
 goanim(model);
 info("a4", model)
 goanim(model);
-info("S12,56a6", model)
+info("S[var],56a6", model)
+print("var", model.var)
 
