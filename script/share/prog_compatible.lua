@@ -104,7 +104,7 @@ end
 
 function look_at(fish, object)
     local dx = xdist(fish, object)
-    return (fish:isLeft() and dx > 0) or dx < 0
+    return (fish:isLeft() and dx > 0) or (not fish:isLeft() and dx < 0)
 end
 
 -- -----------------------------------------------------------------
