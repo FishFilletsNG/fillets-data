@@ -3,7 +3,7 @@
 worldmap_addDesc("menu", "en", "Game menu", "Fish Fillets - Next Generation")
 worldmap_addDesc("menu", "cs", "Herní menu", "Fish Fillets - Next Generation")
 worldmap_addDesc("menu", "fr", "Menu", "Fish Fillets - Next Generation")
-worldmap_addDesc("menu", "de", "Menü", "Fischfilets - Die nächste Generation")
+worldmap_addDesc("menu", "de", "Menü", "Fish Fillets - Next Generation")
 
 worldmap_addDesc("start", "en", "How It All Started", "Fish House")
 worldmap_addDesc("start", "cs", "Jak to všechno začalo", "Rybí domeček")
@@ -193,7 +193,7 @@ worldmap_addDesc("turtle", "de", "Telepathischer Teufel", "Korallenriff")
 worldmap_addDesc("computer", "en", "The Deep Server", "Dump")
 worldmap_addDesc("computer", "cs", "Hlubinný server", "Smetiště")
 worldmap_addDesc("computer", "fr", "Le serveur des profondeurs", "le dépotoir")
-worldmap_addDesc("computer", "de", "Der tiefe Diener", "Halde")
+worldmap_addDesc("computer", "de", "Der tiefe Server", "Halde")
 
 worldmap_addDesc("noground", "en", "Almost No Wall", "Dump")
 worldmap_addDesc("noground", "cs", "Skoro žádná zeď", "Smetiště")
