@@ -22,7 +22,7 @@ gelöst durch %2
 ]])
 label_text("solver_worse", "it",
 [[
-Soluzione migliore:  %1
+Miglior soluzione:  %1
 Risolto da %2
 ]])
 
@@ -48,7 +48,7 @@ Siehe http://fillets.sf.net/halloffame.php
 ]])
 label_text("solver_better", "it",
 [[
-Hai battuto il RECORD!
+Hai trovato una soluzione MIGLIORE!
 Consulta http://fillets.sf.net/halloffame.php
 ]])
 
@@ -59,6 +59,10 @@ Your solution is as good as the best known one.
 label_text("solver_equals", "cs",
 [[
 Vyrovnal jsi nejlepší známé řešení.
+]])
+label_text("solver_equals", "it",
+[[
+La tua soluzione è pari a quella migliore.
 ]])
 
 -- menu
@@ -82,8 +86,8 @@ label_text("menu_lang", "it", "Scegli la lingua");
 
 label_text("menu_speech", "en", "Choose speech");
 label_text("menu_speech", "cs", "Výběr mluvy");
-label_text("menu_speech", "it", "Scegli i dialoghi");
 label_text("menu_speech", "de", "Sprache der Tonausgabe");
+label_text("menu_speech", "it", "Scegli i dialoghi");
 
 label_text("menu_subtitles", "en", "Show/hide subtitles");
 label_text("menu_subtitles", "cs", "Zobraz/skryj titulky");
