@@ -54,7 +54,7 @@ local function prog_init()
                     addv(2, "pot-v-jmeno")
                     adddel(10)
                     room.uvod = 2
-                elseif room.ooceli == 0 and (big.X == 16 and big.Y == 3 and natoceni[velka] == smer_vlevo or big.X < 16 and big.Y == 4) then
+                elseif room.ooceli == 0 and (big.X == 16 and big.Y == 3 and big:isLeft() or big.X < 16 and big.Y == 4) then
                     switch(random(2)){
                         [0] = function()
                             addv(0, "pot-v-pohnu")
@@ -88,7 +88,7 @@ local function prog_init()
                 elseif room.velkadole == 0 and big.Y > 11 then
                     addv(random(10), "pot-v-nikdo")
                     room.velkadole = 1
-                elseif room.velkadole < 2 and big.Y >= 14 and natoceni[velka] == smer_vpravo and random(100) < 8 then
+                elseif room.velkadole < 2 and big.Y >= 14 and not big:isLeft() and random(100) < 8 then
                     if small.Y < 14 or random(100) < 40 then
                         addm(5, "pot-m-vidis")
                         addv(random(3), "pot-v-vidim")
