@@ -13,7 +13,6 @@ TALK_INDEX_BOTH = -1
 -- Room creation
 -- -----------------------------------------------------------------
 function createRoom(width, height, picture)
-    --TODO: wavy params
     level_createRoom(width, height, picture)
     sound_addSound("impact_light", "sound/share/sp-impact_light_00.ogg")
     sound_addSound("impact_light", "sound/share/sp-impact_light_01.ogg")
@@ -29,8 +28,8 @@ function setRoomWaves(double_amp, periode, inv_speed)
 end
 
 local models_table = {}
-function addModel(name, x, y, picture, shape)
-    local model_index = game_addModel(name, x, y, picture, shape)
+function addModel(name, x, y, shape)
+    local model_index = game_addModel(name, x, y, shape)
     local model = createObject(model_index)
     models_table[model_index] = model
     return model
@@ -52,11 +51,8 @@ function createObject(model_index)
     object.index = model_index
     object.talk_phase = false
 
-    object.addAnim = function(self, anim_name, filename)
-        model_addAnim(self.index, anim_name, filename)
-    end
-    object.addDuplexAnim = function(self, anim_name, left_file, right_file)
-        model_addDuplexAnim(self.index, anim_name, left_file, right_file)
+    object.addAnim = function(self, anim_name, filename, lookDir)
+        model_addAnim(self.index, anim_name, filename, lookDir)
     end
     object.runAnim = function(self, anim_name, phase)
         model_runAnim(self.index, anim_name, phase)
@@ -165,29 +161,31 @@ end
 function addHeadAnim(model, directory, anim, phase)
     local left_path = directory.."/heads/left/head_"..phase..".png"
     if file_exists(left_path) then
-        model:addDuplexAnim(anim,
-                directory.."/heads/left/head_"..phase..".png",
-                directory.."/heads/right/head_"..phase..".png")
+        model:addAnim(anim, directory.."/heads/left/head_"..phase..".png")
+        model:addAnim(anim, directory.."/heads/left/head_"..phase..".png",
+                LOOK_RIGHT)
     else
         print("SCRIPT_WARNING head anim is not available", anim, directory, phase)
     end
 end
-function addBodyAnim(model, directory, anim, phase)
+local function addBodyAnim(model, directory, anim, phase)
     local picture_00 = directory.."/left/body_"..phase..".png"
     for index, filename in ipairs(imgList(picture_00)) do
-        model:addDuplexAnim(anim,
-                filename,
-                string.gsub(filename, "/left/body_", "/right/body_"))
+        model:addAnim(anim, filename)
+        model:addAnim(anim,
+                string.gsub(filename, "/left/body_", "/right/body_"),
+                LOOK_RIGHT)
     end
 end
-function addBodyAnimBackward(model, directory, anim, phase)
+local function addBodyAnimBackward(model, directory, anim, phase)
     local picture_00 = directory.."/left/body_"..phase..".png"
     local list = imgList(picture_00)
     for index = table.getn(list), 1, -1 do
         local filename = list[index]
-        model:addDuplexAnim(anim,
-                filename,
-                string.gsub(filename, "/left/body_", "/right/body_"))
+        model:addAnim(anim, filename)
+        model:addAnim(anim,
+                string.gsub(filename, "/left/body_", "/right/body_"),
+                LOOK_RIGHT)
     end
 end
 
