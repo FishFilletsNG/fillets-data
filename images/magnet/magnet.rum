@@ -1,0 +1,396 @@
+REDIT FILE from 20.3.1998 3:28:06
+Paprsky
+Paprsky
+0 0 5 10 5 0 0 0 0 0  Params
+-2147483632 Grid
+35 31
+Paprsky-pozadi.BMP
+0 obsolete
+0 Ext
+Paprsky-w.BMP
+65280 Mask
+0 Ext
+535 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 6144 6400 6656 6912 7168
+7424 7680 1 257 513 769 1025 1281 1537 1793
+2049 2305 2561 2817 3073 3329 3585 3841 4097 4353
+4609 4865 5121 5377 5633 5889 6145 6401 6657 6913
+7169 7425 7681 2 258 2050 2306 2562 2818 3074
+3330 3586 3842 4098 4354 4610 4866 5122 5378 5634
+5890 6146 6402 6658 6914 7170 7426 7682 3 259
+2051 2307 2563 2819 3075 3331 3587 3843 4099 4355
+4611 4867 5123 5379 5635 5891 6147 6403 6659 6915
+7171 7427 7683 4 260 3844 4100 4356 4612 4868
+5124 5380 5636 5892 6148 6404 6660 6916 7172 7428
+7684 5 261 3845 4101 4357 4613 4869 5125 5381
+5637 5893 6149 6405 6661 6917 7173 7429 7685 6
+262 3846 4102 4358 4614 4870 5126 5382 5638 5894
+6150 6406 6662 6918 7174 7430 7686 7 263 2567
+2823 3079 3847 4103 4359 4615 4871 5127 5383 5639
+5895 6151 6407 6663 6919 7175 7431 7687 8 264
+2568 2824 3080 3848 4104 4360 4616 4872 5128 5384
+5640 5896 6152 6408 6664 6920 7176 7432 7688 9
+265 3081 3849 4105 4361 4617 4873 5129 5385 5641
+5897 6153 6409 6665 6921 7177 7433 7689 10 266
+3082 3850 4106 4362 4618 4874 5130 5386 5642 5898
+6154 6410 6666 6922 7178 7434 7690 11 267 3851
+4107 12 268 3852 4108 13 269 2061 2317 3853
+4109 14 270 2062 2318 3854 4110 15 271 2063
+2319 3855 4111 6415 6671 6927 7183 7439 7695 16
+272 2064 2320 3856 4112 6416 6672 6928 7184 7440
+7696 17 273 2065 2321 3857 4113 6417 6673 6929
+7185 7441 7697 18 274 2066 2322 3858 4114 7186
+7442 7698 19 275 2067 2323 3859 4115 6419 6675
+6931 7187 7443 7699 20 276 2068 2324 3860 4116
+6420 6676 6932 7188 7444 7700 21 277 2069 2325
+3861 4117 6421 6677 6933 7189 7445 7701 22 278
+2070 2326 3862 4118 6422 6678 6934 7190 7446 7702
+23 279 2071 2327 3863 4119 6423 6679 6935 7191
+7447 7703 24 280 2072 2328 3864 4120 6424 6680
+6936 7192 7448 7704 25 281 2073 2329 3865 4121
+6425 6681 6937 7193 7449 7705 26 282 2074 2330
+5914 6170 6426 6682 6938 7194 7450 7706 27 283
+2075 2331 5659 5915 6171 6427 6683 6939 7195 7451
+7707 28 284 2076 2332 5660 5916 6172 6428 6684
+6940 7196 7452 7708 29 285 2077 2333 6941 7197
+7453 7709 30 286 2078 2334 3358 3614 3870 4126
+6942 7198 7454 7710 31 287 2079 2335 2591 2847
+3103 3359 3615 3871 4127 6943 7199 7455 7711 32
+288 2080 2336 2592 2848 3104 3360 3616 3872 4128
+5920 6176 6432 6688 6944 7200 7456 7712 33 289
+2081 2337 2593 2849 3105 3361 3617 3873 4129 4385
+4641 4897 5921 6177 6433 6689 6945 7201 7457 7713
+34 290 546 2082 2338 2594 2850 3106 3362 3618
+3874 4130 4386 4642 4898 5154 5410 5666 5922 6178
+6434 6690 6946 7202 7458 7714
+30 Prg1
+name paprskomet
+var zacatek
+var vyresime
+var pristrojek
+var nahoda
+var zelezo
+var nezvlada
+var cas
+var cas1
+var blesky
+var spatne
+var husikuze
+var bouchacka
+var hybe
+var malomista
+ini
+zacatek:=0;
+vyresime:=0;
+pristrojek:=0;
+nahoda:=0;
+zelezo:=0;
+nezvlada:=0;
+cas:=500+random(4000);
+cas1:=500+random(7000);
+blesky:=0;
+spatne:=0;
+husikuze:=0;
+bouchacka:=0;
+hybe:=0;
+malomista:=0;
+153 Prg2
+if no_dialog and zije[mala] and zije[velka] then
+ begin
+  if (cas>0) then dec(cas);
+  if (cas1>0) then dec(cas1);
+
+
+  if (hybe=0) and (malar.dir<>dir_no) and (magnetek.dir<>dir_no) then
+   begin
+    hybe:=1;
+    addm(random(42)+9,'pap-m-zvlastni');
+    addv(9,'pap-v-prekvapeni');
+    if (vyresime=0) and (random(100)<50) then
+     begin
+      vyresime:=1;
+      addm(5+random(4),'pap-m-teorie');
+     end;
+   end
+  else
+
+  if (zacatek=0) then
+   begin
+    zacatek:=1;
+    addv(42+9,'pap-v-ha');
+    addm(5+random(4),'pap-m-magnet');
+    if (random(100)<35) then
+     addv(5+random(4),'pap-v-potrebovat');
+   end
+  else
+
+  if (pristrojek=0) and (dist(@superpristroj,@malar)<2)
+  and (random(100)<30) then
+   begin
+    pristrojek:=1;
+    addm(9,'pap-m-radio');
+    nahoda:=random(3);
+    if (pokus>5) and (random(100)<40) then nahoda:=4;
+    case nahoda of
+     0: begin
+         addv(5+random(4),'pap-v-radio');
+         if (random(100)<60) then addm(5+random(4),'pap-m-nechme');
+         addv(16,'pap-v-divny');
+        end;
+     1: begin
+         addv(5+random(4),'pap-v-divny');
+         if (random(100)<50) then
+          addm(5+random(4),'pap-m-nechme');
+        end;
+     2: begin
+         addv(5+random(4),'pap-v-radio');
+         if (vyresime=0) and (random(100)<50) then
+          begin
+           vyresime:=1;
+           addm(5+random(4),'pap-m-teorie');
+          end;
+        end;
+    end;
+   end
+  else
+
+
+  if (zelezo=0) and ((dist(@konstrukce1,@malar)<1)
+  or (dist(@konstrukce2,@malar)<1)) and (random(100)<10) then
+   begin
+    zelezo:=1;
+    addm(9,'pap-m-ocel');
+    nahoda:=random(2);
+    if (pokus>5) and (random(100)<40) then nahoda:=2;
+    case nahoda of
+     0: begin
+         addv(5+random(4),'pap-v-vufu');
+         if (nezvlada=0) and (random(100)<40) then
+          begin
+           nezvlada:=1;
+           addm(9,'pap-m-naucit');
+           addm(15+random(8),'pap-m-nepohnu');
+          end;
+        end;
+     1: begin
+         nezvlada:=1;
+         addm(9,'pap-m-naucit');
+         addm(15+random(8),'pap-m-nepohnu');
+        end;
+    end;
+   end
+  else
+
+
+  if (nezvlada=0) and (cas=0) then
+   begin
+    nezvlada:=1;
+    addm(9,'pap-m-naucit');
+    addm(15+random(8),'pap-m-nepohnu');
+   end
+  else
+
+
+  if (blesky=0) and (magnetek.kolik<>0) and (cas1=0) then
+   begin
+    if (pokus<6) or (random(100)<60) then
+     begin
+      blesky:=1;
+      addv(9,'pap-v-pole');
+      if (random(100)<70) then
+       begin
+        spatne:=1;
+        addm(5+random(4),'pap-m-nedobre');
+       end
+      else
+       begin
+        husikuze:=1;
+        addm(5+random(4),'pap-m-mraz');
+       end;
+     end;
+   end
+  else
+  
+
+  if (malomista=0) and (velkar.x=26) and (velkar.y in [14..17]) and
+  (bambitka.x=bambitka.xstart) and
+  (bambitka.y=bambitka.ystart) and (random(100)<30) then
+   begin
+    malomista:=1; 
+    addv(9,'pap-v-tesno');
+   end
+  else
+
+  if (bouchacka=0) and (dist(@bambitka,@malar)<3) then
+   begin
+    bouchacka:=1;
+    if (pokus<4) or (random(100)<30) then
+     begin
+      addm(9,'pap-m-coje');
+      nahoda:=random(5);
+      case nahoda of
+       0: begin
+           addm(16,'pap-m-pistole');
+           addv(5+random(4),'pap-v-laserova');
+           addm(12,'pap-m-jejedno');
+           addv(5+random(4),'pap-v-nemir');
+           addm(5+random(4),'pap-m-nejde');
+          end;
+       1: addm(16,'pap-m-pistole');
+       2: begin
+           addv(5+random(4),'pap-v-laserova');
+           if (random(100)<40) then
+            addm(12,'pap-m-jejedno');
+          end;
+      end;
+     end;
+   end
+  else
+
+ end;
+9 Items
+25 7 3 1
+1-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+24 4 4 2
+2-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+20 5 3 8
+magnety-oba-0.bmp
+65280 Mask
+1 Kind
+4 Ext
+4 Prg1
+name magnetek
+var kolik
+ini
+kolik:=0;
+15 Prg2
+ kolik:=0;
+ if (anim='') and (x in [12,11]) and (random(100)<10) then
+  kolik:=random(11)+1;
+
+ case kolik of
+  1,2: setanim(this,'a1d?0-2a0S1,0');
+  3,4: setanim(this,'a1d?0-2a2a1a0S1,0');
+  5,6: setanim(this,'a1d?0-2a2a3a2a1a0S11,0');
+  7,8: setanim(this,'a1d?0-2a2a3a4a2a1a0S1,0');
+  9:   setanim(this,'a1d?0-2a?1-4a?1-4a1a0S1,0');
+  10:  setanim(this,'a1d?0-2a?1-4a?1-4a?1-4a1a0S1,0');
+  11:  setanim(this,'a1d?0-2a?1-4a?1-4a?1-4a?1-4a1a0S1,0');
+ end;
+ 
+ if anim<>'' then goanim(this);
+14 List
+0 256 512 1280 1536 1792 1 1793 2
+258 514 1282 1538 1794
+25 18 3 5
+zbran.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name bambitka
+0 Prg2
+7 List
+0 1 257 513 769 1025 770
+18 11 3 4
+radio-1.BMP
+65280 Mask
+1 Kind
+8 Ext
+6 Prg1
+name superpristroj
+var faze
+var smer
+ini
+faze:=0;
+smer:=0;
+29 Prg2
+ if (faze<6) and (random(3)=0) then smer:=1-smer;
+
+ if anim<>'' then goanim(this)
+ else
+  if (smer=0) and (faze<6) then
+   begin
+    inc(faze);
+    afaze:=faze;
+   end
+   else
+    if(smer=0) and (faze=6) then
+     begin
+      dec(faze);
+      smer:=1-smer;
+      setanim(this,'a6a7a8a7a6');
+     end
+     else
+      if (smer=1) and (faze>0) then
+       begin
+        dec(faze);
+        afaze:=faze;
+       end
+       else
+        begin
+         smer:=1-smer;
+         inc(faze);
+         afaze:=faze;
+        end;
+  
+8 List
+0 256 512 768 513 769 514 770
+29 2 2 6
+6-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+0 256 257 513 769 1025 1281
+25 22 1 3
+7-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name konstrukce1
+0 Prg2
+3 List
+0 256 512
+6 7 5 3
+8-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+0 1 2 258 514 3 4
+11 20 6 5
+9-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name konstrukce2
+0 Prg2
+10 List
+768 769 770 771 772 5 261 517 773
+1029
+EOF

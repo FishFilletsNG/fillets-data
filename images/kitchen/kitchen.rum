@@ -1,0 +1,485 @@
+REDIT FILE from 22.3.1998 12:18:28
+kuchyne
+Lodní kuchynì
+1 1 5 10 5 0 0 0 0 0  Params
+8421504 Grid
+51 34
+kuchyne-pozadi.bmp
+0 obsolete
+0 Ext
+kuchyne-okoli.bmp
+65280 Mask
+0 Ext
+407 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5888 6144 6400 6656 6912 7168 7424 7680
+7936 8192 8448 1 257 513 769 1025 1281 1537
+1793 2049 2305 2561 2817 3073 5121 8449 2 5122
+8450 3 5123 8451 4 5124 8452 5 5125 5381
+5637 5893 6149 6405 6661 8453 6 5126 5382 5638
+5894 6150 6406 6662 8454 7 8199 8455 8 8456
+9 1545 1801 2825 3081 8457 10 1546 1802 2826
+3082 8458 11 1547 1803 2827 3083 8459 12 1548
+1804 2828 3084 4876 5132 5388 5644 5900 6156 6412
+6668 6924 7948 8204 8460 13 1549 1805 2829 3085
+4877 5133 5389 5645 5901 6157 6413 6669 6925 7949
+8205 8461 14 1550 1806 2830 3086 5390 8462 15
+1551 1807 2831 3087 5391 8463 16 1552 1808 2832
+3088 5392 8464 17 1553 1809 2833 3089 5393 8209
+8465 18 1554 1810 2834 3090 5394 8466 19 1555
+1811 2835 3091 5395 8467 20 5396 8468 21 5397
+8469 22 1046 5398 8470 23 1047 5399 8471 24
+1048 5400 8472 25 1049 2841 3097 3353 5401 8473
+26 1050 3354 5402 8474 27 1051 3355 5403 8475
+28 1052 3356 5404 8476 29 1053 3357 5405 8477
+30 1054 3358 8478 31 1055 1311 1567 1823 2079
+2335 2591 3359 5151 5407 8479 32 288 544 800
+1056 2592 3360 5152 5408 8480 33 2593 3361 5409
+8481 34 2594 3362 5410 8482 35 2595 3363 5411
+8483 36 2596 3364 5412 8484 37 2597 3365 5413
+8485 38 806 2598 3366 5414 8486 39 807 5415
+8487 40 808 3368 3624 3880 4136 4392 5416 8488
+41 2601 3369 3625 3881 5417 8489 42 2602 3370
+3626 3882 5418 8490 43 2603 3371 3627 3883 5419
+5675 5931 6187 8491 44 3372 3628 3884 8492 45
+3373 3629 3885 8493 46 3374 3630 3886 8494 47
+3375 3631 3887 8495 48 304 560 816 1072 1328
+1584 1840 2096 2352 2608 2864 3120 3376 3632 3888
+8496 49 305 561 817 1073 1329 1585 1841 2097
+2353 2609 2865 3121 3377 3633 3889 6961 7217 7473
+7729 7985 8241 8497 50 306 562 818 1074 1330
+1586 1842 2098 2354 2610 2866 3122 3378 3634 3890
+4146 4402 4658 4914 5170 5426 5682 5938 6194 6450
+6706 6962 7218 7474 7730 7986 8242 8498
+27 Prg1
+name room
+var uvod
+var zatrpocitadlo
+var zavazi
+var klauspocitadlo
+var stolecky
+var prycpocitadlo
+var hrncisko
+var kresilko
+var ss
+var osam
+var stoji
+var uprava
+ini
+uvod:=0;
+zatrpocitadlo:=1000+random(4000);
+zavazi:=0;
+klauspocitadlo:=500+random(1500);
+stolecky:=0;
+prycpocitadlo:=500+random(1500);
+hrncisko:=0;
+kresilko:=0;
+ss:=0;
+osam:=0;
+if roompole[3]=2 then roompole[3]:=1;
+stoji:=0;
+uprava:=0;
+188 Prg2
+
+if no_dialog and zije[mala] and zije[velka] then
+ begin
+  if (zatrpocitadlo>0) then dec(zatrpocitadlo);
+  if (klauspocitadlo>0) then dec(klauspocitadlo);
+  if (prycpocitadlo>0) then dec(prycpocitadlo);
+
+  if (uvod=0) then
+   begin
+    uvod:=1;
+    pom1:=random(20);
+    if (pokus=1) then pom1:=3;
+    case pom1 of
+     0..5: addm(9+random(35),'kuch-m-objev0');
+     6..9: addm(9+random(35),'kuch-m-objev1');
+     10..17: begin
+            addm(9+random(42),'kuch-m-objev3');
+            if (random(100)>pokus*8) or (random(100)<30) then
+             begin
+              addv(12,'kuch-v-varil');
+              addv(7,'kuch-v-problem');
+              addm(14,'kuch-m-noproblem');
+              addv(5,'kuch-v-podivej');
+             end;
+           end;
+     18: begin addm(9+random(35),'kuch-m-objev2');zatrpocitadlo:=-1 end;
+    end;
+   end
+  else
+
+
+  if (uvod=1) and (stolecky=0)and(velkar.pryc=0)and(random(70)=1) then
+   begin
+    stolecky:=1;   
+    if (random(40*pokus)<50) then
+     addv(9+random(100),'kuch-v-stolky0');
+   end
+  else
+
+  if zatrpocitadlo=0 then
+   begin
+    zatrpocitadlo:=-1;
+    addm(9,'kuch-m-objev2');
+   end
+  else
+
+
+  if (zavazi=0) and (zavazedlo2.x=39) and (zavazedlo2.y=9) 
+  and (random(10*pokus)=1) then
+   begin
+    zavazi:=1;
+    if (pokus<5) or (random(100)<40) then
+     begin
+      addv(9,'kuch-v-stolky1');
+      if (random(100)<40)and(zatrpocitadlo>-1) then
+       begin
+        zatrpocitadlo:=-1;
+        addm(9,'kuch-m-objev2');
+       end;
+     end;
+   end
+  else   
+
+
+  if (klauspocitadlo=0) and
+   (velkar.pryc=0) then
+   begin
+    klauspocitadlo:=2000+random(10000);
+    if (pokus <6) or (random(100)<50) then
+     addv(9,'kuch-v-stolky2');
+   end
+  else
+
+  if (prycpocitadlo=0) and (velkar.pryc=0) then
+   begin
+    prycpocitadlo:=-1;
+    if (pokus<10) or (random(100)<50) then
+      begin
+       if (random(100)<70) then
+        begin
+         addv(9,'kuch-v-odsud0');
+         if(random(100)<30) then
+          addv(9,'kuch-v-odsud1');
+         if(random(100)<25) then
+          addm(9,'kuch-m-premyslim0');
+        end
+       else
+        addv(9,'kuch-v-odsud1');
+       if (random(100)<90) or (pokus=1) then
+        begin
+         if (malar.dir<>dir_no) and (random(100)<50) then
+          addm(6,'kuch-m-premyslim2')
+         else
+          if (random(100)<45) then
+           addm(9,'kuch-m-premyslim0')
+          else
+           addm(16,'kuch-m-premyslim1');
+        end;
+      end;
+   end
+  else
+
+  if (hrncisko=0) and (dist(@spindira,@malar)<2)
+  and (random(100)<10) then
+   begin
+    hrncisko:=1;
+    if (pokus<6) or (random(100)<50) then
+    case random(3) of
+     0: begin
+         addm(9,'kuch-m-hrnec0');
+         if (random(100)<35) then
+          addm(9,'kuch-m-hrnec2');
+        end;
+     1: addm(9,'kuch-m-hrnec1');
+     2: addm(9,'kuch-m-hrnec2');
+    end;
+   end
+  else
+
+
+  if (kresilko=0) and (dist(@kreslak,@velkar)<4) and
+   ((random(100)<50) or (roompole[1]=0)) then
+   begin
+    kresilko:=1;
+    addv(9,'kuch-v-kreslo0');
+    if (random(100)<70) then
+     addv(16,'kuch-v-ja');
+    if (roompole[1]=0) or (random(100)<70) then
+     if (random(100)<50)then
+      addm(9,'kuch-m-kreslo0')
+     else
+      begin
+       addv(9,'kuch-v-kreslo1');
+       if (random(100)<65) then
+        addm(7,'kuch-m-kreslo2');
+      end;
+    roompole[1]:=1;
+   end
+  else
+
+
+  if (ss=0)and(dist(@malar,@stolek)<2)and(random(100)=1) then
+   begin
+    addm(4,'kuch-m-stolky');
+    addv(8,'kuch-v-serie');
+    addm(8,'kuch-m-pekne');
+    ss:=1;
+   end
+  else
+
+  if (osam=0)and(velkar.dole<>0)and(random(100)=1) then
+   begin
+    osam:=1;
+    addv(5,'kuch-v-obavam');
+   end
+  else
+
+  if (roompole[3]<2)and(dist(@velkar,@mecik)<3)and(random(50)=1) then
+   begin
+    if (roompole[3]=0)or(random(2)=1) then
+     begin
+      roompole[3]:=2;
+      addv(5,'kuch-v-mec');
+      addm(8,'kuch-m-porcovani');
+      addv(7,'kuch-v-nedela');
+     end;
+   end
+  else
+
+  if (uprava=0)and(papir.dir<>dir_no)and(random(14)=1) then
+   begin
+    uprava:=1;
+    addv(7,'kuch-v-svitek'+chr(48+random(2)));
+    if random(2)=1 then addm(8,'kuch-m-recept')
+                   else addm(8,'kuch-m-kuchari');
+   end
+  else
+
+  if (stoji>1000+2000*roompole[2])and(velkar.pryc=1) then
+   begin
+    stoji:=0;
+    addv(16,'kuch-m-zapeklite');
+    inc(roompole[2]);
+   end;
+
+ end;
+
+inc(stoji);
+21 Items
+32 7 4 2
+1-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+6 Prg1
+name velkar
+var pryc
+var dole
+ini
+pryc:=0;
+dole:=0;
+3 Prg2
+if (x<32) or (y>13) then begin pryc:=1;room.zavazi:=1 end;
+if (x>15) and (y>20) then dole:=1 else dole:=0;
+if dir<>dir_no then room.stoji:=0;
+8 List
+0 256 1 257 2 258 3 259
+2 28 3 1
+2-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+1 Prg2
+if dir<>dir_no then room.stoji:=0;
+3 List
+0 1 2
+31 11 1 2
+3-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+38 6 2 4
+stolek-a.bmp
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name zavazedlo2
+0 Prg2
+6 List
+0 256 512 768 1 769
+36 6 2 4
+stolek.bmp
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name zavazedlo1
+0 Prg2
+6 List
+0 768 1 257 513 769
+38 2 3 1
+mapa v.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name papir
+0 Prg2
+3 List
+0 1 2
+23 2 2 2
+hrnec.bmp
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name spindira
+0 Prg2
+4 List
+0 256 1 257
+8 3 5 3
+stolekv.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name stolek
+0 Prg2
+7 List
+0 1 2 258 514 3 4
+3 30 3 3
+stolekm.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+0 1 257 513 2
+11 8 2 3
+sud.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 1 257 513
+30 25 7 3
+mec.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name mecik
+0 Prg2
+9 List
+256 257 258 259 4 260 516 261 262
+8 28 3 5
+kreslo.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name kreslak
+0 Prg2
+10 List
+0 256 512 768 1024 1 257 769 770
+1026
+11 1 1 2
+pohar.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+25 6 1 5
+stozar v l.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+0 256 512 768 1024
+29 25 4 1
+rahno m.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 1 2 3
+28 27 5 6
+stul.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+21 List
+1280 1 1281 2 258 514 770 1026 1282
+3 259 515 771 1027 1283 4 260 516 772
+1028 1284
+38 29 6 4
+17-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+0 256 512 768 1 2 3 4 5
+261
+35 18 6 3
+18-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+0 256 512 513 514 515 516 5 261
+517
+15 10 1 1
+vejce.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+13 18 8 1
+rahno v.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 1 2 3 4 5 6 7
+28 2 2 2
+hrnecek.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+EOF

@@ -1,0 +1,653 @@
+REDIT FILE from 20.3.1998 22:45:30
+NCP
+Korálový problém
+1 0 5 10 5 0 0 0 0 0  Params
+16744576 Grid
+47 39
+NCP-p.BMP
+0 obsolete
+0 Ext
+NCP-w.BMP
+65280 Mask
+0 Ext
+724 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 6144 6400 6656 6912 7168
+7424 8448 8704 8960 9216 9472 9728 1 257 513
+769 1025 1281 1537 1793 2049 2305 2561 2817 3073
+3329 3585 3841 4097 4353 4609 4865 5121 5377 5633
+5889 6145 6401 6657 6913 7169 7425 8449 8705 8961
+9217 9473 9729 2 258 514 770 1026 1282 1538
+1794 2050 2306 2562 2818 3074 3330 3586 3842 4098
+4354 4610 4866 5122 5378 5634 5890 6146 6402 6658
+6914 7170 7426 8450 8706 8962 9218 9474 9730 3
+259 515 771 1027 1283 1539 1795 2051 2307 2563
+2819 3075 3331 3587 3843 4099 4355 4611 4867 5123
+5379 5635 5891 6147 6403 6659 6915 7171 7427 9731
+4 3332 3588 3844 4100 4356 4612 9476 9732 5
+3589 3845 4101 4357 9221 9477 9733 6 3846 4102
+9222 9478 9734 7 7943 9479 9735 8 9736 9
+6921 7177 7945 9225 9481 9737 10 5898 6154 6410
+6666 6922 7178 7946 9226 9482 9738 11 5899 6155
+6411 6667 6923 7179 7947 9227 9483 9739 12 3852
+4364 4620 6668 6924 7180 7948 9228 9484 9740 13
+7181 7949 9229 9485 9741 14 270 7950 9230 9486
+9742 15 271 527 7951 9231 9487 9743 16 272
+528 7184 7952 9232 9488 9744 17 273 1041 7953
+9233 9489 9745 18 1042 1298 7954 8210 9234 9490
+9746 19 275 1043 1299 1555 7187 7955 8211 9235
+9491 9747 20 276 532 1044 1300 1556 6932 7188
+7956 8212 8468 9236 9492 9748 21 277 1301 1557
+5909 6165 6421 6933 7189 7957 8213 8469 9237 9493
+9749 22 278 1302 1558 5910 6166 6422 6934 7190
+7958 8214 8470 9238 9494 9750 23 279 1303 5911
+6167 6423 6935 7191 7959 8215 8471 9239 9495 9751
+24 280 5912 6168 6424 6936 7192 7960 8216 9240
+9496 9752 25 281 5913 6169 6425 6937 7193 7961
+8217 9241 9497 9753 26 282 5914 6170 6426 6938
+7194 7962 8218 9242 9498 9754 27 283 5915 6171
+6427 6939 7195 7963 9243 9499 9755 28 284 5916
+6172 6428 6940 7196 7964 8988 9244 9500 9756 29
+285 5917 6173 6429 6941 7197 7965 8989 9245 9501
+9757 30 286 5918 6174 6430 6942 7198 8990 9246
+9502 9758 31 287 3871 5919 6175 6431 6943 7199
+8991 9247 9503 9759 32 288 5920 6176 6432 8736
+8992 9248 9504 9760 33 289 8737 8993 9249 9505
+9761 34 290 5922 6178 6434 8738 8994 9250 9506
+9762 35 291 5923 6179 6435 8739 8995 9251 9507
+9763 36 292 5924 6180 6436 6692 6948 7204 7460
+7716 7972 8228 8484 8740 8996 9252 9508 9764 37
+293 2853 3109 5925 6181 6437 6693 6949 7205 7461
+7717 7973 8229 8485 8741 8997 9253 9509 9765 38
+294 2598 2854 3110 3366 5926 6182 6438 6694 6950
+7206 7462 7718 7974 8230 8486 8742 8998 9254 9510
+9766 39 295 2343 2599 2855 3111 3367 3623 5927
+6183 6439 6695 6951 7207 7463 7719 7975 8231 8487
+8743 8999 9255 9511 9767 40 296 2088 2344 2600
+2856 3112 3368 3624 3880 8488 8744 9000 9256 9512
+9768 41 297 1833 2089 2345 2601 2857 3113 3369
+3625 3881 4137 8489 8745 9001 9257 9513 9769 42
+298 1578 1834 2090 2346 2602 2858 3114 3370 3626
+3882 4138 4394 8490 8746 9002 9258 9514 9770 43
+299 1323 1579 1835 2091 2347 2603 2859 3115 3371
+3627 3883 4139 4395 4651 8491 8747 9003 9259 9515
+9771 44 300 1068 1324 1580 1836 2092 2348 2604
+2860 3116 3372 3628 3884 4140 4396 4652 4908 5164
+5420 5676 5932 6188 6444 6700 6956 7212 7468 7724
+7980 8236 8492 8748 9004 9260 9516 9772 45 301
+813 1069 1325 1581 1837 2093 2349 2605 2861 3117
+3373 3629 3885 4141 4397 4653 4909 5165 5421 5677
+5933 6189 6445 6701 6957 7213 7469 7725 7981 8237
+8493 8749 9005 9261 9517 9773 46 302 558 814
+1070 1326 1582 1838 2094 2350 2606 2862 3118 3374
+3630 3886 4142 4398 4654 4910 5166 5422 5678 5934
+6190 6446 6702 6958 7214 7470 7726 7982 8238 8494
+8750 9006 9262 9518 9774
+16 Prg1
+name room
+var uvod
+var sas
+var kuk
+var okoralech
+var obarvach
+var neprojedes
+var mohlabys
+ini
+uvod:=0;
+sas:=0;
+kuk:=0;
+okoralech:=0;
+obarvach:=0;
+neprojedes:=0;
+mohlabys:=0
+67 Prg2
+if zije[mala] and zije[velka] and no_dialog then
+  begin
+  if uvod=0 then
+    begin
+      uvod:=1; 
+      case random(1) of
+       0: addm(20+random(30),'ncp-m-tesno0');
+       1: addm(20+random(30),'ncp-m-tesno1');
+      end;
+      if random(100)<30 then addv(random(8),'ncp-v-dostala');       
+    end
+ else
+  if look_at(@malar,@sasanka) and (dist(@malar,@sasanka)<3)
+     and (sas=0) and (random(100)<20)
+     then
+    begin 
+      addv(random(5),'ncp-v-s'+'asanka');
+      sas:=1;
+    end
+ else
+  if look_at(@malar,@konik) and (konik.afaze=3) 
+     and (dist(@malar,@konik)<4) and (kuk=0)
+     then   
+    begin
+      addm(random(5),'ncp-m-nekoukej');
+      kuk:=1;
+    end 
+ else
+  if ((koral1.dir<>dir_no) or (koral2.dir<>dir_no) or
+     (koral3.dir<>dir_no) or (koral0.dir<>dir_no))
+     and (okoralech=0) and (random(100)<2)
+     then
+    begin
+      okoralech:=1;
+      if (aktivni=velka) then addv(0,'ncp-v-mekky') 
+         else 
+           case random(5) of         
+            0..3: addm(0,'ncp-m-tvrdy');
+            4: begin
+               addm(0,'ncp-m-komari');
+               addv(random(3),'ncp-v-ceho');
+               addm(random(3),'ncp-m-koraly'); 
+               end;
+           end;
+    end 
+ else
+  if (velkar.x=4) and (velkar.y=29) and (aktivni=velka)
+     and (neprojedes=0) and (random(100)<10)
+     then 
+    begin
+      addv(random(3),'ncp-v-neprojedu');
+      neprojedes:=1;
+    end
+ else
+  if (obarvach=0) and (random(10000)<5) then
+    begin
+      obarvach:=1;    
+      addm(random(10),'ncp-m-barvy');
+    end
+ else 
+   if (valec.x=3) and (valec.y=34) and (mohlabys=0) then
+     begin
+       mohlabys:=1;
+       addv(random(3),'ncp-v-tak');
+       if random(100)<80 then addm(random(10),'ncp-m-muzes');
+     end;
+  end;
+24 Items
+18 11 7 5
+coral cerv.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name koral1
+0 Prg2
+23 List
+0 256 512 768 1024 1 513 1025 2
+514 1026 3 515 1027 4 516 1028 5 517
+1029 6 518 1030
+24 9 9 6
+koral zel.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name koral2
+0 Prg2
+23 List
+256 768 1280 257 769 1281 2 258 514
+770 1026 1282 259 260 261 262 263 1287 264
+520 776 1032 1288
+8 15 9 2
+koral bily.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name koral3
+0 Prg2
+11 List
+256 1 257 258 259 260 261 262 7
+263 264
+35 20 1 3
+NewColorProblem-7-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+39 22 4 5
+NewColorProblem-11-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name elko
+0 Prg2
+8 List
+0 1 2 3 259 515 771 1027
+11 32 2 4
+NewColorProblem-12-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name valec
+0 Prg2
+5 List
+0 256 512 768 513
+18 26 15 1
+NewColorProblem-13-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+15 List
+0 1 2 3 4 5 6 7 8
+9 10 11 12 13 14
+17 2 2 2
+sasanka1.BMP
+65280 Mask
+1 Kind
+7 Ext
+12 Prg1
+name sasanka
+var cinnost
+var fazec
+var noha
+var kvet
+var counts
+var akcnost
+ini
+cinnost:=0;
+noha:=0;
+kvet:=1;
+akcnost:=1;
+86 Prg2
+if (cinnost<>5)and((dist(little,this)<3)or(dist(big,this)<3)) then
+  begin
+    cinnost:=5;
+    counts:=random(10)+15;
+    akcnost:=1;
+  end;
+if cinnost=0 then
+  begin
+    cinnost:=random(4)+1;
+    fazec:=0;
+    akcnost:=2+random(2);
+  end;
+if count mod akcnost=0 then
+case cinnost of
+  1,2:begin
+      noha:=fazec div 4;
+      if cinnost=1 then
+        begin
+          kvet:=fazec mod 2+1;
+          akcnost:=2;
+          if kvet=2 then
+            Snd('ncp-x-tup',500);
+        end
+      else
+        begin
+          kvet:=(fazec mod 2)*2+1;
+          akcnost:=3;
+        end;
+      
+      inc(fazec);
+      if fazec=8 then
+        if random(100)<30 then cinnost:=0
+        else fazec:=0;
+  end;
+  3,4:
+    begin
+      case fazec of
+        0:begin
+             counts:=random(10)+7;
+             inc(fazec);
+             kvet:=1;
+          end;
+        1:begin
+             noha:=1-noha;
+             dec(counts);
+             if counts=0 then inc(fazec);
+          end;
+        2:begin
+            if cinnost=3 then 
+              begin
+                kvet:=0;
+                counts:=random(8)+5;
+              end
+            else
+              begin
+                kvet:=3;
+                counts:=random(6)+3;
+              end;
+            inc(fazec);
+          end;
+        3:begin
+            dec(counts);
+            if counts=0 then 
+              if random(100)<30 then cinnost:=0
+              else fazec:=0;
+          end;
+      end;    
+    end;
+    5:begin
+        akcnost:=2;
+        dec(counts);
+        case counts of
+          0:cinnost:=0;
+          1:begin
+              kvet:=1;
+              noha:=1-noha;
+            end;
+          else
+            kvet:=0;
+        end;     
+      end;
+end;
+afaze:=noha*4+kvet;     
+               
+
+       
+2 List
+1 257
+29 8 1 2
+NewColorProblem-16-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+25 30 1 1
+maly snek1.BMP
+65280 Mask
+1 Kind
+3 Ext
+5 Prg1
+name snek
+var stav
+var count
+ini
+stav:=0;
+40 Prg2
+case stav of
+  0:begin
+      if Dir<>dir_no then stav:=1;
+    end;   
+  1:begin
+      afaze:=3;
+      inc(stav);
+    end;
+  2:begin
+      afaze:=1;
+      inc(stav);
+    end; 
+  3:begin
+      afaze:=2;
+      if dir=dir_no then 
+        begin
+          stav:=4;
+          count:=20;
+        end;	
+     end;
+  4:begin
+      dec(count);
+      if count=0 then 
+        begin
+          stav:=5;
+          count:=5;
+        end;
+      if Dir<>dir_no then stav:=2;
+    end;
+  5:begin
+      afaze:=1;
+      dec(count);
+      if count=0 then
+        begin
+          afaze:=0;
+          stav:=0;
+        end; 
+      if Dir<>dir_no then stav:=1;
+    end;
+end;        
+1 List
+0
+40 21 3 1
+musle troj.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+41 31 2 2
+shell velka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+36 20 1 3
+NewColorProblem-7-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+37 20 1 3
+NewColorProblem-7-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+38 20 1 3
+NewColorProblem-7-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+4 9 4 5
+koralA.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+13 List
+0 256 1 257 513 769 1025 2 258
+514 770 3 259
+5 3 5 6
+koralB.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+23 List
+0 256 512 768 1024 1280 1 257 513
+769 1025 1281 2 258 770 1026 1282 771 1027
+1283 772 1028 1284
+8 3 5 3
+koralC.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+12 List
+256 512 1 257 513 2 258 514 259
+515 260 516
+12 2 2 2
+koralD.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+23 3 1 1
+shell1.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+20 12 3 1
+mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+13 Prg2
+if (delay[mala]>=15) and (delay[mala]<40) and
+  look_at(this,@konik) and
+  (ydist(this,@konik)=0) and
+  (xdist(this,@konik)<3) then 
+  begin
+    if xicht[mala]<>little_usmev then
+      begin
+        xicht[mala]:=little_usmev;
+        konik.stav:=7;
+      end
+  end
+else
+  xicht[mala]:=0;
+3 List
+0 1 2
+27 12 4 2
+velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+14 Prg2
+if (delay[velka]>=15) and (delay[velka]<40) and
+  look_at(this,@konik) and
+  (ydist(this,@konik)=0) and
+  (xdist(this,@konik)<3) then 
+  begin
+    if xicht[velka]<>6 then
+      begin
+        xicht[velka]:=6;
+        konik.stav:=7;
+      end;
+  end
+else
+  xicht[velka]:=0;
+
+8 List
+0 256 1 257 2 258 3 259
+41 19 1 2
+konik1.BMP
+65280 Mask
+1 Kind
+3 Ext
+7 Prg1
+name konik
+var stav
+var mrkani
+ini
+stav:=0;
+mrkani:=0;
+
+68 Prg2
+if (stav<>2)and(Dir=dir_down) then Snd('ncp-x-ihaha',300);
+if (Dir=dir_down)or(elko.Dir=dir_down) then
+  stav:=2
+else
+  if stav=2 then stav:=0;
+
+case stav of
+  0:begin
+      pom1:=15;
+      if look_at(little,this) and
+        (abs(xdist(little,this))<=3) and
+        (abs(ydist(little,this))<=1) then pom1:=0;
+      if look_at(big,this) and
+        (abs(xdist(big,this))<=3) and
+        (abs(ydist(big,this))<=1) then pom1:=0;
+      if random(100)<pom1 then
+        begin
+          stav:=1;
+          mrkani:=0;
+        end;
+      afaze:=0;
+    end;
+  1,3,4,5:
+    begin
+      case mrkani of
+        0,2:afaze:=2;
+        1:begin
+            afaze:=1;
+            Snd('ncp-x-tik',2000);
+          end;
+        3:begin
+            afaze:=0;
+            mrkani:=-1;
+            if stav=1 then stav:=0
+            else inc(stav);                            		
+          end;
+      end;
+      inc(mrkani);
+    end;
+  2:begin
+      afaze:=3;
+    end;
+  6:begin
+      stav:=10;
+      mrkani:=10;
+    end;      
+  7:begin
+      mrkani:=10;
+      stav:=8;
+    end;
+  8:begin
+      dec(mrkani);
+      if mrkani=0 then stav:=3;
+    end; 
+ 10:if mrkani>0 then dec(mrkani)
+    else stav:=11;
+ 11:begin
+      afaze:=3;
+      mrkani:=random(10)+10;
+      inc(stav);
+    end;
+ 12:if mrkani>0 then dec(mrkani)
+    else 
+      begin
+        afaze:=0;
+        stav:=0;
+      end;
+end;
+2 List
+0 256
+22 4 11 2
+koral dlouhy.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name koral0
+0 Prg2
+12 List
+0 1 2 3 4 5 6 7 8
+9 10 266
+EOF

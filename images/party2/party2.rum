@@ -1,0 +1,798 @@
+REDIT FILE from 24.3.1998 23:48:32
+Party2
+Návrat z výletu
+1 1 5 10 5 0 0 0 0 0  Params
+16744576 Grid
+52 33
+party1-p.BMP
+0 obsolete
+0 Ext
+Party2-w.BMP
+65280 Mask
+0 Ext
+622 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4608 4864 5120
+5376 5632 5888 6144 6400 7936 8192 1 257 513
+769 1025 1281 1537 1793 2049 2305 2561 2817 4609
+4865 8193 2 258 514 770 1026 1282 1538 1794
+4866 6914 8194 3 259 515 771 1027 1283 1539
+1795 4867 6915 7171 7939 8195 4 260 516 772
+1028 1284 1540 4868 5892 6148 6916 7172 7428 7940
+8196 5 261 517 773 1029 1285 1541 4869 7429
+7685 7941 8197 6 262 518 774 1030 4870 7174
+7430 7686 7942 8198 7 263 519 775 4871 7175
+7431 7687 7943 8199 8 264 520 776 1032 1288
+4872 5896 6152 6920 7176 7432 7688 7944 8200 9
+265 521 777 1033 4873 7177 7433 7689 7945 8201
+10 266 522 778 1034 4874 7434 7690 7946 8202
+11 267 523 779 1035 1291 4875 6155 7179 7435
+7691 7947 8203 12 268 524 780 4876 7180 7436
+7692 7948 8204 13 269 525 781 4877 7181 7437
+7693 7949 8205 14 270 526 782 4878 5902 6158
+6926 7182 7438 7694 7950 8206 15 271 527 783
+4879 7183 7439 7695 7951 8207 16 272 528 784
+4880 7184 7440 7696 7952 8208 17 273 529 785
+4881 5905 6161 7441 7697 7953 8209 18 274 530
+786 1042 4882 7186 7442 7698 7954 8210 19 275
+531 787 1043 4883 6163 6931 7187 7443 7699 7955
+8211 20 276 532 788 1044 1300 4884 7188 7444
+7700 7956 8212 21 277 533 789 1045 1301 4885
+5909 6165 7189 7445 7701 7957 8213 22 278 534
+790 1046 4886 7190 7446 7702 7958 8214 23 279
+535 791 1047 7191 7447 7703 7959 8215 24 280
+536 792 5912 6168 6936 7192 7448 7704 7960 8216
+25 281 537 793 7193 7449 7705 7961 8217 26
+282 538 794 7194 7450 7706 7962 8218 27 283
+539 795 7195 7451 7707 7963 8219 28 284 540
+6172 7196 7452 7708 7964 8220 29 285 541 7197
+7453 7709 7965 8221 30 286 542 4894 7198 7454
+7710 7966 8222 31 287 543 4895 7199 7455 7711
+7967 8223 32 288 544 800 4896 5920 6176 6944
+7200 7456 7712 7968 8224 33 289 545 801 4897
+7201 7457 7713 7969 8225 34 290 546 802 1058
+1314 4898 7202 7458 7714 7970 8226 35 291 547
+803 1059 1315 1571 4899 7203 7459 7715 7971 8227
+36 292 548 804 1060 1316 4900 5924 6180 7204
+7460 7716 7972 8228 37 293 549 805 4901 6949
+7205 7461 7717 7973 8229 38 294 550 4902 7206
+7462 7718 7974 8230 39 295 551 4903 7207 7463
+7719 7975 8231 40 296 552 4904 7208 7464 7720
+7976 8232 41 297 553 809 4905 5929 6185 7209
+7465 7721 7977 8233 42 298 554 4906 7466 7722
+7978 8234 43 299 555 811 4907 7211 7467 7723
+7979 8235 44 300 556 812 1068 4908 7212 7468
+7724 7980 8236 45 301 557 813 1069 1325 4909
+7213 7469 7725 7981 8237 46 302 558 814 1070
+1326 4910 5934 6190 7214 7470 7726 7982 8238 47
+303 559 815 1071 1327 1583 4911 7215 7471 7727
+7983 8239 48 304 560 816 1072 1328 1584 4912
+7216 7472 7728 7984 8240 49 305 561 817 1073
+1329 1585 1841 2097 4913 7217 7473 7729 7985 8241
+50 306 562 818 1074 1330 1586 1842 2098 2354
+2610 4658 4914 6962 7218 7474 8242 51 307 563
+819 1075 1331 1587 1843 2099 2355 2611 2867 3123
+3379 3635 3891 4659 4915 5171 5427 5683 5939 6195
+6451 6707 8243
+25 Prg1
+name room
+var okno1
+var okno2
+var okna
+var uvod
+var opikniku
+var ounave
+var oublizeni
+var otezkosti
+ini
+okno1:=0;
+okno2:=0;
+okna:=0;
+
+uvod:=0;
+opikniku:=random(8)+1;
+repeat
+  ounave:=random(16)+5;
+until abs(ounave-opikniku)>3;
+repeat
+  oublizeni:=random(24)+9;
+until (abs(oublizeni-opikniku)>3)and
+ (abs(oublizeni-ounave)>3);
+
+otezkosti:=random(500);
+114 Prg2
+if ((okno1=0)or(okno2=0))and(random(1000)<25) then
+  begin
+    if (okno1=0)and(okno2=0)and(random(2)=0)then
+      pom1:=1
+    else if (okno1=0)and(okno2=0) then
+      pom1:=2
+    else if okno1=0 then
+      pom1:=1
+    else 
+      pom1:=2;
+    
+    case random(5) of
+      0:if frkavec.zprava=0 then
+          begin
+            frkavec.zprava:=pom1;
+            case pom1 of
+              1:okno1:=1;
+              2:okno2:=1;
+            end;
+          end;
+      1:if hnat.zprava=0 then
+          begin
+            hnat.zprava:=pom1;
+            case pom1 of
+              1:okno1:=1;
+              2:okno2:=1;
+            end;
+          end;
+      2:if lahev.zprava=0 then
+          begin
+            lahev.zprava:=pom1;
+            case pom1 of
+              1:okno1:=1;
+              2:okno2:=1;
+            end;
+          end;
+      3:if kuk.zprava=0 then
+          begin
+            kuk.zprava:=pom1;
+            case pom1 of
+              1:okno1:=1;
+              2:okno2:=1;
+            end;
+          end;
+      4:if ruka.zprava=0 then
+          begin
+            ruka.zprava:=pom1;
+            case pom1 of
+              1:okno1:=1;
+              2:okno2:=1;
+            end;
+          end;
+    end;
+  end;
+  
+
+if no_dialog and zije[mala] and zije[velka] then
+  begin
+    if (okno1+okno2=2)and(okna<2) then
+      begin
+        if opikniku>0 then dec(opikniku);
+        if ounave>0 then dec(ounave);
+        if oublizeni>0 then dec(oublizeni);
+      end;
+    if (ocel.X>=23)and(otezkosti>0) then dec(otezkosti);
+
+
+    if uvod=0 then
+      begin
+        uvod:=1;
+        case pokus of
+          1:pom1:=1;
+          2:pom1:=random(3)+1;
+          else pom1:=random(5);
+        end;
+        if pom1>3 then pom1:=0;
+        adddel(10+random(10));
+        if pom1>=1 then 
+          addm(0,'pt2-m-parnik');
+        if pom1>=2 then
+          addv(random(30)+10,'pt2-v-zmena');
+        if pom1>=3 then
+          begin
+            addset(busy[mala],1);
+            addm(5,'pt2-m-hrac');
+            adddel(10);
+            addset(busy[mala],0);
+          end;
+      end
+    else if opikniku=0 then
+      begin
+        opikniku:=random(50)+50;
+        addm(20,'pt2-m-piknik'+chr(48+random(4)));
+      end
+    else if ounave=0 then
+      begin
+        ounave:=random(50)+50;
+        addv(20,'pt2-v-unaveni'+chr(48+random(2)));
+      end
+    else if oublizeni=0 then
+      begin
+        oublizeni:=random(50)+50;
+        addv(20,'pt2-v-nemohou'+chr(48+random(2)));
+      end
+    else if otezkosti=0 then
+      begin
+        otezkosti:=-1;
+        addv(20,'pt2-v-minule'+chr(48+random(2)));
+      end;
+    
+  end;
+
+okna:=okno1+okno2;
+      
+23 Items
+19 15 14 5
+kabina okna.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+263
+5 25 10 2
+1-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name ocel
+0 Prg2
+14 List
+0 256 1 2 3 4 260 5 6
+262 7 8 9 265
+12 21 1 1
+sklenicka pr.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+10 21 1 1
+sklenicka lezici.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+13 21 1 1
+sklenicka rozb.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+11 21 1 1
+sklenicka pr.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+7 21 1 1
+sklenicka0.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+6 21 1 1
+sklenicka pr.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+9 21 1 1
+sklenicka pr roz.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+1 25 4 2
+10-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+23 12 1 3
+14-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+26 12 1 3
+14-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+29 12 1 3
+14-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+6 22 8 1
+tacek0.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+8 List
+0 1 2 3 4 5 6 7
+1 24 3 1
+15-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+8 21 1 1
+sklenicka roz.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+22 16 3 3
+kuk0.bmp
+65280 Mask
+1 Kind
+23 Ext
+11 Prg1
+name kuk
+var zprava
+var strana
+var okno
+ini
+
+spec:=11;
+
+zprava:=0;
+strana:=0;
+okno:=0;
+50 Prg2
+
+if (zprava>=1)and(zprava<=2) then
+  begin
+    okno:=zprava;
+    zprava:=3;
+    strana:=random(2);
+
+    case random(3) of
+      0:anim:='a0a1a2a3a4a5d?1-10a4a3a2a1a0';
+      1:begin
+          anim:='a6a7a8a9a10';
+          case random(3) of
+            0:anim:=anim+'d?1-10';
+            1:anim:=anim+'d?1-4a11a12a13a14a15a16d4a15a14d?5-10a13a12a11';
+            2:anim:=anim+'d?1-4a11a12a13a14a15a16d?3-10a15a14a13a12a11';
+          end;
+          anim:=anim+'a10a9a8a7a6';
+        end;
+      2:anim:='a17a18a19a20a21a22a23d?1-10a22a21a20a19a18a17';
+    end;    
+
+    resetanim(this);
+  end;
+
+if (anim='')or endanim(this) then
+  begin
+    if (zprava=3) then 
+      begin
+        if okno=1 then room.okno1:=0
+        else room.okno2:=0;
+        zprava:=0;
+        okno:=0;
+        spec:=11;
+      end;
+  end
+else 
+  goanim(this);
+
+case okno of
+0,1:begin
+      x:=kabina.x+3;
+      y:=kabina.y+1;
+    end;
+  2:begin
+      x:=kabina.x+9;
+      y:=kabina.y+1;
+    end;
+end;
+if okno=0 then spec:=11
+else spec:=strana*10;
+1 List
+1
+22 16 3 3
+ruka0.bmp
+65280 Mask
+1 Kind
+6 Ext
+11 Prg1
+name ruka
+var zprava
+var strana
+var okno
+ini
+
+spec:=11;
+
+zprava:=0;
+strana:=0;
+okno:=0;
+50 Prg2
+if (zprava>=1)and(zprava<=2) then
+  begin
+    okno:=zprava;
+    zprava:=3;
+    strana:=random(2);
+
+    anim:='';
+    pom2:=0;
+    for pom1:=1 to random(14)+2 do
+      begin
+        anim:=anim+'a'+chr(48+pom2);
+        if pom2>=5 then anim:=anim+'d1';
+        if pom2=6 then pom2:=5
+        else inc(pom2);
+      end;
+    for pom1:=pom2-1 downto 0 do
+      begin
+        anim:=anim+'a'+chr(48+pom1);
+      end;
+
+    resetanim(this);
+  end;
+
+if (anim='')or endanim(this) then
+  begin
+    if (zprava=3) then 
+      begin
+        if okno=1 then room.okno1:=0
+        else room.okno2:=0;
+        zprava:=0;
+        okno:=0;
+        spec:=11;
+      end;
+  end
+else 
+  goanim(this);
+
+case okno of
+0,1:begin
+      x:=kabina.x+3;
+      y:=kabina.y+1;
+    end;
+  2:begin
+      x:=kabina.x+9;
+      y:=kabina.y+1;
+    end;
+end;
+if okno=0 then spec:=11
+else spec:=strana*10;
+
+1 List
+1
+22 16 3 3
+frkavec0.bmp
+65280 Mask
+1 Kind
+6 Ext
+14 Prg1
+name frkavec
+var frkacka
+var zprava
+var strana
+var okno
+ini
+
+spec:=11;
+
+zprava:=0;
+strana:=0;
+okno:=0;
+
+frkacka:=0;
+42 Prg2
+if (zprava>=1)and(zprava<=2) then
+  begin
+    okno:=zprava;
+    zprava:=3;
+    strana:=random(2);
+
+    anim:='a0a1a2a3a4a5';
+    for pom1:=1 to random(5)+1 do
+      if random(2)=0 then anim:=anim+'d?5-20a6d6a5'
+      else anim:=anim+'d?5-20a6s1,1s1,2d6s1,1s1,0,a5';
+    anim:=anim+'a4a3a2a1a0';
+
+    resetanim(this);
+  end;
+
+if (anim='')or endanim(this) then
+  begin
+    if (zprava=3) then 
+      begin
+        if okno=1 then room.okno1:=0
+        else room.okno2:=0;
+        zprava:=0;
+        okno:=0;
+        spec:=11;
+      end;
+  end
+else 
+  goanim(this);
+
+case okno of
+0,1:begin
+      x:=kabina.x+3;
+      y:=kabina.y+1;
+    end;
+  2:begin
+      x:=kabina.x+9;
+      y:=kabina.y+1;
+    end;
+end;
+if okno=0 then spec:=11
+else spec:=strana*10;
+
+1 List
+1
+22 16 3 3
+hnat0.bmp
+65280 Mask
+1 Kind
+21 Ext
+14 Prg1
+name hnat
+var drazdit
+var zprava
+var strana
+var okno
+ini
+
+drazdit:=random(5)+1;
+
+spec:=11;
+
+zprava:=0;
+strana:=0;
+okno:=0;
+63 Prg2
+if (zprava>=1)and(zprava<=2) then
+  begin
+    okno:=zprava;
+    zprava:=3;
+    strana:=random(2);
+
+    if drazdit>0 then
+      begin
+        dec(drazdit);
+        case random(4) of
+          0:anim:='a0a1a2a3a4a5a6a7d1a6a4';
+          1:anim:='a0a1a2a3a4a5a6a7a8d1a6a4';
+          2:anim:='a0a1a2a3a4a5a6a7a8a9d1a8a6a4';
+          3:anim:='a0a1a2a3a4a5a6a7a8a9a10d1a8a6a4';
+        end;
+        for pom1:=1 to random(5) do anim:=anim+'d1a3d1a4';
+        anim:=anim+'a3a2a1a0';
+      end
+    else if drazdit=0 then
+      begin
+        anim:='a0a1a2a3a4a5a6a7a8a9a10a11a12a13';
+        case random(3) of
+          0:anim:=anim+'a14a15a16a17a18a19a20a21';
+          1:anim:=anim+'d3a15a17a19a21';
+          2:anim:=anim+'d7a15a18a21';
+        end;
+        drazdit:=-random(5)-2;
+      end
+    else if drazdit<0 then
+      begin
+        inc(drazdit);
+        if drazdit=0 then drazdit:=random(5)+1;
+      end;
+
+    resetanim(this);
+  end;
+
+if (anim='')or endanim(this) then
+  begin
+    if (zprava=3) then 
+      begin
+        if okno=1 then room.okno1:=0
+        else room.okno2:=0;
+        zprava:=0;
+        okno:=0;
+      end;
+  end
+else 
+  goanim(this);
+
+case okno of
+0,1:begin
+      x:=kabina.x+3;
+      y:=kabina.y+1;
+    end;
+  2:begin
+      x:=kabina.x+9;
+      y:=kabina.y+1;
+    end;
+end;
+if okno=0 then spec:=11
+else spec:=strana*10;
+
+1 List
+1
+22 16 3 3
+lahev0.bmp
+65280 Mask
+1 Kind
+14 Ext
+11 Prg1
+name lahev
+var zprava
+var strana
+var okno
+ini
+
+spec:=11;
+
+zprava:=0;
+strana:=0;
+okno:=0;
+44 Prg2
+if (zprava>=1)and(zprava<=2) then
+  begin
+    okno:=zprava;
+    zprava:=3;
+    strana:=random(2);
+
+    anim:='a0a1a2a3a4a5a6a7a8';
+    for pom1:=1 to random(4) do
+      begin
+        for pom1:=1 to random(3)+1 do
+          anim:=anim+'a9a10';
+        anim:=anim+'a11a12a13a14a9d?1-6';
+      end;
+    anim:=anim+'a8a7a6a5a4a3a2a1a0';
+
+    resetanim(this);
+  end;
+
+if (anim='')or endanim(this) then
+  begin
+    if (zprava=3) then 
+      begin
+        if okno=1 then room.okno1:=0
+        else room.okno2:=0;
+        zprava:=0;
+        okno:=0;
+      end;
+  end
+else 
+  goanim(this);
+
+case okno of
+0,1:begin
+      x:=kabina.x+3;
+      y:=kabina.y+1;
+    end;
+  2:begin
+      x:=kabina.x+9;
+      y:=kabina.y+1;
+    end;
+end;
+if okno=0 then spec:=11
+else spec:=strana*10;
+
+1 List
+1
+22 16 3 3
+frk0.bmp
+65280 Mask
+1 Kind
+1 Ext
+4 Prg1
+name frk
+var okno
+ini
+spec:=11;
+50 Prg2
+{if (frkavec.frkni=1) then
+  begin
+    if (delkafrku>0) then
+    begin 
+      x:=kabina.x+3;
+      y:=kabina.y+1;
+      spec:=0;
+      afaze:=0;
+      dec(delkafrku);
+    end
+  else
+    if (frkavec.frkni=2)and(delkafrku>0) then
+    begin
+      x:=kabina.x+9;
+      y:=kabina.y+1;
+      spec:=10;
+      afaze=0;
+      dec(delkafrku);
+    end
+  else    
+    if (delkafrku=0) then
+    begin   
+      afaze:=1;    
+      frkavec.frkni:=0;
+      delkafrku:=random(7)+5;
+    end;
+  end;
+ }    
+
+okno:=0;
+if frkavec.frkacka>0 then
+  if (frkavec.strana=0)and(frkavec.okno=2)
+    or(frkavec.strana=1)and(frkavec.okno=1) then
+    begin
+      okno:=3-frkavec.okno;
+      afaze:=frkavec.frkacka-1;
+    end;
+
+case okno of
+0,1:begin
+      x:=kabina.x+3;
+      y:=kabina.y+1;
+    end;
+  2:begin
+      x:=kabina.x+9;
+      y:=kabina.y+1;
+    end;
+end;
+if okno=0 then spec:=11
+else spec:=frkavec.strana*10;
+1 List
+1
+19 15 14 5
+kabina .BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name kabina
+0 Prg2
+55 List
+512 768 1 513 769 2 258 514 770
+3 259 515 771 4 516 772 1028 5 261
+517 773 1029 6 262 518 774 1030 7 519
+775 1031 8 264 520 776 1032 9 265 521
+777 1033 10 522 778 1034 11 267 523 779
+12 268 524 780 525 781
+EOF

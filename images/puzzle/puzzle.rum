@@ -1,0 +1,552 @@
+REDIT FILE from 22.3.1998 12:18:45
+Puclik
+Pøíšerový puzzle
+0 0 5 10 5 0 0 0 0 0  Params
+16777215 Grid
+53 39
+Puclik-p.bmp
+0 obsolete
+0 Ext
+Puclik-w.bmp
+65280 Mask
+0 Ext
+266 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 6144 6400 6656 6912 7168
+7424 7680 7936 8192 8448 8704 8960 9216 9472 9728
+1 1025 2305 9473 9729 2 1026 1282 2306 9474
+9730 3 771 1027 2307 9475 9731 4 1028 2308
+9476 9732 5 261 517 773 1029 1285 1541 1797
+2053 2309 3077 3845 4101 4869 5125 5893 6149 6917
+7173 7941 8197 9477 9733 6 9478 9734 7 9223
+9479 9735 8 9736 9 9737 10 9738 11 3083
+12 13 14 15 9743 16 9744 17 9745 18
+9746 19 9747 20 9748 21 9749 22 9750 23
+9751 24 9752 25 9753 26 9754 27 9755 28
+3100 9756 29 9245 9757 30 9246 9758 31 9247
+9759 32 9760 33 9761 34 1570 9762 35 1571
+9251 9507 9763 36 1572 9764 37 38 9766 39
+9255 9767 40 9256 9768 41 9257 9769 42 9258
+9770 43 811 9259 9771 44 9260 9772 45 9261
+9773 46 9262 9774 47 9775 48 9776 49 9777
+50 2866 3890 4146 4402 4658 4914 5170 5426 5682
+5938 6194 6450 6706 6962 7218 7474 7730 7986 8498
+8754 9010 9266 9522 9778 51 2867 3123 3891 4147
+4403 4659 4915 5171 5427 5683 5939 6195 6451 6707
+6963 7219 7475 7731 7987 8499 8755 9011 9267 9523
+9779 52 2868 3124 3892 4148 4404 4660 4916 5172
+5428 5684 5940 6196 6452 6708 6964 7220 7476 7732
+7988 8500 8756 9012 9268 9524 9780
+9 Prg1
+name room
+var uvod
+var tahy
+var opldovi
+ini
+uvod:=1;
+tahy:=random(500)+500;
+opldovi:=0;
+	
+51 Prg2
+if no_dialog and zije[mala] and zije[velka] then
+  begin
+    if uvod=1 then
+      begin
+        uvod:=0;
+        case pokus of 
+          1:pom1:=random(2)+1;
+          2:pom1:=random(2)+1;
+          else pom1:=random(3);
+        end;
+        adddel(10+random(20));
+        case pom1 of
+          1:begin
+              if random(2)=0 then addm(0,'puc-m-koukej')
+              else addv(0,'puc-v-podivej');
+            end;
+          2:begin
+              addv(0,'puc-v-videl');
+              addm(10,'puc-m-oblicej');
+            end;
+        end;
+      end
+    else if (opldovi=0)and(dist(little,@pld)<4)and(look_at(little,@pld))
+       and(random(100)<1) then
+      begin
+        opldovi:=1;
+        case random(3) of
+          0:addm(10,'puc-m-pld0');
+          1:addm(10,'puc-m-pld1');
+          2:addm(10,'puc-m-hele');
+        end;
+        addm(random(30)+5,'puc-m-slizka');
+        addset(pld.smutny,60+random(60));
+        addd(3,'puc-x-pldik',101,noprom);
+      end
+    else if (tahy=1)and(aktivni=velka)and(velkar.dir<>dir_no) then
+      begin
+        addv(10,'puc-v-fuska'+chr(random(2)+48));
+        tahy:=random(500)+500;
+      end
+    else if prvni.hotovo=1 then
+      begin
+        addv(5,'puc-v-fuska2');
+        addm(random(10)+3,'puc-m-stalo');
+        addm(random(20)+5,'puc-m-obraz');
+        adddel(5);
+        addset(prvni.faze,1);
+        addv(20,'puc-v-nesmysl');
+        prvni.hotovo:=2;
+      end;
+  end
+33 Items
+37 24 5 5
+01-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+6 Prg1
+name prvni
+var hotovo
+var faze
+ini
+hotovo:=0;
+faze:=0;
+15 Prg2
+pomb1:=true;
+for pom1:=0 to 3 do
+  for pom2:=0 to 4 do
+    begin
+      pomb1:=pomb1 and
+        (X+pom1*4=Items[this+pom1+pom2*4]^.X)and
+        (Y-pom2*4=Items[this+pom1+pom2*4]^.Y);
+    end;
+
+if (hotovo=0) and pomb1 then inc(hotovo);
+
+for pom1:=this to this+19 do
+  Items[pom1]^.afaze:=faze;
+
+if (faze>0)and(faze<4) then inc(faze);
+20 List
+256 512 768 1024 257 513 769 1025 2
+258 514 770 1026 259 515 771 1027 4 260
+1028
+29 9 5 5
+02-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+17 List
+512 768 257 513 769 1025 2 258 514
+770 1026 259 515 771 1027 260 516
+19 7 5 5
+03-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+19 List
+768 1024 257 513 769 1025 2 258 514
+770 1026 3 259 515 771 1027 516 772 1028
+9 7 5 5
+04-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+18 List
+256 257 513 769 1025 258 514 770 1026
+259 515 771 1027 4 260 516 772 1028
+29 24 5 5
+05-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+20 List
+256 512 768 1024 257 513 769 1025 2
+258 514 770 3 259 515 771 1027 260 516
+772
+41 20 5 5
+06-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+15 List
+1 257 513 769 1025 258 514 770 3
+259 515 771 1027 516 772
+24 7 5 5
+07-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+21 List
+0 256 1024 1 257 513 769 1025 2
+258 514 770 3 259 515 771 4 260 516
+772 1028
+11 1 5 5
+08-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+17 List
+257 513 769 1025 2 258 514 770 1026
+259 515 771 1027 4 260 516 772
+37 29 5 5
+09-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+19 List
+0 256 512 768 1024 1 257 513 769
+1025 2 258 514 770 259 515 771 772 1028
+37 19 5 5
+10-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+14 List
+256 512 257 513 769 2 258 514 770
+1026 259 515 771 516
+36 11 5 5
+11-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+13 List
+256 768 257 513 769 2 258 514 770
+259 515 771 260
+16 1 5 5
+12-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+18 List
+512 768 1 257 513 769 1025 2 258
+514 770 259 515 771 1027 260 516 772
+42 25 5 5
+13-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+16 List
+0 256 512 768 257 513 769 2 258
+514 770 259 515 771 1027 516
+29 19 5 5
+14-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+21 List
+0 256 768 1024 1 257 513 769 1025
+258 514 770 3 259 515 771 1027 4 260
+772 1028
+37 15 5 5
+15-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+14 List
+512 1 257 513 769 1025 258 514 770
+259 515 771 1027 1028
+14 7 5 5
+16-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+19 List
+256 512 768 257 513 769 2 258 514
+770 259 515 771 1027 4 260 516 772 1028
+42 30 5 5
+17-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+20 List
+0 256 512 768 1 257 513 769 1025
+2 258 514 770 3 259 515 771 1027 4
+772
+30 29 5 5
+18-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+17 List
+256 512 1 257 513 769 2 258 514
+770 1026 3 259 515 771 4 260
+29 14 5 5
+19-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+18 List
+512 768 1 257 513 769 2 258 514
+770 1026 3 259 515 771 1027 516 1028
+29 5 5 5
+20-mona1.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+21 List
+0 256 768 1 257 513 769 1025 2
+258 514 770 3 259 515 771 1027 4 260
+516 772
+11 13 19 23
+Puclik-21-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+58 List
+0 5632 1 5633 2 5634 3 5635 4
+5636 5 5637 6 5638 7 5639 8 5640 9
+5641 10 5642 11 5643 12 5644 13 5645 14
+5646 15 5647 16 5648 17 273 529 785 1041
+1297 1553 1809 2065 2321 2577 2833 3089 3345 3601
+3857 4113 4369 4625 4881 5137 5393 5649 4882
+30 33 2 3
+Puclik-22-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+256 1 257 513
+39 34 1 2
+Puclik-23-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+44 34 1 2
+Puclik-24-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+44 12 7 4
+pld 1.BMP
+65280 Mask
+1 Kind
+15 Ext
+14 Prg1
+name pld
+var del
+var vlnit
+var ocko
+var faze
+var smer
+var smutny
+ini
+vlnit:=0;
+del:=0;
+ocko:=0;
+smer:=0;
+faze:=0;
+smutny:=0;
+71 Prg2
+case dir of
+  dir_no:if vlnit=-1 then vlnit:=8;
+  dir_down:vlnit:=-1;
+  else vlnit:=8;
+end;
+
+if vlnit>0 then smutny:=0;
+
+
+if vlnit>0 then
+ if del=0 then
+  begin
+    case vlnit of
+      8,7,6:del:=1;
+      5,4,3:del:=2;
+      else del:=3;
+    end;
+    if random(2)=0 then
+      afaze:=(afaze+1)mod 4
+    else
+      afaze:=(afaze+3)mod 4;
+    dec(vlnit);
+    if vlnit=0 then del:=0;
+    if vlnit=0 then afaze:=0
+    else if vlnit=1 then afaze:=3;
+  end
+ else
+  dec(del)
+else if smutny>0 then
+  begin
+    if ocko=0 then
+      if random(100)<10 then ocko:=3;
+    if ocko>0 then dec(ocko);
+    if ocko>0 then afaze:=15
+    else afaze:=14;
+    dec(smutny);
+  end
+else
+  begin
+    if random(100)<10 then smer:=1-smer;
+    case faze of
+      0:begin
+          afaze:=0;
+          if random(100)<10 then faze:=1;
+        end;
+    1,4:begin
+          inc(faze);
+          afaze:=4;
+        end;
+    2,3:begin
+          inc(faze);
+          afaze:=5;
+        end;
+     5:begin
+          afaze:=0;
+          faze:=0;
+        end;
+    end;
+    case afaze of
+      0:if smer=1 then afaze:=6;
+      4:if smer=1 then afaze:=7;
+    end;
+
+    if ocko=0 then
+      if random(100)<10 then ocko:=3;
+    if ocko>0 then dec(ocko);
+
+    if ocko>0 then
+      if afaze=0 then afaze:=9
+      else afaze:=afaze+6;
+  end;
+19 List
+512 257 513 2 258 514 770 3 259
+515 771 4 260 516 772 261 517 773 518
+42 1 11 12
+Puclik-26-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+54 List
+0 256 512 1536 1792 2048 1 1537 2
+1538 3 1539 4 1540 5 773 1029 1541 2053
+2309 2565 6 774 1030 1542 2054 2566 7 775
+1031 1287 1543 1799 2055 2311 2567 8 1032 1288
+1544 2056 9 2057 2313 10 266 522 778 1034
+1290 1546 1802 2058 2314
+12 12 16 1
+Puclik-27-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+16 List
+0 1 2 3 4 5 6 7 8
+9 10 11 12 13 14 15
+6 35 7 2
+Puclik-28-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+9 List
+0 1 2 258 3 259 4 260 261
+14 6 3 1
+Puclik-29-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+11 6 3 1
+Puclik-30-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+17 6 12 1
+Puclik-31-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+12 List
+0 1 2 3 4 5 6 7 8
+9 10 11
+35 8 3 1
+mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+2 Prg2
+if (room.tahy>1)and(dir<>dir_no)and(gfaze=0) then
+  dec(room.tahy);
+3 List
+0 1 2
+28 1 4 2
+Puclik-33-Tmp.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+2 Prg2
+if (room.tahy>1)and(dir<>dir_no)and(gfaze=0) then
+  dec(room.tahy);
+8 List
+0 256 1 257 2 258 3 259
+EOF

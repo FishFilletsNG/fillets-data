@@ -1,0 +1,509 @@
+REDIT FILE from 22.3.1998 11:13:12
+jednicky
+jednicky
+0 0 5 10 5 0 0 0 0 0  Params
+16777215 Grid
+33 32
+jednicky-p.bmp
+0 obsolete
+0 Ext
+jednicky-w.bmp
+65280 Mask
+0 Ext
+435 WlList
+0 256 512 768 1024 1280 1536 1792 3328
+3584 3840 4096 4352 4608 4864 5120 5376 5632 5888
+7168 7424 7680 7936 1 257 513 769 1025 1281
+1537 1793 3585 3841 4097 5633 5889 6401 6657 2
+258 514 770 1026 1282 1538 1794 4610 4866 5122
+6402 6658 6914 7170 7682 7938 3 259 515 771
+1027 1283 1539 1795 2563 2819 3331 3587 3843 4611
+4867 5123 5379 5635 5891 6147 6403 6659 6915 7171
+7683 7939 4 260 516 772 1796 2564 2820 3332
+3588 3844 5892 6148 6404 6660 6916 7940 5 261
+2565 2821 3333 3589 6149 7429 7941 6 262 2566
+2822 3334 3590 6662 6918 7174 7430 7942 7 263
+2567 2823 3335 3591 4359 4615 4871 6919 7175 7431
+7943 8 3336 3592 4360 4616 4872 6920 7944 1289
+2569 2825 3337 3593 4361 4617 4873 5129 6921 7433
+7689 7945 10 1290 1546 1802 2058 2570 4362 4618
+4874 7434 7690 7946 11 267 2571 4363 4619 7691
+7947 12 268 2572 7692 7948 13 269 525 2573
+6925 7693 7949 14 270 526 2574 6926 7694 7950
+15 271 527 1551 6927 7183 7695 7951 16 272
+528 1552 2576 6928 7184 7696 7952 17 273 529
+785 1553 2577 6929 7185 7697 7953 18 274 530
+1554 2578 2834 6930 7186 7698 7954 19 275 531
+1555 2579 2835 3603 3859 4115 4371 4627 4883 6931
+7187 7699 7955 20 276 532 2580 2836 3092 3604
+3860 4116 4372 4628 4884 5140 6932 7188 7700 7956
+21 277 533 789 1557 2069 2325 2581 2837 3093
+4885 5141 6933 7189 7701 7957 22 278 534 1558
+3606 3862 4118 4374 4886 5142 6934 7190 7702 7958
+23 279 1559 2583 2839 3095 3351 3607 3863 4887
+5143 6935 7191 7703 7959 24 280 1560 2584 3864
+4376 4632 4888 6936 7192 7704 7960 25 281 537
+1561 2585 3097 3353 4377 4633 4889 6937 7193 7705
+7961 26 282 538 1562 1818 2586 2842 3098 3354
+3610 3866 4122 4378 4634 4890 6938 7194 7706 7962
+27 283 539 1563 1819 2587 4123 4379 4635 7707
+7963 28 284 540 1564 1820 2588 6940 7196 7708
+7964 29 285 541 797 1565 6941 7709 7965 30
+286 542 798 1054 6942 7710 7966 31 287 543
+799 1055 1311 1567 1823 2079 3359 3615 3871 4127
+4383 4639 4895 7711 7967 32 288 544 800 1056
+1312 1568 1824 2080 2336 2592 2848 3104 3360 3616
+3872 4128 4384 4640 4896 5152 5408 5664 5920 6176
+6432 6688 6944 7456 7712 7968
+16 Prg1
+name room
+var uvod
+var fofr
+var flakat
+var jestejednu
+var otyci
+var kleopatra
+var opoteru
+ini
+uvod:=0;
+fofr:=nah(300,1500);
+jestejednu:=nah(500,5000);
+flakat:=0;
+otyci:=nah(500,3000);
+kleopatra:=nah(300,1000);
+opoteru:=nah(600,1200);
+80 Prg2
+if zije[mala] and zije[velka] and no_dialog then
+ begin
+   if (jestejednu>0) then dec(jestejednu);
+   if (jestejednu<-1)and (jestejednu>-60) then inc(jestejednu);
+   if (jestejednu<-60)and (jestejednu>-120) then inc(jestejednu);
+   if (otyci>0) then dec(otyci);
+   if (kleopatra>0) then dec(kleopatra);
+   if (opoteru>0) then dec(opoteru);
+   if (uvod=0) then
+     begin
+       uvod:=1;
+       addm(random(200)+10,'jed-m-libi');
+       case random(2) of
+        0: addm(random(5),'jed-m-perly0');
+        1: addm(random(5),'jed-m-perly1');
+       end;
+       case random(7) of
+        0,1: addv(random(5),'jed-v-poslani0');
+        2,3: addv(random(5),'jed-v-poslani1');
+        4,5: addv(random(5),'jed-v-poslani2');
+       end;
+     end
+ else
+   if (fofr<=malar.fofr) and(flakat=0) then 
+     begin
+       flakat:=1;
+       addm(1,'jed-m-flakas');
+       case random(2) of
+         0: addv(random(5),'jed-v-uzivat0');
+         1: addv(random(5),'jed-v-uzivat1');
+       end;
+     end
+ else
+   if (jestejednu=0)and(dist(@malar,@zeva)<3)and
+      (look_at(@malar,@zeva))and(random(100)<5) then  
+     begin
+       jestejednu:=-1*(random(40)+20);
+       addm(1,'jed-m-perlorodka0');
+       addd(nah(1,20),'jed-x-nedam',101,zeva.cinnost);          
+     end
+ else
+   if (dist(@malar,@zeva)<3)and
+      (look_at(@malar,@zeva))and
+      (jestejednu=-1) then 
+     begin
+       jestejednu:=-1*(random(40)+80);
+       addm(1,'jed-m-perlorodka1');
+       addd(nah(1,20),'jed-x-nedam',101,zeva.cinnost);          
+     end
+ else
+   if  (dist(@malar,@zeva)<3)and
+      (look_at(@malar,@zeva))and
+      (jestejednu=-60) then 
+     begin
+       jestejednu:=random(10000)+10000;
+       addm(1,'jed-m-perlorodka2');
+       addd(nah(1,20),'jed-x-nedam',102,zeva.cinnost);          
+     end
+ else
+   if (otyci=0)and (flakat=1)then
+     begin
+       addm(random(5),'jed-m-trubka');
+       otyci:=-1;
+     end
+ else
+   if (kleopatra=0) then 
+     begin
+       addv(random(10),'jed-v-ocet');
+       addm(random(4),'jed-m-moc');
+       addv(random(5),'jed-v-vzdelat');
+       kleopatra:=-1;
+     end
+ else
+   if (opoteru=0) then
+     begin
+       addv(random(10),'jed-v-poter');
+       if random(100)<60 then addm(random(5),'jed-m-kulicka');
+       opoteru:=-1;
+     end; 
+ end;
+24 Items
+12 11 3 1
+17-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+4 Prg1
+name malar
+var fofr
+ini
+fofr:=0;
+1 Prg2
+if (dir<>dir_no)and(gfaze=0) then inc(fofr);
+3 List
+0 1 2
+11 4 4 2
+16-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+10 15 4 2
+zeva0.BMP
+65280 Mask
+1 Kind
+7 Ext
+8 Prg1
+name zeva
+var cinnost
+var faze
+var pocet
+var delay
+ini
+cinnost:=0;
+pocet:=0;
+90 Prg2
+if (cinnost=0)and(random(1000)<10) then
+  begin
+    faze:=1;
+    if (random(100)<25)and(pocet>3) then cinnost:=2
+    else cinnost:=1;
+    inc(pocet);
+  end;
+
+case cinnost of
+  1:begin
+      case faze of
+        1:begin
+            afaze:=1;
+            inc(faze);
+          end;
+        2:begin
+            afaze:=2;
+            delay:=random(10);
+            inc(faze);
+          end;
+        3:if delay>0 then dec(delay)
+          else 
+            begin 
+              afaze:=1;
+              inc(faze);
+            end;
+        4:begin
+            cinnost:=0;
+            afaze:=0;
+          end;
+      end;
+    end;
+  2:begin
+      case faze of
+        1:begin
+            afaze:=3;
+            inc(faze);
+          end;
+        2:begin
+            afaze:=4;
+            delay:=20+random(100);
+            inc(faze);
+          end;
+        3:if delay>0 then 
+            if random(100)<3 then faze:=10
+            else dec(delay)
+          else 
+            begin 
+              afaze:=1;
+              inc(faze);
+            end;
+        4:begin
+            cinnost:=0;
+            afaze:=0;
+          end;
+
+       10,15:
+          begin
+            afaze:=5;
+            inc(faze);
+          end;
+       11,14:
+          begin
+            afaze:=6;
+            inc(faze);
+          end;
+       12,13:
+          begin
+            afaze:=7;
+            inc(faze);
+          end;
+       16:begin
+            afaze:=4;
+            faze:=3;
+          end;
+      end;
+    end;
+ 101:begin
+       faze:=1;
+       cinnost:=1;
+     end;
+ 102:begin
+       faze:=1;
+       cinnost:=2;
+     end;
+end;
+   
+             
+        
+        
+8 List
+0 256 1 257 2 258 3 259
+6 21 4 5
+koral.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+768 1024 769 770 3 259 515 771
+17 13 3 1
+musle troj.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+16 4 1 2
+musla.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+9 1 1 4
+1-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 512 768
+16 9 1 1
+2-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+16 7 1 1
+2-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+18 5 1 1
+2-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+16 8 1 1
+perla0.BMP
+65280 Mask
+1 Kind
+3 Ext
+4 Prg1
+name perla1
+ini
+for pom1:=0 to 11 do
+  globpole[pom1]:=-random(50)-10;
+15 Prg2
+for pom1:=0 to 11 do
+  begin
+    inc(globpole[pom1]);
+    case globpole[pom1] of
+      0,5:pom2:=1;
+      1,4:pom2:=2;
+      2,3:pom2:=3;
+      6:begin
+          pom2:=0;
+          globpole[pom1]:=-random(50)-10;
+        end;
+      else pom2:=0;
+    end;
+    Items[this+pom1]^.afaze:=pom2;
+  end;
+1 List
+0
+16 3 1 1
+perla0.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name perla2
+0 Prg2
+1 List
+0
+24 9 1 1
+perla0.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name perla3
+0 Prg2
+1 List
+0
+24 8 1 1
+perla0.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name perla4
+0 Prg2
+1 List
+0
+27 5 1 1
+perla0.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name perla5
+0 Prg2
+1 List
+0
+24 5 1 1
+perla0.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name perla6
+0 Prg2
+1 List
+0
+21 5 1 1
+perla0.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name perla7
+0 Prg2
+1 List
+0
+4 30 1 1
+perla0.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name perla8
+0 Prg2
+1 List
+0
+19 26 1 1
+perla0.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name perla9
+0 Prg2
+1 List
+0
+22 26 1 1
+perla0.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name perla10
+0 Prg2
+1 List
+0
+26 26 1 1
+perla0.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name perla11
+0 Prg2
+1 List
+0
+25 11 1 1
+perla0.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name perla12
+0 Prg2
+1 List
+0
+29 26 1 1
+perla0.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name perla13
+0 Prg2
+1 List
+0
+31 29 1 1
+perla0.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name perla14
+0 Prg2
+1 List
+0
+EOF

@@ -1,0 +1,336 @@
+REDIT FILE from 22.2.1998 23:05:44
+Puzzle
+Klíèová služba
+0 0 5 10 5 0 0 0 0 0  Params
+-2147483632 Grid
+40 27
+pozadi2.BMP
+0 obsolete
+0 Ext
+puzzle-w.BMP
+65280 Mask
+0 Ext
+415 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 6400 6656 1 257 513 769
+1025 1281 1537 1793 2049 2305 2561 6401 6657 2
+258 514 770 1026 1282 1538 1794 2050 2306 2562
+6402 6658 3 259 515 771 1027 1283 1539 1795
+2051 2307 2563 6403 6659 4 260 516 772 1028
+1284 1540 1796 2052 2308 2564 6404 6660 5 261
+517 773 1029 1285 1541 1797 2053 2309 2565 3845
+5125 6405 6661 6 262 518 774 1030 1286 1542
+1798 2054 2310 2566 6662 7 263 519 775 1031
+1287 1543 1799 2055 2311 2567 6663 8 264 520
+776 1032 6664 9 265 521 777 1033 6665 10
+266 522 778 1034 6666 11 267 523 779 1035
+6667 6412 6668 6413 6669 14 270 526 782 1038
+2574 3854 5134 6414 6670 15 271 527 783 1039
+2575 6671 16 272 528 784 1040 2576 6672 17
+273 529 785 1041 2577 6673 18 274 530 786
+1042 2578 6674 19 275 531 787 1043 2579 6675
+20 276 532 788 1044 1300 1556 1812 2580 6676
+6421 6677 6422 6678 23 279 535 791 1047 2583
+3863 5143 6423 6679 24 280 536 792 1048 2584
+6680 25 281 537 793 1049 2585 6681 26 282
+538 794 1050 2586 6682 27 283 539 795 1051
+2587 6683 28 284 540 796 1052 2588 6684 29
+285 541 797 1053 1309 1565 1821 2589 6685 6430
+6686 6431 6687 32 288 544 800 1056 2592 6432
+6688 33 289 545 801 1057 2593 6433 6689 34
+290 546 802 1058 2594 2850 3106 3362 3618 3874
+4130 4386 4642 4898 5154 5410 5666 5922 6178 6434
+6690 35 291 547 803 1059 2595 2851 3107 3363
+3619 3875 4131 4387 4643 4899 5155 5411 5667 5923
+6179 6435 6691 36 292 548 804 1060 2596 2852
+3108 3364 3620 3876 4132 4388 4644 4900 5156 5412
+5668 5924 6180 6436 6692 37 293 549 805 1061
+2597 2853 3109 3365 3621 3877 4133 4389 4645 4901
+5157 5413 5669 5925 6181 6437 6693 38 294 550
+806 1062 2598 2854 3110 3366 3622 3878 4134 4390
+4646 4902 5158 5414 5670 5926 6182 6438 6694 39
+295 551 807 1063 1319 1575 1831 2087 2343 2599
+2855 3111 3367 3623 3879 4135 4391 4647 4903 5159
+5415 5671 5927 6183 6439 6695
+18 Prg1
+name room
+var uvod
+var hlaska
+var oldwamp
+var oldwper
+var mluveni
+var nudise
+var nepas
+ini
+if pokus=1 then uvod:=0
+else if random(100)<80 then uvod:=0
+else uvod:=1;
+hlaska:=random(1000)+500;
+oldwamp:=WAmp;
+oldwper:=WPer;
+mluveni:=0;
+nudise:=0;
+nepas:=0;
+62 Prg2
+if mluveni<>0 then
+  begin
+    wamp:=random(4)+4;
+    wper:=random(4)+1;
+  end
+else
+  begin
+    wamp:=oldwamp;
+    wper:=oldwper;
+  end;
+
+if zije[mala] and zije[velka] and no_dialog then
+  begin
+    if hlaska>0 then dec(hlaska);
+    if uvod>2 then dec(uvod);
+    if uvod=0 then
+      begin
+        if random(100)<30 then uvod:=random(100)+20	
+                          else uvod:=1;
+        if random(100)<30 then 
+          addv(random(20)+5,'pz-v-zaskladanej')
+        else 
+          adddel(random(20));
+        if random(100)<40 then
+          begin
+            addm(random(8)+3,'pz-m-co');
+            addv(random(4),'pz-v-klice'+chr(random(2)+49));
+          end
+        else
+          begin
+            addv(random(8)+3,'pz-v-co'+chr(random(2)+49));
+            addm(random(4),'pz-m-spoje'+chr(random(3)+49));
+          end;
+      end
+    else if uvod=2 then
+      begin
+        uvod:=1;
+        addm(8,'pz-m-vylez');
+        addv(10,'pz-v-dat');
+      end
+    else if hlaska=0 then
+      begin
+        hlaska:=-1;
+        addm(20,'pz-m-pocitace');
+        addd(random(20)+30,'pz-x-pocitac',5,mluveni);
+      end
+    else if (nudise=0)and (malar.pohyby>=malar.trpelivost)and(velkar.Y<=8) then
+      begin
+        addv(20,'pz-v-hej');
+        addm(0,'pz-m-nech');
+        nudise:=1;
+      end
+    else if (nepas=0)and(
+        (k1.Y>5)and(k1.Y<20)and(k1.dir=dir_no)
+      or(k2.Y>5)and(k2.Y<20)and(k2.dir=dir_no)
+      or(k3.Y>5)and(k3.Y<20)and(k3.dir=dir_no)) then
+      begin
+        nepas:=1;
+        addm(10,'pz-m-nepasuje');
+      end;
+  end;
+ 
+19 Items
+23 22 7 4
+procesor8.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+18 List
+0 256 512 1 513 514 770 515 771
+516 772 5 517 773 6 262 518 774
+23 17 8 4
+procesor7.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+19 List
+0 256 512 1 513 514 770 515 771
+516 772 5 517 773 6 262 518 774 7
+5 12 8 4
+procesor6.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+19 List
+0 256 512 1 513 514 770 515 771
+516 772 5 517 773 6 262 518 774 263
+5 22 8 4
+procesor3.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+20 List
+0 256 512 1 513 514 770 515 771
+516 772 5 517 773 6 262 518 774 7
+263
+14 12 8 4
+procesor5.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+19 List
+0 256 512 1 513 514 770 515 771
+516 772 5 517 773 6 262 518 774 519
+14 22 8 4
+procesor2.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+20 List
+0 256 512 1 513 514 770 515 771
+516 772 5 517 773 6 262 518 774 7
+519
+23 12 8 4
+procesor1.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+20 List
+0 256 512 1 513 514 770 515 771
+516 772 5 517 773 6 262 518 774 263
+519
+5 17 8 4
+procesor4.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+21 List
+0 256 512 1 513 514 770 515 771
+516 772 5 517 773 6 262 518 774 7
+263 519
+31 5 2 5
+val0.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name k1
+0 Prg2
+7 List
+0 256 1 257 513 769 1025
+22 5 2 5
+val1.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name k2
+0 Prg2
+8 List
+0 256 512 1 257 513 769 1025
+13 5 2 5
+val2.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name k3
+0 Prg2
+8 List
+0 256 768 1 257 513 769 1025
+30 0 2 5
+val3.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+9 List
+0 256 512 768 1 257 513 769 1025
+21 0 2 5
+val4.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 1024 1 257 513 769 1025
+12 0 2 5
+val5.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+9 List
+0 256 512 1024 1 257 513 769 1025
+33 5 2 5
+val6.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+9 List
+0 256 768 1024 1 257 513 769 1025
+24 5 2 5
+val7.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+0 256 512 768 1024 1 257 513 769
+1025
+15 5 5 5
+val-spec.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+13 List
+768 1024 769 1025 1026 3 259 1027 4
+260 516 772 1028
+17 18 3 1
+mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+6 Prg1
+name malar
+var pohyby
+var trpelivost
+ini
+pohyby:=0;
+trpelivost:=300+random(700);
+2 Prg2
+if (gfaze=0)and(aktivni=mala)and(dir<>dir_no) then
+  inc(pohyby);
+3 List
+0 1 2
+35 7 4 2
+velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+EOF

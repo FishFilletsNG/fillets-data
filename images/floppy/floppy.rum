@@ -1,0 +1,417 @@
+REDIT FILE from 22.3.1998 17:11:18
+Disketa
+Disketa
+0 0 5 10 5 0 0 0 0 0  Params
+8421504 Grid
+51 35
+Disketa-p-opr.bmp
+0 obsolete
+0 Ext
+Disketa-okoli.BMP
+65280 Mask
+0 Ext
+358 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 6144 6400 6656 6912 7168
+7424 7680 7936 8192 8448 8704 1 257 513 769
+1025 1281 1537 1793 2049 2305 2561 2817 3073 3329
+3585 3841 4097 4353 4609 4865 5121 5377 5633 5889
+6145 6401 6657 6913 7169 7425 7681 7937 8193 8449
+8705 8194 8450 8706 8195 8451 8707 8196 8452 8708
+8197 8453 8709 8198 8454 8710 8199 8455 8711 8200
+8456 8712 8201 8457 8713 8202 8458 8714 8203 8459
+8715 12 268 524 780 8204 8460 8716 13 269
+525 781 8205 8461 8717 14 8206 8462 8718 15
+8207 8463 8719 16 8208 8464 8720 17 8209 8465
+8721 18 8210 8466 8722 19 8211 8467 8723 20
+8212 8468 8724 21 8469 8725 22 8214 8470 8726
+23 279 535 791 8215 8471 8727 24 280 536
+792 3864 8216 8472 8728 25 3865 8217 8473 8729
+26 3866 8218 8474 8730 27 8219 8475 8731 28
+8220 8476 8732 29 8221 8477 8733 30 8222 8478
+8734 31 8223 8479 8735 32 8224 8480 8736 33
+8225 8481 8737 34 290 546 802 8226 8482 8738
+35 291 547 803 8227 8483 8739 36 8228 8484
+8740 37 3621 3877 4133 4389 8229 8485 8741 38
+3622 3878 4134 4390 8230 8486 8742 39 3879 4135
+4391 8487 8743 40 3880 4136 4392 8488 8744 41
+8489 8745 42 3882 4138 4394 8490 8746 43 3883
+4139 4395 8491 8747 44 3628 3884 4140 4396 8492
+8748 45 301 557 813 3629 3885 4141 4397 8493
+8749 46 302 558 814 8494 8750 47 8495 8751
+48 8496 8752 49 817 1073 1329 1585 1841 2097
+2353 2609 2865 3121 3377 3633 3889 4145 4401 4657
+4913 5169 5425 5681 5937 6193 6449 6705 6961 7217
+7473 7729 7985 8241 8497 8753 50 818 1074 1330
+1586 1842 2098 2354 2610 2866 3122 3378 3634 3890
+4146 4402 4658 4914 5170 5426 5682 5938 6194 6450
+6706 6962 7218 7474 7730 7986 8242 8498 8754
+13 Prg1
+name room
+var uvod
+var zv
+var kr
+var obecna
+var nepo
+ini
+gspec:=9;
+if (pokus>7)and(odd(pokus)) then uvod:=1 else uvod:=0;
+zv:=0;
+kr:=0;
+obecna:=500+random(2000);
+nepo:=0;
+102 Prg2
+pom2:=0;
+
+if no_dialog and zije[mala] and zije[velka] then
+ 
+ if (uvod=0)and(random(50)=1) then
+  begin
+   uvod:=1;
+   pom2:=1;
+  end
+ else
+ if (zv=0)and(dist(@malar,@disketa)<3)and(random(30)=1) then
+  begin
+   zv:=1;
+   inc(roompole[1]);
+   if odd(roompole[1])or(roompole[1]=2) then pom2:=2;
+  end
+ else
+ if (kr=0)and(dist(@velkar,@ocelkriz)<2)and(random(60)=1) then
+  begin
+   kr:=1;
+   pom2:=3;
+  end
+ else
+ if (nepo=0)and((dist(@malar,@svab)<2)or(dist(@velkar,@svab)<2))and(random(20)=1) then
+  begin
+   nepo:=1;
+   pom2:=7;
+  end
+ else
+ if (nepo=2) then
+  begin
+   nepo:=3;
+   pom2:=8;
+  end
+ else
+ if (svab.pohyby mod 121)=120 then
+  begin
+   inc(svab.pohyby);
+   pom2:=9;
+  end
+ else
+ if StdKrajniHlaska then
+  begin
+   addm(13,'disk-m-ukol');
+   StdKonecKrajniHlasky;
+  end
+ else
+ if obecna>0 then dec(obecna) else
+  begin
+   obecna:=1500+random(count);
+   pom2:=random(3)+4;
+  end;
+
+case pom2 of
+ 1: begin
+     addv(10,'disk-v-tady');
+     addm(8,'disk-m-tady');
+     addm(6,'disk-m-vejit');
+     addv(8,'disk-v-metrova');
+     addm(6,'disk-m-velka');
+     if random(pokus+1)<2 then addm(20,'disk-m-ukol');
+    end;
+ 2: begin
+     addm(10,'disk-m-zvednem');
+     addv(7,'disk-v-tezko');
+     if random(4)>0 then addv(8,'disk-v-nejde');
+    end;
+ 3: begin
+     addv(10,'disk-v-kriz');
+     addm(7,'disk-m-depres');
+    end;
+ 4: begin
+     addm(10,'disk-m-nahrat');
+     addv(7,'disk-v-mas');
+     {rozhledne se}
+     addm(10,'disk-m-sakra');
+     addv(7,'disk-v-vratime');
+     addv(10,'disk-v-naano');
+    end;
+ 5: begin
+     addm(10,'disk-m-zmatlo');
+     addv(7,'disk-v-neverim');
+    end;
+ 6: begin
+     addm(10,'disk-m-tvorecci');
+     addv(8,'disk-v-viry');
+     addm(9,'disk-m-potvory');
+     addv(8,'disk-v-pozor');
+    end;
+
+ 7: begin
+     addd(10,'disk-x-nepohnes',120,svab.stav);
+    end;
+ 8: begin
+     if random(4)>0 then addd(3,'disk-x-jejda'+chr(48+random(2)),120,svab.stav);
+     if random(4)>0 then addd(6,'disk-x-mazany',120,svab.stav);
+    end;
+ 9: begin
+     addd(3,'disk-x-uzne',120,svab.stav);
+     if random(3)>0 then addv(7,'disk-v-ulamu');
+    end;
+ end;
+14 Items
+4 22 10 10
+1-Tmp.bmp
+65280 Mask
+1 Kind
+0 Ext
+2 Prg1
+name disketa
+ini
+1 Prg2
+Spec9(this,10,10);
+36 List
+0 256 512 768 1024 1280 1536 1792 2048
+2304 1 2305 2 2306 3 2307 4 2308 5
+2309 6 2310 7 2311 8 2312 9 265 521
+777 1033 1289 1545 1801 2057 2313
+20 28 3 4
+2-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name ocelkriz
+0 Prg2
+6 List
+256 1 257 513 769 258
+24 8 7 10
+3-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+16 List
+0 256 512 768 769 770 1026 1282 1538
+1539 1540 1796 2052 2308 2309 2310
+7 18 3 3
+klika.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+256 512 257 2 258
+24 6 1 1
+vir-1.BMP
+16711935 Mask
+1 Kind
+8 Ext
+8 Prg1
+name vir1
+var stav
+var oci
+var huba
+ini
+stav:=1;
+oci:=0;
+huba:=0;
+29 Prg2
+case stav of
+ 0: {kouka}
+    if no_dialog and (random(600)=1) then
+     begin
+      pom1:=48+random(3);
+      pom2:=48+random(3);
+      addset(stav,110);
+      addd(2,'disk-x-vir'+chr(pom1),110,noprom);
+      if pom1<>pom2 then addd(4,'disk-x-vir'+chr(pom2),110,noprom);
+      adddel(2);
+      addset(stav,0);
+     end
+    else 
+     if random(4)=1 then oci:=random(3);
+
+ 1: {spi}
+    if (dir<>dir_no)and(count>10) then stav:=0;
+
+ else {mluvi}
+    begin
+     if random(4)=1 then oci:=random(3);
+     if huba=0 then huba:=2
+      else if random(3)=1 then huba:=3-huba;
+    end;
+ end;
+
+if stav<2 then huba:=0;
+
+afaze:=huba*3+oci;
+1 List
+0
+21 25 1 3
+souc.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+30 10 2 6
+chip-1.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+12 List
+0 256 512 768 1024 1280 1 257 513
+769 1025 1281
+20 21 3 1
+8-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+17 18 4 2
+9-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+39 12 5 2
+svab0.BMP
+65280 Mask
+1 Kind
+3 Ext
+8 Prg1
+name svab
+var stav
+var pam
+var pohyby
+ini
+stav:=1;
+pam:=0;
+pohyby:=0;
+30 Prg2
+case stav of
+ 0: {kouka}
+     if random(100)=1 then begin stav:=1;afaze:=3 end
+      else if afaze=3 then if random(2)=1 then afaze:=3
+                                          else afaze:=2
+                      else if random(7)=1 then afaze:=3
+                                          else afaze:=2;
+ 1: {spi}
+     if random(1000)=1 then stav:=0 else afaze:=0;
+ else {mluvi}
+   if afaze=2 then if random(3)=1 then afaze:=1
+                                  else afaze:=2
+              else if random(3)=1 then afaze:=2
+                                  else afaze:=1;
+ end;
+
+if count>20 then
+begin
+ if dir<>dir_no then
+  begin
+   if room.nepo<2 then room.nepo:=2;
+   inc(pohyby);
+  end;
+ if dir=dir_down then pam:=1
+  else if pam=1 then
+   begin
+    pam:=0;
+    if no_dialog then addd(0,'disk-x-au'+chr(48+random(3)),120,stav);
+   end;
+end;
+7 List
+0 256 1 2 3 4 260
+40 7 3 5
+11-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+512 768 769 2 258 514 770 1026
+28 12 1 1
+virus-1.BMP
+16711935 Mask
+1 Kind
+8 Ext
+8 Prg1
+name vir2
+var stav
+var oci
+var huba
+ini
+stav:=1;
+oci:=0;
+huba:=0;
+29 Prg2
+case stav of
+ 0: {kouka}
+    if no_dialog and (random(600)=1) then
+     begin
+      pom1:=48+random(3);
+      pom2:=48+random(3);
+      addset(stav,110);
+      addd(2,'disk-x-vir'+chr(pom1),110,noprom);
+      if pom1<>pom2 then addd(4,'disk-x-vir'+chr(pom2),110,noprom);
+      adddel(2);
+      addset(stav,0);
+     end
+    else 
+     if random(4)=1 then oci:=random(3);
+
+ 1: {spi}
+    if (dir<>dir_no)and(count>10) then stav:=0;
+
+ else {mluvi}
+    begin
+     if random(4)=1 then oci:=random(3);
+     if huba=0 then huba:=2
+      else if random(3)=1 then huba:=3-huba;
+    end;
+ end;
+
+if stav<2 then huba:=0;
+
+afaze:=huba*3+oci;
+1 List
+0
+26 9 1 1
+13-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+34 28 3 3
+14-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+0 512 1 513 2 258 514
+EOF

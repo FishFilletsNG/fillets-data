@@ -1,0 +1,222 @@
+REDIT FILE from 19.3.1998 11:57:24
+Bludiste
+Bludiste
+1 1 5 10 5 0 0 0 0 0  Params
+16777215 Grid
+43 38
+Bludiste-p.bmp
+0 obsolete
+0 Ext
+Bludiste-w.bmp
+65280 Mask
+0 Ext
+407 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 6144 6400 6656 6912 7168
+7424 7680 7936 8192 8448 8704 8960 9216 9472 1
+257 513 769 1025 1281 1537 1793 2049 2305 2561
+2817 3073 3329 3585 3841 4097 4353 4609 4865 5121
+5377 5633 5889 6145 6401 6657 6913 7169 7425 7681
+7937 8193 8449 8705 8961 9217 9473 2 258 514
+770 1026 1794 2050 2306 2562 2818 3074 3330 3586
+3842 4098 4354 4610 4866 5122 5378 6914 7170 7426
+7682 7938 8450 8706 8962 9218 9474 3 259 515
+2563 2819 3075 4355 4611 4867 7427 7683 8451 8707
+8963 9219 9475 4 260 8708 8964 9476 5 261
+8709 9477 6 262 8710 9478 7 9479 8 9224
+9480 9 8713 8969 9225 9481 10 8714 8970 9226
+9482 11 8715 8971 9227 9483 12 8716 8972 9228
+9484 13 8717 8973 9229 9485 14 8718 8974 9230
+9486 15 8975 9231 9487 16 8976 9232 9488 17
+8721 8977 9233 9489 18 8722 8978 9234 9490 19
+275 3859 8723 8979 9235 9491 20 276 8724 8980
+9236 9492 21 277 8981 9237 9493 22 278 8982
+9238 9494 23 279 8983 9239 9495 24 8984 9240
+9496 25 9241 9497 26 9242 9498 27 8987 9243
+9499 28 284 8988 9244 9500 29 285 8989 9245
+9501 30 286 8734 8990 9246 9502 31 287 8735
+8991 9247 9503 32 288 8736 8992 9248 9504 33
+289 545 8737 8993 9249 9505 34 290 546 802
+8994 9250 9506 35 291 547 8739 8995 9251 9507
+36 292 9252 9508 37 293 549 7205 7461 8997
+9253 9509 38 294 550 806 5926 6182 6438 6694
+6950 7206 7462 7718 9254 9510 39 295 551 807
+4391 4647 4903 5159 5415 5671 5927 6183 6439 6695
+6951 7207 7463 7719 9511 40 296 552 808 1064
+3880 4136 4392 4648 4904 5160 5416 5672 5928 6184
+6440 6696 6952 7208 7464 7720 41 297 553 809
+1065 1321 1577 2345 2601 2857 3113 3369 3625 3881
+4137 4393 4649 4905 5161 5417 5673 5929 6185 6441
+6697 6953 7209 7465 7721 7977 42 298 554 810
+1066 1322 1578 1834 2090 2346 2602 2858 3114 3370
+3626 3882 4138 4394 4650 4906 5162 5418 5674 5930
+6186 6442 6698 6954 7210 7466 7722 7978
+13 Prg1
+name room
+var uvod
+var osundavani
+var otvaru
+var rikanka
+ini
+if roompole[0]=0 then
+  roompole[0]:=random(2)+1;
+
+uvod:=0;
+osundavani:=0;
+otvaru:=0;
+rikanka:=random(600)+200*pokus;
+68 Prg2
+if no_dialog and zije[mala]and zije[velka] then
+  begin
+    if rikanka>30 then dec(rikanka)
+    else if (rikanka>10)and look_at(@malar,@snecek) then dec(rikanka)
+    else if (rikanka>0) and look_at(@malar,@snecek) and (malar.Y=snecek.Y) then dec(rikanka);
+
+    if uvod=0 then
+      begin
+        adddel(random(20)+10);
+        case random(2) of
+          0:addm(0,'bl-m-zvlastni0');
+          1:addv(0,'bl-v-zvlastni1');
+        end;
+        if pokus=roompole[0] then
+          begin
+            addm(10,'bl-m-funkce');
+            addv(3,'bl-v-pozadi');
+          end;
+        uvod:=1;
+      end
+    else if (osundavani=0)and(muchoblud.dir<>dir_no)and(random(100)<8) then
+      begin
+        osundavani:=1;
+        if pokus=1 then pom1:=3
+        else pom1:=random(4);
+        adddel(20);
+        if pom1>=1 then
+          case random(2) of
+            0:addm(0,'bl-m-koral0');
+            1:addv(0,'bl-v-koral1');
+          end;
+        if pom1>=2 then
+          addm(random(10)+3,'bl-m-visi');
+        if pom1>=3 then
+          addv(random(10)+3,'bl-v-nevim'+chr(random(2)+48));
+      end
+    else if (osundavani<2)and(muchoblud.X<=14)and(random(100)<5) then
+      begin
+        osundavani:=2;
+        addv(30,'bl-v-proc');
+        addm(7,'bl-m-zeptej');
+      end
+    else if (otvaru=0)and(muchoblud.X<=14)and(muchoblud.Y<=6)and(random(100)<1) then
+      begin
+        otvaru:=1;
+        addm(random(100),'bl-m-tvar');
+        addv(5,'bl-v-pestovany');
+      end
+    else if (rikanka=0)and look_at(@malar,@snecek) then
+      begin
+        rikanka:=-1;
+        adddel(10);
+        addset(snecek.zprava,1);
+        addm(0,'bl-m-snecku0');
+        addset(snecek.zprava,3);
+        addv(0,'bl-v-dost0');
+        adddel(10);
+        addset(snecek.zprava,2);
+        addm(0,'bl-m-snecku1');
+        addset(snecek.zprava,3);
+        addv(0,'bl-v-dost1');
+        adddel(10);
+        addset(snecek.zprava,2);
+        addm(10,'bl-m-snecku2');
+        addset(snecek.zprava,3);
+        addv(0,'bl-v-dost2');
+      end;
+  end;
+5 Items
+18 14 15 17
+koral b.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name muchoblud
+0 Prg2
+144 List
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 1 513
+3585 4097 2 514 770 1026 1538 1794 2050 2306
+2562 3074 3330 3586 4098 3 1539 3587 4099 4
+260 516 772 1028 1284 1540 2052 2308 2564 2820
+3076 3332 3588 4100 5 1029 2053 3589 4101 6
+518 1030 1542 1798 2054 2566 2822 3078 3590 4102
+7 519 1031 2055 2567 3079 3591 4103 8 520
+776 1032 1544 2056 2568 2824 3080 3336 3592 4104
+9 1545 2057 3593 4105 10 522 778 1034 1290
+1546 1802 2058 2570 2826 3082 3594 4106 11 523
+3083 3595 4107 12 524 780 1036 1548 1804 2060
+2572 2828 3084 3596 4108 13 1549 2573 3597 4109
+14 270 526 782 1038 1294 1550 1806 2062 2318
+2574 2830 3086 3598 4110
+19 29 1 1
+maly snek1.BMP
+65280 Mask
+1 Kind
+3 Ext
+5 Prg1
+name snecek
+var zprava
+ini
+anim:='';
+zprava:=0;
+16 Prg2
+case zprava of
+  1:begin
+      zprava:=0;
+      setanim(this,'d4a1d1a2');
+    end;
+  2:begin
+      zprava:=0;
+      setanim(this,'d11a1d1a2');
+    end;
+  3:begin
+      zprava:=0;
+      setanim(this,'d3a1d2a0');
+    end;
+end;
+
+if anim<>'' then goanim(this);
+1 List
+0
+19 31 15 3
+3-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+17 List
+0 1 2 3 4 5 6 7 8
+9 10 11 12 13 14 270 526
+34 31 3 1
+4-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+33 29 4 2
+5-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+EOF

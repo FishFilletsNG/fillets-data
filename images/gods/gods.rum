@@ -1,0 +1,765 @@
+REDIT FILE from 7.4.1998 12:26:45
+Lode
+Lode
+0 0 5 20 3 0 0 0 0 0  Params
+16777215 Grid
+46 38
+pozadi.BMP
+0 obsolete
+0 Ext
+Lode-w.BMP
+16711935 Mask
+0 Ext
+609 WlList
+256 2560 2816 3072 3328 3584 3840 4096 4352
+4608 4864 5376 5632 5888 6144 6400 6656 6912 7168
+7424 7680 7936 8192 8448 8704 8960 9216 9472 1
+257 3073 3329 3841 4097 4353 4609 4865 5121 5377
+5633 5889 6145 6401 6657 6913 7169 7425 7681 7937
+8193 8449 8705 8961 9217 9473 2 258 514 2818
+3074 3842 4098 4354 4610 4866 5122 5378 5634 5890
+6146 6402 6658 6914 7170 7426 7682 7938 8450 8706
+8962 9218 9474 3 259 515 771 2819 3075 4099
+4355 4611 4867 6403 6659 6915 7171 7427 8963 9219
+9475 4 2564 2820 3076 4100 4356 4612 6660 6916
+7172 7428 9220 9476 5 3077 4101 4357 6917 9221
+9477 6 262 3078 6918 8966 9222 9478 7 3079
+8967 9223 9479 8 2056 2312 2568 8968 9224 9480
+9 2057 2313 2569 8969 9225 9481 10 2314 2570
+8970 9226 9482 11 1803 2059 2315 9227 9483 12
+9228 9484 13 3597 3853 6669 9229 9485 14 3086
+3598 3854 4110 4366 6414 6670 6926 8974 9230 9486
+15 3855 4111 6159 6415 6671 6927 8975 9231 9487
+16 3088 3600 3856 4112 6160 6416 6672 8976 9232
+9488 17 273 2321 3601 9233 9489 18 274 9234
+9490 9235 9491 8724 8980 9236 9492 6165 6421 8725
+8981 9237 9493 790 1046 6422 6678 8726 8982 9238
+9494 1559 8727 8983 9239 9495 280 2072 2328 8728
+8984 9240 9496 25 281 2329 2585 7961 8473 8729
+8985 9241 9497 26 282 1818 2074 2330 2586 7194
+7962 8218 8474 8730 8986 9242 9498 27 283 539
+795 1051 2075 2331 2587 2843 3099 5403 7195 7451
+8219 8475 8731 8987 9243 9499 28 284 540 796
+1052 2076 2332 2588 2844 5404 7196 8476 8732 8988
+9244 9500 29 285 541 797 1053 2077 2333 2589
+5149 5405 5661 8477 8733 8989 9245 9501 30 286
+542 798 1054 2078 2334 2590 5150 5406 5662 5918
+8734 8990 9246 9502 31 287 543 799 1055 2079
+2335 2591 5151 5407 5663 5919 8735 8991 9247 9503
+32 288 544 800 1056 1312 1568 2080 2336 2592
+5152 5408 5664 8992 9248 9504 33 289 545 801
+1057 1313 1569 2337 2593 4897 5153 5409 8737 8993
+9249 9505 34 290 546 802 1058 1314 1570 2338
+2594 4898 5154 5410 8738 8994 9250 9506 35 291
+547 803 1059 1315 1571 4643 4899 8739 8995 9251
+9507 36 292 548 804 1060 1316 1572 8740 8996
+9252 9508 37 293 549 805 1061 1317 1573 1829
+8741 8997 9253 9509 38 294 550 806 1062 1318
+1574 1830 2086 8742 8998 9254 9510 39 295 551
+807 1063 1319 1575 1831 2087 2343 2599 5671 5927
+8743 8999 9255 9511 40 296 552 808 1064 1320
+1576 1832 2088 2344 2600 2856 4904 5160 5416 5672
+8744 9000 9256 9512 41 297 553 809 1065 1321
+1577 1833 2089 2345 2601 2857 3113 3369 4905 5161
+8489 8745 9001 9257 9513 42 298 554 810 1066
+1322 1578 1834 2090 2346 2602 2858 3114 4650 4906
+5162 8490 8746 9002 9258 9514 43 299 555 811
+1067 1323 1579 1835 2091 2347 2603 4139 4395 4651
+4907 5163 8235 8491 8747 9003 9259 9515 44 300
+556 812 1068 1324 1580 1836 2092 2348 2604 2860
+3884 4140 4396 4652 4908 6700 6956 7212 7468 7724
+7980 8236 8492 8748 9004 9260 9516 45 301 557
+813 1069 1325 1581 1837 2093 2349 2605 2861 3629
+3885 4141 4397 4653 4909 5933 6189 6445 6701 6957
+7213 7469 7725 7981 8237 8493 8749 9005 9261 9517
+23 Prg1
+name room
+var uvod
+var costim
+var oholi
+var opalce
+var omicich
+var hraje
+var cekani
+var stavhry
+var posl
+var shodit
+ini
+gspec:=9;
+stavhry:=0;
+posl:=0;
+
+uvod:=0;
+costim:=nah(25,100);
+oholi:=0;
+opalce:=0;
+omicich:=nah(1200,4000);
+
+shodit:=-1;	
+162 Prg2
+if StdKrajniHlaska then
+  begin
+    addm(random(10)+5,'lod-m-bohove');
+    StdKonecKrajniHlasky;
+  end;
+
+if zije[mala] and zije[velka] and no_dialog then
+  begin
+    if costim>0 then dec(costim); 
+    if omicich>0 then dec(omicich);
+    if (uvod=0) then
+      begin
+        uvod:=1;
+        case random(3) of
+         0:addv(nah(10,20),'lod-v-silenost0');
+         1:addv(nah(10,20),'lod-v-silenost1');
+         2:addv(nah(10,20),'lod-v-silenost2');
+        end;
+        case random(3) of          
+         0:addm(random(5),'lod-m-pravda0');
+         1:addm(random(5),'lod-m-pravda1');
+         2:addm(random(5),'lod-m-pravda2');
+        end;
+      end
+  else
+    if (costim=0) then 
+      begin
+        costim:=-1;
+        case random(2) of
+         0: begin              
+              addm(random(5),'lod-m-cos'+'tim');
+              addv(random(5),'lod-v-internovat'); 
+              addm(random(5),'lod-m-co');
+              addv(random(5),'lod-v-cvok');
+              addm(random(5),'lod-m-oba');
+              addv(random(5),'lod-v-golf');
+              addm(random(5),'lod-m-jednoho');
+            end;
+         1: begin
+              addm(random(5),'lod-m-cos'+'tim');
+              addv(random(5),'lod-v-internovat'); 
+              addm(random(5),'lod-m-oba');
+              addv(random(5),'lod-v-golf');
+              addm(random(5),'lod-m-jednoho');                             
+            end;
+        end; 
+        addv(random(7),'lod-v-koho');
+        case random(2) of
+         0:begin
+             addset(velkar.hlaska,1);
+             addm(random(3),'lod-m-zluty');
+           end;
+         1:begin 
+             addset(velkar.hlaska,2);
+             addm(random(3),'lod-m-modry');
+           end;
+        end;
+        case random(2) of
+         0:addm(random(5),'lod-m-hrac');
+         1:addv(random(5),'lod-v-hrac');
+        end;
+      end
+  else
+    if (oholi=0) and (hul.dir<>dir_no) and (aktivni=velka) 
+       and (random(100)<1) then
+      begin
+        oholi:=1;
+        addv(0,'lod-v-hul');
+        addm(random(7),'lod-m-ozizlana');
+      end
+  else
+    if (opalce=0)and (random(1000)<1) then
+      begin
+        opalce:=1;
+        addv(random(10),'lod-v-hravost');
+        if (palka.x=23) and (palka.y=2) then 
+          addm(random(7),'lod-m-pal'+'ka');
+      end
+  else 
+    if (omicich=0) then
+      begin
+        if (kriketak.x>24) and (kriketak.y>19) then
+          begin 
+            addv(random(5),'lod-v-micky');
+            addm(random(5),'lod-m-vyznam');
+            addv(random(5),'lod-v-kdovi');
+          end;
+            addm(random(5),'lod-m-micek');
+            addv(random(5),'lod-v-rozliseni');
+      end;
+  end;
+
+
+
+
+
+
+
+
+case stavhry of
+  0:begin
+      initlode;
+      buh1.lodi:=nlodi;
+      buh2.lodi:=nlodi;
+      hraje:=1;
+      inc(stavhry);
+      cekani:=random(10)+5;
+    end;
+  1:if no_dialog then 
+      if cekani>0 then dec(cekani)
+      else
+        begin
+          case hraje of
+            1:buh1.cinnost:=1;
+            2:buh2.cinnost:=1;
+          end;
+          stavhry:=2;
+        end;
+  2:begin
+      stavhry:=1;
+      if buh2.lodi=0 then
+        begin
+          addd(3,'b2-vyhral',201,buh2.mluveni);
+          stavhry:=3;
+        end;
+      if buh1.lodi=0 then
+        begin
+          addd(8,'b1-vyhral',101,buh1.mluveni);
+          stavhry:=3;
+        end;
+      if stavhry=1 then cekani:=random(10)+5
+      else
+        begin
+          cekani:=random(100)+100;
+          case random(2) of
+            0:begin
+                addd(random(30)+10,'b2-znovu',201,buh2.mluveni);
+                addd(random(10)+5,'b1-dobre',101,buh1.mluveni);
+              end;
+            1:begin
+                addd(random(30)+10,'b1-znovu',101,buh1.mluveni);
+                addd(random(10)+5,'b2-dobre',201,buh2.mluveni);
+              end;
+          end;
+        end;
+    end;
+      
+  3:if no_dialog then
+      if cekani>0 then dec(cekani)
+      else
+        begin
+          addd(0,'b1-zacinam',101,buh1.mluveni);
+          stavhry:=0;
+        end;
+end;      
+
+
+if shodit>=0 then 
+  begin
+    shodLod(shodit);
+    shodit:=-1;
+  end;
+16 Items
+6 29 6 6
+neptun0.BMP
+16711935 Mask
+1 Kind
+45 Ext
+21 Prg1
+name buh2
+var cinnost
+var cekat
+var mluveni
+var lodi
+var x
+var y
+var cinruky
+var ruka
+var xicht
+ini
+cinnost:=0;
+mluveni:=0;
+{ 0 - normalni premysleni 
+{ 1 - smutny }
+{ 2 - udiveny }
+{ 3 - hodne udiveny }
+{ 200 a vic - mluveni
+  220 nasrany mluveni }
+cinruky:=0;
+ruka:=0;
+148 Prg2
+Spec9(this,6,6);
+
+case cinnost of
+  1:begin
+      pom1:=hrajlode(2,x,y);
+      cekat:=random(10)+5;
+      globtit:=chr(y-1+ord('A'))+IntToStr(x);
+      addd(cekat,'b2-'+chr(y-1+ord('a')),201,mluveni);
+      cinnost:=2;
+      cekat:=cekat+random(4)+9;
+      case pom1 of
+        1:begin
+            adddel(random(20)+20);
+            addset(buh1.cinruky,random(3)+1);
+            addd(0,'b1-voda'+intToStr(random(5)+1),102,buh1.mluveni);
+            addset(buh2.cinruky,random(3)+1);
+            room.hraje:=1;
+          end;
+        3:begin
+            adddel(random(20)+20);
+            addset(buh1.cinruky,random(3)+3);
+            addd(0,'b1-zasah'+intToStr(random(4)+1),103,buh1.mluveni);
+            addset(buh2.cinruky,random(3)+3);
+          end;
+        4:begin
+            adddel(random(20)+20);
+            addset(buh1.cinruky,random(3)+1);
+            addd(0,'b1-potop'+intToStr(random(3)+1),104,buh1.mluveni);
+            addset(buh1.cinruky,-random(10)-5);
+            addset(buh2.cinruky,-random(10)-5);
+            dec(lodi);
+            addset(room.shodit,posltrefena);
+          end;
+        5:begin
+            addd(random(20)+20,'b1-voda'+intToStr(random(5)+1),102,buh1.mluveni);
+            adddel(5);
+            addset(buh2.mluveni,3);
+            addd(10+random(10),'b2-podvadis',220,mluveni);
+            addd(8,'b2-'+chr(y-1+ord('a')),220,mluveni);
+            addd(0,'b2-'+IntToStr(x),220,mluveni);
+            addd(0,'b2-nemuze',220,mluveni);
+            addd(random(30)+10,'b1-spletl',105,buh1.mluveni);
+            addd(random(5)+5,'b1-potop'+inttostr(random(3)+1),104,buh1.mluveni);
+            dec(lodi);
+            addset(room.shodit,posltrefena);
+          end;
+        6:begin
+            addd(random(20)+20,'b1-zasah'+intToStr(random(4)+1),103,buh1.mluveni);
+            addd(random(10),'b2-podvadis',220,mluveni);
+            addd(random(10),'b2-spatne',220,mluveni);
+            case random(2)of
+              0:addd(random(30)+10,'b1-spletl',105,buh1.mluveni);
+              1:addd(random(5)+2,'b1-nepodvadim',106,buh1.mluveni);
+            end; 
+          end;
+        7:begin
+            addd(random(20)+20,'b1-potop'+intToStr(random(3)+1),104,buh1.mluveni);
+            addd(random(10),'b2-podvadis',220,mluveni);
+            addd(random(10),'b2-spatne',220,mluveni);
+            case random(2) of
+              0:addd(random(30)+10,'b1-spletl',105,buh1.mluveni);
+              1:addd(random(5)+2,'b1-nepodvadim',106,buh1.mluveni);
+            end; 
+            dec(lodi);
+            addset(room.shodit,posltrefena);
+          end;
+      end;
+    end;
+  2:if cekat>0 then dec(cekat)
+    else
+      begin
+        talk('b2-'+intToStr(x),201);
+        cinnost:=0;
+      end;
+end;
+
+  
+case mluveni of
+  0:begin
+      if not(xicht in [3..4,6..7]) or (random(100)<4) then
+        begin
+          xicht:=random(6)+3;
+          if (xicht=5)or(xicht=8) then xicht:=3;
+        end;
+    end;
+  1:if not(xicht in [8,9]) or (random(100)<3) then
+      begin
+        xicht:=8+random(2);
+        afaze:=xicht+ruka*10;
+      end;
+  2:begin
+      if not (xicht in [0,1]) or (random(100)<5) then
+        xicht:=random(2);
+    end;
+  3:begin
+      if not (xicht in [1,2]) or (random(100)<5) then
+        xicht:=random(2)+1;
+    end;
+200..219: 
+    begin
+      if odd(count) then
+        xicht:=random(3);
+    end;
+220:begin
+      if xicht=5 then xicht:=6
+      else xicht:=5;
+    end;
+end;
+
+case mluveni of 
+0,1,200..220:
+  begin
+    if ruka>3 then ruka:=random(4);  
+    if cinruky=0 then
+      begin
+        if random(100)<2 then ruka:=random(4);
+      end
+    else if cinruky>0 then
+      begin
+        if (count mod 3=0) then
+          begin
+            if random(100)<30 then ruka:=ruka xor 1
+            else ruka:=ruka xor 2;
+            dec(cinruky);
+          end;
+      end
+    else
+      begin
+        if random(100)<30 then ruka:=ruka xor 1
+        else ruka:=ruka xor 2;
+        inc(cinruky);
+      end;
+    afaze:=ruka*10+xicht;
+  end;
+2,3:
+  begin
+    if not (ruka in [4..6]) or (odd(count)and(random(100)<30)) then 
+      ruka:=random(3)+4;
+    if ruka=4 then 
+      case xicht of
+        0:afaze:=0;
+        1:afaze:=6;
+        2:afaze:=9;
+      end
+    else 
+      afaze:=ruka*3+25+xicht;
+  end;
+end;    
+24 List
+1024 1280 513 769 1025 1281 2 258 514
+770 1026 1282 3 259 515 771 1027 1283 516
+772 1028 1284 1029 1285
+18 28 5 6
+poseidon0.BMP
+16711935 Mask
+1 Kind
+48 Ext
+28 Prg1
+name buh1
+var cinnost
+var cekat
+var mluveni
+var lodi
+var x
+var y
+var pusa {0..3}
+var oci  {0..2, 3 = spec. xicht}
+var ruka {0..3}
+var cinruky
+ini
+cinnost:=0;
+ruka:=0;
+oci:=0;
+pusa:=0;
+mluveni:=0;
+{0 - nemluvi }
+{101 - rika svuj tip }
+{102 - rika voda }
+{103 - rika zasah }
+{104 - rika potopena }
+{105 - rika spletl jsem se}
+{106 - rika nepodvadim}
+cinruky:=0;
+{0 - sem tam posune }
+{kladne - pomalu skrta}
+{zaporne - hodne skrta}
+137 Prg2
+Spec9(this,5,6);
+
+case cinnost of
+  1:begin
+      pom1:=hrajlode(1,x,y);
+      cekat:=random(10)+5;
+      globtit:=chr(y-1+ord('A'))+IntToStr(x);
+      addd(cekat,'b1-'+chr(y-1+ord('a')),101,mluveni);
+      cinnost:=2; 
+      cekat:=cekat+random(4)+9;
+      case pom1 of
+        1:begin
+            adddel(random(20)+20);
+            addset(buh2.cinruky,random(2)+1);
+            addd(0,'b2-voda'+intToStr(random(5)+1),202,buh2.mluveni);
+            addset(buh1.cinruky,random(2)+1);
+            room.hraje:=2;
+          end;
+        3:begin
+            adddel(random(20)+20);
+            addset(buh2.cinruky,random(3)+2);
+            addd(0,'b2-zasah'+intToStr(random(4)+1),203,buh2.mluveni);
+            if random(3)=0 then addset(buh2.mluveni,1);
+            addset(buh1.cinruky,random(3)+2);
+          end;
+        4:begin
+            adddel(random(20)+20);
+            addset(buh2.cinruky,random(3)+1);
+            addd(0,'b2-potop'+intToStr(random(3)+1),204,buh2.mluveni);
+            if random(3)<>0 then addset(buh2.mluveni,1);
+            addset(buh1.cinruky,-random(7)-5);
+            addset(buh2.cinruky,-random(7)-5);
+            dec(lodi);
+            addset(room.shodit,posltrefena);
+          end;
+        8:begin
+            adddel(10+random(10));
+            addset(buh2.mluveni,2);
+            addd(random(15)+10,'b2-rikal'+intToStr(random(2)+1),205,buh2.mluveni);
+            addd(1,'b2-voda1',201,buh2.mluveni);
+            room.hraje:=2;
+          end;
+        9:begin            
+            adddel(10+random(10));
+            addset(buh2.mluveni,2);
+            addd(random(15)+10,'b2-rikal'+intToStr(random(2)+1),201,buh2.mluveni);
+          end;
+      end;
+    end;
+  
+  2:if cekat>0 then dec(cekat)
+    else
+      begin
+        talk('b1-'+intToStr(x),101);
+        cinnost:=0;
+      end;
+end;
+
+if mluveni>100 then
+  if odd(count)and (mluveni>101)or (count mod 4 = 1) then 
+    if random(2)=1 then pusa:=(pusa+1)mod 3
+	           else pusa:=(pusa+2)mod 3;
+
+case mluveni of
+  0:begin
+      if buh2.mluveni>0 then
+        pusa:=0
+      else
+        pusa:=0;
+      if random(100)<3 then oci:=random(2);
+{        case room.posl of
+          101:begin
+                room.posl:=1101;
+                oci:=random(2);
+                pusa:=random(2)*3;
+              end;
+         1101:if random(100)<5 then oci:=random(2);
+         else
+        end;
+}          
+      {budou obslouzeny xichty podle toho, co rika souper, pripadne
+      podle posledni hlasky}
+    end;
+101,102:
+    begin
+      if room.posl<>mluveni then
+        oci:=random(3) div 2
+      else if random(100)<3 then
+        oci:=1-oci;
+      room.posl:=mluveni;
+    end;
+103,104:
+    begin
+      if room.posl<>mluveni then
+        oci:=2-random(3) div 2
+      else if random(100)<3 then
+        oci:=3-oci;
+      room.posl:=mluveni;
+    end;
+105:begin
+      if room.posl<>mluveni then
+        oci:=0;
+      room.posl:=mluveni;
+    end;
+106:begin
+      if room.posl<>mluveni then
+        oci:=2;
+      room.posl:=mluveni;
+    end;
+end;
+
+if cinruky=0 then
+  begin
+    if random(100)<4 then
+      ruka:=random(4);
+  end
+else if cinruky>0 then
+  begin
+    if count mod 2=0 then
+      begin
+        pom1:=random(3); 
+        if pom1=ruka then pom1:=3;
+        ruka:=pom1;
+        dec(cinruky);
+      end;
+  end
+else
+  begin
+    pom1:=random(3); 
+    if pom1=ruka then pom1:=3;
+    ruka:=pom1;
+    inc(cinruky);
+  end;
+
+
+afaze:=ruka*12+oci*4+pusa;
+  
+22 List
+256 512 768 1024 1280 1 257 513 769
+1025 1281 2 258 514 770 1026 1282 771 1027
+1283 1028 1284
+14 10 6 2
+3-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+0 1 2 258 3 4 5
+14 13 1 1
+4-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+16 7 5 2
+5-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+256 1 257 2 3 4
+8 7 1 1
+ping.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+23 2 4 3
+palka.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name palka
+0 Prg2
+10 List
+256 1 257 513 2 258 514 3 259
+515
+26 5 1 2
+domino.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+13 10 1 4
+kuzelka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 512 768
+16 34 3 1
+bota.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+33 32 7 2
+hul.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name hul
+0 Prg2
+8 List
+0 256 1 2 3 4 5 6
+39 31 1 1
+tenisak.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name kriketak
+0 Prg2
+1 List
+0
+41 15 3 1
+13-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+40 23 4 2
+14-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+4 Prg1
+name velkar
+var hlaska
+ini
+hlaska:=0;
+5 Prg2
+case hlaska of
+ 1:talk('lod-v-modry',velka);
+ 2:talk('lod-v-zluty',velka);
+end; 
+hlaska:=0;
+8 List
+0 256 1 257 2 258 3 259
+0 0 20 20
+potop0.BMP
+16711935 Mask
+1 Kind
+4 Ext
+3 Prg1
+name objekty
+ini
+spec:=11;
+0 Prg2
+1 List
+0
+0 20 46 9
+maska.BMP
+16711935 Mask
+1 Kind
+0 Ext
+3 Prg1
+name maska
+ini
+spec:=11;
+0 Prg2
+1 List
+0
+EOF

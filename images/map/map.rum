@@ -1,0 +1,387 @@
+REDIT FILE from 23.3.1998 23:23:35
+Mapa
+Mapa
+0 1 5 10 5 0 0 0 0 0  Params
+-2147483632 Grid
+48 33
+Mapa-p.bmp
+0 obsolete
+0 Ext
+Mapa-okoli.bmp
+65280 Mask
+0 Ext
+347 WlList
+0 3328 3584 3840 4096 4352 4608 4864 5120
+5376 5632 5888 6144 6400 6656 6912 7168 7424 7680
+7936 8192 1 2305 2561 6657 6913 7681 7937 8193
+2 2306 2562 8194 3 7683 7939 8195 4 7684
+7940 8196 5 2309 2565 7685 7941 8197 6 2310
+2566 7686 7942 8198 7 7687 7943 8199 8 6664
+6920 7944 8200 9 2313 2569 6665 6921 7689 7945
+8201 10 2314 2570 6666 6922 7946 8202 11 6667
+6923 7691 7947 8203 12 6668 6924 7692 7948 8204
+13 2317 2573 6669 6925 7693 7949 8205 14 2318
+2574 6670 6926 7694 7950 8206 15 6671 6927 7695
+7951 8207 16 6672 6928 7696 7952 8208 17 2321
+2577 6673 6929 7697 7953 8209 18 2322 2578 6674
+6930 7698 7954 8210 19 6675 6931 7699 7955 8211
+20 6676 6932 7700 7956 8212 21 2325 2581 6677
+6933 7957 8213 22 2326 2582 6678 6934 7702 7958
+8214 23 6679 6935 7959 8215 24 7704 7960 8216
+25 2329 2585 7705 7961 8217 26 2330 2586 7706
+7962 8218 7707 7963 8219 7708 7964 8220 2333 2589
+7709 7965 8221 2334 2590 7710 7966 8222 7711 7967
+8223 7712 7968 8224 2081 2337 8225 2082 2338 7714
+7970 8226 35 7715 7971 8227 36 7716 7972 8228
+37 1573 1829 3621 7461 7717 7973 8229 38 1574
+1830 7462 7718 7974 8230 39 2599 7207 7463 7719
+7975 8231 40 2600 6952 7208 7464 7720 7976 8232
+41 1321 1577 2601 6953 7209 7465 7721 7977 8233
+42 1322 1578 6954 7210 7466 7722 7978 8234 43
+6699 6955 7211 7467 7723 7979 8235 44 6188 6444
+6700 6956 7212 7468 7724 7980 8236 45 1325 1581
+5677 5933 6189 6445 6701 6957 7213 7469 7725 7981
+8237 46 1326 1582 2094 2350 2606 4654 4910 5166
+5422 5678 5934 6190 6446 6702 6958 7214 7470 7726
+7982 8238 47 2095 2351 2607 2863 3119 3375 3631
+3887 4143 4399 4655 4911 5167 5423 5679 5935 6191
+6447 6703 6959 7215 7471 7727 7983 8239
+9 Prg1
+name room
+var poh
+var utb
+var obec
+ini
+gspec:=9;
+poh:=0;
+obec:=1000+random(3000);
+utb:=0;
+57 Prg2
+pom2:=0;
+
+if no_dialog and zije[mala] and zije[velka] then
+ if StdKrajniHlaska then
+  begin
+   addv(10,'map-v-ukol');
+   StdKonecKrajniHlasky;
+  end
+ else
+ if count=10+pokus then pom2:=1
+ else
+ if (poh=0)and(mapous.x<>mapous.xstart) then 
+  begin pom2:=6;poh:=1 end
+ else
+ if (utb=0)and(mapous.x in [1,2,28]) then
+  begin utb:=1;pom2:=7 end
+ else
+ if obec>0 then dec(obec)
+ else
+  begin
+   obec:=1000+random(1000+count div 5);
+   pom2:=random(4)+2;
+  end;
+
+case pom2 of
+ 1: begin
+     if random(3)>0 then addv(7,'map-v-mapa')
+                    else addm(7,'map-m-mapa');
+     if (pokus<4)or(random(100)<60) then
+      begin
+       addm(7,'map-m-ukol');
+       addv(7,'map-v-jasne');
+       addm(7,'map-m-neplacej');
+      end;
+    end;
+ 2: begin
+     addv(7,'map-v-cojetam');
+     addv(7,'map-v-poklady');
+     addm(7,'map-m-uvidime');
+    end;
+ 3: begin
+     addm(7,'map-m-sne'+'ci');
+     addd(8,'map-x-hlemyzdi',111,sneci.mluvi);
+    end;
+ 4: begin
+     addv(8,'map-v-oci');
+    end;
+ 5: begin
+     addv(8,'map-v-restart');
+     addm(8,'map-m-pravidla');
+    end;
+ 6: begin
+     addm(7,'map-m-pohnout');
+     addv(7,'map-v-dal');
+    end;
+ 7: addm(7,'map-m-uz');
+end;
+25 Items
+18 19 3 7
+pistole.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+9 List
+0 1 257 513 769 1025 1281 1537 770
+8 5 7 4
+mapa-b.bmp
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name mapous
+1 Prg2
+Spec9(this,7,4);
+27 List
+0 256 512 768 1 257 513 769 2
+258 514 770 3 259 515 771 4 260 516
+772 5 261 517 773 262 518 774
+36 12 3 4
+3-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+9 List
+0 256 512 768 1 2 258 514 770
+10 23 3 3
+stolekm.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+0 1 257 513 2
+26 22 3 1
+17-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+3 21 4 2
+18-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+13 28 1 2
+19-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+18 28 1 2
+19-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+38 8 5 2
+klobouk.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+0 256 1 257 2 258 3 259 4
+260
+4 20 1 1
+oko 0.bmp
+65280 Mask
+1 Kind
+4 Ext
+1 Prg1
+name voko1
+14 Prg2
+for pom1:=0 to 1 do
+begin
+ if Items[this+pom1]^.anim='' then
+  case random(7) of
+   0: 
+setanim(this+pom1,'d10-99a1d?2-3a2d?2-3a1d?2-3a2d?2-3a1d?2-3a2d?2-3a1d?2-3a2d?2-3a0');
+   1: 
+setanim(this+pom1,'d10-99a3d?2-3a4d?2-3a3d?2-3a4d?2-3a3d?2-3a4d?2-3a3d?2-3a4d?2-3a0');
+   2,3: setanim(this+pom1,'d10-99a?1-4d10-30a0');
+   4,5: setanim(this+pom1,'d10-99a3a1a4a1a3a2a4a1a3a1a4a1a3a1a4a1a0');
+   6: setanim(this+pom1,'d10-99a?0-4d2-8a?0-4d2-8a?0-4d2-8a?0-4d2-8a0');
+  end;
+ goanim(this+pom1);
+end;
+1 List
+0
+27 21 1 1
+oko 0.bmp
+65280 Mask
+1 Kind
+4 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+37 13 1 1
+krystal m 0.BMP
+16711935 Mask
+1 Kind
+3 Ext
+3 Prg1
+name kr1
+ini
+setanim(@kr1,'d?1-50a0a1a2a3d1a3a2a1a0R');
+1 Prg2
+goanim(this);
+1 List
+0
+42 7 1 1
+krystal c 0.BMP
+65280 Mask
+1 Kind
+3 Ext
+3 Prg1
+name kr2
+ini
+setanim(@kr2,'d?1-50a0a1a2a3d1a3a2a1a0R');
+1 Prg2
+goanim(this);
+1 List
+0
+42 24 1 1
+kouleD.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+42 25 1 1
+kouleC.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+42 26 1 1
+kouleB.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+5 29 1 1
+maly snek1.BMP
+65280 Mask
+1 Kind
+3 Ext
+4 Prg1
+name sneci
+var mluvi
+ini
+mluvi:=0;
+12 Prg2
+for pom1:=0 to 8 do
+ if (mluvi<>0)or(Items[@sneci+pom1]^.dir<>dir_no) then Items[@sneci+pom1]^.afaze:=2
+ else
+  case Items[@sneci+pom1]^.afaze of
+   0: if random(100)=1 then Items[@sneci+pom1]^.afaze:=1;
+   1: case random(6) of
+       1: Items[@sneci+pom1]^.afaze:=3;
+       2: Items[@sneci+pom1]^.afaze:=2;
+      end;
+   2: if random(10)=1 then Items[@sneci+pom1]^.afaze:=1;
+   3: if random(4)=1 then Items[@sneci+pom1]^.afaze:=0;
+  end;
+1 List
+0
+14 28 1 1
+malysnek0.BMP
+65280 Mask
+1 Kind
+3 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+15 28 1 1
+malysnek0.BMP
+65280 Mask
+1 Kind
+3 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+16 28 1 1
+maly snek1.BMP
+65280 Mask
+1 Kind
+3 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+17 28 1 1
+malysnek0.BMP
+65280 Mask
+1 Kind
+3 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+14 29 1 1
+malysnek0.BMP
+65280 Mask
+1 Kind
+3 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+15 29 1 1
+malysnek0.BMP
+65280 Mask
+1 Kind
+3 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+16 29 1 1
+malysnek0.BMP
+65280 Mask
+1 Kind
+3 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+17 29 1 1
+malysnek0.BMP
+65280 Mask
+1 Kind
+3 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+EOF

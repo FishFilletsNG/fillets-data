@@ -1,0 +1,125 @@
+REDIT FILE from 23.2.1998 23:04:56
+NoGround
+Prostor
+1 1 5 10 5 0 0 0 0 0  Params
+255 Grid
+19 19
+NoGround-p.bmp
+0 obsolete
+0 Ext
+NoGround-w.bmp
+65280 Mask
+0 Ext
+4 WlList
+2307 1028 2316 2318
+11 Prg1
+name room
+var uvod
+var smet
+ini
+uvod:=0;
+smet:=random(1000)+200;
+
+if random(100)<10*pokus-10 then
+  uvod:=1;
+if random(100)<10*pokus-10 then
+  smet:=-1;
+26 Prg2
+if zije[mala] and zije[velka] and no_dialog then
+  begin
+    if smet>0 then smet:=smet-1;
+    if uvod=0 then
+      begin
+        addv(10+random(30),'nog-v-zvlastni');
+        case random(6) of
+          0..1: addm(random(5),'nog-m-uvedom0');
+          2..3: addm(random(5),'nog-m-uvedom1');
+          4: begin
+               addm(random(5),'nog-m-uvedom0');
+               addm(random(5),'nog-m-uvedom1'); 
+             end;
+        end; 
+        uvod:=1; 
+      end
+    else
+      if smet=0 then 
+        begin
+          case random(2) of
+            0: addv(0,'nog-v-smetiste0');
+            1: addv(0,'nog-v-smetiste1');
+          end;
+          smet:=-1;
+        end;
+  end;
+7 Items
+2 4 15 13
+NoGround-1-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+56 List
+0 256 512 768 1024 1025 2049 2305 2561
+2817 1026 2050 2818 3074 1027 1283 1539 1795 2051
+3075 3076 5 3077 6 2566 2822 3078 7 2567
+8 2568 9 2569 2825 3081 10 3082 11 3083
+12 3084 13 3085 14 270 526 782 1038 1294
+1550 1806 2062 2318 2574 2830 3086
+6 6 4 2
+NoGround-big.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+7 8 3 1
+NoGround-little.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+12 11 3 3
+podkova.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+0 256 512 513 2 258 514
+6 10 3 4
+kladivo.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+768 1 257 513 769 770
+12 8 2 5
+pohr.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 1 257 513 769 1025
+14 13 2 3
+kanystr.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+256 512 1 257 513
+EOF

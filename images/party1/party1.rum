@@ -1,0 +1,681 @@
+REDIT FILE from 6.3.1998 20:58:31
+Party1
+Výletní loï
+0 0 5 10 5 0 0 0 0 0  Params
+12632256 Grid
+52 33
+party1-p.BMP
+0 obsolete
+0 Ext
+Party1-w.BMP
+65280 Mask
+0 Ext
+624 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4608 4864 5120
+5376 5632 5888 6144 6400 6656 8192 1 257 513
+769 1025 1281 1537 1793 2049 2305 2561 4609 4865
+6913 7169 7425 8193 2 258 514 770 1026 1282
+1538 1794 2050 4866 7170 7426 7682 7938 8194 3
+259 515 771 1027 1283 1539 4867 7171 7427 7683
+7939 8195 4 260 516 772 1028 1284 1540 4868
+7172 7428 7684 7940 8196 5 261 517 773 1029
+1285 4869 5893 6149 7173 7429 7685 7941 8197 6
+262 518 774 1030 1286 4870 7174 7430 7686 7942
+8198 7 263 519 775 1031 4871 7175 7431 7687
+7943 8199 8 264 520 776 4872 7176 7432 7688
+7944 8200 9 265 521 4873 7177 7433 7689 7945
+8201 10 266 522 778 4874 5898 6154 6922 7178
+7434 7690 7946 8202 11 267 523 4875 7179 7435
+7691 7947 8203 12 268 524 4876 7180 7436 7692
+7948 8204 13 269 525 4877 7437 7693 7949 8205
+14 270 526 782 4878 7182 7438 7694 7950 8206
+15 271 527 783 1039 1295 4879 5903 6159 6927
+7183 7439 7695 7951 8207 16 272 528 784 1040
+1296 1552 4880 7184 7440 7696 7952 8208 17 273
+529 785 1041 1297 4881 7185 7441 7697 7953 8209
+18 274 530 786 4882 7186 7442 7698 7954 8210
+19 275 531 787 4883 5907 6163 6931 7187 7443
+7699 7955 8211 20 276 532 4884 7188 7444 7700
+7956 8212 21 277 533 4885 7189 7445 7701 7957
+8213 22 278 534 7190 7446 7702 7958 8214 23
+279 535 5911 6167 7191 7447 7703 7959 8215 24
+280 536 792 7192 7448 7704 7960 8216 25 281
+537 793 7193 7449 7705 7961 8217 26 282 538
+794 7194 7450 7706 7962 8218 27 283 539 795
+5915 6171 6939 7195 7451 7707 7963 8219 28 284
+540 796 1052 7196 7452 7708 7964 8220 29 285
+541 797 1053 4893 7197 7453 7709 7965 8221 30
+286 542 798 1054 1310 4894 7198 7454 7710 7966
+8222 31 287 543 799 1055 1311 4895 5919 6175
+7199 7455 7711 7967 8223 32 288 544 800 1056
+4896 6944 7200 7456 7712 7968 8224 33 289 545
+801 1057 4897 7201 7457 7713 7969 8225 34 290
+546 802 4898 5922 6178 7458 7714 7970 8226 35
+291 547 803 4899 7203 7459 7715 7971 8227 36
+292 548 804 4900 7204 7460 7716 7972 8228 37
+293 549 805 4901 5925 6181 6949 7205 7461 7717
+7973 8229 38 294 550 806 4902 7206 7462 7718
+7974 8230 39 295 551 807 4903 7207 7463 7719
+7975 8231 40 296 552 808 1064 1320 4904 5928
+6184 7208 7464 7720 7976 8232 41 297 553 809
+1065 4905 7465 7721 7977 8233 42 298 554 810
+1066 4906 7210 7466 7722 7978 8234 43 299 555
+811 1067 1323 4907 7211 7467 7723 7979 8235 44
+300 556 812 4908 5932 6188 6956 7212 7468 7724
+7980 8236 45 301 557 813 1069 4909 7213 7469
+7725 7981 8237 46 302 558 814 1070 1326 1582
+4910 7470 7726 7982 8238 47 303 559 815 1071
+1327 1583 4911 5935 6191 6959 7215 7471 7983 8239
+48 304 560 816 1072 1328 1584 1840 4912 6960
+7216 7984 8240 49 305 561 817 1073 1329 1585
+1841 4913 6961 8241 50 306 562 818 1074 1330
+1586 1842 2098 2354 2610 2866 4658 4914 8242 51
+307 563 819 1075 1331 1587 1843 2099 2355 2611
+2867 3123 3379 3635 3891 4659 4915 5171 5427 5683
+5939 6195 6451 7987 8243
+32 Prg1
+name room
+var uvod1
+var uvod2
+var bojise
+var nevylit
+var ovalci
+ini
+uvod1:=0;
+uvod2:=0;
+nevylit:=0;
+ovalci:=0;
+if random(100)>=130-pokus*30 then
+  uvod1:=2;
+if random(100)>=130-pokus*30 then
+  uvod2:=2;
+if random(100)>=120-pokus*20 then
+  nevylit:=2;
+if random(100)>=120-pokus*20 then
+  ovalci:=2;
+
+if uvod2=0 then
+  begin
+    globpole[1]:=1;
+    globpole[2]:=1;
+  end
+else
+  begin
+    globpole[1]:=0;
+    globpole[2]:=0;
+  end;
+
+bojise:=0;
+48 Prg2
+if no_dialog and zije[mala] and zije[velka] then
+  begin
+    pomb1:=false;
+    for pom1:=@sklenka to @sklenka+8 do
+      with Items[pom1]^ do
+        if (dir=dir_left)or(dir=dir_right) then pomb1:=true;
+    pomb2:=false;
+    for pom1:=@sklenka to @sklenka+7 do
+      with Items[pom1]^ do
+        if (Y=27)and(X=36)and(ocel.X=37) then pomb2:=true;
+
+    if (uvod1=0) then
+      begin
+        addm(random(20)+20,'pt1-m-parnicek');
+        uvod1:=1;
+      end
+    else if (uvod2=0) then
+      begin
+        addv(random(20)+20,'pt1-v-predtucha');
+        addm(0,'pt1-m-predtucha');
+        addset(globpole[1],0);
+        addset(globpole[2],0);
+        uvod2:=1;
+      end
+    else if (uvod2=1)and((globpole[1]<>0)or(globpole[2]<>0)) then
+      begin
+        uvod2:=2;
+        addm(10+random(10),'pt1-m-kostlivec');
+      end
+    else if (bojise=0)and(uvod2=2)and((globpole[1]<>0)or(globpole[2]<>0))
+         and(random(1000)<3) then
+      begin
+        bojise:=1;
+        addm(20,'pt1-m-vylezt'+chr(48+random(3)));
+        addv(random(10)+5,'pt1-v-pryc'+chr(48+random(2)));
+      end
+    else if (ovalci=0)and pomb2 then
+      begin
+        ovalci:=1;
+        addv(3,'pt1-v-valec');
+        addm(random(5),'pt1-m-nemuzu');
+      end
+    else if (nevylit=0)and pomb1 and (random(100)<1) then
+      begin
+        nevylit:=1;
+        addv(0,'pt1-v-pozor');
+      end;  
+  end;
+18 Items
+19 15 14 5
+kabina okna o.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+262
+37 25 10 2
+1-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name ocel
+0 Prg2
+14 List
+0 256 1 2 3 259 4 5 261
+6 7 8 9 265
+47 25 4 2
+10-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+48 24 3 1
+15-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+21 16 3 3
+frkavec0.bmp
+65280 Mask
+1 Kind
+6 Ext
+9 Prg1
+name frkavec
+var okno
+var faze
+var cinnost
+var delay
+var strana
+ini
+cinnost:=0;
+spec:=11;
+67 Prg2
+case okno of
+  1:x:=kabina.x+2;
+  2:x:=kabina.x+8;
+end;
+if cinnost>0 then spec:=strana*10
+else spec:=11;
+  
+case cinnost of
+  0:if random(1000)<8 then
+      begin
+        okno:=random(2)+1;
+        if globpole[okno]=0 then 
+          begin
+            cinnost:=1;
+            faze:=0;
+            strana:=random(2);
+            globpole[okno]:=1;
+          end;
+      end;
+  1:case faze of
+      0..4:
+        begin
+          afaze:=faze;
+          inc(faze);
+        end;
+      5:begin
+          afaze:=5;
+          delay:=random(10)+5;
+          inc(faze);
+        end;
+      6:if delay>0 then dec(delay)
+        else 
+          begin
+            afaze:=6;
+            delay:=10;
+            inc(faze);
+            {snd}
+          end;
+      7:if delay>0 then dec(delay)
+        else 
+          begin
+            afaze:=5;
+            if random(100)<75 then 
+              begin
+                delay:=2+random(10);
+                faze:=6;
+              end
+            else inc(faze);
+          end;
+      8:inc(faze);
+      9:begin
+          globpole[okno]:=0;
+          inc(faze);
+        end;
+      10..14:
+        begin
+          afaze:=14-faze;
+          inc(faze);
+          if faze=15 then cinnost:=0;
+        end;
+    end;
+end;               
+            
+
+          
+      
+     
+1 List
+0
+21 16 3 3
+dama0.bmp
+65280 Mask
+1 Kind
+15 Ext
+13 Prg1
+name dama
+var kdeje
+var okno
+var strana
+var cinnost
+var faze
+var delay
+var kdebude
+
+ini
+spec:=11;
+kdeje:=random(3);
+cinnost:=0;
+75 Prg2
+case okno of
+  1:x:=kabina.x+2;
+  2:x:=kabina.x+8;
+end;
+if cinnost>0 then spec:=strana*10
+else spec:=11;
+  
+case cinnost of
+  0:begin
+      if random(1000)<8 then 
+        begin
+          case kdeje of
+            0:begin
+                okno:=1;
+                strana:=1;
+                kdebude:=1;
+              end;
+            1:begin
+                strana:=random(2);
+                okno:=strana+1;
+                kdebude:=strana*2;
+              end;
+            2:begin
+                okno:=2;
+                strana:=0;
+                kdebude:=1;
+              end;
+          end;
+          if globpole[okno]=0 then
+            begin
+              globpole[okno]:=1;
+              cinnost:=random(2)+1;
+              faze:=0;
+              delay:=3;
+            end;
+        end;
+    end;
+  1..2:
+    case faze of
+      0..14:
+        begin
+          afaze:=faze;
+          if delay>0 then dec(delay)
+          else
+            begin
+              delay:=3;
+              inc(faze);
+              if (faze=7)and(cinnost=2) then faze:=20;
+            end;
+          if faze=15 then 
+            begin
+              cinnost:=0;
+              globpole[okno]:=0;
+              kdeje:=kdebude;
+            end;
+        end;
+
+      20..23:inc(faze);
+      24..27:
+        begin
+          afaze:=15;
+          inc(faze);
+        end;
+      28..29:
+        begin
+          afaze:=6;
+          inc(faze);
+        end;
+      30:faze:=7;
+    end;
+end;
+       
+        
+                      
+        
+1 List
+2
+21 16 3 3
+kap0.bmp
+65280 Mask
+1 Kind
+18 Ext
+13 Prg1
+name kapitan
+var kdeje
+var okno
+var strana
+var cinnost
+var faze
+var delay
+var kdebude
+
+ini
+spec:=11;
+kdeje:=random(3);
+cinnost:=0;
+70 Prg2
+case okno of
+  1:x:=kabina.x+2;
+  2:x:=kabina.x+8;
+end;
+if cinnost>0 then spec:=(1-strana)*10
+else spec:=11;
+  
+case cinnost of
+  0:begin
+      if random(1000)<8 then 
+        begin
+          case kdeje of
+            0:begin
+                okno:=1;
+                strana:=1;
+                kdebude:=1;
+              end;
+            1:begin
+                strana:=random(2);
+                okno:=strana+1;
+                kdebude:=strana*2;
+              end;
+            2:begin
+                okno:=2;
+                strana:=0;
+                kdebude:=1;
+              end;
+          end;
+          if globpole[okno]=0 then
+            begin
+              globpole[okno]:=1;
+              cinnost:=random(2)+1;
+              faze:=0;
+              delay:=2;
+            end;
+        end;
+    end;
+  1..2:
+    case faze of
+      0..14:
+        begin
+          afaze:=faze;
+          if delay>0 then dec(delay)
+          else
+            begin
+              delay:=2;
+              inc(faze);
+              if (faze=8)and(cinnost=2) then faze:=20;
+            end;
+          if faze=15 then 
+            begin
+              cinnost:=0;
+              globpole[okno]:=0;
+              kdeje:=kdebude;
+            end;
+        end;
+
+      20..23:
+        begin
+          afaze:=(faze-20+15);
+          inc(faze);
+        end;
+      24..27:
+        begin
+          afaze:=(27-faze+15);
+          inc(faze);
+        end;
+      28:faze:=8;
+    end;
+end;
+1 List
+257
+21 16 4 3
+lodnik0.bmp
+65280 Mask
+1 Kind
+22 Ext
+13 Prg1
+name lodnik
+var kdeje
+var okno
+var strana
+var cinnost
+var faze
+var delay
+var kdebude
+
+ini
+spec:=11;
+kdeje:=random(3);
+cinnost:=0;
+75 Prg2
+case okno of
+  1:x:=kabina.x+2;
+  2:x:=kabina.x+8;
+end;
+if cinnost>0 then spec:=strana*10
+else spec:=11;
+  
+case cinnost of
+  0:begin
+      if random(1000)<8 then 
+        begin
+          case kdeje of
+            0:begin
+                okno:=1;
+                strana:=1;
+                kdebude:=1;
+              end;
+            1:begin
+                strana:=random(2);
+                okno:=strana+1;
+                kdebude:=strana*2;
+              end;
+            2:begin
+                okno:=2;
+                strana:=0;
+                kdebude:=1;
+              end;
+          end;
+          if globpole[okno]=0 then
+            begin
+              globpole[okno]:=1;
+              cinnost:=random(2)+1;
+              faze:=0;
+              delay:=(cinnost-1)*2;
+            end;
+        end;
+    end;
+  1:case faze of
+      0..9:
+        begin
+          afaze:=faze;
+          if delay>0 then dec(delay)
+          else
+            begin
+              delay:=1+(cinnost-1)*2;
+              inc(faze);
+            end;
+          if faze=10 then 
+            begin
+              cinnost:=0;
+              globpole[okno]:=0;
+              kdeje:=kdebude;
+            end;
+        end;
+    end;
+  2:case faze of
+      0..12:
+        begin
+          afaze:=faze+10;
+
+          if delay>0 then dec(delay)
+          else
+            begin
+              delay:=1+(cinnost-1)*2;
+              inc(faze);
+            end;
+          if faze=13 then 
+            begin
+              cinnost:=0;
+              globpole[okno]:=0;
+              kdeje:=kdebude;
+            end;
+        end;
+    end;
+end;
+1 List
+259
+19 15 14 5
+kabina o.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name kabina
+0 Prg2
+47 List
+512 768 1 257 769 2 514 770 3
+259 771 1027 4 516 772 1028 5 261 773
+1029 6 518 774 1030 7 263 775 1031 8
+520 776 1032 9 265 777 1033 10 522 778
+11 267 779 12 524 780 525 781
+38 21 1 1
+sklenicka0.BMP
+65280 Mask
+1 Kind
+2 Ext
+5 Prg1
+name sklenka
+ini
+for pom1:=0 to 8 do
+ globpole[1000+pom1]:=0;
+// prvni sklenka musi byt nasledovana ostatnimi a tackem
+12 Prg2
+for pom1:=0 to 8 do              // 8 sklenic a tacek
+with Items[@sklenka+pom1]^ do
+ begin
+  pom2:=globpole[1000+pom1];
+  if dir<>dir_no then if pom2=0 then pom2:=9 else if pom2<=6 then inc(pom2,6);
+  if pom2=0 then afaze:=0
+  else begin
+        dec(pom2);
+        afaze:=2-(pom2 div 3)mod 2;
+       end;
+  globpole[1000+pom1]:=pom2;
+ end;
+1 List
+0
+39 21 1 1
+sklenicka0.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+40 21 1 1
+sklenicka0.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+41 21 1 1
+sklenicka0.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+42 21 1 1
+sklenicka0.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+43 21 1 1
+sklenicka0.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+44 21 1 1
+sklenicka0.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+45 21 1 1
+sklenicka0.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+38 22 8 1
+tacek0.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+8 List
+0 1 2 3 4 5 6 7
+EOF

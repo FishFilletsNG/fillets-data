@@ -1,0 +1,512 @@
+REDIT FILE from 21.3.1998 20:21:01
+Diry
+Mìsto v hlubinách: Vítejte!^City in the deep: Welcome!
+0 0 5 10 5 0 0 0 0 0  Params
+16777215 Grid
+47 36
+Diry-p.BMP
+0 obsolete
+0 Ext
+Diry-w.BMP
+16711935 Mask
+0 Ext
+548 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 5120
+5376 5632 5888 6144 6400 6656 6912 7168 7424 7680
+7936 8192 8448 8704 8960 1 257 513 769 1025
+1281 1537 1793 2049 2305 2561 2817 3073 3329 3585
+3841 4097 4353 5121 5377 5633 5889 6145 6401 6657
+6913 7169 7425 7681 7937 8193 8449 8705 8961 2
+258 514 770 1026 1282 1538 1794 2050 2306 2562
+2818 3074 3330 3586 3842 4098 4354 5122 5378 5634
+5890 6146 6402 6658 6914 7170 7426 7682 7938 8194
+8450 8706 8962 3 259 1283 8451 8707 8963 4
+260 1284 8708 8964 5 261 1285 4101 5125 5381
+5637 8453 8709 8965 6 262 1286 5638 6918 7430
+8710 8966 7 263 2567 2823 5127 5383 5639 6919
+7431 8455 8711 8967 8 264 2824 3080 4360 5128
+5384 5640 6920 7432 8712 8968 9 265 2825 3081
+3337 4361 5641 6921 7433 8457 8713 8969 10 266
+1290 3082 3338 4362 5130 5386 5642 6922 7434 8714
+8970 11 267 1291 5643 6923 7435 8459 8715 8971
+12 268 524 780 1036 1292 4364 5132 5388 5644
+6924 7436 8716 8972 13 269 3597 5133 5389 5645
+6925 7437 8461 8717 8973 14 270 5646 6926 8718
+8974 15 271 1551 4367 5135 5391 5647 6927 7439
+8463 8719 8975 16 272 4368 5136 5392 5648 6928
+8720 8976 17 273 1553 2577 2833 3089 3345 3601
+4369 5649 6929 7441 8465 8721 8977 18 274 2578
+2834 3090 3346 3602 5138 5394 5650 6930 7442 8722
+8978 19 275 1555 2579 2835 3091 3347 3603 5139
+5395 5651 6931 7443 8467 8723 8979 20 276 2580
+2836 3092 3348 3604 6932 7444 8724 8980 21 277
+1557 2581 2837 3093 3349 3605 6933 7445 8469 8725
+8981 22 278 2582 2838 3094 3350 3606 3862 4118
+4374 4630 6934 7446 8726 8982 23 279 2583 2839
+3095 3351 3607 3863 4119 4375 4631 5143 6935 7447
+8471 8727 8983 24 280 8728 8984 25 281 8473
+8729 8985 26 282 6170 8730 8986 27 283 8475
+8731 8987 28 284 8732 8988 29 285 8477 8733
+8989 30 286 8734 8990 31 287 8479 8735 8991
+32 288 8736 8992 33 289 1569 8481 8737 8993
+34 290 8738 8994 35 291 1571 7203 8483 8739
+8995 36 292 3620 8740 8996 37 293 1573 8485
+8741 8997 38 294 8742 8998 39 295 1575 4647
+8487 8743 8999 40 296 8744 9000 41 297 8489
+8745 9001 42 298 8746 9002 43 299 8491 8747
+9003 44 300 556 812 1068 1324 1580 1836 2092
+2348 2604 2860 3116 3372 3628 3884 4140 4396 4652
+4908 5164 5420 5676 5932 6188 6444 6700 6956 7212
+7468 7724 7980 8236 8492 8748 9004 45 301 557
+813 1069 1325 1581 1837 2093 2349 2605 2861 3117
+3373 3629 3885 4141 4397 4653 4909 5165 5421 5677
+5933 6189 6445 6701 6957 7213 7469 7725 7981 8237
+8493 8749 9005 46 302 558 814 1070 1326 1582
+1838 2094 2350 2606 2862 3118 3374 3630 3886 4142
+4398 4654 4910 5166 5422 5678 5934 6190 6446 6702
+6958 7214 7470 7726 7982 8238 8494 8750 9006
+10 Prg1
+name room
+var pocetrad
+var kdydalsi
+var posluvod
+var konce
+ini
+pocetrad:=0;
+kdydalsi:=random(200)+200;
+posluvod:=random(5);
+konce:=0;
+34 Prg2
+if no_dialog and zije[mala] and zije[velka] then
+  begin
+    if kdydalsi>0 then dec(kdydalsi);
+    if kdydalsi=0 then
+      begin
+        inc(pocetrad);
+        kdydalsi:=(random(200)+100)*(pocetrad+2);
+        pom1:=random(4);
+        if pom1=posluvod then pom1:=4;
+        posluvod:=pom1;
+
+        addd(20,'dir-hs-uvod'+chr(48+pom1),302,noprom);
+        if konce<>$1ff then
+          repeat
+            pom1:=random(9);
+          until bitpole[pom1] and konce=0
+        else
+          begin
+            konce:=0;
+            pom1:=random(9);
+          end;
+        konce:=konce or bitpole[pom1];
+        addd(0,'dir-hs-konec'+chr(48+pom1),302,noprom);
+
+        if pocetrad>=5 then pom1:=random(6)
+        else pom1:=random(pocetrad+1);
+        adddel(random(10));
+        if pom1>0 then
+          case random(2) of
+            0:addm(0,'dir-m-rada'+chr(48+pom1-1));
+            1:addv(0,'dir-v-rada'+chr(48+pom1-1));
+          end;
+      end;
+  end;
+23 Items
+35 27 4 1
+atikaA.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 1 2 3
+35 26 4 1
+atikaB.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 1 2 3
+36 25 4 1
+atikaC.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 1 2 3
+35 24 4 1
+atikaD.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 1 2 3
+40 30 2 3
+hlava 1.BMP
+65280 Mask
+1 Kind
+19 Ext
+22 Prg1
+name vladce
+var ksichty
+var faze
+ini
+
+ksichty:=0;
+faze:=0;
+
+{
+1-mluvi normalne
+2-mluvi vyznamne
+3-mluvi zamracene
+4-mluvi vesele
+10-zlovestny usmev on
+11-zlovestny usmev off
+12-vesely usmev on
+13-vesely usmev off
+14-prechod ze zla k smutku
+20-mrknuti vesele
+21-povzbuzeni
+22-vesele povzbuzeni
+}
+110 Prg2
+inc(afaze);  
+case ksichty of
+  0:begin
+      if playing(302) then ksichty:=random(4)+1;
+    end;
+  1,2,3,4:
+  if count mod 2=0 then
+    begin
+      if Playing(302) then pom1:=random(3) 
+      else pom1:=3;
+      case ksichty of
+        1:case pom1 of
+            0,3:afaze:=1;   
+            1:afaze:=15;   
+            2:afaze:=18;
+          end;
+        2:case pom1 of
+            0:afaze:=4;   
+            1:afaze:=16;
+            2:afaze:=20;
+            3:afaze:=1;
+          end;
+        3:case pom1 of
+            0,3:afaze:=14;
+            1:afaze:=17;   
+            2:afaze:=19; 
+          end;
+        4:case pom1 of
+            0:afaze:=6;
+            1:afaze:=15;   
+            2:afaze:=18;
+            3:afaze:=11;
+          end;
+       end;
+       if pom1=3 then ksichty:=0;
+    end;  
+ 10:begin
+      inc(faze);
+      case faze of
+        1:afaze:=5;
+        2:afaze:=9;
+        3:afaze:=10;
+        4:ksichty:=0;
+      end;
+    end;
+ 11:begin
+      inc(faze);
+      case faze of
+        1:afaze:=9;
+        2:afaze:=5;
+        3:afaze:=1;
+        4:ksichty:=0;
+      end;
+    end;
+ 12:begin
+      inc(faze);
+      case faze of
+        1:afaze:=6;
+        2:afaze:=7;
+        3:afaze:=11;
+        4:ksichty:=0;
+      end;
+    end;
+ 13:begin
+      inc(faze);
+      case faze of
+        1:afaze:=7;
+        2:afaze:=6;
+        3:afaze:=1;
+        4:ksichty:=0;
+      end;
+    end;
+ 14:begin
+      inc(faze);
+      case faze of
+        1:afaze:=9;
+        2:afaze:=5;
+        3:afaze:=14;
+        4:ksichty:=0;
+      end;
+    end;
+ 20:begin
+      inc(faze);
+      case faze of
+        1:afaze:=6;
+    2..3:afaze:=8;
+        4:afaze:=6;
+        5:ksichty:=0;
+      end;
+    end;
+ 21:begin
+      inc(faze);
+      case faze of
+        1,3,5:afaze:=1;
+        2:afaze:=4;
+        6:ksichty:=0;
+      end;
+    end;
+ 22:begin
+      inc(faze);
+      case faze of
+        1,3,5:afaze:=11;
+        2:afaze:=12;
+        6:ksichty:=0;
+      end;
+    end;
+end;
+               
+dec(afaze);         
+ 
+6 List
+0 256 512 1 257 513
+24 17 5 3
+preklad.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+9 List
+0 1 257 2 258 514 3 259 4
+33 3 7 3
+most.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+18 List
+0 256 512 1 257 2 258 514 3
+259 4 260 516 5 261 6 262 518
+15 32 1 1
+hlava m-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+1 Prg1
+name xichtik
+1 Prg2
+if random(1000)<5 then afaze:=random(3);
+1 List
+0
+26 22 1 2
+Diry-9-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name val1
+0 Prg2
+2 List
+0 256
+36 12 1 2
+Diry-10-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name val2
+0 Prg2
+2 List
+0 256
+39 16 1 2
+Diry-11-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name val3
+0 Prg2
+2 List
+0 256
+20 19 7 2
+Diry-12-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+9 List
+256 1 257 2 3 4 5 261 262
+12 18 2 2
+Diry-13-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 1
+18 9 2 1
+Diry-14-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+9 3 3 2
+hlavice.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 1 257 2
+12 23 3 4
+patka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+768 1 257 513 769 770
+20 9 3 1
+sloupek A.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+7 17 1 3
+sloupek B.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+6 4 3 1
+sloupek C.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+13 30 5 2
+chobotnice0.BMP
+16711935 Mask
+1 Kind
+8 Ext
+10 Prg1
+name chobot
+var chapadla
+var oci
+var akcnost
+var lastdir
+ini
+lastdir:=dir_no; 
+oci:=0;
+chapadla:=0;
+akcnost:=2;
+39 Prg2
+if Dir<>Dir_no then akcnost:=7
+else 
+  if (akcnost>2)and(count mod 5=0) then dec(akcnost);
+
+if Dir<>lastdir  then 
+  begin
+    if not Playing(301) then
+      if Dir=dir_down then Snd('chob-p',301)
+      else if Dir<>dir_no then 
+        case random(3) of
+          0:Snd('chob1',301);
+          1:Snd('chob2',301);
+          2:Snd('chob3',301);
+        end;
+    lastdir:=Dir;
+  end;
+
+if (dir=Dir_no)and(count mod akcnost=0) then
+  if random(2)=0 then
+    begin
+       if chapadla<2 then inc(chapadla)
+       else chapadla:=0;
+    end
+  else
+    begin
+       if chapadla>0 then dec(chapadla)
+       else chapadla:=2;
+    end;
+pomb1:=((xdist(little,this)=0)and(ydist(little,this)<=0)and(ydist(little,this)>-2))
+  or((xdist(big,this)=0)and(ydist(big,this)<=0)and(ydist(big,this)>-2));
+pomb1:=pomb1 or (dir<>Dir_no);
+    
+if pomb1 then oci:=1;
+case oci of
+  0:if random(100)<5 then oci:=2;
+  2:if random(100)<7 then oci:=0;
+  1:if not pomb1 and(random(100)<20) then oci:=0;
+end;
+afaze:=oci+3*chapadla;
+7 List
+0 256 257 258 259 4 260
+15 28 1 1
+maly snek1.BMP
+65280 Mask
+1 Kind
+3 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+27 10 3 1
+mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+27 12 4 2
+velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+EOF

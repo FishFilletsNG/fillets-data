@@ -1,0 +1,376 @@
+REDIT FILE from 7.4.1998 12:25:11
+score
+score
+0 0 5 10 5 0 0 0 0 0  Params
+16777215 Grid
+40 30
+score-pozadi.BMP
+0 obsolete
+0 Ext
+score-w.BMP
+65280 Mask
+0 Ext
+370 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 6144 6400 6656 6912 7168
+7424 1 257 513 769 1025 1281 1537 1793 2049
+2305 6401 6657 6913 7169 7425 2 258 514 770
+6658 6914 7170 7426 3 259 515 771 7171 7427
+4 260 516 772 4868 5124 7172 7428 5 261
+517 773 4613 4869 5125 5381 7429 6 262 518
+774 3590 3846 4102 4358 4614 4870 5126 5382 5638
+5894 7430 7 263 519 3591 3847 4103 4359 4615
+4871 5127 5383 5639 5895 6151 7431 8 264 520
+2056 3080 3336 3592 6664 6920 7432 9 265 521
+2057 3081 3337 3593 6665 6921 7433 10 266 522
+2058 2570 3082 3338 3594 6666 7434 11 267 523
+2059 3083 6667 7435 12 268 524 2060 6668 7436
+13 269 525 2061 7181 7437 14 270 2062 2318
+5134 7182 7438 15 271 5135 6671 7439 16 272
+5136 5392 6672 7440 17 273 5393 6673 7441 18
+274 5394 6674 7442 19 275 1299 3091 3347 5395
+6675 6931 7443 20 276 1300 3348 5396 6676 6932
+7444 21 277 1301 1557 3093 3349 3605 4885 5141
+5397 6677 6933 7445 22 278 1302 1558 3606 4886
+5142 6678 6934 7446 23 279 1303 1559 3095 3351
+3607 6679 6935 7447 24 280 1304 1560 3096 3352
+3608 6680 6936 7448 25 281 1305 3097 3353 3609
+7449 26 282 3098 3610 3866 4122 7450 27 283
+7451 28 284 5404 7196 7452 29 285 5405 7197
+7453 30 286 542 5406 5662 5918 7198 7454 31
+287 543 1823 2079 3871 4127 4383 4639 4895 5407
+5663 7199 7455 32 288 544 2080 7200 7456 33
+289 545 1825 7457 34 290 7202 7458 35 291
+7459 36 292 3108 3876 5156 7460 37 293 549
+2853 3109 3365 3621 3877 5157 7461 38 294 550
+2854 3110 3366 3622 3878 4902 5158 5414 6950 7206
+7462 39 295 551 807 1063 1319 1575 1831 2087
+2343 2599 2855 3111 3367 3623 3879 4135 4391 4647
+4903 5159 5415 5671 5927 6183 6439 6695 6951 7207
+7463
+4 Prg1
+name room
+var uvod
+ini
+uvod:=0;
+34 Prg2
+if zije[mala] and zije[velka] and (uvod=0) then
+  begin
+    uvod:=1;
+    if (pokus=1) or (random(100)<60) then 
+      case random(2) of
+        0:addv(random(20)+10,'sc-v-typicka');
+        1:addm(random(20)+10,'sc-m-orisek');
+      end;
+    if (pokus=1) or (random(100)<40) then
+      begin
+        addv(random(40)+10,'sc-v-pismena');
+        addm(5,'sc-m-napis');
+      end;
+    addv(20,'sc-v-poskladat');
+{$ifdef scoredemo}
+    if (pokus=1)or(random(100)<60) then
+      begin
+        addm(5,'sc-m-jmeno');
+        if (pokus=1)or(random(100)<60) then
+          addv(5,'sc-v-darek');
+      end;
+{$else}
+    if (pokus=1)or(random(100)<60) then
+      begin
+        addm(random(100)+50,'sc-m-tezky');
+        if (pokus=1)or(random(100)<60) then
+          begin
+            addv(5,'sc-v-casopis');
+            addm(1,'sc-m-pst');
+          end;
+      end;
+{$endif}
+    addm(10,'sc-m-mezery');
+  end;
+14 Items
+22 15 4 4
+s.BMP
+65280 Mask
+1 Kind
+0 Ext
+4 Prg1
+name prvnikostka
+var odpocet
+ini
+odpocet:=0;
+21 Prg2
+pom1:=4;
+for pom2:=1 to 4 do
+  if (Items[this+pom2].Y=Y)and(Items[this+pom2].X=X+4*pom2)and(Items[this+pom2].Dir=Dir_no) then 
+dec(pom1);
+
+if (pom1=0)and(odpocet=0)then 
+  begin
+     odpocet:=20;
+     if not talking(mala) then talk('jo-m-'+chr(48+random(4)),mala);
+     if not talking(velka) then talk('jo-v-'+chr(48+random(4)),velka);
+  end;
+
+if odpocet>0 then
+  begin
+    dec(odpocet);
+    if odpocet=0 then 
+      begin
+        konec:=1;
+        RoomVysl:=LengthOfRecord;
+      end;
+  end;
+16 List
+0 256 512 768 1 257 513 769 2
+258 514 770 3 259 515 771
+23 8 4 4
+c.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+16 List
+0 256 512 768 1 257 513 769 2
+258 514 770 3 259 515 771
+17 22 4 4
+o.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+16 List
+0 256 512 768 1 257 513 769 2
+258 514 770 3 259 515 771
+11 4 4 4
+r.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+16 List
+0 256 512 768 1 257 513 769 2
+258 514 770 3 259 515 771
+32 24 4 4
+e.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+16 List
+0 256 512 768 1 257 513 769 2
+258 514 770 3 259 515 771
+21 10 1 2
+6-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+21 4 2 1
+krab1.BMP
+65280 Mask
+1 Kind
+9 Ext
+1 Prg1
+name krab
+5 Prg2
+if dir=dir_down then
+ if afaze=7 then afaze:=9 else afaze:=7
+else
+if afaze>5 then afaze:=0
+else if (random(10)=1) then afaze:=random(6);
+2 List
+0 1
+32 13 5 2
+chobotnice0.BMP
+16711935 Mask
+1 Kind
+8 Ext
+4 Prg1
+name chobka
+var oci
+ini
+oci:=0;
+7 Prg2
+if (x+1=malar.x)and(y=malar.y) then oci:=1 else
+ case random(6) of
+   1: oci:=0;
+   2: oci:=2;
+  end;
+
+afaze:=oci+random(3)*3;
+7 List
+0 256 257 258 259 4 260
+5 9 6 1
+rejnok1.BMP
+65280 Mask
+1 Kind
+11 Ext
+6 Prg1
+name rejnok
+var oci
+var vlna
+ini
+oci:=0;
+vlna:=0;
+7 Prg2
+if dir<>dir_no then oci:=1
+else if (oci=1)and(random(30)=1) then oci:=0;
+
+if odd(count) then
+ if vlna=5 then vlna:=0 else inc(vlna);
+
+afaze:=oci*6+vlna;
+6 List
+0 1 2 3 4 5
+33 3 1 4
+10-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 512 768
+35 3 3 1
+11-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+35 6 4 2
+12-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+34 22 3 2
+13-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+256 257 2 258
+36 9 2 2
+sasanka1.BMP
+65280 Mask
+1 Kind
+7 Ext
+12 Prg1
+name sasanka
+var cinnost
+var fazec
+var noha
+var kvet
+var counts
+var akcnost
+ini
+cinnost:=0;
+noha:=0;
+kvet:=1;
+akcnost:=1;
+83 Prg2
+if (cinnost<>5)and((dist(little,this)<2)or(dist(big,this)<2)) then
+  begin
+    cinnost:=5;
+    counts:=random(10)+15;
+    akcnost:=1;
+  end;
+if cinnost=0 then
+  begin
+    cinnost:=random(4)+1;
+    fazec:=0;
+    akcnost:=2+random(2);
+  end;
+if count mod akcnost=0 then
+case cinnost of
+  1,2:begin
+      noha:=fazec div 4;
+      if cinnost=1 then
+        begin
+          kvet:=fazec mod 2+1;
+          akcnost:=2;
+          {if kvet=2 then
+            Snd('ncp-x-tup',500);}
+        end
+      else
+        begin
+          kvet:=(fazec mod 2)*2+1;
+          akcnost:=3;
+        end;
+      
+      inc(fazec);
+      if fazec=8 then
+        if random(100)<30 then cinnost:=0
+        else fazec:=0;
+  end;
+  3,4:
+    begin
+      case fazec of
+        0:begin
+             counts:=random(10)+7;
+             inc(fazec);
+             kvet:=1;
+          end;
+        1:begin
+             noha:=1-noha;
+             dec(counts);
+             if counts=0 then inc(fazec);
+          end;
+        2:begin
+            if cinnost=3 then 
+              begin
+                kvet:=0;
+                counts:=random(8)+5;
+              end
+            else
+              begin
+                kvet:=3;
+                counts:=random(6)+3;
+              end;
+            inc(fazec);
+          end;
+        3:begin
+            dec(counts);
+            if counts=0 then 
+              if random(100)<30 then cinnost:=0
+              else fazec:=0;
+          end;
+      end;    
+    end;
+    5:begin
+        akcnost:=2;
+        dec(counts);
+        case counts of
+          0:cinnost:=0;
+          1:begin
+              kvet:=1;
+              noha:=1-noha;
+            end;
+          else
+            kvet:=0;
+        end;     
+      end;
+end;
+afaze:=noha*4+kvet;     
+2 List
+1 257
+EOF

@@ -1,0 +1,541 @@
+REDIT FILE from 21.3.1998 18:49:49
+Pohon
+Pohon
+0 0 5 10 5 0 0 0 0 0  Params
+-2147483632 Grid
+41 38
+Pohon-p.bmp
+0 obsolete
+0 Ext
+Pohon-w.bmp
+65280 Mask
+0 Ext
+289 WlList
+256 512 1024 1280 1536 1792 2048 2304 2560
+2816 3072 3328 3584 3840 4096 4352 4608 4864 5120
+5376 5632 5888 6144 6400 6656 6912 7168 7424 7680
+7936 9216 9472 257 5377 9473 258 5378 9474 5379
+9475 5380 9476 2053 5381 9477 262 2054 5382 6662
+6918 7174 7430 7686 7942 8710 8966 9222 9478 263
+2055 5383 6663 6919 7175 7431 7687 7943 8711 8967
+9223 9479 264 2056 9480 9481 5386 9482 9483 268
+7948 9484 269 5389 7949 9485 270 7950 9486 7951
+9231 9487 5392 7952 9232 9488 7953 9233 9489 274
+7954 8978 9234 9490 275 5395 7955 9491 276 7956
+9492 7957 9493 5398 7958 9494 7959 9495 280 9496
+281 5401 9497 282 5402 5658 5914 6170 7962 9498
+5403 6683 7963 9499 5404 5660 5916 6172 6684 7964
+9500 6941 7197 7453 7709 7965 9501 286 9502 287
+9503 288 2080 9504 2081 9505 2082 9506 2083 9507
+292 2084 9508 293 9509 294 9510 295 551 807
+1063 1319 1575 1831 2087 9511 40 296 552 808
+1064 1320 1576 1832 2088 2344 2600 2856 3112 3368
+3624 3880 4136 4392 4648 4904 5160 5416 5672 5928
+6184 6440 6696 6952 7208 7464 7720 7976 8232 8488
+8744 9000 9256 9512 41 297 553 809 1065 1321
+1577 1833 2089 2345 2601 2857 3113 3369 3625 3881
+4137 4393 4649 4905 5161 5417 5673 5929 6185 6441
+6697 6953 7209 7465 7721 7977 8233 8489 8745 9001
+9257 9513 42 298 554 810 1066 1322 1578 1834
+2090 2346 2602 2858 3114 3370 3626 3882 4138 4394
+4650 4906 5162 5418 5674 5930 6186 6442 6698 6954
+7210 7466 7722 7978 8234 8490 8746 9002 9258 9514
+15 Prg1
+name room
+var uvod
+var oprojektu
+var oforme
+var ohadce
+var obadva
+var kteraprosba
+ini
+gspec:=9;
+uvod:=0;
+oprojektu:=random(10*pokus)+10*pokus;
+oforme:=random(1500)+300;
+ohadce:=random(3000)+1000;
+obadva:=0;
+kteraprosba:=0;
+94 Prg2
+if StdKrajniHlaska then
+  begin
+    addv(random(10)+5,'poh-v-ukol');
+    StdKonecKrajniHlasky;
+  end;
+
+if no_dialog and zije[velka] and zije[mala] then
+  begin
+    if oprojektu>0 then dec(oprojektu);
+    if oforme>0 then dec(oforme);
+    if ohadce>0 then dec(ohadce);
+
+    if uvod=0 then 
+      begin
+        uvod:=1;
+        adddel(10+random(14));
+        case pokus of
+          1:pom1:=3;
+          2:pom1:=random(2)+1;
+          else if random(100)<30 then pom1:=random(2)+1;
+        end;
+        if odd(pom1) then
+          addv(5,'poh-v-takhle');
+        if pom1>=2 then
+          addm(5,'poh-m-tosnadne');
+        if (pom1>0)and(random(100)<100/pokus) then
+          begin
+            addv(10,'poh-v-biosila');
+            if (pokus=1)or(random(100)<20) then
+              begin
+                addm(random(40)+10,'poh-m-reaktor');
+                addv(7,'poh-v-automat');
+                addm(random(20)+7,'poh-m-motor');
+                addv(7,'poh-v-tocit');
+              end;
+          end;
+      end
+    else if oprojektu=0 then
+      begin
+        oprojektu:=-1;
+
+        case pokus of
+          1:pom1:=6;
+          2:pom1:=nah(4,6);
+          3:pom1:=nah(2,6);
+          4:pom1:=nah(1,6);
+          else pom1:=nah(0,6);
+        end;
+        adddel(10);
+        if pom1>=5 then 
+          addv(0,'poh-v-neuveri');
+        if pom1>=6 then
+          addm(5,'poh-m-projekt');
+        if pom1>=1 then
+          addv(10,'poh-v-zarizeni');
+        if pom1>=4 then
+          addm(4,'poh-m-sest');
+        if pom1>=2 then
+          addv(10,'poh-v-klec');
+        if pom1>=3 then
+          addm(6,'poh-m-dobre');
+      end
+    else if (oforme=0) then
+      begin
+        addv(20,'poh-v-forma');
+        addm(3,'poh-m-princip');
+        addv(random(30)+10,'poh-v-pomoct');
+        oforme:=-1;
+      end
+    else if ((smutny.hybese=1)or(nasrany.hybese=1))and(aktivni=mala) then
+      begin
+        if kteraprosba=0 then kteraprosba:=random(2)+1
+        else kteraprosba:=3-kteraprosba;
+        addm(0,'poh-m-dobryden'+chr(48+kteraprosba-1));
+        if smutny.hybese=1 then smutny.hybese:=2;
+        if nasrany.hybese=1 then nasrany.hybese:=2;
+      end
+    else if ohadce=0 then
+      begin
+        ohadce:=random(5000)+2000;
+        addset(obadva,1);
+        adddel(random(100)+50);
+        addm(0,'poh-m-pohadali');
+        if random(100)<60 then
+          begin
+            addv(10,'poh-v-setkani');
+            if random(100)<60 then
+              addm(5,'poh-m-sestra');
+          end;
+        adddel(random(100)+50);
+        addset(obadva,0);
+      end;
+  end;
+   
+22 Items
+16 24 5 4
+pohon0.BMP
+16711935 Mask
+1 Kind
+11 Ext
+8 Prg1
+name veve
+var cinnost
+var vydrz
+var kouka
+var makoukat
+ini
+cinnost:=0;
+vydrz:=random(200)+200;
+60 Prg2
+Spec9(this,5,4);
+
+case cinnost of
+  0:begin
+      case afaze of
+        8..10:inc(afaze);
+        else afaze:=8;
+      end;
+      if vydrz>0 then dec(vydrz)
+      else 
+        begin
+          cinnost:=1;
+          vydrz:=15+random(20);
+        end;
+    end;
+  1:begin
+      if odd(count) then
+        case afaze of
+          6:afaze:=7;
+          else afaze:=6;
+        end;
+      if vydrz>0 then dec(vydrz)
+      else
+        begin
+          cinnost:=2;
+          vydrz:=20+random(25);
+        end;
+    end;
+  2:begin
+      if count mod 4=0 then
+        case afaze of
+          6:afaze:=7;
+          else afaze:=6;
+        end;
+      if vydrz>0 then dec(vydrz)
+      else
+        begin
+          cinnost:=3;
+          vydrz:=random(400)+50;
+          kouka:=0;
+          makoukat:=0;
+        end;
+    end;
+  3:begin
+      if random(100)<5 then
+        makoukat:=random(3);
+      if kouka<>makoukat then
+        if (makoukat=0)or(kouka=0) then kouka:=makoukat
+        else kouka:=0;
+      
+      afaze:=2*kouka;
+      if random(100)<5 then inc(afaze);
+      if vydrz>0 then dec(vydrz)
+      else
+        begin
+          cinnost:=0;
+          vydrz:=random(300)+100;
+        end;
+    end;
+end;
+18 List
+0 256 512 768 1 257 513 769 2
+258 514 770 3 259 515 771 260 516
+13 28 8 3
+podstavec0.BMP
+65280 Mask
+1 Kind
+3 Ext
+4 Prg1
+name bublik
+var bublat
+ini
+bublat:=-random(30)-10;
+19 Prg2
+if bublat>0 then
+  begin
+    pom1:=random(2)+1;
+    if pom1=afaze then afaze:=3
+    else afaze:=pom1;
+  end
+else
+  afaze:=0;
+
+if bublat>0 then 
+  begin
+    dec(bublat);
+    if bublat=0 then bublat:=-10-random(30);
+  end
+else if bublat<0 then 
+  begin
+    inc(bublat);
+    if bublat=0 then bublat:=10+random(30);
+  end;
+19 List
+256 512 257 513 258 514 3 259 515
+4 260 516 5 261 517 262 518 263 519
+14 25 2 4
+hadice0.BMP
+65280 Mask
+1 Kind
+1 Ext
+1 Prg1
+name hadice
+7 Prg2
+if odd(count)and(veve.cinnost=0)
+  and(hadice.X+2=veve.X) and(hadice.Y=veve.Y+1)
+  and(hadice.X=bublik.X+1)and(hadice.Y+3=bublik.Y) then
+  begin
+    afaze:=1-afaze;
+  end;
+  
+5 List
+0 256 512 768 1
+21 22 5 6
+rura.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+9 List
+768 769 2 258 514 770 1026 3 4
+23 27 3 4
+cola.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+12 List
+0 256 512 768 1 257 513 769 2
+258 514 770
+6 3 5 5
+ufo0.BMP
+16711935 Mask
+1 Kind
+10 Ext
+10 Prg1
+name nasrany
+var hybese
+var nohy
+var kamjde
+var vyraz
+ini
+nohy:=random(2)*2;
+vyraz:=random(4);
+kamjde:=nohy;
+hybese:=0;
+31 Prg2
+case hybese of
+  0:if dir<>dir_no then inc(hybese);
+  1:if dir=dir_no then inc(hybese);
+end;
+
+if room.obadva=1 then
+  begin
+    vyraz:=3;
+    if nohy=1 then nohy:=kamjde;
+  end
+else
+  begin
+    if kamjde<>nohy then
+      if (kamjde=1)or(nohy=1) then
+        nohy:=kamjde
+      else 
+        nohy:=1
+    else
+      if (count mod 3 =0) and (random(100)<9) then
+        vyraz:=random(4);
+    if (vyraz<>4)and(random(100)<1)and not odd(nohy) then
+      kamjde:=2-nohy;
+  end;
+
+
+case nohy of
+  0:afaze:=vyraz;
+  1:afaze:=4+vyraz;
+  2:afaze:=7+vyraz;
+end;
+  
+13 List
+256 1 257 1025 2 258 514 770 1026
+3 259 1027 260
+2 0 3 9
+7-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+12 List
+0 1 257 513 769 1025 1281 1537 1793
+2049 2 2050
+20 0 3 9
+8-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+11 List
+0 1 257 513 769 1025 1281 1537 1793
+2049 2
+21 29 2 2
+draty .BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 257
+33 3 2 5
+ufon-0.BMP
+16711935 Mask
+1 Kind
+9 Ext
+10 Prg1
+name smutny
+var hybese
+var strana
+var vyraz
+var cinnost
+ini
+strana:=random(2);
+cinnost:=0;
+vyraz:=random(4)+1;
+hybese:=0;
+25 Prg2
+case hybese of
+  0:if dir<>dir_no then inc(hybese);
+  1:if dir=dir_no then inc(hybese);
+end;
+if room.obadva=1 then
+  begin
+    vyraz:=4;
+  end
+else
+  begin
+    case cinnost of
+      0:begin
+          if random(100)<1 then strana:=1-strana;
+          if random(1000)<5 then cinnost:=2;
+        end;
+      1:begin
+          if random(100)<5 then cinnost:=0; 
+          if count mod 3 = 0 then strana:=1-strana;
+        end;
+    end;
+    if (count mod 3 = 0)and(random(100)<6) then vyraz:=random(4)+1;
+  end;
+
+if random(100)<4 then afaze:=strana*5
+else afaze:=strana*5+vyraz;
+10 List
+0 256 512 768 1024 1 257 513 769
+1025
+7 29 8 5
+11-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+15 List
+768 1024 769 1025 770 1026 3 259 515
+771 772 773 774 775 1031
+27 7 6 10
+12-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+16 List
+2304 1793 2049 2305 1282 1538 1794 3 771
+1027 1283 4 260 516 772 5
+33 33 7 2
+kamna.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+0 256 257 258 259 260 5 261 6
+262
+35 35 2 2
+volant.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 257
+14 0 3 10
+15-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+13 List
+0 2304 1 257 513 769 1025 1281 1537
+1793 2049 2305 2
+27 22 1 3
+16-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+27 25 1 1
+plutonium-1a.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+33 32 4 1
+plutonium-4-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+1 Prg1
+name plut1
+1 Prg2
+afaze:=(afaze+1)mod 3;
+4 List
+0 1 2 3
+5 36 1 1
+matka A.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+32 26 3 1
+21-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+14 12 4 2
+22-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+28 25 1 1
+plutonium-1a.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+EOF

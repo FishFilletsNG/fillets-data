@@ -1,0 +1,471 @@
+REDIT FILE from 25.3.1998 4:28:27
+ves
+Ves
+0 0 5 10 4 0 0 0 0 0  Params
+8404992 Grid
+40 30
+ves-p.BMP
+0 obsolete
+0 Ext
+ves-w.bmp
+65280 Mask
+0 Ext
+379 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 6144 6400 6656 6912 7168
+7424 1 257 513 769 1025 1281 1537 1793 2049
+2305 2561 2817 3073 3329 4609 4865 5121 5377 5633
+5889 6145 6401 6657 6913 7169 7425 2 1538 1794
+2050 2306 2562 2818 3074 4610 5890 6914 7170 7426
+3 1539 1795 2051 2307 2563 2819 4611 5891 6659
+6915 7171 7427 4 1540 1796 2052 2308 2564 4612
+5892 6916 7172 7428 5 6917 7173 7429 6 7430
+7 7431 8 7432 9 2057 7433 10 778 2058
+2314 2570 2826 6666 6922 7178 7434 11 779 6923
+7179 7435 12 780 6924 7180 7436 13 781 6925
+7181 7437 14 6926 7182 7438 15 1551 1807 2063
+2319 2575 2831 3087 3343 3599 3855 4111 4623 4879
+5135 5391 5647 6927 7183 7439 16 272 528 784
+7440 785 7441 6674 6930 7186 7442 787 6675 6931
+7187 7443 20 276 532 788 6676 6932 7188 7444
+21 1557 1813 2069 2325 2581 2837 3093 3349 3605
+3861 4117 4373 4629 4885 5141 5397 5653 5909 6165
+6677 6933 7189 7445 22 1558 1814 2070 2326 2582
+2838 3094 3350 3606 3862 4118 4374 4630 4886 5142
+5398 5654 5910 6166 6678 6934 7190 7446 23 6679
+6935 7191 7447 24 7448 25 537 793 7449 26
+538 794 7450 27 539 795 1051 6683 6939 7195
+7451 28 1564 1820 2076 2332 2588 2844 3100 3356
+3612 3868 4124 4380 4636 4892 5148 5404 5660 6684
+6940 7196 7452 29 6685 6941 7197 7453 30 6686
+6942 7198 7454 31 6687 6943 7199 7455 32 544
+800 6688 6944 7200 7456 33 6689 6945 7201 7457
+34 1570 1826 2082 2338 2594 2850 3106 3362 3618
+3874 4130 4386 4642 4898 5154 5922 6178 6434 6690
+6946 7202 7458 35 1571 1827 2083 2339 2595 2851
+3107 3363 3619 3875 4131 4387 4643 4899 5155 5923
+6179 6435 6691 6947 7203 7459 36 5924 6180 6436
+6692 6948 7204 7460 37 5925 6181 6437 6693 6949
+7205 7461 38 5926 6182 6438 6694 6950 7206 7462
+39 5415 5671 5927 6183 6439 6695 6951 7207 7463
+10 Prg1
+name room
+var hlaskam
+var hlaskav
+var rozbito
+ini
+hlaskam:=0;
+hlaskav:=0;
+if roompole[0]=0 then
+  roompole[0]:=music_volume;  
+rozbito:=0;
+36 Prg2
+if zije[mala] and zije[velka] and no_dialog then
+  begin
+    if playing(50)or playing(51)or playing(52) then
+      begin
+        if (hlaskam=0)and(random(1000)<1) then
+          begin
+            hlaskam:=1;
+            addm(10,'ves-m-krab');
+          end
+        else if (hlaskav=0)and(random(1000)<2) then
+          begin
+            hlaskav:=1;
+            case random(2) of 
+              0:addv(10,'ves-v-veci');
+              1:addv(10,'ves-v-vyp');
+            end;
+          end
+        else if (roompole[0]>music_volume)and(music_volume<16) then
+          begin
+            roompole[0]:=0;
+            addm(15,'ves-m-dik');
+            addv(random(20)+10,'ves-v-stejne');
+          end;
+      end
+    else if rozbito=3 then
+      begin
+        inc(rozbito);
+        addv(10,'ves-v-pokoj');
+      end
+    else if rozbito=5 then 
+      begin
+        addm(3,'ves-m-uz');
+        inc(rozbito);
+      end;
+      
+  end;
+17 Items
+28 4 2 2
+amp1.BMP
+65280 Mask
+1 Kind
+9 Ext
+6 Prg1
+name amp1
+var stav
+var faze
+ini
+stav:=0;
+
+41 Prg2
+if (stav=1) and (count=2) and not playing(50) then
+  musiccyc('ves-ampliony',50);
+case stav of
+  0:if count=hlava.zac2 then
+      begin
+        faze:=0;
+        musiccyc('ves-ampliony',50);
+        inc(stav);
+      end;
+  1:if Dir=dir_down then
+      begin
+        inc(stav);
+        afaze:=7;
+      end
+    else
+      if odd(count) then
+        begin
+          case faze of
+            0,3,4,7,12:inc(afaze);
+            1,6,9,10:dec(afaze);
+            2,5:inc(afaze,2);
+            8,11:dec(afaze,2);
+            13:begin
+                 faze:=-1;
+                 afaze:=0;
+               end;
+          end;
+          inc(faze);
+        end;
+  2:if Dir<>dir_down then
+      begin
+        ksnd(50);
+        snd('sp-smrt',40);
+        afaze:=9;
+        inc(stav);
+        inc(room.rozbito);
+      end
+    else
+      if odd(count) then afaze:=15-afaze;
+    
+end;
+4 List
+0 256 1 257
+21 4 2 2
+amp1.BMP
+65280 Mask
+1 Kind
+9 Ext
+7 Prg1
+name amp2
+var stav
+var faze
+ini
+stav:=0;
+afaze:=3;
+	
+40 Prg2
+if (stav=1) and (count=2+3) and not playing(51) then
+  musiccyc('ves-ampliony',51);
+case stav of
+  0:if count=hlava.zac2+3 then
+      begin
+        faze:=4;
+        musiccyc('ves-ampliony',51);
+        inc(stav);
+      end;
+  1:if Dir=dir_down then
+      begin
+        inc(stav);
+        afaze:=7;
+      end
+    else
+      if odd(count) then
+        begin
+          case faze of
+            0,3,4,7,12:inc(afaze);
+            1,6,9,10:dec(afaze);
+            2,5:inc(afaze,2);
+            8,11:dec(afaze,2);
+            13:begin
+                 faze:=-1;
+                 afaze:=0;
+               end;
+          end;
+          inc(faze);
+        end;
+  2:if Dir<>dir_down then
+      begin
+        ksnd(51);
+        snd('sp-smrt',40);
+        afaze:=9;
+        inc(stav);
+        inc(room.rozbito);
+      end
+    else
+      if odd(count) then afaze:=15-afaze;
+end;
+4 List
+0 256 1 257
+14 4 2 2
+amp1.BMP
+65280 Mask
+1 Kind
+9 Ext
+6 Prg1
+name amp3
+var stav
+var faze
+ini
+stav:=0;
+afaze:=6;
+41 Prg2
+if (stav=1) and (count=2+5) and not playing(52) then
+  musiccyc('ves-ampliony',52);
+
+case stav of
+  0:if count=hlava.zac2+5 then
+      begin
+        faze:=6;
+        musiccyc('ves-ampliony',52);
+        inc(stav);
+      end;
+  1:if Dir=dir_down then
+      begin
+        inc(stav);
+        afaze:=7;
+      end
+    else
+      if odd(count) then
+        begin
+          case faze of
+            0,3,4,7,12:inc(afaze);
+            1,6,9,10:dec(afaze);
+            2,5:inc(afaze,2);
+            8,11:dec(afaze,2);
+            13:begin
+                 faze:=-1;
+                 afaze:=0;
+               end;
+          end;
+          inc(faze);
+        end;
+  2:if Dir<>dir_down then
+      begin
+        ksnd(52);
+        snd('sp-smrt',40);
+        afaze:=9;
+        inc(stav);
+        inc(room.rozbito);
+      end
+    else
+      if odd(count) then afaze:=15-afaze;
+end;
+4 List
+0 256 1 257
+33 3 2 3
+hlava 1.BMP
+65280 Mask
+1 Kind
+19 Ext
+9 Prg1
+name hlava
+var stav
+var zac1
+var zac2
+ini 
+stav:=0;
+zac1:=30;
+zac2:=65;
+
+53 Prg2
+case stav of
+  0:if count=zac1 then 
+      begin
+        inc(stav);
+        snd('ves-hs-hrajeme',301);
+      end;
+  1:if playing(301) then
+      begin
+        case random(3) of
+          0:afaze:=0;
+	  1:afaze:=17;
+          2:afaze:=14;
+        end;
+      end
+    else
+      begin
+        inc(stav);
+        afaze:=5;
+      end;
+  2:if count>=zac2+10 then
+      inc(stav);
+  3:if room.rozbito<3 then 
+      begin
+        if odd(count div 2) then afaze:=10
+	else afaze:=11;
+      end
+    else 
+      begin
+        afaze:=13;
+        inc(stav);
+      end;
+  4..50:inc(stav);
+  51:begin
+       talk('ves-hs-papa',302);
+       inc(room.rozbito);
+       stav:=100;
+     end;
+ 100:if playing(302) then
+       begin
+         if odd(count div 2) then afaze:=4
+         else afaze:=18;
+       end
+     else
+       begin
+         inc(room.rozbito);
+         afaze:=5;
+         inc(stav);
+       end;
+end;
+        
+        
+  
+  
+6 List
+0 256 512 1 257 513
+5 20 3 1
+mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+4 21 4 2
+velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+17 2 3 4
+stalaktit.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 1 257 513 769 2
+5 7 5 1
+ves-8-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+0 1 2 3 4
+6 2 3 5
+stalagnat.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+9 List
+0 1024 1 257 513 769 1025 2 1026
+5 17 1 3
+sloupek.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+4 25 2 2
+lebka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+256 1 257
+7 12 7 15
+ves-12-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+35 List
+512 257 513 2 258 2562 259 515 771
+1027 1283 1539 1795 2051 2307 2563 3331 1028 1796
+2564 3332 517 773 1029 1285 1541 1797 2053 2309
+2565 2821 3077 3333 3334 3590
+11 2 2 1
+krab1.BMP
+65280 Mask
+1 Kind
+5 Ext
+3 Prg1
+name krabik
+ini
+afaze:=1;
+8 Prg2
+if playing(50)or playing(51) or playing(52) or playing(302) then
+  begin
+    afaze:=random(5);
+    if afaze=1 then afaze:=5;
+  end
+else
+  if random(20)=0 then afaze:=1;
+    
+2 List
+0 1
+26 21 3 5
+stalagnit.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+1024 1 257 513 769 1025 1026
+15 17 1 1
+hlava m-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+15 26 1 1
+hlava m-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+35 5 1 1
+ves-17-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+EOF

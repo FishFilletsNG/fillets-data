@@ -1,0 +1,401 @@
+REDIT FILE from 20.3.1998 21:06:20
+Pyramida
+Pyramida
+0 0 2 6 4 0 0 0 0 0  Params
+8421376 Grid
+43 28
+Bunker-p.bmp
+0 obsolete
+0 Ext
+Bunker-w.bmp
+65280 Mask
+0 Ext
+233 WlList
+5376 6400 6656 6912 5121 5377 6913 4866 5122
+5378 6914 4611 4867 5123 6915 4356 4612 4868 6916
+4101 4357 4613 5381 6917 3846 4102 4358 5126 5382
+5638 5894 6918 3591 3847 4103 6919 3336 3592 3848
+6920 3081 3337 3593 6921 2826 3082 3338 4618 4874
+5130 5386 6922 2571 2827 3083 4619 4875 5131 5387
+6923 2316 2572 2828 4620 4876 5132 5388 6156 6412
+6924 2061 2317 2573 5133 6157 6413 6925 1806 2062
+2318 3342 6158 6926 1551 1807 2063 4623 6159 6927
+1296 1552 1808 6160 6928 1041 1297 1553 4625 6161
+6929 786 1042 1298 6162 6930 531 787 1043 6163
+6931 276 532 788 4628 6164 6932 277 533 6165
+6933 278 534 790 6166 6934 535 791 1047 6167
+6423 6679 6935 792 1048 1304 3096 5144 6680 6936
+1049 1305 1561 6681 6937 1306 1562 1818 6682 6938
+1563 1819 2075 5147 6683 6939 1820 2076 2332 6684
+6940 2077 2333 2589 6685 6941 2334 2590 2846 5406
+6686 6942 2591 2847 3103 6687 6943 2848 3104 3360
+4384 6688 6944 3105 3361 3617 5665 6689 6945 3362
+3618 3874 6690 6946 3619 3875 4131 6691 6947 3876
+4132 4388 5924 6692 6948 4133 4389 4645 6693 6949
+4390 4646 4902 6694 6950 4647 4903 5159 6183 6695
+6951 4904 5160 5416 6696 6952 5161 5417 6697 6953
+5418 6442 6698 6954
+11 Prg1
+name room
+var uvod
+var hodinky
+var cervik
+var desticky
+ini
+if (random(100)<70)or(pokus=1) then 
+  uvod:=0;
+hodinky:=0;
+cervik:=0;
+desticky:=0;
+59 Prg2
+if zije[mala] and zije[velka] and no_dialog then
+  begin
+    if (uvod=0) then
+      begin
+      if random(100)<33 then addm(10+random(20),'pyr-m-kam') else
+      if random(100)<50 then addv(30+random(30),'pyr-v-vsim') else
+        begin
+          addm(10+random(20),'pyr-m-kam');addv(random(40),'pyr-v-vsim');
+        end;
+      uvod:=1;
+      end
+      else 
+    if (hodinky=0) and look_at(@malar,@stela) and ((malar.Y>14)and(malar.y<21))
+       and ((stela.afaze=2)or(stela.afaze=4)or(stela.afaze=5)) 
+       then
+      begin
+        addm(0,'pyr-m-nudi');
+        addv(2+random(3),'pyr-v-sark');
+        if random(100)<50 then addm(random(5),'pyr-m-comy');
+        if random(100)<50 then addm(random(5),'pyr-m-zkus');
+        if random(100)<50 then addm(random(5),'pyr-m-nic');           
+        hodinky:=1;
+      end
+      else
+    if look_at(@malar,@cerv) and (cervik=0) and
+       ((malar.y<cerv.y+2)and(malar.y>cerv.y-2))
+       and (random(100)<4) then 
+        begin
+          addm(0,'pyr-m-plaz');
+          if random(100)<50 then 
+            begin
+              addv(random(5),'pyr-v-druha'); 
+              cervik:=1; 
+            end;
+        end
+      else
+    if (faraon.afaze=2)and (aktivni=velka)and(faraon.dir<>dir_no)
+        and(gfaze=0)and(random(100)<20) then
+      begin
+        addv(0,'pyr-v-sfing');
+        adddel(10);
+      end
+      else
+
+    if (desticky=0)and (random(100)<3)and
+        ((look_at(@malar,@deska1)and(malar.y=deska1.y)and
+         (dist(@malar,@deska1)<2)and(deska1.dir=dir_no)) or 
+         (look_at(@malar,@deska2)and(malar.y=deska2.y)and
+         (dist(@malar,@deska2)<2)and(deska2.dir=dir_no)) or 
+         (look_at(@malar,@deska3)and(malar.y=deska3.y)and
+         (dist(@malar,@deska3)<2)and(deska3.dir=dir_no)))
+      then
+      begin
+        addm(0,'pyr-m-dest');
+        addv(random(15),'pyr-v-sbohem');
+        desticky:=1;
+      end;
+  end;
+
+18 Items
+37 23 3 1
+Bunker-l-Tmp.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+35 24 4 2
+Bunker-b-Tmp.bmp
+65280 Mask
+4 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+18 20 3 4
+faraon 1.BMP
+65280 Mask
+1 Kind
+2 Ext
+4 Prg1
+name faraon
+var delay
+ini
+delay:=random(200)+100;
+19 Prg2
+if dir<>dir_no then
+  begin
+    delay:=random(20)+15;
+    afaze:=2;
+  end;
+if delay>0 then dec(delay)
+else
+  case afaze of
+    0:begin
+        delay:=random(20)+20;
+        afaze:=1;
+      end;
+  1,2:begin
+        delay:=random(200)+100;
+        afaze:=0;
+      end;
+  end;
+      
+ 
+10 List
+0 256 512 1 257 513 769 2 258
+514
+20 17 2 3
+Bunker-4-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 1 257 513
+11 17 2 1
+desticka.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name deska2
+0 Prg2
+2 List
+0 1
+12 16 2 1
+desticka.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name deska1
+0 Prg2
+2 List
+0 1
+33 21 2 1
+desticka.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name deska3
+0 Prg2
+2 List
+0 1
+15 23 1 1
+scarab.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+23 11 3 1
+mumysokol.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+21 9 5 2
+stul.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+0 256 1 2 3 4 260
+27 14 2 6
+stela 1.BMP
+65280 Mask
+1 Kind
+5 Ext
+8 Prg1
+name stela
+var konstanta
+var faze
+var delay
+ini
+konstanta:=10;
+faze:=0;
+delay:=0;
+65 Prg2
+if dir<>dir_no then 
+  begin
+    afaze:=0;
+    delay:=0;
+    faze:=0;
+  end;
+
+if delay>0 then dec(delay)
+           else
+  begin
+    case faze of
+      0:delay:=konstanta*(random(30)+50);
+      1,5,9:
+        begin
+          afaze:=1;
+          delay:=0;
+        end;
+      2,6,10:
+        begin
+          delay:=random(30)+20;
+          afaze:=2;
+        end;
+      3,7,11:
+        begin
+          afaze:=1;
+          delay:=0;
+        end;
+      4:begin
+          afaze:=0;
+          delay:=konstanta*(random(20)+30);
+        end; 
+      8:begin
+          afaze:=0;
+          delay:=konstanta*(random(10)+20);
+        end; 
+     12:begin
+          afaze:=0;
+          delay:=konstanta*(random(5)+5);
+        end; 
+     13:begin
+          afaze:=3;
+          delay:=konstanta*(random(20)+30);
+        end;
+     14,16:
+        begin
+          afaze:=4;
+          delay:=random(30)+20;
+        end;
+     15:begin
+          afaze:=3;
+          delay:=konstanta*(random(10)+20);
+        end;
+     17:begin
+          afaze:=3;
+          delay:=konstanta*(random(5)+5);
+        end;      
+     else 
+        begin
+          afaze:=5; 
+          delay:=30000;
+        end;
+    end;
+    inc(faze); 
+  end;
+  
+12 List
+0 256 512 768 1024 1280 1 257 513
+769 1025 1281
+6 24 6 3
+Bunker-14-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+0 256 512 513 514 515 516 5 261
+517
+17 26 3 1
+mumysokol.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+32 14 1 3
+mumycat.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+23 23 1 1
+scarab.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+21 23 1 1
+scarab.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+14 10 1 3
+mumycat.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+37 16 2 2
+Cerv0.BMP
+65280 Mask
+1 Kind
+7 Ext
+6 Prg1
+name cerv
+var stav
+var mez
+ini
+stav:=-5;
+mez:=random(15);
+19 Prg2
+if stav<32 then inc(stav);
+if stav=30 then
+  if y>mez then stav:=0 else mez:=mez+2+random(21-mez-2);
+case stav of
+ 0..4: afaze:=0;
+ 5..6: afaze:=1;
+ 7..10: afaze:=2;
+ 11..12: afaze:=3;
+ 13..19: afaze:=4;
+ 20..21: afaze:=5;
+ 22..25: afaze:=6;
+ 26..27: afaze:=7;
+ 28: begin afaze:=0;dec(x);dec(y) end;
+ 32: if y<mez then begin inc(x);inc(y); end
+      else begin
+            stav:=0;
+            mez:=random(mez-2);
+           end;
+end;
+3 List
+0 1 257
+EOF

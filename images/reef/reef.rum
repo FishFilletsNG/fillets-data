@@ -1,0 +1,279 @@
+REDIT FILE from 10.3.1998 13:52:28
+utes
+utes
+0 0 5 10 5 0 0 0 0 0  Params
+60928 Grid
+52 15
+utes-p.BMP
+0 obsolete
+0 Ext
+utes-w.BMP
+65280 Mask
+0 Ext
+367 WlList
+0 256 512 2816 3072 3328 3584 1 257
+513 769 1025 3329 3585 2 258 514 770 1026
+1282 3330 3586 3 259 515 771 1027 1283 1539
+3331 3587 4 260 516 772 1028 1284 1540 3332
+3588 5 261 517 773 1029 1285 1541 3333 3589
+6 262 518 774 1030 1286 1542 1798 2054 3334
+3590 7 263 519 775 1031 1287 1543 1799 2055
+2311 3079 3335 3591 8 264 520 776 1032 1288
+1544 1800 2056 2312 3336 3592 9 265 521 777
+1033 1289 1545 1801 2057 2313 3081 3337 3593 10
+266 522 778 1034 1290 1546 1802 2058 2314 3082
+3338 3594 11 267 523 779 1035 1291 1547 1803
+2059 2315 3083 3339 3595 12 268 524 780 1036
+1292 1548 1804 2060 2316 3084 3340 3596 13 269
+525 781 1037 1293 1549 1805 2061 3085 3341 3597
+14 270 526 782 1038 1294 1550 1806 2062 3086
+3342 3598 15 271 527 783 1039 1295 1551 1807
+3087 3343 3599 16 272 528 784 1040 1296 1552
+3088 3344 3600 17 273 529 785 1041 1297 3345
+3601 18 274 530 786 3346 3602 19 275 3347
+3603 20 3348 3604 3349 3605 3350 3606 3351 3607
+1304 3352 3608 1305 3353 3609 1306 3354 3610 1307
+3355 3611 1308 3356 3612 541 1309 3357 3613 286
+542 798 1054 1310 3358 3614 287 543 799 1055
+3359 3615 288 544 800 1056 3360 3616 545 801
+1057 3361 3617 546 802 3362 3618 547 803 3363
+3619 292 548 804 3364 3620 37 293 549 805
+3365 3621 38 294 550 806 3366 3622 295 551
+3623 296 552 3624 297 553 1833 2089 3625 298
+554 1834 2090 3626 43 299 555 1835 2091 3627
+44 300 556 1836 2092 3628 45 301 557 1837
+2093 3629 46 302 558 1838 2094 3630 47 303
+559 1839 2095 3375 3631 48 304 560 1840 2096
+3120 3376 3632 49 305 561 1585 1841 2097 2865
+3121 3377 3633 50 306 562 1330 1586 1842 2098
+2610 2866 3122 3378 3634 51 307 563 1075 1331
+1587 1843 2099 2611 2867 3123 3379 3635
+27 Prg1
+name room
+var mzaval
+var vzaval
+var nezvladnu
+var lastu
+var matr
+var rozhovor
+var snm
+var nezv
+var uz
+var chud
+var vymena
+var pomv
+ini
+if pokus<3 then mzaval:=0
+ else if random(pokus)<4 then mzaval:=0
+  else mzaval:=1;
+vzaval:=0;
+nezvladnu:=0;
+lastu:=0;
+matr:=0;
+rozhovor:=500+random(500+pokus*42);
+snm:=0;
+nezv:=0;
+uz:=0;
+if random(pokus+1)>3 then chud:=1 else chud:=0;
+vymena:=0;pomv:=0;
+85 Prg2
+if no_dialog then
+begin
+ if zije[mala] and zije[velka] then
+ begin
+  if (mzaval=0) and (malar.X>43)and(natoceni[mala]=smer_vpravo) then
+   begin
+    if random(count)<100 then addm(4,'uts-m-otresy');
+    mzaval:=1;
+   end;
+  if (vzaval=0) and (velkar.X>43)and(natoceni[velka]=smer_vpravo) then
+   begin
+    if random(3+pokus)<4 then addv(2,'uts-v-projet0')
+                         else addv(2,'uts-v-projet1');
+    vzaval:=1;
+    mzaval:=1;
+   end;
+  if (lastu=0)and(velkar.X<7)and(lastura.X<3)and(lastura.Y=11) then
+   begin
+    lastu:=1;
+    addm(11,'uts-m-last'+'ura');
+   end;
+  if rozhovor<=count then
+   begin 
+    inc(rozhovor,6666+random(pokus*42));
+    addv(10,'uts-v-koraly');
+    if (pokus<4)or(random(6)>0) then addm(10,'uts-m-tvorove');
+    if (pokus=1)or(random(4)>0) then
+     begin
+      addv(10,'uts-v-mikroskop');
+      addm(10,'uts-m-zivocich');
+      if (random(3)>0) then addm(10,'uts-m-zelvy');
+      if (random(3)>0) then addm(10,'uts-m-batyskaf');
+     end;
+   end;
+  if (snm=0)and(matrace.X=37)and
+   (((snek1.X>40)and(snek1.Y=6))or((snek2.X>40)and(snek2.Y=6))) then
+   begin
+    snm:=1;
+    addm(0,'uts-m-snek');
+   end;
+  if (nezv=0)and((snek1.Y=13)or(snek2.Y=13)) then
+   begin
+    nezv:=1;
+    addm(2,'uts-m-nezvedneme');
+   end;
+  if (uz=0)and((dvere.X>snek1.X)or(dvere.X>snek2.X))and(dvere.Y=10) then
+   begin
+    uz:=1;
+    addv(6,'uts-v-konecne');
+    if random(pokus+chud*6)<4 then addm(7,'uts-m-chudak');
+    chud:=1;
+   end;
+  if (chud=0)and((snek1.dir<>dir_no)or(snek2.dir<>dir_no))and(random(100)=1) then
+   begin
+    chud:=1;
+    addm(5,'uts-m-chudak');
+   end;
+  if (vymena=0)and(matrace.X>15)and(matrace.X<21)and
+    (xdist(@matrace,@snek1)=0)and(xdist(@matrace,@snek2)=0) then
+   begin
+    pomb1:=(snek1.Y+1=snek2.Y)and(snek2.Y+1=matrace.Y);
+    pomb2:=(snek2.Y+1=snek1.Y)and(snek1.Y+1=matrace.Y);
+    if pomb1 or pomb2 then
+     if pomv=0 then begin pomv:=1;vymena:=20+random(300+pokus);end
+               else pomv:=2;
+   end;
+  if pomv=2 then 
+   begin
+    vymena:=-1;pomv:=0;
+    addv(5,'uts-v-poradi');
+   end;
+ end;
+
+ if vymena>0 then dec(vymena); 
+ if (matr=0)and zije[mala] and (dist(@malar,@matrace)<2) then
+  begin
+   matr:=1;
+   addm(7,'uts-m-mat'+'race');
+  end;
+ if (nezvladnu=0) and venku[mala] and zije[velka] and (lastura.X=11)then
+  begin
+   nezvladnu:=1;
+   addv(20,'uts-v-sam');
+  end;
+end;
+8 Items
+20 2 9 3
+1-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+11 List
+0 1 2 3 4 260 516 517 518
+519 520
+27 12 4 1
+MATRACE.bmp
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name matrace
+0 Prg2
+4 List
+0 1 2 3
+44 4 3 1
+3-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+43 10 4 2
+7-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+5 11 2 2
+plz0.BMP
+65280 Mask
+1 Kind
+6 Ext
+1 Prg1
+name lastura
+13 Prg2
+case afaze of
+ 0: if random(100)=1 then afaze:=1;
+ 1..4: if random(10)=1 then afaze:=random(5);
+ 5: afaze:=4;
+ 6: if random(10)=1 then afaze:=random(2)+2;
+end;
+
+case dir of
+ dir_up: afaze:=5;
+ dir_down: afaze:=0;
+ dir_left: afaze:=6;
+ dir_right: afaze:=1;
+end;
+3 List
+0 1 257
+41 6 1 1
+malysnek1.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name snek1
+10 Prg2
+case afaze of
+ 0: if dir<>dir_no then afaze:=1
+     else if random(50)=1 then afaze:=2;
+ 1: if (dir=dir_no) and (random(15)=1) then afaze:=2;
+ 2: case random(20) of
+      1: afaze:=1;
+      2..4: afaze:=3;
+     end;
+ 3: if random(5)=1 then afaze:=0;
+end;
+1 List
+0
+43 6 1 1
+malysnek1.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name snek2
+10 Prg2
+case afaze of
+ 0: if dir<>dir_no then afaze:=1
+     else if random(50)=1 then afaze:=2;
+ 1: if (dir=dir_no) and (random(15)=1) then afaze:=2;
+ 2: case random(20) of
+      1: afaze:=1;
+      2..4: afaze:=3;
+     end;
+ 3: if random(5)=1 then afaze:=0;
+end;
+1 List
+0
+15 10 1 2
+musla.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name dvere
+0 Prg2
+2 List
+0 256
+EOF

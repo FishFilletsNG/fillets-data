@@ -1,0 +1,433 @@
+REDIT FILE from 24.2.1998 17:07:17
+Reaktor
+Potopen— UFO: Uvnitø reaktoru^UFO powerplant: How it works
+0 0 5 10 5 0 0 0 0 0  Params
+65280 Grid
+44 30
+Reaktor-p.BMP
+0 obsolete
+0 Ext
+Reaktor-w.BMP
+65280 Mask
+0 Ext
+757 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 6144 6400 6656 6912 7168
+7424 1 257 513 769 1025 1281 1537 1793 2049
+2305 2561 2817 3073 3329 3585 3841 4097 4353 4609
+4865 5121 5377 5633 5889 6145 6401 6657 6913 7169
+7425 2 258 514 770 1026 1282 1538 1794 2050
+2306 2562 2818 3074 3330 3586 3842 4098 4354 4610
+4866 5122 5378 5634 5890 6146 6402 6658 6914 7170
+7426 3 259 515 771 1027 1283 1539 1795 2051
+2307 2563 2819 3075 3331 3587 3843 4099 4355 5379
+5635 5891 6147 6403 6659 6915 7171 7427 4 260
+516 772 3332 3588 3844 4100 5380 5636 5892 6148
+6404 6660 6916 7172 7428 5 261 517 773 3333
+3589 3845 5637 5893 6149 6405 6661 6917 7173 7429
+6 262 518 774 5638 5894 6150 6406 6662 6918
+7174 7430 7 263 519 775 3335 3591 3847 5639
+5895 6151 6407 6663 6919 7175 7431 8 264 520
+776 3336 3592 3848 4104 5640 5896 6152 6408 6664
+6920 7176 7432 9 265 521 777 3337 3593 3849
+4105 4361 5385 5641 5897 6153 6409 6665 6921 7177
+7433 10 266 522 778 3338 3594 3850 4106 4362
+4618 4874 5130 5386 5642 5898 6154 6410 6666 6922
+7178 7434 11 267 523 779 3339 3595 3851 4107
+4363 4619 4875 5131 5387 5643 5899 6155 6411 6667
+6923 7179 7435 12 268 524 780 3340 3596 3852
+4108 4364 4620 4876 5132 5388 5644 5900 6156 6412
+6668 6924 7180 7436 13 269 525 781 5133 5389
+5645 5901 6157 6413 6669 6925 7181 7437 14 270
+526 782 3342 3598 3854 4110 4366 4622 4878 5134
+5390 5646 5902 6158 6414 6670 6926 7182 7438 15
+271 527 783 4367 4623 4879 5135 5391 5647 5903
+6159 6415 6671 6927 7183 7439 16 272 528 784
+3344 3600 3856 4112 4368 4624 4880 5136 5392 5648
+5904 6160 6416 6672 6928 7184 7440 17 273 529
+785 4113 4369 4625 4881 5137 5393 5649 5905 6161
+6417 6673 6929 7185 7441 18 274 530 786 3346
+3602 3858 4114 4370 4626 4882 5138 5394 5650 5906
+6162 6418 6674 6930 7186 7442 19 275 531 787
+5907 6163 6419 6675 6931 7187 7443 20 276 532
+788 3348 3604 3860 4116 4372 4628 4884 5140 5396
+5652 5908 6164 6420 6676 6932 7188 7444 21 277
+533 789 5653 5909 6165 6421 6677 6933 7189 7445
+22 278 534 790 3350 3606 3862 4118 4374 4630
+4886 5142 5398 5654 5910 6166 6422 6678 6934 7190
+7446 23 279 535 791 5399 24 280 536 792
+3352 3608 3864 4120 4376 4632 4888 5144 5400 5656
+5912 25 281 537 793 4633 4889 5145 5401 5657
+5913 26 282 538 794 3354 3610 3866 4122 4378
+4634 4890 5146 5402 5658 5914 27 283 539 795
+4123 4379 4635 4891 5147 5403 5659 5915 7195 7451
+28 284 540 796 3356 3612 3868 4124 4380 4636
+4892 5148 5404 5660 5916 7196 7452 29 285 541
+797 4637 4893 5149 5405 5661 5917 6685 6941 7197
+7453 30 286 542 798 3358 3614 3870 4126 4382
+4638 4894 5150 5406 5662 5918 6686 6942 7198 7454
+31 287 543 799 6687 6943 7199 7455 32 288
+544 800 6944 7200 7456 33 289 545 801 6945
+7201 7457 34 290 546 802 6690 6946 7202 7458
+35 291 547 803 6691 6947 7203 7459 36 292
+548 804 6692 6948 7204 7460 37 293 549 805
+6693 6949 7205 7461 38 294 550 806 3366 3622
+3878 4390 4646 4902 5158 5414 6694 6950 7206 7462
+39 295 551 807 6695 6951 7207 7463 40 296
+552 808 1064 1320 1576 1832 2088 2344 2600 2856
+3112 3368 3624 3880 4136 4392 4648 4904 5160 5416
+5672 5928 6184 6440 6696 6952 7208 7464 41 297
+553 809 1065 1321 1577 1833 2089 2345 2601 2857
+3113 3369 3625 3881 4137 4393 4649 4905 5161 5417
+5673 5929 6185 6441 6697 6953 7209 7465 42 298
+554 810 1066 1322 1578 1834 2090 2346 2602 2858
+3114 3370 3626 3882 4138 4394 4650 4906 5162 5418
+5674 5930 6186 6442 6698 6954 7210 7466 43 299
+555 811 1067 1323 1579 1835 2091 2347 2603 2859
+3115 3371 3627 3883 4139 4395 4651 4907 5163 5419
+5675 5931 6187 6443 6699 6955 7211 7467
+9 Prg1
+name wall
+var zacni
+var pldpred
+var tyce
+ini
+
+pldpred:=random(2);
+zacni:=0;
+tyce:=random(5)+4;
+37 Prg2
+if (pldpred=1)and(zacni=0) or (pldpred=0)and(zacni=1) then
+  begin
+    pldpred:=-1;
+    if zacni=0 then addm(random(30)+20,'rea-m-proboha')
+    else addm(random(100)+50,'rea-m-proboha');
+    addv(14,'rea-v-coto');
+    addm(6,'rea-m-nevim');
+    addset(pld.smutny,60);
+    addd(3,'rea-x-pldik',101,noprom);
+  end;
+if (zacni=0) then
+  begin
+    zacni:=1;
+    if pldpred=1 then addm(random(150)+60,'rea-m-comyslis')
+    else addm(random(30)+20,'rea-m-comyslis');
+    addv(6,'rea-v-patrne');
+
+    addv(random(130)+30,'rea-v-ledaze');
+    addm(random(70),'rea-m-mohl');
+    addv(6,'rea-v-tozni');
+
+    addm(random(200)+20,'rea-m-anebo');
+    addv(2,'rea-v-acoby');
+    addm(12,'rea-m-cojavim');
+    addv(random(20)+2,'rea-v-radeji');
+    addm(5,'rea-m-jakmuzes');
+    addv(4,'rea-v-kolik');
+    addv(random(10)+15,'rea-v-takvidis');
+  end;
+
+if zije[mala]and zije[velka] then
+  if (zacni=1)and no_dialog and (tyc.padlo>=tyce) and playing(199) then
+    begin
+      tyce:=1000;
+      addm(9,'rea-m-doufam');
+      addv(5,'rea-v-nemudruj');
+    end;
+18 Items
+38 8 1 5
+plutonium-5-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+6 Prg1
+name tyc
+var pada
+var padlo
+ini
+pada:=0;
+padlo:=0;
+40 Prg2
+for pom1:=this to this+12 do
+  Items[pom1]^.afaze:=2-(count)mod 6 div 2;
+
+{for pom1:=1 to 13 do
+  if umisteno and bitpole[pom1]=0 then
+    begin
+      pomb1:=false;
+      pom2:=Items[pom1]^.Y+Items[pom1]^.List.Num-1;
+      case Items[pom1]^.X of
+        13:pomb1:=pom2=19;
+        15:pomb1:=pom2=16;
+        17:pomb1:=pom2=15;
+        19:pomb1:=pom2=22;
+        21:pomb1:=pom2=21;
+        23:pomb1:=pom2=20;
+        25:pomb1:=pom2=17;
+        27:pomb1:=pom2=15;
+        29:pomb1:=pom2=17;
+      end;
+      if pomb1 then
+        begin
+          snd('rea-x-reakttyc',199);
+          umisteno:=umisteno or bitpole[pom1];
+        end;
+    end;
+}
+for pom1:=1 to 13 do
+  case Items[pom1]^.Dir of
+    dir_down:
+      begin
+        pada:=pada or bitpole[pom1];
+      end;
+    else
+      if (pada and bitpole[pom1])>0 then
+        begin
+          pada:=pada-bitpole[pom1];
+          snd('rea-x-reakttyc',199);
+          inc(padlo);
+        end;
+  end;
+5 List
+0 256 512 768 1024
+30 8 1 5
+plutonium-5-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+5 List
+0 256 512 768 1024
+28 8 1 5
+plutonium-5-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+5 List
+0 256 512 768 1024
+26 10 1 3
+plutonium-3-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+24 9 1 4
+plutonium-4-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 512 768
+22 9 1 4
+plutonium-4-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 512 768
+20 5 1 8
+plutonium-8-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 512 768 1024 1280 1536 1792
+18 11 1 2
+plutonium-2-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+16 9 1 4
+plutonium-4-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 512 768
+14 6 1 7
+plutonium-7-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+7 List
+0 256 512 768 1024 1280 1536
+12 10 1 3
+plutonium-3-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+10 5 1 8
+plutonium-8-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 512 768 1024 1280 1536 1792
+8 11 1 2
+plutonium-1-1.BMP
+65280 Mask
+1 Kind
+2 Ext
+0 Prg1
+0 Prg2
+1 List
+256
+7 12 1 1
+plutonium-1a.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+34 24 2 2
+Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+32 13 3 1
+mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+32 10 4 2
+velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+3 15 7 4
+pld 1.BMP
+65280 Mask
+1 Kind
+15 Ext
+14 Prg1
+name pld
+var del
+var vlnit
+var ocko
+var faze
+var smer
+var smutny
+ini
+vlnit:=0;
+del:=0;
+ocko:=0;
+smer:=0;
+faze:=0;
+smutny:=0;
+71 Prg2
+case dir of
+  dir_no:if vlnit=-1 then vlnit:=8;
+  dir_down:vlnit:=-1;
+  else vlnit:=8;
+end;
+
+if vlnit>0 then smutny:=0;
+
+
+if vlnit>0 then
+ if del=0 then
+  begin
+    case vlnit of
+      8,7,6:del:=1;
+      5,4,3:del:=2;
+      else del:=3;
+    end;
+    if random(2)=0 then
+      afaze:=(afaze+1)mod 4
+    else
+      afaze:=(afaze+3)mod 4;
+    dec(vlnit);
+    if vlnit=0 then del:=0;
+    if vlnit=0 then afaze:=0
+    else if vlnit=1 then afaze:=3;
+  end
+ else
+  dec(del)
+else if smutny>0 then
+  begin
+    if ocko=0 then
+      if random(100)<10 then ocko:=3;
+    if ocko>0 then dec(ocko);
+    if ocko>0 then afaze:=15
+    else afaze:=14;
+    dec(smutny);
+  end
+else
+  begin
+    if random(100)<10 then smer:=1-smer;
+    case faze of
+      0:begin
+          afaze:=0;
+          if random(100)<10 then faze:=1;
+        end;
+    1,4:begin
+          inc(faze);
+          afaze:=4;
+        end;
+    2,3:begin
+          inc(faze);
+          afaze:=5;
+        end;
+     5:begin
+          afaze:=0;
+          faze:=0;
+        end;
+    end;
+    case afaze of
+      0:if smer=1 then afaze:=6;
+      4:if smer=1 then afaze:=7;
+    end;
+
+    if ocko=0 then
+      if random(100)<10 then ocko:=3;
+    if ocko>0 then dec(ocko);
+
+    if ocko>0 then
+      if afaze=0 then afaze:=9
+      else afaze:=afaze+6;
+  end;
+19 List
+512 257 513 2 258 514 770 3 259
+515 771 4 260 516 772 261 517 773 518
+EOF
