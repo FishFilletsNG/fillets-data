@@ -100,7 +100,7 @@ local function prog_init()
                     snehulak.uder = snehulak.uder + 1
                 end
             end
-            snehulak:setAnim("default", snehulak.afaze)
+            snehulak:updateAnim()
         end
     end
 

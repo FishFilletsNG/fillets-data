@@ -156,7 +156,7 @@ function animateFish(model)
         elseif "activate" == action then
             model:setAnim("turn", 0)
         elseif "busy" == action then
-            --TODO: better talk sequence
+            --NOTE: for talking see animateHead() bellow
             model:setAnim("turn", 0)
         else
             model:runAnim("rest")
@@ -169,31 +169,30 @@ end
 -- -----------------------------------------------------------------
 function animateHead(model)
     if model:isAlive() then
-        if "turn" ~= model:getAction() and "activate" ~= model:getAction() then
-            local state = model:getState()
+        local state = model:getState()
+        if "talking" == state then
+            if not model.talk_phase then
+                model.talk_phase = random(3)
+            elseif math.mod(timer_getCycles(), 2) == 0 then
+                model.talk_phase = math.mod(
+                    model.talk_phase + randint(1, 2), 3)
+            end
+        else
+            model.talk_phase = false
+        end
 
-            if "talking" == state then
-                if "busy" ~= model:getAction() then
-                    if not model.talk_phase then
-                        model.talk_phase = random(3)
-                    else
-                        if math.mod(timer_getCycles(), 2) == 0 then
-                            model.talk_phase = math.mod(
-                                model.talk_phase + randint(1, 2), 3)
-                        end
-                    end
-
-                    --NOTE: talk_phase=2 is normal
-                    if model.talk_phase < 2 then
-                        model:useSpecialAnim("head_talking", model.talk_phase)
-                    end
-                end
+        local action = model:getAction()
+        if "busy" == action then
+            if model.talk_phase then
+                model:setAnim("talk", model.talk_phase)
             else
-                model.talk_phase = false
-
-                if "pushing" == state then
-                    model:useSpecialAnim("head_pushing", 0)
-                end
+                model:setAnim("turn", 0)
+            end
+        elseif "turn" ~= action and "activate" ~= action then
+            if "talking" == state then
+                model:useSpecialAnim("head_talking", model.talk_phase)
+            elseif "pushing" == state then
+                model:useSpecialAnim("head_pushing", 0)
             end
         end
     end
@@ -257,6 +256,13 @@ function addFishAnim(model, look_dir, directory)
     model:addDuplexAnim("turn", directory.."/left/body_turn_02.png",
             directory.."/right/body_turn_02.png")
 
+    model:addDuplexAnim("talk", directory.."/left/body_talk_00.png",
+            directory.."/right/body_talk_00.png")
+    model:addDuplexAnim("talk", directory.."/left/body_talk_01.png",
+            directory.."/right/body_talk_01.png")
+    model:addDuplexAnim("talk", directory.."/left/body_talk_02.png",
+            directory.."/right/body_talk_02.png")
+
     -- heads
     model:addDuplexAnim("head_talking",
             directory.."/heads/left/head_talking_00.png",
@@ -264,6 +270,9 @@ function addFishAnim(model, look_dir, directory)
     model:addDuplexAnim("head_talking",
             directory.."/heads/left/head_talking_01.png",
             directory.."/heads/right/head_talking_01.png")
+    model:addDuplexAnim("head_talking",
+            directory.."/heads/left/head_talking_02.png",
+            directory.."/heads/right/head_talking_02.png")
 
     model:addDuplexAnim("head_pushing",
             directory.."/heads/left/head_pushing.png",
