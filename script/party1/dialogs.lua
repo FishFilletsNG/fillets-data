@@ -8,11 +8,11 @@ dialog_addDialog("pt1-v-predtucha", "fr", "", "font_big", "J'ai l'intuition que 
 
 dialog_addDialog("pt1-m-predtucha", "en", "", "font_small", "You and your feelings. Surely it`s full of kind and friendly people.")
 dialog_addDialog("pt1-m-predtucha", "cs", "sound/"..codename.."/cs/pt1-m-predtucha.ogg", "font_small", "Ty tvoje předtuchy. Určitě to budou milí a přátelští lidé.")
-dialog_addDialog("pt1-m-predtucha", "fr", "", "font_small", "Toi et ton intuition. Il y aurat surement toute sorte de personnes sympathiques.")
+dialog_addDialog("pt1-m-predtucha", "fr", "", "font_small", "Toi et ton intuition. Il y aura sûrement toute sorte de personnes sympathiques.")
 
 dialog_addDialog("pt1-m-kostlivec", "en", "", "font_small", "Maybe, you were right. This is a strange picnic.")
 dialog_addDialog("pt1-m-kostlivec", "cs", "sound/"..codename.."/cs/pt1-m-kostlivec.ogg", "font_small", "Možná, žes měl pravdu. Jsou to divní výletníci.")
-dialog_addDialog("pt1-m-kostlivec", "fr", "", "font_small", "Tu as peut-être raison. C'est un étrange pic-nique.")
+dialog_addDialog("pt1-m-kostlivec", "fr", "", "font_small", "Tu as peut-être raison. C'est tout de même un étrange pic-nique.")
 
 dialog_addDialog("pt1-m-vylezt0", "en", "", "font_small", "Do you think they could get out of this boat?")
 dialog_addDialog("pt1-m-vylezt0", "cs", "sound/"..codename.."/cs/pt1-m-vylezt0.ogg", "font_small", "Myslíš, že by mohli z té lodi vylézt?")
@@ -28,7 +28,7 @@ dialog_addDialog("pt1-m-vylezt2", "fr", "", "font_small", "Et s'ils se lançaien
 
 dialog_addDialog("pt1-v-pryc0", "en", "", "font_big", "I don`t think they could get us. Skeletons can`t swim very well.")
 dialog_addDialog("pt1-v-pryc0", "cs", "sound/"..codename.."/cs/pt1-v-pryc0.ogg", "font_big", "Myslím, že by nás nedohnali. Kostlivci asi nebudou přeborníci v plavání.")
-dialog_addDialog("pt1-v-pryc0", "fr", "", "font_big", "Je ne pense pas qu'ils puissent nous attraper. Les squellettes ne nagent pas très bien.")
+dialog_addDialog("pt1-v-pryc0", "fr", "", "font_big", "Je ne pense pas qu'ils puissent nous attraper. Les squelettes ne nagent pas très bien.")
 
 dialog_addDialog("pt1-v-pryc1", "en", "", "font_big", "Stop thinking about it and move your fins so that we can get out of here.")
 dialog_addDialog("pt1-v-pryc1", "cs", "sound/"..codename.."/cs/pt1-v-pryc1.ogg", "font_big", "Radši na to nemysli a pohni sebou, ať jsme odsud co nejrychleji pryč.")

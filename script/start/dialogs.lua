@@ -20,7 +20,7 @@ dialog_addDialog("1st-m-proc", "fr", "", "font_small", "Pourquoi rien ne se pass
 
 dialog_addDialog("1st-m-hej", "en", "", "font_small", "Hey, player!")
 dialog_addDialog("1st-m-hej", "cs", "sound/"..codename.."/cs/1st-m-hej.ogg", "font_small", "Hej, hráči!")
-dialog_addDialog("1st-m-hej", "fr", "", "font_small", "He, Joueur !")
+dialog_addDialog("1st-m-hej", "fr", "", "font_small", "Hé, Joueur !")
 
 dialog_addDialog("1st-v-navod1", "en", "", "font_big", "You can control us with arrow keys and use the space bar to switch fish.")
 dialog_addDialog("1st-v-navod1", "cs", "sound/"..codename.."/cs/1st-v-navod1.ogg", "font_big", "Můžeš nás ovládat kurzorovými šipkami a mezerníkem mezi námi přepínat.")
@@ -80,7 +80,7 @@ dialog_addDialog("1st-v-takukaz", "fr", "", "font_big", "Pas de problème...")
 
 dialog_addDialog("1st-m-hmmm", "en", "", "font_small", "Wow, you moved it! I could never do that!")
 dialog_addDialog("1st-m-hmmm", "cs", "sound/"..codename.."/cs/1st-m-hmmm.ogg", "font_small", "Hmmm... Pohneš s tím. To já bych nedokázala!")
-dialog_addDialog("1st-m-hmmm", "fr", "", "font_small", "Wow, Tu le déplace ! Je ne pourrais jamais faire ça !")
+dialog_addDialog("1st-m-hmmm", "fr", "", "font_small", "Wow, Tu le déplaces ! Je ne pourrais jamais faire ça !")
 
 dialog_addDialog("1st-m-diky", "en", "", "font_small", "Thanks, now I can go with you.")
 dialog_addDialog("1st-m-diky", "cs", "sound/"..codename.."/cs/1st-m-diky.ogg", "font_small", "Díky, už můžu jít s tebou.")
@@ -124,7 +124,7 @@ dialog_addDialog("1st-v-najit", "fr", "", "font_big", "L'option redémarrage se 
 
 dialog_addDialog("1st-m-pokud", "en", "", "font_small", "If you think you would rather restart the level, no problem.")
 dialog_addDialog("1st-m-pokud", "cs", "sound/"..codename.."/cs/1st-m-pokud.ogg", "font_small", "Pokud máš pocit, že jsi už řešení zkazil, nevadí.")
-dialog_addDialog("1st-m-pokud", "fr", "", "font_small", "Si tu penses qu'il est préférable de refaire le niveau, pas de ssoucis.")
+dialog_addDialog("1st-m-pokud", "fr", "", "font_small", "Si tu penses qu'il est préférable de refaire le niveau, pas de soucis.")
 
 dialog_addDialog("1st-v-znovu", "en", "", "font_big", "You just have to press the long arrow on your keyboard.")
 dialog_addDialog("1st-v-znovu", "cs", "sound/"..codename.."/cs/1st-v-znovu.ogg", "font_big", "Chceš-li to zkustit znovu, stiskni tlačítko zpětného výmazu.")

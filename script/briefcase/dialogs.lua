@@ -1,10 +1,10 @@
 dialog_addDialog("kd-uvod", "en", "", "font_white", "Good morning, fish. This is an affair of the gravest importance and so we have chosen you, our ablest underwater agents.")
 dialog_addDialog("kd-uvod", "cs", "sound/"..codename.."/cs/kd-uvod.ogg", "font_white", "Dobrý den, ryby. Tentokrát jde o záležitost mimořádného významu, proto se obracíme na vás jako na naše nejschopnější agenty pod vodou.")
-dialog_addDialog("kd-uvod", "fr", "", "font_white", "Bonjour, Poisson. C'est une affaire de la plus haute importance et nous vous avons choisis, nos meilleurs agents sous-marins.")
+dialog_addDialog("kd-uvod", "fr", "", "font_white", "Bonjour, Poisson. C'est une affaire de la plus haute importance et nous vous avons choisis, vous, nos meilleurs agents sous-marins.")
 
 dialog_addDialog("kd-ufo", "en", "", "font_white", "Agents of FDTO - Fish Detective Training Organization - managed to get hold of several amateur snapshots of an extraterrestrial object which has crashed somewhere in your vicinity. Your mission, if you choose to accept it, will be to recover the UFO and acquire all the information you can about the principles and nature of interstellar propulsion.")
 dialog_addDialog("kd-ufo", "cs", "sound/"..codename.."/cs/kd-ufo.ogg", "font_white", "Informátorům naší Fakt Děsně Tajné Organizace se podařilo získat několik amatérských záběrů mimozemského objektu, který se zřítil někam do vaší oblasti. Vaším úkolem, pokud ho přijmete, bude UFO najít a získat informace o principech a konstrukci mezihvězdného pohonu.")
-dialog_addDialog("kd-ufo", "fr", "", "font_white", "Des agents de la FDTO - Formation Détective Tout pOisson - ont récupéré plusieurs photos amateurs d'un object extraterrestre qui s'est abimé en mer quelque part non loin de vous. Votre mission, si vous l'acceptez, est de retrouver l'ovni et de récupérer toutes les informations que vous trouverez sur les principes et la nature de la propulsion interstellaire.")
+dialog_addDialog("kd-ufo", "fr", "", "font_white", "Des agents de la FDTO - Formation Détective Tout pOisson - ont récupéré plusieurs photos amateurs d'un objet extraterrestre qui s'est abîmé en mer quelque part non loin de vous. Votre mission, si vous l'acceptez, est de retrouver l'ovni et de récupérer toutes les informations que vous trouverez sur les principes et la nature de la propulsion interstellaire.")
 
 dialog_addDialog("kd-mesto", "en", "", "font_white", "You should also try to close some of our as yet unsolved cases. We are mostly interested in the circumstances surrounding the sinking of the mythical city, by chance in the same area.")
 dialog_addDialog("kd-mesto", "cs", "sound/"..codename.."/cs/kd-mesto.ogg", "font_white", "Zároveň zkuste pohnout s našimi starými nevyřešenými případy. Především jsou to nejasnosti kolem potopení dávného mýtického města, shodou okolností v téže oblasti.")
@@ -12,7 +12,7 @@ dialog_addDialog("kd-mesto", "fr", "", "font_white", "Vous devrez aussi résoudr
 
 dialog_addDialog("kd-bermudy", "en", "", "font_white", "This case may be connected to the mystery of the Bermuda Triangle. Find out why so many ships and planes have disappeared in this area over the past several decades.")
 dialog_addDialog("kd-bermudy", "cs", "sound/"..codename.."/cs/kd-bermudy.ogg", "font_white", "S tím může souviset i záhada Bermudského trojúhelníku. Zjistěte, proč se v něm už po léta ztrácejí lodě a letadla.")
-dialog_addDialog("kd-bermudy", "fr", "", "font_white", "Ce dossier est peut être lié au mystère du triangle des Bernude. Découvrez pourquoi tant de bateaux et d'avions ont disparu là, depuis des décennies.")
+dialog_addDialog("kd-bermudy", "fr", "", "font_white", "Ce dossier est peut être lié au mystère du triangle des Bermudes. Découvrez pourquoi tant de bateaux et d'avions ont disparu là, depuis des décennies.")
 
 dialog_addDialog("kd-silver", "en", "", "font_white", "One of the lost ships is rumored to have belonged to the legendary Captain Silver. There are still many uncertainties surrounding this famous pirate. Most of all we are interested in the map which shows the location of his buried treasure.")
 dialog_addDialog("kd-silver", "cs", "sound/"..codename.."/cs/kd-silver.ogg", "font_white", "Navíc jedna ze ztracených lodí údajně patřila legendárnímu kapitánu Silverovi. Kolem tohoto slavného piráta je stále mnoho nejasností. Nás především zajímá mapa místa, kam zakopal své poklady.")
@@ -20,11 +20,11 @@ dialog_addDialog("kd-silver", "fr", "", "font_white", "La rumeur affirme qu'un d
 
 dialog_addDialog("kd-pocitac", "en", "", "font_white", "One of your most important tasks is to find the computer hidden in the deep by a certain criminal organization. It contains data about a project which could change the entire world.")
 dialog_addDialog("kd-pocitac", "cs", "sound/"..codename.."/cs/kd-pocitac.ogg", "font_white", "Jedním z nejdůležitějších úkolů je najít počítač, který v hlubinách ukryla nejmenovaná zločinná organizace. Obsahuje údaje o projektu, který by mohl změnit celý svět.")
-dialog_addDialog("kd-pocitac", "fr", "", "font_white", "Une de vos principales missions est de trouver l'ordinateur caché dans les pronfondeurs par une certaine organisation criminelle. Il contients des données qui peuvent changer le monde entier.")
+dialog_addDialog("kd-pocitac", "fr", "", "font_white", "Une de vos principales missions est de trouver l'ordinateur caché dans les profondeurs par une certaine organisation criminelle. Il contient des données qui peuvent changer le monde entier.")
 
 dialog_addDialog("kd-zelva", "en", "", "font_white", "You should also find and detain the mysterious coral turtle. It escaped from the FDTO interrogation facility. It is not armed, but it supposedly has telepathic abilities.")
 dialog_addDialog("kd-zelva", "cs", "sound/"..codename.."/cs/kd-zelva.ogg", "font_white", "Také je třeba zajistit tajemnou želvu, želvu korálovou, jež uprchla z nápravně výchovné laboratoře FDTO. Není ozbrojena, ale zřejmě má telepatické schopnosti.")
-dialog_addDialog("kd-zelva", "fr", "", "font_white", "Vous devrez de même dénicher et arrêter la mystérieuse tortue corallienne. Elle s'est échappée de la chambre d'intérogation de la FDTO. Elle n'est pas armée, mais nous supposons qu'elle possède des pouvoirs télépathiques.")
+dialog_addDialog("kd-zelva", "fr", "", "font_white", "Vous devrez de même dénicher et arrêter la mystérieuse tortue corallienne. Elle s'est échappée de la chambre d'interrogation de la FDTO. Elle n'est pas armée, mais nous supposons qu'elle possède des pouvoirs télépathiques.")
 
 dialog_addDialog("kd-elektr", "en", "", "font_white", "We have been notified that a certain nuclear power plant has been dumping its radioactive waste illegally. Check it out.")
 dialog_addDialog("kd-elektr", "cs", "sound/"..codename.."/cs/kd-elektr.ogg", "font_white", "Byli jsme upozorněni, že jistá jaderná elektrárna se zbavuje radiaktivního odpadu nelegálním způsobem. Prověřte to.")
@@ -36,7 +36,7 @@ dialog_addDialog("kd-gral", "fr", "", "font_white", "Et n'oubliez pas de ramenez
 
 dialog_addDialog("kd-zaver", "en", "", "font_white", "And as usual: If anyone from your team is injured or killed, Altar will deny any knowledge of your existence and the level will be restarted.")
 dialog_addDialog("kd-zaver", "cs", "sound/"..codename.."/cs/kd-zaver.ogg", "font_white", "A jako vždy: Bude-li někdo z vašeho týmu uvězněn či zabit, Altar se od všeho distancuje a místnost bude restartována.")
-dialog_addDialog("kd-zaver", "fr", "", "font_white", "Et comme d'habitude : si l'un d'entre vous est blessé ou tuez, Altar niera toute connaissance de votre existance et le niveau devra être rejouez.")
+dialog_addDialog("kd-zaver", "fr", "", "font_white", "Et comme d'habitude : si l'un d'entre vous est blessé ou tuez, Altar niera toute connaissance de votre existence et le niveau devra être rejouez.")
 
 dialog_addDialog("kd-znici", "en", "", "font_white", "This disk will self-destruct in five seconds.")
 dialog_addDialog("kd-znici", "cs", "sound/"..codename.."/cs/kd-znici.ogg", "font_white", "Tento disk se zničí za pět sekund.")
@@ -88,7 +88,7 @@ dialog_addDialog("kuf-m-pravda", "fr", "", "font_small", "C'est vrai...")
 
 dialog_addDialog("kuf-m-dodilny", "en", "", "font_small", "Come on, let`s take the player into the workshop and show him the work safety regulations.")
 dialog_addDialog("kuf-m-dodilny", "cs", "sound/"..codename.."/cs/kuf-m-dodilny.ogg", "font_small", "Pojď, vezmeme hráče do dílny a ukážeme mu pravidla bezpečnosti práce.")
-dialog_addDialog("kuf-m-dodilny", "fr", "", "font_small", "Viens, ammenons le joueur dans l'atelier et montrons-lui le travail sans risque.")
+dialog_addDialog("kuf-m-dodilny", "fr", "", "font_small", "Viens, emmenons le joueur dans l'atelier et montrons-lui le travail sans risque.")
 
 dialog_addDialog("kuf-v-napad", "en", "", "font_big", "Good idea.")
 dialog_addDialog("kuf-v-napad", "cs", "sound/"..codename.."/cs/kuf-v-napad.ogg", "font_big", "Dobrý nápad.")
@@ -112,7 +112,7 @@ dialog_addDialog("help2", "fr", "", "font_big", "Avant de rentrer dans l'atelier
 
 dialog_addDialog("help3", "en", "", "font_small", "First we`ll show you what can hurt us.")
 dialog_addDialog("help3", "cs", "sound/"..codename.."/cs/help3.ogg", "font_small", "Nejprve ti ukážeme, co nám ubližuje.")
-dialog_addDialog("help3", "fr", "", "font_small", "En premier nous allons te montrer ce qui peux nous blesser.")
+dialog_addDialog("help3", "fr", "", "font_small", "En premier nous allons te montrer ce qui peut nous blesser.")
 
 dialog_addDialog("help4", "en", "", "font_big", "I`ll volunteer to be the dummy.")
 dialog_addDialog("help4", "cs", "sound/"..codename.."/cs/help4.ogg", "font_big", "Já budu dělat figuranta.")
@@ -120,7 +120,7 @@ dialog_addDialog("help4", "fr", "", "font_big", "Je suis volontaire pour être l
 
 dialog_addDialog("help5", "en", "", "font_small", "First of all, we shouldn`t drop things on each other.")
 dialog_addDialog("help5", "cs", "sound/"..codename.."/cs/help5.ogg", "font_small", "Především bychom na sebe neměli házet předměty.")
-dialog_addDialog("help5", "fr", "", "font_small", "En premier lieu, nous ne pouvons pas lacher des objet l'un sur l'autre.")
+dialog_addDialog("help5", "fr", "", "font_small", "En premier lieu, nous ne pouvons pas lâcher des objet l'un sur l'autre.")
 
 dialog_addDialog("help6", "en", "", "font_small", "We also can`t swim downwards when carrying an object, because it would fall on us.")
 dialog_addDialog("help6", "cs", "sound/"..codename.."/cs/help6.ogg", "font_small", "Stejně tak nesmíme podklesnout pod předmětem, který neseme - spadnul by na nás.")
@@ -140,7 +140,7 @@ dialog_addDialog("help9", "fr", "", "font_small", "Nous ne pouvons pas non plus 
 
 dialog_addDialog("help10", "en", "", "font_small", "Some objects are shaped in such a way that we could hold them and push them at the same time - but we`re not allowed to do this either.")
 dialog_addDialog("help10", "cs", "sound/"..codename.."/cs/help10.ogg", "font_small", "Některé předměty mají takový tvar, že bych je mohla zároveň držet i posouvat - ale to také nesmím.")
-dialog_addDialog("help10", "fr", "", "font_small", "Certains objets sont dessinés de manière à ce que l'on peux les porter et les pousser en même temps - Mais nous ne sommes pas autoriser de le faire.")
+dialog_addDialog("help10", "fr", "", "font_small", "Certains objets sont dessinés de manière à ce que l'on peux les porter et les pousser en même temps - Mais nous ne sommes pas autoriser à le faire.")
 
 dialog_addDialog("help11", "en", "", "font_big", "Again, we load a saved game by pressing the F3 key.")
 dialog_addDialog("help11", "cs", "sound/"..codename.."/cs/help11.ogg", "font_big", "Znovu nahrajeme pozici klávesou F3.")
@@ -148,7 +148,7 @@ dialog_addDialog("help11", "fr", "", "font_big", "Une nouvelle fois nous chargeo
 
 dialog_addDialog("help12", "en", "", "font_small", "We also can`t drop additional objects on a pile that one of us is carrying.")
 dialog_addDialog("help12", "cs", "sound/"..codename.."/cs/help12.ogg", "font_small", "Nesmíme ani přihazovat předměty na hromádku, kterou někdo z nás drží.")
-dialog_addDialog("help12", "fr", "", "font_small", "Nous ne pouvons pas lacher de nouveau objet sur un tas qui est porté par l'un de nous.")
+dialog_addDialog("help12", "fr", "", "font_small", "Nous ne pouvons pas lâcher de nouveau objet sur un tas qui est porté par l'un de nous.")
 
 dialog_addDialog("help13", "en", "", "font_small", "And unlike my bigger partner, I can`t move or even carry steel objects.")
 dialog_addDialog("help13", "cs", "sound/"..codename.."/cs/help13.ogg", "font_small", "A já, na rozdíl od většího kamaráda, nejen že nepohnu s ocelovými předměty, ale nesmím je ani držet.")
@@ -180,7 +180,7 @@ dialog_addDialog("help19", "fr", "", "font_small", "Nous pouvons pousser un obje
 
 dialog_addDialog("help20", "en", "", "font_big", "We can also swim freely under an object which we are supporting and pass it to the other fish.")
 dialog_addDialog("help20", "cs", "sound/"..codename.."/cs/help20.ogg", "font_big", "Můžeme také pod předmětem volně proplouvat a předávat si jej.")
-dialog_addDialog("help20", "fr", "", "font_big", "Nous pouvons nager librement sous un objet que nous supportons et le passer à l'autre poisson.")
+dialog_addDialog("help20", "fr", "", "font_big", "Nous pouvons nager librement sous un objet que nous supportons tous les deux et le passer à l'autre poisson.")
 
 dialog_addDialog("help21", "en", "", "font_small", "And we can push objects off of each other`s back, as long as the object falls down immediately.")
 dialog_addDialog("help21", "cs", "sound/"..codename.."/cs/help21.ogg", "font_small", "A pokud předmět hned spadne, můžeme ho jedna z druhé shodit.")

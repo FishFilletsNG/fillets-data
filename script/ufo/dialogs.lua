@@ -20,7 +20,7 @@ dialog_addDialog("ufo-v-hur", "fr", "", "font_big", "Ca pourrait être pire. Pou
 
 dialog_addDialog("ufo-m-ne", "en", "", "font_small", "My goodness? What should I do in such a level?")
 dialog_addDialog("ufo-m-ne", "cs", "sound/"..codename.."/cs/ufo-m-ne.ogg", "font_small", "To snad ne. Co bych v takové místnosti dělala?")
-dialog_addDialog("ufo-m-ne", "fr", "", "font_small", "Mon dieux ? Que pourrais-je faire dans un tel niveau ?")
+dialog_addDialog("ufo-m-ne", "fr", "", "font_small", "Mon dieu ? Que pourrais-je faire dans un tel niveau ?")
 
 dialog_addDialog("ufo-v-vpredu", "en", "", "font_big", "You would let me go in front, for a change.")
 dialog_addDialog("ufo-v-vpredu", "cs", "sound/"..codename.."/cs/ufo-v-vpredu.ogg", "font_big", "Konečně bys mě nechala jít vpředu.")
@@ -28,7 +28,7 @@ dialog_addDialog("ufo-v-vpredu", "fr", "", "font_big", "Tu devras me laisser pas
 
 dialog_addDialog("ufo-m-zvlastni", "en", "", "font_small", "It`s interesting that this tangled steel forestalls our entry into that UFO more effectively than any security system.")
 dialog_addDialog("ufo-m-zvlastni", "cs", "sound/"..codename.."/cs/ufo-m-zvlastni.ogg", "font_small", "Zvláštní je, že ta změť oceli funguje jako účinnější překážka než bezpečnostní systém toho UFA.")
-dialog_addDialog("ufo-m-zvlastni", "fr", "", "font_small", "C'est intéressant comme cet enchevêtrement d'acier nous interdit l'accés de l'OVNI plus efficacement qu'un système de sécurité.")
+dialog_addDialog("ufo-m-zvlastni", "fr", "", "font_small", "C'est intéressant comme cet enchevêtrement d'acier nous interdit l'accès de l'OVNI plus efficacement qu'un système de sécurité.")
 
 dialog_addDialog("ufo-v-rikam", "en", "", "font_big", "I keep telling you that our life is controlled by some higher, strange consciousness.")
 dialog_addDialog("ufo-v-rikam", "cs", "sound/"..codename.."/cs/ufo-v-rikam.ogg", "font_big", "Pořád ti říkám, že náš život je řízen jakousi vyšší, cizí inteligencí.")
@@ -52,7 +52,7 @@ dialog_addDialog("ufo-v-zjistit0", "fr", "", "font_big", "Le plus important, ess
 
 dialog_addDialog("ufo-v-zjistit1", "en", "", "font_big", "You know, most of all I wonder why have they crashed just here.")
 dialog_addDialog("ufo-v-zjistit1", "cs", "sound/"..codename.."/cs/ufo-v-zjistit1.ogg", "font_big", "Víš, nejvíc by mě zajímalo, proč ztroskotali právě tady.")
-dialog_addDialog("ufo-v-zjistit1", "fr", "", "font_big", "Tu sais, je me demande juste pourquoi ils se sont écrasésci.") 
+dialog_addDialog("ufo-v-zjistit1", "fr", "", "font_big", "Tu sais, je me demande juste pourquoi ils se sont écrasés ici.") 
 
 dialog_addDialog("ufo-m-tady", "en", "", "font_small", "Didn`t you see it? Everything happens just here.")
 dialog_addDialog("ufo-m-tady", "cs", "sound/"..codename.."/cs/ufo-m-tady.ogg", "font_small", "Však jsi to viděl. Všechno se děje právě tady.")

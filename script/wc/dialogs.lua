@@ -12,7 +12,7 @@ dialog_addDialog("wc-v-neznas", "fr", "", "font_big", "Tu ne connais pas David ?
 
 dialog_addDialog("wc-m-sochar", "en", "", "font_small", "David was no graphic artist. He was a sculpturer. His sculptures are one of the best-known Renaissance artifacts.")
 dialog_addDialog("wc-m-sochar", "cs", "sound/"..codename.."/cs/wc-m-sochar.ogg", "font_small", "David nebyl žádný malíř. David byl sochař. Davidova socha je jednou z nejznámějších renesančních památek.")
-dialog_addDialog("wc-m-sochar", "fr", "", "font_small", "David n'est pas dessinateur. Il est sculpteur. Ces sculptures sont parmis les plus connues de la Renaissance.")
+dialog_addDialog("wc-m-sochar", "fr", "", "font_small", "David n'est pas dessinateur. Il est sculpteur. Ces sculptures sont parmi les plus connues de la Renaissance.")
 
 dialog_addDialog("wc-v-zmatek", "en", "", "font_big", "You`ve got it all wrong.")
 dialog_addDialog("wc-v-zmatek", "cs", "sound/"..codename.."/cs/wc-v-zmatek.ogg", "font_big", "Máš v tom nějaký zmatek.")
@@ -24,7 +24,7 @@ dialog_addDialog("wc-m-prasecinky", "fr", "", "font_small", "Ne t'avais-je pas d
 
 dialog_addDialog("wc-v-hygiena", "en", "", "font_big", "The flushing toilet is more hygienical and when under water even more ecological.")
 dialog_addDialog("wc-v-hygiena", "cs", "sound/"..codename.."/cs/wc-v-hygiena.ogg", "font_big", "Splachovací záchod je hygieničtější a pod vodou i ekologičtější.")
-dialog_addDialog("wc-v-hygiena", "fr", "", "font_big", "La chasse d'eau est plus hygénique et sous l'eau même plus écologique.")
+dialog_addDialog("wc-v-hygiena", "fr", "", "font_big", "La chasse d'eau est plus hygiénique et sous l'eau même plus écologique.")
 
 dialog_addDialog("wc-m-vlezt", "en", "", "font_small", "Luckily, I needn`t climb inside.")
 dialog_addDialog("wc-m-vlezt", "cs", "sound/"..codename.."/cs/wc-m-vlezt.ogg", "font_small", "Ještě, že nemusím vlézt přímo do mísy.")

@@ -12,7 +12,7 @@ dialog_addDialog("bat-v-zved0", "fr", "", "font_big", "Ne devrai-je pas soulever
 
 dialog_addDialog("bat-v-zved1", "en", "", "font_big", "Do you want me to lift this up?")
 dialog_addDialog("bat-v-zved1", "cs", "sound/"..codename.."/cs/bat-v-zved1.ogg", "font_big", "Nechceš to zvednout?")
-dialog_addDialog("bat-v-zved1", "fr", "", "font_big", "Veux-tu que soulève ça ?")
+dialog_addDialog("bat-v-zved1", "fr", "", "font_big", "Veux-tu que je soulève ça ?")
 
 dialog_addDialog("bat-v-vyp", "en", "", "font_big", "Shouldn`t I turn that off?")
 dialog_addDialog("bat-v-vyp", "cs", "sound/"..codename.."/cs/bat-v-vyp.ogg", "font_big", "Nemám to vypnout?")
@@ -44,7 +44,7 @@ dialog_addDialog("bat-s-snek0", "fr", "", "font_snail", "J'espère que je ne sui
 
 dialog_addDialog("bat-s-snek1", "en", "", "font_snail", "Really, I can easily crawl away. Just say a word.")
 dialog_addDialog("bat-s-snek1", "cs", "sound/"..codename.."/cs/bat-s-snek1.ogg", "font_snail", "Opravdu, můžu klidně popolézt. Stačí říct.")
-dialog_addDialog("bat-s-snek1", "fr", "", "font_snail", "Vraiment, je peux nager plus loin. Dis le.")
+dialog_addDialog("bat-s-snek1", "fr", "", "font_snail", "Vraiment, je peux nager plus loin. N'hésite pas à le demander.")
 
 dialog_addDialog("bat-s-snek2", "en", "", "font_snail", "I really don`t want to be an obstacle.")
 dialog_addDialog("bat-s-snek2", "cs", "sound/"..codename.."/cs/bat-s-snek2.ogg", "font_snail", "Nerad bych nějak překážel.")
@@ -76,7 +76,7 @@ dialog_addDialog("bat-p-4", "fr", "", "font_pizla", "Je ne peux pas t'entendre."
 
 dialog_addDialog("bat-p-5", "en", "", "font_pizla", "Hello, hello!")
 dialog_addDialog("bat-p-5", "cs", "sound/"..codename.."/cs/bat-p-5.ogg", "font_pizla", "Haló haló!")
-dialog_addDialog("bat-p-5", "fr", "", "font_pizla", "Allo, allo !")
+dialog_addDialog("bat-p-5", "fr", "", "font_pizla", "Allô, allô !")
 
 dialog_addDialog("bat-t-phone0", "en", "sound/"..codename.."/en/bat-t-phone0.ogg")
 
@@ -86,10 +86,10 @@ dialog_addDialog("bat-t-budik", "en", "sound/"..codename.."/en/bat-t-budik.ogg")
 
 dialog_addDialog("bat-p-zhov0", "en", "", "font_statue", "Hello, the chief inspector Clouseau speaking. I am looking for the dangerous shellfish, who... Oh no, not know, Kato, you yellow ape!")
 dialog_addDialog("bat-p-zhov0", "cs", "sound/"..codename.."/cs/bat-p-zhov0.ogg", "font_statue", "Haló, tady policejní šéfinspektor Clouseau. Hledám nebezpečné měkkýše, kteří... Kato, teď ne, ty žlutá opice!")
-dialog_addDialog("bat-p-zhov0", "fr", "", "font_statue", "Allo, chef inspecteur Clouseau à l'appareil. Je suis à la recherche du dangereux crustacé, qui ... Oh non, pas maintenant, Kato, tu vas rire jaune.")
+dialog_addDialog("bat-p-zhov0", "fr", "", "font_statue", "Allô, chef inspecteur Clouseau à l'appareil. Je suis à la recherche du dangereux crustacé, qui ... Oh non, pas maintenant, Kato, tu vas rire jaune.")
 
 dialog_addDialog("bat-p-zhov1", "en", "", "font_green", "Hello, you have reached the number 4202-21913271. Nobody from the family of Roundfish is presently present. Please, leave the message after the beep. What happened?")
 dialog_addDialog("bat-p-zhov1", "cs", "sound/"..codename.."/cs/bat-p-zhov1.ogg", "font_green", "Dobrý den. Dovolali jste se na číslo 02 21913271. Z rodiny Okružáků nikdo není doma. Dokonce ani velkej brácha Eduard. Jestli chcete, můžete nám zanechat vzkaz, až pípne signál. Co je s tím signálem?")
-dialog_addDialog("bat-p-zhov1", "fr", "", "font_green", "Allo, vous appelez le 4202-21913271. Toute la famille Roundfish est actuellement absente. S'il vous plaît, veuillez laissez un message après le beep. Que se passe-t-il ?")
+dialog_addDialog("bat-p-zhov1", "fr", "", "font_green", "Allô, vous appelez le 4202-21913271. Toute la famille Roundfish est actuellement absente. S'il vous plaît, veuillez laissez un message après le beep. Que se passe-t-il ?")
 
 

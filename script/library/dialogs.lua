@@ -1,6 +1,6 @@
 dialog_addDialog("vrak-v-vraky0", "en", "", "font_big", "These shipwrecs grow more and more arrogant.")
 dialog_addDialog("vrak-v-vraky0", "cs", "sound/"..codename.."/cs/vrak-v-vraky0.ogg", "font_big", "Ty vraky lodí jsou čím dál drzejší.")
-dialog_addDialog("vrak-v-vraky0", "fr", "", "font_big", "Ces épaves de bateau sont de plus en plus arrogants.")
+dialog_addDialog("vrak-v-vraky0", "fr", "", "font_big", "Ces épaves de bateaux sont de plus en plus énervants.")
 
 dialog_addDialog("vrak-v-vraky1", "en", "", "font_big", "These sunken ships really irritate me.")
 dialog_addDialog("vrak-v-vraky1", "cs", "sound/"..codename.."/cs/vrak-v-vraky1.ogg", "font_big", "Ty potopené lodě už mi jdou na nervy.")
@@ -8,15 +8,15 @@ dialog_addDialog("vrak-v-vraky1", "fr", "", "font_big", "Ces navires coulés m'�
 
 dialog_addDialog("vrak-v-vraky2", "en", "", "font_big", "Oh my, another ship sank. It really makes me itchy.")
 dialog_addDialog("vrak-v-vraky2", "cs", "sound/"..codename.."/cs/vrak-v-vraky2.ogg", "font_big", "Ach jo, zase se někde potopila loď. Už mám těch vraků dost!")
-dialog_addDialog("vrak-v-vraky2", "fr", "", "font_big", "Oh, encore un navire echoué. Je vais devenir hargneux.")
+dialog_addDialog("vrak-v-vraky2", "fr", "", "font_big", "Oh, encore un navire échoué. Je vais devenir hargneux.")
 
 dialog_addDialog("vrak-m-vrak0", "en", "", "font_small", "Look, it broke our bookcase!")
 dialog_addDialog("vrak-m-vrak0", "cs", "sound/"..codename.."/cs/vrak-m-vrak0.ogg", "font_small", "Podívej, jak nám poničily knihovničku!")
-dialog_addDialog("vrak-m-vrak0", "fr", "", "font_small", "Regarde, il a cassé notre malette !")
+dialog_addDialog("vrak-m-vrak0", "fr", "", "font_small", "Regarde, il a cassé notre mallette !")
 
 dialog_addDialog("vrak-m-vrak1", "en", "", "font_small", "Look, it smashed our shelves.")
 dialog_addDialog("vrak-m-vrak1", "cs", "sound/"..codename.."/cs/vrak-m-vrak1.ogg", "font_small", "Podívej, rozbily nám poličky.")
-dialog_addDialog("vrak-m-vrak1", "fr", "", "font_small", "Et ici, il a ecrasé nos étagères.")
+dialog_addDialog("vrak-m-vrak1", "fr", "", "font_small", "Et ici, il a écrasé nos étagères.")
 
 dialog_addDialog("vrak-m-vrak2", "en", "", "font_small", "Look, it invaded our library.")
 dialog_addDialog("vrak-m-vrak2", "cs", "sound/"..codename.."/cs/vrak-m-vrak2.ogg", "font_small", "Podívej, vlezly nám až do knihovny.")
@@ -28,7 +28,7 @@ dialog_addDialog("vrak-m-kupovat0", "fr", "", "font_small", "Tu vois ? Tu n'aura
 
 dialog_addDialog("vrak-m-kupovat1", "en", "", "font_small", "You buy every book you can lay your hand on and now you have problems.")
 dialog_addDialog("vrak-m-kupovat1", "cs", "sound/"..codename.."/cs/vrak-m-kupovat1.ogg", "font_small", "To máš z toho, že koupíš každou knížku, kterou vidíš.")
-dialog_addDialog("vrak-m-kupovat1", "fr", "", "font_small", "Tu achètes tout les livres qui te passe sous les mains et maintenant tu as des problèmes.")
+dialog_addDialog("vrak-m-kupovat1", "fr", "", "font_small", "Tu achètes tout les livres qui te passent sous les mains et maintenant tu as des problèmes.")
 
 dialog_addDialog("vrak-m-naco", "en", "", "font_small", "Why do you have to have so many of them?")
 dialog_addDialog("vrak-m-naco", "cs", "sound/"..codename.."/cs/vrak-m-naco.ogg", "font_small", "Na co ti všechny jsou?")
@@ -76,15 +76,15 @@ dialog_addDialog("vrak-v-knihy1", "fr", "", "font_big", "Le sous-marin en pain d
 
 dialog_addDialog("vrak-v-knihy2", "en", "", "font_big", "Goldilocks and the Three Lobsters")
 dialog_addDialog("vrak-v-knihy2", "cs", "sound/"..codename.."/cs/vrak-v-knihy2.ogg", "font_big", "Dlouhý, Široký a Hluboký.")
-dialog_addDialog("vrak-v-knihy2", "fr", "", "font_big", "Goldilocks and the Three Lobsters")
+dialog_addDialog("vrak-v-knihy2", "fr", "", "font_big", "Les 101 bigorneaux.")
 
 dialog_addDialog("vrak-v-knihy3", "en", "", "font_big", "Sharkerella")
 dialog_addDialog("vrak-v-knihy3", "cs", "sound/"..codename.."/cs/vrak-v-knihy3.ogg", "font_big", "O rybce se zlatou mušlí na čele.")
-dialog_addDialog("vrak-v-knihy3", "fr", "", "font_big", "Sharkerella")
+dialog_addDialog("vrak-v-knihy3", "fr", "", "font_big", "Les contes des milles et un fonds marins.")
 
 dialog_addDialog("vrak-v-knihy4", "en", "", "font_big", "Slimy Squid and the Seven Dwarfs")
 dialog_addDialog("vrak-v-knihy4", "cs", "sound/"..codename.."/cs/vrak-v-knihy4.ogg", "font_big", "Sépijka a sedm trpaslíků.")
-dialog_addDialog("vrak-v-knihy4", "fr", "", "font_big", "Le Calmar gluant et les septs Nains")
+dialog_addDialog("vrak-v-knihy4", "fr", "", "font_big", "Le Calmar gluant et les sept Nains")
 
 dialog_addDialog("vrak-m-pohadky", "en", "", "font_small", "Never! My lovely fairy-tales.")
 dialog_addDialog("vrak-m-pohadky", "cs", "sound/"..codename.."/cs/vrak-m-pohadky.ogg", "font_small", "Nikdy! Moje oblíbené pohádky!")
@@ -96,7 +96,7 @@ dialog_addDialog("vrak-v-nevejdu0", "fr", "", "font_big", "Je ne peux pas me cac
 
 dialog_addDialog("vrak-v-nevejdu1", "en", "", "font_big", "I can`t fit in here.")
 dialog_addDialog("vrak-v-nevejdu1", "cs", "sound/"..codename.."/cs/vrak-v-nevejdu1.ogg", "font_big", "Sem se nevejdu.")
-dialog_addDialog("vrak-v-nevejdu1", "fr", "", "font_big", "Je ne rentre pas la dedans.")
+dialog_addDialog("vrak-v-nevejdu1", "fr", "", "font_big", "Je ne rentre pas là dedans.")
 
 dialog_addDialog("vrak-m-cteni0", "en", "", "font_small", "Why do we have so many books if we cannot pull them out anyway?")
 dialog_addDialog("vrak-m-cteni0", "cs", "sound/"..codename.."/cs/vrak-m-cteni0.ogg", "font_small", "K čemu je nám tolik knížek, když stejně nejdou vytáhnout z poliček?")

@@ -12,7 +12,7 @@ dialog_addDialog("poc-m-lezt2", "fr", "", "font_small", "Wow, ça c'est du lieu.
 
 dialog_addDialog("poc-v-kam0", "en", "", "font_big", "Where can man - I mean fish - get by climbing into toilet?")
 dialog_addDialog("poc-v-kam0", "cs", "sound/"..codename.."/cs/poc-v-kam0.ogg", "font_big", "Kam tak člověk - chci říci ryba - může vlézt záchodem?")
-dialog_addDialog("poc-v-kam0", "fr", "", "font_big", "Par où les hommes - je veux dire poisson - grimpent aux toillettes ?")
+dialog_addDialog("poc-v-kam0", "fr", "", "font_big", "Par où les hommes - je veux dire les poissons - grimpent aux toillettes ?")
 
 dialog_addDialog("poc-v-kam1", "en", "", "font_big", "It looks like a cozy little dump.")
 dialog_addDialog("poc-v-kam1", "cs", "sound/"..codename.."/cs/poc-v-kam1.ogg", "font_big", "Vypadá to na malé úhledné smetiště.")
@@ -28,7 +28,7 @@ dialog_addDialog("poc-v-kam3", "fr", "", "font_big", "J'imagine que ça va être
 
 dialog_addDialog("poc-v-nenajde", "en", "", "font_big", "You can find many strange things in such a dump.")
 dialog_addDialog("poc-v-nenajde", "cs", "sound/"..codename.."/cs/poc-v-nenajde.ogg", "font_big", "Co všechno se na takovém smetišti nenajde.")
-dialog_addDialog("poc-v-nenajde", "fr", "", "font_big", "Tu peux trouver beaucoup de chose bizarre dans un tel dépotoir.")
+dialog_addDialog("poc-v-nenajde", "fr", "", "font_big", "Tu peux trouver beaucoup de choses bizarres dans un tel dépotoir.")
 
 dialog_addDialog("poc-m-myslis", "en", "", "font_small", "Do you think this is the computer that`s in stake in this game?")
 dialog_addDialog("poc-m-myslis", "cs", "sound/"..codename.."/cs/poc-m-myslis.ogg", "font_small", "Myslíš, že tohle je ten počítač, o který se tu hraje?")
@@ -36,11 +36,11 @@ dialog_addDialog("poc-m-myslis", "fr", "", "font_small", "Penses-tu que c'est l'
 
 dialog_addDialog("poc-v-multimed", "en", "", "font_big", "Surely not! This is no powerful multimedia computer. This is but XT machine with twelve inch display.")
 dialog_addDialog("poc-v-multimed", "cs", "sound/"..codename.."/cs/poc-v-multimed.ogg", "font_big", "No dovol! Tohle přece není výkoný multimediální počítač. To je XTéčko s dvanáctipalcovým monitorem.")
-dialog_addDialog("poc-v-multimed", "fr", "", "font_big", "Surement pas ! Ce n'est pas un ordinateur multimedia puissant. Ce n'est qu'un XT avec écran 12 pouces.")
+dialog_addDialog("poc-v-multimed", "fr", "", "font_big", "Sûrement pas ! Ce n'est pas un ordinateur multimédia puissant. Ce n'est qu'un XT avec écran 12 pouces.")
 
 dialog_addDialog("poc-v-vyresil", "en", "", "font_big", "The one who will solve, I mean who have solved, will receive, I mean received, MMX based machine with 3Dfx card, plenty of RAM, huge hard disk...")
 dialog_addDialog("poc-v-vyresil", "cs", "sound/"..codename.."/cs/poc-v-vyresil.ogg", "font_big", "Ten, kdo první vyřeší, chci říci vyřešil, všechny zbývající levely, vyhraje, chci říci vyhrál, počítač s technologií MMX, 3Dfx kartou, spoustou paměti, olbřímím diskem...")
-dialog_addDialog("poc-v-vyresil", "fr", "", "font_big", "Celui qui résoudra, je veux dire a résolu, recevra, je veux dire a reçu, un ordinateur MMX avec une carte video 3Dfx, beaucoup de RAM, un énorme disque...")
+dialog_addDialog("poc-v-vyresil", "fr", "", "font_big", "Celui qui résoudra, je veux dire a résolu, recevra, je veux dire a reçu, un ordinateur MMX avec une carte vidéo 3Dfx, beaucoup de RAM, un énorme disque...")
 
 dialog_addDialog("poc-m-kcemu", "en", "", "font_small", "And what is it for? I for one know plenty of games almost as good as this one that could easily run on this XT machine.")
 dialog_addDialog("poc-m-kcemu", "cs", "sound/"..codename.."/cs/poc-m-kcemu.ogg", "font_small", "No a k čemu to je? Já třeba znám spoustu her, skroro stejně dobrých, jako je tahle, a ty by klidně běžely i na tomhle XTéčku.")
@@ -64,7 +64,7 @@ dialog_addDialog("poc-v-stahni", "fr", "", "font_big", "Qu'attendons-nous alors 
 
 dialog_addDialog("poc-m-ukryta", "en", "", "font_small", "It won`t be as easy as that. The data are surely going to be hidden somewhere. We have to go in.")
 dialog_addDialog("poc-m-ukryta", "cs", "sound/"..codename.."/cs/poc-m-ukryta.ogg", "font_small", "To nebude tak jednoduché. Data v něm budou určitě dobře ukryta. Budu se muset dostat dovnitř.")
-dialog_addDialog("poc-m-ukryta", "fr", "", "font_small", "Ce n'est pas aussi simple que ça. Les données sont surement cachées. Introduisons nous à l'intérieur.")
+dialog_addDialog("poc-m-ukryta", "fr", "", "font_small", "Ce n'est pas aussi simple que ça. Les données sont sûrement cachées. Introduisons nous à l'intérieur.")
 
 dialog_addDialog("poc-v-dira", "en", "", "font_big", "And what about getting in through that opening?")
 dialog_addDialog("poc-v-dira", "cs", "sound/"..codename.."/cs/poc-v-dira.ogg", "font_big", "Co tam zkusit vlézt třeba támhletou dírou?")
@@ -84,9 +84,9 @@ dialog_addDialog("poc-m-vyvrtka", "fr", "", "font_small", "Pause cette visse et 
 
 dialog_addDialog("poc-m-kram", "en", "", "font_small", "Oh my, what a sloppy machine. So big, so heavy and surely so slow.")
 dialog_addDialog("poc-m-kram", "cs", "sound/"..codename.."/cs/poc-m-kram.ogg", "font_small", "To je ale odporný krám. Velký, těžký a určitě strašně pomalý.")
-dialog_addDialog("poc-m-kram", "fr", "", "font_small", "Oh, quelle vieille machine. Si grande, si lourde et surement très lente.")
+dialog_addDialog("poc-m-kram", "fr", "", "font_small", "Oh, quelle vieille machine. Si grande, si lourde et sûrement très lente.")
 
 dialog_addDialog("poc-v-mono", "en", "", "font_big", "And moreover only mono.")
 dialog_addDialog("poc-v-mono", "cs", "sound/"..codename.."/cs/poc-v-mono.ogg", "font_big", "A navíc mono.")
-dialog_addDialog("poc-v-mono", "fr", "", "font_big", "Et de plus juste mono.")
+dialog_addDialog("poc-v-mono", "fr", "", "font_big", "Et de plus juste monoprocesseur.")
 

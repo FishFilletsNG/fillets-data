@@ -8,7 +8,7 @@ dialog_addDialog("pra-v-klesnout", "fr", "", "font_big", "Je ne dois pas nager v
 
 dialog_addDialog("pra-v-nahore", "en", "", "font_big", "Hey, arrange it up there somehow. But be careful!")
 dialog_addDialog("pra-v-nahore", "cs", "sound/"..codename.."/cs/pra-v-nahore.ogg", "font_big", "Hej, urovnej mi to tam nahoře nějak. Ale opatrně!")
-dialog_addDialog("pra-v-nahore", "fr", "", "font_big", "Hey, range les objets correctement. Fais attention !")
+dialog_addDialog("pra-v-nahore", "fr", "", "font_big", "Hé, range les objets correctement. Fais attention !")
 
 dialog_addDialog("pra-m-nepohnu", "en", "", "font_small", "I can`t move this. This is a steel.")
 dialog_addDialog("pra-m-nepohnu", "cs", "sound/"..codename.."/cs/pra-m-nepohnu.ogg", "font_small", "S tímhle já nepohnu, to je ocel.")
@@ -20,7 +20,7 @@ dialog_addDialog("pra-m-zpatky", "fr", "", "font_small", "Reviens, tu ne peux pa
 
 dialog_addDialog("pra-v-zapeklita", "en", "", "font_big", "Hmm... This is tricky. If we push aside the honey, we will be smashed by that can of apricot jam.")
 dialog_addDialog("pra-v-zapeklita", "cs", "sound/"..codename.."/cs/pra-v-zapeklita.ogg", "font_big", "Hmmm... zapeklitá věc. Jakmile odstrčíme med, spadne na nás meruňková marmeláda.")
-dialog_addDialog("pra-v-zapeklita", "fr", "", "font_big", "Hmm... C'est un piège. Si nous poussons le miel, nous serons ecrasés par la canette de jus d'abricot.")
+dialog_addDialog("pra-v-zapeklita", "fr", "", "font_big", "Hmm... C'est un piège. Si nous poussons le miel, nous serons écrasés par la canette de jus d'abricot.")
 
 dialog_addDialog("pra-m-vyrazit", "en", "", "font_small", "Couldn`t we push it aside with that axe?")
 dialog_addDialog("pra-m-vyrazit", "cs", "sound/"..codename.."/cs/pra-m-vyrazit.ogg", "font_small", "Co takhle to vyrazit tou sekyrou?")
@@ -64,7 +64,7 @@ dialog_addDialog("pra-v-spatne", "fr", "", "font_big", "Ca sent mauvais. Tu vas 
 
 dialog_addDialog("pra-m-pustis", "en", "", "font_small", "If you drop this and I`ll stay here, I will never get out.")
 dialog_addDialog("pra-m-pustis", "cs", "sound/"..codename.."/cs/pra-m-pustis.ogg", "font_small", "Jestli to pustíš a já zůstanu tady, nedostanu se už nikdy ven.")
-dialog_addDialog("pra-m-pustis", "fr", "", "font_small", "Si tu le lache et que je reste ici, je ne pourrais jamais sortir.")
+dialog_addDialog("pra-m-pustis", "fr", "", "font_small", "Si tu le lâche et que je reste ici, je ne pourrais jamais sortir.")
 
 dialog_addDialog("pra-v-zavazis", "en", "", "font_big", "You stand in my way there. Try to hide somewhere else.")
 dialog_addDialog("pra-v-zavazis", "cs", "sound/"..codename.."/cs/pra-v-zavazis.ogg", "font_big", "Tam mi zavazíš, zkus se schovat jinde.")
@@ -112,7 +112,7 @@ dialog_addDialog("pra-v-dopredu", "fr", "", "font_big", "De temps à autre, tu d
 
 dialog_addDialog("pra-m-restart", "en", "", "font_small", "And often you have to restart the level then.")
 dialog_addDialog("pra-m-restart", "cs", "sound/"..codename.."/cs/pra-m-restart.ogg", "font_small", "Často se pak stává, že musíš místnost restartovat.")
-dialog_addDialog("pra-m-restart", "fr", "", "font_small", "Et souvent tu devras tout recommancer.")
+dialog_addDialog("pra-m-restart", "fr", "", "font_small", "Et souvent tu devras tout recommencer.")
 
 dialog_addDialog("pra-v-schvalne", "en", "", "font_big", "We admit that we did this on purpose.")
 dialog_addDialog("pra-v-schvalne", "cs", "sound/"..codename.."/cs/pra-v-schvalne.ogg", "font_big", "Přiznáváme, tohle jsme na tebe narafičili schválně.")
@@ -120,5 +120,5 @@ dialog_addDialog("pra-v-schvalne", "fr", "", "font_big", "D'accord, nous l'avons
 
 dialog_addDialog("pra-m-znovu", "en", "", "font_small", "So that you could try it again - this time without any hints.")
 dialog_addDialog("pra-m-znovu", "cs", "sound/"..codename.."/cs/pra-m-znovu.ogg", "font_small", "Aby sis to zkusil znovu - a tentokrát už bez našich rad.")
-dialog_addDialog("pra-m-znovu", "fr", "", "font_small", "Allez, recommance le niveau - Sans aide cette fois.")
+dialog_addDialog("pra-m-znovu", "fr", "", "font_small", "Allez, recommence le niveau - Sans aide cette fois.")
 

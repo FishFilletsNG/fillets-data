@@ -20,15 +20,15 @@ dialog_addDialog("dr-m-tojesnad", "fr", "", "font_small", "Ce doit être un bate
 
 dialog_addDialog("dr-v-jiste", "en", "", "font_big", "Sure, it`s a drakkar.")
 dialog_addDialog("dr-v-jiste", "cs", "sound/"..codename.."/cs/dr-v-jiste.ogg", "font_big", "Jistě, je to drakkar.")
-dialog_addDialog("dr-v-jiste", "fr", "", "font_big", "Surement, c'est un drakkar.")
+dialog_addDialog("dr-v-jiste", "fr", "", "font_big", "Sûrement, c'est un drakkar.")
 
 dialog_addDialog("dr-m-musela", "en", "", "font_small", "She must have sunk fast. The oarsmen are still in their places.")
 dialog_addDialog("dr-m-musela", "cs", "sound/"..codename.."/cs/dr-m-musela.ogg", "font_small", "Musela se potopit hrozně rychle. Veslaři ještě sedí na svých místech.")
-dialog_addDialog("dr-m-musela", "fr", "", "font_small", "Il a dù couler très vite. Les rameurs sont toujours à leur place.")
+dialog_addDialog("dr-m-musela", "fr", "", "font_small", "Il a dû couler très vite. Les rameurs sont toujours à leur place.")
 
 dialog_addDialog("dr-v-mozna", "en", "", "font_big", "Maybe they sank her on purpose. Warriors would always accompany their leader on his way to Valhalla.")
 dialog_addDialog("dr-v-mozna", "cs", "sound/"..codename.."/cs/dr-v-mozna.ogg", "font_big", "Možná, že ji potopili schválně. Bojovníci doprovázejí svého velitele do Valhaly...")
-dialog_addDialog("dr-v-mozna", "fr", "", "font_big", "Ils l'ont peut-être voulut. Les guerriers accompagnent toujours leur chef sur le chemin du Valhalla.")
+dialog_addDialog("dr-v-mozna", "fr", "", "font_big", "Ils l'ont peut-être voulut. Les guerriers accompagnent toujours leur chef sur le chemin du Walhalla.")
 
 dialog_addDialog("dr-m-hruza", "en", "", "font_small", "That's awful. They look like they're still alive.")
 dialog_addDialog("dr-m-hruza", "cs", "sound/"..codename.."/cs/dr-m-hruza.ogg", "font_small", "Hrůza... sedí tu jako živí...")

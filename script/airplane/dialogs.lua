@@ -1,6 +1,6 @@
 dialog_addDialog("let-m-divna", "en", "", "font_small", "What kind of strange ship is that?")
 dialog_addDialog("let-m-divna", "cs", "sound/"..codename.."/cs/let-m-divna.ogg", "font_small", "Co je to za divnou loď?")
-dialog_addDialog("let-m-divna", "fr", "", "font_small", "Quel drôle de navire est-ce ?")
+dialog_addDialog("let-m-divna", "fr", "", "font_small", "Quel est ce drôle de navire ?")
 
 dialog_addDialog("let-v-vrak0", "en", "", "font_big", "This is a wreck of civilian airplane LC-10 Lemura.")
 dialog_addDialog("let-v-vrak0", "cs", "sound/"..codename.."/cs/let-v-vrak0.ogg", "font_big", "To je vrak dopravního letadla LC-10 Lemura.")
@@ -12,15 +12,15 @@ dialog_addDialog("let-v-vrak1", "fr", "", "font_big", "Ca, c'est l'épave d'un a
 
 dialog_addDialog("let-v-vrak2", "en", "", "font_big", "This is a wreck of civilian airplane Poseidon 737.")
 dialog_addDialog("let-v-vrak2", "cs", "sound/"..codename.."/cs/let-v-vrak2.ogg", "font_big", "To je vrak dopravního letadla Poseidon 737.")
-dialog_addDialog("let-v-vrak2", "fr", "", "font_big", "Et ici, d'un avion civile Poseïdon 737.")
+dialog_addDialog("let-v-vrak2", "fr", "", "font_big", "Et ici, d'un avion civile Poseidon 737.")
 
 dialog_addDialog("let-v-oko", "en", "", "font_big", "Can you see that eye? The silent witness to the tragedy... Somebody trusted this airplane - and the glass eye is everything he left behind.")
 dialog_addDialog("let-v-oko", "cs", "sound/"..codename.."/cs/let-v-oko.ogg", "font_big", "Vidíš to oko? Němý svědek tragédie... Někdo v důvěře usedl do letadla - a zůstalo z něho jen skleněné oko.")
-dialog_addDialog("let-v-oko", "fr", "", "font_big", "Peux-tu voir cet oeuil ? Témoin silencieux de la tragédie...Cette personne avait foie dans cet avion - et cet oeuil de verre est la seule chose qu'il a laissée.")
+dialog_addDialog("let-v-oko", "fr", "", "font_big", "Peux-tu voir cet oeil ? Témoin silencieux de la tragédie...Une personne avait foi dans cet avion - et cet oeil de verre est la seule chose qu'il a laissée.")
 
 dialog_addDialog("let-m-oko", "en", "", "font_small", "This is not a glass eye but gyroscope. At least in this level.")
 dialog_addDialog("let-m-oko", "cs", "sound/"..codename.."/cs/let-m-oko.ogg", "font_small", "To není skleněné oko, ale gyroskop. Aspoň v této místnosti.")
-dialog_addDialog("let-m-oko", "fr", "", "font_small", "Ce n'est pas un oeuil de verre mais un gyroscope. Au moins dans ce niveau.")
+dialog_addDialog("let-m-oko", "fr", "", "font_small", "Ce n'est pas un oeil de verre mais un gyroscope. Au moins dans ce niveau.")
 
 dialog_addDialog("let-m-sedadlo", "en", "", "font_small", "Seats. Why is there so many seats here?")
 dialog_addDialog("let-m-sedadlo", "cs", "sound/"..codename.."/cs/let-m-sedadlo.ogg", "font_small", "Sedadla. Proč jsou tu všude sedadla?")

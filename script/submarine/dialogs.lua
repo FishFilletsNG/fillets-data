@@ -24,11 +24,11 @@ dialog_addDialog("zr-m-pockej", "fr", "", "font_small", "Attends ! Et moi ! Je v
 
 dialog_addDialog("zr-v-hej", "en", "", "font_big", "Hey, is anybody down there?")
 dialog_addDialog("zr-v-hej", "cs", "sound/"..codename.."/cs/zr-v-hej.ogg", "font_big", "Hej, jsi tam dole?")
-dialog_addDialog("zr-v-hej", "fr", "", "font_big", "Hey, Il y a quelqu'un en bas ?")
+dialog_addDialog("zr-v-hej", "fr", "", "font_big", "Hé, Il y a quelqu'un en bas ?")
 
 dialog_addDialog("zr-v-halo", "en", "", "font_big", "Hello, can you hear me in there?")
 dialog_addDialog("zr-v-halo", "cs", "sound/"..codename.."/cs/zr-v-halo.ogg", "font_big", "Haló, slyšíš mě tam uvnitř?")
-dialog_addDialog("zr-v-halo", "fr", "", "font_big", "Salut, peux-tu m'entendre la dedans ?")
+dialog_addDialog("zr-v-halo", "fr", "", "font_big", "Salut, peux-tu m'entendre là dedans ?")
 
 dialog_addDialog("zr-v-jetunekdo", "en", "", "font_big", "Is anybody here?")
 dialog_addDialog("zr-v-jetunekdo", "cs", "sound/"..codename.."/cs/zr-v-jetunekdo.ogg", "font_big", "Je tu někdóóó?")

@@ -8,7 +8,7 @@ dialog_addDialog("sch-v-lastura", "fr", "", "font_big", "C'est une sorte de coqu
 
 dialog_addDialog("sch-v-setkani", "en", "", "font_big", "I can see it now: 'Shell Meets Flowerpot`. That`s almost like an iron and a sewing machine meeting on an operating table.")
 dialog_addDialog("sch-v-setkani", "cs", "sound/"..codename.."/cs/sch-v-setkani.ogg", "font_big", "Setkání lastury s květináčem. To je skoro jako setkání žehličky s šicím strojem na operačním stole.")
-dialog_addDialog("sch-v-setkani", "fr", "", "font_big", "Je comprends maintenant : 'le coquillage rencontre la plante'. Un peu comme la rencontre d'un fer à repasser et d'une machine à coudre sur une table d'operation.")
+dialog_addDialog("sch-v-setkani", "fr", "", "font_big", "Je comprends maintenant : 'le coquillage rencontre la plante'. Un peu comme la rencontre d'un fer à repasser et d'une machine à coudre sur une table d'opération.")
 
 dialog_addDialog("sch-m-moc0", "en", "", "font_small", "I`m sorry, I got a bit carried away.")
 dialog_addDialog("sch-m-moc0", "cs", "sound/"..codename.."/cs/sch-m-moc0.ogg", "font_small", "Nějak jsem se do toho moc zabrala.")

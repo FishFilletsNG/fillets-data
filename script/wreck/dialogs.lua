@@ -24,7 +24,7 @@ dialog_addDialog("pot-v-cepic", "fr", "", "font_big", "Très joli chapeau.")
 
 dialog_addDialog("pot-m-klob", "en", "", "font_small", "Your stetson is quite good, too.")
 dialog_addDialog("pot-m-klob", "cs", "sound/"..codename.."/cs/pot-m-klob.ogg", "font_small", "Tvůj klobouk taky ujde.")
-dialog_addDialog("pot-m-klob", "fr", "", "font_small", "Ton stetson est pas mal aussi.")
+dialog_addDialog("pot-m-klob", "fr", "", "font_small", "Ton chapeau stetson est pas mal aussi.")
 
 dialog_addDialog("pot-v-hlave", "en", "", "font_big", "What is that on your head?")
 dialog_addDialog("pot-v-hlave", "cs", "sound/"..codename.."/cs/pot-v-hlave.ogg", "font_big", "Co to máš na hlavě?")
@@ -36,7 +36,7 @@ dialog_addDialog("pot-m-zima", "fr", "", "font_small", "Mes ouies sont gelées."
 
 dialog_addDialog("pot-m-pujc", "en", "", "font_small", "That`s some hat! Can I borrow it?")
 dialog_addDialog("pot-m-pujc", "cs", "sound/"..codename.."/cs/pot-m-pujc.ogg", "font_small", "Ty máš ale klobouk! Půjčíš mi ho?")
-dialog_addDialog("pot-m-pujc", "fr", "", "font_small", "Parmi ces chapeau, pourrais-je en coiffer un.")
+dialog_addDialog("pot-m-pujc", "fr", "", "font_small", "Parmi ces chapeaux, pourrais-je en coiffer un.")
 
 dialog_addDialog("pot-v-leda", "en", "", "font_big", "If you lend me yours.")
 dialog_addDialog("pot-v-leda", "cs", "sound/"..codename.."/cs/pot-v-leda.ogg", "font_big", "Leda za čepičku.")
@@ -44,7 +44,7 @@ dialog_addDialog("pot-v-leda", "fr", "", "font_big", "Si tu me prêtes les tiens
 
 dialog_addDialog("pot-m-velik", "en", "", "font_small", "This sure is a big stetson.")
 dialog_addDialog("pot-m-velik", "cs", "sound/"..codename.."/cs/pot-m-velik.ogg", "font_small", "To je ale veliký klobouk.")
-dialog_addDialog("pot-m-velik", "fr", "", "font_small", "C'est surement un bon stetson.")
+dialog_addDialog("pot-m-velik", "fr", "", "font_small", "C'est sûrement un bon chapeau stetson.")
 
 dialog_addDialog("pot-v-kras", "en", "", "font_big", "And a beatiful one, too.")
 dialog_addDialog("pot-v-kras", "cs", "sound/"..codename.."/cs/pot-v-kras.ogg", "font_big", "A taky krásný.")

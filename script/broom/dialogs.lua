@@ -1,6 +1,6 @@
 dialog_addDialog("kos-m-uklid0", "en", "", "font_small", "It`s been a long time since we`ve been here...")
 dialog_addDialog("kos-m-uklid0", "cs", "sound/"..codename.."/cs/kos-m-uklid0.ogg", "font_small", "Tady jsme už dlouho nebyli.")
-dialog_addDialog("kos-m-uklid0", "fr", "", "font_small", "Ca fait un moment que nous ne sommes pas venu ici...")
+dialog_addDialog("kos-m-uklid0", "fr", "", "font_small", "Ca fait un moment que nous ne sommes pas venus ici...")
 
 dialog_addDialog("kos-m-uklid1", "en", "", "font_small", "Nobody has cleaned up in here for a long time.")
 dialog_addDialog("kos-m-uklid1", "cs", "sound/"..codename.."/cs/kos-m-uklid1.ogg", "font_small", "Tady se už dlouho neuklízelo.")
@@ -8,7 +8,7 @@ dialog_addDialog("kos-m-uklid1", "fr", "", "font_small", "Personne n'a fait le m
 
 dialog_addDialog("kos-m-uklid2", "en", "", "font_small", "I knew we`d have to clean this room up.")
 dialog_addDialog("kos-m-uklid2", "cs", "sound/"..codename.."/cs/kos-m-uklid2.ogg", "font_small", "Já jsem věděla, že tu budeme muset uklízet.")
-dialog_addDialog("kos-m-uklid2", "fr", "", "font_small", "Je sais, nous devons nettoyer la piece.")
+dialog_addDialog("kos-m-uklid2", "fr", "", "font_small", "Je sais, nous devons nettoyer la pièce.")
 
 dialog_addDialog("kos-v-poradek0", "en", "", "font_big", "At least we can tidy things up.")
 dialog_addDialog("kos-v-poradek0", "cs", "sound/"..codename.."/cs/kos-v-poradek0.ogg", "font_big", "Aspoň tu uděláme pořádek.")

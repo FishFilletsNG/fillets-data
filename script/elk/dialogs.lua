@@ -4,7 +4,7 @@ dialog_addDialog("deu-m-valka", "fr", "", "font_small", "La guerre a eut lieu ic
 
 dialog_addDialog("deu-v-nepratelstvi", "en", "", "font_big", "The hostility will never ebb.")
 dialog_addDialog("deu-v-nepratelstvi", "cs", "sound/"..codename.."/cs/deu-v-nepratelstvi.ogg", "font_big", "Nepřátelství nikdy neutichne.")
-dialog_addDialog("deu-v-nepratelstvi", "fr", "", "font_big", "Les hostillités ne cesseront jamais.")
+dialog_addDialog("deu-v-nepratelstvi", "fr", "", "font_big", "Les hostilités ne cesseront jamais.")
 
 dialog_addDialog("deu-m-bojovat", "en", "", "font_small", "They will fight to the last... parrot.")
 dialog_addDialog("deu-m-bojovat", "cs", "sound/"..codename.."/cs/deu-m-bojovat.ogg", "font_small", "Budou bojovat až do posledního... papouška.")

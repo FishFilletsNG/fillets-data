@@ -36,7 +36,7 @@ dialog_addDialog("uts-m-nezvedneme", "fr", "", "font_small", "Ca va être diffic
 
 dialog_addDialog("uts-v-konecne", "en", "", "font_big", "Finally, it`s there.")
 dialog_addDialog("uts-v-konecne", "cs", "sound/"..codename.."/cs/uts-v-konecne.ogg", "font_big", "Konečně je tam.")
-dialog_addDialog("uts-v-konecne", "fr", "", "font_big", "Finallement ça y est.")
+dialog_addDialog("uts-v-konecne", "fr", "", "font_big", "Finalement ça y est.")
 
 dialog_addDialog("uts-m-chudak", "en", "", "font_small", "The poor snail...")
 dialog_addDialog("uts-m-chudak", "cs", "sound/"..codename.."/cs/uts-m-chudak.ogg", "font_small", "Chudáček šneček...")
@@ -56,7 +56,7 @@ dialog_addDialog("uts-v-mikroskop", "fr", "", "font_big", "Aurons-nous besoin d'
 
 dialog_addDialog("uts-m-zivocich", "en", "", "font_small", "Yes, they are small. But there can be other life forms.")
 dialog_addDialog("uts-m-zivocich", "cs", "sound/"..codename.."/cs/uts-m-zivocich.ogg", "font_small", "No, jsou malé. Ale mohou tam být i jiní živočichové.")
-dialog_addDialog("uts-m-zivocich", "fr", "", "font_small", "Oui ils sont minuscule. Mais il peut y avoir d'autre forme de vie.")
+dialog_addDialog("uts-m-zivocich", "fr", "", "font_small", "Oui ils sont minuscules. Mais il peut y avoir d'autres formes de vie.")
 
 dialog_addDialog("uts-m-zelvy", "en", "", "font_small", "Coral turtles, for example.")
 dialog_addDialog("uts-m-zelvy", "cs", "sound/"..codename.."/cs/uts-m-zelvy.ogg", "font_small", "Třeba korálové želvy.")

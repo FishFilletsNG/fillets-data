@@ -1,6 +1,6 @@
 dialog_addDialog("sv-m-pomohli", "en", "", "font_small", "This is some improvement. From bathyscaph to tank, this is like from line to the net.")
 dialog_addDialog("sv-m-pomohli", "cs", "sound/"..codename.."/cs/sv-m-pomohli.ogg", "font_small", "To jsme si pomohli. Z batyskafu do tanku, to je jako ze sítě do podběráku.")
-dialog_addDialog("sv-m-pomohli", "fr", "", "font_small", "Il y a de l'ammélioration. Du bathyscaphe au char, c'est comme de la ligne au filet de pêche.")
+dialog_addDialog("sv-m-pomohli", "fr", "", "font_small", "Il y a de l'amélioration. Du bathyscaphe au char, c'est comme de la ligne au filet de pêche.")
 
 dialog_addDialog("sv-v-bezsneku", "en", "", "font_big", "At least, there are no oh-so-obliging snails here.")
 dialog_addDialog("sv-v-bezsneku", "cs", "sound/"..codename.."/cs/sv-v-bezsneku.ogg", "font_big", "Aspoň tu nejsou žádní přeochotní šneci.")
@@ -24,7 +24,7 @@ dialog_addDialog("sv-m-tank", "fr", "", "font_small", "Comment ce char est tomb�
 
 dialog_addDialog("sv-v-obojzivelny", "en", "", "font_big", "Maybe it was an amphibious tank.")
 dialog_addDialog("sv-v-obojzivelny", "cs", "sound/"..codename.."/cs/sv-v-obojzivelny.ogg", "font_big", "Možná to byl obojživelný tank.")
-dialog_addDialog("sv-v-obojzivelny", "fr", "", "font_big", "Il est peut-être amphibi.")
+dialog_addDialog("sv-v-obojzivelny", "fr", "", "font_big", "Il est peut-être amphibie.")
 
 dialog_addDialog("sv-m-kecy", "en", "", "font_small", "Sea amphibious tank? Just imagine: On the moonless night, the uncomprehending defenders bewilderedly watch the forest of snorkels emerging from the surf, searching in vain for the landing craft...")
 dialog_addDialog("sv-m-kecy", "cs", "sound/"..codename.."/cs/sv-m-kecy.ogg", "font_small", "Mořský obojživelný tank? Úplně to vidím před sebou: za bezměsíčné noci se k pobřeží omývanému vlnami šírého oceánu blíží les šnorchlů... a na písečné pláže vyjíždějí první obrněnci... konsternovaní obránci nechápavě hledají loď, která je tu vysadila...")
@@ -36,7 +36,7 @@ dialog_addDialog("sv-v-proc", "fr", "", "font_big", "Pourquoi demandes-tu, si tu
 
 dialog_addDialog("sv-v-potopena", "en", "", "font_big", "Maybe, there is sunken landing craft nearby.")
 dialog_addDialog("sv-v-potopena", "cs", "sound/"..codename.."/cs/sv-v-potopena.ogg", "font_big", "Možná je tu potopená výsadková loď.")
-dialog_addDialog("sv-v-potopena", "fr", "", "font_big", "Peut-être qu'il y a une embarcation echoué pas loin.")
+dialog_addDialog("sv-v-potopena", "fr", "", "font_big", "Peut-être qu'il y a une embarcation échoué pas loin.")
 
 dialog_addDialog("sv-m-pravdepodob", "en", "", "font_small", "It is possible.")
 dialog_addDialog("sv-m-pravdepodob", "cs", "sound/"..codename.."/cs/sv-m-pravdepodob.ogg", "font_small", "To je pravděpodobné.")
@@ -48,7 +48,7 @@ dialog_addDialog("sv-m-munice", "fr", "", "font_small", "Penses-tu que les munit
 
 dialog_addDialog("sv-v-nevim", "en", "", "font_big", "I don`t know. But surely, I`ll try to keep my distance from it.")
 dialog_addDialog("sv-v-nevim", "cs", "sound/"..codename.."/cs/sv-v-nevim.ogg", "font_big", "Nevím. Každopádně se od ní budu držet radši dál.")
-dialog_addDialog("sv-v-nevim", "fr", "", "font_big", "Je ne sais pas. Mais surement. Je vais garder mes distances.")
+dialog_addDialog("sv-v-nevim", "fr", "", "font_big", "Je ne sais pas. Mais sûrement. Je vais garder mes distances.")
 
 dialog_addDialog("sv-v-zebrik", "en", "", "font_big", "I think we are going to need that ladder.")
 dialog_addDialog("sv-v-zebrik", "cs", "sound/"..codename.."/cs/sv-v-zebrik.ogg", "font_big", "Myslím, že budeme potřebovat ten žebřík.")

@@ -6,7 +6,7 @@ worldmap_addDesc("menu", "fr", "Menu", "Fish Fillets - Nouvelle Génération")
 
 worldmap_addDesc("start", "en", "How It All Started", "Fish House")
 worldmap_addDesc("start", "cs", "Jak to všechno začalo", "Rybí domeček")
-worldmap_addDesc("start", "fr", "Comment tout a commancé", "Maison Poisson")
+worldmap_addDesc("start", "fr", "Comment tout a commencé", "Maison Poisson")
 
 worldmap_addDesc("briefcase", "en", "Briefcase Message", "Fish House")
 worldmap_addDesc("briefcase", "cs", "Podivná zásilka", "Rybí domeček")
@@ -34,7 +34,7 @@ worldmap_addDesc("reef", "fr", "Sous le récif", "Maison Poisson")
 
 worldmap_addDesc("wc", "en", "Closed in the Closet", "Fish House")
 worldmap_addDesc("wc", "cs", "Zamčeni na WC", "Rybí domeček")
-worldmap_addDesc("wc", "fr", "Bloquués dans les toilettes", "Maison Poisson")
+worldmap_addDesc("wc", "fr", "Bloqués dans les toilettes", "Maison Poisson")
 
 worldmap_addDesc("submarine", "en", "Drowned Submarine", "Ship Wrecks")
 worldmap_addDesc("submarine", "cs", "Utonulá ponorka", "Vrakoviště")
@@ -66,7 +66,7 @@ worldmap_addDesc("bathyscaph", "fr", "Bathyscaphe", "Les épaves")
 
 worldmap_addDesc("tank", "en", "Amphibious Tank", "Ship Wrecks")
 worldmap_addDesc("tank", "cs", "Obojživelný tank", "Vrakoviště")
-worldmap_addDesc("tank", "fr", "Le char amphibi", "Les épaves")
+worldmap_addDesc("tank", "fr", "Le char amphibie", "Les épaves")
 
 worldmap_addDesc("viking2", "en", "Eight Vikings in a Boat", "Ship Wrecks")
 worldmap_addDesc("viking2", "cs", "Osm vikingů a pes", "Vrakoviště")
@@ -82,7 +82,7 @@ worldmap_addDesc("gods", "fr", "Les dieux doivent être fou", "Les épaves")
 
 worldmap_addDesc("elevator1", "en", "House with an Elevator", "City In the Deep")
 worldmap_addDesc("elevator1", "cs", "Dům s výtahem", "Město v hlubinách")
-worldmap_addDesc("elevator1", "fr", "Maison avec ascenceur", "Citée des profondeurs")
+worldmap_addDesc("elevator1", "fr", "Maison avec ascenseur", "Citée des profondeurs")
 
 worldmap_addDesc("city", "en", "Welcome To Our City", "City In the Deep")
 worldmap_addDesc("city", "cs", "Vítejte ve městě!", "Město v hlubinách")
@@ -98,11 +98,11 @@ worldmap_addDesc("columns", "fr", "Les colonnes", "Citée des profondeurs")
 
 worldmap_addDesc("pavement", "en", "Uneven Pavement", "City In the Deep")
 worldmap_addDesc("pavement", "cs", "Nerovná dlažba", "Město v hlubinách")
-worldmap_addDesc("pavement", "fr", "Chaussée abimée", "Citée des profondeurs")
+worldmap_addDesc("pavement", "fr", "Chaussée abîmée", "Citée des profondeurs")
 
 worldmap_addDesc("pyramid", "en", "Mr. Cheops` House", "City In the Deep")
 worldmap_addDesc("pyramid", "cs", "Dům pana Cheopse", "Město v hlubinách")
-worldmap_addDesc("pyramid", "fr", "Chez Mr. Cheops", "Citée des profondeurs")
+worldmap_addDesc("pyramid", "fr", "Chez Mr. Kheops", "Citée des profondeurs")
 
 worldmap_addDesc("music", "en", "A Bit of Music", "City In the Deep")
 worldmap_addDesc("music", "cs", "Pro potěšení", "Město v hlubinách")
@@ -114,7 +114,7 @@ worldmap_addDesc("crabshow", "fr", "La danse des crabes", "Citée des profondeur
 
 worldmap_addDesc("elevator2", "en", "Another elevator", "City In the Deep")
 worldmap_addDesc("elevator2", "cs", "Druhý dům s výtahem", "Město v hlubinách")
-worldmap_addDesc("elevator2", "fr", "Un autre ascenceur", "Citée des profondeurs")
+worldmap_addDesc("elevator2", "fr", "Un autre ascenseur", "Citée des profondeurs")
 
 worldmap_addDesc("atlantis", "en", "And How It Was", "City In the Deep")
 worldmap_addDesc("atlantis", "cs", "Tak takhle to bylo", "Město v hlubinách")
@@ -186,7 +186,7 @@ worldmap_addDesc("cabin1", "fr", "La cabine du premier matelot", "Le navire de S
 
 worldmap_addDesc("snowman", "en", "The Winter Mess Hall", "Silver's Ship")
 worldmap_addDesc("snowman", "cs", "Zimní jídelna", "Silverova loď")
-worldmap_addDesc("snowman", "fr", "Le mess des officiers", "Le navire de Silver")
+worldmap_addDesc("snowman", "fr", "Le salon d'hiver", "Le navire de Silver")
 
 worldmap_addDesc("cannons", "en", "Fire!", "Silver's Ship")
 worldmap_addDesc("cannons", "cs", "Pal!", "Silverova loď")
@@ -238,7 +238,7 @@ worldmap_addDesc("propulsion", "fr", "La vraie propulsion", "ovni")
 
 worldmap_addDesc("aztec", "en", "Aztec Art Hall", "Treasure Cave")
 worldmap_addDesc("aztec", "cs", "Sál aztéckého umění", "Jeskyně pokladů")
-worldmap_addDesc("aztec", "fr", "La salle d'art Aztec", "La grotte au trésor")
+worldmap_addDesc("aztec", "fr", "La salle d'art Aztèque", "La grotte au trésor")
 
 worldmap_addDesc("gems", "en", "Shiny Cave-in", "Treasure Cave")
 worldmap_addDesc("gems", "cs", "Blýskavý zával", "Jeskyně pokladů")
@@ -250,7 +250,7 @@ worldmap_addDesc("chest", "fr", "Le coffre géant", "La grotte au trésor")
 
 worldmap_addDesc("alibaba", "en", "The Hall of Ali-baba", "Treasure Cave")
 worldmap_addDesc("alibaba", "cs", "Alibabův sál", "Jeskyně pokladů")
-worldmap_addDesc("alibaba", "fr", "La caverne d'Ali-baba", "La grotte au trésor")
+worldmap_addDesc("alibaba", "fr", "La caverne d'Ali Baba", "La grotte au trésor")
 
 worldmap_addDesc("cave", "en", "The Deepest Cave", "Treasure Cave")
 worldmap_addDesc("cave", "cs", "Nejhlubší jeskyně", "Jeskyně pokladů")

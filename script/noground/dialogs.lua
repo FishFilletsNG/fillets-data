@@ -12,9 +12,9 @@ dialog_addDialog("nog-m-uvedom1", "fr", "", "font_small", "Quoiqu'il en soit il 
 
 dialog_addDialog("nog-v-smetiste0", "en", "", "font_big", "This trash heap is weird...")
 dialog_addDialog("nog-v-smetiste0", "cs", "sound/"..codename.."/cs/nog-v-smetiste0.ogg", "font_big", "Tohle smetiště je divný...")
-dialog_addDialog("nog-v-smetiste0", "fr", "", "font_big", "Cet ammoncellement de déchets est curieux...")
+dialog_addDialog("nog-v-smetiste0", "fr", "", "font_big", "Cet amoncellement de déchets est curieux...")
 
 dialog_addDialog("nog-v-smetiste1", "en", "", "font_big", "This garbage heap still looks kind of strange...")
 dialog_addDialog("nog-v-smetiste1", "cs", "sound/"..codename.."/cs/nog-v-smetiste1.ogg", "font_big", "Tohle smetiště je stejně ale divný...")
-dialog_addDialog("nog-v-smetiste1", "fr", "", "font_big", "Ce tas de détrituts reste bizarre...")
+dialog_addDialog("nog-v-smetiste1", "fr", "", "font_big", "Ce tas de détritus reste bizarre...")
 
