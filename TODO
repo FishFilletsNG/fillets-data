@@ -13,12 +13,12 @@ GAME SPECIFIC
 
 INPUT
 1 - keyboard control - arrow keys & space bar to switch between fishes
-1 - key to restart level
-2 - fish move acceleration
-2 - keyboard control - asdw keys and jkli keys
 2 - mouse control - select fish by left-clicking on it, left-click in level to go there without touching anything
 2 - key to load/save position
-
+------
+OK: 1 - key to restart level
+OK: 2 - keyboard control - 'asdw' keys and 'jkli' keys
+OK: 2 - fish move acceleration
 
 STATISTICS
 2 - implement load/save position
@@ -39,7 +39,9 @@ GRAPHICS
 
 
 SOUND
-1 - convert all sound and music to ogg
-2 - other sound playback
+------
+OK: 1 - convert all sound and music to ogg
+OK: 2 - sound playback
+OK: 2 - music playback
 
 
