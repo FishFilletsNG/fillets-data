@@ -9,12 +9,13 @@ local function charAt(s, i)
 end
     
 local function moveXY(model, symbols, destX, destY)
+    -- symbol is e.g. 'UDLR'
     local result = false
     local locX, locY = model:getLoc()
     local w = model:getW()
     local h = model:getH()
 
-    print("TEST: move '"..symbols.."' "..locX..","..locY.." -> "..destX..","..destY)
+    --print("TEST: move '"..symbols.."' "..locX..","..locY.." -> "..destX..","..destY)
 
     --TODO: find undirect path too
     if locX > destX and isWater(locX - 1, locY) then

@@ -11,7 +11,6 @@ local function prog_init()
     -- -------------------------------------------------------------
     local function prog_init_room()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
-        local showmode = false
 
         room.uvod = 0
         room.do_prace = 0
@@ -21,17 +20,15 @@ local function prog_init()
 
         return function()
             if isReady(small) and isReady(big) then
-                if not showmode and small.X == 25 and small.Y == 23 and big.X == 27 and big.Y == 21 then
-                    showmode = true
+                if not game_isPlanning() and small.X == 25 and small.Y == 23 and big.X == 27 and big.Y == 21 then
                     if not big:isLeft() then
                         game_planAction(function(count)
-                            print("TEST: action L"..count)
                             return game_action_move('L')
                         end)
                     end
                     file_include("script/"..codename.."/demo_help.lua")
                 end
-                if not showmode and no_dialog() then
+                if not game_isPlanning() and no_dialog() then
                     if room.uvod == 0 then
                         switch(pokus){
                             [1] = function()
