@@ -84,7 +84,7 @@ dialog_addDialog("bat-t-phone1", "en", "sound/"..codename.."/en/bat-t-phone1.ogg
 
 dialog_addDialog("bat-t-budik", "en", "sound/"..codename.."/en/bat-t-budik.ogg")
 
-dialog_addDialog("bat-p-zhov0", "en", "", "font_statue", "Hello, the chief inspector Clouseau speaking. I am looking for the dangerous shellfish, who... Oh no, not know, Kato, you yellow ape!")
+dialog_addDialog("bat-p-zhov0", "en", "", "font_statue", "Hello, the chief inspector Clouseau speaking. I am looking for the dangerous shellfish, who... Oh no, not now, Kato, you yellow ape!")
 dialog_addDialog("bat-p-zhov0", "cs", "sound/"..codename.."/cs/bat-p-zhov0.ogg", "font_statue", "Haló, tady policejní šéfinspektor Clouseau. Hledám nebezpečné měkkýše, kteří... Kato, teď ne, ty žlutá opice!")
 dialog_addDialog("bat-p-zhov0", "fr", "", "font_statue", "Allô, chef inspecteur Clouseau à l'appareil. Je suis à la recherche du dangereux crustacé, qui ... Oh non, pas maintenant, Kato, tu vas rire jaune.")
 
