@@ -17,3 +17,7 @@ Library SDL_image (png, jpg support)
 How to run:
 ./game
 
+controls:
+small fish ... arows
+big fish   ... keypad (4568)
+

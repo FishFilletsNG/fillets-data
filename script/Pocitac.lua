@@ -77,7 +77,7 @@ XXXX
    X
 ]])
 
-small = addModel("fish_small", 12, 7, "images/Pocitac/7-Mala.png",
+little = addModel("fish_small", 12, 7, "images/Pocitac/7-Mala.png",
 [[
 XXX
 ]])
@@ -113,15 +113,30 @@ XX
 
 
 
--- animations
-model_addAnim(small, "skeleton", "images/fishes/small_skeleton.png")
-model_addAnim(big, "skeleton", "images/fishes/big_skeleton.png")
+-- TODO: find file in userdir or systemdir
+require("script/level_funcs.lua")
+
+-- -----------------------------------------------------------------
+-- LITTLE fish
+little = createObject(little)
+addFishAnim(little, "little")
+
+-- -----------------------------------------------------------------
+-- BIG fish
+big = createObject(big)
+addFishAnim(big, "big")
+
+-- ---------------------------------------------------------------
+-- Update
+-- ---------------------------------------------------------------
+function nextRound() 
+    animateFish(little)
+    animateFish(big)
+end
 
 -- ---------------------------------------------------------------
 -- Update
 -- ---------------------------------------------------------------
 function update()
-    -- print("script update")
-    -- x, y =  model_getLoc(small)
-    -- print(x .. ", " .. y)
+
 end
