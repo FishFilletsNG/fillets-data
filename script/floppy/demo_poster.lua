@@ -1,16 +1,16 @@
 dialog_addDialog("dlg-x-poster1", "en", "", "font_orange", "THE GREATEST EARTHQUAKE SINCE 1990")
 dialog_addDialog("dlg-x-poster1", "cs", "", "font_orange", "NEJVĚTŠÍ ZEMĚTŘESENÍ OD ROKU 1990")
 
-dialog_addDialog("dlg-x-poster2", "en", "", "font_orange", "when Dungeons & Dragons was issued, Rules for beginners, version 1.0.")
+dialog_addDialog("dlg-x-poster2", "en", "", "font_orange", "when Dragon's Lair was issued, Rules for beginners, version 1.0.")
 dialog_addDialog("dlg-x-poster2", "cs", "", "font_orange", "kdy vyšlo Dračí doupě, Pravidla pro začátečníky, verze 1.0.")
 
-dialog_addDialog("dlg-x-poster3", "en", "", "font_orange", "DUNGEONS & DRAGONS PLUS")
+dialog_addDialog("dlg-x-poster3", "en", "", "font_orange", "DRAGON'S LAIR PLUS")
 dialog_addDialog("dlg-x-poster3", "cs", "", "font_orange", "DRAČÍ DOUPĚ PLUS")
 
 dialog_addDialog("dlg-x-poster4", "en", "", "font_orange", "The world of role-playing games will soon change forever.")
 dialog_addDialog("dlg-x-poster4", "cs", "", "font_orange", "Již brzy se svět her na hrdiny změní navždy.")
 
-dialog_addDialog("dlg-x-poster5", "en", "", "font_orange", "Dungeons & Dragons Plus is not only a new version.")
+dialog_addDialog("dlg-x-poster5", "en", "", "font_orange", "Dragon's Lair Plus is not only a new version.")
 dialog_addDialog("dlg-x-poster5", "cs", "", "font_orange", "Dračí doupě plus není jen nová verze.")
 
 dialog_addDialog("dlg-x-poster6", "en", "", "font_orange", "It's a new game.")
@@ -23,7 +23,7 @@ dialog_addDialog("dlg-x-poster8", "en", "", "font_orange", "A game for 21. centu
 dialog_addDialog("dlg-x-poster8", "cs", "", "font_orange", "Hra pro 21. století.")
 
 dialog_addDialog("dlg-x-poster9", "en", "", "font_orange", "GAMES HAVE CHANGED")
-dialog_addDialog("dlg-x-poster9", "cs", "", "font_orange", "HRY SE ZMĚNILY")
+dialog_addDialog("dlg-x-poster9", "cs", "", "font_poster", "HRY SE ZMĚNILY")
 
 dialog_addDialog("dlg-x-poster10", "en", "", "font_poster", "This is what we get from the computer after inserting the waterproof diskette that was found during our investigation of secret criminal organisation.")
 dialog_addDialog("dlg-x-poster10", "cs", "", "font_poster", "Tohle nám vyjelo z počítače po vložení vodovzdorné diskety nalezené při pátrání po tajné zločinné organizaci.")
