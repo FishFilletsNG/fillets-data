@@ -71,12 +71,12 @@ dialog_addDialog("ka2-v-mapa1", "de", "", "font_big", "Die haben uns eindeutig g
 
 dialog_addDialog("ka2-v-mapa2", "en", "", "font_big", "Don`t be so annoying. The authors of the game would surely let the player know.")
 dialog_addDialog("ka2-v-mapa2", "cs", "sound/"..codename.."/cs/ka2-v-mapa2.ogg", "font_big", "Neotravuj pořád. Autoři hry jistě nenechají hráče v nejistotě!")
-dialog_addDialog("ka2-v-mapa2", "fr", "", "font_big", "Soit pas si contrariant. Les auteurs du jeu voulait surement que le joueur sache.")
+dialog_addDialog("ka2-v-mapa2", "fr", "", "font_big", "Soit pas si contrariant. Les auteurs du jeu voulait sûrement que le joueur sache.")
 dialog_addDialog("ka2-v-mapa2", "de", "", "font_big", "Nerv nicht. Die Spieleschreiber würden es dem Spieler sicherlich sagen.")
 
 dialog_addDialog("ka2-m-chapadlo", "en", "", "font_small", "This octopus has unpleasantly knotted tentacles. I won`t fit between them.")
 dialog_addDialog("ka2-m-chapadlo", "cs", "sound/"..codename.."/cs/ka2-m-chapadlo.ogg", "font_small", "Ta chobotnice má nepříjemně zasukovaná chapadla. Nevejdu se mezi ně.")
-dialog_addDialog("ka2-m-chapadlo", "fr", "", "font_small", "Cette pieuvre a emmélé ces tentacules de manière disgracieuse. Je ne peux pas me glisser entre elles.")
+dialog_addDialog("ka2-m-chapadlo", "fr", "", "font_small", "Cette pieuvre a emmêlé ces tentacules de manière disgracieuse. Je ne peux pas me glisser entre elles.")
 dialog_addDialog("ka2-m-chapadlo", "de", "", "font_small", "Dieser Krake hat ziemlich verknotete Fangarme. Da pass ich nicht dazwischen.")
 
 dialog_addDialog("ka2-v-fik", "en", "", "font_big", "... so what if we cut one off?!")
@@ -96,7 +96,7 @@ dialog_addDialog("ka2-m-hej", "de", "", "font_small", "Kleiner Krake, kannst du 
 
 dialog_addDialog("ka2-m-diky", "en", "", "font_small", "Hmm... thanks a lot.")
 dialog_addDialog("ka2-m-diky", "cs", "sound/"..codename.."/cs/ka2-m-diky.ogg", "font_small", "Hmmm... tak díky.")
-dialog_addDialog("ka2-m-diky", "fr", "", "font_small", "Hmm... Merci beaucoup.")
+dialog_addDialog("ka2-m-diky", "fr", "", "font_small", "Hum... Merci beaucoup.")
 dialog_addDialog("ka2-m-diky", "de", "", "font_small", "Hmm... vielen Dank.")
 
 dialog_addDialog("ka2-v-kostry", "en", "", "font_big", "Skeletons seem to be a favorite motif of this game authors.")
@@ -116,7 +116,7 @@ dialog_addDialog("ka2-v-myslet", "de", "", "font_big", "Lass uns nachdenken. Kö
 
 dialog_addDialog("ka2-m-tezko", "en", "", "font_small", "Hmm... I don`t think so.")
 dialog_addDialog("ka2-m-tezko", "cs", "sound/"..codename.."/cs/ka2-m-tezko.ogg", "font_small", "Hmmm... těžko.")
-dialog_addDialog("ka2-m-tezko", "fr", "", "font_small", "Hmm... Je ne crois pas.")
+dialog_addDialog("ka2-m-tezko", "fr", "", "font_small", "Hum... Je ne crois pas.")
 dialog_addDialog("ka2-m-tezko", "de", "", "font_small", "Hmm... Ich glaube nicht.")
 
 dialog_addDialog("ka2-m-svitit", "en", "", "font_small", "So, let`s shed some light on it.")

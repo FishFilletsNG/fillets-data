@@ -1,6 +1,6 @@
 dialog_addDialog("tru-v-nasly", "en", "", "font_big", "So we have found it finally.")
 dialog_addDialog("tru-v-nasly", "cs", "sound/"..codename.."/cs/tru-v-nasly.ogg", "font_big", "Tak jsme to konečně našly.")
-dialog_addDialog("tru-v-nasly", "fr", "", "font_big", "Ainsi nous l'avons trouvé finallement.")
+dialog_addDialog("tru-v-nasly", "fr", "", "font_big", "Ainsi nous l'avons trouvé finalement.")
 dialog_addDialog("tru-v-nasly", "de", "", "font_big", "Haben wir sie endlich gefunden.")
 
 dialog_addDialog("tru-m-co", "en", "", "font_small", "And what?")
@@ -10,7 +10,7 @@ dialog_addDialog("tru-m-co", "de", "", "font_small", "Was?")
 
 dialog_addDialog("tru-v-poklad", "en", "", "font_big", "Captain Silver`s treasure, of course.")
 dialog_addDialog("tru-v-poklad", "cs", "sound/"..codename.."/cs/tru-v-poklad.ogg", "font_big", "No přeci poklady kapitána Silvera.")
-dialog_addDialog("tru-v-poklad", "fr", "", "font_big", "Le trésor du Captaine Silver, bien sûr.")
+dialog_addDialog("tru-v-poklad", "fr", "", "font_big", "Le trésor du capitaine Silver, bien sûr.")
 dialog_addDialog("tru-v-poklad", "de", "", "font_big", "Na Kapitän Silvers Schatz!")
 
 dialog_addDialog("tru-v-gral", "en", "", "font_big", "The Holy Grail, of course.")
@@ -35,7 +35,7 @@ dialog_addDialog("tru-m-oznamit", "de", "", "font_small", "Ich denke, wenn das w
 
 dialog_addDialog("tru-v-stacit", "en", "", "font_big", "But I have let him know. This could be enough.")
 dialog_addDialog("tru-v-stacit", "cs", "sound/"..codename.."/cs/tru-v-stacit.ogg", "font_big", "Však jsem mu to řekl. To by mu mohlo stačit.")
-dialog_addDialog("tru-v-stacit", "fr", "", "font_big", "Mais je lui ai dit. Ca doit suffir.")
+dialog_addDialog("tru-v-stacit", "fr", "", "font_big", "Mais je lui ai dit. Ca doit suffire.")
 dialog_addDialog("tru-v-stacit", "de", "", "font_big", "Aber ich habe es ihn wissen lassen. Das könnte reichen.")
 
 dialog_addDialog("tru-m-zpochybnit", "en", "", "font_small", "But I have casted doubts on it. This could confuse him.")
@@ -96,12 +96,12 @@ dialog_addDialog("tru-v-vzit0", "de", "", "font_big", "Wir werden froh sein, wen
 
 dialog_addDialog("tru-v-vzit1", "en", "", "font_big", "Don`t forget our mission.")
 dialog_addDialog("tru-v-vzit1", "cs", "sound/"..codename.."/cs/tru-v-vzit1.ogg", "font_big", "Nezapomeň, že máme poslání.")
-dialog_addDialog("tru-v-vzit1", "fr", "", "font_big", "N'oublie pas notre misssion.")
+dialog_addDialog("tru-v-vzit1", "fr", "", "font_big", "N'oublie pas notre mission.")
 dialog_addDialog("tru-v-vzit1", "de", "", "font_big", "Vergiss nicht unseren Auftrag.")
 
 dialog_addDialog("tru-v-vzit2", "en", "", "font_big", "A treasure would only hinder us.")
 dialog_addDialog("tru-v-vzit2", "cs", "sound/"..codename.."/cs/tru-v-vzit2.ogg", "font_big", "Poklady by nás jenom zdržovaly.")
-dialog_addDialog("tru-v-vzit2", "fr", "", "font_big", "N'importe quelle pièce du trésor nous gènerait.")
+dialog_addDialog("tru-v-vzit2", "fr", "", "font_big", "N'importe quelle pièce du trésor nous gênerait.")
 dialog_addDialog("tru-v-vzit2", "de", "", "font_big", "Ein Schatz würde uns nur behindern.")
 
 dialog_addDialog("tru-v-zrak", "en", "", "font_big", "All this glint is a sight for the sore eyes.")

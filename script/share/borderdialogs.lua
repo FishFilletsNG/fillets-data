@@ -21,12 +21,12 @@ dialog_addDialog("cil-m-hlaska1", "de", "", "font_small", "Wir haben unseren Auf
 
 dialog_addDialog("cil-m-hlaska2", "en", "", "font_small", "The Agency relies upon us. We must not fail.")
 dialog_addDialog("cil-m-hlaska2", "cs", "sound/share/border/cs/cil-m-hlaska2.ogg", "font_small", "Agentura se na nás spoléhá, nemůžeme ji zklamat.")
-dialog_addDialog("cil-m-hlaska2", "fr", "", "font_small", "L'Agence compte sur nous. Nous ne devons pas echouer.")
+dialog_addDialog("cil-m-hlaska2", "fr", "", "font_small", "L'Agence compte sur nous. Nous ne devons pas échouer.")
 dialog_addDialog("cil-m-hlaska2", "de", "", "font_small", "Die Agentur verlässt sich auf uns. Wir dürfen nicht versagen.")
 
 dialog_addDialog("cil-v-hlaska2", "en", "", "font_big", "The Agency relies upon us. We must not fail.")
 dialog_addDialog("cil-v-hlaska2", "cs", "sound/share/border/cs/cil-v-hlaska2.ogg", "font_big", "Agentura se na nás spoléhá, nemůžeme ji zklamat.")
-dialog_addDialog("cil-v-hlaska2", "fr", "", "font_big", "L'Agence compte sur nous. Nous ne devons pas echouer.")
+dialog_addDialog("cil-v-hlaska2", "fr", "", "font_big", "L'Agence compte sur nous. Nous ne devons pas échouer.")
 dialog_addDialog("cil-v-hlaska2", "de", "", "font_big", "Die Agentur verlässt sich auf uns. Wir dürfen nicht versagen.")
 
 dialog_addDialog("cil-v-hlaska3", "en", "", "font_big", "Certainly, we are not going to run away with the end in sight.")

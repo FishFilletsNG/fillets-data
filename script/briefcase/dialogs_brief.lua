@@ -39,12 +39,12 @@ dialog_addDialog("kd-zelva", "de", "", "font_white", "Ihr solltet auch die gehei
 
 dialog_addDialog("kd-elektr", "en", "", "font_white", "We have been notified that a certain nuclear power plant has been dumping its radioactive waste illegally. Check it out.")
 dialog_addDialog("kd-elektr", "cs", "sound/"..codename.."/cs/kd-elektr.ogg", "font_white", "Byli jsme upozorněni, že jistá jaderná elektrárna se zbavuje radiaktivního odpadu nelegálním způsobem. Prověřte to.")
-dialog_addDialog("kd-elektr", "fr", "", "font_white", "Nous avons été informés qu'une centrale nucléaire rejète illégalement ses déchets radioactifs. Enquêtez.")
+dialog_addDialog("kd-elektr", "fr", "", "font_white", "Nous avons été informés qu'une centrale nucléaire rejette illégalement ses déchets radioactifs. Enquêtez.")
 dialog_addDialog("kd-elektr", "de", "", "font_white", "Wir wurden informiert, dass ein bestimmtes Atomkraftwerk seinen radioaktiven Abfall illegal entsorgt hat. Überprüft das.")
 
 dialog_addDialog("kd-gral", "en", "", "font_white", "And don`t forget to find the holy grail.")
 dialog_addDialog("kd-gral", "cs", "sound/"..codename.."/cs/kd-gral.ogg", "font_white", "A také nezapomeňte najít svatý grál.")
-dialog_addDialog("kd-gral", "fr", "", "font_white", "Et n'oubliez pas de ramenez LE graal.")
+dialog_addDialog("kd-gral", "fr", "", "font_white", "Et n'oubliez pas de ramenez LE Graal.")
 dialog_addDialog("kd-gral", "de", "", "font_white", "Und vergesst nicht, den heiligen Gral zu finden.")
 
 dialog_addDialog("kd-zaver", "en", "", "font_white", "And as usual: If anyone from your team is injured or killed, Altar will deny any knowledge of your existence and the level will be restarted.")

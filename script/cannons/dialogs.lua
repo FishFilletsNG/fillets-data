@@ -21,7 +21,7 @@ dialog_addDialog("del-v-splet", "de", "", "font_big", "Nein. Ich glaube, du lieg
 
 dialog_addDialog("del-v-mec", "en", "", "font_big", "I have a feeling we`re going to need that sword.")
 dialog_addDialog("del-v-mec", "cs", "sound/"..codename.."/cs/del-v-mec.ogg", "font_big", "Něco mi říká, že budeme potřebovat ten meč.")
-dialog_addDialog("del-v-mec", "fr", "", "font_big", "Je sens que nous allons avoir besion de cette épée.")
+dialog_addDialog("del-v-mec", "fr", "", "font_big", "Je sens que nous allons avoir besoin de cette épée.")
 dialog_addDialog("del-v-mec", "de", "", "font_big", "Ich hab das Gefühl, wir werden das Schwert brauchen.")
 
 dialog_addDialog("del-m-tus", "en", "", "font_small", "You and your 'feelings`. Besides, we`re not supposed to be giving any hints.")

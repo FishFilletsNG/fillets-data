@@ -5,7 +5,7 @@ dialog_addDialog("sm-m-prolezame", "de", "", "font_small", "Seit sechs Ebenen kr
 
 dialog_addDialog("sm-v-jine0", "en", "", "font_big", "This one looks really very waste-like.")
 dialog_addDialog("sm-v-jine0", "cs", "sound/"..codename.."/cs/sm-v-jine0.ogg", "font_big", "Tohle je obzvlášť vydařené.")
-dialog_addDialog("sm-v-jine0", "fr", "", "font_big", "Celle là est vraiment bordellique.")
+dialog_addDialog("sm-v-jine0", "fr", "", "font_big", "Celle là est vraiment bordélique.")
 dialog_addDialog("sm-v-jine0", "de", "", "font_big", "Das hier sieht ziemlich müllig aus.")
 
 dialog_addDialog("sm-v-jine1", "en", "", "font_big", "But no, I think that there is something strange about it.")
@@ -75,12 +75,12 @@ dialog_addDialog("sm-v-duchodce0", "de", "", "font_big", "Er ist wahrscheinlich 
 
 dialog_addDialog("sm-v-duchodce1", "en", "", "font_big", "The corpses were no longer profitable and so they started a recycling business.")
 dialog_addDialog("sm-v-duchodce1", "cs", "sound/"..codename.."/cs/sm-v-duchodce1.ogg", "font_big", "Mrtvoly nevynášely dost, tak se s mladým dali na odpadky.")
-dialog_addDialog("sm-v-duchodce1", "fr", "", "font_big", "Les corps n'était pas rentable et il a donc démarré une entreprise de recyclage.")
+dialog_addDialog("sm-v-duchodce1", "fr", "", "font_big", "Les corps n'étaient pas rentables et il a donc démarré une entreprise de recyclage.")
 dialog_addDialog("sm-v-duchodce1", "de", "", "font_big", "Die Leichen waren wahrscheinlich nicht mehr profitabel und so haben sie ein Geschäft für Wiederverwertung gegründet .")
 
 dialog_addDialog("sm-v-sbirka", "en", "", "font_big", "Can you see that collection of useless stuff, weird objects and refuse... All of them were useful things, carefully and skillfully manufactured.")
 dialog_addDialog("sm-v-sbirka", "cs", "sound/"..codename.."/cs/sm-v-sbirka.ogg", "font_big", "Vidíš tu sbírku neužitečností, podivností a odpadků... Všechno to kdysi byly užitečné věci, které někdo pracně vyrobil.")
-dialog_addDialog("sm-v-sbirka", "fr", "", "font_big", "tu vois cette collection de camelotte inutile, d'objets curieux et discordant... Tous ont été utiles, patiemment et habilement travaillés.")
+dialog_addDialog("sm-v-sbirka", "fr", "", "font_big", "tu vois cette collection de camelote inutile, d'objets curieux et discordants... Tous ont été utiles, patiemment et habilement fabriqués.")
 dialog_addDialog("sm-v-sbirka", "de", "", "font_big", "Siehst du diese Sammlung von nutzlosem Zeug, seltsamen Gegenständen und Abfall... All das waren mal nützliche Dinge, sorgfältig und kunstvoll hergestellt.")
 
 dialog_addDialog("sm-m-namaloval", "en", "", "font_small", "Or painted.")
@@ -90,7 +90,7 @@ dialog_addDialog("sm-m-namaloval", "de", "", "font_small", "Oder gemalt.")
 
 dialog_addDialog("sm-v-marnost", "en", "", "font_big", "Everything is in vain, like that medusa over there.")
 dialog_addDialog("sm-v-marnost", "cs", "sound/"..codename.."/cs/sm-v-marnost.ogg", "font_big", "Je to všechno marnost, jako ta medúza.")
-dialog_addDialog("sm-v-marnost", "fr", "", "font_big", "Tout en vein, comme cette méduse là-bas.")
+dialog_addDialog("sm-v-marnost", "fr", "", "font_big", "Tout en vain, comme cette méduse là-bas.")
 dialog_addDialog("sm-v-marnost", "de", "", "font_big", "Das ist alles sinnlos, wie diese Qualle da drüben.")
 
 dialog_addDialog("sm-m-proc", "en", "", "font_small", "Why?")
@@ -100,7 +100,7 @@ dialog_addDialog("sm-m-proc", "de", "", "font_small", "Warum?")
 
 dialog_addDialog("sm-v-podivej", "en", "", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn`t it the most fitting example of what I was speaking about?")
 dialog_addDialog("sm-v-podivej", "cs", "sound/"..codename.."/cs/sm-v-podivej.ogg", "font_big", "Podívej se na ni. Běží stále vpřed a zůstává na místě. Není to snad nejkrásnější příklad toho, o čem jsem mluvil?")
-dialog_addDialog("sm-v-podivej", "fr", "", "font_big", "Regarde là. Elle n'arrête pas de nager mais reste à la même place. Est-ce qu'elle n'est pas le meilleur exemple de ce que je dis ?")
+dialog_addDialog("sm-v-podivej", "fr", "", "font_big", "Regarde la. Elle n'arrête pas de nager mais reste à la même place. Est-ce qu'elle n'est pas le meilleur exemple de ce que je dis ?")
 dialog_addDialog("sm-v-podivej", "de", "", "font_big", "Schau sie dir doch mal an. Sie rennt auf der Stelle. Ist das nicht das passendste Beispiel für Sinnlosigkeit?")
 
 dialog_addDialog("sm-x-meduza", "en", "", "font_magenta", "I am jogging to lose weight, you fools!")

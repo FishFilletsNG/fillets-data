@@ -131,7 +131,7 @@ dialog_addDialog("k1-v-opatrne", "de", "", "font_big", "Sei vorsichtig! Tu ihm n
 
 dialog_addDialog("k1-m-tospisona", "en", "", "font_small", "It`s more the other way around!")
 dialog_addDialog("k1-m-tospisona", "cs", "sound/"..codename.."/cs/k1-m-tospisona.ogg", "font_small", "To spíš ona mně!")
-dialog_addDialog("k1-m-tospisona", "fr", "", "font_small", "It`s more the other way around!")
+dialog_addDialog("k1-m-tospisona", "fr", "", "font_small", "Il doit y avoir un autre chemin !")
 dialog_addDialog("k1-m-tospisona", "de", "", "font_small", "Es ist eher andersrum!")
 
 dialog_addDialog("k1-m-chobotnice", "en", "", "font_small", "That`s some octopus! I wonder who`s her owner?")

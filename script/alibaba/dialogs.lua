@@ -5,7 +5,7 @@ dialog_addDialog("kni-m-svicny", "de", "", "font_small", "Aus der Schatzkammer i
 
 dialog_addDialog("kni-v-ber", "en", "", "font_big", "You have to look at the bright side. There is nothing that looks like grail here.")
 dialog_addDialog("kni-v-ber", "cs", "sound/"..codename.."/cs/kni-v-ber.ogg", "font_big", "Ber to z té lepší stránky. Tady například není nic, co by se podobalo grálu.")
-dialog_addDialog("kni-v-ber", "fr", "", "font_big", "Regarde du coté de la lumière. Il n'y a rien qui ressemble au graal ici.")
+dialog_addDialog("kni-v-ber", "fr", "", "font_big", "Regarde du coté de la lumière. Il n'y a rien qui ressemble au Graal ici.")
 dialog_addDialog("kni-v-ber", "de", "", "font_big", "Du muss positiv denken. Hier ist wenigsten kein Gral im Weg.")
 
 dialog_addDialog("kni-v-prolezt", "en", "", "font_big", "It seems that I`ll have to go through that horrible maze.")
@@ -20,33 +20,33 @@ dialog_addDialog("kni-m-tloustka", "de", "", "font_small", "Dein fetter Körper 
 
 dialog_addDialog("kni-v-padavko", "en", "", "font_big", "Just leave me alone, you emaciated pollywog.")
 dialog_addDialog("kni-v-padavko", "cs", "sound/"..codename.."/cs/kni-v-padavko.ogg", "font_big", "Nezačínej s tím zase, ty padavko.")
-dialog_addDialog("kni-v-padavko", "fr", "", "font_big", "Laisse moi tranquille, tétard chétif.")
+dialog_addDialog("kni-v-padavko", "fr", "", "font_big", "Laisse moi tranquille, têtard chétif.")
 dialog_addDialog("kni-v-padavko", "de", "", "font_big", "Lass mich in Ruhe, du abgemagerte Kaulquappe!")
 
 dialog_addDialog("kni-m-hromado", "en", "", "font_small", "Cut this crap, you misshaped heap of muscles and scales, will you?")
 dialog_addDialog("kni-m-hromado", "cs", "sound/"..codename.."/cs/kni-m-hromado.ogg", "font_small", "Na ty tvoje řeči jsem tak akorát zvědavá, ty hromado svalů a ploutví.")
-dialog_addDialog("kni-m-hromado", "fr", "", "font_small", "Espèce d'escrément, tas diforme de muscles et d'écailles.")
+dialog_addDialog("kni-m-hromado", "fr", "", "font_small", "Espèce d'excrément, tas difforme de muscles et d'écailles.")
 dialog_addDialog("kni-m-hromado", "de", "", "font_small", "Pass bloß auf, du unförmiger Haufen Muskeln und Schuppen!")
 dialog_addDialog("kni-m-hromado", "de_CH", "", "font_small", "Pass bloss auf, du unförmiger Haufen Muskeln und Schuppen!")
 
 dialog_addDialog("kni-v-vypni", "en", "", "font_big", "Could you restart the level, please? We don`t seem to be getting along very well now.")
 dialog_addDialog("kni-v-vypni", "cs", "sound/"..codename.."/cs/kni-v-vypni.ogg", "font_big", "Mohl bys, prosím tě, restartovat level? Zdá se, že nám to teď spolu moc nejde.")
-dialog_addDialog("kni-v-vypni", "fr", "", "font_big", "Pourrais-tu relancer le niveau, s'il te plaît ? Nous nous entendons plus très bien.")
+dialog_addDialog("kni-v-vypni", "fr", "", "font_big", "Pourrais-tu relancer le niveau, s'il te plaît ? Nous ne nous entendons plus très bien.")
 dialog_addDialog("kni-v-vypni", "de", "", "font_big", "Kannst du die Ebene bitte neustarten? Wir scheinen uns grad nicht gut zu vertragen.")
 
 dialog_addDialog("kni-m-hrncirstvi", "en", "", "font_small", "I feel like I am in the pottery warehouse.")
 dialog_addDialog("kni-m-hrncirstvi", "cs", "sound/"..codename.."/cs/kni-m-hrncirstvi.ogg", "font_small", "Připadám si tu jako ve skladu hrnčířství.")
-dialog_addDialog("kni-m-hrncirstvi", "fr", "", "font_small", "J'ai l'impression d'être dans un entrepot de poterie.")
+dialog_addDialog("kni-m-hrncirstvi", "fr", "", "font_small", "J'ai l'impression d'être dans un entrepôt de poterie.")
 dialog_addDialog("kni-m-hrncirstvi", "de", "", "font_small", "Ich fühle mich wie in einem Tonwarenlager.")
 
 dialog_addDialog("kni-v-amforstvi", "en", "", "font_big", "You mean, amphory warehouse.")
 dialog_addDialog("kni-v-amforstvi", "cs", "sound/"..codename.."/cs/kni-v-amforstvi.ogg", "font_big", "Chceš říci: amfórství.")
-dialog_addDialog("kni-v-amforstvi", "fr", "", "font_big", "Tu veux dire un entrepot d'amphores.")
+dialog_addDialog("kni-v-amforstvi", "fr", "", "font_big", "Tu veux dire un entrepôt d'amphores.")
 dialog_addDialog("kni-v-amforstvi", "de", "", "font_big", "Du meinst Amphorenlager.")
 
 dialog_addDialog("kni-m-amfornictvi", "en", "", "font_small", "No, it should be amphoraware.")
 dialog_addDialog("kni-m-amfornictvi", "cs", "sound/"..codename.."/cs/kni-m-amfornictvi.ogg", "font_small", "Když už, tak: amfórnictví.")
-dialog_addDialog("kni-m-amfornictvi", "fr", "", "font_small", "Non, ce serait plutôt un dépot d'amphores.")
+dialog_addDialog("kni-m-amfornictvi", "fr", "", "font_small", "Non, ce serait plutôt un dépôt d'amphores.")
 dialog_addDialog("kni-m-amfornictvi", "de", "", "font_small", "Es heißt wahrscheinlich Amphorerei.")
 dialog_addDialog("kni-m-amfornictvi", "de_CH", "", "font_small", "Es heisst wahrscheinlich Amphorerei.")
 
@@ -68,7 +68,7 @@ dialog_addDialog("kni-m-cetky", "de", "", "font_small", "Ich habe begriffen, das
 
 dialog_addDialog("kni-m-kramy", "en", "", "font_small", "I can`t bear the darned stuff any longer!")
 dialog_addDialog("kni-m-kramy", "cs", "sound/"..codename.."/cs/kni-m-kramy.ogg", "font_small", "Už ty krámy nemůžu ani vidět!")
-dialog_addDialog("kni-m-kramy", "fr", "", "font_small", "Je ne peux pas porter cet fichue camelote plus longtemps.")
+dialog_addDialog("kni-m-kramy", "fr", "", "font_small", "Je ne peux pas porter cette fichue camelote plus longtemps.")
 dialog_addDialog("kni-m-kramy", "de", "", "font_small", "Ich kann das Zeug nicht mehr sehen!")
 
 

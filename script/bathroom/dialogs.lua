@@ -10,12 +10,12 @@ dialog_addDialog("br-m-bydli", "de", "", "font_small", "Meinst du, hier wohnt je
 
 dialog_addDialog("br-v-santusak", "en", "", "font_big", "Some underwater homeless.")
 dialog_addDialog("br-v-santusak", "cs", "sound/"..codename.."/cs/br-v-santusak.ogg", "font_big", "Nějaký podvodní santusák.")
-dialog_addDialog("br-v-santusak", "fr", "", "font_big", "une sorte sans-abris des mers.")
+dialog_addDialog("br-v-santusak", "fr", "", "font_big", "une sorte de sans-abris des mers.")
 dialog_addDialog("br-v-santusak", "de", "", "font_big", "Irgendein Unterwasser-Obdachloser.")
 
 dialog_addDialog("br-m-podvodnik", "en", "", "font_small", "We call them shell-less.")
 dialog_addDialog("br-m-podvodnik", "cs", "sound/"..codename.."/cs/br-m-podvodnik.ogg", "font_small", "Nebo santusácký podvodník.")
-dialog_addDialog("br-m-podvodnik", "fr", "", "font_small", "Nous les appellons les sans-coquilles.")
+dialog_addDialog("br-m-podvodnik", "fr", "", "font_small", "Nous les appelons les sans-coquilles.")
 dialog_addDialog("br-m-podvodnik", "de", "", "font_small", "Wir sagen dazu \"Schalenloser\".")
 
 dialog_addDialog("br-m-vsim0", "en", "", "font_small", "Did you notice that...")
@@ -96,7 +96,7 @@ dialog_addDialog("br-m-nefunguje", "de", "", "font_small", "Es funktioniert doch
 
 dialog_addDialog("br-m-ahoj", "en", "", "font_small", "Hello, inside there.")
 dialog_addDialog("br-m-ahoj", "cs", "sound/"..codename.."/cs/br-m-ahoj.ogg", "font_small", "Ahoj tam uvnitř.")
-dialog_addDialog("br-m-ahoj", "fr", "", "font_small", "Hého, à l'intérieur.")
+dialog_addDialog("br-m-ahoj", "fr", "", "font_small", "Hé ho, à l'intérieur.")
 dialog_addDialog("br-m-ahoj", "de", "", "font_small", "Hallo da drin!.")
 
 dialog_addDialog("br-v-draha", "en", "", "font_big", "This must be better than rollercoaster.")

@@ -25,7 +25,7 @@ dialog_addDialog("ch-v-pockej1", "de", "", "font_big", "Ich kann nicht. Der verf
 
 dialog_addDialog("ch-v-pockej2", "en", "", "font_big", "Turn on the lights yourself, if you`re so smart.")
 dialog_addDialog("ch-v-pockej2", "cs", "sound/"..codename.."/cs/ch-v-pockej2.ogg", "font_big", "Rozsviť si sama, když jsi tak chytrá.")
-dialog_addDialog("ch-v-pockej2", "fr", "", "font_big", "Allume la lumière toi même, si tu es si préssée.")
+dialog_addDialog("ch-v-pockej2", "fr", "", "font_big", "Allume la lumière toi même, si tu es si pressée.")
 dialog_addDialog("ch-v-pockej2", "de", "", "font_big", "Mach's doch selber, du Schlaumeier.")
 
 dialog_addDialog("ch-v-halo0", "en", "", "font_big", "Where are you?")
@@ -105,7 +105,7 @@ dialog_addDialog("ch-m-blik1", "de", "", "font_small", "Ich hätte nie gedacht, 
 
 dialog_addDialog("ch-m-blik2", "en", "", "font_small", "Finally, the lights are back on...")
 dialog_addDialog("ch-m-blik2", "cs", "sound/"..codename.."/cs/ch-m-blik2.ogg", "font_small", "Konečně zase světlo...")
-dialog_addDialog("ch-m-blik2", "fr", "", "font_small", "Finallement, la lumière est revenue.")
+dialog_addDialog("ch-m-blik2", "fr", "", "font_small", "Finalement, la lumière est revenue.")
 dialog_addDialog("ch-m-blik2", "de", "", "font_small", "Endlich ist das Licht wieder an...")
 
 dialog_addDialog("ch-v-pozor", "en", "", "font_big", "Be careful. It bites!")
@@ -130,7 +130,7 @@ dialog_addDialog("ch-v-zapada", "de", "", "font_big", "Jetzt wird mir alles klar
 
 dialog_addDialog("ch-m-odpoved0", "en", "", "font_small", "Including the Cuban missile crisis and Nostradamus` prophecies.")
 dialog_addDialog("ch-m-odpoved0", "cs", "sound/"..codename.."/cs/ch-m-odpoved0.ogg", "font_small", "Včetně karibské krize a Nostradamova proroctví.")
-dialog_addDialog("ch-m-odpoved0", "fr", "", "font_small", "Tu inclus la crise des missiles de Cuba et les prophécies de Nostradamus.")
+dialog_addDialog("ch-m-odpoved0", "fr", "", "font_small", "Tu inclus la crise des missiles de Cuba et les prophéties de Nostradamus.")
 dialog_addDialog("ch-m-odpoved0", "de", "", "font_small", "Einschließlich der Kubakrise und Nostradamus Prophezeiungen.")
 dialog_addDialog("ch-m-odpoved0", "de_CH", "", "font_small", "Einschliesslich der Kubakrise und Nostradamus Prophezeiungen.")
 
@@ -153,7 +153,7 @@ dialog_addDialog("ch-m-odpoved3", "de", "", "font_small", "Einschließlich der T
 
 dialog_addDialog("ch-v-smysl", "en", "", "font_big", "Now I can see the rationale behind this game.")
 dialog_addDialog("ch-v-smysl", "cs", "sound/"..codename.."/cs/ch-v-smysl.ogg", "font_big", "Už je mi také jasný smysl této hry.")
-dialog_addDialog("ch-v-smysl", "fr", "", "font_big", "Maintenant je peux voir le coté rationel de ce jeu.")
+dialog_addDialog("ch-v-smysl", "fr", "", "font_big", "Maintenant je peux voir le coté rationnel de ce jeu.")
 dialog_addDialog("ch-v-smysl", "de", "", "font_big", "Jetzt habe ich das Grundprinzip dieses Spiels verstanden.")
 
 dialog_addDialog("ch-m-vubec", "en", "", "font_small", "And also the meaning of life, the universe and everything.")
@@ -188,7 +188,7 @@ dialog_addDialog("ch-r-nevsimej2", "de", "", "font_robodog", "Hör nicht auf sie
 
 dialog_addDialog("ch-r-hracka", "en", "", "font_robodog", "I am but a humble cybernetic toy.")
 dialog_addDialog("ch-r-hracka", "cs", "sound/"..codename.."/cs/ch-r-hracka.ogg", "font_robodog", "Jsem jen obyčejná kybernetická hračka.")
-dialog_addDialog("ch-r-hracka", "fr", "", "font_robodog", "Je ne suis qu'un simple jouet cybernetique.")
+dialog_addDialog("ch-r-hracka", "fr", "", "font_robodog", "Je ne suis qu'un simple jouet cybernétique.")
 dialog_addDialog("ch-r-hracka", "de", "", "font_robodog", "Ich bin nur ein kybernetisches Spielzeug.")
 
 dialog_addDialog("ch-r-ikdyz0", "en", "", "font_robodog", "Though originally I was to be a scooter.")
@@ -208,7 +208,7 @@ dialog_addDialog("ch-r-ikdyz2", "de", "", "font_robodog", "Obwohl ich ursprüngl
 
 dialog_addDialog("ch-r-ikdyz3", "en", "", "font_robodog", "Though orginally I was to be a piece of cake.")
 dialog_addDialog("ch-r-ikdyz3", "cs", "sound/"..codename.."/cs/ch-r-ikdyz3.ogg", "font_robodog", "I když původně jsem měl být rakvička se šlehačkou.")
-dialog_addDialog("ch-r-ikdyz3", "fr", "", "font_robodog", "Même si j'aurais dû être un morceau de gateau.")
+dialog_addDialog("ch-r-ikdyz3", "fr", "", "font_robodog", "Même si j'aurais dû être un morceau de gâteau.")
 dialog_addDialog("ch-r-ikdyz3", "de", "", "font_robodog", "Obwohl ich ursprünglich ein Kuchenstück werden sollte.")
 
 dialog_addDialog("ch-r-anavic0", "en", "", "font_robodog", "And I visited Cuba only once.")
@@ -218,7 +218,7 @@ dialog_addDialog("ch-r-anavic0", "de", "", "font_robodog", "Und ich habe Kuba nu
 
 dialog_addDialog("ch-r-anavic1", "en", "", "font_robodog", "And everybody knows somebody else murdered him, they can`t prove anything.")
 dialog_addDialog("ch-r-anavic1", "cs", "sound/"..codename.."/cs/ch-r-anavic1.ogg", "font_robodog", "A z té vraždy usvědčili přece někoho jiného, mně nic nedokážou, nikdo mě neviděl.")
-dialog_addDialog("ch-r-anavic1", "fr", "", "font_robodog", "Et tout le monde sait que quelqu'un d'autre l'a tué, il ne peuvent pas tout prouver.")
+dialog_addDialog("ch-r-anavic1", "fr", "", "font_robodog", "Et tout le monde sait que quelqu'un d'autre l'a tué, ils ne peuvent pas tout prouver.")
 dialog_addDialog("ch-r-anavic1", "de", "", "font_robodog", "Und jeder weiß, dass jemand anders ihn umgebracht hat, die können nichts beweisen.")
 dialog_addDialog("ch-r-anavic1", "de_CH", "", "font_robodog", "Und jeder weiss, dass jemand anders ihn umgebracht hat, die können nichts beweisen.")
 

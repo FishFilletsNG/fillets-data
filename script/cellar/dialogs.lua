@@ -25,7 +25,7 @@ dialog_addDialog("pra-m-zpatky", "de", "", "font_small", "Komm zurück, du kanns
 
 dialog_addDialog("pra-v-zapeklita", "en", "", "font_big", "Hmm... This is tricky. If we push aside the honey, we will be smashed by that can of apricot jam.")
 dialog_addDialog("pra-v-zapeklita", "cs", "sound/"..codename.."/cs/pra-v-zapeklita.ogg", "font_big", "Hmmm... zapeklitá věc. Jakmile odstrčíme med, spadne na nás meruňková marmeláda.")
-dialog_addDialog("pra-v-zapeklita", "fr", "", "font_big", "Hmm... C'est un piège. Si nous poussons le miel, nous serons écrasés par la canette de jus d'abricot.")
+dialog_addDialog("pra-v-zapeklita", "fr", "", "font_big", "Hum... C'est un piège. Si nous poussons le miel, nous serons écrasés par la canette de jus d'abricot.")
 dialog_addDialog("pra-v-zapeklita", "de", "", "font_big", "Hmm... das ist kniffelig. Wenn wir den Honig zur Seite schieben, werden wir von der Aprikosen-Marmelade erdrückt.")
 
 dialog_addDialog("pra-m-vyrazit", "en", "", "font_small", "Couldn`t we push it aside with that axe?")
@@ -55,7 +55,7 @@ dialog_addDialog("pra-m-prisun", "de", "", "font_small", "Wenn du das Glas zu mi
 
 dialog_addDialog("pra-v-problem", "en", "", "font_big", "If you solve some specific part you can save the position.")
 dialog_addDialog("pra-v-problem", "cs", "sound/"..codename.."/cs/pra-v-problem.ogg", "font_big", "Když vyřešíš nějaký ucelený problém, můžeš si pozici uložit.")
-dialog_addDialog("pra-v-problem", "fr", "", "font_big", "Quand tu résouds une partie tu peux sauver la position.")
+dialog_addDialog("pra-v-problem", "fr", "", "font_big", "Quand tu résous une partie tu peux sauver la position.")
 dialog_addDialog("pra-v-problem", "de", "", "font_big", "Wenn du einen Teil erledigt hast, kannst du die Situation abspeichern.")
 
 dialog_addDialog("pra-m-reseni", "en", "", "font_small", "But only if you are sure of your solution.")
@@ -125,7 +125,7 @@ dialog_addDialog("pra-v-objet", "de", "", "font_big", "Und was, wenn ich den obe
 
 dialog_addDialog("pra-m-neradit", "en", "", "font_small", "Shhhh. That`s too many hints.")
 dialog_addDialog("pra-m-neradit", "cs", "sound/"..codename.."/cs/pra-m-neradit.ogg", "font_small", "Pssst. Řekli jsme neradit.")
-dialog_addDialog("pra-m-neradit", "fr", "", "font_small", "Shhhh. N'en dis pas trop.")
+dialog_addDialog("pra-m-neradit", "fr", "", "font_small", "Chut. N'en dis pas trop.")
 dialog_addDialog("pra-m-neradit", "de", "", "font_small", "Pssst. Das sind zu viele Tipps.")
 
 dialog_addDialog("pra-m-stava", "en", "", "font_small", "Things like that happen sometimes.")
@@ -145,7 +145,7 @@ dialog_addDialog("pra-m-restart", "de", "", "font_small", "Und häufig musst du 
 
 dialog_addDialog("pra-v-schvalne", "en", "", "font_big", "We admit that we did this on purpose.")
 dialog_addDialog("pra-v-schvalne", "cs", "sound/"..codename.."/cs/pra-v-schvalne.ogg", "font_big", "Přiznáváme, tohle jsme na tebe narafičili schválně.")
-dialog_addDialog("pra-v-schvalne", "fr", "", "font_big", "D'accord, nous l'avons fait expès.")
+dialog_addDialog("pra-v-schvalne", "fr", "", "font_big", "D'accord, nous l'avons fait exprès.")
 dialog_addDialog("pra-v-schvalne", "de", "", "font_big", "Wir geben zu, dass wir das mit Absicht getan haben.")
 
 dialog_addDialog("pra-m-znovu", "en", "", "font_small", "So that you could try it again - this time without any hints.")

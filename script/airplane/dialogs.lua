@@ -15,12 +15,12 @@ dialog_addDialog("let-v-vrak1", "de", "", "font_big", "Das ist das Wrack des Pas
 
 dialog_addDialog("let-v-vrak2", "en", "", "font_big", "This is a wreck of civilian airplane Poseidon 737.")
 dialog_addDialog("let-v-vrak2", "cs", "sound/"..codename.."/cs/let-v-vrak2.ogg", "font_big", "To je vrak dopravního letadla Poseidon 737.")
-dialog_addDialog("let-v-vrak2", "fr", "", "font_big", "Et ici, d'un avion civile Poseidon 737.")
+dialog_addDialog("let-v-vrak2", "fr", "", "font_big", "Et ici, d'un avion civile Poséidon 737.")
 dialog_addDialog("let-v-vrak2", "de", "", "font_big", "Das ist das Wrack des Passagierfluzeuges Poseidon 737.")
 
 dialog_addDialog("let-v-oko", "en", "", "font_big", "Can you see that eye? The silent witness to the tragedy... Somebody trusted this airplane - and the glass eye is everything he left behind.")
 dialog_addDialog("let-v-oko", "cs", "sound/"..codename.."/cs/let-v-oko.ogg", "font_big", "Vidíš to oko? Němý svědek tragédie... Někdo v důvěře usedl do letadla - a zůstalo z něho jen skleněné oko.")
-dialog_addDialog("let-v-oko", "fr", "", "font_big", "Peux-tu voir cet oeil ? Témoin silencieux de la tragédie...Une personne avait foi dans cet avion - et cet oeil de verre est la seule chose qu'il a laissée.")
+dialog_addDialog("let-v-oko", "fr", "", "font_big", "Peux-tu voir cet oeil ? Témoin silencieux de la tragédie... Une personne avait foi dans cet avion - et cet oeil de verre est la seule chose qu'il a laissée.")
 dialog_addDialog("let-v-oko", "de", "", "font_big", "Siehst du das Auge? Ein stiller Zeuge der Tragödie... Jemand traute diesem Flugzeug - und das Glasauge ist alles, was er hinterließ.")
 dialog_addDialog("let-v-oko", "de_CH", "", "font_big", "Siehst du das Auge? Ein stiller Zeuge der Tragödie... Jemand traute diesem Flugzeug - und das Glasauge ist alles, was er hinterliess.")
 

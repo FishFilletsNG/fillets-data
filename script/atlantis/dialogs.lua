@@ -40,7 +40,7 @@ dialog_addDialog("sp-m-vratit0", "fr", "", "font_small", "Et après ? Devrons-no
 
 dialog_addDialog("sp-v-vratit1", "en", "", "font_big", "We can put it back in place as a token of our esteem of the citizens` heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.")
 dialog_addDialog("sp-v-vratit1", "cs", "sound/"..codename.."/cs/sp-v-vratit1.ogg", "font_big", "Můžem ho vrátit na místo jako vyjádření našeho obdivu k hrdinskému úsilí obyvatel města udržet ho nad hladinou. Jako pomník jejich důmyslu, zručnosti a ... vytrvalosti.")
-dialog_addDialog("sp-v-vratit1", "fr", "", "font_big", "Nous pouvons le remettre en place, comme une marque de notre estime de l'effort héroïque des citoyens pour empêcher la catastrophe. En mémoire de leur nature insdutrielle, ingénieuse et... persévérente.")
+dialog_addDialog("sp-v-vratit1", "fr", "", "font_big", "Nous pouvons le remettre en place, comme une marque de notre estime de l'effort héroïque des citoyens pour empêcher la catastrophe. En mémoire de leur nature industrielle, ingénieuse et... persévérante.")
 
 dialog_addDialog("sp-m-vratit1", "en", "", "font_small", "Of what? 'Where are you running? I need to order eight swords.` The Providence itself unplugged that hole. Just imagine you`d hear such things at home. Day by day.")
 dialog_addDialog("sp-m-vratit1", "cs", "sound/"..codename.."/cs/sp-m-vratit1.ogg", "font_small", "Čeho že? 'Kam běžíš? Pro sedm mečů!` Ten špunt podle mě vytáhla sama prozřetelnost. Představ si, že bys takové věci slýchal doma. Den co den.")
@@ -60,7 +60,7 @@ dialog_addDialog("sp-m-potize", "fr", "", "font_small", "Nous ne nous sentirons 
 
 dialog_addDialog("sp-v-vzit", "en", "", "font_big", "You might be right. Maybe it would be better to take it along.")
 dialog_addDialog("sp-v-vzit", "cs", "sound/"..codename.."/cs/sp-v-vzit.ogg", "font_big", "Na tom něco je. Možná by bylo lepší ho vzít s sebou.")
-dialog_addDialog("sp-v-vzit", "fr", "", "font_big", "Tu dois avoir raison. Peut-être il vaudrait mieux l'enmener.")
+dialog_addDialog("sp-v-vzit", "fr", "", "font_big", "Tu dois avoir raison. Peut-être il vaudrait mieux l'emmener.")
 
 dialog_addDialog("sp-m-taky", "en", "", "font_small", "I think so, too.")
 dialog_addDialog("sp-m-taky", "cs", "sound/"..codename.."/cs/sp-m-taky.ogg", "font_small", "To si taky myslím.")
@@ -112,7 +112,7 @@ dialog_addDialog("sp-m-vymluva3", "fr", "", "font_small", "Un tsunami pourrait �
 
 dialog_addDialog("sp-m-vymluva4", "en", "", "font_small", "We could try to say that a volcano erupted in the center of the city.")
 dialog_addDialog("sp-m-vymluva4", "cs", "sound/"..codename.."/cs/sp-m-vymluva4.ogg", "font_small", "Můžem říkat, že na ostrově vybuchla sopka.")
-dialog_addDialog("sp-m-vymluva4", "fr", "", "font_small", "Nous pouvons essayer de dire qu'un volcan est entré en erruption au beau milieu de la cité.")
+dialog_addDialog("sp-m-vymluva4", "fr", "", "font_small", "Nous pouvons essayer de dire qu'un volcan est entré en irruption au beau milieu de la cité.")
 
 dialog_addDialog("sp-v-nesmysl", "en", "", "font_big", "This is a silly nonsense.")
 dialog_addDialog("sp-v-nesmysl", "cs", "sound/"..codename.."/cs/sp-v-nesmysl.ogg", "font_big", "To je pěkný nesmysl.")

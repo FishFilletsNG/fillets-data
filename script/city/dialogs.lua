@@ -68,7 +68,7 @@ dialog_addDialog("vit-hs-soud0", "fr", "", "font_statue", "Le Tribunal de la cit
 
 dialog_addDialog("vit-hs-vodovod0", "en", "", "font_statue", "The City Council has decided to build an aqueduct, thereby providing direct water service to each home.")
 dialog_addDialog("vit-hs-vodovod0", "cs", "sound/"..codename.."/cs/vit-hs-vodovod0.ogg", "font_statue", "Město se rozhodlo pro vaše pohodlí vybudovat vodovod. Zavedeme každému vodu až do domu.")
-dialog_addDialog("vit-hs-vodovod0", "fr", "", "font_statue", "Le Conseil de la cité a décidé de construire un acqueduc pour fournir directement en eau toute les maisons.")
+dialog_addDialog("vit-hs-vodovod0", "fr", "", "font_statue", "Le Conseil de la cité a décidé de construire un aqueduc pour fournir directement en eau toute les maisons.")
 
 dialog_addDialog("vit-hs-dite0", "en", "", "font_statue", "Would the mother of the child who got lost on the grounds of city treasury please come to the front desk to pick up his remains.")
 dialog_addDialog("vit-hs-dite0", "cs", "sound/"..codename.."/cs/vit-hs-dite0.ogg", "font_statue", "Prosíme maminku, jejíž dítě se zaběhlo ke střeženému objektu městské pokladny, aby si jeho ostatky vyzvedla na vrátnici.")

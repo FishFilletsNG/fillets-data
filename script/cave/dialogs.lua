@@ -72,7 +72,7 @@ dialog_addDialog("jes-m-potvora2", "de", "", "font_small", "Das ist eine Beleidi
 
 dialog_addDialog("jes-v-potvora0", "en", "", "font_big", "It is called the Flashy hammerhead.")
 dialog_addDialog("jes-v-potvora0", "cs", "sound/"..codename.."/cs/jes-v-potvora0.ogg", "font_big", "To je kladivoun pableskující.")
-dialog_addDialog("jes-v-potvora0", "fr", "", "font_big", "Il est appelé tape-à-l'oil poisson-marteau.")
+dialog_addDialog("jes-v-potvora0", "fr", "", "font_big", "Il est appelé tape-à-l'oeil poisson-marteau.")
 dialog_addDialog("jes-v-potvora0", "de", "", "font_big", "Das ist der glitzernde Hammerkopf.")
 
 dialog_addDialog("jes-v-potvora1", "en", "", "font_big", "It is called the Glossy repulsor.")

@@ -5,7 +5,7 @@ dialog_addDialog("dlg-x-poster1", "de", "", "font_orange", "DAS GRÖSSTE ERDBEBE
 
 dialog_addDialog("dlg-x-poster2", "en", "", "font_orange", "when Dragon's Lair was issued, Rules for beginners, version 1.0.")
 dialog_addDialog("dlg-x-poster2", "cs", "", "font_orange", "")
-dialog_addDialog("dlg-x-poster2", "fr", "", "font_orange", "date de la publication de Dragon's Lair, Règles pour les débuttants, version 1.0.")
+dialog_addDialog("dlg-x-poster2", "fr", "", "font_orange", "date de la publication de Dragon's Lair, Règles pour les débutants, version 1.0.")
 dialog_addDialog("dlg-x-poster2", "de", "", "font_orange", "als Dragon's Lair fertiggestellt wurde, Regeln für Anfänger, version 1.0.")
 
 dialog_addDialog("dlg-x-poster3", "en", "", "font_orange", "DRAGON'S LAIR PLUS")
@@ -28,7 +28,7 @@ dialog_addDialog("dlg-x-poster6", "de", "", "font_orange", "Es ist ein neues Spi
 
 dialog_addDialog("dlg-x-poster7", "en", "", "font_orange", "Plenty of new possibilities. New occupations. New system of character creation, where, instead of your lives, your skills grow. New elegant mechanism of playing.")
 dialog_addDialog("dlg-x-poster7", "cs", "", "font_orange", "")
-dialog_addDialog("dlg-x-poster7", "fr", "", "font_orange", "De nombreuses nouvelles possibilités. Nouvelles carrières. Nouveau système de création des personnages, avec augmentations des compétences. Nouveau mécanisme de jeu intuituf.")
+dialog_addDialog("dlg-x-poster7", "fr", "", "font_orange", "De nombreuses nouvelles possibilités. Nouvelles carrières. Nouveau système de création des personnages, avec augmentations des compétences. Nouveau mécanisme de jeu intuitif.")
 dialog_addDialog("dlg-x-poster7", "de", "", "font_orange", "Viele neue Möglichkeiten. Neue Karrieren. Neues System zur Erschaffung von Spielfiguren, in dem deine Fähigkeiten anstatt deine Leben anwachsen. Neuer eleganter Spielmachanismus")
 
 dialog_addDialog("dlg-x-poster8", "en", "", "font_orange", "A game for 21. century.")

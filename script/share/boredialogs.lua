@@ -1,6 +1,6 @@
 dialog_addDialog("ob-m-neverim", "en", "", "font_small", "I don`t believe we can make it...")
 dialog_addDialog("ob-m-neverim", "cs", "sound/share/borejokes/cs/ob-m-neverim.ogg", "font_small", "Nevěřím, že to půjde...")
-dialog_addDialog("ob-m-neverim", "fr", "", "font_small", "Je ne crois pas que nous le ferons...")
+dialog_addDialog("ob-m-neverim", "fr", "", "font_small", "Je ne crois pas que nous y arriverons...")
 dialog_addDialog("ob-m-neverim", "de", "", "font_small", "Ich glaube nicht, dass wir es schaffen...")
 
 dialog_addDialog("ob-m-nedosataneme", "en", "", "font_small", "We aren`t going to get out of here.")
@@ -25,7 +25,7 @@ dialog_addDialog("ob-v-jit1", "de", "", "font_big", "Es gibt eine Lösung, wir k
 
 dialog_addDialog("ob-v-musi", "en", "", "font_big", "Lift up your head, there must be a way.")
 dialog_addDialog("ob-v-musi", "cs", "sound/share/borejokes/cs/ob-v-musi.ogg", "font_big", "Hlavu vzhůru, nějak to jít musí.")
-dialog_addDialog("ob-v-musi", "fr", "", "font_big", "Resaisis-toi, il doit y avoir une solution.")
+dialog_addDialog("ob-v-musi", "fr", "", "font_big", "Ressaisis-toi, il doit y avoir une solution.")
 dialog_addDialog("ob-v-musi", "de", "", "font_big", "Kopf hoch! Es muss einen Weg geben.")
 
 dialog_addDialog("ob-v-klid", "en", "", "font_big", "Take it easy.")
@@ -95,7 +95,7 @@ dialog_addDialog("ob-v-sami", "de", "", "font_big", "Wenn der Spieler weiter nic
 
 dialog_addDialog("ob-m-pst", "en", "", "font_small", "Shhh, don`t disturb the player. He thinks again...")
 dialog_addDialog("ob-m-pst", "cs", "sound/share/borejokes/cs/ob-m-pst.ogg", "font_small", "Pssst, neruš hráče, přemýšlí...")
-dialog_addDialog("ob-m-pst", "fr", "", "font_small", "Shhh, ne dérange pas le joueur. Il réfléchit encore...")
+dialog_addDialog("ob-m-pst", "fr", "", "font_small", "Chut, ne dérange pas le joueur. Il réfléchit encore...")
 dialog_addDialog("ob-m-pst", "de", "", "font_small", "Psst, störe den Spieler nicht. Er denkt wieder...")
 
 dialog_addDialog("ob-m-hlavu", "en", "", "font_small", "Keep calm.")
@@ -135,7 +135,7 @@ dialog_addDialog("ob-v-nerus", "de", "", "font_big", "Störe nicht. Der Spieler 
 
 dialog_addDialog("ob-m-jetam", "en", "", "font_small", "Is there the player at all?")
 dialog_addDialog("ob-m-jetam", "cs", "sound/share/borejokes/cs/ob-m-jetam.ogg", "font_small", "Je tam ten hráč vůbec?")
-dialog_addDialog("ob-m-jetam", "fr", "", "font_small", "Y a-til un joueur tout court ?")
+dialog_addDialog("ob-m-jetam", "fr", "", "font_small", "Y a-t-il un joueur tout court ?")
 dialog_addDialog("ob-m-jetam", "de", "", "font_small", "Gibt es den Spieler überhaupt?")
 
 dialog_addDialog("ob-v-leskne", "en", "", "font_big", "I don`t know. The screen glares too much from inside.")
@@ -166,12 +166,12 @@ dialog_addDialog("ob-v-nelekl", "de", "", "font_big", "Hast Du aufgegeben?")
 
 dialog_addDialog("ob-m-mysleli", "en", "", "font_small", "We were just afraid that you might have forgotten about us.")
 dialog_addDialog("ob-m-mysleli", "cs", "sound/share/borejokes/cs/ob-m-mysleli.ogg", "font_small", "My jsme jen mysleli, jestli jsi na nás nezapomněl.")
-dialog_addDialog("ob-m-mysleli", "fr", "", "font_small", "Nous avons simplement peur que tu nous ai oubliés.")
+dialog_addDialog("ob-m-mysleli", "fr", "", "font_small", "Nous avons simplement peur que tu nous aies oubliés.")
 dialog_addDialog("ob-m-mysleli", "de", "", "font_small", "Wir hatten schon Angst, dass Du uns vergessen hast.")
 
 dialog_addDialog("ob-v-nehybes", "en", "", "font_big", "Look, why don`t you move us a little bit?")
 dialog_addDialog("ob-v-nehybes", "cs", "sound/share/borejokes/cs/ob-v-nehybes.ogg", "font_big", "Hele, proč s námi nehýbeš?")
-dialog_addDialog("ob-v-nehybes", "fr", "", "font_big", "Regarde, pourquoi est-ce que tu nous bouges pas un petit peu ?")
+dialog_addDialog("ob-v-nehybes", "fr", "", "font_big", "Regarde, pourquoi est-ce que tu ne nous bouges pas un petit peu ?")
 dialog_addDialog("ob-v-nehybes", "de", "", "font_big", "Schau, warum bewegst Du uns nicht ein bißchen?")
 dialog_addDialog("ob-v-nehybes", "de_CH", "", "font_big", "Schau, warum bewegst Du uns nicht ein bisschen?")
 
@@ -197,22 +197,22 @@ dialog_addDialog("ob-m-tezky", "de", "", "font_small", "Schwierig, oder?")
 
 dialog_addDialog("ob-v-jidlo", "en", "", "font_big", "Look player, couldn`t you bring us something to eat? Put it in the TEMP directory, we`ll eat it momentarily.")
 dialog_addDialog("ob-v-jidlo", "cs", "sound/share/borejokes/cs/ob-v-jidlo.ogg", "font_big", "Hele, hráči, neskočil bys nám pro něco k jídlu? Dej nám to do adresáře TMP, hned to sníme.")
-dialog_addDialog("ob-v-jidlo", "fr", "", "font_big", "Attends joueur, tu ne peus pas nous apporter quelque chose à manger ? Mets le dans le répertoire temporaire, nous le mangerons à l'occasion.")
+dialog_addDialog("ob-v-jidlo", "fr", "", "font_big", "Attends joueur, tu ne peux pas nous apporter quelque chose à manger ? Mets le dans le répertoire temporaire, nous le mangerons à l'occasion.")
 dialog_addDialog("ob-v-jidlo", "de", "", "font_big", "Schau Spieler, könntest Du uns nicht etwas zu essen bringen? Lege es ins TEMP-Verzeichnis, wir werden es augenblicklich essen.")
 
 dialog_addDialog("ob-m-strach", "en", "", "font_small", "When you stop playing, don`t turn off the computer, please. It`s so dark and scary here if you do.")
 dialog_addDialog("ob-m-strach", "cs", "sound/share/borejokes/cs/ob-m-strach.ogg", "font_small", "Prosím tě, až přestaneš hrát, nevypínej počítač... je tady pak hrozná tma a mám strach.")
-dialog_addDialog("ob-m-strach", "fr", "", "font_small", "Quand tu arrête de jouer, n'éteins pas l'ordinateur, s'il te plaît. C'est si noir et effrayant quand tu éteins.")
+dialog_addDialog("ob-m-strach", "fr", "", "font_small", "Quand tu arrêtes de jouer, n'éteins pas l'ordinateur, s'il te plaît. C'est si noir et effrayant quand tu éteins.")
 dialog_addDialog("ob-m-strach", "de", "", "font_small", "Wenn Du aufhörst zu spielen, mach den Rechner bitte nicht aus. Es ist sonst so dunkel und gruselig hier.")
 
 dialog_addDialog("ob-m-jakdlouho", "en", "", "font_small", "How long are we going to solve it?")
 dialog_addDialog("ob-m-jakdlouho", "cs", "sound/share/borejokes/cs/ob-m-jakdlouho.ogg", "font_small", "Jak dlouho to ještě budeme řešit?")
-dialog_addDialog("ob-m-jakdlouho", "fr", "", "font_small", "Combien de temps il nous faudrat pour trouver la solution ?")
+dialog_addDialog("ob-m-jakdlouho", "fr", "", "font_small", "Combien de temps il nous faudra pour trouver la solution ?")
 dialog_addDialog("ob-m-jakdlouho", "de", "", "font_small", "Wie lange werden wir es lösen?")
 
 dialog_addDialog("ob-v-zvykacka", "en", "", "font_big", "As long as the taste of this chewing gum lasts.")
 dialog_addDialog("ob-v-zvykacka", "cs", "sound/share/borejokes/cs/ob-v-zvykacka.ogg", "font_big", "Tak dlouho, jak dlouho vydrží chuť téhle žvýkačky...")
-dialog_addDialog("ob-v-zvykacka", "fr", "", "font_big", "Aussi longtemps que le goût de ce chewing-gum.")
+dialog_addDialog("ob-v-zvykacka", "fr", "", "font_big", "Aussi longtemps que ce chewing-gum a du goût.")
 dialog_addDialog("ob-v-zvykacka", "de", "", "font_big", "So lange wie der Geschmack dieses Kaugummis hält.")
 
 dialog_addDialog("ob-m-zvykacka", "en", "", "font_small", "What, you are finished? But this chewing gum still tastes extraordinary.")
@@ -242,7 +242,7 @@ dialog_addDialog("ob-m-pravdepodobne", "de", "", "font_small", "Das ist sehr wah
 
 dialog_addDialog("ob-m-ach", "en", "", "font_small", "Oh, yeah.")
 dialog_addDialog("ob-m-ach", "cs", "sound/share/borejokes/cs/ob-m-ach.ogg", "font_small", "Ach jo.")
-dialog_addDialog("ob-m-ach", "fr", "", "font_small", "Oh, yeah.")
+dialog_addDialog("ob-m-ach", "fr", "", "font_small", "Oh, non.")
 dialog_addDialog("ob-m-ach", "de", "", "font_small", "Oh, ja.")
 
 dialog_addDialog("ob-v-copak", "en", "", "font_big", "What happened?")

@@ -10,7 +10,7 @@ dialog_addDialog("vl-v-kaj1", "de", "", "font_big", "Das war sicherlich eine Kap
 
 dialog_addDialog("vl-v-kaj2", "en", "", "font_big", "What would you expect after so many years.")
 dialog_addDialog("vl-v-kaj2", "cs", "sound/"..codename.."/cs/vl-v-kaj2.ogg", "font_big", "Co bys chtěla po tolika letech.")
-dialog_addDialog("vl-v-kaj2", "fr", "", "font_big", "Qu'est-ce que tu espèrais après tant d'années.")
+dialog_addDialog("vl-v-kaj2", "fr", "", "font_big", "Qu'est-ce que tu espérais après tant d'années.")
 dialog_addDialog("vl-v-kaj2", "de", "", "font_big", "Was erwartest du nach so vielen Jahren?")
 
 dialog_addDialog("vl-m-hak", "en", "", "font_small", "Do you think that Silver had this hook in place of his hand?")
@@ -35,7 +35,7 @@ dialog_addDialog("vl-m-oko", "de", "", "font_small", "Das Auge sieht komisch aus
 
 dialog_addDialog("vl-v-silha", "en", "", "font_big", "This eye squints kind of sneaky.")
 dialog_addDialog("vl-v-silha", "cs", "sound/"..codename.."/cs/vl-v-silha.ogg", "font_big", "To oko potměšile šilhá.")
-dialog_addDialog("vl-v-silha", "fr", "", "font_big", "Cet oeuil louche de façon sournoise.")
+dialog_addDialog("vl-v-silha", "fr", "", "font_big", "Cet oeil louche de façon sournoise.")
 dialog_addDialog("vl-v-silha", "de", "", "font_big", "Das Auge schielt irgendwie hinterhältig.")
 
 dialog_addDialog("vl-leb-kecy0", "en", "", "font_lightgrey", "Haven`t you seen my eye somewhere?")

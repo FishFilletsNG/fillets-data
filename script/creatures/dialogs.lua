@@ -51,7 +51,7 @@ dialog_addDialog("kor-v-bermudy", "de", "", "font_big", "Das ist interessant. Di
 
 dialog_addDialog("kor-v-inteligentni", "en", "", "font_big", "Did you know that some types of coral are almost as intelligent as fish?")
 dialog_addDialog("kor-v-inteligentni", "cs", "sound/"..codename.."/cs/kor-v-inteligentni.ogg", "font_big", "Víš o tom, že některé druhy korálů jsou skoro tak inteligentní jako ryby?")
-dialog_addDialog("kor-v-inteligentni", "fr", "", "font_big", "Est-ce que tu saivais que ce corail est aussi intelligent qu'un poisson ?")
+dialog_addDialog("kor-v-inteligentni", "fr", "", "font_big", "Est-ce que tu savais que ce corail est aussi intelligent qu'un poisson ?")
 dialog_addDialog("kor-v-inteligentni", "de", "", "font_big", "Wusstest du, dass manche Korallenarten fast so intelligent wie Fische sind?")
 
 dialog_addDialog("kor-v-jedovate", "en", "", "font_big", "Be careful, most types of coral are poisonous.")
@@ -61,7 +61,7 @@ dialog_addDialog("kor-v-jedovate", "de", "", "font_big", "Sei vorsichtig, die me
 
 dialog_addDialog("kor-m-dusi", "en", "", "font_small", "What do you think, is there such a thing as a 'coral-soul`?")
 dialog_addDialog("kor-m-dusi", "cs", "sound/"..codename.."/cs/kor-m-dusi.ogg", "font_small", "Co myslíš, mají korály duši?")
-dialog_addDialog("kor-m-dusi", "fr", "", "font_small", "Penses-tu qu'il y a quelque chose comme une 'âme coraillienne' ?")
+dialog_addDialog("kor-m-dusi", "fr", "", "font_small", "Penses-tu qu'il y a quelque chose comme une 'âme corallienne' ?")
 dialog_addDialog("kor-m-dusi", "de", "", "font_small", "Was denkst du, gibt es so etwas wie eine \"Korallenseele\"?")
 
 dialog_addDialog("kor-m-pocit", "en", "", "font_small", "Do you have the feeling that those coral are watching us?")
@@ -81,7 +81,7 @@ dialog_addDialog("kor-v-juchacka", "de", "", "font_big", "Das war `ne Nummer, od
 
 dialog_addDialog("kor-m-hraje", "en", "", "font_small", "Yeah, he`s a great player.")
 dialog_addDialog("kor-m-hraje", "cs", "sound/"..codename.."/cs/kor-m-hraje.ogg", "font_small", "No, hraje celkem obstojně.")
-dialog_addDialog("kor-m-hraje", "fr", "", "font_small", "Yeah, C'est un bon joueur.")
+dialog_addDialog("kor-m-hraje", "fr", "", "font_small", "Ouais, C'est un bon joueur.")
 dialog_addDialog("kor-m-hraje", "de", "", "font_small", "Mann, er ist ein großartiger Spieler.")
 dialog_addDialog("kor-m-hraje", "de_CH", "", "font_small", "Mann, er ist ein grossartiger Spieler.")
 
@@ -113,7 +113,7 @@ dialog_addDialog("kor-v-vali", "de", "", "font_big", "Er ist gut, oder?")
 
 dialog_addDialog("kor-m-nachob", "en", "", "font_small", "Not bad for an octopus...")
 dialog_addDialog("kor-m-nachob", "cs", "sound/"..codename.."/cs/kor-m-nachob.ogg", "font_small", "Na chobotnici to celkem ujde...")
-dialog_addDialog("kor-m-nachob", "fr", "", "font_small", "Pas mal pour une pieuvre...")
+dialog_addDialog("kor-m-nachob", "fr", "", "font_small", "Pas mal pour une poulpe...")
 dialog_addDialog("kor-m-nachob", "de", "", "font_small", "Nicht schlecht für einen Kraken...")
 
 dialog_addDialog("kor-m-jinou", "en", "", "font_small", "Do you think he knows any other tune?")

@@ -50,7 +50,7 @@ dialog_addDialog("re-v-nevsimej", "de", "", "font_big", "Ignoriere sie.")
 
 dialog_addDialog("re-v-nech", "en", "", "font_big", "Leave that crab alone.")
 dialog_addDialog("re-v-nech", "cs", "sound/"..codename.."/cs/re-v-nech.ogg", "font_big", "Nech toho kraba na pokoji.")
-dialog_addDialog("re-v-nech", "fr", "", "font_big", "Laisse ce crabe tranquile.")
+dialog_addDialog("re-v-nech", "fr", "", "font_big", "Laisse ce crabe tranquille.")
 dialog_addDialog("re-v-nech", "de", "", "font_big", "Lass die Krabbe in Ruhe.")
 
 dialog_addDialog("re-v-nervozni", "en", "", "font_big", "Can`t you see how nervous it is?")
@@ -70,7 +70,7 @@ dialog_addDialog("re-m-uzitecny0", "de", "", "font_small", "Diese Krabbe könnte
 
 dialog_addDialog("re-m-uzitecny1", "en", "", "font_small", "This crab will surely help us to solve it.")
 dialog_addDialog("re-m-uzitecny1", "cs", "sound/"..codename.."/cs/re-m-uzitecny1.ogg", "font_small", "S pomocí toho kraba to jistě vyřešíme.")
-dialog_addDialog("re-m-uzitecny1", "fr", "", "font_small", "Ce crabe peut surement nous aider à trouver la solution.")
+dialog_addDialog("re-m-uzitecny1", "fr", "", "font_small", "Ce crabe peut sûrement nous aider à trouver la solution.")
 dialog_addDialog("re-m-uzitecny1", "de", "", "font_small", "Diese Krabbe wird uns sicher helfen, hier rauszukommen.")
 
 dialog_addDialog("re-k-budi", "en", "", "font_crab", "Who is waking me up?")
@@ -95,7 +95,7 @@ dialog_addDialog("re-k-nesahej", "de", "", "font_crab", "Fass mich nicht an!")
 
 dialog_addDialog("re-k-au", "en", "", "font_crab", "Ooops.")
 dialog_addDialog("re-k-au", "cs", "sound/"..codename.."/cs/re-k-au.ogg", "font_crab", "Auvajs.")
-dialog_addDialog("re-k-au", "fr", "", "font_crab", "Ooops.")
+dialog_addDialog("re-k-au", "fr", "", "font_crab", "Oups.")
 dialog_addDialog("re-k-au", "de", "", "font_crab", "Auah!")
 
 

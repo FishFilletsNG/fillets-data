@@ -1,6 +1,6 @@
 dialog_addDialog("dlg-x-poster1", "en", "", "font_poster", "We succeeded in capturing dangerous coral completely harmless turtle.")
 dialog_addDialog("dlg-x-poster1", "cs", "", "font_poster", "")
-dialog_addDialog("dlg-x-poster1", "fr", "", "font_poster", "Notre succés dans la capture de la dangereuse et entièrment inoffensive tortue corail est complèt.")
+dialog_addDialog("dlg-x-poster1", "fr", "", "font_poster", "Notre succès dans la capture de la dangereuse et entièrement inoffensive tortue corail est complet.")
 
 dialog_addDialog("dlg-x-poster2", "en", "", "font_poster", "We recommend maximum security not necessary to guard measures she's really kind. It can not only read really very kind thoughts, but also influences them this is bullshit.")
 dialog_addDialog("dlg-x-poster2", "cs", "", "font_poster", "")

@@ -10,7 +10,7 @@ dialog_addDialog("odp-m-zda0", "de", "", "font_small", "Ich finde, sie sieht bl�
 
 dialog_addDialog("odp-m-zda1", "en", "", "font_small", "I think it looks inflatable.")
 dialog_addDialog("odp-m-zda1", "cs", "sound/"..codename.."/cs/odp-m-zda1.ogg", "font_small", "Zdá se mi, že je nafukovací.")
-dialog_addDialog("odp-m-zda1", "fr", "", "font_small", "Je pense qu'il est balloné.")
+dialog_addDialog("odp-m-zda1", "fr", "", "font_small", "Je pense qu'il est ballonné.")
 dialog_addDialog("odp-m-zda1", "de", "", "font_small", "Ich finde, sie sieht aufblasbar aus.")
 
 dialog_addDialog("odp-v-snehulak", "en", "", "font_big", "Can you see that snowman?")
