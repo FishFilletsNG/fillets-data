@@ -92,7 +92,7 @@ local function prog_init()
                     end
                 end
                 if pom1 == 0 and snehulak.afaze == 1 then
-                    snehulak:talk("tr-x-koste")
+                    snehulak:talk("tr-x-koste", VOLUME_FULL)
                     if no_dialog() then
                         addm(2, "tr-m-au"..(random(2) + 1))
                     end

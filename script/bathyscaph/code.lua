@@ -75,8 +75,7 @@ local function prog_init()
                                 room.zvon = room.zvon - 1
                                 zluty.afaze = 0
                             else
-                                --TODO: sound volume
-                                zluty:talk("bat-t-phone0")
+                                zluty:talk("bat-t-phone0", VOLUME_FULL)
                             end
                         else
                             zluty:killSound()
@@ -110,8 +109,7 @@ local function prog_init()
                                 room.zvon = room.zvon - 1
                                 modry.afaze = 0
                             else
-                                --TODO: sound volume
-                                modry:talk("bat-t-phone1")
+                                modry:talk("bat-t-phone1", VOLUME_FULL)
                             end
                         else
                             modry:killSound()
@@ -138,9 +136,7 @@ local function prog_init()
                     if room.poc > 0 then
                         room.poc = room.poc - 1
                     elseif not ibudik:isTalking() then
-                        --FIXME: cycling sound
-                        -- sndcyc("bat-t-budik", 50)
-                        ibudik:talk("bat-t-budik")
+                        ibudik:talk("bat-t-budik", VOLUME_FULL, -1)
                     elseif ibudik.dir ~= dir_no then
                         ibudik:killSound()
                         room.aktivni = -1

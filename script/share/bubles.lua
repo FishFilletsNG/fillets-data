@@ -10,8 +10,8 @@ end
 
 function stdBubles()
     --NOTE: original was (random(100) < 5)
-    if random(100) < 1 then
-        sound_playSound("bubles", 0)
+    if random(100) < 2 then
+        sound_playSound("bubles", 15)
     end
 end
 

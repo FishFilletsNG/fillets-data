@@ -3,6 +3,10 @@
 LOOK_LEFT = 0
 LOOK_RIGHT = 1
 
+VOLUME_LOW = 50
+VOLUME_LOWER = 75
+VOLUME_FULL = 100
+
 -- -----------------------------------------------------------------
 -- Room creation
 -- -----------------------------------------------------------------
@@ -91,8 +95,8 @@ function createObject(model_index)
     object.isTalking = function(self)
         return model_isTalking(self.index)
     end
-    object.talk = function(self, dialog)
-        return model_talk(self.index, dialog)
+    object.talk = function(self, dialog, volume, loops)
+        return model_talk(self.index, dialog, volume, loops)
     end
     object.killSound = function(self)
         return model_killSound(self.index)

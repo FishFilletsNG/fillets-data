@@ -28,6 +28,9 @@ function loadFonts()
     dialog_addFont("font_viking3", 255, 96, 96)
     dialog_addFont("font_viking4", 255, 180, 100)
     dialog_addFont("font_viking5", 255, 192, 128)
+    dialog_addFont("font_viking6", 128, 255, 255)
+
+    dialog_addFont("font_viking8", 255, 255, 128)
 
     --FIXME: vikings?
     --[[

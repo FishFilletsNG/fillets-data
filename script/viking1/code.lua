@@ -126,7 +126,6 @@ local function prog_init()
                 end
                 if melodak1.hrat > -1 then
                     model_killSound(MELODAK_SONG)
-                    --TODO: music volume
                     model_talk(MELODAK_SONG, "d1-z-v"..melodak1.hrat)
                     setanim(melodak1, "a4a2a4a2a4a2a4a2a4a2d2a4a2d2a4a2d2a4a2d2a4a2d2a4a2d2" .. "a4a2a4a2a4a2a4a2a4a2d2a4a2d2a4a2d2a4a2d2a4a2d4a4")
                 else
@@ -199,7 +198,6 @@ local function prog_init()
                 end
                 if basak.hrat > -1 then
                     model_killSound(BASAK_SONG)
-                    --TODO: music volume
                     model_talk(BASAK_SONG, "d1-z-b"..basak.hrat)
                     if basak.hrat == 1 then
                         setanim(basak, "a0d3a2d3a0d19a2d3a0d3a2d3a0d19a2d3")
@@ -263,7 +261,6 @@ local function prog_init()
                 end
                 piskac.xicht = 4
                 model_killSound(PISKAC_SONG)
-                --TODO: music volume
                 model_talk(PISKAC_SONG, "d1-z-p"..piskac.hrat)
             end
             if random(100) < 5 then
@@ -293,7 +290,6 @@ local function prog_init()
                 end
                 if melodak2.hrat > -1 then
                     model_killSound(MELODAK_SONG)
-                    --TODO: music volume
                     model_talk(MELODAK_SONG, "d1-z-v"..melodak2.hrat)
                     if melodak2.hrat == 1 then
                         setanim(melodak2, "a2d15a3d15a2d28a0")
