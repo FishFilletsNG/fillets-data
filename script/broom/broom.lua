@@ -17,5 +17,5 @@ file_include("script/"..codename.."/dialogs.lua")
 -- ---------------------------------------------------------------
 -- Update
 -- ---------------------------------------------------------------
-file_include("script/"..codename.."/programs.lua")
+file_include("script/"..codename.."/code.lua")
 
