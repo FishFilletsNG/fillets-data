@@ -81,7 +81,7 @@ local function prog_init()
                         end,
                         [2] = function()
                             if room.ritual == 1 then
-                                planDialogSet(randint(2, 6), "zd2-x-rit" + "ual", 102, dedek, "mluvi")
+                                planDialogSet(randint(2, 6), "zd2-x-ritual", 102, dedek, "mluvi")
                             end
                         end,
                     }
