@@ -20,7 +20,7 @@ dialogStr("Ti senti bene?")
 dialogId("sm-m-kramy0", "font_small", "This is a pile of garbage.")
 dialogStr("Questo è un mucchio di spazzatura.")
 
-("sm-m-kramy1", "font_small", "This must be a wreck of a flea shop.")
+dialogId("sm-m-kramy1", "font_small", "This must be a wreck of a flea shop.")
 dialogStr("Dev'essere il relitto di un rigattiere.")
 
 dialogId("sm-v-kramy2", "font_big", "It`s worse here than in an oil spill.")

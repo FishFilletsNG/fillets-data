@@ -7,6 +7,6 @@ for file in script/*/dialogs.lua \
         script/briefcase/demo_briefcase.lua \
         script/share/demo_intro.lua ;
     do
-    ./diacheck.lua "$file"
+    ./diacheck.lua "$file" || exit $?
 done
 
