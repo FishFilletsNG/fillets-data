@@ -51,7 +51,7 @@ dialog_addDialog("1st-v-navod5", "en", "", "font_big", "...if we can get there w
 dialog_addDialog("1st-v-navod5", "cs", "sound/"..codename.."/cs/1st-v-navod5.ogg", "font_big", "...aniž bychom něčím hýbali...")
 dialog_addDialog("1st-v-navod5", "fr", "", "font_big", "... si nous pouvons y aller sans déplacer d'objet...")
 dialog_addDialog("1st-v-navod5", "de", "", "font_big", "...wenn wir dorthin kommen, ohne etwas zu bewegen...")
-dialog_addDialog("1st-v-navod5", "it", "", "font_big", "...se possiamo raggiungere il punto senza muovere niente...")
+dialog_addDialog("1st-v-navod5", "it", "", "font_big", "...se possiamo raggiungere quel punto senza muovere niente...")
 
 dialog_addDialog("1st-m-navod6", "en", "", "font_small", "...we`ll follow your clicks.")
 dialog_addDialog("1st-m-navod6", "cs", "sound/"..codename.."/cs/1st-m-navod6.ogg", "font_small", "...tak tam jedeme.")
@@ -88,6 +88,7 @@ dialog_addDialog("1st-v-takdobre", "en", "", "font_big", "Okay.")
 dialog_addDialog("1st-v-takdobre", "cs", "sound/"..codename.."/cs/1st-v-takdobre.ogg", "font_big", "Tak dobře.")
 dialog_addDialog("1st-v-takdobre", "fr", "", "font_big", "D'accord.")
 dialog_addDialog("1st-v-takdobre", "de", "", "font_big", "Gut.")
+dialog_addDialog("1st-v-takdobre", "it", "", "font_big", "OK.")
 
 dialog_addDialog("1st-m-neprojedu", "en", "", "font_small", "I can`t get through here. That steel cylinder is in the way.")
 dialog_addDialog("1st-m-neprojedu", "cs", "sound/"..codename.."/cs/1st-m-neprojedu.ogg", "font_small", "Tudy neprojedu. Zavazí mi ten ocelový válec.")
