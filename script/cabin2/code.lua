@@ -11,7 +11,7 @@ local function prog_init()
     -- -------------------------------------------------------------
     local function prog_init_room()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
-        local boring
+        local boring = 0
 
         room.uvod = 0
         room.zivy = 0
