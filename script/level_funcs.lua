@@ -5,6 +5,10 @@ LOOK_RIGHT = 1
 function createRoom(width, height, picture)
     -- TODO: wavy params
     game_createRoom(width, height, picture)
+    sound_addSound("impact_light", "sound/share/sp-zuch1.wav")
+    sound_addSound("impact_light", "sound/share/sp-zuch2.wav")
+    sound_addSound("impact_heavy", "sound/share/sp-ocel1.wav")
+    sound_addSound("impact_heavy", "sound/share/sp-ocel2.wav")
 end
 
 local models_table = {}
@@ -46,6 +50,9 @@ function createObject(model_index)
     object.getAction = function(self)
         return model_getAction(self.index)
     end
+    object.getState = function(self)
+        return model_getState(self.index)
+    end
     object.isAlive = function(self)
         return model_isAlive(self.index)
     end
@@ -64,8 +71,13 @@ function createObject(model_index)
     object.isTalking = function(self)
         return model_isTalking(self.index)
     end
-    object.planDialog = function(self, delay, dialog)
-        return model_planDialog(self.index, delay, dialog)
+    object.planDialog = function(self, delay, dialog, busy)
+        if busy then
+            busy = 1
+        else
+            busy = 0
+        end
+        return model_planDialog(self.index, delay, dialog, busy)
     end
     object.setGoal = function(self, goalname)
         return model_setGoal(self.index, goalname)
@@ -116,6 +128,9 @@ function animateFish(model)
             model:runAnim("swam")
         elseif "turn" == action then
             model:runAnim("turn")
+        elseif "busy" == action then
+            -- TODO: better talk sequence
+            model:setAnim("turn", 1)
         else
             model:runAnim("rest")
         end
@@ -128,7 +143,14 @@ end
 function animateHead(model)
     if model:isAlive() then
         if "turn" ~= model:getAction() then
-            if model:isTalking() then
+            local state = model:getState()
+
+            if "talking" == state then
+                -- TODO: better talk sequence
+                if "busy" ~= model:getAction() then
+                    model:useSpecialAnim("head_talking", math.random(3) - 1)
+                end
+            elseif "pushing" == state then
                 model:useSpecialAnim("head_talking", math.random(3) - 1)
             end
         end

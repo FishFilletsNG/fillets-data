@@ -1,7 +1,6 @@
 
 function no_dialog()
-    -- FIXME: implement
-    return not small:isTalking() and not big:isTalking()
+    return dialog_empty()
 end
 
 function isReady(model)
