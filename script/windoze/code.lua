@@ -44,7 +44,10 @@ local function prog_init()
                 staramala:setBusy(true)
                 staravelka:setBusy(true)
             end
-            if autoRestart == 0 and ((not staramala:isAlive() and not staravelka:isAlive()) or (not small:isAlive() and not big:isAlive())) then
+            if autoRestart == 0 and (
+                (not staramala:isAlive() and (not staravelka:isAlive() or staravelka:isOut())) or
+                (not staravelka:isAlive() and (not staramala:isAlive() or staramala:isOut())) or
+                (not small:isAlive() and not big:isAlive())) then
                 autoRestart = 1
                 level_planShow(function(count)
                     if count == 60 then
