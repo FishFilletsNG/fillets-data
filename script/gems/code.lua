@@ -91,7 +91,7 @@ local function prog_init()
                     gem.afaze = gem.afaze + 1
                 elseif isIn(gem.glob, {4, 5, 6}) then
                     gem.afaze = gem.afaze - 1
-                elseif gem.glob == 1 then
+                elseif gem.glob == 7 then
                     gem.glob = -random(100) - 10
                 end
                 gem:updateAnim()
