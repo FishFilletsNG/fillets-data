@@ -1,4 +1,7 @@
 
+codename = "briefcase"
+file_include("script/"..codename.."/dialogs_brief.lua")
+
 local function planDelay(delay)
     if delay > 0 then
         game_planAction(function(count)
