@@ -200,6 +200,19 @@ local function selectJoke(n)
 end
 
 -- -----------------------------------------------------------------
+local boredRate = 0
+local function boredUnits()
+    for index, unit in pairs(getUnitTable()) do
+        if not (unit:getAction() == "rest") then
+            boredRate = 0
+            return false
+        end
+    end
+    boredRate = boredRate + 1
+    return boredRate > 100
+end
+
+-- -----------------------------------------------------------------
 -- TODO: remember delayForJoke after restart
 local lastDialog = 0
 local delayForJoke = random(600) + 600
@@ -210,7 +223,7 @@ function stdBoreJokeLoad()
 end
 
 function stdBoreJoke()
-    if no_dialog() then
+    if boredUnits() and no_dialog() then
         local now = game_getCycles()
         if now > lastDialog + delayForJoke then
             lastDialog = now
@@ -221,6 +234,7 @@ function stdBoreJoke()
             end
             rememberUsed(n)
             selectJoke(n)
+            boredRate = 0
         end
     end
 end
