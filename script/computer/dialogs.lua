@@ -39,7 +39,7 @@ dialog_addDialog("poc-v-multimed", "cs", "sound/"..codename.."/cs/poc-v-multimed
 dialog_addDialog("poc-v-multimed", "fr", "", "font_big", "Sûrement pas ! Ce n'est pas un ordinateur multimédia puissant. Ce n'est qu'un XT avec écran 12 pouces.")
 
 dialog_addDialog("poc-v-vyresil", "en", "", "font_big", "The one who will solve, I mean who have solved, will receive, I mean received, MMX based machine with 3Dfx card, plenty of RAM, huge hard disk...")
-dialog_addDialog("poc-v-vyresil", "cs", "sound/"..codename.."/cs/poc-v-vyresil.ogg", "font_big", "Ten, kdo první vyřeší, chci říci vyřešil, všechny zbývající levely, vyhraje, chci říci vyhrál, počítač s technologií MMX, 3Dfx kartou, spoustou paměti, olbřímím diskem...")
+dialog_addDialog("poc-v-vyresil", "cs", "sound/"..codename.."/cs/poc-v-vyresil.ogg", "font_big", "Ten, kdo první vyřeší, chci říci vyřešil, všechny zbývající levely, vyhraje, chci říci vyhrál, počítač s technologií MMX, 3Dfx kartou, spoustou paměti, obřím diskem...")
 dialog_addDialog("poc-v-vyresil", "fr", "", "font_big", "Celui qui résoudra, je veux dire a résolu, recevra, je veux dire a reçu, un ordinateur MMX avec une carte vidéo 3Dfx, beaucoup de RAM, un énorme disque...")
 
 dialog_addDialog("poc-m-kcemu", "en", "", "font_small", "And what is it for? I for one know plenty of games almost as good as this one that could easily run on this XT machine.")
