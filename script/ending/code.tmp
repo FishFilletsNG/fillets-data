@@ -1,0 +1,252 @@
+
+-- -----------------------------------------------------------------
+-- Init
+-- -----------------------------------------------------------------
+local function prog_init()
+    initModels()
+    sound_playMusic("music/rybky04.ogg")
+    local pokus = getRestartCount()
+
+
+    -- -------------------------------------------------------------
+    local function prog_init_room()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        room.uvod = 0
+        room.hlaska = 0
+        zavermode = true
+
+        return function()
+            if room.uvod == 0 then
+                room.uvod = 1
+                addv(20, "z-v-doma")
+                addm(10, "z-m-pocit")
+                addd(random(10) + 5, "bar-x-suckano", 202, pldik.cinnost)
+                addv(random(20) + 10, "z-v-sef")
+                addm(5, "z-m-nemluv")
+                addv(2, "z-v-slyset")
+                addm(6, "z-m-netusi")
+                addd(5, "z-c-konkretne", 10, noprom)
+                adddel(3)
+                addset(room.hlaska, 1)
+            elseif room.uvod == 2 then
+                room.uvod = 3
+                adddel(5)
+                addset(tvrdaryba, mala)
+                addset(tvrdex, 14)
+                addset(tvrdey, 16)
+                addset(natvrdo, 1)
+                addm(5, "z-m-dlouho")
+                addset(busy[velka], 1)
+                addv(10, "z-v-pozdrav")
+                addset(busy[mala], 1)
+                addset(busy[velka], 0)
+                addset(busy[mala], 1)
+                addset(tvrdaryba, velka)
+                addset(tvrdex, 15)
+                addset(tvrdey, 15)
+                addm(5, "z-m-oblicej")
+                addset(natvrdo, 1)
+                addv(0, "z-v-forky")
+                adddel(2)
+                addset(busy[velka], 1)
+                addset(busy[mala], 1)
+                addd(2, "z-o-blahoprejeme", 3, noprom)
+                adddel(20)
+                addset(konec, 1)
+            end
+            if room.hlaska == 1 then
+                room.cas = round(cas_hry * 24)
+                globtit = inttostr(room.cas)
+            end
+            if room.hlaska >= 1 and not talking(10) then
+                pom1 = room.hlaska
+                room.hlaska = room.hlaska + 1
+                if room.cas >= 1000 then
+                    if room.cas >= 2000 then
+                        pom1 = pom1 - 1
+                        if pom1 == 0 then
+                            talk("z-c-" + inttostr(math.floor(room.cas / 1000)), 10)
+                        end
+                    end
+                    if math.floor(room.cas / 1000) IN --FIXME: IN
+{2, 3, 4} then
+                        pom1 = pom1 - 1
+                        if pom1 == 0 then
+                            talk("z-c-tisice", 10)
+                        end
+                    else
+                        pom1 = pom1 - 1
+                        if pom1 == 0 then
+                            talk("z-c-tisic", 10)
+                        end
+                    end
+                end
+                switch(math.floor(math.mod(room.cas, 1000) / 100)){
+                    [0] = function()
+                    end,
+                    [1] = function()
+                        pom1 = pom1 - 1
+                        if pom1 == 0 then
+                            talk("z-c-100", 10)
+                        end
+                    end,
+                    [2] = function()
+                        pom1 = pom1 - 1
+                        if pom1 == 0 then
+                            talk("z-c-200", 10)
+                        end
+                    end,
+                    [3, 4] = function()
+                        pom1 = pom1 - 1
+                        if pom1 == 0 then
+                            talk("z-c-" + inttostr(math.floor(math.mod(room.cas, 1000) / 100)), 10)
+                        end
+                        pom1 = pom1 - 1
+                        if pom1 == 0 then
+                            talk("z-c-sta", 10)
+                        end
+                    end,
+                    default = function()
+                        pom1 = pom1 - 1
+                        if pom1 == 0 then
+                            talk("z-c-" + inttostr(math.floor(math.mod(room.cas, 1000) / 100)), 10)
+                        end
+                        pom1 = pom1 - 1
+                        if pom1 == 0 then
+                            talk("z-c-set", 10)
+                        end
+                    end,
+                }
+                if math.mod(room.cas, 100) < 20 and math.mod(room.cas, 100) > 0 then
+                    pom1 = pom1 - 1
+                    if pom1 == 0 then
+                        talk("z-c-" + inttostr(math.mod(room.cas, 100)), 10)
+                    end
+                elseif math.mod(room.cas, 100) >= 20 then
+                    pom1 = pom1 - 1
+                    if pom1 == 0 then
+                        talk("z-c-" + inttostr(math.floor(math.mod(room.cas, 100) / 10) * 10), 10)
+                    end
+                    if math.mod(room.cas, 10) > 0 then
+                        pom1 = pom1 - 1
+                        if pom1 == 0 then
+                            talk("z-c-" + inttostr(math.mod(room.cas, 10)), 10)
+                        end
+                    end
+                end
+                pom1 = pom1 - 1
+                if pom1 == 0 then
+                    room.hlaska = 0
+                    talk("z-c-hodin", 10)
+                    room.uvod = 2
+                end
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_pldik()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        pldik.cinnost = 0
+        pldik.oci = 0
+        pldik.suckani = 0
+
+        return function()
+            switch(pldik.cinnost){
+                [0] = function()
+                    if random(1000) < 5 then
+                        pldik.cinnost = 1
+                    end
+                    if random(100) < 5 then
+                        pldik.oci = random(5)
+                        if pldik.oci > 0 then
+                            pldik.oci = pldik.oci + 1
+                        end
+                    end
+                    if pldik.suckani == 0 and random(100) < 2 then
+                        pldik.suckani = random(5) + 1
+                        pldik.suckfaze = 0
+                    end
+                end,
+                [1] = function()
+                    if random(1000) < 10 then
+                        pldik.cinnost = 0
+                    end
+                    pldik.oci = 6
+                    if pldik.suckani == 0 and random(100) < 2 then
+                        pldik.suckani = random(4) + 1
+                        pldik.suckfaze = 0
+                    end
+                end,
+                [201] = function()
+                    if not playing(201) then
+                        pldik.cinnost = 0
+                    end
+                    pldik.oci = 1
+                    if pldik.suckani == 0 then
+                        pldik.suckani = 1000
+                        pldik.suckfaze = 0
+                    end
+                end,
+                [202] = function()
+                    if not playing(202) then
+                        pldik.cinnost = 0
+                    end
+                    pldik.oci = 0
+                    if pldik.suckani == 0 then
+                        pldik.suckani = 1000
+                        pldik.suckfaze = 0
+                    end
+                end,
+            }
+            pldik.afaze = pldik.oci * 2
+            if random(100) < 5 then
+                pldik.afaze = 12
+            end
+            if pldik.suckani > 0 then
+                switch(pldik.suckfaze){
+                    [0] = function()
+                        if pldik.cinnost < 200 then
+                            snd("bar-x-suck" + chr(random(4) + 48), 251)
+                        end
+                    end,
+                    [1.. --FIXME: range
+3] = function()
+                        pldik.afaze = pldik.afaze + 1
+                    end,
+                    [5] = function()
+                        pldik.suckani = pldik.suckani - 1
+                    end,
+                }
+                pldik.suckfaze = math.mod(pldik.suckfaze + 1, 6)
+            end
+        end
+    end
+
+    -- --------------------
+    local update_table = {}
+    local subinit
+    subinit = prog_init_room()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_pldik()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    return update_table
+end
+local update_table = prog_init()
+
+
+-- -----------------------------------------------------------------
+-- Update
+-- -----------------------------------------------------------------
+function prog_update()
+    for key, subupdate in pairs(update_table) do
+        subupdate()
+    end
+end
+
