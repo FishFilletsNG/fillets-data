@@ -58,7 +58,7 @@ dialog_addDialog("ob-v-napad", "cs", "sound/share/borejokes/cs/ob-v-napad.ogg", 
 dialog_addDialog("ob-v-napad", "fr", "", "font_big", "Non, c'était juste une idée...")
 dialog_addDialog("ob-v-napad", "de", "", "font_big", "Ach nö, war nur eine Idee...")
 
-dialog_addDialog("ob-v-vyzkousej", "en", "", "font_big", "What if we try that....")
+dialog_addDialog("ob-v-vyzkousej", "en", "", "font_big", "What if we try that...")
 dialog_addDialog("ob-v-vyzkousej", "cs", "sound/share/borejokes/cs/ob-v-vyzkousej.ogg", "font_big", "Co kdybychom vyzkoušeli támhle...")
 dialog_addDialog("ob-v-vyzkousej", "fr", "", "font_big", "Et si on essayait ça...")
 dialog_addDialog("ob-v-vyzkousej", "de", "", "font_big", "Und wenn wir versuchen, dieses...")
@@ -113,7 +113,7 @@ dialog_addDialog("ob-m-jesteneco", "cs", "sound/share/borejokes/cs/ob-m-jestenec
 dialog_addDialog("ob-m-jesteneco", "fr", "", "font_small", "N'y aurait-il pas quelque chose à faire ?")
 dialog_addDialog("ob-m-jesteneco", "de", "", "font_small", "Wird etwas passieren?")
 
-dialog_addDialog("ob-m-nedeje", "en", "", "font_small", "Why aren`t  we doing anything?")
+dialog_addDialog("ob-m-nedeje", "en", "", "font_small", "Why aren`t we doing anything?")
 dialog_addDialog("ob-m-nedeje", "cs", "sound/share/borejokes/cs/ob-m-nedeje.ogg", "font_small", "Proč se nic neděje?")
 dialog_addDialog("ob-m-nedeje", "fr", "", "font_small", "Pourquoi ne faisons-nous rien ?")
 dialog_addDialog("ob-m-nedeje", "de", "", "font_small", "Warum tun wir nichts?")
@@ -230,7 +230,7 @@ dialog_addDialog("ob-m-kdo", "cs", "sound/share/borejokes/cs/ob-m-kdo.ogg", "fon
 dialog_addDialog("ob-m-kdo", "fr", "", "font_small", "Les autres quoi ?")
 dialog_addDialog("ob-m-kdo", "de", "", "font_small", "Welchen anderen?")
 
-dialog_addDialog("ob-v-kdoresi", "en", "", "font_big", "The other player who are solving this game. Maybe they managed to solve more levels.")
+dialog_addDialog("ob-v-kdoresi", "en", "", "font_big", "The other players who are solving this game. Maybe they managed to solve more levels.")
 dialog_addDialog("ob-v-kdoresi", "cs", "sound/share/borejokes/cs/ob-v-kdoresi.ogg", "font_big", "No ostatní, kdo to řeší. Třeba už mají víc místností.")
 dialog_addDialog("ob-v-kdoresi", "fr", "", "font_big", "Les autres joueurs qui cogitent sur ce jeux. Peut-être qu'ils ont résolu plus de niveaux.")
 dialog_addDialog("ob-v-kdoresi", "de", "", "font_big", "Die anderen Spieler, die das Spiel lösen. Vielleicht haben sie geschafft, mehr Ebenen zu lösen.")
