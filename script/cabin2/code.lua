@@ -117,7 +117,7 @@ local function prog_init()
     -- -------------------------------------------------------------
     local function prog_init_truhla()
         return function()
-            if truhla.dir ~= dir_no and gfaze == 0 then
+            if truhla.dir ~= dir_no and level_isNewRound() then
                 truhla:talk("k1-x-vrz", VOLUME_FULL)
             end
         end
