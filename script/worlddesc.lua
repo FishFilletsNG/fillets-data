@@ -178,7 +178,7 @@ worldmap_addDesc("atlantis", "en", "And How It Was", "City In the Deep")
 worldmap_addDesc("atlantis", "cs", "Tak takhle to bylo", "Město v hlubinách")
 worldmap_addDesc("atlantis", "fr", "Comment ce fut",  "Citée des profondeurs")
 worldmap_addDesc("atlantis", "de", "Wie es war",  "Stadt in der Tiefe")
-worldmap_addDesc("atlantis", "it", "Ecco com'era", "Città profonda")
+worldmap_addDesc("atlantis", "it", "L'arcano svelato", "Città profonda")
 
 worldmap_addDesc("corals", "en", "First Bizarre Things", "Coral reef")
 worldmap_addDesc("corals", "cs", "První bizarnosti", "Korálový útes")

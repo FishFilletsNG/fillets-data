@@ -28,7 +28,7 @@ dialogStr("Lasciaci pensare.")
 
 
 dialogId("dir-v-rada2", "font_big", "This was some advice, again.")
-dialogStr("Ancora consigli.")
+dialogStr("Ancora questi consigli...")
 
 
 dialogId("dir-v-rada3", "font_big", "It's a shame I have no ears. I could plug them.")
