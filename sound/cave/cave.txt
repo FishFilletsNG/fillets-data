@@ -53,7 +53,7 @@ jes-v-potvora0
 jes-v-potvora1
  V: To je odporník lesklý.
  V: It is called the Glossy repulsor.
- jes-v-potvora2
+jes-v-potvora2
  V: To je hlavoun duhový.
  V: It is called the Politician fish.
 
