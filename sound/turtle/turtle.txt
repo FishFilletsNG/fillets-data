@@ -1,73 +1,73 @@
 CE
 zel-v-zelva0
- V: Ha, vidí¹ ji? To bude jistì ta telepatická ¾elva.
+ V: Ha, vidÃ­Å¡ ji? To bude jistÄ› ta telepatickÃ¡ Å¾elva.
  V: Can you see it? This must be that telepathic turtle.
 zel-v-zelva1
- V: Ha, to je ona. ®elva s telepatickımi schopnostmi.
+ V: Ha, to je ona. Å½elva s telepatickÃ½mi schopnostmi.
  V: Yes, this is it. The telepathic turtle.
 zel-m-fotky0
- M: No, já nevím, podle tìch fotek by to mohla bıt ona.
+ M: No, jÃ¡ nevÃ­m, podle tÄ›ch fotek by to mohla bÃ½t ona.
  M: Well, I don`t know. Judging from those photos, it could be it.
 zel-m-fotky1
- M: Nejsem si jistá... a co ty telepatické schopnosti?
+ M: Nejsem si jistÃ¡... a co ty telepatickÃ© schopnosti?
  M: I am not sure... what about those telepathic powers?
 zel-v-zmistnosti0
- V: V ka¾dém pøípadì ji vystrkáme z místnosti.
+ V: V kaÅ¾dÃ©m pÅ™Ã­padÄ› ji vystrkÃ¡me z mÃ­stnosti.
  V: In any case we have to get it out of the room.
 zel-v-zmistnosti1
- V: Vyneseme ven z místnosti tu ¾elvu.
+ V: Vyneseme ven z mÃ­stnosti tu Å¾elvu.
  V: Let`s take out that turtle.
 
 zel-m-coto0
- M: Co to dìlá¹?
+ M: Co to dÄ›lÃ¡Å¡?
  M: What are you doing?
 zel-m-coto1
- M: Proè jsi to udìlal?
+ M: ProÄ jsi to udÄ›lal?
  M: What have you done?
 zel-m-coto2
- M: Co to mìlo znamenat?
+ M: Co to mÄ›lo znamenat?
  M: What is it supposed to mean?
 zel-v-coto0
- V: Kam plave¹?
+ V: Kam plaveÅ¡?
  V: Where are you swimming?
 zel-v-coto1
- V: Co tì to napadlo?
+ V: Co tÄ› to napadlo?
  V: What should it mean?
 zel-v-coto2
- V: Co se to s tebou dìje?
+ V: Co se to s tebou dÄ›je?
  V: What happened to you?
 zel-m-nevim0
- M: Já nevím...
+ M: JÃ¡ nevÃ­m...
  M: I don`t know...
 zel-m-nevim1
- M: Já si nic neuvìdomuju...
+ M: JÃ¡ si nic neuvÄ›domuju...
  M: I can`t realize...
 zel-v-nevim0
- V: Nevím, co se se mnou dìje...
+ V: NevÃ­m, co se se mnou dÄ›je...
  V: I don`t know what`s happening to me...
 zel-v-nevim1
- V: Já nevím, to samo...
+ V: JÃ¡ nevÃ­m, to samo...
  V: I didn`t want to...
 
 zel-v-cosedeje
- V: Co se to s námi jen dìje?
+ V: Co se to s nÃ¡mi jen dÄ›je?
  V: What`s happening to us?
 zel-m-cimtoje
- M: Èím to mù¾e bıt zpùsobeno?
+ M: ÄŒÃ­m to mÅ¯Å¾e bÃ½t zpÅ¯sobeno?
  M: What it can mean?
 
 zel-m-tazelva
- M: To dìlá ta ¾elva!
+ M: To dÄ›lÃ¡ ta Å¾elva!
  M: This must be that turtle!
 zel-v-tazelva
- V: To dìlá ta ¾elva!
+ V: To dÄ›lÃ¡ ta Å¾elva!
  V: This must be that turtle!
 
 zel-m-jasne
- M: Tak teï u¾ je to jasné - je to ona. Tu hledáme!
+ M: Tak teÄ uÅ¾ je to jasnÃ© - je to ona. Tu hledÃ¡me!
  M: So there can be no doubts now - this is it. The one we are looking for!
 zel-v-pochyby
- V: Teï u¾ není pochyb, je to ta ¾elva, kterou hledáme!
+ V: TeÄ uÅ¾ nenÃ­ pochyb, je to ta Å¾elva, kterou hledÃ¡me!
  V: Doubtless, this is the turtle we are looking for!
 
 zel-m-potvora0
@@ -77,26 +77,26 @@ zel-m-potvora1
  M: Nech toho, ty mrcho!
  M: Stop it, you devil!
 zel-v-stacit0
- V: To u¾ by tedy mohlo staèit!
+ V: To uÅ¾ by tedy mohlo staÄit!
  V: Enough is enough!
 zel-v-stacit1
- V: Baví¹ se dobøe?
+ V: BavÃ­Å¡ se dobÅ™e?
  V: Are you enjoying yourself?
 
 zel-v-bizarni
- V: Tolik bizarních tvarù se najde jen na korálovém útesu.
+ V: Tolik bizarnÃ­ch tvarÅ¯ se najde jen na korÃ¡lovÃ©m Ãºtesu.
  V: So many bizarre shapes can only be found in a coral reef.
 zel-m-priroda
- M: Pøíroda se na tìch korálech vyøádila. 
+ M: PÅ™Ã­roda se na tÄ›ch korÃ¡lech vyÅ™Ã¡dila. 
  M: These corals are Mother Nature`s wonders.
 zel-v-tvary
- V: Jak mù¾e vzniknout tolik bizarních tvarù?
+ V: Jak mÅ¯Å¾e vzniknout tolik bizarnÃ­ch tvarÅ¯?
  V: Where do so many bizarre shapes come from?
 zel-m-jednoduse
- M: Jednodu¹e - programátoøi vytvoøí zapeklitı problém a grafici to pak nakreslí.
+ M: JednoduÅ¡e - programÃ¡toÅ™i vytvoÅ™Ã­ zapeklitÃ½ problÃ©m a grafici to pak nakreslÃ­.
  M: It`s easy - designers create tricky problem and leave the drawing to the graphic artists.
 
 zel-v-ukol
- V: V této místnosti je na¹ím úkolem dostat ven tu ¾elvu.
+ V: V tÃ©to mÃ­stnosti je naÅ¡Ã­m Ãºkolem dostat ven tu Å¾elvu.
  V: Our goal in this room is to get out that turtle.
 

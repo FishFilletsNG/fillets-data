@@ -6,70 +6,70 @@ poc-m-lezt1
  M: A co je zase tohle?
  M: What kind of place is this?
 poc-m-lezt2
- M: To je teda místo.
+ M: To je teda mÃ­sto.
  M: Wow, that`s a place.
 poc-v-kam0
- V: Kam tak èlovìk - chci øíci ryba - mù¾e vlézt záchodem?
+ V: Kam tak ÄlovÄ›k - chci Å™Ã­ci ryba - mÅ¯Å¾e vlÃ©zt zÃ¡chodem?
  V: Where can man - I mean fish - get by climbing into toilet?
 poc-v-kam1
- V: Vypadá to na malé úhledné smeti¹tì.
+ V: VypadÃ¡ to na malÃ© ÃºhlednÃ© smetiÅ¡tÄ›.
  V: It looks like a cozy little dump.
 poc-v-kam2
- V: Podívej, co ty lidi nenaházeli do záchodu.
+ V: PodÃ­vej, co ty lidi nenahÃ¡zeli do zÃ¡chodu.
  V: Look, what kind of things have the people flushed down the toilet.
 poc-v-kam3
- V: Kdy¾ jsem sem lezl, tak jsem to èekal hor¹í.
+ V: KdyÅ¾ jsem sem lezl, tak jsem to Äekal horÅ¡Ã­.
  V: I thought it would be worse when I was climbing in.
 
 poc-v-nenajde
- V: Co v¹echno se na takovém smeti¹ti nenajde.
+ V: Co vÅ¡echno se na takovÃ©m smetiÅ¡ti nenajde.
  V: You can find many strange things in such a dump.
 
 poc-m-myslis
- M: Myslí¹, ¾e tohle je ten poèítaè, o kterı se tu hraje?
+ M: MyslÃ­Å¡, Å¾e tohle je ten poÄÃ­taÄ, o kterÃ½ se tu hraje?
  M: Do you think this is the computer that`s in stake in this game?
 poc-v-multimed
- V: No dovol! Tohle pøece není vıkonı multimediální poèítaè. To je XTéèko s dvanáctipalcovım monitorem. 
+ V: No dovol! Tohle pÅ™ece nenÃ­ vÃ½konÃ½ multimediÃ¡lnÃ­ poÄÃ­taÄ. To je XTÃ©Äko s dvanÃ¡ctipalcovÃ½m monitorem. 
  V: Surely not! This is no powerful multimedia computer. This is but XT machine with twelve inch display.
 poc-v-vyresil
- V: Ten, kdo první vyøe¹í, chci øíci vyøe¹il, v¹echny zbıvající levely, vyhraje, chci øíci vyhrál, poèítaè s technologií MMX, 3Dfx kartou, spoustou pamìti, olbøímím diskem... 
+ V: Ten, kdo prvnÃ­ vyÅ™eÅ¡Ã­, chci Å™Ã­ci vyÅ™eÅ¡il, vÅ¡echny zbÃ½vajÃ­cÃ­ levely, vyhraje, chci Å™Ã­ci vyhrÃ¡l, poÄÃ­taÄ s technologiÃ­ MMX, 3Dfx kartou, spoustou pamÄ›ti, olbÅ™Ã­mÃ­m diskem... 
  V: The one who will solve, I mean who have solved, will receive, I mean received, MMX based machine with 3Dfx card, plenty of RAM, huge hard disk...
 poc-m-kcemu
- M: No a k èemu to je? Já tøeba znám spoustu her, skroro stejnì dobrıch, jako je tahle, a ty by klidnì bì¾ely i na tomhle XTéèku.
+ M: No a k Äemu to je? JÃ¡ tÅ™eba znÃ¡m spoustu her, skroro stejnÄ› dobrÃ½ch, jako je tahle, a ty by klidnÄ› bÄ›Å¾ely i na tomhle XTÃ©Äku.
  M: And what is it for? I for one know plenty of games almost as good as this one that could easily run on this XT machine.
 poc-v-pssst
  V: Pssst!
  V: Shhhh!
 
 poc-v-napad
- V: Hele, jen takovı nápad: Co kdy¾ je to ten poèítaè, kterı máme hledat?
+ V: Hele, jen takovÃ½ nÃ¡pad: Co kdyÅ¾ je to ten poÄÃ­taÄ, kterÃ½ mÃ¡me hledat?
  V: Hey, look, just an idea: Could this be the computer we are looking for?
 poc-m-mohlby
- M: To by mohl bıt on.
+ M: To by mohl bÃ½t on.
  M: This could be it.
 poc-v-stahni
- V: Tak na co èekáme? Stáhni na disketu ta podezøelá data a mù¾eme jít.
+ V: Tak na co ÄekÃ¡me? StÃ¡hni na disketu ta podezÅ™elÃ¡ data a mÅ¯Å¾eme jÃ­t.
  V: So what are we waiting for? Put that suspicious data on the diskette and off we go.
 poc-m-ukryta
- M: To nebude tak jednoduché. Data v nìm budou urèitì dobøe ukryta. Budu se muset dostat dovnitø.
+ M: To nebude tak jednoduchÃ©. Data v nÄ›m budou urÄitÄ› dobÅ™e ukryta. Budu se muset dostat dovnitÅ™.
  M: It won`t be as easy as that. The data are surely going to be hidden somewhere. We have to go in.
 poc-v-dira
- V: Co tam zkusit vlézt tøeba támhletou dírou?
+ V: Co tam zkusit vlÃ©zt tÅ™eba tÃ¡mhletou dÃ­rou?
  V: And what about getting in through that opening?
 poc-m-mechanika
- M: To je disketová mechanika.
+ M: To je disketovÃ¡ mechanika.
  M: That is a floppy disk drive.
 poc-m-zezadu
- M: Musím se k nìmu dostat zezadu.
+ M: MusÃ­m se k nÄ›mu dostat zezadu.
  M: I have to get to the back of it.
 
 poc-m-vyvrtka
- M: Polo¾ tu vıvrtku a pojï mi pomoct.
+ M: PoloÅ¾ tu vÃ½vrtku a pojÄ mi pomoct.
  M: Put down that corkscrew and come to help me.
 
 poc-m-kram
- M: To je ale odpornı krám. Velkı, tì¾kı a urèitì stra¹nì pomalı.
+ M: To je ale odpornÃ½ krÃ¡m. VelkÃ½, tÄ›Å¾kÃ½ a urÄitÄ› straÅ¡nÄ› pomalÃ½.
  M: Oh my, what a sloppy machine. So big, so heavy and surely so slow.
 poc-v-mono
- V: A navíc mono.
+ V: A navÃ­c mono.
  V: And moreover only mono.

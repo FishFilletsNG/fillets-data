@@ -1,87 +1,87 @@
 CE
 jes-m-netopyr
- M: Ten netopır musí mít ale ukrutnou sílu.
+ M: Ten netopÃ½r musÃ­ mÃ­t ale ukrutnou sÃ­lu.
  M: That bat must be terribly strong.
 jes-v-tojo
- V: Hmm..., to jó.
+ V: Hmm..., to jÃ³.
  V: Well, yes.
 
 jes-m-tvor
- M: Ten èervenı tvor má trochu zvlá¹tní tvar.
+ M: Ten ÄervenÃ½ tvor mÃ¡ trochu zvlÃ¡Å¡tnÃ­ tvar.
  M: That red creature is little bit strange.
 jes-v-nestezuj
- V: Nestì¾uj si. Nìco mi øíká, ¾e se to bude je¹tì hodit.
+ V: NestÄ›Å¾uj si. NÄ›co mi Å™Ã­kÃ¡, Å¾e se to bude jeÅ¡tÄ› hodit.
  V: It may be true, but I think we are going to need it.
 
 jes-v-uzke
- V: Je to na mì úzké. Musí¹ to dole zvládnout sama.
+ V: Je to na mÄ› ÃºzkÃ©. MusÃ­Å¡ to dole zvlÃ¡dnout sama.
  V: It`s too narrow for me. You have to do it on your own down there.
 
 jes-m-ryba
- M: Ta bílá ryba tu neuvìøitelnì pøeká¾í.
+ M: Ta bÃ­lÃ¡ ryba tu neuvÄ›Å™itelnÄ› pÅ™ekÃ¡Å¾Ã­.
  M: That white fish is a terrible obstacle.
 jes-v-kamen
- V: Ryba? Myslel jsem, ¾e je to jen kámen.
+ V: Ryba? Myslel jsem, Å¾e je to jen kÃ¡men.
  V: Fish? I thought it`s only a stone.    
 
 jes-v-gral
- V: Zdá se mi, ¾e grál bychom mìli hledat úplnì jinde...
+ V: ZdÃ¡ se mi, Å¾e grÃ¡l bychom mÄ›li hledat ÃºplnÄ› jinde...
  V: I think that we should be looking for the Grail somewhere else...
 jes-m-deprese
- M: Nepropadej depresi. Tohle vyøe¹íme raz dva.
+ M: Nepropadej depresi. Tohle vyÅ™eÅ¡Ã­me raz dva.
  M: Don`t be depressive. We will solve this in no time.
 jes-v-nevim
- V: No nevím...
+ V: No nevÃ­m...
  V: I am not that sure.
 
 jes-m-takvidis
- M: Tak vidí¹, u¾ jsi tu.
+ M: Tak vidÃ­Å¡, uÅ¾ jsi tu.
  M: See? You are here.
 
 jes-m-potvora0
- M: Co je to za opalizující potvoru?
+ M: Co je to za opalizujÃ­cÃ­ potvoru?
  M: What kind of color-shifting monster is this?
 jes-m-potvora1
- M: To je ale nestvùra.
+ M: To je ale nestvÅ¯ra.
  M: This is an abomination.
 jes-m-potvora2
- M: To je urá¾ka Stvoøitele.
+ M: To je urÃ¡Å¾ka StvoÅ™itele.
  M: This is an offense of Nature.
 jes-v-potvora0
- V: To je kladivoun pableskující.
+ V: To je kladivoun pableskujÃ­cÃ­.
  V: It is called the Flashy hammerhead.
 jes-v-potvora1
- V: To je odporník lesklı.
+ V: To je odpornÃ­k lesklÃ½.
  V: It is called the Glossy repulsor.
  jes-v-potvora2
- V: To je hlavoun duhovı.
+ V: To je hlavoun duhovÃ½.
  V: It is called the Politician fish.
 
 jes-m-netopyr0
- M: Ten netopır je nìèím zvlá¹tní.
+ M: Ten netopÃ½r je nÄ›ÄÃ­m zvlÃ¡Å¡tnÃ­.
  M: This bat is kind of strange.
 jes-v-netopyr0
- V: Je to netopır flegmatik.
+ V: Je to netopÃ½r flegmatik.
  V: This is very phlegmatic bat.
 jes-m-netopyr1
- M: Je to netopır vycpanı.
+ M: Je to netopÃ½r vycpanÃ½.
  M: This is a stuffed bat.
 jes-v-netopyr1
- V: Je to socha netopıra.
+ V: Je to socha netopÃ½ra.
  V: It`s a sculpture of bat.
 jes-m-netopyr2
- M: Je to krápník podobnı netopıru.
+ M: Je to krÃ¡pnÃ­k podobnÃ½ netopÃ½ru.
  M: It`s a stalagmite shaped as a bat.
 jes-v-netopyr2
- V: Je to obyèejnı krápník.
+ V: Je to obyÄejnÃ½ krÃ¡pnÃ­k.
  V: It`s a plain stalagmite.
 jes-m-netopyr3
- M: Je to úplnì obyèejnı kus ¹utru.
+ M: Je to ÃºplnÄ› obyÄejnÃ½ kus Å¡utru.
  M: It`s just an ordinary piece of rock.
 
 jes-v-nechut0
- V: Myslím, ¾e tu 'potvoru` bude¹ potøebovat.
+ V: MyslÃ­m, Å¾e tu 'potvoru` budeÅ¡ potÅ™ebovat.
  V: I think you are going to need that 'monster`.
 jes-v-nechut1
- V: Myslím, ¾e bys mìla pøekonat nechu» k té 'nestvùøe`.
+ V: MyslÃ­m, Å¾e bys mÄ›la pÅ™ekonat nechuÅ¥ k tÃ© 'nestvÅ¯Å™e`.
  V: I think you will have to overcome your dislike of that 'abomination`.

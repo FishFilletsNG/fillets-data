@@ -1,58 +1,58 @@
 CE
 map-v-mapa
- V: No sláva. Tak ta mapa opravdu existuje!
+ V: No slÃ¡va. Tak ta mapa opravdu existuje!
  V: Oh well. So that map really exists after all!
 map-m-mapa
- M: No vida. Támhle máme tu mapu.
+ M: No vida. TÃ¡mhle mÃ¡me tu mapu.
  M: Okay. Here is the map.
 map-m-ukol
- M: Tak¾e teï bude na¹ím úkolem nìjak dostat ven tu mapu.
+ M: TakÅ¾e teÄ bude naÅ¡Ã­m Ãºkolem nÄ›jak dostat ven tu mapu.
  M: So it`s clear now that our goal is to get that map out somehow.
 map-v-jasne
- V: Jasnì. Kdybychom mìli jenom odplout, to by bylo vìru snadné.
+ V: JasnÄ›. Kdybychom mÄ›li jenom odplout, to by bylo vÄ›ru snadnÃ©.
  V: Of course. It would be too easy, if we should just swim away.
 map-m-neplacej
- M: Neplácej nesmysly a radìji pøemı¹lej.
+ M: NeplÃ¡cej nesmysly a radÄ›ji pÅ™emÃ½Å¡lej.
  M: Don`t talk nonsense and try to think instead.
 
 map-v-ukol
- V: Na¹ím úkolem je dostat nìjak ven tu mapu.
+ V: NaÅ¡Ã­m Ãºkolem je dostat nÄ›jak ven tu mapu.
  V: Our goal is to get out that map somehow.
 
 map-v-cojetam
- V: Copak je asi na té mapì?
+ V: Copak je asi na tÃ© mapÄ›?
  V: What can be on that map?
 map-v-poklady
- V: Myslí¹, ¾e opravdu ukazuje Silverovy poklady?
+ V: MyslÃ­Å¡, Å¾e opravdu ukazuje Silverovy poklady?
  V: Do you think that it really shows Silver`s treasures?
 map-m-uvidime
- M: To uvidíme, a¾ se nám tu zatracenou mapu podaøí dostat ven.
+ M: To uvidÃ­me, aÅ¾ se nÃ¡m tu zatracenou mapu podaÅ™Ã­ dostat ven.
  M: We shall see when we manage to get the darned map out.
 
 map-m-sneci
- M: Chtìlo by to víc tìch ¹nekù.
+ M: ChtÄ›lo by to vÃ­c tÄ›ch Å¡nekÅ¯.
  M: We`d need more of these snails.
 map-x-hlemyzdi
- y: Snad hlemı¾dù, ne?
+ y: Snad hlemÃ½Å¾dÅ¯, ne?
  y: You mean Escargots, don`t you?
 
 map-v-oci
- V: Chtìlo by to víc tìch sklenìnıch oèí.
+ V: ChtÄ›lo by to vÃ­c tÄ›ch sklenÄ›nÃ½ch oÄÃ­.
  V: We`d need more of that glass eyes.
 
 map-v-restart
- V: Nejjednodu¹¹í by bylo pøiplout do této místnosti támhle vrchem. Zkusme ji restartovat, jestli se neobjevíme tam.
+ V: NejjednoduÅ¡Å¡Ã­ by bylo pÅ™iplout do tÃ©to mÃ­stnosti tÃ¡mhle vrchem. Zkusme ji restartovat, jestli se neobjevÃ­me tam.
  V: The easiest way to do it would be to get to the upper part of this level. Let`s try to restart it, maybe we shall appear there.
 map-m-pravidla
- M: Nedìlej, ¾e jsi po tolika vyøe¹enıch místnostech je¹tì nepochopil pravidla.
+ M: NedÄ›lej, Å¾e jsi po tolika vyÅ™eÅ¡enÃ½ch mÃ­stnostech jeÅ¡tÄ› nepochopil pravidla.
  M: Don`t pretend that you didn`t understand the rules after so many solved levels.
 
 map-m-pohnout
- M: Tak se nám s ní podaøilo pohnout.
+ M: Tak se nÃ¡m s nÃ­ podaÅ™ilo pohnout.
  M: So we managed to move it.
 map-v-dal
- V: Jen tak dál.
+ V: Jen tak dÃ¡l.
  V: Let`s keep on good work.
 map-m-uz
- M: U¾ to skoro bude.
+ M: UÅ¾ to skoro bude.
  M: Yes, it`s almost done.

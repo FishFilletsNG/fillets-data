@@ -1,46 +1,46 @@
 CE
 kni-m-svicny
- M: Z pokladnice do skladu svícnù. Tomu øíkám pokrok.
+ M: Z pokladnice do skladu svÃ­cnÅ¯. Tomu Å™Ã­kÃ¡m pokrok.
  M: From treasury to the candlestick warehouse. Now, this is what I call a progress.
 kni-v-ber
- V: Ber to z té lep¹í stránky. Tady napøíklad není nic, co by se podobalo grálu.
+ V: Ber to z tÃ© lepÅ¡Ã­ strÃ¡nky. Tady napÅ™Ã­klad nenÃ­ nic, co by se podobalo grÃ¡lu.
  V: You have to look at the bright side. There is nothing that looks like grail here.
 
 kni-v-prolezt
- V: Zdá se, ¾e budu muset prolézt tím stra¹nım bludi¹tìm.
+ V: ZdÃ¡ se, Å¾e budu muset prolÃ©zt tÃ­m straÅ¡nÃ½m bludiÅ¡tÄ›m.
  V: It seems that I`ll have to go through that horrible maze.
 kni-m-tloustka
- M: Ta tvoje tlou¹»ka. Ta nás v¾dycky zdr¾uje.
+ M: Ta tvoje tlouÅ¡Å¥ka. Ta nÃ¡s vÅ¾dycky zdrÅ¾uje.
  M: Your fat body. It always hinders us.
 kni-v-padavko
- V: Nezaèínej s tím zase, ty padavko.
+ V: NezaÄÃ­nej s tÃ­m zase, ty padavko.
  V: Just leave me alone, you emaciated pollywog.
 kni-m-hromado
- M: Na ty tvoje øeèi jsem tak akorát zvìdavá, ty hromado svalù a ploutví.
+ M: Na ty tvoje Å™eÄi jsem tak akorÃ¡t zvÄ›davÃ¡, ty hromado svalÅ¯ a ploutvÃ­.
  M: Cut this crap, you misshaped heap of muscles and scales, will you?
 kni-v-vypni
- V: Mohl bys, prosím tì, restartovat level? Zdá se, ¾e nám to teï spolu moc nejde.
+ V: Mohl bys, prosÃ­m tÄ›, restartovat level? ZdÃ¡ se, Å¾e nÃ¡m to teÄ spolu moc nejde.
  V: Could you restart the level, please? We don`t seem to be getting along very well now.
 
 kni-m-hrncirstvi
- M: Pøipadám si tu jako ve skladu hrnèíøství.
+ M: PÅ™ipadÃ¡m si tu jako ve skladu hrnÄÃ­Å™stvÃ­.
  M: I feel like I am in the pottery warehouse.
 kni-v-amforstvi
- V: Chce¹ øíci: amfórství.
+ V: ChceÅ¡ Å™Ã­ci: amfÃ³rstvÃ­.
  V: You mean, amphory warehouse.
 kni-m-amfornictvi
- M: Kdy¾ u¾, tak: amfórnictví.
+ M: KdyÅ¾ uÅ¾, tak: amfÃ³rnictvÃ­.
  M: No, it should be amphoraware.
 
 kni-m-mise
- M: Ví¹, myslím, ¾e tahle celá jeskynní mise mi hodnì pomohla.
+ M: VÃ­Å¡, myslÃ­m, Å¾e tahle celÃ¡ jeskynnÃ­ mise mi hodnÄ› pomohla.
  M: You know what? I think that this mission really helped me.
 kni-v-proc
- V: A proè?
+ V: A proÄ?
  V: And why?
 kni-m-cetky
- M: Pochopila jsem, ¾e ¹perky a zlato jsou jenom laciné cetky.
+ M: Pochopila jsem, Å¾e Å¡perky a zlato jsou jenom lacinÃ© cetky.
  M: I grew to understand that jewels and gold are but cheap trinkets.
 kni-m-kramy
- M: U¾ ty krámy nemù¾u ani vidìt!
+ M: UÅ¾ ty krÃ¡my nemÅ¯Å¾u ani vidÄ›t!
  M: I can`t bear the darned stuff any longer!

@@ -3,10 +3,10 @@ smrt-v-0
  V: No a je to v ...
  V: Oh, shoot!
 smrt-m-psst
- M: P¹¹t, mohou to hrát i dìti!
+ M: PÅ¡Å¡t, mohou to hrÃ¡t i dÄ›ti!
  M: Shhh, children can be playing this game!
 smrt-v-1
- V: Zatracenì.
+ V: ZatracenÄ›.
  V: Darn.
 smrt-v-2
  V: Shit!
@@ -15,22 +15,22 @@ smrt-v-3
  V: Scheisse!
  V: Scheisse!
 smrt-v-4
- V: Hmmm... a jsem sám.
+ V: Hmmm... a jsem sÃ¡m.
  V: Hmmm... and now I am alone.
 smrt-v-5
- V: Jestlipak vìdìla, ¾e má tak sexy kostru?
+ V: Jestlipak vÄ›dÄ›la, Å¾e mÃ¡ tak sexy kostru?
  V: Did she know she has such a sexy skeleton?
 smrt-v-6
- V: Stra¹livı konec pro malou rybku...
+ V: StraÅ¡livÃ½ konec pro malou rybku...
  V: Terrible end of the little fish...
 smrt-v-7
- V: Jakı je asi poloèas rozpadu rybí kostøièky?
+ V: JakÃ½ je asi poloÄas rozpadu rybÃ­ kostÅ™iÄky?
  V: What can be the constant of decay of the fish skeleton?
 smrt-m-0
  M: No, a je to.
  M: So much for him.
 smrt-m-1
- M: Ach nééé.
+ M: Ach nÃ©Ã©Ã©.
  M: Oh, nooo.
 smrt-m-2
  M: A jsem tady sama.
@@ -39,7 +39,7 @@ smrt-m-3
  M: To muselo ale bolet.
  M: That must have hurt.
 smrt-m-4
- M: Chudák, takovı konec si nezaslou¾il...
+ M: ChudÃ¡k, takovÃ½ konec si nezaslouÅ¾il...
  M: He didn`t deserve such a terrible end...
 smrt-m-5
  M: Tak znovu...
@@ -48,38 +48,38 @@ smrt-x-obe
  P: Oj, karamba!
  P: Aye, caramba!
 smrt-v-obe
- V: Tady pøeci papou¹ek není!
+ V: Tady pÅ™eci papouÅ¡ek nenÃ­!
  V: But there is no parrot here!
 smrt-m-obe
- M: Mlè, jsi mrtvı.
+ M: MlÄ, jsi mrtvÃ½.
  M: Shut up, you are dead.
 smrt-m-6
- M: Ani jsem mu nestaèila øíci, ¾e ho miluji.
+ M: Ani jsem mu nestaÄila Å™Ã­ci, Å¾e ho miluji.
  M: And I never told him I loved him.
 smrt-m-restart
- M: Na¹tìstí je mo¾no místnost restartovat.
+ M: NaÅ¡tÄ›stÃ­ je moÅ¾no mÃ­stnost restartovat.
  M: Luckily, it`s possible to restart the level.
 smrt-v-restart
- V: Je¹tì ¾e je mo¾no místnost restartovat.
+ V: JeÅ¡tÄ› Å¾e je moÅ¾no mÃ­stnost restartovat.
  V: Fortunately, we can restart the level.
 
 smrt-v-zahrobi
- V: Restartuj místnost! Posmrtnı ¾ivot není moc zábavnı.
+ V: Restartuj mÃ­stnost! PosmrtnÃ½ Å¾ivot nenÃ­ moc zÃ¡bavnÃ½.
  V: Restart the level! The afterlife is too tedious.
 smrt-m-zahrobi
- M: Restartuj místnost. Tady v záhrobí je to hroznì stra¹idelné.
+ M: Restartuj mÃ­stnost. Tady v zÃ¡hrobÃ­ je to hroznÄ› straÅ¡idelnÃ©.
  M: Restart the level! This afterlife is too scary.
 
 smrt-v-posmrtny
- V: Halóóó. Sly¹í¹ mì tam nìkde v záhrobí? Existuje posmrtnı ¾ivot?
+ V: HalÃ³Ã³Ã³. SlyÅ¡Ã­Å¡ mÄ› tam nÄ›kde v zÃ¡hrobÃ­? Existuje posmrtnÃ½ Å¾ivot?
  V: Hellooo? Can you hear me hereafter? Is there life after death?
 smrt-m-posmrtny
- M: Nevím. Myslím, ¾e ne.
+ M: NevÃ­m. MyslÃ­m, Å¾e ne.
  M: I don`t know. I don`t think so.
 
 smrt-m-autorest
- M: Sama to øe¹it nebudu. Ani se nemusí¹ obtì¾ovat s restartem, udìlám to sama.
+ M: Sama to Å™eÅ¡it nebudu. Ani se nemusÃ­Å¡ obtÄ›Å¾ovat s restartem, udÄ›lÃ¡m to sama.
  M: I am not going to solve it alone. Don`t trouble yourself with restart, I`ll do it myself.
 smrt-v-autorest
- V: Je pryè. Urèitì sis ji za tu dobu taky tak oblíbil jako já. Tak¾e nemá¹ nic proti restartu.
+ V: Je pryÄ. UrÄitÄ› sis ji za tu dobu taky tak oblÃ­bil jako jÃ¡. TakÅ¾e nemÃ¡Å¡ nic proti restartu.
  V: And she is gone. I`m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.

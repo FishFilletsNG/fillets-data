@@ -1,45 +1,45 @@
 CE
 k1-pap-3xkruty
- P: Krrrutı, krrrutı, krrrutı kapitán Silverrrr"
+ P: KrrrutÃ½, krrrutÃ½, krrrutÃ½ kapitÃ¡n Silverrrr"
  P: Crrruel, crrruel, crrruel Captain Silverrrr"
 k1-pap-karamba
  P: Oj" karamba!!!
  P: Ay" caramba!!!
 k1-pap-kruty
- P: Krrrutı kapitán Silverrrr"
+ P: KrrrutÃ½ kapitÃ¡n Silverrrr"
  P: Crrruel Captain Silverrrr"
 k1-pap-drahokamy
- P: Drrrahokamy, trrroubové"
+ P: Drrrahokamy, trrroubovÃ©"
  P: Trrreasurre, you foools"
 k1-pap-kruci
  P: Krrruci!
  P: Good grrrief!
 k1-pap-drahousek
- P: To si vyprrro¹uju, Lóra je pánùv drrrahou¹ek.
+ P: To si vyprrroÅ¡uju, LÃ³ra je pÃ¡nÅ¯v drrrahouÅ¡ek.
  P: That`s rrrrrridiculous! Polly is his masterrr`s darrrling.
 k1-pap-nestrkej
- P: Nestrrrkej do mì!
+ P: Nestrrrkej do mÄ›!
  P: Don`t ppppush me!
 k1-pap-noproto
  P: No prroto!
  P: That`s betterrr!
 k1-pap-prcice
- P: A jste v prrrèicích!
+ P: A jste v prrrÄicÃ­ch!
  P: And it`s currrtains forrr you!
 k1-pap-prekazet
- P: Tady vám budu strrra¹nì pøeká¾et.
+ P: Tady vÃ¡m budu strrraÅ¡nÄ› pÅ™ekÃ¡Å¾et.
  P: I`m going to be in yourrr way herrre.
 k1-pap-problem
- P: Zatrrraceny prrroblém, není-li¾ prrravda?
+ P: Zatrrraceny prrroblÃ©m, nenÃ­-liÅ¾ prrravda?
  P: Trrricky prrroblem, isn`t it?
 k1-pap-sakris
- P: Sákrrri¹
+ P: SÃ¡krrriÅ¡
  P: Dang it!
 k1-pap-sestlustej
- P: Jse¹ tlustej, neprrrojede¹"
+ P: JseÅ¡ tlustej, neprrrojedeÅ¡"
  P: You`rrre too fat, you can`t make it thrrrrough.
 k1-pap-sucharek
- P: Lórrra chce suchárrrek!
+ P: LÃ³rrra chce suchÃ¡rrrek!
  P: Polly wants a crrracker!
 k1-pap-trhnisi
  P: Trrrhni si"
@@ -48,72 +48,72 @@ k1-pap-vodprejskni
  P: Nevotrrravuj a vodprrrejskni!
  P: Leave me alone and get lost!
 k1-m-copak
- M: Copak je asi uvnitø?
+ M: Copak je asi uvnitÅ™?
  M: What could be inside?
 k1-v-kdovi
- V: Kdo ví"
+ V: Kdo vÃ­"
  V: Who knows"
 k1-m-myslis
- M: Myslí¹, ¾e by to mohl bıt legendarní Silverùv poklad?
+ M: MyslÃ­Å¡, Å¾e by to mohl bÃ½t legendarnÃ­ SilverÅ¯v poklad?
  M: Could this be the legendary Silver`s treasure?
 k1-v-bedna
- V: V tak malé truhle? Kvùli jedné takové bednièce by nás ¹éf urèitì nekontaktoval.
+ V: V tak malÃ© truhle? KvÅ¯li jednÃ© takovÃ© bedniÄce by nÃ¡s Å¡Ã©f urÄitÄ› nekontaktoval.
  V: In such a small chest? The boss surely wouldn`t contact us for such a little case.
 k1-m-fuj
  M: Fuj!
  M: Yuck!
 
 k1-m-diky
- M: Díky.
+ M: DÃ­ky.
  M: Thanks.
 k1-v-radose
- V: Rádo se stalo.
+ V: RÃ¡do se stalo.
  V: No problem.
 
 k1-m-codelas
- M: Co to dìlá¹?!
+ M: Co to dÄ›lÃ¡Å¡?!
  M: What are you doing?!
 k1-v-promin
- V: Promiò, u¾ si dám pozor"
+ V: PromiÅˆ, uÅ¾ si dÃ¡m pozor"
  V: I`m sorry. I`ll be more careful next time.
 k1-v-opatrne
- V: Opatrnì, a» jí neublí¾í¹.
+ V: OpatrnÄ›, aÅ¥ jÃ­ neublÃ­Å¾Ã­Å¡.
  V: Be careful! Don`t hurt it!
 k1-m-tospisona
- M: To spí¹ ona mnì!
+ M: To spÃ­Å¡ ona mnÄ›!
  M: It`s more the other way around!
 
 k1-m-chobotnice
- M: To je ale chobotnice! Komupak asi patøí?
+ M: To je ale chobotnice! Komupak asi patÅ™Ã­?
  M: That`s some octopus! I wonder who`s her owner?
 k1-v-patrila
- V: Mo¾ná patøila obyvateli této kajuty.
+ V: MoÅ¾nÃ¡ patÅ™ila obyvateli tÃ©to kajuty.
  V: Maybe it belonged to the person who lived in this cabin.
 
 k1-m-podivin
- M: Ten, kdo tu bydlel, byl asi podivín.
+ M: Ten, kdo tu bydlel, byl asi podivÃ­n.
  M: Whoever lived here sure was weird.
 k1-v-proc
- V: Proè?
+ V: ProÄ?
  V: Why?
 k1-m-lebku
- M: Podívej, mìl tu lidskou lebku!
+ M: PodÃ­vej, mÄ›l tu lidskou lebku!
  M: Look, he had a human skull here!
 k1-v-jejeho
- V: Ví¹, mo¾ná je to ta jeho.
+ V: VÃ­Å¡, moÅ¾nÃ¡ je to ta jeho.
  V: Well, maybe it`s his own skull.
 k1-m-mysli
- M: Myslí¹?
+ M: MyslÃ­Å¡?
  M: You think so?
 
 k1-v-citis
- V: Cítí¹ tu tí¾ivou atmosféru? Potopenı vrak, kostra papou¹ka, lidská lebka, pøevrácená kolébka"
+ V: CÃ­tÃ­Å¡ tu tÃ­Å¾ivou atmosfÃ©ru? PotopenÃ½ vrak, kostra papouÅ¡ka, lidskÃ¡ lebka, pÅ™evrÃ¡cenÃ¡ kolÃ©bka"
  V: Can you sense the atmosphere of rot and decay? The sunken wreck, the parrot`s skeleton, the human skull, and the broken cradle"
 k1-m-kolebku
- M: Kde vidí¹ tu kolébku?
+ M: Kde vidÃ­Å¡ tu kolÃ©bku?
  M: Where do you see the cradle?
 k1-v-cit
- V: Ach jo, ty nemá¹ vùbec cit pro poezii"
+ V: Ach jo, ty nemÃ¡Å¡ vÅ¯bec cit pro poezii"
  V: Oh, you don`t have any feeling for poetry at all"
 
 k1-chob-1

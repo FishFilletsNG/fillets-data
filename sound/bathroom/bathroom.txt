@@ -1,53 +1,53 @@
 CE
 br-v-komfort
- V: Na to, ¾e je to vlastnì smeti¹tì, je to docela komfort.
+ V: Na to, Å¾e je to vlastnÄ› smetiÅ¡tÄ›, je to docela komfort.
  V: It`s quite comfortable for a wasteyard.
 br-m-bydli
- M: Myslí¹, ¾e tu nìkdo bydlí?
+ M: MyslÃ­Å¡, Å¾e tu nÄ›kdo bydlÃ­?
  M: What do you think, does anybody live here?
 br-v-santusak
- V: Nìjakı podvodní santusák.
+ V: NÄ›jakÃ½ podvodnÃ­ santusÃ¡k.
  V: Some underwater homeless.
 br-m-podvodnik
- M: Nebo santusáckı podvodník.
+ M: Nebo santusÃ¡ckÃ½ podvodnÃ­k.
  M: We call them shell-less.
 
 br-m-vsim0
- M: V¹iml sis, ¾e...
+ M: VÅ¡iml sis, Å¾e...
  M: Did you notice that...
 br-m-vsim1
- M: Není ti divné, ¾e...
+ M: NenÃ­ ti divnÃ©, Å¾e...
  M: Don`t you think that...
 br-m-vsim2
- M: To je zvlá¹tní, ¾e...
+ M: To je zvlÃ¡Å¡tnÃ­, Å¾e...
  M: Isn`t it strange that...
 br-v-nerozvadet0
- V: Já bych to nerozvádìl.
+ V: JÃ¡ bych to nerozvÃ¡dÄ›l.
  V: Don`t speak about it.
 br-v-nerozvadet1
- V: Prosím tì, ¾ádné fekální vtipy.
+ V: ProsÃ­m tÄ›, Å¾Ã¡dnÃ© fekÃ¡lnÃ­ vtipy.
  V: Please, no jokes about defecation.
 br-v-nerozvadet2
- V: Ano, vím o tom. Nebudeme to komentovat.
+ V: Ano, vÃ­m o tom. Nebudeme to komentovat.
  V: Yes, I know about that. We won`t comment on it.
 br-m-dva
- M: Ale proè DVA?
+ M: Ale proÄ DVA?
  M: Yeah, but why TWO?
 br-v-dost
- V: Prosím tì, nech toho!
+ V: ProsÃ­m tÄ›, nech toho!
  V: Stop it, will you?
 
 br-m-sprcha
- M: Vidìla jsem tu hodnì zbyteèností, ale podvodní sprcha...
+ M: VidÄ›la jsem tu hodnÄ› zbyteÄnostÃ­, ale podvodnÃ­ sprcha...
  M: I`ve seen many useless things, but an underwater shower...
 br-v-lazen
- V: Tøeba z ní tryská vzduch, jako ve víøivé lázni.
+ V: TÅ™eba z nÃ­ tryskÃ¡ vzduch, jako ve vÃ­Å™ivÃ© lÃ¡zni.
  V: Maybe it sprays air, like in the bubble bath.
 br-m-zapnout
- M: Myslí¹, ¾e bychom ji mohli zapnout?
+ M: MyslÃ­Å¡, Å¾e bychom ji mohli zapnout?
  N: Do you think we could turn it on?
 br-v-shodit
- V: Tì¾ko. Ale mohli bychom ji shodit.
+ V: TÄ›Å¾ko. Ale mohli bychom ji shodit.
  V: Hardly. But we could push it down.
 
 br-m-poklady
@@ -55,24 +55,24 @@ br-m-poklady
  M: Now this is real treasure.
 
 br-v-nechat
- V: Mìli jsme ji nechat tam, kde byla.
+ V: MÄ›li jsme ji nechat tam, kde byla.
  V: We should have let it alone.
 br-m-nefunguje
- M: A navíc stejnì nefunguje.
+ M: A navÃ­c stejnÄ› nefunguje.
  M: And it doesn`t work anyway.
 
 br-m-ahoj
- M: Ahoj tam uvnitø.
+ M: Ahoj tam uvnitÅ™.
  M: Hello, inside there.
 br-v-draha
- V: To je urèitì lep¹í ne¾ horská dráha.
+ V: To je urÄitÄ› lepÅ¡Ã­ neÅ¾ horskÃ¡ drÃ¡ha.
  V: This must be better than rollercoaster.
 br-m-zkusit
  M: Hned bych si to taky zkusila.
  M: I would love to try it myself.
 
 br-m-bavi
- M: Zdá se, ¾e se dobøe baví.
+ M: ZdÃ¡ se, Å¾e se dobÅ™e bavÃ­.
  M: He seems to be enjoying himself.
 
 br-x-pracka

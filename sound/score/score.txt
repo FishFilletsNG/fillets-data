@@ -1,38 +1,38 @@
 CE
 sc-v-typicka
- V: Tohle není typická místnost.
+ V: Tohle nenÃ­ typickÃ¡ mÃ­stnost.
  V: This is not a typical level.
 sc-m-orisek
- M: Dostat se z téhle místnosti ven, to by byl jistì dost nároènı oøí¹ek.
+ M: Dostat se z tÃ©hle mÃ­stnosti ven, to by byl jistÄ› dost nÃ¡roÄnÃ½ oÅ™Ã­Å¡ek.
  M: To get out of this level would be surely taxing.
 
 sc-v-pismena
- V: Na¹li jsme tady na dnì rozházená nìjaká písmena.
+ V: NaÅ¡li jsme tady na dnÄ› rozhÃ¡zenÃ¡ nÄ›jakÃ¡ pÃ­smena.
  V: We found some letters scattered around the ocean floor.
 sc-m-napis
- M: Tì¾ko øíci, ze kterého nápisu asi pocházejí.
+ M: TÄ›Å¾ko Å™Ã­ci, ze kterÃ©ho nÃ¡pisu asi pochÃ¡zejÃ­.
  M: It`s hard to say what are they supposed to mean.
 
 sc-v-poskladat
- V: Tvım úkolem, pokud jej pøijme¹, bude poskládat písmena do øady, hezky vedle sebe, aby vytvoøila nìjakı nápis.
+ V: TvÃ½m Ãºkolem, pokud jej pÅ™ijmeÅ¡, bude posklÃ¡dat pÃ­smena do Å™ady, hezky vedle sebe, aby vytvoÅ™ila nÄ›jakÃ½ nÃ¡pis.
  V: Your mission, if you choose to accept it, will be to arrange the letters in a row, one along the other, to form some inscription.
 sc-m-jmeno
- M: Tøeba jméno nìjakého tvého kamaráda.
+ M: TÅ™eba jmÃ©no nÄ›jakÃ©ho tvÃ©ho kamarÃ¡da.
  M: A name of your friend, for example.
 sc-v-darek
- V: Bude to pìknı dárek k jeho nedávnım padesátinám.
+ V: Bude to pÄ›knÃ½ dÃ¡rek k jeho nedÃ¡vnÃ½m padesÃ¡tinÃ¡m.
  V: It will be a nice present for his recent fiftieth birthday.
 
 sc-m-tezky
- M: To bude pro hráèe tì¾kı oøí¹ek.
+ M: To bude pro hrÃ¡Äe tÄ›Å¾kÃ½ oÅ™Ã­Å¡ek.
  M: This will be very difficult for the player.
 sc-v-casopis
- V: Zvlá¹» jestli nezná poèítaèovı èasopis SCORE.
+ V: ZvlÃ¡Å¡Å¥ jestli neznÃ¡ poÄÃ­taÄovÃ½ Äasopis SCORE.
  V: Especially if he doesn`t know the computer games magazine Score.
 sc-m-pst
- M: Psst... teï jsi to málem prozradil.
+ M: Psst... teÄ jsi to mÃ¡lem prozradil.
  M: Shhh... You almost gave it out.
 
 sc-m-mezery
- M: A a» tam nejsou mezery, a a» ¾ádné písmeno nevyènívá z øady.
+ M: A aÅ¥ tam nejsou mezery, a aÅ¥ Å¾Ã¡dnÃ© pÃ­smeno nevyÄnÃ­vÃ¡ z Å™ady.
  M: And remember, there may be no spaces and all letters must be aligned.

@@ -1,60 +1,60 @@
 CE
 zd1-v-civil
- V: Jaká to byla vyspìlá civilizace. Staletí pod vodou a jejich vıtahy je¹tì jezdí.
+ V: JakÃ¡ to byla vyspÄ›lÃ¡ civilizace. StaletÃ­ pod vodou a jejich vÃ½tahy jeÅ¡tÄ› jezdÃ­.
  V: What a glorious civilization. So many centuries under water and their elevators still work.
 zd1-m-tlac
- M: Zvlá¹tì, kdy¾ zatlaèíme.
+ M: ZvlÃ¡Å¡tÄ›, kdyÅ¾ zatlaÄÃ­me.
  M: Especially, when we push them.
 zd1-m-dolu
- M: Ale jenom dolù.
+ M: Ale jenom dolÅ¯.
  M: But only down.
 
 zd1-m-last
- M: Vidí¹ tu lasturu?
+ M: VidÃ­Å¡ tu lasturu?
  M: Do you see that shell?
 zd1-v-talis
- V: To je prastarı talisman stavitelù zdvi¾í. Aby jim vıtah skvìle Shell.
+ V: To je prastarÃ½ talisman stavitelÅ¯ zdviÅ¾Ã­. Aby jim vÃ½tah skvÄ›le Shell.
  V: It`s an age-old talisman for elevator builders who always said 'Build well. Build with Shell`.
 
 zd1-m-poved
- M: Není ti ta lastura nìjak povìdomá?
+ M: NenÃ­ ti ta lastura nÄ›jak povÄ›domÃ¡?
  M: Isn`t that shell a little bit familiar?
 zd1-v-styd
- V: ®e se nestydí. Taková zjevná skrytá reklama!
+ V: Å½e se nestydÃ­. TakovÃ¡ zjevnÃ¡ skrytÃ¡ reklama!
  V: They should be ashamed of themselves. This is subliminal advertising.
 
 zd1-v-lebka
- V: Ta lebka je mi nìjak povìdomá.
+ V: Ta lebka je mi nÄ›jak povÄ›domÃ¡.
  V: That skull looks familiar.
 zd1-m-stejne
- M: V¹echny lidské lebky vypadají stejnì... Na rozdíl od rybích kostøièek.
+ M: VÅ¡echny lidskÃ© lebky vypadajÃ­ stejnÄ›... Na rozdÃ­l od rybÃ­ch kostÅ™iÄek.
  M: All human skulls look the same... Unlike fish skeletons.
 
 zd1-m-cesta
  M: To je ale cesta.
  M: This is a tough path.
 zd1-v-krecek
- V: Pøipadám si jako køeèek ve ¹lapacím kole.
+ V: PÅ™ipadÃ¡m si jako kÅ™eÄek ve Å¡lapacÃ­m kole.
  V: I feel like a mouse on a treadmill.
 zd1-m-slap
- M: ©lapací kolo na ryby? V¾dy» máme jen ploutve.
+ M: Å lapacÃ­ kolo na ryby? VÅ¾dyÅ¥ mÃ¡me jen ploutve.
  M: A treadmill for fish? But we only have fins.
 
 zd1-x-huhu1
- l: Hu húúú húúúúú" Já jsem táádııı"
+ l: Hu hÃºÃºÃº hÃºÃºÃºÃºÃº" JÃ¡ jsem tÃ¡Ã¡dÃ½Ã½Ã½"
  l: Hoo, hooooo, hoooo" I`m over heeeere"
 zd1-x-huhu2
- l: Húúú, jestli chcete, prozradím vám øe¹ení v¹ech místností"
+ l: HÃºÃºÃº, jestli chcete, prozradÃ­m vÃ¡m Å™eÅ¡enÃ­ vÅ¡ech mÃ­stnostÃ­"
  l: Hoooo, if you want I`ll tell you how to solve all the levels"
 zd1-x-huhu3
- l: Húúúú hu húúúú, já vím, proè se potopilo mìsto!
+ l: HÃºÃºÃºÃº hu hÃºÃºÃºÃº, jÃ¡ vÃ­m, proÄ se potopilo mÄ›sto!
  l: Hooo, ho, hooo, I know why the city sank!
 zd1-x-huhu4
- l: Húúúú, proè si mì nikdo nev¹ímá?
+ l: HÃºÃºÃºÃº, proÄ si mÄ› nikdo nevÅ¡Ã­mÃ¡?
  l: Hoooo, why isn`t anyone paying attention to me?
 zd1-x-huhu5
- l: Húúúú hu húúú húúú! Proè mì ignorujete?
+ l: HÃºÃºÃºÃº hu hÃºÃºÃº hÃºÃºÃº! ProÄ mÄ› ignorujete?
  l: Hoooo ho hooo! Why are you ignoring me?
 zd1-x-huhu6
- l: Hahúúú, holahúúúú, ryby! V¹imnìte si mì!
+ l: HahÃºÃºÃº, holahÃºÃºÃºÃº, ryby! VÅ¡imnÄ›te si mÄ›!
  l: Hooooo, hooooo, fish! Pay attention to me!

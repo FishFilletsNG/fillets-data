@@ -6,67 +6,67 @@ poh-m-tosnadne
  M: To snad ne!
  M: Oh, no!
 poh-v-biosila
- V: Biologická síla. To nás mìlo napadnout døíve. V¹echno k tomu smìøovalo.
+ V: BiologickÃ¡ sÃ­la. To nÃ¡s mÄ›lo napadnout dÅ™Ã­ve. VÅ¡echno k tomu smÄ›Å™ovalo.
  V: Biological power. We should have thought about it earlier. We had every hint.
 poh-m-reaktor
- M: A k èemu byl ten reaktor?
+ M: A k Äemu byl ten reaktor?
  M: And what was that nuclear power plant for?
 poh-v-automat
- V: Nevidí¹? Napájí támhle ten automat na Coca-Colu.
+ V: NevidÃ­Å¡? NapÃ¡jÃ­ tÃ¡mhle ten automat na Coca-Colu.
  V: Can`t you see? It powers that Coca-cola vending machine over there.
 poh-m-motor
  M: A co ten motor?
  M: And what about that motor?
 poh-v-tocit
- V: Ten toèí místností dokola po obrazovce.
+ V: Ten toÄÃ­ mÃ­stnostÃ­ dokola po obrazovce.
  V: It makes the level run around the display.
 
 poh-v-neuveri
- V: Tak tohle nám nikdo neuvìøí.
+ V: Tak tohle nÃ¡m nikdo neuvÄ›Å™Ã­.
  V: Nobody is going to believe us.
 poh-m-projekt
- M: Mo¾ná ano. FDTO má rozpracovanı projekt na vyu¾ití bioenergie.
+ M: MoÅ¾nÃ¡ ano. FDTO mÃ¡ rozpracovanÃ½ projekt na vyuÅ¾itÃ­ bioenergie.
  M: Maybe yes. FDTO works on a project to make use of bioenergy.
 poh-v-zarizeni
- V: Musíme dostat ven kus toho zaøízení.
+ V: MusÃ­me dostat ven kus toho zaÅ™Ã­zenÃ­.
  V: We have to get out this device.
 poh-m-sest
- M: Pokud dobøe vidím, skládá se ze ¹esti èástí.
+ M: Pokud dobÅ™e vidÃ­m, sklÃ¡dÃ¡ se ze Å¡esti ÄÃ¡stÃ­.
  M: If I can see it correctly, it is composed of six parts.
 poh-v-klec
- V: Nejdùle¾itìj¹í asi bude ta prostøední klec.
+ V: NejdÅ¯leÅ¾itÄ›jÅ¡Ã­ asi bude ta prostÅ™ednÃ­ klec.
  V: The cage in the middle is probably the most important.
 poh-m-dobre
- M: Dobøe, tu vezmeme.
+ M: DobÅ™e, tu vezmeme.
  M: Okay, we shall take this one.
 
 poh-v-forma
- V: Hele, támhleto je nìjaká zvlá¹tní forma ¾ivota. Nezkusíme navázat kontakt?
+ V: Hele, tÃ¡mhleto je nÄ›jakÃ¡ zvlÃ¡Å¡tnÃ­ forma Å¾ivota. NezkusÃ­me navÃ¡zat kontakt?
  V: Look, there is some strange life form, over there. Won`t we try to contact them?
 poh-m-princip
- M: Ná¹ úkol znìl jasnì - principy a konstrukce mezihvìzdnıch pohonù. O kontaktu ani slovo.
+ M: NÃ¡Å¡ Ãºkol znÄ›l jasnÄ› - principy a konstrukce mezihvÄ›zdnÃ½ch pohonÅ¯. O kontaktu ani slovo.
  M: Our mission was clear - principles and construction of the interstellar propulsion. Not a single word about contact.
 poh-v-pomoct
- V: Tak dobøe. Ale mohli by nám aspoò pomoct.
+ V: Tak dobÅ™e. Ale mohli by nÃ¡m aspoÅˆ pomoct.
  V: Well. But they could at least help us.
 
 poh-m-dobryden0
- M: Dobrı den, nezlobte se, nepomohl byste nám vybrakovat vá¹ motor?
+ M: DobrÃ½ den, nezlobte se, nepomohl byste nÃ¡m vybrakovat vÃ¡Å¡ motor?
  M: Good afternoon, excuse me, please, couldn`t I loot your drive?
 poh-m-dobryden1
- M: Ehm, dobrı den, mohla bych vás po¾ádat, abyste nám pomohl rozbít va¹i pohonnou jednotku?
+ M: Ehm, dobrÃ½ den, mohla bych vÃ¡s poÅ¾Ã¡dat, abyste nÃ¡m pomohl rozbÃ­t vaÅ¡i pohonnou jednotku?
  M: Hmm, good afternoon sir, could I ask you to help us to dismantle your propulsion unit, please?
 
 poh-v-ukol
- V: Na¹ím úkolem v této místnosti je dostat ven tu klec s ¾ivoèichem.
+ V: NaÅ¡Ã­m Ãºkolem v tÃ©to mÃ­stnosti je dostat ven tu klec s Å¾ivoÄichem.
  V: Our goal in this level is to get out the cage with that animal.
 
 poh-m-pohadali
- M: Mám pocit, ¾e ti dva se nìjak pohádali.
+ M: MÃ¡m pocit, Å¾e ti dva se nÄ›jak pohÃ¡dali.
  M: I have a feeling there was an argument between these two.
 poh-v-setkani
- V: Tak jsem si setkání s mimozem¹»any nepøedstavoval.
+ V: Tak jsem si setkÃ¡nÃ­ s mimozemÅ¡Å¥any nepÅ™edstavoval.
  V: I never imagined that meeting aliens would look this way.
 poh-m-sestra
- M: A cos èekal? ®e unesou tvou sestru?
+ M: A cos Äekal? Å½e unesou tvou sestru?
  M: And what have you expected? That they will kidnap your sister?

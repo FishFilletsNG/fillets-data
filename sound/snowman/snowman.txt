@@ -1,28 +1,28 @@
 CE
 tr-m-chlad1
- M: Je mi nìjak chladno.
+ M: Je mi nÄ›jak chladno.
  M: I`m kind of cold.
 tr-v-jid1
- V: Není divu, v¾dy» tohle je Zimní jídelna.
+ V: NenÃ­ divu, vÅ¾dyÅ¥ tohle je ZimnÃ­ jÃ­delna.
  V: No wonder. This is the Winter Mess Hall.
 
 tr-m-chlad2
  M: Je mi zima.
  M: I`m cold.
 tr-v-jid2
- V: To je snad v Zimní jídelnì normální, ne?
+ V: To je snad v ZimnÃ­ jÃ­delnÄ› normÃ¡lnÃ­, ne?
  V: Well that`s what you would expect in a Winter Mess Hall, right?
 
 tr-v-prezil
- V: Aspoò ¾e to pøe¾il ten snìhulák.
+ V: AspoÅˆ Å¾e to pÅ™eÅ¾il ten snÄ›hulÃ¡k.
  V: At least the snowman has survived.
 
 tr-m-cvicit
- M: Mìl by sis cvièit manipulaci se stoly.
+ M: MÄ›l by sis cviÄit manipulaci se stoly.
  M: Mabye you should start thinking about how to manipulate the tables.
 
 tr-m-ztuhl
- M: V¹echno je tu tak ztuhlé...
+ M: VÅ¡echno je tu tak ztuhlÃ©...
  M: Everything is so frozen here...
 
 tr-m-au1
@@ -32,7 +32,7 @@ tr-m-au2
  M: Auvajs.
  M: Ouch!
 tr-v-agres
- V: Tak agresívního snìhuláka jsem je¹tì nevidìl.
+ V: Tak agresÃ­vnÃ­ho snÄ›hulÃ¡ka jsem jeÅ¡tÄ› nevidÄ›l.
  V: I`ve never seen such an agressive snowman.
 
 tr-x-koste

@@ -6,94 +6,94 @@ sp-m-no1
  M: No teda!
  M: Just imagine!
 sp-v-kdoby
- V: Kdo by to øekl?!
+ V: Kdo by to Å™ekl?!
  V: Who could have guessed?!
 sp-m-neopatrnost
- M: Taková neopatrnost.
+ M: TakovÃ¡ neopatrnost.
  M: Such a carelessness.
 sp-v-zahynuli
- V: Tisíce lidí zahynuly, celé mìsto zmizelo v rozbouøenıch vlnách kvùli takové hlouposti.
+ V: TisÃ­ce lidÃ­ zahynuly, celÃ© mÄ›sto zmizelo v rozbouÅ™enÃ½ch vlnÃ¡ch kvÅ¯li takovÃ© hlouposti.
  V: Thousands perished, the whole city disappeared in the waves because of such ineptness.
 sp-m-vytazeny
- M: Vyta¾enı ¹punt.
+ M: VytaÅ¾enÃ½ Å¡punt.
  M: Unplugged plug.
 sp-v-trapne
- V: Trapné pøehlédnutí.
+ V: TrapnÃ© pÅ™ehlÃ©dnutÃ­.
  V: Embarrassing blunder.
 
 sp-m-costim
- M: Co s ním teï udìláme?
+ M: Co s nÃ­m teÄ udÄ›lÃ¡me?
  M: What are we to do with it?
 sp-v-vratit0
- V: Mù¾em ho zkusit vrátit na místo.
+ V: MÅ¯Å¾em ho zkusit vrÃ¡tit na mÃ­sto.
  V: We can try to put it back in place.
 sp-m-vratit0
- M: A co potom? Myslí¹, ¾e tu vodu, co sem natekla, vypijem?
+ M: A co potom? MyslÃ­Å¡, Å¾e tu vodu, co sem natekla, vypijem?
  M: And then? Shall we drink the water that poured in or what?
 sp-v-vratit1
- V: Mù¾em ho vrátit na místo jako vyjádøení na¹eho obdivu k hrdinskému úsilí obyvatel mìsta udr¾et ho nad hladinou. Jako pomník jejich dùmyslu, zruènosti a ... vytrvalosti.
+ V: MÅ¯Å¾em ho vrÃ¡tit na mÃ­sto jako vyjÃ¡dÅ™enÃ­ naÅ¡eho obdivu k hrdinskÃ©mu ÃºsilÃ­ obyvatel mÄ›sta udrÅ¾et ho nad hladinou. Jako pomnÃ­k jejich dÅ¯myslu, zruÄnosti a ... vytrvalosti.
  V: We can put it back in place as a token of our esteem of the citizens` heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.
 sp-m-vratit1
- M: Èeho ¾e? 'Kam bì¾í¹? Pro sedm meèù!` Ten ¹punt podle mì vytáhla sama prozøetelnost. Pøedstav si, ¾e bys takové vìci slıchal doma. Den co den.
+ M: ÄŒeho Å¾e? 'Kam bÄ›Å¾Ã­Å¡? Pro sedm meÄÅ¯!` Ten Å¡punt podle mÄ› vytÃ¡hla sama prozÅ™etelnost. PÅ™edstav si, Å¾e bys takovÃ© vÄ›ci slÃ½chal doma. Den co den.
  M: Of what? 'Where are you running? I need to order eight swords.` The Providence itself unplugged that hole. Just imagine you`d hear such things at home. Day by day.
 sp-m-kalet
- M: A navíc: copak sem je¹tì nìkdo nìkdy pøijde? Tady budou na ten ¹punt akorát kálet sépie.
+ M: A navÃ­c: copak sem jeÅ¡tÄ› nÄ›kdo nÄ›kdy pÅ™ijde? Tady budou na ten Å¡punt akorÃ¡t kÃ¡let sÃ©pie.
  M: And moreover: is it likely that anybody would ever come here? Only sepias will nibble it occasionally.
 sp-v-pocit
- V: Budem z toho mít dobrı pocit.
+ V: Budem z toho mÃ­t dobrÃ½ pocit.
  V: We are going to feel well about it.
 sp-m-potize
- M: Budem z toho mít potí¾e. Myslí¹, ¾e nám to ¹éf uvìøí? Obøí vyta¾enı ¹punt. A co jste s ním udìlali? Ucpali jsme s ním díru. Ha, ha, ha.
+ M: Budem z toho mÃ­t potÃ­Å¾e. MyslÃ­Å¡, Å¾e nÃ¡m to Å¡Ã©f uvÄ›Å™Ã­? ObÅ™Ã­ vytaÅ¾enÃ½ Å¡punt. A co jste s nÃ­m udÄ›lali? Ucpali jsme s nÃ­m dÃ­ru. Ha, ha, ha.
  M: We are going to feel down about it. Do you think the boss is going to believe it? The giant unplugged plug. And what have you done with it? We plugged it again. He, he, he.
 sp-v-vzit
- V: Na tom nìco je. Mo¾ná by bylo lep¹í ho vzít s sebou.
+ V: Na tom nÄ›co je. MoÅ¾nÃ¡ by bylo lepÅ¡Ã­ ho vzÃ­t s sebou.
  V: You might be right. Maybe it would be better to take it along.
 sp-m-taky
- M: To si taky myslím.
+ M: To si taky myslÃ­m.
  M: I think so, too.
 sp-v-dotoho
- V: Dáme se do toho.
+ V: DÃ¡me se do toho.
  V: Let `s get to work.
 
 sp-m-nechat
- M: Co kdybychom tady ten ¹punt prostì nechali?
+ M: Co kdybychom tady ten Å¡punt prostÄ› nechali?
  M: What if we just leave that plug here?
 sp-v-centrala
- V: Co by tomu øekla centrála?
+ V: Co by tomu Å™ekla centrÃ¡la?
  V: What would the Agency say?
 
 sp-v-jedno
- V: U¾ mi zaèíná bıt jedno, co si o mnì ¹éf pomyslí.
+ V: UÅ¾ mi zaÄÃ­nÃ¡ bÃ½t jedno, co si o mnÄ› Å¡Ã©f pomyslÃ­.
  V: I think I don`t mind what the boss is going to think about me.
 sp-m-vydrz
- M: Vydr¾. Urèitì na to pøijdem.
+ M: VydrÅ¾. UrÄitÄ› na to pÅ™ijdem.
  M: Hold on. We are sure to solve it.
 
 sp-m-spunt
- M: Zatracenı ¹punt. Co kdybychom si nìco vymysleli?
+ M: ZatracenÃ½ Å¡punt. Co kdybychom si nÄ›co vymysleli?
  M: The darned plug. What if we just make up something.
 sp-v-co
- V: Jako tøeba co?
+ V: Jako tÅ™eba co?
  V: Like what, for example?
 sp-m-vymluva0
- M: No tøeba, ¾e to mìsto nikdy neexistovalo.
+ M: No tÅ™eba, Å¾e to mÄ›sto nikdy neexistovalo.
  M: Well, we could say that the city in fact never existed.
 sp-m-vymluva1
- M: Tøeba, ¾e se to mìsto potopilo, proto¾e roztály ledovce.
+ M: TÅ™eba, Å¾e se to mÄ›sto potopilo, protoÅ¾e roztÃ¡ly ledovce.
  M: Well, we could say that the city sank because the Arctic ice had melted.
 sp-m-vymluva2
- M: Napøíklad ho mohlo potopit zemìtøesení.
+ M: NapÅ™Ã­klad ho mohlo potopit zemÄ›tÅ™esenÃ­.
  M: An earthquake could sink the city, for example.
 sp-m-vymluva3
- M: Tøeba, ¾e ho smetla tsunami.
+ M: TÅ™eba, Å¾e ho smetla tsunami.
  M: A tsunami might sink the city, for example.
 sp-m-vymluva4
- M: Mù¾em øíkat, ¾e na ostrovì vybuchla sopka.
+ M: MÅ¯Å¾em Å™Ã­kat, Å¾e na ostrovÄ› vybuchla sopka.
  M: We could try to say that a volcano erupted in the center of the city.
 sp-v-nesmysl
- V: To je pìknı nesmysl.
+ V: To je pÄ›knÃ½ nesmysl.
  V: This is a silly nonsense.
 
 sp-v-ven
- V: Na¹ím úkolem tentokrát bude dostat ven z místnosti ten ¹punt!
+ V: NaÅ¡Ã­m Ãºkolem tentokrÃ¡t bude dostat ven z mÃ­stnosti ten Å¡punt!
  V: This time our goal is to get out that plug.

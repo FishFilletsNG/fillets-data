@@ -1,48 +1,48 @@
 CE
 tet-m-vypadala
- M: Tak takhle vypadala nejúspì¹nìj¹í hra v¹ech dob.
+ M: Tak takhle vypadala nejÃºspÄ›Å¡nÄ›jÅ¡Ã­ hra vÅ¡ech dob.
  M: So this is how the most successful game of all times looked like.
 tet-v-ucta
- V: Jenom úcta k její památce mi brání v tom, abych øekl, jak to vypadá...
+ V: Jenom Ãºcta k jejÃ­ pamÃ¡tce mi brÃ¡nÃ­ v tom, abych Å™ekl, jak to vypadÃ¡...
  V: Only the deep respect for its memory prevents me from saying how it looks like...
 tet-m-usudek
- M: Ale ka¾dı si mù¾e udìlat úsudek sám.
+ M: Ale kaÅ¾dÃ½ si mÅ¯Å¾e udÄ›lat Ãºsudek sÃ¡m.
  M: But everybody can see it for himself.
 
 tet-v-myslim
- V: Ví¹, co si myslím?
+ V: VÃ­Å¡, co si myslÃ­m?
  V: Do you know what I have in mind?
 tet-m-ano
  M: Ano?
  M: Well?
 tet-v-lepsi
- V: Dokázali bychom udìlat lep¹í tetris, ne¾ je tahle místnost.
+ V: DokÃ¡zali bychom udÄ›lat lepÅ¡Ã­ tetris, neÅ¾ je tahle mÃ­stnost.
  V: I think we could do a better tetris than this room.
 tet-m-jaklepsi
- M: Jak lep¹í?
+ M: Jak lepÅ¡Ã­?
  M: What do you mean, better?
 tet-v-hybat
- V: No, pøinejmen¹ím tak, aby se tam dalo hıbat kostkou nejen doprava.
+ V: No, pÅ™inejmenÅ¡Ã­m tak, aby se tam dalo hÃ½bat kostkou nejen doprava.
  V: At least, you won`t have to move all the pieces to the right.
 tet-m-predmety
- M: Pravda je, ¾e tu máme spoustu vhodnıch pøedmìtù.
+ M: Pravda je, Å¾e tu mÃ¡me spoustu vhodnÃ½ch pÅ™edmÄ›tÅ¯.
  M: The truth is we have an amply supply of suitable objects here.
 tet-v-uprava
- V: Myslím, ¾e by staèila jen malá úprava kódu, aby si hráè mohl vychutnat trochu originálního tetrisu.
+ V: MyslÃ­m, Å¾e by staÄila jen malÃ¡ Ãºprava kÃ³du, aby si hrÃ¡Ä mohl vychutnat trochu originÃ¡lnÃ­ho tetrisu.
  V: I think that little patch of the code can give the player the possibility to enjoy some original tetris.
 tet-m-program
  M: Tak to zkus naprogramovat.
  M: Okay, try to program it.
 tet-m-pozor
- M: Dej si pozor, a» nám nìco neudìlá¹.
+ M: Dej si pozor, aÅ¥ nÃ¡m nÄ›co neudÄ›lÃ¡Å¡.
  M: Be careful, not to hurt us.
 tet-v-hotovo
- V: A je to hotovo. Napi¹ XTETRIS a mù¾e¹ se dát do toho. Ovládej to ¹ipkama nebo numerickou klávesnicí.
+ V: A je to hotovo. NapiÅ¡ XTETRIS a mÅ¯Å¾eÅ¡ se dÃ¡t do toho. OvlÃ¡dej to Å¡ipkama nebo numerickou klÃ¡vesnicÃ­.
  V: Okay, I`m done. Input XTETRIS and you can get to it. Control the cubes by arrow keys or numpad.
 
 tet-v-kostky
- V: Asi tam budeme muset ty kostky naskládat úspornìji.
+ V: Asi tam budeme muset ty kostky nasklÃ¡dat ÃºspornÄ›ji.
  V: We will have to stack these pieces more efficiently, perhaps.
 tet-m-lepe
- M: Hmmm... mìla jsem to tam naskládat nìjak lépe.
+ M: Hmmm... mÄ›la jsem to tam nasklÃ¡dat nÄ›jak lÃ©pe.
  M: Hmm... I should have arranged it better.

@@ -1,120 +1,120 @@
 CE
 kuch-m-objev0
- M: To je ale hezká kuchynì.
+ M: To je ale hezkÃ¡ kuchynÄ›.
  M: Oh my, this is a nice kitchen.
 kuch-m-objev1
- M: Vida, objevili jsme lodní kuchyni.
+ M: Vida, objevili jsme lodnÃ­ kuchyni.
  M: Yeah, we discovered the ship kitchen.
 kuch-m-objev2
- M: Zatracená kuchynì.
+ M: ZatracenÃ¡ kuchynÄ›.
  M: Darned kitchen.
 kuch-m-objev3
- M: Tak, a jsme v kuchyni kapitána Silvera.
+ M: Tak, a jsme v kuchyni kapitÃ¡na Silvera.
  M: And now we are in the captain Silver`s kitchen.
 kuch-v-varil
- V: Nemyslím, ¾e si vaøil sám.
+ V: NemyslÃ­m, Å¾e si vaÅ™il sÃ¡m.
  V: I don`t think he was a cook himself.
 kuch-v-problem
- V: Ale to není ná¹ problém.
+ V: Ale to nenÃ­ nÃ¡Å¡ problÃ©m.
  V: But this is not our problem.
 kuch-m-noproblem
- M: Tady vùbec moc problémù není. Já mù¾u odplout hned.
+ M: Tady vÅ¯bec moc problÃ©mÅ¯ nenÃ­. JÃ¡ mÅ¯Å¾u odplout hned.
  M: There are not many problems here. I can swim out at once.
 kuch-v-podivej
- V: No tak se podívej, kde jsem já.
+ V: No tak se podÃ­vej, kde jsem jÃ¡.
  V: But just have a look at me.
 
 kuch-v-stolky0
- V: Nechápu, jak sem dostali ty servírovací stolky.
+ V: NechÃ¡pu, jak sem dostali ty servÃ­rovacÃ­ stolky.
  V: I can`t understand how these serving tables got there.
 kuch-v-stolky1
- V: Ty stolky mnì tady hroznì zavazí.
+ V: Ty stolky mnÄ› tady hroznÄ› zavazÃ­.
  V: These tables are in the way.
 kuch-v-stolky2
- V: Mám u¾ z téhle komùrky silnì klaustrofobní pocit.
+ V: MÃ¡m uÅ¾ z tÃ©hle komÅ¯rky silnÄ› klaustrofobnÃ­ pocit.
  V: This little chamber gives me the creeps.
 
 kuch-v-odsud0
- V: Nemù¾u se odsud dostat!
+ V: NemÅ¯Å¾u se odsud dostat!
  V: I can`t get out of here!
 kuch-m-premyslim0
- M: Zrovna pøemı¹lím, jak ti pomoci.
+ M: Zrovna pÅ™emÃ½Å¡lÃ­m, jak ti pomoci.
  M: I`m just thinking how to help you.
 
 kuch-v-odsud1
- V: Pomoz mi nìjak!
+ V: Pomoz mi nÄ›jak!
  V: Help me somehow!
 kuch-m-premyslim1
- M: Pøemı¹lím...
+ M: PÅ™emÃ½Å¡lÃ­m...
  M: I am thinking...
 kuch-m-premyslim2
- M: U¾ se na tom pracuje.
+ M: UÅ¾ se na tom pracuje.
  M: I am on my way.
 
 kuch-m-hrnec0
- M: Fuj, v tom hrnci je nìco pøipeèené!
+ M: Fuj, v tom hrnci je nÄ›co pÅ™ipeÄenÃ©!
  M: Yuck, there is something left in this pot!
 kuch-m-hrnec1
- M: Ten hrnec není ani umytı.
+ M: Ten hrnec nenÃ­ ani umytÃ½.
  M: This pot wasn`t even washed up.
 kuch-m-hrnec2
- M: Tady asi nikdo neumıvá nádobí.
+ M: Tady asi nikdo neumÃ½vÃ¡ nÃ¡dobÃ­.
  M: Nobody washes the dishes here.
 
 kuch-v-kreslo0
- V: Kdyby tu nebylo to køeslo, u¹etøili by jsme si spoustu práce.
+ V: Kdyby tu nebylo to kÅ™eslo, uÅ¡etÅ™ili by jsme si spoustu prÃ¡ce.
  V: If there was no chair, it would save us a lot of work.
 kuch-v-ja
- V: Hlavnì já.
+ V: HlavnÄ› jÃ¡.
  V: Especially myself.
 kuch-m-kreslo0
- M: Co vlastnì dìlá køeslo v kuchyni?
+ M: Co vlastnÄ› dÄ›lÃ¡ kÅ™eslo v kuchyni?
  M: What is a chair doing in a kitchen?
 kuch-v-kreslo1
- V: Køeslo nemá co dìlat v kuchyni.
+ V: KÅ™eslo nemÃ¡ co dÄ›lat v kuchyni.
  V: There should be no chairs in the kitchen.
 kuch-m-kreslo2
- M: Ka¾dı si chce nìkdy odpoèinout.
+ M: KaÅ¾dÃ½ si chce nÄ›kdy odpoÄinout.
  M: Everybody want to rest sometimes.
 
 kuch-m-stolky
- M: Ty stolky jsem u¾ nìkde vidìla.
+ M: Ty stolky jsem uÅ¾ nÄ›kde vidÄ›la.
  M: I have seen these tables somewhere.
 kuch-v-serie
- V: To ví¹, sériová døevaøská práce.
+ V: To vÃ­Å¡, sÃ©riovÃ¡ dÅ™evaÅ™skÃ¡ prÃ¡ce.
  V: They are mass-produced, you know.
 kuch-m-pekne
- M: Ale jsou pìkné. Taky si takové poøídíme.
+ M: Ale jsou pÄ›knÃ©. Taky si takovÃ© poÅ™Ã­dÃ­me.
  M: But they are nice. We`ll order us a few, too.
 
 kuch-v-obavam
- V: Obávám se, ¾e do této èásti se dostanu jenom já.
+ V: ObÃ¡vÃ¡m se, Å¾e do tÃ©to ÄÃ¡sti se dostanu jenom jÃ¡.
  V: I am afraid that only I can get out of this space.
 
 kuch-m-zapeklite
- M: Vypadá to, ¾e jsou i v této lodi skuteènì zapeklité problémy.
+ M: VypadÃ¡ to, Å¾e jsou i v tÃ©to lodi skuteÄnÄ› zapeklitÃ© problÃ©my.
  M: It seems that even this ship contains some demanding problems.
 
 kuch-v-mec
- V: Proè je tu ten meè?
+ V: ProÄ je tu ten meÄ?
  V: Why is that sword here?
 kuch-m-porcovani
- M: Asi ho pou¾ívali k porcování masa.
+ M: Asi ho pouÅ¾Ã­vali k porcovÃ¡nÃ­ masa.
  M: Maybe they used it to cut the meat.
 kuch-v-nedela
- V: To jistì. Ale s meèem se to obvykle nedìlá v kuchyni.
+ V: To jistÄ›. Ale s meÄem se to obvykle nedÄ›lÃ¡ v kuchyni.
  V: Certainly. But you don`t cut meat with a sword in the kitchen, usually.
 
 kuch-m-kuchari
- M: Je¹tì, ¾e u¾ tu nejsou kuchaøi. Je¹tì by nás mohli chtít uvaøit.
+ M: JeÅ¡tÄ›, Å¾e uÅ¾ tu nejsou kuchaÅ™i. JeÅ¡tÄ› by nÃ¡s mohli chtÃ­t uvaÅ™it.
  M: We are lucky there are no cooks here. They could try to cook us.
 
 kuch-v-svitek0
- V: Na tom svitku je nìjakı recept.
+ V: Na tom svitku je nÄ›jakÃ½ recept.
  V: There must be some recipe on that parchment.
 kuch-v-svitek1
- V: Na tom svitku je asi nìjaké kulináøské tajemství.
+ V: Na tom svitku je asi nÄ›jakÃ© kulinÃ¡Å™skÃ© tajemstvÃ­.
  V: There must be some culinary mystery on that parchment.
 kuch-m-recept
- M: Tøeba recept na úpravu ryb.
+ M: TÅ™eba recept na Ãºpravu ryb.
  M: Possibly, how to cook the fish.

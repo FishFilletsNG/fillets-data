@@ -1,77 +1,77 @@
 CE
 zd2-m-dalsi
- M: Dal¹í vıtah? Kolik jich je¹tì bude?
+ M: DalÅ¡Ã­ vÃ½tah? Kolik jich jeÅ¡tÄ› bude?
  M: Another elevator? How many more is there to come?
 zd2-v-odlis0
- V: Vidím tu jisté drobné odli¹nosti... A nìco mi øíká, ¾e to teï není jednodu¹¹í.
+ V: VidÃ­m tu jistÃ© drobnÃ© odliÅ¡nosti... A nÄ›co mi Å™Ã­kÃ¡, Å¾e to teÄ nenÃ­ jednoduÅ¡Å¡Ã­.
  V: I can see some differences here... And somehow I don`t think it`s going to be easier.
 zd2-v-odlis1
- V: Ten minulı mìl, myslím, trochu pøíznivìj¹í architekturu.
+ V: Ten minulÃ½ mÄ›l, myslÃ­m, trochu pÅ™Ã­znivÄ›jÅ¡Ã­ architekturu.
  V: The last one had a little bit more advantageous architecture, I think.
 
 zd2-v-vlevo
- V: Vidí¹ tu vìc vlevo dole? To je jistì nìjakı prastarı nábo¾enskı symbol.
+ V: VidÃ­Å¡ tu vÄ›c vlevo dole? To je jistÄ› nÄ›jakÃ½ prastarÃ½ nÃ¡boÅ¾enskÃ½ symbol.
  V: Can you see that thing in the lower left? This must be some ancient religious symbol.
 zd2-m-nevid0
- M: Na¹tìstí na nìj moc nevidím.
+ M: NaÅ¡tÄ›stÃ­ na nÄ›j moc nevidÃ­m.
  M: Fortunately, I can`t see much of it.
 zd2-m-nevid1
- M: Jestli má¹ pravdu, tak rad¹i nechci vìdìt koho.
+ M: Jestli mÃ¡Å¡ pravdu, tak radÅ¡i nechci vÄ›dÄ›t koho.
  M: If you are right, I`d rather wouldn`t know what kind of religion it was.
 
 zd2-v-symbol
- V: Bojím se, ¾e pøi pou¾ítí toho podivného symbolu bezdìky spustíme nìjakı temnı rituál.
+ V: BojÃ­m se, Å¾e pÅ™i pouÅ¾Ã­tÃ­ toho podivnÃ©ho symbolu bezdÄ›ky spustÃ­me nÄ›jakÃ½ temnÃ½ rituÃ¡l.
  V: I am afraid that if we use that strange symbol we could unwillingly initiate some dark ritual.
 zd2-m-douf
- M: Já jen doufám, ¾e mi pøi tom nespadne na hlavu.
+ M: JÃ¡ jen doufÃ¡m, Å¾e mi pÅ™i tom nespadne na hlavu.
  M: I just hope it won`t drop on my head.
 
 zd2-m-lebka
- M: Zase nìjaká lebka. Je to tu hor¹í ne¾ v márnici.
+ M: Zase nÄ›jakÃ¡ lebka. Je to tu horÅ¡Ã­ neÅ¾ v mÃ¡rnici.
  M: Another skull. It`s worse than morgue.
 zd2-v-haml
- V: Je to tu hor¹í ne¾ v Hamletovi.
+ V: Je to tu horÅ¡Ã­ neÅ¾ v Hamletovi.
  V: It`s worse than Hamlet.
 
 $vol
  200
 zd2-x-hus0
- l: Hu¹, hu¹!
+ l: HuÅ¡, huÅ¡!
  l: Hush, hush!
 zd2-x-hus1
- l: Nepøibli¾uj se!
+ l: NepÅ™ibliÅ¾uj se!
  l: Don`t come near!
 zd2-x-kricet
- l: Jestli na mì sáhne¹, budu køièet.
+ l: Jestli na mÄ› sÃ¡hneÅ¡, budu kÅ™iÄet.
  l: I`ll scream if you touch me.
 
 zd2-x-krik0
- l: ááááaa
+ l: Ã¡Ã¡Ã¡Ã¡aa
  l: Aaaaa
 zd2-x-krik1
- l: Pomóc.
+ l: PomÃ³c.
  l: Help!
 zd2-x-ritual
- l: Spustím temnı rituál.
+ l: SpustÃ­m temnÃ½ rituÃ¡l.
  l: I`ll initiate dark ritual!
 
 
 zd2-x-nechteme
- l: Nechte mì na pokoji!
+ l: Nechte mÄ› na pokoji!
  l: Leave me alone!
 zd2-x-nechme
- l: Nechá¹ mì, dej pokoj!
+ l: NechÃ¡Å¡ mÄ›, dej pokoj!
  l: Leave me alone and get lost!
 zd2-x-pokoj
  l: Dej pokoj!
  l: Cut it out!
 
 zd2-x-fuj
- l: Fuj, neoèuchávej mì!
+ l: Fuj, neoÄuchÃ¡vej mÄ›!
  l: Yuck, don`t nibble me!
 zd2-x-necurat
- l: Ne ¾e se ke mì vyèùrá¹.
+ l: Ne Å¾e se ke mÄ› vyÄÅ¯rÃ¡Å¡.
  l: Don`t think you can pee on me.
 zd2-x-neklast
- l: Jestli tady chce¹ klást jikry, tak na to zapomeò.
+ l: Jestli tady chceÅ¡ klÃ¡st jikry, tak na to zapomeÅˆ.
  l: Just forget about lying your spawn here.

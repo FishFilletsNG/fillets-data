@@ -1,46 +1,46 @@
 CE
 puc-m-koukej
- M: Koukej, co se na takovém smeti¹ti najde.
+ M: Koukej, co se na takovÃ©m smetiÅ¡ti najde.
  M: Look, what can we find on such a dump.
 puc-v-podivej
- V: Podívej, co ti lidi v¹echno nevyhodí.
+ V: PodÃ­vej, co ti lidi vÅ¡echno nevyhodÃ­.
  V: It`s interesting what kind of stuff will somebody will throw out.
 
 puc-v-videl
- V: Tu ¾enskou u¾ jsem nìkde vidìl.
+ V: Tu Å¾enskou uÅ¾ jsem nÄ›kde vidÄ›l.
  V: I am sure I have seen this woman somewhere.
 puc-m-oblicej
- M: To se ti jen zdá, je to úplnì tuctovı oblièej.
+ M: To se ti jen zdÃ¡, je to ÃºplnÄ› tuctovÃ½ obliÄej.
  M: You are probably wrong, it`s a completely plain face.
 
 puc-m-pld0
- M: Podívej na tu vìc.
+ M: PodÃ­vej na tu vÄ›c.
  M: Look at that thing.
 puc-m-pld1
- M: Podívej se na toho plda. To je ale potvora.
+ M: PodÃ­vej se na toho plda. To je ale potvora.
  M: Look at that pld. What a monster.
 puc-m-hele
  M: Hele, to je ale nechutnost.
  M: Oh, my, this is repulsive.
 puc-m-slizka
- M: O¹klivá, slizká, ¹pinavá a navíc hroznì zavazí.
+ M: OÅ¡klivÃ¡, slizkÃ¡, Å¡pinavÃ¡ a navÃ­c hroznÄ› zavazÃ­.
  M: Repulsive, slimy, dirty and in the way.
 
 puc-v-fuska0
- V: To je ale fu¹ka.
+ V: To je ale fuÅ¡ka.
  V: It`s taxing.
 puc-v-fuska1
- V: Je to ponìkud pracné.
+ V: Je to ponÄ›kud pracnÃ©.
  V: It`s quite demanding.
 
 puc-v-fuska2
  V: To byla ale hokna.
  V: It was a lot of work.
 puc-m-stalo
- M: Ale stálo to za to, ne?
+ M: Ale stÃ¡lo to za to, ne?
  M: But it paid off, didn`t it?
 puc-m-obraz
- M: Pøedstav si, ¾e by to byl tøeba nìjakı vzácnı obraz a my ho zachránili!
+ M: PÅ™edstav si, Å¾e by to byl tÅ™eba nÄ›jakÃ½ vzÃ¡cnÃ½ obraz a my ho zachrÃ¡nili!
  M: Just imagine it was some precious painting and we have saved it!
 puc-v-nesmysl
  V: Nesmysl!

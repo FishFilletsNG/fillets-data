@@ -1,106 +1,106 @@
 CE
 bar-v-videt0
- V: To by mìli vidìt lidi z Greenpeace.
+ V: To by mÄ›li vidÄ›t lidi z Greenpeace.
  V: Somebody from Greenpeace should see this.
 bar-m-videt1
- M: To by mìli vidìt lidi z Temelína.
+ M: To by mÄ›li vidÄ›t lidi z TemelÃ­na.
  M: Somebody from Three Miles Island should see this.
 bar-v-co
- V: Ale co s tím budeme dìlat?
+ V: Ale co s tÃ­m budeme dÄ›lat?
  V: What are we supposed to do with it?
 bar-m-pobit
- M: Musíme je v¹echny pobít. Takové stvùry nemají právo dıchat stejnı vzduch.... é, vodu, jako my.
+ M: MusÃ­me je vÅ¡echny pobÃ­t. TakovÃ© stvÅ¯ry nemajÃ­ prÃ¡vo dÃ½chat stejnÃ½ vzduch.... Ã©, vodu, jako my.
  M: We have to exterminate all of them. Such abominations have no right to breath the same air... er, water, as we do.
 bar-v-priciny
- V: Já si myslím, ¾e musíme odstraòovat pøíèiny a ne následky.
+ V: JÃ¡ si myslÃ­m, Å¾e musÃ­me odstraÅˆovat pÅ™Ã­Äiny a ne nÃ¡sledky.
  V: I think we have to eliminate the cause and not the results.
 bar-m-no
- M: No, mo¾ná má¹ pravdu.
+ M: No, moÅ¾nÃ¡ mÃ¡Å¡ pravdu.
  M: Well, you may be right.
 bar-v-sud
- V: A pøíèina je nepochybnì tento olbøímí sud. Musíme ho nìjak dostat ven.
+ V: A pÅ™Ã­Äina je nepochybnÄ› tento olbÅ™Ã­mÃ­ sud. MusÃ­me ho nÄ›jak dostat ven.
  V: And the cause is doubtless this giant barrel. We have to get it out somehow.
 bar-m-panb
- M: Ano. Tak se dejme do práce. A» ho mù¾eme hodit panu B. na dvorek.
+ M: Ano. Tak se dejme do prÃ¡ce. AÅ¥ ho mÅ¯Å¾eme hodit panu B. na dvorek.
  M: Yes. Let`s get to work. We can drop it on the Mr. B.`s front yard afterwards.
 
 bar-m-rada
- M: Vlastnì je zaèínám mít docela ráda.
+ M: VlastnÄ› je zaÄÃ­nÃ¡m mÃ­t docela rÃ¡da.
  M: I think I grow to like them.
 bar-v-kdyby0
- V: Jen kdyby se nám tu tolik nepletli.
+ V: Jen kdyby se nÃ¡m tu tolik nepletli.
  V: If only they wouldn`t stand in our way so much.
 bar-v-kdyby1
- V: Jen kdyby byli tam, kde je potøebujeme.
+ V: Jen kdyby byli tam, kde je potÅ™ebujeme.
  V: If only they were where we need them.
 
 bar-v-sbirka
- V: Ta milá sbírka zrùdièek. Bude mi líto odsud odejít.
+ V: Ta milÃ¡ sbÃ­rka zrÅ¯diÄek. Bude mi lÃ­to odsud odejÃ­t.
  V: Such a lovely collection of monstrosities. I`ll be sorry to leave.
 bar-m-dost0
- M: Na to má¹ je¹tì dost èasu.
+ M: Na to mÃ¡Å¡ jeÅ¡tÄ› dost Äasu.
  M: This won`t happen any time soon.
 bar-m-dost1
- M: Bojím se, ¾e ti to je¹tì dlouho líto bıt nemusí.
+ M: BojÃ­m se, Å¾e ti to jeÅ¡tÄ› dlouho lÃ­to bÃ½t nemusÃ­.
  M: You are going to have a plenty of time to enjoy them.
 
 bar-v-lih
- V: Kdybychom si je vzali s sebou a nalo¾ili do lihu, tak si mù¾eme otevøít obludárium.
+ V: Kdybychom si je vzali s sebou a naloÅ¾ili do lihu, tak si mÅ¯Å¾eme otevÅ™Ã­t obludÃ¡rium.
  V: If we take them with us and store them in alcohol, we could found ourselves a freak show.
 bar-m-fdto
- M: To ti nestaèí FDTO?
+ M: To ti nestaÄÃ­ FDTO?
  M: And FDTO isn`t enough for you?
 bar-x-vypr
- w: V¹echno sly¹ím!
+ w: VÅ¡echno slyÅ¡Ã­m!
  w: I can hear everything!
 bar-m-promin
- M: Promiòte ¹éfe. Já to tak nemyslela.
+ M: PromiÅˆte Å¡Ã©fe. JÃ¡ to tak nemyslela.
  M: Sorry, boss. I didn`t mean to offend.
 
 bar-m-mutanti
- M: Ví¹, koneènì jsem si uvìdomila, ¾e i mutanti mají du¹i.
+ M: VÃ­Å¡, koneÄnÄ› jsem si uvÄ›domila, Å¾e i mutanti majÃ­ duÅ¡i.
  M: You know, I finally realized that even mutants have a soul.
 bar-v-ufouni
- V: Mo¾ná, ¾e dokonce i ufouni mohou mít du¹i.
+ V: MoÅ¾nÃ¡, Å¾e dokonce i ufouni mohou mÃ­t duÅ¡i.
  V: Maybe even UFOs can have a soul.
 bar-m-zmeni
- M: Myslím, ¾e tahle místnost nás zmìní nav¾dy.
+ M: MyslÃ­m, Å¾e tahle mÃ­stnost nÃ¡s zmÄ›nÃ­ navÅ¾dy.
  M: I think that this level is going to change us forever.
 
 bar-m-noha
- M: Ta noha je nejen odporná, ale i bezcharakterní. Podívej se na ni.
+ M: Ta noha je nejen odpornÃ¡, ale i bezcharakternÃ­. PodÃ­vej se na ni.
  M: That foot is not only repulsive but also shameless. Just look at it.
 
 bar-v-pld
- V: Podívej na toho plda. Vypadá poøád stejnì a pøitom je poøád odpornìj¹í.
+ V: PodÃ­vej na toho plda. VypadÃ¡ poÅ™Ã¡d stejnÄ› a pÅ™itom je poÅ™Ã¡d odpornÄ›jÅ¡Ã­.
  V: Look at that pld. It looks the same and still it grows more and more repulsive.
 bar-m-pudy
- M: Ale i v nìm døímou mateøské pudy. Podívej, jak se stará o to malièké.
+ M: Ale i v nÄ›m dÅ™Ã­mou mateÅ™skÃ© pudy. PodÃ­vej, jak se starÃ¡ o to maliÄkÃ©.
  M: But even it harbors some motherly instincts. Look how he cares about the little one.
 bar-v-traverza
- V: Ano. Pøizabil ho traverzou.
+ V: Ano. PÅ™izabil ho traverzou.
  V: Yes. It almost killed it with iron beam.
 
 bar-m-rybka
- M: Ta rybka je mi odnìkud povìdomá.
+ M: Ta rybka je mi odnÄ›kud povÄ›domÃ¡.
  M: This fish looks familiar to me.
 bar-v-fotka
- V: Mo¾ná, ¾e byla na té fotografii z elekrárny.
+ V: MoÅ¾nÃ¡, Å¾e byla na tÃ© fotografii z elekrÃ¡rny.
  V: Maybe it was on that photo from power plant.
 
 bar-v-krab
- V: Chudák ten krab. Tolik klepet a ¾ádná hlava. I kdy¾... mo¾ná je mu takhle líp ne¾ nám.
+ V: ChudÃ¡k ten krab. Tolik klepet a Å¾Ã¡dnÃ¡ hlava. I kdyÅ¾... moÅ¾nÃ¡ je mu takhle lÃ­p neÅ¾ nÃ¡m.
  V: The poor crab. So many pincers and no head. Although... maybe he is better off than we.
 
 bar-m-kachna
- M: Se ¾lutou kachnièkou není èlovìk nikdy sám. Ani ryba.
+ M: Se Å¾lutou kachniÄkou nenÃ­ ÄlovÄ›k nikdy sÃ¡m. Ani ryba.
  M: No man is alone with a little yellow duck. Not even fish.
 
 bar-m-barel
- M: Tentokrát je na¹ím úkolem vytlaèit ven barel s tím svinstvem.
+ M: TentokrÃ¡t je naÅ¡Ã­m Ãºkolem vytlaÄit ven barel s tÃ­m svinstvem.
  M: This time, our goal is to push out the barrel with that filth.
 bar-v-genofond
- V: A v¹echny tvory tu musíme nechat! A» nezkazí genofond zdravé populace.
+ V: A vÅ¡echny tvory tu musÃ­me nechat! AÅ¥ nezkazÃ­ genofond zdravÃ© populace.
  V: But we have to leave ere all those creatures hrere. They must not harm the genepool of the healthy population.
 
 $vol

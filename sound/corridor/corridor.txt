@@ -1,28 +1,28 @@
 CE
 ch-m-rozsvit0
- M: Okam¾itì zase rozsvi»!
+ M: OkamÅ¾itÄ› zase rozsviÅ¥!
  M: Turn on the lights, NOW!
 ch-m-rozsvit1
- M: Co dìlá¹, rozsvi»!
+ M: Co dÄ›lÃ¡Å¡, rozsviÅ¥!
  M: What do you think you are doing?
 ch-m-rozsvit2
- M: Jé, nech si ty srandièky! Rozsvi»!
+ M: JÃ©, nech si ty srandiÄky! RozsviÅ¥!
  M: Cut it out and turn on the lights. 
 ch-v-pockej0
- V: Poèkej, zkusím dotápat k vypínaèi.
+ V: PoÄkej, zkusÃ­m dotÃ¡pat k vypÃ­naÄi.
  V: Wait, I`ll try to find the switch.
 ch-v-pockej1
- V: Nejde to, ten zatracenej vypínaè spadnul.
+ V: Nejde to, ten zatracenej vypÃ­naÄ spadnul.
  V: I can`t. The dang switch fell down.
 ch-v-pockej2
- V: Rozsvi» si sama, kdy¾ jsi tak chytrá.
+ V: RozsviÅ¥ si sama, kdyÅ¾ jsi tak chytrÃ¡.
  V: Turn on the lights yourself, if you`re so smart.
 
 ch-v-halo0
  V: Kde jsi?
  V: Where are you?
 ch-v-halo1
- V: Haló.
+ V: HalÃ³.
  V: Hello-o-o.
 ch-v-halo2
  V: Ozvi se.
@@ -34,72 +34,72 @@ ch-m-tady1
  M: Tady jsem.
  M: Here I am.
 ch-m-tady2
- M: Já jsem tady.
+ M: JÃ¡ jsem tady.
  M: I am right over here.
 
 ch-m-bojim0
- M: Kde jsi, mám strach...
+ M: Kde jsi, mÃ¡m strach...
  M: Where are you, I am afraid.
 ch-m-bojim1
- M: Já se tmy bojím.
+ M: JÃ¡ se tmy bojÃ­m.
  M: I`m afraid of the dark.
 ch-m-bojim2
- M: Neodcházej, je tady stra¹ná tma...
+ M: NeodchÃ¡zej, je tady straÅ¡nÃ¡ tma...
  M: Please don`t leave. It`s so dark in here.
 
 ch-v-neboj0
- V: Neboj, já jsem tady.
+ V: Neboj, jÃ¡ jsem tady.
  V: Don`t be afraid. I`m here.
 ch-v-neboj1
- V: Nefòukej, to zvládnem.
+ V: NefÅˆukej, to zvlÃ¡dnem.
  V: Stop whining. We`ll manage.
 ch-v-neboj2
- V: Nièeho se neboj.
+ V: NiÄeho se neboj.
  V: There`s nothing to be afraid of.
 
 ch-m-doufam
- M: Doufám, ¾e mì to nekopne...
+ M: DoufÃ¡m, Å¾e mÄ› to nekopne...
  M: I hope it doesn`t kick me...
 
 ch-m-blik0
- M: U¾ mì z toho blikání bolí oèi.
+ M: UÅ¾ mÄ› z toho blikÃ¡nÃ­ bolÃ­ oÄi.
  M: This flickering light is beginning to make my eyes hurt.
 ch-m-blik1
- M: Nikdy bych neøekla, ¾e budu tak ráda, ¾e tì vidím.
+ M: Nikdy bych neÅ™ekla, Å¾e budu tak rÃ¡da, Å¾e tÄ› vidÃ­m.
  M: I never thought I`d be so glad to see you again.
 ch-m-blik2
- M: Koneènì zase svìtlo...
+ M: KoneÄnÄ› zase svÄ›tlo...
  M: Finally, the lights are back on...
 
 ch-v-pozor
- V: Pozor, a» tì nekousne!
+ V: Pozor, aÅ¥ tÄ› nekousne!
  V: Be careful. It bites!
 ch-v-robopes
  V: To je... to je snad... ROBOPES!
  V: Look! That must be... ROBODOG!
 ch-m-ten
- M: Co¾e, TEN robopes?!
+ M: CoÅ¾e, TEN robopes?!
  M: What? THAT robodog?!?
 ch-v-zapada
- V: Tak teï u¾ do sebe v¹echno jasnì zapadá.
+ V: Tak teÄ uÅ¾ do sebe vÅ¡echno jasnÄ› zapadÃ¡.
  V: Well now it all makes sense.
 ch-m-odpoved0
- M: Vèetnì karibské krize a Nostradamova proroctví.
+ M: VÄetnÄ› karibskÃ© krize a Nostradamova proroctvÃ­.
  M: Including the Cuban missile crisis and Nostradamus` prophecies.
 ch-m-odpoved1
- M: Vèetnì vra¾dy Johna Lennona a pádu tunguzského meteoritu.
+ M: VÄetnÄ› vraÅ¾dy Johna Lennona a pÃ¡du tunguzskÃ©ho meteoritu.
  M: Including the murder of John Lennon and the Tunguzian meteor.
 ch-m-odpoved2
- M: Vèetnì havárie raketoplánu Challenger a bitvy u Chlumce.
+ M: VÄetnÄ› havÃ¡rie raketoplÃ¡nu Challenger a bitvy u Chlumce.
  M: Including the Challenger explosion and the Battle of Bull Run.
 ch-m-odpoved3
- M: Vèetnì havárie v Èernobylu a ztroskotání Noemovy archy.
+ M: VÄetnÄ› havÃ¡rie v ÄŒernobylu a ztroskotÃ¡nÃ­ Noemovy archy.
  M: Including the Chernobyl meltdown and the wreck of Noah`s Ark.
 ch-v-smysl
- V: U¾ je mi také jasnı smysl této hry.
+ V: UÅ¾ je mi takÃ© jasnÃ½ smysl tÃ©to hry.
  V: Now I can see the rationale behind this game.
 ch-m-vubec
- M: A taky smysl ¾ivota, vesmíru a vùbec.
+ M: A taky smysl Å¾ivota, vesmÃ­ru a vÅ¯bec.
  M: And also the meaning of life, the universe and everything.
 
 ch-x-click1
@@ -112,38 +112,38 @@ ch-x-click2
 $vol
  200
 ch-r-nevsimej0
- R: Nev¹ímej si jich, hráèi, dìlají si z tebe legraci.
+ R: NevÅ¡Ã­mej si jich, hrÃ¡Äi, dÄ›lajÃ­ si z tebe legraci.
  R: Don`t listen to them, player. They are kidding you.
 ch-r-nevsimej1
- R: Nev¹ímej si jich, hráèi, tropí si z tebe ¾erty.
+ R: NevÅ¡Ã­mej si jich, hrÃ¡Äi, tropÃ­ si z tebe Å¾erty.
  R: Don`t listen to them, player. They are trying to be funny.
 ch-r-nevsimej2
- R: Nev¹ímej si jich, hráèi, tropí si z tebe øi».
+ R: NevÅ¡Ã­mej si jich, hrÃ¡Äi, tropÃ­ si z tebe Å™iÅ¥.
  R: Don`t listen to them, player. They are trying to fool you.
 ch-r-hracka
- R: Jsem jen obyèejná kybernetická hraèka.
+ R: Jsem jen obyÄejnÃ¡ kybernetickÃ¡ hraÄka.
  R: I am but a humble cybernetic toy.
 ch-r-ikdyz0
- R: I kdy¾ pùvodnì jsem mìl bıt skútr.
+ R: I kdyÅ¾ pÅ¯vodnÄ› jsem mÄ›l bÃ½t skÃºtr.
  R: Though originally I was to be a scooter.
 ch-r-ikdyz1
- R: I kdy¾ pùvodnì jsem mìl bıt sekaèka na trávu.
+ R: I kdyÅ¾ pÅ¯vodnÄ› jsem mÄ›l bÃ½t sekaÄka na trÃ¡vu.
  R: Though originally I was to be a lawn-mower.
 ch-r-ikdyz2
- R: I kdy¾ pùvodnì jsem mìl bıt kosmická orbitální stanice.
+ R: I kdyÅ¾ pÅ¯vodnÄ› jsem mÄ›l bÃ½t kosmickÃ¡ orbitÃ¡lnÃ­ stanice.
  R: Though originally I was to be a space orbital station.
 ch-r-ikdyz3
- R: I kdy¾ pùvodnì jsem mìl bıt rakvièka se ¹lehaèkou.
+ R: I kdyÅ¾ pÅ¯vodnÄ› jsem mÄ›l bÃ½t rakviÄka se Å¡lehaÄkou.
  R: Though orginally I was to be a piece of cake.
 ch-r-anavic0
- R: A u té karibské krize jsem se jen nachomıtl.
+ R: A u tÃ© karibskÃ© krize jsem se jen nachomÃ½tl.
  R: And I visited Cuba only once.
 ch-r-anavic1
- R: A z té vra¾dy usvìdèili pøece nìkoho jiného, mnì nic nedoká¾ou, nikdo mì nevidìl.
+ R: A z tÃ© vraÅ¾dy usvÄ›dÄili pÅ™ece nÄ›koho jinÃ©ho, mnÄ› nic nedokÃ¡Å¾ou, nikdo mÄ› nevidÄ›l.
  R: And everybody knows somebody else murdered him, they can`t prove anything.
 ch-r-anavic2
- R: A pro tìch pár sedlákù se nikdo nezblázní.
+ R: A pro tÄ›ch pÃ¡r sedlÃ¡kÅ¯ se nikdo nezblÃ¡znÃ­.
  R: And who cares for few soldiers.
 ch-r-anavic3
- R: A navíc øíkali, ¾e ta regulaèní tyè není v reaktoru dùle¾itá.
+ R: A navÃ­c Å™Ã­kali, Å¾e ta regulaÄnÃ­ tyÄ nenÃ­ v reaktoru dÅ¯leÅ¾itÃ¡.
  R: And they told me that that regulatory rod isn`t important.

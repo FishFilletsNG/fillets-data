@@ -1,54 +1,54 @@
 CE
 bot-m-vidis
- M: Vidí¹ toho koníka?
+ M: VidÃ­Å¡ toho konÃ­ka?
  M: Can you see that seahorse?
 bot-v-uveznen0
- V: Je uvìznìnı mezi amforami.
+ V: Je uvÄ›znÄ›nÃ½ mezi amforami.
  V: It is blocked by amphoras.
 bot-v-uveznen1
- V: Opíjel se mezi amforami.
+ V: OpÃ­jel se mezi amforami.
  V: It got itself drunk among amphoras.
 bot-m-zajem
- M: Zajímalo by mì, jestli v nich je¹tì nìco je.
+ M: ZajÃ­malo by mÄ›, jestli v nich jeÅ¡tÄ› nÄ›co je.
  M: I wonder if there is anything left in them.
 bot-v-podivat
- V: Asi se stejnì bude¹ muset jít podívat.
+ V: Asi se stejnÄ› budeÅ¡ muset jÃ­t podÃ­vat.
  V: You probably have to go check for yourself.
 
 bot-m-vidim
- M: Koneènì vidím nìjakou novou lebku.
+ M: KoneÄnÄ› vidÃ­m nÄ›jakou novou lebku.
  M: Finally, I can see some new kind of skull.
 
 bot-v-vsim
- V: V¹imla sis toho totemu? To je mexickı bùh ©kleboxuatl.
+ V: VÅ¡imla sis toho totemu? To je mexickÃ½ bÅ¯h Å kleboxuatl.
  V: Did you notice that totem? This is Mexican god Shelloxuatl.
 bot-m-vypada
- M: Vypadá na to.
+ M: VypadÃ¡ na to.
  M: It looks like that.
 
 bot-m-padaji
- M: Ty amfory padají nelidsky pomalu.
+ M: Ty amfory padajÃ­ nelidsky pomalu.
  M: These amphores fall unbearably slow.
 bot-v-vsak0
- V: V¹ak také nejsi èlovìk.
+ V: VÅ¡ak takÃ© nejsi ÄlovÄ›k.
  V: Well, you are not a bear, after all.
 bot-v-vsak1
- V: V¹ak jsme také pod vodou.
+ V: VÅ¡ak jsme takÃ© pod vodou.
  V: Don`t forget we are under water.
 
 bot-m-ble
- M: Blé... Tuhle animaci si autoøi mohli odpustit.
+ M: BlÃ©... Tuhle animaci si autoÅ™i mohli odpustit.
  M: Yuck. The authors could spare us that animation.
 bot-v-totem
- V: Mnì se ten totem líbí.
+ V: MnÄ› se ten totem lÃ­bÃ­.
  V: This totem looks good to me.
 
 bot-v-lebka
- V: Z té lebky vyzaøuje nìco tajemného.
+ V: Z tÃ© lebky vyzaÅ™uje nÄ›co tajemnÃ©ho.
  V: That skull seems to radiate something strange.
 
 bot-m-zivy
- M: Je to ¾ivı, nebo je to kouzlo?
+ M: Je to Å¾ivÃ½, nebo je to kouzlo?
  M: Is it alive or is it some kind of spell?
 
 bot-x-smich

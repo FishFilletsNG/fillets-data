@@ -1,114 +1,114 @@
 CE
 vrak-v-vraky0
- V: Ty vraky lodí jsou èím dál drzej¹í.
+ V: Ty vraky lodÃ­ jsou ÄÃ­m dÃ¡l drzejÅ¡Ã­.
  V: These shipwrecs grow more and more arrogant.
 vrak-v-vraky1
- V: Ty potopené lodì u¾ mi jdou na nervy.
+ V: Ty potopenÃ© lodÄ› uÅ¾ mi jdou na nervy.
  V: These sunken ships really irritate me.
 vrak-v-vraky2
- V: Ach jo, zase se nìkde potopila loï. U¾ mám tìch vrakù dost!
+ V: Ach jo, zase se nÄ›kde potopila loÄ. UÅ¾ mÃ¡m tÄ›ch vrakÅ¯ dost!
  V: Oh my, another ship sank. It really makes me itchy.
 vrak-m-vrak0
- M: Podívej, jak nám ponièily knihovnièku!
+ M: PodÃ­vej, jak nÃ¡m poniÄily knihovniÄku!
  M: Look, it broke our bookcase!
 vrak-m-vrak1
- M: Podívej, rozbily nám polièky.
+ M: PodÃ­vej, rozbily nÃ¡m poliÄky.
  M: Look, it smashed our shelves.
 vrak-m-vrak2
- M: Podívej, vlezly nám a¾ do knihovny.
+ M: PodÃ­vej, vlezly nÃ¡m aÅ¾ do knihovny.
  M: Look, it invaded our library.
 
 vrak-m-kupovat0
- M: To má¹ z toho, ¾e kupuje¹ tolik kní¾ek.
+ M: To mÃ¡Å¡ z toho, Å¾e kupujeÅ¡ tolik knÃ­Å¾ek.
  M: See? You shouldn`t have bought so many books.
 vrak-m-kupovat1
- M: To má¹ z toho, ¾e koupí¹ ka¾dou kní¾ku, kterou vidí¹.
+ M: To mÃ¡Å¡ z toho, Å¾e koupÃ­Å¡ kaÅ¾dou knÃ­Å¾ku, kterou vidÃ­Å¡.
  M: You buy every book you can lay your hand on and now you have problems.
 vrak-m-naco
- M: Na co ti v¹echny jsou?
+ M: Na co ti vÅ¡echny jsou?
  M: Why do you have to have so many of them?
 vrak-m-knihy0
- M: Paranormální jevy.
+ M: ParanormÃ¡lnÃ­ jevy.
  M: ESP
 vrak-m-knihy1
- M: ®ivot po ¾ivotì.
+ M: Å½ivot po Å¾ivotÄ›.
  M: Life after life.
 vrak-m-knihy2
- M: Vzpomínky na budoucnost.
+ M: VzpomÃ­nky na budoucnost.
  M: Memories of the future.
 vrak-m-knihy3
- M: Holistické metody.
+ M: HolistickÃ© metody.
  M: Holistic methods. 
 vrak-m-knihy4
  M: Telepatem snadno a rychle.
  M: Teach yourself telepathy.
 vrak-m-knihy5
- M: Jasnovidcem proti své vùli.
+ M: Jasnovidcem proti svÃ© vÅ¯li.
  M: Unwilling clairvoyant.
 vrak-m-knihy6
- M: Co Daniken netu¹il.
+ M: Co Daniken netuÅ¡il.
  M: Outreaching Daniken.
 vrak-v-vyhodit
- V: Já bych vyhodil tøeba támhlety.
+ V: JÃ¡ bych vyhodil tÅ™eba tÃ¡mhlety.
  V: I`d throw out these, for example.
 vrak-v-knihy0
- V: Jak Frk a Brk putovali za sumı¹kem.
+ V: Jak Frk a Brk putovali za sumÃ½Å¡kem.
  V: The Three Little Shrimp
 vrak-v-knihy1
- V: O perníkové ponorce.
+ V: O pernÃ­kovÃ© ponorce.
  V: The Gingerbread Submarine
 vrak-v-knihy2
- V: Dlouhı, ©irokı a Hlubokı.
+ V: DlouhÃ½, Å irokÃ½ a HlubokÃ½.
  V: Goldilocks and the Three Lobsters
 vrak-v-knihy3
- V: O rybce se zlatou mu¹lí na èele.
+ V: O rybce se zlatou muÅ¡lÃ­ na Äele.
  V: Sharkerella
 vrak-v-knihy4
- V: Sépijka a sedm trpaslíkù.
+ V: SÃ©pijka a sedm trpaslÃ­kÅ¯.
  V: Slimy Squid and the Seven Dwarfs
 vrak-m-pohadky
- M: Nikdy! Moje oblíbené pohádky!
+ M: Nikdy! Moje oblÃ­benÃ© pohÃ¡dky!
  M: Never! My lovely fairy-tales.
 
 vrak-v-nevejdu0
- V: Sem se neschovám.
+ V: Sem se neschovÃ¡m.
  V: I can`t hide myself here.
 vrak-v-nevejdu1
  V: Sem se nevejdu.
  V: I can`t fit in here.
 
 vrak-m-cteni0
- M: K èemu je nám tolik kní¾ek, kdy¾ stejnì nejdou vytáhnout z polièek?
+ M: K Äemu je nÃ¡m tolik knÃ­Å¾ek, kdyÅ¾ stejnÄ› nejdou vytÃ¡hnout z poliÄek?
  M: Why do we have so many books if we cannot pull them out anyway?
 vrak-m-cteni1
- M: Kdybys místo ètení o nesmyslech trochu sportoval, ve¹el by ses tam.
+ M: Kdybys mÃ­sto ÄtenÃ­ o nesmyslech trochu sportoval, veÅ¡el by ses tam.
  M: If you did some work-outs instead of reading about silly affairs you could fit yourself in.
 vrak-m-cteni2
- M: Øíkala jsem ti, a» nekupuje¹ ten Velkı slovník abnormálních vırazù.
+ M: Å˜Ã­kala jsem ti, aÅ¥ nekupujeÅ¡ ten VelkÃ½ slovnÃ­k abnormÃ¡lnÃ­ch vÃ½razÅ¯.
  M: I told you not to buy that Compleate Dictionary of Abnormal.
 
 vrak-v-policky
- V: Zamysleme se. Ty knihy nedostaneme z polièek.
+ V: Zamysleme se. Ty knihy nedostaneme z poliÄek.
  V: Let`s think. We can`t get these books off the shelf.
 vrak-m-predmety
- M: Jsou tu jen dva pøedmìty, se kterımi má smysl hıbat.
+ M: Jsou tu jen dva pÅ™edmÄ›ty, se kterÃ½mi mÃ¡ smysl hÃ½bat.
  M: There are only two objects here which we can move with any results.
 
 vrak-m-ostnatec
  M: Kde se tady vzal ten ostnatec?
  M: How did that prickler get here?
 vrak-m-zivocich
- M: ®ivoèichu, zavazí¹!
+ M: Å½ivoÄichu, zavazÃ­Å¡!
  M: You are in the way, strange life form!
 vrak-v-potvurka
- V: Zavazí¹, potvùrko!
+ V: ZavazÃ­Å¡, potvÅ¯rko!
  V: You are an obstacle, strange creature!
 
 vrak-v-snek
- V: Nemù¾e¹ toho ¹neka posunout sem ke mnì?
+ V: NemÅ¯Å¾eÅ¡ toho Å¡neka posunout sem ke mnÄ›?
  V: Can`t you push that snail to me?
 vrak-m-ocel
- M: Jak se tam mám asi dostat, pøes tu ocel?!
+ M: Jak se tam mÃ¡m asi dostat, pÅ™es tu ocel?!
  M: How am I to get there through that steel?!
 
 vrak-m-restart

@@ -1,182 +1,182 @@
 CE
 dr1-m-dlouho
- M: Tahle loï tu asi le¾í u¾ dlouho.
+ M: Tahle loÄ tu asi leÅ¾Ã­ uÅ¾ dlouho.
  M: This ship must sank long time ago.
 dr1-v-urcite
- V: Urèitì. Je to jeden z ranıch drakarù. Podle tvaru hlavy, poètu závitù a barvy vody soudím, ¾e patøil dìdeèkovi Erika Rudého.
+ V: UrÄitÄ›. Je to jeden z ranÃ½ch drakarÅ¯. Podle tvaru hlavy, poÄtu zÃ¡vitÅ¯ a barvy vody soudÃ­m, Å¾e patÅ™il dÄ›deÄkovi Erika RudÃ©ho.
  V: Definitely. It`s one of the earliest drakkars. Judging by the shape of the head, number of spirals and color of the water I think it belonged to the grandfather of Eric the Red.
 dr1-v-olaf
- V: Nebo tchánovi Olafa Udatného.
+ V: Nebo tchÃ¡novi Olafa UdatnÃ©ho.
  V: Or to the father-in-law of Olaf the Brave.
 dr1-v-leif
- V: Nebo mo¾ná prastrıci Leifa Smìlého.
+ V: Nebo moÅ¾nÃ¡ prastrÃ½ci Leifa SmÄ›lÃ©ho.
  V: Or maybe to the great-uncle of Leif the Skillful.
 dr1-v-harold
- V: Není vylouèeno, ¾e neteøi Harolda Velkého.
+ V: NenÃ­ vylouÄeno, Å¾e neteÅ™i Harolda VelkÃ©ho.
  V: It could also belong to the niece of Harold the Great.
 dr1-v-snorr
- V: Je mo¾né, ¾e i tetì Snorra Stateèného.
+ V: Je moÅ¾nÃ©, Å¾e i tetÄ› Snorra StateÄnÃ©ho.
  V: Or possibly to the aunt of Snorr the Courageous.
 dr1-v-thorson
- V: Nedá se vylouèit ani Thorson Tvrdı.
+ V: NedÃ¡ se vylouÄit ani Thorson TvrdÃ½.
  V: It is even possible it belonged to Thorson the Hard.
 
 dr1-x-erik
- l: V¾dycky jsem si myslel, ¾e jsem byl rybáøskı èlun Erika Nepøipraveného... Ale dnes jsem se koneènì dozvìdìl pravdu. Nu co¾, nikdy není pozdì zaèít novı ¾ivot!
+ l: VÅ¾dycky jsem si myslel, Å¾e jsem byl rybÃ¡Å™skÃ½ Älun Erika NepÅ™ipravenÃ©ho... Ale dnes jsem se koneÄnÄ› dozvÄ›dÄ›l pravdu. Nu coÅ¾, nikdy nenÃ­ pozdÄ› zaÄÃ­t novÃ½ Å¾ivot!
  l: I always thought I am the fishing boat of Eric the Unready... But today I learned the truth. Yes, it`s never too late to start a new life!
 
 dr-m-podivej
- M: Podívej, ten chudáèek pejsek. 
+ M: PodÃ­vej, ten chudÃ¡Äek pejsek. 
  M: Look at that poor dog.
 dr-m-nedycha
- M: Nedıchá nìjak nemocnì?
+ M: NedÃ½chÃ¡ nÄ›jak nemocnÄ›?
  M: Doesn't he seem to be breathing kind of strangely?
 
 dr-v-napsa
- V: Na psa pod vodou dıchá celkem slu¹nì.
+ V: Na psa pod vodou dÃ½chÃ¡ celkem sluÅ¡nÄ›.
  V: For a dog under water I think he's doing rather well.
 dr-v-nato
- V: Na to, ¾e tu musí bıt nìkolik století, je celkem èilı.
+ V: Na to, Å¾e tu musÃ­ bÃ½t nÄ›kolik stoletÃ­, je celkem ÄilÃ½.
  V: He doesn't look all that bad considering that he's been here for a few centuries.
 
 dr-8-ztichni1
  8: Ztichni!
  8: Shut up!
 dr-8-ztichni2
- 8: Buï u¾ zticha!
+ 8: BuÄ uÅ¾ zticha!
  8: Will you shut up already!
 dr-8-nenechas
- 8: Tak ty toho nenechá¹?!
+ 8: Tak ty toho nenechÃ¡Å¡?!
  8: So, you`re not going to shut up, are you?
 dr-8-aaa
- 8: Ááááá"
+ 8: ÃÃ¡Ã¡Ã¡Ã¡"
  8: Aaaaargh"
 
 $vol
  200
 dr-6-checheche
- 6: Chééééchechech" chéééchecheche" chechechechéééchéé"
+ 6: ChÃ©Ã©Ã©Ã©chechech" chÃ©Ã©Ã©checheche" chechechechÃ©Ã©Ã©chÃ©Ã©"
  6: He-he-he-he-he" Eh-eh-eh-eh"
 
 dr-5-srab1
- 5: U¾ je po v¹em?
+ 5: UÅ¾ je po vÅ¡em?
  5: Is it over?
 dr-5-srab2
- 5: Je tady bezpeèno?
+ 5: Je tady bezpeÄno?
  5: Are we safe now?
 dr-5-srab3
- 5: U¾ skonèil boj?
+ 5: UÅ¾ skonÄil boj?
  5: Is the fight over?
 dr-5-srab4
- 5: U¾ jsou nepøátelé pryè?
+ 5: UÅ¾ jsou nepÅ™Ã¡telÃ© pryÄ?
  5: Is the enemy finally gone?
 dr-5-srab5
- 5: Je¹tì se bojuje?
+ 5: JeÅ¡tÄ› se bojuje?
  5: Are we still fighting?
 
 dr-2-uzbudeme1
- 2: U¾ jsme ve Valhale, náèelníku?
+ 2: UÅ¾ jsme ve Valhale, nÃ¡ÄelnÃ­ku?
  2: Are we in Valhalla yet, chief?
 dr-2-uzbudeme2
- 2: U¾ budeme ve Valhale?
+ 2: UÅ¾ budeme ve Valhale?
  2: When are we going to get to Valhalla?
 dr-1-aztambudem
- 1: A¾ tam budem, tak ti øeknu.
+ 1: AÅ¾ tam budem, tak ti Å™eknu.
  1: I`ll let you know once we get there.
 
 dr-2-odskocit
- 2: Náèelníku, mù¾u si odskoèit?
+ 2: NÃ¡ÄelnÃ­ku, mÅ¯Å¾u si odskoÄit?
  2: Can I go relieve myself, sir?
 dr-1-pockej
- 1: Poèkej, a¾ budeme ve Valhale.
+ 1: PoÄkej, aÅ¾ budeme ve Valhale.
  1: Wait till we get to Valhalla.
 
 dr-2-netrva
- 2: Netrvá ta cesta do Valhaly u¾ nìjak dlouho?
+ 2: NetrvÃ¡ ta cesta do Valhaly uÅ¾ nÄ›jak dlouho?
  2: Isn`t this journey to Valhalla taking a bit too long?
 dr-1-trpelivost
- 1: Trpìlivost, to je odznak bojovníka.
+ 1: TrpÄ›livost, to je odznak bojovnÃ­ka.
  1: Patience is the sign of a true warrior.
 
 dr-2-urcite
- 2: Urèitì se takhle dostaneme do Valhaly?
+ 2: UrÄitÄ› se takhle dostaneme do Valhaly?
  2: Are you sure this is how to get to Valhalla?
 dr-1-bojovnik
- 1: Bojovník musí svému veliteli dùvìøovat!
+ 1: BojovnÃ­k musÃ­ svÃ©mu veliteli dÅ¯vÄ›Å™ovat!
  1: A warrior has to trust his commander!
 
 dr-1-achjo
- 1: Ach jo, velím lodi plné zbabìlcù.
+ 1: Ach jo, velÃ­m lodi plnÃ© zbabÄ›lcÅ¯.
  1: Ahhh, I`m in charge of a ship full of cowards.
 dr-1-procja
- 1: Proè zrovna já musím mít loï plnou chechtajících se kreténù.
+ 1: ProÄ zrovna jÃ¡ musÃ­m mÃ­t loÄ plnou chechtajÃ­cÃ­ch se kretÃ©nÅ¯.
  1: Why did I have to get a ship full of laughing buffoons?
 dr-1-chechtajici
- 1: Chechtající se kreténi, slintající pes. Já se snad utopím.
+ 1: ChechtajÃ­cÃ­ se kretÃ©ni, slintajÃ­cÃ­ pes. JÃ¡ se snad utopÃ­m.
  1: Laughing buffoons, a slobbering dog. I think I`ll go drown myself.
 
 dr-3-spravny
- 3: Správnı viking má mít vous.
+ 3: SprÃ¡vnÃ½ viking mÃ¡ mÃ­t vous.
  3: Real Vikings have beards.
 dr-4-copy
- 4: C-c-copy jsou teï v m-módì.
+ 4: C-c-copy jsou teÄ v m-mÃ³dÄ›.
  4: B-b-braids are in n-nowadays.
 dr-3-cojeto
- 3: Co je tohle za módu. Copy. To snad ne.
+ 3: Co je tohle za mÃ³du. Copy. To snad ne.
  3: What kind of fad is that? Braids? For crying out loud.
 dr-4-magazin
- 4: M-m-magazín Vikingská m-m-móda d-doporuèuje k tmavé helmì a m-modrému ¹títu právì svìtlı c-c-cop.
+ 4: M-m-magazÃ­n VikingskÃ¡ m-m-mÃ³da d-doporuÄuje k tmavÃ© helmÄ› a m-modrÃ©mu Å¡tÃ­tu prÃ¡vÄ› svÄ›tlÃ½ c-c-cop.
  4: V-v-viking Fashion M-m-monthly r-recommends a blonde braid to complement a d-d-dark helmet and b-blue shield.
 dr-3-stakovou
- 3: S takovou módou zásadnì nesouhlasím.
+ 3: S takovou mÃ³dou zÃ¡sadnÄ› nesouhlasÃ­m.
  3: I simply don`t agree with such a fad.
 dr-3-radeji
- 3: Radìji kdyby ses dr¾el vikingskıch tradic.
+ 3: RadÄ›ji kdyby ses drÅ¾el vikingskÃ½ch tradic.
  3: You should stick to the Viking traditions instead.
 dr-4-moderni
- 4: N-n-náhodou, jsem m-moderní!
+ 4: N-n-nÃ¡hodou, jsem m-modernÃ­!
  4: B-b-but I`m c-c-cool!
 
 dr-4-erik
- 4: U¾ v-v-velkı Erik mìl c-c-cop!
+ 4: UÅ¾ v-v-velkÃ½ Erik mÄ›l c-c-cop!
  4: Even Erik the G-g-great Eric had a b-b-braid!
 dr-3-nesmysl
- 3: Nesmysl. Mìl vousy.
+ 3: Nesmysl. MÄ›l vousy.
  3: Nonsense. He had a beard.
 dr-4-taky
- 4: Ale c-c-cop mìl t-t-taky.
+ 4: Ale c-c-cop mÄ›l t-t-taky.
  4: But h-he also h-had a b-b-braid.
 dr-3-nemel
- 3: Nemìl. A dost øeèí.
+ 3: NemÄ›l. A dost Å™eÄÃ­.
  3: He did not. And that`s final.
 
 dr-4-myslis
- 4: M-m-myslí¹, ¾e by mi v-v-vous slu¹el l-lépe?
+ 4: M-m-myslÃ­Å¡, Å¾e by mi v-v-vous sluÅ¡el l-lÃ©pe?
  4: D-d-do you think that a b-b-beard would suit me b-b-better?
 dr-3-samozrejme
- 3: Samozøejmì.
+ 3: SamozÅ™ejmÄ›.
  3: Definitely.
 dr-4-budu
- 4: B-b-budu o tom u-uva¾ovat.
+ 4: B-b-budu o tom u-uvaÅ¾ovat.
  4: I`ll th-th-think it o-over.
 dr-4-hmmm
  4: Hmmm" Ehmmm" Hahmmm"
  4: Hmmm" Ehmmm" Hahmmm"
 dr-4-ne
- 4: N-ne, c-c-copy jsou urèitì l-l-lep¹í.
+ 4: N-ne, c-c-copy jsou urÄitÄ› l-l-lepÅ¡Ã­.
  4: N-no, b-b-braids are d-definitely b-b-better.
 
 dr-3-mladez
- 3: Ta dne¹ní mláde¾ je pøí¹erná.
+ 3: Ta dneÅ¡nÃ­ mlÃ¡deÅ¾ je pÅ™Ã­Å¡ernÃ¡.
  3: Today`s youth - absolutely unbelievable.
 dr-3-chlap
- 3: Chlap a copy. Kdo to kdy sly¹el!?
+ 3: Chlap a copy. Kdo to kdy slyÅ¡el!?
  3: A warrior with braids. It`s unheard of.
 dr-3-mladi
- 3: Dnes si ti mladí dovolí snad cokoliv.
+ 3: Dnes si ti mladÃ­ dovolÃ­ snad cokoliv.
  3: You youngsters just think you can get away with anything today.
 dr-4-stejne
- 4: Stejnì mi to slu¹í"
+ 4: StejnÄ› mi to sluÅ¡Ã­"
  4: Well, I still look cool.
 
 $vol

@@ -1,73 +1,73 @@
 CE
 sm-m-prolezame
- M: U¾ ¹estou místnost prolézáme smeti¹tì.
+ M: UÅ¾ Å¡estou mÃ­stnost prolÃ©zÃ¡me smetiÅ¡tÄ›.
  M: We are crawling through wasteyard for six levels now.
 sm-v-jine0
- V: Tohle je obzvlá¹» vydaøené.
+ V: Tohle je obzvlÃ¡Å¡Å¥ vydaÅ™enÃ©.
  V: This one looks really very waste-like. 
 sm-v-jine1
- V: Ba ne, mám pocit, ¾e tohle je nìèím zvlá¹tní.
+ V: Ba ne, mÃ¡m pocit, Å¾e tohle je nÄ›ÄÃ­m zvlÃ¡Å¡tnÃ­.
  V: But no, I think that there is something strange about it.
 sm-v-jine2
- V: Ne, myslím, ¾e tu je nìco, co není nikde jinde.
+ V: Ne, myslÃ­m, Å¾e tu je nÄ›co, co nenÃ­ nikde jinde.
  V: No, I think there is something here, what cannot be found anywhere else.
 
 sm-v-budik
- V: Podívej se na ten budík. Nepøipomíná ti nìèím dudlík?
+ V: PodÃ­vej se na ten budÃ­k. NepÅ™ipomÃ­nÃ¡ ti nÄ›ÄÃ­m dudlÃ­k?
  V: Look at that clock. Doesn`t it resemble a child-comforter a little?
 sm-m-normalni
- M: Jsi normální?
+ M: Jsi normÃ¡lnÃ­?
  M: Do you feel all right?
 
 sm-m-kramy0
- M: Tady je ale krámù.
+ M: Tady je ale krÃ¡mÅ¯.
  M: This is a pile of garbage.
 sm-m-kramy1
- M: Tady muselo ztroskotat vete¹nictví.
+ M: Tady muselo ztroskotat veteÅ¡nictvÃ­.
  M: This must be a wreck of a flea shop.
 sm-v-kramy2
- V: Tady je to hor¹í ne¾ v ropné skvrnì.
+ V: Tady je to horÅ¡Ã­ neÅ¾ v ropnÃ© skvrnÄ›.
  V: It`s worse here than in an oil spill.
 sm-v-kramy3
  V: Tady je ale svinstva.
  V: There is so much filth here.
 
 sm-v-lod
- V: Vidí¹ tu loïku?
+ V: VidÃ­Å¡ tu loÄku?
  V: Can you see that boat?
 sm-m-dedek
- M: Tu s tím dìdkem?
+ M: Tu s tÃ­m dÄ›dkem?
  M: The one with that old man?
 sm-v-charon
- V: To je starı Cháron, pøevozník mrtvıch.
+ V: To je starÃ½ ChÃ¡ron, pÅ™evoznÃ­k mrtvÃ½ch.
  V: It`s old Charon, ferryman of the dead.
 sm-m-codela
- M: A co dìlá na smeti¹ti?
+ M: A co dÄ›lÃ¡ na smetiÅ¡ti?
  M: And what does he do on the wasteyard?
 sm-v-duchodce0
- V: Asi je z nìj dneska dùchodce.
+ V: Asi je z nÄ›j dneska dÅ¯chodce.
  V: He`s probably retired.
 sm-v-duchodce1
- V: Mrtvoly nevyná¹ely dost, tak se s mladım dali na odpadky.
+ V: Mrtvoly nevynÃ¡Å¡ely dost, tak se s mladÃ½m dali na odpadky.
  V: The corpses were no longer profitable and so they started a recycling business.
 
 sm-v-sbirka
- V: Vidí¹ tu sbírku neu¾iteèností, podivností a odpadkù... V¹echno to kdysi byly u¾iteèné vìci, které nìkdo pracnì vyrobil.
+ V: VidÃ­Å¡ tu sbÃ­rku neuÅ¾iteÄnostÃ­, podivnostÃ­ a odpadkÅ¯... VÅ¡echno to kdysi byly uÅ¾iteÄnÃ© vÄ›ci, kterÃ© nÄ›kdo pracnÄ› vyrobil.
  V: Can you see that collection of useless stuff, weird objects and refute... All of them were useful things, carefully and skillfully manufactured.
 sm-m-namaloval
  M: Nebo namaloval.
  M: Or painted.
 sm-v-marnost
- V: Je to v¹echno marnost, jako ta medúza.
+ V: Je to vÅ¡echno marnost, jako ta medÃºza.
  V: Everything is in vain, like that medusa over there.
 sm-m-proc
- M: Proè?
+ M: ProÄ?
  M: Why?
 sm-v-podivej
- V: Podívej se na ni. Bì¾í stále vpøed a zùstává na místì. Není to snad nejkrásnìj¹í pøíklad toho, o èem jsem mluvil?
+ V: PodÃ­vej se na ni. BÄ›Å¾Ã­ stÃ¡le vpÅ™ed a zÅ¯stÃ¡vÃ¡ na mÃ­stÄ›. NenÃ­ to snad nejkrÃ¡snÄ›jÅ¡Ã­ pÅ™Ã­klad toho, o Äem jsem mluvil?
  V: Just look at it. It keeps running forward but stays in one place. Isn`t it the most fitting example of what I was speaking about?
 sm-x-meduza
- m: Bìhám, abych zhubla, vy troubové!
+ m: BÄ›hÃ¡m, abych zhubla, vy troubovÃ©!
  m: I am jogging to lose weight, you fools!
 
 sm-x-tiktak

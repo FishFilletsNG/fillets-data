@@ -1,39 +1,39 @@
 CE
 pz-v-zaskladanej
- V: Jsem tady úplnì zaskládanej.
+ V: Jsem tady ÃºplnÄ› zasklÃ¡danej.
  V: I`m completely blocked in here.
 pz-m-co
- M: Co to tam nahoøe má¹?
+ M: Co to tam nahoÅ™e mÃ¡Å¡?
  M: What are you doing up there?
 pz-v-klice1
- V: To jsou asi nìjaké hardwarové klíèe.
+ V: To jsou asi nÄ›jakÃ© hardwarovÃ© klÃ­Äe.
  V: These must me some hardware keys.
 pz-v-klice2
- V: Je tu spousta hardwarovıch klíèù.
+ V: Je tu spousta hardwarovÃ½ch klÃ­ÄÅ¯.
  V: There are many hardware keys here.
 
 pz-v-co1
- V: Co to tam dole má¹, nevidím tam...
+ V: Co to tam dole mÃ¡Å¡, nevidÃ­m tam...
  V: What do you have down there?
 pz-v-co2
  V: Co je tam dole?
  V: What`s down there?
 pz-m-spoje1
- M: Je tu nìkolik plo¹nıch spojù.
+ M: Je tu nÄ›kolik ploÅ¡nÃ½ch spojÅ¯.
  M: There are some printed circuits here.
 pz-m-spoje2
- M: Jsou tu nìjaké integrované obvody.
+ M: Jsou tu nÄ›jakÃ© integrovanÃ© obvody.
  M: There are some integrated circuits here.
 pz-m-spoje3
  M: Jsem tu obklopena elektronikou...
  M: I am surrounded by electronics here.
 
 pz-m-pocitace
- M: Poèítaèe. V¾dycky jsem jimi byla fascinována. Teï jich u¾ ale mám plnı zuby.
+ M: PoÄÃ­taÄe. VÅ¾dycky jsem jimi byla fascinovÃ¡na. TeÄ jich uÅ¾ ale mÃ¡m plnÃ½ zuby.
  M: Computers. They`ve always fascinated me. But now I`m sick of them.
 
 pz-x-pocitac
- w: Ryby. V¾dycky jsem je nenávidìl. A teï jich tady mám plnı obvody.
+ w: Ryby. VÅ¾dycky jsem je nenÃ¡vidÄ›l. A teÄ jich tady mÃ¡m plnÃ½ obvody.
  w: Fish. I`ve always hated them. And now my circuits are overloaded with them.
 
 pz-v-hej
@@ -47,9 +47,9 @@ pz-m-vylez
  M: Vylez!
  M: Get out!
 pz-v-dat
- V: Musíme nìkam dát ty klíèe.
+ V: MusÃ­me nÄ›kam dÃ¡t ty klÃ­Äe.
  V: We have to put these keys somewhere.
 
 pz-m-nepasuje
- M: Nìjak to tam nepasuje.
+ M: NÄ›jak to tam nepasuje.
  M: It doesn`t seem to fit.

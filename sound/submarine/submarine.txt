@@ -1,52 +1,52 @@
 CE
 zr-x-nabito
- w: PRVNÍ NÁBOJOVÁ KOMORA NABITA"
+ w: PRVNÃ NÃBOJOVÃ KOMORA NABITA"
  w: FIRST TORPEDO BAY LOADED"
 zr-m-obliceje
- M: Nedìlej na sebe oblièeje a pomoz mi.
+ M: NedÄ›lej na sebe obliÄeje a pomoz mi.
  M: Stop making faces and come help me.
 zr-m-prestan
- M: Pøestaò se prohlí¾et v zrcadle a rad¹i nìco dìlej.
+ M: PÅ™estaÅˆ se prohlÃ­Å¾et v zrcadle a radÅ¡i nÄ›co dÄ›lej.
  M: Stop looking at yourself in the mirror and make yourself useful.
 zr-m-takfajn
- M: Tak fajn, on si odjede - a co já?
+ M: Tak fajn, on si odjede - a co jÃ¡?
  M: That`s great! He just goes on his merry little way, but what about me?
 zr-m-tojeon
- M: To je celej on. Nechat mì v bryndì"
+ M: To je celej on. Nechat mÄ› v bryndÄ›"
  M: As usual. He just leaves me behind.
 zr-m-pockej
- M: Poèkej, a co já? Já chci taky ven!
+ M: PoÄkej, a co jÃ¡? JÃ¡ chci taky ven!
  M: Wait! What about me? I want to get out of here, too!
 
 zr-v-hej
  V: Hej, jsi tam dole?
  V: Hey, is anybody down there?
 zr-v-halo
- V: Haló, sly¹í¹ mì tam uvnitø?
+ V: HalÃ³, slyÅ¡Ã­Å¡ mÄ› tam uvnitÅ™?
  V: Hello, can you hear me in there?
 zr-v-jetunekdo
- V: Je tu nìkdóóó?
+ V: Je tu nÄ›kdÃ³Ã³Ã³?
  V: Is anybody here?
 zr-m-nervi
- M: Neøvi a rad¹i mi nìjak pomoz ven.
+ M: NeÅ™vi a radÅ¡i mi nÄ›jak pomoz ven.
  M: Stop shouting and just get me out of here.
 zr-m-nepovykuj
- M: Nech toho povykování a dostaò mì odsud.
+ M: Nech toho povykovÃ¡nÃ­ a dostaÅˆ mÄ› odsud.
  M: Stop your screaming and help me get out of here.
 zr-m-tadyjsem
- M: Tady jsem. Nemù¾u se dostat ven.
+ M: Tady jsem. NemÅ¯Å¾u se dostat ven.
  M: Here I am. I can`t get out.
 
 zr-m-komu
- M: Komu mù¾ou patøit ty oèi?
+ M: Komu mÅ¯Å¾ou patÅ™it ty oÄi?
  M: Whose eyes are those?
 zr-v-nevim
- V: Nevím, snad ten periskop vede do jiné dimenze"
+ V: NevÃ­m, snad ten periskop vede do jinÃ© dimenze"
  V: I don`t know. Maybe the periscope is connected to some other dimension.
 zr-v-opatrne
- V: Opatrnì"
+ V: OpatrnÄ›"
  V: Careful"
 zr-v-vzdyt
- V: V¾dy» jsem ti to øíkal!
+ V: VÅ¾dyÅ¥ jsem ti to Å™Ã­kal!
  V: Don`t say I didn`t warn you!
 

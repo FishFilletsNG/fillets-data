@@ -1,79 +1,79 @@
 CE
 pap-v-ha
- V: Ha. Dal¹í zdroj energie.
+ V: Ha. DalÅ¡Ã­ zdroj energie.
  V: Look. Another energy source.
 pap-m-magnet
- M: Dej pokoj, ten magnet je tady jen proto, aby nám pøeká¾el.
+ M: Dej pokoj, ten magnet je tady jen proto, aby nÃ¡m pÅ™ekÃ¡Å¾el.
  M: Don`t worry. This magnet is here only to hinder us.
 pap-v-potrebovat
- V: Já myslím, ¾e ho je¹tì budeme potøebovat.
+ V: JÃ¡ myslÃ­m, Å¾e ho jeÅ¡tÄ› budeme potÅ™ebovat.
  V: I think we are going to need it.
 
 pap-m-zvlastni
- M: To je ale zvlá¹tní pøedmìt.
+ M: To je ale zvlÃ¡Å¡tnÃ­ pÅ™edmÄ›t.
  M: This is a very strange object.
 pap-v-prekvapeni
- V: Myslím, ¾e v Ufu bude spousta takovıch pøekvapení.
+ V: MyslÃ­m, Å¾e v Ufu bude spousta takovÃ½ch pÅ™ekvapenÃ­.
  V: I think that UFO is going to be full of such surprises.
 pap-m-teorie
- M: Nerozvíjej svoje teorie a radìji to nìjak vyøe¹me.
+ M: NerozvÃ­jej svoje teorie a radÄ›ji to nÄ›jak vyÅ™eÅ¡me.
  M: Stop developing your theories and start solving.
 
 pap-m-radio
- M: Tohle vypadá jako rádio.
+ M: Tohle vypadÃ¡ jako rÃ¡dio.
  M: This looks like a radio.
 pap-v-radio
- V: Kde by se tady vzalo rádio?
+ V: Kde by se tady vzalo rÃ¡dio?
  V: How could a radio get here?
 pap-m-nechme
  M: Nechme toho.
  M: Let it be.
 pap-v-divny
- V: To je ale divnı rádio.
+ V: To je ale divnÃ½ rÃ¡dio.
  V: This is a strange radio.
 
 pap-m-coje
  M: Co je to tady?
  M: What have we here?
 pap-m-pistole
- M: Pøipomíná to pistoli.
+ M: PÅ™ipomÃ­nÃ¡ to pistoli.
  M: It looks like a pistol to me.
 pap-v-laserova
- V: Tøeba je to laserová zbraò.
+ V: TÅ™eba je to laserovÃ¡ zbraÅˆ.
  V: Maybe it`s a laser weapon.
 pap-m-jejedno
- M: To je jedno, tu snad nepotøebujeme.
+ M: To je jedno, tu snad nepotÅ™ebujeme.
  M: It doesn`t matter. We don`t need it.
 pap-v-nemir
- V: Hlavnì s ní nemiø na mì!
+ V: HlavnÄ› s nÃ­ nemiÅ™ na mÄ›!
  V: Stop pointing at me with it!
 pap-m-nejde
- M: Jako bys nevìdìl, ¾e v této høe nejde pøedmìty otáèet!
+ M: Jako bys nevÄ›dÄ›l, Å¾e v tÃ©to hÅ™e nejde pÅ™edmÄ›ty otÃ¡Äet!
  M: As if you don`t know that you can`t turn objects in this game.
 
 pap-m-ocel
- M: Je tu nìjak moc tìch ocelovıch konstrukcí.
+ M: Je tu nÄ›jak moc tÄ›ch ocelovÃ½ch konstrukcÃ­.
  M: There are too many steel constructions here.
 pap-v-vufu
- V: Nezapomínej, ¾e jsme uvnitø létajícího talíøe!
+ V: NezapomÃ­nej, Å¾e jsme uvnitÅ™ lÃ©tajÃ­cÃ­ho talÃ­Å™e!
  V: Don`t forget that we are inside of the flying saucer!
 pap-m-naucit
- M: Mo¾ná bych se mohla nauèit manipulovat s tìmi ocelovımi válci.
+ M: MoÅ¾nÃ¡ bych se mohla nauÄit manipulovat s tÄ›mi ocelovÃ½mi vÃ¡lci.
  M: Maybe I could learn how to manipulate these steel tubes.
 pap-m-nepohnu
- M: Ne, s tím nepohnu.
+ M: Ne, s tÃ­m nepohnu.
  M: No, I can`t move it.
 
 pap-v-tesno
- V: Je  tu nìjak tìsno.
+ V: Je  tu nÄ›jak tÄ›sno.
  V: It`s quite tight here.
 pap-m-mraz
- M: Bìhá mi z tìch magnetù mráz po zádech.
+ M: BÄ›hÃ¡ mi z tÄ›ch magnetÅ¯ mrÃ¡z po zÃ¡dech.
  M: These magnets are giving me the creeps.
 
 pap-v-pole
- V: To magnetické pole má asi povzbuzující úèinky.
+ V: To magnetickÃ© pole mÃ¡ asi povzbuzujÃ­cÃ­ ÃºÄinky.
  V: This magnetic field probably has some invigorating effects.
 pap-m-nedobre
- M: Mnì to teda moc dobøe nedìlá.
+ M: MnÄ› to teda moc dobÅ™e nedÄ›lÃ¡.
  M: It`s doing me no good.

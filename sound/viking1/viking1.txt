@@ -28,26 +28,26 @@ x
 $vol
  100
 dr-m-tojesnad
- M: To je snad vikingská loï!
+ M: To je snad vikingskÃ¡ loÄ!
  M: This must be a Viking ship!
 dr-v-jiste
- V: Jistì, je to drakkar.
+ V: JistÄ›, je to drakkar.
  V: Sure, it`s a drakkar.
 dr-m-musela
- M: Musela se potopit hroznì rychle. Veslaøi je¹tì sedí na svıch místech.
+ M: Musela se potopit hroznÄ› rychle. VeslaÅ™i jeÅ¡tÄ› sedÃ­ na svÃ½ch mÃ­stech.
  M: She must have sunk fast. The oarsmen are still in their places.
 dr-v-mozna
- V: Mo¾ná, ¾e ji potopili schválnì. Bojovníci doprovázejí svého velitele do Valhaly"
+ V: MoÅ¾nÃ¡, Å¾e ji potopili schvÃ¡lnÄ›. BojovnÃ­ci doprovÃ¡zejÃ­ svÃ©ho velitele do Valhaly"
  V: Maybe they sank her on purpose. Warriors would always accompany their leader on his way to Valhalla.
 dr-m-hruza
- M: Hrùza" sedí tu jako ¾iví"
+ M: HrÅ¯za" sedÃ­ tu jako Å¾ivÃ­"
  M: That's awful. They look like they're still alive.
 
 d1-1-hudba0
  1: Hudba je v tahu!
  1: Music is gone!
 d1-1-hudba1
- 1: Pøestali hrát!
+ 1: PÅ™estali hrÃ¡t!
  1: They stopped playing!
 d1-1-hudba2
  1: Zase vypadla hudba!
@@ -57,40 +57,40 @@ d1-2-brb0
  2: To snad ne!
  2: Oh, no!
 d1-2-brb1
- 2: U¾ zase?
+ 2: UÅ¾ zase?
  2: Again?
 d1-2-brb2
- 2: U¾ se to stalo zase?
+ 2: UÅ¾ se to stalo zase?
  2: Oh, not again!
  
 d1-3-brb0
- 3: Co se dìje?
+ 3: Co se dÄ›je?
  3: What happened?
 d1-3-brb1
- 3: U¾ zase?
+ 3: UÅ¾ zase?
  3: Again?
 d1-3-brb2
  3: To snad ne!
  3: Oh, no!
 
 d1-4-brb0
- 4: To snad není mo¾nı!
+ 4: To snad nenÃ­ moÅ¾nÃ½!
  4: The bloody music stopped!
 d1-4-brb1
- 4: Co tam nahoøe dìlají?
+ 4: Co tam nahoÅ™e dÄ›lajÃ­?
  4: What are they doing up there?
 d1-4-brb2
- 4: Jak je tohle mo¾nı?
+ 4: Jak je tohle moÅ¾nÃ½?
  4: How could it be?
 
 $vol
  200
 d1-5-nevadi0
- 5: Nevadí, chapci. Olaf sólo!
+ 5: NevadÃ­, chapci. Olaf sÃ³lo!
  5: Take it easy, boys. Solo for Olaf!
 d1-5-nevadi1
- 5: Nevadí, chapci. Zazpíváme si sami!
+ 5: NevadÃ­, chapci. ZazpÃ­vÃ¡me si sami!
  5: Never mind that, boys. We can sing ourself!
 d1-5-nevadi2
- 5: To nevadí. Zazpíváme si sami, jako za mlada!
+ 5: To nevadÃ­. ZazpÃ­vÃ¡me si sami, jako za mlada!
  5: Never mind, boys. We can sing ourself, like in the old times!

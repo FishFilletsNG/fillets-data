@@ -3,27 +3,27 @@ pyr-m-kam
  M: Kam jsme se to dostali?
  M: Where are we now?
 pyr-v-vsim
- V: Pyramidy... Pov¹imni si, jak se v tomto mìstì mísí antické motivy.
+ V: Pyramidy... PovÅ¡imni si, jak se v tomto mÄ›stÄ› mÃ­sÃ­ antickÃ© motivy.
  V: The Pyramids... Notice how the classical motifs mix in this city.
 
 pyr-m-plaz
- M: Co se to tam plazí?
+ M: Co se to tam plazÃ­?
  M: What is that crawling around over there?
 pyr-v-druha
- V: To pøece nevidí¹. V¾dy» je to na druhé stranì zdi.
+ V: To pÅ™ece nevidÃ­Å¡. VÅ¾dyÅ¥ je to na druhÃ© stranÄ› zdi.
  V: You can`t see it from here? It`s on the other side of wall.
 
 pyr-v-sark
- V: Tak tobì se zdá, ¾e to trvá dlouho?
+ V: Tak tobÄ› se zdÃ¡, Å¾e to trvÃ¡ dlouho?
  V: Do you think that this is taking us too long?
 pyr-m-zkus
- M: Zkus si to sama, kdy¾ jsi tak chytrá.
+ M: Zkus si to sama, kdyÅ¾ jsi tak chytrÃ¡.
  M: Try it yourself, if you`re so clever.
 pyr-m-comy
- M: A co máme øíkat my?
+ M: A co mÃ¡me Å™Ã­kat my?
  M: What should we say?
 pyr-m-nic
- M: Ty tu nic nosit nemusí¹.
+ M: Ty tu nic nosit nemusÃ­Å¡.
  M: You don`t have to carry anything.
 
 pyr-v-sfing
@@ -31,8 +31,8 @@ pyr-v-sfing
  V: Don`t be afraid.
 
 pyr-m-dest
- M: Co je asi napsáno na tìch destièkách?
+ M: Co je asi napsÃ¡no na tÄ›ch destiÄkÃ¡ch?
  M: What is it written on these tablets?
 pyr-v-sbohem
- V: Sbohem a dík za v¹echny ty ryby.
+ V: Sbohem a dÃ­k za vÅ¡echny ty ryby.
  V: So long and thanks for all the fish.

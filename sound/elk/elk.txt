@@ -1,32 +1,32 @@
 CE
 deu-m-valka
- M: Válka pokraèuje i v hlubinách.
+ M: VÃ¡lka pokraÄuje i v hlubinÃ¡ch.
  M: The war goes on even here, on the ocean floor.
 deu-v-nepratelstvi
- V: Nepøátelství nikdy neutichne.
+ V: NepÅ™Ã¡telstvÃ­ nikdy neutichne.
  V: The hostility will never ebb.
 deu-m-bojovat
- M: Budou bojovat a¾ do posledního... papou¹ka.
+ M: Budou bojovat aÅ¾ do poslednÃ­ho... papouÅ¡ka.
  M: They will fight to the last... parrot.
 deu-v-losa
  V: A losa.
  V: And elk.
 
 deu-m-zvlastni
- M: To je zvlá¹tní. Myslela jsem, ¾e losové ¾ijí jen ve ©védsku.
+ M: To je zvlÃ¡Å¡tnÃ­. Myslela jsem, Å¾e losovÃ© Å¾ijÃ­ jen ve Å vÃ©dsku.
  M: Now, this is strange. I thought that elks only live in Sweden.
 deu-v-slysel
- V: Taky jsem sly¹el, ¾e tam hry¾ou turisty.
+ V: Taky jsem slyÅ¡el, Å¾e tam hryÅ¾ou turisty.
  V: Yes. I too have heard that they bite tourists there.
 deu-l-los
  L: Ja ruskij los.
  L: Ya rusky los.
 
 deu-v-radsi
- V: Toho losa bych mìl mnohem rad¹i, kdyby tu tolik nepøeká¾el.
+ V: Toho losa bych mÄ›l mnohem radÅ¡i, kdyby tu tolik nepÅ™ekÃ¡Å¾el.
  V: I`d like this elk much more if it wasn`t blocking our way so much.
 deu-l-pozalsta
- L: Po¾alsta, izvinitì.
+ L: PoÅ¾alsta, izvinitÄ›.
  L: Pozhalsta, izvinitye.
 deu-p-schnell
  P: Schnell, schnell.
@@ -39,7 +39,7 @@ deu-l-los0
  L: Ja los!
  L: Ja los!
 deu-l-los1
- L: Èto sluèilos?
+ L: ÄŒto sluÄilos?
  L: Chto sluchilos?
 
 deu-p-jawohl
@@ -69,17 +69,17 @@ deu-l-ja
  L: Ja los...
  L: Ya los...
 deu-l-neznaju
- L: Ja nièevo neznaju.
+ L: Ja niÄevo neznaju.
  L: Ya nichevo nyeznayu.
 deu-l-nesmotrel
- L: Ja nièevo nesmotrel.
+ L: Ja niÄevo nesmotrel.
  L: Ya nichevo nyesmotrel.
 deu-l-zivjot
- L: Pus» ¾ivjot moguèij Sovìtskij Sojuz!
+ L: PusÅ¥ Å¾ivjot moguÄij SovÄ›tskij Sojuz!
  L: Pustye zhivyot moguchy Sovietsky Soyuz!
 deu-l-necital
- L: Ja nièevo neèital.
+ L: Ja niÄevo neÄital.
  L: Ja nichego nechital.
 deu-l-tovarisci
- L: Tovari¹èi, bra»ja i sestri, dorogije druzja...
+ L: TovariÅ¡Äi, braÅ¥ja i sestri, dorogije druzja...
  L: Tovarishchi, bratya i sestri, dorogiye druzya...

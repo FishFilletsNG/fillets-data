@@ -1,39 +1,39 @@
 CE
 z-v-doma
- V: Jsem rád, ¾e jsme zase doma.
+ V: Jsem rÃ¡d, Å¾e jsme zase doma.
  V: I am glad to be home again.
 z-m-pocit
- M: Mám takovı pìknı pocit dobøe odvedené práce.
+ M: MÃ¡m takovÃ½ pÄ›knÃ½ pocit dobÅ™e odvedenÃ© prÃ¡ce.
  M: I have such a good feeling of the work well done.
 z-v-sef
- V: Pøed chvílí volal ¹éf. Byl s námi moc spokojen.
+ V: PÅ™ed chvÃ­lÃ­ volal Å¡Ã©f. Byl s nÃ¡mi moc spokojen.
  V: The boss called a moment ago. He was very satisfied with our performance.
 z-m-nemluv
- M: O ¹éfovi mi ani nemluv. On si sedí nìkde v teplouèku, zatím co my jsme se døely.
+ M: O Å¡Ã©fovi mi ani nemluv. On si sedÃ­ nÄ›kde v teplouÄku, zatÃ­m co my jsme se dÅ™ely.
  M: Don`t mention the boss to me. He sits somewhere in his cozy office and we have to do all the dirty work.
 z-v-slyset
- V: Pssst, mù¾e nás sly¹et.
+ V: Pssst, mÅ¯Å¾e nÃ¡s slyÅ¡et.
  V: Shhh, he could hear us.
 z-m-netusi
- M: Jak by nás mohl sly¹et. Urèitì ani netu¹í, jak dlouho nám to trvalo.
+ M: Jak by nÃ¡s mohl slyÅ¡et. UrÄitÄ› ani netuÅ¡Ã­, jak dlouho nÃ¡m to trvalo.
  M: How could he? He surely doesn`t even know how long it took us.
 
 z-m-dlouho
- M: Jé, tak dlouho mi to ani nepøipadlo.
+ M: JÃ©, tak dlouho mi to ani nepÅ™ipadlo.
  M: Really? It didn`t seem that long to me.
 
 z-v-pozdrav
- V: Hráèi, máme ti vyøídit pozdrav a uznání od autorù hry. Jestli jsi to neøe¹il nìjakım podvodem, tak jsi opravdu dobrej. Nebo dokonce dobrá? My tì tady odsud moc nevidíme.
+ V: HrÃ¡Äi, mÃ¡me ti vyÅ™Ã­dit pozdrav a uznÃ¡nÃ­ od autorÅ¯ hry. Jestli jsi to neÅ™eÅ¡il nÄ›jakÃ½m podvodem, tak jsi opravdu dobrej. Nebo dokonce dobrÃ¡? My tÄ› tady odsud moc nevidÃ­me.
  V: Dear player. We would like to communicate to you the high regards of the authors of this game. If you didn`t solve it by some cheat, you are really very, very good. It`s a pity we cannot see you from here, but...
 z-m-oblicej
- M: Mohl bys dát oblièej pøed kontrolku harddisku? Mo¾ná to neví¹, ale to je takové oko poèítaèe, kterım tì...
+ M: Mohl bys dÃ¡t obliÄej pÅ™ed kontrolku harddisku? MoÅ¾nÃ¡ to nevÃ­Å¡, ale to je takovÃ© oko poÄÃ­taÄe, kterÃ½m tÄ›...
  M: Could you please put your face in front of the hard disk LED? You might not know it but it is a kind of computer`s eye through which...
 z-v-forky
- V: Nech u¾ tìch fórkù. Teï je slavnostní chvíle. Tak¾e:
+ V: Nech uÅ¾ tÄ›ch fÃ³rkÅ¯. TeÄ je slavnostnÃ­ chvÃ­le. TakÅ¾e:
  V: Stop this jokes of yours. This is a very special moment. So:
 
 z-o-blahoprejeme
- 0: BLAHOPØEJEME!!!
+ 0: BLAHOPÅ˜EJEME!!!
  0: CONGRATULATIONS!!!
 
 z-c-1
@@ -129,14 +129,14 @@ x
 z-c-set
 x
 x
-z-c-tisíc
+z-c-tisÃ­c
 x
 x
-z-c-tisíce
+z-c-tisÃ­ce
 x
 x
 z-c-hodin
- w: Konkrétnì @ hodin!
+ w: KonkrÃ©tnÄ› @ hodin!
  w: To be specific, it took you @ hours!
 z-c-konkretne
 x

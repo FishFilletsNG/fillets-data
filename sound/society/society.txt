@@ -1,19 +1,19 @@
 CE
 mik-v-sakra
- V: Sakry¹, ten ¹nek tam hroznì zavazí.
+ V: SakryÅ¡, ten Å¡nek tam hroznÄ› zavazÃ­.
  V: Dang, that snail is blocking the way.
 mik-v-projet
- V: Teï neprojedu.
+ V: TeÄ neprojedu.
  V: I can`t swim through.
 
 mik-m-krab
- M: Ti krabi jsou nìjak ukecaní.
+ M: Ti krabi jsou nÄ›jak ukecanÃ­.
  M: Those crabs are too talkative.
 mik-m-poust
- M: Vùbec nevypadají na poustevníèky.
+ M: VÅ¯bec nevypadajÃ­ na poustevnÃ­Äky.
  M: They don`t look like hermits.
 mik-m-tusit
- M: Netu¹ila jsem, ¾e krabi poustevníèci mohou bıt takhle ukecaní.
+ M: NetuÅ¡ila jsem, Å¾e krabi poustevnÃ­Äci mohou bÃ½t takhle ukecanÃ­.
  M: I had no idea that hermit crabs could be so talkative.
 
 mik-v-ticho0
@@ -33,21 +33,21 @@ mik-v-tak
  V: Yes.
 
 mik-m-nezlob
- M: U¾ se na nì nezlob.
+ M: UÅ¾ se na nÄ› nezlob.
  M: Don`t be mad at them.
 mik-m-myslit
- M: Teï se v klidu zamyslíme, jak ven.
+ M: TeÄ se v klidu zamyslÃ­me, jak ven.
  M: Now we can calmly ponder how to get out of here.
 
 mik-m-proc
- M: Bílá rybo, proè má¹ tak veliké oèi?
+ M: BÃ­lÃ¡ rybo, proÄ mÃ¡Å¡ tak velikÃ© oÄi?
  M: White fish, why do you have such big eyes?
 mik-v-videt
- V: To aby tì lépe vidìla.
+ V: To aby tÄ› lÃ©pe vidÄ›la.
  V: The better to see you with.
 
 mik-m-konik
- M: Tohohle koníka jsem u¾ nìkde vidìla.
+ M: Tohohle konÃ­ka jsem uÅ¾ nÄ›kde vidÄ›la.
  M: I`ve seen this seahorse somewhere before.
 
 $vol

@@ -3,76 +3,76 @@ dir-m-rada0
  M: Nech si ty rady.
  M: Stuff yourself with your advice.
 dir-m-rada1
- M: To víme i bez tebe.
+ M: To vÃ­me i bez tebe.
  M: We know that very well.
 dir-m-rada2
- M: Bì¾ se vycpat.
+ M: BÄ›Å¾ se vycpat.
  M: Get lost.
 dir-m-rada3
- M: Pomalu mi dochází trpìlivost.
+ M: Pomalu mi dochÃ¡zÃ­ trpÄ›livost.
  M: My patience is running out.
 dir-m-rada4
- M: Grrr... asi ji brzy nìèím majznu.
+ M: Grrr... asi ji brzy nÄ›ÄÃ­m majznu.
  M: Arrgh... I`ll smash it to pieces.
 
 dir-v-rada0
- V: Nev¹ímej si jí, a» si tlachá.
+ V: NevÅ¡Ã­mej si jÃ­, aÅ¥ si tlachÃ¡.
  V: Ignore it, let it talk.
 dir-v-rada1
- V: Nech nás v klidu pøemı¹let.
+ V: Nech nÃ¡s v klidu pÅ™emÃ½Å¡let.
  V: Let us think.
 dir-v-rada2
- V: To jsi nám zase poradila.
+ V: To jsi nÃ¡m zase poradila.
  V: This was some advice, again.
 dir-v-rada3
- V: Ach jo, ¹koda ¾e nemám u¹i. Zacpal bych si je.
+ V: Ach jo, Å¡koda Å¾e nemÃ¡m uÅ¡i. Zacpal bych si je.
  V: I am sorry I have no ears. I could plug them.
 dir-v-rada4
- V: U¾ tìch jejích nesmyslù mám po krk.
+ V: UÅ¾ tÄ›ch jejÃ­ch nesmyslÅ¯ mÃ¡m po krk.
  V: I am fed up to my gills with its nonsenses.
 
 dir-hs-uvod0
- S: Nejjednodu¹¹í by bylo
+ S: NejjednoduÅ¡Å¡Ã­ by bylo
  S: It would be easiest if you
 dir-hs-uvod1
- S: Urèitì by pomohlo
+ S: UrÄitÄ› by pomohlo
  S: You would be better off if you
 dir-hs-uvod2
- S: Mo¾ná by nebylo ¹patné
+ S: MoÅ¾nÃ¡ by nebylo Å¡patnÃ©
  S: It would help you if you
 dir-hs-uvod3
- S: Mám takovı nápad. Co zkusit
+ S: MÃ¡m takovÃ½ nÃ¡pad. Co zkusit
  S: I have an idea. What if you
 dir-hs-uvod4
- S: Promiòte, ¾e vám do toho mluvím, ale co takhle
+ S: PromiÅˆte, Å¾e vÃ¡m do toho mluvÃ­m, ale co takhle
  S: Sorry to interrupt, but what if you
 
 dir-hs-konec0
- S: vybourat nìjakou tu zeï.
+ S: vybourat nÄ›jakou tu zeÄ.
  S: demolish some wall.
 dir-hs-konec1
- S: vylomit pár kamenù ze zdi a ucpat ty díry.
+ S: vylomit pÃ¡r kamenÅ¯ ze zdi a ucpat ty dÃ­ry.
  S: break off few stones from the wall and plug the holes with them.
 dir-hs-konec2
- S: nìèím ucpat ty díry, aby vám tam nezapadla ta zahnutá ocel.
+ S: nÄ›ÄÃ­m ucpat ty dÃ­ry, aby vÃ¡m tam nezapadla ta zahnutÃ¡ ocel.
  S: plug those holes with something so that that hooked steel wouldn`t get stuck there.
 dir-hs-konec3
- S: rozbít ten sloupek u vıchodu.
+ S: rozbÃ­t ten sloupek u vÃ½chodu.
  S: smash that pillar by the exit.
 dir-hs-konec4
- S: uøíznout kus té zahnuté oceli.
+ S: uÅ™Ã­znout kus tÃ© zahnutÃ© oceli.
  S: saw off some of that hooked steel.
 dir-hs-konec5
- S: nìjak ty pøedmìty pøeskládat, abyste mohly odjet z místnosti.
+ S: nÄ›jak ty pÅ™edmÄ›ty pÅ™esklÃ¡dat, abyste mohly odjet z mÃ­stnosti.
  S: rearrange the objects so that you can swim out.
 dir-hs-konec6
- S: celé to nìjak vyøe¹it a pustit se do dal¹ích místností.
+ S: celÃ© to nÄ›jak vyÅ™eÅ¡it a pustit se do dalÅ¡Ã­ch mÃ­stnostÃ­.
  S: solve it somehow and get to the next level.
 dir-hs-konec7
- S: opravdu poøádnì se nad tím zamyslet.
+ S: opravdu poÅ™Ã¡dnÄ› se nad tÃ­m zamyslet.
  S: start to think about it really hard.
 dir-hs-konec8
- S: nìjak zkusit odjet tou dírou nalevo.
+ S: nÄ›jak zkusit odjet tou dÃ­rou nalevo.
  S: swim out through that hole on the left.
 
 k1-chob-1

@@ -1,43 +1,43 @@
 CE
 vl-m-hara
- M: To je ale haraburdí!
+ M: To je ale haraburdÃ­!
  M: There is a lot of garbage here!
 vl-v-kaj1
- V: To byla urèitì kapitánova kajuta.
+ V: To byla urÄitÄ› kapitÃ¡nova kajuta.
  V: This was surely a captain`s cabin.
 vl-v-kaj2
- V: Co bys chtìla po tolika letech.
+ V: Co bys chtÄ›la po tolika letech.
  V: What would you expect after so many years.
 
 vl-m-hak
- M: Myslí¹, ¾e ten hák mìl Silver místo ruky? Jak by se do té kajuty ve¹el?
+ M: MyslÃ­Å¡, Å¾e ten hÃ¡k mÄ›l Silver mÃ­sto ruky? Jak by se do tÃ© kajuty veÅ¡el?
  M: Do you think that Silver had this hook in place of his hand?
 vl-v-lodni
- V: To je lodní hák. S ním se vytahují èluny...
+ V: To je lodnÃ­ hÃ¡k. S nÃ­m se vytahujÃ­ Äluny...
  V: This is a ship hook. It`s used to pull up boats...
 vl-x-site
- b: ... a sítì!
+ b: ... a sÃ­tÄ›!
  b: ... and nets!
 
 vl-m-oko
- M: S tím okem to nevidím dobøe.
+ M: S tÃ­m okem to nevidÃ­m dobÅ™e.
  M: It`s a strange looking eye.
 vl-v-silha
- V: To oko potmì¹ile ¹ilhá.
+ V: To oko potmÄ›Å¡ile Å¡ilhÃ¡.
  V: This eye squints kind of sneaky.
 
 vl-leb-kecy0
- l: Nevidìli jste nìkde moje oko?
+ l: NevidÄ›li jste nÄ›kde moje oko?
  l: Haven`t you seen my eye somewhere?
 vl-leb-kecy1
- l: Tenhle ¹átek je velice dùle¾itı. Víte, ona lidská lebka s prázdnım oèním dùlkem vypadá opravdu odpudivì.
+ l: Tenhle Å¡Ã¡tek je velice dÅ¯leÅ¾itÃ½. VÃ­te, ona lidskÃ¡ lebka s prÃ¡zdnÃ½m oÄnÃ­m dÅ¯lkem vypadÃ¡ opravdu odpudivÄ›.
  l: This scarf is very important. The human skull with an empty eye socket looks really disgusting, you know.
 vl-leb-kecy2
- l: Po té ne¹»astné nehodì s èajovou l¾ièkou se na svìt dívám úplnì jinak.
+ l: Po tÃ© neÅ¡Å¥astnÃ© nehodÄ› s Äajovou lÅ¾iÄkou se na svÄ›t dÃ­vÃ¡m ÃºplnÄ› jinak.
  l: After that unfortunate accident with a teaspoon I have a completely different viewpoint of the world.
 vl-leb-kecy3
- l: Proè já tady vlastnì musím bıt. Jako by sem místo mì nemohli vrznout tøeba truhlu... nebo kastról.
+ l: ProÄ jÃ¡ tady vlastnÄ› musÃ­m bÃ½t. Jako by sem mÃ­sto mÄ› nemohli vrznout tÅ™eba truhlu... nebo kastrÃ³l.
  l: Why am I here, after all? As if they can`t put here some chest... or chamber pot.
 vl-leb-kecy4
- l: V¹ímáte si práce mıch mimickıch svalù? Dost dobrı, na kostru, ne?
+ l: VÅ¡Ã­mÃ¡te si prÃ¡ce mÃ½ch mimickÃ½ch svalÅ¯? Dost dobrÃ½, na kostru, ne?
  l: Do you appreciate my facial expressions? Not bad for a skeleton, is it?

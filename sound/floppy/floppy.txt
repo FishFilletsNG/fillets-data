@@ -1,95 +1,95 @@
 CE
 disk-v-tady
- V: Zdá se, ¾e jsme koneènì tady.
+ V: ZdÃ¡ se, Å¾e jsme koneÄnÄ› tady.
  V: It looks as if we finally got there.
 disk-m-tady
- M: Myslí¹ si, ¾e je to tady?
+ M: MyslÃ­Å¡ si, Å¾e je to tady?
  M: Do you think this is it?
 disk-m-vejit
- M: Jak by se to mohlo vejít na jednu tøi a pùl palcovou disketu?
+ M: Jak by se to mohlo vejÃ­t na jednu tÅ™i a pÅ¯l palcovou disketu?
  M: How could it all fit on one three and half inch floppy?
 disk-v-metrova
- V: Podívej, o kolik je to vìt¹í ne¾ já. To je spí¹ tøiceti pìti metrová disketa.
+ V: PodÃ­vej, o kolik je to vÄ›tÅ¡Ã­ neÅ¾ jÃ¡. To je spÃ­Å¡ tÅ™iceti pÄ›ti metrovÃ¡ disketa.
  V: Look how much bigger than me it is. It is more than thirty and half feet floppy.
 disk-m-velka
- M: Tak to je lep¹í. Velkı plán, velká disketa. To dává smysl.
+ M: Tak to je lepÅ¡Ã­. VelkÃ½ plÃ¡n, velkÃ¡ disketa. To dÃ¡vÃ¡ smysl.
  M: That`s better. Big plan, big disk. This makes sense.
 
 disk-m-zvednem
- M: Jak myslí¹, ¾e ji zvednem?
+ M: Jak myslÃ­Å¡, Å¾e ji zvednem?
  M: Do you think we can lift it up?
 disk-v-tezko
- V: Tì¾ko.
+ V: TÄ›Å¾ko.
  V: It will be difficult.
 disk-v-nejde
- V: Podle mì to vùbec nejde. Proè by ji sem jinak schovávali?
+ V: Podle mÄ› to vÅ¯bec nejde. ProÄ by ji sem jinak schovÃ¡vali?
  V: I think it can`t be done. Why should be they hiding it here, if we could lift it?
 
 disk-v-ulamu
- V: Buï zticha, nebo ti ulámu no¾ièky!
+ V: BuÄ zticha, nebo ti ulÃ¡mu noÅ¾iÄky!
  V: Shut up, or I will break off your pins!
 
 disk-v-kriz
- V: Vidí¹ ten ocelovı køí¾? To je hrob na¹ich nadìjí.
+ V: VidÃ­Å¡ ten ocelovÃ½ kÅ™Ã­Å¾? To je hrob naÅ¡ich nadÄ›jÃ­.
  V: Can you see that steel cross? This is a grave of our hopes.
 disk-m-depres
- M: Nebuï poøád tak depresivní. Kdo to má poslouchat.
+ M: NebuÄ poÅ™Ã¡d tak depresivnÃ­. Kdo to mÃ¡ poslouchat.
  M: Don`t be always so gloomy. I can`t bear it.
 
 disk-m-nahrat
- M: Ne¹lo by ten plán z diskety jenom nahrát do na¹eho notebooku a odjet?
+ M: NeÅ¡lo by ten plÃ¡n z diskety jenom nahrÃ¡t do naÅ¡eho notebooku a odjet?
  M: Wouldn`t it be enough to download that plan from the floppy to our notebook?
 disk-v-mas
- V: Proè ne. A kde ho má¹?
+ V: ProÄ ne. A kde ho mÃ¡Å¡?
  V: Why not. Take it out.
 disk-m-sakra
- M: A sakra! ®e já jsem ho nechala doma.
+ M: A sakra! Å½e jÃ¡ jsem ho nechala doma.
  M: Oh, darn! I left it at home.
 disk-v-vratime
- V: Tak se tam vrátíme?
+ V: Tak se tam vrÃ¡tÃ­me?
  V: Shall we return for it?
 disk-v-naano
- V: Tak to tedy ne. Tobì to mo¾ná pøipadá zábavné, ale já u¾ mám úplnì uplavané ploutve.
+ V: Tak to tedy ne. TobÄ› to moÅ¾nÃ¡ pÅ™ipadÃ¡ zÃ¡bavnÃ©, ale jÃ¡ uÅ¾ mÃ¡m ÃºplnÄ› uplavanÃ© ploutve.
  V: Never. It may seem funny to you, but my fins are sore.
 disk-v-nane
- V: Jak myslí¹. Tak nám tedy pøedveï, jak to udìlá¹.
+ V: Jak myslÃ­Å¡. Tak nÃ¡m tedy pÅ™edveÄ, jak to udÄ›lÃ¡Å¡.
  V: Suit yourself. I am curious how are you going to do it now.
 
 disk-m-zmatlo
- M: A co kdy¾ ten plán není na té disketì? Co kdy¾ je tu jen proto, aby nás to zmátlo?
+ M: A co kdyÅ¾ ten plÃ¡n nenÃ­ na tÃ© disketÄ›? Co kdyÅ¾ je tu jen proto, aby nÃ¡s to zmÃ¡tlo?
  M: What if there is no plan on this floppy? What if it is here only to confound us?
 disk-v-neverim
- V: Tomu nevìøím. Copak je tu nìjakı pøedmìt, kterı by bylo tì¾¹í vyndat?
+ V: Tomu nevÄ›Å™Ã­m. Copak je tu nÄ›jakÃ½ pÅ™edmÄ›t, kterÃ½ by bylo tÄ›Å¾Å¡Ã­ vyndat?
  V: I don`t believe that. Is there some other object that would be more difficult to get out?
 
 disk-m-tvorecci
- M: Co je to tady za malé tvoreèky?
+ M: Co je to tady za malÃ© tvoreÄky?
  M: What kind of little creatures are those?
 disk-v-viry
- V: To jsou asi poèítaèové viry.
+ V: To jsou asi poÄÃ­taÄovÃ© viry.
  V: These must be computer viruses.
 disk-m-potvory
- M: Fííí. To jsou ale potvory.
+ M: FÃ­Ã­Ã­. To jsou ale potvory.
  M: Yuck. Some monsters.
 disk-v-pozor
- V: Hlavnì si musíme dát pozor, abychom je neodnesli i s disketou. To by se nám hráè podìkoval, kdybychom mu je vysypali na desktop.
+ V: HlavnÄ› si musÃ­me dÃ¡t pozor, abychom je neodnesli i s disketou. To by se nÃ¡m hrÃ¡Ä podÄ›koval, kdybychom mu je vysypali na desktop.
  V: Above all, we must be careful not to take them with the disk. The player wouldn`t be happy if we pour them on his desktop.
 
 disk-m-ukol
- M: Na¹ím úkolem je vystrèit ven tu disketu.
+ M: NaÅ¡Ã­m Ãºkolem je vystrÄit ven tu disketu.
  M: Our goal is to push out that disk.
 
 disk-x-nepohnes
- d: Se mnou jen tak nepohne¹!
+ d: Se mnou jen tak nepohneÅ¡!
  d: You won`t move me easily!
 disk-x-mazany
- d: To bylo mazanı!
+ d: To bylo mazanÃ½!
  d: That was smart!
 disk-x-jejda0
  d: Jejda!
  d: Ooops!
 disk-x-jejda1
- d: Sakry¹!
+ d: SakryÅ¡!
  d: Darn!
 disk-x-au0
  d: Au.
@@ -98,10 +98,10 @@ disk-x-au1
  d: Ouch.
  d: Ouch.
 disk-x-au2
- d: Áu.
+ d: Ãu.
  d: Yup.
 disk-x-uzne
- d: Nech mì u¾ na pokoji!
+ d: Nech mÄ› uÅ¾ na pokoji!
  d: Leave me alone!
 
 disk-x-vir0

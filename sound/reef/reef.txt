@@ -1,56 +1,56 @@
 CE
 uts-m-otresy
- M: Probùh, to otøesy zpùsobily zával!
+ M: ProbÅ¯h, to otÅ™esy zpÅ¯sobily zÃ¡val!
  M: My goodness, the impact created cave-in!
 uts-v-projet0
- V: Nemù¾u kolem toho závalu projet, musíme zkusit jinı vıchod.
+ V: NemÅ¯Å¾u kolem toho zÃ¡valu projet, musÃ­me zkusit jinÃ½ vÃ½chod.
  V: I can`t go through this cave-in, we have to find another exit.
 uts-v-projet1
- V: Tudy to asi nepùjde.
+ V: Tudy to asi nepÅ¯jde.
  V: This is not the way.
 uts-v-sam
- V: Sám to tady asi nezvládnu.
+ V: SÃ¡m to tady asi nezvlÃ¡dnu.
  V: I won`t make it alone.
 
 uts-m-lastura
- M: Asi jsem mìla tu lasturu nejdøív zvednout.
+ M: Asi jsem mÄ›la tu lasturu nejdÅ™Ã­v zvednout.
  M: I probably should have had lifted that shell first.
 uts-v-poradi
- V: Mo¾ná bude potøeba vymìnit poøadí tìch pøedmìtù.
+ V: MoÅ¾nÃ¡ bude potÅ™eba vymÄ›nit poÅ™adÃ­ tÄ›ch pÅ™edmÄ›tÅ¯.
  V: Maybe we would have to switch these objects.
 
 uts-m-matrace
- M: Matrace. To nejlep¹í, co pod vodou se¾enete.
+ M: Matrace. To nejlepÅ¡Ã­, co pod vodou seÅ¾enete.
  M: Mattress. The best thing you can get under water. 
 uts-m-snek
- M: Teï mù¾eme shodit ¹neka na tu matraci.
+ M: TeÄ mÅ¯Å¾eme shodit Å¡neka na tu matraci.
  M: Now we can drop the snail on the mattress.
 uts-m-nezvedneme
- M: Odtam toho ¹neka u¾ asi nezvedneme.
+ M: Odtam toho Å¡neka uÅ¾ asi nezvedneme.
  M: It will be difficult to pick up that snail from there.
 
 uts-v-konecne
- V: Koneènì je tam.
+ V: KoneÄnÄ› je tam.
  V: Finally, it`s there.
 uts-m-chudak
- M: Chudáèek ¹neèek...
+ M: ChudÃ¡Äek Å¡neÄek...
  M: The poor snail...
 
 uts-v-koraly
- V: Mìli bychom se podívat do korálovıch útesù.
+ V: MÄ›li bychom se podÃ­vat do korÃ¡lovÃ½ch ÃºtesÅ¯.
  V: We should search the coral reefs.
 uts-m-tvorove
- M: Tam bude jistì spousta ¾ivıch tvorù ke zkoumání.
+ M: Tam bude jistÄ› spousta Å¾ivÃ½ch tvorÅ¯ ke zkoumÃ¡nÃ­.
  M: There are going to be many interesting beings to investigate there.
 uts-v-mikroskop
- V: Nejsou korály náhodou zkoumatelné jen pod mikroskopem?
+ V: Nejsou korÃ¡ly nÃ¡hodou zkoumatelnÃ© jen pod mikroskopem?
  V: Don`t we need a microscope to investigate corals?
 uts-m-zivocich
- M: No, jsou malé. Ale mohou tam bıt i jiní ¾ivoèichové.
+ M: No, jsou malÃ©. Ale mohou tam bÃ½t i jinÃ­ Å¾ivoÄichovÃ©.
  M: Yes, they are small. But there can be other life forms.
 uts-m-zelvy
- M: Tøeba korálové ¾elvy.
+ M: TÅ™eba korÃ¡lovÃ© Å¾elvy.
  M: Coral turtles, for example.
 uts-m-batyskaf
- M: A navíc mi nìco øíká, ¾e mikroskop je v jednom batyskafu.
+ M: A navÃ­c mi nÄ›co Å™Ã­kÃ¡, Å¾e mikroskop je v jednom batyskafu.
  M: And moreover I have a suspicion that microscope is in one bathyscaph.

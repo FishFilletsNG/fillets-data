@@ -1,27 +1,27 @@
 CE
 let-m-divna
- M: Co je to za divnou loï?
+ M: Co je to za divnou loÄ?
  M: What kind of strange ship is that?
 let-v-vrak0
- V: To je vrak dopravního letadla LC-10 Lemura.
+ V: To je vrak dopravnÃ­ho letadla LC-10 Lemura.
  V: This is a wreck of civilian airplane LC-10 Lemura.
 let-v-vrak1
- V: To je vrak dopravního letadla Atlantobus.
+ V: To je vrak dopravnÃ­ho letadla Atlantobus.
  V: This is a wreck of civilian airplane Atlantobus.
 let-v-vrak2
- V: To je vrak dopravního letadla Poseidon 737.
+ V: To je vrak dopravnÃ­ho letadla Poseidon 737.
  V: This is a wreck of civilian airplane Poseidon 737.
 
 let-v-oko
- V: Vidí¹ to oko? Nìmı svìdek tragédie... Nìkdo v dùvìøe usedl do letadla - a zùstalo z nìho jen sklenìné oko.
+ V: VidÃ­Å¡ to oko? NÄ›mÃ½ svÄ›dek tragÃ©die... NÄ›kdo v dÅ¯vÄ›Å™e usedl do letadla - a zÅ¯stalo z nÄ›ho jen sklenÄ›nÃ© oko.
  V: Can you see that eye? The silent witness to the tragedy... Somebody trusted this airplane - and the glass eye is everything he left behind.
 let-m-oko
- M: To není sklenìné oko, ale gyroskop. Aspoò v této místnosti.
+ M: To nenÃ­ sklenÄ›nÃ© oko, ale gyroskop. AspoÅˆ v tÃ©to mÃ­stnosti.
  M: This is not a glass eye but gyroscope. At least in this level.
 
 let-m-sedadlo
- M: Sedadla. Proè jsou tu v¹ude sedadla?
+ M: Sedadla. ProÄ jsou tu vÅ¡ude sedadla?
  M: Seats. Why is there so many seats here?
 let-v-budrada
- V: Buï ráda. Jak by ses jinak dostala ven?
+ V: BuÄ rÃ¡da. Jak by ses jinak dostala ven?
  V: Be thankful. Could you get out without them?

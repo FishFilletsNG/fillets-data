@@ -1,18 +1,18 @@
 CE
 re-v-koraly0
- V: Tak fialové korály jsem je¹tì nevidìl.
+ V: Tak fialovÃ© korÃ¡ly jsem jeÅ¡tÄ› nevidÄ›l.
  V: I have never seen such violet corals.
 re-v-koraly1
- V: Nemám rád fialové korály.
+ V: NemÃ¡m rÃ¡d fialovÃ© korÃ¡ly.
  V: I don`t like violet corals.
 re-m-libi0
- M: Líbí se mi fialové korály...
+ M: LÃ­bÃ­ se mi fialovÃ© korÃ¡ly...
  M: I love violet corals...
 re-m-libi1
- M: Mnì se celkem líbí.
+ M: MnÄ› se celkem lÃ­bÃ­.
  M: They look nice to me.
 re-m-libi2
- M: Doufám, ¾e v dal¹ích místnostech budou je¹tì zajímavìj¹í korály.
+ M: DoufÃ¡m, Å¾e v dalÅ¡Ã­ch mÃ­stnostech budou jeÅ¡tÄ› zajÃ­mavÄ›jÅ¡Ã­ korÃ¡ly.
  M: I hope there will be even more interesting corals in the levels to come.
 re-v-pokoj
  V: Dej pokoj.
@@ -27,42 +27,42 @@ re-m-ahoj
  M: Hi, crab!
 
 re-m-rozveselit
- M: Nezkusíme toho kraba trochu rozveselit?
+ M: NezkusÃ­me toho kraba trochu rozveselit?
  M: Won`t we try to cheer that crab up a little?
 re-v-nevsimej
- V: Nev¹ímej si ho.
+ V: NevÅ¡Ã­mej si ho.
  V: Ignore it.
 
 re-v-nech
  V: Nech toho kraba na pokoji.
  V: Leave that crab alone.
 re-v-nervozni
- V: Nevidí¹, jak je nervózní?
+ V: NevidÃ­Å¡, jak je nervÃ³znÃ­?
  V: Can`t you see how nervous it is?
 re-v-obejit
- V: Zkusme se radìji obejít bez toho nervózního kraba.
+ V: Zkusme se radÄ›ji obejÃ­t bez toho nervÃ³znÃ­ho kraba.
  V: Try to do without that nervous crab.
 
 re-m-uzitecny0
- M: Ten krab by mohl bıt u¾iteènı.
+ M: Ten krab by mohl bÃ½t uÅ¾iteÄnÃ½.
  M: That crab could be useful.
 re-m-uzitecny1
- M: S pomocí toho kraba to jistì vyøe¹íme.
+ M: S pomocÃ­ toho kraba to jistÄ› vyÅ™eÅ¡Ã­me.
  M: This crab will surely help us to solve it.
 
 $vol
  250
 re-k-budi
- K: Kdo mì budí?
+ K: Kdo mÄ› budÃ­?
  K: Who is waking me up?
 re-k-spim
- K: Odejdìte, já tu spím!
+ K: OdejdÄ›te, jÃ¡ tu spÃ­m!
  K: Leave me alone, I am sleeping here!
 re-k-otravujete
  K: Co tady otravujete?!?
  K: What do you want from me?!?
 re-k-nesahej
- K: Nesahej na mì!
+ K: Nesahej na mÄ›!
  K: Don`t touch me!
 re-k-au
  K: Auvajs.

@@ -1,44 +1,44 @@
 CE
 pt2-m-parnik
- M: Zase ten pøízraènı parník.
+ M: Zase ten pÅ™Ã­zraÄnÃ½ parnÃ­k.
  M: That ghostly boat, again.
 pt2-v-zmena
- V: Vidí¹? Nìco se zmìnilo, zatímco jsme byli pryè. Øíkám ti, ¾e nás nìkdo pozoruje.
+ V: VidÃ­Å¡? NÄ›co se zmÄ›nilo, zatÃ­mco jsme byli pryÄ. Å˜Ã­kÃ¡m ti, Å¾e nÃ¡s nÄ›kdo pozoruje.
  V: Can you see it? Something has changed while we were away. I tell you, somebody is watching us.
 pt2-m-hrac
- M: Co se na nás poøád dívá¹? Nevidí¹, ¾e nás to znervózòuje?
+ M: Co se na nÃ¡s poÅ™Ã¡d dÃ­vÃ¡Å¡? NevidÃ­Å¡, Å¾e nÃ¡s to znervÃ³zÅˆuje?
  M: Why do you keep looking at us? Can`t you see it makes us nervous?
 
 pt2-m-piknik0
- M: Koukám, ¾e ten jejich piknik u¾ pomalu konèí.
+ M: KoukÃ¡m, Å¾e ten jejich piknik uÅ¾ pomalu konÄÃ­.
  M: It looks like their picnic is coming to an end.
 pt2-m-piknik1
- M: U¾ mají po pikniku.
+ M: UÅ¾ majÃ­ po pikniku.
  M: The picnic is over.
 pt2-m-piknik2
  M: Tohle tu zbylo po pikniku.
  M: That`s all that is left from the picnic.
 pt2-m-piknik3
- M: Mìli tu takovı piknik u dna.
+ M: MÄ›li tu takovÃ½ piknik u dna.
  M: They have had a kind of picnic by the bottom.
 
 pt2-v-unaveni0
- V: Zdá se, ¾e ti vıletníci jsou ponìkud spoleèensky unaveni.
+ V: ZdÃ¡ se, Å¾e ti vÃ½letnÃ­ci jsou ponÄ›kud spoleÄensky unaveni.
  V: I think that those party-goers are little bit tired.
 pt2-v-unaveni1
- V: Ti u¾ mají opravdu dost.
+ V: Ti uÅ¾ majÃ­ opravdu dost.
  V: Yes, they have had enough.
 
 pt2-v-nemohou0
- V: Myslím, ¾e ti u¾ nemají náladu nìjak nám ublí¾it.
+ V: MyslÃ­m, Å¾e ti uÅ¾ nemajÃ­ nÃ¡ladu nÄ›jak nÃ¡m ublÃ­Å¾it.
  V: I think they cannot think about harming us now.
 pt2-v-nemohou1
- V: Myslím, ¾e ti u¾ nám nic udìlat nemohou.
+ V: MyslÃ­m, Å¾e ti uÅ¾ nÃ¡m nic udÄ›lat nemohou.
  V: I think they are quite harmless now.
 
 pt2-v-minule0
- V: To nebude tak jednoduché jako minule.
+ V: To nebude tak jednoduchÃ© jako minule.
  V: It won`t be that easy like the last time.
 pt2-v-minule1
- V: Zdá se, ¾e to bude trochu slo¾itìj¹í.
+ V: ZdÃ¡ se, Å¾e to bude trochu sloÅ¾itÄ›jÅ¡Ã­.
  V: It seems it`s going to be more difficult this time.

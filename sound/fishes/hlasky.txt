@@ -1,69 +1,69 @@
 CE
  ------mala beznadej---------------------------
 ob-m-neverim
- M: Nevìøím, ¾e to pùjde...
+ M: NevÄ›Å™Ã­m, Å¾e to pÅ¯jde...
  M: I don`t believe we can make it...
 ob-m-nedosataneme
- M: U¾ se odsud nikdy nedostaneme.
+ M: UÅ¾ se odsud nikdy nedostaneme.
  M: We aren`t going to get out of here.
 ob-m-naveky
- M: Jsme tu na vìky zavøení.
+ M: Jsme tu na vÄ›ky zavÅ™enÃ­.
  M: We are shut here forever.
 ob-v-jit0
- V: Musí to nìjak jít.
+ V: MusÃ­ to nÄ›jak jÃ­t.
  V: There must be a way out.
 ob-v-jit1
- V: Øe¹ení tu je, jen ho nevidíme.
+ V: Å˜eÅ¡enÃ­ tu je, jen ho nevidÃ­me.
  V: There is some solution, only we cannot see it.
 ob-v-musi
- V: Hlavu vzhùru, nìjak to jít musí.
+ V: Hlavu vzhÅ¯ru, nÄ›jak to jÃ­t musÃ­.
  V: Lift up your head, there must be a way.
 ob-v-klid
  V: Jen klid.
  V: Take it easy.
  ------napady velkeho-----
 ob-v-neobvykle
- V: V tom bude nìco neobvyklého...
+ V: V tom bude nÄ›co neobvyklÃ©ho...
  V: There is something strange about it...
 ob-m-teorie
- M: Nepokou¹ej se zase rozvíjet ty svoje teorie.
+ M: NepokouÅ¡ej se zase rozvÃ­jet ty svoje teorie.
  M: Just spare me your theories, please.
 
 ob-v-mamto
- V: Mám to! Kdy¾ posuneme támhle tu ...
+ V: MÃ¡m to! KdyÅ¾ posuneme tÃ¡mhle tu ...
  V: I`ve got it. If we push that one...
 ob-m-pokracuj
- M: Pokraèuj!
+ M: PokraÄuj!
  M: Go on!
 ob-v-napad
- V: Ale ne, byl to jen takovı nápad...
+ V: Ale ne, byl to jen takovÃ½ nÃ¡pad...
  V: Oh no, it was just an idea...
 
 ob-v-vyzkousej
- V: Co kdybychom vyzkou¹eli támhle... 
+ V: Co kdybychom vyzkouÅ¡eli tÃ¡mhle... 
  V: What if we try that....
 ob-m-co
  M: Co?
  M: What?
 ob-v-alenic
- V: Ale nic, to byl jen takovı nápad.
+ V: Ale nic, to byl jen takovÃ½ nÃ¡pad.
  V: Nothing. Just an idea.
 ob-m-zase
- M: U¾ zase...
+ M: UÅ¾ zase...
  M: Not again.
  -------velkou to nebavi-----------
 ob-v-nebavi
- V: U¾ mì to nebaví.
+ V: UÅ¾ mÄ› to nebavÃ­.
  V: I`m tired of it.
 ob-v-hrej
  V: No tak, hrej, chceme se dostat ven.
  V: Just play, we want to get out.
 ob-v-sami
- V: Jestli nezaène ten hráè nìco dìlat, vyøe¹íme si to sami.
+ V: Jestli nezaÄne ten hrÃ¡Ä nÄ›co dÄ›lat, vyÅ™eÅ¡Ã­me si to sami.
  V: If the player keeps doing nothing, we`ll solve it ourselves.
 
 ob-m-pst
- M: Pssst, neru¹ hráèe, pøemı¹lí...
+ M: Pssst, neruÅ¡ hrÃ¡Äe, pÅ™emÃ½Å¡lÃ­...
  M: Shhh, don`t disturb the player. He thinks again...
 ob-m-hlavu
  M: Zachovej chladnou hlavu.
@@ -73,94 +73,94 @@ ob-m-klid
  M: Take it easy.
  -------malou to nebavi------------
 ob-m-jesteneco
- M: Tak bude se je¹tì nìco dít?
+ M: Tak bude se jeÅ¡tÄ› nÄ›co dÃ­t?
  M: Will there be some action?
 ob-m-nedeje
- M: Proè se nic nedìje?
+ M: ProÄ se nic nedÄ›je?
  M: Why aren`t  we doing anything?
 ob-m-proc
- M: Proè se nic nedìje?
+ M: ProÄ se nic nedÄ›je?
  M: Why are we idle?
 ob-m-ceka
- M: On snad èeká, ¾e to vyøe¹íme za nìj?!
+ M: On snad ÄekÃ¡, Å¾e to vyÅ™eÅ¡Ã­me za nÄ›j?!
  M: Does he expect us to solve ourselves?
 
 ob-v-nerus
- V: Neru¹, hráè pøemı¹lí...
+ V: NeruÅ¡, hrÃ¡Ä pÅ™emÃ½Å¡lÃ­...
  V: Don`t disturb. The player thinks again...
 
 ob-m-jetam
- M: Je tam ten hráè vùbec?
+ M: Je tam ten hrÃ¡Ä vÅ¯bec?
  M: Is there the player at all?
 ob-v-leskne
- V: Nevím, obrazovka se zevnitø dìsnì leskne.
+ V: NevÃ­m, obrazovka se zevnitÅ™ dÄ›snÄ› leskne.
  V: I don`t know. The screen glares too much from inside.
  ------nikoho to nebavi----------------
 ob-v-prestavka
- V: Malá pøestávka neza¹kodí.
+ V: MalÃ¡ pÅ™estÃ¡vka nezaÅ¡kodÃ­.
  V: The little break will help.
 
 ob-o-nebavi
- 0: U¾ nás to èekání nebaví!
+ 0: UÅ¾ nÃ¡s to ÄekÃ¡nÃ­ nebavÃ­!
  0: We are tired of waiting!
 
 ob-o-halo
- 0: Halóóó!
+ 0: HalÃ³Ã³Ã³!
  0: Hello!
 ob-v-nelekl
  V: Nelekl ses?
  V: Did you flinch?
 ob-m-mysleli
- M: My jsme jen mysleli, jestli jsi na nás nezapomnìl.
+ M: My jsme jen mysleli, jestli jsi na nÃ¡s nezapomnÄ›l.
  M: We were just afraid that you might have forgotten about us.
 
 ob-v-nehybes
- V: Hele, proè s námi nehıbe¹?
+ V: Hele, proÄ s nÃ¡mi nehÃ½beÅ¡?
  V: Look, why don`t you move us a little bit?
 ob-m-resit
- M: My jsme hra, nás má¹ øe¹it.
+ M: My jsme hra, nÃ¡s mÃ¡Å¡ Å™eÅ¡it.
  M: We are the game, you are supposed to solve us.
 ob-v-akvarium
- V: Na koukání si poøiï akvárium.
+ V: Na koukÃ¡nÃ­ si poÅ™iÄ akvÃ¡rium.
  V: Buy yourself a fish tank for observations.
 
 ob-v-halo
- V: Halóóó! My jsme tady! Nezapomnìl jsi na nás?
+ V: HalÃ³Ã³Ã³! My jsme tady! NezapomnÄ›l jsi na nÃ¡s?
  V: Hellooo! We are here? Did you forget about us?
  
  -----------jen takovy provokacni kecy----------
 ob-m-tezky
- M: Tì¾kı, co?
+ M: TÄ›Å¾kÃ½, co?
  M: Difficult, isn`t it?
 ob-v-jidlo
- V: Hele, hráèi, neskoèil bys nám pro nìco k jídlu? Dej nám to do adresáøe TMP, hned to sníme.
+ V: Hele, hrÃ¡Äi, neskoÄil bys nÃ¡m pro nÄ›co k jÃ­dlu? Dej nÃ¡m to do adresÃ¡Å™e TMP, hned to snÃ­me.
  V: Look player, couldn`t you bring us something to eat? Put it in the TEMP directory, we`ll eat it momentarily.
 
 ob-m-strach
- M: Prosím tì, a¾ pøestane¹ hrát, nevypínej poèítaè... je tady pak hrozná tma a mám strach.
+ M: ProsÃ­m tÄ›, aÅ¾ pÅ™estaneÅ¡ hrÃ¡t, nevypÃ­nej poÄÃ­taÄ... je tady pak hroznÃ¡ tma a mÃ¡m strach.
  M: When you stop playing, don`t turn off the computer, please. It`s so dark and scary here if you do.
 
 ob-m-jakdlouho
- M: Jak dlouho to je¹tì budeme øe¹it?
+ M: Jak dlouho to jeÅ¡tÄ› budeme Å™eÅ¡it?
  M: How long are we going to solve it?
 ob-v-zvykacka
- V: Tak dlouho, jak dlouho vydr¾í chu» téhle ¾vıkaèky...
+ V: Tak dlouho, jak dlouho vydrÅ¾Ã­ chuÅ¥ tÃ©hle Å¾vÃ½kaÄky...
  V: As long as the taste of this chewing gum lasts.
 ob-m-zvykacka
- M: Co¾e, hotovo? V¾dy» ta ¾vıkaèka chutná je¹tì poøád skvìle.
+ M: CoÅ¾e, hotovo? VÅ¾dyÅ¥ ta Å¾vÃ½kaÄka chutnÃ¡ jeÅ¡tÄ› poÅ™Ã¡d skvÄ›le.
  M: What, you are finished? But this chewing gum still tastes extraordinary.
 
 ob-v-ostani
- V: Co myslí¹, jak jsou na tom ostatní?
+ V: Co myslÃ­Å¡, jak jsou na tom ostatnÃ­?
  V: What do you think, how are the other faring?
 ob-m-kdo
  M: To jako kdo?
  M: The other who?
 ob-v-kdoresi
- V: No ostatní, kdo to øe¹í. Tøeba u¾ mají víc místností.
+ V: No ostatnÃ­, kdo to Å™eÅ¡Ã­. TÅ™eba uÅ¾ majÃ­ vÃ­c mÃ­stnostÃ­.
  V: The other player who are solving this game. Maybe they managed to solve more levels.
 ob-m-pravdepodobne
- M: To je dost pravdìpodobné.
+ M: To je dost pravdÄ›podobnÃ©.
  M: It`s very likely.
 
 ob-m-ach
@@ -170,17 +170,17 @@ ob-v-copak
  V: Copak?
  V: What happened?
 ob-m-lito
- M: Pøi¹lo mi to tak nìjak líto.
+ M: PÅ™iÅ¡lo mi to tak nÄ›jak lÃ­to.
  M: I just feel so sorry...
 ob-v-colito
- V: Co ti pøi¹lo líto?
+ V: Co ti pÅ™iÅ¡lo lÃ­to?
  V: Sorry for what?
 ob-m-vsechno
- M: No... v¹echno.
+ M: No... vÅ¡echno.
  M: Sorry for everything.
 ob-v-covsechno
- V: Co v¹echno?
+ V: Co vÅ¡echno?
  V: What everything?
 ob-m-uplnevse
- M: Úplnì v¹echno! A vùbec, starej se o sebe!
+ M: ÃšplnÄ› vÅ¡echno! A vÅ¯bec, starej se o sebe!
  M: Completely everything! And leave me alone, I beg you!

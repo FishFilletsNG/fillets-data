@@ -1,35 +1,35 @@
 CE
 vit-hs-vitejteA
- S: Vítejte v nejkrásnìj¹ím mìstì pod sluncem.
+ S: VÃ­tejte v nejkrÃ¡snÄ›jÅ¡Ã­m mÄ›stÄ› pod sluncem.
  S: Welcome to the most beautiful city under the sun.
 vit-hs-vitejteB
- S: Vítejte v na¹em mìstì, mìstì neomezenıch mo¾ností.
+ S: VÃ­tejte v naÅ¡em mÄ›stÄ›, mÄ›stÄ› neomezenÃ½ch moÅ¾nostÃ­.
  S: Welcome to our city - the city of unlimited opportunities.
 vit-hs-vitejteC
- S: Dovoluji si vás pøivítat jménem obèanù na¹eho mìsta.
+ S: Dovoluji si vÃ¡s pÅ™ivÃ­tat jmÃ©nem obÄanÅ¯ naÅ¡eho mÄ›sta.
  S: On behalf of the citizens of this town I welcome you.
 vit-hs-vitejteD
- S: Vítejte v na¹em mìstì, pøed jeho¾ krásou by mohli blednout i bohové.
+ S: VÃ­tejte v naÅ¡em mÄ›stÄ›, pÅ™ed jehoÅ¾ krÃ¡sou by mohli blednout i bohovÃ©.
  S: Welcome to our city, whose beauty eclipses that of the gods themselves.
 
 vit-hs-klid1
- S: Obèané. Zachovejte klid a rozvahu.
+ S: ObÄanÃ©. Zachovejte klid a rozvahu.
  S: Citizens, please remain calm.
 vit-hs-klid2
- S: Nehrozí ¾ádné nebezpeèí.
+ S: NehrozÃ­ Å¾Ã¡dnÃ© nebezpeÄÃ­.
  S: There is no imminent danger.
 vit-hs-klid3
- S: Potopení severní èásti ostrova je jen doèasné.
+ S: PotopenÃ­ severnÃ­ ÄÃ¡sti ostrova je jen doÄasnÃ©.
  S: The sinking of the northern part of our island is only temporary.
 vit-hs-klid4
- S: Situaci máme plnì pod kontrolou.
+ S: Situaci mÃ¡me plnÄ› pod kontrolou.
  S: We have the situation completely under control.
 
 vit-hs-lod0
- S: K pátému molu pøiplula zpo¾dìná loï z Lemurie. Loï dále pokraèuje na Utopii, Mu a Atlantidu.
+ S: K pÃ¡tÃ©mu molu pÅ™iplula zpoÅ¾dÄ›nÃ¡ loÄ z Lemurie. LoÄ dÃ¡le pokraÄuje na Utopii, Mu a Atlantidu.
  S: The ship from Lemury has now docked at pier #5. This ship continues on to Utopia, Mu and Atlantis.
 vit-hs-pojis0
- S: První rybáøská poji¹»ovna pojistí vá¹ dùm proti po¾árùm, vìtrnım smr¹tím, zøícení nebeské klenby a náletùm drakù. Rybáøi myslí na v¹e.
+ S: PrvnÃ­ rybÃ¡Å™skÃ¡ pojiÅ¡Å¥ovna pojistÃ­ vÃ¡Å¡ dÅ¯m proti poÅ¾Ã¡rÅ¯m, vÄ›trnÃ½m smrÅ¡tÃ­m, zÅ™Ã­cenÃ­ nebeskÃ© klenby a nÃ¡letÅ¯m drakÅ¯. RybÃ¡Å™i myslÃ­ na vÅ¡e.
  S: With First Fishermen Insurance, your house is covered against damage caused by fire, tornadoes, hurricanes, acts of God and dragons` raids. Because fishermen think of everything, choose First Fisherman.
 
 vit-x-beg
@@ -40,94 +40,94 @@ x
 x
 
 vit-hs-reklama1
- S: Kam bì¾í¹?
+ S: Kam bÄ›Å¾Ã­Å¡?
  S: Where are you running?
 vit-hs-reklama2
- w: Do Mìsíèní ulice, nechám si tam udìlat osm meèù.
+ w: Do MÄ›sÃ­ÄnÃ­ ulice, nechÃ¡m si tam udÄ›lat osm meÄÅ¯.
  w: To Moon Street. I need to order eight swords.
 vit-hs-reklama3
- S: A proè tolik meèù?
+ S: A proÄ tolik meÄÅ¯?
  S: Why so many swords?
 vit-hs-reklama4
- w: Ty to je¹tì neví¹? Ke ka¾dım osmi meèùm ti tam dají bronzové náu¹nice zdarma.
+ w: Ty to jeÅ¡tÄ› nevÃ­Å¡? Ke kaÅ¾dÃ½m osmi meÄÅ¯m ti tam dajÃ­ bronzovÃ© nÃ¡uÅ¡nice zdarma.
  w: You haven`t heard?!? For every eight swords you purchase, you get a pair of bronze earrings absolutely FREE!
 vit-hs-reklama5
- S: Tak poèkej na mì, jdu s tebou!
+ S: Tak poÄkej na mÄ›, jdu s tebou!
  S: Wait for me. I`m coming with you!
 
 vit-hs-soud0
- S: Mìstskı soud si vás dovoluje pozvat na veselé pásmo vıslechù a poprav. Spoleèenskı odìv podmínkou.
+ S: MÄ›stskÃ½ soud si vÃ¡s dovoluje pozvat na veselÃ© pÃ¡smo vÃ½slechÅ¯ a poprav. SpoleÄenskÃ½ odÄ›v podmÃ­nkou.
  S: The City Court kindly invites you to the annual town festival of interrogations and executions. Proper attire required.
 vit-hs-vodovod0
- S: Mìsto se rozhodlo pro va¹e pohodlí vybudovat vodovod. Zavedeme ka¾dému vodu a¾ do domu.
+ S: MÄ›sto se rozhodlo pro vaÅ¡e pohodlÃ­ vybudovat vodovod. Zavedeme kaÅ¾dÃ©mu vodu aÅ¾ do domu.
  S: The City Council has decided to build an aqueduct, thereby providing direct water service to each home.
 vit-hs-dite0
- S: Prosíme maminku, její¾ dítì se zabìhlo ke støe¾enému objektu mìstské pokladny, aby si jeho ostatky vyzvedla na vrátnici.
+ S: ProsÃ­me maminku, jejÃ­Å¾ dÃ­tÄ› se zabÄ›hlo ke stÅ™eÅ¾enÃ©mu objektu mÄ›stskÃ© pokladny, aby si jeho ostatky vyzvedla na vrÃ¡tnici.
  S:Would the mother of the child who got lost on the grounds of city treasury please come to the front desk to pick up his remains.
 vit-hs-demoni0
- S: Obèané. Zítra v pùlnoèních hodinách se k vám dostaví ná¹ pracovník za úèelem zaøíkávání proti temnım duchùm a démonùm. Umo¾nìte mu prosím pøístup do domu.
+ S: ObÄanÃ©. ZÃ­tra v pÅ¯lnoÄnÃ­ch hodinÃ¡ch se k vÃ¡m dostavÃ­ nÃ¡Å¡ pracovnÃ­k za ÃºÄelem zaÅ™Ã­kÃ¡vÃ¡nÃ­ proti temnÃ½m duchÅ¯m a dÃ©monÅ¯m. UmoÅ¾nÄ›te mu prosÃ­m pÅ™Ã­stup do domu.
  S: Citizens, our employees will be stopping by individual homes tomorrow after midnight in order to rid your home of demons and ghosts. We ask that you kindly let them in.
 vit-hs-kacir
- S: Dnes veèer pøednese v malém pøedná¹kovém sále ná¹ pøední kacíø Demilukes pøedná¹ku na téma: `Existují bohové? aneb buïte v klidu, nic vám nemohou!`
+ S: Dnes veÄer pÅ™ednese v malÃ©m pÅ™ednÃ¡Å¡kovÃ©m sÃ¡le nÃ¡Å¡ pÅ™ednÃ­ kacÃ­Å™ Demilukes pÅ™ednÃ¡Å¡ku na tÃ©ma: `ExistujÃ­ bohovÃ©? aneb buÄte v klidu, nic vÃ¡m nemohou!`
  S: Our chief heretic Demikuls will present a lecture this evening in the small auditorium entitled `Do the gods really exist? or Rest assured they cannot harm you!`
 
 vit-hs-jidelna1
- S: Nav¹tivte rybí jídelnu na horním námìstí. Vybrané speciality z moøskıch"
+ S: NavÅ¡tivte rybÃ­ jÃ­delnu na hornÃ­m nÃ¡mÄ›stÃ­. VybranÃ© speciality z moÅ™skÃ½ch"
  S: Come visit our seafood restaurant located at the Main Square. Delicious fish specialties and"
 vit-hs-jidelna2
- S: Och, promiòte.
+ S: Och, promiÅˆte.
  S: Oh, excuse me.
 
 vit-m-jakze
- M: Jak¾e, rybí jídelnu?
+ M: JakÅ¾e, rybÃ­ jÃ­delnu?
  M: What?! A fish restaurant?
 vit-v-vazne
- V: To myslíte vá¾nì?
+ V: To myslÃ­te vÃ¡Å¾nÄ›?
  V: Are you serious?
 vit-m-nechutne
- M: Jak nechutné!
+ M: Jak nechutnÃ©!
  M: How disgusting!
 
 vit-v-nevsimla
- V: Ta socha si asi nev¹imla, ¾e se tohle mìsto dávno potopilo.
+ V: Ta socha si asi nevÅ¡imla, Å¾e se tohle mÄ›sto dÃ¡vno potopilo.
  V: That sculpture obviously hasn`t noticed that the city sank a long time ago.
 vit-v-automat
- V: Je to asi nìjakej automat, poøád si myslí, ¾e mìsto ¾ije.
+ V: Je to asi nÄ›jakej automat, poÅ™Ã¡d si myslÃ­, Å¾e mÄ›sto Å¾ije.
  V: It`s probably some kind of automaton. It still thinks that the city is alive.
 vit-m-nebo
- M: Nebo si to zkrátka nechce pøipustit.
+ M: Nebo si to zkrÃ¡tka nechce pÅ™ipustit.
  M: Or it just can`t face the truth.
 
 vit-m-hlava
- M: U¾ mì z té hlavy bolí hlava.
+ M: UÅ¾ mÄ› z tÃ© hlavy bolÃ­ hlava.
  M: I`m getting a headache from that head.
 vit-v-hlava
- V: U¾ mì z té hlavy bolí hlava.
+ V: UÅ¾ mÄ› z tÃ© hlavy bolÃ­ hlava.
  V: That head is giving me a headache.
 
 vit-m-nezkusime
- M: Nezkusíme tu hlavu nìjak umlèet?
+ M: NezkusÃ­me tu hlavu nÄ›jak umlÄet?
  M: Let`s try to shut that head up somehow.
 vit-v-proc
- V: Proè? Dozvídáme se zde cenné poznatky z v¹edního ¾ivota na¹ich pøedkù.
+ V: ProÄ? DozvÃ­dÃ¡me se zde cennÃ© poznatky z vÅ¡ednÃ­ho Å¾ivota naÅ¡ich pÅ™edkÅ¯.
  V: Why? We`re getting invaluable information about the everyday life of our ancestors.
 
 vit-v-krabi
- V: Kdybychom v¹echny ty kraby dostali nahoru...
+ V: Kdybychom vÅ¡echny ty kraby dostali nahoru...
  V: If we could get all these crabs up near the head...
 vit-m-tak
  M: ...tak...?
  M: ...then...?
 vit-v-pockej
- V: Poèkej, je¹tì to nemám domy¹lené...
+ V: PoÄkej, jeÅ¡tÄ› to nemÃ¡m domyÅ¡lenÃ©...
  V: Wait, I have to think about it for a moment...
 
 vit-m-vecnost
- M: Pøedstav si, ¾e ta hlava tohle dìlá celou vìènost...
+ M: PÅ™edstav si, Å¾e ta hlava tohle dÄ›lÃ¡ celou vÄ›Änost...
  M: Just imagine that that head has been like this all these years...
 vit-v-noa
  V: No a?
  V: So what?
 vit-m-jak
- M: Jak asi musí bıt tìm chudákùm krabùm!
+ M: Jak asi musÃ­ bÃ½t tÄ›m chudÃ¡kÅ¯m krabÅ¯m!
  M: Well think about how these poor crabs must feel!

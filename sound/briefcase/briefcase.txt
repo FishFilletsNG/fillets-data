@@ -1,158 +1,158 @@
 CE
 kd-uvod
- @: Dobrı den, ryby. Tentokrát jde o zále¾itost mimoøádného vıznamu, proto se obracíme na vás jako na na¹e nejschopnìj¹í agenty pod vodou.
+ @: DobrÃ½ den, ryby. TentokrÃ¡t jde o zÃ¡leÅ¾itost mimoÅ™Ã¡dnÃ©ho vÃ½znamu, proto se obracÃ­me na vÃ¡s jako na naÅ¡e nejschopnÄ›jÅ¡Ã­ agenty pod vodou.
  @: Good morning, fish. This is an affair of the gravest importance and so we have chosen you, our ablest underwater agents.
 kd-ufo
- @: Informátorùm na¹í Fakt Dìsnì Tajné Organizace se podaøilo získat nìkolik amatérskıch zábìrù mimozemského objektu, kterı se zøítil nìkam do va¹í oblasti. Va¹ím úkolem, pokud ho pøijmete, bude UFO najít a získat informace o principech a konstrukci mezihvìzdného pohonu.
+ @: InformÃ¡torÅ¯m naÅ¡Ã­ Fakt DÄ›snÄ› TajnÃ© Organizace se podaÅ™ilo zÃ­skat nÄ›kolik amatÃ©rskÃ½ch zÃ¡bÄ›rÅ¯ mimozemskÃ©ho objektu, kterÃ½ se zÅ™Ã­til nÄ›kam do vaÅ¡Ã­ oblasti. VaÅ¡Ã­m Ãºkolem, pokud ho pÅ™ijmete, bude UFO najÃ­t a zÃ­skat informace o principech a konstrukci mezihvÄ›zdnÃ©ho pohonu.
  @: Agents of FDTO - Fish Detective Training Organization - managed to get hold of several amateur snapshots of an extraterrestrial object which has crashed somewhere in your vicinity. Your mission, if you choose to accept it, will be to recover the UFO and acquire all the information you can about the principles and nature of interstellar propulsion.
 kd-mesto
- @: Zároveò zkuste pohnout s na¹imi starımi nevyøe¹enımi pøípady. Pøedev¹ím jsou to nejasnosti kolem potopení dávného mıtického mìsta, shodou okolností v té¾e oblasti.
+ @: ZÃ¡roveÅˆ zkuste pohnout s naÅ¡imi starÃ½mi nevyÅ™eÅ¡enÃ½mi pÅ™Ã­pady. PÅ™edevÅ¡Ã­m jsou to nejasnosti kolem potopenÃ­ dÃ¡vnÃ©ho mÃ½tickÃ©ho mÄ›sta, shodou okolnostÃ­ v tÃ©Å¾e oblasti.
  @: You should also try to close some of our as yet unsolved cases. We are mostly interested in the circumstances surrounding the sinking of the mythical city, by chance in the same area.
 kd-bermudy
- @: S tím mù¾e souviset i záhada Bermudského trojúhelníku. Zjistìte, proè se v nìm u¾ po léta ztrácejí lodì a letadla.
+ @: S tÃ­m mÅ¯Å¾e souviset i zÃ¡hada BermudskÃ©ho trojÃºhelnÃ­ku. ZjistÄ›te, proÄ se v nÄ›m uÅ¾ po lÃ©ta ztrÃ¡cejÃ­ lodÄ› a letadla.
  @: This case may be connected to the mystery of the Bermuda Triangle. Find out why so many ships and planes have disappeared in this area over the past several decades.
 kd-silver
- @: Navíc jedna ze ztracenıch lodí údajnì patøila legendárnímu kapitánu Silverovi. Kolem tohoto slavného piráta je stále mnoho nejasností. Nás pøedev¹ím zajímá mapa místa, kam zakopal své poklady.
+ @: NavÃ­c jedna ze ztracenÃ½ch lodÃ­ ÃºdajnÄ› patÅ™ila legendÃ¡rnÃ­mu kapitÃ¡nu Silverovi. Kolem tohoto slavnÃ©ho pirÃ¡ta je stÃ¡le mnoho nejasnostÃ­. NÃ¡s pÅ™edevÅ¡Ã­m zajÃ­mÃ¡ mapa mÃ­sta, kam zakopal svÃ© poklady.
  @: One of the lost ships is rumored to have belonged to the legendary Captain Silver. There are still many uncertainties surrounding this famous pirate. Most of all we are interested in the map which shows the location of his buried treasure.
 kd-pocitac
- @: Jedním z nejdùle¾itìj¹ích úkolù je najít poèítaè, kterı v hlubinách ukryla nejmenovaná zloèinná organizace. Obsahuje údaje o projektu, kterı by mohl zmìnit celı svìt.
+ @: JednÃ­m z nejdÅ¯leÅ¾itÄ›jÅ¡Ã­ch ÃºkolÅ¯ je najÃ­t poÄÃ­taÄ, kterÃ½ v hlubinÃ¡ch ukryla nejmenovanÃ¡ zloÄinnÃ¡ organizace. Obsahuje Ãºdaje o projektu, kterÃ½ by mohl zmÄ›nit celÃ½ svÄ›t.
  @: One of your most important tasks is to find the computer hidden in the deep by a certain criminal organization. It contains data about a project which could change the entire world.
 kd-zelva
- @: Také je tøeba zajistit tajemnou ¾elvu, ¾elvu korálovou, je¾ uprchla z nápravnì vıchovné laboratoøe FDTO. Není ozbrojena, ale zøejmì má telepatické schopnosti.
+ @: TakÃ© je tÅ™eba zajistit tajemnou Å¾elvu, Å¾elvu korÃ¡lovou, jeÅ¾ uprchla z nÃ¡pravnÄ› vÃ½chovnÃ© laboratoÅ™e FDTO. NenÃ­ ozbrojena, ale zÅ™ejmÄ› mÃ¡ telepatickÃ© schopnosti.
  @: You should also find and detain the mysterious coral turtle. It escaped from the FDTO interrogation facility. It is not armed, but it supposedly has telepathic abilities.
 kd-elektr
- @: Byli jsme upozornìni, ¾e jistá jaderná elektrárna se zbavuje radiaktivního odpadu nelegálním zpùsobem. Provìøte to. 
+ @: Byli jsme upozornÄ›ni, Å¾e jistÃ¡ jadernÃ¡ elektrÃ¡rna se zbavuje radiaktivnÃ­ho odpadu nelegÃ¡lnÃ­m zpÅ¯sobem. ProvÄ›Å™te to. 
  @: We have been notified that a certain nuclear power plant has been dumping its radioactive waste illegally. Check it out.
 kd-gral
- @: A také nezapomeòte najít svatı grál.
+ @: A takÃ© nezapomeÅˆte najÃ­t svatÃ½ grÃ¡l.
  @: And don`t forget to find the holy grail.
 kd-zaver
- @: A jako v¾dy: Bude-li nìkdo z va¹eho tımu uvìznìn èi zabit, Altar se od v¹eho distancuje a místnost bude restartována.
+ @: A jako vÅ¾dy: Bude-li nÄ›kdo z vaÅ¡eho tÃ½mu uvÄ›znÄ›n Äi zabit, Altar se od vÅ¡eho distancuje a mÃ­stnost bude restartovÃ¡na.
  @: And as usual: If anyone from your team is injured or killed, Altar will deny any knowledge of your existence and the level will be restarted.
 kd-znici
- @: Tento disk se znièí za pìt sekund.
+ @: Tento disk se zniÄÃ­ za pÄ›t sekund.
  @: This disk will self-destruct in five seconds.
 
 kuf-m-je
- M: Jé, u¾ zase...
+ M: JÃ©, uÅ¾ zase...
  M: Oh no, not again...
 kuf-v-noco
- V: No, co nadìláme.
+ V: No, co nadÄ›lÃ¡me.
  V: You know there`s nothing we can do about it.
 kuf-v-hod
- V: Hodíme to dolù a podíváme se na to.
+ V: HodÃ­me to dolÅ¯ a podÃ­vÃ¡me se na to.
  V: Let`s push it down so we can take a look at it.
 
 kuf-v-doprace
- V: Tak, pus»me se do práce.
+ V: Tak, pusÅ¥me se do prÃ¡ce.
  V: Well, let`s get to work.
 kuf-v-dotoho
- V: Tak, a teï u¾ se do toho koneènì pustíme.
+ V: Tak, a teÄ uÅ¾ se do toho koneÄnÄ› pustÃ­me.
  V: So, now we can finally get started.
 kuf-m-ven
- M: Na¹ím prvním úkolem bude dostat se ven z místnosti.
+ M: NaÅ¡Ã­m prvnÃ­m Ãºkolem bude dostat se ven z mÃ­stnosti.
  M: Our first task is to get out of this room.
 kuf-v-ukol
- V: To bude ostatnì na¹ím úkolem ve v¹ech místnostech.
+ V: To bude ostatnÄ› naÅ¡Ã­m Ãºkolem ve vÅ¡ech mÃ­stnostech.
  V: This, by the way, is going to be our task in all the other rooms as well.
 
 kuf-v-jeste
- V: Nepodíváme se na to je¹tì jednou?
+ V: NepodÃ­vÃ¡me se na to jeÅ¡tÄ› jednou?
  V: Should we watch it again?
 kuf-m-disk
- M: Jak? Disk se znièil.
+ M: Jak? Disk se zniÄil.
  M: How? The disk self-destructed
 kuf-v-restart
- V: Mohli bychom místnost restartovat.
+ V: Mohli bychom mÃ­stnost restartovat.
  V: We could restart the level.
 kuf-m-pravda
  M: To je pravda...
  M: That`s true...
 
 kuf-m-dodilny
- M: Pojï, vezmeme hráèe do dílny a uká¾eme mu pravidla bezpeènosti práce.
+ M: PojÄ, vezmeme hrÃ¡Äe do dÃ­lny a ukÃ¡Å¾eme mu pravidla bezpeÄnosti prÃ¡ce.
  M: Come on, let`s take the player into the workshop and show him the work safety regulations.
 kuf-v-napad
- V: Dobrı nápad.
+ V: DobrÃ½ nÃ¡pad.
  V: Good idea.
 
 kuf-m-nezvednu
- M: Já to nenadzvednu, zkus to ty.
+ M: JÃ¡ to nenadzvednu, zkus to ty.
  M: I can`t lift it. Can you give it a try?
 kuf-m-kousek
- M: Je¹tì kousek, a» pod tebou mù¾u projet.
+ M: JeÅ¡tÄ› kousek, aÅ¥ pod tebou mÅ¯Å¾u projet.
  M: Just a little bit higher so I can swim underneath you.
 
 help1
- M: Teï na nic nesahej, jen se dívej. Uká¾eme ti, co bys s námi nemìl dìlat a co dìlat umíme.
+ M: TeÄ na nic nesahej, jen se dÃ­vej. UkÃ¡Å¾eme ti, co bys s nÃ¡mi nemÄ›l dÄ›lat a co dÄ›lat umÃ­me.
  M: For now, don`t touch anything, just watch and learn. We`ll show you what you should and shouldn`t do with us as well as what things we`re capable of.
 help2
- V: Ne¾ vstoupíme do dílny, ulo¾íme si pozici - dìlá se to klávesou F2.
+ V: NeÅ¾ vstoupÃ­me do dÃ­lny, uloÅ¾Ã­me si pozici - dÄ›lÃ¡ se to klÃ¡vesou F2.
  V: Before entering the workshop, let`s save the game - just press the F2 key.
 help3
- M: Nejprve ti uká¾eme, co nám ubli¾uje.
+ M: Nejprve ti ukÃ¡Å¾eme, co nÃ¡m ubliÅ¾uje.
  M: First we`ll show you what can hurt us.
 help4
- V: Já budu dìlat figuranta.
+ V: JÃ¡ budu dÄ›lat figuranta.
  V: I`ll volunteer to be the dummy.
 
 help5
- M: Pøedev¹ím bychom na sebe nemìli házet pøedmìty.
+ M: PÅ™edevÅ¡Ã­m bychom na sebe nemÄ›li hÃ¡zet pÅ™edmÄ›ty.
  M: First of all, we shouldn`t drop things on each other.
 help6
- M: Stejnì tak nesmíme podklesnout pod pøedmìtem, kterı neseme - spadnul by na nás.
+ M: StejnÄ› tak nesmÃ­me podklesnout pod pÅ™edmÄ›tem, kterÃ½ neseme - spadnul by na nÃ¡s.
  M: We also can`t swim downwards when carrying an object, because it would fall on us.
 
 help7
- V: Nyní zaèínáme znovu - mù¾eme v¹ak nahrát ulo¾enou pozici klávesou F3.
+ V: NynÃ­ zaÄÃ­nÃ¡me znovu - mÅ¯Å¾eme vÅ¡ak nahrÃ¡t uloÅ¾enou pozici klÃ¡vesou F3.
  V: Now we`ll start again - or we can load the saved game by pressing the F3 key.
 help8
- V: Tak, a jsme na místì, kde jsme hru ukládali.
+ V: Tak, a jsme na mÃ­stÄ›, kde jsme hru uklÃ¡dali.
  V: And now we`re back where we last saved the game.
 help9
- M: Dal¹í vìc, kterou nesmíme dìlat, je posunovat si pøedmìt po høbetì.
+ M: DalÅ¡Ã­ vÄ›c, kterou nesmÃ­me dÄ›lat, je posunovat si pÅ™edmÄ›t po hÅ™betÄ›.
  M: Another thing we must not do is push objects along our back.
 help10
- M: Nìkteré pøedmìty mají takovı tvar, ¾e bych je mohla zároveò dr¾et i posouvat - ale to také nesmím.
+ M: NÄ›kterÃ© pÅ™edmÄ›ty majÃ­ takovÃ½ tvar, Å¾e bych je mohla zÃ¡roveÅˆ drÅ¾et i posouvat - ale to takÃ© nesmÃ­m.
  M: Some objects are shaped in such a way that we could hold them and push them at the same time - but we`re not allowed to do this either.
 
 help11
- V: Znovu nahrajeme pozici klávesou F3.
+ V: Znovu nahrajeme pozici klÃ¡vesou F3.
  V: Again, we load a saved game by pressing the F3 key.
 help12
- M: Nesmíme ani pøihazovat pøedmìty na hromádku, kterou nìkdo z nás dr¾í.
+ M: NesmÃ­me ani pÅ™ihazovat pÅ™edmÄ›ty na hromÃ¡dku, kterou nÄ›kdo z nÃ¡s drÅ¾Ã­.
  M: We also can`t drop additional objects on a pile that one of us is carrying.
 help13
- M: A já, na rozdíl od vìt¹ího kamaráda, nejen ¾e nepohnu s ocelovımi pøedmìty, ale nesmím je ani dr¾et.
+ M: A jÃ¡, na rozdÃ­l od vÄ›tÅ¡Ã­ho kamarÃ¡da, nejen Å¾e nepohnu s ocelovÃ½mi pÅ™edmÄ›ty, ale nesmÃ­m je ani drÅ¾et.
  M: And unlike my bigger partner, I can`t move or even carry steel objects.
 
 help14
- V: Naposledy jsme nahráli pozici. Teï ti uká¾eme, co dìlat umíme.
+ V: Naposledy jsme nahrÃ¡li pozici. TeÄ ti ukÃ¡Å¾eme, co dÄ›lat umÃ­me.
  V: We have loaded our saved game for the last time. Now we`ll show you all the things we`re capable of.
 help15
- M: Pøedmìt mù¾eme v¾dy zvedat a zase pou¹tìt.
+ M: PÅ™edmÄ›t mÅ¯Å¾eme vÅ¾dy zvedat a zase pouÅ¡tÄ›t.
  M: We can always pick up objects and then let them fall.
 help16
- M: Pokud se tìsnì pøed tím, ne¾ by nás mìl zamáèknout, nìkde zachytí, mù¾eme ho i posouvat jedna po druhé...
+ M: Pokud se tÄ›snÄ› pÅ™ed tÃ­m, neÅ¾ by nÃ¡s mÄ›l zamÃ¡Äknout, nÄ›kde zachytÃ­, mÅ¯Å¾eme ho i posouvat jedna po druhÃ©...
  M: We can push an object along each other`s back only if the object will then be pushed onto another support...
 help17
- M: ... a dokonce ho na sebe pou¹tìt.
+ M: ... a dokonce ho na sebe pouÅ¡tÄ›t.
  M: ... and even let it drop on each other in this case.
 help18
- M: To mohu udìlat i sama... podklesnu pod ním... a nebo jej nasunu támhle na tu polici.
+ M: To mohu udÄ›lat i sama... podklesnu pod nÃ­m... a nebo jej nasunu tÃ¡mhle na tu polici.
  M: I can even do this alone... I can swim down under it... or put it on this ledge.
 help19
- M: Také mù¾eme posouvat pøedmìt po jiném pøedmìtu, kterı dr¾íme, ne v¹ak pøímo po zádech.
+ M: TakÃ© mÅ¯Å¾eme posouvat pÅ™edmÄ›t po jinÃ©m pÅ™edmÄ›tu, kterÃ½ drÅ¾Ã­me, ne vÅ¡ak pÅ™Ã­mo po zÃ¡dech.
  M: We can also push one object along the top of another object which we are supporting, but we can`t move the object that is directly on our back.
 help20
- V: Mù¾eme také pod pøedmìtem volnì proplouvat a pøedávat si jej.
+ V: MÅ¯Å¾eme takÃ© pod pÅ™edmÄ›tem volnÄ› proplouvat a pÅ™edÃ¡vat si jej.
  V: We can also swim freely under an object which we are supporting and pass it to the other fish.
 help21
- M: A pokud pøedmìt hned spadne, mù¾eme ho jedna z druhé shodit.
+ M: A pokud pÅ™edmÄ›t hned spadne, mÅ¯Å¾eme ho jedna z druhÃ© shodit.
  M: And we can push objects off of each other`s back, as long as the object falls down immediately.
 help22
- V: Tak, to by asi bylo z pravidel v¹echno. Chce¹-li vìdìt více, stiskni F1 a pøeèti si návod.
+ V: Tak, to by asi bylo z pravidel vÅ¡echno. ChceÅ¡-li vÄ›dÄ›t vÃ­ce, stiskni F1 a pÅ™eÄti si nÃ¡vod.
  V: That`s about it for the rules. If you want to know more, press F1 and read the help section.
 help23
- M: Já bych to je¹tì shrnula. Pøedmìty mù¾eme beztrestnì pouze zvedat, pou¹tìt, posouvat po pevné podlo¾ce, na nìco je nasouvat nebo je ze sebe shazovat.
+ M: JÃ¡ bych to jeÅ¡tÄ› shrnula. PÅ™edmÄ›ty mÅ¯Å¾eme beztrestnÄ› pouze zvedat, pouÅ¡tÄ›t, posouvat po pevnÃ© podloÅ¾ce, na nÄ›co je nasouvat nebo je ze sebe shazovat.
  M: In summary, we can only lift objects, let them drop, push them along a solid surface, push them onto a surface, and push them off of each other.

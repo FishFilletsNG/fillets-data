@@ -1,25 +1,25 @@
 CE
 cil-v-hlaska0
- V: Myslím, ¾e tu je¹tì máme práci.
+ V: MyslÃ­m, Å¾e tu jeÅ¡tÄ› mÃ¡me prÃ¡ci.
  V: I think we have a job to do here.
 cil-m-hlaska0
- M: Myslím, ¾e tu je¹tì máme práci.
+ M: MyslÃ­m, Å¾e tu jeÅ¡tÄ› mÃ¡me prÃ¡ci.
  M: I think we have a job to do here.
 cil-v-hlaska1
- V: Je¹tì jsme nesplnili svoje poslání.
+ V: JeÅ¡tÄ› jsme nesplnili svoje poslÃ¡nÃ­.
  V: We didn`t fulfill our mission yet.
 cil-m-hlaska1
- M: Je¹tì jsme nesplnili svoje poslání.
+ M: JeÅ¡tÄ› jsme nesplnili svoje poslÃ¡nÃ­.
  M: We didn`t fulfill our mission yet.
 cil-m-hlaska2
- M: Agentura se na nás spoléhá, nemù¾eme ji zklamat.
+ M: Agentura se na nÃ¡s spolÃ©hÃ¡, nemÅ¯Å¾eme ji zklamat.
  M: The Agency relies upon us. We must not fail.
 cil-v-hlaska2
- V: Agentura se na nás spoléhá, nemù¾eme ji zklamat.
+ V: Agentura se na nÃ¡s spolÃ©hÃ¡, nemÅ¯Å¾eme ji zklamat.
  V: The Agency relies upon us. We must not fail.
 cil-v-hlaska3
- V: Pøece neuteèem tìsnì pøed koncem.
+ V: PÅ™ece neuteÄem tÄ›snÄ› pÅ™ed koncem.
  V: Certainly, we are not going to run away with the end in sight.
 cil-m-hlaska3
- M: Pøece neuteèem tìsnì pøed koncem.
+ M: PÅ™ece neuteÄem tÄ›snÄ› pÅ™ed koncem.
  M: Certainly, we are not going to run away with the end in sight.

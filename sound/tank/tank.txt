@@ -1,53 +1,53 @@
 CE
 sv-m-pomohli
- M: To jsme si pomohli. Z batyskafu do tanku, to je jako ze sítì do podbìráku.
+ M: To jsme si pomohli. Z batyskafu do tanku, to je jako ze sÃ­tÄ› do podbÄ›rÃ¡ku.
  M: This is some improvement. From bathyscaph to tank, this is like from line to the net.
 sv-v-bezsneku
- V: Aspoò tu nejsou ¾ádní pøeochotní ¹neci.
+ V: AspoÅˆ tu nejsou Å¾Ã¡dnÃ­ pÅ™eochotnÃ­ Å¡neci.
  V: At least, there are no oh-so-obliging snails here.
 sv-m-utecha
- M: To je jen slabá útìcha.
+ M: To je jen slabÃ¡ ÃºtÄ›cha.
  M: This is but little consolation.
 
 sv-v-chtel
- V: Vlasntì jsem si v¾dycky chtìl prohlédnout tank zevnitø.
+ V: VlasntÄ› jsem si vÅ¾dycky chtÄ›l prohlÃ©dnout tank zevnitÅ™.
  V: Thinking about it, I always wanted to see the tank from within.
 sv-m-doscasu
- M: Na to teï bude¹ mít èasu víc ne¾ dost.
+ M: Na to teÄ budeÅ¡ mÃ­t Äasu vÃ­c neÅ¾ dost.
  M: It seems you will have plenty of opportunity to do this.
 
 sv-m-tank
- M: Jak se asi dostal ten tank do moøe?
+ M: Jak se asi dostal ten tank do moÅ™e?
  M: How did this tank got into the sea?
 sv-v-obojzivelny
- V: Mo¾ná to byl oboj¾ivelnı tank.
+ V: MoÅ¾nÃ¡ to byl obojÅ¾ivelnÃ½ tank.
  V: Maybe it was an amphibious tank.
 sv-m-kecy
- M: Moøskı oboj¾ivelnı tank? Úplnì to vidím pøed sebou: za bezmìsíèné noci se k pobøe¾í omıvanému vlnami ¹írého oceánu blí¾í les ¹norchlù... a na píseèné plá¾e vyjí¾dìjí první obrnìnci... konsternovaní obránci nechápavì hledají loï, která je tu vysadila...
+ M: MoÅ™skÃ½ obojÅ¾ivelnÃ½ tank? ÃšplnÄ› to vidÃ­m pÅ™ed sebou: za bezmÄ›sÃ­ÄnÃ© noci se k pobÅ™eÅ¾Ã­ omÃ½vanÃ©mu vlnami Å¡Ã­rÃ©ho oceÃ¡nu blÃ­Å¾Ã­ les Å¡norchlÅ¯... a na pÃ­seÄnÃ© plÃ¡Å¾e vyjÃ­Å¾dÄ›jÃ­ prvnÃ­ obrnÄ›nci... konsternovanÃ­ obrÃ¡nci nechÃ¡pavÄ› hledajÃ­ loÄ, kterÃ¡ je tu vysadila...
  M: Sea amphibious tank? Just imagine: On the moonless night, the uncomprehending defenders bewilderedly watch the forest of snorkels emerging from the surf, searching in vain for the landing craft...
 sv-v-proc
- V: Tak proè se ptá¹, kdy¾ jsi tak chytrá?!
+ V: Tak proÄ se ptÃ¡Å¡, kdyÅ¾ jsi tak chytrÃ¡?!
  V: So why are you asking, if you are so darned clever?!
 sv-v-potopena
- V: Mo¾ná je tu potopená vısadková loï.
+ V: MoÅ¾nÃ¡ je tu potopenÃ¡ vÃ½sadkovÃ¡ loÄ.
  V: Maybe, there is sunken landing craft nearby.
 sv-m-pravdepodob
- M: To je pravdìpodobné.
+ M: To je pravdÄ›podobnÃ©.
  M: It is possible.
 
 sv-m-munice
- M: Myslí¹, ¾e ta munice je je¹tì funkèní?
+ M: MyslÃ­Å¡, Å¾e ta munice je jeÅ¡tÄ› funkÄnÃ­?
  M: Do you think that this ammunition could harm us?
 sv-v-nevim
- V: Nevím. Ka¾dopádnì se od ní budu dr¾et rad¹i dál.
+ V: NevÃ­m. KaÅ¾dopÃ¡dnÄ› se od nÃ­ budu drÅ¾et radÅ¡i dÃ¡l.
  V: I don`t know. But surely, I`ll try to keep my distance from it.
 
 sv-v-zebrik
- V: Myslím, ¾e budeme potøebovat ten ¾ebøík.
+ V: MyslÃ­m, Å¾e budeme potÅ™ebovat ten Å¾ebÅ™Ã­k.
  V: I think we are going to need that ladder.
 sv-m-ven
- M: Abychom po nìm vylezli ven? V¾dy» máme jen ploutve.
+ M: Abychom po nÄ›m vylezli ven? VÅ¾dyÅ¥ mÃ¡me jen ploutve.
  M: To climb out? But we have only fins.
 sv-v-ucpat
- V: Abychom s ním ucpali tu díru.
+ V: Abychom s nÃ­m ucpali tu dÃ­ru.
  V: No. To plug that hole.

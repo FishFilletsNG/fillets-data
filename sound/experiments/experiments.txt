@@ -1,69 +1,69 @@
 CE
 bank-m-labolator1
- M: Jsme asi v nìjaké vìdecké laboratoøi.
+ M: Jsme asi v nÄ›jakÃ© vÄ›deckÃ© laboratoÅ™i.
  M: This must be some kind of laboratory.
 bank-m-labolator2
- M: Vypadá to, ¾e i UFO mù¾e mít vìdeckou laboratoø na palubì.
+ M: VypadÃ¡ to, Å¾e i UFO mÅ¯Å¾e mÃ­t vÄ›deckou laboratoÅ™ na palubÄ›.
  M: It seems that even UFOs can be equipped with an on-board lab.
 bank-m-labolator3
- M: Tohle vypadá na vìdeckou laboratoø!
+ M: Tohle vypadÃ¡ na vÄ›deckou laboratoÅ™!
  M: This looks like a laboratory.
 bank-v-pokusy1
- V: Koukám, ¾e se tady provádìjí dost podezøelé pokusy.
+ V: KoukÃ¡m, Å¾e se tady provÃ¡dÄ›jÃ­ dost podezÅ™elÃ© pokusy.
  V: These experiments seem quite suspicious to me.
 bank-v-pokusy2
- V: Myslím, ¾e se zde provádìjí velmi podezøelé pokusy.
+ V: MyslÃ­m, Å¾e se zde provÃ¡dÄ›jÃ­ velmi podezÅ™elÃ© pokusy.
  V: I think that someone`s carrying out some rather suspicious experiments here.
 
 bank-m-jejda
  M: Jejda, co je tohle?!?
  M: My gosh, what`s this?!?
 bank-v-zije
- V: V¹ude to tady ¾ije.
+ V: VÅ¡ude to tady Å¾ije.
  V: Everything`s alive here.
 bank-m-nerus
- M: Neru¹, vìdecky zkoumám.
+ M: NeruÅ¡, vÄ›decky zkoumÃ¡m.
  M: Shhhhh, I need to examine this laboratory.
 
 bank-m-bojim
- M: Trochu se bojím té vìci za dveømi...
+ M: Trochu se bojÃ­m tÃ© vÄ›ci za dveÅ™mi...
  M: I`m little bit afraid of that thing behind the door...
 bank-m-ocicka
- M: Proè to má tøi oèi?
+ M: ProÄ to mÃ¡ tÅ™i oÄi?
  M: Why does it have three eyes?
 bank-v-pomoc
- V: Nech toho tam dole a pojï mi rad¹i pomoct!
+ V: Nech toho tam dole a pojÄ mi radÅ¡i pomoct!
  V: Stop what you`re doing down there and come help me!
 
 bank-m-organismy
- M: Netu¹ila jsem, ¾e uvnitø UFA najdeme tolik ¾ivıch organismù...
+ M: NetuÅ¡ila jsem, Å¾e uvnitÅ™ UFA najdeme tolik Å¾ivÃ½ch organismÅ¯...
  M: I would never have thought that we`d find so many living things inside a UFO...
 bank-v-potvory
- V: Je tady neuvìøitelné mno¾ství rùznıch potvor!
+ V: Je tady neuvÄ›Å™itelnÃ© mnoÅ¾stvÃ­ rÅ¯znÃ½ch potvor!
  V: There are an incredible number of different creatures here!
 
 bank-v-mnozeni
- V: Proboha, tady se nìco stra¹nì mno¾í!
+ V: Proboha, tady se nÄ›co straÅ¡nÄ› mnoÅ¾Ã­!
  V: My goodness, look at those things reproduce!
 bank-m-nesetkala
- M: S tímto typem organismu jsem se je¹tì nesetkala.
+ M: S tÃ­mto typem organismu jsem se jeÅ¡tÄ› nesetkala.
  M: I`ve never seen this kind of organism before.
 
 bank-m-kouka
- M: Pomoc, ono to na mne kouká!
+ M: Pomoc, ono to na mne koukÃ¡!
  M: Help! It`s looking at me!
 bank-m-fuj
  M: Fuj.
  M: Yuck.
 
 bank-m-nervozni
- M: Jsem z té ruky trochu nervózní...
+ M: Jsem z tÃ© ruky trochu nervÃ³znÃ­...
  M: That hand gives me the creeps...
 bank-m-zkumavka
- M: Z té zkumavky je nìco podezøelého cítit...
+ M: Z tÃ© zkumavky je nÄ›co podezÅ™elÃ©ho cÃ­tit...
  M: There`s a strange odor coming from this test-tube...
 bank-m-hlavakolem
- M: Z toho v¹eho tady u¾ mi jde hlava kolem...
+ M: Z toho vÅ¡eho tady uÅ¾ mi jde hlava kolem...
  M: All of this is making my head spin...
 
 bank-v-neproplavu1
@@ -73,40 +73,40 @@ bank-v-neproplavu2
  V: Tudy neproplavu, budeme to muset shodit.
  V: I can`t swim through here. We`re going to have to push this down.
 bank-v-nahazet
- V: Budeme tam tìch vìcí muset naházet asi víc.
+ V: Budeme tam tÄ›ch vÄ›cÃ­ muset nahÃ¡zet asi vÃ­c.
  V: We`re going to need to throw on a lot more of these things.
 bank-v-jeste
- V: Je¹tì.
+ V: JeÅ¡tÄ›.
  V: More.
 
 bank-m-prohlednout
- M: Musíme si tu v¹echno dùkladnì prohlédnout.
+ M: MusÃ­me si tu vÅ¡echno dÅ¯kladnÄ› prohlÃ©dnout.
  M: We have to look everything here over very carefully.
 bank-v-vypad1
- V: Radìji bych rychle vypad`.
+ V: RadÄ›ji bych rychle vypad`.
  V: I`d rather get out of here.
 bank-v-vypad2
- V: No, já bych nejradìji u¾ vypadl.
+ V: No, jÃ¡ bych nejradÄ›ji uÅ¾ vypadl.
  V: You know, I`d really rather get out of here.
  
 bank-v-flaska
- V: Tahle fla¹ka mi nedìlá dobøe.
+ V: Tahle flaÅ¡ka mi nedÄ›lÃ¡ dobÅ™e.
  V: The odor from this bottle is making me sick.
 bank-m-rozbila
- M: Jé, rozbila se...
+ M: JÃ©, rozbila se...
  M: Ooops, it broke...
 
 bank-m-tvorove
- M: Myslím, ¾e nìkteøí ti tvorové tady jsou vısledkem genetickıch manipulací.
+ M: MyslÃ­m, Å¾e nÄ›kteÅ™Ã­ ti tvorovÃ© tady jsou vÃ½sledkem genetickÃ½ch manipulacÃ­.
  M: I think that some of these creatures here are a result of genetic engineering.
 
 bank-m-prehnal1
- M: Tohle nìkdo pøehnal!
+ M: Tohle nÄ›kdo pÅ™ehnal!
  M: This is just too much!
 bank-m-prehnal2
- M: Tohle je tedy extrémnì morbidní!
+ M: Tohle je tedy extrÃ©mnÄ› morbidnÃ­!
  M: How morbid!
 bank-m-mrtvolka
- M: Tahle mrtvolka mi pøipadá povìdomá.
+ M: Tahle mrtvolka mi pÅ™ipadÃ¡ povÄ›domÃ¡.
  M: This corpse looks familiar to me.
 

@@ -1,16 +1,16 @@
 CE
 ncp-m-tesno0
- M: Hele, jak mám z toho vylézt?
+ M: Hele, jak mÃ¡m z toho vylÃ©zt?
  M: Look, how I am supposed to get out of here?
 ncp-m-tesno1
- M: Je tu celkem tìsno.
+ M: Je tu celkem tÄ›sno.
  M: It`s quite tight in here.
 ncp-v-dostala
  V: Jak ses tam dostala?
  V: How did you manage to get there?
 
 ncp-v-sasanka
- V: Nehrej si se sasankou a pojïme se rad¹i nìjak dostat ven.
+ V: Nehrej si se sasankou a pojÄme se radÅ¡i nÄ›jak dostat ven.
  V: Stop playing with anemone and help me to get us out of here.
 
 ncp-m-nekoukej
@@ -18,28 +18,28 @@ ncp-m-nekoukej
  M: Don`t be surprised.
 
 ncp-m-komari
- M: Tady je ale v¹ude komárù...
+ M: Tady je ale vÅ¡ude komÃ¡rÅ¯...
  M: There is so many carols here...
 ncp-v-ceho
- V: Èeho?
+ V: ÄŒeho?
  V: What?
 ncp-m-koraly
- M: No korálù, jsi hluchı?
+ M: No korÃ¡lÅ¯, jsi hluchÃ½?
  M: So many corals. Are you deaf or what?
 
 ncp-m-tvrdy
- M: To je ale tvrdı korál.
+ M: To je ale tvrdÃ½ korÃ¡l.
  M: Oh my, this is a hard coral.
 
 ncp-v-mekky
- V: To je ale mìkkı korál.
+ V: To je ale mÄ›kkÃ½ korÃ¡l.
  V: Oh my, this is a soft coral.
 
 ncp-v-tak
  V: Tak!
  V: So!
 ncp-m-muzes
- M: Teï u¾ mù¾e¹ ven, ne?
+ M: TeÄ uÅ¾ mÅ¯Å¾eÅ¡ ven, ne?
  M: Now you can get out, can`t you?
 
 ncp-v-neprojedu

@@ -1,64 +1,64 @@
 CE
 jed-m-libi
- M: Tady se mi líbí.
+ M: Tady se mi lÃ­bÃ­.
  M: It is lovely here.
 jed-m-perly0
- M: Takovıch perel.
+ M: TakovÃ½ch perel.
  M: So many pearls.
 jed-m-perly1
- M: V¹ude samé perly.
+ M: VÅ¡ude samÃ© perly.
  M: There are so many pearls here.
 jed-v-poslani0
- V: Poslechni... Nezapomínej na na¹e úkoly!
+ V: Poslechni... NezapomÃ­nej na naÅ¡e Ãºkoly!
  V: Listen... Don`t forget our mission!
 jed-v-poslani1
- V: Nejsme tady na perlách.
+ V: Nejsme tady na perlÃ¡ch.
  V: We are no pearl-hunters.
 jed-v-poslani2
- V: Nezapomeò! Máme poslání.
+ V: NezapomeÅˆ! MÃ¡me poslÃ¡nÃ­.
  V: Remember! We have a mission to complete.
 
 jed-m-flakas
- M: Ty se tam nahoøe fláká¹ a já to tu musím oddøít v¹echno sama!
+ M: Ty se tam nahoÅ™e flÃ¡kÃ¡Å¡ a jÃ¡ to tu musÃ­m oddÅ™Ã­t vÅ¡echno sama!
  M: You are just sitting up there and I have to do all the work myself!
 jed-v-uzivat0
- V: V¾dy» jsi øíkala, ¾e má¹ perly ráda.
+ V: VÅ¾dyÅ¥ jsi Å™Ã­kala, Å¾e mÃ¡Å¡ perly rÃ¡da.
  V: Didn`t you say that you like the pearls?
 jed-v-uzivat1
- V: Mù¾e¹ si do sytosti u¾ívat perel.
+ V: MÅ¯Å¾eÅ¡ si do sytosti uÅ¾Ã­vat perel.
  V: Aren`t you happy with so many pearls?
 
 jed-m-perlorodka0
- M: Potøebuju je¹tì jednu perlu.
+ M: PotÅ™ebuju jeÅ¡tÄ› jednu perlu.
  M: I need one more pearl.
 jed-x-nedam
- P: Nedám.
+ P: NedÃ¡m.
  P: Nope.
 jed-m-perlorodka1
- M: Prosím, je¹tì jednu perlu.
+ M: ProsÃ­m, jeÅ¡tÄ› jednu perlu.
  M: One more pearl, please.
 jed-m-perlorodka2
- M: Má drahá pøítelkynì, nemù¾e¹ mi, prosím, na chvilku pùjèit jednu perlièku?
+ M: MÃ¡ drahÃ¡ pÅ™Ã­telkynÄ›, nemÅ¯Å¾eÅ¡ mi, prosÃ­m, na chvilku pÅ¯jÄit jednu perliÄku?
  M: My dearest friend, couldn`t you possibly lend me just one little pearl?
 
 
 jed-m-trubka
- M: Jestli by nebylo jednodu¹¹í tu ocelovou trubku zkrátit.
+ M: Jestli by nebylo jednoduÅ¡Å¡Ã­ tu ocelovou trubku zkrÃ¡tit.
  M: I wonder if it wouldn`t be easier to shorten that steel pipe.
 
 jed-v-ocet
- V: Kleopatra prı rozpou¹tìla perly v octì.
+ V: Kleopatra prÃ½ rozpouÅ¡tÄ›la perly v octÄ›.
  V: Cleopatra is rumored to dissolve pearls in vinegar.
 jed-m-moc
- M: Zdá se ti snad, ¾e jich tu máme moc?
+ M: ZdÃ¡ se ti snad, Å¾e jich tu mÃ¡me moc?
  M: Do you think we have too many of them?
 jed-v-vzdelat
- V: Jenom jsem tì chtìl trochu vzdìlat.
+ V: Jenom jsem tÄ› chtÄ›l trochu vzdÄ›lat.
  V: Well, I just wanted to educate you a little.
 
 jed-v-poter
- V: Kdy¾ se na tebe dívám, vzpomínám, jak jsem hrál s potìrem kulièky.
+ V: KdyÅ¾ se na tebe dÃ­vÃ¡m, vzpomÃ­nÃ¡m, jak jsem hrÃ¡l s potÄ›rem kuliÄky.
  V: Watching you, I have to think about how I played marbles with tadpoles.
 jed-m-kulicka
- M: Pøedpokládám, ¾e ti nìjaká kulièka nezbyla v kapse, co?
+ M: PÅ™edpoklÃ¡dÃ¡m, Å¾e ti nÄ›jakÃ¡ kuliÄka nezbyla v kapse, co?
  M: You haven`t got a spare marble in your pocket, do you?

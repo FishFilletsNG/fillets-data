@@ -1,37 +1,37 @@
 CE
 wc-v-oblibene
- V: WC je oblíbenım Davidovım místem.
+ V: WC je oblÃ­benÃ½m DavidovÃ½m mÃ­stem.
  V: Toilet is David`s favorite place.
 wc-m-coze
- M: Co¾e?
+ M: CoÅ¾e?
  M: What?
 wc-v-neznas
- V: Ty nezná¹ Davida? To je grafik, kterı na téhle høe pracoval!
+ V: Ty neznÃ¡Å¡ Davida? To je grafik, kterÃ½ na tÃ©hle hÅ™e pracoval!
  V: You don`t know David? It`s one of the artists who worked on this game.
 wc-m-sochar
- M: David nebyl ¾ádnı malíø. David byl sochaø. Davidova socha je jednou z nejznámìj¹ích renesanèních památek.
+ M: David nebyl Å¾Ã¡dnÃ½ malÃ­Å™. David byl sochaÅ™. Davidova socha je jednou z nejznÃ¡mÄ›jÅ¡Ã­ch renesanÄnÃ­ch pamÃ¡tek.
  M: David was no graphic artist. He was a sculpturer. His sculptures are one of the best-known Renaissance artifacts.
 wc-v-zmatek
- V: Má¹ v tom nìjakı zmatek.
+ V: MÃ¡Å¡ v tom nÄ›jakÃ½ zmatek.
  V: You`ve got it all wrong.
 
 wc-m-prasecinky
- M: Já jsem ti øíkala, ¾e zrovna my splachovací záchod nepotøebujeme. A je¹tì tu visí ty tvoje praseèinky.
+ M: JÃ¡ jsem ti Å™Ã­kala, Å¾e zrovna my splachovacÃ­ zÃ¡chod nepotÅ™ebujeme. A jeÅ¡tÄ› tu visÃ­ ty tvoje praseÄinky.
  M: Didn`t I tell you, that WE don`t need a flushing toilet? And decorated with your smut, too!
 wc-v-hygiena
- V: Splachovací záchod je hygieniètìj¹í a pod vodou i ekologiètìj¹í.
+ V: SplachovacÃ­ zÃ¡chod je hygieniÄtÄ›jÅ¡Ã­ a pod vodou i ekologiÄtÄ›jÅ¡Ã­.
  V: The flushing toilet is more hygienical and when under water even more ecological.
 
 wc-m-vlezt
- M: Je¹tì, ¾e nemusím vlézt pøímo do mísy.
+ M: JeÅ¡tÄ›, Å¾e nemusÃ­m vlÃ©zt pÅ™Ã­mo do mÃ­sy.
  M: Luckily, I needn`t climb inside.
 
 wc-m-hrbitov
- M: Necítím se tady dobøe. Pøipadám si jako na høbitovì.
+ M: NecÃ­tÃ­m se tady dobÅ™e. PÅ™ipadÃ¡m si jako na hÅ™bitovÄ›.
  M: I don`t feel very well here. I feel like in the cemetery.
 wc-v-coze
- V: Co¾e?
+ V: CoÅ¾e?
  V: What do you mean?
 wc-m-nevis
- M: Copak neví¹, kde konèí svùj ¾ivot spousta akvarijních rybièek?
+ M: Copak nevÃ­Å¡, kde konÄÃ­ svÅ¯j Å¾ivot spousta akvarijnÃ­ch rybiÄek?
  M: Don`t you know where so many aquarium fish end their life?
