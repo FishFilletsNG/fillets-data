@@ -3,6 +3,12 @@ local function viewY(model)
     local shift_x, shift_y = model_getViewShift(model.index)
     return model.Y + shift_y
 end
+local function incViewShift(model, shift_x, shift_y)
+    local oldShiftX, oldShiftY = model_getViewShift(model.index)
+    model_setViewShift(model.index,
+        oldShiftX + shift_x,
+        oldShiftY + shift_y)
+end
 
 -- -----------------------------------------------------------------
 -- Init
@@ -229,11 +235,11 @@ local function prog_init()
                 end,
                 [28] = function()
                     cerv.afaze = 0
-                    model_setViewShift(cerv.index, -1, -1)
+                    incViewShift(cerv, -1, -1)
                 end,
                 [32] = function()
                     if viewY(cerv) < cerv.mez then
-                        model_setViewShift(cerv.index, 1, 1)
+                        incViewShift(cerv, 1, 1)
                     else
                         cerv.stav = 0
                         cerv.mez = random(cerv.mez - 2)
