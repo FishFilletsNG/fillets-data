@@ -52,7 +52,7 @@ local function prog_init()
                     krab4:killSound()
 
                     room.vsichni = 0
-					dialog_table = {
+                    dialog_table = {
                         [0] = function()
                             addm(20 + random(15), "mik-m-krab")
                             if random(100) < 50 then
@@ -89,8 +89,8 @@ local function prog_init()
                         end,
                     }
 
-					dialog_table[3] = dialog_table[2]
-					dialog_table[4] = dialog_table[2]
+                    dialog_table[3] = dialog_table[2]
+                    dialog_table[4] = dialog_table[2]
                     switch(random(7))(dialog_table)
 
                     room.okrikla = 0
@@ -149,7 +149,7 @@ local function prog_init()
                 }
             end
 
-			kun:updateAnim()
+            kun:updateAnim()
         end
     end
 
@@ -187,7 +187,7 @@ local function prog_init()
                 }
             end
 
-			rybusa:updateAnim()
+            rybusa:updateAnim()
         end
     end
 
@@ -207,7 +207,7 @@ local function prog_init()
             end
             sepie.afaze = sepie.mrk * 3 + sepie.pozice
 
-			sepie:updateAnim()
+            sepie:updateAnim()
         end
     end
 
@@ -257,7 +257,7 @@ local function prog_init()
                 krab4.drzej = 1
             end
 
-			krab4:updateAnim()
+            krab4:updateAnim()
         end
     end
 
@@ -307,7 +307,7 @@ local function prog_init()
                 krab3.drzej = 1
             end
 
-			krab3:updateAnim()
+            krab3:updateAnim()
         end
     end
 
@@ -357,7 +357,7 @@ local function prog_init()
                 krab2.drzej = 1
             end
 
-			krab2:updateAnim()
+            krab2:updateAnim()
         end
     end
 
@@ -388,7 +388,7 @@ local function prog_init()
                 snek.pauza = random(20) + 5
             end
 
-			snek:updateAnim()
+            snek:updateAnim()
         end
     end
 
