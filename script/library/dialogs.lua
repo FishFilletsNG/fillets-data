@@ -77,23 +77,24 @@ dialog_addDialog("vrak-m-knihy5", "de", "", "font_small", "Widerwilliger Hellseh
 dialog_addDialog("vrak-m-knihy6", "en", "", "font_small", "Outreaching Daniken.")
 dialog_addDialog("vrak-m-knihy6", "cs", "sound/"..codename.."/cs/vrak-m-knihy6.ogg", "font_small", "Co Daniken netušil.")
 dialog_addDialog("vrak-m-knihy6", "fr", "", "font_small", "Inaccessible Daniken.")
-dialog_addDialog("vrak-m-knihy6", "de", "", "font_small", "Däniken übertrumpfen.")
+dialog_addDialog("vrak-m-knihy6", "de", "", "font_small", "Über Däniken hinaus.")
 
 dialog_addDialog("vrak-v-vyhodit", "en", "", "font_big", "I`d throw out these, for example.")
 dialog_addDialog("vrak-v-vyhodit", "cs", "sound/"..codename.."/cs/vrak-v-vyhodit.ogg", "font_big", "Já bych vyhodil třeba támhlety.")
 dialog_addDialog("vrak-v-vyhodit", "fr", "", "font_big", "Je jette ça, par exemple.")
-dialog_addDialog("vrak-v-vyhodit", "de", "", "font_big", "Die würde ich zum Beispiel wegschmeißen.")
-dialog_addDialog("vrak-v-vyhodit", "de_CH", "", "font_big", "Die würde ich zum Beispiel wegschmeissen.")
+dialog_addDialog("vrak-v-vyhodit", "de", "", "font_big", "Ich würde die hier zum Beispiel wegschmeißen:")
+dialog_addDialog("vrak-v-vyhodit", "de_CH", "", "font_big", "Ich würde die hier zum Beispiel wegschmeissen:")
 
 dialog_addDialog("vrak-v-knihy0", "en", "", "font_big", "The Three Little Shrimp")
 dialog_addDialog("vrak-v-knihy0", "cs", "sound/"..codename.."/cs/vrak-v-knihy0.ogg", "font_big", "Jak Frk a Brk putovali za sumýškem.")
 dialog_addDialog("vrak-v-knihy0", "fr", "", "font_big", "Les trois petites crevettes.")
-dialog_addDialog("vrak-v-knihy0", "de", "", "font_big", "Der Hai und die sieben Fischlein.")
+dialog_addDialog("vrak-v-knihy0", "de", "", "font_big", "Der Hai und die sieben Geißlein.")
+dialog_addDialog("vrak-v-knihy0", "de_CH", "", "font_big", "Der Hai und die sieben Geisslein.")
 
 dialog_addDialog("vrak-v-knihy1", "en", "", "font_big", "The Gingerbread Submarine")
 dialog_addDialog("vrak-v-knihy1", "cs", "sound/"..codename.."/cs/vrak-v-knihy1.ogg", "font_big", "O perníkové ponorce.")
 dialog_addDialog("vrak-v-knihy1", "fr", "", "font_big", "Le sous-marin en pain d'épice.")
-dialog_addDialog("vrak-v-knihy1", "de", "", "font_big", "Der Seeigel mit den drei goldenen Stacheln.")
+dialog_addDialog("vrak-v-knihy1", "de", "", "font_big", "Rotbärschchen und der böse Wolf.")
 
 dialog_addDialog("vrak-v-knihy2", "en", "", "font_big", "Goldilocks and the Three Lobsters")
 dialog_addDialog("vrak-v-knihy2", "cs", "sound/"..codename.."/cs/vrak-v-knihy2.ogg", "font_big", "Dlouhý, Široký a Hluboký.")
@@ -138,7 +139,7 @@ dialog_addDialog("vrak-m-cteni1", "de", "", "font_small", "Wenn Du ein wenig Spo
 dialog_addDialog("vrak-m-cteni2", "en", "", "font_small", "I told you not to buy that Compleate Dictionary of Abnormal.")
 dialog_addDialog("vrak-m-cteni2", "cs", "sound/"..codename.."/cs/vrak-m-cteni2.ogg", "font_small", "Říkala jsem ti, ať nekupuješ ten Velký slovník abnormálních výrazů.")
 dialog_addDialog("vrak-m-cteni2", "fr", "", "font_small", "Je t'avais dis de ne pas acheter ce dictionnaire complet de l'anormal.")
-dialog_addDialog("vrak-m-cteni2", "de", "", "font_small", "Ich hab Dir doch gesagt, Du sollst nicht dieses Wörterbuch des Abnormalen kaufen.")
+dialog_addDialog("vrak-m-cteni2", "de", "", "font_small", "Ich habe Dir doch gesagt, Du sollst nicht dieses \"Wörterbuch des Abnormalen\" kaufen.")
 
 dialog_addDialog("vrak-v-policky", "en", "", "font_big", "Let`s think. We can`t get these books off the shelf.")
 dialog_addDialog("vrak-v-policky", "cs", "sound/"..codename.."/cs/vrak-v-policky.ogg", "font_big", "Zamysleme se. Ty knihy nedostaneme z poliček.")
