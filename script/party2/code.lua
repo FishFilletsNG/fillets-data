@@ -574,6 +574,36 @@ local function prog_init()
             end
         end
     end
+    -- -------------------------------------------------------------
+    local function prog_init_glass1()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        local glasses = {glass1, glass_plate}
+        for pom1, glass in pairs(glasses) do
+            glass.wav = 0
+        end
+
+        return function()
+            for pom1, glass in pairs(glasses) do
+                pom2 = glass.wav
+                if glass.dir ~= dir_no then
+                    if pom2 == 0 then
+                        pom2 = 9
+                    elseif pom2 <= 6 then
+                        pom2 = pom2 + 6
+                    end
+                end
+                if pom2 == 0 then
+                    glass.afaze = 0
+                else
+                    pom2 = pom2 - 1
+                    glass.afaze = 2 - math.mod(math.floor(pom2 / 3), 2)
+                end
+                glass.wav = pom2
+                glass:updateAnim()
+            end
+        end
+    end
 
     -- --------------------
     local update_table = {}
@@ -603,6 +633,10 @@ local function prog_init()
         table.insert(update_table, subinit)
     end
     subinit = prog_init_frk()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_glass1()
     if subinit then
         table.insert(update_table, subinit)
     end

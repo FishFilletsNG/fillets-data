@@ -78,11 +78,11 @@ X
 ]])
 addItemAnim(item_light, "images/"..codename.."/sklenicka_pr.png")
 
-item_light = addModel("item_light", 7, 21,
+glass1 = addModel("item_light", 7, 21,
 [[
 X
 ]])
-addItemAnim(item_light, "images/"..codename.."/sklenicka_00.png")
+addItemAnim(glass1, "images/"..codename.."/sklenicka_00.png")
 -- extsize=2; first="sklenicka0.BMP"
 
 item_light = addModel("item_light", 6, 21,
@@ -128,11 +128,11 @@ X
 ]])
 addItemAnim(item_heavy, "images/"..codename.."/14-ocel.png")
 
-item_light = addModel("item_light", 6, 22,
+glass_plate = addModel("item_light", 6, 22,
 [[
 XXXXXXXX
 ]])
-addItemAnim(item_light, "images/"..codename.."/tacek_00.png")
+addItemAnim(glass_plate, "images/"..codename.."/tacek_00.png")
 -- extsize=2; first="tacek0.BMP"
 
 small = addModel("fish_small", 1, 24,
