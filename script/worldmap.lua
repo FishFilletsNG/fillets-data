@@ -97,3 +97,8 @@ branch_addNode("hardware", "floppy", "script/floppy/init.lua", 97, 314,
         false, "script/floppy/demo_poster.lua")
 
 
+-- branch_setEnding(codename, datafile, poster="")
+-- Ending
+branch_setEnding("ending", "script/ending/init.lua",
+    "script/ending/demo_poster.lua")
+
