@@ -78,6 +78,3 @@ node_bestSolution("windoze", 659, "Ronny Standtke")
 node_bestSolution("hardware", 741, "Ronny Standtke")
 --node_bestSolution("floppy", 0, "")
  
---node_bestSolution("ending", 0, "")
---node_bestSolution("score", 0, "")
-
