@@ -4,7 +4,7 @@ dialogStr("Buon giorno, pesci. Questo è un affare della massima importanza e pe
 
 
 dialogId("kd-ufo", "font_white", "Agents of FDTO - Fish Detective Training Organization - managed to get hold of several amateur snapshots of an extraterrestrial object which has crashed somewhere in your vicinity. Your mission, if you choose to accept it, will be to recover the UFO and acquire all the information you can about the principles and nature of interstellar propulsion.")
-dialogStr("Gli agenti della FDTO - Fish Detective Training Organization - sono riusciti as impossessarsi di alcune foto amatoriali ritraenti un oggetto extratterrestre precipitato nelle vostre vicinanze. La vostra missione, se scieglierete di accettare, sarà di recuperare l'UFO ed acquisire tutte le informazioni che potete sui principi e sulla natura della propulsione interstellare.")
+dialogStr("Gli agenti della FDTO - Fish Detective Training Organization - sono riusciti ad impossessarsi di alcune foto amatoriali ritraenti un oggetto extratterrestre precipitato nelle vostre vicinanze. La vostra missione, se scieglierete di accettare, sarà di recuperare l'UFO ed acquisire tutte le informazioni che potete sui principi e sulla natura della propulsione interstellare.")
 
 
 dialogId("kd-mesto", "font_white", "You should also try to close some of our as yet unsolved cases. We are mostly interested in the circumstances surrounding the sinking of the mythical city, by chance in the same area.")
