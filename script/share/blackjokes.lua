@@ -4,6 +4,23 @@ function stdBlackJokeLoad()
 end
 
 -- -----------------------------------------------------------------
+local autoRestart = false
+local restartCountDown = 0
+local function initAutoRestart()
+    autoRestart = true
+    restartCountDown = 80
+end
+local function autoRestartTick()
+    if autoRestart then
+        restartCountDown = restartCountDown - 1
+        if restartCountDown == 0 then
+            autoRestart = false
+            level_action_restart()
+        end
+    end
+end
+
+-- -----------------------------------------------------------------
 local alive_time = 0
 --TODO: remember values to the next restart
 local PoslSmrtMale = -1
@@ -18,7 +35,6 @@ function stdBlackJoke()
     local hlrestart
     local h
 
-    --TODO: do autorestart for depth=15 when one fish is dead
     if level_getDepth() == 2 then
         return
     end
@@ -97,6 +113,7 @@ function stdBlackJoke()
                     [15] = function()
                         hlaska = hauto
                         hlrestart = false
+                        initAutoRestart()
                     end,
                 }
 
@@ -211,6 +228,7 @@ function stdBlackJoke()
                 addm(random(20) + 10, "smrt-m-restart")
             end
         end
+        autoRestartTick()
     end
 end
 
