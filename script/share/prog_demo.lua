@@ -4,14 +4,7 @@ function planDelay(delay)
         return count >= delay
     end)
 end
---NOTE: hack, dialog with space as filler
-dialog_addDialog("dlg-x-STOP", "en", "", "font_poster", " ")
-function planStop()
-    game_planAction(function(count)
-        model_talk(1, "dlg-x-STOP")
-        return false
-    end)
-end
+
 function planTalk(dialogName)
     game_planAction(function(count)
         model_talk(1, dialogName)
@@ -19,4 +12,19 @@ function planTalk(dialogName)
     end)
 end
 
+dialog_addDialog("dlg-x-SPACE", "en", "", "font_poster", " ")
+function planSpace()
+    planTalk("dlg-x-SPACE")
+end
+
+--NOTE: hack, dialog with space as filler
+function planStop()
+    game_planAction(function(count)
+        model_talk(1, "dlg-x-SPACE")
+        return false
+    end)
+end
+
 dialog_addFont("font_poster", 255, 255, 255)
+dialog_addFont("font_orange", 255, 204, 00)
+
