@@ -73,8 +73,8 @@ node_bestSolution("cave", 190, "Josef Peterka")
  
 node_bestSolution("tetris", 138, "Josef Peterka")
 node_bestSolution("emulator", 976, "Josef Peterka")
-node_bestSolution("warcraft", 577, "Ronny Standtke")
-node_bestSolution("windoze", 659, "Ronny Standtke")
+node_bestSolution("warcraft", 573, "Josef Peterka")
+node_bestSolution("windoze", 605, "Josef Peterka")
 node_bestSolution("hardware", 741, "Ronny Standtke")
 --node_bestSolution("floppy", 0, "")
  
