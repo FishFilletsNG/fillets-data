@@ -31,7 +31,7 @@ end
 local function animateHead(model)
     if model:isAlive() then
         local state = model:getState()
-        if "talking" == state then
+        if "talking" == state or model_isTalking(TALK_INDEX_BOTH) then
             if not model.talk_phase then
                 model.talk_phase = random(3)
             elseif math.mod(game_getCycles(), 2) == 0 then
@@ -50,7 +50,7 @@ local function animateHead(model)
                 model:setAnim("turn", 0)
             end
         else
-            if "talking" == state then
+            if "talking" == state or model_isTalking(TALK_INDEX_BOTH) then
                 model:useSpecialAnim("head_talking", model.talk_phase)
             elseif "pushing" == state then
                 model:useSpecialAnim("head_pushing", 0)

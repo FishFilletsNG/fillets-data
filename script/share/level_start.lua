@@ -6,6 +6,7 @@
 -- original level design (e.g. afaze, X, Y, dir)
 -- -----------------------------------------------------------------
 
+file_include("script/share/borejokes.lua")
 file_include("script/share/blackjokes.lua")
 file_include("script/share/bubles.lua")
 
@@ -29,6 +30,7 @@ function initModels()
         resetanim(model)
     end
 
+    stdBoreJokeLoad()
     stdBlackJokeLoad()
     stdBublesLoad()
     loadFonts()
@@ -69,6 +71,6 @@ function script_update()
     prog_update()
 
     stdBubles()
-    -- stdJoke()
+    stdBoreJoke()
     stdBlackJoke()
 end

@@ -23,6 +23,8 @@ function loadFonts()
     dialog_addFont("font_green", 20, 245, 50)
     dialog_addFont("font_magenta", 200, 80, 210)
 
+    dialog_addFont("font_both", 255, 197, 102)
+
     dialog_addFont("font_viking1", 128, 128, 255)
     dialog_addFont("font_viking2", 255, 180, 100)
     dialog_addFont("font_viking3", 255, 96, 96)
