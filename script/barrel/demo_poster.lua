@@ -17,6 +17,7 @@ demo_display("images/barrel/poster.png", 0, 0)
 planTalk("dlg-x-poster1")
 planTalk("dlg-x-poster2")
 planTalk("dlg-x-poster3")
+planSpace()
 planTalk("dlg-x-poster4")
 planStop()
 

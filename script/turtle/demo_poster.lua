@@ -13,6 +13,7 @@ demo_display("images/turtle/poster.png", 0, 0)
 
 planTalk("dlg-x-poster1")
 planTalk("dlg-x-poster2")
+planSpace()
 planTalk("dlg-x-poster3")
 planStop()
 
