@@ -185,8 +185,8 @@ local function prog_init()
                         snecek.afaze = 21 - math.floor(snecek.sour / 3)
                     else
                         snecek.afaze = 38 + math.floor(snecek.sour / 3)
-					end
-				end,
+                    end
+                end,
                 [3] = function()
                     if snecek.smer < 0 then
                         snecek.afaze = 21 - math.floor(snecek.sour / 3)

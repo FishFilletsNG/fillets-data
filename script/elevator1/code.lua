@@ -6,7 +6,7 @@ local function prog_init()
     initModels()
     sound_playMusic("music/rybky01.ogg")
     local pokus = getRestartCount()
-	local roompole = {0}
+    local roompole = {0}
 
 
     -- -------------------------------------------------------------
@@ -92,7 +92,7 @@ local function prog_init()
                     if pom1 == room.huhuh then
                         room.huhuh = 5
                     end
-					planDialogSet(5, "zd1-x-huhu"..room.huhuh, 101, dedek, "mluvi")
+                    planDialogSet(5, "zd1-x-huhu"..room.huhuh, 101, dedek, "mluvi")
                 end
             end
         end
@@ -102,6 +102,7 @@ local function prog_init()
     local function prog_init_vytah()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
+        --FIXME: spec 4
         spec = 4
 
         return function()
@@ -117,30 +118,31 @@ local function prog_init()
     local function prog_init_stroj()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
+        --FIXME: spec 3
         spec = 3
 
         return function()
             if stroj.X == vytah.X - 1 then
-                if Dir == dir_no and vytah.Dir == dir_down then
+                if stroj.dir == dir_no and vytah.dir == dir_down then
                     pom1 = 2
-                elseif Dir == dir_up and vytah.Dir == dir_no then
+                elseif stroj.dir == dir_up and vytah.dir == dir_no then
                     pom1 = 1
-                elseif Dir == dir_no and vytah.Dir == dir_up then
+                elseif stroj.dir == dir_no and vytah.dir == dir_up then
                     pom1 = -1
-                elseif Dir == dir_down and vytah.Dir == dir_no then
+                elseif stroj.dir == dir_down and vytah.dir == dir_no then
                     pom1 = -2
                 else
                     pom1 = 0
                 end
                 stroj.afaze = stroj.afaze + pom1
                 if stroj.afaze > 5 then
-					stroj.afaze = stroj.afaze - 6
+                    stroj.afaze = stroj.afaze - 6
                 elseif stroj.afaze < 0 then
-					stroj.afaze = stroj.afaze + 6
+                    stroj.afaze = stroj.afaze + 6
                 end
             end
 
-			stroj:updateAnim()
+            stroj:updateAnim()
         end
     end
 
@@ -151,7 +153,7 @@ local function prog_init()
                 hlavicka.afaze = random(3)
             end
 
-			hlavicka:updateAnim()
+            hlavicka:updateAnim()
         end
     end
 
@@ -168,7 +170,7 @@ local function prog_init()
                 dedek.afaze = 0
             end
 
-			dedek:updateAnim()
+            dedek:updateAnim()
         end
     end
 
