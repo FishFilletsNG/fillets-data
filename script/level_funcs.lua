@@ -1,4 +1,7 @@
 
+LOOK_LEFT = 0
+LOOK_RIGHT = 1
+
 function random(limit)
     -- return number from [0, limit)
     return math.random(limit) - 1
@@ -49,11 +52,20 @@ function createObject(model_index)
     object.isAlive = function(self)
         return model_isAlive(self.index)
     end
+    object.isLeft = function(self)
+        return model_isLeft(self.index)
+    end
     object.isTalking = function(self)
         return model_isTalking(self.index)
     end
-    object.planDialog = function(self, dialog, delay)
-        return model_planDialog(self.index, dialog, delay)
+    object.planDialog = function(self, delay, dialog)
+        return model_planDialog(self.index, delay, dialog)
+    end
+    object.setGoal = function(self, goalname)
+        return model_setGoal(self.index, goalname)
+    end
+    object.change_turnSide = function(self)
+        return model_change_turnSide(self.index)
     end
 
     return object
@@ -80,7 +92,8 @@ function addItemAnim(model, picture_00)
         index = index + 1
     end
 
-    model:setAnim(anim_name, 0)
+    model:runAnim(anim_name)
+    --model:setAnim(anim_name, 0)
 end
 
 -- -----------------------------------------------------------------
@@ -197,5 +210,9 @@ function addFishAnim(model, look_dir, directory)
             directory.."/heads/right/head_talking_02.png")
 
     model:runAnim("rest")
+    if model:isLeft() and look_dir == LOOK_RIGHT then
+        model:change_turnSide()
+    end
+    model:setGoal("goal_escape")
 end
 
