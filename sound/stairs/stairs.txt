@@ -7,7 +7,7 @@ sch-v-lastura
  V: It`s some kind of shell. We`ll probably have to push it upstairs again.
 
 sch-v-setkani
- V: Setkání lastury s kvìtináèem. To je skoro jako setkání žehlièky s šicím strojem na operaèním stole.
+ V: Setkání lastury s kvìtináèem. To je skoro jako setkání ¾ehlièky s ¹icím strojem na operaèním stole.
  V: I can see it now: 'Shell Meets Flowerpot`. That`s almost like an iron and a sewing machine meeting on an operating table.
 
 sch-m-moc0
