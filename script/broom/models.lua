@@ -1,7 +1,7 @@
 
 createRoom(36, 33, "images/"..codename.."/koste-p.png")
 
-wall = addModel("item_fixed", 0, 0,
+room = addModel("item_fixed", 0, 0,
 [[
 ....................................
 XXX.............XXXXXX.....XX..XXXXX
@@ -37,7 +37,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXX....XXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXX.XXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ]])
-addItemAnim(wall, "images/"..codename.."/koste-w.png")
+addItemAnim(room, "images/"..codename.."/koste-w.png")
 
 item_heavy = addModel("item_heavy", 7, 18,
 [[
