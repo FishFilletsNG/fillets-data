@@ -76,5 +76,5 @@ node_bestSolution("emulator", 976, "Josef Peterka")
 node_bestSolution("warcraft", 573, "Josef Peterka")
 node_bestSolution("windoze", 605, "Josef Peterka")
 node_bestSolution("hardware", 739, "Josef Peterka")
---node_bestSolution("floppy", 0, "")
+node_bestSolution("floppy", 1948, "Josef Peterka")
  
