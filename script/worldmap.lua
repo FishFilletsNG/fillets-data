@@ -41,7 +41,8 @@ local worldmap = {
                                 datafile = "script/wc/init.lua",
                                 x = 314, y = 338,
                                 hidden = false,
-                                children = {{
+                                children = {
+                                    {
                                     -- wc ->
                                     -- Dump
                                     codename = "computer",

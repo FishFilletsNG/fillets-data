@@ -28,7 +28,7 @@ worldmap_addDesc("wc", "en", "Closed in the Closet", "Fish House")
 worldmap_addDesc("wc", "cs", "Zamèeni na WC", "Rybí domeèek")
 
 worldmap_addDesc("submarine", "en", "Drowned Submarine", "Ship Wrecks")
-worldmap_addDesc("submarine", "cs", "Utonulá ponorka", "")
+worldmap_addDesc("submarine", "cs", "Utonulá ponorka", "Vrakovi¹tì")
 
 worldmap_addDesc("party1", "en", "Picnic Boat", "Ship Wrecks")
 worldmap_addDesc("party1", "cs", "Výletní loï", "Vrakovi¹tì")
@@ -218,3 +218,4 @@ worldmap_addDesc("ending", "cs", "Doma", "")
 
 worldmap_addDesc("score", "en", "Special Score", "")
 worldmap_addDesc("score", "cs", "Special Score", "")
+
