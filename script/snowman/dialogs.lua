@@ -43,7 +43,7 @@ dialog_addDialog("tr-m-au2", "cs", "sound/"..codename.."/cs/tr-m-au2.ogg", "font
 dialog_addDialog("tr-m-au2", "fr", "", "font_small", "Ouch !")
 dialog_addDialog("tr-m-au2", "de", "", "font_small", "Aua!")
 
-dialog_addDialog("tr-v-agres", "en", "", "font_big", "I`ve never seen such an agressive snowman.")
+dialog_addDialog("tr-v-agres", "en", "", "font_big", "I`ve never seen such an aggressive snowman.")
 dialog_addDialog("tr-v-agres", "cs", "sound/"..codename.."/cs/tr-v-agres.ogg", "font_big", "Tak agresívního sněhuláka jsem ještě neviděl.")
 dialog_addDialog("tr-v-agres", "fr", "", "font_big", "Je n'ai jamais vu de bonhomme de neige si agressif.")
 dialog_addDialog("tr-v-agres", "de", "", "font_big", "Ich habe noch nie einen so aggressiven Schneemann gesehen.")
