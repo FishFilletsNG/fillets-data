@@ -21,7 +21,8 @@ branch_addNode("airplane", "bathyscaph", "script/bathyscaph/init.lua", 477, 84)
 branch_addNode("bathyscaph", "tank", "script/tank/init.lua", 446, 58)
 branch_addNode("tank", "viking2", "script/viking2/init.lua", 402, 61)
 branch_addNode("viking2", "party2", "script/party2/init.lua", 372, 88)
-branch_addNode("party2", "gods", "script/gods/init.lua", 391, 124)
+branch_addNode("party2", "gods", "script/gods/init.lua", 391, 124,
+        false, "images/gods/poster.png")
 
 -- Silver's Ship
 branch_addNode("wreck", "cabin1", "script/cabin1/init.lua", 464, 227, true)

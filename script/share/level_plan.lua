@@ -56,6 +56,10 @@ function isIn(item, table)
     return false
 end
 
+function isRange(value, min, max)
+    return min <= value and value <= max
+end
+
 function countPairs(table)
     local count = 0
     for index, value in pairs(table) do
