@@ -2,6 +2,7 @@ dialog_addDialog("dlg-x-poster1", "en", "", "font_poster", "Download video from 
 dialog_addDialog("dlg-x-poster1", "cs", "", "font_poster", "Video je na http://fillets.sf.net/intro.avi")
 dialog_addDialog("dlg-x-poster1", "fr", "", "font_poster", "Télécharger la vidéo à l'adresse http://fillets.sf.net/intro.avi")
 dialog_addDialog("dlg-x-poster1", "de", "", "font_poster", "Video bitte von http://fillets.sf.net/intro.avi herunterladen")
+dialog_addDialog("dlg-x-poster1", "it", "", "font_poster", "Scarica il video da http://fillets.sf.net/intro.avi")
 
 -- -----------------------------------------------------------------
 file_include("script/share/prog_demo.lua")
