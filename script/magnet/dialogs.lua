@@ -20,12 +20,12 @@ dialog_addDialog("pap-m-zvlastni", "de", "", "font_small", "Das ist ein ziemlich
 
 dialog_addDialog("pap-v-prekvapeni", "en", "", "font_big", "I think that UFO is going to be full of such surprises.")
 dialog_addDialog("pap-v-prekvapeni", "cs", "sound/"..codename.."/cs/pap-v-prekvapeni.ogg", "font_big", "Myslím, že v Ufu bude spousta takových překvapení.")
-dialog_addDialog("pap-v-prekvapeni", "fr", "", "font_big", "Je pense que les ovnis sont pleins de surprisessimilaires.")
+dialog_addDialog("pap-v-prekvapeni", "fr", "", "font_big", "Je pense que les ovnis sont pleins de surprises similaires.")
 dialog_addDialog("pap-v-prekvapeni", "de", "", "font_big", "Ich denke, dieses UFO wird voller Überraschungen sein.")
 
 dialog_addDialog("pap-m-teorie", "en", "", "font_small", "Stop developing your theories and start solving.")
 dialog_addDialog("pap-m-teorie", "cs", "sound/"..codename.."/cs/pap-m-teorie.ogg", "font_small", "Nerozvíjej svoje teorie a raději to nějak vyřešme.")
-dialog_addDialog("pap-m-teorie", "fr", "", "font_small", "Arrête de rêver et chechons la solution.")
+dialog_addDialog("pap-m-teorie", "fr", "", "font_small", "Arrête de rêver et cherchons la solution.")
 dialog_addDialog("pap-m-teorie", "de", "", "font_small", "Hör auf, Theorien zu entwickeln und such eine Lösung.")
 
 dialog_addDialog("pap-m-radio", "en", "", "font_small", "This looks like a radio.")
@@ -35,7 +35,7 @@ dialog_addDialog("pap-m-radio", "de", "", "font_small", "Das sieht aus wie ein R
 
 dialog_addDialog("pap-v-radio", "en", "", "font_big", "How could a radio get here?")
 dialog_addDialog("pap-v-radio", "cs", "sound/"..codename.."/cs/pap-v-radio.ogg", "font_big", "Kde by se tady vzalo rádio?")
-dialog_addDialog("pap-v-radio", "fr", "", "font_big", "Comment une radio pourrait arriver ici ?")
+dialog_addDialog("pap-v-radio", "fr", "", "font_big", "Comment est-se qu'une radio pourrait arriver ici ?")
 dialog_addDialog("pap-v-radio", "de", "", "font_big", "Wie kommt ein Radio hierher?")
 
 dialog_addDialog("pap-m-nechme", "en", "", "font_small", "Let it be.")
@@ -90,7 +90,7 @@ dialog_addDialog("pap-v-vufu", "de", "", "font_big", "Vergiss nicht, dass wir in
 
 dialog_addDialog("pap-m-naucit", "en", "", "font_small", "Maybe I could learn how to manipulate these steel tubes.")
 dialog_addDialog("pap-m-naucit", "cs", "sound/"..codename.."/cs/pap-m-naucit.ogg", "font_small", "Možná bych se mohla naučit manipulovat s těmi ocelovými válci.")
-dialog_addDialog("pap-m-naucit", "fr", "", "font_small", "Peut-être que je pourrais appendre à porter ces tubes d'acier.")
+dialog_addDialog("pap-m-naucit", "fr", "", "font_small", "Peut-être que je pourrais apprendre à porter ces tubes d'acier.")
 dialog_addDialog("pap-m-naucit", "de", "", "font_small", "Vielleicht kann ich lernen, die Stahlrohre zu verschieben.")
 
 dialog_addDialog("pap-m-nepohnu", "en", "", "font_small", "No, I can`t move it.")

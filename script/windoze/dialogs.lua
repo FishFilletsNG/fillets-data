@@ -32,7 +32,7 @@ dialog_addDialog("win-m-costim4", "de", "", "font_small", "Wie wäre es, wenn wi
 
 dialog_addDialog("win-v-pocitala", "en", "", "font_big", "Did you count these windows around us?")
 dialog_addDialog("win-v-pocitala", "cs", "sound/"..codename.."/cs/win-v-pocitala.ogg", "font_big", "Počítala jsi ty okna všude kolem?")
-dialog_addDialog("win-v-pocitala", "fr", "", "font_big", "Est-ce que tu as compter les fenêtres autour de nous ?")
+dialog_addDialog("win-v-pocitala", "fr", "", "font_big", "Est-ce que tu as compté les fenêtres autour de nous ?")
 dialog_addDialog("win-v-pocitala", "de", "", "font_big", "Hast du die Fenster um uns herum gezählt?")
 
 dialog_addDialog("win-m-nemusim", "en", "", "font_small", "I don`t need to count them. There are ninety five of them.")
@@ -82,7 +82,7 @@ dialog_addDialog("win-v-nic0", "de", "", "font_big", "Keine Animationen...")
 
 dialog_addDialog("win-m-nic1", "en", "", "font_small", "No talking...")
 dialog_addDialog("win-m-nic1", "cs", "sound/"..codename.."/cs/win-m-nic1.ogg", "font_small", "Žádné namluvené texty...")
-dialog_addDialog("win-m-nic1", "fr", "", "font_small", "Aucune parôle...")
+dialog_addDialog("win-m-nic1", "fr", "", "font_small", "Aucune parole...")
 dialog_addDialog("win-m-nic1", "de", "", "font_small", "Kein Text...")
 
 dialog_addDialog("win-v-nic2", "en", "", "font_big", "No music...")

@@ -10,7 +10,7 @@ dialog_addDialog("zav-v-trpyt", "de", "", "font_big", "Und alle schimmern wunder
 
 dialog_addDialog("zav-m-pohnout", "en", "", "font_small", "Please note, that I can`t move a fin here.")
 dialog_addDialog("zav-m-pohnout", "cs", "sound/"..codename.."/cs/zav-m-pohnout.ogg", "font_small", "Povšimni si toho, že se nemůžu pohnout.")
-dialog_addDialog("zav-m-pohnout", "fr", "", "font_small", "Veuillez noter que je ne peux pas bouger de nageoire ici.")
+dialog_addDialog("zav-m-pohnout", "fr", "", "font_small", "Veuillez noter que je ne peux pas bouger une nageoire ici.")
 dialog_addDialog("zav-m-pohnout", "de", "", "font_small", "Nimm bitte zur Kenntnis, dass ich hier keine Flosse bewegen kann.")
 
 dialog_addDialog("zav-m-krasa", "en", "", "font_small", "It`s beautiful! Everything gleams so much...")
@@ -40,7 +40,7 @@ dialog_addDialog("zav-m-kameny", "de", "", "font_small", "Meinst du, dass diese 
 
 dialog_addDialog("zav-v-zeleny", "en", "", "font_big", "You are right. That green one was surely over there!")
 dialog_addDialog("zav-v-zeleny", "cs", "sound/"..codename.."/cs/zav-v-zeleny.ogg", "font_big", "Máš pravdu. Ten zelený byl určitě támhle!")
-dialog_addDialog("zav-v-zeleny", "fr", "", "font_big", "Tu as raison. La verte était surement là bas !")
+dialog_addDialog("zav-v-zeleny", "fr", "", "font_big", "Tu as raison. La verte était sûrement là bas !")
 dialog_addDialog("zav-v-zeleny", "de", "", "font_big", "Du hast Recht. Der Grüne war mit Sicherheit da drüben!")
 
 dialog_addDialog("zav-v-restart", "en", "", "font_big", "I think that these jewels arrange themselves in a different way after each restart.")
@@ -55,12 +55,12 @@ dialog_addDialog("zav-m-pravda", "de", "", "font_small", "Genau, du hast Recht. 
 
 dialog_addDialog("zav-m-hrac", "en", "", "font_small", "Look, our player obviously satiated his need for colors.")
 dialog_addDialog("zav-m-hrac", "cs", "sound/"..codename.."/cs/zav-m-hrac.ogg", "font_small", "Hele, náš hráč už se nabažil barviček.")
-dialog_addDialog("zav-m-hrac", "fr", "", "font_small", "Regarde, notre joueur satisfait son besoin de couleurs.")
+dialog_addDialog("zav-m-hrac", "fr", "", "font_small", "Regarde, notre joueur(se) satisfait son besoin de couleurs.")
 dialog_addDialog("zav-m-hrac", "de", "", "font_small", "Schau, unser Spieler hat seinen Farbendurst offensichtlich gestillt.")
 
 dialog_addDialog("zav-v-zachranit", "en", "", "font_big", "Maybe he could try to save us instead now.")
 dialog_addDialog("zav-v-zachranit", "cs", "sound/"..codename.."/cs/zav-v-zachranit.ogg", "font_big", "Teď by nás pro změnu mohl zkusit zachránit.")
-dialog_addDialog("zav-v-zachranit", "fr", "", "font_big", "Peut-être qu'il pourrait plutôt sauvegarder maintenant.")
+dialog_addDialog("zav-v-zachranit", "fr", "", "font_big", "Peut-être qu'il ou elle pourrait plutôt sauvegarder maintenant.")
 dialog_addDialog("zav-v-zachranit", "de", "", "font_big", "Vielleicht könnte er uns stattdessen retten?")
 
 

@@ -5,7 +5,7 @@ dialog_addDialog("map-v-mapa", "de", "", "font_big", "Also gibt es diese Karte w
 
 dialog_addDialog("map-m-mapa", "en", "", "font_small", "Okay. Here is the map.")
 dialog_addDialog("map-m-mapa", "cs", "sound/"..codename.."/cs/map-m-mapa.ogg", "font_small", "No vida. Támhle máme tu mapu.")
-dialog_addDialog("map-m-mapa", "fr", "", "font_small", "Okay. La carte est là.")
+dialog_addDialog("map-m-mapa", "fr", "", "font_small", "Ok. La carte est là.")
 dialog_addDialog("map-m-mapa", "de", "", "font_small", "Gut. Die Karte ist hier.")
 
 dialog_addDialog("map-m-ukol", "en", "", "font_small", "So it`s clear now that our goal is to get that map out somehow.")
@@ -50,12 +50,12 @@ dialog_addDialog("map-m-sneci", "de", "", "font_small", "Wir werden mehr von die
 
 dialog_addDialog("map-x-hlemyzdi", "en", "", "font_yellow", "You mean Escargots, don`t you?")
 dialog_addDialog("map-x-hlemyzdi", "cs", "sound/"..codename.."/cs/map-x-hlemyzdi.ogg", "font_yellow", "Snad hlemýždů, ne?")
-dialog_addDialog("map-x-hlemyzdi", "fr", "", "font_yellow", "Vous voulez dire Escargots, n'est-ce pas ?")
+dialog_addDialog("map-x-hlemyzdi", "fr", "", "font_yellow", "Vous voulez dire Snails, n'est-ce pas ?")
 dialog_addDialog("map-x-hlemyzdi", "de", "", "font_yellow", "Du meinst Escargots, oder?")
 
 dialog_addDialog("map-v-oci", "en", "", "font_big", "We`d need more of that glass eyes.")
 dialog_addDialog("map-v-oci", "cs", "sound/"..codename.."/cs/map-v-oci.ogg", "font_big", "Chtělo by to víc těch skleněných očí.")
-dialog_addDialog("map-v-oci", "fr", "", "font_big", "Nous avons besoin d'autre oeil de verre.")
+dialog_addDialog("map-v-oci", "fr", "", "font_big", "Nous avons besoin d'autres yeux de verre.")
 dialog_addDialog("map-v-oci", "de", "", "font_big", "Wir werden mehr von diesen Glasaugen brauchen.")
 
 dialog_addDialog("map-v-restart", "en", "", "font_big", "The easiest way to do it would be to get to the upper part of this level. Let`s try to restart it, maybe we shall appear there.")

@@ -60,7 +60,7 @@ dialog_addDialog("lod-v-golf", "de", "", "font_big", "Natürlich. Wenn wir einen
 
 dialog_addDialog("lod-m-jednoho", "en", "", "font_small", "Hardly with this club. I think we`ll be happy if we manage to get one. The other one will be harmless then.")
 dialog_addDialog("lod-m-jednoho", "cs", "sound/"..codename.."/cs/lod-m-jednoho.ogg", "font_small", "S touhle holí těžko. Myslím, že budeme rádi, když dostaneme jednoho. Ten druhý už nebude nebezpečný.")
-dialog_addDialog("lod-m-jednoho", "fr", "", "font_small", "Difficilement avec ce club. Je pense que nous serons contents d'en attraper un. L'autre deviendra alors innofensif.")
+dialog_addDialog("lod-m-jednoho", "fr", "", "font_small", "Difficilement avec ce club. Je pense que nous serons contents d'en attraper un. L'autre deviendra alors inoffensif.")
 dialog_addDialog("lod-m-jednoho", "de", "", "font_small", "Wohl kaum mit diesem Schläger. Ich denke, wir werden froh sein, wenn wir einen rausbekommen. Der andere wird dann harmlos sein.")
 
 dialog_addDialog("lod-v-koho", "en", "", "font_big", "Well. And whom?")
@@ -110,7 +110,7 @@ dialog_addDialog("lod-m-ozizlana", "de", "", "font_small", "Ein rosa Monster hat
 
 dialog_addDialog("lod-v-hravost", "en", "", "font_big", "Mother was right. Abnormal playfulness is the root of all evil.")
 dialog_addDialog("lod-v-hravost", "cs", "sound/"..codename.."/cs/lod-v-hravost.ogg", "font_big", "Maminka měla pravdu: Příčinou všeho zla je chorobná hravost.")
-dialog_addDialog("lod-v-hravost", "fr", "", "font_big", "Maman avait raison. L'excés de jeu est réellement diabolique.")
+dialog_addDialog("lod-v-hravost", "fr", "", "font_big", "Maman avait raison. L'excès de jeu est réellement diabolique.")
 dialog_addDialog("lod-v-hravost", "de", "", "font_big", "Mutter hatte Recht. Krankhafter Spieltrieb ist die Wurzel allen Übels.")
 
 dialog_addDialog("lod-m-palka", "en", "", "font_small", "That`s true. It would be much easier if that table tennis bat was somewhere else.")

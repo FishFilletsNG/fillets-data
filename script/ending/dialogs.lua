@@ -5,12 +5,12 @@ dialog_addDialog("z-v-doma", "de", "", "font_big", "Ich bin froh, wieder zuhause
 
 dialog_addDialog("z-m-pocit", "en", "", "font_small", "I have such a good feeling of the work well done.")
 dialog_addDialog("z-m-pocit", "cs", "sound/"..codename.."/cs/z-m-pocit.ogg", "font_small", "Mám takový pěkný pocit dobře odvedené práce.")
-dialog_addDialog("z-m-pocit", "fr", "", "font_small", "J'ai vraiment le sentiment d'un travail bien fait.")
+dialog_addDialog("z-m-pocit", "fr", "", "font_small", "J'ai vraiment le sentiment du travail bien fait.")
 dialog_addDialog("z-m-pocit", "de", "", "font_small", "Ich hab so ein gutes Gefühl wegen der gut erledigten Arbeit.")
 
 dialog_addDialog("z-v-sef", "en", "", "font_big", "The boss called a moment ago. He was very satisfied with our performance.")
 dialog_addDialog("z-v-sef", "cs", "sound/"..codename.."/cs/z-v-sef.ogg", "font_big", "Před chvílí volal šéf. Byl s námi moc spokojen.")
-dialog_addDialog("z-v-sef", "fr", "", "font_big", "Le patron vient d'appeler. Il est parfaitement satisfait de nous.")
+dialog_addDialog("z-v-sef", "fr", "", "font_big", "Le patron vient d'appeler. Il est entièrement satisfait de nous.")
 dialog_addDialog("z-v-sef", "de", "", "font_big", "Der Chef hat gerade angerufen. Er war sehr zufrieden mit unserer Leistung.")
 
 dialog_addDialog("z-m-nemluv", "en", "", "font_small", "Don`t mention the boss to me. He sits somewhere in his cozy office and we have to do all the dirty work.")
@@ -36,7 +36,7 @@ dialog_addDialog("z-m-dlouho", "de", "", "font_small", "Wirklich? Mir kam es gar
 
 dialog_addDialog("z-v-pozdrav", "en", "", "font_big", "Dear player. We would like to communicate to you the high regards of the authors of this game. If you didn`t solve it by some cheat, you are really very, very good. It`s a pity we cannot see you from here, but...")
 dialog_addDialog("z-v-pozdrav", "cs", "sound/"..codename.."/cs/z-v-pozdrav.ogg", "font_big", "Hráči, máme ti vyřídit pozdrav a uznání od autorů hry. Jestli jsi to neřešil nějakým podvodem, tak jsi opravdu dobrej. Nebo dokonce dobrá? My tě tady odsud moc nevidíme.")
-dialog_addDialog("z-v-pozdrav", "fr", "", "font_big", "Chère joueuse ou cher joueur. Nous aimerions vous communiquer le grand respect des auteurs de ce jeu. Si vous ne l'avez pas fini à l'aide de tricherie, vous ètes très très fort(e). C'est vraiment dommage que nous puissions pas vous voir d'ici, mais...")
+dialog_addDialog("z-v-pozdrav", "fr", "", "font_big", "Chère joueuse ou cher joueur. Nous aimerions vous communiquer le grand respect des auteurs de ce jeu. Si vous ne l'avez pas fini à l'aide de tricherie, vous êtes très très fort(e). C'est vraiment dommage que nous ne puissions pas vous voir d'ici, mais...")
 dialog_addDialog("z-v-pozdrav", "de", "", "font_big", "Werter Spieler, wir möchten dir die besten Grüße der Autoren dieses Spiels über mitteln. Wenn du nicht geschummelt hast, bist du wirklich sehr, sehr gut. Schade, dass wir dich nicht von hier sehen können, aber...")
 dialog_addDialog("z-v-pozdrav", "de_CH", "", "font_big", "Werter Spieler, wir möchten dir die besten Grüsse der Autoren dieses Spiels über mitteln. Wenn du nicht geschummelt hast, bist du wirklich sehr, sehr gut. Schade, dass wir dich nicht von hier sehen können, aber...")
 

@@ -1,6 +1,6 @@
 dialog_addDialog("ves-v-veci", "en", "", "font_big", "There are most interesting things in this city!")
 dialog_addDialog("ves-v-veci", "cs", "sound/"..codename.."/cs/ves-v-veci.ogg", "font_big", "V tomhle městě se teda najdou věci!")
-dialog_addDialog("ves-v-veci", "fr", "", "font_big", "Il y a des choses plus intéressante dans la cité !")
+dialog_addDialog("ves-v-veci", "fr", "", "font_big", "Il y a des choses plus intéressantes dans la cité !")
 dialog_addDialog("ves-v-veci", "de", "", "font_big", "Es gibt hochinteressante Sachen in dieser Stadt!")
 
 dialog_addDialog("ves-m-krab", "en", "", "font_small", "The poor crab!")

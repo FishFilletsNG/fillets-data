@@ -45,7 +45,7 @@ dialog_addDialog("pyr-m-nic", "de", "", "font_small", "Du musst nichts tragen.")
 
 dialog_addDialog("pyr-v-sfing", "en", "", "font_big", "Don`t be afraid.")
 dialog_addDialog("pyr-v-sfing", "cs", "sound/"..codename.."/cs/pyr-v-sfing.ogg", "font_big", "Neboj se.")
-dialog_addDialog("pyr-v-sfing", "fr", "", "font_big", "N'ai pas peur.")
+dialog_addDialog("pyr-v-sfing", "fr", "", "font_big", "N'aie pas peur.")
 dialog_addDialog("pyr-v-sfing", "de", "", "font_big", "Hab keine Angst.")
 
 dialog_addDialog("pyr-m-dest", "en", "", "font_small", "What is it written on these tablets?")

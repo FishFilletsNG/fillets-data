@@ -1,6 +1,6 @@
 dialog_addDialog("ufo-v-znicilo", "en", "", "font_big", "We must be getting near the end of our mission. This is surely the UFO that destroyed our house.")
 dialog_addDialog("ufo-v-znicilo", "cs", "sound/"..codename.."/cs/ufo-v-znicilo.ogg", "font_big", "Blížíme se konci naší cesty: tohle je jistě to UFO, co nám zničilo domeček.")
-dialog_addDialog("ufo-v-znicilo", "fr", "", "font_big", "Nous devons être proche de la fin de notre mission. C'est probablement l'OVNI qui a détruit notre maison?")
+dialog_addDialog("ufo-v-znicilo", "fr", "", "font_big", "Nous devons être proches de la fin de notre mission. C'est probablement l'OVNI qui a détruit notre maison.")
 dialog_addDialog("ufo-v-znicilo", "de", "", "font_big", "Wir müssen nahe am Ziel unseres Auftrags sein. Das ist sicherlich das UFO, das unser Haus zerstört hat.")
 
 dialog_addDialog("ufo-m-osmy", "en", "", "font_small", "Are you sure? This is but the eighth level.")
@@ -50,7 +50,7 @@ dialog_addDialog("ufo-m-vidim", "de", "", "font_small", "Das sehe ich auch. Aber
 
 dialog_addDialog("ufo-v-dovnitr", "en", "", "font_big", "What can we find inside, once we manage to get there?")
 dialog_addDialog("ufo-v-dovnitr", "cs", "sound/"..codename.."/cs/ufo-v-dovnitr.ogg", "font_big", "Co tam tak můžeme najít, jestli se dostaneme dovnitř?")
-dialog_addDialog("ufo-v-dovnitr", "fr", "", "font_big", "Que trouverons à l'intérieur, quand nous y serons ?")
+dialog_addDialog("ufo-v-dovnitr", "fr", "", "font_big", "Qu'est ce que nous trouverons à l'intérieur, quand nous y serons ?")
 dialog_addDialog("ufo-v-dovnitr", "de", "", "font_big", "Was werden wir drinnen finden, wenn wir es schaffen, reinzukommen?")
 
 dialog_addDialog("ufo-m-tajemstvi", "en", "", "font_small", "Secrets of another civilization, new technologies, new sources of energy...")

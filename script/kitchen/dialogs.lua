@@ -95,7 +95,7 @@ dialog_addDialog("kuch-m-hrnec2", "de", "", "font_small", "Niemand macht hier de
 
 dialog_addDialog("kuch-v-kreslo0", "en", "", "font_big", "If there was no chair, it would save us a lot of work.")
 dialog_addDialog("kuch-v-kreslo0", "cs", "sound/"..codename.."/cs/kuch-v-kreslo0.ogg", "font_big", "Kdyby tu nebylo to křeslo, ušetřili by jsme si spoustu práce.")
-dialog_addDialog("kuch-v-kreslo0", "fr", "", "font_big", "Si il n'y avait pas de fauteuil, nous aurions beaucoup moins de travail.")
+dialog_addDialog("kuch-v-kreslo0", "fr", "", "font_big", "S'il n'y avait pas de fauteuil, nous aurions beaucoup moins de travail.")
 dialog_addDialog("kuch-v-kreslo0", "de", "", "font_big", "Wenn dort kein Sessel wäre, würde es uns eine Menge Arbeit ersparen.")
 
 dialog_addDialog("kuch-v-ja", "en", "", "font_big", "Especially myself.")
@@ -115,7 +115,7 @@ dialog_addDialog("kuch-v-kreslo1", "de", "", "font_big", "In einer Küche sollte
 
 dialog_addDialog("kuch-m-kreslo2", "en", "", "font_small", "Everybody want to rest sometimes.")
 dialog_addDialog("kuch-m-kreslo2", "cs", "sound/"..codename.."/cs/kuch-m-kreslo2.ogg", "font_small", "Každý si chce někdy odpočinout.")
-dialog_addDialog("kuch-m-kreslo2", "fr", "", "font_small", "Tout le monde veut se reposer par moment.")
+dialog_addDialog("kuch-m-kreslo2", "fr", "", "font_small", "Tout le monde peut se reposer par moment.")
 dialog_addDialog("kuch-m-kreslo2", "de", "", "font_small", "Jeder will sich mal ausruhen.")
 
 dialog_addDialog("kuch-m-stolky", "en", "", "font_small", "I have seen these tables somewhere.")
@@ -160,7 +160,7 @@ dialog_addDialog("kuch-v-nedela", "de", "", "font_big", "Sicherlich. Aber normal
 
 dialog_addDialog("kuch-m-kuchari", "en", "", "font_small", "We are lucky there are no cooks here. They could try to cook us.")
 dialog_addDialog("kuch-m-kuchari", "cs", "sound/"..codename.."/cs/kuch-m-kuchari.ogg", "font_small", "Ještě, že už tu nejsou kuchaři. Ještě by nás mohli chtít uvařit.")
-dialog_addDialog("kuch-m-kuchari", "fr", "", "font_small", "Nous avons de la chance, il n'y a pas de cuisinier ici. Ils pourrait essayer de nous cuire.")
+dialog_addDialog("kuch-m-kuchari", "fr", "", "font_small", "Nous avons de la chance, il n'y a pas de cuisinier ici. Il aurait pu essayer de nous cuire.")
 dialog_addDialog("kuch-m-kuchari", "de", "", "font_small", "Zum Glück sind hier keine Köche. Die könnten versuchen, uns zu kochen.")
 
 dialog_addDialog("kuch-v-svitek0", "en", "", "font_big", "There must be some recipe on that parchment.")

@@ -46,7 +46,7 @@ dialog_addDialog("mot-v-funkce1", "de", "", "font_big", "Ich bin ziemlich froh, 
 
 dialog_addDialog("mot-v-funkce2", "en", "", "font_big", "We should be happy that we didn`t switch anything on yet.")
 dialog_addDialog("mot-v-funkce2", "cs", "sound/"..codename.."/cs/mot-v-funkce2.ogg", "font_big", "Naše štěstí je, že tu nemůžeme nic zapnout.")
-dialog_addDialog("mot-v-funkce2", "fr", "", "font_big", "Nous devrions être content d'être incapable d'allumer quoique ce soit.")
+dialog_addDialog("mot-v-funkce2", "fr", "", "font_big", "Nous devrions être contents d'être incapables d'allumer quoique ce soit.")
 dialog_addDialog("mot-v-funkce2", "de", "", "font_big", "Wir sollten froh sein, dass wir hier noch nichts angeschaltet haben.")
 
 dialog_addDialog("mot-v-klic", "en", "", "font_big", "Careful with that wrench.")
@@ -61,7 +61,7 @@ dialog_addDialog("mot-m-ublizit", "de", "", "font_small", "Hier kann ich nichts 
 
 dialog_addDialog("mot-m-zvuky0", "en", "", "font_small", "What have you done? Turn off that roar!")
 dialog_addDialog("mot-m-zvuky0", "cs", "sound/"..codename.."/cs/mot-m-zvuky0.ogg", "font_small", "Co jsi to udělal? Vypni ten randál!")
-dialog_addDialog("mot-m-zvuky0", "fr", "", "font_small", "Qu'as-tu fait ? Eteint ce fracas.")
+dialog_addDialog("mot-m-zvuky0", "fr", "", "font_small", "Qu'as-tu fait ? Eteint ce tintamarre.")
 dialog_addDialog("mot-m-zvuky0", "de", "", "font_small", "Was hast du gemacht? Mach das Getöse aus!")
 
 dialog_addDialog("mot-m-zvuky1", "en", "", "font_small", "This is terrible! Turn it off before it`s too late!")
@@ -87,7 +87,7 @@ dialog_addDialog("mot-m-mayday", "de", "", "font_small", "Mayday! Mayday!")
 
 dialog_addDialog("mot-v-konecne0", "en", "", "font_big", "Finally.")
 dialog_addDialog("mot-v-konecne0", "cs", "sound/"..codename.."/cs/mot-v-konecne0.ogg", "font_big", "Konečně.")
-dialog_addDialog("mot-v-konecne0", "fr", "", "font_big", "Finallement.")
+dialog_addDialog("mot-v-konecne0", "fr", "", "font_big", "Finalement.")
 dialog_addDialog("mot-v-konecne0", "de", "", "font_big", "Endlich.")
 
 dialog_addDialog("mot-v-konecne1", "en", "", "font_big", "What a relief.")
@@ -102,7 +102,7 @@ dialog_addDialog("mot-v-zvuky0", "de", "", "font_big", "Was machst du? Wohin geh
 
 dialog_addDialog("mot-v-zvuky1", "en", "", "font_big", "What have you activated? Where is it taking us?")
 dialog_addDialog("mot-v-zvuky1", "cs", "sound/"..codename.."/cs/mot-v-zvuky1.ogg", "font_big", "Co jsi to aktivovala? Kam nás to veze?")
-dialog_addDialog("mot-v-zvuky1", "fr", "", "font_big", "Qu'est-ce que tu as activé ? Où est-ce qu'il nous emmène ?")
+dialog_addDialog("mot-v-zvuky1", "fr", "", "font_big", "Qu'est-ce que tu as activé ? Où est-ce qu'on nous emmène ?")
 dialog_addDialog("mot-v-zvuky1", "de", "", "font_big", "Was hast du angeschaltet? Wohin bringt es uns?")
 
 dialog_addDialog("mot-m-nemuzu0", "en", "", "font_small", "How can I turn it off?!")
@@ -122,7 +122,7 @@ dialog_addDialog("mot-m-konecne0", "de", "", "font_small", "Danke.")
 
 dialog_addDialog("mot-m-konecne1", "en", "", "font_small", "Finally.")
 dialog_addDialog("mot-m-konecne1", "cs", "sound/"..codename.."/cs/mot-m-konecne1.ogg", "font_small", "Konečně.")
-dialog_addDialog("mot-m-konecne1", "fr", "", "font_small", "Finallemment.")
+dialog_addDialog("mot-m-konecne1", "fr", "", "font_small", "Finalemment.")
 dialog_addDialog("mot-m-konecne1", "de", "", "font_small", "Endlich.")
 
 dialog_addDialog("mot-v-znovu0", "en", "", "font_big", "I am only afraid we`ll have to turn it on again.")

@@ -10,7 +10,7 @@ dialog_addDialog("tr-v-jid1", "de", "", "font_big", "Kein Wunder. Das ist die Wi
 
 dialog_addDialog("tr-m-chlad2", "en", "", "font_small", "I`m cold.")
 dialog_addDialog("tr-m-chlad2", "cs", "sound/"..codename.."/cs/tr-m-chlad2.ogg", "font_small", "Je mi zima.")
-dialog_addDialog("tr-m-chlad2", "fr", "", "font_small", "Je suis gelé.")
+dialog_addDialog("tr-m-chlad2", "fr", "", "font_small", "Je suis gelée.")
 dialog_addDialog("tr-m-chlad2", "de", "", "font_small", "Mir ist kalt.")
 
 dialog_addDialog("tr-v-jid2", "en", "", "font_big", "Well that`s what you would expect in a Winter Mess Hall, right?")

@@ -40,12 +40,12 @@ dialog_addDialog("sv-m-kecy", "de", "", "font_small", "Ein Meeresschwimmpanzer? 
 
 dialog_addDialog("sv-v-proc", "en", "", "font_big", "So why are you asking, if you are so darned clever?!")
 dialog_addDialog("sv-v-proc", "cs", "sound/"..codename.."/cs/sv-v-proc.ogg", "font_big", "Tak proč se ptáš, když jsi tak chytrá?!")
-dialog_addDialog("sv-v-proc", "fr", "", "font_big", "Pourquoi demandes-tu, si tu est si fichtrement savant ?!")
+dialog_addDialog("sv-v-proc", "fr", "", "font_big", "Pourquoi demandes-tu, si tu es si fichtrement savant ?!")
 dialog_addDialog("sv-v-proc", "de", "", "font_big", "Warum fragts du eigentlich, du Besserwisser?!")
 
 dialog_addDialog("sv-v-potopena", "en", "", "font_big", "Maybe, there is a sunken landing craft nearby.")
 dialog_addDialog("sv-v-potopena", "cs", "sound/"..codename.."/cs/sv-v-potopena.ogg", "font_big", "Možná je tu potopená výsadková loď.")
-dialog_addDialog("sv-v-potopena", "fr", "", "font_big", "Peut-être qu'il y a une embarcation échoué pas loin.")
+dialog_addDialog("sv-v-potopena", "fr", "", "font_big", "Peut-être qu'il y a une embarcation échouée pas loin.")
 dialog_addDialog("sv-v-potopena", "de", "", "font_big", "Vielleicht ist das gesunkene Landungsboot in der Nähe.")
 
 dialog_addDialog("sv-m-pravdepodob", "en", "", "font_small", "It is possible.")

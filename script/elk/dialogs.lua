@@ -10,7 +10,7 @@ dialog_addDialog("deu-v-nepratelstvi", "de", "", "font_big", "Die Feindschaft wi
 
 dialog_addDialog("deu-m-bojovat", "en", "", "font_small", "They will fight to the last... parrot.")
 dialog_addDialog("deu-m-bojovat", "cs", "sound/"..codename.."/cs/deu-m-bojovat.ogg", "font_small", "Budou bojovat až do posledního... papouška.")
-dialog_addDialog("deu-m-bojovat", "fr", "", "font_small", "Ils se sont battu pour le dernier... perroquet.")
+dialog_addDialog("deu-m-bojovat", "fr", "", "font_small", "Ils se sont battus pour le dernier... perroquet.")
 dialog_addDialog("deu-m-bojovat", "de", "", "font_small", "Sie kämpfen bis zum letzten... Papageien.")
 
 dialog_addDialog("deu-v-losa", "en", "", "font_big", "And elk.")

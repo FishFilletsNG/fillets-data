@@ -5,7 +5,7 @@ dialog_addDialog("dr1-m-dlouho", "de", "", "font_small", "Dieses Schiff muss vor
 
 dialog_addDialog("dr1-v-urcite", "en", "", "font_big", "Definitely. It`s one of the earliest drakkars. Judging by the shape of the head, number of spirals and color of the water I think it belonged to the grandfather of Eric the Red.")
 dialog_addDialog("dr1-v-urcite", "cs", "sound/"..codename.."/cs/dr1-v-urcite.ogg", "font_big", "Určitě. Je to jeden z raných drakarů. Podle tvaru hlavy, počtu závitů a barvy vody soudím, že patřil dědečkovi Erika Rudého.")
-dialog_addDialog("dr1-v-urcite", "fr", "", "font_big", "Probablement. C'est un des premiers drakkars. A juger par la forme de la tête, le nombre de spirales et la couleur de l'eau, je pense qu'il a appartenu au grandpère d'Eric le rouge.")
+dialog_addDialog("dr1-v-urcite", "fr", "", "font_big", "Probablement. C'est un des premiers drakkars. A juger par la forme de la tête, le nombre de spirales et la couleur de l'eau, je pense qu'il a appartenu au grand père d'Eric le rouge.")
 dialog_addDialog("dr1-v-urcite", "de", "", "font_big", "Definitiv. Es ist eine der ersten Drakkars. Nach der Form des Kopfes, der Anzahl der Spiralen und der Farbe des Wassers nach zu urteilen, gehörte es dem Großvater von Erik dem Roten, denke ich.")
 dialog_addDialog("dr1-v-urcite", "de_CH", "", "font_big", "Definitiv. Es ist eine der ersten Drakkars. Nach der Form des Kopfes, der Anzahl der Spiralen und der Farbe des Wassers nach zu urteilen, gehörte es dem Grossvater von Erik dem Roten, denke ich.")
 
@@ -33,7 +33,7 @@ dialog_addDialog("dr1-v-snorr", "de", "", "font_big", "Oder möglicherweise der 
 
 dialog_addDialog("dr1-v-thorson", "en", "", "font_big", "It is even possible it belonged to Thorson the Hard.")
 dialog_addDialog("dr1-v-thorson", "cs", "sound/"..codename.."/cs/dr1-v-thorson.ogg", "font_big", "Nedá se vyloučit ani Thorson Tvrdý.")
-dialog_addDialog("dr1-v-thorson", "fr", "", "font_big", "Il est même possible qu'il ai appartenu à Thorson le Dur.")
+dialog_addDialog("dr1-v-thorson", "fr", "", "font_big", "Il est même possible qu'il ait appartenu à Thorson le Dur.")
 dialog_addDialog("dr1-v-thorson", "de", "", "font_big", "Es ist sogar möglich, dass es Thorson dem Harten gehörte.")
 
 dialog_addDialog("dr1-x-erik", "en", "", "font_lightgrey", "I always thought I am the fishing boat of Eric the Unready... But today I learned the truth. Yes, it`s never too late to start a new life!")
@@ -68,7 +68,7 @@ dialog_addDialog("dr-8-ztichni1", "de", "", "font_viking8", "Halt den Mund!")
 
 dialog_addDialog("dr-8-ztichni2", "en", "", "font_viking8", "Will you shut up already!")
 dialog_addDialog("dr-8-ztichni2", "cs", "sound/"..codename.."/cs/dr-8-ztichni2.ogg", "font_viking8", "Buď už zticha!")
-dialog_addDialog("dr-8-ztichni2", "fr", "", "font_viking8", "Vas-Tu la fermer déjà !")
+dialog_addDialog("dr-8-ztichni2", "fr", "", "font_viking8", "Tu vas la fermer déjà !")
 dialog_addDialog("dr-8-ztichni2", "de", "", "font_viking8", "Wirst du wohl endlich ruhig sein!")
 
 dialog_addDialog("dr-8-nenechas", "en", "", "font_viking8", "So, you`re not going to shut up, are you?")
@@ -93,7 +93,7 @@ dialog_addDialog("dr-5-srab1", "de", "", "font_viking5", "Ist es vorbei?")
 
 dialog_addDialog("dr-5-srab2", "en", "", "font_viking5", "Are we safe now?")
 dialog_addDialog("dr-5-srab2", "cs", "sound/"..codename.."/cs/dr-5-srab2.ogg", "font_viking5", "Je tady bezpečno?")
-dialog_addDialog("dr-5-srab2", "fr", "", "font_viking5", "Nous sommes sauf maintenant ?")
+dialog_addDialog("dr-5-srab2", "fr", "", "font_viking5", "Nous sommes saufs maintenant ?")
 dialog_addDialog("dr-5-srab2", "de", "", "font_viking5", "Sind wir jetzt sicher?")
 
 dialog_addDialog("dr-5-srab3", "en", "", "font_viking5", "Is the fight over?")
@@ -158,7 +158,7 @@ dialog_addDialog("dr-1-bojovnik", "de", "", "font_viking1", "Ein Kämpfer muss s
 
 dialog_addDialog("dr-1-achjo", "en", "", "font_viking1", "Ahhh, I`m in charge of a ship full of cowards.")
 dialog_addDialog("dr-1-achjo", "cs", "sound/"..codename.."/cs/dr-1-achjo.ogg", "font_viking1", "Ach jo, velím lodi plné zbabělců.")
-dialog_addDialog("dr-1-achjo", "fr", "", "font_viking1", "Ahhh, Je dirige un bateau plein poltrons")
+dialog_addDialog("dr-1-achjo", "fr", "", "font_viking1", "Ahhh, Je dirige un bateau plein de poltrons")
 dialog_addDialog("dr-1-achjo", "de", "", "font_viking1", "Ahhh, Ich habe das Kommando über ein Schiff voller Feiglinge!")
 
 dialog_addDialog("dr-1-procja", "en", "", "font_viking1", "Why did I have to get a ship full of laughing buffoons?")

@@ -10,7 +10,7 @@ dialog_addDialog("ncp-m-tesno1", "de", "", "font_small", "Ziemlich eng hier.")
 
 dialog_addDialog("ncp-v-dostala", "en", "", "font_big", "How did you manage to get there?")
 dialog_addDialog("ncp-v-dostala", "cs", "sound/"..codename.."/cs/ncp-v-dostala.ogg", "font_big", "Jak ses tam dostala?")
-dialog_addDialog("ncp-v-dostala", "fr", "", "font_big", "Comment tu t'es débrouillé pour arriver là-dedans ?")
+dialog_addDialog("ncp-v-dostala", "fr", "", "font_big", "Comment tu t'es débrouillée pour arriver là-dedans ?")
 dialog_addDialog("ncp-v-dostala", "de", "", "font_big", "Wie bist du da reingekommen?")
 
 dialog_addDialog("ncp-v-sasanka", "en", "", "font_big", "Stop playing with anemone and help me to get us out of here.")
@@ -20,12 +20,12 @@ dialog_addDialog("ncp-v-sasanka", "de", "", "font_big", "Hör auf, mit der Seean
 
 dialog_addDialog("ncp-m-nekoukej", "en", "", "font_small", "Don`t be surprised.")
 dialog_addDialog("ncp-m-nekoukej", "cs", "sound/"..codename.."/cs/ncp-m-nekoukej.ogg", "font_small", "Moc nekoukej.")
-dialog_addDialog("ncp-m-nekoukej", "fr", "", "font_small", "Ne soit pas étonné.")
+dialog_addDialog("ncp-m-nekoukej", "fr", "", "font_small", "Ne sois pas étonné.")
 dialog_addDialog("ncp-m-nekoukej", "de", "", "font_small", "Nicht erschrecken, kleines Seepferdchen.")
 
 dialog_addDialog("ncp-m-komari", "en", "", "font_small", "There is so many carols here...")
 dialog_addDialog("ncp-m-komari", "cs", "sound/"..codename.."/cs/ncp-m-komari.ogg", "font_small", "Tady je ale všude komárů...")
-dialog_addDialog("ncp-m-komari", "fr", "", "font_small", "Il y a tellement de corales ici...")
+dialog_addDialog("ncp-m-komari", "fr", "", "font_small", "Il y a tellement de chorales ici...")
 dialog_addDialog("ncp-m-komari", "de", "", "font_small", "Hier sind so viele Krallen...")
 
 dialog_addDialog("ncp-v-ceho", "en", "", "font_big", "What?")
@@ -60,7 +60,7 @@ dialog_addDialog("ncp-m-muzes", "de", "", "font_small", "Jetzt kommst du raus, o
 
 dialog_addDialog("ncp-v-neprojedu", "en", "", "font_big", "Hmm, I can`t get through here...")
 dialog_addDialog("ncp-v-neprojedu", "cs", "sound/"..codename.."/cs/ncp-v-neprojedu.ogg", "font_big", "Hmm, tak tudy neprojedu...")
-dialog_addDialog("ncp-v-neprojedu", "fr", "", "font_big", "Humm, je peux traverser ici...")
+dialog_addDialog("ncp-v-neprojedu", "fr", "", "font_big", "Hum, je peux traverser ici...")
 dialog_addDialog("ncp-v-neprojedu", "de", "", "font_big", "Hmm, hier komme ich nicht durch...")
 
 dialog_addDialog("ncp-m-barvy", "en", "", "font_small", "I love colors...")

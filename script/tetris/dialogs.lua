@@ -1,6 +1,6 @@
 dialog_addDialog("tet-m-vypadala", "en", "", "font_small", "So this is how the most successful game of all times looked like.")
 dialog_addDialog("tet-m-vypadala", "cs", "sound/"..codename.."/cs/tet-m-vypadala.ogg", "font_small", "Tak takhle vypadala nejúspěšnější hra všech dob.")
-dialog_addDialog("tet-m-vypadala", "fr", "", "font_small", "Donc, voici à quoi ressemble le jeu le plus populaire de tout les temps.")
+dialog_addDialog("tet-m-vypadala", "fr", "", "font_small", "Donc, voici à quoi ressemble le jeu le plus populaire de tous les temps.")
 dialog_addDialog("tet-m-vypadala", "de", "", "font_small", "So sah also das erfolgreichste Spiel aller Zeiten aus.")
 
 dialog_addDialog("tet-v-ucta", "en", "", "font_big", "Only the deep respect for its memory prevents me from saying how it looks like...")
@@ -36,7 +36,7 @@ dialog_addDialog("tet-m-jaklepsi", "de", "", "font_small", "Wie \"besser\"?")
 
 dialog_addDialog("tet-v-hybat", "en", "", "font_big", "At least, you won`t have to move all the pieces to the right.")
 dialog_addDialog("tet-v-hybat", "cs", "sound/"..codename.."/cs/tet-v-hybat.ogg", "font_big", "No, přinejmenším tak, aby se tam dalo hýbat kostkou nejen doprava.")
-dialog_addDialog("tet-v-hybat", "fr", "", "font_big", "Au moins, tu n'as pas à pousser toutes les pièce sur la droite.")
+dialog_addDialog("tet-v-hybat", "fr", "", "font_big", "Au moins, tu n'as pas à pousser toutes les pièces sur la droite.")
 dialog_addDialog("tet-v-hybat", "de", "", "font_big", "Zumindest, dass man nicht alle Teile nach rechts bewegen müsste.")
 
 dialog_addDialog("tet-m-predmety", "en", "", "font_small", "The truth is we have an amply supply of suitable objects here.")
@@ -51,12 +51,12 @@ dialog_addDialog("tet-v-uprava", "de", "", "font_big", "Ich denke, dass ein klei
 
 dialog_addDialog("tet-m-program", "en", "", "font_small", "Okay, try to program it.")
 dialog_addDialog("tet-m-program", "cs", "sound/"..codename.."/cs/tet-m-program.ogg", "font_small", "Tak to zkus naprogramovat.")
-dialog_addDialog("tet-m-program", "fr", "", "font_small", "Okay, Essaye de l'installer.")
+dialog_addDialog("tet-m-program", "fr", "", "font_small", "Ok, essaie de l'installer.")
 dialog_addDialog("tet-m-program", "de", "", "font_small", "Gut, versuche es zu programmieren.")
 
 dialog_addDialog("tet-m-pozor", "en", "", "font_small", "Be careful, not to hurt us.")
 dialog_addDialog("tet-m-pozor", "cs", "sound/"..codename.."/cs/tet-m-pozor.ogg", "font_small", "Dej si pozor, ať nám něco neuděláš.")
-dialog_addDialog("tet-m-pozor", "fr", "", "font_small", "Fais attention, nous sommes fragile.")
+dialog_addDialog("tet-m-pozor", "fr", "", "font_small", "Fais attention, nous sommes fragiles.")
 dialog_addDialog("tet-m-pozor", "de", "", "font_small", "Pass auf, dass du uns nicht wehtust.")
 
 dialog_addDialog("tet-v-kostky", "en", "", "font_big", "We will have to stack these pieces more efficiently, perhaps.")
@@ -66,7 +66,7 @@ dialog_addDialog("tet-v-kostky", "de", "", "font_big", "Wir müssen die Teile wa
 
 dialog_addDialog("tet-m-lepe", "en", "", "font_small", "Hmm... I should have arranged it better.")
 dialog_addDialog("tet-m-lepe", "cs", "sound/"..codename.."/cs/tet-m-lepe.ogg", "font_small", "Hmmm... měla jsem to tam naskládat nějak lépe.")
-dialog_addDialog("tet-m-lepe", "fr", "", "font_small", "Hmm... Je devrais mieux empiler ça.")
+dialog_addDialog("tet-m-lepe", "fr", "", "font_small", "Hum... Je devrais mieux empiler ça.")
 dialog_addDialog("tet-m-lepe", "de", "", "font_small", "Hmm... Ich hätte es besser anordnen sollen.")
 
 

@@ -10,7 +10,7 @@ dialog_addDialog("rea-v-coto", "de", "", "font_big", "Was könnte es sein?")
 
 dialog_addDialog("rea-m-nevim", "en", "", "font_small", "I have no idea, but it`s disgusting.")
 dialog_addDialog("rea-m-nevim", "cs", "sound/"..codename.."/cs/rea-m-nevim.ogg", "font_small", "Nevím, ale je to odporné.")
-dialog_addDialog("rea-m-nevim", "fr", "", "font_small", "Aucune idée, mais c'est dégoutant.")
+dialog_addDialog("rea-m-nevim", "fr", "", "font_small", "Aucune idée, mais c'est dégoûtant.")
 dialog_addDialog("rea-m-nevim", "de", "", "font_small", "Ich habe keine Ahnung, aber es ist eklig.")
 
 dialog_addDialog("rea-m-comyslis", "en", "", "font_small", "What do you think about these rods?")
@@ -25,12 +25,12 @@ dialog_addDialog("rea-v-patrne", "de", "", "font_big", "Die sehen wie Brennstäb
 
 dialog_addDialog("rea-v-ledaze", "en", "", "font_big", "Unless, of course, this reactor works on some completely different principle.")
 dialog_addDialog("rea-v-ledaze", "cs", "sound/"..codename.."/cs/rea-v-ledaze.ogg", "font_big", "Ledaže by ten reaktor pracoval na úplně jiném principu.")
-dialog_addDialog("rea-v-ledaze", "fr", "", "font_big", "A moins que bien sûr, ce réacteur ne fonctionne sur un principe complètement différent.")
+dialog_addDialog("rea-v-ledaze", "fr", "", "font_big", "A moins que bien sûr, ce réacteur fonctionne sur un principe complètement différent.")
 dialog_addDialog("rea-v-ledaze", "de", "", "font_big", "Es sei denn, der Reaktor arbeitet nach einem ganz anderen Prinzip.")
 
 dialog_addDialog("rea-m-mohl", "en", "", "font_small", "It could, of course, be a nucleo-particle megadisruptor with ultramezon colliders.")
 dialog_addDialog("rea-m-mohl", "cs", "sound/"..codename.."/cs/rea-m-mohl.ogg", "font_small", "Mohl by to být nukleopartikulární megadisruptor s ultramezonovými urychlovači.")
-dialog_addDialog("rea-m-mohl", "fr", "", "font_small", "Il pourrait bien sûr être un mégagénérateur d'exploion de particules nucléaires à hautes vélocités.")
+dialog_addDialog("rea-m-mohl", "fr", "", "font_small", "Il pourrait bien sûr être un surgénérateur d'explosions de particules nucléaires à hautes vélocités.")
 dialog_addDialog("rea-m-mohl", "de", "", "font_small", "Es könnte ja ein Kernteilchen-Megaspalter mit Ultramesonen-Beschleuniger sein.")
 
 dialog_addDialog("rea-v-tozni", "en", "", "font_big", "That sounds reasonable...")
@@ -56,7 +56,7 @@ dialog_addDialog("rea-m-cojavim", "de_CH", "", "font_small", "Woher soll ich das
 
 dialog_addDialog("rea-v-radeji", "en", "", "font_big", "I`d rather stick to a more rational explanation.")
 dialog_addDialog("rea-v-radeji", "cs", "sound/"..codename.."/cs/rea-v-radeji.ogg", "font_big", "Raději bych se držel nějakého rozumného vysvětlení.")
-dialog_addDialog("rea-v-radeji", "fr", "", "font_big", "Je préfèrerais une explication plus rationnelle.")
+dialog_addDialog("rea-v-radeji", "fr", "", "font_big", "Je préférerais une explication plus rationnelle.")
 dialog_addDialog("rea-v-radeji", "de", "", "font_big", "Ich bleibe lieber bei einer vernünftigeren Erklärung.")
 
 dialog_addDialog("rea-m-jakmuzes", "en", "", "font_small", "But how do you know what`s a rational explanation and what isn`t?")
@@ -66,7 +66,7 @@ dialog_addDialog("rea-m-jakmuzes", "de", "", "font_small", "Aber woher willst du
 
 dialog_addDialog("rea-v-kolik", "en", "", "font_big", "Well just how many flying saucers, in your opinion, have a shooting gallery on board? And how many have a power plant?")
 dialog_addDialog("rea-v-kolik", "cs", "sound/"..codename.."/cs/rea-v-kolik.ogg", "font_big", "Kolik procent létajících talířů má podle tebe na palubě střelnici? A kolik reaktor?")
-dialog_addDialog("rea-v-kolik", "fr", "", "font_big", "Et bien, d'après toi, combien de soucoupe volante ont à bord un stand de tir? Et combien un générateur éléctrique ?")
+dialog_addDialog("rea-v-kolik", "fr", "", "font_big", "Et bien, d'après toi, combien de soucoupe volante ont à bord un stand de tir? Et combien un générateur électrique ?")
 dialog_addDialog("rea-v-kolik", "de", "", "font_big", "Naja, wie viele fliegenden Untertassen haben deiner Meinung nach einen Schießstand an Bord? Und wie viele haben einen Reaktor?")
 dialog_addDialog("rea-v-kolik", "de_CH", "", "font_big", "Naja, wie viele fliegenden Untertassen haben deiner Meinung nach einen Schiessstand an Bord? Und wie viele haben einen Reaktor?")
 

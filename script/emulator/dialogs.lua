@@ -10,12 +10,12 @@ dialog_addDialog("zx-v-osmibit", "de", "", "font_big", "Ja, ich spüre den Acht-
 
 dialog_addDialog("zx-m-pixel", "en", "", "font_small", "Can you see that pixel graphic all around us? I must confess I feel nostalgic.")
 dialog_addDialog("zx-m-pixel", "cs", "sound/"..codename.."/cs/zx-m-pixel.ogg", "font_small", "Vidíš tu pixelovou grafiku všude kolem? Nemohu se ubránit jisté nostalgii.")
-dialog_addDialog("zx-m-pixel", "fr", "", "font_small", "Peux-tu voir ces graphiques pixélisés tout autour de nous ? Je dois avouer que ça me rends nostalgique.")
+dialog_addDialog("zx-m-pixel", "fr", "", "font_small", "Peux-tu voir ces graphiques pixélisés tout autour de nous ? Je dois avouer que ça me rend nostalgique.")
 dialog_addDialog("zx-m-pixel", "de", "", "font_small", "Siehst du die Pixelgrafik um uns herum? Ich muss zugeben, dass ich nostalgisch werden.")
 
 dialog_addDialog("zx-v-hry", "en", "", "font_big", "This is an opportunity to play the merry old games of ZX Spectrum.")
 dialog_addDialog("zx-v-hry", "cs", "sound/"..codename.."/cs/zx-v-hry.ogg", "font_big", "Tohle je příležitost zahrát si staré dobré spectristické hry.")
-dialog_addDialog("zx-v-hry", "fr", "", "font_big", "C'est une opprtunité pour jouer aux joyeux jeux du ZX Spectrum.")
+dialog_addDialog("zx-v-hry", "fr", "", "font_big", "C'est une opportunité pour jouer aux joyeux jeux du ZX Spectrum.")
 dialog_addDialog("zx-v-hry", "de", "", "font_big", "Das ist die Gelegenheit, alte ZX-Spectrum-Spiele zu zocken.")
 
 dialog_addDialog("zx-m-premyslis", "en", "", "font_small", "What are you thinking about now?")
@@ -30,7 +30,7 @@ dialog_addDialog("zx-v-pamet", "de", "", "font_big", "Nunja, mir ist gerade klar
 
 dialog_addDialog("zx-v-otazka", "en", "", "font_big", "Do you know that your question alone in the format of WAV file would overfill the RAM of ZX Spectrum? And imagine how many such sounds are in this game.")
 dialog_addDialog("zx-v-otazka", "cs", "sound/"..codename.."/cs/zx-v-otazka.ogg", "font_big", "Uvědomuješ si, že ta tvá otázka by jako zvukový soubor zaplnila celou paměť ZX Spectra? A uvědom si, kolik takových zvuků je v téhle hře.")
-dialog_addDialog("zx-v-otazka", "fr", "", "font_big", "Sais-tu que ta question seule au format WAV risque de ne pas tenir dans la RAM du ZX Spectrum ? Et imagine la quantité de sons qu'il y a dans ce jeu.")
+dialog_addDialog("zx-v-otazka", "fr", "", "font_big", "Est-ce que tu sais que ta question seule au format WAV risque de ne pas tenir dans la RAM du ZX Spectrum ? Et imagine la quantité de sons qu'il y a dans ce jeu.")
 dialog_addDialog("zx-v-otazka", "de", "", "font_big", "Weißt du, dass allein deine Frage als WAV-Datei den Arbeitsspeicher des ZX Spectrum überfüllt hätte? Und stell dir vor, wie viele dieser Töne in diesem Spiel sind.")
 dialog_addDialog("zx-v-otazka", "de_CH", "", "font_big", "Weisst du, dass allein deine Frage als WAV-Datei den Arbeitsspeicher des ZX Spectrum überfüllt hätte? Und stell dir vor, wie viele dieser Töne in diesem Spiel sind.")
 
@@ -56,7 +56,7 @@ dialog_addDialog("zx-m-jetpack", "de", "", "font_small", "Ich hätte nie gedacht
 
 dialog_addDialog("zx-v-roboti", "en", "", "font_big", "This line of robots looks familiar.")
 dialog_addDialog("zx-v-roboti", "cs", "sound/"..codename.."/cs/zx-v-roboti.ogg", "font_big", "Tady tu frontu robotků poznávám.")
-dialog_addDialog("zx-v-roboti", "fr", "", "font_big", "Cette ligne de robot m'est familière.")
+dialog_addDialog("zx-v-roboti", "fr", "", "font_big", "Cette ligne de robots m'est familière.")
 dialog_addDialog("zx-v-roboti", "de", "", "font_big", "Diese Baureihe Roboter sieht bekannt aus.")
 
 dialog_addDialog("zx-m-highway", "en", "", "font_small", "Oh sure, they are from the Highway Encounter.")
@@ -66,7 +66,7 @@ dialog_addDialog("zx-m-highway", "de", "", "font_small", "Ja sicher, die sind au
 
 dialog_addDialog("zx-v-nahravani", "en", "", "font_big", "I wonder what is loading just now.")
 dialog_addDialog("zx-v-nahravani", "cs", "sound/"..codename.."/cs/zx-v-nahravani.ogg", "font_big", "To by mě zajímalo, co se tu právě nahrává.")
-dialog_addDialog("zx-v-nahravani", "fr", "", "font_big", "Je me demande à quoi correspond le chargement à l'instant.")
+dialog_addDialog("zx-v-nahravani", "fr", "", "font_big", "Je me demande à quoi correspond le chargement en cours.")
 dialog_addDialog("zx-v-nahravani", "de", "", "font_big", "Ich frage mich, was gerade lädt.")
 
 dialog_addDialog("zx-m-ocel", "en", "", "font_small", "The single biggest advantage of this room is that it contains no steel.")

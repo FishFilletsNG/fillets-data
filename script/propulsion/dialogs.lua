@@ -60,7 +60,7 @@ dialog_addDialog("poh-v-klec", "de", "", "font_big", "Der Käfig in der Mitte is
 
 dialog_addDialog("poh-m-dobre", "en", "", "font_small", "Okay, we shall take this one.")
 dialog_addDialog("poh-m-dobre", "cs", "sound/"..codename.."/cs/poh-m-dobre.ogg", "font_small", "Dobře, tu vezmeme.")
-dialog_addDialog("poh-m-dobre", "fr", "", "font_small", "Okay, emportons celle-ci.")
+dialog_addDialog("poh-m-dobre", "fr", "", "font_small", "Ok, emportons celle-ci.")
 dialog_addDialog("poh-m-dobre", "de", "", "font_small", "Gut, wir sollten ihn nehmen.")
 
 dialog_addDialog("poh-v-forma", "en", "", "font_big", "Look, there is some strange life form, over there. Won`t we try to contact them?")
@@ -70,12 +70,12 @@ dialog_addDialog("poh-v-forma", "de", "", "font_big", "Schau, da drüben ist ein
 
 dialog_addDialog("poh-m-princip", "en", "", "font_small", "Our mission was clear - principles and construction of the interstellar propulsion. Not a single word about contact.")
 dialog_addDialog("poh-m-princip", "cs", "sound/"..codename.."/cs/poh-m-princip.ogg", "font_small", "Náš úkol zněl jasně - principy a konstrukce mezihvězdných pohonů. O kontaktu ani slovo.")
-dialog_addDialog("poh-m-princip", "fr", "", "font_small", "Notre mission est claire - principes et tout ce qui concerne la propulsion interstélaire. Pas un mot à propos de contact.")
+dialog_addDialog("poh-m-princip", "fr", "", "font_small", "Notre mission est claire - principes et tout ce qui concerne la propulsion interstellaire. Pas un mot à propos de contact.")
 dialog_addDialog("poh-m-princip", "de", "", "font_small", "Unser Auftrag war eindeutig - Prinzipen und Konstruktion des interstellaren Antriebs. Kein einziges Wort über Kontaktaufnahme")
 
 dialog_addDialog("poh-v-pomoct", "en", "", "font_big", "Well. But they could at least help us.")
 dialog_addDialog("poh-v-pomoct", "cs", "sound/"..codename.."/cs/poh-v-pomoct.ogg", "font_big", "Tak dobře. Ale mohli by nám aspoň pomoct.")
-dialog_addDialog("poh-v-pomoct", "fr", "", "font_big", "Bien. Mais il pourrait au moins nous aider.")
+dialog_addDialog("poh-v-pomoct", "fr", "", "font_big", "Bien. Mais ils pourraient au moins nous aider.")
 dialog_addDialog("poh-v-pomoct", "de", "", "font_big", "Na gut. Aber die könnten uns wenigsten ein bisschen helfen.")
 
 dialog_addDialog("poh-m-dobryden0", "en", "", "font_small", "Good afternoon, excuse me, please, couldn`t I loot your drive?")
@@ -85,7 +85,7 @@ dialog_addDialog("poh-m-dobryden0", "de", "", "font_small", "Guten Tag, entschul
 
 dialog_addDialog("poh-m-dobryden1", "en", "", "font_small", "Hmm, good afternoon sir, could I ask you to help us to dismantle your propulsion unit, please?")
 dialog_addDialog("poh-m-dobryden1", "cs", "sound/"..codename.."/cs/poh-m-dobryden1.ogg", "font_small", "Ehm, dobrý den, mohla bych vás požádat, abyste nám pomohl rozbít vaši pohonnou jednotku?")
-dialog_addDialog("poh-m-dobryden1", "fr", "", "font_small", "Hmm, bonjour monsieur, Puis-je vous demander de nous aider à démonter votre moteur, s'il vous plaît ?")
+dialog_addDialog("poh-m-dobryden1", "fr", "", "font_small", "Hum, bonjour messieurs, Puis-je vous demander de nous aider à démonter votre moteur, s'il vous plaît ?")
 dialog_addDialog("poh-m-dobryden1", "de", "", "font_small", "Hmm, Guten Tag der Herr, wären sie so freundlich, uns beim Zerlegen ihrer Antriebseinheit zu helfen?")
 
 dialog_addDialog("poh-v-ukol", "en", "", "font_big", "Our goal in this level is to get out the cage with that animal.")
@@ -100,13 +100,13 @@ dialog_addDialog("poh-m-pohadali", "de", "", "font_small", "Ich habe das Gefühl
 
 dialog_addDialog("poh-v-setkani", "en", "", "font_big", "I never imagined that meeting aliens would look this way.")
 dialog_addDialog("poh-v-setkani", "cs", "sound/"..codename.."/cs/poh-v-setkani.ogg", "font_big", "Tak jsem si setkání s mimozemšťany nepředstavoval.")
-dialog_addDialog("poh-v-setkani", "fr", "", "font_big", "Je n'ai jamais imaginé que ce rassemblement d'extraterrestres sera d'accord.")
+dialog_addDialog("poh-v-setkani", "fr", "", "font_big", "Je n'ai jamais imaginé que ce rassemblement d'extraterrestres fût d'accord.")
 dialog_addDialog("poh-v-setkani", "de", "", "font_big", "Ich hätte nie gedacht, dass ein Treffen mit Außerirdischen so aussieht.")
 dialog_addDialog("poh-v-setkani", "de_CH", "", "font_big", "Ich hätte nie gedacht, dass ein Treffen mit Ausserirdischen so aussieht.")
 
 dialog_addDialog("poh-m-sestra", "en", "", "font_small", "And what have you expected? That they will kidnap your sister?")
 dialog_addDialog("poh-m-sestra", "cs", "sound/"..codename.."/cs/poh-m-sestra.ogg", "font_small", "A cos čekal? Že unesou tvou sestru?")
-dialog_addDialog("poh-m-sestra", "fr", "", "font_small", "Et qu'espèrais-tu ? Qu'ils vont kidnaper ta soeur ?")
+dialog_addDialog("poh-m-sestra", "fr", "", "font_small", "Et qu'espérais-tu ? Qu'ils vont kidnapper ta soeur ?")
 dialog_addDialog("poh-m-sestra", "de", "", "font_small", "Und was hast du erwartet? Dass sie deine Schwester entführen?")
 
 

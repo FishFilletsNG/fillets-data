@@ -60,7 +60,7 @@ dialog_addDialog("mik-m-myslit", "de", "", "font_small", "Jetzt können wir in R
 
 dialog_addDialog("mik-m-proc", "en", "", "font_small", "White fish, why do you have such big eyes?")
 dialog_addDialog("mik-m-proc", "cs", "sound/"..codename.."/cs/mik-m-proc.ogg", "font_small", "Bílá rybo, proč máš tak veliké oči?")
-dialog_addDialog("mik-m-proc", "fr", "", "font_small", "Poisson blanc, pourquoi as-tu des yeux si grand ?")
+dialog_addDialog("mik-m-proc", "fr", "", "font_small", "Poisson blanc, pourquoi as-tu de si grands yeux ?")
 dialog_addDialog("mik-m-proc", "de", "", "font_small", "Weißer Fisch, warum hast du so große Augen?")
 dialog_addDialog("mik-m-proc", "de_CH", "", "font_small", "Weisser Fisch, warum hast du so grosse Augen?")
 
@@ -71,7 +71,7 @@ dialog_addDialog("mik-v-videt", "de", "", "font_big", "Um dich besser zu sehen."
 
 dialog_addDialog("mik-m-konik", "en", "", "font_small", "I`ve seen this seahorse somewhere before.")
 dialog_addDialog("mik-m-konik", "cs", "sound/"..codename.."/cs/mik-m-konik.ogg", "font_small", "Tohohle koníka jsem už někde viděla.")
-dialog_addDialog("mik-m-konik", "fr", "", "font_small", "J'ai déjà vu cet hypocampe quelque part.")
+dialog_addDialog("mik-m-konik", "fr", "", "font_small", "J'ai déjà vu cet hippocampe quelque part.")
 dialog_addDialog("mik-m-konik", "de", "", "font_small", "Ich habe das Seepferdchen schon mal gesehen.")
 
 dialog_addDialog("mik-x-stebet0", "en", "sound/"..codename.."/en/mik-x-stebet0.ogg")

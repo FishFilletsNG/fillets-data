@@ -5,7 +5,7 @@ dialog_addDialog("puc-m-koukej", "de", "", "font_small", "Schau, was man alles s
 
 dialog_addDialog("puc-v-podivej", "en", "", "font_big", "It`s interesting what kind of stuff somebody will throw out.")
 dialog_addDialog("puc-v-podivej", "cs", "sound/"..codename.."/cs/puc-v-podivej.ogg", "font_big", "Podívej, co ti lidi všechno nevyhodí.")
-dialog_addDialog("puc-v-podivej", "fr", "", "font_big", "Il est intéressant de voir quelle camelotte peut être jetée par les gens.")
+dialog_addDialog("puc-v-podivej", "fr", "", "font_big", "Il est intéressant de voir quelle camelote peut être jetée par les gens.")
 dialog_addDialog("puc-v-podivej", "de", "", "font_big", "Interessant, was die Leute so wegwerfen.")
 
 dialog_addDialog("puc-v-videl", "en", "", "font_big", "I am sure I have seen this woman somewhere.")

@@ -30,7 +30,7 @@ dialog_addDialog("jed-v-poslani2", "de", "", "font_big", "Denk dran! Wir müssen
 
 dialog_addDialog("jed-m-flakas", "en", "", "font_small", "You are just sitting up there and I have to do all the work myself!")
 dialog_addDialog("jed-m-flakas", "cs", "sound/"..codename.."/cs/jed-m-flakas.ogg", "font_small", "Ty se tam nahoře flákáš a já to tu musím oddřít všechno sama!")
-dialog_addDialog("jed-m-flakas", "fr", "", "font_small", "Tu n'as qu'à t'assoir là haut et je fais tout le boulot moi-même.")
+dialog_addDialog("jed-m-flakas", "fr", "", "font_small", "Tu n'as qu'à t'asseoir là haut et je fais tout le boulot moi-même.")
 dialog_addDialog("jed-m-flakas", "de", "", "font_small", "Du sitzt da oben rum und ich muss die ganze Arbeit alleine machen!")
 
 dialog_addDialog("jed-v-uzivat0", "en", "", "font_big", "Didn`t you say that you like the pearls?")
@@ -65,7 +65,7 @@ dialog_addDialog("jed-m-perlorodka2", "de", "", "font_small", "Mein liebster Fre
 
 dialog_addDialog("jed-m-trubka", "en", "", "font_small", "I wonder if it wouldn`t be easier to shorten that steel pipe.")
 dialog_addDialog("jed-m-trubka", "cs", "sound/"..codename.."/cs/jed-m-trubka.ogg", "font_small", "Jestli by nebylo jednodušší tu ocelovou trubku zkrátit.")
-dialog_addDialog("jed-m-trubka", "fr", "", "font_small", "Je me demande si il ne serait pas plus facile de racourcir ce tuyau en acier.")
+dialog_addDialog("jed-m-trubka", "fr", "", "font_small", "Je me demande si il ne serait pas plus facile de raccourcir ce tuyau en acier.")
 dialog_addDialog("jed-m-trubka", "de", "", "font_small", "Ich frage mich, ob es nicht einfacher wäre, das Stahlrohr zu kürzen.")
 
 dialog_addDialog("jed-v-ocet", "en", "", "font_big", "Cleopatra is rumored to dissolve pearls in vinegar.")
@@ -85,7 +85,7 @@ dialog_addDialog("jed-v-vzdelat", "de", "", "font_big", "Schon gut, ich wollte d
 
 dialog_addDialog("jed-v-poter", "en", "", "font_big", "Watching you, I have to think about how I played marbles with tadpoles.")
 dialog_addDialog("jed-v-poter", "cs", "sound/"..codename.."/cs/jed-v-poter.ogg", "font_big", "Když se na tebe dívám, vzpomínám, jak jsem hrál s potěrem kuličky.")
-dialog_addDialog("jed-v-poter", "fr", "", "font_big", "Regarde toi, tu me fais penser au temps ou je jouais au bille avec des tétards.")
+dialog_addDialog("jed-v-poter", "fr", "", "font_big", "Regarde toi, tu me fais penser au temps ou je jouais au bille avec des têtards.")
 dialog_addDialog("jed-v-poter", "de", "", "font_big", "Wenn ich dir so zusehe, muss ich daran denken, wie ich mit Kaulquappen Murmeln gespielt habe.")
 
 dialog_addDialog("jed-m-kulicka", "en", "", "font_small", "You haven`t got a spare marble in your pocket, do you?")

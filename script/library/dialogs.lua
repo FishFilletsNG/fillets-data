@@ -1,6 +1,6 @@
 dialog_addDialog("vrak-v-vraky0", "en", "", "font_big", "These shipwrecs grow more and more arrogant.")
 dialog_addDialog("vrak-v-vraky0", "cs", "sound/"..codename.."/cs/vrak-v-vraky0.ogg", "font_big", "Ty vraky lodí jsou čím dál drzejší.")
-dialog_addDialog("vrak-v-vraky0", "fr", "", "font_big", "Ces épaves de bateaux sont de plus en plus énervants.")
+dialog_addDialog("vrak-v-vraky0", "fr", "", "font_big", "Ces épaves de bateaux sont de plus en plus énervantes.")
 dialog_addDialog("vrak-v-vraky0", "de", "", "font_big", "Diese Schiffwracks werden immer arroganter.")
 
 dialog_addDialog("vrak-v-vraky1", "en", "", "font_big", "These sunken ships really irritate me.")

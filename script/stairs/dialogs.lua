@@ -15,13 +15,13 @@ dialog_addDialog("sch-v-setkani", "de", "", "font_big", "Das ist es: \"Muschel t
 
 dialog_addDialog("sch-m-moc0", "en", "", "font_small", "I`m sorry, I got a bit carried away.")
 dialog_addDialog("sch-m-moc0", "cs", "sound/"..codename.."/cs/sch-m-moc0.ogg", "font_small", "Nějak jsem se do toho moc zabrala.")
-dialog_addDialog("sch-m-moc0", "fr", "", "font_small", "Je suis désolé, j'ai un truc à poussé.")
+dialog_addDialog("sch-m-moc0", "fr", "", "font_small", "Je suis désolée, j'ai un truc à pousser.")
 dialog_addDialog("sch-m-moc0", "de", "", "font_small", "Tschuldigung, ich habe mich ein wenig mitreißen lassen.")
 dialog_addDialog("sch-m-moc0", "de_CH", "", "font_small", "Tschuldigung, ich habe mich ein wenig mitreissen lassen.")
 
 dialog_addDialog("sch-m-moc1", "en", "", "font_small", "Sorry, I was momentarily distracted.")
 dialog_addDialog("sch-m-moc1", "cs", "sound/"..codename.."/cs/sch-m-moc1.ogg", "font_small", "Na chvíli jsem se zamyslela.")
-dialog_addDialog("sch-m-moc1", "fr", "", "font_small", "Désolé, j'étais distrait.")
+dialog_addDialog("sch-m-moc1", "fr", "", "font_small", "Désolée, j'étais ailleurs.")
 dialog_addDialog("sch-m-moc1", "de", "", "font_small", "Tschuldigung, ich war für einen Moment abgelenkt.")
 
 dialog_addDialog("sch-m-moc2", "en", "", "font_small", "Where I am going with this shell?")

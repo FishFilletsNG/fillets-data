@@ -77,7 +77,7 @@ dialog_addDialog("zr-v-opatrne", "de", "", "font_big", "Vorsichtig...")
 
 dialog_addDialog("zr-v-vzdyt", "en", "", "font_big", "Don`t say I didn`t warn you!")
 dialog_addDialog("zr-v-vzdyt", "cs", "sound/"..codename.."/cs/zr-v-vzdyt.ogg", "font_big", "Vždyť jsem ti to říkal!")
-dialog_addDialog("zr-v-vzdyt", "fr", "", "font_big", "Tu ne pourras pas dire que je ne t'ai pas prévenu !")
+dialog_addDialog("zr-v-vzdyt", "fr", "", "font_big", "Tu ne pourras pas dire que je ne t'ai pas prévenue !")
 dialog_addDialog("zr-v-vzdyt", "de", "", "font_big", "Sage nicht, ich hätte dich nicht gewarnt!")
 
 

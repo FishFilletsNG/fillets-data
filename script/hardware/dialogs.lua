@@ -45,7 +45,7 @@ dialog_addDialog("pz-m-spoje3", "de", "", "font_small", "Ich bin hier von Elektr
 
 dialog_addDialog("pz-m-pocitace", "en", "", "font_small", "Computers. They`ve always fascinated me. But now I`m sick of them.")
 dialog_addDialog("pz-m-pocitace", "cs", "sound/"..codename.."/cs/pz-m-pocitace.ogg", "font_small", "Počítače. Vždycky jsem jimi byla fascinována. Teď jich už ale mám plný zuby.")
-dialog_addDialog("pz-m-pocitace", "fr", "", "font_small", "Les ordinateurs. Ils m'ont toujours fascinée. Mais là il me donne la nausée.")
+dialog_addDialog("pz-m-pocitace", "fr", "", "font_small", "Les ordinateurs. Ils m'ont toujours fascinée. Mais là ils me donnent la nausée.")
 dialog_addDialog("pz-m-pocitace", "de", "", "font_small", "Rechner. Die haben mich immer fasziniert. Aber jetzt kann ich sie nicht mehr sehen.")
 
 dialog_addDialog("pz-x-pocitac", "en", "", "font_white", "Fish. I`ve always hated them. And now my circuits are overloaded with them.")

@@ -1,11 +1,11 @@
 dialog_addDialog("war-m-hrad", "en", "", "font_small", "I am imprisoned under the castle.")
 dialog_addDialog("war-m-hrad", "cs", "sound/"..codename.."/cs/war-m-hrad.ogg", "font_small", "Jsem uvězněná pod hradem.")
-dialog_addDialog("war-m-hrad", "fr", "", "font_small", "Je suis prisonnier sous le chateau.")
+dialog_addDialog("war-m-hrad", "fr", "", "font_small", "Je suis prisonnier sous le château.")
 dialog_addDialog("war-m-hrad", "de", "", "font_small", "Ich bin under der Burg eingeschlossen.")
 
 dialog_addDialog("war-m-ocel", "en", "", "font_small", "How did the steel got into this castle?")
 dialog_addDialog("war-m-ocel", "cs", "sound/"..codename.."/cs/war-m-ocel.ogg", "font_small", "Jak se do toho hradu dostala ocel?")
-dialog_addDialog("war-m-ocel", "fr", "", "font_small", "Comment l'acier à pénétrer ce chateau ?")
+dialog_addDialog("war-m-ocel", "fr", "", "font_small", "Comment l'acier à pénétrer ce château ?")
 dialog_addDialog("war-m-ocel", "de", "", "font_small", "Wie ist der Stahl in die Burg gekommen?")
 
 dialog_addDialog("war-v-vesnicane", "en", "", "font_big", "Hold on, I`ll bring some peasants to help you.")
@@ -25,7 +25,7 @@ dialog_addDialog("war-v-doly", "de", "", "font_big", "Glaubst du, dass Silvers S
 
 dialog_addDialog("war-m-povazuji", "en", "", "font_small", "I consider this highly unlikely.")
 dialog_addDialog("war-m-povazuji", "cs", "sound/"..codename.."/cs/war-m-povazuji.ogg", "font_small", "Považuji to za krajně nepravděpodobné.")
-dialog_addDialog("war-m-povazuji", "fr", "", "font_small", "Après réflèxion, c'est hautement improbable.")
+dialog_addDialog("war-m-povazuji", "fr", "", "font_small", "Après réflexion, c'est hautement improbable.")
 dialog_addDialog("war-m-povazuji", "de", "", "font_small", "Das halte ich für sehr unwahrscheinlich.")
 
 dialog_addDialog("war-m-kam", "en", "", "font_small", "Where did we get us, again?")
@@ -35,7 +35,7 @@ dialog_addDialog("war-m-kam", "de", "", "font_small", "Wo sind wir denn hier hin
 
 dialog_addDialog("war-v-povedome", "en", "", "font_big", "I find it oddly familiar here.")
 dialog_addDialog("war-v-povedome", "cs", "sound/"..codename.."/cs/war-v-povedome.ogg", "font_big", "Je mi to tu nějaké povědomé.")
-dialog_addDialog("war-v-povedome", "fr", "", "font_big", "Je trouve ça étonament familier.")
+dialog_addDialog("war-v-povedome", "fr", "", "font_big", "Je trouve ça étonnamment familier.")
 dialog_addDialog("war-v-povedome", "de", "", "font_big", "Das kommt mir hier irgendwie bekannt vor.")
 
 dialog_addDialog("war-v-pohadka", "en", "", "font_big", "When the MS Word or another boring application is running on this machine, we, the computer games characters, get together in the C:\\WINDOWS\\CONFIG directory and talk.")
@@ -45,12 +45,12 @@ dialog_addDialog("war-v-pohadka", "de", "", "font_big", "Wenn MS Word oder ander
 
 dialog_addDialog("war-m-pichat", "en", "", "font_small", "When we don`t know what to do, we play hide-and-seek in registry. That`s why your Windows sometimes crashes if you don`t play any game for a long period of time.")
 dialog_addDialog("war-m-pichat", "cs", "sound/"..codename.."/cs/war-m-pichat.ogg", "font_small", "Když nemáme do čeho píchnout, hrajeme si na schovávanou v registrační databázi. Proto ti občas přestanou fungovat Windows, když dlouho nehraješ žádnou hru.")
-dialog_addDialog("war-m-pichat", "fr", "", "font_small", "Quand nous ne savons pas quoi faire, nous jouons à cache-cache dans la base de registre. C'est une des raisons des crach de Windows si vous ne jouez à aucun jeux pendant trop longtemps.")
+dialog_addDialog("war-m-pichat", "fr", "", "font_small", "Quand nous ne savons pas quoi faire, nous jouons à cache-cache dans la base de registre. C'est une des raisons des crashs de Windows si vous ne jouez à aucun jeux pendant trop longtemps.")
 dialog_addDialog("war-m-pichat", "de", "", "font_small", "Wenn wir nicht wissen, was wir machen sollen, spielen wir Verstecken in der Registry. Darum stürzt Windows immer ab, wenn man nicht ab und zu ein Spiel spielt.")
 
 dialog_addDialog("war-v-prozradit", "en", "", "font_big", "You shouldn`t give that away. I only wanted to say that it looks very similar to this level. So many computer games characters.")
 dialog_addDialog("war-v-prozradit", "cs", "sound/"..codename.."/cs/war-v-prozradit.ogg", "font_big", "To jsi neměla prozrazovat. Já jsem chtěl jenom říct, že to tam vypadá skoro stejně jako tady. Spousta postaviček z her.")
-dialog_addDialog("war-v-prozradit", "fr", "", "font_big", "Tu ne devrais pas parler de ça. Je voulais seuleement dire qu'il ressemblait beaucoup à ce niveau. Il y a tant de personnage de jeux.")
+dialog_addDialog("war-v-prozradit", "fr", "", "font_big", "Tu ne devrais pas parler de ça. Je voulais seulement dire qu'il ressemblait beaucoup à ce niveau. Il y a tant de personnage de jeux.")
 dialog_addDialog("war-v-prozradit", "de", "", "font_big", "Das hättest du nicht verraten sollen. Ich wollte nur sagen, dass es dort so ähnlich wie hier aussieht. So viele Spielfiguren.")
 
 dialog_addDialog("war-m-aznato", "en", "", "font_small", "But it`s not so difficult to get out of there.")

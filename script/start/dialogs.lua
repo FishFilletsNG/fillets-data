@@ -92,7 +92,7 @@ dialog_addDialog("1st-v-takukaz", "de", "", "font_big", "Kein Problem...")
 
 dialog_addDialog("1st-m-hmmm", "en", "", "font_small", "Wow, you moved it! I could never do that!")
 dialog_addDialog("1st-m-hmmm", "cs", "sound/"..codename.."/cs/1st-m-hmmm.ogg", "font_small", "Hmmm... Pohneš s tím. To já bych nedokázala!")
-dialog_addDialog("1st-m-hmmm", "fr", "", "font_small", "Wow, Tu le déplaces ! Je ne pourrais jamais faire ça !")
+dialog_addDialog("1st-m-hmmm", "fr", "", "font_small", "Ouah, Tu le déplaces ! Je ne pourrais jamais faire ça !")
 dialog_addDialog("1st-m-hmmm", "de", "", "font_small", "Toll, du hast ihn bewegt! Das könnte ich nie!")
 
 dialog_addDialog("1st-m-diky", "en", "", "font_small", "Thanks, now I can go with you.")
@@ -117,7 +117,7 @@ dialog_addDialog("1st-v-posunout", "de", "", "font_big", "Könntest du den Stuhl
 
 dialog_addDialog("1st-v-chyba", "en", "", "font_big", "Ooops! That was a mistake. Both of us have to be able to leave in order to continue.")
 dialog_addDialog("1st-v-chyba", "cs", "sound/"..codename.."/cs/1st-v-chyba.ogg", "font_big", "Tak to byla chyba. Správné řešení musí být takové, abychom odjeli oba.")
-dialog_addDialog("1st-v-chyba", "fr", "", "font_big", "Ooops ! Quelle erreur. Nous devons sortir tous les deux pour pouvoir continuer.")
+dialog_addDialog("1st-v-chyba", "fr", "", "font_big", "Oups ! Quelle erreur. Nous devons sortir tous les deux pour pouvoir continuer.")
 dialog_addDialog("1st-v-chyba", "de", "", "font_big", "Ups! Das war ein Fehler. Wir müssen beide rauskommen, um weiterzumachen.")
 
 dialog_addDialog("1st-v-nedostanu", "en", "", "font_big", "There`s no way I can get out now. You`ll have to restart the level.")

@@ -40,7 +40,7 @@ dialog_addDialog("pot-v-hlave", "de", "", "font_big", "Was ist das auf deinem Ko
 
 dialog_addDialog("pot-m-zima", "en", "", "font_small", "My ears were freezing.")
 dialog_addDialog("pot-m-zima", "cs", "sound/"..codename.."/cs/pot-m-zima.ogg", "font_small", "Byla mi zima na uši...")
-dialog_addDialog("pot-m-zima", "fr", "", "font_small", "Mes ouies sont gelées.")
+dialog_addDialog("pot-m-zima", "fr", "", "font_small", "Mes ouïes sont gelées.")
 dialog_addDialog("pot-m-zima", "de", "", "font_small", "Meine Ohren waren kalt.")
 
 dialog_addDialog("pot-m-pujc", "en", "", "font_small", "That`s some hat! Can I borrow it?")
@@ -101,7 +101,7 @@ dialog_addDialog("pot-m-moc", "de", "", "font_small", "Ich mag es hier nicht.")
 
 dialog_addDialog("pot-v-plav", "en", "", "font_big", "Stop talking and swim. Old ship interiors are highly interesting places.")
 dialog_addDialog("pot-v-plav", "cs", "sound/"..codename.."/cs/pot-v-plav.ogg", "font_big", "Nemluv a plav, interiéry starých lodí jsou nadmíru zajímavá místa.")
-dialog_addDialog("pot-v-plav", "fr", "", "font_big", "Arrêtons de causer et nageons. l'intérieur des vieux navires est bien plus intéressant.")
+dialog_addDialog("pot-v-plav", "fr", "", "font_big", "Arrêtons de causer et nageons. L'intérieur des vieux navires est bien plus intéressant.")
 dialog_addDialog("pot-v-plav", "de", "", "font_big", "Hör auf zu quatschen und schwimm! In alten Schiffen ist es hochinteressant.")
 
 dialog_addDialog("pot-v-ponur", "en", "", "font_big", "Can you sense that atmosphere of doom and decay?")

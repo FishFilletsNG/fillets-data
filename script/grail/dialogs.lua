@@ -36,7 +36,7 @@ dialog_addDialog("gr-v-nic1", "de", "", "font_big", "Es ist nicht alles Gold, wa
 
 dialog_addDialog("gr-v-nic2", "en", "", "font_big", "Hmm... Placing a plain Grail in a conspicuous place will not turn it into a Holy one.")
 dialog_addDialog("gr-v-nic2", "cs", "sound/"..codename.."/cs/gr-v-nic2.ogg", "font_big", "Hmmm... když dá někdo obyčejný grál na vyvýšené místo, nestane z něj přece svatý.")
-dialog_addDialog("gr-v-nic2", "fr", "", "font_big", "Hum... Placer un simple graal de façon ostensible ne va pas le tranformer en sacré Graal.")
+dialog_addDialog("gr-v-nic2", "fr", "", "font_big", "Hum... Placer un simple graal de façon ostensible ne va pas le transformer en sacré Graal.")
 dialog_addDialog("gr-v-nic2", "de", "", "font_big", "Hmm... Einen einfachen Gral an einen auffälligen Platz zu stellen, macht ihn nicht heilig.")
 
 dialog_addDialog("gr-v-tuseni", "en", "", "font_big", "I feel it will not be as it seems.")

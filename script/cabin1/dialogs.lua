@@ -60,7 +60,7 @@ dialog_addDialog("k1-pap-sakris", "de", "", "font_parrot", "Verrrdammt!")
 
 dialog_addDialog("k1-pap-sestlustej", "en", "", "font_parrot", "You`rrre too fat, you can`t make it thrrrrough.")
 dialog_addDialog("k1-pap-sestlustej", "cs", "sound/"..codename.."/cs/k1-pap-sestlustej.ogg", "font_parrot", "Jseš tlustej, neprrrojedeš...")
-dialog_addDialog("k1-pap-sestlustej", "fr", "", "font_parrot", "Tu est trrrrop gros, tu ne peux pas le fairrrre passer.")
+dialog_addDialog("k1-pap-sestlustej", "fr", "", "font_parrot", "Tu es trrrrop gros, tu ne peux pas le fairrrre passer.")
 dialog_addDialog("k1-pap-sestlustej", "de", "", "font_parrot", "Du bist zu fett, du kommst nicht durrrch.")
 
 dialog_addDialog("k1-pap-sucharek", "en", "", "font_parrot", "Polly wants a crrracker!")

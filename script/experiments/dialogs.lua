@@ -1,6 +1,6 @@
 dialog_addDialog("bank-m-labolator1", "en", "", "font_small", "This must be some kind of laboratory.")
 dialog_addDialog("bank-m-labolator1", "cs", "sound/"..codename.."/cs/bank-m-labolator1.ogg", "font_small", "Jsme asi v nějaké vědecké laboratoři.")
-dialog_addDialog("bank-m-labolator1", "fr", "", "font_small", "Ce doit être un sorte de laboratoire.")
+dialog_addDialog("bank-m-labolator1", "fr", "", "font_small", "Ce doit être une sorte de laboratoire.")
 dialog_addDialog("bank-m-labolator1", "de", "", "font_small", "Das muss so eine Art Labor sein.")
 
 dialog_addDialog("bank-m-labolator2", "en", "", "font_small", "It seems that even UFOs can be equipped with an on-board lab.")
@@ -15,7 +15,7 @@ dialog_addDialog("bank-m-labolator3", "de", "", "font_small", "Das sieht wie ein
 
 dialog_addDialog("bank-v-pokusy1", "en", "", "font_big", "These experiments seem quite suspicious to me.")
 dialog_addDialog("bank-v-pokusy1", "cs", "sound/"..codename.."/cs/bank-v-pokusy1.ogg", "font_big", "Koukám, že se tady provádějí dost podezřelé pokusy.")
-dialog_addDialog("bank-v-pokusy1", "fr", "", "font_big", "Ces expériences me parraissent parfaitement louches.")
+dialog_addDialog("bank-v-pokusy1", "fr", "", "font_big", "Ces expériences me paraissent parfaitement louches.")
 dialog_addDialog("bank-v-pokusy1", "de", "", "font_big", "Diese Experimente erscheinen mir verdächtig.")
 
 dialog_addDialog("bank-v-pokusy2", "en", "", "font_big", "I think that someone`s carrying out some rather suspicious experiments here.")
@@ -125,12 +125,12 @@ dialog_addDialog("bank-m-prohlednout", "de", "", "font_small", "Wir müssen hier
 
 dialog_addDialog("bank-v-vypad1", "en", "", "font_big", "I`d rather get out of here.")
 dialog_addDialog("bank-v-vypad1", "cs", "sound/"..codename.."/cs/bank-v-vypad1.ogg", "font_big", "Raději bych rychle vypad`.")
-dialog_addDialog("bank-v-vypad1", "fr", "", "font_big", "Je préfèrerai sortir d'ici.")
+dialog_addDialog("bank-v-vypad1", "fr", "", "font_big", "Je préférerai sortir d'ici.")
 dialog_addDialog("bank-v-vypad1", "de", "", "font_big", "Ich will hier lieber raus.")
 
 dialog_addDialog("bank-v-vypad2", "en", "", "font_big", "You know, I`d really rather get out of here.")
 dialog_addDialog("bank-v-vypad2", "cs", "sound/"..codename.."/cs/bank-v-vypad2.ogg", "font_big", "No, já bych nejraději už vypadl.")
-dialog_addDialog("bank-v-vypad2", "fr", "", "font_big", "Tu sais, je préfèrerai vraiment sortir d'ici.")
+dialog_addDialog("bank-v-vypad2", "fr", "", "font_big", "Tu sais, je préférerai vraiment sortir d'ici.")
 dialog_addDialog("bank-v-vypad2", "de", "", "font_big", "Weißt du, ich will wirklich lieber raus hier.")
 dialog_addDialog("bank-v-vypad2", "de_CH", "", "font_big", "Weisst du, ich will wirklich lieber raus hier.")
 

@@ -123,7 +123,7 @@ dialog_addDialog("zel-m-potvora1", "de", "", "font_small", "Hör auf, du Teufel!
 
 dialog_addDialog("zel-v-stacit0", "en", "", "font_big", "Enough is enough!")
 dialog_addDialog("zel-v-stacit0", "cs", "sound/"..codename.."/cs/zel-v-stacit0.ogg", "font_big", "To už by tedy mohlo stačit!")
-dialog_addDialog("zel-v-stacit0", "fr", "", "font_big", "C'est la goute qui fait déborder le vase !")
+dialog_addDialog("zel-v-stacit0", "fr", "", "font_big", "C'est la goutte qui fait déborder le vase !")
 dialog_addDialog("zel-v-stacit0", "de", "", "font_big", "Genug ist genug!")
 
 dialog_addDialog("zel-v-stacit1", "en", "", "font_big", "Are you enjoying yourself?")
@@ -139,7 +139,7 @@ dialog_addDialog("zel-v-bizarni", "de", "", "font_big", "So viele bizarre Formen
 
 dialog_addDialog("zel-m-priroda", "en", "", "font_small", "These corals are Mother Nature`s wonders.")
 dialog_addDialog("zel-m-priroda", "cs", "sound/"..codename.."/cs/zel-m-priroda.ogg", "font_small", "Příroda se na těch korálech vyřádila.")
-dialog_addDialog("zel-m-priroda", "fr", "", "font_small", "Ces corails sont les merveilles de Mère Nature.")
+dialog_addDialog("zel-m-priroda", "fr", "", "font_small", "Ces coraux sont des merveilles de Mère Nature.")
 dialog_addDialog("zel-m-priroda", "de", "", "font_small", "Diese Korallen sind Wunder der Mutter Natur.")
 
 dialog_addDialog("zel-v-tvary", "en", "", "font_big", "Where do so many bizarre shapes come from?")
@@ -149,7 +149,7 @@ dialog_addDialog("zel-v-tvary", "de", "", "font_big", "Woher kommen so viele biz
 
 dialog_addDialog("zel-m-jednoduse", "en", "", "font_small", "It`s easy - designers create tricky problem and leave the drawing to the graphic artists.")
 dialog_addDialog("zel-m-jednoduse", "cs", "sound/"..codename.."/cs/zel-m-jednoduse.ogg", "font_small", "Jednoduše - programátoři vytvoří zapeklitý problém a grafici to pak nakreslí.")
-dialog_addDialog("zel-m-jednoduse", "fr", "", "font_small", "Facile - Les créteurs ont conçu d'épineux problèmes et ont laissé les artistes les dessiner.")
+dialog_addDialog("zel-m-jednoduse", "fr", "", "font_small", "Facile - Les créateurs ont conçu d'épineux problèmes et ont laissé les artistes les dessiner.")
 dialog_addDialog("zel-m-jednoduse", "de", "", "font_small", "Das ist leicht - die Entwickler denken sich knifflige Probleme aus und überlassen das Malen den Künstlern.")
 
 dialog_addDialog("zel-v-ukol", "en", "", "font_big", "Our goal in this room is to get out that turtle.")

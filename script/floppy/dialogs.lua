@@ -1,6 +1,6 @@
 dialog_addDialog("disk-v-tady", "en", "", "font_big", "It looks as if we finally got there.")
 dialog_addDialog("disk-v-tady", "cs", "sound/"..codename.."/cs/disk-v-tady.ogg", "font_big", "Zdá se, že jsme konečně tady.")
-dialog_addDialog("disk-v-tady", "fr", "", "font_big", "Il semblerait que nous y soyons finallemnt arriver.")
+dialog_addDialog("disk-v-tady", "fr", "", "font_big", "Il semblerait que nous y soyons finalemnt arriver.")
 dialog_addDialog("disk-v-tady", "de", "", "font_big", "Sieht aus, als ob wir endlich da wären.")
 
 dialog_addDialog("disk-m-tady", "en", "", "font_small", "Do you think this is it?")
@@ -10,7 +10,7 @@ dialog_addDialog("disk-m-tady", "de", "", "font_small", "Denkst du, das ist sie?
 
 dialog_addDialog("disk-m-vejit", "en", "", "font_small", "How could it all fit on one three and half inch floppy?")
 dialog_addDialog("disk-m-vejit", "cs", "sound/"..codename.."/cs/disk-m-vejit.ogg", "font_small", "Jak by se to mohlo vejít na jednu tři a půl palcovou disketu?")
-dialog_addDialog("disk-m-vejit", "fr", "", "font_small", "Comment celà pourrait-il tenir sur une disquette trois pouces et demi ?")
+dialog_addDialog("disk-m-vejit", "fr", "", "font_small", "Comment cela pourrait-il tenir sur une disquette trois pouces et demi ?")
 dialog_addDialog("disk-m-vejit", "de", "", "font_small", "Wie kann das alles auf eine Dreieinhalb-Zoll-Diskette passen?")
 
 dialog_addDialog("disk-v-metrova", "en", "", "font_big", "Look how much bigger than me it is. It is more than thirty and half feet floppy.")
@@ -21,7 +21,7 @@ dialog_addDialog("disk-v-metrova", "de_CH", "", "font_big", "Schau, sie ist viel
 
 dialog_addDialog("disk-m-velka", "en", "", "font_small", "That`s better. Big plan, big disk. This makes sense.")
 dialog_addDialog("disk-m-velka", "cs", "sound/"..codename.."/cs/disk-m-velka.ogg", "font_small", "Tak to je lepší. Velký plán, velká disketa. To dává smysl.")
-dialog_addDialog("disk-m-velka", "fr", "", "font_small", "Effectivement. Gros plan, grosse disquette. Ca a du sens.")
+dialog_addDialog("disk-m-velka", "fr", "", "font_small", "Effectivement. Gros plan, grosse disquette. Ca se tient.")
 dialog_addDialog("disk-m-velka", "de", "", "font_small", "Das ist besser. Großer Plan, große Diskette. Das macht Sinn.")
 dialog_addDialog("disk-m-velka", "de_CH", "", "font_small", "Das ist besser. Grosser Plan, grosse Diskette. Das macht Sinn.")
 
@@ -52,12 +52,12 @@ dialog_addDialog("disk-v-kriz", "de", "", "font_big", "Siehst du das Stahlkreuz?
 
 dialog_addDialog("disk-m-depres", "en", "", "font_small", "Don`t be always so gloomy. I can`t bear it.")
 dialog_addDialog("disk-m-depres", "cs", "sound/"..codename.."/cs/disk-m-depres.ogg", "font_small", "Nebuď pořád tak depresivní. Kdo to má poslouchat.")
-dialog_addDialog("disk-m-depres", "fr", "", "font_small", "Ne soit pas toujours si lugubre. Je ne peux pas la porter.")
+dialog_addDialog("disk-m-depres", "fr", "", "font_small", "Ne sois pas toujours si lugubre. Je ne peux pas la porter.")
 dialog_addDialog("disk-m-depres", "de", "", "font_small", "Sei nicht immer so depressiv. Ich ertrag` das nicht.")
 
 dialog_addDialog("disk-m-nahrat", "en", "", "font_small", "Wouldn`t it be enough to download that plan from the floppy to our notebook?")
 dialog_addDialog("disk-m-nahrat", "cs", "sound/"..codename.."/cs/disk-m-nahrat.ogg", "font_small", "Nešlo by ten plán z diskety jenom nahrát do našeho notebooku a odjet?")
-dialog_addDialog("disk-m-nahrat", "fr", "", "font_small", "Ne serait-il pas suffisant de télécharger le plan depuis la disquette vers notre notebook ?")
+dialog_addDialog("disk-m-nahrat", "fr", "", "font_small", "Ne serait-il pas suffisant de télécharger le plan depuis la disquette vers notre ordinateur portable ?")
 dialog_addDialog("disk-m-nahrat", "de", "", "font_small", "Würde es nicht reichen, wenn wir den Plan von der Diskette auf unser Notebook runterladen?")
 
 dialog_addDialog("disk-v-mas", "en", "", "font_big", "Why not. Take it out.")
