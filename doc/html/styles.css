@@ -1,0 +1,39 @@
+BODY {
+	background-color: #F5F5F5;
+	color: #000000;
+}
+
+BODY, A, DIV, TD, TH {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+DIV.content {
+	position: relative;
+	width: 720px;
+	left: 20px;
+}
+
+UL {
+	margin-top: 2px;
+}
+
+H1 {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+H2 {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+H3 {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+}
+

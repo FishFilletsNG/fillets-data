@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="Fish Fillets NG is a puzzle Linux game">
+<meta name="keywords" content="Fish Fillets NG, Linux game, puzzle">
+<title>Fish Fillets - Next Generation</title>
+<link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+<table width="100%">
+<tr>
+	<td><a href="http://fillets.sf.net"><img src="img/icon.png" alt="icon" width="32" height="32" border="0"></a></td>
+	<td width="100%"><h1>Fish Fillets - Next Generation</h1></td>
+</tr>
+</table>
+
+<h2>How to Play</h2>
+
+[ English ] [ <a href="manual.cs.html">Czech</a> ]
+<br><br>
+
+<ul>
+	<li>
+		<a href="#control">Control</a>
+		<ul>
+			<li><a href="#running_a_level">Running a level</a></li>
+			<li><a href="#control_keys">Control keys</a></li>
+			<li>
+				<a href="#movement">Movement</a>
+				<ul>
+					<li><a href="#arrow_keys">Arrow keys</a></li>
+					<li><a href="#direct_control">Direct control</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#about_the_game">About the Game</a>
+		<ul>
+			<li><a href="#your_goal">Your goal</a></li>
+			<li>
+				<a href="#movement_rules">Movement rules</a>
+				<ul>
+					<li><a href="#pushing_objects">Pushing objects</a></li>
+					<li><a href="#steel_object">Steel object</a></li>
+					<li><a href="#transferring_objects">Transferring objects</a></li>
+					<li><a href="#pushing_along_other_objects">Pushing along other objects</a></li>
+					<li><a href="#falling_objects">Falling objects</a></li>
+					<li><a href="#animated_object">Animated object</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+
+
+<a name="control"></a><h3>Control</h3>
+
+<a name="running_a_level"></a><h4>Running a level</h4>
+
+<p>When the game starts a map of under water kingdom appears on your screen with one or more paths. It shows the already solved levels (golden beads), levels that are being solved (pulsating blue beads) and as yet unentered levels (empty sockets).</p>
+
+<p>It is only possible to solve the levels one by one. It means that you cannot enter any level behind the blinking bead. Only when you solve it the next bead starts pulsating and so on.</p>
+
+<p>Pulsating level can be run by left-clicking the bead.</p>
+
+
+<a name="control_keys"></a><h4>Control keys</h4>
+
+<p>After running the level you can <b>save (F2)</b> or <b>load (F3)</b> the game and <b>abort (Escape)</b> or <b>restart (Backspace)</b> the current level.</p>
+
+<p>When saving the solution you must keep in mind that there is only one slot for load and save for each level. When saving new position the older one is erased without asking for confirmation. It is recommended that you save new position only when you are sure that you are going in the right direction.</p>
+
+
+<a name="movement"></a><h4>Movement</h4>
+
+<p>You can control your fish in one of two ways.</p>
+
+<ol>
+	<li>
+		<a name="arrow_keys"></a><h5>Arrow keys</h5>
+
+		<p><b>Up, down, left and right arrow keys control the current fish</b>. You can use <b>space bar to switch between the fish</b>.</p>
+
+		<p>When the fish doesn't move although you are pressing the keys you are probably trying to push something that cannot be moved or you are trying to push the steel object with the smaller fish.</p>
+
+		<p>If you press and hold the arrow key, the fish movement will accelerate after approx. three spaces.</p>
+	</li>
+
+	<li>
+		<a name="direct_control"></a><h5>Direct control</h5>
+
+		<p><b>Keys A, S, D and W control the smaller fish</b> and <b>keys J, K, L and I control the bigger fish</b>. The only advantage of this control is that you need not to switch between the fish.</p>
+	</li>
+</ol>
+
+<hr>
+<a name="about_the_game"></a><h3>About the Game</h3>
+
+<a name="your_goal"></a><h4>Your goal</h4>
+
+<p>Your goal in most of the rooms is to get both fish out. To do this you have to move around and rearrange various objects in the room. You have to be very careful because they are quite fragile and it is all too easy to kill them. See also the <a href="#movement_rules">Movement rules</a>.</p>
+
+<p>The goal of the game is to solve all levels.</p>
+
+
+<a name="movement_rules"></a><h4>Movement rules</h4>
+
+<p>When you start to play the game your fish will perish from time to time from seemingly no reason at all. Here we shall state the general rules governing the life of your fish.</p>
+
+<blockquote>
+	<i>The Definition:</i>
+
+	<p>The Greater Fish will perish if any object moves in any direction but up and the said object in its new position rests solely upon the Fish.</p>
+
+	<p>The Greater Fish will also perish if any object moves down and in its new position rests solely upon the object or group of objects resting solely upon the Fish.</p>
+
+	<p>The Smaller Fish will perish in all cases where the Greater Fish would. Moreover, it will always perish if a steel object or a group of objects containing a steel object rests solely upon the Fish.</p>
+</blockquote>
+
+<p>The next paragraphs will tell you what does it in fact mean:</p>
+
+<a name="pushing_objects"></a><h5>Pushing objects</h5>
+
+<p>The fish are only in danger when they move some object. The simplest situation is lifting objects - there is no danger in it. If the fish on the left picture moves up, it lifts the object.  If it moves left or right, nothing happens, but the object stays in place; if it goes on moving left or right long enough, it will eventually come out from under the object and the object will fall harmlessly down. The only dangerous direction is down. If the fish moves down, the object it was supporting will fall on it and kill it.</p>
+
+<p>If the fish want to push an object, the object must be supported by some structure or other object. The fish cannot support the object it is pushing. The fish on the middle picture cannot move left because it would get killed.</p>
+
+<p>The fish can push an unsupported object only if it becomes supported in the new position. An example of such a situation is on the right picture.</p>
+
+<img src="img/manual/pushing_objects.png" width="630" height="212" alt="pushing objects">
+
+<a name="steel_object"></a><h5>Steel object</h5>
+
+<p>In some levels you will note the steel objects. They look like the cylinder on this picture. <img src="img/manual/steel_object.png" width="15" height="45" alt="steel object"> Steel objects can only be lifted and pushed by the big fish. The smaller fish cannot move them and if it gets itself under a steel object, it will perish even if it would be harmless with other objects.</p>
+
+<a name="transferring_objects"></a><h5>Transferring objects</h5>
+
+<p>The fish can transfer objects between themselves. If one fish supports the object and the other one gets into position where the object rests also upon her, the first fish can move away. Any fish can move away in the left picture and the object will stay upon the other.</p>
+
+<p>Be careful with transfer of steel objects. In the situation on the right picture only the smaller fish can move away.</p>
+
+<img src="img/manual/transferring_objects.png" width="421" height="212" alt="transferring objects">
+
+<a name="pushing_along_other_objects"></a><h5>Pushing along other objects</h5>
+
+<p>The level designers favorite trick is a fish pushing an object supported not by the other fish (which is impossible) but by some object resting upon the other fish. This is indeed possible and it is presented on the left picture.</p>
+
+<p>However, you have to be careful never to move the object resting directly upon a fish. The smaller fish on the middle picture cannot push because it would kill the bigger fish. It could only push the L shaped object from the other side.</p>
+
+<p>It is also impossible to place an object upon a fish. This is shown on the right picture.</p>
+
+<img src="img/manual/pushing_along_other_objects.png" width="630" height="212" alt="pushing along other objects">
+
+<a name="falling_objects"></a><h5>Falling objects</h5>
+
+<p>Falling objects are always deadly. It doesn't matter how long the object falls, if it hits a fish or something that rests  upon a fish, the fish is dead.</p>
+
+<p>The object supported directly by a fish can only be pushed if it falls down or rests upon some structure immediately afterwards. This is shown on the left and middle pictures.</p>
+
+<p>Be on the lookout for the situation where the object seemingly hits the fish but in fact it hits some structure. In such a situation the fish is safe though it may not look like this at all. An example of such situation is on the right picture.</p>
+
+<img src="img/manual/falling_objects.png" width="625" height="212" alt="falling objects">
+
+<a name="animated_object"></a><h5>Animated object</h5>
+
+<p>Some objects in the game are animated - an octopus playing balalaika, dancing anemones, Vikings speaking to each other etc. All such stuff is here to make the game more lively. Everything is completely irrelevant to the solution. There are only two kinds of objects in the game: normal and steel ones. No object interacts with any other object. It doesn't matter what the object looks like - all of them occupy some number of elementary squares and that is the only important thing about them.</p>
+
+</body>
+
+</html>
