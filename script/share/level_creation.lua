@@ -129,7 +129,7 @@ end
 -- -----------------------------------------------------------------
 -- Loading resources
 -- -----------------------------------------------------------------
-function imgList(picture_00)
+local function imgList(picture_00)
     -- return table of available sprites _00, _01, _02, ...
     --TODO: support others than .png
     local list = {picture_00}
