@@ -93,7 +93,7 @@ dialog_addDialog("vrak-m-knihy6", "en", "", "font_small", "Outreaching Daniken."
 dialog_addDialog("vrak-m-knihy6", "cs", "sound/"..codename.."/cs/vrak-m-knihy6.ogg", "font_small", "Co Daniken netušil.")
 dialog_addDialog("vrak-m-knihy6", "fr", "", "font_small", "Inaccessible Daniken.")
 dialog_addDialog("vrak-m-knihy6", "de", "", "font_small", "Über Däniken hinaus.")
-dialog_addDialog("vrak-m-knihy6", "it", "", "font_small", "\"Outreaching Daniken\"")
+dialog_addDialog("vrak-m-knihy6", "it", "", "font_small", "\"Irraggiungibile Daniken\"")
 
 dialog_addDialog("vrak-v-vyhodit", "en", "", "font_big", "I`d throw out these, for example.")
 dialog_addDialog("vrak-v-vyhodit", "cs", "sound/"..codename.."/cs/vrak-v-vyhodit.ogg", "font_big", "Já bych vyhodil třeba támhlety.")
@@ -131,7 +131,7 @@ dialog_addDialog("vrak-v-knihy4", "en", "", "font_big", "Slimy Squid and the Sev
 dialog_addDialog("vrak-v-knihy4", "cs", "sound/"..codename.."/cs/vrak-v-knihy4.ogg", "font_big", "Sépijka a sedm trpaslíků.")
 dialog_addDialog("vrak-v-knihy4", "fr", "", "font_big", "Le Calmar gluant et les sept Nains")
 dialog_addDialog("vrak-v-knihy4", "de", "", "font_big", "Tintenfischchen und die sieben Zwerge.")
-dialog_addDialog("vrak-v-knihy4", "it", "", "font_big", "\" e i Sette Nani\"")
+dialog_addDialog("vrak-v-knihy4", "it", "", "font_big", "\"Verdealga e i Sette Calamari\"")
 
 dialog_addDialog("vrak-m-pohadky", "en", "", "font_small", "Never! My lovely fairy-tales.")
 dialog_addDialog("vrak-m-pohadky", "cs", "sound/"..codename.."/cs/vrak-m-pohadky.ogg", "font_small", "Nikdy! Moje oblíbené pohádky!")
@@ -167,7 +167,7 @@ dialog_addDialog("vrak-m-cteni2", "en", "", "font_small", "I told you not to buy
 dialog_addDialog("vrak-m-cteni2", "cs", "sound/"..codename.."/cs/vrak-m-cteni2.ogg", "font_small", "Říkala jsem ti, ať nekupuješ ten Velký slovník abnormálních výrazů.")
 dialog_addDialog("vrak-m-cteni2", "fr", "", "font_small", "Je t'avais dis de ne pas acheter ce dictionnaire complet de l'anormal.")
 dialog_addDialog("vrak-m-cteni2", "de", "", "font_small", "Ich habe dir doch gesagt, du sollst nicht dieses \"Wörterbuch des Abnormalen\" kaufen.")
-dialog_addDialog("vrak-m-cteni2", "it", "", "font_small", "Ti avevo detto di non comprare l'Enciclopedia del Paranormale.")
+dialog_addDialog("vrak-m-cteni2", "it", "", "font_small", "Ti avevo detto di non comprare l'intera Enciclopedia del Paranormale.")
 
 dialog_addDialog("vrak-v-policky", "en", "", "font_big", "Let`s think. We can`t get these books off the shelf.")
 dialog_addDialog("vrak-v-policky", "cs", "sound/"..codename.."/cs/vrak-v-policky.ogg", "font_big", "Zamysleme se. Ty knihy nedostaneme z poliček.")
@@ -209,11 +209,10 @@ dialog_addDialog("vrak-m-ocel", "en", "", "font_small", "How am I to get there t
 dialog_addDialog("vrak-m-ocel", "cs", "sound/"..codename.."/cs/vrak-m-ocel.ogg", "font_small", "Jak se tam mám asi dostat, přes tu ocel?!")
 dialog_addDialog("vrak-m-ocel", "fr", "", "font_small", "Et comment suis-je censé passer à travers l'acier ?!")
 dialog_addDialog("vrak-m-ocel", "de", "", "font_small", "Wie soll ich denn dort durch den Stahl kommen?!")
-dialog_addDialog("vrak-m-ocel", "it", "", "font_small", "Come posso arrivarci attravrso quell'acciaio?!")
+dialog_addDialog("vrak-m-ocel", "it", "", "font_small", "Come posso arrivarci attraverso quell'acciaio?!")
 
 dialog_addDialog("vrak-m-restart", "en", "", "font_small", "What about restarting and trying it again from the scratch?")
 dialog_addDialog("vrak-m-restart", "cs", "sound/"..codename.."/cs/vrak-m-restart.ogg", "font_small", "Co takhle restartovat a zkusit to znovu?")
 dialog_addDialog("vrak-m-restart", "fr", "", "font_small", "Que penses-tu de recommencer à zéro ce niveau.")
 dialog_addDialog("vrak-m-restart", "de", "", "font_small", "Wie wäre es mit neustarten und von vorne anfangen?")
 dialog_addDialog("vrak-m-restart", "it", "", "font_small", "Che ne dici di ricominciare daccapo?")
-
