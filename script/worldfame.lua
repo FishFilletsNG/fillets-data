@@ -21,7 +21,7 @@ node_bestSolution("party2", 285, "Josef Peterka")
 node_bestSolution("gods", 943, "Josef Peterka")
  
 node_bestSolution("elevator1", 200, "Pavel Danihelka")
-node_bestSolution("city", 517, "Josef Peterka")
+node_bestSolution("city", 509, "Mark Byers")
 node_bestSolution("ufo", 287, "Jan Danihelka")
 node_bestSolution("columns", 283, "Josef Peterka")
 node_bestSolution("pavement", 630, "Josef Peterka")
