@@ -89,10 +89,10 @@ dialog_addDialog("deu-p-skoll", "cs", "sound/"..codename.."/cs/deu-p-skoll.ogg",
 dialog_addDialog("deu-p-skoll", "fr", "", "font_parrot", "Skoll!")
 dialog_addDialog("deu-p-skoll", "de", "", "font_parrot", "Skol!")
 
-dialog_addDialog("deu-p-trinken0", "en", "", "font_parrot", "Guten Morgen, mein Herr! Wollen Sie noch ein Tee?")
-dialog_addDialog("deu-p-trinken0", "cs", "sound/"..codename.."/cs/deu-p-trinken0.ogg", "font_parrot", "Guten Morgen, mein Herr! Wollen Sie noch ein Tee?")
-dialog_addDialog("deu-p-trinken0", "fr", "", "font_parrot", "Guten Morgen, mein Herr! Wollen Sie noch ein Tee?")
-dialog_addDialog("deu-p-trinken0", "de", "", "font_parrot", "Guten Morgen, mein Herr! Wollen Sie noch ein Tee?")
+dialog_addDialog("deu-p-trinken0", "en", "", "font_parrot", "Guten Morgen, mein Herr! Wollen Sie noch einen Tee?")
+dialog_addDialog("deu-p-trinken0", "cs", "sound/"..codename.."/cs/deu-p-trinken0.ogg", "font_parrot", "Guten Morgen, mein Herr! Wollen Sie noch einen Tee?")
+dialog_addDialog("deu-p-trinken0", "fr", "", "font_parrot", "Guten Morgen, mein Herr! Wollen Sie noch einen Tee?")
+dialog_addDialog("deu-p-trinken0", "de", "", "font_parrot", "Guten Morgen, mein Herr! Wollen Sie noch einen Tee?")
 
 dialog_addDialog("deu-p-trinken1", "en", "", "font_parrot", "Guten Tag, mein Herr! Wollen Sie etwas trinken?")
 dialog_addDialog("deu-p-trinken1", "cs", "sound/"..codename.."/cs/deu-p-trinken1.ogg", "font_parrot", "Guten Tag, mein Herr! Wollen Sie etwas trinken?")
