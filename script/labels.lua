@@ -10,6 +10,11 @@ label_text("solver_worse", "cs",
 Nejlepší řešení:    %1
 Dohrál %2
 ]])
+label_text("solver_worse", "de",
+[[
+Beste Lösung:      %1
+gelöst durch %2
+]])
 
 label_text("solver_better", "en",
 [[
@@ -21,22 +26,32 @@ label_text("solver_better", "cs",
 Vymyslel jsi LEPŠÍ řešení!
 Koukni na http://fillets.sf.net/halloffame.php
 ]])
+label_text("solver_better", "de",
+[[
+Du hast eine BESSERE Lösung!
+Siehe http://fillets.sf.net/halloffame.php
+]])
 
 -- menu
 label_text("menu_sound", "en", "Sound volume");
 label_text("menu_sound", "cs", "Hlasitost zvuků");
+label_text("menu_sound", "de", "Tonlautstärke");
 
 label_text("menu_music", "en", "Music volume");
 label_text("menu_music", "cs", "Hlasitost hudby");
+label_text("menu_music", "de", "Musiklautstärke");
 
 label_text("menu_lang", "en", "Choose language");
 label_text("menu_lang", "cs", "Výběr jazyka");
+label_text("menu_lang", "de", "Sprachauswahl");
 
 label_text("menu_subtitles", "en", "Show/hide subtitles");
 label_text("menu_subtitles", "cs", "Zobraz/skryj titulky");
+label_text("menu_subtitles", "de", "Untertitel zeigen/verstecken");
 
 label_text("menu_back", "en", "Back");
 label_text("menu_back", "cs", "Zpět");
+label_text("menu_back", "de", "Zurück");
 
 -- help
 label_text("help", "en",
@@ -64,6 +79,19 @@ zobraz/schovej titulky - F6
 herní nastavení - F10
 celá obrazovka - F11
 rychlejší hra - Shift
+]])
+label_text("help", "de",
+[[
+                HILFE
+Ebene neustarten - Backspace
+Hilfe - F1
+Spiel speichern - F2
+Spiel laden - F3
+Bewegungszähler zeigen/verstecken - F5
+Untertitel zeigen/verstecken - F6
+Spielmenü - F10
+Vollbild - F11
+Spiel beschleunigen - Shift
 ]])
 
 
