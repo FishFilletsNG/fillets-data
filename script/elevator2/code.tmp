@@ -1,0 +1,253 @@
+
+-- -----------------------------------------------------------------
+-- Init
+-- -----------------------------------------------------------------
+local function prog_init()
+    initModels()
+    sound_playMusic("music/rybky01.ogg")
+    local pokus = getRestartCount()
+
+
+    -- -------------------------------------------------------------
+    local function prog_init_room()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        room.uvod = 0
+        room.odedkovi = 0
+        room.ritual = 0
+        room.ohlavem = 0
+        room.ohlavev = 0
+        room.blizko = 0
+        room.jikry = 0
+        room.curat = 0
+
+        return function()
+            if isReady(small) and isReady(big) and no_dialog() then
+                if room.blizko > 0 then
+                    room.blizko = room.blizko - 1
+                end
+                if room.uvod == 0 then
+                    room.uvod = 1
+                    addm(nah(5, 20), "zd2-m-dalsi")
+                    switch(random(2)){
+                        [0] = function()
+                            addv(random(5), "zd2-v-odlis0")
+                        end,
+                        [1] = function()
+                            addv(random(5), "zd2-v-odlis1")
+                        end,
+                    }
+                elseif room.odedkovi == 0 and small.x > 20 and small.y < 30 and look_at(@ --FIXME: addr
+big, @ --FIXME: addr
+dedek) then
+                    room.odedkovi = 1
+                    addv(nah(5, 10), "zd2-v-vlevo")
+                    switch(random(2)){
+                        [0] = function()
+                            addm(nah(1, 5), "zd2-m-nevid0")
+                        end,
+                        [1] = function()
+                            addm(nah(1, 5), "zd2-m-nevid1")
+                        end,
+                    }
+                elseif room.ritual == 0 and random(100) < 5 and room.odedkovi == 1 and dedek.pohlse == 0 then
+                    addv(1, "zd2-v-symbol")
+                    addm(nah(1, 5), "zd2-m-douf")
+                    room.ritual = 1
+                elseif room.ohlavem == 0 and dist(@ --FIXME: addr
+small, @ --FIXME: addr
+hlava) < 3 and look_at(@ --FIXME: addr
+small, @ --FIXME: addr
+hlava) and random(100) < 5 then
+                    room.ohlavem = 1
+                    addm(1, "zd2-m-lebka")
+                elseif room.ohlavev == 0 and dist(@ --FIXME: addr
+big, @ --FIXME: addr
+hlava) < 3 and look_at(@ --FIXME: addr
+big, @ --FIXME: addr
+hlava) and random(100) < 5 then
+                    room.ohlavev = 1
+                    addv(1, "zd2-v-haml")
+                elseif room.blizko == 0 and (dist(@ --FIXME: addr
+small, @ --FIXME: addr
+dedek) < 5 and look_at(@ --FIXME: addr
+small, @ --FIXME: addr
+dedek) or dist(@ --FIXME: addr
+small, @ --FIXME: addr
+dedek) < 5 and look_at(@ --FIXME: addr
+small, @ --FIXME: addr
+dedek)) then
+                    room.blizko = random(400) + 100
+                    switch(random(3)){
+                        [0] = function()
+                            addd(random(3), "zd2-x-hus0", 101, dedek.mluvi)
+                        end,
+                        [1] = function()
+                            addd(random(3), "zd2-x-hus1", 102, dedek.mluvi)
+                        end,
+                        [2] = function()
+                            addd(random(3), "zd2-x-kricet", 102, dedek.mluvi)
+                        end,
+                    }
+                elseif dedek.dir ~= dir_no and random(100) < 2 then
+                    switch(random(3)){
+                        [0] = function()
+                            addd(nah(2, 6), "zd2-x-krik0", 101, dedek.mluvi)
+                        end,
+                        [1] = function()
+                            addd(nah(2, 6), "zd2-x-krik1", 102, dedek.mluvi)
+                        end,
+                        [2] = function()
+                            if room.ritual == 1 then
+                                addd(nah(2, 6), "zd2-x-rit" + "ual", 102, dedek.mluvi)
+                            end
+                        end,
+                    }
+                elseif dist(@ --FIXME: addr
+small, @ --FIXME: addr
+dedek) < 3 and dist(@ --FIXME: addr
+big, @ --FIXME: addr
+dedek) < 3 and random(100) < 1 then
+                    addd(nah(2, 6), "zd2-x-nechteme", 102, dedek.mluvi)
+                elseif (dist(@ --FIXME: addr
+small, @ --FIXME: addr
+dedek) <= 1 or dist(@ --FIXME: addr
+big, @ --FIXME: addr
+dedek) <= 1) and random(100) < 2 then
+                    switch(random(3)){
+                        [0] = function()
+                            addd(nah(2, 6), "zd2-x-nechme", 102, dedek.mluvi)
+                        end,
+                        [1] = function()
+                            addd(nah(2, 6), "zd2-x-pokoj", 102, dedek.mluvi)
+                        end,
+                        [2] = function()
+                            addd(nah(2, 6), "zd2-x-fuj", 102, dedek.mluvi)
+                        end,
+                    }
+                elseif dist(@ --FIXME: addr
+small, @ --FIXME: addr
+dedek) < 3 and look_at(@ --FIXME: addr
+small, @ --FIXME: addr
+dedek) and room.jikry == 0 and random(100) < 1 then
+                    room.jikry = 1
+                    addd(random(3), "zd2-x-neklast", 102, dedek.mluvi)
+                elseif dist(@ --FIXME: addr
+big, @ --FIXME: addr
+dedek) < 3 and look_at(@ --FIXME: addr
+big, @ --FIXME: addr
+dedek) and room.curat == 0 and random(100) < 1 then
+                    room.curat = 1
+                    addd(random(3), "zd2-x-necurat", 102, dedek.mluvi)
+                end
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_vytah()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        spec = 4
+
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_stroj()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        spec = 3
+
+        return function()
+            if stroj.X == vytah.X - 1 then
+                if Dir == dir_no and vytah.Dir == dir_down then
+                    pom1 = 2
+                elseif Dir == dir_up and vytah.Dir == dir_no then
+                    pom1 = 1
+                elseif Dir == dir_no and vytah.Dir == dir_up then
+                    pom1 = -1
+                elseif Dir == dir_down and vytah.Dir == dir_no then
+                    pom1 = -2
+                else
+                    pom1 = 0
+                end
+                stroj.afaze = stroj.afaze + pom1
+                if stroj.afaze > 5 then
+                    dec(stroj.afaze, 6)
+                elseif stroj.afaze < 0 then
+                    inc(stroj.afaze, 6)
+                end
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_dedek()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        dedek.mluvi = 0
+        dedek.pohlse = 0
+        dedek.mavani = nah(1, 3)
+
+        return function()
+            if dedek.dir ~= dir_no then
+                dedek.pohlse = 1
+            end
+            if dedek.mavani == 0 then
+                if dedek.mluvi == 102 then
+                    dedek.afaze = 1
+                else
+                    dedek.afaze = 0
+                end
+                dedek.mavani = nah(1, 3)
+            else
+                switch(dedek.mluvi){
+                    [101] = function()
+                        dedek.afaze = 1
+                        dedek.mavani = dedek.mavani - 1
+                    end,
+                    [102] = function()
+                        dedek.afaze = 2
+                        dedek.mavani = dedek.mavani - 1
+                    end,
+                    default = function()
+                        dedek.afaze = 0
+                    end,
+                }
+            end
+        end
+    end
+
+    -- --------------------
+    local update_table = {}
+    local subinit
+    subinit = prog_init_room()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_vytah()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_stroj()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_dedek()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    return update_table
+end
+local update_table = prog_init()
+
+
+-- -----------------------------------------------------------------
+-- Update
+-- -----------------------------------------------------------------
+function prog_update()
+    for key, subupdate in pairs(update_table) do
+        subupdate()
+    end
+end
+
