@@ -118,7 +118,7 @@ local function prog_init()
                     pom1 = random(3)
                 until pom1 ~= melodak1.posl
                 melodak1.posl = pom1
-                model_talk(132, "d1-2-brb"..pom1)
+                model_talk(133, "d1-2-brb"..pom1)
                 melodak1.hlasky = melodak1.hlasky - 1
             end
             if room.startblok == 1 then
