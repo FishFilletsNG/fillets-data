@@ -78,12 +78,10 @@ local function prog_init()
             for pom1, model in pairs(tyce) do
                 switch(model.dir){
                     [dir_down] = function()
-                        print("TEST: pada", pom1)
                         model.pada = true
                     end,
                     default = function()
                         if model.pada then
-                            print("TEST: dopad", pom1)
                             model.pada = false
                             tyc:talk("rea-x-reakttyc", VOLUME_FULL)
                             tyc.padlo = tyc.padlo + 1
