@@ -1,9 +1,23 @@
 
+-- -----------------------------------------------------------------
 LOOK_LEFT = 0
 LOOK_RIGHT = 1
 
+-- -----------------------------------------------------------------
+function random(limit)
+    -- return number from [0, limit)
+    return math.random(limit) - 1
+end
+-- -----------------------------------------------------------------
+function randint(start, max)
+    -- return number from [start, max]
+    return math.random(start, max)
+end
+
+
+-- -----------------------------------------------------------------
 function createRoom(width, height, picture)
-    -- TODO: wavy params
+    --TODO: wavy params
     game_createRoom(width, height, picture)
     sound_addSound("impact_light", "sound/share/sp-impact_light_00.ogg")
     sound_addSound("impact_light", "sound/share/sp-impact_light_01.ogg")
@@ -30,6 +44,7 @@ end
 function createObject(model_index)
     local object = {}
     object.index = model_index
+    object.talk_phase = nil
 
     object.addAnim = function(self, anim_name, filename)
         model_addAnim(self.index, anim_name, filename)
@@ -97,7 +112,7 @@ end
 function addItemAnim(model, picture_00)
     local anim_name = "default"
     model:addAnim(anim_name, picture_00)
-    -- TODO: support others than .png
+    --TODO: support others than .png
     local index = 1
     local ext = ".png"
     local base, ok = string.gsub(picture_00, "_00"..ext.."$", "_")
@@ -132,7 +147,7 @@ function animateFish(model)
         elseif "turn" == action then
             model:runAnim("turn")
         elseif "busy" == action then
-            -- TODO: better talk sequence
+            --TODO: better talk sequence
             model:setAnim("turn", 1)
         else
             model:runAnim("rest")
@@ -149,12 +164,27 @@ function animateHead(model)
             local state = model:getState()
 
             if "talking" == state then
-                -- TODO: better talk sequence
                 if "busy" ~= model:getAction() then
-                    model:useSpecialAnim("head_talking", math.random(3) - 1)
+                    if not model.talk_phase then
+                        model.talk_phase = random(3)
+                    else
+                        if math.mod(timer_getCycles(), 2) == 0 then
+                            model.talk_phase = math.mod(
+                                model.talk_phase + randint(1, 2), 3)
+                        end
+                    end
+
+                    --NOTE: talk_phase=2 is normal
+                    if model.talk_phase < 2 then
+                        model:useSpecialAnim("head_talking", model.talk_phase)
+                    end
                 end
-            elseif "pushing" == state then
-                model:useSpecialAnim("head_pushing", 0)
+            else
+                model.talk_phase = nil
+
+                if "pushing" == state then
+                    model:useSpecialAnim("head_pushing", 0)
+                end
             end
         end
     end
@@ -225,9 +255,6 @@ function addFishAnim(model, look_dir, directory)
     model:addDuplexAnim("head_talking",
             directory.."/heads/left/head_talking_01.png",
             directory.."/heads/right/head_talking_01.png")
-    model:addDuplexAnim("head_talking",
-            directory.."/heads/left/head_talking_02.png",
-            directory.."/heads/right/head_talking_02.png")
 
     model:addDuplexAnim("head_pushing",
             directory.."/heads/left/head_pushing.png",
