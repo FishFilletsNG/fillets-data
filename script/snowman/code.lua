@@ -7,7 +7,7 @@ local function prog_init()
     initModels()
     sound_playMusic("music/rybky05.ogg")
     local pokus = getRestartCount()
-    local roompole = createArray(100)
+    local roompole = createArray(3)
 
 
     -- -------------------------------------------------------------
@@ -39,7 +39,7 @@ local function prog_init()
                     end
                 end
             end
-            if isReady(big) and not isReady(small) and not small:isOut() then
+            if isReady(big) and not small:isAlive() then
                 if snehulak.Y >= 5 then
                     if roompole[2] == 0 or pokus - roompole[2] > random(20) then
                         roompole[2] = pokus
@@ -93,7 +93,8 @@ local function prog_init()
                     end
                 end
                 if pom1 == 0 and snehulak.afaze == 1 then
--- FIXME                    snd("tr-x-koste", 301)
+                    --TODO: this is lang independent sound
+                    snehulak:talk("tr-x-koste")
                     if no_dialog() then
                         addm(2, "tr-m-au"..(random(2) + 1))
                     end

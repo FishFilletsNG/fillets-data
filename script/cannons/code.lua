@@ -43,17 +43,18 @@ local function prog_init()
                 end
                 room.pocitadlo = room.pocitadlo - 1
             elseif isReady(small) and big:isOut() and room.jo == 0 and (small.X < 2 or small.X > 25) then
-                --TODO: be busy without break
+                small:setBusy(true)
                 switch(random(2)){
                     [0] = function()
-                        addm(0, "del-m-jedn0", true)
+                        addm(0, "del-m-jedn0")
                     end,
                     [1] = function()
-                        addm(0, "del-m-jedn1", true)
+                        addm(0, "del-m-jedn1")
                     end,
                 }
-                addm(random(5), "del-m-jedn2", true)
+                addm(random(5), "del-m-jedn2")
                 room.jo = 1
+                planBusy(small, false)
             end
         end
     end

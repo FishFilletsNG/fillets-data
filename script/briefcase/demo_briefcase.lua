@@ -27,9 +27,7 @@ end
 local actor_index = 1
 local function talk(dialog_name)
     game_planAction(function(count)
-        local busy = 0
-        local delay = 0
-        model_planDialog(actor_index, delay, dialog_name, busy)
+        model_talk(actor_index, dialog_name)
         return true
     end)
 end

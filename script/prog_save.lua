@@ -4,14 +4,14 @@ file_include("script/Pickle.lua")
 function script_save()
     local models = getModelsTable()
     local serialized = pickle(models)
-    game_save(serialized)
+    level_save(serialized)
 end
 
 function script_load()
     if not saved_moves then
         error("global variable 'saved_moves' is not set")
     end
-    game_load(saved_moves)
+    level_load(saved_moves)
 end
 
 function script_loadState()

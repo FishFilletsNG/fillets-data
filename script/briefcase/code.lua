@@ -20,15 +20,15 @@ local function prog_init()
 
         return function()
             if isReady(small) and isReady(big) then
-                if not game_isPlanning() and small.X == 25 and small.Y == 23 and big.X == 27 and big.Y == 21 then
+                if not level_isShowing() and small.X == 25 and small.Y == 23 and big.X == 27 and big.Y == 21 then
                     if not big:isLeft() then
-                        game_planAction(function(count)
-                            return game_action_move('L')
+                        level_planShow(function(count)
+                            return level_action_move('L')
                         end)
                     end
                     file_include("script/"..codename.."/demo_help.lua")
                 end
-                if not game_isPlanning() and no_dialog() then
+                if not level_isShowing() and no_dialog() then
                     if room.uvod == 0 then
                         switch(pokus){
                             [1] = function()
@@ -133,8 +133,8 @@ local function prog_init()
                     if kufr.delay > 0 then
                         kufr.delay = kufr.delay - 1
                     else
-                        game_newDemo("script/"..codename.."/demo_briefcase.lua",
-                        "images/demo_briefcase/bg.png", 0, 315)
+                        level_newDemo("script/"..codename.."/demo_briefcase.lua",
+                                "images/demo_briefcase/bg.png", 0, 315)
                         kufr.faze = kufr.faze + 1
                     end
                 end,

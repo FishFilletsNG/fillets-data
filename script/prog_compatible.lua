@@ -2,11 +2,11 @@
 --
 
 function no_dialog()
-    return dialog_empty()
+    return dialog_empty() and not game_isPlanning()
 end
 
 function isReady(model)
-    -- fish is ready to talk
+    -- fish is ready for dialog
     return model:isAlive() and not model:isOut()
 end
 
@@ -15,7 +15,7 @@ function odd(number)
 end
 
 function getRestartCount()
-    return game_getRestartCounter()
+    return level_getRestartCounter()
 end
 
 function createArray(size)
@@ -25,6 +25,7 @@ function createArray(size)
     end
     return array
 end
+
 -- -----------------------------------------------------------------
 -- Compatibility functions
 -- -----------------------------------------------------------------
@@ -35,15 +36,25 @@ dir_left = 3
 dir_right = 4
 
 -- -----------------------------------------------------------------
-function addm(time, text, busy)
-    small:planDialog(time, text, busy)
+function addm(time, text)
+    small:planDialog(text, time)
 end
-function addv(time, text, busy)
-    big:planDialog(time, text, busy)
+function addv(time, text)
+    big:planDialog(text, time)
 end
 function adddel(time)
-    -- hack, room is used to say nothing
-    room:planDialog(time, "pause")
+    -- plan delay
+    planTimeAction(time, function() end)
+end
+
+-- -----------------------------------------------------------------
+function planBusy(model, value, delay)
+    if delay == nil then
+        delay = 0
+    end
+    planTimeAction(delay, function()
+            model:setBusy(value)
+        end)
 end
 
 -- -----------------------------------------------------------------

@@ -16,7 +16,7 @@ function stdBlackJoke()
     local hlrestart
     local h
 
-    if game_getDepth() == 2 then
+    if level_getDepth() == 2 then
         return
     end
     if small:isAlive() and big:isAlive() then
@@ -40,7 +40,7 @@ function stdBlackJoke()
                         end
                     end,
                     [4] = function()
-                        if random(100) < 80 - 5 * game_getDepth() then
+                        if random(100) < 80 - 5 * level_getDepth() then
                             if small:isAlive() then
                                 if random(100) < 5 then
                                     hlaska = hzertik
@@ -55,7 +55,7 @@ function stdBlackJoke()
                         else
                             hlaska = hzadna
                         end
-                        hlrestart = random(100) < 90 - 10 * game_getDepth()
+                        hlrestart = random(100) < 90 - 10 * level_getDepth()
                         if hlaska ~= hzadna then
                             if small:isAlive() and random(100) < 6 or big:isAlive() and random(100) < 10 then
                                 hlaska = hzahrobni
@@ -110,9 +110,9 @@ function stdBlackJoke()
                 joke_table[13] = joke_table[9]
                 joke_table[14] = joke_table[9]
 
-                switch(game_getDepth())(joke_table)
+                switch(level_getDepth())(joke_table)
             elseif not small:isOut() and not big:isOut() then
-                if game_getDepth() >= 9 and random(100) < 25 then
+                if level_getDepth() >= 9 and random(100) < 25 then
                     hlaska = hobe
                 else
                     hlaska = hzadna
@@ -197,7 +197,7 @@ function stdBlackJoke()
             }
         elseif hlaska == hobe and PoslSmrtObou ~= 1 then
             PoslSmrtObou = 1
-            room:planDialog(0, "smrt-x-obe")
+            room:planDialog("smrt-x-obe")
             addv(2, "smrt-v-obe")
             addm(0, "smrt-m-obe")
         end

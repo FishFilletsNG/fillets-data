@@ -18,11 +18,47 @@ function randint(start, max)
     return math.random(start, max)
 end
 
+-- -----------------------------------------------------------------
+-- Planning functions
+-- -----------------------------------------------------------------
+function isTime(delay, count)
+    return count >= delay
+end
 
+function planDialog(actor_index, dialog, delay, action)
+    if delay == nil then
+        delay = 0
+    end
+    game_planAction(function(count)
+            if isTime(delay, count) and dialog_empty() then
+                model_talk(actor_index, dialog)
+                if nil ~= action then
+                    action()
+                end
+                return true
+            else
+                return false
+            end
+        end)
+end
+
+function planTimeAction(delay, action)
+    game_planAction(function(count)
+            if isTime(delay, count) and dialog_empty() then
+                action()
+                return true
+            else
+                return false
+            end
+        end)
+end
+
+-- -----------------------------------------------------------------
+-- Room creation
 -- -----------------------------------------------------------------
 function createRoom(width, height, picture)
     --TODO: wavy params
-    game_createRoom(width, height, picture)
+    level_createRoom(width, height, picture)
     sound_addSound("impact_light", "sound/share/sp-impact_light_00.ogg")
     sound_addSound("impact_light", "sound/share/sp-impact_light_01.ogg")
     sound_addSound("impact_heavy", "sound/share/sp-impact_heavy_00.ogg")
@@ -48,6 +84,8 @@ function getModelsTable()
 end
 
 -- -----------------------------------------------------------------
+-- Model creation
+-- -----------------------------------------------------------------
 function createObject(model_index)
     local object = {}
     object.index = model_index
@@ -66,7 +104,13 @@ function createObject(model_index)
         model_setAnim(self.index, anim_name, phase)
     end
     object.useSpecialAnim = function(self, anim_name, phase)
-        model_useSpecialAnim(self.index, anim_name, phase)
+        local action = self:getAction()
+        if action ~= "busy" and action ~= "turn" and action ~= "activate" then
+            model_useSpecialAnim(self.index, anim_name, phase)
+        end
+    end
+    object.setEffect = function(self, effect_name)
+        model_setEffect(self.index, effect_name)
     end
 
     object.getLoc = function(self)
@@ -96,14 +140,24 @@ function createObject(model_index)
     object.isTalking = function(self)
         return model_isTalking(self.index)
     end
-    object.planDialog = function(self, delay, dialog, busy)
-        return model_planDialog(self.index, delay, dialog, busy)
+    object.talk = function(self, dialog)
+        return model_talk(self.index, dialog)
+    end
+    object.planDialog = function(self, dialog, delay, action)
+        return planDialog(self.index, dialog, delay, action)
     end
     object.setGoal = function(self, goalname)
         return model_setGoal(self.index, goalname)
     end
     object.change_turnSide = function(self)
         return model_change_turnSide(self.index)
+    end
+    object.setBusy = function(self, value)
+        local busy = 1
+        if not value then
+            busy = 0
+        end
+        return model_setBusy(self.index, busy)
     end
 
     return object
@@ -135,6 +189,8 @@ function addItemAnim(model, picture_00)
     model:setAnim(anim_name, 0)
 end
 
+-- -----------------------------------------------------------------
+-- View update
 -- -----------------------------------------------------------------
 function animateFish(model)
     if model:isAlive() then
@@ -183,7 +239,7 @@ function animateHead(model)
             else
                 model:setAnim("turn", 0)
             end
-        elseif "turn" ~= action and "activate" ~= action then
+        else
             if "talking" == state then
                 model:useSpecialAnim("head_talking", model.talk_phase)
             elseif "pushing" == state then
@@ -194,6 +250,14 @@ function animateHead(model)
 end
 
 -- -----------------------------------------------------------------
+-- Loading resources
+-- -----------------------------------------------------------------
+function addHeadAnim(model, directory, anim, phase)
+    model:addDuplexAnim(anim,
+            directory.."/heads/left/head_"..phase..".png",
+            directory.."/heads/right/head_"..phase..".png")
+end
+
 function addFishAnim(model, look_dir, directory)
     model:addDuplexAnim("skeleton", directory.."/left/body_skeleton_00.png",
             directory.."/right/body_skeleton_00.png")
@@ -259,19 +323,21 @@ function addFishAnim(model, look_dir, directory)
             directory.."/right/body_talk_02.png")
 
     -- heads
-    model:addDuplexAnim("head_talking",
-            directory.."/heads/left/head_talking_00.png",
-            directory.."/heads/right/head_talking_00.png")
-    model:addDuplexAnim("head_talking",
-            directory.."/heads/left/head_talking_01.png",
-            directory.."/heads/right/head_talking_01.png")
-    model:addDuplexAnim("head_talking",
-            directory.."/heads/left/head_talking_02.png",
-            directory.."/heads/right/head_talking_02.png")
+    addHeadAnim(model, directory, "head_talking", "talking_00")
+    addHeadAnim(model, directory, "head_talking", "talking_01")
+    addHeadAnim(model, directory, "head_talking", "talking_02")
 
-    model:addDuplexAnim("head_pushing",
-            directory.."/heads/left/head_pushing.png",
-            directory.."/heads/right/head_pushing.png")
+    addHeadAnim(model, directory, "head_pushing", "pushing")
+
+    addHeadAnim(model, directory, "head_all", "talking_00")
+    addHeadAnim(model, directory, "head_all", "pushing")
+    addHeadAnim(model, directory, "head_all", "blink")
+    addHeadAnim(model, directory, "head_all", "shock")
+    addHeadAnim(model, directory, "head_all", "smile")
+    addHeadAnim(model, directory, "head_all", "talking_01")
+    addHeadAnim(model, directory, "head_all", "talking_02")
+    addHeadAnim(model, directory, "head_all", "scowl_00")
+    addHeadAnim(model, directory, "head_all", "scowl_01")
 
     model:runAnim("rest")
     if model:isLeft() and look_dir == LOOK_RIGHT then
@@ -280,6 +346,8 @@ function addFishAnim(model, look_dir, directory)
     model:setGoal("goal_escape")
 end
 
+-- -----------------------------------------------------------------
+-- Switch statement for lua
 -- -----------------------------------------------------------------
 function switch(case)
   return function(codetable)

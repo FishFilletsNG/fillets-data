@@ -47,20 +47,29 @@ local function prog_init()
                 if room.qnavod1 > 0 and boring >= room.qnavod1 then
                     room.qnavod1 = -1
                     addm(5, "1st-m-proc")
-                    addm(5, "1st-m-hej", true)
+                    planBusy(small, true, 3)
+                    addm(5, "1st-m-hej")
                 elseif game_getCycles() >= room.qnavod2 and room.qnavod2 ~= -1 then
                     room.qnavod1 = -1
-                    addm(5, "1st-m-hej", true)
+                    planBusy(small, true, 3)
+                    addm(5, "1st-m-hej")
                 end
                 if room.qnavod1 == -1 then
                     room.qnavod1 = 600
                     room.qnavod2 = -1
-                    addv(5, "1st-v-navod1", true)
+                    planBusy(big, true, 4)
+                    addv(5, "1st-v-navod1")
+                    planBusy(small, false, 3)
+                    planBusy(big, false, 1)
                     addm(20, "1st-m-navod2")
                     addv(5, "1st-v-navod3")
-                    addm(3, "1st-m-navod4", true)
-                    addv(0, "1st-v-navod5", true)
-                    addm(2, "1st-m-navod6", true)
+                    planBusy(small, true, 100)
+                    planBusy(big, true, 2)
+                    addm(3, "1st-m-navod4")
+                    addv(0, "1st-v-navod5")
+                    addm(2, "1st-m-navod6")
+                    planBusy(big, false, 3)
+                    planBusy(small, false, 2)
                     addv(20, "1st-v-navod7")
                     addm(20, "1st-m-navod8")
                     if room.uzreklnavod == 0 then
@@ -116,25 +125,33 @@ local function prog_init()
                     room.tlustoch = room.tlustoch + 1
                 end
                 if room.restrt == 0 and trubka.X <= 9 and small.X <= trubka.X - 3 then
+                    planBusy(small, false)
                     addm(10, "1st-m-pokud")
-                    addv(3, "1st-v-znovu", true)
+                    planBusy(big, true, 3)
+                    addv(3, "1st-v-znovu")
                     if random(100) < 50 then
                         addm(0, "1st-m-backspace")
-                        addv(0, "1st-v-jedno", true)
+                        addv(0, "1st-v-jedno")
                     end
-                    addv(5, "1st-v-najit", true)
+                    planBusy(small, false, 3)
+                    addv(5, "1st-v-najit")
+                    planBusy(big, false)
                     room.restrt = 1
                 end
             end
             if no_dialog() and room.restrt == 0 and small:isOut() and isReady(big) and big.X <= 23 and zidlev.X >= 20 then
                 addv(30, "1st-v-chyba")
-                addv(10, "1st-v-nedostanu", true)
-                addv(3, "1st-v-stiskni", true)
+                planBusy(big, true)
+                addv(10, "1st-v-nedostanu")
+                planBusy(big, false)
+                planBusy(big, true, 50)
+                addv(3, "1st-v-stiskni")
                 if random(100) < 50 then
                     addm(0, "1st-m-backspace")
-                    addv(0, "1st-v-jedno", true)
+                    addv(0, "1st-v-jedno")
                 end
-                addv(5, "1st-v-najit", true)
+                addv(5, "1st-v-najit")
+                planBusy(big, false)
                 room.restrt = 1
             end
         end
@@ -182,7 +199,7 @@ local function prog_init()
                     end
                 end,
                 [8] = function()
-                    trubka:planDialog(0, "1st-x-ocel")
+                    trubka:planDialog("1st-x-ocel")
                     trubka.cinnost = trubka.cinnost + 1
                 end,
                 [9] = function()
