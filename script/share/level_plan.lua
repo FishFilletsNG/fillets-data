@@ -13,7 +13,11 @@ end
 -- -----------------------------------------------------------------
 function randint(start, max)
     -- return number from [start, max]
-    return math.random(start, max)
+    if start >= max then
+        return start
+    else
+        return math.random(start, max)
+    end
 end
 
 -- -----------------------------------------------------------------

@@ -1,12 +1,14 @@
--- there are functions used in levels to raise dialogs and animation
---
+-- -----------------------------------------------------------------
+-- There are functions used in levels to raise dialogs and animation
+-- -----------------------------------------------------------------
+
+file_include("script/share/prog_goanim.lua")
 
 dir_no = 0
 dir_up = 1
 dir_down = 2
 dir_left = 3
 dir_right = 4
-
 
 -- -----------------------------------------------------------------
 -- Compatibility functions
@@ -44,10 +46,12 @@ end
 
 function planSet(model, variable_name, value)
     -- plan value set, variable_name must be string
-    model:planTimeAction(0, function() model[variable_name] = value end)
+    planTimeAction(0, function() model[variable_name] = value end)
 end
 function planDialogSet(time, text, value, model, variable_name)
+    -- plan value set, and unset after dialog end
     model:planDialog(text, time, function() model[variable_name] = value end)
+    planTimeAction(0, function() model[variable_name] = 0 end)
 end
 
 function planBusy(model, value, delay)
@@ -110,5 +114,4 @@ function modelEquals(model_index, x, y)
     -- index -1 is for empty space (water)
     return model_equals(model_index, x, y)
 end
-
 
