@@ -181,7 +181,7 @@ dialog_addDialog("vit-m-hlava", "it", "", "font_small", "Quella testa mi fa veni
 dialog_addDialog("vit-v-hlava", "en", "", "font_big", "That head is giving me a headache.")
 dialog_addDialog("vit-v-hlava", "cs", "sound/"..codename.."/cs/vit-v-hlava.ogg", "font_big", "Už mě z té hlavy bolí hlava.")
 dialog_addDialog("vit-v-hlava", "fr", "", "font_big", "Cette tête m'a donné la migraine.")
-dialog_addDialog("vit-v-hlava", "en", "", "font_big", "Dieser Kopf macht mir Kopfschmerzen.")
+dialog_addDialog("vit-v-hlava", "de", "", "font_big", "Dieser Kopf macht mir Kopfschmerzen.")
 dialog_addDialog("vit-v-hlava", "it", "", "font_big", "Quel testone mi fa venire il mal di testa.")
 
 dialog_addDialog("vit-m-nezkusime", "en", "", "font_small", "Let`s try to shut that head up somehow.")
