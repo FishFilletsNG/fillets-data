@@ -3,7 +3,7 @@ http://fillets.sf.net
 
 -----------------------------------------------------------------
 Depends
-
+-------
 Library SDL = Simple DirectMedia Layer (video, input, sound)
 - libSDL >= 1.2, www.libsdl.org
 
@@ -17,16 +17,22 @@ Library SDL_image (png, jpg support)
 
 -----------------------------------------------------------------
 How to run
-
+----------
 ./fillets
 
+for Czech dialogs run
+LC_ALL=cs_CZ ./fillets
 
 -----------------------------------------------------------------
 Controls
+--------
+Up, down, left and right arrow keys control the current fish.
+Use space bar to switch between the fish.
 
-small fish - ijkl
-big fish   - wasd
+See also "How to Play" doc/html/manual.html
 
 restart level - Backspace
-fullscreen - f
+fullscreen - F11
+save game - F2
+load game - F3
 

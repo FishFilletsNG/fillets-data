@@ -4,21 +4,16 @@ priority - 1-High, 2-Medium, 3-Low
 
 
 GAME SPECIFIC
-2 - game map
-2 - documentation - rules, how to play, story
-3 - game menu - select language for subtitles, sound on/off
+2 - game menu - select language for subtitles, sound on/off
+2 - software packages - rpm, deb, tar.gz
 3 - video playback
-3 - software packages - rpm, deb, tar.gz
 
 
 INPUT
-1 - keyboard control - arrow keys & space bar to switch between fishes
-2 - key to load/save position
-3 - mouse control - select fish by left-clicking on it, 
-	left-click in level to go there without touching anything
+2 - mouse control - select fish by left-clicking on it, 
+    left-click in level to go there without touching anything
 
 STATISTICS
-1 - implement load/save position
 1 - count steps after finishing level
 
 
@@ -29,7 +24,7 @@ LEVEL SPECIFIC
 
 
 GRAPHICS
-3 - waves in level background
+2 - waves in level background
 3 - waves in text dialogs
 
 
