@@ -1,0 +1,253 @@
+
+-- -----------------------------------------------------------------
+-- Init
+-- -----------------------------------------------------------------
+local function prog_init()
+    initModels()
+    sound_playMusic("music/rybky13.ogg")
+    local pokus = getRestartCount()
+
+
+    -- -------------------------------------------------------------
+    local function prog_init_room()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        if roompole[1] == 0 then
+            room.startleft = math.floor((Screen.Width - Width) / 2)
+            room.starttop = math.floor((Screen.Height - Height) / 2)
+            room.polomer = math.floor(left / 2)
+            if math.floor(room.starttop / 2) < room.polomer then
+                room.polomer = math.floor(room.starttop / 2)
+            end
+        end
+        switch(pokus){
+            [1] = function()
+                room.uvod = 2
+            end,
+            [2] = function()
+                room.uvod = 1
+            end,
+            default = function()
+                room.uvod = 3 + random(2)
+            end,
+        }
+        if roompole[1] == 0 then
+            room.omotoru = random(50) + 30
+        else
+            room.omotoru = random(200) + 50 * pokus
+        end
+        room.oklici = 0
+        room.vypnula = -1
+        room.zapnula = -1
+        room.jeli = 0
+
+        return function()
+            if klicek.x + 2 == motorek.x and klicek.y - 2 == motorek.y then
+                room.vypnula = 0
+                if room.zapnula == 0 then
+                    zrus_dialogy()
+                    room.zapnula = aktivni
+                end
+                roompole[1] = 1
+                if not playing(10) then
+                    sndcyc("mot-x-motor", 10)
+                end
+                if math.mod(count, 3) == 0 then
+                    roompole[0] = roompole[0] + 1
+                end
+            else
+                room.zapnula = 0
+                if room.vypnula == 0 then
+                    room.vypnula = aktivni
+                    zrus_dialogy()
+                end
+                if playing(10) then
+                    ksnd(10)
+                end
+            end
+            if math.mod(count, 3) == 0 then
+                pom1 = roompole[0]
+                if Left ~= room.startleft - round(room.polomer * sin(pom1 / 20 * pi)) then
+                    Left = room.startleft - round(room.polomer * sin(pom1 / 20 * pi))
+                end
+                if Top ~= room.starttop - room.polomer + round(room.polomer * cos(pom1 / 20 * pi)) then
+                    Top = room.starttop - room.polomer + round(room.polomer * cos(pom1 / 20 * pi))
+                end
+            end
+            if no_dialog() and isReady(small) and isReady(big) then
+                if room.omotoru > 0 then
+                    room.omotoru = room.omotoru - 1
+                end
+                if room.omotoru >= 0 and (small.vylezla == 1 or big.vylezla == 1) then
+                    room.omotoru = -1
+                end
+                if room.uvod > 0 then
+                    adddel(random(50) + 10)
+                    switch(room.uvod){
+                        [1] = function()
+                            addm(0, "mot-m-info")
+                            addv(random(10), "mot-v-konvencni")
+                        end,
+                        [2] = function()
+                            addm(0, "mot-m-tak")
+                            addv(random(10), "mot-v-zavery")
+                        end,
+                        [3] = function()
+                            switch(random(2)){
+                                [0] = function()
+                                    addm(0, "mot-m-info")
+                                end,
+                                [1] = function()
+                                    addm(0, "mot-m-tak")
+                                end,
+                            }
+                            switch(random(2)){
+                                [0] = function()
+                                    addv(random(10), "mot-v-konvencni")
+                                end,
+                                [1] = function()
+                                    addv(random(10), "mot-v-zavery")
+                                end,
+                            }
+                        end,
+                    }
+                    room.uvod = 0
+                elseif room.omotoru == 0 then
+                    room.omotoru = -1
+                    switch(roompole[1]){
+                        [0] = function()
+                            addm(30, "mot-m-akce" + chr(48 + random(3)))
+                            addv(random(10), "mot-v-funkce" + chr(48 + random(3)))
+                        end,
+                        [1] = function()
+                            addv(30, "mot-v-znovu" + chr(48 + random(2)))
+                        end,
+                    }
+                end
+                if room.oklici == 0 and aktivni == mala and klicisko.dir ~= dir_no and random(100) < 7 then
+                    room.oklici = 1
+                    if random(100) < 35 then
+                        addv(5, "mot-v-klic")
+                        addm(7, "mot-m-ublizit")
+                    end
+                elseif room.zapnula > 0 then
+                    if room.jeli == 0 then
+                        pom1 = 1
+                    else
+                        pom1 = random(4)
+                    end
+                    room.jeli = 1
+                    switch(pom1){
+                        [1, 2] = function()
+                            switch(room.zapnula){
+                                [mala] = function()
+                                    addv(random(20) + 10, "mot-v-zvuky" + chr(random(2) + 48))
+                                    if pom1 == 1 then
+                                        addm(random(10) + 10, "mot-m-nemuzu" + chr(random(2) + 48))
+                                    end
+                                end,
+                                [velka] = function()
+                                    addm(random(20) + 10, "mot-m-zvuky" + chr(random(2) + 48))
+                                    addv(random(10) + 10, "mot-v-nemuzu" + chr(random(2) + 48))
+                                end,
+                            }
+                        end,
+                        [3] = function()
+                            addm(random(30) + 20, "mot-m-mayday")
+                        end,
+                    }
+                    room.zapnula = -1
+                elseif room.vypnula > 0 then
+                    if room.jeli == 1 or random(100) < 60 then
+                        switch(room.vypnula){
+                            [mala] = function()
+                                addv(random(10) + 5, "mot-v-konecne" + chr(random(2) + 48))
+                            end,
+                            [velka] = function()
+                                addm(random(10) + 5, "mot-m-konecne" + chr(random(2) + 48))
+                            end,
+                        }
+                    end
+                    if room.jeli == 1 then
+                        room.jeli = 2
+                    end
+                    room.vypnula = -1
+                end
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_klicek()
+        return function()
+            if playing(10) then
+                if klicek.afaze == 2 then
+                    klicek.afaze = 0
+                else
+                    klicek.afaze = klicek.afaze + 1
+                end
+            elseif klicek.afaze == 1 then
+                klicek.afaze = 2
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_small()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        small.vylezla = 0
+
+        return function()
+            if small.X == 35 then
+                small.vylezla = 1
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_big()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        big.vylezla = 0
+
+        return function()
+            if big.X == 8 then
+                big.vylezla = 1
+            end
+        end
+    end
+
+    -- --------------------
+    local update_table = {}
+    local subinit
+    subinit = prog_init_room()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_klicek()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_small()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_big()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    return update_table
+end
+local update_table = prog_init()
+
+
+-- -----------------------------------------------------------------
+-- Update
+-- -----------------------------------------------------------------
+function prog_update()
+    for key, subupdate in pairs(update_table) do
+        subupdate()
+    end
+end
+
