@@ -14,7 +14,7 @@ end
 -- -----------------------------------------------------------------
 -- NOTE: uses 'small' and 'big' names for fishes
 local function selectJoke(n)
-    if not small:isAlive() or not big:isAlive() then
+    if not isReady(small) or not isReady(big) then
         return
     end
 
