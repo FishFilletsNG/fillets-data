@@ -244,7 +244,7 @@ worldmap_addDesc("bathroom", "en", "Plumbman`s Refuse", "Dump")
 worldmap_addDesc("bathroom", "cs", "Instalatérský odpad", "Smetiště")
 worldmap_addDesc("bathroom", "fr", "Le refus du bonhomme de plomb", "le dépotoir")
 worldmap_addDesc("bathroom", "de", "Der Abfall des Installateurs", "Halde")
-worldmap_addDesc("bathroom", "it", "Il rifiuto dell'idraulico", "Pattumiera")
+worldmap_addDesc("bathroom", "it", "Gli scarti dell'idraulico", "Pattumiera")
 
 worldmap_addDesc("duckie", "en", "Adventure with Pink Duckie", "Dump")
 worldmap_addDesc("duckie", "cs", "Dobrodružství s kachničkou", "Smetiště")
