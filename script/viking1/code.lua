@@ -1,15 +1,12 @@
 
 -- -----------------------------------------------------------------
 -- actor codes:
--- 102 ... hlavni
 -- 111 ... piskac
--- 112 ... piskac
 -- 121 ... basak
--- 122 ... basak
 -- 131 ... melodak1, melodak2
--- 132 ... melodak1
--- 133 ... melodak1
-
+local PISKAC_SONG = 111
+local BASAK_SONG = 121
+local MELODAK_SONG = 131
 
 -- -----------------------------------------------------------------
 -- Init
@@ -32,7 +29,7 @@ local function prog_init()
         return function()
             room.startblok = 0
             if room.blok >= 0 then
-                if not model_isTalking(111) then
+                if not model_isTalking(PISKAC_SONG) then
                     room.blok = room.blok + 1
                     if room.blok == 17 then
                         room.blok = 1
@@ -89,7 +86,7 @@ local function prog_init()
                     sound_stopMusic()
                     adddel(10)
                     planSet(melodak1, "afaze", 3)
-                    planDialog(132, random(10) + 5, "d1-1-hudba"..random(3))
+                    melodak1:planDialog(random(10) + 5, "d1-1-hudba"..random(3))
                     adddel(5)
                     planSet(basak, "hlasky", 2)
                     planSet(piskac, "hlasky", 2)
@@ -113,12 +110,12 @@ local function prog_init()
         melodak1.posl = -1
 
         return function()
-            if melodak1.hlasky > 0 and not model_isTalking(133) then
+            if melodak1.hlasky > 0 and not melodak1:isTalking() then
                 repeat
                     pom1 = random(3)
                 until pom1 ~= melodak1.posl
                 melodak1.posl = pom1
-                model_talk(133, "d1-2-brb"..pom1)
+                melodak1:talk("d1-2-brb"..pom1)
                 melodak1.hlasky = melodak1.hlasky - 1
             end
             if room.startblok == 1 then
@@ -128,9 +125,9 @@ local function prog_init()
                     melodak1.hrat = -1
                 end
                 if melodak1.hrat > -1 then
-                    model_killSound(131)
+                    model_killSound(MELODAK_SONG)
                     --TODO: music volume
-                    model_talk(131, "d1-z-v"..melodak1.hrat)
+                    model_talk(MELODAK_SONG, "d1-z-v"..melodak1.hrat)
                     setanim(melodak1, "a4a2a4a2a4a2a4a2a4a2d2a4a2d2a4a2d2a4a2d2a4a2d2a4a2d2" .. "a4a2a4a2a4a2a4a2a4a2d2a4a2d2a4a2d2a4a2d2a4a2d4a4")
                 else
                     setanim(melodak1, "d?5-10a0")
@@ -140,7 +137,7 @@ local function prog_init()
                 melodak1.afaze = melodak1.afaze + 1
             end
             goanim(melodak1)
-            if model_isTalking(132) then
+            if melodak1:isTalking() then
                 melodak1.afaze = random(2) * 2 + 2
             elseif room.blok < 0 and random(100) < 5 then
                 melodak1.afaze = 0
@@ -185,12 +182,12 @@ local function prog_init()
         basak.posl = -1
 
         return function()
-            if basak.hlasky > 0 and not model_isTalking(122) then
+            if basak.hlasky > 0 and not basak:isTalking() then
                 repeat
                     pom1 = random(3)
                 until pom1 ~= basak.posl
                 basak.posl = pom1
-                model_talk(122, "d1-4-brb"..pom1)
+                basak:talk("d1-4-brb"..pom1)
                 basak.hlasky = basak.hlasky - 1
             end
             if room.startblok == 1 then
@@ -204,9 +201,9 @@ local function prog_init()
                     basak.hrat = 3
                 end
                 if basak.hrat > -1 then
-                    model_killSound(121)
+                    model_killSound(BASAK_SONG)
                     --TODO: music volume
-                    model_talk(121, "d1-z-b"..basak.hrat)
+                    model_talk(BASAK_SONG, "d1-z-b"..basak.hrat)
                     if basak.hrat == 1 then
                         setanim(basak, "a0d3a2d3a0d19a2d3a0d3a2d3a0d19a2d3")
                     else
@@ -217,7 +214,7 @@ local function prog_init()
             if basak.mrk == 1 then
                 basak.afaze = basak.afaze - 1
             end
-            if model_isTalking(122) then
+            if basak:isTalking() then
                 basak.afaze = random(2) * 2
             elseif room.blok < 0 then
                 basak.afaze = 2
@@ -245,15 +242,15 @@ local function prog_init()
         piskac.posl = -1
 
         return function()
-            if piskac.hlasky > 0 and not model_isTalking(112) then
+            if piskac.hlasky > 0 and not piskac:isTalking() then
                 repeat
                     pom1 = random(3)
                 until pom1 ~= piskac.posl
                 piskac.posl = pom1
-                model_talk(112, "d1-3-brb"..pom1)
+                piskac:talk("d1-3-brb"..pom1)
                 piskac.hlasky = piskac.hlasky - 1
             end
-            if model_isTalking(112) then
+            if piskac:isTalking() then
                 piskac.xicht = random(2) * 2
             else
                 piskac.xicht = 0
@@ -268,9 +265,9 @@ local function prog_init()
                     piskac.hrat = 2
                 end
                 piskac.xicht = 4
-                model_killSound(111)
+                model_killSound(PISKAC_SONG)
                 --TODO: music volume
-                model_talk(111, "d1-z-p"..piskac.hrat)
+                model_talk(PISKAC_SONG, "d1-z-p"..piskac.hrat)
             end
             if random(100) < 5 then
                 piskac.afaze = piskac.xicht + 1
@@ -300,9 +297,9 @@ local function prog_init()
                     melodak2.hrat = -1
                 end
                 if melodak2.hrat > -1 then
-                    model_killSound(131)
+                    model_killSound(MELODAK_SONG)
                     --TODO: music volume
-                    model_talk(131, "d1-z-v"..melodak2.hrat)
+                    model_talk(MELODAK_SONG, "d1-z-v"..melodak2.hrat)
                     if melodak2.hrat == 1 then
                         setanim(melodak2, "a2d15a3d15a2d28a0")
                     else
