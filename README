@@ -1,0 +1,19 @@
+Fish Fillets - Next Generation
+http://fillets.sf.net
+//-----------------------------------------------------------------
+
+Depends:
+
+Library SDL = Simple DirectMedia Layer (video, input, sound)
+- libSDL >= 1.2, www.libsdl.org
+
+Library SDL_mixer (multiple sounds)
+- libSDL_mixer, http://www.libsdl.org/projects/SDL_mixer/
+
+Library SDL_image (png, jpg support)
+- libSDL_image, http://www.libsdl.org/projects/SDL_image/
+
+//-----------------------------------------------------------------
+How to run:
+./game
+

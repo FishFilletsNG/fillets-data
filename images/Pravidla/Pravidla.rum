@@ -1,0 +1,413 @@
+REDIT FILE from 25.3.1998 1:20:44
+Pravidla
+Pravidla
+1 0 5 10 5 0 0 0 0 0  Params
+16512 Grid
+40 35
+Pravidla-p.bmp
+0 obsolete
+0 Ext
+Pravidla-w.bmp
+65280 Mask
+0 Ext
+587 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5888 6144 6400 6656 6912 7168 7424 7680
+7936 8192 8448 8704 1 257 513 769 1025 1281
+1537 1793 2049 2305 2561 2817 3073 3329 3585 3841
+5889 6145 6401 8193 8449 8705 2 258 514 770
+1026 1282 1538 1794 2050 2306 2562 5890 8194 8450
+8706 3 259 515 771 1027 1283 1539 1795 2051
+2307 8195 8451 8707 4 260 516 772 1028 1284
+1540 1796 2052 2308 5892 8196 8452 8708 5 261
+517 773 1029 1285 1797 2053 2309 2565 5893 8453
+8709 6 262 518 774 1030 2054 2310 2566 4870
+5894 8454 8710 7 263 519 775 1031 2311 2567
+2823 3079 4871 5895 8455 8711 8 264 520 776
+2824 3080 3336 3592 4872 5896 8456 8712 9 265
+521 3081 3337 3593 4873 5897 6153 7177 7433 7689
+7945 8201 8457 8713 10 266 522 778 3082 3338
+3594 3850 4874 5898 7178 7434 7690 7946 8202 8458
+8714 11 267 523 3083 3339 3595 3851 4875 5899
+6923 7179 7435 7691 7947 8203 8459 8715 12 268
+3084 3340 3596 3852 4876 5900 6924 7180 7436 7692
+7948 8204 8460 8716 13 269 1805 2061 3085 3341
+3597 3853 4877 5901 7437 7693 7949 8205 8461 8717
+14 270 2062 2318 3086 3342 3598 4878 5902 7182
+7438 7694 7950 8206 8462 8718 15 271 3343 3599
+4879 5903 7695 7951 8207 8463 8719 16 272 1040
+2064 2320 3088 3344 4880 5904 7952 8208 8464 8720
+17 273 1041 1809 2065 4881 5905 7953 8209 8465
+8721 18 274 1042 1810 2066 4882 5906 7954 8210
+8466 8722 19 275 1043 1299 1811 2067 4883 5907
+8211 8467 8723 20 276 1044 1300 1812 2068 4884
+5908 8212 8468 8724 21 277 1813 2069 2325 2581
+2837 3093 3349 3605 4629 4885 5909 8213 8469 8725
+22 278 1814 2070 2326 2582 3094 3350 3606 3862
+4118 4374 4630 4886 5654 5910 8214 8470 8726 23
+279 1815 2071 2327 2583 3351 3607 3863 4119 4375
+4631 4887 5143 5655 5911 6167 8215 8471 8727 24
+280 1816 2072 2328 2584 3352 3608 4376 4632 5656
+5912 6168 8216 8472 8728 25 281 537 1817 2073
+2329 3609 5657 5913 6169 6425 8217 8473 8729 26
+282 538 794 2074 2330 5658 5914 6170 6426 6682
+7962 8218 8474 8730 27 283 539 2331 5659 5915
+6171 6427 6683 7707 7963 8219 8475 8731 28 284
+540 2332 5660 5916 6172 6428 6684 6940 7708 7964
+8220 8476 8732 29 285 541 5661 7709 7965 8221
+8477 8733 30 286 542 7710 7966 8222 8478 8734
+31 287 1311 8479 8735 32 288 1312 3616 3872
+8736 33 289 1313 3617 3873 8737 34 290 3874
+4130 5666 8738 35 291 3875 4131 5411 5667 5923
+8483 8739 36 292 548 2596 2852 3876 4132 4388
+5412 5668 5924 8484 8740 37 293 549 2085 2341
+2597 2853 3109 3365 3621 3877 4133 4389 4645 4901
+5157 5413 5669 5925 8229 8485 8741 38 294 550
+806 1830 2086 2342 2598 2854 3110 3366 3622 3878
+4134 4390 4646 4902 5158 5414 5670 5926 6182 7974
+8230 8486 8742 39 295 551 807 1063 1319 1575
+1831 2087 2343 2599 2855 3111 3367 3623 3879 4135
+4391 4647 4903 5159 5415 5671 5927 6183 6439 6695
+6951 7207 7463 7719 7975 8231 8487 8743
+27 Prg1
+name room
+var cast1
+var ocel1
+var osejvu
+var cast2
+var restartovat
+var neuvazovat
+var nepoustej
+var uhnimi
+var mamstrach
+var oknize
+var delayrada
+var poslrada
+ini
+if pokus=1 then cast1:=0
+else cast1:=2;
+ocel1:=0;
+osejvu:=0;
+cast2:=0;
+restartovat:=0;
+neuvazovat:=0;
+nepoustej:=0;
+uhnimi:=0;
+mamstrach:=0;
+oknize:=0;
+delayrada:=-1;
+poslrada:=0;
+151 Prg2
+if (roompole[0]=1)and(restartovat=0)and zije[velka]and zije[mala]and no_dialog then
+  begin
+    roompole[0]:=2;
+    addv(10,'pra-v-schvalne');
+    addm(5,'pra-m-znovu');
+  end;
+
+if no_dialog and zije[mala] and zije[velka] and (roompole[0]=0) then
+  begin
+    if delayrada>0 then dec(delayrada);
+
+    if cast1=0 then
+      begin
+        cast1:=1;
+ 	addm(random(20)+10,'pra-m-pravidla');
+      end
+    else if (cast1=1) and (velkar.Y=tal.Y+1)and (malar.Y>tal.Y+1) then
+      begin
+        cast1:=2;
+        addv(5,'pra-v-klesnout');
+      end
+    else if (cast1<=2)and(snek.X=5)and(tal.Y=26)and(velkar.Y=27) then
+      begin
+        cast1:=3;
+        addv(5,'pra-v-nahore');
+      end
+    else if (ocel1=0)and(val1.X=11)and(malar.X=8)and(natoceni[mala]=smer_vpravo) then
+      begin
+        ocel1:=1;
+        addm(5,'pra-m-nepohnu');
+      end
+    else if (cast1<=3)and(velkar.X=9)and(sek.Y=24) then
+      begin
+        cast1:=4;
+        addm(0,'pra-m-zpatky');
+      end
+    else if (osejvu=0)and(sek.Y=27)and((malar.X>15)or(velkar.X>15)) then
+      begin
+        osejvu:=1;
+        addv(5,'pra-v-problem');
+        addm(5,'pra-m-reseni');
+      end
+    else if (cast2=0)and((malar.X>=22)or(velkar.X>=21))and(jah.X=22) then
+      begin
+        cast2:=1;
+        addv(15,'pra-v-zapeklita');
+        addm(15+random(15),'pra-m-vyrazit');
+        addv(5,'pra-v-dobrynapad');
+      end
+    else if (cast2<2)and(sek.X=14)and(sek.Y=27)and(malar.X=15)and(malar.Y=28)then
+      begin
+        if jah.X>19 then
+          begin
+            cast2:=3;
+            addv(0,'pra-v-vzit');
+            addm(5,'pra-m-prisun');
+          end;
+      end
+    else if (cast2<2)and(sek.X=14)and(sek.Y=27)and(jah.X<22)
+        and((malar.X>=20)or(malar.Y<=28))then
+      begin
+        cast2:=3;
+        addm(10,'pra-m-chytit');
+        addv(20+random(60),'pra-v-spatne');
+        restartovat:=1;
+      end
+    else if (restartovat=0)and(mer.X=35)and(mer.Y=30) then
+      begin
+        addv(10+random(30),'pra-v-spatne');
+        restartovat:=1;
+      end
+    else if (osejvu=1)and(malar.X>=29)and(velkar.X>=29)and
+      ((malar.Y<19)or(velkar.Y<19))then
+      begin
+        addv(random(40),'pra-v-ukladani');
+        osejvu:=2;
+      end
+    else if (neuvazovat=0)and(malar.Y=21)and
+        (malar.X>=23)and(malar.X<=28)and(natoceni[mala]=smer_vlevo) then
+      begin
+        neuvazovat:=1;
+        addm(2,'pra-m-uvazovat');
+      end
+    else if (nepoustej=0)and(soup.Y<=10)and(malar.Y>=14)and(malar.X>=22)then
+      begin
+        nepoustej:=1;
+        addm(5,'pra-m-pustis');
+      end
+    else if (uhnimi<>1)and(soup.Y=9)and(malar.X>=22)and(malar.X<=24)and
+        (malar.Y>=11)and(malar.Y<=12) then
+      begin
+        uhnimi:=1;
+        addv(5,'pra-v-zavazis');
+      end
+    else if (uhnimi=1)and(soup.Y=9)and((malar.X>26)or(malar.Y>13)) then 
+      uhnimi:=2
+    else if 
+(mamstrach=0)and(uhnimi>0)and(soup.Y<=10)and(malar.X>=32)and(malar.Y>=13)and(malar.Y<=14) 
+then
+      begin
+        mamstrach:=1;
+        addm(5,'pra-m-strach');
+        addv(5,'pra-v-prekvapit');
+      end
+    else if (restartovat=0)and(malar.Y>=14)and(malar.X>=23)and(malar.X<34)and (velkar.Y<soup.Y) 
+then
+      begin
+        addv(10+random(30),'pra-v-spatne');
+        restartovat:=1;
+      end
+    else if (oknize=0)and(malar.Y<10) then
+      begin
+        oknize:=1;
+        addm(20,'pra-m-kniha');
+        addv(2,'pra-v-valec');
+        addm(10,'pra-m-jakudelat');
+        addv(5,'pra-v-nezapomen');
+      end
+    else if (oknize=1)and(knih.X=26)and(knih.Y=7) then
+      begin
+        oknize:=2;
+        delayrada:=random(50)+100;
+      end
+    else if (delayrada=0)and(knih.X=26) then
+      if (velkar.Y<=3)or(poslrada=2) then
+        begin
+          addv(10,'pra-v-nezapomen');
+          poslrada:=1;
+          delayrada:=random(300)+150;
+        end
+      else 
+        begin
+          addv(10,'pra-v-objet');
+          if poslrada=0 then addm(0,'pra-m-neradit');
+          poslrada:=2;
+          delayrada:=random(50)+50;
+        end
+    else if (restartovat=0)and(svic.X=3)and(svic.Y>=21)and(svic.Y<=22)and(svic.dir=dir_no) then
+      begin
+        restartovat:=1;
+        roompole[0]:=1;
+        addm(10,'pra-m-stava');
+        addv(0,'pra-v-dopredu');
+        addm(5,'pra-m-restart');
+      end
+    else if (restartovat=0)and(val2.X=15)and(val2.Y=11)then
+      begin
+        addv(10+random(30),'pra-v-spatne');
+        restartovat:=1;
+      end
+  end;
+16 Items
+2 30 3 1
+1-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+5 31 4 2
+2-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+2 29 5 1
+misa.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name tal
+0 Prg2
+5 List
+0 1 2 3 4
+4 28 2 1
+cup.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+5 27 1 1
+maly snek1.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name snek
+0 Prg2
+1 List
+0
+11 25 1 2
+6-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name val1
+0 Prg2
+2 List
+0 256
+10 24 5 2
+sekera0.BMP
+65280 Mask
+1 Kind
+2 Ext
+1 Prg1
+name sek
+0 Prg2
+6 List
+0 1 2 3 4 260
+22 29 2 3
+marmelada.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name jah
+0 Prg2
+6 List
+0 256 512 1 257 513
+29 27 2 3
+med.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name med
+0 Prg2
+6 List
+0 256 512 1 257 513
+29 24 2 3
+merunkova.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name mer
+0 Prg2
+6 List
+0 256 512 1 257 513
+22 20 1 1
+11-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+22 21 1 1
+shell1.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+27 12 9 2
+13-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name soup
+1 Prg2
+if dir<>dir_no then room.osejvu:=2;
+10 List
+256 257 258 3 259 260 261 262 263
+264
+28 8 3 1
+kniha.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name knih
+0 Prg2
+3 List
+0 1 2
+18 2 1 2
+15-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name val2
+0 Prg2
+2 List
+0 256
+6 11 1 8
+svicka.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name svic
+0 Prg2
+8 List
+0 256 512 768 1024 1280 1536 1792
+EOF
