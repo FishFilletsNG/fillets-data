@@ -99,7 +99,6 @@ local function prog_init()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
         frkavec.cinnost = 0
-        --NOTE: spec 11 = invisible
         frkavec:setEffect("invisible")
 
         return function()
@@ -112,7 +111,6 @@ local function prog_init()
                 end,
             }
             if frkavec.cinnost > 0 then
-                --NOTE: spec 10 = reverse picture
                 if frkavec.strana == 1 then
                     frkavec:setEffect("reverse")
                 else

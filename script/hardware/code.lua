@@ -87,7 +87,7 @@ local function prog_init()
         small.trpelivost = 300 + random(700)
 
         return function()
-            if gfaze == 0 and aktivni == mala and small.dir ~= dir_no then
+            if level_isNewRound() and small.dir ~= dir_no then
                 small.pohyby = small.pohyby + 1
             end
         end

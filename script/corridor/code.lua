@@ -97,7 +97,6 @@ local function prog_init()
                             addv(random(20), "ch-v-neboj"..random(3))
                         end,
                     }
-                    --TODO: gstav ~= stav_vlevo
                 elseif room.rpesvelka == 0 and big.Y >= 20 and random(100) < 2 then
                     room.rpesvelka = 1
                     room.nerusit = 1
