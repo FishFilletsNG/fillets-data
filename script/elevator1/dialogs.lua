@@ -26,7 +26,7 @@ dialog_addDialog("zd1-v-talis", "en", "", "font_big", "It`s an age-old talisman 
 dialog_addDialog("zd1-v-talis", "cs", "sound/"..codename.."/cs/zd1-v-talis.ogg", "font_big", "To je prastarý talisman stavitelů zdviží. Aby jim výtah skvěle Shell.")
 dialog_addDialog("zd1-v-talis", "fr", "", "font_big", "C'est un talisman ancien pour les constructeurs d'ascenseurs qui disent toujours 'Construire bien. Construire avec des coquillages'.")
 dialog_addDialog("zd1-v-talis", "de", "", "font_big", "Das ist ein uralter Glücksbringer für Fahrstuhlbauer, die immer gesagt haben \"Baue schnell, bau` mit Shell\".")
-dialog_addDialog("zd1-v-talis", "en", "", "font_big", "E` un antico talismano dei costruttori di ascensori.")
+dialog_addDialog("zd1-v-talis", "it", "", "font_big", "E` un antico talismano dei costruttori di ascensori.")
 
 dialog_addDialog("zd1-m-poved", "en", "", "font_small", "Isn`t that shell a little bit familiar?")
 dialog_addDialog("zd1-m-poved", "cs", "sound/"..codename.."/cs/zd1-m-poved.ogg", "font_small", "Není ti ta lastura nějak povědomá?")
