@@ -92,7 +92,7 @@ dialog_addDialog("bar-m-mutanti", "en", "", "font_small", "You know, I finally r
 dialog_addDialog("bar-m-mutanti", "cs", "sound/"..codename.."/cs/bar-m-mutanti.ogg", "font_small", "Víš, konečně jsem si uvědomila, že i mutanti mají duši.")
 dialog_addDialog("bar-m-mutanti", "fr", "", "font_small", "Vous savez, j'ai finalement réalisé que même les mutants ont une âme.")
 dialog_addDialog("bar-m-mutanti", "de", "", "font_small", "Weißt du, ich habe endlich begriffen, dass sogar Mutanten eine Seele haben.")
-dialog_addDialog("bar-m-mutanti", "de", "", "font_small", "Weisst du, ich habe endlich begriffen, dass sogar Mutanten eine Seele haben.")
+dialog_addDialog("bar-m-mutanti", "de_CH", "", "font_small", "Weisst du, ich habe endlich begriffen, dass sogar Mutanten eine Seele haben.")
 
 dialog_addDialog("bar-v-ufouni", "en", "", "font_big", "Maybe even UFOs can have a soul.")
 dialog_addDialog("bar-v-ufouni", "cs", "sound/"..codename.."/cs/bar-v-ufouni.ogg", "font_big", "Možná, že dokonce i ufouni mohou mít duši.")
