@@ -99,5 +99,3 @@ dialog_addDialog("disk-x-vir0", "en", "sound/"..codename.."/en/disk-x-vir0.ogg",
 dialog_addDialog("disk-x-vir1", "en", "sound/"..codename.."/en/disk-x-vir1.ogg", "font_green", "033455D394F938E624A68CBCA301923784F35892")
 
 dialog_addDialog("disk-x-vir2", "en", "sound/"..codename.."/en/disk-x-vir2.ogg", "font_green", "1A566837C0323B0413239DD2374E9F0036C56B23074")
-
-

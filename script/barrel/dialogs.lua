@@ -115,4 +115,3 @@ dialog_addDialog("bar-x-suckano", "en", "sound/"..codename.."/en/bar-x-suckano.o
 
 dialog_addDialog("bar-x-suckne", "en", "sound/"..codename.."/en/bar-x-suckne.ogg")
 
-
