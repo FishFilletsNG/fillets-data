@@ -92,5 +92,7 @@ branch_addNode("tetris", "emulator", "script/emulator/init.lua", 226, 317)
 branch_addNode("emulator", "warcraft", "script/warcraft/init.lua", 198, 290)
 branch_addNode("warcraft", "windoze", "script/windoze/init.lua", 162, 279)
 branch_addNode("windoze", "hardware", "script/hardware/init.lua", 129, 290)
-branch_addNode("hardware", "floppy", "script/floppy/init.lua", 97, 314)
+branch_addNode("hardware", "floppy", "script/floppy/init.lua", 97, 314,
+        false, "images/floppy/poster.png")
+
 
