@@ -5,6 +5,7 @@ function no_dialog()
 end
 
 function isReady(model)
+    -- fish is ready to talk
     return model:isAlive() and not model:isTalking() and not model:isOut()
 end
 
@@ -70,6 +71,12 @@ function dist(one, second)
     return math.max(dx, dy)
 end
 
+-- -----------------------------------------------------------------
+dir_no = 0
+dir_up = 1
+dir_down = 2
+dir_left = 3
+dir_right = 4
 
 -- -----------------------------------------------------------------
 -- Init functions
@@ -82,17 +89,31 @@ function initModels()
         model.afaze = 0
         model.X, model.Y = model:getLoc()
         model.XStart, model.YStart = model:getLoc()
+        model.dir = dir_no
     end
 end
 
 -- -----------------------------------------------------------------
 -- Run functions
 -- -----------------------------------------------------------------
-local function updateXY()
+local function updateModels()
     -- update .X, .Y for all models
     local models = getModelsTable()
     for key, model in pairs(models) do
         model.X, model.Y = model:getLoc()
+
+        local action = model:getAction()
+        if "move_up" == action then
+            model.dir = dir_up
+        elseif "move_down" == action then
+            model.dir = dir_down
+        elseif "move_left" == action then
+            model.dir = dir_left
+        elseif "move_right" == action then
+            model.dir = dir_right
+        else
+            model.dir = dir_no
+        end
     end
 end
 
@@ -103,7 +124,7 @@ function update()
     animateHead(small)
     animateHead(big)
 
-    updateXY()
+    updateModels()
     prog_update()
 end
 

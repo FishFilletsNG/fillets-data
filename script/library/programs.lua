@@ -28,7 +28,7 @@ prog_init()
 -- Update
 -- -----------------------------------------------------------------
 function prog_update()
-    if no_dialog and isReady(small) and isReady(big) then
+    if no_dialog() and isReady(small) and isReady(big) then
         if oknihach > 0 then
             oknihach = oknihach - 1
         end
