@@ -132,7 +132,7 @@ local function updateModels()
     end
 end
 
-function update()
+function script_update()
     -- this function is called after every game cycle
     animateFish(small)
     animateFish(big)
