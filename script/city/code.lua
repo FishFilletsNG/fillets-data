@@ -362,7 +362,7 @@ local function prog_init()
                     end,
                 }
             end
-            ksichty_table = {
+            local ksichty_table = {
                 [0] = function()
                 end,
                 [1] = function()

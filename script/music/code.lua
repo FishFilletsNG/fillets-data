@@ -5,7 +5,7 @@
 local function prog_init()
     initModels()
     local pokus = getRestartCount()
-	local roompole = {0}
+    local roompole = {0}
 
 
     -- -------------------------------------------------------------
@@ -15,7 +15,7 @@ local function prog_init()
         room.hlaskam = 0
         room.hlaskav = 0
         if roompole[0] == 0 then
-			-- TODO find out what does this mean
+            --TODO: allow to ask for music_volume
             roompole[0] = music_volume
         end
         room.rozbito = 0
@@ -37,6 +37,7 @@ local function prog_init()
                             end,
                         }
                     elseif roompole[0] > music_volume and music_volume < 16 then
+                        --TODO: do this when music is lowered
                         roompole[0] = 0
                         addm(15, "ves-m-dik")
                         addv(random(20) + 10, "ves-v-stejne")
@@ -75,7 +76,7 @@ local function prog_init()
                         amp1.stav = amp1.stav + 1
                         amp1.afaze = 7
                     elseif odd(game_getCycles()) then
-						anim_table = {
+                    local anim_table = {
                             [0] = function()
                                 amp1.afaze = amp1.afaze + 1
                             end,
@@ -83,25 +84,25 @@ local function prog_init()
                                 amp1.afaze = amp1.afaze - 1
                             end,
                             [2] = function()
-								amp1.afaze = amp1.afaze + 2
+                                amp1.afaze = amp1.afaze + 2
                             end,
                             [8] = function()
-								amp1.afaze = amp1.afaze - 2
+                                amp1.afaze = amp1.afaze - 2
                             end,
                             [13] = function()
                                 amp1.faze = -1
                                 amp1.afaze = 0
                             end,
                         }
-						anim_table[3] = anim_table[0]
-						anim_table[4] = anim_table[0]
-						anim_table[7] = anim_table[0]
-						anim_table[12] = anim_table[0]
-						anim_table[6] = anim_table[1]
-						anim_table[9] = anim_table[1]
-						anim_table[10] = anim_table[1]
-						anim_table[5] = anim_table[2]
-						anim_table[11] = anim_table[8]
+                        anim_table[3] = anim_table[0]
+                        anim_table[4] = anim_table[0]
+                        anim_table[7] = anim_table[0]
+                        anim_table[12] = anim_table[0]
+                        anim_table[6] = anim_table[1]
+                        anim_table[9] = anim_table[1]
+                        anim_table[10] = anim_table[1]
+                        anim_table[5] = anim_table[2]
+                        anim_table[11] = anim_table[8]
                         switch(amp1.faze)(anim_table)
 
                         amp1.faze = amp1.faze + 1
@@ -109,7 +110,7 @@ local function prog_init()
                 end,
                 [2] = function()
                     if amp1.dir ~= dir_down then
-						amp1:killSound()
+                        amp1:killSound()
                         room:talk("sp-smrt", VOLUME_FULL)
                         amp1.afaze = 9
                         amp1.stav = amp1.stav + 1
@@ -120,7 +121,7 @@ local function prog_init()
                 end,
             }
 
-			amp1:updateAnim()
+            amp1:updateAnim()
         end
     end
 
@@ -148,7 +149,7 @@ local function prog_init()
                         amp2.stav = amp2.stav + 1
                         amp2.afaze = 7
                     elseif odd(game_getCycles()) then
-                        anim_table = {
+                        local anim_table = {
                             [0] = function()
                                 amp2.afaze = amp2.afaze + 1
                             end,
@@ -166,15 +167,15 @@ local function prog_init()
                                 amp2.afaze = 0
                             end,
                         }
-						anim_table[3] = anim_table[0]
-						anim_table[4] = anim_table[0]
-						anim_table[7] = anim_table[0]
-						anim_table[12] = anim_table[0]
-						anim_table[6] = anim_table[1]
-						anim_table[9] = anim_table[1]
-						anim_table[10] = anim_table[1]
-						anim_table[5] = anim_table[2]
-						anim_table[11] = anim_table[8]
+                        anim_table[3] = anim_table[0]
+                        anim_table[4] = anim_table[0]
+                        anim_table[7] = anim_table[0]
+                        anim_table[12] = anim_table[0]
+                        anim_table[6] = anim_table[1]
+                        anim_table[9] = anim_table[1]
+                        anim_table[10] = anim_table[1]
+                        anim_table[5] = anim_table[2]
+                        anim_table[11] = anim_table[8]
                         switch(amp2.faze)(anim_table)
 
                         amp2.faze = amp2.faze + 1
@@ -182,7 +183,7 @@ local function prog_init()
                 end,
                 [2] = function()
                     if amp2.dir ~= dir_down then
-						amp2:killSound()
+                        amp2:killSound()
                         room:talk("sp-smrt", VOLUME_FULL)
                         amp2.afaze = 9
                         amp2.stav = amp2.stav + 1
@@ -193,7 +194,7 @@ local function prog_init()
                 end,
             }
 
-			amp2:updateAnim()
+            amp2:updateAnim()
         end
     end
 
@@ -221,7 +222,7 @@ local function prog_init()
                         amp3.stav = amp3.stav + 1
                         amp3.afaze = 7
                     elseif odd(game_getCycles()) then
-						anim_table = {
+                    local anim_table = {
                             [0] = function()
                                 amp3.afaze = amp3.afaze + 1
                             end,
@@ -239,15 +240,15 @@ local function prog_init()
                                 amp3.afaze = 0
                             end,
                         }
-						anim_table[3] = anim_table[0]
-						anim_table[4] = anim_table[0]
-						anim_table[7] = anim_table[0]
-						anim_table[12] = anim_table[0]
-						anim_table[6] = anim_table[1]
-						anim_table[9] = anim_table[1]
-						anim_table[10] = anim_table[1]
-						anim_table[5] = anim_table[2]
-						anim_table[11] = anim_table[8]
+                        anim_table[3] = anim_table[0]
+                        anim_table[4] = anim_table[0]
+                        anim_table[7] = anim_table[0]
+                        anim_table[12] = anim_table[0]
+                        anim_table[6] = anim_table[1]
+                        anim_table[9] = anim_table[1]
+                        anim_table[10] = anim_table[1]
+                        anim_table[5] = anim_table[2]
+                        anim_table[11] = anim_table[8]
                         switch(amp3.faze)(anim_table)
 
                         amp3.faze = amp3.faze + 1
@@ -255,7 +256,7 @@ local function prog_init()
                 end,
                 [2] = function()
                     if amp3.dir ~= dir_down then
-						amp3:killSound()
+                        amp3:killSound()
                         room:talk("sp-smrt", VOLUME_FULL)
                         amp3.afaze = 9
                         amp3.stav = amp3.stav + 1
@@ -266,7 +267,7 @@ local function prog_init()
                 end,
             }
 
-			amp3:updateAnim()
+            amp3:updateAnim()
         end
     end
 
@@ -339,14 +340,14 @@ local function prog_init()
                         hlava.stav = hlava.stav + 1
                     end
                 end,
-				default = function()
-					if hlava.stav >= 4 and  hlava.stav <= 50 then
-                   		hlava.stav = hlava.stav + 1
-					end
+                default = function()
+                    if hlava.stav >= 4 and  hlava.stav <= 50 then
+                        hlava.stav = hlava.stav + 1
+                    end
                 end,
             }
 
-			hlava:updateAnim()
+            hlava:updateAnim()
 
         end
     end
@@ -367,7 +368,7 @@ local function prog_init()
                 krabik.afaze = 1
             end
 
-			krabik:updateAnim()
+            krabik:updateAnim()
         end
     end
 

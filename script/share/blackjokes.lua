@@ -18,6 +18,7 @@ function stdBlackJoke()
     local hlrestart
     local h
 
+    --TODO: do autorestart for depth=15 when one fish is dead
     if level_getDepth() == 2 then
         return
     end
@@ -28,7 +29,7 @@ function stdBlackJoke()
         hlrestart = false
         if (not small:isAlive() or not big:isAlive()) and alive_time + 8 == game_getCycles() then
             if isReady(big) or isReady(small) then
-                joke_table = {
+                local joke_table = {
                     [1] = function()
                         hlaska = hbezna
                         hlrestart = true

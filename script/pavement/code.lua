@@ -71,7 +71,7 @@ local function prog_init()
 
         return function()
             vladce.afaze = vladce.afaze + 1
-            anim_table = {
+            local anim_table = {
                 [0] = function()
                     if vladce:isTalking() then
                         vladce.ksichty = random(4) + 1
