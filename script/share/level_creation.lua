@@ -100,29 +100,25 @@ function createObject(model_index)
         return model_isTalking(self.index)
     end
     object.talk = function(self, dialog, volume, loops)
-        return model_talk(self.index, dialog, volume, loops)
+        model_talk(self.index, dialog, volume, loops)
     end
     object.killSound = function(self)
-        return model_killSound(self.index)
+        model_killSound(self.index)
     end
     object.planDialog = function(self, delay, dialog, action)
-        return planDialog(self.index, delay, dialog, action)
+        planDialog(self.index, delay, dialog, action)
     end
     object.setGoal = function(self, goalname)
-        return model_setGoal(self.index, goalname)
+        model_setGoal(self.index, goalname)
     end
     object.change_turnSide = function(self)
-        return model_change_turnSide(self.index)
+        model_change_turnSide(self.index)
     end
     object.change_setLocation = function(self, x, y)
-        return model_change_setLocation(self.index, x, y)
+        model_change_setLocation(self.index, x, y)
     end
-    object.setBusy = function(self, value)
-        local busy = 1
-        if not value then
-            busy = 0
-        end
-        return model_setBusy(self.index, busy)
+    object.setBusy = function(self, busy)
+        model_setBusy(self.index, busy)
     end
 
     return object
