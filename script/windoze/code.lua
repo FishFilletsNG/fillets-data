@@ -51,12 +51,13 @@ local function prog_init()
                     room.obonusu = 0
                     big:setBusy(true)
                     small:setBusy(true)
+                    staramala:setBusy(false)
+                    staravelka:setBusy(false)
+                    game_checkActive()
                     if pokus == 1 then
                         addv(0, "win-v-pockej")
                         addm(2, "win-m-zavrene")
                     end
-                    planBusy(small, false)
-                    planBusy(big, false)
                     if pokus < 3 or random(100) < 40 then
                         addv(5, "win-v-osvobodit")
                         addm(10, "win-m-ven")
@@ -64,10 +65,6 @@ local function prog_init()
                         addm(random(10) + 5, "win-m-vzit")
                     end
                     addv(5, "win-v-nehrajem")
-                    planBusy(small, true)
-                    planBusy(big, true)
-                    planBusy(staramala, false)
-                    planBusy(staravelka, false)
                     --NOTE: turn off standard black jokes
                     stdBlackJoke = function() end
                 end
