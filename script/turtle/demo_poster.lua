@@ -11,8 +11,8 @@ dialog_addDialog("dlg-x-poster2", "de", "", "font_poster", "Wir empfehlen höchs
 dialog_addDialog("dlg-x-poster3", "en", "", "font_poster", "And she has bitten us, too so what. By all means, unmuzzle her only if she wants to do not unmuzlle her.")
 dialog_addDialog("dlg-x-poster3", "cs", "", "font_poster", "")
 dialog_addDialog("dlg-x-poster3", "fr", "", "font_poster", "Et elle nous a mordu, d'où le paquet. De tout manière, détachez la uniquement si elle ne veut pas qu'on la détache.")
-dialog_addDialog("dlg-x-poster3", "de", "", "font_poster", "Außerdem hat sie uns gebissen na und. Nehmen sie ihr den Maulkorb jedenfalls nur ab, wenn sie nicht will.")
-dialog_addDialog("dlg-x-poster3", "de_CH", "", "font_poster", "Ausserdem hat sie uns gebissen na und. Nehmen sie ihr den Maulkorb jedenfalls nur ab, wenn sie nicht will.")
+dialog_addDialog("dlg-x-poster3", "de", "", "font_poster", "Außerdem hat sie uns gebissen na und. Nehmen sie ihr den Maulkorb nur ab, wenn sie will unter keinen Umständen ab.")
+dialog_addDialog("dlg-x-poster3", "de_CH", "", "font_poster", "Ausserdem hat sie uns gebissen na und. Nehmen sie ihr den Maulkorb nur ab, wenn sie will unter keinen Umständen ab.")
 
 -- -----------------------------------------------------------------
 file_include("script/share/prog_demo.lua")
