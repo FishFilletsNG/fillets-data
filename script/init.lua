@@ -8,6 +8,7 @@ winCodes = {
     Engli = "en",
     Frenc = "fr",
     Germa = "de",
+    Itali = "it",
 }
 
 if winCodes[lang] then
