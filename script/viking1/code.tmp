@@ -1,0 +1,376 @@
+
+-- -----------------------------------------------------------------
+-- Init
+-- -----------------------------------------------------------------
+local function prog_init()
+    initModels()
+    sound_playMusic("music/-----")
+    local pokus = getRestartCount()
+
+
+    -- -------------------------------------------------------------
+    local function prog_init_room()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        room.blok = -1
+        room.startblok = 0
+        room.uvod = 0
+        room.dohrat = nah(300, 700)
+        music("rybky04", -998)
+
+        return function()
+            room.startblok = 0
+            if room.blok >= 0 then
+                if not playing(111) then
+                    room.blok = room.blok + 1
+                    if room.blok == 17 then
+                        room.blok = 1
+                    end
+                    room.startblok = 1
+                end
+            end
+            if room.blok > 0 then
+                KSnd(-998)
+            end
+            if no_dialog() and isReady(small) and isReady(big) then
+                if room.dohrat > 0 then
+                    room.dohrat = room.dohrat - 1
+                end
+                if room.uvod == 0 then
+                    room.uvod = 1
+                    switch(pokus){
+                        [1] = function()
+                            pom1 = 4
+                        end,
+                        [2, 3] = function()
+                            pom1 = random(5)
+                        end,
+                        default = function()
+                            if random(2) == 0 then
+                                pom1 = 0
+                            else
+                                pom1 = random(5)
+                            end
+                        end,
+                    }
+                    if pom1 > 0 then
+                        addm(20, "dr-m-tojesnad")
+                        if random(2) == 0 then
+                            addv(3, "dr-v-jiste")
+                        end
+                    end
+                    if pom1 >= 2 then
+                        addm(random(20) + 5, "dr-m-musela")
+                    end
+                    if pom1 >= 4 then
+                        addv(random(15) + 3, "dr-v-mozna")
+                    else
+                        adddel(random(20) + 25)
+                    end
+                    if pom1 >= 3 then
+                        addm(0, "dr-m-hruza")
+                    end
+                elseif room.dohrat == 0 then
+                    room.dohrat = -1
+                    KSnd(-998)
+                    adddel(10)
+                    addset(melodak1.afaze, 3)
+                    addd(random(10) + 5, "d1-1-hud" + "ba" + chr(48 + random(3)), 132, noprom)
+                    adddel(5)
+                    addset(basak.hlasky, 2)
+                    addset(piskac.hlasky, 2)
+                    adddel(10)
+                    addset(melodak1.hlasky, 1)
+                    addd(30 + random(10), "d1-5-nevadi" + chr(48 + random(3)), 102, noprom)
+                    adddel(10)
+                    addset(room.blok, 0)
+                end
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_melodak1()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        melodak1.hrat = -1
+        melodak1.mrk = 0
+        melodak1.hlasky = 0
+        melodak1.posl = -1
+
+        return function()
+            if melodak1.hlasky > 0 and not playing(133) then
+                repeat
+                    pom1 = random(3)
+                until pom1 ~= melodak1.posl
+                melodak1.posl = pom1
+                talk("d1-2-brb" + chr(48 + pom1), 133)
+                melodak1.hlasky = melodak1.hlasky - 1
+            end
+            if room.startblok == 1 then
+                switch(room.blok){
+                    [7, 8, 11, 12, 15, 16] = function()
+                        melodak1.hrat = 0
+                    end,
+                    default = function()
+                        melodak1.hrat = -1
+                    end,
+                }
+                if melodak1.hrat > -1 then
+                    ksnd(131)
+                    music("d1-z-v" + chr(48 + melodak1.hrat), 131)
+                    setanim(this, "a4a2a4a2a4a2a4a2a4a2d2a4a2d2a4a2d2a4a2d2a4a2d2a4a2d2" + "a4a2a4a2a4a2a4a2a4a2d2a4a2d2a4a2d2a4a2d2a4a2d4a4")
+                else
+                    setanim(this, "d?5-10a0")
+                end
+            end
+            if melodak1.mrk == 1 and melodak1.afaze ~= 0 then
+                melodak1.afaze = melodak1.afaze + 1
+            end
+            goanim(this)
+            if talking(132) then
+                melodak1.afaze = random(2) * 2 + 2
+            elseif room.blok < 0 and random(100) < 5 then
+                melodak1.afaze = 0
+            end
+            if random(100) < 5 then
+                melodak1.mrk = 1
+            else
+                melodak1.mrk = 0
+            end
+            if melodak1.mrk == 1 and melodak1.afaze > 0 then
+                melodak1.afaze = melodak1.afaze - 1
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_hlavni()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        spec = 10
+
+        return function()
+            if talking(102) then
+                hlavni.afaze = random(3)
+            else
+                hlavni.afaze = 0
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_basak()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        basak.hrat = -1
+        basak.mrk = 0
+        basak.afaze = 2
+        basak.hlasky = 0
+        basak.posl = -1
+
+        return function()
+            if basak.hlasky > 0 and not playing(122) then
+                repeat
+                    pom1 = random(3)
+                until pom1 ~= basak.posl
+                basak.posl = pom1
+                talk("d1-4-brb" + chr(48 + pom1), 122)
+                basak.hlasky = basak.hlasky - 1
+            end
+            if room.startblok == 1 then
+                switch(room.blok){
+                    [1, 2, 3] = function()
+                        basak.hrat = -1
+                    end,
+                    [4] = function()
+                        basak.hrat = 1
+                    end,
+                    [5, 6, 9, 10, 13, 14] = function()
+                        basak.hrat = 2
+                    end,
+                    default = function()
+                        basak.hrat = 3
+                    end,
+                }
+                if basak.hrat > -1 then
+                    ksnd(121)
+                    music("d1-z-b" + chr(48 + basak.hrat), 121)
+                    if basak.hrat == 1 then
+                        setanim(this, "a0d3a2d3a0d19a2d3a0d3a2d3a0d19a2d3")
+                    else
+                        setanim(this, "a0d3a2d3a0d19a2d3a0d3a2d3a0d6a2a0d3a2d3a0d6a2")
+                    end
+                end
+            end
+            if basak.mrk == 1 then
+                basak.afaze = basak.afaze - 1
+            end
+            if talking(122) then
+                basak.afaze = random(2) * 2
+            elseif room.blok < 0 then
+                basak.afaze = 2
+            end
+            goanim(this)
+            if random(100) < 5 then
+                basak.mrk = 1
+            else
+                basak.mrk = 0
+            end
+            if basak.mrk == 1 then
+                basak.afaze = basak.afaze + 1
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_piskac()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        piskac.hrat = -1
+        piskac.xicht = 0
+        piskac.hlasky = 0
+        piskac.posl = -1
+
+        return function()
+            if piskac.hlasky > 0 and not playing(112) then
+                repeat
+                    pom1 = random(3)
+                until pom1 ~= piskac.posl
+                piskac.posl = pom1
+                talk("d1-3-brb" + chr(48 + pom1), 112)
+                piskac.hlasky = piskac.hlasky - 1
+            end
+            if talking(112) then
+                piskac.xicht = random(2) * 2
+            else
+                piskac.xicht = 0
+            end
+            if room.blok > -1 then
+                piskac.xicht = 6
+            end
+            if room.startblok == 1 then
+                switch(room.blok){
+                    [1, 2, 5, 6, 9, 10, 13, 14] = function()
+                        piskac.hrat = 1
+                    end,
+                    default = function()
+                        piskac.hrat = 2
+                    end,
+                }
+                piskac.xicht = 4
+                ksnd(111)
+                music("d1-z-p" + chr(48 + piskac.hrat), 111)
+            end
+            if random(100) < 5 then
+                piskac.afaze = piskac.xicht + 1
+            else
+                piskac.afaze = piskac.xicht
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_melodak2()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        melodak2.hrat = -1
+        melodak2.mrk = 0
+        spec = 10
+
+        return function()
+            if room.startblok == 1 then
+                switch(room.blok){
+                    [9, 13] = function()
+                        melodak2.hrat = 1
+                    end,
+                    [10, 14] = function()
+                        melodak2.hrat = 2
+                    end,
+                    default = function()
+                        melodak2.hrat = -1
+                    end,
+                }
+                if melodak2.hrat > -1 then
+                    ksnd(131)
+                    music("d1-z-v" + chr(48 + melodak2.hrat), 131)
+                    if melodak2.hrat == 1 then
+                        setanim(this, "a2d15a3d15a2d28a0")
+                    else
+                        setanim(this, "a3d15a2d15a3d15a2d7")
+                    end
+                else
+                    melodak2.afaze = 0
+                end
+            end
+            if melodak2.mrk == 1 and melodak2.afaze == 1 then
+                melodak2.afaze = melodak2.afaze - 1
+            end
+            goanim(this)
+            if random(100) < 5 then
+                melodak2.mrk = 1
+            else
+                melodak2.mrk = 0
+            end
+            if melodak2.mrk == 1 and melodak2.afaze == 0 then
+                melodak2.afaze = melodak2.afaze + 1
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_snecek()
+        return function()
+            if room.blok > 0 then
+                if snecek.afaze < 2 then
+                    snecek.afaze = snecek.afaze + 1
+                end
+            end
+        end
+    end
+
+    -- --------------------
+    local update_table = {}
+    local subinit
+    subinit = prog_init_room()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_melodak1()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_hlavni()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_basak()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_piskac()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_melodak2()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    subinit = prog_init_snecek()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    return update_table
+end
+local update_table = prog_init()
+
+
+-- -----------------------------------------------------------------
+-- Update
+-- -----------------------------------------------------------------
+function prog_update()
+    for key, subupdate in pairs(update_table) do
+        subupdate()
+    end
+end
+
