@@ -12,11 +12,11 @@ dialogStr("Non dovrei sollevare questo?")
 
 
 dialogId("bat-v-zved1", "font_big", "Do you want me to lift this up?")
-dialogStr("Vuoi che sollevi questo?")
+dialogStr("Vuoi che lo sollevi?")
 
 
 dialogId("bat-v-vyp", "font_big", "Shouldn`t I turn that off?")
-dialogStr("Non dovrei forse spegnerlo?")
+dialogStr("Non dovrei spegnere quell'affare?")
 
 
 dialogId("bat-v-klid", "font_big", "Now it is quiet here.")
@@ -80,9 +80,9 @@ dialogStr("Pronto, pronto!?")
 
 
 dialogId("bat-p-zhov0", "font_statue", "Hello, chief inspector Clouseau speaking. I am looking for the dangerous shellfish, who... Oh no, not now, Kato, you yellow ape!")
-dialogStr("Pronto? qui è l'ispettore capo Clouseau. Sto cercando quel pericoloso crostaceo che... non adesso, Kato, scimmia gialla!")
+dialogStr("Pronto? qui è l'ispettore capo Clouseau. Sto cercando quel pericoloso crostaceo che... non adesso, Kato, scimmia gialla che sei!")
 
 
 dialogId("bat-p-zhov1", "font_green", "Hello, you have reached the number 4202-21913271. Nobody from the family of Roundfish is presently present. Please, leave the message after the beep. What happened?")
-dialogStr("Salve, questo è il 4202-21913271. Al momento non c'è nessuno in casa. Per favore, lasciate un messaggio dopo il bip. Che è successo?")
+dialogStr("Salve, questo è il 4202-21913271. Al momento in casa non c'è nessuno. Per favore, lasciate un messaggio dopo il bip... Dov'è finito il bip?")
 
