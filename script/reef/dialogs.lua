@@ -1,5 +1,5 @@
-dialog_addFont("font_small", "font/small.png")
-dialog_addFont("font_big", "font/big.png")
+dialog_addFont("font_small", "font/font_small.png")
+dialog_addFont("font_big", "font/font_big.png")
 
 
 dialog_addDialog("uts-m-otresy", "en", "", "font_small", "My goodness, the impact created cave-in!")

@@ -5,7 +5,7 @@ end
 
 function isReady(model)
     -- fish is ready to talk
-    return model:isAlive() and not model:isTalking() and not model:isOut()
+    return model:isAlive() and not model:isOut()
 end
 
 function odd(number)
@@ -105,6 +105,9 @@ function initModels()
         model.X, model.Y = model:getLoc()
         model.XStart, model.YStart = model:getLoc()
         model.dir = dir_no
+        model.updateAnim = function(self)
+            self:setAnim("default", self.afaze)
+        end
     end
 end
 

@@ -1,5 +1,5 @@
-dialog_addFont("font_small", "font/small.png")
-dialog_addFont("font_big", "font/big.png")
+dialog_addFont("font_small", "font/font_small.png")
+dialog_addFont("font_big", "font/font_big.png")
 
 
 dialog_addDialog("pra-m-pravidla", "en", "", "font_small", "You know the rules already. Now you can practice them. We will give you some hints occasionally.")

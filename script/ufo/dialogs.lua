@@ -1,5 +1,5 @@
-dialog_addFont("font_small", "font/small.png")
-dialog_addFont("font_big", "font/big.png")
+dialog_addFont("font_small", "font/font_small.png")
+dialog_addFont("font_big", "font/font_big.png")
 
 
 dialog_addDialog("ufo-v-znicilo", "en", "", "font_big", "We must be getting near the end of our mission. This is surely the UFO that destroyed our house.")
