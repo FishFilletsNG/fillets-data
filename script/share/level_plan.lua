@@ -79,7 +79,7 @@ function planTimeAction(delay, action)
     local waitTime = 0
     game_planAction(function(count)
             local done = false
-            if not dialog_empty() then
+            if dialog_isDialog() then
                 waitTime = count
             elseif isTime(delay + waitTime, count) then
                 action()
@@ -91,7 +91,7 @@ end
 
 function planDialog(actor_index, delay, dialog, action)
     planTimeAction(delay, function()
-            model_talk(actor_index, dialog)
+            model_talk(actor_index, dialog, 100, 0, true)
             if nil ~= action then
             action()
             end

@@ -9,7 +9,7 @@ file_include("script/share/prog_finder.lua")
 -- Compatibility functions
 -- -----------------------------------------------------------------
 function no_dialog()
-    return dialog_empty() and not game_isPlanning()
+    return not dialog_isDialog() and not game_isPlanning()
 end
 
 function isReady(model)

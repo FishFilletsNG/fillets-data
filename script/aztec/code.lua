@@ -31,7 +31,7 @@ local function prog_init()
                 pom1 = 0
                 for key, model in pairs(getModelsTable()) do
                     if model ~= konik then
-                        if dir == dir_down and model.Y >= 10 then
+                        if model.dir == dir_down and model.Y >= 10 then
                             if model:getW() + model:getH() == 3 then
                                 pom1 = pom1 + 1
                             end
