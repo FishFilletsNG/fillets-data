@@ -1,7 +1,7 @@
 
 createRoom(40, 30, "images/"..codename.."/schody-p.png")
 
-wall = addModel("item_fixed", 0, 0,
+room = addModel("item_fixed", 0, 0,
 [[
 ........................................
 XXX...................XXX.............XX
@@ -34,7 +34,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ]])
-addItemAnim(wall, "images/"..codename.."/schody-w.png")
+addItemAnim(room, "images/"..codename.."/schody-w.png")
 
 plzik = addModel("item_light", 6, 25,
 [[
