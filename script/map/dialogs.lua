@@ -49,4 +49,4 @@ dialog_addDialog("map-v-dal", "cs", "sound/"..codename.."/cs/map-v-dal.ogg", "fo
 dialog_addDialog("map-m-uz", "en", "", "font_small", "Yes, it`s almost done.")
 dialog_addDialog("map-m-uz", "cs", "sound/"..codename.."/cs/map-m-uz.ogg", "font_small", "Už to skoro bude.")
 
-
+dialog_addDialog("map-poster", "cs", "", "font_poster", "Po mnoha útrapách se nám podařilo nalézt mapu kapitána Silvera. Počáteční nadšení však vystřídalo trpké zklamání, když jsme zjistili, že inkriminovaná mapa neukazuje polohu pokladu, ale označuje místo pobytu posledního přeživšího Silverova papouška, který má však pokročilou sklerózu a nemůže si vzpomenout, kde poklad je.")

@@ -91,4 +91,5 @@ dialog_addDialog("sp-v-nesmysl", "cs", "sound/"..codename.."/cs/sp-v-nesmysl.ogg
 dialog_addDialog("sp-v-ven", "en", "", "font_big", "This time our goal is to get out that plug.")
 dialog_addDialog("sp-v-ven", "cs", "sound/"..codename.."/cs/sp-v-ven.ogg", "font_big", "Naším úkolem tentokrát bude dostat ven z místnosti ten špunt!")
 
+dialog_addDialog("sp-poster", "cs", "", "font_poster", "Podařílo se nám objasnit pravou příčinu potopení města. Na stopu nás přivedl známý artefakt zvaný atlantský reliéf, dosud mylně považovaný za zobrazení návštěvy mimozemšťanů. Zároveň doporučujeme zvýšit ostrahu špuntů všech kontinentů a větších ostrovů, aby se podobná trapná katastrovfa neopakovala.")
 
