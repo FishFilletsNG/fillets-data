@@ -1,0 +1,421 @@
+REDIT FILE from 24.3.1998 0:47:33
+Drakar1
+Drakar
+0 0 5 10 5 0 0 0 0 0  Params
+-2147483632 Grid
+36 29
+Drakar1-p.BMP
+0 obsolete
+0 Ext
+Drakar1-w.BMP
+65280 Mask
+0 Ext
+354 WlList
+2306 2818 4610 4866 5122 5378 5634 5890 2307
+2563 2819 4099 4355 4611 4867 5123 5379 5635 5891
+6147 6403 1284 2308 2564 2820 3076 3332 3588 3844
+4100 4356 4612 4868 5124 5380 5636 5892 6148 6404
+6660 6916 1285 2565 2821 3077 3333 3589 3845 4101
+4357 4613 4869 5125 5381 5637 5893 6149 6405 6661
+6917 7173 1286 2566 2822 3078 4102 4358 4614 4870
+5126 5382 5638 5894 6150 6406 6662 6918 7174 1287
+2567 4615 4871 5127 5383 5639 5895 6151 6407 6663
+6919 7175 1288 5128 5384 5640 5896 6152 6408 6664
+7176 1289 5129 5385 5641 5897 6153 6409 6665 1290
+5130 5386 5642 5898 6154 7178 1291 5131 5387 5643
+5899 6155 6411 6923 7179 1292 5132 5388 5644 5900
+6156 6412 6668 6924 7180 1293 5389 5645 5901 6157
+6413 6669 6925 7181 1294 5390 5646 5902 6158 6414
+6670 6926 7182 1295 5647 5903 6159 6415 6671 6927
+7183 1296 5648 5904 6160 6416 6672 6928 7184 1297
+5649 5905 6161 6417 6673 6929 7185 530 786 1042
+1298 1554 1810 2066 2322 2578 2834 3090 3346 3602
+3858 4114 5650 5906 6162 6418 6674 6930 7186 787
+1043 1299 1555 1811 2067 2323 2579 2835 3091 3347
+3603 5651 5907 6163 6419 6675 6931 7187 1300 5652
+5908 6164 6420 6676 6932 7188 1301 5653 5909 6165
+6421 6677 6933 7189 1302 5654 5910 6166 6422 6678
+6934 7190 1303 5655 5911 6167 6423 6679 6935 7191
+1304 5656 5912 6168 6424 6680 6936 7192 1305 5401
+5657 5913 6169 6681 6937 7193 1306 5402 5658 5914
+6170 6682 6938 7194 1307 5403 5659 5915 6683 6939
+7195 1564 1820 2076 2332 2588 2844 3100 3356 5404
+5660 6940 7196 4893 5149 5405 5661 5917 6429 6685
+6941 7197 4638 4894 5150 5406 5662 5918 6174 6430
+6686 6942 7198 4383 4639 4895 5151 5407 5663 5919
+6175 6431 6687 6943 7199 3872 4128 4384 4640 4896
+5152 5408 5664 5920 6176 6432 6688 6944 4385 4641
+4897 5153 5409 5665 5921 6177 6433 6689 4898 5154
+5410 5666 5922 6178 6434
+13 Prg1
+name room
+var blok
+var startblok
+var dohrat
+var uvod
+
+ini
+blok:=-1;
+startblok:=0;
+
+uvod:=0;
+dohrat:=nah(300,700);
+music('rybky04',-998);
+53 Prg2
+startblok:=0;
+if blok>=0 then
+  if not playing(111) then
+    begin
+      blok:=blok+1;
+      if blok=17 then blok:=1;
+      startblok:=1;
+    end;
+
+if blok>0 then KSnd(-998);
+
+if no_dialog and zije[mala] and zije[velka] then
+  begin
+    if dohrat>0 then dec(dohrat);
+
+    if uvod=0 then
+      begin
+        uvod:=1;
+        case pokus of 
+          1:pom1:=4;
+        2,3:pom1:=random(5);
+        else if random(2)=0 then pom1:=0
+             else pom1:=random(5);
+        end;
+        if pom1>0 then
+          begin  
+            addm(20,'dr-m-tojesnad');
+            if random(2)=0 then addv(3,'dr-v-jiste');
+          end;
+        if pom1>=2 then addm(random(20)+5,'dr-m-musela');
+        if pom1>=4 then addv(random(15)+3,'dr-v-mozna')
+        else adddel(random(20)+25);
+        if pom1>=3 then addm(0,'dr-m-hruza');
+      end
+    else if dohrat=0 then
+      begin
+        dohrat:=-1;
+        KSnd(-998);
+        adddel(10);
+        addset(melodak1.afaze,3);
+        addd(random(10)+5,'d1-1-hud'+'ba'+chr(48+random(3)),132,noprom);
+        adddel(5);
+        addset(basak.hlasky,2);
+        addset(piskac.hlasky,2);
+        adddel(10);
+        addset(melodak1.hlasky,1);
+        addd(30+random(10),'d1-5-nevadi'+chr(48+random(3)),102,noprom);
+        adddel(10);
+        addset(blok,0);
+      end;
+  end;
+  
+    
+13 Items
+13 17 3 4
+vik2_0.bmp
+65280 Mask
+1 Kind
+4 Ext
+10 Prg1
+name melodak1
+var hrat
+var mrk
+var hlasky
+var posl
+ini
+hrat:=-1;
+mrk:=0;
+hlasky:=0;
+posl:=-1;
+39 Prg2
+if (hlasky>0)and not playing(133) then
+  begin
+    repeat pom1:=random(3) until pom1<>posl;
+    posl:=pom1;
+    talk('d1-2-brb'+chr(48+pom1),133);
+    dec(hlasky);
+  end;
+
+
+if room.startblok=1 then
+  begin
+    case room.blok of
+     7,8,11,12,15,16:hrat:=0;
+      else hrat:=-1;
+    end;
+    if hrat>-1 then 
+      begin
+        ksnd(131);
+        music('d1-z-v'+chr(48+hrat),131);
+        setanim(this,
+          'a4a2a4a2a4a2a4a2a4a2d2a4a2d2a4a2d2a4a2d2a4a2d2a4a2d2'
+         +'a4a2a4a2a4a2a4a2a4a2d2a4a2d2a4a2d2a4a2d2a4a2d4a4');
+      end
+    else
+      setanim(this,'d?5-10a0');
+    
+  end;
+
+if (mrk=1)and(afaze<>0) then inc(afaze);
+goanim(this);
+if talking(132) then
+  begin
+    afaze:=random(2)*2+2;
+  end
+else if (room.blok<0)and(random(100)<5) then afaze:=0;
+
+if random(100)<5 then mrk:=1
+else mrk:=0;
+if (mrk=1)and(afaze>0) then dec(afaze);
+12 List
+0 256 512 768 1 257 513 769 2
+258 514 770
+9 16 3 4
+vik1_0.bmp
+65280 Mask
+1 Kind
+4 Ext
+3 Prg1
+name hlavni
+ini
+spec:=10;
+6 Prg2
+if talking(102) then
+  begin
+    afaze:=random(3);
+  end
+else 
+  afaze:=0;
+12 List
+0 256 512 768 1 257 513 769 2
+258 514 770
+17 18 3 4
+vik6_0.bmp
+65280 Mask
+1 Kind
+3 Ext
+11 Prg1
+name basak
+var hrat
+var mrk
+var hlasky
+var posl
+ini
+hrat:=-1;
+mrk:=0;
+afaze:=2;
+hlasky:=0;
+posl:=-1;
+38 Prg2
+if (hlasky>0)and not playing(122) then
+  begin
+    repeat pom1:=random(3) until pom1<>posl;
+    posl:=pom1;
+    talk('d1-4-brb'+chr(48+pom1),122);
+    dec(hlasky);
+  end;
+
+
+if room.startblok=1 then
+  begin
+    case room.blok of
+      1,2,3:hrat:=-1;
+      4:hrat:=1;
+      5,6,9,10,13,14:hrat:=2;
+      else hrat:=3;
+    end;
+    if hrat>-1 then 
+      begin
+        ksnd(121);
+        music('d1-z-b'+chr(48+hrat),121);
+        if hrat=1 then 
+          setanim(this,'a0d3a2d3a0d19a2d3a0d3a2d3a0d19a2d3')
+        else 
+          setanim(this,'a0d3a2d3a0d19a2d3a0d3a2d3a0d6a2a0d3a2d3a0d6a2');
+      end;
+  end;
+
+if mrk=1 then dec(afaze);
+if talking(122) then
+  begin
+    afaze:=random(2)*2;
+  end
+else if room.blok<0 then afaze:=2;
+goanim(this);
+if random(100)<5 then mrk:=1
+else mrk:=0;
+if mrk=1 then inc(afaze);
+12 List
+0 256 512 768 1 257 513 769 2
+258 514 770
+21 18 3 4
+vik7_0.bmp
+65280 Mask
+1 Kind
+7 Ext
+10 Prg1
+name piskac
+var hrat
+var xicht
+var hlasky
+var posl
+ini
+hrat:=-1;
+xicht:=0;
+hlasky:=0;
+posl:=-1;
+30 Prg2
+if (hlasky>0)and not playing(112) then
+  begin
+    repeat pom1:=random(3) until pom1<>posl;
+    posl:=pom1;
+    talk('d1-3-brb'+chr(48+pom1),112);
+    dec(hlasky);
+  end;
+
+if talking(112) then
+  begin
+    xicht:=random(2)*2;
+  end
+else 
+  xicht:=0;
+
+
+if room.blok>-1 then xicht:=6;
+if room.startblok=1 then
+  begin
+    case room.blok of
+      1,2,5,6,9,10,13,14:hrat:=1;
+      else hrat:=2;
+    end;
+    xicht:=4;
+    ksnd(111);
+    music('d1-z-p'+chr(48+hrat),111);
+  end;
+
+if random(100)<5 then afaze:=xicht+1
+else afaze:=xicht;
+12 List
+0 256 512 768 1 257 513 769 2
+258 514 770
+25 17 3 4
+vik5_0.bmp
+65280 Mask
+1 Kind
+3 Ext
+7 Prg1
+name melodak2
+var hrat
+var mrk
+ini
+hrat:=-1;
+mrk:=0;
+spec:=10;
+23 Prg2
+if room.startblok=1 then
+  begin
+    case room.blok of
+      9,13:hrat:=1;
+      10,14:hrat:=2;
+      else hrat:=-1;
+    end;
+    if hrat>-1 then 
+      begin
+        ksnd(131);
+        music('d1-z-v'+chr(48+hrat),131);
+        if hrat=1 then setanim(this,'a2d15a3d15a2d28a0')
+        else setanim(this,'a3d15a2d15a3d15a2d7');
+      end
+    else
+      afaze:=0;
+  end;
+
+if (mrk=1)and(afaze=1) then dec(afaze);
+goanim(this);
+if random(100)<5 then mrk:=1
+else mrk:=0;
+if (mrk=1)and(afaze=0) then inc(afaze);
+12 List
+0 256 512 768 1 257 513 769 2
+258 514 770
+21 15 3 1
+Drakar-18-Tmp.bmp
+65280 Mask
+3 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+8 11 4 2
+Drakar-19-Tmp.bmp
+65280 Mask
+4 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+13 14 4 3
+sekera1.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 512 1 257 513 258 259
+13 11 1 3
+stit-na vysku.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+5 7 2 3
+stit zepredu.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 1 257 513
+21 17 1 1
+maly snek1.BMP
+65280 Mask
+1 Kind
+3 Ext
+1 Prg1
+name snecek
+2 Prg2
+if room.blok>0 then
+  if afaze<2 then inc(afaze);
+1 List
+0
+26 15 2 2
+lebzna1.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 1
+24 1 3 4
+sekera2.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+512 768 1 257 513 769 514 770
+EOF

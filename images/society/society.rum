@@ -1,0 +1,442 @@
+REDIT FILE from 5.3.1998 3:13:35
+Mikro
+Klaustrofobní korálový útes
+0 1 4 10 5 0 0 0 0 0  Params
+16777215 Grid
+24 14
+Mikro-p.bmp
+0 obsolete
+0 Ext
+Mikro-w.bmp
+65280 Mask
+0 Ext
+141 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 1 257 1537 1793 2049
+2305 2561 2817 3073 3329 2 258 2306 2562 2818
+3074 3330 3 259 2307 2563 2819 3075 3331 4
+2308 2564 2820 3076 3332 5 2565 2821 3077 3333
+6 2566 2822 3078 3334 7 3335 8 2824 3080
+3336 9 2825 3081 3337 10 1546 1802 3338 11
+1547 1803 2571 2827 3083 3339 12 1804 2572 2828
+3084 3340 13 1805 2573 2829 3085 14 1806 2574
+2830 15 1807 2575 16 1808 2576 17 1553 1809
+2577 18 274 1554 1810 19 275 3347 20 276
+3348 21 277 3349 22 278 534 790 1046 1302
+1558 1814 2070 2326 2582 2838 3094 3350 23 279
+535 791 1047 1303 1559 1815 2071 2327 2583 2839
+3095 3351
+16 Prg1
+name room
+var okrikla
+var maxdrzost
+var kuk
+var kobyla
+var prekazka
+var okriknuti
+var vsichni
+ini
+okrikla:=0;
+maxdrzost:=20;
+kuk:=0;
+kobyla:=0;
+prekazka:=0;
+okriknuti:=2;
+vsichni:=0;
+90 Prg2
+if zije[mala] and zije[velka] and no_dialog then
+  begin
+    if (valec.x=7) and (valec.y=9) and (valec.dir=dir_no)
+      and (prekazka=0) 
+     then
+      begin
+      case random(2) of
+        0: addv(0,'mik-v-sakra');
+        1: addv(random(4),'mik-v-projet');
+      end;
+      prekazka:=1;
+      end
+   else
+    if (okrikla<>1)and(vsichni=1)
+         then
+        begin
+           case random(okriknuti) of
+             0: begin 
+                  addv(random(5),'mik-v-ticho0');
+                end;
+             1: begin
+                  addv(random(5),'mik-v-ticho1');
+                end;
+             2: begin
+                  addv(random(5),'mik-v-ticho2'); 
+                end;
+           end;     
+          addset(okrikla,1);
+       end
+    else
+     if (okrikla=1)  
+      then 
+        begin
+          KSnd(101);
+          KSnd(102);
+          KSnd(103);
+          KSnd(104);
+          vsichni:=0;
+          case random(7) of
+            0: begin
+                addm(20+random(15),'mik-m-krab');
+                if random(100)<50 then addm(random(6),'mik-m-poust');
+               end;
+            1: addm(10+random(25),'mik-m-tusit');
+            2..4:begin
+                 case random(2) of
+                   0: addv(10+random(15),'mik-v-proto');
+                   1: addv(10+random(15),'mik-v-tak');
+                 end;
+                 if okriknuti=3 then
+                   case random(6) of
+                     0: addm(6+random(5),'mik-m-nezlob');
+                     1: addm(10+random(25),'mik-m-myslit');  
+                     2: begin
+                          addm(random(5),'mik-m-nezlob');
+                          addm(5+random(15),'mik-m-myslit');  
+                        end;
+                   end;
+                 okriknuti:=3; 
+               end;
+          end;  
+          okrikla:=0;
+          krab1.drzej:=0;
+          krab2.drzej:=0;
+          krab3.drzej:=0;
+          krab4.drzej:=0;
+          adddel(random(20)+30);
+          addset(krab1.drzej,1);
+          addset(krab2.drzej,1);
+          addset(krab3.drzej,1);
+          addset(krab4.drzej,1);
+        end
+   else
+    if look_at(@malar,@rybusa) and (rybusa.afaze>0)and     
+       (random(100)<10) and (kuk=0) then
+      begin
+        addm(random(5),'mik-m-proc');
+        addv(random(5),'mik-v-videt');
+        kuk:=1;
+      end
+    else
+     if (look_at(@malar,@kun)) and(kobyla=0) and 
+        ((malar.y=kun.y)or(malar.y=kun.y+1))and
+        (xdist(@malar,@kun)<2)and(kun.dir=dir_no)and (random(200)<1) 
+        then
+       begin 
+         addm(0,'mik-m-konik'); 
+         kobyla:=1;
+       end;
+  end;
+12 Items
+15 3 3 1
+Mikro-little.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+2 7 4 2
+Mikro-big.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+6 7 1 3
+Mikro-3-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+1 Prg1
+name valec
+0 Prg2
+3 List
+0 256 512
+13 1 5 1
+Mikro-4-Tmp.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+0 1 2 3 4
+18 3 1 2
+konik1.BMP
+65280 Mask
+1 Kind
+3 Ext
+4 Prg1
+name kun
+var pauza
+ini
+pauza:=random(10);
+20 Prg2
+if pauza>0 then dec(pauza)
+else
+case afaze of
+ 0: begin
+     afaze:=random(2)+2;
+     pauza:=10-afaze+random((5-afaze)*20);
+    end;
+ 1: begin
+     afaze:=random(4);
+     pauza:=10+random(10);
+    end;
+ 2: begin
+     pauza:=random(150);
+     if pauza<20 then afaze:=3 else afaze:=1;
+    end;
+ 3: begin
+     afaze:=0;
+     pauza:=random(20);
+    end;
+ end;
+2 List
+0 256
+17 2 2 1
+rybicka h1.BMP
+65280 Mask
+1 Kind
+3 Ext
+4 Prg1
+name rybusa
+var pauza
+ini
+pauza:=random(50);
+21 Prg2
+if pauza>0 then dec(pauza)
+else
+case afaze of
+ 0: begin
+     afaze:=1;
+     pauza:=10+random(20);
+    end;
+ 1: begin
+     afaze:=random(4);
+     if afaze=0 then pauza:=20+random(100)
+		else pauza:=10+random(5);
+    end;
+ 2: begin
+     afaze:=1+random(2)*2;
+     pauza:=10+random(5);
+    end;
+ 3: begin
+     afaze:=1+random(2);
+     pauza:=10+random(5);
+    end;
+ end;
+2 List
+0 1
+15 5 4 1
+sepijka 0.BMP
+65280 Mask
+1 Kind
+5 Ext
+6 Prg1
+name sepie
+var pozice
+var mrk
+ini
+mrk:=0;
+pozice:=0;
+4 Prg2
+if random(7)<4 then pozice:=random(3);
+if random(10)<4 then mrk:=random(2);
+
+afaze:=mrk*3+pozice;
+4 List
+0 1 2 3
+13 3 3 2
+poustevnicek b0.BMP
+65280 Mask
+1 Kind
+3 Ext
+6 Prg1
+name krab4
+var drzej
+var keca
+ini
+drzej:=1;
+keca:=0;
+24 Prg2
+if talking(104) then keca:=1
+                else keca:=0;              
+
+if (keca=0) and (random(200)<drzej) then
+  begin
+    if (krab1.keca=1)and(krab2.keca=1)and(krab3.keca=1) then
+      room.vsichni:=1;
+
+    case random(4) of
+      0: talk('mik-x-stebet0',104);
+      1: talk('mik-x-stebet1',104);
+      2: talk('mik-x-stebet2',104);
+      3: talk('mik-x-stebet3',104);
+    end; 
+    drzej:=drzej+1;
+    keca:=1;
+  end;
+
+if (keca=1) then afaze:=random(2)*2
+	else afaze:=0;
+
+if random(100)<5 then inc(afaze);
+
+if (room.okrikla=1) then drzej:=1;
+4 List
+0 1 257 258
+10 3 3 2
+poustevnicek z0.BMP
+65280 Mask
+1 Kind
+3 Ext
+6 Prg1
+name krab3
+var drzej
+var keca
+ini
+drzej:=1;
+keca:=0;
+24 Prg2
+if talking(103) then keca:=1
+                else keca:=0;              
+
+if (keca=0) and (random(200)<drzej) then
+  begin
+    if (krab1.keca=1)and(krab2.keca=1)and(krab4.keca=1) then
+      room.vsichni:=1;
+
+    case random(4) of
+      0: talk('mik-x-stebet0',103);
+      1: talk('mik-x-stebet1',103);
+      2: talk('mik-x-stebet2',103);
+      3: talk('mik-x-stebet3',103);
+    end; 
+    drzej:=drzej+1;
+    keca:=1;
+  end;
+
+if (keca=1) then afaze:=random(2)*2
+	else afaze:=0;
+
+if random(100)<5 then inc(afaze);
+
+if (room.okrikla=1) then drzej:=1;
+4 List
+0 1 257 258
+9 4 3 2
+poustevnicek f0.BMP
+65280 Mask
+1 Kind
+3 Ext
+6 Prg1
+name krab2
+var drzej
+var keca
+ini
+drzej:=1;
+keca:=0;
+24 Prg2
+if talking(102) then keca:=1
+                else keca:=0;              
+
+if (keca=0) and (random(200)<drzej) then
+  begin
+    if (krab1.keca=1)and(krab3.keca=1)and(krab4.keca=1) then
+      room.vsichni:=1;
+
+    case random(4) of
+      0: talk('mik-x-stebet0',102);
+      1: talk('mik-x-stebet1',102);
+      2: talk('mik-x-stebet2',102);
+      3: talk('mik-x-stebet3',102);
+    end; 
+    drzej:=drzej+1;
+    keca:=1;
+  end;
+
+if (keca=1) then afaze:=random(2)*2
+	else afaze:=0;
+
+if random(100)<5 then inc(afaze);
+
+if (room.okrikla=1) then drzej:=1;
+4 List
+0 1 257 258
+7 2 1 1
+maly snek1.BMP
+65280 Mask
+1 Kind
+3 Ext
+4 Prg1
+name snek
+var pauza
+ini
+pauza:=3;
+11 Prg2
+if pauza>0 then dec(pauza)
+else
+begin
+ case afaze of
+  0: afaze:=random(2)*2;
+  1: afaze:=random(4);
+  2: afaze:=1+2*random(2);
+  3: afaze:=random(3);
+ end;
+pauza:=random(20)+5;
+end;
+1 List
+0
+4 5 3 2
+poustevnicek m0.BMP
+65280 Mask
+1 Kind
+3 Ext
+6 Prg1
+name krab1
+var drzej
+var keca
+ini
+drzej:=1;
+keca:=0;
+23 Prg2
+if talking(101) then keca:=1
+                else keca:=0;              
+
+if (keca=0) and (random(300)<drzej) then
+  begin
+    if (krab2.keca=1)and(krab3.keca=1)and(krab4.keca=1) then
+      room.vsichni:=1;
+    case random(4) of
+      0: talk('mik-x-stebet0',101);
+      1: talk('mik-x-stebet1',101);
+      2: talk('mik-x-stebet2',101);
+      3: talk('mik-x-stebet3',101);
+    end; 
+    drzej:=drzej+1;
+    keca:=1;
+  end;
+
+if (keca=1) then afaze:=random(2)*2
+	else afaze:=0;
+
+if random(100)<5 then inc(afaze);
+
+if (room.okrikla=1) then drzej:=1;
+4 List
+0 1 257 258
+EOF

@@ -1,0 +1,281 @@
+REDIT FILE from 24.2.1998 16:08:29
+Schody
+Schody
+1 1 5 10 5 0 0 0 0 0  Params
+-2147483632 Grid
+40 30
+Schody-p.bmp
+0 obsolete
+0 Ext
+Schody-w.bmp
+65280 Mask
+0 Ext
+584 WlList
+256 512 768 1024 1280 1536 2816 3072 3328
+3584 3840 4096 4352 4608 4864 5120 5376 5632 5888
+6144 6400 6656 6912 7168 7424 257 513 769 1025
+1281 1537 2817 3073 3329 3585 3841 4097 4353 4609
+4865 5121 5377 5633 5889 6145 6401 6657 6913 7169
+7425 258 514 770 1026 1282 1538 2818 3074 3330
+3586 3842 4098 4354 6914 7170 7426 515 771 1027
+1283 1539 2819 3075 3331 3587 3843 4099 4355 6915
+7171 7427 516 772 1028 1284 1540 1796 3076 3332
+3588 3844 4100 4356 6916 7172 7428 517 773 1029
+1285 1541 1797 3077 3333 3589 3845 4101 4357 6917
+7173 7429 518 774 1030 1286 1542 1798 3334 3590
+3846 4102 4358 6918 7174 7430 519 775 1031 1287
+1543 1799 2055 3335 3591 3847 4103 4359 6919 7175
+7431 520 776 1032 1288 1544 1800 2056 3592 3848
+4104 4360 6920 7176 7432 777 1033 1289 1545 1801
+2057 3593 3849 4105 4361 6921 7177 7433 778 1034
+1290 1546 1802 2058 3850 4106 4362 6666 6922 7178
+7434 1035 1291 1547 1803 2059 4107 4363 6667 6923
+7179 7435 1036 1292 1548 1804 2060 2316 3852 4108
+4364 6412 6668 6924 7180 7436 781 1037 1293 1549
+1805 2061 2317 3853 4109 4365 6413 6669 6925 7181
+7437 782 1038 1294 1550 1806 2062 2318 2574 3854
+4110 4366 6158 6414 6670 6926 7182 7438 783 1039
+1295 1551 1807 2063 2319 2575 3855 4111 4367 6159
+6415 6671 6927 7183 7439 784 1040 1296 1552 1808
+2064 2320 2576 3856 4112 4368 5904 6160 6416 6928
+7184 7440 785 1041 1297 1553 1809 2065 2321 2577
+3857 4113 4369 5905 6161 6417 6929 7185 7441 1042
+1298 1554 1810 2066 2322 2578 3858 4114 4370 5650
+5906 6162 6930 7186 7442 1043 1299 1555 1811 2067
+3859 4115 4371 5651 5907 6163 6931 7187 7443 1044
+1300 1556 1812 2068 5396 5652 5908 6932 7188 7444
+789 1045 1301 1557 1813 2069 5397 5653 5909 6933
+7189 7445 278 534 790 1046 1302 1558 1814 2070
+5142 5398 5654 6934 7190 7446 279 535 791 1047
+1303 1559 1815 2071 5143 5399 5655 6935 7191 7447
+280 536 792 1048 1304 1560 1816 2072 4888 5144
+5400 6936 7192 7448 537 793 1049 1305 1561 1817
+2073 4889 5145 5401 6937 7193 7449 538 794 1050
+1306 1562 1818 2074 4634 4890 5146 6938 7194 7450
+1051 1307 1563 1819 2075 4635 4891 5147 6939 7195
+7451 1052 1308 1564 1820 4380 4636 4892 6940 7196
+7452 1053 1309 1565 1821 4381 4637 4893 6941 7197
+7453 798 1054 1310 1566 1822 4126 4382 4638 6942
+7198 7454 799 1055 1311 1567 1823 4127 4383 4639
+6943 7199 7455 800 1056 1312 1568 1824 3872 4128
+4384 6944 7200 7456 801 1057 1313 1569 1825 3873
+4129 4385 6945 7201 7457 802 1058 1314 1570 1826
+2082 3874 4130 4386 6946 7202 7458 803 1059 1315
+1571 1827 2083 3875 4131 4387 6947 7203 7459 548
+804 1060 1316 1572 1828 2084 3876 4132 4388 6948
+7204 7460 549 805 1061 1317 1573 1829 2085 3877
+4133 4389 6949 7205 7461 294 550 806 1062 1318
+1574 1830 2086 2342 2598 2854 3110 3366 3622 3878
+4134 4390 4646 4902 6182 6438 6694 6950 7206 7462
+295 551 807 1063 1319 1575 1831 2087 2343 2599
+2855 3111 3367 3623 3879 4135 4391 4647 4903 6183
+6439 6695 6951 7207 7463
+13 Prg1
+name room
+var uvod
+var setk
+var prehnala
+ini
+case pokus of
+  1:uvod:=0;
+  2:uvod:=1;
+  else uvod:=random(4);
+end;
+setk:=0;
+if pokus=1 then prehnala:=22
+else prehnala:=21;
+25 Prg2
+if zije[mala]and zije[velka]and no_dialog then
+  begin
+    if uvod<3 then
+      begin
+        case uvod of
+          0:addm(random(30),'sch-m-spadlo');
+          1:begin
+              addm(random(30),'sch-m-spadlo');
+              addv(random(30),'sch-v-lastura');
+            end;
+          2:addv(random(30),'sch-v-lastura');
+        end;
+        uvod:=3;
+      end
+    else if (plzik.X>=prehnala) then
+      begin
+        addm(random(40),'sch-m-moc'+chr(random(3)+48));
+        prehnala:=100;
+      end
+    else if (setk=0)and(plzik.X=10)and(plzik.Y=14) then
+      begin
+        addv(random(40),'sch-v-setkani');
+        setk:=1;
+      end;
+  end;
+8 Items
+6 25 2 2
+plz0.BMP
+65280 Mask
+1 Kind
+6 Ext
+4 Prg1
+name plzik
+var stav
+ini
+stav:=0;
+44 Prg2
+if dir<>dir_no then stav:=15;
+if FArray[X+1,Y+2]=item_water then stav:=10;
+    
+case stav of
+  0:begin
+      afaze:=0;
+      if random(100)<2 then inc(stav);
+    end;
+  1:begin
+      afaze:=5;
+      inc(stav);
+    end;
+  2:begin
+      afaze:=random(3)+1;
+      inc(stav);
+    end;
+  3:begin
+      if odd(count) then
+        if random(100)<20 then afaze:=random(3)+1;
+      if random(1000)<5 then inc(stav);
+    end;
+  4:begin
+      afaze:=5;
+      stav:=0;
+    end;
+  
+ 10:begin
+      afaze:=4;
+      if FArray[X+1,Y+2]<>item_water then
+        begin
+          stav:=21+random(20);
+        end
+    end;
+ 15:begin
+      afaze:=5;
+      if dir=dir_no then
+        begin
+          stav:=21+random(20);
+        end
+    end;
+ 20:stav:=3;
+ 21..100:dec(stav);
+end;
+      
+3 List
+0 1 257
+9 10 1 4
+lebeda.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 512 768
+6 22 3 1
+3-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+6 20 4 2
+4-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+30 23 7 4
+stul.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+13 List
+0 1 257 513 769 2 3 4 5 
+261 517 773 6 
+34 20 4 5
+zidle m.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+0 256 512 513 514 3 259 515 771
+1027
+29 20 4 5
+zidle v.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+0 256 512 768 1024 513 514 3 259 
+515 
+15 2 6 3
+snek0.BMP
+65280 Mask
+1 Kind
+43 Ext
+11 Prg1
+name snecek
+var cinnost
+var smer
+var sour
+ini
+cinnost:=0;
+sour:=random(6)*3;
+smer:=random(2)*2-1;
+// 0 - odpociva
+// 1 - cuci
+// 2 - leze
+33 Prg2
+case cinnost of
+  0:begin
+      if random(100)<1 then cinnost:=1
+      else if random(100)<2 then cinnost:=2;
+    end;
+  1:begin
+      if random(100)<3 then cinnost:=0;
+    end;
+  2:begin
+      if (sour mod 3=0)and(random(100)<30) then cinnost:=0
+      else if (sour mod 3=0)and(random(100)<10) then cinnost:=3
+      else if (random(100)<2)or(smer=-1)and(sour=0)or(smer=1)and(sour=15) then
+        smer:=-smer
+      else if smer<0 then dec(sour)
+      else if smer>0 then inc(sour); 
+    end;
+  3:begin
+      if random(100)<3 then cinnost:=2;
+    end;
+end;        
+
+case cinnost of
+  0,2:
+    begin
+      if smer<0 then afaze:=15-sour
+      else afaze:=22+sour;        
+    end;
+  1,3:
+    begin
+      if smer<0 then afaze:=21-sour div 3
+      else afaze:=38+sour div 3;        
+    end;
+end;
+9 List
+0 1 2 3 259 4 260 5 261
+EOF

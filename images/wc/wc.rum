@@ -1,0 +1,159 @@
+REDIT FILE from 9.3.1998 3:00:20
+WC
+WC
+1 1 5 10 5 0 0 0 0 0  Params
+-2147483632 Grid
+23 22
+WC-p.BMP
+0 obsolete
+0 Ext
+WC-w.BMP
+65280 Mask
+0 Ext
+216 WlList
+512 768 1024 1280 1536 1792 2048 4608 4864
+5120 5376 769 1025 1281 1537 1793 4609 4865 5121
+5377 1026 1282 1538 4354 4610 4866 5122 5378 1027
+1283 1539 1795 4355 4611 4867 5123 5379 772 1028
+1284 1540 1796 4356 4612 4868 5124 5380 773 1029
+1285 1541 1797 4357 4613 4869 5125 5381 774 1030
+1286 1542 1798 4358 4614 4870 5126 5382 775 1031
+1287 1543 1799 4359 4615 4871 5127 5383 776 1032
+1288 1544 1800 4616 4872 5128 5384 777 1033 1289
+1545 4617 4873 5129 5385 778 1034 1290 1546 4618
+4874 5130 5386 779 1035 1291 4619 4875 5131 5387
+1036 1292 4876 5132 5388 1037 1293 5389 1038 1294
+783 1039 1295 784 1040 1296 4880 5136 5392 2321
+2577 2833 3089 3345 3601 4113 4369 4625 4881 5137
+5393 530 786 1042 1298 1554 2322 2578 2834 3090
+3346 3602 4114 4370 4626 4882 5138 5394 531 787
+1043 1299 1555 2579 2835 3091 3347 3603 4115 4371
+4627 4883 5139 5395 532 788 1044 1300 1556 2836
+3092 3348 3604 4116 4372 4628 4884 5140 5396 789
+1045 1301 1557 2837 3093 3349 3605 4117 4373 4629
+4885 5141 5397 790 1046 1302 1558 2838 3094 3350
+3606 4118 4374 4630 4886 5142 5398
+18 Prg1
+name room
+var uvod
+var druha
+var timerdruhe
+var omise
+ini
+if (pokus=1)or(random(100)<50) then
+  begin
+    uvod:=1;
+    druha:=random(2)+2;
+  end
+else
+  begin
+    uvod:=2;
+    druha:=random(2)*2+1;
+  end;
+omise:=0;
+timerdruhe:=random(1000)+500;
+44 Prg2
+if no_dialog and zije[mala] and zije[velka] then
+  begin
+    if timerdruhe>0 then dec(timerdruhe);
+
+    pom1:=0;
+    if uvod>0 then
+      begin
+        pom1:=uvod;
+        uvod:=0;
+        if pokus<>1 then adddel(random(500)+20)
+        else adddel(random(20)+20);
+      end
+    else if timerdruhe=0 then
+      begin
+        pom1:=druha;
+        timerdruhe:=-1;
+        adddel(30);
+      end
+    else if (omise=0)and(malar.Y>=19) then
+      begin
+        omise:=1;
+        addm(10+random(30),'wc-m-vlezt');
+      end;
+
+    if pom1>0 then
+      case pom1 of
+        1:begin
+            addm(0,'wc-m-prasecinky');
+            addv(random(10),'wc-v-hygiena');
+          end;
+        2:begin
+            addm(0,'wc-m-hrbitov');
+            addv(random(5),'wc-v-coze');
+            addm(random(10)+5,'wc-m-nevis');
+          end;
+        3:begin
+            addv(0,'wc-v-oblibene');
+            addm(0,'wc-m-coze');
+            addv(5,'wc-v-neznas');
+            addm(5,'wc-m-sochar');
+            addv(10,'wc-v-zmatek');
+          end;
+      end;
+  end;
+6 Items
+11 9 6 10
+hajzl.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+29 List
+1280 1536 1281 1537 1793 2305 1282 1538 1794
+2050 2306 1283 1539 1795 2051 2307 1284 1540 1796
+2052 2308 5 261 517 773 1029 1285 1541 2309
+16 7 2 2
+hajzlak.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+17 3 1 4
+3-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 512 768
+1 8 1 10
+4-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+0 256 512 768 1024 1280 1536 1792 2048
+2304
+13 19 3 1
+5-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+7 9 4 2
+6-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+EOF

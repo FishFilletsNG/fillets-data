@@ -1,0 +1,282 @@
+REDIT FILE from 25.2.1998 1:50:42
+Zrc
+Smetištì dìjin: Zrezivìlá ponorka^Lost submarine: The flotsam
+0 1 6 10 5 0 0 0 0 0  Params
+16777215 Grid
+37 15
+Zrc-p.BMP
+0 obsolete
+0 Ext
+Zrc-w.BMP
+65280 Mask
+0 Ext
+138 WlList
+1793 2049 1794 2050 2306 1283 1795 2051 2307
+2563 1284 2308 2564 1285 2053 2309 2565 1286 2054
+2310 2566 1287 2055 2311 2567 2056 2312 2568 1289
+1545 2057 2313 2569 1290 2058 2314 2570 1291 2059
+2315 2571 1292 2316 2572 1293 2317 2573 1294 2062
+2318 2574 2063 2319 2575 2064 2320 2576 1297 2065
+2321 2577 1298 2066 2322 2578 1299 2067 2323 2579
+1300 2068 2324 2580 1301 2069 2325 2581 2070 2326
+2582 1303 2071 2327 2583 1304 2072 2328 2584 1305
+2073 2329 2585 1306 2074 2330 2586 1307 2075 2331
+2587 1308 2076 2332 2588 1309 2077 2333 2589 1054
+1310 2078 2334 2590 2846 1055 1311 1567 1823 2079
+2335 2591 2847 800 1056 1312 1568 1824 2080 2336
+2592 2848 3104 801 1057 1825 2081 2849 3105
+12 Prg1
+name room
+var odjel
+var qopatrne
+var hulakat
+var oci
+var reklopatrne
+ini
+odjel:=0;
+qopatrne:=0;
+hulakat:=random(30)+10*pokus;
+oci:=0;
+reklopatrne:=0;
+65 Prg2
+if talking(mluvi_mala)or talking(mluvi_velka) then hulakat:=-1;
+
+if (odjel=0) and venku[velka] and zije[mala] then
+  begin
+    odjel:=1;
+    case random(3) of
+      0:addm(10,'zr-m-takfajn');
+      1:addm(10,'zr-m-tojeon');
+      2:addm(10,'zr-m-pockej');
+    end;
+  end
+else if (qopatrne<2)and(reklopatrne=1) and not zije[mala] and (malar.X=8) and zije[velka] then
+  begin
+    addv(3,'zr-v-vzdyt');
+    qopatrne:=2;
+  end;
+
+if qopatrne<2 then 
+  if zije[mala] and (malar.X=9) and zije[velka] and (lahev.X=8) 
+     and (natoceni[mala]=smer_vlevo) and (qopatrne=0) then
+    begin
+      if no_dialog then 
+        begin
+          addv(1,'zr-v-opatrne');
+          reklopatrne:=1;
+        end
+      else 
+        reklopatrne:=0;
+      qopatrne:=1;
+    end;
+if (qopatrne=1) and (natoceni[mala]=smer_vpravo) then
+  qopatrne:=0;
+
+if zije[mala]and not venku[mala]and zije[velka]and not venku[velka] and no_dialog then
+  begin
+    if hulakat>0 then dec(hulakat)
+    else if hulakat=0 then
+      begin
+        hulakat:=-1;
+        case random(3) of
+          0:addv(3,'zr-v-hej');
+          1:addv(3,'zr-v-halo');
+          2:addv(3,'zr-v-jetunekdo');
+        end;
+        case random(3) of
+          0:addm(9,'zr-m-nervi');
+          1:addm(9,'zr-m-nepovykuj');
+          2:addm(9,'zr-m-tadyjsem');
+        end;
+      end;
+    if no_dialog and (malar.trpelivost=0) then
+      begin
+        case random(2) of
+          0:addm(0,'zr-m-obliceje');
+          1:addm(0,'zr-m-prestan');
+        end;
+        malar.trpelivost:=random(600)+100;
+      end;
+    if no_dialog and (peri.cinnost=7) and (oci=0) and (random(100)<50) then 
+      begin
+        addm(5,'zr-m-komu');
+        addv(10,'zr-v-nevim');
+        oci:=1;
+      end;
+  end;
+8 Items
+21 2 3 6
+peri1.BMP
+65280 Mask
+2 Kind
+7 Ext
+5 Prg1
+name peri
+var delay
+var cinnost
+ini
+cinnost:=0;
+56 Prg2
+case cinnost of
+  0:begin
+      delay:=random(100)+50;
+      cinnost:=1;
+      afaze:=0;
+    end;
+  1:if delay=0 then inc(cinnost)
+     else dec(delay);
+  2..7:
+    begin
+      afaze:=cinnost-1;
+      inc(cinnost);
+    end;
+  8:begin
+      delay:=random(30)+15;
+      inc(cinnost);
+    end;
+  9:begin
+      if count mod 3=0 then
+        afaze:=6+random(2);
+      if delay=0 then inc(cinnost)
+                       else dec(delay);
+    end;
+ 10:if random(100)<30 then cinnost:=20
+    else inc(cinnost);
+ 11:begin
+      delay:=random(5)+2;
+      inc(cinnost);
+    end;
+ 12:if random(100)<20 then inc(cinnost);
+ 13..15:
+    begin
+      afaze:=18-cinnost;
+      inc(cinnost);
+    end;
+ 16..18:
+    begin
+      afaze:=cinnost-12;
+      inc(cinnost);
+    end;
+ 19:if delay=0 then cinnost:=8
+    else 
+      begin
+        dec(delay);
+        cinnost:=12;
+      end;
+ 20..25:
+    begin
+      afaze:=25-cinnost;
+      inc(cinnost);
+    end;
+ 26:cinnost:=0;
+end;
+
+ 
+      
+8 List
+0 1 257 513 769 1025 1281 1282
+11 2 2 3
+zrcadlo.BMP
+65280 Mask
+1 Kind
+0 Ext
+3 Prg1
+name zrcadlo
+ini
+spec:=1;
+0 Prg2
+6 List
+0 256 512 1 257 513
+8 5 1 1
+kriz.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+8 6 1 2
+lahev.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name lahev
+0 Prg2
+2 List
+0 256
+13 7 2 1
+naboj.BMP
+65280 Mask
+1 Kind
+0 Ext
+4 Prg1
+name naboj
+var nabita
+ini 
+nabita:=0;
+5 Prg2
+if (nabita=0)and(x=12)and(y=8) then
+  begin
+    nabita:=1;
+    Talk('zr-x-nabito',201);
+  end;
+2 List
+0 1
+27 7 1 1
+matka A.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+17 7 3 1
+mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+4 Prg1
+name malar
+var trpelivost
+ini
+trpelivost:=random(50)+30;
+10 Prg2
+if (natoceni[mala]=smer_vpravo)and
+  ((xdist(this,@zrcadlo)=-1)or(xdist(this,@zrcadlo)=-2))and
+  (ydist(this,@zrcadlo)=0) then
+  if random(100)<30 then
+    begin
+      xicht[mala]:=random(9);
+    end
+  else
+else
+  xicht[mala]:=0;
+3 List
+0 1 2
+3 2 4 2
+velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+13 Prg2
+if (natoceni[velka]=smer_vpravo)and
+  ((xdist(this,@zrcadlo)=-1)or
+   (xdist(this,@zrcadlo)=-2))and
+  ((zrcadlo.Y=Y)or(zrcadlo.Y=Y-1))then
+  begin
+    if random(100)<30 then
+      begin
+        xicht[velka]:=random(8);
+      end;
+    if malar.trpelivost>0 then dec(malar.trpelivost);
+  end
+else
+  xicht[velka]:=0;
+8 List
+0 256 1 257 2 258 3 259
+EOF

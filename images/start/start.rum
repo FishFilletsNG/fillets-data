@@ -1,0 +1,343 @@
+REDIT FILE from 24.2.1998 17:06:34
+Prvni
+Ryb dome«ek: Jak to všechno za«alo^Fish house: Where it all started
+1 0 4 12 5 0 0 0 0 0  Params
+-2147483632 Grid
+29 27
+Prvni-p.bmp
+0 obsolete
+0 Ext
+Prvni-w.bmp
+65280 Mask
+0 Ext
+277 WlList
+1280 1536 1792 2048 2304 2560 2816 3072 3328
+3584 3840 4096 4352 4608 4864 5120 5376 5632 5888
+1025 1281 1537 1793 2049 2305 2561 2817 3073 3329
+3585 3841 4097 4353 4609 4865 5121 5377 5633 5889
+1026 1282 1538 1794 2050 2306 2562 2818 3074 3330
+3586 3842 4098 4354 4610 4866 5122 5378 5634 5890
+1027 1283 1539 1795 2051 2307 2563 4867 5123 5379
+5635 5891 1028 1284 1540 1796 2052 2308 5124 5380
+5636 5892 1541 1797 2053 2309 5381 5637 5893 1542
+1798 2054 2310 5382 5638 5894 1543 1799 2055 5639
+5895 1544 1800 2056 5640 5896 1545 1801 2057 5641
+5897 1290 1546 1802 2058 5642 5898 1291 1547 1803
+5643 5899 1292 1548 1804 5644 5900 269 1293 1549
+1805 5645 5901 270 526 782 1038 1294 1550 1806
+5646 5902 5647 5903 272 528 784 1040 1296 1552
+1808 2064 5648 5904 273 1553 1809 2065 5649 5905
+1554 1810 2066 2322 5650 5906 1555 1811 2067 2323
+5651 5907 1300 1556 1812 2068 2324 5652 5908 1301
+1557 1813 2069 2325 2581 5653 5909 1046 1302 1558
+1814 2070 2326 2582 5654 5910 1047 1303 1559 1815
+2071 2327 2583 2839 3095 5655 5911 1304 1560 1816
+2072 2328 2584 2840 3096 3352 5656 5912 1049 1305
+1561 1817 2073 2329 2585 2841 3097 3353 3609 5401
+5657 5913 1306 1562 1818 2074 2330 2586 2842 3098
+3354 3610 5146 5402 5658 5914 1051 1307 1563 1819
+2075 2331 2587 2843 3099 3355 3611 3867 5147 5403
+5659 5915 1052 1308 1564 1820 2076 2332 2588 2844
+3100 3356 3612 3868 5148 5404 5660 5916
+33 Prg1
+name room
+var qnavod1
+var qnavod2
+var qnavod3
+var kecyoceli
+var malanemuze
+var malanepohne
+var tlustoch
+var restrt
+var uzreklnavod
+var qcount
+
+ini
+
+uzreklnavod:=0;
+qcount:=0;
+
+if pokus=1 then
+  begin
+    qnavod1:=110;
+    qnavod2:=500;
+  end
+else
+  begin
+    qnavod1:=400;
+    qnavod2:=2000;
+  end;
+
+kecyoceli:=random(100)+80;
+malanepohne:=0;
+malanemuze:=0;
+tlustoch:=0;
+restrt:=0;
+136 Prg2
+inc(qcount);
+if qcount=3 then
+  begin
+    addm(15+random(5),'1st-m-cotobylo');
+    addv(6,'1st-v-netusim');
+    addv(random(10)+10,'1st-v-ven');
+    addm(3,'1st-m-pockej');
+  end;
+
+if (no_dialog)and(trubka.cinnost=0)and zije[mala] and zije[velka] then
+  begin
+    if (qnavod1>0)and(delay[mala]>=qnavod1)and(delay[velka]>=qnavod1) then
+      begin
+	qnavod1:=-1;
+        addm(5,'1st-m-proc');
+        addd(3,'set',1,busy[mala]);
+        addm(5,'1st-m-hej');
+      end
+    else if (count>=qnavod2)and(qnavod2<>-1) then
+      begin
+        qnavod1:=-1;
+        addd(3,'set',1,busy[mala]);
+        addm(5,'1st-m-hej');
+      end;
+    if qnavod1=-1 then
+      begin
+        qnavod1:=600;
+	qnavod2:=-1;
+        addd(4,'set',1,busy[velka]);
+        addv(5,'1st-v-navod1');
+        addd(3,'set',0,busy[mala]);
+        addd(1,'set',0,busy[velka]);
+        addm(20,'1st-m-navod2');
+        addv(5,'1st-v-navod3');
+        addd(100,'set',1,busy[mala]);
+        addd(2,'set',1,busy[velka]);
+        addm(3,'1st-m-navod4');
+        addv(0,'1st-v-navod5');
+        addm(2,'1st-m-navod6');
+        addd(3,'set',0,busy[velka]);
+        addd(2,'set',0,busy[mala]);
+        addv(20,'1st-v-navod7');
+        addm(20,'1st-m-navod8');
+        if uzreklnavod=0 then
+          begin
+            uzreklnavod:=1;
+            addv(35,'1st-v-davej');
+            addm(0,'1st-m-nechtoho');
+            addv(5,'1st-v-takdobre');
+          end;
+        addset(delay[mala],0);
+      end;
+    if (kecyoceli=0) then
+        begin
+          kecyoceli:=random(600)+300;
+          trubka.cinnost:=1;
+        end
+      else
+        dec(kecyoceli);
+
+    if (malanemuze=0)and(trubka.pohnul=0)and(malar.X=13) then
+      begin
+        malanemuze:=1;
+        addm(random(5)+2,'1st-m-neprojedu');
+      end;
+    if (malanepohne=0)and(trubka.pohnul=0)and(malar.X=12)and(malar.Y>=10) then
+      begin
+        malanepohne:=1;
+        addm(0,'1st-m-nepohnu');
+      end;
+    if malanepohne>0 then
+      begin
+        inc(malanepohne);
+        if trubka.Dir=dir_left then
+          begin
+            if malanepohne<50 then
+              addv(0,'1st-v-takukaz');
+            malanepohne:=-1;
+          end;
+      end;
+    if (malanepohne<>-2)and (trubka.Dir=dir_left) then
+      begin
+        addm(4,'1st-m-hmmm');
+        malanepohne:=-2;
+      end;
+    if (zidlev.X>=20)and(velkar.X>=21)and(velkar.Y=15) then
+      case tlustoch of
+        0:begin
+            addv(10,'1st-v-nemuzu');
+            if random(100)<50 then addv(4,'1st-v-pribral');
+            inc(tlustoch);
+          end;
+        2:begin
+            addv(10,'1st-v-posunout');
+            inc(tlustoch);
+          end;
+      end;
+    if (velkar.X<20)and(tlustoch=1) then inc(tlustoch);
+
+    if (restrt=0)and(trubka.X<=9) and (malar.X<=trubka.X-3) then
+      begin
+        addset(busy[mala],0);
+        addm(10,'1st-m-pokud');
+        addd(3,'set',1,busy[velka]);
+        addv(3,'1st-v-znovu');
+        if random(100)<50 then
+          begin
+            addm(0,'1st-m-backspace');
+            addv(0,'1st-v-jedno');
+          end;
+        addd(3,'set',0,busy[mala]);
+        addv(5,'1st-v-najit');
+        addset(busy[velka],0);
+        restrt:=1;
+      end;
+  end;
+
+if no_dialog and (restrt=0) and venku[mala] and zije[velka] and
+   (velkar.X<=23)and(zidlev.X>=20) then
+  begin
+    addv(30,'1st-v-chyba');
+    addset(busy[velka],1);
+    addv(10,'1st-v-nedostanu');
+    addset(busy[velka],0);
+    addd(50,'set',1,busy[velka]);
+    addv(3,'1st-v-stiskni');
+    if random(100)<50 then
+      begin
+        addm(0,'1st-m-backspace');
+        addv(0,'1st-v-jedno');
+      end;
+    addv(5,'1st-v-najit');
+    addset(busy[velka],0);
+    restrt:=1;
+  end;
+
+7 Items
+7 17 4 5
+zidle m.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+0 256 512 768 1024 513 514 515 771
+1027
+20 17 4 5
+zidle v.BMP
+16711935 Mask
+1 Kind
+0 Ext
+1 Prg1
+name zidlev
+0 Prg2
+10 List
+512 768 1024 513 514 3 259 515 771
+1027
+12 18 7 4
+stul.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+13 List
+0 1 257 513 769 2 3 4 5
+261 517 773 6
+15 0 1 8
+val0.BMP
+65280 Mask
+2 Kind
+8 Ext
+7 Prg1
+name trubka
+var cinnost
+var delay
+var pohnul
+ini
+cinnost:=0;
+pohnul:=0;
+53 Prg2
+if (Dir=dir_left)or(Dir=dir_right) then pohnul:=1;
+
+case cinnost of
+  1,2,3,4:
+    begin
+      inc(cinnost);
+      inc(afaze);
+      delay:=7;
+    end;
+  5:if delay>0 then dec(delay)
+    else inc(cinnost);
+  6:begin
+      afaze:=5;
+      inc(cinnost);
+      delay:=8;
+    end;
+  7:if delay>0 then
+      begin
+        if random(100)<10 then afaze:=4
+        else afaze:=5;
+        dec(delay);
+      end
+    else inc(cinnost);
+  8:begin
+      addd(0,'1st-x-ocel',202,noprom);
+      inc(cinnost);
+    end;
+  9:if playing(202) then
+      begin
+        if afaze=4 then afaze:=5;
+        if count mod 3=1 then
+         begin
+          if random(2)=0 then inc(afaze)
+          else dec(afaze);
+          if afaze=4 then afaze:=8
+          else if afaze=9 then afaze:=5;
+         end;
+        if (afaze=5)and(random(100)<40)then afaze:=4;
+      end
+    else
+      inc(cinnost);
+ 10:begin
+      afaze:=5;
+      inc(cinnost);
+    end;
+ 11,12,13,14,15:
+    begin
+      dec(afaze);
+      inc(cinnost);
+    end;
+ 16:cinnost:=0;
+end;
+
+8 List
+0 256 512 768 1024 1280 1536 1792
+8 17 3 1
+Prvni-5-Tmp.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+19 17 4 2
+Prvni-6-Tmp.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+8 18 3 1
+polstar.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+EOF

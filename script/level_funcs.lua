@@ -92,8 +92,7 @@ function addItemAnim(model, picture_00)
         index = index + 1
     end
 
-    model:runAnim(anim_name)
-    --model:setAnim(anim_name, 0)
+    model:setAnim(anim_name, 0)
 end
 
 -- -----------------------------------------------------------------

@@ -1,0 +1,656 @@
+REDIT FILE from 23.3.1998 11:38:57
+Zelva
+Zelva
+0 0 5 10 5 0 0 0 0 0  Params
+16777215 Grid
+50 37
+Zelva-p.BMP
+0 obsolete
+0 Ext
+Zelva-w.BMP
+65280 Mask
+0 Ext
+540 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 6144 7168 7424 7680 7936
+8192 8448 8704 8960 9216 1 257 513 1025 1281
+1537 1793 4097 7425 7681 7937 8193 8449 8705 8961
+9217 2 258 1282 1538 4098 7426 7682 7938 8194
+8450 8706 8962 9218 4099 7171 7427 7683 7939 8195
+8451 8707 8963 9219 4100 7172 8196 8452 8708 8964
+9220 5 261 4101 7173 8709 8965 9221 6 262
+4102 4870 5126 5382 5638 5894 8710 8966 9222 7
+263 4103 8711 8967 9223 8 264 4104 8712 8968
+9224 9 265 4105 8713 8969 9225 10 266 4106
+7690 8714 8970 9226 11 267 7691 8715 8971 9227
+12 268 7180 7436 7692 7948 8716 8972 9228 13
+269 7181 7437 8973 9229 14 270 5390 6158 7182
+7438 8974 9230 15 783 1039 5391 5647 5903 6159
+7183 7439 9231 16 272 528 784 1040 1296 5392
+5648 5904 6928 7184 7440 9232 17 273 529 785
+1041 1297 2065 5393 5905 6929 7185 9233 18 274
+2066 5906 6674 6930 7186 19 275 531 2067 6675
+8979 9235 276 532 788 5908 6164 6420 6676 8212
+8724 8980 9236 533 789 5909 6165 6421 8213 8469
+8725 8981 9237 5910 6422 6678 7190 8214 8470 8726
+8982 9238 23 6423 6679 6935 7191 8215 8471 8727
+8983 9239 24 6936 7192 8472 8728 8984 9240 25
+7193 8473 8729 8985 9241 26 5658 5914 6170 7194
+8730 8986 9242 27 6171 7195 7451 8987 9243 28
+1052 6172 7452 8988 9244 29 1053 1309 6173 6429
+6685 7453 8989 9245 30 1054 1310 6430 6686 7454
+8734 8990 9246 1055 1311 6431 6687 6943 7455 8479
+8735 8991 9247 32 288 1056 1312 6432 6688 6944
+7456 7712 8480 8736 8992 9248 33 289 1057 1313
+1569 1825 2081 2337 3873 6177 6433 6689 6945 7457
+8737 8993 9249 34 290 546 1058 1314 1570 3106
+3362 3618 3874 5922 6178 6434 6690 6946 8738 8994
+9250 35 291 547 1315 3107 3363 3619 3875 5923
+6179 6435 6691 6947 8739 8995 9251 36 292 548
+1316 1572 3108 3364 3620 6180 6436 6692 6948 8740
+8996 9252 37 293 549 1317 1573 1829 2085 2341
+3365 3621 3877 4133 4389 6693 8741 8997 9253 38
+294 550 3622 3878 5414 6438 6694 8742 8998 9254
+39 295 6439 8743 8999 9255 40 296 4392 4648
+6440 8744 9000 9256 41 1065 6185 6441 8745 9001
+9257 42 1066 8746 9002 9258 43 811 1067 8491
+8747 9003 9259 44 556 812 1068 8492 8748 9004
+9260 557 813 1069 8237 8493 8749 9005 9261 558
+814 1070 2094 2350 8238 8494 8750 9006 9262 559
+815 1839 2095 2351 7471 7727 7983 8239 8495 8751
+9007 9263 304 560 816 1584 1840 2096 2352 2608
+4656 4912 5168 5424 5680 5936 7216 7472 7728 7984
+8240 8496 8752 9008 9264 305 561 817 1073 1329
+1585 1841 2097 2353 2609 2865 3121 3377 3633 3889
+4145 4401 4657 4913 5169 5425 5681 5937 6193 6449
+6705 6961 7217 7473 7729 7985 8241 8497 8753 9009
+9265
+21 Prg1
+name main
+var blbnout
+var kolikrat
+var hlouposti
+var kolikhlouposti
+var poslhloupost
+var cosedelo
+var uvod
+ini
+gspec:=9;
+natvrdo:=0;
+
+blbnout:=300+random(300);
+kolikrat:=0;
+
+hlouposti:=random(1000)+500;
+kolikhlouposti:=0;
+poslhloupost:=random(3);
+
+cosedelo:=0;
+uvod:=0;
+134 Prg2
+if stdKrajniHlaska then
+  begin
+    addv(5,'zel-v-ukol');
+    StdKonecKrajniHlasky;
+  end;
+
+if zije[mala]and zije[velka]and no_dialog and (natvrdo=0) then
+  begin
+    for pom1:=1 to 5 do 
+      if blbnout>0 then dec(blbnout);
+    if hlouposti>0 then dec(hlouposti);
+    
+    if (blbnout=0)and (natvrdo=0) and (delay[mala]>40)and(delay[velka]>40) then
+      begin
+        pomb1:=true;
+        tvrdaryba:=random(2)+1;
+        if tvrdaryba=mala then pom2:=2
+        else pom2:=3;
+        for pom1:=0 to pom2 do
+          with Items[cobj[tvrdaryba]]^ do
+            if not (FArray[X+pom1,Y-1] in [item_water,item_wall]) then
+              pomb1:=false;
+
+        if pomb1 then
+          begin
+            tvrdex:=random(rwidth-2)+1;
+            tvrdey:=random(rheight-2)+1;
+            if (abs(Items[cobj[tvrdaryba]]^.x-tvrdex)+abs(Items[cobj[tvrdaryba]]^.y-tvrdey)>8)
+              and(najdi_smer(tvrdaryba,tvrdex,tvrdey)<>dir_no) then
+              natvrdo:=1;
+            if natvrdo=1 then blbnout:=(kolikrat+3)*(random(100)+50);
+          end;
+      end;
+    
+    if hlouposti>0 then dec(hlouposti);
+
+    if natvrdo=1 then
+      begin
+        inc(kolikrat);
+        if roompole[0]<=1 then
+          begin
+            pom1:=random(3); 
+            case pom1 of
+              0,2:begin
+                    if tvrdaryba=mala then
+                      addv(random(10),'zel-v-coto'+chr(48+pom1))
+                    else
+                      addm(random(10),'zel-m-coto'+chr(48+pom1));
+                    cosedelo:=tvrdaryba+2;
+                  end;
+                1:cosedelo:=tvrdaryba;
+            end
+          end
+        else
+          if random(100)<60 then
+            if tvrdaryba=mala then
+              addm(random(60),'zel-m-potvora'+chr(48+random(2)))
+            else
+              addv(random(60),'zel-v-stacit'+chr(48+random(2)));
+
+        if roompole[0]=0 then inc(roompole[0]);
+
+        if (random(100)<kolikrat*10-50) then 
+          if roompole[0]=1 then 
+            begin
+              inc(roompole[0]);
+              cosedelo:=tvrdaryba+4;
+            end;
+      end
+    else if cosedelo>0 then
+      begin
+        if cosedelo<=2 then
+          begin
+            if cosedelo=1 then 
+              addv(random(10),'zel-v-coto1')
+            else
+              addm(random(10),'zel-m-coto1');
+            inc(cosedelo,2);
+          end;
+        if (cosedelo>4)or(random(100)<50)or(kolikrat<=2) then
+          if odd(cosedelo) then
+            addm(random(3)+3,'zel-m-nevim'+chr(48+random(2)))
+          else
+            addv(random(3)+3,'zel-v-nevim'+chr(48+random(2)));
+
+        if (cosedelo>4)or((random(100)<40)and(kolikrat>=3)) then
+          if odd(cosedelo) then
+            addv(random(30)+10,'zel-v-cosedeje')
+          else
+            addm(random(30)+10,'zel-m-cimtoje');
+         
+        if cosedelo>4 then
+          begin
+            adddel(random(30)+10);
+            addset(malar.hlasit,1);
+            addv(0,'zel-v-tazelva');
+            case random(2) of
+              0:addm(random(20)+4,'zel-m-jasne');
+              1:addv(random(20)+4,'zel-v-pochyby');
+            end;
+          end;
+        cosedelo:=0;
+      end
+    else if uvod=0 then
+      begin
+        uvod:=1;
+        if roompole[0]<2 then
+          begin
+            addv(10+random(25),'zel-v-ze'+'lva'+chr(48+random(2)));
+            addm(nah(5,20),'zel-m-fotky'+chr(48+random(2)));
+            addv(5,'zel-v-zmistnosti0');
+          end
+        else if random(100)<120-pokus*10 then
+          begin
+            addv(random(60)+10,'zel-v-zmistnosti1');
+          end;
+      end
+    else if hlouposti=0 then
+      begin
+        inc(kolikhlouposti);
+        hlouposti:=kolikhlouposti*(1500+random(1500));
+        pom1:=random(2);
+        if pom1=poslhloupost then pom1:=2;
+        poslhloupost:=pom1;
+        case pom1 of
+          0:addv(50,'zel-v-bizarni');
+          1:addm(50,'zel-m-priroda');
+          2:begin
+              addv(50,'zel-v-tvary');
+              if random(100)<60 then addm(50,'zel-m-jednoduse');
+            end;
+        end;
+      end;
+  end;
+26 Items
+28 20 7 3
+z-0.BMP
+16711935 Mask
+1 Kind
+45 Ext
+10 Prg1
+name zelva
+var stav
+var pozadavek
+var napad
+var xicht
+ini
+stav:=4;
+xicht:=0;
+napad:=0;
+pozadavek:=0;
+133 Prg2
+Spec9(this,7,3);
+
+if natvrdo=1 then pozadavek:=7;
+
+case pozadavek of
+  8:if stav=8 then pozadavek:=0;
+  0:if dir<>dir_no then pozadavek:=8;
+  7:if natvrdo=0 then pozadavek:=0;
+end;
+
+if (anim<>'') then
+  goanim(this)
+else
+ begin
+  if (pozadavek=0)and(napad=0) then
+    case stav of
+      8:if random(100)<2 then napad:=1;
+      1:case random(400)of
+          0:napad:=8;
+        1,2:napad:=2;
+        3,4:napad:=3;
+       5..7:napad:=4;
+        end;
+    2,3:if random(100)<6 then napad:=1;
+      4:case random(100) of
+          0:napad:=1;
+          1:napad:=5;
+          2:napad:=6;
+        end;
+    5,6:if random(100)<2 then napad:=4;
+    end
+  else if (pozadavek<>0)and(pozadavek<>stav)and(napad=0) then
+    case pozadavek of
+      7:case stav of
+          2,3,8:napad:=1;
+          1,5,6:napad:=4;
+          4:napad:=7;
+        end;
+      8:case stav of
+          5,6:napad:=4;
+          4,2,3:napad:=1;
+          1:napad:=8;
+        end;
+    end;
+      
+  case stav of
+    8:begin
+        xicht:=27;
+        case napad of
+          1:setanim(this,'S4,29S3,0S1,1');
+        end;
+      end;
+    1:begin
+        if random(100)<5 then 
+          if random(2)=0 then 
+            xicht:=29
+          else
+            xicht:=nah(31,33);
+        case napad of
+          8:setanim(this,'S4,27S3,0S1,8');
+          2:setanim(this,'s4,36S4,38S3,0S1,2');
+          3:setanim(this,'s4,37S4,42S3,0S1,3');
+          4:setanim(this,'s4,34s4,35S4,0S3,0S1,4');
+        end;
+      end;
+    2:begin
+        if random(100)<5 then
+          if random(2)=0 then 
+            xicht:=38
+          else 
+            xicht:=40+random(2);
+        case napad of
+          1:setanim(this,'s4,36S4,29S3,0S1,1');
+        end;
+      end;
+    3:begin
+        if random(100)<5 then
+          if random(2)=0 then 
+            xicht:=42
+          else 
+            xicht:=44+random(2);
+        case napad of
+          1:setanim(this,'s4,37S4,29S3,0S1,1');
+        end;
+      end;
+    4:begin
+        if random(100)<5 then
+          if random(2)=0 then 
+            xicht:=0
+          else 
+            xicht:=random(3)*2+2;
+        case napad of
+          1:setanim(this,'s4,35s4,34S4,29S3,0S1,1');
+          5:setanim(this,'s4,13S4,16S3,0S1,5');
+          6:setanim(this,'s4,18S4,19S3,0S1,6');
+          7:setanim(this,'S4,8S3,0S1,7');
+        end;
+       
+      end;
+    5:begin
+        if random(100)<5 then
+          if random(2)=0 then 
+            xicht:=14
+          else 
+            xicht:=16+7*random(2);
+        case napad of
+          4:setanim(this,'s4,13S4,0S3,0S1,4');
+        end;
+      end;
+    6:begin
+        if random(100)<5 then
+          if random(2)=0 then 
+            xicht:=19
+          else 
+            xicht:=21+4*random(2);
+        case napad of
+          4:setanim(this,'s4,18S4,0S3,0S1,4');
+        end;
+      end;
+    7:begin
+        case xicht of
+          8..10:inc(xicht);
+          else xicht:=8;
+        end;
+        if pozadavek<>7 then 
+          setanim(this,'s4,12d4S3,0S1,4');
+      end;
+  end;    
+  goanim(this);
+ end;
+afaze:=xicht;
+if afaze in [0,2,4,6,14,16,19,21,23,25,27,29,38,42] then
+  if random(100)<5 then inc(afaze);
+13 List
+512 513 2 258 514 3 259 515 4
+260 516 517 518
+26 6 6 5
+koral2.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+12 List
+0 256 1 2 3 259 515 771 1027
+4 1028 1029
+16 28 10 4
+3-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+15 List
+768 769 258 770 259 515 771 4 260
+772 773 774 775 776 777
+43 23 4 2
+4-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+34 7 3 3
+5-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+256 1 257 513 258
+14 34 1 1
+perla0.BMP
+65280 Mask
+1 Kind
+3 Ext
+0 Prg1
+0 Prg2
+1 List
+0
+21 22 1 1
+perla0.BMP
+65280 Mask
+1 Kind
+3 Ext
+3 Prg1
+name perla
+ini
+anim:='a0d?0-90La1a2a3a2a1a0d?10-100G';
+1 Prg2
+goanim(this);
+1 List
+0
+23 30 3 1
+musle troj.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 2
+38 19 1 2
+14-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+38 16 1 3
+15-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+39 16 1 6
+16-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 768 1024 1280
+39 22 2 3
+17-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 512 513
+44 13 3 1
+19-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+4 Prg1
+name malar
+var hlasit
+ini
+hlasit:=0;
+5 Prg2
+if hlasit=1 then
+  begin
+    hlasit:=0;
+    talk('zel-m-tazelva',mala);
+  end;
+3 List
+0 1 2
+42 30 5 2
+20-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+0 1 2 3 259 4 260
+35 21 2 2
+24-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+31 1 1 2
+25-Ocel.bmp
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+31 3 2 1
+rybicka h1.BMP
+65280 Mask
+1 Kind
+3 Ext
+4 Prg1
+name rybka
+var cinnost
+ini
+cinnost:=0;
+26 Prg2
+if dir<>dir_no then 
+  begin
+    cinnost:=1;
+    anim:='';
+    for pom1:=1 to random(5)+5 do
+      anim:=anim+'a'+IntToStr(random(3)+1);
+    for pom1:=1 to random(5)+5 do
+      anim:=anim+'a'+IntToStr(random(3)+1)+'d1';
+    for pom1:=1 to random(5)+5 do
+      anim:=anim+'a'+IntToStr(random(3)+1)+'d2';
+    for pom1:=1 to random(5)+5 do
+      anim:=anim+'a'+IntToStr(random(3)+1)+'d3';
+    anim:=anim+'S1,0';
+    resetanim(this);
+  end;
+case cinnost of
+  0:begin
+      setanim(this,'a0d?30-200S1,2d?10-40s1,1r');
+      cinnost:=1;
+    end;
+  1:goanim(this);
+  2:begin
+      goanim(this);
+      if count mod 3=0 then afaze:=random(3)+1;
+    end;
+end;
+2 List
+0 1
+2 2 7 9
+koral1.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+19 List
+512 1 513 2 258 514 770 1026 1027
+1283 1539 1795 2051 772 1028 2052 773 1029 1030
+10 6 3 5
+koral3.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+512 1 257 513 769 1025 1026
+33 9 8 3
+koral4.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+12 List
+256 257 513 258 259 515 260 261 517
+6 262 7
+21 0 6 6
+koral5.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+13 List
+0 256 257 258 514 1026 1282 515 771
+1027 516 772 517
+5 11 7 5
+koral6.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+18 List
+0 512 1 257 513 2 514 3 4
+260 516 772 1028 5 773 6 774 1030
+11 31 4 3
+koral7.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+256 257 258 3 259 515
+38 31 6 3
+koral8.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+9 List
+0 256 257 258 259 515 260 5 261
+39 14 6 3
+koral9.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+9 List
+0 256 257 513 258 259 260 261 517
+7 19 12 5
+koral10.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+20 List
+512 257 513 769 258 770 259 771 1027
+260 5 261 6 7 8 264 9 10 266
+267
+EOF

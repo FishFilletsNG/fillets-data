@@ -1,0 +1,611 @@
+REDIT FILE from 6.3.1998 2:26:22
+win
+win
+1 1 5 10 5 0 0 0 0 0  Params
+65280 Grid
+45 33
+win-p.bmp
+0 obsolete
+0 Ext
+win-w.bmp
+65280 Mask
+0 Ext
+283 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 2560 2816 3072 3328 3584 3840 4096 4352 4608
+4864 5120 5376 5632 5888 6144 6400 6656 6912 7168
+7424 7680 7936 8192 1 4609 4865 5121 5377 5633
+5889 6657 7169 7937 8193 2 4610 4866 5122 5378
+5634 5890 6658 7170 8194 3 4611 4867 5123 5379
+5635 5891 6659 7171 8195 4 4612 4868 5124 5380
+5636 5892 6660 6916 7172 8196 5 4613 4869 5125
+5381 5637 5893 6149 6405 6661 6917 7173 7429 7685
+7941 8197 6 4614 4870 5126 5382 5638 5894 6150
+6406 6662 6918 7174 7430 7686 7942 8198 7 7687
+7943 8199 8 7688 7944 8200 9 7689 7945 8201
+10 7690 7946 8202 11 7691 7947 8203 12 7692
+7948 8204 13 7693 7949 8205 14 7694 7950 8206
+15 7695 7951 8207 16 7696 7952 8208 17 7697
+7953 8209 18 7698 7954 8210 19 7699 7955 8211
+20 7700 7956 8212 21 7701 7957 8213 22 7702
+7958 8214 23 7703 7959 8215 24 7704 7960 8216
+25 7705 7961 8217 26 7706 7962 8218 27 7707
+7963 8219 28 7708 7964 8220 29 7709 7965 8221
+30 7710 7966 8222 31 7711 7967 8223 32 7712
+7968 8224 33 7713 7969 8225 34 7714 7970 8226
+35 7715 7971 8227 36 7716 7972 8228 37 7717
+7973 8229 38 7718 7974 8230 39 7719 7975 8231
+40 7720 7976 8232 41 7721 7977 8233 7722 7978
+8234 7723 7979 8235 44 300 812 1068 1324 1580
+1836 2092 2348 2604 2860 3116 3372 3628 3884 4140
+4396 4652 4908 5164 5420 5676 5932 6188 6444 6700
+7468 7724 7980 8236
+28 Prg1
+name room
+var resit
+var umrela
+var navrhy
+var poslnavrh
+var odire
+var onotepadu
+var ooknech
+var obonusu
+var obordelu
+var ooceli
+var hlasky
+var nhlasek
+ini
+gspec:=0;
+resit:=0;
+umrela:=0;
+VypniBonusLevel;
+navrhy:=random(500)+200;
+poslnavrh:=4;
+odire:=0;
+onotepadu:=0;
+ooknech:=0;
+obonusu:=0;
+obordelu:=0;
+ooceli:=0;
+hlasky:=random(100)+20;
+nhlasek:=0;
+121 Prg2
+if (resit=0)and zije[mala] and zije[velka] then
+  if (velkar.X+4=bonuslevel.X)and(natoceni[velka]=smer_vpravo)and
+     (velkar.Y>=bonuslevel.Y-1)then
+    begin
+      resit:=1;
+      roompole[1]:=1;
+      obonusu:=0;
+      ZapniBonusLevel;
+      ToRecord('b');
+      ToRecord('1');
+      busy[velka]:=1;
+      busy[mala]:=1;
+      if pokus=1 then
+        begin
+          addv(0,'win-v-pockej');
+          addm(2,'win-m-zavrene');
+        end;
+      addset(busy[mala],0);
+      addset(busy[velka],0);
+      if (pokus<3)or(random(100)<40) then
+        begin
+          addv(5,'win-v-osvobodit');
+          addm(10,'win-m-ven');
+          addv(0,'win-v-citim');
+          addm(random(10)+5,'win-m-vzit');
+        end;
+      addv(5,'win-v-nehrajem');
+    end;
+if resit=1 then
+  if (staramala.X=1) and (staravelka.X=1) then
+    begin
+      resit:=2;
+      VypniBonusLevel;
+      ToRecord('b');
+      ToRecord('0');
+    end;
+    
+if (gspec=5)and(umrela=0)and zije[mala] and not zije[velka] and not venku[velka] then
+  begin
+    umrela:=1;
+    addm(5,'win-m-jejda');
+  end
+else if (gspec=5)and(umrela=0)and zije[velka] and not zije[mala] and not venku[mala] then
+  begin
+    umrela:=1;
+    addv(5,'win-v-real');
+  end;
+if no_dialog and (gspec=0)and zije[mala] and zije[velka] then
+  begin
+    if navrhy>0 then dec(navrhy);
+    if hlasky>0 then dec(hlasky);
+    
+    if navrhy=0 then
+      begin
+        navrhy:=random(1500)+200;
+        pom1:=random(4);
+        if poslnavrh=pom1 then pom1:=4;
+        addm(30,'win-m-costim'+chr(48+pom1));
+        adddel(30);
+      end
+    else if (ooceli=0)and(dist(@malar,@bonuslevel)<=1) then
+      begin
+        ooceli:=1;
+        addm(5,'win-m-vga');
+      end
+    else if (hlasky=0) then 
+      begin
+        pom1:=random(5);
+        inc(nhlasek);
+        hlasky:=random(300)+300;
+        if (roompole[0]=0) and (nhlasek=2) then pom1:=0;
+        case pom1 of
+          0:if obonusu=0 then
+              begin
+                obonusu:=1;
+                addm(10,'win-m-okno');
+                addv(8,'win-v-hra');
+                addm(random(10)+10,'win-m-chodila');
+                addv(2,'win-v-nic0');
+                addm(2,'win-m-nic1');
+                addv(2,'win-v-nic2');
+                addm(5,'win-m-nic3');
+                addv(random(10)+10,'win-v-hav');
+                if roompole[1]=0 then addm(random(30)+10,'win-m-zahrat');
+              end;
+          1:if onotepadu=0 then
+              begin
+                onotepadu:=1;
+                addm(10,'win-m-blok');
+                adddel(random(15)+5);
+                addset(notepad.napsano,1);
+                adddel(random(15)+5);
+                addset(notepad.napsano,2);
+                adddel(random(15)+5);
+                addset(notepad.napsano,3);
+                adddel(random(15)+5);
+                addset(notepad.napsano,4);
+                addv(10,'win-v-premyslej');
+              end;
+          2:if odire=0 then
+              begin
+                odire:=1;
+                addm(30,'win-m-dira');
+                addv(3,'win-v-tamhle');
+              end;
+          3:if ooknech=0 then
+              begin
+                ooknech:=1;
+                addv(20,'win-v-pocitala');
+                addm(5,'win-m-nemusim');
+              end;
+          4:if obordelu=0 then
+              begin
+                obordelu:=1;
+                addv(30,'win-v-plocha');
+              end;
+        end;
+      end;
+  end;  
+
+StdHlaskySmrti:=gspec<>5;
+39 Items
+33 4 7 5
+Dotaz.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+35 List
+0 256 512 768 1024 1 257 513 769
+1025 2 258 514 770 1026 3 259 515 771
+1027 4 260 516 772 1028 5 261 517 773
+1029 6 262 518 774 1030
+28 22 8 6
+color.BMP
+6553855 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+48 List
+0 256 512 768 1024 1280 1 257 513
+769 1025 1281 2 258 514 770 1026 1282 3
+259 515 771 1027 1283 4 260 516 772 1028
+1284 5 261 517 773 1029 1285 6 262 518
+774 1030 1286 7 263 519 775 1031 1287
+1 12 2 2
+icon1.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+23 9 19 13
+bonus0.BMP
+65280 Mask
+1 Kind
+1 Ext
+1 Prg1
+name bonuslevel
+1 Prg2
+if gspec=5 then afaze:=1 else afaze:=0;
+88 List
+0 256 512 768 1024 1280 1536 1792 2048
+2816 3072 1 257 1537 1793 2049 3073 2 258
+2050 3074 3 259 2051 3075 4 260 772 2052
+2820 3076 5 261 2821 3077 6 262 3078 7
+263 3079 8 264 3080 9 265 3081 10 266
+3082 11 267 1803 3083 12 268 1804 3084 13
+269 2317 2573 3085 14 270 3086 15 271 3087
+16 272 3088 17 273 3089 18 274 530 786
+1042 1298 1554 1810 2066 2322 2578 2834 3090
+1 16 2 2
+icon2.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+3 2 4 3
+tento.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+512 1 257 513 2 258 514 515
+37 2 2 2
+icon25.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+29 28 2 2
+icon21.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+9 20 2 3
+kos.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+0 256 512 1 257 513
+11 29 3 1
+10-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+3 7 4 2
+11-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+7 23 10 6
+Notepad0.BMP
+65280 Mask
+1 Kind
+9 Ext
+4 Prg1
+name notepad
+var napsano
+ini
+napsano:=0;
+1 Prg2
+afaze:=napsano*2+(count mod 10)div 5;
+60 List
+0 256 512 768 1024 1280 1 257 513
+769 1025 1281 2 258 514 770 1026 1282 3
+259 515 771 1027 1283 4 260 516 772 1028
+1284 5 261 517 773 1029 1285 6 262 518
+774 1030 1286 7 263 519 775 1031 1287 8
+264 520 776 1032 1288 9 265 521 777 1033
+1289
+8 14 2 2
+icon14.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+5 16 2 2
+icon27.BMP
+255 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+31 28 2 2
+icon7.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+8 12 2 2
+icon29.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+4 5 2 2
+icon3.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+4 14 2 2
+icon24.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+18 21 2 2
+icon22.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+7 8 2 2
+icon28.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+8 6 2 2
+icon11.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+17 23 10 7
+Altar.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+70 List
+0 256 512 768 1024 1280 1536 1 257
+513 769 1025 1281 1537 2 258 514 770 1026
+1282 1538 3 259 515 771 1027 1283 1539 4
+260 516 772 1028 1284 1540 5 261 517 773
+1029 1285 1541 6 262 518 774 1030 1286 1542
+7 263 519 775 1031 1287 1543 8 264 520
+776 1032 1288 1544 9 265 521 777 1033 1289
+1545
+41 0 4 3
+disketa.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+8 List
+512 1 257 513 2 258 514 515
+8 16 2 2
+icon16.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+5 12 2 2
+icon31.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+8 10 2 2
+icon32.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+33 28 2 2
+icon5.BMP
+255 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+8 18 2 2
+icon17.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+1 8 2 2
+icon7.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+1 14 2 2
+icon33.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+1 10 2 2
+icon2.BMP
+16711935 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+4 List
+0 256 1 257
+24 13 4 2
+old-velka0.BMP
+0 Mask
+1 Kind
+3 Ext
+3 Prg1
+name staravelka
+ini
+spec:=0;
+8 Prg2
+if (X=bonuslevel.X)or(X=1) then
+  begin
+    spec:=11;
+    X:=1;
+    Y:=24;
+    ToRecord('o');
+    ToRecord('2');
+  end;
+8 List
+0 256 1 257 2 258 3 259
+24 11 3 1
+old-mala0.BMP
+0 Mask
+1 Kind
+3 Ext
+4 Prg1
+name staramala
+ini
+spec:=0;
+
+8 Prg2
+if (X=bonuslevel.X)or(X=1) then
+  begin
+    spec:=11;
+    X:=1;
+    Y:=27;
+    ToRecord('o');
+    ToRecord('1');
+  end;
+3 List
+0 1 2
+29 19 1 2
+old-valec.BMP
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 256
+35 13 4 3
+old-prkna.BMP
+0 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+6 List
+256 512 257 258 3 259
+36 15 1 3
+old-svicka.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 512
+27 11 2 1
+old-kniha.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+2 List
+0 1
+24 12 1 1
+old-budik.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name budik
+0 Prg2
+1 List
+0
+23 18 4 3
+41-Tmp.bmp
+0 Mask
+1 Kind
+0 Ext
+3 Prg1
+name spuntik
+ini
+spec:=11;
+0 Prg2
+11 List
+0 256 1 257 513 2 258 514 3
+259 515
+EOF

@@ -1,0 +1,496 @@
+REDIT FILE from 22.3.1998 21:58:04
+warcr2
+warcr2
+1 0 5 10 5 0 0 0 0 0  Params
+16711935 Grid
+52 37
+warcr2-p1.BMP
+0 obsolete
+0 Ext
+warcr2-w.BMP
+65280 Mask
+0 Ext
+585 WlList
+0 256 512 768 1024 1280 1536 1792 2048
+2304 3072 3328 3584 3840 4096 4352 4608 4864 5120
+5376 5632 5888 6144 6400 6656 6912 7168 7424 7680
+7936 8192 8448 8704 8960 9216 1 257 513 1281
+1537 1793 2049 2305 3841 4097 4353 4609 4865 5121
+5377 5633 5889 6145 6401 6657 7169 7425 7681 7937
+8193 8961 9217 2 258 1282 1538 1794 2050 2306
+4354 4610 4866 5122 5378 5634 5890 6146 6402 7426
+7682 7938 9218 3 259 1539 1795 2051 2307 4355
+4611 4867 5123 5379 5635 5891 6147 6403 7427 7683
+9219 4 1540 1796 2052 5124 5380 5636 5892 6148
+6404 7684 9220 5 1541 1797 2053 5125 5381 5637
+5893 6149 6405 9221 6 1286 1542 1798 2054 5126
+5382 5638 5894 6150 9222 7 1031 1287 1543 1799
+2055 5127 5383 5639 5895 6151 9223 8 520 776
+1032 1288 1544 1800 2056 5384 5640 5896 9224 9
+521 777 1033 1289 1545 1801 5385 5641 5897 9225
+10 1034 1290 1546 1802 5386 5642 9226 11 1547
+1803 9227 12 3852 9228 13 3597 3853 9229 14
+2574 2830 3086 5390 9230 15 2831 5391 9231 16
+5392 9232 17 5137 5393 5649 5905 6161 6417 9233
+18 274 2322 5138 5394 5650 5906 6162 6418 9234
+19 275 2323 2579 5139 5395 5651 5907 6163 6419
+6675 6931 9235 20 276 2068 2324 2580 5140 5396
+5652 5908 6164 6420 6676 6932 9236 21 277 1813
+2069 2325 2581 5397 5653 5909 6165 6421 6677 6933
+9237 22 278 2070 2326 2582 5142 5398 5654 5910
+6166 6422 9238 23 279 535 2071 2327 2583 2839
+5399 5655 5911 6167 6423 9239 24 280 536 2072
+2328 2584 2840 3096 5144 5400 5656 5912 6168 6424
+9240 25 281 537 2073 2329 2585 2841 3097 5145
+5401 5657 5913 6169 9241 26 282 2074 2330 2586
+2842 3098 5146 5402 5658 5914 9242 27 283 2331
+2587 2843 3099 5147 5403 5659 5915 9243 28 284
+2332 2588 2844 5404 5660 5916 9244 29 2333 2589
+2845 5661 5917 6173 9245 30 2334 2590 2846 5406
+5662 5918 9246 31 2335 2591 5407 5663 5919 9247
+32 5408 5664 5920 9248 33 5409 9249 34 5410
+9250 35 9251 36 2596 2852 3876 4132 4388 9252
+37 293 2597 2853 3109 3621 3877 9253 38 294
+3622 6950 9254 39 295 1575 1831 6951 7207 7463
+7719 7975 9255 40 1576 1832 5160 5416 6952 7208
+7464 7720 7976 8232 9256 41 1321 1577 1833 5161
+5417 5673 6953 7209 7465 7721 9257 42 1322 1578
+1834 2090 5162 5418 5674 6954 7210 7466 9258 43
+1067 1323 1579 1835 2091 5163 5419 6699 6955 7211
+9259 44 1068 1324 1580 1836 2092 5420 5676 6700
+6956 7212 9260 45 1069 1325 1581 1837 5677 6957
+7213 9261 46 302 814 1070 1326 1582 1838 5166
+5422 5678 9262 47 303 559 815 1071 1327 1583
+1839 2095 4911 5167 5423 9263 48 304 560 816
+1072 1328 1584 1840 2096 2352 4912 5168 9264 49
+305 561 817 1073 1329 1585 1841 2097 2353 7985
+9265 50 306 562 818 1074 1330 1586 1842 2098
+2354 2610 5682 5938 6194 6450 7730 7986 8242 9010
+9266 51 307 563 819 1075 1331 1587 1843 2099
+2355 2611 3379 3635 3891 4147 4403 4659 4915 5171
+5427 5683 5939 6195 6451 6707 6963 7219 7475 7731
+7987 8243 8499 8755 9011 9267
+13 Prg1
+name room
+var uvod
+var oregistry
+var odolech
+var oblizardu
+ini
+if pokus=1 then uvod:=3
+else
+  uvod:=random(3);
+
+oregistry:=random(5000)+500;
+odolech:=0;
+oblizardu:=0;
+59 Prg2
+if (oblizardu=0) and zije[velka] and (velkar.X=47) and (velkar.Y=11) then
+  begin
+    oblizardu:=1;
+    busy[velka]:=1;
+    addv(5,'war-v-blizzard');
+    if zije[mala] then
+      begin
+        busy[mala]:=1;
+        addm(4,'war-m-hodiny');
+      end;
+    addset(busy[velka],0);
+    addset(busy[mala],0);
+  end;
+
+if no_dialog and zije[mala] and zije[velka] then
+  begin
+    for pom1:=1 to 10 do
+    if oregistry>0 then dec(oregistry);
+
+    if uvod>0 then
+      begin
+        case uvod of
+          1,3:begin
+                addm(random(30)+10,'war-m-kam');
+                addv(random(30)+10,'war-v-povedome');
+              end;
+        end;
+        case uvod of
+          2,3:begin
+                case random(2) of
+                  0:addm(random(30)+20,'war-m-hrad');
+                  1:addm(random(30)+20,'war-m-ocel');
+                end;
+                if (random(100)<50)or(pokus=1) then
+                  begin
+                    addv(random(200)+10,'war-v-vesnicane');
+                    addm(4,'war-m-peoni');
+                  end;
+              end;
+        end;
+        uvod:=0;
+      end
+    else if (odolech=0)and((dul1.dir<>dir_no)or(dul2.dir<>dir_no))and(random(100)<10) then
+      begin
+        odolech:=0;
+        addv(random(30)+10,'war-v-doly');
+        addm(random(20),'war-m-povazuji');
+      end
+    else if oregistry=0 then
+      begin
+        oregistry:=-1;
+        addv(20,'war-v-pohadka');
+        addm(random(40)+10,'war-m-pichat');
+        addv(2,'war-v-prozradit');
+        addm(4,'war-m-aznato');
+      end;
+  end;
+
+    
+23 Items
+44 33 3 3
+jezdec.BMP
+65280 Mask
+1 Kind
+0 Ext
+8 Prg1
+name knight1
+var unejmala
+var unejvelka
+var hybese
+ini
+hybese:=0;
+unejvelka:=1;
+unejmala:=0;
+23 Prg2
+pom2:=0;
+
+if dist(@velkar,this)<=1 then pom1:=1
+else pom1:=0;
+if (unejvelka=0)and(pom1=1) then
+  pom2:=1;
+unejvelka:=pom1;
+
+if dist(@malar,this)<=1 then pom1:=1
+else pom1:=0;
+if (unejmala=0)and(pom1=1) then
+  pom2:=1;
+unejmala:=pom1;
+
+if (dir<>dir_no)and(hybese=0) then
+  pom2:=2;
+if dir<>dir_no then hybese:=1
+else hybese:=0;
+
+case pom2 of
+  1:snd('war-k-ready'+chr(random(3)+48),501);
+  2:snd('war-k-move'+chr(random(3)+48),501);
+end;
+7 List
+0 256 1 257 513 258 514
+25 33 3 3
+vez.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+512 1 257 513 2 258 514
+7 15 6 5
+dul.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name dul2
+0 Prg2
+27 List
+256 512 768 1024 1 257 513 769 1025
+2 258 514 770 1026 3 259 515 771 1027
+4 260 516 772 1028 261 517 773
+3 16 2 2
+peasant.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 257
+45 18 2 2
+peasant.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 257
+19 6 2 2
+peasant.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 257
+2 12 12 2
+surrend.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+24 List
+0 256 1 257 2 258 3 259 4
+260 5 261 6 262 7 263 8 264 9
+265 10 266 11 267
+38 12 12 2
+exit.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+24 List
+0 256 1 257 2 258 3 259 4
+260 5 261 6 262 7 263 8 264 9
+265 10 266 11 267
+38 6 1 5
+kopi.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+0 256 512 768 1024
+11 3 4 3
+balista.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+256 512 1 257 513 2 258 514 259
+515
+38 15 6 5
+dul.BMP
+65280 Mask
+1 Kind
+0 Ext
+1 Prg1
+name dul1
+0 Prg2
+27 List
+256 512 768 1024 1 257 513 769 1025
+2 258 514 770 1026 3 259 515 771 1027
+4 260 516 772 1028 261 517 773
+37 3 4 3
+balista.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+10 List
+256 512 1 257 513 2 258 514 259
+515
+13 6 1 5
+kopi.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+5 List
+0 256 512 768 1024
+36 33 3 3
+vez.bmp
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+7 List
+512 1 257 513 2 258 514
+46 17 2 2
+peasant.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 1 257
+1 34 3 1
+15-Mala.bmp
+65280 Mask
+3 Kind
+0 Ext
+1 Prg1
+name malar
+0 Prg2
+3 List
+0 1 2
+47 33 4 2
+17-Velka.bmp
+65280 Mask
+4 Kind
+0 Ext
+1 Prg1
+name velkar
+0 Prg2
+8 List
+0 256 1 257 2 258 3 259
+4 29 7 7
+hradT.BMP
+65280 Mask
+2 Kind
+0 Ext
+0 Prg1
+0 Prg2
+36 List
+512 768 1024 257 513 769 1025 1281 258
+514 770 1026 1282 1538 3 259 515 771 1027
+1283 1539 4 260 516 772 1028 1284 1540 261
+517 773 1029 1285 1541 518 774
+5 18 2 2
+peasantL.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 1
+45 25 2 2
+peasantL.BMP
+65280 Mask
+1 Kind
+0 Ext
+0 Prg1
+0 Prg2
+3 List
+0 256 1
+5 1 3 3
+jezdec.BMP
+65280 Mask
+1 Kind
+0 Ext
+8 Prg1
+name knight2
+var unejmala
+var unejvelka
+var hybese
+ini
+hybese:=0;
+unejvelka:=0;
+unejmala:=0;
+23 Prg2
+pom2:=0;
+
+if dist(@velkar,this)<=1 then pom1:=1
+else pom1:=0;
+if (unejvelka=0)and(pom1=1) then
+  pom2:=1;
+unejvelka:=pom1;
+
+if dist(@malar,this)<=1 then pom1:=1
+else pom1:=0;
+if (unejmala=0)and(pom1=1) then
+  pom2:=1;
+unejmala:=pom1;
+
+if (dir<>dir_no)and(hybese=0) then
+  pom2:=2;
+if dir<>dir_no then hybese:=1
+else hybese:=0;
+
+case pom2 of
+  1:snd('war-k-ready'+chr(random(3)+48),502);
+  2:snd('war-k-move'+chr(random(3)+48),502);
+end;
+7 List
+0 256 1 257 513 258 514
+48 29 2 2
+lucistnik.BMP
+16711935 Mask
+1 Kind
+0 Ext
+8 Prg1
+name archer1
+var unejmala
+var unejvelka
+var hybese
+ini
+hybese:=0;
+unejvelka:=1;
+unejmala:=0;
+23 Prg2
+pom2:=0;
+
+if dist(@velkar,this)<=1 then pom1:=1
+else pom1:=0;
+if (unejvelka=0)and(pom1=1) then
+  pom2:=1;
+unejvelka:=pom1;
+
+if dist(@malar,this)<=1 then pom1:=1
+else pom1:=0;
+if (unejmala=0)and(pom1=1) then
+  pom2:=1;
+unejmala:=pom1;
+
+if (dir<>dir_no)and(hybese=0) then
+  pom2:=2;
+if dir<>dir_no then hybese:=1
+else hybese:=0;
+
+case pom2 of
+  1:snd('war-a-ready'+chr(random(2)+48),401);
+  2:snd('war-a-move'+chr(random(2)+48),401);
+end;
+4 List
+0 256 1 257
+42 2 2 2
+lucistnik.BMP
+16711935 Mask
+1 Kind
+0 Ext
+8 Prg1
+name archer2
+var unejmala
+var unejvelka
+var hybese
+ini
+hybese:=0;
+unejvelka:=1;
+unejmala:=0;
+23 Prg2
+pom2:=0;
+
+if dist(@velkar,this)<=1 then pom1:=1
+else pom1:=0;
+if (unejvelka=0)and(pom1=1) then
+  pom2:=1;
+unejvelka:=pom1;
+
+if dist(@malar,this)<=1 then pom1:=1
+else pom1:=0;
+if (unejmala=0)and(pom1=1) then
+  pom2:=1;
+unejmala:=pom1;
+
+if (dir<>dir_no)and(hybese=0) then
+  pom2:=2;
+if dir<>dir_no then hybese:=1
+else hybese:=0;
+
+case pom2 of
+  1:snd('war-a-ready'+chr(random(2)+48),402);
+  2:snd('war-a-move'+chr(random(2)+48),402);
+end;
+4 List
+0 256 1 257
+EOF
