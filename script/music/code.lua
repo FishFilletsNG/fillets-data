@@ -15,8 +15,9 @@ local function prog_init()
 
         room.hlaskam = 0
         room.hlaskav = 0
+        --TODO: allow to ask for music_volume
+        local music_volume = 50
         if roompole[0] == 0 then
-            --TODO: allow to ask for music_volume
             roompole[0] = music_volume
         end
         room.rozbito = 0
