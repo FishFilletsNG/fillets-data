@@ -60,9 +60,10 @@ local function prog_init()
                     addv(5, "1st-v-navod1")
                     planBusy(small, false, 3)
                     planBusy(big, false, 1)
-                    --[[ TODO: mouse controls and control panel
+                    --[[ TODO: control panel
                     addm(20, "1st-m-navod2")
                     addv(5, "1st-v-navod3")
+                    ]]
                     planBusy(small, true, 100)
                     planBusy(big, true, 2)
                     addm(3, "1st-m-navod4")
@@ -71,7 +72,6 @@ local function prog_init()
                     planBusy(big, false, 3)
                     planBusy(small, false, 2)
                     addv(20, "1st-v-navod7")
-                    ]]
                     addm(20, "1st-m-navod8")
                     if room.uzreklnavod == 0 then
                         room.uzreklnavod = 1
