@@ -2,7 +2,6 @@
 setParam("fullscreen", "0")
 setParam("sound", "1")
 setParam("loglevel", "6")
-setParam("level", "script/Pravidla.lua")
 setParam("screen_bpp", "32")
 setParam("screen_height", "480")
 setParam("screen_width", "640")
