@@ -28,7 +28,7 @@ node_bestSolution("pavement", 696, "Tibor Zenis")
 node_bestSolution("pyramid", 262, "Charles Goodwin")
 node_bestSolution("music", 397, "Charles Goodwin")
 node_bestSolution("crabshow", 344, "Jan Danihelka")
-node_bestSolution("elevator2", 511, "Charles Goodwin")
+node_bestSolution("elevator2", 503, "Ronny Standtke")
 node_bestSolution("atlantis", 2088, "Eric Estievenart")
  
 node_bestSolution("corals", 304, "Ronny Standtke")
