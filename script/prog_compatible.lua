@@ -13,9 +13,7 @@ function odd(number)
 end
 
 function getRestartCount()
-    local counter = game_getRestartCounter()
-    print("TEST: counter="..counter)
-    return counter
+    return game_getRestartCounter()
 end
 
 -- -----------------------------------------------------------------
@@ -121,4 +119,5 @@ function update()
     updateModels()
     prog_update()
 end
+
 
