@@ -1,6 +1,10 @@
 Nimbus Sans L
 Size: 22
-Bold-Semi
+Bold-Condensed
 iso-8859-2
-Little Color: 255, 200,  95 (1.0 , 0.75, 0.33)
-Big Color:    160, 240, 225 (0.62, 0.94, 0.88)
+without 3D effect
+
+font_small color: 255, 200,  95 (1.0 , 0.75, 0.33)
+font_big color:   160, 240, 225 (0.62, 0.94, 0.88)
+font_steel color: 112, 120, 112 (0.44, 0.47, 0.44)
+
