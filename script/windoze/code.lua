@@ -58,8 +58,8 @@ local function prog_init()
                 end)
             end
 
-            if room.resit == 0 and isReady(small) and isReady(big) then
-                if big.X + 4 == bonuslevel.X and not big:isLeft() and big.Y >= bonuslevel.Y - 1 then
+            if room.resit == 0 then
+                if big:getState() == "touched" and bonuslevel:getState() == "touched" then
                     room.resit = 1
                     roompole[1] = 1
                     room.obonusu = 0
