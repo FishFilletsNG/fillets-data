@@ -341,202 +341,122 @@ dialog_addDialog("b2-spatne", "de", "", "font_cyan", "Das habe ich versucht - un
 
 dialog_addDialog("b1-1", "en", "")
 dialog_addDialog("b1-1", "cs", "sound/"..codename.."/cs/b1-1.ogg")
-dialog_addDialog("b1-1", "fr", "")
-dialog_addDialog("b1-1", "de", "")
 
 dialog_addDialog("b1-2", "en", "")
 dialog_addDialog("b1-2", "cs", "sound/"..codename.."/cs/b1-2.ogg")
-dialog_addDialog("b1-2", "fr", "")
-dialog_addDialog("b1-2", "de", "")
 
 dialog_addDialog("b1-3", "en", "")
 dialog_addDialog("b1-3", "cs", "sound/"..codename.."/cs/b1-3.ogg")
-dialog_addDialog("b1-3", "fr", "")
-dialog_addDialog("b1-3", "de", "")
 
 dialog_addDialog("b1-4", "en", "")
 dialog_addDialog("b1-4", "cs", "sound/"..codename.."/cs/b1-4.ogg")
-dialog_addDialog("b1-4", "fr", "")
-dialog_addDialog("b1-4", "de", "")
 
 dialog_addDialog("b1-5", "en", "")
 dialog_addDialog("b1-5", "cs", "sound/"..codename.."/cs/b1-5.ogg")
-dialog_addDialog("b1-5", "fr", "")
-dialog_addDialog("b1-5", "de", "")
 
 dialog_addDialog("b1-6", "en", "")
 dialog_addDialog("b1-6", "cs", "sound/"..codename.."/cs/b1-6.ogg")
-dialog_addDialog("b1-6", "fr", "")
-dialog_addDialog("b1-6", "de", "")
 
 dialog_addDialog("b1-7", "en", "")
 dialog_addDialog("b1-7", "cs", "sound/"..codename.."/cs/b1-7.ogg")
-dialog_addDialog("b1-7", "fr", "")
-dialog_addDialog("b1-7", "de", "")
 
 dialog_addDialog("b1-8", "en", "")
 dialog_addDialog("b1-8", "cs", "sound/"..codename.."/cs/b1-8.ogg")
-dialog_addDialog("b1-8", "fr", "")
-dialog_addDialog("b1-8", "de", "")
 
 dialog_addDialog("b1-9", "en", "")
 dialog_addDialog("b1-9", "cs", "sound/"..codename.."/cs/b1-9.ogg")
-dialog_addDialog("b1-9", "fr", "")
-dialog_addDialog("b1-9", "de", "")
 
 dialog_addDialog("b1-10", "en", "")
 dialog_addDialog("b1-10", "cs", "sound/"..codename.."/cs/b1-10.ogg")
-dialog_addDialog("b1-10", "fr", "")
-dialog_addDialog("b1-10", "de", "")
 
 dialog_addDialog("b1-a", "en", "", "font_yellow", "%1.")
 dialog_addDialog("b1-a", "cs", "sound/"..codename.."/cs/b1-a.ogg", "font_yellow", "%1.")
-dialog_addDialog("b1-a", "fr", "", "font_yellow", "%1.")
-dialog_addDialog("b1-a", "de", "", "font_yellow", "%1.")
 
 dialog_addDialog("b1-b", "en", "", "font_yellow", "%1.")
 dialog_addDialog("b1-b", "cs", "sound/"..codename.."/cs/b1-b.ogg", "font_yellow", "%1.")
-dialog_addDialog("b1-b", "fr", "", "font_yellow", "%1.")
-dialog_addDialog("b1-b", "de", "", "font_yellow", "%1.")
 
 dialog_addDialog("b1-c", "en", "", "font_yellow", "%1.")
 dialog_addDialog("b1-c", "cs", "sound/"..codename.."/cs/b1-c.ogg", "font_yellow", "%1.")
-dialog_addDialog("b1-c", "fr", "", "font_yellow", "%1.")
-dialog_addDialog("b1-c", "de", "", "font_yellow", "%1.")
 
 dialog_addDialog("b1-d", "en", "", "font_yellow", "%1.")
 dialog_addDialog("b1-d", "cs", "sound/"..codename.."/cs/b1-d.ogg", "font_yellow", "%1.")
-dialog_addDialog("b1-d", "fr", "", "font_yellow", "%1.")
-dialog_addDialog("b1-d", "de", "", "font_yellow", "%1.")
 
 dialog_addDialog("b1-e", "en", "", "font_yellow", "%1.")
 dialog_addDialog("b1-e", "cs", "sound/"..codename.."/cs/b1-e.ogg", "font_yellow", "%1.")
-dialog_addDialog("b1-e", "fr", "", "font_yellow", "%1.")
-dialog_addDialog("b1-e", "de", "", "font_yellow", "%1.")
 
 dialog_addDialog("b1-f", "en", "", "font_yellow", "%1.")
 dialog_addDialog("b1-f", "cs", "sound/"..codename.."/cs/b1-f.ogg", "font_yellow", "%1.")
-dialog_addDialog("b1-f", "fr", "", "font_yellow", "%1.")
-dialog_addDialog("b1-f", "de", "", "font_yellow", "%1.")
 
 dialog_addDialog("b1-g", "en", "", "font_yellow", "%1.")
 dialog_addDialog("b1-g", "cs", "sound/"..codename.."/cs/b1-g.ogg", "font_yellow", "%1.")
-dialog_addDialog("b1-g", "fr", "", "font_yellow", "%1.")
-dialog_addDialog("b1-g", "de", "", "font_yellow", "%1.")
 
 dialog_addDialog("b1-h", "en", "", "font_yellow", "%1.")
 dialog_addDialog("b1-h", "cs", "sound/"..codename.."/cs/b1-h.ogg", "font_yellow", "%1.")
-dialog_addDialog("b1-h", "fr", "", "font_yellow", "%1.")
-dialog_addDialog("b1-h", "de", "", "font_yellow", "%1.")
 
 dialog_addDialog("b1-i", "en", "", "font_yellow", "%1.")
 dialog_addDialog("b1-i", "cs", "sound/"..codename.."/cs/b1-i.ogg", "font_yellow", "%1.")
-dialog_addDialog("b1-i", "fr", "", "font_yellow", "%1.")
-dialog_addDialog("b1-i", "de", "", "font_yellow", "%1.")
 
 dialog_addDialog("b1-j", "en", "", "font_yellow", "%1.")
 dialog_addDialog("b1-j", "cs", "sound/"..codename.."/cs/b1-j.ogg", "font_yellow", "%1.")
-dialog_addDialog("b1-j", "fr", "", "font_yellow", "%1.")
-dialog_addDialog("b1-j", "de", "", "font_yellow", "%1.")
 
 dialog_addDialog("b2-1", "en", "")
 dialog_addDialog("b2-1", "cs", "sound/"..codename.."/cs/b2-1.ogg")
-dialog_addDialog("b2-1", "fr", "")
-dialog_addDialog("b2-1", "de", "")
 
 dialog_addDialog("b2-2", "en", "")
 dialog_addDialog("b2-2", "cs", "sound/"..codename.."/cs/b2-2.ogg")
-dialog_addDialog("b2-2", "fr", "")
-dialog_addDialog("b2-2", "de", "")
 
 dialog_addDialog("b2-3", "en", "")
 dialog_addDialog("b2-3", "cs", "sound/"..codename.."/cs/b2-3.ogg")
-dialog_addDialog("b2-3", "fr", "")
-dialog_addDialog("b2-3", "de", "")
 
 dialog_addDialog("b2-4", "en", "")
 dialog_addDialog("b2-4", "cs", "sound/"..codename.."/cs/b2-4.ogg")
-dialog_addDialog("b2-4", "fr", "")
-dialog_addDialog("b2-4", "de", "")
 
 dialog_addDialog("b2-5", "en", "")
 dialog_addDialog("b2-5", "cs", "sound/"..codename.."/cs/b2-5.ogg")
-dialog_addDialog("b2-5", "fr", "")
-dialog_addDialog("b2-5", "de", "")
 
 dialog_addDialog("b2-6", "en", "")
 dialog_addDialog("b2-6", "cs", "sound/"..codename.."/cs/b2-6.ogg")
-dialog_addDialog("b2-6", "fr", "")
-dialog_addDialog("b2-6", "de", "")
 
 dialog_addDialog("b2-7", "en", "")
 dialog_addDialog("b2-7", "cs", "sound/"..codename.."/cs/b2-7.ogg")
-dialog_addDialog("b2-7", "fr", "")
-dialog_addDialog("b2-7", "de", "")
 
 dialog_addDialog("b2-8", "en", "")
 dialog_addDialog("b2-8", "cs", "sound/"..codename.."/cs/b2-8.ogg")
-dialog_addDialog("b2-8", "fr", "")
-dialog_addDialog("b2-8", "de", "")
 
 dialog_addDialog("b2-9", "en", "")
 dialog_addDialog("b2-9", "cs", "sound/"..codename.."/cs/b2-9.ogg")
-dialog_addDialog("b2-9", "fr", "")
-dialog_addDialog("b2-9", "de", "")
 
 dialog_addDialog("b2-10", "en", "")
 dialog_addDialog("b2-10", "cs", "sound/"..codename.."/cs/b2-10.ogg")
-dialog_addDialog("b2-10", "fr", "")
-dialog_addDialog("b2-10", "de", "")
 
 dialog_addDialog("b2-a", "en", "", "font_cyan", "%1.")
 dialog_addDialog("b2-a", "cs", "sound/"..codename.."/cs/b2-a.ogg", "font_cyan", "%1.")
-dialog_addDialog("b2-a", "fr", "", "font_cyan", "%1.")
-dialog_addDialog("b2-a", "de", "", "font_cyan", "%1.")
 
 dialog_addDialog("b2-b", "en", "", "font_cyan", "%1.")
 dialog_addDialog("b2-b", "cs", "sound/"..codename.."/cs/b2-b.ogg", "font_cyan", "%1.")
-dialog_addDialog("b2-b", "fr", "", "font_cyan", "%1.")
-dialog_addDialog("b2-b", "de", "", "font_cyan", "%1.")
 
 dialog_addDialog("b2-c", "en", "", "font_cyan", "%1.")
 dialog_addDialog("b2-c", "cs", "sound/"..codename.."/cs/b2-c.ogg", "font_cyan", "%1.")
-dialog_addDialog("b2-c", "fr", "", "font_cyan", "%1.")
-dialog_addDialog("b2-c", "de", "", "font_cyan", "%1.")
 
 dialog_addDialog("b2-d", "en", "", "font_cyan", "%1.")
 dialog_addDialog("b2-d", "cs", "sound/"..codename.."/cs/b2-d.ogg", "font_cyan", "%1.")
-dialog_addDialog("b2-d", "fr", "", "font_cyan", "%1.")
-dialog_addDialog("b2-d", "de", "", "font_cyan", "%1.")
 
 dialog_addDialog("b2-e", "en", "", "font_cyan", "%1.")
 dialog_addDialog("b2-e", "cs", "sound/"..codename.."/cs/b2-e.ogg", "font_cyan", "%1.")
-dialog_addDialog("b2-e", "fr", "", "font_cyan", "%1.")
-dialog_addDialog("b2-e", "de", "", "font_cyan", "%1.")
 
 dialog_addDialog("b2-f", "en", "", "font_cyan", "%1.")
 dialog_addDialog("b2-f", "cs", "sound/"..codename.."/cs/b2-f.ogg", "font_cyan", "%1.")
-dialog_addDialog("b2-f", "fr", "", "font_cyan", "%1.")
-dialog_addDialog("b2-f", "de", "", "font_cyan", "%1.")
 
 dialog_addDialog("b2-g", "en", "", "font_cyan", "%1.")
 dialog_addDialog("b2-g", "cs", "sound/"..codename.."/cs/b2-g.ogg", "font_cyan", "%1.")
-dialog_addDialog("b2-g", "fr", "", "font_cyan", "%1.")
-dialog_addDialog("b2-g", "de", "", "font_cyan", "%1.")
 
 dialog_addDialog("b2-h", "en", "", "font_cyan", "%1.")
 dialog_addDialog("b2-h", "cs", "sound/"..codename.."/cs/b2-h.ogg", "font_cyan", "%1.")
-dialog_addDialog("b2-h", "fr", "", "font_cyan", "%1.")
-dialog_addDialog("b2-h", "de", "", "font_cyan", "%1.")
 
 dialog_addDialog("b2-i", "en", "", "font_cyan", "%1.")
 dialog_addDialog("b2-i", "cs", "sound/"..codename.."/cs/b2-i.ogg", "font_cyan", "%1.")
-dialog_addDialog("b2-i", "fr", "", "font_cyan", "%1.")
-dialog_addDialog("b2-i", "de", "", "font_cyan", "%1.")
 
 dialog_addDialog("b2-j", "en", "", "font_cyan", "%1.")
 dialog_addDialog("b2-j", "cs", "sound/"..codename.."/cs/b2-j.ogg", "font_cyan", "%1.")
-dialog_addDialog("b2-j", "fr", "", "font_cyan", "%1.")
-dialog_addDialog("b2-j", "de", "", "font_cyan", "%1.")
 
 
