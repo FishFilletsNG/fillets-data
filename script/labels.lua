@@ -68,11 +68,12 @@ label_text("menu_music", "it", "Volume musica");
 label_text("menu_lang", "en", "Choose language");
 label_text("menu_lang", "cs", "Výběr jazyka");
 label_text("menu_lang", "fr", "Choix de la langue");
-label_text("menu_lang", "de", "Sprachauswahl");
+label_text("menu_lang", "de", "Sprache der Untertitel");
 label_text("menu_lang", "it", "Scegli la lingua");
 
 label_text("menu_speech", "en", "Choose speech");
 label_text("menu_speech", "cs", "Výběr mluvy");
+label_text("menu_speech", "de", "Sprache der Tonausgabe");
 
 label_text("menu_subtitles", "en", "Show/hide subtitles");
 label_text("menu_subtitles", "cs", "Zobraz/skryj titulky");
