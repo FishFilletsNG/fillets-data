@@ -69,8 +69,7 @@ dialogId("smrt-m-posmrtny", "font_small", "I don`t know. I don`t think so.")
 dialogStr("Non so. Non mi pare.. .")
 
 dialogId("smrt-m-autorest", "font_small", "I am not going to solve it alone. Don`t trouble yourself with restart, I`ll do it myself.")
-dialogStr("Non ho intenzione di continuare da sola. Non preuccoparti di ricominciare, lo farò da me.")
+dialogStr("Non ho intenzione di continuare da sola. Non preuccoparti di ricominciare, ci penso io.")
 
 dialogId("smrt-v-autorest", "font_big", "And she is gone. I`m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
 dialogStr("Ed ecco che se ne va. Sono sicuro che le volevi bene tanto quanto me. Sicuramente non avrai nulla in contrario a ricominciare il livello.")
-
