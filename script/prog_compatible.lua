@@ -19,6 +19,13 @@ end
 -- -----------------------------------------------------------------
 -- Compatibility functions
 -- -----------------------------------------------------------------
+dir_no = 0
+dir_up = 1
+dir_down = 2
+dir_left = 3
+dir_right = 4
+
+-- -----------------------------------------------------------------
 function addm(time, text)
     small:planDialog(time, text)
 end
@@ -62,13 +69,12 @@ function dist(one, second)
     local dy = math.abs(ydist(one, second))
     return math.max(dx, dy)
 end
-
 -- -----------------------------------------------------------------
-dir_no = 0
-dir_up = 1
-dir_down = 2
-dir_left = 3
-dir_right = 4
+-- Alternative for FArray
+-- -----------------------------------------------------------------
+function modelEquals(model_index, x, y)
+    return model_equals(model_index, x, y)
+end
 
 -- -----------------------------------------------------------------
 -- Init functions
