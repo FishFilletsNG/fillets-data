@@ -22,7 +22,7 @@ branch_addNode("bathyscaph", "tank", "script/tank/init.lua", 446, 58)
 branch_addNode("tank", "viking2", "script/viking2/init.lua", 402, 61)
 branch_addNode("viking2", "party2", "script/party2/init.lua", 372, 88)
 branch_addNode("party2", "gods", "script/gods/init.lua", 391, 124,
-        false, "images/gods/poster.png")
+        false, "script/gods/demo_poster.lua")
 
 -- Silver's Ship
 branch_addNode("wreck", "cabin1", "script/cabin1/init.lua", 464, 227, true)
@@ -32,7 +32,7 @@ branch_addNode("cannons", "kitchen", "script/kitchen/init.lua", 558, 254)
 branch_addNode("kitchen", "cabin2", "script/cabin2/init.lua", 571, 210)
 branch_addNode("cabin2", "captain", "script/captain/init.lua", 550, 175)
 branch_addNode("captain", "map", "script/map/init.lua", 510, 199,
-        false, "images/map/poster.png")
+        false, "script/map/demo_poster.lua")
 
 -- City In the Deep
 branch_addNode("stairs", "elevator1", "script/elevator1/init.lua", 247, 234, true)
@@ -45,7 +45,7 @@ branch_addNode("pyramid", "music", "script/music/init.lua", 207, 52)
 branch_addNode("music", "crabshow", "script/crabshow/init.lua", 244, 44)
 branch_addNode("crabshow", "elevator2", "script/elevator2/init.lua", 266, 77)
 branch_addNode("elevator2", "atlantis", "script/atlantis/init.lua", 251, 115,
-    false, "images/atlantis/poster.png")
+    false, "script/atlantis/demo_poster.lua")
 
 -- UFO
 branch_addNode("ufo", "reactor", "script/reactor/init.lua", 167, 222, true)
@@ -55,7 +55,7 @@ branch_addNode("engine", "steel", "script/steel/init.lua", 70, 210)
 branch_addNode("steel", "corridor", "script/corridor/init.lua", 78, 169)
 branch_addNode("corridor", "experiments", "script/experiments/init.lua", 111, 159)
 branch_addNode("experiments", "propulsion", "script/propulsion/init.lua", 118, 192,
-        false, "images/propulsion/poster.png")
+        false, "script/propulsion/demo_poster.lua")
 
 -- Coral reef
 branch_addNode("reef", "corals", "script/corals/init.lua", 329, 294, true)
@@ -66,7 +66,7 @@ branch_addNode("society", "creatures", "script/creatures/init.lua", 412, 383)
 branch_addNode("creatures", "cancan", "script/cancan/init.lua", 386, 406)
 branch_addNode("cancan", "pearls", "script/pearls/init.lua", 352, 408)
 branch_addNode("pearls", "turtle", "script/turtle/init.lua", 337, 375,
-        false, "images/turtle/poster.png")
+        false, "script/turtle/demo_poster.lua")
 
 -- Treasure Cave
 branch_addNode("labyrinth", "aztec", "script/aztec/init.lua", 407, 282, true)
@@ -75,7 +75,7 @@ branch_addNode("gems", "chest", "script/chest/init.lua", 469, 319)
 branch_addNode("chest", "alibaba", "script/alibaba/init.lua", 494, 341)
 branch_addNode("alibaba", "cave", "script/cave/init.lua", 529, 334)
 branch_addNode("cave", "grail", "script/grail/init.lua", 558, 318,
-        false, "images/grail/poster.png")
+        false, "script/grail/demo_poster.lua")
 
 -- Dump
 branch_addNode("wc", "computer", "script/computer/init.lua", 289, 368, true)
@@ -85,7 +85,7 @@ branch_addNode("bathroom", "duckie", "script/duckie/init.lua", 170, 415)
 branch_addNode("duckie", "puzzle", "script/puzzle/init.lua", 138, 385)
 branch_addNode("puzzle", "dump", "script/dump/init.lua", 154, 342)
 branch_addNode("dump", "barrel", "script/barrel/init.lua", 192, 351,
-        false, "images/barrel/poster.png")
+        false, "script/barrel/demo_poster.lua")
 
 -- Secret Computer
 branch_addNode("computer", "tetris", "script/tetris/init.lua", 254, 349, true)
@@ -94,6 +94,6 @@ branch_addNode("emulator", "warcraft", "script/warcraft/init.lua", 198, 290)
 branch_addNode("warcraft", "windoze", "script/windoze/init.lua", 162, 279)
 branch_addNode("windoze", "hardware", "script/hardware/init.lua", 129, 290)
 branch_addNode("hardware", "floppy", "script/floppy/init.lua", 97, 314,
-        false, "images/floppy/poster.png")
+        false, "script/floppy/demo_poster.lua")
 
 
