@@ -1,9 +1,46 @@
-Game:
-- animation
-- dialogs
-- game menu
-- load and save
-- player statistics
-- intro
-...
+TODO
+
+priority - 1-High, 2-Medium, 3-Low
+
+
+GAME SPECIFIC
+2 - game map
+3 - game menu - select language for subtitles, sound on/off
+3 - video playback
+3 - documentation - rules, how to play, story
+3 - software packages - rpm, deb, tar.gz
+
+
+INPUT
+1 - keyboard control - arrow keys & space bar to switch between fishes
+1 - key to restart level
+2 - fish move acceleration
+2 - keyboard control - asdw keys and jkli keys
+2 - mouse control - select fish by left-clicking on it, left-click in level to go there without touching anything
+2 - key to load/save position
+
+
+STATISTICS
+2 - implement load/save position
+2 - count steps after finishing level
+
+
+LEVEL SPECIFIC
+1 - implement animation of objects in levels
+1 - convert all animation of objects in levels to lua
+1 - implement triggered dialogs
+1 - convert all triggered dialogs to lua
+2 - in final levels you have to get some object out of screen to win
+
+
+GRAPHICS
+3 - waves in level background
+3 - waves in text dialogs
+
+
+SOUND
+1 - convert all sound and music to ogg
+2 - implement sound playback
+2 - implement music playback
+
 
