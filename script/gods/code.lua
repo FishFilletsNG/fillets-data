@@ -586,7 +586,6 @@ local function prog_init()
 
         return function()
             if objekty.afaze >= 0 then
-                        objekty.afaze, objekty.shiftX, objekty.shiftY)
                 model_setViewShift(objekty.index,
                         objekty.shiftX, objekty.shiftY)
                 objekty.shiftY = objekty.shiftY + objekty.speedY
