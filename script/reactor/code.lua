@@ -122,9 +122,9 @@ local function prog_init()
             end
             if pld.vlnit > 0 then
                 if pld.del == 0 then
-                    if pld.del < 3 then
+                    if pld.vlnit < 3 then
                         pld.del = 3
-                    elseif pld.del < 6 then
+                    elseif pld.vlnit < 6 then
                         pld.del = 2
                     else
                         pld.del = 1
@@ -176,7 +176,7 @@ local function prog_init()
                         pld.afaze = 0
                         pld.faze = 0
                     end,
-                    defaut = function()
+                    default = function()
                         if pld.faze == 1 or pld.faze == 4 then
                             pld.faze = pld.faze + 1
                             pld.afaze = 4
@@ -210,7 +210,7 @@ local function prog_init()
                     if pld.afaze == 0 then
                         pld.afaze = 9
                     else
-                        pld.afaze = math.mod(pld.afaze + 6, 15)
+                        pld.afaze = pld.afaze + 6
                     end
                 end
             end
