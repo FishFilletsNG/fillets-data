@@ -95,8 +95,8 @@ local function prog_init()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
         frkavec.cinnost = 0
-        --FIXME: spec 11 = invisible
-        frkavec.spec = 11
+        --NOTE: spec 11 = invisible
+        frkavec:setEffect("invisible")
 
         return function()
             switch(frkavec.okno){
@@ -108,11 +108,14 @@ local function prog_init()
                 end,
             }
             if frkavec.cinnost > 0 then
-                --FIXME: spec 10 = reverse picture
-                frkavec.spec = frkavec.strana * 10
+                --NOTE: spec 10 = reverse picture
+                if frkavec.strana == 1 then
+                    frkavec:setEffect("reverse")
+                else
+                    frkavec:setEffect("none")
+                end
             else
-                --FIXME: spec 11
-                frkavec.spec = 11
+                frkavec:setEffect("invisible")
             end
             switch(frkavec.cinnost){
                 [0] = function()
@@ -195,8 +198,7 @@ local function prog_init()
     local function prog_init_dama()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
-        --FIXME: spec 11 = invisible
-        dama.spec = 11
+        dama:setEffect("invisible")
         dama.kdeje = random(3)
         dama.cinnost = 0
 
@@ -210,11 +212,13 @@ local function prog_init()
                 end,
             }
             if dama.cinnost > 0 then
-                --FIXME: spec 10 = reverse picture
-                dama.spec = dama.strana * 10
+                if dama.strana == 1 then
+                    dama:setEffect("reverse")
+                else
+                    dama:setEffect("none")
+                end
             else
-                --FIXME: spec 11
-                dama.spec = 11
+                dama:setEffect("invisible")
             end
             local cinnost_table = {
                 [0] = function()
@@ -305,8 +309,7 @@ local function prog_init()
     local function prog_init_kapitan()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
-        --FIXME: spec 11 = invisible
-        kapitan.spec = 11
+        kapitan:setEffect("invisible")
         kapitan.kdeje = random(3)
         kapitan.cinnost = 0
 
@@ -320,11 +323,13 @@ local function prog_init()
                 end,
             }
             if kapitan.cinnost > 0 then
-                --FIXME: spec 10 = reverse picture
-                kapitan.spec = (1 - kapitan.strana) * 10
+                if kapitan.strana == 0 then
+                    kapitan:setEffect("reverse")
+                else
+                    kapitan:setEffect("none")
+                end
             else
-                --FIXME: spec 11
-                kapitan.spec = 11
+                kapitan:setEffect("invisible")
             end
             local cinnost_table = {
                 [0] = function()
@@ -411,8 +416,7 @@ local function prog_init()
     local function prog_init_lodnik()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
-        --FIXME: spec 11 = invisible
-        lodnik.spec = 11
+        lodnik:setEffect("invisible")
         lodnik.kdeje = random(3)
         lodnik.cinnost = 0
 
@@ -426,11 +430,13 @@ local function prog_init()
                 end,
             }
             if lodnik.cinnost > 0 then
-                --FIXME: spec 10 = reverse picture
-                lodnik.spec = lodnik.strana * 10
+                if lodnik.strana == 1 then
+                    lodnik:setEffect("reverse")
+                else
+                    lodnik:setEffect("none")
+                end
             else
-                --FIXME: spec 11
-                lodnik.spec = 11
+                lodnik:setEffect("invisible")
             end
             switch(lodnik.cinnost){
                 [0] = function()
@@ -461,44 +467,36 @@ local function prog_init()
                     end
                 end,
                 [1] = function()
-                    switch(lodnik.faze){
-                        default = function()
-                            if lodnik.faze >= 0 and lodnik.faze <= 9 then
-                                lodnik.afaze = lodnik.faze
-                                if lodnik.delay > 0 then
-                                    lodnik.delay = lodnik.delay - 1
-                                else
-                                    lodnik.delay = 1 + (lodnik.cinnost - 1) * 2
-                                    lodnik.faze = lodnik.faze + 1
-                                end
-                                if lodnik.faze == 10 then
-                                    lodnik.cinnost = 0
-                                    room.globpole[lodnik.okno] = 0
-                                    lodnik.kdeje = lodnik.kdebude
-                                end
-                            end
-                        end,
-                    }
+                    if lodnik.faze >= 0 and lodnik.faze <= 9 then
+                        lodnik.afaze = lodnik.faze
+                        if lodnik.delay > 0 then
+                            lodnik.delay = lodnik.delay - 1
+                        else
+                            lodnik.delay = 1 + (lodnik.cinnost - 1) * 2
+                            lodnik.faze = lodnik.faze + 1
+                        end
+                        if lodnik.faze == 10 then
+                            lodnik.cinnost = 0
+                            room.globpole[lodnik.okno] = 0
+                            lodnik.kdeje = lodnik.kdebude
+                        end
+                    end
                 end,
                 [2] = function()
-                    switch(lodnik.faze){
-                        default = function()
-                            if lodnik.faze >= 0 and lodnik.faze <= 12 then
-                                lodnik.afaze = lodnik.faze + 10
-                                if lodnik.delay > 0 then
-                                    lodnik.delay = lodnik.delay - 1
-                                else
-                                    lodnik.delay = 1 + (lodnik.cinnost - 1) * 2
-                                    lodnik.faze = lodnik.faze + 1
-                                end
-                                if lodnik.faze == 13 then
-                                    lodnik.cinnost = 0
-                                    room.globpole[lodnik.okno] = 0
-                                    lodnik.kdeje = lodnik.kdebude
-                                end
-                            end
-                        end,
-                    }
+                    if lodnik.faze >= 0 and lodnik.faze <= 12 then
+                        lodnik.afaze = lodnik.faze + 10
+                        if lodnik.delay > 0 then
+                            lodnik.delay = lodnik.delay - 1
+                        else
+                            lodnik.delay = 1 + (lodnik.cinnost - 1) * 2
+                            lodnik.faze = lodnik.faze + 1
+                        end
+                        if lodnik.faze == 13 then
+                            lodnik.cinnost = 0
+                            room.globpole[lodnik.okno] = 0
+                            lodnik.kdeje = lodnik.kdebude
+                        end
+                    end
                 end,
             }
 
