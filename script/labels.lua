@@ -60,6 +60,10 @@ label_text("solver_equals", "cs",
 [[
 Vyrovnal jsi nejlepší známé řešení.
 ]])
+label_text("solver_equals", "fr",
+[[
+Votre solution égale la meilleure connue.
+]])
 label_text("solver_equals", "it",
 [[
 La tua soluzione è pari a quella migliore.
