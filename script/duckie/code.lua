@@ -69,7 +69,7 @@ local function prog_init()
 
         return function()
             if big.xichtit == 1 then
-                xicht = random(10)
+                xicht = random(9)
             else
                 xicht = 0
             end
