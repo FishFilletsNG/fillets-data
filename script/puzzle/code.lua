@@ -62,7 +62,7 @@ local function prog_init()
                     planSet(pld, "smutny", 60 + random(60))
                     pld:planDialog(3, "puc-x-pldik")
                 elseif room.tahy == 1 and big.dir ~= dir_no then
-                    addv(10, "puc-v-fuska" + chr(random(2) + 48))
+                    addv(10, "puc-v-fuska"..random(2))
                     room.tahy = random(500) + 500
                 elseif prvni.hotovo == 1 then
                     addv(5, "puc-v-fuska2")
