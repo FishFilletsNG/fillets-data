@@ -74,7 +74,8 @@ branch_addNode("aztec", "gems", "script/gems/init.lua", 441, 291)
 branch_addNode("gems", "chest", "script/chest/init.lua", 469, 319)
 branch_addNode("chest", "alibaba", "script/alibaba/init.lua", 494, 341)
 branch_addNode("alibaba", "cave", "script/cave/init.lua", 529, 334)
-branch_addNode("cave", "grail", "script/grail/init.lua", 558, 318)
+branch_addNode("cave", "grail", "script/grail/init.lua", 558, 318,
+        false, "images/grail/poster.png")
 
 -- Dump
 branch_addNode("wc", "computer", "script/computer/init.lua", 289, 368, true)
