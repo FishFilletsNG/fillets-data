@@ -13,9 +13,16 @@ fi
 MUSIC=`sed -n "/^$codename / s/[^ ]*[ ]*\([^ ]*\).*/\1/ p" music/music.txt`
 
 mkdir -p "script/$codename" && \
-$ff2lua "images/$codename/$codename.rum" >"script/$codename/models.lua" && \
-$prog2lua "images/$codename/$codename.rum" | sed s/FIXME:music.ogg/$MUSIC/  >"script/$codename/code.tmp" && \
-$dialogs "sound/$codename/$codename.txt" >"script/$codename/dialogs.lua" && \
+$ff2lua "images/$codename/$codename.rum" >"script/$codename/models.lua"
+$prog2lua "images/$codename/$codename.rum" | sed s/FIXME:music.ogg/$MUSIC/ >"script/$codename/code.tmp"
+
+if [ ! -f script/$codename/code.lua ]; then
+	cp script/$codename/code.tmp script/$codename/code.lua
+fi
+
+$dialogs "sound/$codename/$codename.txt" >"script/$codename/dialogs.lua"
+
+
 echo "file_include('script/level_funcs.lua')
 
 codename = '$codename'
