@@ -143,6 +143,9 @@ function createObject(model_index)
     object.talk = function(self, dialog)
         return model_talk(self.index, dialog)
     end
+    object.killSound = function(self)
+        return model_killSound(self.index)
+    end
     object.planDialog = function(self, dialog, delay, action)
         return planDialog(self.index, dialog, delay, action)
     end
@@ -151,6 +154,9 @@ function createObject(model_index)
     end
     object.change_turnSide = function(self)
         return model_change_turnSide(self.index)
+    end
+    object.change_setLocation = function(self, x, y)
+        return model_change_setLocation(self.index, x, y)
     end
     object.setBusy = function(self, value)
         local busy = 1
