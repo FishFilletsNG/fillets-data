@@ -4,38 +4,38 @@ addModel("item_fixed", 0, 0, "images/Pravidla/Pravidla-w.png",
 [[
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-XXXXXXXXXXXX             XXXXXX     XXXX
-XXXXXXXXX X               X           XX
-XXXXXXXX        XXXXX                  X
-XXXXXX             XX          XXX     X
-XXXXX                                  X
-XXXXXX       X   XXXXXXXXX            XX
-XXXXXXX      XX XXXXXXXXXXX          XXX
-XXXXXXXX      X X    XXXXXXXX        XXX
-XXX  XXX             XXXX           XXXX
-XX     XX            X              XXXX
-XX     XXXXXXXX X    XX              XXX
-XX      XXXXXXXXX    XXXX            XXX
-XX      XXXXXXXX     XXXXX      XX   XXX
-XX        XXXX        XX        XXXXXXXX
-X                     XX          XXXXXX
-X                     XXX           XXXX
-X                    XXXX            XXX
-X     XXXXXXXXXXXXXXXXXX             XXX
-X                      X             XXX
-                                   XXXXX
-                      XXXXXXXX    XXXXXX
-XXX XXXXXXXXXXXXXXXXXXXXXXXXX      XXXXX
-XX       X             XXXXXX         XX
-XX                       XXXX          X
-X                         XXX          X
-X          XX               X          X
-X        XXXX X                        X
-X        XXXXXX                        X
-X        XXXXXXX           XXXX        X
-X        XXXXXXXXXX       XXXXX       XX
-XXXXX    XXXXXXXXXXXXXXXXXXXXXX      XXX
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   XXXXX
+XXXXXXXXXXXX.............XXXXXX.....XXXX
+XXXXXXXXX.X...............X...........XX
+XXXXXXXX........XXXXX..................X
+XXXXXX.............XX..........XXX.....X
+XXXXX..................................X
+XXXXXX.......X...XXXXXXXXX............XX
+XXXXXXX......XX.XXXXXXXXXXX..........XXX
+XXXXXXXX......X.X....XXXXXXXX........XXX
+XXX..XXX.............XXXX...........XXXX
+XX.....XX............X..............XXXX
+XX.....XXXXXXXX.X....XX..............XXX
+XX......XXXXXXXXX....XXXX............XXX
+XX......XXXXXXXX.....XXXXX......XX...XXX
+XX........XXXX........XX........XXXXXXXX
+X.....................XX..........XXXXXX
+X.....................XXX...........XXXX
+X....................XXXX............XXX
+X.....XXXXXXXXXXXXXXXXXX.............XXX
+X......................X.............XXX
+...................................XXXXX
+......................XXXXXXXX....XXXXXX
+XXX.XXXXXXXXXXXXXXXXXXXXXXXXX......XXXXX
+XX.......X.............XXXXXX.........XX
+XX.......................XXXX..........X
+X.........................XXX..........X
+X..........XX...............X..........X
+X........XXXX.X........................X
+X........XXXXXX........................X
+X........XXXXXXX...........XXXX........X
+X........XXXXXXXXXX.......XXXXX.......XX
+XXXXX....XXXXXXXXXXXXXXXXXXXXXX......XXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX...XXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ]])
 
@@ -78,7 +78,7 @@ X
 addModel("item_light", 10, 24, "images/Pravidla/sekera0.png",
 [[
 XXXXX
-    X
+....X
 ]])
 
 addModel("item_light", 22, 29, "images/Pravidla/marmelada.png",
@@ -114,7 +114,7 @@ X
 
 addModel("item_heavy", 27, 12, "images/Pravidla/13-Ocel.png",
 [[
-   X     
+...X.....
 XXXXXXXXX
 ]])
 

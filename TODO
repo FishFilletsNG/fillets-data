@@ -7,15 +7,3 @@ Game:
 - intro
 ...
 
-
-Engine:
-- NOTE: SDL_RLEACCEL may seedup transparent bliting
-- NOTE: SDL_WarpMouse() may be enough instead moving window
-
-- make nice aap build
-
-- define SYSTEM_DATA_DIR and USER_DATA_DIR in build
-
-- make the engine independent on Name, app developer should not
-  need to edit Name.h
-
