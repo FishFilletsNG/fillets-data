@@ -2,7 +2,7 @@
 -- pedometer
 label_text("solver_worse", "en",
 [[
-Best solution:      %1"
+Best solution:      %1
 Solved by %2
 ]])
 label_text("solver_worse", "cs",
