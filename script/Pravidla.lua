@@ -1,6 +1,5 @@
 
--- TODO: find file in userdir or systemdir
-require("script/level_funcs.lua")
+path_include("script/level_funcs.lua")
 
 createRoom(40, 35, "images/Pravidla/Pravidla-p.png")
 
@@ -170,20 +169,21 @@ function nextRound()
         start = 2
         little:planDialog("pra-m-chytit", 50)
         big:planDialog("pra-v-vzit", 50)
+        big:planDialog("pra-v-vzit", 50)
+        big:planDialog("pra-v-vzit", 50)
+        little:planDialog("pra-m-prisun", 50)
+        little:planDialog("pra-m-chytit", 50)
         little:planDialog("pra-m-prisun", 50)
     end
 
-    if little:isTalking() then
+    
+    if little:isTalking() and "turn" ~= little:getAction() then
         -- print("little is talking")
-        little:setSpecialAnim("head_talking", math.random(3) - 1)
-    else
-        little:setSpecialAnim("", 0)
+        little:useSpecialAnim("head_talking", math.random(3) - 1)
     end
-    if big:isTalking() then
+    if big:isTalking() and "turn" ~= big:getAction() then
         -- print("big is talking")
-        big:setSpecialAnim("head_talking", math.random(3) - 1)
-    else
-        big:setSpecialAnim("", 0)
+        big:useSpecialAnim("head_talking", math.random(3) - 1)
     end
 end
 

@@ -25,8 +25,8 @@ function createObject(model_index)
     object.setAnim = function(self, anim_name, phase)
         model_setAnim(self.index, anim_name, phase)
     end
-    object.setSpecialAnim = function(self, anim_name, phase)
-        model_setSpecialAnim(self.index, anim_name, phase)
+    object.useSpecialAnim = function(self, anim_name, phase)
+        model_useSpecialAnim(self.index, anim_name, phase)
     end
 
     object.X = function(self)
