@@ -1,0 +1,87 @@
+CE
+jes-m-netopyr
+ M: Ten netopýr musí mít ale ukrutnou sílu.
+ M: That bat must be terribly strong.
+jes-v-tojo
+ V: Hmm..., to jó.
+ V: Well, yes.
+
+jes-m-tvor
+ M: Ten èervený tvor má trochu zvlá¹tní tvar.
+ M: That red creature is little bit strange.
+jes-v-nestezuj
+ V: Nestì¾uj si. Nìco mi øíká, ¾e se to bude je¹tì hodit.
+ V: It may be true, but I think we are going to need it.
+
+jes-v-uzke
+ V: Je to na mì úzké. Musí¹ to dole zvládnout sama.
+ V: It`s too narrow for me. You have to do it on your own down there.
+
+jes-m-ryba
+ M: Ta bílá ryba tu neuvìøitelnì pøeká¾í.
+ M: That white fish is a terrible obstacle.
+jes-v-kamen
+ V: Ryba? Myslel jsem, ¾e je to jen kámen.
+ V: Fish? I thought it`s only a stone.    
+
+jes-v-gral
+ V: Zdá se mi, ¾e grál bychom mìli hledat úplnì jinde...
+ V: I think that we should be looking for the Grail somewhere else...
+jes-m-deprese
+ M: Nepropadej depresi. Tohle vyøe¹íme raz dva.
+ M: Don`t be depressive. We will solve this in no time.
+jes-v-nevim
+ V: No nevím...
+ V: I am not that sure.
+
+jes-m-takvidis
+ M: Tak vidí¹, u¾ jsi tu.
+ M: See? You are here.
+
+jes-m-potvora0
+ M: Co je to za opalizující potvoru?
+ M: What kind of color-shifting monster is this?
+jes-m-potvora1
+ M: To je ale nestvùra.
+ M: This is an abomination.
+jes-m-potvora2
+ M: To je urá¾ka Stvoøitele.
+ M: This is an offense of Nature.
+jes-v-potvora0
+ V: To je kladivoun pableskující.
+ V: It is called the Flashy hammerhead.
+jes-v-potvora1
+ V: To je odporník lesklý.
+ V: It is called the Glossy repulsor.
+ jes-v-potvora2
+ V: To je hlavoun duhový.
+ V: It is called the Politician fish.
+
+jes-m-netopyr0
+ M: Ten netopýr je nìèím zvlá¹tní.
+ M: This bat is kind of strange.
+jes-v-netopyr0
+ V: Je to netopýr flegmatik.
+ V: This is very phlegmatic bat.
+jes-m-netopyr1
+ M: Je to netopýr vycpaný.
+ M: This is a stuffed bat.
+jes-v-netopyr1
+ V: Je to socha netopýra.
+ V: It`s a sculpture of bat.
+jes-m-netopyr2
+ M: Je to krápník podobný netopýru.
+ M: It`s a stalagmite shaped as a bat.
+jes-v-netopyr2
+ V: Je to obyèejný krápník.
+ V: It`s a plain stalagmite.
+jes-m-netopyr3
+ M: Je to úplnì obyèejný kus ¹utru.
+ M: It`s just an ordinary piece of rock.
+
+jes-v-nechut0
+ V: Myslím, ¾e tu 'potvoru` bude¹ potøebovat.
+ V: I think you are going to need that 'monster`.
+jes-v-nechut1
+ V: Myslím, ¾e bys mìla pøekonat nechu» k té 'nestvùøe`.
+ V: I think you will have to overcome your dislike of that 'abomination`.

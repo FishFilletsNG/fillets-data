@@ -1,0 +1,38 @@
+CE
+sc-v-typicka
+ V: Tohle není typická místnost.
+ V: This is not a typical level.
+sc-m-orisek
+ M: Dostat se z téhle místnosti ven, to by byl jistì dost nároèný oøí¹ek.
+ M: To get out of this level would be surely taxing.
+
+sc-v-pismena
+ V: Na¹li jsme tady na dnì rozházená nìjaká písmena.
+ V: We found some letters scattered around the ocean floor.
+sc-m-napis
+ M: Tì¾ko øíci, ze kterého nápisu asi pocházejí.
+ M: It`s hard to say what are they supposed to mean.
+
+sc-v-poskladat
+ V: Tvým úkolem, pokud jej pøijme¹, bude poskládat písmena do øady, hezky vedle sebe, aby vytvoøila nìjaký nápis.
+ V: Your mission, if you choose to accept it, will be to arrange the letters in a row, one along the other, to form some inscription.
+sc-m-jmeno
+ M: Tøeba jméno nìjakého tvého kamaráda.
+ M: A name of your friend, for example.
+sc-v-darek
+ V: Bude to pìkný dárek k jeho nedávným padesátinám.
+ V: It will be a nice present for his recent fiftieth birthday.
+
+sc-m-tezky
+ M: To bude pro hráèe tì¾ký oøí¹ek.
+ M: This will be very difficult for the player.
+sc-v-casopis
+ V: Zvlá¹» jestli nezná poèítaèový èasopis SCORE.
+ V: Especially if he doesn`t know the computer games magazine Score.
+sc-m-pst
+ M: Psst... teï jsi to málem prozradil.
+ M: Shhh... You almost gave it out.
+
+sc-m-mezery
+ M: A a» tam nejsou mezery, a a» ¾ádné písmeno nevyènívá z øady.
+ M: And remember, there may be no spaces and all letters must be aligned.

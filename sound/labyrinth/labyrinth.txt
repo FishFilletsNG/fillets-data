@@ -1,0 +1,62 @@
+CE
+bl-m-zvlastni0
+ M: Tohle je zvlá¹tní místnost.
+ M: Now this is a strange room.
+bl-v-zvlastni1
+ V: Toto je velmi neobvyklá místnost.
+ V: This is a very unusual room.
+bl-m-funkce
+ M: Kvùli této místnosti byla zøízena funkce asistenta zástupce vedoucího designu, aby se její autor také dostal do titulkù.
+ M: The position of assistant deputy design coordinator was introduced because of this level. So that its author got his own credit.
+bl-v-pozadi
+ V: Dosti ji¾ o pozadí hry a vzhùru do øe¹ení.
+ V: Enough about the game background and let`s get to work.
+
+bl-m-koral0
+ M: To je velmi divný korál.
+ M: This is a very strange coral.
+bl-v-koral1
+ V: To je velmi èlenitý korál.
+ V: This is a very particular coral.
+bl-m-visi
+ M: A na èem to visí?
+ M: And what does it hang on?
+bl-v-nevim0
+ V: To nevím. Ale stejnì to musíme sundat.
+ V: I don`t know. But we have to get it down anyway.
+bl-v-nevim1
+ V: To nevím. A musíme to urèitì sundávat?
+ V: I don`t know. Do we have to put it down?
+
+bl-m-tvar
+ M: Jak mohl ten korál narùst do tak bizarního tvaru?
+ M: How could that coral acquire such a bizarre shape?
+bl-v-pestovany
+ V: Je umìle pìstovaný pro hráèe logických her.
+ V: It is carefully grown for the logical games players.
+
+bl-v-proc
+ V: Proè chce¹ vlastnì ten korál sundávat?
+ V: Why do you want to put that coral down, after all?
+bl-m-zeptej
+ M: To já nevím. Zeptej se hráèe.
+ M: I have no idea. Ask the player.
+
+bl-m-snecku0
+ M: ©neèku, ¹neèku, vystrè rù¾ky, dám ti...
+ V: Shalimuddy, shalimuddy, put your horns out...
+bl-v-dost0
+ V: Nech toho! Dobøe ví¹, ¾e tady se ¾ádný pøedmìt nepohne, kdy¾ do nìho nestrèíme.
+ V: Stop it! As if you don`t know that no object  will move if we don`t push it first!
+bl-m-snecku1
+ M: Ale zkusit to snad mù¾u! ©neèku, ¹neèku...
+ M: But I can try, can`t I? Shalimuddy, Shalimuddy...
+bl-v-dost1
+ V: Nech toho!! Kdy¾ to sly¹ím, vypadávají mi ¹upiny.
+ V: Stop it! It makes my scales itch!
+bl-m-snecku2
+ M: Tak neposlouchej. ©neèku, ¹neèku, vystrè...
+ M: Don`t listen then. Shalimuddy, shalimuddy, put your...
+bl-v-dost2
+ V: Nech toho!!! Nebo na tebe ten korál hodím!
+ V: Stop it! Or I`ll drop that coral on your head!

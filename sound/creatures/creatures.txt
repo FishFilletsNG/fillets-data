@@ -1,0 +1,121 @@
+CE
+kor-m-podivej
+ M: Podívej se na v¹echny ty kraby"
+ M: Look at all these lobsters"
+kor-v-spitu
+ V: Spí tu tisíce let" ponoøeni ve vìènou neèinnost" 
+ V: They sleep for thousands of years" in eternal stillness"
+kor-m-avlada
+ M: "a vláda to tají.
+ M: "and the government tries to cover it up.
+kor-v-nicje
+ V: "nic je neprobudí z jejich spánku"
+ V: "nothing can wake them up"
+kor-m-pokud
+ M: Pokud ov¹em neaktivujeme tu chobotnici.
+ M: Unless we activate that octopus.
+
+kor-v-podivej
+ V: Podívej, v¹echno je tu tak mrtvé a nehybné.
+ V: Look, everything here is so still and quiet.
+kor-m-vzdyt
+ M: V¾dy» ty sasanky se celkem hýbou.
+ M: But the anemones are moving.
+kor-v-treba
+ V: Tøeba jsou to smrtelné køeèe.
+ V: Maybe they`re in the throes of death.
+
+kor-v-shledavam
+ V: Shledávám v tom jistou symboliku.
+ V: I find a certain symbolism in that.
+
+kor-v-bermudy
+ V: To je zajímavé, tento druh korálu pøece roste jen v bermudském trojúhelníku.
+ V: That`s interesting. This type of coral normally grows only in the Bermuda Triangle.
+kor-v-inteligentni
+ V: Ví¹ o tom, ¾e nìkteré druhy korálù jsou skoro tak inteligentní jako ryby?
+ V: Did you know that some types of coral are almost as intelligent as fish?
+kor-v-jedovate
+ V: Dej si pozor, vìt¹ina korálù je jedovatých.
+ V: Be careful, most types of coral are poisonous.
+kor-m-dusi
+ M: Co myslí¹, mají korály du¹i?
+ M: What do you think, is there such a thing as a 'coral-soul`?
+kor-m-pocit
+ M: Nemá¹ pocit, ¾e nás ty korály pozorují?
+ M: Do you have the feeling that those coral are watching us?
+kor-m-bizarni
+ M: Zajímalo by mì, proè mají ty korály tak bizarní tvary.
+ M: I wonder why the coral have such a bizarre shape.
+
+kor-v-juchacka
+ V: To byla juchaèka, co?
+ V: That was some number, wasn`t it?
+kor-m-hraje
+ M: No, hraje celkem obstojnì.
+ M: Yeah, he`s a great player.
+
+kor-v-odvaz
+ V: Docela odvaz, co kdybychom do ní je¹tì ¹»ouchli?
+ V: That`s cool. What if we pushed him again?
+
+kor-m-vsimlsis
+ M: V¹iml sis, co dìlali ti krabi?
+ M: Did you see what the lobsters were doing?
+kor-v-avidelas
+ V: A vidìla jsi, jak trsaly ty sasanky?
+ V: And how those anemones were dancing?
+kor-m-tovis
+ M: To ví¹, moc radosti si zde v hlubinì asi neu¾ijou.
+ M: Well, you know, it`s not all that much fun down here at the bottom of the ocean.
+
+kor-v-vali
+ V: Ta ale válí, co?
+ V: He`s good, isn`t he?
+kor-m-nachob
+ M: Na chobotnici to celkem ujde"
+ M: Not bad for an octopus"
+
+kor-m-jinou
+ M: Myslí¹, ¾e umí taky nìjakou jinou melodii?
+ M: Do you think he knows any other tune?
+
+kor-m-neprehani
+ M: Nezdá se ti, ¾e u¾ to pøehání?
+ M: Don`t you think we`ve had enough already?
+
+kor-m-lezekrkem
+ M: U¾ mi to leze krkem"
+ M: I`m getting sick of it"
+
+kor-v-lezekrkem
+ V: U¾ mi to leze krkem"
+ V: I`m sick and tired of it"
+
+kor-v-kostice
+ V: U¾ toho mám plný kostice.
+ V: I`m fed up to the gills with this.
+
+kor-v-odsud
+ V: Odsud s tím nepohnu, potøeboval bych se k tomu dostat zleva.
+ V: I can`t budge this from where I am. I`d have to try to move it from the left side.
+kor-m-budesmuset
+ M: To ale bude¹ muset projet támhle mezi tìma sasankama.
+ M: Well you`ll have to go that way through those anemones.
+
+kor-m-neniono
+ M: To není ono"
+ M: That`s not what I had in mind"
+kor-m-tudiru
+ M: Tu díru by to chtìlo pøedem nìjak ucpat.
+ M: We should have plugged that hole beforehand.
+
+kor-chob-chro
+x
+x
+kor-chob-psi
+x
+x
+kor-chob-tca
+x
+x

@@ -1,0 +1,109 @@
+CE
+1st-m-cotobylo
+ M: Co to bylo?
+ M: What was that?
+1st-v-netusim
+ V: Nemám tu¹ení.
+ V: I have no idea.
+1st-v-ven
+ V: Mìli bychom se podívat ven.
+ V: We should go and have a look outside.
+1st-m-pockej
+ M: Poèkej na mì, jdu s tebou!
+ M: Wait! I`m going with you.
+
+1st-m-proc
+ M: Proè se nic nedìje?
+ M: Why isn`t anything happening?
+1st-m-hej
+ M: Hej, hráèi!
+ M: Hey, player!
+
+1st-v-navod1
+ V: Mù¾e¹ nás ovládat kurzorovými ¹ipkami a mezerníkem mezi námi pøepínat.
+ V: You can control us with arrow keys and use the space bar to switch fish.
+1st-m-navod2
+ M: Také mù¾e¹ pou¾ít pøímé ovládání - klávesy jsou napsány na ovládacím panelu.
+ M: Or you can use the keyboard -- you can see the keys on the control panel.
+1st-v-navod3
+ V: Tam také vidí¹, kdo z nás je zrovna aktivní.
+ V: There you can also see which one of us is presently active.
+1st-m-navod4
+ M: A nebo my¹kou - nìkam uka¾ levým tlaèítkem a kdy¾ tam mù¾eme dojet"
+ M: Or you can control us with the mouse -- left-click somewhere and"
+1st-v-navod5
+ V: "ani¾ bychom nìèím hýbali"
+ V: "if we can get there without moving anything"
+1st-m-navod6
+ M: "tak tam jedeme.
+ M: "we`ll follow your clicks.
+1st-v-navod7
+ V: A kdy¾ nìkam klikne¹ pravým, tak tím smìrem zkrátka zkusíme jet, pøeká¾ky nepøeká¾ky"
+ V: And when you right-click somewhere, we`ll try to get there, pushing aside all obstacles in our way.
+1st-m-navod8
+ M: No a tvým cílem by mìlo být dostat nás oba ven.
+ M: Your goal should be to get both of us outside.
+1st-v-davej
+ V: A dávej pozor, a» nám neublí¾í¹. Kdy¾ nám nìco hodí¹ na hlavu nebo"
+ V: And be careful not to hurt us. If you drop something on us or"
+1st-m-nechtoho
+ M: U¾ toho nech, to mu øekneme v pøí¹tí místnosti.
+ M: Oh, stop it. We`ll tell him in the next level.
+1st-v-takdobre
+ V: Tak dobøe.
+ V: Okay.
+
+1st-m-neprojedu
+ M: Tudy neprojedu. Zavazí mi ten ocelový válec.
+ M: I can`t get through here. That steel cylinder is in the way.
+1st-m-nepohnu
+ M: S tou ocelí nepohnu. Nechce¹ mi pomoct?
+ M: I can`t move that cylinder. Can you help me?
+1st-v-takukaz
+ V: Tak uka¾"
+ V: No problem"
+1st-m-hmmm
+ M: Hmmm" Pohne¹ s tím. To já bych nedokázala!
+ M: Wow, you moved it! I could never do that!
+1st-m-diky
+ M: Díky, u¾ mù¾u jít s tebou.
+ M: Thanks, now I can go with you.
+1st-v-nemuzu
+ V: Zatracenì, nemù¾u tudy prolézt.
+ V: Darn it, I can`t get through.
+1st-v-pribral
+ V: Nìjak jsem asi pøibral.
+ V: I must have gained some weight.
+1st-v-posunout
+ V: Nemù¾e¹ posunout tu ¾idli kousek vlevo?
+ V: Could you push the chair a little bit to the left?
+
+1st-v-chyba
+ V: Tak to byla chyba. Správné øe¹ení musí být takové, abychom odjeli oba.
+ V: Ooops! That was a mistake. Both of us have to be able to leave in order to continue.
+1st-v-nedostanu
+ V: Já u¾ se teï ven nedostanu. Musí¹ celou místnost hrát znovu.
+ V: There`s no way I can get out now. You`ll have to restart the level.
+1st-v-stiskni
+ V: Stiskni tlaèítko zpìtného výmazu.
+ V: You have to press the long arrow on your keyboard.
+1st-m-backspace
+ M: On myslí backspace.
+ M: Humans call it a backspace key.
+1st-v-jedno
+ V: To je jedno. 
+ V: Whatever. It was funnier in Czech.
+1st-v-najit
+ V: Mù¾e¹ si to najít i na ovládacím panelu.
+ V: The restart option is also located on the control panel.
+
+1st-m-pokud
+ M: Pokud má¹ pocit, ¾e jsi u¾ øe¹ení zkazil, nevadí.
+ M: If you think you would rather restart the level, no problem.
+1st-v-znovu
+ V: Chce¹-li to zkustit znovu, stiskni tlaèítko zpìtného výmazu.
+ V: You just have to press the long arrow on your keyboard.
+
+1st-x-ocel
+ d: Jsem tì¾ký ocelový válec. Pohnout se mnou není nic jednoduchého. Taková malá rybka, jako je támhleta oran¾ová, vùbec nemá ¹anci. Rozmáèknul bych ji jedna dvì.
+ d: I`m a heavy steel cylinder. It`s not easy to move me around. Such a tiny fish, like the orange one over there, simply has no chance. I could smash her without any problem.

@@ -1,0 +1,75 @@
+CE
+tru-v-nasly
+ V: Tak jsme to koneènì na¹ly.
+ V: So we have found it finally.
+tru-m-co
+ M: Co?
+ M: And what?
+tru-v-poklad
+ V: No pøeci poklady kapitána Silvera.
+ V: Captain Silver`s treasure, of course.
+tru-v-gral
+ V: No pøeci svatý grál.
+ V: The Holy Grail, of course.
+
+tru-v-vkupe
+ V: Tak to tu máme pìknì v kupì: poklady i Grál.
+ V: It`s neatly in one place: the treasure and the Grail.
+tru-m-zrada
+ M: Jen aby v tom nebyla nìjaká zrada.
+ M: I think it`s much too easy to be true.
+
+tru-m-oznamit
+ M: Já myslím, ¾e kdyby to bylo skuteènì ono, hra by to hráèi nìjak výraznì oznámila.
+ M: I think that if it really was our goal, the game would let the player know.
+tru-v-stacit
+ V: V¹ak jsem mu to øekl. To by mu mohlo staèit.
+ V: But I have let him know. This could be enough.
+tru-m-zpochybnit
+ M: Jen¾e já jsem to zpochybnila. To by jej mohlo zmást.
+ M: But I have casted doubts on it. This could confuse him.
+tru-v-nejspis
+ V: No tak dobøe. Tak to NEJSPÍ© je¹tì není ono.
+ V: Well, all right. PROBABLY this is not what we are looking for.
+tru-m-nejistota
+ M: Tak je to lep¹í. Zùstává v tom støípek nejistoty.
+ M: This is better. There remains a bit of uncertainty.
+
+tru-m-truhla0
+ M: Nemù¾e se ta truhla najednou zavøít?
+ M: Couldn`t we close that chest?
+tru-m-truhla1
+ M: Co kdybychom zkusili tu truhlu zavøít?
+ M: What if we try to close that chest?
+tru-v-truhla0
+ V: Se zavøenou truhlou by bylo v¹echno jednodu¹¹í.
+ V: It would be much easier with the closed chest.
+tru-v-truhla1
+ V: Zkus jí strèit do víka.
+ V: Try to push its lid.
+
+tru-m-vzit0
+ M: Nevezmeme si s sebou nìco?
+ M: Won`t we take something with us?
+tru-m-vzit1
+ M: Co si takhle vzít nìjaký poklad s sebou?
+ M: What about taking some treasure with us?
+tru-m-vzit2
+ M: Není ti líto, ¾e tu necháme v¹echny ty poklady?
+ M: Ain`t you sorry to leave all these treasures behind?
+tru-v-vzit0
+ V: Budeme rádi, kdy¾ odjedem aspoò my samy.
+ V: We will be glad if we manage to get out ourselves.
+tru-v-vzit1
+ V: Nezapomeò, ¾e máme poslání.
+ V: Don`t forget our mission.
+tru-v-vzit2
+ V: Poklady by nás jenom zdr¾ovaly.
+ V: A treasure would only hinder us.
+
+tru-v-zrak
+ V: U¾ mì z toho lesku pøechází zrak.
+ V: All this glint is a sight for the sore eyes.
+tru-m-trpyt
+ M: V¹echno se tu tak tøpytí. A¾ z toho oèi pøecházejí.
+ M: Everything here gleams so. It makes me dizzy.

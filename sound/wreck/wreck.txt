@@ -1,0 +1,79 @@
+CE
+pot-v-lod
+ V: ®e by to byla ta Silverova loï?
+ V: Could this be Captain Silver`s ship?
+pot-m-soud
+ M: Z èeho tak soudí¹?
+ M: What makes you think so?
+pot-v-jmeno
+ V: Ze jména této místnosti.
+ V: The title of this level.
+
+pot-v-slus
+ V: Moc ti to slu¹í.
+ V: It suits you well.
+pot-m-dik
+ M: Díky, tobì taky.
+ M: Thanks, you too.
+pot-v-cepic
+ V: Moc slu¹ivá èepièka.
+ V: A very nice hat.
+pot-m-klob
+ M: Tvùj klobouk taky ujde.
+ M: Your stetson is quite good, too.
+pot-v-hlave
+ V: Co to má¹ na hlavì?
+ V: What is that on your head?
+pot-m-zima
+ M: Byla mi zima na u¹i...
+ M: My ears were freezing.
+pot-m-pujc
+ M: Ty má¹ ale klobouk! Pùjèí¹ mi ho?
+ M: That`s some hat! Can I borrow it?
+pot-v-leda
+ V: Leda za èepièku.
+ V: If you lend me yours.
+pot-m-velik
+ M: To je ale veliký klobouk.
+ M: This sure is a big stetson.
+pot-v-kras
+ V: A taky krásný.
+ V: And a beatiful one, too.
+ 
+pot-v-nehnu
+ V: S tím ani nehnu.
+ V: I can`t move this.
+pot-v-trub
+ V: S tou trubkou nepohnu.
+ V: I can`t move that cylinder.
+pot-m-nezb
+ M: Asi nám nezbude ne¾ vlézt do té lodi.
+ M: I think we`re going to have to go inside that ship.
+pot-m-dovn
+ M: Asi budeme muset dovnitø.
+ M: It looks like we have to go inside.
+
+pot-m-zatuch
+ M: Páchne to tu zatuchlinou.
+ M: The air in here smells so stale.
+pot-v-nikdo
+ V: Zdá se, ¾e tu nikdo není.
+ V: It seems that nobody`s here.
+pot-m-moc
+ M: Moc se mi tu nelíbí.
+ M: I don`t like it here.
+pot-v-plav
+ V: Nemluv a plav, interiéry starých lodí jsou nadmíru zajímavá místa.
+ V: Stop talking and swim. Old ship interiors are highly interesting places.
+pot-v-ponur
+ V: Cítí¹ tu ponurou atmosféru zániku a pomíjivosti?
+ V: Can you sense that atmosphere of doom and decay?
+pot-m-hnil
+ M: Cítím akorát hnilobu.
+ M: No, just the mold.
+pot-m-vidis
+ M: Co tam vidí¹?
+ M: What do you see?
+pot-v-vidim
+ V: Vidím spoustu zajímavých místností, které budeme muset øe¹it.
+ V: I can see many interesting levels which we`ll have to solve.

@@ -1,0 +1,102 @@
+CE
+win-v-plocha
+ V: Tak to vypadá, kdy¾ si nìkdo neudr¾uje na plo¹e poøádek.
+ V: This is how it looks when you don`t keep your desktop tidy.
+
+win-m-costim0
+ M: Hele, nepomohlo by nám, kdybychom zvolili funkci: Vyrovnat ikony?
+ M: Wouldn`t it help us if we select Desktop/Line up Icons?
+win-m-costim1
+ M: Co kdybychom zkusili ta nejvìt¹í okna minimalizovat?
+ M: What if we try to minimize the biggest windows?
+win-m-costim2
+ M: Co kdybychom nìkterá z tìch oken zavøeli?
+ M: What if we try to close some of these windows?
+win-m-costim3
+ M: Co takhle to celé vypnout a nabootovat v DOSu?
+ M: What about shutting down the whole thing and switch to command prompt only?
+win-m-costim4
+ M: Co takhle se na to vyka¹lat a odplavat do hospody?
+ M: What about giving up altogether and swimming to the pub instead?
+
+win-v-pocitala
+ V: Poèítala jsi ty okna v¹ude kolem?
+ V: Did you count these windows around us?
+win-m-nemusim
+ M: To nemusím poèítat. Je jich devadesát pìt.
+ M: I don`t need to count them. There are ninety five of them.
+
+win-m-blok
+ M: Hele, vidí¹ ten Poznámkový blok? Vhodná chvíle poslat hráèi nìjaký vzkaz!
+ M: Can you see that Notepad? Now it`s good time to send a message to the player!
+win-v-premyslej
+ V: Nech tìch hloupostí a radìji pøemý¹lej.
+ V: Stop that folly and try to think instead.
+
+win-m-dira
+ M: Nìkde ten systém pøece musí mít díru.
+ M: This system has to have a hole somewhere.
+win-v-tamhle
+ V: Jistì, támhle vpravo dole.
+ V: Surely, it`s in the lower right corner.
+
+win-m-okno
+ M: Vidí¹ to velké okno napravo?!
+ M: Can you see this big window on the right?!
+win-v-hra
+ V: No to snad ne! To je pùvodní verze této hry.
+ V: Oh, no! This must be the original version of this game.
+win-m-chodila
+ M: Ta chodila na pøedpotopních ma¹inách, ve standardním VGA rozli¹ení...
+ M: It ran on the antediluvial machines, in standard VGA resolution...
+win-v-nic0
+ V: ®ádné animace...
+ V: No animation...
+win-m-nic1
+ M: ®ádné namluvené texty...
+ M: No talking...
+win-v-nic2
+ V: ®ádná hudba...
+ V: No music...
+win-m-nic3
+ M: Jen sem tam nìjaké pípnutí...
+ M: Only a beep from time to time...
+win-v-hav
+ V: Je¹tì, ¾e se k ní autoøi po létech vrátili a dali jí tento moderní háv.
+ V: But fortunately the authors got back to it and gave it this modern facelift.
+win-m-zahrat
+ M: Stejnì bych si to nìkdy zkusila zahrát!
+ M: But I`d like to play it sometime, anyway!
+
+win-m-vga
+ M: Já s tímhle oknem nepohnu. Támhle dole, to je ocelový válec, i kdy¾ jen v ¹estnáctibarevném VGA.
+ M: I can`t move this window. Down there, it`s a steel cylinder, though it`s only in sixteen color VGA.
+
+win-v-pockej
+ V: Poèkej, hráèi. Musím si nìco ujasnit. Támhle ty dvì rybièky, to jsme pøece my zamlada.
+ V: Wait a moment, player. We have to make something clear. These two fish, they are our younger selves.
+win-m-zavrene
+ M: Má¹ pravdu. Jsou tam chudinky zavøené.
+ M: You are right. They are closed there, poor souls.
+win-v-osvobodit
+ V: Pøece je tam nenecháme! Musíme je osvobodit.
+ V: We can`t leave them there. We have to get them out!
+win-m-ven
+ M: No jo, ale hráè má za úkol dostat ven nás.
+ M: Yes, but the player has to get us out.
+win-v-citim
+ V: Tak budeme stávkovat. Já osobnì plnì cítím s tou velkou rybièkou uvnitø.
+ V: So we`ll go on strike. Personally, I fully sympathize with the bigger fish inside.
+win-m-vzit
+ M: Má¹ pravdu. Já se také doká¾u v¾ít do té malé.
+ M: You`re right. I can imagine what the smaller one feels.
+win-v-nehrajem
+ V: Dál nehrajeme, dokud ty dvì nezachrání¹, hráèi.
+ V: We are not going to play, until you save those two, player.
+
+win-v-real
+ V: Hergot, to je ale realistická hra!
+ V: Goodness, that is a realistic game!
+win-m-jejda
+ M: Jejda, ten se do toho nìjak v¾il!
+ M: Oh my, he took the game too seriously!

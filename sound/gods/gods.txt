@@ -1,0 +1,335 @@
+CE
+lod-v-silenost0
+ V: Mám takové tu¹ení, ¾e jsme na stopì nìèeho stra¹ného.
+ V: I have a suspicion that we are about to discover something terrible.
+lod-v-silenost1
+ V: Vìdel jsem to u¾ dávno: bohové musí být ¹ílení.
+ V: I always knew that: the gods must be mad.
+lod-v-silenost2
+ V: Bùh je ¹ílený a celý svìt je jeho hraèka.
+ V: God is mad and the whole world is his plaything.
+lod-m-pravda0
+ M: Myslím, ¾e má¹ výjímeènì pravdu.
+ M: I think that you are right.
+lod-m-pravda1
+ M: Dnes ti bohu¾el musím dát za pravdu.
+ M: I am afraid that you are right.
+lod-m-pravda2
+ M: Ano, je to otøesné.
+ M: Yes, it is shocking.
+
+lod-m-costim
+ M: Co s tím udìláme?
+ M: What are we to do about it?
+lod-v-internovat 
+ V: Takhle to nemù¾e zùstat. Musíme je internovat.
+ V: We can`t leave it this way. We must incarcerate them.
+lod-m-co
+ M: Co¾e je musíme?
+ M: What do we must?
+lod-v-cvok
+ V: Zavøít do cvok... chci øíct do nápravnì-výchovného zaøízení FDTO.
+ V: Put them into mad... I mean into detainment facility of FDTO.
+lod-m-oba
+ M: Má¹ pravdu. Vezmem je oba?
+ M: You are right. Shall we take both of them?
+lod-v-golf
+ V: Samozøejmì. Kdyby tu jeden zùstal, kdo ví, co by ho napadlo. Tøeba by chtìl zaèít hrát golf.
+ V: Of course. If we leave one of them here, any mad idea could occur to him. He could try to start playing golf, for example.
+lod-m-jednoho
+ M: S touhle holí tì¾ko. Myslím, ¾e budeme rádi, kdy¾ dostaneme jednoho. Ten druhý u¾ nebude nebezpeèný.
+ M: Hardly with this club. I think we`ll be happy if we manage to get one. The other one will be harmless then.
+lod-v-koho
+ V: Tak dobøe. A koho?
+ V: Well. And whom?
+lod-m-zluty
+ M: Toho ¾lutého.
+ M: The yellow one.
+lod-m-modry
+ M: Toho modrého.
+ M: The blue one.
+lod-v-zluty
+ V: Toho ¾lutého.
+ V: That yellow one. 
+lod-v-modry
+ V: Toho modrého.
+ V: That blue one.
+
+lod-m-hrac
+ M: Necháme to na hráèi.
+ M: We will leave this to the player.
+lod-v-hrac
+ V: Necháme to na hráèi.
+ V: We shall leave this to the player.
+
+lod-v-hul
+ V: Podívej se na tu hùl: té se stalo nìco stra¹ného.
+ V: Look at that club: something terrible happened to it.
+lod-m-ozizlana
+ M: Asi ji o¾i¾lával pld.
+ M: A pld probably sucked upon it.
+
+lod-v-hravost
+ V: Maminka mìla pravdu: Pøíèinou v¹eho zla je chorobná hravost.
+ V: Mother was right. Abnormal playfulness is the root of all evil.
+lod-m-palka
+ M: To je pravda. Oè by to bylo snadnìj¹í, kdyby támhle nebyla ta ping-pongová pálka.
+ M: That`s true. It would be much easier if that table tennis bat was somewhere else.
+
+lod-v-micky
+ V: V¹imla sis mimochodem, ¾e skuteèný golfový míèek je vlevo nahoøe, zatímco vpravo dole je míèek na kriket?
+ V: By the way, did you notice that the real golf ball is in the upper left corner while that thing in the in the lower right corner is the cricket ball?
+lod-m-vyznam
+ M: Myslí¹, ¾e to má nìjaký skrytý význam?
+ M: Is there some hidden symbolism?
+lod-v-kdovi
+ V: Kdo ví?
+ V: Who knows.
+lod-m-micek
+ M: Mìla jsem pocit, ¾e to nahoøe je ping-pongový míèek.
+ M: I thought it`s a table tennis ball up there.
+lod-v-rozliseni
+ V: Tì¾ko øíci, pøi tomhle rozli¹ení.
+ V: It`s hard to say with this screen resolution.
+
+lod-m-bohove
+ M: Na¹ím úkolem je tentokrát dostat ven z místnosti kteréhokoliv z tìch bohù.
+ M: This time our goal is to get out any of that gods.
+ 
+b1-voda1
+ y: Voda!
+ y: Miss!
+b1-voda2
+ y: Voda!
+ y: Miss!
+b1-voda3
+ y: Voda!
+ y: Miss!
+b1-voda4
+ y: Voda!
+ y: Miss!
+b1-voda5
+ y: Voda!
+ y: Miss!
+b1-zasah1
+ y: Zásah!
+ y: Hit!
+b1-zasah2
+ y: Zásah!
+ y: Hit!
+b1-zasah3
+ y: Zásah!
+ y: Hit!
+b1-zasah4
+ y: Zásah!
+ y: Hit!
+b1-potop1
+ y: Potopená!
+ y: Sank!
+b1-potop2
+ y: Potopená!
+ y: Sank!
+b1-potop3
+ y: Potopená!
+ y: Sank!
+b1-vyhral
+ y: Vyhrál jsem, saláte!!!
+ y: I won, you sissy!!!
+b1-zacinam
+ y: Zaèínám já!
+ y: I start!
+b1-dobre
+ y: Dobøe!
+ y: Well!
+b1-znovu
+ y: Dáme si je¹tì jednou?
+ y: Shall we play another one?
+b1-nepodvadim
+ y: Nepodvádím!!!
+ y: I don`t cheat.
+b1-spletl
+ y: Asi jsem se spletl...
+ y: It was a mistake, probably...
+
+b2-voda1
+ c: Voda!
+ c: Miss!
+b2-voda2
+ c: Voda!
+ c: Miss!
+b2-voda3
+ c: Voda!
+ c: Miss!
+b2-voda4
+ c: Voda!
+ c: Miss!
+b2-voda5
+ c: Voda!
+ c: Miss!
+b2-zasah1
+ c: Zásah!
+ c: Hit!
+b2-zasah2
+ c: Zásah!
+ c: Hit!
+b2-zasah3
+ c: Zásah!
+ c: Hit!
+b2-zasah4
+ c: Zásah!
+ c: Hit!
+b2-potop1
+ c: Potopená!
+ c: Sank!
+b2-potop2
+ c: Potopená!
+ c: Sank!
+b2-potop3
+ c: Potopená!
+ c: Sank!
+
+b2-vyhral
+ c: Cha cha cha cha chá" vyhrál jsem!
+ c: He, he, he" I won!
+b2-dobre
+ c: Dobøe!
+ c: Well!
+b2-znovu
+ c: Zkusíme to je¹tì jednou?
+ c: Shall we try it again?
+b2-rikal1
+ c: To jsi u¾ zkou¹el!
+ c: You already tried this!
+b2-rikal2
+ c: Tohle jsi u¾ øíkal!
+ c: You already said this!
+b2-nemuze
+ c: Na tomhle poli nemù¾e být voda!
+ c: There can`t be miss on this space.
+b2-podvadis
+ c: Ty podvádí¹!!!
+ c: You cheat!!!
+b2-spatne
+ c: Tohle jsem u¾ zkou¹el - a ty jsi øekl 'voda'!
+ c: I have tried this - and you said 'miss`!
+
+b1-1
+x
+x
+b1-2
+x
+x
+b1-3
+x
+x
+b1-4
+x
+x
+b1-5
+x
+x
+b1-6
+x
+x
+b1-7
+x
+x
+b1-8
+x
+x
+b1-9
+x
+x
+b1-10
+x
+x
+b1-a
+ y: @.
+ y: @.
+b1-b
+ y: @.
+ y: @.
+b1-c
+ y: @.
+ y: @.
+b1-d
+ y: @.
+ y: @.
+b1-e
+ y: @.
+ y: @.
+b1-f
+ y: @.
+ y: @.
+b1-g
+ y: @.
+ y: @.
+b1-h
+ y: @.
+ y: @.
+b1-i
+ y: @.
+ y: @.
+b1-j
+ y: @.
+ y: @.
+b2-1
+x
+x
+b2-2
+x
+x
+b2-3
+x
+x
+b2-4
+x
+x
+b2-5
+x
+x
+b2-6
+x
+x
+b2-7
+x
+x
+b2-8
+x
+x
+b2-9
+x
+x
+b2-10
+x
+x
+b2-a
+ c: @.
+ c: @.
+b2-b
+ c: @.
+ c: @.
+b2-c
+ c: @.
+ c: @.
+b2-d
+ c: @.
+ c: @.
+b2-e
+ c: @.
+ c: @.
+b2-f
+ c: @.
+ c: @.
+b2-g
+ c: @.
+ c: @.
+b2-h
+ c: @.
+ c: @.
+b2-i
+ c: @.
+ c: @.
+b2-j
+ c: @.
+ c: @.

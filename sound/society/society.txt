@@ -1,0 +1,66 @@
+CE
+mik-v-sakra
+ V: Sakry¹, ten ¹nek tam hroznì zavazí.
+ V: Dang, that snail is blocking the way.
+mik-v-projet
+ V: Teï neprojedu.
+ V: I can`t swim through.
+
+mik-m-krab
+ M: Ti krabi jsou nìjak ukecaní.
+ M: Those crabs are too talkative.
+mik-m-poust
+ M: Vùbec nevypadají na poustevníèky.
+ M: They don`t look like hermits.
+mik-m-tusit
+ M: Netu¹ila jsem, ¾e krabi poustevníèci mohou být takhle ukecaní.
+ M: I had no idea that hermit crabs could be so talkative.
+
+mik-v-ticho0
+ V: Ticho tady!
+ V: Shut up!
+mik-v-ticho1
+ V: Ticho!
+ V: Silence!
+mik-v-ticho2
+ V: Tak co je to zase?!
+ V: What is it now?!
+mik-v-proto
+ V: No proto.
+ V: That`s better.
+mik-v-tak
+ V: Tak.
+ V: Yes.
+
+mik-m-nezlob
+ M: U¾ se na nì nezlob.
+ M: Don`t be mad at them.
+mik-m-myslit
+ M: Teï se v klidu zamyslíme, jak ven.
+ M: Now we can calmly ponder how to get out of here.
+
+mik-m-proc
+ M: Bílá rybo, proè má¹ tak veliké oèi?
+ M: White fish, why do you have such big eyes?
+mik-v-videt
+ V: To aby tì lépe vidìla.
+ V: The better to see you with.
+
+mik-m-konik
+ M: Tohohle koníka jsem u¾ nìkde vidìla.
+ M: I`ve seen this seahorse somewhere before.
+
+$vol
+ 50
+mik-x-stebet0
+x
+x
+mik-x-stebet1
+x
+x
+mik-x-stebet2
+x
+x
+mik-x-stebet3
+x
+x

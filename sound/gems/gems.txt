@@ -1,0 +1,45 @@
+CE
+zav-v-sto
+ V: Pov¹imni si, ¾e tato místnost obsahuje sto devìt pøedmìtù!
+ V: Please note, that this level contains one hundred and nine objects.
+zav-v-trpyt
+ V: A v¹echny se krásnì tøpytí.
+ V: And all of them gleam beautifully.
+zav-m-pohnout
+ M: Pov¹imni si toho, ¾e se nemù¾u pohnout.
+ M: Please note, that I can`t move a fin here.
+
+zav-m-krasa
+ M: To je ale krása! V¹echno se tu tøpytí...
+ M: It`s beautiful! Everything gleams so much...
+zav-v-venku
+ V: Je¹tì krásnìj¹í to bude, a¾ budeme venku.
+ V: It`ll be much nicer when we get out.
+
+zav-v-zaval
+ V: To je ale nebezpeèný zával. Máme ¹tìstí, ¾e jsme zùstaly na¾ivu.
+ V: This is very dangerous cave-in. We are lucky we stayed alive.
+zav-m-hopskok
+ M: Neøíkej hop, dokud nepøeskoèí¹.
+ M: Don`t speak so soon. We`re still in here.
+
+zav-m-kameny
+ M: Nezdá se ti, ¾e jsou ty kameny jinak poskládané?
+ M: Don`t you think that these stones are arranged in a different way?
+zav-v-zeleny
+ V: Má¹ pravdu. Ten zelený byl urèitì támhle!
+ V: You are right. That green one was surely over there!
+
+zav-v-restart
+ V: Mám pocit, ¾e po ka¾dém restartu jsou tu jinak poskládané drahokamy.
+ V: I think that these jewels arrange themselves in a different way after each restart.
+zav-m-pravda
+ M: Jé... Asi má¹ pravdu. Tøeba nìkdy vytvoøí nìjaký smysluplný obrazec.
+ M: Yeah, you`re right. Maybe they form some sensible pattern sometimes.
+
+zav-m-hrac
+ M: Hele, ná¹ hráè u¾ se naba¾il barvièek. 
+ M: Look, our player obviously satiated his need for colors.
+zav-v-zachranit
+ V: Teï by nás pro zmìnu mohl zkusit zachránit.
+ V: Maybe he could try to save us instead now.

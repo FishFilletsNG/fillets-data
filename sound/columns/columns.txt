@@ -1,0 +1,47 @@
+CE
+sl-v-stopa
+ V: Myslím, ¾e jsme skuteènì na stopì tomu tajemnému mìstu.
+ V: I think that we are finally on the trail of that mysterious city.
+sl-m-velkolepe
+ M: Vypadá to velkolepì.
+ M: It looks magnificent.
+sl-v-vkapse
+ V: Teï u¾ musíme jen zjistit, proè se vlastnì potopilo a máme to v kapse.
+ V: Now we only have to find out why it sank and we are done.
+sl-m-trvat
+ M: Ale mo¾ná nám to bude je¹tì chvíli trvat.
+ M: But it may take us a little while.
+
+sl-v-nechme
+ V: Nech mì. Kochám se antickou dokonalostí tohoto chrámu.
+ V: Leave me alone. I adore the classic beauty of this temple.
+
+sl-m-sedi
+ M: Kdo to tam sedí na ¾idli?
+ M: Who is sitting on that chair?
+sl-v-feidios
+ V: To je kopie Feidiova Dia. Jeden ze sedmi divù svìta.
+ V: It`s a copy of Feidios` Zeus. One of the seven wonders of the world.
+sl-m-tehdy
+ M: No. Tehdy byla jiná doba.
+ M: Hmm. It was another age.
+
+sl-v-opatrne
+ V: Opatrnì! A» to nepo¹kodí¹.
+ V: Be careful! Try not to damage it!
+sl-v-skoda
+ V: Taková ¹koda!
+ V: Such a waste!
+sl-v-pust
+ V: Teï to opatrnì pus».
+ V: And now ease it down, carefully.
+sl-m-jekot
+ x
+ x
+sl-v-barbarka
+ V: Barbarko! Nemù¾e¹ si dát trochu pozor?!
+ V: You barbarian! Can`t you be a little bit cautious?!
+
+sl-m-nelibila
+ M: Stejnì se mi ta socha nelíbila.
+ M: I didn`t like this sculpture anyway.

@@ -1,0 +1,82 @@
+CE
+war-m-hrad
+ M: Jsem uvìznìná pod hradem.
+ M: I am imprisoned under the castle.
+war-m-ocel
+ M: Jak se do toho hradu dostala ocel?
+ M: How did the steel got into this castle?
+war-v-vesnicane
+ V: Vydr¾ tam, pøivedu na pomoc pár vesnièanù.
+ V: Hold on, I`ll bring some peasants to help you.
+war-m-peoni
+ M: To nejsou vesnièani, ale peóni.
+ M: These are not peasants but peons.
+
+war-v-doly
+ V: Myslí¹, ¾e v tìch dolech jsou poklady kapitána Silvera?
+ V: Do you think that these mines contain captain Silver`s treasure?
+war-m-povazuji
+ M: Pova¾uji to za krajnì nepravdìpodobné.
+ M: I consider this highly unlikely.
+
+war-m-kam
+ M: Kam jsme se to zase dostali?
+ M: Where did we get us, again?
+war-v-povedome
+ V: Je mi to tu nìjaké povìdomé.
+ V: I find it oddly familiar here.
+
+war-v-pohadka
+ V: Kdy¾ na tomhle poèítaèi bì¾í Word nebo jiná zbyteènost, my, postavièky z poèítaèových her, se scházíme v adresáøi C:\WINDOWS\CONFIG a povídáme si.
+ V: When the MS Word or another boring application is running on this machine, we, the computer games characters, get together in the C:\WINDOWS\CONFIG directory and talk.
+war-m-pichat
+ M: Kdy¾ nemáme do èeho píchnout, hrajeme si na schovávanou v registraèní databázi. Proto ti obèas pøestanou fungovat Windows, kdy¾ dlouho nehraje¹ ¾ádnou hru.
+ M: When we don`t know what to do, we play hide-and-seek in registry. That`s why your Windows sometimes crashes if you don`t play any game for a long period of time.
+war-v-prozradit
+ V: To jsi nemìla prozrazovat. Já jsem chtìl jenom øíct, ¾e to tam vypadá skoro stejnì jako tady. Spousta postavièek z her.
+ V: You shouldn`t give that away. I only wanted to say that it looks very similar to this level. So many computer games characters.
+war-m-aznato
+ M: A¾ na to, ¾e odtamtud není tak tì¾ké se dostat.
+ M: But it`s not so difficult to get out of there.
+
+war-v-blizzard
+ V: Tvùrci této hry by rádi vyjádøili svùj obdiv firmì Blizzard Entertainment a popøáli jí mnoho dal¹ích úspìchù.
+ V: The makers of this game would like to express their admiration for the Blizzard Entertainment company and would wish it many successful games.
+war-m-hodiny
+ M: A také jí podìkovali za nespoèet hodin pøíjemnì zabitého èasu.
+ M: And they would also like to thank for so many hours of neatly killed time.
+
+war-k-ready0
+x
+x
+war-k-ready1
+x
+x
+war-k-ready2
+x
+x
+war-k-move0
+x
+x
+war-k-move1
+x
+x
+war-k-move2
+x
+x
+
+$vol
+ 180
+
+war-a-ready0
+x
+x
+war-a-ready1
+x
+x
+war-a-move0
+x
+x
+war-a-move1
+x
+x

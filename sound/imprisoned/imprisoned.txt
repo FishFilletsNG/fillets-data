@@ -1,0 +1,61 @@
+CE
+ncp-m-tesno0
+ M: Hele, jak mám z toho vylézt?
+ M: Look, how I am supposed to get out of here?
+ncp-m-tesno1
+ M: Je tu celkem tìsno.
+ M: It`s quite tight in here.
+ncp-v-dostala
+ V: Jak ses tam dostala?
+ V: How did you manage to get there?
+
+ncp-v-sasanka
+ V: Nehrej si se sasankou a pojïme se rad¹i nìjak dostat ven.
+ V: Stop playing with anemone and help me to get us out of here.
+
+ncp-m-nekoukej
+ M: Moc nekoukej.
+ M: Don`t be surprised.
+
+ncp-m-komari
+ M: Tady je ale v¹ude komárù...
+ M: There is so many carols here...
+ncp-v-ceho
+ V: Èeho?
+ V: What?
+ncp-m-koraly
+ M: No korálù, jsi hluchý?
+ M: So many corals. Are you deaf or what?
+
+ncp-m-tvrdy
+ M: To je ale tvrdý korál.
+ M: Oh my, this is a hard coral.
+
+ncp-v-mekky
+ V: To je ale mìkký korál.
+ V: Oh my, this is a soft coral.
+
+ncp-v-tak
+ V: Tak!
+ V: So!
+ncp-m-muzes
+ M: Teï u¾ mù¾e¹ ven, ne?
+ M: Now you can get out, can`t you?
+
+ncp-v-neprojedu
+ V: Hmm, tak tudy neprojedu...
+ V: Hmm, I can`t get through here...
+
+ncp-m-barvy
+ M: Miluju barvy...
+ M: I love colors...
+
+ncp-x-tik
+x
+x
+ncp-x-tup
+x
+x
+ncp-x-ihaha
+x
+x

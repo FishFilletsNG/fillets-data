@@ -1,0 +1,50 @@
+CE
+zx-m-pametnici
+ M: Tak tohle je místnost pro skuteèné pamìtníky.
+ M: So this is a level for real connoisseurs.
+zx-v-osmibit
+ V: Ach, jako by na mì dýchnul osmibitový dech historie.
+ V: Yeah, I feel like I can feel the eight bit wind of history.
+zx-m-pixel
+ M: Vidí¹ tu pixelovou grafiku v¹ude kolem? Nemohu se ubránit jisté nostalgii.
+ M: Can you see that pixel graphic all around us? I must confess I feel nostalgic.
+zx-v-hry
+ V: Tohle je pøíle¾itost zahrát si staré dobré spectristické hry.
+ V: This is an opportunity to play the merry old games of ZX Spectrum.
+
+zx-m-premyslis
+ M: Nad èím teï pøemý¹lí¹?
+ M: What are you thinking about now?
+zx-v-pamet
+ V: Ále, jen jsem si uvìdomil, ¾e do pamìti ZX Spectra by se neve¹ly ani animace nás dvou, nato¾ pak takováto hra.
+ V: Well, I just realized that only the animations of us two would fill up the RAM of ZX Spectrum.
+zx-v-otazka
+ V: Uvìdomuje¹ si, ¾e ta tvá otázka by jako zvukový soubor zaplnila celou pamì» ZX Spectra? A uvìdom si, kolik takových zvukù je v téhle høe.
+ V: Do you know that your question alone in the format of WAV file would overfill the RAM of ZX Spectrum? And imagine how many such sounds are in this game.
+zx-m-necodosebe
+ M: Ale pøesto ty hry mìly nìco do sebe, ne?
+ M: But still, these games had something to them, hadn`t they?
+
+zx-m-knight
+ M: Vidí¹ toho knight lora?
+ M: Can you see that Knight Lorer?
+zx-v-manicminer
+ V: Támhleto musí být manic miner.
+ V: And that must be the Manic Miner.
+zx-m-jetpack
+ M: To jsem fakt netu¹ila, ¾e je¹tì nìkdy budu sestavovat jetpack.
+ M: I really didn`t know I`d ever be putting the Jetpack together again.
+zx-v-roboti
+ V: Tady tu frontu robotkù poznávám.
+ V: This line of robots looks familiar.
+zx-m-highway
+ M: Já taky, to je pøece z Highway Encounter.
+ M: Oh sure, they are from the Highway Encounter.
+
+zx-v-nahravani
+ V: To by mì zajímalo, co se tu právì nahrává.
+ V: I wonder what is loading just now.
+
+zx-m-ocel
+ M: Nejvìt¹í výhoda této místnosti je, ¾e tu není ¾ádná ocel.
+ M: The single biggest advantage of this room is that it contains no steel.

@@ -1,0 +1,38 @@
+CE
+ves-v-veci
+ V: V tomhle mìstì se teda najdou vìci!
+ V: There are most interesting things in this city!
+ves-m-krab
+ M: Chudáèek krab!
+ M: The poor crab!
+ves-v-vyp
+ V: Mìli bychom to vypnout!
+ V: We should turn it off!
+
+ves-m-uz
+ M: U¾ né...
+ M: Oh, noo...
+
+ves-v-pokoj
+ V: A je pokoj.
+ V: And it`s over.
+
+ves-m-dik
+ M: Dìkujeme ti, hráèi. U¾ se to nedalo vydr¾et.
+ M: Thank you player. We couldn`t bear it any longer.
+
+ves-v-stejne
+ V: Stejnì je ale budeme muset shodit.
+ V: But we have to push it down anyway.
+
+ves-hs-hrajeme
+ S: Hrajeme vám pro potì¹ení!
+ S: Now listen to the bit of music!
+
+ves-ampliony
+x
+x
+
+ves-hs-papa
+ S: Pa pada pa pápa pa pada pa pá...
+ S: Pa pada pa paaapa pa pada pa paaa...

@@ -1,0 +1,85 @@
+CE
+deu-m-valka
+ M: Válka pokraèuje i v hlubinách.
+ M: The war goes on even here, on the ocean floor.
+deu-v-nepratelstvi
+ V: Nepøátelství nikdy neutichne.
+ V: The hostility will never ebb.
+deu-m-bojovat
+ M: Budou bojovat a¾ do posledního... papou¹ka.
+ M: They will fight to the last... parrot.
+deu-v-losa
+ V: A losa.
+ V: And elk.
+
+deu-m-zvlastni
+ M: To je zvlá¹tní. Myslela jsem, ¾e losové ¾ijí jen ve ©védsku.
+ M: Now, this is strange. I thought that elks only live in Sweden.
+deu-v-slysel
+ V: Taky jsem sly¹el, ¾e tam hry¾ou turisty.
+ V: Yes. I too have heard that they bite tourists there.
+deu-l-los
+ L: Ja ruskij los.
+ L: Ya rusky los.
+
+deu-v-radsi
+ V: Toho losa bych mìl mnohem rad¹i, kdyby tu tolik nepøeká¾el.
+ V: I`d like this elk much more if it wasn`t blocking our way so much.
+deu-l-pozalsta
+ L: Po¾alsta, izvinitì.
+ L: Pozhalsta, izvinitye.
+deu-p-schnell
+ P: Schnell, schnell.
+ P: Schnell, schnell.
+
+deu-p-los
+ P: Was is den los?
+ P: Was is den los?
+deu-l-los0
+ L: Ja los!
+ L: Ja los!
+deu-l-los1
+ L: Èto sluèilos?
+ L: Chto sluchilos?
+
+deu-p-jawohl
+ P: Jawohl, mein Herr!
+ P: Jawohl, mein Herr!
+deu-p-stimmt
+ P: Das stimmt, mein Herr!
+ P: Das stimmt, mein Herr!
+deu-p-streng
+ P: Streng geheim!
+ P: Streng geheim!
+deu-p-ordnung
+ P: Das ist ein Ordnung, Herr Oberleitnant!
+ P: Das ist ein Ordnung, Herr Oberleitnant!
+deu-p-skoll
+ P: Skoll!
+ P: Skoll!
+
+deu-p-trinken0
+ P:Guten Morgen, mein Herr! Wollen Sie noch ein Tee haben?
+ P:Guten Morgen, mein Herr! Wollen Sie noch ein Tee haben?
+deu-p-trinken1
+ P:Guten Tag, mein Herr! Wollen Sie etwas zum trinken?
+ P:Guten Tag, mein Herr! Wollen Sie etwas zum trinken?
+
+deu-l-ja
+ L: Ja los...
+ L: Ya los...
+deu-l-neznaju
+ L: Ja nièevo neznaju.
+ L: Ya nichevo nyeznayu.
+deu-l-nesmotrel
+ L: Ja nièevo nesmotrel.
+ L: Ya nichevo nyesmotrel.
+deu-l-zivjot
+ L: Pus» ¾ivjot moguèij Sovìtskij Sojuz!
+ L: Pustye zhivyot moguchy Sovietsky Soyuz!
+deu-l-necital
+ L: Ja nièevo neèital.
+ L: Ja nichego nechital.
+deu-l-tovarisci
+ L: Tovari¹èi, bra»ja i sestri, dorogije druzja...
+ L: Tovarishchi, bratya i sestri, dorogiye druzya...

@@ -1,0 +1,74 @@
+CE
+sec-v-ven0
+ V: Jsem tu zavøený.
+ V: I am closed here.
+sec-v-ven1
+ V: Já chci ven.
+ V: I want to get out.
+sec-v-ven2
+ V: Jak se odtud mám dostat?
+ V: How I can get out of here?
+
+sec-m-ven0
+ M: No vidí¹, jsi venku.
+ M: See, now you got out.
+sec-m-ven1
+ M: Tak, a jsme zase spolu.
+ M: So, we are together again.
+
+sec-v-zavreny
+ V: Jsem zavøený v místnosti bez dveøí!
+ V: I am closed in a room without doors!
+sec-m-kamen
+ M: Zkus, jestli neuvolní¹ nìjaký kámen ve zdi!
+ M: Try to loosen some stone in the wall.
+
+sec-m-krab
+ M: Nezdá se ti ten krab ponìkud úchylný?
+ M: Isn`t that crab little bit strange?
+sec-v-ktery
+ V: A kterého myslí¹?
+ V: Which one do you mean?
+sec-m-dole0
+ M: Toho nahoøe, pøece.
+ M: The upper one, of course.
+sec-m-dole1
+ M: Samozøejmì, ¾e toho dole.
+ M: The lower one, of course.
+sec-v-normalni0
+ V: Mnì pøipadne normální.
+ V: I think it`s normal.
+sec-v-normalni1
+ V: Je trochu zvlá¹tní...
+ V: Yes, it`s little weird.
+
+sec-m-balonky
+ M: Je¹tì, ¾e tu jsou v¹echny ty balónky.
+ M: We should be glad we got all those balls.
+
+sec-v-mesto
+ V: To mìsto je podezøele zachovalé...
+ V: This city looks suspiciously well preserved...
+
+sec-v-pocit
+ V: Mám pocit, ¾e nám nìco uniká.
+ V: I have a feeling that I am missing something.
+sec-m-pocity
+ M: Tvoje pocity... rad¹i pøemý¹lej jak ven.
+ M: Your feeling... think about how to get us out.
+sec-v-pockej
+ V: Ne, poèkej, sleduj chvíli v¹echny ty kraby... podívej se na jejich oèi...
+ V: No, wait, watch all these crabs for a moment... look into their eyes...
+sec-v-oci
+ V: Jejich oèi se pohybují spoleènì. Jako by je øídila nìjaká spoleèná superinteligence.
+ V: Their eyes move in accord with each other. As if they are controlled by some common superconsciousness.
+sec-m-program
+ M: Jistì, øídí je poèítaèový program. Stejnì jako to vlnìní vody kolem a tvoje hloupé øeèi.
+ M: But of course, they are controlled by computer program. Just like the undulating of water and your silly talk.
+
+sec-v-socha
+ V: To se je¹tì nestalo, aby ta socha celou dobu mlèela.
+ V: Did we ever see a sculpture that would be silent for so long?
+sec-m-situace
+ M: Myslím, ¾e jen vyèkává vhodné situace.
+ M: I think it`s only waiting for the best opportunity.

@@ -1,0 +1,31 @@
+CE
+del-v-dve
+ V: Vidí¹? Tahle loï mìla dvì dìlové paluby. To byla jistì øadová loï. Jako by se tu ve vzduchu je¹tì vzná¹ela vùnì støelného prachu.
+ V: See? This ship had two gun decks. It must have been a man-of-war. The acrid smell of gunpowder still seems to linger in the air...
+del-m-voda
+ M: Chce¹ øíct ve vodì.
+ M: You mean, in the water.
+
+del-m-ci
+ M: Èípak to byla asi loï? Mo¾ná se na ní plavil admirál Nelson... nebo kapitán Hornblower.
+ M: Whose ship was she? Maybe she served under admiral Nelson... or captain Hornblower.
+del-v-splet
+ V: V tom pøípadì jsme se spletli nejménì o sto let.
+ V: No, I think you`re about a hundred years off.
+
+del-v-mec
+ V: Nìco mi øíká, ¾e budeme potøebovat ten meè.
+ V: I have a feeling we`re going to need that sword.
+del-m-tus
+ M: Ty tvoje tu¹ení. A vùbec, nenapovídej.
+ M: You and your 'feelings`. Besides, we`re not supposed to be giving any hints.
+
+del-m-jedn0
+ M: To bylo nìjak jednoduché, ne?
+ M: That was a little too simple, wasn`t it?
+del-m-jedn1
+ M: ®e by to bylo tak jednoduchý?
+ M: Could it possibly be so simple?
+del-m-jedn2
+ M: To se autoøi asi spletli.
+ M: There must be some kind of mistake.

@@ -1,0 +1,149 @@
+CE
+ch-m-rozsvit0
+ M: Okam¾itì zase rozsvi»!
+ M: Turn on the lights, NOW!
+ch-m-rozsvit1
+ M: Co dìlá¹, rozsvi»!
+ M: What do you think you are doing?
+ch-m-rozsvit2
+ M: Jé, nech si ty srandièky! Rozsvi»!
+ M: Cut it out and turn on the lights. 
+ch-v-pockej0
+ V: Poèkej, zkusím dotápat k vypínaèi.
+ V: Wait, I`ll try to find the switch.
+ch-v-pockej1
+ V: Nejde to, ten zatracenej vypínaè spadnul.
+ V: I can`t. The dang switch fell down.
+ch-v-pockej2
+ V: Rozsvi» si sama, kdy¾ jsi tak chytrá.
+ V: Turn on the lights yourself, if you`re so smart.
+
+ch-v-halo0
+ V: Kde jsi?
+ V: Where are you?
+ch-v-halo1
+ V: Haló.
+ V: Hello-o-o.
+ch-v-halo2
+ V: Ozvi se.
+ V: Say something.
+ch-m-tady0
+ M: Tady.
+ M: Here.
+ch-m-tady1
+ M: Tady jsem.
+ M: Here I am.
+ch-m-tady2
+ M: Já jsem tady.
+ M: I am right over here.
+
+ch-m-bojim0
+ M: Kde jsi, mám strach...
+ M: Where are you, I am afraid.
+ch-m-bojim1
+ M: Já se tmy bojím.
+ M: I`m afraid of the dark.
+ch-m-bojim2
+ M: Neodcházej, je tady stra¹ná tma...
+ M: Please don`t leave. It`s so dark in here.
+
+ch-v-neboj0
+ V: Neboj, já jsem tady.
+ V: Don`t be afraid. I`m here.
+ch-v-neboj1
+ V: Nefòukej, to zvládnem.
+ V: Stop whining. We`ll manage.
+ch-v-neboj2
+ V: Nièeho se neboj.
+ V: There`s nothing to be afraid of.
+
+ch-m-doufam
+ M: Doufám, ¾e mì to nekopne...
+ M: I hope it doesn`t kick me...
+
+ch-m-blik0
+ M: U¾ mì z toho blikání bolí oèi.
+ M: This flickering light is beginning to make my eyes hurt.
+ch-m-blik1
+ M: Nikdy bych neøekla, ¾e budu tak ráda, ¾e tì vidím.
+ M: I never thought I`d be so glad to see you again.
+ch-m-blik2
+ M: Koneènì zase svìtlo...
+ M: Finally, the lights are back on...
+
+ch-v-pozor
+ V: Pozor, a» tì nekousne!
+ V: Be careful. It bites!
+ch-v-robopes
+ V: To je... to je snad... ROBOPES!
+ V: Look! That must be... ROBODOG!
+ch-m-ten
+ M: Co¾e, TEN robopes?!
+ M: What? THAT robodog?!?
+ch-v-zapada
+ V: Tak teï u¾ do sebe v¹echno jasnì zapadá.
+ V: Well now it all makes sense.
+ch-m-odpoved0
+ M: Vèetnì karibské krize a Nostradamova proroctví.
+ M: Including the Cuban missile crisis and Nostradamus` prophecies.
+ch-m-odpoved1
+ M: Vèetnì vra¾dy Johna Lennona a pádu tunguzského meteoritu.
+ M: Including the murder of John Lennon and the Tunguzian meteor.
+ch-m-odpoved2
+ M: Vèetnì havárie raketoplánu Challenger a bitvy u Chlumce.
+ M: Including the Challenger explosion and the Battle of Bull Run.
+ch-m-odpoved3
+ M: Vèetnì havárie v Èernobylu a ztroskotání Noemovy archy.
+ M: Including the Chernobyl meltdown and the wreck of Noah`s Ark.
+ch-v-smysl
+ V: U¾ je mi také jasný smysl této hry.
+ V: Now I can see the rationale behind this game.
+ch-m-vubec
+ M: A taky smysl ¾ivota, vesmíru a vùbec.
+ M: And also the meaning of life, the universe and everything.
+
+ch-x-click1
+ d: CVAK
+ d: CLICK
+ch-x-click2
+ l: CVAK
+ l: CLICK
+
+$vol
+ 200
+ch-r-nevsimej0
+ R: Nev¹ímej si jich, hráèi, dìlají si z tebe legraci.
+ R: Don`t listen to them, player. They are kidding you.
+ch-r-nevsimej1
+ R: Nev¹ímej si jich, hráèi, tropí si z tebe ¾erty.
+ R: Don`t listen to them, player. They are trying to be funny.
+ch-r-nevsimej2
+ R: Nev¹ímej si jich, hráèi, tropí si z tebe øi».
+ R: Don`t listen to them, player. They are trying to fool you.
+ch-r-hracka
+ R: Jsem jen obyèejná kybernetická hraèka.
+ R: I am but a humble cybernetic toy.
+ch-r-ikdyz0
+ R: I kdy¾ pùvodnì jsem mìl být skútr.
+ R: Though originally I was to be a scooter.
+ch-r-ikdyz1
+ R: I kdy¾ pùvodnì jsem mìl být sekaèka na trávu.
+ R: Though originally I was to be a lawn-mower.
+ch-r-ikdyz2
+ R: I kdy¾ pùvodnì jsem mìl být kosmická orbitální stanice.
+ R: Though originally I was to be a space orbital station.
+ch-r-ikdyz3
+ R: I kdy¾ pùvodnì jsem mìl být rakvièka se ¹lehaèkou.
+ R: Though orginally I was to be a piece of cake.
+ch-r-anavic0
+ R: A u té karibské krize jsem se jen nachomýtl.
+ R: And I visited Cuba only once.
+ch-r-anavic1
+ R: A z té vra¾dy usvìdèili pøece nìkoho jiného, mnì nic nedoká¾ou, nikdo mì nevidìl.
+ R: And everybody knows somebody else murdered him, they can`t prove anything.
+ch-r-anavic2
+ R: A pro tìch pár sedlákù se nikdo nezblázní.
+ R: And who cares for few soldiers.
+ch-r-anavic3
+ R: A navíc øíkali, ¾e ta regulaèní tyè není v reaktoru dùle¾itá.
+ R: And they told me that that regulatory rod isn`t important.

@@ -1,0 +1,17 @@
+CE
+nog-v-zvlastni
+ V: Tohle je ale zvlá¹tní místnost.
+ V: This is a very strange room.
+nog-m-uvedom0
+ M: Je tøeba si uvìdomit, ¾e ta trubka kolem je jen pøedmìt.
+ M: You need to realize that the steel cylinder surrounding us is only an object.
+nog-m-uvedom1
+ M: Jsou tu jen ètyøi políèka zdi.
+ M: All in all there are only four squares of wall here.
+
+nog-v-smetiste0
+ V: Tohle smeti¹tì je divný...
+ V: This trash heap is weird...
+nog-v-smetiste1
+ V: Tohle smeti¹tì je stejnì ale divný...
+ V: This garbage heap still looks kind of strange...

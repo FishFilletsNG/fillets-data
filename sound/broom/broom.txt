@@ -1,0 +1,42 @@
+CE
+kos-m-uklid0
+ M: Tady jsme u¾ dlouho nebyli.
+ M: It`s been a long time since we`ve been here...
+kos-m-uklid1
+ M: Tady se u¾ dlouho neuklízelo.
+ M: Nobody has cleaned up in here for a long time.
+kos-m-uklid2
+ M: Já jsem vìdìla, ¾e tu budeme muset uklízet.
+ M: I knew we`d have to clean this room up.
+kos-v-poradek0
+ V: Aspoò tu udìláme poøádek.
+ V: At least we can tidy things up.
+kos-v-poradek1
+ V: Koneènì tu bude poøádek.
+ V: At least things will finally be in order in here.
+kos-v-poradek2
+ V: Tady budu muset zametat já.
+ V: I`ll have to do the sweeping.
+
+kos-v-koste0
+ V: Je¹tì ¾e tu máme to ko¹tì.
+ V: It`s a good thing we have that broom.
+kos-v-koste1
+ V: Podá¹ mi, prosím tì, to ko¹tì?
+ V: Could you please hand me that broom?
+kos-v-koste2
+ V: Podá¹ mi, prosím tì, to ko¹tì? A zkus mi ho nehodit na hlavu.
+ V: Could you please hand me that broom? And try not to drop it on my head.
+
+kos-m-zamet0
+ M: Myslím, ¾e bude staèit, kdy¾ to v¹echno zamete¹ dolù.
+ M: I think it`ll be fine if you just sweep it all down there.
+kos-m-zamet1
+ M: Tam se toho vejde.
+ M: It should all fit.
+kos-m-zamet2
+ M: Jenom to zame» dolù a padáme.
+ M: Just sweep it down and we`ll be out of here.
+kos-m-zamet3
+ M: Na uhlák se vyka¹li a name» to dolù.
+ M: Forget that bin and just sweep the garbage down.

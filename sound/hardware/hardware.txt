@@ -1,0 +1,55 @@
+CE
+pz-v-zaskladanej
+ V: Jsem tady úplnì zaskládanej.
+ V: I`m completely blocked in here.
+pz-m-co
+ M: Co to tam nahoøe má¹?
+ M: What are you doing up there?
+pz-v-klice1
+ V: To jsou asi nìjaké hardwarové klíèe.
+ V: These must me some hardware keys.
+pz-v-klice2
+ V: Je tu spousta hardwarových klíèù.
+ V: There are many hardware keys here.
+
+pz-v-co1
+ V: Co to tam dole má¹, nevidím tam...
+ V: What do you have down there?
+pz-v-co2
+ V: Co je tam dole?
+ V: What`s down there?
+pz-m-spoje1
+ M: Je tu nìkolik plo¹ných spojù.
+ M: There are some printed circuits here.
+pz-m-spoje2
+ M: Jsou tu nìjaké integrované obvody.
+ M: There are some integrated circuits here.
+pz-m-spoje3
+ M: Jsem tu obklopena elektronikou...
+ M: I am surrounded by electronics here.
+
+pz-m-pocitace
+ M: Poèítaèe. V¾dycky jsem jimi byla fascinována. Teï jich u¾ ale mám plný zuby.
+ M: Computers. They`ve always fascinated me. But now I`m sick of them.
+
+pz-x-pocitac
+ w: Ryby. V¾dycky jsem je nenávidìl. A teï jich tady mám plný obvody.
+ w: Fish. I`ve always hated them. And now my circuits are overloaded with them.
+
+pz-v-hej
+ V: Hej, jak je tam dole? Tady je celkem nuda.
+ V: Hey, how are you? It`s quite boring here.
+pz-m-nech
+ M: Nech si to.
+ M: Can it, will you?
+
+pz-m-vylez
+ M: Vylez!
+ M: Get out!
+pz-v-dat
+ V: Musíme nìkam dát ty klíèe.
+ V: We have to put these keys somewhere.
+
+pz-m-nepasuje
+ M: Nìjak to tam nepasuje.
+ M: It doesn`t seem to fit.

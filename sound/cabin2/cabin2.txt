@@ -1,0 +1,103 @@
+CE
+k1-pap-3xkruty
+ P: Krrrutý, krrrutý, krrrutý kapitán Silverrrr"
+ P: Crrruel, crrruel, crrruel Captain Silverrrr"
+k1-pap-kruty
+ P: Krrrutý kapitán Silverrrr"
+ P: Crrruel Captain Silverrrr"
+k1-pap-kruci
+ P: Krrruci!
+ P: Good grrrief!
+k1-pap-problem
+ P: Zatrrraceny prrroblém, není-li¾ prrravda?
+ P: Trrricky prrroblem, isn`t it?
+k1-pap-sakris
+ P: Sákrrri¹
+ P: Darrrn!
+k1-pap-sucharek
+ P: Lórrra chce suchárrrek!
+ P: Polly wants a crrracker!
+k1-pap-trhnisi
+ P: Trrrhni si"
+ P: Beat it, sirrr"
+
+ka2-v-nekde
+ V: To jsme u¾ nìkde vidìli, ne?
+ V: Didn`t we see this somewhere already?
+ka2-m-kdepak
+ M: Kdepak, tahle kajuta je o sto ètyøicet ètyøi políèek vìt¹í...
+ M: No, you`re wrong. This cabin is one hundred and forty four squares larger...
+
+ka2-v-papousek
+ V: Podívej, ten papou¹ek!!!
+ V: Look at that parrot!!!
+ka2-m-kostra
+ M: No co, obyèejná kostøièka.
+ M: So what, a normal skeleton.
+
+ka2-m-posledni
+ M: Hele, tahle místnost u¾ je skoro poslední v øadì. ®e by v té truhle byl pøece jenom ten poklad?
+ M: Did you see it? This room is almost the last one. Could this really be that treasure?
+ka2-v-mapa0
+ V: Co by bylo v tìch dal¹ích dvou?
+ V: And what would be in the other two?
+ka2-v-mapa1
+ V: Øíkali nám jasnì: najdìte mapu. O pokladu øeè nebyla.
+ V: They told us clearly to find the map. Nobody mentioned a treasure.
+ka2-v-mapa2
+ V: Neotravuj poøád. Autoøi hry jistì nenechají hráèe v nejistotì!
+ V: Don`t be so annoying. The authors of the game would surely let the player know.
+
+ka2-m-chapadlo
+ M: Ta chobotnice má nepøíjemnì zasukovaná chapadla. Nevejdu se mezi nì.
+ M: This octopus has unpleasantly knotted tentacles. I won`t fit between them.
+ka2-v-fik
+ V: ... a co kdybychom jí nìjaké ufikli?!
+ V: ... so what if we cut one off?!
+ka2-v-napad
+ V: Promiò, to byl jen takový nápad.
+ V: I am sorry, it was just an idea.
+
+ka2-m-hej
+ M: Hej, chobotnièko, nemohla bys kousek uhnout?
+ M: Little octopus, couldn`t you move away a little bit, please?
+ka2-m-diky
+ M: Hmmm... tak díky.
+ M: Hmm... thanks a lot.
+
+ka2-v-kostry
+ V: Kostry jsou asi oblíbeným motivem autorù této hry.
+ V: Skeletons seem to be a favorite motif of this game authors.
+ka2-m-patrne
+ M: Patrnì jsou to suchozemci. Ty kostry jsou zøejmým dùsledkem snahy nacpat pod vodu co nejvíce tvorù, kteøí tam nemají co dìlat.
+ M: Who are probably living on land. These skeletons are visible proof of their effort to stuff the ocean with all the things that don`t belong there.
+
+ka2-v-myslet
+ V: Zkusme se zamyslet. Nedalo by se nìjak vyjít z toho, jak jsme projeli tu pøedchozí kajutu?
+ V: Let`s try to think. Can`t we take our solution of that previous cabin and modify it a little?
+ka2-m-tezko
+ M: Hmmm... tì¾ko.
+ M: Hmm... I don`t think so.
+
+ka2-m-svitit
+ M: Tak si na to posvítíme.
+ M: So, let`s shed some light on it.
+ka2-v-hrbet
+ V: U¾ mì bolí høbet.
+ V: My back aches.
+
+k1-chob-1
+x
+x
+k1-chob-2
+x
+x
+k1-chob-3
+x
+x
+k1-chob-p
+x
+x
+k1-x-vrz
+x
+x

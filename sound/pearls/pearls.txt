@@ -1,0 +1,64 @@
+CE
+jed-m-libi
+ M: Tady se mi líbí.
+ M: It is lovely here.
+jed-m-perly0
+ M: Takových perel.
+ M: So many pearls.
+jed-m-perly1
+ M: V¹ude samé perly.
+ M: There are so many pearls here.
+jed-v-poslani0
+ V: Poslechni... Nezapomínej na na¹e úkoly!
+ V: Listen... Don`t forget our mission!
+jed-v-poslani1
+ V: Nejsme tady na perlách.
+ V: We are no pearl-hunters.
+jed-v-poslani2
+ V: Nezapomeò! Máme poslání.
+ V: Remember! We have a mission to complete.
+
+jed-m-flakas
+ M: Ty se tam nahoøe fláká¹ a já to tu musím oddøít v¹echno sama!
+ M: You are just sitting up there and I have to do all the work myself!
+jed-v-uzivat0
+ V: V¾dy» jsi øíkala, ¾e má¹ perly ráda.
+ V: Didn`t you say that you like the pearls?
+jed-v-uzivat1
+ V: Mù¾e¹ si do sytosti u¾ívat perel.
+ V: Aren`t you happy with so many pearls?
+
+jed-m-perlorodka0
+ M: Potøebuju je¹tì jednu perlu.
+ M: I need one more pearl.
+jed-x-nedam
+ P: Nedám.
+ P: Nope.
+jed-m-perlorodka1
+ M: Prosím, je¹tì jednu perlu.
+ M: One more pearl, please.
+jed-m-perlorodka2
+ M: Má drahá pøítelkynì, nemù¾e¹ mi, prosím, na chvilku pùjèit jednu perlièku?
+ M: My dearest friend, couldn`t you possibly lend me just one little pearl?
+
+
+jed-m-trubka
+ M: Jestli by nebylo jednodu¹¹í tu ocelovou trubku zkrátit.
+ M: I wonder if it wouldn`t be easier to shorten that steel pipe.
+
+jed-v-ocet
+ V: Kleopatra prý rozpou¹tìla perly v octì.
+ V: Cleopatra is rumored to dissolve pearls in vinegar.
+jed-m-moc
+ M: Zdá se ti snad, ¾e jich tu máme moc?
+ M: Do you think we have too many of them?
+jed-v-vzdelat
+ V: Jenom jsem tì chtìl trochu vzdìlat.
+ V: Well, I just wanted to educate you a little.
+
+jed-v-poter
+ V: Kdy¾ se na tebe dívám, vzpomínám, jak jsem hrál s potìrem kulièky.
+ V: Watching you, I have to think about how I played marbles with tadpoles.
+jed-m-kulicka
+ M: Pøedpokládám, ¾e ti nìjaká kulièka nezbyla v kapse, co?
+ M: You haven`t got a spare marble in your pocket, do you?

@@ -1,0 +1,79 @@
+CE
+pap-v-ha
+ V: Ha. Dal¹í zdroj energie.
+ V: Look. Another energy source.
+pap-m-magnet
+ M: Dej pokoj, ten magnet je tady jen proto, aby nám pøeká¾el.
+ M: Don`t worry. This magnet is here only to hinder us.
+pap-v-potrebovat
+ V: Já myslím, ¾e ho je¹tì budeme potøebovat.
+ V: I think we are going to need it.
+
+pap-m-zvlastni
+ M: To je ale zvlá¹tní pøedmìt.
+ M: This is a very strange object.
+pap-v-prekvapeni
+ V: Myslím, ¾e v Ufu bude spousta takových pøekvapení.
+ V: I think that UFO is going to be full of such surprises.
+pap-m-teorie
+ M: Nerozvíjej svoje teorie a radìji to nìjak vyøe¹me.
+ M: Stop developing your theories and start solving.
+
+pap-m-radio
+ M: Tohle vypadá jako rádio.
+ M: This looks like a radio.
+pap-v-radio
+ V: Kde by se tady vzalo rádio?
+ V: How could a radio get here?
+pap-m-nechme
+ M: Nechme toho.
+ M: Let it be.
+pap-v-divny
+ V: To je ale divný rádio.
+ V: This is a strange radio.
+
+pap-m-coje
+ M: Co je to tady?
+ M: What have we here?
+pap-m-pistole
+ M: Pøipomíná to pistoli.
+ M: It looks like a pistol to me.
+pap-v-laserova
+ V: Tøeba je to laserová zbraò.
+ V: Maybe it`s a laser weapon.
+pap-m-jejedno
+ M: To je jedno, tu snad nepotøebujeme.
+ M: It doesn`t matter. We don`t need it.
+pap-v-nemir
+ V: Hlavnì s ní nemiø na mì!
+ V: Stop pointing at me with it!
+pap-m-nejde
+ M: Jako bys nevìdìl, ¾e v této høe nejde pøedmìty otáèet!
+ M: As if you don`t know that you can`t turn objects in this game.
+
+pap-m-ocel
+ M: Je tu nìjak moc tìch ocelových konstrukcí.
+ M: There are too many steel constructions here.
+pap-v-vufu
+ V: Nezapomínej, ¾e jsme uvnitø létajícího talíøe!
+ V: Don`t forget that we are inside of the flying saucer!
+pap-m-naucit
+ M: Mo¾ná bych se mohla nauèit manipulovat s tìmi ocelovými válci.
+ M: Maybe I could learn how to manipulate these steel tubes.
+pap-m-nepohnu
+ M: Ne, s tím nepohnu.
+ M: No, I can`t move it.
+
+pap-v-tesno
+ V: Je  tu nìjak tìsno.
+ V: It`s quite tight here.
+pap-m-mraz
+ M: Bìhá mi z tìch magnetù mráz po zádech.
+ M: These magnets are giving me the creeps.
+
+pap-v-pole
+ V: To magnetické pole má asi povzbuzující úèinky.
+ V: This magnetic field probably has some invigorating effects.
+pap-m-nedobre
+ M: Mnì to teda moc dobøe nedìlá.
+ M: It`s doing me no good.

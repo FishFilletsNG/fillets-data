@@ -1,0 +1,67 @@
+CE
+$vol
+ 200
+rea-m-proboha
+ M: Proboha, vidí¹ támhletu rù¾ovou vìc?
+ M: My God, can you see that pink thing over there?
+rea-v-coto
+ V: Co to mù¾e být?
+ V: What could it be?
+rea-m-nevim
+ M: Nevím, ale je to odporné.
+ M: I have no idea, but it`s disgusting.
+
+rea-m-comyslis
+ M: Co si myslí¹ o tìch tyèích?
+ M: What do you think about these rods?
+rea-v-patrne
+ V: Tohle jsou patrnì palivové nebo regulaèní tyèe reaktoru.
+ V: They look like they`re some kind of fuel rods or maybe regulators for the nuclear reactor.
+rea-v-ledaze
+ V: Leda¾e by ten reaktor pracoval na úplnì jiném principu.
+ V: Unless, of course, this reactor works on some completely different principle.
+rea-m-mohl
+ M: Mohl by to být nukleopartikulární megadisruptor s ultramezonovými urychlovaèi.
+ M: It could, of course, be a nucleo-particle megadisruptor with ultramezon colliders.
+rea-v-tozni
+ V: To zní pravdìpodobnì"
+ V: That sounds reasonable"
+
+rea-m-anebo
+ M: A nebo to není vùbec reaktor.
+ M: Then again, maybe this isn`t a nuclear reactor.
+rea-v-acoby
+ V: A co by to bylo?
+ V: So what is it, then?
+rea-m-cojavim
+ M: Co já vím? Barevná hudba? Dìtská hraèka? Støelnice?
+ M: How should I know? A cinematoscope? A child`s toy? A shooting gallery?
+rea-v-radeji
+ V: Radìji bych se dr¾el nìjakého rozumného vysvìtlení. 
+ V: I`d rather stick to a more rational explanation.
+rea-m-jakmuzes
+ M: Jak mù¾e¹ vìdìt, co je rozumné vysvìtlení?
+ M: But how do you know what`s a rational explanation and what isn`t?
+rea-v-kolik
+ V: Kolik procent létajících talíøù má podle tebe na palubì støelnici? A kolik reaktor?
+ V: Well just how many flying saucers, in your opinion, have a shooting gallery on board? And how many have a power plant?
+rea-v-takvidis
+ V: Tak vidí¹.
+ V: You see?
+
+rea-m-doufam
+ M: Doufám, ¾e tím nezpùsobíme nìjakou ne¾ádoucí reakci.
+ M: I hope we don`t start some upleasant reaction.
+rea-v-nemudruj
+ V: Nemudruj a zasouvej tyèe.
+ V: Don`t think. Just push the rods.
+
+$30
+rea-x-pldik
+ p: MUAHHH" UAHH" UUUH"
+ p: MUAHHH" UAHH" UUUH"
+
+$100
+rea-x-reakttyc
+x
+x

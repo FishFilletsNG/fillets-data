@@ -1,0 +1,85 @@
+CE
+smrt-v-0
+ V: No a je to v ...
+ V: Oh, shoot!
+smrt-m-psst
+ M: P¹¹t, mohou to hrát i dìti!
+ M: Shhh, children can be playing this game!
+smrt-v-1
+ V: Zatracenì.
+ V: Darn.
+smrt-v-2
+ V: Shit!
+ V: Dang!
+smrt-v-3
+ V: Scheisse!
+ V: Scheisse!
+smrt-v-4
+ V: Hmmm... a jsem sám.
+ V: Hmmm... and now I am alone.
+smrt-v-5
+ V: Jestlipak vìdìla, ¾e má tak sexy kostru?
+ V: Did she know she has such a sexy skeleton?
+smrt-v-6
+ V: Stra¹livý konec pro malou rybku...
+ V: Terrible end of the little fish...
+smrt-v-7
+ V: Jaký je asi poloèas rozpadu rybí kostøièky?
+ V: What can be the constant of decay of the fish skeleton?
+smrt-m-0
+ M: No, a je to.
+ M: So much for him.
+smrt-m-1
+ M: Ach nééé.
+ M: Oh, nooo.
+smrt-m-2
+ M: A jsem tady sama.
+ M: And now I am alone.
+smrt-m-3
+ M: To muselo ale bolet.
+ M: That must have hurt.
+smrt-m-4
+ M: Chudák, takový konec si nezaslou¾il...
+ M: He didn`t deserve such a terrible end...
+smrt-m-5
+ M: Tak znovu...
+ M: So, let`s start again...
+smrt-x-obe
+ P: Oj, karamba!
+ P: Aye, caramba!
+smrt-v-obe
+ V: Tady pøeci papou¹ek není!
+ V: But there is no parrot here!
+smrt-m-obe
+ M: Mlè, jsi mrtvý.
+ M: Shut up, you are dead.
+smrt-m-6
+ M: Ani jsem mu nestaèila øíci, ¾e ho miluji.
+ M: And I never told him I loved him.
+smrt-m-restart
+ M: Na¹tìstí je mo¾no místnost restartovat.
+ M: Luckily, it`s possible to restart the level.
+smrt-v-restart
+ V: Je¹tì ¾e je mo¾no místnost restartovat.
+ V: Fortunately, we can restart the level.
+
+smrt-v-zahrobi
+ V: Restartuj místnost! Posmrtný ¾ivot není moc zábavný.
+ V: Restart the level! The afterlife is too tedious.
+smrt-m-zahrobi
+ M: Restartuj místnost. Tady v záhrobí je to hroznì stra¹idelné.
+ M: Restart the level! This afterlife is too scary.
+
+smrt-v-posmrtny
+ V: Halóóó. Sly¹í¹ mì tam nìkde v záhrobí? Existuje posmrtný ¾ivot?
+ V: Hellooo? Can you hear me hereafter? Is there life after death?
+smrt-m-posmrtny
+ M: Nevím. Myslím, ¾e ne.
+ M: I don`t know. I don`t think so.
+
+smrt-m-autorest
+ M: Sama to øe¹it nebudu. Ani se nemusí¹ obtì¾ovat s restartem, udìlám to sama.
+ M: I am not going to solve it alone. Don`t trouble yourself with restart, I`ll do it myself.
+smrt-v-autorest
+ V: Je pryè. Urèitì sis ji za tu dobu taky tak oblíbil jako já. Tak¾e nemá¹ nic proti restartu.
+ V: And she is gone. I`m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.

@@ -1,0 +1,80 @@
+CE
+br-v-komfort
+ V: Na to, ¾e je to vlastnì smeti¹tì, je to docela komfort.
+ V: It`s quite comfortable for a wasteyard.
+br-m-bydli
+ M: Myslí¹, ¾e tu nìkdo bydlí?
+ M: What do you think, does anybody live here?
+br-v-santusak
+ V: Nìjaký podvodní santusák.
+ V: Some underwater homeless.
+br-m-podvodnik
+ M: Nebo santusácký podvodník.
+ M: We call them shell-less.
+
+br-m-vsim0
+ M: V¹iml sis, ¾e...
+ M: Did you notice that...
+br-m-vsim1
+ M: Není ti divné, ¾e...
+ M: Don`t you think that...
+br-m-vsim2
+ M: To je zvlá¹tní, ¾e...
+ M: Isn`t it strange that...
+br-v-nerozvadet0
+ V: Já bych to nerozvádìl.
+ V: Don`t speak about it.
+br-v-nerozvadet1
+ V: Prosím tì, ¾ádné fekální vtipy.
+ V: Please, no jokes about defecation.
+br-v-nerozvadet2
+ V: Ano, vím o tom. Nebudeme to komentovat.
+ V: Yes, I know about that. We won`t comment on it.
+br-m-dva
+ M: Ale proè DVA?
+ M: Yeah, but why TWO?
+br-v-dost
+ V: Prosím tì, nech toho!
+ V: Stop it, will you?
+
+br-m-sprcha
+ M: Vidìla jsem tu hodnì zbyteèností, ale podvodní sprcha...
+ M: I`ve seen many useless things, but an underwater shower...
+br-v-lazen
+ V: Tøeba z ní tryská vzduch, jako ve víøivé lázni.
+ V: Maybe it sprays air, like in the bubble bath.
+br-m-zapnout
+ M: Myslí¹, ¾e bychom ji mohli zapnout?
+ N: Do you think we could turn it on?
+br-v-shodit
+ V: Tì¾ko. Ale mohli bychom ji shodit.
+ V: Hardly. But we could push it down.
+
+br-m-poklady
+ M: No to jsou poklady.
+ M: Now this is real treasure.
+
+br-v-nechat
+ V: Mìli jsme ji nechat tam, kde byla.
+ V: We should have let it alone.
+br-m-nefunguje
+ M: A navíc stejnì nefunguje.
+ M: And it doesn`t work anyway.
+
+br-m-ahoj
+ M: Ahoj tam uvnitø.
+ M: Hello, inside there.
+br-v-draha
+ V: To je urèitì lep¹í ne¾ horská dráha.
+ V: This must be better than rollercoaster.
+br-m-zkusit
+ M: Hned bych si to taky zkusila.
+ M: I would love to try it myself.
+
+br-m-bavi
+ M: Zdá se, ¾e se dobøe baví.
+ M: He seems to be enjoying himself.
+
+br-x-pracka
+x
+x

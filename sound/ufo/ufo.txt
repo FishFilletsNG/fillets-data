@@ -1,0 +1,52 @@
+CE
+ufo-v-znicilo
+ V: Blí¾íme se konci na¹í cesty: tohle je jistì to UFO, co nám znièilo domeèek.
+ V: We must be getting near the end of our mission. This is surely the UFO that destroyed our house.
+ufo-m-osmy
+ M: Myslí¹? V¾dy» je to teprve osmý level od zaèátku.
+ M: Are you sure? This is but the eighth level.
+
+ufo-m-valce
+ M: Ty ocelové válce mi jdou pìknì na nervy.
+ M: These steel cylinders are pretty obnoxious.
+ufo-m-moc
+ M: Oceli je tu tentokrát trochu moc.
+ M: There is just too much steel here.
+ufo-v-hur
+ V: Mù¾e být i hùø. Já si tøeba dovedu pøedstavit místo, kde nebude nic ne¾ ocel.
+ V: It could be worse. I for one can imagine myself a room where there is nothing but steel.
+ufo-m-ne
+ M: To snad ne. Co bych v takové místnosti dìlala?
+ M: My goodness? What should I do in such a level?
+ufo-v-vpredu
+ V: Koneènì bys mì nechala jít vpøedu.
+ V: You would let me go in front, for a change.
+
+ufo-m-zvlastni
+ M: Zvlá¹tní je, ¾e ta zmì» oceli funguje jako úèinnìj¹í pøeká¾ka ne¾ bezpeènostní systém toho UFA.
+ M: It`s interesting that this tangled steel forestalls our entry into that UFO more effectively than any security system.
+ufo-v-rikam
+ V: Poøád ti øíkám, ¾e ná¹ ¾ivot je øízen jakousi vy¹¹í, cizí inteligencí.
+ V: I keep telling you that our life is controlled by some higher, strange consciousness.
+ufo-m-vidim
+ M: To vidím taky. Jenom si nejsem jistá, ¾e je vy¹¹í.
+ M: I can see that, too. But I am not that sure it`s higher.
+
+ufo-v-dovnitr
+ V: Co tam tak mù¾eme najít, jestli se dostaneme dovnitø?
+ V: What can we find inside, once we manage to get there?
+ufo-m-tajemstvi
+ M: Tajemství cizí civilizace, nové technologie, nové zdroje energie...
+ M: Secrets of another civilization, new technologies, new sources of energy...
+ufo-v-zjistit0
+ V: Hlavnì bychom mìli zjistit, proè sem vlastnì pøiletìli.
+ V: Most importantly, we should try to find out why they came at all.
+ufo-v-zjistit1
+ V: Ví¹, nejvíc by mì zajímalo, proè ztroskotali právì tady.
+ V: You know, most of all I wonder why have they crashed just here.
+ufo-m-tady
+ M: V¹ak jsi to vidìl. V¹echno se dìje právì tady.
+ M: Didn`t you see it? Everything happens just here.
+ufo-m-nevim
+ M: Taky nevím, proè ka¾dé UFO padá právì na ná¹ domeèek.
+ M: I don`t know why the UFOs keep crashing at our house, either.

@@ -1,0 +1,161 @@
+CE
+z-v-doma
+ V: Jsem rád, ¾e jsme zase doma.
+ V: I am glad to be home again.
+z-m-pocit
+ M: Mám takový pìkný pocit dobøe odvedené práce.
+ M: I have such a good feeling of the work well done.
+z-v-sef
+ V: Pøed chvílí volal ¹éf. Byl s námi moc spokojen.
+ V: The boss called a moment ago. He was very satisfied with our performance.
+z-m-nemluv
+ M: O ¹éfovi mi ani nemluv. On si sedí nìkde v teplouèku, zatím co my jsme se døely.
+ M: Don`t mention the boss to me. He sits somewhere in his cozy office and we have to do all the dirty work.
+z-v-slyset
+ V: Pssst, mù¾e nás sly¹et.
+ V: Shhh, he could hear us.
+z-m-netusi
+ M: Jak by nás mohl sly¹et. Urèitì ani netu¹í, jak dlouho nám to trvalo.
+ M: How could he? He surely doesn`t even know how long it took us.
+
+z-m-dlouho
+ M: Jé, tak dlouho mi to ani nepøipadlo.
+ M: Really? It didn`t seem that long to me.
+
+z-v-pozdrav
+ V: Hráèi, máme ti vyøídit pozdrav a uznání od autorù hry. Jestli jsi to neøe¹il nìjakým podvodem, tak jsi opravdu dobrej. Nebo dokonce dobrá? My tì tady odsud moc nevidíme.
+ V: Dear player. We would like to communicate to you the high regards of the authors of this game. If you didn`t solve it by some cheat, you are really very, very good. It`s a pity we cannot see you from here, but...
+z-m-oblicej
+ M: Mohl bys dát oblièej pøed kontrolku harddisku? Mo¾ná to neví¹, ale to je takové oko poèítaèe, kterým tì...
+ M: Could you please put your face in front of the hard disk LED? You might not know it but it is a kind of computer`s eye through which...
+z-v-forky
+ V: Nech u¾ tìch fórkù. Teï je slavnostní chvíle. Tak¾e:
+ V: Stop this jokes of yours. This is a very special moment. So:
+
+z-o-blahoprejeme
+ 0: BLAHOPØEJEME!!!
+ 0: CONGRATULATIONS!!!
+
+z-c-1
+x
+x
+z-c-2
+x
+x
+z-c-3
+x
+x
+z-c-4
+x
+x
+z-c-5
+x
+x
+z-c-6
+x
+x
+z-c-7
+x
+x
+z-c-8
+x
+x
+z-c-9
+x
+x
+z-c-10
+x
+x
+z-c-11
+x
+x
+z-c-12
+x
+x
+z-c-13
+x
+x
+z-c-14
+x
+x
+z-c-15
+x
+x
+z-c-16
+x
+x
+z-c-17
+x
+x
+z-c-18
+x
+x
+z-c-19
+x
+x
+z-c-20
+x
+x
+z-c-30
+x
+x
+z-c-40
+x
+x
+z-c-50
+x
+x
+z-c-60
+x
+x
+z-c-70
+x
+x
+z-c-80
+x
+x
+z-c-90
+x
+x
+z-c-100
+x
+x
+z-c-200
+x
+x
+z-c-sta
+x
+x
+z-c-set
+x
+x
+z-c-tisíc
+x
+x
+z-c-tisíce
+x
+x
+z-c-hodin
+ w: Konkrétnì @ hodin!
+ w: To be specific, it took you @ hours!
+z-c-konkretne
+x
+x
+
+bar-x-suck0
+x
+x
+bar-x-suck1
+x
+x
+bar-x-suck2
+x
+x
+bar-x-suck3
+x
+x
+$vol
+ 150
+bar-x-suckano
+x
+x

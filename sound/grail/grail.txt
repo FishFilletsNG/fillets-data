@@ -1,0 +1,66 @@
+CE
+gr-m-gral
+ M: Támhle to uprostøed, to je nepochybnì Svatý grál!
+ M: That thing over there must be Holy Grail
+gr-v-jiste
+ V: Jak si mù¾e¹ být tak jistá?
+ V: How can you be so sure?
+
+gr-m-zare0
+ M: Nevidí¹ svatozáø?
+ M: Can`t you see that halo?
+gr-m-zare1
+ M: Nevidí¹, jak mezi tìmi ostatními záøí?
+ M: Can`t you see how it glows among the other?
+gr-m-zare2
+ M: Copak nevidí¹, jak výraznì je umístìn ve støedu celé jeskynì na vyvý¹eném místì?
+ M: Can`t you see how conspicuously is it placed in the center of the cave? 
+
+gr-v-nic0
+ V: Svatozáø nic neznamená. Svatý grál mù¾e vypadat i úplnì obyèejnì.
+ V: Halo means nothing. Holy Grail could look quite plainly.
+gr-v-nic1
+ V: Není v¹echno zlato, co se tøpytí. Nikde není psáno, ¾e Svatý grál musí záøit.
+ V: It`s not everything gold that glitters. No one ever said that Holy Grail must glow.
+gr-v-nic2
+ V: Hmmm... kdy¾ dá nìkdo obyèejný grál na vyvý¹ené místo, nestane z nìj pøece svatý.
+ V: Hmm... Placing a plain Grail in a conspicuous place will not turn it into a Holy one.
+
+gr-v-tuseni
+ V: Mám takové tu¹ení, ¾e to bude jinak, ne¾ se zdá.
+ V: I feel it will not be as it seems.
+gr-m-tuseni
+ M: Ty a ty tvoje tu¹ení... 
+ M: You and your feelings.
+
+gr-m-svaty0
+ M: Pojï, odneseme odsud ten prostøední záøící grál se svatozáøí.
+ M: Let`s go, we shall take that central glowing Grail with us.
+gr-v-vsechny0
+ V: Já bych je radìji odnesl v¹echny.
+ V: I`d rather take all of them.
+
+gr-m-vsechny0
+ M: Hmmm... zdá se, ¾e jsi mìl pravdu. Vezmeme je v¹echny.
+ M: Hmm... It seems you were right. We`ll take them all.
+
+gr-m-svaty1
+ M: Na¹ím úkolem v této místnosti je vystrkat z ní svatý grál.
+ M: Our goal in this level is to push out the Holy Grail.
+gr-v-vsechny1
+ V: Ne, v¹echny grály!
+ V: No, to push out all Grails.
+gr-m-jensvaty
+ M: Staèí ten svatý.
+ M: The Holy one is enough.
+
+gr-m-vsechny1
+ M: Na¹ím úkolem je vystrkat z této místnosti úplnì v¹echny grály.
+ M: Our goal is to push all the Grails out of this room.
+
+gr-v-skoro0
+ V: U¾ jsou skoro v¹echny pryè!
+ V: Almost all of them are gone, now!
+gr-v-skoro1
+ V: Je¹tì jeden grál a bude to!
+ V: One more Grail and we are done!

@@ -1,0 +1,40 @@
+CE
+odp-v-kachna
+ V: Nezdá se ti, ¾e se ta kachna tváøí podezøele?
+ V: Doesn`t this duck look suspicious to you?
+odp-m-zda0
+ M: Zdá se mi, ¾e se tváøí pitomì.
+ M: I think it looks dumb.
+odp-m-zda1
+ M: Zdá se mi, ¾e je nafukovací.
+ M: I think it looks inflatable.
+
+odp-v-snehulak
+ V: Vidí¹ toho snìhuláka?
+ V: Can you see that snowman?
+odp-m-blaznis
+ M: Blázní¹? Snìhuláci pøeci patøí do jídelny.
+ M: What do you mean? Snowmen belong to the Mess Hall.
+
+odp-m-kohout
+ M: Zkus otevøít ten kohoutek!
+ M: Try to open that tap!
+odp-v-vtip
+ V: To byl zase vtip. Heh, heh.
+ V: Now, this was a joke. Heh, heh.
+
+odp-m-predmet
+ M: A není tu ¾ádný veselý animovaný pøedmìt.
+ M: And there is even no funny animated object here.
+odp-v-pozadi
+ V: Zato se tu krásnì vlní pozadí.
+ V: But a beautifully wavy background.
+odp-v-pohni
+ V: Tak sebou pohni, a» se dostaneme dál.
+ V: Move on, so that we can get going.
+odp-v-coja
+ V: A co já?
+ V: And what about me?
+odp-v-nestacim
+ V: Já u¾ ti nestaèím, nebo co?
+ V: Am I not enough for you now, or what?

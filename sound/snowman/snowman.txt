@@ -1,0 +1,40 @@
+CE
+tr-m-chlad1
+ M: Je mi nìjak chladno.
+ M: I`m kind of cold.
+tr-v-jid1
+ V: Není divu, v¾dy» tohle je Zimní jídelna.
+ V: No wonder. This is the Winter Mess Hall.
+
+tr-m-chlad2
+ M: Je mi zima.
+ M: I`m cold.
+tr-v-jid2
+ V: To je snad v Zimní jídelnì normální, ne?
+ V: Well that`s what you would expect in a Winter Mess Hall, right?
+
+tr-v-prezil
+ V: Aspoò ¾e to pøe¾il ten snìhulák.
+ V: At least the snowman has survived.
+
+tr-m-cvicit
+ M: Mìl by sis cvièit manipulaci se stoly.
+ M: Mabye you should start thinking about how to manipulate the tables.
+
+tr-m-ztuhl
+ M: V¹echno je tu tak ztuhlé...
+ M: Everything is so frozen here...
+
+tr-m-au1
+ M: Au!
+ M: Ow!
+tr-m-au2
+ M: Auvajs.
+ M: Ouch!
+tr-v-agres
+ V: Tak agresívního snìhuláka jsem je¹tì nevidìl.
+ V: I`ve never seen such an agressive snowman.
+
+tr-x-koste
+x
+x

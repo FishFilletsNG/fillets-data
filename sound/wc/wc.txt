@@ -1,0 +1,37 @@
+CE
+wc-v-oblibene
+ V: WC je oblíbeným Davidovým místem.
+ V: Toilet is David`s favorite place.
+wc-m-coze
+ M: Co¾e?
+ M: What?
+wc-v-neznas
+ V: Ty nezná¹ Davida? To je grafik, který na téhle høe pracoval!
+ V: You don`t know David? It`s one of the artists who worked on this game.
+wc-m-sochar
+ M: David nebyl ¾ádný malíø. David byl sochaø. Davidova socha je jednou z nejznámìj¹ích renesanèních památek.
+ M: David was no graphic artist. He was a sculpturer. His sculptures are one of the best-known Renaissance artifacts.
+wc-v-zmatek
+ V: Má¹ v tom nìjaký zmatek.
+ V: You`ve got it all wrong.
+
+wc-m-prasecinky
+ M: Já jsem ti øíkala, ¾e zrovna my splachovací záchod nepotøebujeme. A je¹tì tu visí ty tvoje praseèinky.
+ M: Didn`t I tell you, that WE don`t need a flushing toilet? And decorated with your smut, too!
+wc-v-hygiena
+ V: Splachovací záchod je hygieniètìj¹í a pod vodou i ekologiètìj¹í.
+ V: The flushing toilet is more hygienical and when under water even more ecological.
+
+wc-m-vlezt
+ M: Je¹tì, ¾e nemusím vlézt pøímo do mísy.
+ M: Luckily, I needn`t climb inside.
+
+wc-m-hrbitov
+ M: Necítím se tady dobøe. Pøipadám si jako na høbitovì.
+ M: I don`t feel very well here. I feel like in the cemetery.
+wc-v-coze
+ V: Co¾e?
+ V: What do you mean?
+wc-m-nevis
+ M: Copak neví¹, kde konèí svùj ¾ivot spousta akvarijních rybièek?
+ M: Don`t you know where so many aquarium fish end their life?

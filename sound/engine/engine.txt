@@ -1,0 +1,89 @@
+CE
+mot-m-info
+ M: Myslím, ¾e bychom tu mohli získat nìjaké informace o mezihvìzdném pohonu.
+ M: I think we can gain some information about the interstellar propulsion here.
+mot-v-konvencni
+ V: Tohle vypadá spí¹ na konvenèní pohon pro výsadková vozidla.
+ V: This looks more like a conventional propulsion for the landing craft.
+mot-m-tak
+ M: Tak. Na¹li jsme motor. Mohli bychom prohlásit jeden z na¹ich úkolù za splnìný.
+ M: So. We found the drive. We have achieved one of the objectives of our mission.
+mot-v-zavery
+ V: Nedìlej ukvapené závìry. Je¹tì jsme neprohlédli celý vrak.
+ V: Don`t be hasty. We didn`t search the whole wreck yet.
+
+mot-m-akce0
+ M: To je ¹koda, ¾e v¹echna ta technika, kterou tu vidíme, u¾ nefunguje.
+ M: I am sorry that none of these technical marvels around us work.
+mot-m-akce1
+ M: Já bych tak chtìla vidìt trochu té mimozemské techniky v akci.
+ M: I`d like to see some of these extraterrestrial gizmos in action.
+mot-m-akce2
+ M: To by mì zajímalo, jestli by tenhle motor fungoval i pod vodou.
+ M: I wonder if this motor could work under water.
+
+mot-v-funkce0
+ V: Mo¾ná je pro nás lep¹í, ¾e u¾ tu nic nepracuje.
+ V: Maybe it`s better for us if it doesn`t work.
+mot-v-funkce1
+ V: Já jsem spí¹ rád, ¾e tu nemù¾eme nic zapnout.
+ V: I am rather glad we cannot turn anything on here.
+mot-v-funkce2
+ V: Na¹e ¹tìstí je, ¾e tu nemù¾eme nic zapnout.
+ V: We should be happy that we didn`t switch anything on yet.
+
+mot-v-klic
+ V: Opatrnì s tím klíèem.
+ V: Careful with that wrench.
+mot-m-ublizit
+ M: Tady pøece nemù¾u nièemu ublí¾it.
+ M: I can`t harm anything here.
+
+mot-m-zvuky0
+ M: Co jsi to udìlal? Vypni ten randál!
+ M: What have you done? Turn off that roar!
+mot-m-zvuky1
+ M: To jsou stra¹né zvuky! Vypni to døív, ne¾ bude pozdì.
+ M: This is terrible! Turn it off before it`s too late!
+mot-v-nemuzu0
+ V: Nemù¾u! Jak to mám vytáhnout?!
+ V: I can`t! I can`t take it out!
+mot-v-nemuzu1
+ V: Nevím jak! Nedá se to vyndat!
+ V: I don`t know how! I can`t take it out!
+mot-m-mayday
+ M: Mayday! Mayday!
+ M: Mayday! Mayday!
+mot-v-konecne0
+ V: Koneènì.
+ V: Finally.
+mot-v-konecne1
+ V: To se mi ulevilo
+ V: What a relief.
+
+mot-v-zvuky0
+ V: Co to dìlá¹? Kam to jedeme?
+ V: What are you doing? Where are we going?
+mot-v-zvuky1
+ V: Co jsi to aktivovala? Kam nás to veze?
+ V: What have you activated? Where is it taking us?
+mot-m-nemuzu0
+ M: Kde se to vypíná?!
+ M: How can I turn it off?!
+mot-m-nemuzu1
+ M: Nedá se to vypnout!
+ M: I can`t turn it off!
+mot-m-konecne0
+ M: Díky.
+ M: Thanks.
+mot-m-konecne1
+ M: Koneènì.
+ M: Finally.
+
+mot-v-znovu0
+ V: Bojím se, ¾e to budeme muset zapnout znovu.
+ V: I am only afraid we`ll have to turn it on again.
+
+mot-x-motor
+x
+x

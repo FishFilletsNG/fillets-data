@@ -1,0 +1,99 @@
+CE
+sp-v-no0
+ V: No tohle!
+ V: Lo and behold!
+sp-m-no1
+ M: No teda!
+ M: Just imagine!
+sp-v-kdoby
+ V: Kdo by to øekl?!
+ V: Who could have guessed?!
+sp-m-neopatrnost
+ M: Taková neopatrnost.
+ M: Such a carelessness.
+sp-v-zahynuli
+ V: Tisíce lidí zahynuly, celé mìsto zmizelo v rozbouøených vlnách kvùli takové hlouposti.
+ V: Thousands perished, the whole city disappeared in the waves because of such ineptness.
+sp-m-vytazeny
+ M: Vyta¾ený ¹punt.
+ M: Unplugged plug.
+sp-v-trapne
+ V: Trapné pøehlédnutí.
+ V: Embarrassing blunder.
+
+sp-m-costim
+ M: Co s ním teï udìláme?
+ M: What are we to do with it?
+sp-v-vratit0
+ V: Mù¾em ho zkusit vrátit na místo.
+ V: We can try to put it back in place.
+sp-m-vratit0
+ M: A co potom? Myslí¹, ¾e tu vodu, co sem natekla, vypijem?
+ M: And then? Shall we drink the water that poured in or what?
+sp-v-vratit1
+ V: Mù¾em ho vrátit na místo jako vyjádøení na¹eho obdivu k hrdinskému úsilí obyvatel mìsta udr¾et ho nad hladinou. Jako pomník jejich dùmyslu, zruènosti a ... vytrvalosti.
+ V: We can put it back in place as a token of our esteem of the citizens` heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.
+sp-m-vratit1
+ M: Èeho ¾e? 'Kam bì¾í¹? Pro sedm meèù!` Ten ¹punt podle mì vytáhla sama prozøetelnost. Pøedstav si, ¾e bys takové vìci slýchal doma. Den co den.
+ M: Of what? 'Where are you running? I need to order eight swords.` The Providence itself unplugged that hole. Just imagine you`d hear such things at home. Day by day.
+sp-m-kalet
+ M: A navíc: copak sem je¹tì nìkdo nìkdy pøijde? Tady budou na ten ¹punt akorát kálet sépie.
+ M: And moreover: is it likely that anybody would ever come here? Only sepias will nibble it occasionally.
+sp-v-pocit
+ V: Budem z toho mít dobrý pocit.
+ V: We are going to feel well about it.
+sp-m-potize
+ M: Budem z toho mít potí¾e. Myslí¹, ¾e nám to ¹éf uvìøí? Obøí vyta¾ený ¹punt. A co jste s ním udìlali? Ucpali jsme s ním díru. Ha, ha, ha.
+ M: We are going to feel down about it. Do you think the boss is going to believe it? The giant unplugged plug. And what have you done with it? We plugged it again. He, he, he.
+sp-v-vzit
+ V: Na tom nìco je. Mo¾ná by bylo lep¹í ho vzít s sebou.
+ V: You might be right. Maybe it would be better to take it along.
+sp-m-taky
+ M: To si taky myslím.
+ M: I think so, too.
+sp-v-dotoho
+ V: Dáme se do toho.
+ V: Let `s get to work.
+
+sp-m-nechat
+ M: Co kdybychom tady ten ¹punt prostì nechali?
+ M: What if we just leave that plug here?
+sp-v-centrala
+ V: Co by tomu øekla centrála?
+ V: What would the Agency say?
+
+sp-v-jedno
+ V: U¾ mi zaèíná být jedno, co si o mnì ¹éf pomyslí.
+ V: I think I don`t mind what the boss is going to think about me.
+sp-m-vydrz
+ M: Vydr¾. Urèitì na to pøijdem.
+ M: Hold on. We are sure to solve it.
+
+sp-m-spunt
+ M: Zatracený ¹punt. Co kdybychom si nìco vymysleli?
+ M: The darned plug. What if we just make up something.
+sp-v-co
+ V: Jako tøeba co?
+ V: Like what, for example?
+sp-m-vymluva0
+ M: No tøeba, ¾e to mìsto nikdy neexistovalo.
+ M: Well, we could say that the city in fact never existed.
+sp-m-vymluva1
+ M: Tøeba, ¾e se to mìsto potopilo, proto¾e roztály ledovce.
+ M: Well, we could say that the city sank because the Arctic ice had melted.
+sp-m-vymluva2
+ M: Napøíklad ho mohlo potopit zemìtøesení.
+ M: An earthquake could sink the city, for example.
+sp-m-vymluva3
+ M: Tøeba, ¾e ho smetla tsunami.
+ M: A tsunami might sink the city, for example.
+sp-m-vymluva4
+ M: Mù¾em øíkat, ¾e na ostrovì vybuchla sopka.
+ M: We could try to say that a volcano erupted in the center of the city.
+sp-v-nesmysl
+ V: To je pìkný nesmysl.
+ V: This is a silly nonsense.
+
+sp-v-ven
+ V: Na¹ím úkolem tentokrát bude dostat ven z místnosti ten ¹punt!
+ V: This time our goal is to get out that plug.
