@@ -67,7 +67,7 @@ node_bestSolution("experiments", 804, "Ronny Standtke")
 node_bestSolution("aztec", 378, "Josef Peterka")
 node_bestSolution("gems", 59, "Mark Byers")
 node_bestSolution("chest", 464, "Josef Peterka")
-node_bestSolution("alibaba", 463, "Ronny Standtke")
+node_bestSolution("alibaba", 463, "Josef Peterka")
 node_bestSolution("cave", 186, "Josef Peterka")
 --node_bestSolution("grail", 0, "")
  
