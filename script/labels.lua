@@ -20,10 +20,10 @@ label_text("menu_music", "en", "Music volume");
 label_text("menu_music", "cs", "Hlasitost hudby");
 
 label_text("menu_lang", "en", "Choose language");
-label_text("menu_lang", "cs", "Zvol jazyk");
+label_text("menu_lang", "cs", "Výběr jazyka");
 
-label_text("menu_subtitles", "en", "Show subtitles?");
-label_text("menu_subtitles", "cs", "Zobrazovat titulky?");
+label_text("menu_subtitles", "en", "Show/hide subtitles");
+label_text("menu_subtitles", "cs", "Zobraz/skryj titulky");
 
 label_text("menu_back", "en", "Back");
 label_text("menu_back", "cs", "Zpět");
