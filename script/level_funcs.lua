@@ -1,4 +1,9 @@
 
+function random(limit)
+    -- return number from [0, limit)
+    return math.random(limit) - 1
+end
+
 function createRoom(width, height, picture)
     game_createRoom(width, height, picture)
 end
