@@ -24,7 +24,7 @@ function dialogLoad(prefix)
     function select_addFlag(lang, flag)
         table.insert(langs, lang)
     end
-    dofile("script/select_lang.lua")
+    file_include("script/select_lang.lua")
     select_addFlag = oldfunc
 
     for key, lang in pairs(langs) do
