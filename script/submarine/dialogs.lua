@@ -1,7 +1,7 @@
 dialog_addDialog("zr-x-nabito", "en", "", "font_white", "FIRST TORPEDO BAY LOADED...")
 dialog_addDialog("zr-x-nabito", "cs", "sound/"..codename.."/cs/zr-x-nabito.ogg", "font_white", "PRVNÍ NÁBOJOVÁ KOMORA NABITA...")
 dialog_addDialog("zr-x-nabito", "fr", "", "font_white", "PREMIERE CHAMBRE TORPEDO CHARGEE...")
-dialog_addDialog("zr-x-nabito", "de", "", "font_white", "ERSTES TROPEDOROHR GELADEN...")
+dialog_addDialog("zr-x-nabito", "de", "", "font_white", "ERSTES TORPEDOROHR GELADEN...")
 
 dialog_addDialog("zr-m-obliceje", "en", "", "font_small", "Stop making faces and come help me.")
 dialog_addDialog("zr-m-obliceje", "cs", "sound/"..codename.."/cs/zr-m-obliceje.ogg", "font_small", "Nedělej na sebe obličeje a pomoz mi.")
