@@ -1,8 +1,8 @@
 Fish Fillets - Next Generation
 http://fillets.sf.net
-//-----------------------------------------------------------------
 
-Depends:
+DEPENDS
+
 
 Library SDL = Simple DirectMedia Layer (video, input, sound)
 - libSDL >= 1.2, www.libsdl.org
@@ -13,11 +13,15 @@ Library SDL_mixer (multiple sounds)
 Library SDL_image (png, jpg support)
 - libSDL_image, http://www.libsdl.org/projects/SDL_image/
 
-//-----------------------------------------------------------------
-How to run:
+
+
+HOW TO RUN
+
 ./fillets
 
-controls:
-small fish ... arows
-big fish   ... keypad (4568)
 
+
+CONTROLS
+
+small fish - ASDW
+big fish   - JKLI
