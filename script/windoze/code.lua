@@ -37,10 +37,12 @@ local function prog_init()
                     --NOTE: turn on standard black jokes
                     stdBlackJoke = backup_stdBlackJokes
                 else
+                    game_setFastFalling(true)
                     big:setBusy(true)
                     small:setBusy(true)
                 end
             else
+                game_setFastFalling(false)
                 staramala:setBusy(true)
                 staravelka:setBusy(true)
             end
