@@ -40,7 +40,7 @@ node_bestSolution("cancan", 880, "Jan Danihelka")
 node_bestSolution("pearls", 537, "Ronny Standtke")
 --node_bestSolution("turtle", 0, "")
  
-node_bestSolution("computer", 164, "Charles Goodwin")
+node_bestSolution("computer", 158, "Charles Goodwin")
 node_bestSolution("noground", 44, "Heiko Luettges")
 node_bestSolution("bathroom", 92, "Pavel Danihelka")
 node_bestSolution("duckie", 98, "Ronny Standtke")
