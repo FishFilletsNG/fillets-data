@@ -74,7 +74,7 @@ local function prog_init()
                 if not pomb1 then
                     snehulak.afaze = 0
                     snehulak.prastil = 0
-                elseif Dir == dir_right then
+                elseif snehulak.dir == dir_right then
                     if odd(game_getCycles()) then
                         snehulak.afaze = 1 - snehulak.afaze
                     end
