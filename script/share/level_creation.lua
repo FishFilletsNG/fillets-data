@@ -114,9 +114,6 @@ function createObject(model_index)
     object.change_turnSide = function(self)
         model_change_turnSide(self.index)
     end
-    object.change_setLocation = function(self, x, y)
-        model_change_setLocation(self.index, x, y)
-    end
     object.setBusy = function(self, busy)
         model_setBusy(self.index, busy)
     end

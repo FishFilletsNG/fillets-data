@@ -1,4 +1,9 @@
 
+local function viewY(model)
+    local shift_x, shift_y = model_getViewShift(model.index)
+    return model.Y + shift_y
+end
+
 -- -----------------------------------------------------------------
 -- Init
 -- -----------------------------------------------------------------
@@ -44,7 +49,7 @@ local function prog_init()
                         addm(random(5), "pyr-m-nic")
                     end
                     room.hodinky = 1
-                elseif look_at(small, cerv) and room.cervik == 0 and (small.Y < cerv.Y + 2 and small.Y > cerv.Y - 2) and random(100) < 4 then
+                elseif look_at(small, cerv) and room.cervik == 0 and (small.Y < viewY(cerv) + 2 and small.Y > viewY(cerv) - 2) and random(100) < 4 then
                     addm(0, "pyr-m-plaz")
                     if random(100) < 50 then
                         addv(random(5), "pyr-v-druha")
@@ -190,7 +195,7 @@ local function prog_init()
                 cerv.stav = cerv.stav + 1
             end
             if cerv.stav == 30 then
-                if cerv.Y > cerv.mez then
+                if viewY(cerv) > cerv.mez then
                     cerv.stav = 0
                 else
                     cerv.mez = cerv.mez + 2 + random(21 - cerv.mez - 2)
@@ -224,11 +229,11 @@ local function prog_init()
                 end,
                 [28] = function()
                     cerv.afaze = 0
-                    cerv:change_setLocation(cerv.X - 1, cerv.Y - 1)
+                    model_setViewShift(cerv.index, -1, -1)
                 end,
                 [32] = function()
-                    if cerv.Y < cerv.mez then
-                        cerv:change_setLocation(cerv.X + 1, cerv.Y + 1)
+                    if viewY(cerv) < cerv.mez then
+                        model_setViewShift(cerv.index, 1, 1)
                     else
                         cerv.stav = 0
                         cerv.mez = random(cerv.mez - 2)

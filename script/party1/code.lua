@@ -6,6 +6,10 @@ for i = 0, 8 do
     glasses[i] = getModelsTable()[sklenka.index + i]
 end
 
+local function setViewShiftX(model, reference, shift_x)
+    model_setViewShift(model.index,
+        reference.X + shift_x - model.X, 0)
+end
 
 -- -----------------------------------------------------------------
 -- Init
@@ -101,10 +105,10 @@ local function prog_init()
         return function()
             switch(frkavec.okno){
                 [1] = function()
-                    frkavec:change_setLocation(kabina.X + 2, frkavec.Y)
+                    setViewShiftX(frkavec, kabina, 2)
                 end,
                 [2] = function()
-                    frkavec:change_setLocation(kabina.X + 8, frkavec.Y)
+                    setViewShiftX(frkavec, kabina, 8)
                 end,
             }
             if frkavec.cinnost > 0 then
@@ -205,10 +209,10 @@ local function prog_init()
         return function()
             switch(dama.okno){
                 [1] = function()
-                    dama:change_setLocation(kabina.X + 2, dama.Y)
+                    setViewShiftX(dama, kabina, 2)
                 end,
                 [2] = function()
-                    dama:change_setLocation(kabina.X + 8, dama.Y)
+                    setViewShiftX(dama, kabina, 8)
                 end,
             }
             if dama.cinnost > 0 then
@@ -316,10 +320,10 @@ local function prog_init()
         return function()
             switch(kapitan.okno){
                 [1] = function()
-                    kapitan:change_setLocation(kabina.X + 2, kapitan.Y)
+                    setViewShiftX(kapitan, kabina, 2)
                 end,
                 [2] = function()
-                    kapitan:change_setLocation(kabina.X + 8, kapitan.Y)
+                    setViewShiftX(kapitan, kabina, 8)
                 end,
             }
             if kapitan.cinnost > 0 then
@@ -423,10 +427,10 @@ local function prog_init()
         return function()
             switch(lodnik.okno){
                 [1] = function()
-                    lodnik:change_setLocation(kabina.X + 2, lodnik.Y)
+                    setViewShiftX(lodnik, kabina, 2)
                 end,
                 [2] = function()
-                    lodnik:change_setLocation(kabina.X + 8, lodnik.Y)
+                    setViewShiftX(lodnik, kabina, 8)
                 end,
             }
             if lodnik.cinnost > 0 then

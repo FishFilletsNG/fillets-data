@@ -1,4 +1,10 @@
 
+local function setViewShift(model, reference, shift_x, shift_y)
+    model_setViewShift(model.index,
+        reference.X + shift_x - model.X,
+        reference.Y + shift_y - model.Y)
+end
+
 -- -----------------------------------------------------------------
 -- Init
 -- -----------------------------------------------------------------
@@ -221,13 +227,13 @@ local function prog_init()
             end
             switch(kuk.okno){
                 [0] = function()
-                    kuk:change_setLocation(kabina.X + 3, kabina.Y + 1)
+                    setViewShift(kuk, kabina, 3, 1)
                 end,
                 [1] = function()
-                    kuk:change_setLocation(kabina.X + 3, kabina.Y + 1)
+                    setViewShift(kuk, kabina, 3, 1)
                 end,
                 [2] = function()
-                    kuk:change_setLocation(kabina.X + 9, kabina.Y + 1)
+                    setViewShift(kuk, kabina, 9, 1)
                 end,
             }
             if kuk.okno == 0 then
@@ -291,13 +297,13 @@ local function prog_init()
             end
             switch(ruka.okno){
                 [0] = function()
-                    ruka:change_setLocation(kabina.X + 3, kabina.Y + 1)
+                    setViewShift(ruka, kabina, 3, 1)
                 end,
                 [1] = function()
-                    ruka:change_setLocation(kabina.X + 3, kabina.Y + 1)
+                    setViewShift(ruka, kabina, 3, 1)
                 end,
                 [2] = function()
-                    ruka:change_setLocation(kabina.X + 9, kabina.Y + 1)
+                    setViewShift(ruka, kabina, 9, 1)
                 end,
             }
             if ruka.okno == 0 then
@@ -355,13 +361,13 @@ local function prog_init()
             end
             switch(frkavec.okno){
                 [0] = function()
-                    frkavec:change_setLocation(kabina.X + 3, kabina.Y + 1)
+                    setViewShift(frkavec, kabina, 3, 1)
                 end,
                 [1] = function()
-                    frkavec:change_setLocation(kabina.X + 3, kabina.Y + 1)
+                    setViewShift(frkavec, kabina, 3, 1)
                 end,
                 [2] = function()
-                    frkavec:change_setLocation(kabina.X + 9, kabina.Y + 1)
+                    setViewShift(frkavec, kabina, 9, 1)
                 end,
             }
             if frkavec.okno == 0 then
@@ -449,13 +455,13 @@ local function prog_init()
             end
             switch(hnat.okno){
                 [0] = function()
-                    hnat:change_setLocation(kabina.X + 3, kabina.Y + 1)
+                    setViewShift(hnat, kabina, 3, 1)
                 end,
                 [1] = function()
-                    hnat:change_setLocation(kabina.X + 3, kabina.Y + 1)
+                    setViewShift(hnat, kabina, 3, 1)
                 end,
                 [2] = function()
-                    hnat:change_setLocation(kabina.X + 9, kabina.Y + 1)
+                    setViewShift(hnat, kabina, 9, 1)
                 end,
             }
             if hnat.okno == 0 then
@@ -510,13 +516,13 @@ local function prog_init()
             end
             switch(lahev.okno){
                 [0] = function()
-                    lahev:change_setLocation(kabina.X + 3, kabina.Y + 1)
+                    setViewShift(lahev, kabina, 3, 1)
                 end,
                 [1] = function()
-                    lahev:change_setLocation(kabina.X + 3, kabina.Y + 1)
+                    setViewShift(lahev, kabina, 3, 1)
                 end,
                 [2] = function()
-                    lahev:change_setLocation(kabina.X + 9, kabina.Y + 1)
+                    setViewShift(lahev, kabina, 9, 1)
                 end,
             }
             if lahev.okno == 0 then
@@ -548,13 +554,13 @@ local function prog_init()
             end
             switch(frk.okno){
                 [0] = function()
-                    frk:change_setLocation(kabina.X + 3, kabina.Y + 1)
+                    setViewShift(frk, kabina, 3, 1)
                 end,
                 [1] = function()
-                    frk:change_setLocation(kabina.X + 3, kabina.Y + 1)
+                    setViewShift(frk, kabina, 3, 1)
                 end,
                 [2] = function()
-                    frk:change_setLocation(kabina.X + 9, kabina.Y + 1)
+                    setViewShift(frk, kabina, 9, 1)
                 end,
             }
             if frk.okno == 0 then
