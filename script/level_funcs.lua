@@ -154,7 +154,7 @@ function animateHead(model)
                     model:useSpecialAnim("head_talking", math.random(3) - 1)
                 end
             elseif "pushing" == state then
-                model:useSpecialAnim("head_talking", math.random(3) - 1)
+                model:useSpecialAnim("head_pushing", 0)
             end
         end
     end
@@ -222,13 +222,16 @@ function addFishAnim(model, look_dir, directory)
     model:addDuplexAnim("head_talking",
             directory.."/heads/left/head_talking_00.png",
             directory.."/heads/right/head_talking_00.png")
-
     model:addDuplexAnim("head_talking",
             directory.."/heads/left/head_talking_01.png",
             directory.."/heads/right/head_talking_01.png")
     model:addDuplexAnim("head_talking",
             directory.."/heads/left/head_talking_02.png",
             directory.."/heads/right/head_talking_02.png")
+
+    model:addDuplexAnim("head_pushing",
+            directory.."/heads/left/head_pushing.png",
+            directory.."/heads/right/head_pushing.png")
 
     model:runAnim("rest")
     if model:isLeft() and look_dir == LOOK_RIGHT then

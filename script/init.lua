@@ -9,7 +9,8 @@ print("-- script init finish --")
 
 -- -----------------------------------------------------------------
 start = 0
-function test_nextLevel()
+--TEST: function test_nextLevel()
+function nextLevel()
     -- set param "level" to select level
     start = start + 1
     level = level_list[start]
@@ -22,7 +23,7 @@ level_list = {
 [01] = "script/start.lua",
 [02] = "script/briefcase.lua",
 [03] = "script/cellar.lua",
-[04] = "script/library.lua",
+[04] = "script/library/library.lua",
 [05] = "script/stairs.lua",
 [06] = "script/broom.lua",
 [07] = "script/reef.lua",
