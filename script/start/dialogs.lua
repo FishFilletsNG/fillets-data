@@ -62,7 +62,7 @@ dialog_addDialog("1st-m-navod6", "it", "", "font_small", "...seguiremo i tuoi cl
 dialog_addDialog("1st-v-navod7", "en", "", "font_big", "And when you right-click somewhere, we`ll try to get there, pushing aside all obstacles in our way.")
 dialog_addDialog("1st-v-navod7", "cs", "sound/"..codename.."/cs/1st-v-navod7.ogg", "font_big", "A když někam klikneš pravým, tak tím směrem zkrátka zkusíme jet, překážky nepřekážky...")
 dialog_addDialog("1st-v-navod7", "fr", "", "font_big", "Et si tu cliques sur le bouton droit quelque part, nous essaierons d'y parvenir en poussant tous les objets devant nous.")
-dialog_addDialog("1st-v-navod7", "de", "", "font_big", "Und wenn du irgendwo mit der rechten Maustaste hinklickst, versuchen wir dorthin zu kommen und alle Hinernisse aus dem Weg zu schieben.")
+dialog_addDialog("1st-v-navod7", "de", "", "font_big", "Und wenn du irgendwo mit der rechten Maustaste hinklickst, versuchen wir dorthin zu kommen und alle Hindernisse aus dem Weg zu schieben.")
 dialog_addDialog("1st-v-navod7", "it", "", "font_big", "Ma, se clicchi con il pulsante destro, proveremo ad andarci spostando gli oggetti in cui eventualmente incapperemo.")
 
 dialog_addDialog("1st-m-navod8", "en", "", "font_small", "Your goal should be to get both of us outside.")
