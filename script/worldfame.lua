@@ -58,7 +58,7 @@ node_bestSolution("map", 2628, "Josef Peterka")
  
 node_bestSolution("reactor", 163, "Pavel Danihelka")
 node_bestSolution("magnet", 408, "Josef Peterka")
-node_bestSolution("engine", 270, "Josef Peterka")
+node_bestSolution("engine", 268, "Charles Goodwin")
 node_bestSolution("steel", 185, "Josef Peterka")
 node_bestSolution("corridor", 574, "Ronny Standtke")
 node_bestSolution("experiments", 804, "Ronny Standtke")
