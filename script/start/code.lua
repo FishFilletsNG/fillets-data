@@ -60,10 +60,6 @@ local function prog_init()
                     addv(5, "1st-v-navod1")
                     planBusy(small, false, 3)
                     planBusy(big, false, 1)
-                    --[[ TODO: control panel
-                    addm(20, "1st-m-navod2")
-                    addv(5, "1st-v-navod3")
-                    ]]
                     planBusy(small, true, 100)
                     planBusy(big, true, 2)
                     addm(3, "1st-m-navod4")

@@ -34,16 +34,6 @@ dialog_addDialog("1st-v-navod1", "cs", "sound/"..codename.."/cs/1st-v-navod1.ogg
 dialog_addDialog("1st-v-navod1", "fr", "", "font_big", "Tu peux nous contrôler avec les flèches, et utiliser la barre espace pour changer de poisson.")
 dialog_addDialog("1st-v-navod1", "de", "", "font_big", "Du kannst uns mit den Pfeiltasten steuern und mit der Leertaste zwischen uns umschalten.")
 
-dialog_addDialog("1st-m-navod2", "en", "", "font_small", "Or you can use the keyboard -- you can see the keys on the control panel.")
-dialog_addDialog("1st-m-navod2", "cs", "sound/"..codename.."/cs/1st-m-navod2.ogg", "font_small", "Také můžeš použít přímé ovládání - klávesy jsou napsány na ovládacím panelu.")
-dialog_addDialog("1st-m-navod2", "fr", "", "font_small", "Ou tu peux utiliser le clavier -- Les touches sont indiquées dans le panneau de contrôle.")
-dialog_addDialog("1st-m-navod2", "de", "", "font_small", "Oder Du kannst die Tastatur benutzen -- Du kannst die Tasten auf dem Schaltpult sehen.")
-
-dialog_addDialog("1st-v-navod3", "en", "", "font_big", "There you can also see which one of us is presently active.")
-dialog_addDialog("1st-v-navod3", "cs", "sound/"..codename.."/cs/1st-v-navod3.ogg", "font_big", "Tam také vidíš, kdo z nás je zrovna aktivní.")
-dialog_addDialog("1st-v-navod3", "fr", "", "font_big", "Tu peux aussi voir quel poisson de nous deux est actif.")
-dialog_addDialog("1st-v-navod3", "de", "", "font_big", "Dort kannst Du auch sehen, wer von uns gerade ausgewählt ist.")
-
 dialog_addDialog("1st-m-navod4", "en", "", "font_small", "Or you can control us with the mouse -- left-click somewhere and...")
 dialog_addDialog("1st-m-navod4", "cs", "sound/"..codename.."/cs/1st-m-navod4.ogg", "font_small", "A nebo myškou - někam ukaž levým tlačítkem a když tam můžeme dojet...")
 dialog_addDialog("1st-m-navod4", "fr", "", "font_small", "Ou tu peux nous contrôler à la souris -- Clique quelque part et ...")
