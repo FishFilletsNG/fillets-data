@@ -7,7 +7,8 @@ sound_addSound("bubles", "sound/share/sp-bubles_04.ogg")
 sound_addSound("bubles", "sound/share/sp-bubles_05.ogg")
 
 function stdBubles()
-    if random(100) < 5 then
+    --NOTE: original was (random(100) < 5)
+    if random(100) < 1 then
         sound_playSound("bubles", 0)
     end
 end
