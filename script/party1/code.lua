@@ -95,8 +95,8 @@ local function prog_init()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
         frkavec.cinnost = 0
-        --FIXME: spec 11
-        spec = 11
+        --FIXME: spec 11 = invisible
+        frkavec.spec = 11
 
         return function()
             switch(frkavec.okno){
@@ -108,11 +108,11 @@ local function prog_init()
                 end,
             }
             if frkavec.cinnost > 0 then
-                --FIXME: spec
-                spec = frkavec.strana * 10
+                --FIXME: spec 10 = reverse picture
+                frkavec.spec = frkavec.strana * 10
             else
                 --FIXME: spec 11
-                spec = 11
+                frkavec.spec = 11
             end
             switch(frkavec.cinnost){
                 [0] = function()
@@ -195,8 +195,8 @@ local function prog_init()
     local function prog_init_dama()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
-        --FIXME: spec 11
-        spec = 11
+        --FIXME: spec 11 = invisible
+        dama.spec = 11
         dama.kdeje = random(3)
         dama.cinnost = 0
 
@@ -210,11 +210,11 @@ local function prog_init()
                 end,
             }
             if dama.cinnost > 0 then
-                --FIXME: spec
-                spec = dama.strana * 10
+                --FIXME: spec 10 = reverse picture
+                dama.spec = dama.strana * 10
             else
                 --FIXME: spec 11
-                spec = 11
+                dama.spec = 11
             end
             local cinnost_table = {
                 [0] = function()
@@ -305,8 +305,8 @@ local function prog_init()
     local function prog_init_kapitan()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
-        --FIXME: spec 11
-        spec = 11
+        --FIXME: spec 11 = invisible
+        kapitan.spec = 11
         kapitan.kdeje = random(3)
         kapitan.cinnost = 0
 
@@ -320,11 +320,11 @@ local function prog_init()
                 end,
             }
             if kapitan.cinnost > 0 then
-                --FIXME: spec
-                spec = (1 - kapitan.strana) * 10
+                --FIXME: spec 10 = reverse picture
+                kapitan.spec = (1 - kapitan.strana) * 10
             else
                 --FIXME: spec 11
-                spec = 11
+                kapitan.spec = 11
             end
             local cinnost_table = {
                 [0] = function()
@@ -411,8 +411,8 @@ local function prog_init()
     local function prog_init_lodnik()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
-        --FIXME: spec 11
-        spec = 11
+        --FIXME: spec 11 = invisible
+        lodnik.spec = 11
         lodnik.kdeje = random(3)
         lodnik.cinnost = 0
 
@@ -426,11 +426,11 @@ local function prog_init()
                 end,
             }
             if lodnik.cinnost > 0 then
-                --FIXME: spec
-                spec = lodnik.strana * 10
+                --FIXME: spec 10 = reverse picture
+                lodnik.spec = lodnik.strana * 10
             else
                 --FIXME: spec 11
-                spec = 11
+                lodnik.spec = 11
             end
             switch(lodnik.cinnost){
                 [0] = function()
