@@ -207,6 +207,7 @@ function addFishAnim(model, look_dir, directory)
     addHeadAnim(model, directory, "head_talking", "talking_02")
 
     addHeadAnim(model, directory, "head_pushing", "pushing")
+    addHeadAnim(model, directory, "head_blink", "blink")
 
     addHeadAnim(model, directory, "head_all", "talking_00")
     addHeadAnim(model, directory, "head_all", "pushing")
