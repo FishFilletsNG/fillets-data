@@ -21,12 +21,12 @@ dialog_addDialog("ncp-v-sasanka", "de", "", "font_big", "Hör auf, mit der Seean
 dialog_addDialog("ncp-m-nekoukej", "en", "", "font_small", "Don`t be surprised.")
 dialog_addDialog("ncp-m-nekoukej", "cs", "sound/"..codename.."/cs/ncp-m-nekoukej.ogg", "font_small", "Moc nekoukej.")
 dialog_addDialog("ncp-m-nekoukej", "fr", "", "font_small", "Ne soit pas étonné.")
-dialog_addDialog("ncp-m-nekoukej", "de", "", "font_small", "Sei nicht überrascht.")
+dialog_addDialog("ncp-m-nekoukej", "de", "", "font_small", "Nicht erschrecken, kleines Seepferdchen.")
 
 dialog_addDialog("ncp-m-komari", "en", "", "font_small", "There is so many carols here...")
 dialog_addDialog("ncp-m-komari", "cs", "sound/"..codename.."/cs/ncp-m-komari.ogg", "font_small", "Tady je ale všude komárů...")
 dialog_addDialog("ncp-m-komari", "fr", "", "font_small", "Il y a tellement de corales ici...")
-dialog_addDialog("ncp-m-komari", "de", "", "font_small", "Hier sind so viele Korallen...")
+dialog_addDialog("ncp-m-komari", "de", "", "font_small", "Hier sind so viele Krallen...")
 
 dialog_addDialog("ncp-v-ceho", "en", "", "font_big", "What?")
 dialog_addDialog("ncp-v-ceho", "cs", "sound/"..codename.."/cs/ncp-v-ceho.ogg", "font_big", "Čeho?")
@@ -36,7 +36,7 @@ dialog_addDialog("ncp-v-ceho", "de", "", "font_big", "Was?")
 dialog_addDialog("ncp-m-koraly", "en", "", "font_small", "So many corals. Are you deaf or what?")
 dialog_addDialog("ncp-m-koraly", "cs", "sound/"..codename.."/cs/ncp-m-koraly.ogg", "font_small", "No korálů, jsi hluchý?")
 dialog_addDialog("ncp-m-koraly", "fr", "", "font_small", "Tellement de corail. tu es sourd ou quoi ?")
-dialog_addDialog("ncp-m-koraly", "de", "", "font_small", "So viele Korallen. Bist Du taub oder was?")
+dialog_addDialog("ncp-m-koraly", "de", "", "font_small", "Ähm... Korallen! Bist Du taub oder was?")
 
 dialog_addDialog("ncp-m-tvrdy", "en", "", "font_small", "Oh my, this is a hard coral.")
 dialog_addDialog("ncp-m-tvrdy", "cs", "sound/"..codename.."/cs/ncp-m-tvrdy.ogg", "font_small", "To je ale tvrdý korál.")
