@@ -36,8 +36,10 @@ function dialogLoad(prefix)
             DialogState.lang = lang
             file_include(dialogFile)
         else
-            print(string.format("DEBUG: missing subtitles"..
-                "; lang=%q; file=%q", lang, dialogFile))
+            if string.len(lang) <= 2 then
+                print(string.format("DEBUG: missing translation"..
+                    "; lang=%q; file=%q", lang, dialogFile))
+            end
         end
     end
 end
