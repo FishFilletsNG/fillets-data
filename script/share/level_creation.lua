@@ -79,6 +79,9 @@ function createObject(model_index)
     object.getState = function(self)
         return model_getState(self.index)
     end
+    object.getTouchDir = function(self)
+        return model_getTouchDir(self.index)
+    end
     object.isAlive = function(self)
         return model_isAlive(self.index)
     end

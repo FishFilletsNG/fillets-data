@@ -6,6 +6,21 @@ dir_left = 3
 dir_right = 4
 
 -- -----------------------------------------------------------------
+function getDirShift(dir)
+    local shiftX, shiftY = 0, 0
+    if dir == dir_left then
+        shiftX = -1
+    elseif dir == dir_right then
+        shiftX = 1
+    elseif dir == dir_up then
+        shiftY = -1
+    elseif dir == dir_down then
+        shiftY = 1
+    end
+    return shiftX, shiftY
+end
+
+-- -----------------------------------------------------------------
 local function isFreePlace(model, locX, locY)
     for x = locX, locX + model:getW() - 1 do
         for y = locY, locY + model:getH() - 1 do

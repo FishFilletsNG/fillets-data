@@ -59,7 +59,7 @@ local function prog_init()
             end
 
             if room.resit == 0 then
-                if big:getState() == "touched" and bonuslevel:getState() == "touched" then
+                if big:getTouchDir() ~= dir_no and bonuslevel:getTouchDir() ~= dir_no then
                     room.resit = 1
                     roompole[1] = 1
                     room.obonusu = 0

@@ -24,6 +24,7 @@ local function prog_init()
         room.truh = random(40) + 10
         room.mov = 0
         room.nekro = 0
+        local screenShiftX, screenShiftY = 0, 0
         --NOTE: turn off standard black jokes
         stdBlackJoke = function() end
 
@@ -119,22 +120,27 @@ local function prog_init()
                         end
                     end
                 end
-                --TODO: gspec 3,4 = big fish can shift window
-                --[[
+
                 if room.mov == 0 and random(100) < 1 then
-                    gspec = 3
+                    room.mov = 1
                 end
-                if gspec == 4 then
-                    if not no_dialog() then
-                        gspec = 3
-                    else
-                        room.mov = 1
+                if room.mov == 1 and big:getTouchDir() ~= dir_no and room:getTouchDir() ~= dir_no then
+                    local touchDir = room:getTouchDir()
+                    local shiftX, shiftY = getDirShift(touchDir)
+                    screenShiftX = screenShiftX + shiftX * 15
+                    screenShiftY = screenShiftY + shiftY * 15
+                    game_setScreenShift(screenShiftX, screenShiftY)
+                    if no_dialog() then
+                        room.mov = 2
                         addm(4, "k1-m-codelas")
-                        addset(gspec, 0)
                         addv(3, "k1-v-promin")
                     end
                 end
-                ]]
+                if room.mov == 1 or room.mov == 2 then
+                    screenShiftX = screenShiftX - screenShiftX / 10
+                    screenShiftY = screenShiftY - screenShiftY / 10
+                    game_setScreenShift(screenShiftX, screenShiftY)
+                end
             end
         end
     end
