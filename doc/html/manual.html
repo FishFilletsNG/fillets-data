@@ -1,11 +1,12 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="description" content="Fish Fillets NG is a puzzle Linux game">
-<meta name="keywords" content="Fish Fillets NG, Linux game, puzzle">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="Fish Fillets NG is a puzzle game for Linux" />
+<meta name="keywords" content="Fish Fillets NG, Linux game, puzzle" />
 <title>Fish Fillets - Next Generation</title>
-<link href="styles.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -17,11 +18,12 @@
 </tr>
 </table>
 
+[ English ] [ <a href="manual.cs.html">Česky</a> ] [ <a href="manual.fr.html">Français</a> ]
+<br /><br />
+
 <h2>How to Play</h2>
 
-[ English ] [ <a href="manual.cs.html">Česky</a> ] [ <a href="manual.fr.html">Français</a> ]
-<br><br>
-
+<br />
 <ul>
 	<li>
 		<a href="#control">Control</a>
@@ -32,6 +34,7 @@
 				<a href="#movement">Movement</a>
 				<ul>
 					<li><a href="#arrow_keys">Arrow keys</a></li>
+					<li><a href="#mouse">Mouse</a></li>
 					<li><a href="#direct_control">Direct control</a></li>
 				</ul>
 			</li>
@@ -66,7 +69,7 @@
 
 <p>It is only possible to solve the levels one by one. It means that you cannot enter any level behind the blinking bead. Only when you solve it the next bead starts pulsating and so on.</p>
 
-<p>Pulsating level can be run by left-clicking the bead.</p>
+<p>Pulsating level can be run by left-clicking the bead. If you left-click an already solved level, statistics - the number of moves - of your solution appears. You have two options now: solve it again (click the brain icon) or watch the solution (eye icon).</p>
 
 
 <a name="control_keys"></a><h4>Control keys</h4>
@@ -75,10 +78,14 @@
 
 <p>When saving the solution you must keep in mind that there is only one slot for load and save for each level. When saving new position the older one is erased without asking for confirmation. It is recommended that you save new position only when you are sure that you are going in the right direction.</p>
 
+<p>Other useful actions you can do are to <b>show move counter (F5)</b> in level, <b>show/hide subtitles (F6)</b>, <b>increase game speed (hold down Shift)</b>, <b>show game menu (F10)</b> or <b>switch to fullscreen (F11)</b>.</p>
+
+<p>Different options are in game menu which can be invoked by clicking Options in the right bottom corner in the world map or by F10 key. There you can control the volume of music and sound, you can choose the language of subtitles or turn subtitles off completely.</p>
+
 
 <a name="movement"></a><h4>Movement</h4>
 
-<p>You can control your fish in one of two ways.</p>
+<p>You can control your fish in one of three ways.</p>
 
 <ol>
 	<li>
@@ -92,13 +99,23 @@
 	</li>
 
 	<li>
+		<a name="mouse"></a><h5>Mouse</h5>
+
+		<p>Point the mouse cursor at the place where you want your fish to go, press and hold the left mouse button. If the fish can get to this place, it starts moving. Its movement will accelerate after approx. three spaces.</p>
+
+		<p>If you want to move something, press and hold the right mouse button. The currently selected fish will try to move directly to the spot where you clicked, pushing aside everything in its way.</p>
+
+		<p>You can switch between fish simply by left-clicking the one you want to activate.</p>
+	</li>
+
+	<li>
 		<a name="direct_control"></a><h5>Direct control</h5>
 
 		<p><b>Keys A, S, D and W control the smaller fish</b> and <b>keys J, K, L and I control the bigger fish</b>. The only advantage of this control is that you need not to switch between the fish.</p>
 	</li>
 </ol>
 
-<hr>
+<hr />
 <a name="about_the_game"></a><h3>About the Game</h3>
 
 <a name="your_goal"></a><h4>Your goal</h4>
@@ -132,11 +149,11 @@
 
 <p>The fish can push an unsupported object only if it becomes supported in the new position. An example of such a situation is on the right picture.</p>
 
-<img src="img/manual/pushing_objects.png" width="630" height="212" alt="pushing objects">
+<img src="img/manual/pushing_objects.png" width="630" height="212" alt="pushing objects" />
 
 <a name="steel_object"></a><h5>Steel object</h5>
 
-<p>In some levels you will note the steel objects. They look like the cylinder on this picture. <img src="img/manual/steel_object.png" width="15" height="45" alt="steel object"> Steel objects can only be lifted and pushed by the big fish. The smaller fish cannot move them and if it gets itself under a steel object, it will perish even if it would be harmless with other objects.</p>
+<p>In some levels you will note the steel objects. They look like the cylinder on this picture. <img src="img/manual/steel_object.png" width="15" height="45" alt="steel object" /> Steel objects can only be lifted and pushed by the big fish. The smaller fish cannot move them and if it gets itself under a steel object, it will perish even if it would be harmless with other objects.</p>
 
 <a name="transferring_objects"></a><h5>Transferring objects</h5>
 
@@ -144,7 +161,7 @@
 
 <p>Be careful with transfer of steel objects. In the situation on the right picture only the smaller fish can move away.</p>
 
-<img src="img/manual/transferring_objects.png" width="421" height="212" alt="transferring objects">
+<img src="img/manual/transferring_objects.png" width="421" height="212" alt="transferring objects" />
 
 <a name="pushing_along_other_objects"></a><h5>Pushing along other objects</h5>
 
@@ -154,7 +171,7 @@
 
 <p>It is also impossible to place an object upon a fish. This is shown on the right picture.</p>
 
-<img src="img/manual/pushing_along_other_objects.png" width="630" height="212" alt="pushing along other objects">
+<img src="img/manual/pushing_along_other_objects.png" width="630" height="212" alt="pushing along other objects" />
 
 <a name="falling_objects"></a><h5>Falling objects</h5>
 
@@ -164,7 +181,7 @@
 
 <p>Be on the lookout for the situation where the object seemingly hits the fish but in fact it hits some structure. In such a situation the fish is safe though it may not look like this at all. An example of such situation is on the right picture.</p>
 
-<img src="img/manual/falling_objects.png" width="625" height="212" alt="falling objects">
+<img src="img/manual/falling_objects.png" width="625" height="212" alt="falling objects" />
 
 <a name="animated_object"></a><h5>Animated object</h5>
 
