@@ -192,3 +192,6 @@ X
 X
 ]])
 addItemAnim(item_light, "images/"..codename.."/kniha-a.png")
+
+
+

@@ -1,21 +1,21 @@
-file_include("script/level_funcs.lua")
+file_include('script/level_funcs.lua')
 
-codename = "library"
+codename = 'library'
 
 -- ---------------------------------------------------------------
 -- Models
 -- ---------------------------------------------------------------
-file_include("script/"..codename.."/models.lua")
+file_include('script/'..codename..'/models.lua')
 
 
 -- ---------------------------------------------------------------
 -- Dialogs
 -- ---------------------------------------------------------------
-file_include("script/"..codename.."/dialogs.lua")
+file_include('script/'..codename..'/dialogs.lua')
 
 
 -- ---------------------------------------------------------------
 -- Update
 -- ---------------------------------------------------------------
-file_include("script/"..codename.."/programs.lua")
+file_include('script/'..codename..'/code.lua')
 
