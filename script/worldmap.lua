@@ -102,5 +102,8 @@ branch_addNode("hardware", "floppy", "script/floppy/init.lua", 97, 314,
 branch_setEnding("ending", "script/ending/init.lua",
     "script/ending/demo_poster.lua")
 
+
+-- -----------------------------------------------------------------
+file_include("script/worlddesc.lua")
 file_include("script/worldfame.lua")
 
