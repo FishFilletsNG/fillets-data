@@ -6,6 +6,7 @@ local function prog_init()
     initModels()
     local pokus = getRestartCount()
     local roompole = {0}
+    local updateCycles = 0
 
 
     -- -------------------------------------------------------------
@@ -21,6 +22,7 @@ local function prog_init()
         room.rozbito = 0
 
         return function()
+            updateCycles = updateCycles + 1
             if isReady(small) and isReady(big) and no_dialog() then
                 if amp1:isTalking() or amp2:isTalking() or amp3:isTalking() then
                     if room.hlaskam == 0 and random(1000) < 1 then
@@ -60,12 +62,12 @@ local function prog_init()
         amp1.stav = 0
 
         return function()
-            if amp1.stav == 1 and game_getCycles() == 2 and not amp1:isTalking() then
+            if amp1.stav == 1 and updateCycles == 2 and not amp1:isTalking() then
                 amp1:talk("ves-ampliony", VOLUME_LOW, -1)
             end
             switch(amp1.stav){
                 [0] = function()
-                    if game_getCycles() == hlava.zac2 then
+                    if updateCycles == hlava.zac2 then
                         amp1.faze = 0
                         amp1:talk("ves-ampliony", VOLUME_LOW, -1)
                         amp1.stav = amp1.stav + 1
@@ -133,12 +135,12 @@ local function prog_init()
         amp2.afaze = 3
 
         return function()
-            if amp2.stav == 1 and game_getCycles() == 2 + 3 and not amp2:isTalking() then
+            if amp2.stav == 1 and updateCycles == 2 + 3 and not amp2:isTalking() then
                 amp2:talk("ves-ampliony", VOLUME_LOW, -1)
             end
             switch(amp2.stav){
                 [0] = function()
-                    if game_getCycles() == hlava.zac2 + 3 then
+                    if updateCycles == hlava.zac2 + 3 then
                         amp2.faze = 4
                         amp2:talk("ves-ampliony", VOLUME_LOW, -1)
                         amp2.stav = amp2.stav + 1
@@ -206,12 +208,12 @@ local function prog_init()
         amp3.afaze = 6
 
         return function()
-            if amp3.stav == 1 and game_getCycles() == 2 + 5 and not amp3:isTalking() then
+            if amp3.stav == 1 and updateCycles == 2 + 5 and not amp3:isTalking() then
                 amp3:talk("ves-ampliony", VOLUME_LOW, -1)
             end
             switch(amp3.stav){
                 [0] = function()
-                    if game_getCycles() == hlava.zac2 + 5 then
+                    if updateCycles == hlava.zac2 + 5 then
                         amp3.faze = 6
                         amp3:talk("ves-ampliony", VOLUME_LOW, -1)
                         amp3.stav = amp3.stav + 1
@@ -282,7 +284,7 @@ local function prog_init()
         return function()
             switch(hlava.stav){
                 [0] = function()
-                    if game_getCycles() == hlava.zac1 then
+                    if updateCycles == hlava.zac1 then
                         hlava.stav = hlava.stav + 1
                         hlava:talk("ves-hs-hrajeme", VOLUME_FULL)
                     end
@@ -306,7 +308,7 @@ local function prog_init()
                     end
                 end,
                 [2] = function()
-                    if game_getCycles() >= hlava.zac2 + 10 then
+                    if updateCycles >= hlava.zac2 + 10 then
                         hlava.stav = hlava.stav + 1
                     end
                 end,

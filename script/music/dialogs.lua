@@ -32,9 +32,7 @@ dialog_addDialog("ves-hs-hrajeme", "fr", "", "font_statue", "Maintenant écouton
 
 dialog_addDialog("ves-ampliony", "en", "sound/"..codename.."/en/ves-ampliony.ogg")
 
-dialog_addDialog("ves-hs-papa", "en", "", "font_statue", "Pa pada pa paaapa pa pada pa paaa...")
-dialog_addDialog("ves-hs-papa", "cs", "sound/"..codename.."/cs/ves-hs-papa.ogg", "font_statue", "Pa pada pa pápa pa pada pa pá...")
-dialog_addDialog("ves-hs-papa", "fr", "", "font_statue", "Pa pada pa paaapa pa pada pa paaa...")
+dialog_addDialog("ves-hs-papa", "en", "sound/"..codename.."/en/ves-hs-papa.ogg", "font_statue", "Pa pada pa paaapa pa pada pa paaa...")
 
 dialog_addDialog("sp-smrt", "en", "sound/"..codename.."/en/sp-smrt.ogg")
 
