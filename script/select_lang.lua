@@ -1,3 +1,9 @@
+-- Defines language flags in Options Menu (F10)
+
+--NOTE: this file is also used by dialogLoad()
+--  to determine avaiable languages.
+--NOTE: DEFAULT_LANG ("en") must be the first one
+--NOTE: country variants (e.g. "de_CH") must be after pure lang (e.g. "de")
 
 select_addFlag("en", "images/menu/flags/en.png")
 select_addFlag("cs", "images/menu/flags/cs.png")
