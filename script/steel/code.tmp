@@ -1,0 +1,79 @@
+
+-- -----------------------------------------------------------------
+-- Init
+-- -----------------------------------------------------------------
+local function prog_init()
+    initModels()
+    sound_playMusic("music/-----")
+    local pokus = getRestartCount()
+
+
+    -- -------------------------------------------------------------
+    local function prog_init_room()
+        local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
+
+        room.houk = -1
+        room.citac = random(40) + 40
+
+        return function()
+            pom1 = 0
+            if room.citac > 0 then
+                room.citac = room.citac - 1
+            end
+            if room.houk == -1 then
+                if valec.dir == dir_left then
+                    sndcyc("steel-x-ticho", -2)
+                    sndcyc("steel-x-ticho", -2)
+                    room.houk = room.houk + 1
+                elseif room.citac == 0 and isReady(small) then
+                    addm(0, "steel-m-" + chr(random(2) + 48))
+                    room.citac = -1
+                else
+                end
+            else
+                switch(math.mod(room.houk, 10)){
+                    [2] = function()
+                        sndvol("steel-x-redalert", -1, max_volume)
+                        bgfaze = 1
+                        pom1 = 1
+                    end,
+                    [4] = function()
+                        sndvol("steel-x-redalert", -1, max_volume)
+                    end,
+                    [9] = function()
+                        bgfaze = 2
+                        pom1 = 1
+                    end,
+                }
+                room.houk = room.houk + 1
+            end
+            if pom1 == 1 then
+                for pom1 = 0, ItemCount - 2 do
+                    (--FIXME: pointer
+Items[pom1]^).afaze = bgfaze
+                end
+            end
+        end
+    end
+
+    -- --------------------
+    local update_table = {}
+    local subinit
+    subinit = prog_init_room()
+    if subinit then
+        table.insert(update_table, subinit)
+    end
+    return update_table
+end
+local update_table = prog_init()
+
+
+-- -----------------------------------------------------------------
+-- Update
+-- -----------------------------------------------------------------
+function prog_update()
+    for key, subupdate in pairs(update_table) do
+        subupdate()
+    end
+end
+
