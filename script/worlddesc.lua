@@ -73,7 +73,7 @@ worldmap_addDesc("viking1", "de", "Die letzte Reise", "Schiffswracks")
 worldmap_addDesc("airplane", "en", "Altitude: Minus 9000 Feet", "Ship Wrecks")
 worldmap_addDesc("airplane", "cs", "Výška: -9000 stop", "Vrakoviště")
 worldmap_addDesc("airplane", "fr", "Altitude: moins 9000 pieds", "Les épaves")
-worldmap_addDesc("airplane", "de", "Höhe: Minus 1000 Meter", "Schiffswracks")
+worldmap_addDesc("airplane", "de", "Höhe: Minus 3000 Meter", "Schiffswracks")
 
 worldmap_addDesc("bathyscaph", "en", "Bathyscaph", "Ship Wrecks")
 worldmap_addDesc("bathyscaph", "cs", "Batyskaf", "Vrakoviště")
