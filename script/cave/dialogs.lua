@@ -47,7 +47,7 @@ dialog_addDialog("jes-v-potvora1", "en", "", "font_big", "It is called the Gloss
 dialog_addDialog("jes-v-potvora1", "cs", "sound/"..codename.."/cs/jes-v-potvora1.ogg", "font_big", "To je odporník lesklý.")
 
 dialog_addDialog(" jes-v-potvora2", "en", "", "font_big", "It is called the Politician fish.")
-dialog_addDialog(" jes-v-potvora2", "cs", "sound/"..codename.."/cs/ jes-v-potvora2.ogg", "font_big", "To je hlavoun duhový.")
+dialog_addDialog(" jes-v-potvora2", "cs", "sound/"..codename.."/cs/jes-v-potvora2.ogg", "font_big", "To je hlavoun duhový.")
 
 dialog_addDialog("jes-m-netopyr0", "en", "", "font_small", "This bat is kind of strange.")
 dialog_addDialog("jes-m-netopyr0", "cs", "sound/"..codename.."/cs/jes-m-netopyr0.ogg", "font_small", "Ten netopýr je něčím zvláštní.")
