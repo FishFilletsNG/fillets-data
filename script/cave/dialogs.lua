@@ -1,6 +1,6 @@
 dialog_addDialog("jes-m-netopyr", "en", "", "font_small", "That bat must be terribly strong.")
 dialog_addDialog("jes-m-netopyr", "cs", "sound/"..codename.."/cs/jes-m-netopyr.ogg", "font_small", "Ten netopýr musí mít ale ukrutnou sílu.")
-dialog_addDialog("jes-m-netopyr", "fr", "", "font_small", "Cette chauve-souris doit être terriblement forte."
+dialog_addDialog("jes-m-netopyr", "fr", "", "font_small", "Cette chauve-souris doit être terriblement forte.")
 dialog_addDialog("jes-m-netopyr", "de", "", "font_small", "Diese Fledermaus muss unglaublich stark sein.")
 
 dialog_addDialog("jes-v-tojo", "en", "", "font_big", "Well, yes.")

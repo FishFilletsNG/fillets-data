@@ -52,7 +52,7 @@ dialog_addDialog("ufo-v-zjistit0", "fr", "", "font_big", "Le plus important, ess
 
 dialog_addDialog("ufo-v-zjistit1", "en", "", "font_big", "You know, most of all I wonder why have they crashed just here.")
 dialog_addDialog("ufo-v-zjistit1", "cs", "sound/"..codename.."/cs/ufo-v-zjistit1.ogg", "font_big", "Víš, nejvíc by mě zajímalo, proč ztroskotali právě tady.")
-dialog_addDialog("ufo-v-zjistit1", "fr", "", "font_big", "Tu sais, je me demande juste pourquoi ils se sont écrasés ici.") 
+dialog_addDialog("ufo-v-zjistit1", "fr", "", "font_big", "Tu sais, je me demande juste pourquoi ils se sont écrasés ici.")
 
 dialog_addDialog("ufo-m-tady", "en", "", "font_small", "Didn`t you see it? Everything happens just here.")
 dialog_addDialog("ufo-m-tady", "cs", "sound/"..codename.."/cs/ufo-m-tady.ogg", "font_small", "Však jsi to viděl. Všechno se děje právě tady.")
