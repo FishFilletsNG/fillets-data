@@ -82,6 +82,7 @@ label_text("menu_lang", "it", "Scegli la lingua");
 
 label_text("menu_speech", "en", "Choose speech");
 label_text("menu_speech", "cs", "Výběr mluvy");
+label_text("menu_speech", "it", "Scegli i dialoghi");
 label_text("menu_speech", "de", "Sprache der Tonausgabe");
 
 label_text("menu_subtitles", "en", "Show/hide subtitles");

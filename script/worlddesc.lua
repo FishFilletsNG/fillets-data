@@ -280,7 +280,7 @@ worldmap_addDesc("snowman", "en", "The Winter Mess Hall", "Silver's Ship")
 worldmap_addDesc("snowman", "cs", "Zimní jídelna", "Silverova loď")
 worldmap_addDesc("snowman", "fr", "Le salon d'hiver", "Le navire de Silver")
 worldmap_addDesc("snowman", "de", "Die Wintermesse", "Silvers Schiff")
-worldmap_addDesc("snowman", "it", "Cerimonia natalizia", "La nave di Silver")
+worldmap_addDesc("snowman", "it", "Mensa Invernale", "La nave di Silver")
 
 worldmap_addDesc("cannons", "en", "Fire!", "Silver's Ship")
 worldmap_addDesc("cannons", "cs", "Pal!", "Silverova loď")
