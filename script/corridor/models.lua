@@ -107,31 +107,31 @@ X
 X
 X
 ]])
-addItemAnim(item_heavy, "images/"..codename.."/chodba-5-tmp.png")
+addItemAnim(item_heavy, "images/"..codename.."/chodba-4-tmp.png")
 
 item_heavy = addModel("item_heavy", 10, 1,
 [[
 X
 ]])
-addItemAnim(item_heavy, "images/"..codename.."/chodba-6-tmp.png")
+addItemAnim(item_heavy, "images/"..codename.."/chodba-25-tmp.png")
 
 item_heavy = addModel("item_heavy", 10, 4,
 [[
 X
 ]])
-addItemAnim(item_heavy, "images/"..codename.."/chodba-7-tmp.png")
+addItemAnim(item_heavy, "images/"..codename.."/chodba-25-tmp.png")
 
 item_heavy = addModel("item_heavy", 23, 1,
 [[
 X
 ]])
-addItemAnim(item_heavy, "images/"..codename.."/chodba-8-tmp.png")
+addItemAnim(item_heavy, "images/"..codename.."/chodba-25-tmp.png")
 
 item_heavy = addModel("item_heavy", 23, 4,
 [[
 X
 ]])
-addItemAnim(item_heavy, "images/"..codename.."/chodba-9-tmp.png")
+addItemAnim(item_heavy, "images/"..codename.."/chodba-25-tmp.png")
 
 dvere1 = addModel("item_light", 23, 2,
 [[
@@ -177,7 +177,7 @@ item_heavy = addModel("item_heavy", 24, 7,
 X
 X
 ]])
-addItemAnim(item_heavy, "images/"..codename.."/chodba-15-tmp.png")
+addItemAnim(item_heavy, "images/"..codename.."/chodba-14-tmp.png")
 
 poklop2 = addModel("item_light", 25, 22,
 [[
@@ -213,7 +213,7 @@ X
 X
 X
 ]])
-addItemAnim(item_heavy, "images/"..codename.."/chodba-22-tmp.png")
+addItemAnim(item_heavy, "images/"..codename.."/chodba-21-tmp.png")
 
 item_heavy = addModel("item_heavy", 19, 29,
 [[
@@ -221,7 +221,7 @@ X
 X
 X
 ]])
-addItemAnim(item_heavy, "images/"..codename.."/chodba-23-tmp.png")
+addItemAnim(item_heavy, "images/"..codename.."/chodba-21-tmp.png")
 
 item_heavy = addModel("item_heavy", 19, 26,
 [[
@@ -229,7 +229,7 @@ X
 X
 X
 ]])
-addItemAnim(item_heavy, "images/"..codename.."/chodba-24-tmp.png")
+addItemAnim(item_heavy, "images/"..codename.."/chodba-21-tmp.png")
 
 item_heavy = addModel("item_heavy", 19, 25,
 [[
@@ -241,7 +241,7 @@ item_heavy = addModel("item_heavy", 14, 25,
 [[
 X
 ]])
-addItemAnim(item_heavy, "images/"..codename.."/chodba-26-tmp.png")
+addItemAnim(item_heavy, "images/"..codename.."/chodba-25-tmp.png")
 
 item_light = addModel("item_light", 12, 34,
 [[
