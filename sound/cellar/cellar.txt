@@ -35,7 +35,7 @@ pra-v-vzit
  V: You mustn`t push the axe!
 pra-m-prisun
  M: Kdy¾ mi sem pøisune¹ sklenici, hodím ji na ni, to bude v pohodì.
- N: If you can push that can to me, I`ll shove the axe on it and everything will be okay.
+ M: If you can push that can to me, I`ll shove the axe on it and everything will be okay.
 
 pra-v-problem
  V: Kdy¾ vyøe¹í¹ nìjaký ucelený problém, mù¾e¹ si pozici ulo¾it.
