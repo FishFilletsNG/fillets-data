@@ -84,7 +84,8 @@ branch_addNode("noground", "bathroom", "script/bathroom/init.lua", 217, 415)
 branch_addNode("bathroom", "duckie", "script/duckie/init.lua", 170, 415)
 branch_addNode("duckie", "puzzle", "script/puzzle/init.lua", 138, 385)
 branch_addNode("puzzle", "dump", "script/dump/init.lua", 154, 342)
-branch_addNode("dump", "barrel", "script/barrel/init.lua", 192, 351)
+branch_addNode("dump", "barrel", "script/barrel/init.lua", 192, 351,
+        false, "images/barrel/poster.png")
 
 -- Secret Computer
 branch_addNode("computer", "tetris", "script/tetris/init.lua", 254, 349, true)
