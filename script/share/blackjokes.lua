@@ -1,6 +1,6 @@
 
 function stdBlackJokeLoad()
-    dialogLoad("script/share/black_")
+    dialogLoad("script/share/black_", "sound/share/blackjokes/")
 end
 
 -- -----------------------------------------------------------------

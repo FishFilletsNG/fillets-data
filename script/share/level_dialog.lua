@@ -1,14 +1,6 @@
 
--- Return path to .ogg file or empty string.
-local function dataPathSound(lang, basename)
-    local soundFile = "sound/"..codename.."/"..lang.."/"..basename..".ogg"
-    if not file_exists(soundFile) then
-        soundFile = ""
-    end
-    return soundFile
-end
-
 local DialogState = {
+    SOUND_PREFIX = "",
     DEFAULT_LANG = "",
     lang = "",
     name = "",
@@ -16,8 +8,24 @@ local DialogState = {
     dialogs = {},
 }
 
+-- Return path to .ogg file or empty string.
+local function dataPathSound(lang, basename)
+    local soundFile = DialogState.SOUND_PREFIX..lang.."/"..basename..".ogg"
+    if not file_exists(soundFile) then
+        soundFile = ""
+    end
+    return soundFile
+end
+
 -- Loads localized dialogs from prefix.."dialogs_*.lua"
-function dialogLoad(prefix)
+-- @param prefix prefix of dialogs_<lang>.lua files
+-- @param soundPrefix prefix of <lang>/<dialogCodename>.ogg files
+-- Default soundPrefix is "sound/<levelCodename>/"
+function dialogLoad(prefix, soundPrefix)
+    DialogState.SOUND_PREFIX = "sound/"..codename.."/"
+    if soundPrefix then
+        DialogState.SOUND_PREFIX = soundPrefix
+    end
     -- NOTE: uses select_lang.lua to determine avaiable languages
     local langs = {}
     local oldfunc = select_addFlag

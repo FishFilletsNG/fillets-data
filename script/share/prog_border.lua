@@ -48,7 +48,7 @@ local loaded = false
 function stdBorderReportLoad()
     if not loaded then
         loaded = true
-        dialogLoad("script/share/border_")
+        dialogLoad("script/share/border_", "sound/share/border/")
     end
 end
 -- -----------------------------------------------------------------
