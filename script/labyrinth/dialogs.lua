@@ -50,9 +50,9 @@ dialog_addDialog("bl-m-zeptej", "en", "", "font_small", "I have no idea. Ask the
 dialog_addDialog("bl-m-zeptej", "cs", "sound/"..codename.."/cs/bl-m-zeptej.ogg", "font_small", "To já nevím. Zeptej se hráče.")
 dialog_addDialog("bl-m-zeptej", "fr", "", "font_small", "Aucune idée. Demande au joueur.")
 
-dialog_addDialog("bl-m-snecku0", "en", "", "font_big", "Shalimuddy, shalimuddy, put your horns out...")
+dialog_addDialog("bl-m-snecku0", "en", "", "font_small", "Shalimuddy, shalimuddy, put your horns out...")
 dialog_addDialog("bl-m-snecku0", "cs", "sound/"..codename.."/cs/bl-m-snecku0.ogg", "font_small", "Šnečku, šnečku, vystrč růžky, dám ti...")
-dialog_addDialog("bl-m-snecku0", "fr", "", "font_big", "Escargot content, escargot heureux, sort tes cornes...")
+dialog_addDialog("bl-m-snecku0", "fr", "", "font_small", "Escargot content, escargot heureux, sort tes cornes...")
 
 dialog_addDialog("bl-v-dost0", "en", "", "font_big", "Stop it! As if you don`t know that no object  will move if we don`t push it first!")
 dialog_addDialog("bl-v-dost0", "cs", "sound/"..codename.."/cs/bl-v-dost0.ogg", "font_big", "Nech toho! Dobře víš, že tady se žádný předmět nepohne, když do něho nestrčíme.")
