@@ -4,7 +4,7 @@ node_bestSolution("briefcase", 225, "Pavel Danihelka")
 node_bestSolution("cellar", 375, "Pavel Danihelka")
 node_bestSolution("library", 111, "Pavel Danihelka")
 node_bestSolution("stairs", 163, "Pavel Danihelka")
-node_bestSolution("broom", 204, "Pavel Danihelka")
+node_bestSolution("broom", 193, "Ivo Danihelka")
 node_bestSolution("reef", 169, "Pavel Danihelka")
 node_bestSolution("wc", 100, "Pavel Danihelka")
  
