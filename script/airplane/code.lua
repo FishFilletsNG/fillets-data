@@ -41,7 +41,7 @@ local function prog_init()
                     addv(random(30), "let-v-oko")
                     addm(5, "let-m-oko")
                     room.ooku = 1
-                elseif (sed1.dir ~= dir_no or sed2.dir ~= dir_no or sed3.dir ~= dir_no) and aktivni == mala and random(100) < 1 then
+                elseif (sed1.dir ~= dir_no or sed2.dir ~= dir_no or sed3.dir ~= dir_no) and small.dir ~= dir_no and random(100) < 1 then
                     addm(0, "let-m-sedadlo")
                     if room.osedadle == 0 or random(100) < 30 then
                         addv(5 + random(15), "let-v-budrada")

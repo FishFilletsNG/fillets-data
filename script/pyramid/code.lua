@@ -55,7 +55,7 @@ local function prog_init()
                         addv(random(5), "pyr-v-druha")
                         room.cervik = 1
                     end
-                elseif faraon.afaze == 2 and aktivni == velka and faraon.dir ~= dir_no and gfaze == 0 and random(100) < 20 then
+                elseif faraon.afaze == 2 and big.dir ~= dir_no and faraon.dir ~= dir_no and level_isNewRound() and random(100) < 20 then
                     addv(0, "pyr-v-sfing")
                     adddel(10)
                 elseif room.desticky == 0 and random(100) < 3 and (look_at(small, deska1) and small.Y == deska1.Y and dist(small, deska1) < 2 and deska1.dir == dir_no or look_at(small, deska2) and small.Y == deska2.Y and dist(small, deska2) < 2 and deska2.dir == dir_no or look_at(small, deska3) and small.Y == deska3.Y and dist(small, deska3) < 2 and deska3.dir == dir_no) then
