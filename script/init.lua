@@ -10,7 +10,7 @@ print("-- script init finish --")
 -- -----------------------------------------------------------------
 start = 0
 --TEST: function test_nextLevel()
-function nextLevel()
+function xnextLevel()
     -- set param "level" to select level
     start = start + 1
     level = level_list[start]
