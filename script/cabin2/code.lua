@@ -83,7 +83,7 @@ local function prog_init()
                         end,
                         [1] = function()
                             addv(random(5) + 10, "ka2-v-fik")
-                            addd(5, "k1-chob-p", 301, noprom)
+                            chobot:planDialog(5, "k1-chob-p")
                             addv(random(5), "ka2-v-napad")
                         end,
                     }
