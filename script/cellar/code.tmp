@@ -7,8 +7,6 @@ local function prog_init()
     initModels()
     sound_playMusic("music/rybky15.ogg")
     local pokus = getRestartCount()
-    local roompole = createArray(100)
-
 
 
     -- -------------------------------------------------------------
@@ -51,7 +49,7 @@ local function prog_init()
                 elseif room.cast1 <= 2 and snek.X == 5 and tal.Y == 26 and big.Y == 27 then
                     room.cast1 = 3
                     addv(5, "pra-v-nahore")
-                elseif room.ocel1 == 0 and val1.X == 11 and small.X == 8 and not small:isLeft() then
+                elseif room.ocel1 == 0 and val1.X == 11 and small.X == 8 and natoceni[mala] == smer_vpravo then
                     room.ocel1 = 1
                     addm(5, "pra-m-nepohnu")
                 elseif room.cast1 <= 3 and big.X == 9 and sek.Y == 24 then
@@ -83,7 +81,7 @@ local function prog_init()
                 elseif room.osejvu == 1 and small.X >= 29 and big.X >= 29 and (small.Y < 19 or big.Y < 19) then
                     addv(random(40), "pra-v-ukladani")
                     room.osejvu = 2
-                elseif room.neuvazovat == 0 and small.Y == 21 and small.X >= 23 and small.X <= 28 and small:isLeft() then
+                elseif room.neuvazovat == 0 and small.Y == 21 and small.X >= 23 and small.X <= 28 and natoceni[mala] == smer_vlevo then
                     room.neuvazovat = 1
                     addm(2, "pra-m-uvazovat")
                 elseif room.nepoustej == 0 and soup.Y <= 10 and small.Y >= 14 and small.X >= 22 then
