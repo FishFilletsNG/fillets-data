@@ -132,8 +132,15 @@ local function prog_init()
                         addm(4, "k1-m-codelas")
                         addset(gspec, 0)
                         addv(3, "k1-v-promin")
+					end
                 end
                 ]]
+            end
+        end
+    end
+
+    -- -------------------------------------------------------------
+    local function prog_init_truhla()
         return function()
             if truhla.dir ~= dir_no and level_isNewRound() then
                 truhla:talk("k1-x-vrz", VOLUME_FULL)
