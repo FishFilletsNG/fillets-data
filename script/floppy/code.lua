@@ -10,7 +10,6 @@ local function prog_init()
     local pokus = getRestartCount()
 
     --NOTE: a final level
-    --TODO: final shout
     small:setGoal("goal_alive")
     big:setGoal("goal_alive")
     disketa:setGoal("goal_out")
