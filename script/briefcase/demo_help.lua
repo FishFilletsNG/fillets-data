@@ -47,7 +47,7 @@ local function showMove(move)
     end)
 end
 
-
+--TODO: F1 for How to Play manual
 -- ---------------------------------------------------------------
 level_planShow(function(count)
     addm(0, "help1")
