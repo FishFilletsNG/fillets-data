@@ -64,7 +64,7 @@ function createObject(model_index)
     end
     object.useSpecialAnim = function(self, anim_name, phase)
         local action = self:getAction()
-        if action ~= "busy" and action ~= "turn" and action ~= "activate" then
+        if action ~= "busy" and action ~= "turn" and action ~= "activate" and self:isAlive() then
             model_useSpecialAnim(self.index, anim_name, phase)
         end
     end
