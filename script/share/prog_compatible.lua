@@ -1,6 +1,16 @@
 -- there are functions used in levels to raise dialogs and animation
 --
 
+dir_no = 0
+dir_up = 1
+dir_down = 2
+dir_left = 3
+dir_right = 4
+
+
+-- -----------------------------------------------------------------
+-- Compatibility functions
+-- -----------------------------------------------------------------
 function no_dialog()
     return dialog_empty() and not game_isPlanning()
 end
@@ -18,23 +28,8 @@ function getRestartCount()
     return level_getRestartCounter()
 end
 
-function createArray(size)
-    local array = {}
-    for i = 0, size - 1 do
-        array[i] = 0
-    end
-    return array
-end
-
 -- -----------------------------------------------------------------
--- Compatibility functions
--- -----------------------------------------------------------------
-dir_no = 0
-dir_up = 1
-dir_down = 2
-dir_left = 3
-dir_right = 4
-
+-- Planning
 -- -----------------------------------------------------------------
 function addm(time, text)
     small:planDialog(text, time)
@@ -47,7 +42,14 @@ function adddel(time)
     planTimeAction(time, function() end)
 end
 
--- -----------------------------------------------------------------
+function planSet(model, variable_name, value)
+    -- plan value set, variable_name must be string
+    model:planTimeAction(0, function() model[variable_name] = value end)
+end
+function planDialogSet(time, text, value, model, variable_name)
+    model:planDialog(text, time, function() model[variable_name] = value end)
+end
+
 function planBusy(model, value, delay)
     if delay == nil then
         delay = 0
@@ -57,6 +59,8 @@ function planBusy(model, value, delay)
         end)
 end
 
+-- -----------------------------------------------------------------
+-- Distance measuring
 -- -----------------------------------------------------------------
 function xdist(one, second)
     local result = 0
@@ -98,73 +102,13 @@ function look_at(fish, object)
     local dx = xdist(fish, object)
     return (fish:isLeft() and dx > 0) or dx < 0
 end
+
 -- -----------------------------------------------------------------
 -- Alternative for FArray
 -- -----------------------------------------------------------------
 function modelEquals(model_index, x, y)
     -- index -1 is for empty space (water)
     return model_equals(model_index, x, y)
-end
-
-
--- -----------------------------------------------------------------
--- Init functions
--- -----------------------------------------------------------------
-function initModels()
-    -- Set starting values for all models
-    -- Run this function at init
-    local models = getModelsTable()
-    for key, model in pairs(models) do
-        model.afaze = 0
-        model.X, model.Y = model:getLoc()
-        model.XStart, model.YStart = model:getLoc()
-        model.dir = dir_no
-        model.updateAnim = function(self)
-            self:setAnim("default", self.afaze)
-        end
-    end
-end
-
--- -----------------------------------------------------------------
--- Run functions
--- -----------------------------------------------------------------
-local function updateModels()
-    -- update .X, .Y for all models
-    local models = getModelsTable()
-    for key, model in pairs(models) do
-        model.X, model.Y = model:getLoc()
-
-        local action = model:getAction()
-        if "move_up" == action then
-            model.dir = dir_up
-        elseif "move_down" == action then
-            model.dir = dir_down
-        elseif "move_left" == action then
-            model.dir = dir_left
-        elseif "move_right" == action then
-            model.dir = dir_right
-        else
-            model.dir = dir_no
-        end
-    end
-end
-
-file_include("script/share/blackjokes.lua")
-file_include("script/share/bubles.lua")
-
-function script_update()
-    -- this function is called after every game cycle
-    animateFish(small)
-    animateFish(big)
-    animateHead(small)
-    animateHead(big)
-
-    updateModels()
-    prog_update()
-
-    stdBubles()
-    -- stdJoke()
-    stdBlackJoke()
 end
 
 

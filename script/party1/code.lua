@@ -1,4 +1,3 @@
-file_include("script/prog_compatible.lua")
 
 --NOTE: glasses must be together in models.lua
 --NOTE: last glass is the plate

@@ -1,5 +1,7 @@
 
-file_include("script/share/blackdialogs.lua")
+function stdBlackJokeLoad()
+    file_include("script/share/blackdialogs.lua")
+end
 
 -- -----------------------------------------------------------------
 local alive_time = 0

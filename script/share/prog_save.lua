@@ -1,5 +1,13 @@
+-- -----------------------------------------------------------------
+-- These function are called when save or load is made.
+-- script_save() ... call level_save(serialized_level)
+-- script_load() ... call level_load(saved_moves)
+--                   with global variable saved_moves
+-- script_loadState() ... use global variable saved_models
+--                        to restore model states
+-- -----------------------------------------------------------------
 
-file_include("script/Pickle.lua")
+file_include("script/share/Pickle.lua")
 
 function script_save()
     local models = getModelsTable()
