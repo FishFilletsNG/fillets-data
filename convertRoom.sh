@@ -1,8 +1,8 @@
 #!/bin/sh
 
-ff2lua=../../ff2lua/ff2lua.py
-prog2lua=../../ff2lua/prog2lua.py
-dialogs=../../dialogs_converter/dialogs.py
+ff2lua=../ff2lua/ff2lua.py
+prog2lua=../ff2lua/prog2lua.py
+dialogs=../dialogs_converter/dialogs.py
 
 codename=$1
 if test -z $codename ; then
