@@ -17,6 +17,19 @@ local function xor2(value)
     end
 end
 
+local function shinkShip(ship)
+    if objekty.afaze == -1 then
+        objekty:setEffect("none")
+        objekty.shiftY = 0
+        objekty.shiftX = randint(10, 30)
+        --TODO: lower speed
+        objekty.speedY = 1
+        objekty.speedX = randint(-1, 1)
+        objekty.afaze = ship
+        objekty:updateAnim()
+    end
+end
+
 -- -----------------------------------------------------------------
 -- Init
 -- -----------------------------------------------------------------
@@ -203,9 +216,7 @@ local function prog_init()
                 end,
             }
             if room.shodit >= 0 then
-                --TODO: shodLod
-                -- shodLod(room.shodit)
-                print("TEST: shink ship", room.shodit)
+                shinkShip(room.shodit)
                 room.shodit = -1
             end
         end
@@ -571,16 +582,30 @@ local function prog_init()
     local function prog_init_objekty()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
-        --TODO: shink ship 
+        objekty.afaze = -1
         objekty:setEffect("invisible")
 
+        return function()
+            if objekty.afaze >= 0 then
+                        objekty.afaze, objekty.shiftX, objekty.shiftY)
+                model_setViewShift(objekty.index,
+                        objekty.shiftX, objekty.shiftY)
+                objekty.shiftY = objekty.shiftY + objekty.speedY
+                objekty.shiftX = objekty.shiftX + objekty.speedX
+
+                if objekty.shiftY >= room:getH() then
+                    objekty.afaze = -1
+                    objekty:setEffect("invisible")
+                end
+            end
+        end
     end
 
     -- -------------------------------------------------------------
     local function prog_init_maska()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
-        --TODO: shink ship 
+        --TODO: mask shinking ship
         maska:setEffect("invisible")
 
     end

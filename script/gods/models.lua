@@ -2,6 +2,13 @@
 createRoom(46, 38, "images/"..codename.."/pozadi.png")
 setRoomWaves(5, 20, 3)
 
+objekty = addModel("item_light", 0, 0,
+[[
+X
+]])
+addItemAnim(objekty, "images/"..codename.."/potop_00.png")
+-- extsize=4; first="potop0.BMP"
+
 room = addModel("item_fixed", 0, 0,
 [[
 .XXXXXXXXXXXXXXXXXX......XXXXXXXXXXXXXXXXXXXXX
@@ -150,13 +157,6 @@ XXXX
 XXXX
 ]])
 addFishAnim(big, LOOK_LEFT, "images/fishes/big")
-
-objekty = addModel("item_light", 0, 0,
-[[
-X
-]])
-addItemAnim(objekty, "images/"..codename.."/potop_00.png")
--- extsize=4; first="potop0.BMP"
 
 maska = addModel("item_light", 0, 20,
 [[
