@@ -16,7 +16,7 @@ dialog_addDialog("vit-hs-vitejteD", "fr", "", "font_statue", "Bienvenu dans notr
 
 dialog_addDialog("vit-hs-klid1", "en", "", "font_statue", "Citizens, please remain calm.")
 dialog_addDialog("vit-hs-klid1", "cs", "sound/"..codename.."/cs/vit-hs-klid1.ogg", "font_statue", "Občané. Zachovejte klid a rozvahu.")
-dialog_addDialog("vit-hs-klid1", "fr", "", "font_statue", "Citoyens, s(il vous plaît restez calmes.")
+dialog_addDialog("vit-hs-klid1", "fr", "", "font_statue", "Citoyens, s'il vous plaît restez calmes.")
 
 dialog_addDialog("vit-hs-klid2", "en", "", "font_statue", "There is no imminent danger.")
 dialog_addDialog("vit-hs-klid2", "cs", "sound/"..codename.."/cs/vit-hs-klid2.ogg", "font_statue", "Nehrozí žádné nebezpečí.")
