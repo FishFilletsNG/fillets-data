@@ -56,6 +56,14 @@ function isIn(item, table)
     return false
 end
 
+function countPairs(table)
+    local count = 0
+    for index, value in pairs(table) do
+        count = count + 1
+    end
+    return count
+end
+
 -- -----------------------------------------------------------------
 -- Planning functions
 -- -----------------------------------------------------------------
