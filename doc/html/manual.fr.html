@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="description" content="Fish Fillets NG is a puzzle Linux game">
+<meta name="keywords" content="Fish Fillets NG, Linux game, puzzle">
+<title>Fish Fillets - Next Generation</title>
+<link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+<table width="100%">
+<tr>
+	<td><a href="http://fillets.sf.net"><img src="img/icon.png" alt="icon" width="32" height="32" border="0"></a></td>
+	<td width="100%"><h1>Fish Fillets - Next Generation</h1></td>
+</tr>
+</table>
+
+<h2>Comment jouer</h2>
+
+[ <a href="manual.html">English</a> ] [ <a href="manual.cs.html">Česky</a> ] [ Français ]
+<br><br>
+
+<ul>
+	<li>
+		<a href="#control">Contrôles</a>
+		<ul>
+			<li><a href="#running_a_level">Démarrer un niveau</a></li>
+			<li><a href="#control_keys">Touches de contrôle</a></li>
+			<li>
+				<a href="#movement">Mouvements</a>
+				<ul>
+					<li><a href="#arrow_keys">Les flèches</a></li>
+					<li><a href="#direct_control">Contrôles directs</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#about_the_game">A propos du jeu</a>
+		<ul>
+			<li><a href="#your_goal">But du jeu</a></li>
+			<li>
+				<a href="#movement_rules">Règles de mouvement</a>
+				<ul>
+					<li><a href="#pushing_objects">Pousser des objets</a></li>
+					<li><a href="#steel_object">Objet en acier</a></li>
+					<li><a href="#transferring_objects">Transférer les objets</a></li>
+					<li><a href="#pushing_along_other_objects">Pousser le long d'autres objets</a></li>
+					<li><a href="#falling_objects">Chute d'objets</a></li>
+					<li><a href="#animated_object">Objets animés</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+
+
+<a name="control"></a><h3>Contrôles</h3>
+
+<a name="running_a_level"></a><h4>Démarrer un niveau</h4>
+
+<p>Quand le jeu démarre, un plan du royaume sous-marin apparaît à l'écran avec un ou plusieurs chemins. Sont représentés les niveaux résolus (perles dorées), les niveaux à résoudre (perles bleues clignotantes) et les niveaux inaccessibles (emplacements vides).</p>
+
+<p>Les niveaux doivent être résolus l'un après l'autre. Cela signifie que vous ne pouvez pas démarrer un niveau au-delà de la perle clignotante. Sa résolution entraîne le clignotement de la perle suivante et ainsi de suite.</p>
+
+<p>Le niveau clignotant est démarré lorsque vous cliquez dessus (bouton gauche).</p>
+
+
+<a name="control_keys"></a><h4>Touches de contrôle</h4>
+
+<p>Après le début du niveau, vous pouvez <b>sauvegarder (F2)</b> ou <b>charger (F3)</b> la partie, <b>abandonner (Echap)</b> ou <b>redémarrer (Backspace)</b> le niveau actif.</p>
+
+<p>Quand vous sauvez, rappelez-vous qu'il n'y a qu'une seule sauvegarde par niveau. En sauvant une nouvelle position, vous écrasez l'ancienne sans demande de confirmation. Il est recommandé de ne sauvegarder que lorsque vous êtes sûr de vous.</p>
+
+
+<a name="movement"></a><h4>Mouvements</h4>
+
+<p>Vous pouvez contrôler le poisson de deux façons :</p>
+
+<ol>
+	<li>
+		<a name="arrow_keys"></a><h5>Les flèches</h5>
+
+		<p><b>Les flèches haut, bas, gauche et droite font bouger le poisson actif</b>. Vous pouvez utiliser <b>la barre espace pour changer de poisson</b>.</p>
+
+		<p>Quand le poisson ne bouge pas alors que vous appuyez sur une flèche, vous essayez probablement de déplacer un objet qui ne peut pas l'être ou que vous essayez de pousser un objet en acier avec le petit poisson.</p>
+
+		<p>Si vous maintenez une flèche enfoncée, le mouvement du poisson va s'accélérer après approximativement trois déplacements.</p>
+	</li>
+
+	<li>
+		<a name="direct_control"></a><h5>Contrôles directs</h5>
+
+		<p><b>Les touches A, S, D et W font bouger le petit poisson</b> et <b>Les touches J, K, L et I le gros poisson</b>. Le seul avantage c'est que vous n'avez pas besoin de changer de poisson.</p>
+	</li>
+</ol>
+
+<hr>
+<a name="about_the_game"></a><h3>A propos du jeu</h3>
+
+<a name="your_goal"></a><h4>But du jeu</h4>
+
+<p>Votre objectif est de faire sortir les poissons de la pièce. Pour se faire, vous devrez déplacer les poissons et ordonner divers objets de la pièce. Faites très attention, car les poissons sont très fragiles et il est très facile de les tuer. Apprenez les <a href="#movement_rules">Règles de mouvement</a>.</p>
+
+<p>Le but du jeu est de résoudre tous les niveaux.</p>
+
+
+<a name="movement_rules"></a><h4>Règles de mouvement</h4>
+
+<p>Pendant vos premières parties, votre poisson meurt de temps à autre sans raison apparente. Ici nous allons expliquer les règles générales qui dirigent la vie de votre poisson.</p>
+
+<blockquote>
+	<i>Définition:</i>
+
+	<p>Le poisson costaud meurt si un objet déplacé dans n'importe quelle direction sauf vers le haut, reste sans autre appuie sur le poisson.</p>
+
+	<p>Le poisson costaud meurt aussi si un objet tombe sans autre appuie sur le poisson ou le groupe d'objets qu'il porte.</p>
+
+	<p>Le petit poisson meurt dans les mêmes cas que le poisson costaud. De plus le petit poisson meurt si un objet en acier ou un groupe d'objets dont un en acier se retrouve sans autre appuie sur le petit poisson.</p>
+</blockquote>
+
+<p>Les paragraphes suivants vous montrent ce que cela veut dire :</p>
+
+<a name="pushing_objects"></a><h5>Pousser des objets</h5>
+
+<p>Le poisson n'est réellement en danger que quand il pousse un objet (ou un groupe d'objets). La situation la plus simple est l'élévation d'objet - il n'y a aucun danger. Si le poisson de l'image de gauche monte, il soulèvera l'objet. Si il se déplace à droite ou à gauche, aucune conséquence puisque l'objet reste immobile; si le déplacement à droite ou à gauche est assez long pour ne plus être sous l'objet, alors l'objet tombera sans dégât. La seule direction dangereuse est vers le bas. Si le poisson descend, l'objet qu'il porte va lui tomber dessus et le tuer.</p>
+
+<p>Si le poisson veut pousser un objet, ce dernier doit être supporté par une structure ou un autre objet. Le poisson ne peut pas porter l'objet qu'il veut pousser. Le poisson de l'image du milieu, ne peut se diriger vers la gauche, il en mourait.</p>
+
+<p>Le poisson peut déplacer un objet non-supporté, seulement s'il est supporté dans la nouvelle position. Un exemple de cette situation est montré sur l'image de droite.</p>
+
+<img src="img/manual/pushing_objects.png" width="630" height="212" alt="pushing objects">
+
+<a name="steel_object"></a><h5>Objet en acier</h5>
+
+<p>Dans de nombreux niveaux, vous remarquerez des objets en acier. Ils ont la même texture que le cylindre de cette image.<img src="img/manual/steel_object.png" width="15" height="45" alt="steel object"> Les objets en acier ne peuvent être soulevés ou poussés que par le poisson costaud. Le petit poisson ne peut pas les déplacer et si il se retrouve seul sous un objet en acier il périra même s'il n'avait rien à craindre des autres objets.</p>
+
+<a name="transferring_objects"></a><h5>Transférer les objets</h5>
+
+<p>Les poissons peuvent transférer des objets de l'un à l'autre. Si un poisson porte un objet et que l'autre se positionne de manière à le porter également, le premier peut alors s'éloigner. N'importe quel poisson peut s'éloigner sur l'image de gauche, l'objet restera sur le deuxième.</p>
+
+<p>Soyez attentif au transfert d'objet en acier. Dans la situation de l'image de droite, seul le petit poisson peut s'éloigner.</p>
+
+<img src="img/manual/transferring_objects.png" width="421" height="212" alt="transferring objects">
+
+<a name="pushing_along_other_objects"></a><h5>Pousser le long d'autres objets</h5>
+
+<p>L'astuce favorite de l'inventeur des niveaux est d'obliger un poisson à pousser un objet supporté non pas par l'autre poisson (c'est interdit) mais par un objet que supporte le deuxième poisson. Ceci est possible et est représenté par l'image de gauche.</p>
+
+<p>Toutefois, vous ne devrez surtout pas pousser l'objet qui se trouve directement sur un poisson. Le petit poisson de l'image du milieu, ne peut pas pousser sinon ça tuerait le poisson costaud. Il peut seulement pousser la forme en L depuis l'autre coté.</p>
+
+<p>Il est aussi impossible de placer un objet sur un poisson. Exemple sur l'image de droite.</p>
+
+<img src="img/manual/pushing_along_other_objects.png" width="630" height="212" alt="pushing along other objects">
+
+<a name="falling_objects"></a><h5>Chute d'objets</h5>
+
+<p>Les chutes d'objets sont mortelles. Peu importe la hauteur de la chute, si l'objet touche un poisson ou ce qui est porté par un poisson, celui-ci meurt.</p>
+
+<p>Un objet porté directemet par un poisson, ne peut être poussé que s'il tombe (image de droite) ou devient immédiatement supporté après le mouvement (image du milieu).</p>
+
+<p>Dans certaines situations vous pourrez croire que l'objet va blesser un poisson, en fait il va d'abord cogner une structure. Dans ces situations le poisson ne risque rien, contrairement aux apparences. Un exemple est donné sur l'image de droite.</p>
+
+<img src="img/manual/falling_objects.png" width="625" height="212" alt="falling objects">
+
+<a name="animated_object"></a><h5>Objets animés</h5>
+
+<p>Quelques objets du jeu sont animés - une pieuvre jouant de la balalaïka, des anémones dansantes, des vikings qui se parlent, etc. Ces objets ne sont là que pour rendre le monde plus vivant. Ils n'ont aucune prépondérence pour la solution.Il n'y a que deux types d'objets dans le jeu : les normaux et ceux en acier. Aucun objet n'intéragit avec un autre. Peu importe à quoi ressemble l'objet - tous occupent un certain nombre d'espaces élémentaires et c'est la seule chose qui compte.</p>
+
+</body>
+
+</html>
