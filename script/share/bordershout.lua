@@ -2,9 +2,11 @@
 -- -----------------------------------------------------------------
 -- NOTE: uses 'small' and 'big' fish names
 local function playShout(unit)
-    --TODO: chewing gum bore joke
-    if unit:getState() == "goout" then
-        if unit == small then
+    if level_isNewRound() and unit:getState() == "goout" then
+        --NOTE: chewing gum bore joke
+        if room.zvykacka and ((unit == small and big:isOut()) or (unit == big and small:isOut())) and not small:isTalking() then
+            small:talk("ob-m-zvykacka")
+        elseif unit == small then
             unit:talk("sp-shout_small_0"..random(5))
         elseif unit == big then
             if random(100) < 15 and small:isOut() then

@@ -172,8 +172,7 @@ local function selectJoke(n)
                 [3] = function()
                     addm(10, "ob-m-jakdlouho")
                     addv(5, "ob-v-zvykacka")
-                    --TODO: zvykacka joke at the level end
-                    -- room.zvykacka = true
+                    room.zvykacka = true
                 end,
                 [4] = function()
                     addv(5, "ob-v-ostani")
