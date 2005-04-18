@@ -2,6 +2,7 @@
 local DialogState = {
     SOUND_PREFIX = "",
     DEFAULT_LANG = "",
+    filename = nil,
     lang = "",
     name = "",
     font = "",
@@ -42,6 +43,7 @@ function dialogLoad(prefix, soundPrefix)
                 DialogState.DEFAULT_LANG = lang
             end
             DialogState.lang = lang
+            DialogState.filename = dialogFile
             file_include(dialogFile)
         else
             if string.len(lang) <= 2 then
@@ -69,21 +71,21 @@ function dialogId(dialogName, fontName, defaultSubtitle)
             }
         else
             print(string.format("WARNING: extra foreign dialog"..
-                "; lang=%q; name=%q; subtitle=%q",
-                DialogState.lang, dialogName, defaultSubtitle or ""))
+                "; file=%q; name=%q; subtitle=%q",
+                DialogState.filename, dialogName, defaultSubtitle or ""))
         end
     else
         if primeDialog.font ~= fontName then
             print(string.format("WARNING: bad font for foreign dialog"..
-                "; lang=%q; name=%q; primeFont=%q; font=%q",
-                DialogState.lang, dialogName,
+                "; file=%q; name=%q; primeFont=%q; font=%q",
+                DialogState.filename, dialogName,
                 primeDialog.font or "", fontName or ""))
         end
         if primeDialog.subtitle ~= defaultSubtitle then
             print(string.format(
                 "WARNING: bad defaultSubtitle for foreign dialog"..
-                "; lang=%q; name=%q; primeSubtitle=%q; defaultSubtitle=%q",
-                DialogState.lang, dialogName,
+                "; file=%q; name=%q; primeSubtitle=%q; defaultSubtitle=%q",
+                DialogState.filename, dialogName,
                 primeDialog.subtitle or "", defaultSubtitle or ""))
         end
     end
