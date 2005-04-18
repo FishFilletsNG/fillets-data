@@ -19,7 +19,7 @@ dialogId("sv-m-doscasu", "font_small", "It seems you will have plenty of opportu
 dialogStr("Na to teď budeš mít času víc než dost.")
 
 
-dialogId("sv-m-tank", "font_small", "I wonder how this tank got into the sea?")
+dialogId("sv-m-tank", "font_small", "I wonder how this tank got into the sea.")
 dialogStr("Jak se asi dostal ten tank do moře?")
 
 

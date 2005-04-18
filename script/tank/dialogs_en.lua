@@ -9,7 +9,7 @@ dialogId("sv-v-chtel", "font_big", "Thinking about it, I always wanted to see th
 
 dialogId("sv-m-doscasu", "font_small", "It seems you will have plenty of opportunity to look around.")
 
-dialogId("sv-m-tank", "font_small", "I wonder how this tank got into the sea?")
+dialogId("sv-m-tank", "font_small", "I wonder how this tank got into the sea.")
 
 dialogId("sv-v-obojzivelny", "font_big", "Maybe it was an amphibious tank.")
 

@@ -19,7 +19,7 @@ dialogId("sv-m-doscasu", "font_small", "It seems you will have plenty of opportu
 dialogStr("Es scheint so, als wenn du dazu reichlich Gelegenheit haben wirst.")
 
 
-dialogId("sv-m-tank", "font_small", "I wonder how this tank got into the sea?")
+dialogId("sv-m-tank", "font_small", "I wonder how this tank got into the sea.")
 dialogStr("Wie ist dieser Panzer ins Meer gekommen?")
 
 
