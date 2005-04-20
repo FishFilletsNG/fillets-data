@@ -16,7 +16,7 @@ node_bestSolution("viking1", 119, "Pavel Danihelka")
 node_bestSolution("airplane", 257, "Mark Byers")
 node_bestSolution("bathyscaph", 82, "Pavel Danihelka")
 node_bestSolution("tank", 402, "Josef Peterka")
-node_bestSolution("viking2", 359, "Jan Danihelka")
+node_bestSolution("viking2", 349, "Gabor Braun")
 node_bestSolution("party2", 285, "Josef Peterka")
 node_bestSolution("gods", 943, "Josef Peterka")
  
