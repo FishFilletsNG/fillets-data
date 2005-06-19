@@ -9,7 +9,7 @@ dialogId("ncp-v-sasanka", "font_big", "Stop playing with anemones and help me to
 
 dialogId("ncp-m-nekoukej", "font_small", "Don`t be surprised.")
 
-dialogId("ncp-m-komari", "font_small", "There are so many carols here...")
+dialogId("ncp-m-komari", "font_small", "There are so many corals here...")
 
 dialogId("ncp-v-ceho", "font_big", "What?")
 

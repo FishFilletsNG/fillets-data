@@ -19,7 +19,7 @@ dialogId("ncp-m-nekoukej", "font_small", "Don`t be surprised.")
 dialogStr("Non ti meravigliare.")
 
 
-dialogId("ncp-m-komari", "font_small", "There are so many carols here...")
+dialogId("ncp-m-komari", "font_small", "There are so many corals here...")
 dialogStr("Ci sono così tanti cavalli qui...")
 
 
