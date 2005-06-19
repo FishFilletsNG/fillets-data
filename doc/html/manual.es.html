@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="Fish Fillets NG es un juego puzzle para Linux" />
+<meta name="keywords" content="Fish Fillets NG, juego Linux, puzzle" />
+<title>Fish Fillets - Next Generation</title>
+<link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<table width="100%">
+<tr>
+	<td><a href="http://fillets.sf.net"><img src="img/icon.png" alt="icon" width="32" height="32" border="0"></a></td>
+	<td width="100%"><h1>Fish Fillets - Next Generation</h1></td>
+</tr>
+</table>
+
+[ <a href="manual.html">English</a> ] [ <a href="manual.cs.html">Česky</a> ] [ <a href="manual.fr.html">Français</a> ] [ Español ]
+<br /><br />
+
+<h2>Como Jugar</h2>
+
+<br />
+<ul>
+	<li>
+		<a href="#control">Control</a>
+		<ul>
+			<li><a href="#running_a_level">Ejecutando un nivel</a></li>
+			<li><a href="#control_keys">Teclas de control</a></li>
+			<li>
+				<a href="#movement">Movimiento</a>
+				<ul>
+					<li><a href="#arrow_keys">Teclas de flecha</a></li>
+					<li><a href="#mouse">Ratón</a></li>
+					<li><a href="#direct_control">Control directo</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#about_the_game">Acerca del Juego</a>
+		<ul>
+			<li><a href="#your_goal">Tu meta</a></li>
+			<li>
+				<a href="#movement_rules">Reglas de movimiento</a>
+				<ul>
+					<li><a href="#pushing_objects">Empujando objetos</a></li>
+					<li><a href="#steel_object">Objeto de acero</a></li>
+					<li><a href="#transferring_objects">Transfiriendo objetos</a></li>
+					<li><a href="#pushing_along_other_objects">Empujando sobre otros objetos</a></li>
+					<li><a href="#falling_objects">Objetos cayendo</a></li>
+					<li><a href="#animated_object">Objeto animado</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+
+
+<a name="control"></a><h3>Control</h3>
+
+<a name="running_a_level"></a><h4>Ejecutando un nivel</h4>
+
+<p>Cuando el juego comienza aparece un mapa del reino submarino en tu pantalla con una o más rutas. Muestra los niveles ya resueltos (cuentas doradas), los niveles que están siendo resueltos (cuentas azules pulsantes) y los niveles no jugados (agujeros vacíos).</p>
+
+<p>Es sólo posible resolver los niveles uno por uno. Esto significa que no puedes entrar a cualquier nivel detrás de la cuenta intermitente. Sólo cuando lo resuelves la próxima cuenta comienza a pulsar y así sucesivamente.</p>
+
+<p>El nivel intermitente puede ser ejecutado haciendo click-izquierdo en la cuenta. Si tu haces click-izquierdo en un nivel ya resuelto, estadísticas - el número de movimientos - de tu solución aparece. Tienes dos opciones ahora: resolverlo nuevamente (click en el ícono de cerebro) o mirar la solución (ícono de ojo).</p>
+
+
+<a name="control_keys"></a><h4>Teclas de control</h4>
+
+<p>Después de ejecutar el nivel puedes <b>guardar (F2)</b> o <b>cargar (F3)</b> el juego y <b>abortar (Escape)</b> o <b>reiniciar (Retroceder)</b> el nivel actual.</p>
+
+<p>Mientras guardes la solución debes de tener en mente que hay solo un espacio para cargar y guardar para cada nivel. Cuando guardes la nueva posición el antiguo es borrado sin pedir confirmación. Se recomienda que guardes nueva posición sólo cuando estás seguro que vas en la dirección correcta.</p>
+
+<p>Otras acciones útiles que puedes hacer es <b>mostrar contador de movimientos (F5)</b> en nivel, <b>mostrar/esconder subtítulos (F6)</b>, <b>incrementar velocidad de juego (mantener presionado Shift)</b>, <b>mostrar menu del juego (F10)</b> o <b>cambiar a pantalla completa (F11)</b>.</p>
+
+<p>Different options are in game menu which can be invoked by clicking Options in the right bottom corner in the world map or by F10 key. There you can control the volume of music and sound, you can choose the language of subtitles or turn subtitles off completely.</p>
+<p>Existen distintas opciones en el menu del juego el cual puede ser invocado haciendo click en Opciones en la esquina inferior derecha en el mapa del mundo o con la tecla F10. Ahí puedes controlar el volumen de la música y el sonido, puedes escoger el lenguaje de los subtítulos o apagar los subtítulos completamente.</p>
+
+
+<a name="movement"></a><h4>Movimiento</h4>
+
+<p>Puedes controlar a tus peces en una de tres formas.</p>
+
+<ol>
+	<li>
+		<a name="arrow_keys"></a><h5>Teclas de flecha</h5>
+
+		<p><b>Las teclas arriba, abajo, izquierda y derecha controlan al pez escogido</b>. Puedes usar <b>la barra espaciadora para intercambiar peces.</b>.</p>
+
+		<p>Cuando el pez no se mueve aunque estés presionando las teclas estás probablemente tratando de empujar algo que no puede ser movido o estás tratando de empujar un objeto de acero con el pez más pequeño.</p>
+
+		<p>Si mantienes presionado el botón de flecha, el movimiento del pez se acelerará después de aproximadamente tres espacios.</p>
+	</li>
+
+	<li>
+		<a name="mouse"></a><h5>Ratón</h5>
+
+		<p>Apunta el cursor en el lugar donde quieres que el pez valla, mantén presionado el botón izquierdo del ratón. Si el pez puede llegar al lugar, se comenzará a mover. Su movimiento se acelerará después de aproximadamente tres espacios.</p>
+
+		<p>Si quieres mover algo, mantén presionado el botón derecho del ratón. El pez seleccionado tratará de moverse directamente al punto donde hiciste click, empujando a un lado todo en su camino.</p>
+
+		<p>Puedes intercambiar entre peces simplemente haciendo click-izquierdo al que quieres activar.</p>
+	</li>
+
+	<li>
+		<a name="direct_control"></a><h5>Control directo</h5>
+
+		<p><b>Las teclas A, S, D y W controlan al pez más pequeño</b> y <b>las teclas J, K, L e I controlan al pez más grande</b>. La única ventaja de este control es que no necesitas intercambiar de pez.</p>
+	</li>
+</ol>
+
+<hr />
+<a name="about_the_game"></a><h3>Acerca del Juego</h3>
+
+<a name="your_goal"></a><h4>Tu meta</h4>
+
+<p>Tu meta en la mayoría de las habitaciones es sacar a los dos peces. Para hacer esto tienes que mover alrededor y reorganizar varios objetos en la habitación. Tienes que ser muy cuidadoso porque ellos son muy frágiles y es muy fácil matarlos. Observa también las <a href="#movement_rules">reglas de movimiento</a>.</p>
+
+<p>La meta del juego es resolver todos los niveles.</p>
+
+
+<a name="movement_rules"></a><h4>Reglas de movimiento</h4>
+
+<p>Cuando comienzas a jugar el juego tu pez morirá de tiempo en tiempo sin ninguna razón aparente. Aquí mostraremos las reglas generales que gobiernan la vida de tu pez.</p>
+
+<blockquote>
+	<i>La Definición:</i>
+
+	<p>El pez más grande perecerá si cualquier objeto se mueve en cualquier dirección excepto arriba y dicho objeto en su nueva posición descansa únicamente en el pez.</p>
+
+	<p>El pez más grande también perecerá si cualquier objeto se mueve hacia abajo y en su nueva posición descansa sólamente sobre el objeto o grupo de objetos descansando únicamente sobre el pez.</p>
+
+	<p>El pez más pequeño perecerá en todos los casos que el pez más grande lo haría. Además, siempre perecerá si un objeto de acero o un grupo de objetos conteniendo un objeto de acero descansa únicamente sobre el pez.</p>
+</blockquote>
+
+<p>Los próximos párrafos te dirán que significa de hecho:</p>
+
+<a name="pushing_objects"></a><h5>Empujando objetos</h5>
+
+<p>Los peces están en peligro sólo si ellos mueven algún objeto. La situación más simple es levantar objetos - no hay peligro en ello. Si el pez en la imagen a la izquierda se mueve hacia arriba, levanta el objeto. Si se mueve a la izquierda o la derecha, nada ocurre, pero el objeto se queda en su lugar; si continúa moviéndose a la izquierda o la derecha lo suficiente, eventualmente saldrá de la parte de abajo del objeto y el objeto caerá inofensivamente hacia abajo. La única dirección peligrosa es hacia abajo. Si el pez se mueve hacia abajo, el objeto que estuvo soportando caerá sobre él y lo matará.</p>
+
+<p>Si el pez quiere empujar un objeto, el objeto debe de estar soportado por alguna estructura u otro objeto. El pez no puede soportar el objeto que es empujado. El pez en la imagen del medio no puede moverse a la izquierda porque sería muerto.</p>
+
+<p>El pez puede empujar un objeto sin soportar sólamente si se vuelve soportado en la nueva posición. Un ejemplo de esta situación está en la imagen a la derecha.</p>
+
+<img src="img/manual/pushing_objects.png" width="630" height="212" alt="empujando objetos" />
+
+<a name="steel_object"></a><h5>Objeto de acero</h5>
+
+<p>En algunos niveles notarás los objetos de acero. Estos se ven como el cilindro en esta imagen. <img src="img/manual/steel_object.png" width="15" height="45" alt="objeto de acero" /> Los objetos de acero sólo pueden ser levantados y empujados por el pez grande. El pez más pequeño no puede moverlos y si se sitúa bajo un objeto de acero, perecerá incluso si fuera inofensivo con otros objetos.</p>
+
+<a name="transferring_objects"></a><h5>Transfiriendo objetos</h5>
+
+<p>Los peces pueden transferir objetos entre ellos. Si un pez soporta el objeto y el otro pez se ubica en la posición para que el objeto descanse también sobre él, el primer pez se puede alejar. Cualquier pez se puede mover lejos en la imagen de la izquierda y el objeto permanecerá sobre el otro.</p>
+
+<p>Sé cuidadoso transfiriendo objetos de acero. En la situación de la imagen de la derecha sólo el pez pequeño puede alejarse.</p>
+
+<img src="img/manual/transferring_objects.png" width="421" height="212" alt="transfiriendo objetos" />
+
+<a name="pushing_along_other_objects"></a><h5>Empujando sobre otros objetos</h5>
+
+<p>El truco favorito de los diseñadores de nivel es un pez empujando un objeto no soportado por el otro pez (lo cual es imposible), sino por algún objeto que descansa sobre el otro pez. Esto es en efecto posible y es presentado en la imagen de la izquierda.</p>
+
+<p>En cualquier caso, debes de cuidar de nunca mover el objeto que descansa directamente sobre un pez. El pez más pequeño en la imagen del medio no puede empujar porque mataría al pez más grande. Sólo puede empujar el objeto con forma de L desde el otro lado.</p>
+
+<p>También es imposible situar un objeto sobre un pez. Esto es mostrado en la imagen a la derecha.</p>
+
+<img src="img/manual/pushing_along_other_objects.png" width="630" height="212" alt="empujando sobre otros objetos" />
+
+<a name="falling_objects"></a><h5>Objetos callendo</h5>
+
+<p>Los objetos que caen son siempre mortales. No importa de cuanta distancia caiga el objeto, si golpea un pez o algo que descansa sobre un pez, el pez está muerto.</p>
+
+<p>El objeto soportado directamente por un pez sólo puede ser empujado si cae o descansa luego inmediatamente sobre alguna estructura.</p>
+
+<p>Permanece alerta a la situación donde el objeto aparentemente golpea al pez pero de hecho golpea alguna estructura. En esa situación el pez está a salvo aunque no puede verse como tal para nada. Un ejemplo de esa situación está en la imagen a la derecha.</p>
+
+<img src="img/manual/falling_objects.png" width="625" height="212" alt="objetos cayendo" />
+
+<a name="animated_object"></a><h5>Objeto animado</h5>
+
+<p>Algunos objetos en el juego son animados - un pulpo tocando la balalaika, anémonas bailarinas, Vikingos hablándose entre ellos, etc. Todas aquellas cosas están aquí para hacer al juego más vivible. Todo es completamente irrelevante a la solución. Hay sólo dos clases de objetos en el juego: normales y de acero. Ningún objeto interactúa con algún otro objeto. No importa a qué se parezca el objeto - todos ellos ocupan algún número de cuadrados elementales y eso es lo único importante entre ellos.</p>
+
+</body>
+
+</html>
