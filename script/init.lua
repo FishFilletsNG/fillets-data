@@ -16,3 +16,8 @@ if winCodes[lang] then
     setParam("lang", winCodes[lang])
 end
 
+--NOTE: default speech is 'cs' (there are cs/*.ogg files)
+if getParam("speech") == nil then
+    setParam("speech", "cs")
+end
+
