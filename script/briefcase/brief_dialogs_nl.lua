@@ -4,7 +4,7 @@ dialogStr("Goeie morgen, vissen. Dit is een zeer belangrijke zaak en daarom bena
 
 
 dialogId("kd-ufo", "font_white", "Agents of FDTO - Fish Detective Training Organization - managed to get hold of several amateur snapshots of an extraterrestrial object which has crashed somewhere in your vicinity. Your mission, if you choose to accept it, will be to recover the UFO and acquire all the information you can about the principles and nature of interstellar propulsion.")
-dialogStr("Agenten van de FDTO - VissenDetective Training Organisatie - zijn erin geslaagd om een aantal amateuropnamen te bemachtigen van een buitenaards object dat ergens bij jullie in de buurt is neergestort. Jullie missie, als jullie die accepteren, is om de UFO te bemachtigen en zoveel mogelijk informatie te vinden over de interstellaire aandrijving.")
+dialogStr("Agenten van de VDTO - VissenDetective Training Organisatie - zijn erin geslaagd om een aantal amateuropnamen te bemachtigen van een buitenaards object dat ergens bij jullie in de buurt is neergestort. Jullie missie, als jullie die accepteren, is om de vliegende schotel te bemachtigen en zoveel mogelijk informatie te vinden over de interstellaire aandrijving.")
 
 
 dialogId("kd-mesto", "font_white", "You should also try to close some of our as yet unsolved cases. We are mostly interested in the circumstances surrounding the sinking of the mythical city, by chance in the same area.")
@@ -28,15 +28,15 @@ dialogStr("Jullie moeten ook de mysterieuze koraalschildpad zien te vinden en ar
 
 
 dialogId("kd-elektr", "font_white", "We have been notified that a certain nuclear power plant has been dumping its radioactive waste illegally. Check it out.")
-dialogStr("We hebben bericht gekregen dat een bepaalde kernreactor illegaal radioactief afval heeft lopen dumpen. Zoek het uit.")
+dialogStr("We hebben bericht gekregen dat een bepaalde kernreactor illegaal radioactief afval heeft gedumpt. Zoek het uit.")
 
 
 dialogId("kd-gral", "font_white", "And don`t forget to find the holy grail.")
-dialogStr("En vergeet niet de heilige graal te vinden.")
+dialogStr("En vergeet niet de Heilige Graal te vinden, als je toch bezig bent.")
 
 
 dialogId("kd-zaver", "font_white", "And as usual: If anyone from your team is injured or killed, Altar will deny any knowledge of your existence and the level will be restarted.")
-dialogStr("En, zoals altijd, als een van jullie team gewond raakt of omkomt, dan zal Altar ontkennen iets met jullie te maken te hebben en het niveau zal worden herstart.")
+dialogStr("En, zoals altijd, als een van jullie team gewond raakt of omkomt, dan zal Altar ontkennen iets met jullie te maken te hebben en het veld zal worden herstart.")
 
 
 dialogId("kd-znici", "font_white", "This disk will self-destruct in five seconds.")

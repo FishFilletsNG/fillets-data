@@ -1,6 +1,6 @@
 
 dialogId("pra-m-pravidla", "font_small", "You know the rules already. Now you can practice them. We will give you some hints occasionally.")
-dialogStr("Je kent de regels al. Nu kun je wat oefenen. We geven je afentoe wat hints.")
+dialogStr("Je kent de regels al. Nu kun je wat oefenen. We geven je af en toe wat aanwijzingen.")
 
 
 dialogId("pra-v-klesnout", "font_big", "I must not swim down now. And I cannot go up, either.")
@@ -60,7 +60,7 @@ dialogStr("Dit kan ik beter uit mijn hoofd laten.")
 
 
 dialogId("pra-v-spatne", "font_big", "This looks real bad. You are going to have to restart the level.")
-dialogStr("Dit ziet er slecht uit. Je moet het niveau herstarten.")
+dialogStr("Dit ziet er slecht uit. Je moet het veld herstarten.")
 
 
 dialogId("pra-m-pustis", "font_small", "If you drop that and I stay here, I will never get out.")
@@ -80,7 +80,7 @@ dialogStr("Wacht maar.")
 
 
 dialogId("pra-m-kniha", "font_small", "We will give you a hint here, player. You have to put that book over there, to the left.")
-dialogStr("We geven je hier wel een hint, speler. Je moet dat book daar naar links duwen.")
+dialogStr("We geven je hier wel een aanwijzing, speler. Je moet dat book daar naar links duwen.")
 
 
 dialogId("pra-v-valec", "font_big", "So that it will catch that steel cylinder when I push it.")
@@ -100,7 +100,7 @@ dialogStr("Wat als ik de bovenste weg kies?")
 
 
 dialogId("pra-m-neradit", "font_small", "Shhhh. That`s too many hints.")
-dialogStr("Sst. Je zegt te veel voor..")
+dialogStr("Sst. Je zegt te veel voor.")
 
 
 dialogId("pra-m-stava", "font_small", "Things like that happen sometimes.")
@@ -112,7 +112,7 @@ dialogStr("Soms moet je heeeeeeel ver vooruit denken.")
 
 
 dialogId("pra-m-restart", "font_small", "And often you have to restart the level then.")
-dialogStr("En dan moet je vaak het niveau opnieuw doen.")
+dialogStr("En dan moet je vaak het veld opnieuw doen.")
 
 
 dialogId("pra-v-schvalne", "font_big", "We admit that we did this on purpose.")
@@ -120,5 +120,5 @@ dialogStr("We moeten toegeven dat we dat expres hebben gedaan.")
 
 
 dialogId("pra-m-znovu", "font_small", "So that you could try it again - this time without any hints.")
-dialogStr("Zodat je het nog een keertje kunt proberen, maar dan zonder hints.")
+dialogStr("Zodat je het nog een keertje kunt proberen, maar dan zonder aanwijzingen.")
 

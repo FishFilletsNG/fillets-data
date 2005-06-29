@@ -36,7 +36,7 @@ dialogStr("Hoe? Dat ding heeft zichzelf vernietigd.")
 
 
 dialogId("kuf-v-restart", "font_big", "We could restart the level.")
-dialogStr("We zouden het niveau kunnen herstarten.")
+dialogStr("We zouden het veld kunnen herstarten.")
 
 
 dialogId("kuf-m-pravda", "font_small", "That`s true...")

@@ -184,7 +184,7 @@ dialogStr("Welke anderen?")
 
 
 dialogId("ob-v-kdoresi", "font_big", "The other players who are solving this game. Maybe they have managed to solve more levels.")
-dialogStr("De andere spelers, die het spel proberen op te lossen. Misschien hebben die al meer niveaus weten op te lossen.")
+dialogStr("De andere spelers, die het spel proberen op te lossen. Misschien hebben die al meer velden weten op te lossen.")
 
 
 dialogId("ob-m-pravdepodobne", "font_small", "It`s very likely.")

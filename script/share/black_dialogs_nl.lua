@@ -20,7 +20,7 @@ dialogStr("Scheisse!")
 
 
 dialogId("smrt-v-4", "font_big", "Hmmm... and now I am alone.")
-dialogStr("Hmmm... nu ben ik helemaal alleen.")
+dialogStr("Hmmm... Nu ben ik helemaal alleen.")
 
 
 dialogId("smrt-v-5", "font_big", "Did she know she has such a sexy skeleton?")
@@ -76,11 +76,11 @@ dialogStr("En ik heb hem nooit verteld hoeveel ik van hem hou.")
 
 
 dialogId("smrt-m-restart", "font_small", "Luckily, it`s possible to restart the level.")
-dialogStr("Gelukkig kun je het niveau opnieuw spelen.")
+dialogStr("Gelukkig kun je het veld opnieuw spelen.")
 
 
 dialogId("smrt-v-restart", "font_big", "Fortunately, we can restart the level.")
-dialogStr("Gelukkig kunen we het niveau herstarten.")
+dialogStr("Gelukkig kunen we het veld herstarten.")
 
 
 dialogId("smrt-v-zahrobi", "font_big", "Restart the level! The afterlife is too tedious.")
@@ -104,5 +104,5 @@ dialogStr("Ik ga dit in m'n eentje nooit oplossen. Doe geen moeite om te herstar
 
 
 dialogId("smrt-v-autorest", "font_big", "And she is gone. I`m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
-dialogStr("Daar gaat ze. Jij vond haar vast net zo aardig als ik. Je hebt er vast niks tegen opnieuw te beginnen met dit niveau.")
+dialogStr("Daar gaat ze. Jij vond haar vast net zo aardig als ik. Je hebt er vast niks tegen opnieuw te beginnen met dit veld.")
 

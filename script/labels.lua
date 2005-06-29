@@ -114,7 +114,7 @@ Tu solución es tan buena como la mejor conocida.
 ]])
 label_text("solver_equals", "nl",
 [[
-Je oplossing is net zo goed als de beste oplossing tot nu toe.
+Jouw oplossing is net zo goed als de beste oplossing tot nu toe!
 ]])
 
 
@@ -269,7 +269,7 @@ Acelerar juego - Shift
 label_text("help", "nl",
 [[
                 HELP
-hertart niveau - Backspace
+hertart veld - Backspace
 help - F1
 spel opslaan - F2
 spel laden - F3

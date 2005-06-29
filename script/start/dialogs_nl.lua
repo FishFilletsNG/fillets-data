@@ -52,7 +52,7 @@ dialogStr("En wees wel voorzichtig met ons. Als je iets op ons laat vallen...")
 
 
 dialogId("1st-m-nechtoho", "font_small", "Oh, stop it. We`ll tell him in the next level.")
-dialogStr("Oh, hou op. Dat vertellen we hem in het volgende niveau wel.")
+dialogStr("Oh, hou op. Dat vertellen we hem in het volgende veld wel.")
 
 
 dialogId("1st-v-takdobre", "font_big", "Okay.")
@@ -96,7 +96,7 @@ dialogStr("Oeps! Dat was niet goed. We moeten allebei ontsnappen om verder te ku
 
 
 dialogId("1st-v-nedostanu", "font_big", "There`s no way I can get out now. You`ll have to restart the level.")
-dialogStr("Hier kom ik nooit meer uit. Je zult het niveau opnieuw moeten beginnen.")
+dialogStr("Hier kom ik nooit meer uit. Je zult het veld van voren af aan moeten beginnen.")
 
 
 dialogId("1st-v-stiskni", "font_big", "You have to press the long arrow on your keyboard.")
@@ -116,7 +116,7 @@ dialogStr("De optie om te herstarten zit ook op het controle paneel.")
 
 
 dialogId("1st-m-pokud", "font_small", "If you think you would rather restart the level, no problem.")
-dialogStr("Als je denkt dat je liever opnieuw begint met een niveau, dan is dat geen probleem.")
+dialogStr("Als je denkt dat je liever opnieuw begint met een veld, dan is dat geen probleem.")
 
 
 dialogId("1st-v-znovu", "font_big", "You just have to press the long arrow on your keyboard.")
