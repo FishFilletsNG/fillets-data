@@ -20,11 +20,11 @@ dialogStr("Entendiste todo mal.")
 
 
 dialogId("wc-m-prasecinky", "font_small", "Didn`t I tell you, that WE don`t need a flushing toilet? And decorated with your smut, too!")
-dialogStr("¿No te dije que, NOSOTROS no necesitamos una toilet? ¡Y decorado con tu suciedad tampoco!")
+dialogStr("¿No te dije que, NOSOTROS no necesitamos un retrete? ¡Y decorado con tu suciedad tampoco!")
 
 
 dialogId("wc-v-hygiena", "font_big", "The flushing toilet is more hygienic and when under water even more ecological.")
-dialogStr("El baño es más higiénico y cuando está bajo el agua incluso más ecológico.")
+dialogStr("El retrete es más higiénico y cuando está bajo el agua incluso más ecológico.")
 
 
 dialogId("wc-m-vlezt", "font_small", "Luckily, I needn`t climb inside.")

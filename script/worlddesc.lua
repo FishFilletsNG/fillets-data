@@ -78,7 +78,7 @@ worldmap_addDesc("wc", "fr", "Bloqués dans les toilettes", "Maison Poisson")
 worldmap_addDesc("wc", "de", "Eingeschlossen auf Toilette", "Fischhaus")
 worldmap_addDesc("wc", "it", "Rinchiusi in bagno", "La Casa dei Pesci")
 worldmap_addDesc("wc", "pl", "Zamknięci w klozecie", "Rybi domek")
-worldmap_addDesc("wc", "es", "Encerrado en el Closet", "Casa Pez")
+worldmap_addDesc("wc", "es", "Encerrado en el W.C.", "Casa Pez")
 worldmap_addDesc("wc", "nl", "Opgesloten op de wc", "Vissenhuis")
 
 worldmap_addDesc("submarine", "en", "Drowned Submarine", "Ship Wrecks")

@@ -12,7 +12,7 @@ dialogStr("Oh, qué lugar.")
 
 
 dialogId("poc-v-kam0", "font_big", "Where can man - I mean fish - get by climbing into a toilet?")
-dialogStr("¿Por donde pueden las personas - quiero decir los peces - subir a esos baños?")
+dialogStr("¿Por donde pueden las personas - quiero decir los peces - llegar subiendo a un retrete?")
 
 
 dialogId("poc-v-kam1", "font_big", "It looks like a cozy little dump.")
@@ -20,7 +20,7 @@ dialogStr("Luce como un pequeño y acogedor vertedero.")
 
 
 dialogId("poc-v-kam2", "font_big", "Look, what kind of things people have flushed down the toilet.")
-dialogStr("Mira, que clase de cosas ha tirado la gente por el W.C..")
+dialogStr("Mira, que clase de cosas ha tirado la gente por el retrete.")
 
 
 dialogId("poc-v-kam3", "font_big", "I thought it would be worse when I was climbing in.")
