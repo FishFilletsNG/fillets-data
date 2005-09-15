@@ -24,7 +24,7 @@ dialogStr("Endlich sehe ich mal einen anderen Schädel.")
 
 
 dialogId("bot-v-vsim", "font_big", "Did you notice that totem? It is the Mexican god Shelloxuatl.")
-dialogStr("Das du das Totem gesehen? Das ist der mexikanische Gott Shelloxuatl.")
+dialogStr("Hast du das Totem gesehen? Das ist der mexikanische Gott Shelloxuatl.")
 
 
 dialogId("bot-m-vypada", "font_small", "It looks like it.")
