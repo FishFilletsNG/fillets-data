@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="Fish Fillets NG to gra logiczna pod Linuksa" />
+<meta name="keywords" content="Fish Fillets NG, Linux, gra logiczna" />
+<title>Fish Fillets - Next Generation</title>
+<link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<table width="100%">
+<tr>
+	<td><a href="http://fillets.sf.net"><img src="img/icon.png" alt="icon" width="32" height="32" border="0"></a></td>
+	<td width="100%"><h1>Fish Fillets - Next Generation</h1></td>
+</tr>
+</table>
+
+[ <a href="manual.html">English</a> ] [ <a href="manual.cs.html">Česky</a> ] [ <a href="manual.fr.html">Français</a> ] [ <a href="manual.es.html">Español</a> ] [ <a href="manual.nl.html">Nederlands</a> ] [ Polski ]
+<br /><br />
+
+<h2>Jak grać</h2>
+
+<br />
+<ul>
+	<li>
+		<a href="#control">Sterowanie</a>
+		<ul>
+			<li><a href="#running_a_level">Uruchamianie poziomu</a></li>
+			<li><a href="#control_keys">Klawiszologia</a></li>
+			<li>
+				<a href="#movement">Poruszanie się</a>
+				<ul>
+					<li><a href="#arrow_keys">Klawisze kursora</a></li>
+					<li><a href="#mouse">Mysz</a></li>
+					<li><a href="#direct_control">Kontrola bezpośrednia</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#about_the_game">Informacje o grze</a>
+		<ul>
+			<li><a href="#your_goal">Cel gry</a></li>
+			<li>
+				<a href="#movement_rules">Zasady poruszania się</a>
+				<ul>
+					<li><a href="#pushing_objects">Popychanie przedmiotów</a></li>
+					<li><a href="#steel_object">Przedmioty stalowe</a></li>
+					<li><a href="#transferring_objects">Przekazywanie przedmiotów</a></li>
+					<li><a href="#pushing_along_other_objects">Popychanie po innych przedmiotach</a></li>
+					<li><a href="#falling_objects">Spadające przedmioty</a></li>
+					<li><a href="#animated_object">Animowane przedmioty</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+
+
+<a name="control"></a><h3>Sterowanie</h3>
+
+<a name="running_a_level"></a><h4>Uruchamianie poziomu</h4>
+
+<p>Na początku widzimy mapę podwodnego królestwa, na której rysuje się jedna lub kilka ścieżek. Mapa pokazuje ukończone poziomy (złote kuleczki), poziomy aktualnie rozwiązywane (mrugające niebieskie kuleczki) i poziomy, do których jeszcze nie ma dostępu (puste miejsca).</p>
+
+<p>Poziomy należy rozwiązywać jeden po drugim. To znaczy, że nie możesz włączyć poziomu znajdującego się za aktualnym (mrugającym). Dopiero gdy go ukończysz, dostępny będzie następny poziom.</p>
+
+<p>Aby włączyć mrugający poziom, wystarczy kliknąć na kuleczkę. Kliknięcie na rozwiązany poziom przywoła ekran statystyk, zawierający: ilość ruchów w twoim rozwiązaniu oraz ilość ruchów w najlepszym rozwiązaniu. Możesz rozwiązać poziom jeszcze raz (przycisk z rysunkiem mózgu), obejrzeć swoje rozwiązanie (przycisk z rysunkiem oka) lub powrócić do mapy podwodnego świata (X).</p>
+
+
+<a name="control_keys"></a><h4>Klawiszologia</h4>
+
+<p>W trakcie gry możesz <b>zapisać (F2)</b> lub <b>wczytać (F3)</b> stan gry, a także <b>przerwać (Escape)</b> lub <b>zrestartować (Backspace)</b> poziom.</p>
+
+<p>Pamiętaj, że w każdym poziomie dysponujesz tylko jedną pozycją do zapisu gry, zapamiętany stan gry jest kasowany bez ostrzeżenia przy zapisie nowego. W związku z tym, zapisuj grę tylko jeśli jesteś pewien, że wszystko do tej pory zrobiłeś dobrze.</p>
+
+<p>Inne przydatne klawisze to: <b>wyświetlenie ekranu pomocy (F1)</b>, <b>wyświetlenie licznika ruchów (F5)</b>, <b>włączenie/wyłączenie napisów (F6)</b>, <b>przyspieszenie gry (przytrzymaj Shift)</b>, <b>menu gry (F10)</b> i <b>przełączenie w tryb pełnoekranowy (F11)</b>.</p>
+
+<p>W menu gry, które może być przywołane klawiszem F10 lub wybrane z ekranu mapy (w prawym dolnym rogu) można regulować takie rzeczy, jak: głośność muzyki i dźwięków, język napisów i ich obecność (włączone/wyłączone).</p>
+
+
+<a name="movement"></a><h4>Poruszanie się</h4>
+
+<p>Możesz kontrolować rybki na jeden z trzech sposobów:</p>
+
+<ol>
+	<li>
+		<a name="arrow_keys"></a><h5>Klawisze kursora</h5>
+
+		<p><b>Strzałki w górę, dół, lewo i prawo</b> kontrolują aktywną rybę. <b>Klawisz spacji</b> przełącza między rybami.</p>
+
+		<p>Jeśli ryba nie porusza się, mimo że naciskasz strzałkę, prawdopodobnie próbujesz popchnąć coś, co nie może zostać popchnięte (jest zablokowane lub, w przypadku małej rybki, stalowe).</p>
+
+		<p>Jeśli przytrzymasz klawisz kursora, ruch aktywnej ryby zostanie przyspieszony po trzech 'krokach'.</p>
+	</li>
+
+	<li>
+		<a name="mouse"></a><h5>Mysz</h5>
+
+		<p>Wskaż kursorem miejsce, w które ma się przemieścić ryba, naciśnij i przytrzymaj lewy przycisk myszy. Jeśli ryba może dotrzeć to tego miejsca, zaczyna płynąć. Po trzech ruchach jej prędkość się zwiększy.</p>
+
+		<p>Jeżeli chcesz coś przesunąć, użyj prawego przycisku myszy: wskaż miejsce docelowe, naciśnij i przytrzymaj przycisk. Ryba postara się dotrzeć do tego miejsca, pchając wszystko, co spotka na swojej drodze.</p>
+
+		<p>Możesz przełączać między rybami klikając lewym przyciskiem na tej, którą chcesz sterować.</p>
+	</li>
+
+	<li>
+		<a name="direct_control"></a><h5>Kontrola bezpośrednia</h5>
+
+		<p><b>Klawisze A, S, D i W kontrolują małą rybkę</b>, a <b>klawisze J, K, L oraz I kontrolują dużą rybę</b>. Jedyną zaletą kontroli bezpośredniej jest to, że nie musisz przełączać między rybami.</p>
+	</li>
+</ol>
+
+<hr />
+<a name="about_the_game"></a><h3>Informacje o grze</h3>
+
+<a name="your_goal"></a><h4>Cel gry</h4>
+
+<p>W większości pomieszczeń twoim zadaniem jest po prostu wydostanie ryb poza ekran. Aby tego dokonać, będziesz musiał(a) poprzestawiać różne przedmioty w danym pomieszczeniu i odblokować wyjście. Musisz przy tym zachować ostrożność, ponieważ ryby są bardzo delikatne i bardzo łatwo jest je uśmiercić nierozważnym ruchem. Przeczytaj również <a href="#movement_rules">zasady poruszania się</a>.</p>
+
+<p>Celem gry jest oczywiście rozwiązanie wszystkich poziomów.</p>
+
+
+<a name="movement_rules"></a><h4>Zasady poruszania się</h4>
+
+<p>Z pewnością na początku gry nieraz zdarzy ci się uśmiercić rybę przez nieuwagę lub nieznajomość zasad. W tej części instrukcji postaramy się przedstawić ogólne zasady zachowania się ryb i przedmiotów w grze, aby pomóc ci zachować twoich podopiecznych przy życiu.</p>
+
+<blockquote>
+	<i>Zasady ogólne:</i>
+
+	<p>Duża ryba zginie, jeśli jakikolwiek przedmiot, poruszający się w lewo, w prawo lub w dół, zakończy swój ruch opierając się wyłącznie na jej grzbiecie.</p>
+
+	<p>Duża ryba zginie również wtedy, gdy jakikolwiek przedmiot spadnie na inny przedmiot lub grupę przedmiotów opierających się wyłącznie na jej grzbiecie.</p>
+
+	<p>Mała rybka zakończy żywot we wszystkich okolicznościach opisanych powyżej, jak również w przypadku, gdy na jej grzbiecie znajdzie się stalowy przedmiot lub stos przedmiotów, wśród których znajduje się stal, a które nie opierają się na niczym innym.</p>
+</blockquote>
+
+<p>A oto nieco bardziej szczegółowy opis zasad:</p>
+
+<a name="pushing_objects"></a><h5>Popychanie przedmiotów</h5>
+
+<p>Ryby mogą czuć się bezpieczne, dopóki nie zaczną poruszać przedmiotów. Najprostszą sytuacją jest ich podnoszenie - nie ma w tym jeszcze nic niebezpiecznego. Jeżeli rybka na obrazku po lewej popłynie do góry, podniesie w ten sposób przedmiot. Jeżeli popłynie w lewo lub w prawo, nic się nie stanie, przedmiot pozostanie w miejscu. Jeżeli odpłynie w lewo lub w prawo wystarczająco daleko, przedmiot bezpiecznie spadnie w dół. Jedynym niebezpiecznym kierunkiem w tej sytuacji jest dół - jeśli rybka tam popłynie, przedmiot spadnie na nią i ją zabije.</p>
+
+<p>Jeżeli rybka chce popchnąć jakiś przedmiot, musi on się na czymś opierać - nie może podpierać przedmiotu, który pcha. Rybka na środkowym obrazku nie może popłynąć w lewo, bo by zginęła.</p>
+
+<p>Rybka może popchnąć niepodparty obiekt tylko wtedy, gdy na zakończenie tego ruchu spocznie on na innym przedmiocie. Przykładem takiej sytuacji jest ilustracja po prawej.</p>
+
+<img src="img/manual/pushing_objects.png" width="630" height="212" alt="pushing objects" />
+
+<a name="steel_object"></a><h5>Przedmioty stalowe</h5>
+
+<p>W niektórych pomieszczeniach znajdziesz przedmioty zrobione ze stali. Wyglądają, jak ta rura: <img src="img/manual/steel_object.png" width="15" height="45" alt="steel object" /> Stalowe przedmioty mogą być popychane i podnoszone jedynie przez dużą rybę. Mała rybka nie ma siły, żeby je poruszyć, a gdy dostanie się pod stalowy przedmiot, zostanie zgnieciona, nawet w sytuacji, gdy inny obiekt nie wyrządziłby jej krzywdy.</p>
+
+<a name="transferring_objects"></a><h5>Przekazywanie przedmiotów</h5>
+
+<p>Ryby mogą przekazywać przedmioty sobie nawzajem. Jeśli jedna ryba podtrzymuje dany przedmiot grzbietem, a druga podpłynie i również ustawi się tak, aby podtrzymać grzbietem ten przedmiot, ta pierwsza może spokojnie odpłynąć. W sytuacji przedstawionej na obrazku po lewej, każda z ryb może odpłynąć, a przedmiot pozostanie na grzbiecie drugiej.</p>
+
+<p>Należy jednak zachować ostrożność przy przekazywaniu przedmiotów stalowych. Na obrazku po prawej tylko mała rybka może bezpiecznie odpłynąć. Sama nie byłaby w stanie utrzymać na grzbiecie tych przedmiotów.</p>
+
+<img src="img/manual/transferring_objects.png" width="421" height="212" alt="transferring objects" />
+
+<a name="pushing_along_other_objects"></a><h5>Popychanie po innych przedmiotach</h5>
+
+<p>Ulubionym trikiem twórców gry jest możliwość popychania przedmiotów nie bezpośrednio po rybim grzbiecie (bo to jest niemożliwe), ale po innych przedmiotach, które spoczywają na plecach drugiej ryby. W rzeczy samej jest to możliwe, a sytuację taką przedstawia obrazek po lewej.</p>
+
+<p>Jednak należy być ostrożnym, aby nie poruszyć przedmiotu podpieranego przez rybę. Na środkowym obrazku, mała rybka nie może popchnąć przedmiotu, gdyż skończyłoby się to śmiercią dużej ryby. Mogłaby jednak popchnąć górny przedmiot od drugiej strony.</p>
+
+<p>Nie jest możliwe umieszczenie przedmiotu na grzbiecie ryby, tak jak jest to pokazane na ilustracji po prawej.</p>
+
+<img src="img/manual/pushing_along_other_objects.png" width="630" height="212" alt="pushing along other objects" />
+
+<a name="falling_objects"></a><h5>Spadające przedmioty</h5>
+
+<p>Spadające przedmioty są z założenia zabójcze. Nieważne, jak długo dany obiekt spada, jeśli spadnie na rybę lub na przedmiot niesiony przez nią - ryba zginie.</p>
+
+<p>Przedmiot spoczywający na rybim grzbiecie może być poruszony jedynie w przypadku, gdy po tym ruchu spadnie z niej (sytuacja przedstawiona na ilustracji po lewej) lub spocznie na innym przedmiocie (sytuacja na rysunku środkowym).</p>
+
+<p>Czasem może się wydawać, że przedmiot spadnie na rybę, ale w rzeczywistości tak nie jest i oprze się on na innej powierzchni. W takich przypadkach ryba jest bezpieczna, nawet jeśli na to nie wygląda. Przykład takiej sytuacji przedstawiony jest na obrazku po prawej stronie.</p>
+
+<img src="img/manual/falling_objects.png" width="625" height="212" alt="falling objects" />
+
+<a name="animated_object"></a><h5>Animowane przedmioty</h5>
+
+<p>Wiele przedmiotów występujących w grze jest animowanych, np. ośmiornica grająca na bałałajce, tańczące ukwiały, konwersujący ze sobą Wikingowie itp. Wszystko to ma tchnąć w grę więcej życia, nie ma jednak żadnego wpływu na jej przebieg i ukończenie. Tak naprawdę w grze są jedynie dwa typy przedmiotów: normalne i stalowe. Między przedmiotami nie zachodzą żadne intereakcje, są one wobec siebie obojętne. Nie ma znaczenia, jak dany obiekt wygląda. Każdy przedmiot składa się z określonej liczby kwadratów i to jest ich jedyna cecha istotna dla przebiegu gry.</p>
+
+</body>
+
+</html>
