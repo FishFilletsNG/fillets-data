@@ -43,8 +43,7 @@ dialogId("poc-v-vyresil", "font_big", "The one who solves, I mean who has solved
 dialogStr("Degene die dit spel op zal lossen, ik bedoel opgelost heeft, die zal een pastbak met 3D video kaart, heel veel geheugen en enorm veel schijfruimte ontvangen, uh hebben ontvangen...")
 
 
-dialogId("poc-m-kcemu", "font_small", "And what is it for? I for one know plenty of games almost as good as this one tha
-t could easily run on this XT machine.")
+dialogId("poc-m-kcemu", "font_small", "And what is it for? I for one know plenty of games almost as good as this one that could easily run on this XT machine.")
 dialogStr("Maar waar is het goed voor? Ik ken genoeg spelletjes die bijna net zo goed zijn als dit spel en die je makkelijk op zo'n XT kunt spelen.")
 
 

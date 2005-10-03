@@ -8,7 +8,7 @@ dialogStr("Waar denk je dat je mee bezig bent?")
 
 
 dialogId("ch-m-rozsvit2", "font_small", "Cut it out and turn on the lights.")
-dialogStr("Hou daarmee op en doe het licht aan.)
+dialogStr("Hou daarmee op en doe het licht aan.")
 
 
 dialogId("ch-v-pockej0", "font_big", "Wait, I`ll try to find the switch.")
