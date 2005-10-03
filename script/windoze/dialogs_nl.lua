@@ -84,19 +84,19 @@ dialogStr("Maar ik wil het wel graag een keertje spelen, hoor!")
 
 
 dialogId("win-m-vga", "font_small", "I can`t move this window. Down there, it`s a steel cylinder, though it`s only in sixteen color VGA.")
-dialogStr("Ik kan dit venster niet bewegen. Daar beneden zit een stalen cylinder, ook al is het maar in zestien kleuren.")
+dialogStr("Ik kan dit venster niet bewegen. Daar beneden zit een stalen cylinder, ook al is het maar in zestien-kleurenVGA.")
 
 
 dialogId("win-v-pockej", "font_big", "Wait a moment, player. We have to make something clear. These two fish, they are our younger selves.")
-dialogStr("Momentje, spelen. We moeten even iets uitleggen. Deze twee vissen, dat zijn wij zelf toen we jong waren.")
+dialogStr("Momentje, speler. We moeten even iets uitleggen. Deze twee vissen, dat zijn wij zelf toen we jong waren.")
 
 
 dialogId("win-m-zavrene", "font_small", "You are right. They are trapped there, poor souls.")
-dialogStr("Je hebt gelijk. We zitten daar opgesloten, arme ons.")
+dialogStr("Je hebt gelijk. We zitten daar opgesloten, arme wij.")
 
 
 dialogId("win-v-osvobodit", "font_big", "We can`t leave them there. We have to get them out!")
-dialogStr("We kunnen ze zo niet achterlaten. We moeten daar uit zien te komen!")
+dialogStr("We kunnen ze zo niet achterlaten. We moeten ze daar uit zien te krijgen!")
 
 
 dialogId("win-m-ven", "font_small", "Yes, but the player has to get us out.")
@@ -104,11 +104,11 @@ dialogStr("Ja, maar de speler moet ons eruit redden.")
 
 
 dialogId("win-v-citim", "font_big", "So we`ll go on strike. Personally, I fully sympathize with the bigger fish inside.")
-dialogStr("Dan gaan we staken. Ik veel persoonlijk enorm mee met die grote vis daar.")
+dialogStr("Dan gaan we staken. Ik voel persoonlijk enorm mee met die grote vis daar.")
 
 
 dialogId("win-m-vzit", "font_small", "You`re right. I can imagine what the smaller one feels.")
-dialogStr("Je hebt gelijk. Ik kan me ook goed voorstellen hoe dat kleine visje zich voelt.")
+dialogStr("Je hebt gelijk. Ik kan me ook goed voorstellen hoe die kleine vis zich voelt.")
 
 
 dialogId("win-v-nehrajem", "font_big", "We are not going to play, until you save those two, player.")

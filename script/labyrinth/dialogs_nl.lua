@@ -4,11 +4,11 @@ dialogStr("Dit is een rare ruimte.")
 
 
 dialogId("bl-v-zvlastni1", "font_big", "This is a very unusual room.")
-dialogStr("Dit is een ontypische ruimte.")
+dialogStr("Dit is een ongewone ruimte.")
 
 
 dialogId("bl-m-funkce", "font_small", "The position of assistant deputy design coordinator was introduced because of this level. So that its author got his own credit.")
-dialogStr("De positie van assistent vice-designcoordinator is in het leven geroepen vanwege dit veld. Opdat de auteur ervan z'n naam in de aftiteling kreeg.")
+dialogStr("De positie van assistent vicedesigncoordinator is in het leven geroepen vanwege dit veld. Zodat de auteur ervan z'n naam in de aftiteling kreeg.")
 
 
 dialogId("bl-v-pozadi", "font_big", "Enough about the game background. Let`s get to work.")

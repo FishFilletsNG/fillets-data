@@ -12,7 +12,7 @@ dialogStr("Maar wat moeten wij ermee?")
 
 
 dialogId("bar-m-pobit", "font_small", "We have to exterminate all of them. Such abominations have no right to breath the same air... er, water, as we do.")
-dialogStr("We moeten ze allemaal uitroeien. Zulke misbaksels hebben niet het recht om dezelfde lucht, uh, hetzelfde water te ademen als wij.")
+dialogStr("Laten we ze allemaal uitroeien. Zulke misbaksels hebben niet het recht om dezelfde lucht, uh, hetzelfde water te ademen als wij.")
 
 
 dialogId("bar-v-priciny", "font_big", "I think we have to eliminate the cause and not the results.")
@@ -24,15 +24,15 @@ dialogStr("Nou ja, misschien heb je wel gelijk.")
 
 
 dialogId("bar-v-sud", "font_big", "And the cause is doubtless this giant barrel. We have to get it out somehow.")
-dialogStr("En de oorzaak is zeker weten deze gigantische ton. Die moeten we hier weg zien te krijgen.")
+dialogStr("En de oorzaak is zonder twijfel deze gigantische ton. Die moeten we hier weg zien te krijgen.")
 
 
 dialogId("bar-m-panb", "font_small", "Yes. Let`s get to work. We can drop it on the Mr. B.`s front yard afterwards.")
-dialogStr("Ja. Aan de slag. We kunnen het straks bij Meneer B. in de voortuin afleveren.")
+dialogStr("Ja. Aan de slag. We kunnen hem straks bij Meneer B. in de voortuin afleveren.")
 
 
 dialogId("bar-m-rada", "font_small", "I think I am growing to like them.")
-dialogStr("Eigenlijk zijn ze wel schattig.")
+dialogStr("Ik begin ze nou toch wel aardig te vinden.")
 
 
 dialogId("bar-v-kdyby0", "font_big", "If only they wouldn`t stand in our way so much.")
@@ -48,11 +48,11 @@ dialogStr("Wat een mooie verzameling monsterlijkheden. Ik ga het straks nog jamm
 
 
 dialogId("bar-m-dost0", "font_small", "That won`t happen any time soon.")
-dialogStr("Dat gaat nog wel even duren.")
+dialogStr("Het duurt nog wel even voor het zover is.")
 
 
 dialogId("bar-m-dost1", "font_small", "You are going to have plenty of time to enjoy them.")
-dialogStr("Je zult vast wel genoeg tijd hebben om ze stuk voor stuk te bekijken.")
+dialogStr("Je krijg genoeg tijd om rustig van ze te genieten.")
 
 
 dialogId("bar-v-lih", "font_big", "If we take them with us and store them in alcohol, we could found ourselves a freak show.")
@@ -60,7 +60,7 @@ dialogStr("Als we ze mee nemen en in alcohol bewaren, dan kunnen we een rariteit
 
 
 dialogId("bar-m-fdto", "font_small", "And FDTO isn`t enough for you?")
-dialogStr("De VDTO betaalt je niet genoeg?")
+dialogStr("De VDTO betaalt niet genoeg?")
 
 
 dialogId("bar-x-vypr", "font_white", "I can hear everything!")
@@ -88,11 +88,11 @@ dialogStr("Die voet is niet alleen goor maar ook schaamteloos. Moet je zien!")
 
 
 dialogId("bar-v-pld", "font_big", "Look at that pld. It looks the same and still it grows more and more repulsive.")
-dialogStr("Kijk eens goed naar dat dit roze ding. Het ziet er nogsteeds hetzelfde uit maar wordt steets afgrijselijker.")
+dialogStr("Kijk eens goed naar dat roze ding. Het ziet er hetzelfde uit maar wordt toch steeds afgrijselijker.")
 
 
 dialogId("bar-m-pudy", "font_small", "But even it harbors some motherly instincts. Look how it cares about the little one.")
-dialogStr("Het heeft zelfs moederinstincten. Moet je zien hoe het voor dat kleintje zorgt.")
+dialogStr("Maar het heeft zelfs moederinstincten. Moet je zien hoe het voor dat kleintje zorgt.")
 
 
 dialogId("bar-v-traverza", "font_big", "Yes. It almost killed it with iron beam.")

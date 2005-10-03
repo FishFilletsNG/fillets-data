@@ -1,6 +1,6 @@
 
 dialogId("tru-v-nasly", "font_big", "So we have finally found it.")
-dialogStr("We hebben hem eindelijk gevonden.")
+dialogStr("We hebben het ding eindelijk gevonden.")
 
 
 dialogId("tru-m-co", "font_small", "What?")
@@ -20,7 +20,7 @@ dialogStr("Alles lekker makkelijk op één plek. De schat en de Graal.")
 
 
 dialogId("tru-m-zrada", "font_small", "I think it`s much too easy to be true.")
-dialogStr("Ik geloof er niks van. Het is veel te makkelijk.")
+dialogStr("Ik vertrouw het niet helemaal. Het is veel te makkelijk.")
 
 
 dialogId("tru-m-oznamit", "font_small", "I think that if it really was our goal, the game would let the player know.")
@@ -36,7 +36,7 @@ dialogStr("Maar ik heb twijfel gezaaid. Dat zou verwarrend kunnen zijn.")
 
 
 dialogId("tru-v-nejspis", "font_big", "Well, all right. PROBABLY this is not what we are looking for.")
-dialogStr("Hmm, nou ja. WAARSCHIJNLIJK is dit niet dat wat we zoeken.")
+dialogStr("Hmm, nou ja. WAARSCHIJNLIJK is dit niet wat we zoeken.")
 
 
 dialogId("tru-m-nejistota", "font_small", "That's better. There remains a bit of uncertainty.")
@@ -68,7 +68,7 @@ dialogStr("Kunnen we niet wat van deze schat meenemen?")
 
 
 dialogId("tru-m-vzit2", "font_small", "Aren`t you sorry to leave all this treasure behind?")
-dialogStr("Vind je het niet jammer om al deze waardevolle dingen hier achter te laten?")
+dialogStr("Vind je het niet jammer om al deze edelstenen en juwelen hier achter te laten?")
 
 
 dialogId("tru-v-vzit0", "font_big", "We will be glad if we manage to get out ourselves.")
@@ -76,7 +76,7 @@ dialogStr("We moeten blij zijn als we hier zelf uit zien te komen.")
 
 
 dialogId("tru-v-vzit1", "font_big", "Don`t forget our mission.")
-dialogStr("Vergeet niet dat we een missie hebben.")
+dialogStr("Vergeet onze missie niet.")
 
 
 dialogId("tru-v-vzit2", "font_big", "The treasure would only hinder us.")
@@ -88,5 +88,5 @@ dialogStr("Al dit geglinster is wel prachtig, zeg.")
 
 
 dialogId("tru-m-trpyt", "font_small", "Everything here gleams so. It makes me dizzy.")
-dialogStr("Hier glimt alles zo. Ik word duizelig.")
+dialogStr("Alles glimt hier zo. Ik word duizelig.")
 

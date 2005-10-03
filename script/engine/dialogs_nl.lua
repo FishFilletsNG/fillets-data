@@ -100,5 +100,5 @@ dialogStr("Eindelijk.")
 
 
 dialogId("mot-v-znovu0", "font_big", "I am only afraid we`ll have to turn it on again.")
-dialogStr("Ik vrees alleen dat we hem weer aan moeten zetten.")
+dialogStr("Ik ben alleen bang dat we hem weer aan moeten zetten.")
 

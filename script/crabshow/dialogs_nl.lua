@@ -28,7 +28,7 @@ dialogStr("Probeer een steen uit de muur los te krijgen.")
 
 
 dialogId("sec-m-krab", "font_small", "Isn`t that crab a little bit strange?")
-dialogStr("Is die krab niet een beetje vreemd?")
+dialogStr("Is die krab niet een beetje raar?")
 
 
 dialogId("sec-v-ktery", "font_big", "Which one do you mean?")
@@ -48,11 +48,11 @@ dialogStr("Die lijkt me volkomen normaal.")
 
 
 dialogId("sec-v-normalni1", "font_big", "Yes, it`s a little weird.")
-dialogStr("Ja, die is een beetje raar.")
+dialogStr("Ja, die is een beetje vreemd.")
 
 
 dialogId("sec-m-balonky", "font_small", "We should be glad we have all these balls.")
-dialogStr("Gelukkig hebben we zo veel ballen.")
+dialogStr("Gelukkig hebben we veel van die ballen.")
 
 
 dialogId("sec-v-mesto", "font_big", "This city looks suspiciously well preserved...")

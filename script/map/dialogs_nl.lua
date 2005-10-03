@@ -1,6 +1,6 @@
 
 dialogId("map-v-mapa", "font_big", "Oh well. So that map really exists after all!")
-dialogStr("Aha! Die kaart bestaat toch echt!")
+dialogStr("Aha! Die kaart bestaat dus toch echt!")
 
 
 dialogId("map-m-mapa", "font_small", "Okay. Here is the map.")
@@ -20,7 +20,7 @@ dialogStr("Klep niet zo en denk na over ons probleem.")
 
 
 dialogId("map-v-ukol", "font_big", "Our goal is to get out that map somehow.")
-dialogStr("Ons doel nu is om deze kaart hieruit te krijgen.")
+dialogStr("Ons doel nu is om deze kaart hier uit te krijgen.")
 
 
 dialogId("map-v-cojetam", "font_big", "What can be on that map?")

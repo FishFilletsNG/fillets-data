@@ -16,7 +16,7 @@ dialogStr("Deze experimenten zien er een beetje verdacht uit.")
 
 
 dialogId("bank-v-pokusy2", "font_big", "I think that someone`s carrying out some rather suspicious experiments here.")
-dialogStr("Ik denk dat iemand hier nogal verdachte experimenten heeft lopen doen.")
+dialogStr("Ik denk dat iemand hier nogal verdachte experimenten aan het doen is.")
 
 
 dialogId("bank-m-jejda", "font_small", "My gosh, what`s this?!?")

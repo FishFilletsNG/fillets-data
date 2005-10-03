@@ -32,7 +32,7 @@ dialogStr("We hebben de situatie volledig onder controle.")
 
 
 dialogId("vit-hs-lod0", "font_statue", "The ship from Lemury has now docked at pier #5. This ship continues on to Utopia, Mu and Atlantis.")
-dialogStr("Het schip Lemurie heeft zojuist aangelegd bij steiger 5. Dit schip gaat verder naar Utopia, Mu en Atlantis.")
+dialogStr("Het schip uit Lemuria heeft zojuist aangelegd bij steiger 5. Dit schip gaat verder naar Utopia, Mu en Atlantis.")
 
 
 dialogId("vit-hs-pojis0", "font_statue", "With First Fishermen Insurance, your house is covered against damage caused by fire, tornadoes, hurricanes, acts of God and dragons` raids. Because fishermen think of everything, choose First Fisherman.")
@@ -40,7 +40,7 @@ dialogStr("Met een Vissers Verzekering is uw huis verzekerd tegen schade als gev
 
 
 dialogId("vit-hs-reklama1", "font_statue", "Where are you running?")
-dialogStr("Waar heb je zo'n haast?")
+dialogStr("Waarom heb je zo'n haast?")
 
 
 dialogId("vit-hs-reklama2", "font_white", "To Moon Street. I need to order eight swords.")
@@ -68,11 +68,11 @@ dialogStr("De gemeenteraad heeft besloten een aquaduct te bouwen om direct strom
 
 
 dialogId("vit-hs-dite0", "font_statue", "Would the mother of the child who got lost on the grounds of city treasury please come to the front desk to pick up his remains.")
-dialogStr("Zou de moeder van het kind dat verdwaald was in de stadsschatkamer alstublieft zijn overschot kunnen ophalen bij de receptie.")
+dialogStr("Zou de moeder van het kind dat verdwaald was in de stadsschatkamer alstublieft zijn stoffelijk overschot kunnen ophalen bij de receptie.")
 
 
 dialogId("vit-hs-demoni0", "font_statue", "Citizens, our employees will be stopping by individual homes tomorrow after midnight in order to rid your home of demons and ghosts. We ask that you kindly let them in.")
-dialogStr("Geëerde burgers, onze werknemers komen morgen na middennacht bij alle huizen langs om demonen en geesten uit te drijven. We vragen vriendelijk om uw medewerking.")
+dialogStr("Waarde burgers, onze werknemers komen morgen na middennacht bij alle huizen langs om demonen en geesten uit te drijven. We vragen vriendelijk om uw medewerking.")
 
 
 dialogId("vit-hs-kacir", "font_statue", "Our chief heretic Demikuls will present a lecture this evening in the small auditorium entitled `Do the gods really exist? or Rest assured they cannot harm you!`")
@@ -92,7 +92,7 @@ dialogStr("Wat?! Een visrestaurant?")
 
 
 dialogId("vit-v-vazne", "font_big", "Are you serious?")
-dialogStr("Meent u dat nou echt?")
+dialogStr("Meen je dat nou echt?")
 
 
 dialogId("vit-m-nechutne", "font_small", "How disgusting!")
@@ -100,11 +100,11 @@ dialogStr("Wat afgrijselijk!")
 
 
 dialogId("vit-v-nevsimla", "font_big", "That sculpture obviously hasn`t noticed that the city sank a long time ago.")
-dialogStr("Dit beeld heeft duidelijk niet door dat de stad een hele tijd geleden verzonken is.")
+dialogStr("Dit beeld heeft duidelijk niet door dat de stad al een hele tijd geleden onderwater gelopen is.")
 
 
 dialogId("vit-v-automat", "font_big", "It`s probably some kind of automaton. It still thinks that the city is alive.")
-dialogStr("Het is waarschijnlijk automatisch ofzo. Het denkt dat de stad nog leeft.")
+dialogStr("Het is waarschijnlijk geautomatiseerd ofzo. Het denkt dat de stad nog leeft.")
 
 
 dialogId("vit-m-nebo", "font_small", "Or it just can`t face the truth.")

@@ -8,7 +8,7 @@ dialogStr("De vijanderlijkheden houden nooit op.")
 
 
 dialogId("deu-m-bojovat", "font_small", "They will fight to the last... parrot.")
-dialogStr("Ze zullen doorvechten tot de laatste... papegaai.")
+dialogStr("Ze zullen door vechten tot de laatste... papegaai.")
 
 
 dialogId("deu-v-losa", "font_big", "And elk.")
@@ -28,7 +28,7 @@ dialogStr("Ja ruski los.")
 
 
 dialogId("deu-v-radsi", "font_big", "I`d like this elk much more if it wasn`t blocking our way so much.")
-dialogStr("Ik zou deze Eland een stuk liever vinden als hij niet zo in de weg lag.")
+dialogStr("Ik zou deze Eland een stuk aardiger vinden als hij niet zo in de weg lag.")
 
 
 dialogId("deu-l-pozalsta", "font_elk", "Pozhalsta, izvinitye.")
@@ -44,7 +44,7 @@ dialogStr("Ja los...")
 
 
 dialogId("deu-l-neznaju", "font_elk", "Ya nichevo nyeznayu.")
-dialogStr("Ja nitsjewoh njesnaju.")
+dialogStr("Ja nitsjewoh njeznaju.")
 
 
 dialogId("deu-l-nesmotrel", "font_elk", "Ya nichevo nyesmotrel.")
@@ -60,5 +60,5 @@ dialogStr("Ja nitsjewo njetsjital.")
 
 
 dialogId("deu-l-tovarisci", "font_elk", "Tovarishchi, bratya i sestri, dorogiye druzya...")
-dialogStr("Towarisji, bratja i sjestri, dorogieje drusja...")
+dialogStr("Towarisji, bratja i sjestri, dorogieje druzija...")
 

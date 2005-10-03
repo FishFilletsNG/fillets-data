@@ -4,7 +4,7 @@ dialogStr("Ik zit hier helemaal vast.")
 
 
 dialogId("pz-m-co", "font_small", "What are you doing up there?")
-dialogStr("Wat doe je daar boven?")
+dialogStr("Wat doe je daarboven?")
 
 
 dialogId("pz-v-klice1", "font_big", "These must be some hardware keys.")
@@ -16,11 +16,11 @@ dialogStr("Er zijn hier een hoop hardware-sleutels.")
 
 
 dialogId("pz-v-co1", "font_big", "What do you have down there?")
-dialogStr("Wat heb je daar beneden?")
+dialogStr("Wat heb je daar beneden allemaal?")
 
 
 dialogId("pz-v-co2", "font_big", "What`s down there?")
-dialogStr("Wat is daar beneden allemaal?")
+dialogStr("Wat is er daar beneden?")
 
 
 dialogId("pz-m-spoje1", "font_small", "There are some printed circuits here.")

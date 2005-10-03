@@ -4,7 +4,7 @@ dialogStr("Moet je al die kreeften zie...")
 
 
 dialogId("kor-v-spitu", "font_big", "They sleep for thousands of years... in eternal stillness...")
-dialogStr("Die slapen duizend jaar lang... voor eeuwig...")
+dialogStr("Die slapen duizend jaar lang... eeuwige rust...")
 
 
 dialogId("kor-m-avlada", "font_small", "...and the government tries to cover it up.")
@@ -52,7 +52,7 @@ dialogStr("Wat denk je, hebben koralen een ziel?")
 
 
 dialogId("kor-m-pocit", "font_small", "Do you have the feeling that those coral are watching us?")
-dialogStr("Heb je niet het gevoel dat die stukken koraal ons bespieden?")
+dialogStr("Heb je niet het gevoel dat die stukken koraal naar ons zitten te kijken?")
 
 
 dialogId("kor-m-bizarni", "font_small", "I wonder why the coral have such a bizarre shape.")
@@ -64,7 +64,7 @@ dialogStr("Dat was geen slecht nummer, vond je niet?")
 
 
 dialogId("kor-m-hraje", "font_small", "Yeah, he`s a great player.")
-dialogStr("Jeetje, hij speelt goed.")
+dialogStr("Ja, hij speelt goed.")
 
 
 dialogId("kor-v-odvaz", "font_big", "That`s cool. What if we pushed him again?")

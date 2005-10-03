@@ -1,10 +1,10 @@
 
 dialogId("k1-pap-3xkruty", "font_parrot", "Crrruel, crrruel, crrruel Captain Silverrrr...")
-dialogStr("Rrrottige, rrrottige kapitein Silverrr...")
+dialogStr("Rrrottige, rrrottige, rrrottige kapitein Silverrr...")
 
 
 dialogId("k1-pap-kruty", "font_parrot", "Crrruel Captain Silverrrr...")
-dialogStr("Rrrottige, rrrottige kapitein Silverrr...")
+dialogStr("Rrrottige kapitein Silverrr...")
 
 
 dialogId("k1-pap-kruci", "font_parrot", "Good grrrief!")
@@ -44,7 +44,7 @@ dialogStr("Nou en? Het is een normaal papegaaienskelet.")
 
 
 dialogId("ka2-m-posledni", "font_small", "Can you see it? This room is almost the last in the row. Could this really be that treasure?")
-dialogStr("Zie je dat? Deze kamer is bijna de laatste in dit rijtje. Zou dat misschien echt de schat zijn?")
+dialogStr("Zie je dat? Dit veld is bijna het laatste in dit rijtje. Zou dat misschien echt de schat zijn?")
 
 
 dialogId("ka2-v-mapa0", "font_big", "And what would be in the other two?")
@@ -72,7 +72,7 @@ dialogStr("Sorry, hoor, het was maar een ideetje.")
 
 
 dialogId("ka2-m-hej", "font_small", "Little octopus, couldn`t you move away a little bit, please?")
-dialogStr("Lieve oktopus, kun je niet een klein beetje opzouten?")
+dialogStr("Lief oktopusje, kun je niet een klein beetje opschuiven?")
 
 
 dialogId("ka2-m-diky", "font_small", "Hmm... thanks a lot.")

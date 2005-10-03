@@ -40,7 +40,7 @@ dialogStr("Ja, ik weet het. We zeggen niks.")
 
 
 dialogId("br-m-dva", "font_small", "Yeah, but why TWO?")
-dialogStr("Ja, maar waarom twee?")
+dialogStr("Ja, maar waarom TWEE?")
 
 
 dialogId("br-v-dost", "font_big", "Stop it, will you?")
@@ -48,7 +48,7 @@ dialogStr("Hou alsjeblieft op!")
 
 
 dialogId("br-m-sprcha", "font_small", "I`ve seen many useless things, but an underwater shower...")
-dialogStr("Ik heb al een hoop nutteloze dingen gezien, maar een onderwater douche slaat echt alles.")
+dialogStr("Ik heb al een hoop nutteloze dingen gezien, maar een onderwaterdouche slaat echt alles.")
 
 
 dialogId("br-v-lazen", "font_big", "Maybe it sprays air, like in the bubble bath.")
@@ -72,11 +72,11 @@ dialogStr("We hadden van dat ding af moeten blijven.")
 
 
 dialogId("br-m-nefunguje", "font_small", "And it doesn`t work anyway.")
-dialogStr("En hij doet het ook al niet.")
+dialogStr("En hij doet het toch niet.")
 
 
 dialogId("br-m-ahoj", "font_small", "Hello, inside there.")
-dialogStr("Hallo daar binnen!.")
+dialogStr("Hallo daarbinnen!.")
 
 
 dialogId("br-v-draha", "font_big", "This must be better than a rollercoaster.")
@@ -84,9 +84,9 @@ dialogStr("Dat is vast leuker dan een achtbaan.")
 
 
 dialogId("br-m-zkusit", "font_small", "I would love to try it myself.")
-dialogStr("Dat zou ik graag eens willen uitproberen.")
+dialogStr("Dat zou ik graag zelf eens willen uitproberen.")
 
 
 dialogId("br-m-bavi", "font_small", "He seems to be enjoying himself.")
-dialogStr("Hij vermaakt zich wel.")
+dialogStr("Zo te zien vermaakt hij zich wel.")
 

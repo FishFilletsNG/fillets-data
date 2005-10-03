@@ -8,7 +8,7 @@ dialogStr("Hier komen we nooit uit.")
 
 
 dialogId("ob-m-naveky", "font_small", "We are shut in here forever!")
-dialogStr("We zitten hier voor altijd opgesloten.")
+dialogStr("We zitten hier voor de rest van ons leven opgesloten.")
 
 
 dialogId("ob-v-jit0", "font_big", "There must be a way out!")
@@ -28,7 +28,7 @@ dialogStr("Doe lekker rustig.")
 
 
 dialogId("ob-v-neobvykle", "font_big", "There is something strange about it...")
-dialogStr("Er klopt hier iets nie...")
+dialogStr("Er klopt hier iets niet...")
 
 
 dialogId("ob-m-teorie", "font_small", "Just spare me your theories, please.")
@@ -76,7 +76,7 @@ dialogStr("Als de speler niet opschiet, dan moeten we het maar zelf oplossen.")
 
 
 dialogId("ob-m-pst", "font_small", "Shhh, don`t disturb the player. He or she might be thinking again...")
-dialogStr("Sst, laat de speler met rust. Hij of zij is misschien weer diep aan het nadenken...")
+dialogStr("Ssst, laat de speler met rust. Hij of zij is misschien weer diep aan het nadenken...")
 
 
 dialogId("ob-m-hlavu", "font_small", "Keep calm.")
@@ -112,7 +112,7 @@ dialogStr("Is er wel echt een speler?")
 
 
 dialogId("ob-v-leskne", "font_big", "I don`t know. The screen glares too much from inside.")
-dialogStr("Ik weet het niet. Het scherm reflecteert te veel aan de binnenkant.")
+dialogStr("Ik weet het niet. Er is te veel reflectie aan de binnenkant van het scherm.")
 
 
 dialogId("ob-v-prestavka", "font_big", "This little break will help.")

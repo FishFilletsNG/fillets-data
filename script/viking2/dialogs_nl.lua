@@ -40,7 +40,7 @@ dialogStr("Ademt hij niet een beetje raar?")
 
 
 dialogId("dr-v-napsa", "font_big", "For a dog under water I think he's doing rather well.")
-dialogStr("Voor een hond onder water doet hij het anders best aardig.")
+dialogStr("Voor een hond onderwater doet hij het anders best aardig.")
 
 
 dialogId("dr-v-nato", "font_big", "He doesn't look all that bad considering that he's been here for a few centuries.")
@@ -84,7 +84,7 @@ dialogStr("Is de vijand eindelijk weg?")
 
 
 dialogId("dr-5-srab5", "font_viking5", "Are we still fighting?")
-dialogStr("Vechten we nogsteeds?")
+dialogStr("Zijn we nogsteeds aan het vechten?")
 
 
 dialogId("dr-2-uzbudeme1", "font_viking2", "Are we in Valhalla yet, chief?")
@@ -100,7 +100,7 @@ dialogStr("Je hoort het wel als we er zijn.")
 
 
 dialogId("dr-2-odskocit", "font_viking2", "Can I go relieve myself, sir?")
-dialogStr("Baas, ik moet even naar het kleine kamertje.")
+dialogStr("Baas, ik moet even een boodschap doen.")
 
 
 dialogId("dr-1-pockej", "font_viking1", "Wait till we get to Valhalla.")
@@ -120,7 +120,7 @@ dialogStr("Weet je zeker dat we zo bij Valhalla komen?")
 
 
 dialogId("dr-1-bojovnik", "font_viking1", "A warrior has to trust his commander!")
-dialogStr("Ein krijger moet zijn aanvoerder vertrouwen!")
+dialogStr("Een krijger moet zijn aanvoerder vertrouwen!")
 
 
 dialogId("dr-1-achjo", "font_viking1", "Ahhh, I`m in charge of a ship full of cowards.")
@@ -128,7 +128,7 @@ dialogStr("Ahhh, ik heb de leiding over een schip vol laffaards!")
 
 
 dialogId("dr-1-procja", "font_viking1", "Why did I have to get a ship full of laughing buffoons?")
-dialogStr("Waarom krijg ik weer het schip vol grinnikende malloten?")
+dialogStr("Waarom krijg ik weer een schip vol grinnikende malloten?")
 
 
 dialogId("dr-1-chechtajici", "font_viking1", "Laughing buffoons, a slobbering dog. I think I`ll go drown myself.")
@@ -148,7 +148,7 @@ dialogStr("Wat is dat voor onzin? Vlechten? Laat me niet lachen!")
 
 
 dialogId("dr-4-magazin", "font_viking4", "V-v-viking Fashion M-m-monthly r-recommends a blonde braid to complement a d-d-dark helmet and b-blue shield.")
-dialogStr("V-v-volgens V-v-viking Mode k-k-kun staat een B-blonde V-vlecht het beste bij een d-d-donkere helm en een blauw s-s-schield.")
+dialogStr("V-v-volgens V-v-viking Mode staat een B-blonde V-vlecht het beste bij een d-d-donkere helm en een blauw s-s-schield.")
 
 
 dialogId("dr-3-stakovou", "font_viking3", "I simply don`t agree with such a fad.")

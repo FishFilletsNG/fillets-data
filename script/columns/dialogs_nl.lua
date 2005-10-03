@@ -4,7 +4,7 @@ dialogStr("Ik denk dat we eindelijk die mysterieuze stad op het spoor zijn.")
 
 
 dialogId("sl-m-velkolepe", "font_small", "It looks magnificent.")
-dialogStr("Het is prachtig.")
+dialogStr("Het ziet er heel indrukwekkend uit.")
 
 
 dialogId("sl-v-vkapse", "font_big", "Now we only have to find out why it sank and we are done.")

@@ -12,11 +12,11 @@ dialogStr("Zie je die aureool niet?")
 
 
 dialogId("gr-m-zare1", "font_small", "Can`t you see how it glows among the others?")
-dialogStr("Zie je niet hoe hij schijnt tussen die anderen?")
+dialogStr("Zie je niet hoe hij straalt tussen die anderen?")
 
 
 dialogId("gr-m-zare2", "font_small", "Can`t you see how conspicuously is it placed in the center of the cave?")
-dialogStr("Zie je niet hoe hij op lekker opvallend in het midden van de grot staat?")
+dialogStr("Zie je niet hoe hij lekker opvallend in het midden van de grot staat?")
 
 
 dialogId("gr-v-nic0", "font_big", "The halo means nothing. The Holy Grail could look quite plain.")
@@ -24,7 +24,7 @@ dialogStr("Een aureool zegt helemaal niks. De Heilige Graal zou er ook heel eenv
 
 
 dialogId("gr-v-nic1", "font_big", "All that glitters is not gold. No one ever said that Holy Grail must glow.")
-dialogStr("Niet alles wat glimt is goud. Niemand heeft ooit gezegd dat de Heilge Graal moet schijnen.")
+dialogStr("Niet alles wat glimt is goud. Niemand heeft ooit gezegd dat de Heilge Graal moet stralen.")
 
 
 dialogId("gr-v-nic2", "font_big", "Hmm... Placing a plain Grail in a conspicuous place will not turn it into a Holy one.")
@@ -40,7 +40,7 @@ dialogStr("Jij en je gevoel ook altijd.")
 
 
 dialogId("gr-m-svaty0", "font_small", "Let`s go, we shall take that central glowing Grail with us.")
-dialogStr("Nou ja, we nemen gewoon die schijnende Graal daar in het midden mee.")
+dialogStr("Nou ja, we nemen gewoon die stralende Graal daar in het midden mee.")
 
 
 dialogId("gr-v-vsechny0", "font_big", "I`d rather take all of them.")

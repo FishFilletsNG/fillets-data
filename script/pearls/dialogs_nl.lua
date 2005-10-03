@@ -12,7 +12,7 @@ dialogStr("Er zijn hier zo veel parels.")
 
 
 dialogId("jed-v-poslani0", "font_big", "Listen... Don`t forget our mission!")
-dialogStr("Luister... Verlies onze missie niet uit het oog!")
+dialogStr("Hoor eens... Verlies onze missie niet uit het oog!")
 
 
 dialogId("jed-v-poslani1", "font_big", "We are no pearl-hunters.")
@@ -36,7 +36,7 @@ dialogStr("Ben je niet blij met zo veel parels?")
 
 
 dialogId("jed-m-perlorodka0", "font_small", "I need one more pearl.")
-dialogStr("Ik heb nog één parel nodig.")
+dialogStr("Ik heb nog één pareltje nodig.")
 
 
 dialogId("jed-x-nedam", "font_parrot", "Nope.")
@@ -48,27 +48,27 @@ dialogStr("Alsjeblieft, nog één parel!")
 
 
 dialogId("jed-m-perlorodka2", "font_small", "My dearest friend, couldn`t you possibly lend me just one little pearl?")
-dialogStr("Vriend, zou je mij nog één klein pareltje kunnen lenen?")
+dialogStr("Beste vriend, zou je mij nog één klein pareltje kunnen lenen?")
 
 
 dialogId("jed-m-trubka", "font_small", "I wonder if it wouldn`t be easier to shorten that steel pipe.")
-dialogStr("Ik vraag me af of het niet eenvoudiger zou zijn om die stalen pijp in te korten.")
+dialogStr("Ik vraag me af of het niet eenvoudiger zou zijn om die stalen pijp door te zagen.")
 
 
 dialogId("jed-v-ocet", "font_big", "Cleopatra is rumored to dissolve pearls in vinegar.")
-dialogStr("Cleopatra zou parels oplossen in azijn.")
+dialogStr("Ze zeggen dat Cleopatra parels oploste in azijn.")
 
 
 dialogId("jed-m-moc", "font_small", "Do you think we have too many of them?")
-dialogStr("Denk je dat we er teveel hebben?")
+dialogStr("Denk je soms dat we er te veel hebben?")
 
 
 dialogId("jed-v-vzdelat", "font_big", "Well, I just wanted to educate you a little.")
-dialogStr("Nou, ik wilde gewoon wat kennis overdragen.")
+dialogStr("Nou ja, ik wilde gewoon wat kennis overdragen.")
 
 
 dialogId("jed-v-poter", "font_big", "Watching you, I have to think about how I played marbles with tadpoles.")
-dialogStr("Als ik je zo bezig zie, dan moet ik denken aan hoe ik met kikkerdril heb geknikkerd toen ik klein was.")
+dialogStr("Als ik je zo bezig zie, dan moet ik met kikkerdril knikkerde toen ik klein was.")
 
 
 dialogId("jed-m-kulicka", "font_small", "You haven`t got a spare marble in your pocket, do you?")

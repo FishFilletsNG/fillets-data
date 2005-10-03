@@ -28,7 +28,7 @@ dialogStr("Die zorgt dat het veld over het beeldscherm heen beweegt.")
 
 
 dialogId("poh-v-neuveri", "font_big", "Nobody is going to believe us.")
-dialogStr("Dat gelooft vast niemand.")
+dialogStr("Dit gelooft vast niemand.")
 
 
 dialogId("poh-m-projekt", "font_small", "Maybe yes. FDTO works on a project to make use of bioenergy.")
@@ -52,7 +52,7 @@ dialogStr("Goed, die nemen we mee.")
 
 
 dialogId("poh-v-forma", "font_big", "Look, there is some strange life form, over there. Shouldn`t we try to contact them?")
-dialogStr("Kijk, er is daar een vreemd wezen. Moeten we niet proberen te communiceren?")
+dialogStr("Kijk, er zijn daar vreemde wezens. Moeten we niet proberen te communiceren?")
 
 
 dialogId("poh-m-princip", "font_small", "Our mission was clear - principles and construction of the interstellar propulsion. Not a single word about contact.")
@@ -76,7 +76,7 @@ dialogStr("In dit veld is ons doel om die kooi met dat beest eruit te krijgen.")
 
 
 dialogId("poh-m-pohadali", "font_small", "I have a feeling there was an argument between these two.")
-dialogStr("Ik heb het idee dat die twee ruzie hebben gehad.")
+dialogStr("Ik heb het gevoel dat die twee ruzie hebben gehad.")
 
 
 dialogId("poh-v-setkani", "font_big", "I never imagined that meeting aliens would look this way.")

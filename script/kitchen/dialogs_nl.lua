@@ -32,7 +32,7 @@ dialogStr("Kijk eens hoe ik er aan toe ben.")
 
 
 dialogId("kuch-v-stolky0", "font_big", "I can`t understand how these serving tables got there.")
-dialogStr("Ik kan me niet voorstellen hoe die tafels zo terecht zijn gekomen.")
+dialogStr("Ik begrijp niet hoe die tafels zo terecht zijn gekomen.")
 
 
 dialogId("kuch-v-stolky1", "font_big", "These tables are in the way.")
@@ -40,11 +40,11 @@ dialogStr("Deze tafels staan in de weg.")
 
 
 dialogId("kuch-v-stolky2", "font_big", "This little chamber gives me the creeps.")
-dialogStr("Ik krijg claustrofobie.")
+dialogStr("Ik vind dit kleine kamertje niet zo fijn.")
 
 
 dialogId("kuch-v-odsud0", "font_big", "I can`t get out of here!")
-dialogStr("Ik zit vast!")
+dialogStr("Ik zit hier vast!")
 
 
 dialogId("kuch-m-premyslim0", "font_small", "I`m just thinking how to help you.")
@@ -136,7 +136,7 @@ dialogStr("Op dat stuk perkament staat vast een recept.")
 
 
 dialogId("kuch-v-svitek1", "font_big", "There must be some culinary mystery on that parchment.")
-dialogStr("Op dat stuk perkament staat vast eenofander culinair raatsel.")
+dialogStr("Op dat stuk perkament staat vast eenofander culinair raadsel.")
 
 
 dialogId("kuch-m-recept", "font_small", "Possibly, how to cook the fish.")

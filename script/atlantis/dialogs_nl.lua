@@ -8,15 +8,15 @@ dialogStr("Ach nee!")
 
 
 dialogId("sp-v-kdoby", "font_big", "Who could have guessed?!")
-dialogStr("Wie had dat kunnen vermoeden?!")
+dialogStr("Wie had dat gedacht?!")
 
 
 dialogId("sp-m-neopatrnost", "font_small", "Such carelessness.")
-dialogStr("Wat een slordigheid!")
+dialogStr("Wat slordig!")
 
 
 dialogId("sp-v-zahynuli", "font_big", "Thousands perished - the whole city disappeared in the waves because of such ineptness.")
-dialogStr("Duizenden zijn omgekomen, de hele stad is onder de golven verdwenen. En het komt allemaal door zulke kansloosheid.")
+dialogStr("Duizenden zijn omgekomen, de hele stad is onder de golven verdwenen. En allemaal door onkunde.")
 
 
 dialogId("sp-m-vytazeny", "font_small", "Unplugged plug.")
@@ -36,11 +36,11 @@ dialogStr("We kunnen proberen om hem terug te stoppen.")
 
 
 dialogId("sp-m-vratit0", "font_small", "And then? Shall we drink the water that poured in, or what?")
-dialogStr("En dan? Moeten al het water dat hier naarbinnen is gestroomd opdrinken?")
+dialogStr("En dan? Moeten we al het water dat hier naarbinnen is gestroomd opdrinken, ofzo?")
 
 
 dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of our esteem of the citizens` heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.")
-dialogStr("We zouden het ding terug kunnen stoppen als een blijk van ons respect voor de heldhaftige pogingen van de burgers om de boel drijvende te houden, als gedenkteken.")
+dialogStr("We zouden het ding terug kunnen stoppen als blijk van ons respect voor de heldhaftige pogingen van de burgers om de boel drijvende te houden. Als gedenkteken aan hun ijver, handigheid en... doorzettingsvermogen.")
 
 
 dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.` The Providence itself unplugged that hole. Just imagine you`d hear such things at home. Day by day.")
@@ -48,11 +48,11 @@ dialogStr("Aan wat? `Waar ga jij zo snel naar toe? Ik moet acht zwaarden bestell
 
 
 dialogId("sp-m-kalet", "font_small", "And moreover: is it likely that anybody would ever come here? Only sepias will nibble it occasionally.")
-dialogStr("En bovendien lijkt het je waarschijnlijk dat hier ooit iemand komt? Alleen sepia's zouden er af en toe aan kunnen knabbelen.")
+dialogStr("En bovendien, lijkt het je waarschijnlijk dat hier ooit iemand komt? Alleen sepia's zouden er af en toe aan kunnen knabbelen.")
 
 
 dialogId("sp-v-pocit", "font_big", "We are going to feel good about it.")
-dialogStr("We zouden er later trots over zijn.")
+dialogStr("We zouden er later trots op zijn.")
 
 
 dialogId("sp-m-potize", "font_small", "We are going to feel down about it. Do you think the boss is going to believe it? A giant unplugged plug? And what have you done with it? We plugged it again. He, he, he.")
@@ -76,7 +76,7 @@ dialogStr("En wat als we die stop gewoon hier achterlaten?")
 
 
 dialogId("sp-v-centrala", "font_big", "What would the Agency say?")
-dialogStr("Wat zou de Organisatie hierover te zeggen hebben?")
+dialogStr("Wat zou de Organisatie erover zeggen?")
 
 
 dialogId("sp-v-jedno", "font_big", "I don`t think I mind what the boss is going to think about me.")
@@ -84,7 +84,7 @@ dialogStr("Ik denk niet dat het me veel kan schelen wat de baas van me denkt.")
 
 
 dialogId("sp-m-vydrz", "font_small", "Hold on. We are sure to solve it.")
-dialogStr("Wacht. Dit gaat zeker lukken.")
+dialogStr("Wacht. Dit gaat vast wel lukken.")
 
 
 dialogId("sp-m-spunt", "font_small", "The darned plug. What if we just make up something.")
@@ -104,19 +104,19 @@ dialogStr("Nou, we zouden kunnen zeggen dat de stad is gezonken omdat de zuidpoo
 
 
 dialogId("sp-m-vymluva2", "font_small", "An earthquake could have sunk the city, for example.")
-dialogStr("De stad zou door een aarbeving verzonken kunnen zijn, bij voorbeeld.")
+dialogStr("Een aardbeving kan ervoor gezorgd hebben dat de stad is gezonken, bij voorbeeld.")
 
 
 dialogId("sp-m-vymluva3", "font_small", "A tsunami might have sunk the city, for example.")
-dialogStr("Een tsunami zou de stad hebben kunnen overstromen, bij voorbeeld.")
+dialogStr("Een tsunami zou de stad onder water hebben kunnen zetten, bij voorbeeld.")
 
 
 dialogId("sp-m-vymluva4", "font_small", "We could try to say that a volcano erupted in the center of the city.")
-dialogStr("We zouden kunnen beweren dat midden in de stad een vulkaan is uitgebarsten.")
+dialogStr("We zouden kunnen beweren dat midden in de stad een vulkaan was uitgebarsten.")
 
 
 dialogId("sp-v-nesmysl", "font_big", "That is just nonsense.")
-dialogStr("Dat is onzinnige nonsens.")
+dialogStr("Dat is je reinste onzin.")
 
 
 dialogId("sp-v-ven", "font_big", "This time our goal is to get that plug out.")

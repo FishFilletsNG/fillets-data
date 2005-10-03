@@ -19,8 +19,8 @@ dialogId("ncp-m-nekoukej", "font_small", "Don`t be surprised.")
 dialogStr("Schrik niet, zeepaardje.")
 
 
-dialogId("ncp-m-komari", "font_small", "There are so many corals here...")
-dialogStr("Er zijn een hoop zo veel karollen...")
+dialogId("ncp-m-komari", "font_small", "There are so many carols here...")
+dialogStr("Er zijn hier zo veel karollen...")
 
 
 dialogId("ncp-v-ceho", "font_big", "What?")

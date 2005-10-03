@@ -4,7 +4,7 @@ dialogStr("Alweer dit spookschip.")
 
 
 dialogId("pt2-v-zmena", "font_big", "Can you see it? Something has changed while we were away. I tell you, somebody is watching us.")
-dialogStr("Zie je dat? Er is wat veranderd in onze afwezigheid. Volgens mij worden we bespied.")
+dialogStr("Zie je dat? Er is wat veranderd in onze afwezigheid. Volgens mij worden we in de gaten gehouden.")
 
 
 dialogId("pt2-m-hrac", "font_small", "Why do you keep looking at us? Can`t you see it makes us nervous?")

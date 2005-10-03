@@ -8,7 +8,7 @@ dialogStr("Hou op met rare gezichten trekken en help mij eens.")
 
 
 dialogId("zr-m-prestan", "font_small", "Stop looking at yourself in the mirror and make yourself useful.")
-dialogStr("Hou op met naar je spiegelbeeld turen en doe eens wat nuttigs.")
+dialogStr("Hou op met naar je spiegelbeeld te turen en doe eens wat nuttigs.")
 
 
 dialogId("zr-m-takfajn", "font_small", "That`s great! He just goes on his merry little way, but what about me?")

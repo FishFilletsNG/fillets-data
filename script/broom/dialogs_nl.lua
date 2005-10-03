@@ -8,7 +8,7 @@ dialogStr("Hier heeft al een hele tijd niemand meer opgeruimd.")
 
 
 dialogId("kos-m-uklid2", "font_small", "I knew we`d have to clean this room up.")
-dialogStr("Ik wist dat we deze ruimte een keertje moesten opruimen.")
+dialogStr("Ik dacht al dat we deze ruimte een keertje moesten opruimen.")
 
 
 dialogId("kos-v-poradek0", "font_big", "At least we can tidy things up.")
@@ -20,7 +20,7 @@ dialogStr("In ieder geval zal hier de boel eindelijk wat op orde zijn.")
 
 
 dialogId("kos-v-poradek2", "font_big", "I`ll have to do the sweeping.")
-dialogStr("Ik zal de boel moeten aanvegen.")
+dialogStr("Ik zal wat moeten vegen.")
 
 
 dialogId("kos-v-koste0", "font_big", "It`s a good thing we have that broom.")
@@ -32,7 +32,7 @@ dialogStr("Kun je me die bezem even aangeven?")
 
 
 dialogId("kos-v-koste2", "font_big", "Could you please hand me that broom? And try not to drop it on my head.")
-dialogStr("Geef me die bezem eens. En probeer hem niet op m'n kop te laten vallen!")
+dialogStr("Geef me alsjeblieft die bezem aan. En probeer hem niet op m'n kop te laten vallen!")
 
 
 dialogId("kos-m-zamet0", "font_small", "I think it`ll be fine if you just sweep it all down there.")
@@ -44,7 +44,7 @@ dialogStr("Het past daar allemaal.")
 
 
 dialogId("kos-m-zamet2", "font_small", "Just sweep it down and we`ll be out of here.")
-dialogStr("Veeg het gewoon naar beneden en dan smeren we hem.")
+dialogStr("Veeg het gewoon naar beneden en dan kunnen we er vandoor.")
 
 
 dialogId("kos-m-zamet3", "font_small", "Forget that bin and just sweep the garbage down.")

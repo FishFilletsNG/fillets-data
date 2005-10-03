@@ -8,11 +8,11 @@ dialogStr("O ja.")
 
 
 dialogId("jes-m-tvor", "font_small", "That red creature is a little bit strange.")
-dialogStr("Dit rode beest is een beetje vreemd.")
+dialogStr("Dat rode beest is een beetje vreemd.")
 
 
 dialogId("jes-v-nestezuj", "font_big", "That may be true, but I think we are going to need it.")
-dialogStr("Misschien, maar ik denk dat we het nog nodig hebben.")
+dialogStr("Misschien, maar ik denk dat we het nog nodig zullen hebben.")
 
 
 dialogId("jes-v-uzke", "font_big", "It`s too narrow for me. You have to do it on your own down there.")
@@ -32,7 +32,7 @@ dialogStr("Ik denk dat we de Graal ergens anders moeten zoeken...")
 
 
 dialogId("jes-m-deprese", "font_small", "Don`t be depressive. We will solve this in no time.")
-dialogStr("Wees optimistisch. We lossen dit zo op.")
+dialogStr("Wees eens wat optimistischer. We lossen dit zo op.")
 
 
 dialogId("jes-v-nevim", "font_big", "I am not so sure.")
@@ -52,7 +52,7 @@ dialogStr("Dat is afgrijselijk.")
 
 
 dialogId("jes-m-potvora2", "font_small", "This is an offense of Nature.")
-dialogStr("Dat is een belediging voor Moeder Natuur.")
+dialogStr("Dit is een belediging voor Moeder Natuur.")
 
 
 dialogId("jes-v-potvora0", "font_big", "It is called the Flashy hammerhead.")

@@ -12,7 +12,7 @@ dialogStr("Wacht, ik stuur wat landvolk om je te helpen.")
 
 
 dialogId("war-m-peoni", "font_small", "These are not peasants but peons.")
-dialogStr("Dat zijn geen boertjes maar pionnetjes.")
+dialogStr("Dat zijn geen boeren maar pionnen.")
 
 
 dialogId("war-v-doly", "font_big", "Do you think that these mines contain captain Silver`s treasure?")
@@ -24,7 +24,7 @@ dialogStr("Dat lijkt me onwaarschijnlijk.")
 
 
 dialogId("war-m-kam", "font_small", "Where did we get us, again?")
-dialogStr("Waar zijn we ookweer beland?")
+dialogStr("Waar zijn we ookalweer beland?")
 
 
 dialogId("war-v-povedome", "font_big", "I find it oddly familiar here.")
@@ -36,7 +36,7 @@ dialogStr("Als er saaie programma's gedraaid worden op deze computer, zoals bij 
 
 
 dialogId("war-m-pichat", "font_small", "When we don`t know what to do, we play hide-and-seek in the registry. That`s why your Windows sometimes crashes if you don`t play any games for a long period of time.")
-dialogStr("Als we niks te doen weten, dan spelen we verstoppertje in je kernel. Daarom krijg je soms segmentation faults als je niet vaak genoeg spelletjes doet.")
+dialogStr("Als we niks kunnen bedenken om te doen, dan spelen we verstoppertje in je kernel. Daarom krijg je soms segmentation faults als je niet vaak genoeg spelletjes doet.")
 
 
 dialogId("war-v-prozradit", "font_big", "You shouldn`t give that away. I only wanted to say that it looks very similar to this level. So many computer game characters.")
@@ -52,5 +52,5 @@ dialogStr("De makers van dit spelletje willen graag hun bewondering uitspreken v
 
 
 dialogId("war-m-hodiny", "font_small", "And they would also like to thank them for so many hours of neatly killed time.")
-dialogStr("En ze willen hen ook graag bedanken voor zo ontzettend veel netjes verspilde tijd.")
+dialogStr("En ze willen hen ook graag bedanken voor al die uren netjes verspilde tijd.")
 

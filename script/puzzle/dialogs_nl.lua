@@ -4,7 +4,7 @@ dialogStr("Kijk eens wat je op zo'n vuilnishoop kunt vinden.")
 
 
 dialogId("puc-v-podivej", "font_big", "It`s interesting what kind of stuff somebody will throw out.")
-dialogStr("Het is boeiend om te zien wat mensen weggooien.")
+dialogStr("Het is interessant om te zien wat mensen weggooien.")
 
 
 dialogId("puc-v-videl", "font_big", "I am sure I have seen this woman somewhere.")
@@ -12,7 +12,7 @@ dialogStr("Ik heb deze vrouw al eens eerder gezien.")
 
 
 dialogId("puc-m-oblicej", "font_small", "You are probably wrong. It`s a completely plain face.")
-dialogStr("Misschien vergis je je. Ze is niet bijzonder knap ofzo.")
+dialogStr("Misschien vergis je je. Ze is niet bijzonder knap.")
 
 
 dialogId("puc-m-pld0", "font_small", "Look at that thing.")

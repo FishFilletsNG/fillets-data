@@ -12,7 +12,7 @@ dialogStr("Maar wacht, er is hier iets raars aan de hand.")
 
 
 dialogId("sm-v-jine2", "font_big", "No, I think there is something here, that cannot be found anywhere else.")
-dialogStr("Nee, ik denk dat hier iets is dat nergens anders te vinden is.")
+dialogStr("Nee, ik denk dat hier iets unieks te vinden is.")
 
 
 dialogId("sm-v-budik", "font_big", "Look at that clock. Doesn`t it resemble a child-comforter a little?")
@@ -32,7 +32,7 @@ dialogStr("Dit is vast een verzonken vlooienmarkt.")
 
 
 dialogId("sm-v-kramy2", "font_big", "It`s worse here than in an oil spill.")
-dialogStr("Het is hier ergen dan in een olievlek.")
+dialogStr("Het is hier erger dan in een olievlek.")
 
 
 dialogId("sm-v-kramy3", "font_big", "There is so much filth here.")
@@ -64,7 +64,7 @@ dialogStr("Lijkentransport leverde niet meer genoeg geld op en dus zijn ze maar 
 
 
 dialogId("sm-v-sbirka", "font_big", "Can you see that collection of useless stuff, weird objects and refuse... All of them were useful things, carefully and skillfully manufactured.")
-dialogStr("Zie je deze verzameling nutteloze troep, rare dingen en afval... Dit was vroeger allemaal nuttig spul, zorgvuldig en met liefde gemaakt.")
+dialogStr("Zie je deze verzameling nutteloze troep, vreemde rotzooi, en afval... Dit was vroeger allemaal nuttig spul, zorgvuldig en met liefde gemaakt.")
 
 
 dialogId("sm-m-namaloval", "font_small", "Or painted.")
@@ -72,7 +72,7 @@ dialogStr("Of geverft.")
 
 
 dialogId("sm-v-marnost", "font_big", "Everything is in vain, like that medusa over there.")
-dialogStr("Dit is allemaal zinloos, net als die medusa daaro.")
+dialogStr("Dit is allemaal zinloos, net als die medusa daar.")
 
 
 dialogId("sm-m-proc", "font_small", "Why?")
@@ -80,7 +80,7 @@ dialogStr("Hoezo?")
 
 
 dialogId("sm-v-podivej", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn`t it the most fitting example of what I was talking about?")
-dialogStr("Kijk nou, ze holt maar blijft altijd op dezelfde plaats. Is dat niet een toepasselijk voorbeeld van zinloosheid?")
+dialogStr("Kijk nou, die holt maar door en blijft toch altijd op dezelfde plaats. Is dat niet een toepasselijk voorbeeld van zinloosheid?")
 
 
 dialogId("sm-x-meduza", "font_magenta", "I am jogging to lose weight, you fools!")

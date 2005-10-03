@@ -24,7 +24,7 @@ dialogStr("Denk je dat dit te lang duurt?")
 
 
 dialogId("pyr-m-zkus", "font_small", "Try it yourself, if you`re so clever.")
-dialogStr("Probeer jij het dan maar, als je zo slim bent.")
+dialogStr("Probeer jij het maar, als je zo slim bent.")
 
 
 dialogId("pyr-m-comy", "font_small", "What should we say?")

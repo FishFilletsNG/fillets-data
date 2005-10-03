@@ -8,7 +8,7 @@ dialogStr("Ik mag nu niet naar beneden zwemmen. En ik kan ook niet naar boven.")
 
 
 dialogId("pra-v-nahore", "font_big", "Hey, arrange it up there somehow. But be careful!")
-dialogStr("Hee, los dat daar boven eens op. Maar wees wel voorzichtig!")
+dialogStr("Hee, regel dat daar boven eens. Maar wees wel voorzichtig!")
 
 
 dialogId("pra-m-nepohnu", "font_small", "I can`t move this. This is steel.")
@@ -36,7 +36,7 @@ dialogStr("Nu kan ik niet meer bij de bijl. De pot zit in de weg.")
 
 
 dialogId("pra-v-vzit", "font_big", "You mustn`t push the axe!")
-dialogStr("Je mag de bijl niet verplaatsen!")
+dialogStr("Je moet niet tegen de bijl duwen!")
 
 
 dialogId("pra-m-prisun", "font_small", "If you can push that can to me, I`ll shove the axe on it and everything will be okay.")
@@ -48,7 +48,7 @@ dialogStr("Als je een stuk hebt opgelost kun je de situatie opslaan.")
 
 
 dialogId("pra-m-reseni", "font_small", "But only if you are sure of your solution.")
-dialogStr("Maar alleen als je zeker weet dat het de goeie oplossing is.")
+dialogStr("Maar alleen als je zeker weet dat het de goede oplossing is.")
 
 
 dialogId("pra-v-ukladani", "font_big", "Remember what we have said about saving positions.")
@@ -68,7 +68,7 @@ dialogStr("Als je dat laat vallen terwijl ik nog hier ben, dan kom ik er nooit u
 
 
 dialogId("pra-v-zavazis", "font_big", "You are standing in my way there. Try to hide somewhere else.")
-dialogStr("Je drijft in de weg. Probeer je ergens anders te verstoppen.")
+dialogStr("Je zeeft in de weg. Probeer je ergens anders te verstoppen.")
 
 
 dialogId("pra-m-strach", "font_small", "Here? I`m little bit afraid. Will I get out?")
@@ -80,11 +80,11 @@ dialogStr("Wacht maar.")
 
 
 dialogId("pra-m-kniha", "font_small", "We will give you a hint here, player. You have to put that book over there, to the left.")
-dialogStr("We geven je hier wel een aanwijzing, speler. Je moet dat book daar naar links duwen.")
+dialogStr("We geven je hier wel een aanwijzing, speler. Je moet dat boek daar naar links duwen.")
 
 
 dialogId("pra-v-valec", "font_big", "So that it will catch that steel cylinder when I push it.")
-dialogStr("Zodat die stalen cylinder erop terecht komt als ik die een duw geef.")
+dialogStr("Zodat die stalen cylinder erop terecht komt als ik die een duwtje geef.")
 
 
 dialogId("pra-m-jakudelat", "font_small", "But we will not tell you how to do it.")
@@ -92,7 +92,7 @@ dialogStr("Maar we vertellen je lekker niet hoe het moet.")
 
 
 dialogId("pra-v-nezapomen", "font_big", "Just remember that although we cannot push objects along each other`s back, we can push them down or onto some solid structure.")
-dialogStr("Vergeet niet dat we misschien geen dingen over elkaars rug kunnen duwen, maar wel er vanaf of op een vast punt.")
+dialogStr("Vergeet niet dat, hoewel we geen dingen over elkaars rug kunnen duwen, we wel dingen van elkaar af kunnen duwen of op een vast punt.")
 
 
 dialogId("pra-v-objet", "font_big", "What if I go the upper way?")

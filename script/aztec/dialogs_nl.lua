@@ -24,7 +24,7 @@ dialogStr("Eindelijk, ik zie eenofander nieuw type schedel.")
 
 
 dialogId("bot-v-vsim", "font_big", "Did you notice that totem? It is the Mexican god Shelloxuatl.")
-dialogStr("Heb je die totem gezien? Dat is de mexikaanse god Sgelpoxuatl.")
+dialogStr("Heb je die totem gezien? Dat is de mexikaanse god Skelpoxuatl.")
 
 
 dialogId("bot-m-vypada", "font_small", "It looks like it.")
@@ -40,7 +40,7 @@ dialogStr("Nou en, je bent toch geen mens.")
 
 
 dialogId("bot-v-vsak1", "font_big", "Don`t forget that we are under water.")
-dialogStr("Vergeet niet dat we onder water zijn.")
+dialogStr("Vergeet niet dat we onderwater zijn.")
 
 
 dialogId("bot-m-ble", "font_small", "Yuck. The authors could have spared us that animation.")
@@ -52,9 +52,9 @@ dialogStr("Deze totem heeft wel wat.")
 
 
 dialogId("bot-v-lebka", "font_big", "That skull seems to radiate something strange.")
-dialogStr("Die schedel heeft een vreemde uitstraling.")
+dialogStr("Die schedel heeft een rare uitstraling.")
 
 
 dialogId("bot-m-zivy", "font_small", "Is it alive or is it some kind of spell?")
-dialogStr("Leeft hij of is het tovernarij?")
+dialogStr("Leeft hij of is het iets van tovernarij, ofzo?")
 

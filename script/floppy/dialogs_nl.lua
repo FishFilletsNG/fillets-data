@@ -60,7 +60,7 @@ dialogStr("Zullen we dan maar terug gaan?")
 
 
 dialogId("disk-v-naano", "font_big", "Never. It may seem funny to you, but my fins are sore.")
-dialogStr("Nee, dat nooit. Misschien vind je het grappig, maar mijn vinnen doen pijn.")
+dialogStr("Nee, dat nooit. Misschien vind jij het grappig, maar mijn vinnen doen pijn.")
 
 
 dialogId("disk-v-nane", "font_big", "Suit yourself. I am curious how are you going to do it now.")
@@ -88,7 +88,7 @@ dialogStr("Bah. Monstertjes.")
 
 
 dialogId("disk-v-pozor", "font_big", "Above all, we must be careful not to take them with the disk. The player wouldn`t be happy if we pour them on their desktop.")
-dialogStr("We moeten wel voorzichtig zijn en ze niet perongeluk meenemen. De speler zou niet blij zijn als die op zijn of haar desktop belanden.")
+dialogStr("We moeten wel voorzichtig zijn en ze niet perongeluk meenemen. De speler zou niet blij zijn als die op zijn of haar bureaublad belanden.")
 
 
 dialogId("disk-m-ukol", "font_small", "Our goal is to push out that disk.")

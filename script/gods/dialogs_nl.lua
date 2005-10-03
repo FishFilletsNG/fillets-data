@@ -8,7 +8,7 @@ dialogStr("Ik heb het altijd al geweten: de goden zijn gek.")
 
 
 dialogId("lod-v-silenost2", "font_big", "God is mad and the whole world is his plaything.")
-dialogStr("God is getikt en de wereld is zijn speelgoed.")
+dialogStr("God is gek en de wereld is zijn speelgoed.")
 
 
 dialogId("lod-m-pravda0", "font_small", "I think that you are right.")
@@ -24,7 +24,7 @@ dialogStr("Ja, schokkend.")
 
 
 dialogId("lod-m-costim", "font_small", "What are we to do about it?")
-dialogStr("We kunnen we eraan doen?")
+dialogStr("Wat kunnen we eraan doen?")
 
 
 dialogId("lod-v-internovat", "font_big", "We can`t leave it this way. We must incarcerate them.")
@@ -36,7 +36,7 @@ dialogStr("Hoe zullen we dat dan aanpakken?")
 
 
 dialogId("lod-v-cvok", "font_big", "Put them into the mad... I mean into the detainment facility of FDTO.")
-dialogStr("Stop ze in het gek... ik bedoel in het speciale verblijf van de VDTO.")
+dialogStr("We stoppen ze in het gek... ik bedoel in het speciale verblijf van de VDTO.")
 
 
 dialogId("lod-m-oba", "font_small", "You are right. Shall we take both of them?")
@@ -88,7 +88,7 @@ dialogStr("Waarschijnlijk heeft er een roze monster aan gezogen.")
 
 
 dialogId("lod-v-hravost", "font_big", "Mother was right. Abnormal playfulness is the root of all evil.")
-dialogStr("Moeder had gelijk. Abnormaal spelgedrag is de bron van het Kwaad.")
+dialogStr("Moeder had gelijk. Abnormaal speelgedrag is de bron van het Kwaad.")
 
 
 dialogId("lod-m-palka", "font_small", "That`s true. It would be much easier if that table tennis bat was somewhere else.")

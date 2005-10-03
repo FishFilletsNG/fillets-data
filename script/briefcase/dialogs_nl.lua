@@ -4,11 +4,11 @@ dialogStr("O nee, niet weer...")
 
 
 dialogId("kuf-v-noco", "font_big", "You know there`s nothing we can do about it.")
-dialogStr("Je weet dat we er niks aan kunnen doen.")
+dialogStr("Je weet dat we er niks tegen kunnen doen.")
 
 
 dialogId("kuf-v-hod", "font_big", "Let`s push it down so we can take a look at it.")
-dialogStr("Laten we dat ding naar beneden schuiven, zodat we kunnen kijken wat erin zit.")
+dialogStr("Laten we dat ding naar beneden schuiven, zodat we kunnen zien wat erin zit.")
 
 
 dialogId("kuf-v-doprace", "font_big", "Well, let`s get to work.")
@@ -24,7 +24,7 @@ dialogStr("Eerst moeten we uit deze ruimte zien te ontsnappen.")
 
 
 dialogId("kuf-v-ukol", "font_big", "This, by the way, is going to be our task in all the other rooms as well.")
-dialogStr("Dat is trouwens ook wat we in alle andere ruimtes moeten doen.")
+dialogStr("Dat is trouwens ook in alle andere ruimtes ons doel.")
 
 
 dialogId("kuf-v-jeste", "font_big", "Should we watch it again?")
@@ -32,7 +32,7 @@ dialogStr("Zullen we het nog een keertje bekijken?")
 
 
 dialogId("kuf-m-disk", "font_small", "How? The disk self-destructed.")
-dialogStr("Hoe? Dat ding heeft zichzelf vernietigd.")
+dialogStr("Hoe? Dat ding heeft zichzelf opgeblazen.")
 
 
 dialogId("kuf-v-restart", "font_big", "We could restart the level.")
@@ -52,15 +52,16 @@ dialogStr("Goed idee.")
 
 
 dialogId("kuf-m-nezvednu", "font_small", "I can`t lift it. Can you give it a try?")
-dialogStr("Ik kan dat niet opheffen. Kun jij het even proberen?")
+dialogStr("Ik kan dat niet optillen. Kun jij het even proberen?")
 
 
 dialogId("kuf-m-kousek", "font_small", "Just a little bit higher so I can swim underneath you.")
-dialogStr("Nog een klein beetje hoger, zodat ik onder je kan zwemmen.")
+dialogStr("Nog een klein beetje hoger, zodat ik onder je door kan zwemmen.")
 
 
 dialogId("help1", "font_small", "For now, don`t touch anything, just watch and learn. We`ll show you what you should and shouldn`t do with us as well as what things we`re capable of.")
-dialogStr("Blijf nu maar even overal af. Kijk toe en leer. We zullen je laten zien wat je wel en niet met ons moet doen en wat we kunnen.")
+dialogStr("Blijf nu maar even overal af. Kijk toe en leer. We laten je zien wat je wel en niet met ons moet doen en wat we kunnen.")
+
 
 dialogId("help2", "font_big", "Before entering the workshop, let`s save the game - just press the F2 key.")
 dialogStr("Voordat we de werkplaats binnen gaan kunnen we beter het spel opslaan - druk maar op de F2 toets.")
@@ -99,11 +100,11 @@ dialogStr("Sommige dingen hebben zo'n vorm dat we ze tegelijk omhoog zouden kunn
 
 
 dialogId("help11", "font_big", "Again, we load a saved game by pressing the F3 key.")
-dialogStr("We laden het opgeslagen spel weer met de F3 knop.")
+dialogStr("We laden het opgeslagen spel weer met de F3 toets.")
 
 
 dialogId("help12", "font_small", "We also can`t drop additional objects on a pile that one of us is carrying.")
-dialogStr("We kunnen ook beter geen extra dingen bovenop andere dingen gooien die een van ons draagt.")
+dialogStr("We kunnen ook beter geen extra dingen bovenop andere dingen gooien die door een van ons gedragen worden.")
 
 
 dialogId("help13", "font_small", "And unlike my bigger partner, I can`t move or even carry steel objects.")
@@ -135,7 +136,7 @@ dialogStr("We kunnen ook iets over een ding duwen dat we ondersteunen, zolang we
 
 
 dialogId("help20", "font_big", "We can also swim freely under an object which we are supporting and pass it to the other fish.")
-dialogStr("We kunnen ook onder iets dat we dragen door zwemmen en het doorgeven aan de andere vis.")
+dialogStr("We kunnen ook onder iets dat we dragen zwemmen en het doorgeven aan de andere vis.")
 
 
 dialogId("help21", "font_small", "And we can push objects off of each other`s back, as long as the object falls down immediately.")
@@ -147,5 +148,5 @@ dialogStr("Dat is het wel zo'n beetje met de regels. Als je meer wilt weten, dru
 
 
 dialogId("help23", "font_small", "In summary, we can only lift objects, let them drop, push them along a solid surface, push them onto a surface, and push them off of each other.")
-dialogStr("In het kort: we kunnen dingen optillen, ze laten vallen, langs vaste oppervlakken verschuiven, ze op dingen duwen, en ze van elkaar af duwen.")
+dialogStr("Kort samengevat: we kunnen dingen optillen, laten vallen, langs vaste oppervlakken verschuiven, op dingen duwen, en van elkaar af duwen.")
 

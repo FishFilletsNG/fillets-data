@@ -16,7 +16,7 @@ dialogStr("Denk je dat Silver deze haak had in plaats van een hand?")
 
 
 dialogId("vl-v-lodni", "font_big", "This is a ship hook. It`s used to pull up boats...")
-dialogStr("Dat is een enterhaak. Die gebruikten voor het opheisen van boten...")
+dialogStr("Dat is een enterhaak. Die gebruikten ze voor het opheisen van boten...")
 
 
 dialogId("vl-x-site", "font_brown", "... and nets!")
@@ -32,7 +32,7 @@ dialogStr("Dat oog kijkt geniepig.")
 
 
 dialogId("vl-leb-kecy0", "font_lightgrey", "Haven`t you seen my eye somewhere?")
-dialogStr("Hebben jullie mijn oog toevallig gezien?")
+dialogStr("Hebben jullie mijn oog toevallig ergens gezien?")
 
 
 dialogId("vl-leb-kecy1", "font_lightgrey", "This scarf is very important. The human skull with an empty eye socket looks really disgusting, you know.")
@@ -44,7 +44,7 @@ dialogStr("Na dat afgrijselijke ongeluk met die theelepel zie ik de wereld heel 
 
 
 dialogId("vl-leb-kecy3", "font_lightgrey", "Why am I here, after all? As if they can`t put some chest here... or a chamber pot.")
-dialogStr("Waarom ben ik hier? Het is niet alsof ze hier niet een kist zouden kunnen neerzetten... of een bedpan.")
+dialogStr("Waarom ben ik hier? Het is niet alsof ze hier niet een kist zouden kunnen neerzetten... of een ondersteek.")
 
 
 dialogId("vl-leb-kecy4", "font_lightgrey", "Do you appreciate my facial expressions? Not bad for a skeleton, is it?")

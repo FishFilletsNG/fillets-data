@@ -4,7 +4,7 @@ dialogStr("Rrrottige kapitein Silverrrr...")
 
 
 dialogId("k1-pap-karamba", "font_parrot", "Ay... caramba!!!")
-dialogStr("Ai... karamba!!!")
+dialogStr("Ai... caramba!!!")
 
 
 dialogId("k1-pap-kruty", "font_parrot", "Crrruel Captain Silverrrr...")

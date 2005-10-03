@@ -1,6 +1,6 @@
 
 dialogId("smrt-v-0", "font_big", "Oh, shoot!")
-dialogStr("Oh, Shi...!")
+dialogStr("Oh, Go...!")
 
 
 dialogId("smrt-m-psst", "font_small", "Shhh, children can be playing this game!")
@@ -16,7 +16,7 @@ dialogStr("Verdraaid!")
 
 
 dialogId("smrt-v-3", "font_big", "Scheisse!")
-dialogStr("Scheisse!")
+dialogStr("Verdorie!")
 
 
 dialogId("smrt-v-4", "font_big", "Hmmm... and now I am alone.")
@@ -40,7 +40,7 @@ dialogStr("Dat was het dan voor hem.")
 
 
 dialogId("smrt-m-1", "font_small", "Oh, nooo.")
-dialogStr("O, neeeee.")
+dialogStr("O, neeeeee.")
 
 
 dialogId("smrt-m-2", "font_small", "And now I am alone.")
@@ -104,5 +104,5 @@ dialogStr("Ik ga dit in m'n eentje nooit oplossen. Doe geen moeite om te herstar
 
 
 dialogId("smrt-v-autorest", "font_big", "And she is gone. I`m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
-dialogStr("Daar gaat ze. Jij vond haar vast net zo aardig als ik. Je hebt er vast niks tegen opnieuw te beginnen met dit veld.")
+dialogStr("Daar gaat ze. Jij vond haar vast net zo aardig als ik. Dus je hebt er vast niks tegen opnieuw te beginnen met dit veld.")
 

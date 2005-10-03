@@ -4,11 +4,11 @@ dialogStr("Kijk. Nog een energiebron.")
 
 
 dialogId("pap-m-magnet", "font_small", "Don`t worry. This magnet is here only to hinder us.")
-dialogStr("Geen zorgen, die magneet is er alleen maar om ons in de weg te zitten.")
+dialogStr("Geen zorgen, die magneet is er alleen maar om ons te hinderen.")
 
 
 dialogId("pap-v-potrebovat", "font_big", "I think we are going to need it.")
-dialogStr("Ik denk dat we hem nodig gaan hebben.")
+dialogStr("Ik denk dat we hem nog nodig gaan hebben.")
 
 
 dialogId("pap-m-zvlastni", "font_small", "This is a very strange object.")
@@ -32,7 +32,7 @@ dialogStr("Hoe komt een radio hier terecht?")
 
 
 dialogId("pap-m-nechme", "font_small", "Let it be.")
-dialogStr("Laat hem met rust.")
+dialogStr("Blijf er maar af.")
 
 
 dialogId("pap-v-divny", "font_big", "This is a strange radio.")

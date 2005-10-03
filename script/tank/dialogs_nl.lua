@@ -28,11 +28,11 @@ dialogStr("Misschien was het een amfibievoertuig.")
 
 
 dialogId("sv-m-kecy", "font_small", "An amphibious tank? Just imagine: On the moonless night, the uncomprehending defenders bewilderedly watch the mass of snorkels emerging from the surf, searching in vain for the landing craft...")
-dialogStr("Een amfibievoertuig? Stel je voor: Het is nieuwe maan, de verbouwereerde verdedigers zien een bos van snorkels uit de golven omhoog prikken en vragen zich verbaasd af waar het landingsvoertuig is...")
+dialogStr("Een amfibievoertuig? Stel je voor: Het is nieuwe maan, de verbouwereerde verdedigers zien een bos snorkels uit de golven omhoog prikken en vragen zich verbaasd af waar het landingsvoertuig is...")
 
 
 dialogId("sv-v-proc", "font_big", "So why are you asking, if you are so darned clever?!")
-dialogStr("Waarom vraag je het dan, als je zelf zo slim bent?!")
+dialogStr("Waarom vraag je het dan, als je het zelf zo goed weet?!")
 
 
 dialogId("sv-v-potopena", "font_big", "Maybe there is a sunken landing craft nearby.")
@@ -48,7 +48,7 @@ dialogStr("Denk je dat deze munitie nog gevaarlijk is?")
 
 
 dialogId("sv-v-nevim", "font_big", "I don`t know, but I`ll try to keep my distance from it.")
-dialogStr("Ik weet het niet, maar ik probeer wel een beetje afstand te houde.")
+dialogStr("Ik weet het niet, maar ik probeer wel een beetje afstand te houden.")
 
 
 dialogId("sv-v-zebrik", "font_big", "I think we are going to need that ladder.")

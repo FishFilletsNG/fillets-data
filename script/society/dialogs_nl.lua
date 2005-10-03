@@ -16,7 +16,7 @@ dialogStr("Die zien er niet echt uit als kluizenaars.")
 
 
 dialogId("mik-m-tusit", "font_small", "I had no idea that hermit crabs could be so talkative.")
-dialogStr("Ik had er geen notie van dat krabben zo veel praatten.")
+dialogStr("Ik had geen flauw idee dat krabben zo veel praatten.")
 
 
 dialogId("mik-v-ticho0", "font_big", "Shut up!")
@@ -40,7 +40,7 @@ dialogStr("Ja.")
 
 
 dialogId("mik-m-nezlob", "font_small", "Don`t be mad at them.")
-dialogStr("Wees niet boos op ze.")
+dialogStr("Maak je maar niet boos.")
 
 
 dialogId("mik-m-myslit", "font_small", "Now we can calmly ponder how to get out of here.")

@@ -16,7 +16,7 @@ dialogStr("Dat is het wrak van het passagiersvliegtuig Poseidon 737.")
 
 
 dialogId("let-v-oko", "font_big", "Can you see that eye? The silent witness to the tragedy... Somebody trusted this airplane - and the glass eye is everything he left behind.")
-dialogStr("Zie je dat oog. De zwijgende getuige van deze tragedie... Iemand vertrouwde op dit vliegtuig - en dat glazen oog is alles wat er van hem over is.")
+dialogStr("Zie je dat oog? De stille getuige van deze tragedie... Iemand vertrouwde op dit vliegtuig - en dat glazen oog is alles wat er van hem over is.")
 
 
 dialogId("let-m-oko", "font_small", "This is not a glass eye but a gyroscope. At least in this level.")
@@ -24,9 +24,9 @@ dialogStr("Dit is geen glazen oog, maar een gyroscoop. In ieder geval in dit vel
 
 
 dialogId("let-m-sedadlo", "font_small", "Seats. Why are there so many seats here?")
-dialogStr("Stoelen. Waar zijn hier zoveel stoelen?")
+dialogStr("Stoelen. Waarom zijn hier zoveel stoelen?")
 
 
 dialogId("let-v-budrada", "font_big", "Be thankful. Could you get out without them?")
-dialogStr("Wees dankbaar. Zou je hier uit kunnen komen zonder ze?")
+dialogStr("Wees blij. Zou je hier uit kunnen komen zonder?")
 

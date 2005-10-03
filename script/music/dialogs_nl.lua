@@ -8,11 +8,11 @@ dialogStr("Arme krab!")
 
 
 dialogId("ves-v-vyp", "font_big", "We should turn it off!")
-dialogStr("Laten we het ding uit zeten!")
+dialogStr("Laten we dat ding uit zetten!")
 
 
 dialogId("ves-m-uz", "font_small", "Oh, noo...")
-dialogStr("O, nee...")
+dialogStr("O, neeee...")
 
 
 dialogId("ves-v-pokoj", "font_big", "And it`s over.")
@@ -28,5 +28,5 @@ dialogStr("Maar we moeten het toch naar beneden duwen.")
 
 
 dialogId("ves-hs-hrajeme", "font_statue", "Now listen to the bit of music!")
-dialogStr("Luister nu naar de muziek!")
+dialogStr("Luister nu maar naar wat muziek!")
 

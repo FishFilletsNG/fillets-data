@@ -20,7 +20,7 @@ dialogStr("Misschien zijn het een soort brandstofstaven of regelstaven voor de k
 
 
 dialogId("rea-v-ledaze", "font_big", "Unless, of course, this reactor works on some completely different principle.")
-dialogStr("Tenzij, deze reactor op een heel ander principe gebaseerd is natuurlijk.")
+dialogStr("Tenzij deze reactor op een heel ander principe gebaseerd is natuurlijk.")
 
 
 dialogId("rea-m-mohl", "font_small", "It could, of course, be a nucleo-particle megadisruptor with ultramezon colliders.")

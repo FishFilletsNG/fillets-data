@@ -1,6 +1,6 @@
 
 dialogId("zd2-m-dalsi", "font_small", "Another elevator? How many more are there to come?")
-dialogStr("Nog een lift? Hoe veel van die dingen hebben ze hier?")
+dialogStr("Nog een lift? Hoeveel van die dingen hebben ze hier?")
 
 
 dialogId("zd2-v-odlis0", "font_big", "I can see some differences here... And somehow I don`t think it`s going to be easier.")
@@ -8,7 +8,7 @@ dialogStr("Het ziet er hier wel anders uit... En ik vermoed dat het niet makkeli
 
 
 dialogId("zd2-v-odlis1", "font_big", "The last one had a little bit more advantageous architecture, I think.")
-dialogStr("De vorige had wel een wat handigere constructie, volgens mij.")
+dialogStr("De vorige lift had wel een wat handigere constructie, denk ik.")
 
 
 dialogId("zd2-v-vlevo", "font_big", "Can you see that thing in the lower left? It must be some ancient religious symbol.")
@@ -68,7 +68,7 @@ dialogStr("Laat me met rust!")
 
 
 dialogId("zd2-x-nechme", "font_lightgrey", "Leave me alone and get lost!")
-dialogStr("Laat me met rust en rot op!")
+dialogStr("Laat me met rust en zout op!")
 
 
 dialogId("zd2-x-pokoj", "font_lightgrey", "Cut it out!")

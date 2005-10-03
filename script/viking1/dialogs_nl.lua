@@ -8,7 +8,7 @@ dialogStr("Natuurlijk, het is een drakkar.")
 
 
 dialogId("dr-m-musela", "font_small", "She must have sunk fast. The oarsmen are still in their places.")
-dialogStr("Die moet heel snel gezonken zijn. De roeiers zitten nog op hun plek.")
+dialogStr("Ze moet heel snel gezonken zijn. De roeiers zitten nog op hun plek.")
 
 
 dialogId("dr-v-mozna", "font_big", "Maybe they sank her on purpose. Warriors would always accompany their leader on his way to Valhalla.")
@@ -72,7 +72,7 @@ dialogStr("Geen zorgen, jongens. Solo voor Olaf!")
 
 
 dialogId("d1-5-nevadi1", "font_viking5", "Never mind that, boys. We can sing ourself!")
-dialogStr("Let maar niet op, jongens. We kunnen zelf ook wel zingen!")
+dialogStr("Let er maar niet op, jongens. We kunnen zelf ook wel zingen!")
 
 
 dialogId("d1-5-nevadi2", "font_viking5", "Never mind, boys. We can sing ourself, like in the old times!")

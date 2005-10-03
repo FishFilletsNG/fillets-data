@@ -16,7 +16,7 @@ dialogStr("Zie je deze schelp?")
 
 
 dialogId("zd1-v-talis", "font_big", "It`s an age-old talisman for elevator builders who always said 'Build well. Build with Shell`.")
-dialogStr("Er is een eeuwen oud gezegd van liftenbouwers: Een stevig bouwerk, bouw je met schelp.")
+dialogStr("Er is een eeuwen oud liftenbouwers gezegde: Een stevig bouwerk bouw je met schelp.")
 
 
 dialogId("zd1-m-poved", "font_small", "Isn`t that shell a little bit familiar?")
@@ -36,7 +36,7 @@ dialogStr("Alle menselijke schedels zien er het zelfde uit... In tegenstelling t
 
 
 dialogId("zd1-m-cesta", "font_small", "This is a tough path.")
-dialogStr("Dit is een moeilijke route.")
+dialogStr("Dit is een moeilijke weg.")
 
 
 dialogId("zd1-v-krecek", "font_big", "I feel like a mouse on a treadmill.")
@@ -52,7 +52,7 @@ dialogStr("Joehoe, Joehoeoeoeoe... Ik ben hier...")
 
 
 dialogId("zd1-x-huhu2", "font_lightgrey", "Hoooo, if you want I`ll tell you how to solve all the levels...")
-dialogStr("Joehoe! Als je wil vertel ik je hoe je alle velden kunt oplossen...")
+dialogStr("Joehoe! Als je wilt vertel ik je hoe je alle velden kunt oplossen...")
 
 
 dialogId("zd1-x-huhu3", "font_lightgrey", "Hooo, ho, hooo, I know why the city sank!")

@@ -72,7 +72,7 @@ dialogStr("Geen probleem...")
 
 
 dialogId("1st-m-hmmm", "font_small", "Wow, you moved it! I could never do that!")
-dialogStr("Gaaf, je hebt hem verplaatst. Dat zou ik nooit kunnen!")
+dialogStr("Wow, je hebt hem verplaatst. Dat zou ik nooit kunnen!")
 
 
 dialogId("1st-m-diky", "font_small", "Thanks, now I can go with you.")
@@ -96,7 +96,7 @@ dialogStr("Oeps! Dat was niet goed. We moeten allebei ontsnappen om verder te ku
 
 
 dialogId("1st-v-nedostanu", "font_big", "There`s no way I can get out now. You`ll have to restart the level.")
-dialogStr("Hier kom ik nooit meer uit. Je zult het veld van voren af aan moeten beginnen.")
+dialogStr("Hier kom ik nooit meer uit. Je zult het veld opnieuw moeten spelen.")
 
 
 dialogId("1st-v-stiskni", "font_big", "You have to press the long arrow on your keyboard.")
@@ -124,5 +124,5 @@ dialogStr("Druk op de knop met de lange pijl.")
 
 
 dialogId("1st-x-ocel", "font_darkgrey", "I`m a heavy steel cylinder. It`s not easy to move me around. Such a tiny fish, like the orange one over there, simply has no chance. I could smash her without any problem.")
-dialogStr("Ik ben een zware stalen cylinder. Het is niet makkelijk om mij te verplaatsen. Een klein visje als dat oranje visje daar heeft gewoon geen kans. Ik zou haar zonder problemen verpletten.")
+dialogStr("Ik ben een zware stalen cylinder. Het is niet makkelijk om mij te verplaatsen. Een klein visje als dat oranje visje daar heeft gewoon geen kans. Ik zou haar zonder meer verpletten.")
 

@@ -8,7 +8,7 @@ dialogStr("Je bedoelt `in het water'.")
 
 
 dialogId("del-m-ci", "font_small", "Whose ship was she? Maybe she served under admiral Nelson... or captain Hornblower.")
-dialogStr("Van wie was dit schip? Misschien was ze onderdeel van de vloot van admiraal Nelson... of van kapitein Hornblower.")
+dialogStr("Van wie was dit schip? Misschien was het onderdeel van de vloot van admiraal Nelson... of van kapitein Hornblower.")
 
 
 dialogId("del-v-splet", "font_big", "No, I think you`re about a hundred years off.")

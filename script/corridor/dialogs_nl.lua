@@ -1,6 +1,6 @@
 
 dialogId("ch-m-rozsvit0", "font_small", "Turn on the lights, NOW!")
-dialogStr("Doe het licht aan! ONMIDDELIJK!")
+dialogStr("Doe het licht aan! NU METEEN!")
 
 
 dialogId("ch-m-rozsvit1", "font_small", "What do you think you are doing?")
@@ -8,7 +8,7 @@ dialogStr("Waar denk je dat je mee bezig bent?")
 
 
 dialogId("ch-m-rozsvit2", "font_small", "Cut it out and turn on the lights.")
-dialogStr("Hou daarmee op en doe het licht aan.")
+dialogStr("Hou daarmee op en doe het licht aan.)
 
 
 dialogId("ch-v-pockej0", "font_big", "Wait, I`ll try to find the switch.")
@@ -16,7 +16,7 @@ dialogStr("Wacht, ik probeer de schakelaar te vinden.")
 
 
 dialogId("ch-v-pockej1", "font_big", "I can`t. The dang switch fell down.")
-dialogStr("Het lukt niet. De schakelaar is naar beneden gevallen.")
+dialogStr("Het lukt niet. Die verdraaide schakelaar is naar beneden gevallen.")
 
 
 dialogId("ch-v-pockej2", "font_big", "Turn on the lights yourself, if you`re so smart.")
@@ -56,11 +56,11 @@ dialogStr("Ik ben bang in het donker.")
 
 
 dialogId("ch-m-bojim2", "font_small", "Please don`t leave. It`s so dark in here.")
-dialogStr("laat me niet alleen. Het is hier zo donker.")
+dialogStr("Laat me niet alleen. Het is hier zo donker.")
 
 
 dialogId("ch-v-neboj0", "font_big", "Don`t be afraid. I`m here.")
-dialogStr("Geen zorgen. Ik ben hier.")
+dialogStr("Wess niet bang. Ik ben hier.")
 
 
 dialogId("ch-v-neboj1", "font_big", "Stop whining. We`ll manage.")
@@ -92,11 +92,11 @@ dialogStr("Voorzichtig, hij bijt!")
 
 
 dialogId("ch-v-robopes", "font_big", "Look! That must be... ROBODOG!")
-dialogStr("Kijk nou! Dat is vast... ROBODOG!")
+dialogStr("Kijk nou! Dat is vast... ROBOHOND!")
 
 
 dialogId("ch-m-ten", "font_small", "What? THAT robodog?!?")
-dialogStr("Wat? DAT is Robodog?!?")
+dialogStr("Wat? DIE Robohond?!?")
 
 
 dialogId("ch-v-zapada", "font_big", "Well now it all makes sense.")
@@ -140,11 +140,11 @@ dialogStr("Let maar niet op hen, speler, ze maken een grapje.")
 
 
 dialogId("ch-r-nevsimej1", "font_robodog", "Don`t listen to them, player. They are trying to be funny.")
-dialogStr("Let maar niet op hen, speler, ze proberen je voor de gek te houden.")
+dialogStr("Let maar niet op hen, speler, ze zijn lollig aan het doen.")
 
 
 dialogId("ch-r-nevsimej2", "font_robodog", "Don`t listen to them, player. They are trying to fool you.")
-dialogStr("Let maar niet op hen, speler, ze zijn lollig aan het doen.")
+dialogStr("Let maar niet op hen, speler, ze proberen je voor de gek te houden.")
 
 
 dialogId("ch-r-hracka", "font_robodog", "I am but a humble cybernetic toy.")
@@ -176,7 +176,7 @@ dialogStr("En iedereen weet dat iemand anders hem heeft vermoord. Ze hebben geen
 
 
 dialogId("ch-r-anavic2", "font_robodog", "And who cares about a few soldiers.")
-dialogStr("En wat maken een soldaten nou uit.")
+dialogStr("En wat maken een paar soldaten nou uit.")
 
 
 dialogId("ch-r-anavic3", "font_robodog", "And they told me that the regulatory rod wasn`t important.")

@@ -4,7 +4,7 @@ dialogStr("Dat is een bathyscaphe.")
 
 
 dialogId("bat-m-mikro", "font_small", "A nice microscope.")
-dialogStr("Mooie microscoop.")
+dialogStr("Leuke microscoop.")
 
 
 dialogId("bat-v-zved0", "font_big", "Shouldn`t I lift this?")
@@ -24,7 +24,7 @@ dialogStr("Eindelijk weer stilte.")
 
 
 dialogId("bat-m-sluch", "font_small", "We can`t get to the receiver from here.")
-dialogStr("We kunnen zo niet bij hoorn.")
+dialogStr("We kunnen zo niet bij de hoorn.")
 
 
 dialogId("bat-s-prome0", "font_snail", "That is going to be for me...")
@@ -48,11 +48,11 @@ dialogStr("Echt, ik kan zo weg kruipen. Je hoeft het alleen maar te vragen.")
 
 
 dialogId("bat-s-snek2", "font_snail", "I really don`t want to be an obstacle.")
-dialogStr("Ik wil geen obstakel zijn.")
+dialogStr("Ik wil jullie niet in de weg zitten.")
 
 
 dialogId("bat-s-snek3", "font_snail", "Just tell me if you want me to move away.")
-dialogStr("Zeg maar als je wil dat ik opzout.")
+dialogStr("Zeg maar als je wil dat ik weg ga.")
 
 
 dialogId("bat-p-0", "font_pizla", "Hello.")
@@ -84,5 +84,5 @@ dialogStr("Hallo, met hoofdinspecteur Clouseau. Ik ben op zoek naar een gevaarli
 
 
 dialogId("bat-p-zhov1", "font_green", "Hello, you have reached the number 4202-21913271. Nobody from the family of Roundfish is presently present. Please, leave the message after the beep. What happened?")
-dialogStr("Hallo, dit is nummer 4202-21913271 van de familie Rondvis. Op het moment is niemand aanwezig. Laat alstublieft een bericht achter na de pieptoon. Wat is er gebeurd?")
+dialogStr("Hallo, dit is nummer 4202-21913271 van de familie Rondvis. Op het moment zijn we niet thuis. Laat alstublieft een bericht achter na de pieptoon. Wat is er gebeurd?")
 

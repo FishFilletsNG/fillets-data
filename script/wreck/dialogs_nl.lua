@@ -24,7 +24,7 @@ dialogStr("Een mooie hoed.")
 
 
 dialogId("pot-m-klob", "font_small", "Your stetson is quite good, too.")
-dialogStr("Jou piratenhoed is ook niet slecht.")
+dialogStr("Jou piratensteek is ook niet slecht.")
 
 
 dialogId("pot-v-hlave", "font_big", "What is that on your head?")
@@ -32,7 +32,7 @@ dialogStr("Wat heb jij nou op je kop?")
 
 
 dialogId("pot-m-zima", "font_small", "My ears were freezing.")
-dialogStr("Mijn oren waren koud.")
+dialogStr("Ik had koude oren.")
 
 
 dialogId("pot-m-pujc", "font_small", "That`s some hat! Can I borrow it?")
@@ -44,7 +44,7 @@ dialogStr("Als ik de jouwe mag lenen.")
 
 
 dialogId("pot-m-velik", "font_small", "This sure is a big stetson.")
-dialogStr("Dat is een grote piratenhoed.")
+dialogStr("Dat is een grote piratensteek.")
 
 
 dialogId("pot-v-kras", "font_big", "And a beatiful one, too.")
@@ -84,7 +84,7 @@ dialogStr("Hou op met kletsen en zwem eens wat door. Oude schepen zijn van binne
 
 
 dialogId("pot-v-ponur", "font_big", "Can you sense that atmosphere of doom and decay?")
-dialogStr("Voel je de atmosfeer van dood en verdoemenis?")
+dialogStr("Voel je de atmosfeer van dood en verderf?")
 
 
 dialogId("pot-m-hnil", "font_small", "No, just the mold.")

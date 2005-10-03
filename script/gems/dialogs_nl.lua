@@ -1,6 +1,6 @@
 
 dialogId("zav-v-sto", "font_big", "Please note, that this level contains one hundred and nine objects.")
-dialogStr("Bedenk even dat dit veld honderdnegen objecten bevat.")
+dialogStr("Sta even stil bij het feit dat dit veld honderdnegen objecten bevat.")
 
 
 dialogId("zav-v-trpyt", "font_big", "And all of them gleam beautifully.")
@@ -8,7 +8,7 @@ dialogStr("En ze glinsteren allemaal zo mooi.")
 
 
 dialogId("zav-m-pohnout", "font_small", "Please note, that I can`t move a fin here.")
-dialogStr("Bedenk even dat ik geen vin kan verroeren.")
+dialogStr("Sta even stil bij het feit dat ik geen vin kan verroeren.")
 
 
 dialogId("zav-m-krasa", "font_small", "It`s beautiful! Everything gleams so much...")

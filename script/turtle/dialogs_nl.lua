@@ -1,6 +1,6 @@
 
 dialogId("zel-v-zelva0", "font_big", "Can you see it? This must be that telepathic turtle.")
-dialogStr("Zie je het? Dit is vast die telepatische schildpad.")
+dialogStr("Zie je dat? Dit is vast die telepatische schildpad.")
 
 
 dialogId("zel-v-zelva1", "font_big", "Yes, this is it. The telepathic turtle.")
@@ -72,11 +72,11 @@ dialogStr("Wat zou het te betekenen hebben?")
 
 
 dialogId("zel-m-tazelva", "font_small", "This must be that turtle!")
-dialogStr("Dit is vast die schildpad!")
+dialogStr("Dit moet die schildpad wel zijn!")
 
 
 dialogId("zel-v-tazelva", "font_big", "This must be that turtle!")
-dialogStr("Dit is vast die schildpad!")
+dialogStr("Dit moet die schildpad wel zijn!")
 
 
 dialogId("zel-m-jasne", "font_small", "So there can be no doubts now - this is it. The one we are looking for!")
@@ -92,11 +92,11 @@ dialogStr("Dat monster!")
 
 
 dialogId("zel-m-potvora1", "font_small", "Stop it, you devil!")
-dialogStr("Hou op, klojo!")
+dialogStr("Hou op, gemenerik!")
 
 
 dialogId("zel-v-stacit0", "font_big", "Enough is enough!")
-dialogStr("Genoeg is genoeg!")
+dialogStr("Er zijn grenzen!")
 
 
 dialogId("zel-v-stacit1", "font_big", "Are you enjoying yourself?")

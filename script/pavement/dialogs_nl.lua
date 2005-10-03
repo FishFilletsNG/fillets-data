@@ -44,7 +44,7 @@ dialogStr("Het zou het handigst zijn als jullie")
 
 
 dialogId("dir-hs-uvod1", "font_statue", "You would be better off if you")
-dialogStr("Je zou er een stuk beter voor staan als jullie")
+dialogStr("Jullie zouden er een stuk beter voor staan als jullie")
 
 
 dialogId("dir-hs-uvod2", "font_statue", "It would help you if you")
@@ -52,11 +52,11 @@ dialogStr("Het zou helpen als jullie")
 
 
 dialogId("dir-hs-uvod3", "font_statue", "I have an idea. What if you")
-dialogStr("Ik heb een idee. Het zou mooi zijn als jullie")
+dialogStr("Ik heb een idee. Wat nou als jullie")
 
 
 dialogId("dir-hs-uvod4", "font_statue", "Sorry to interrupt, but what if you")
-dialogStr("Pardon dat ik onderbreek. Het zou mooi zijn als jullie")
+dialogStr("Pardon dat ik onderbreek. Maar wat als jullie nou")
 
 
 dialogId("dir-hs-konec0", "font_statue", "demolish some wall.")
@@ -72,7 +72,7 @@ dialogStr("deze gaten zouden opvullen met iets, zodat dat hoekige stuk staal nie
 
 
 dialogId("dir-hs-konec3", "font_statue", "smash that pillar by the exit.")
-dialogStr("de pilaar bij de uitgang stuk zouden maken.")
+dialogStr("de pilaar bij de uitgang stuk zouden slaan.")
 
 
 dialogId("dir-hs-konec4", "font_statue", "saw off some of that hooked steel.")
@@ -80,7 +80,7 @@ dialogStr("een stuk van dat hoekige stalen ding af zouden zagen.")
 
 
 dialogId("dir-hs-konec5", "font_statue", "rearrange the objects so that you can swim out.")
-dialogStr("de objecten zo zouden verplaatsen dat jullie hieruit kunnen zwemmen.")
+dialogStr("de objecten zo zouden verplaatsen dat jullie weg kunnen zwemmen.")
 
 
 dialogId("dir-hs-konec6", "font_statue", "solve it somehow and get to the next level.")

@@ -8,7 +8,7 @@ dialogStr("Ik hou niet zo van violet koraal.")
 
 
 dialogId("re-m-libi0", "font_small", "I love violet corals...")
-dialogStr("Ik vind violet koraal echt het einde...")
+dialogStr("Ik vind violet koraal echt geweldig...")
 
 
 dialogId("re-m-libi1", "font_small", "They look nice to me.")
