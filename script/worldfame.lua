@@ -29,7 +29,7 @@ node_bestSolution("pyramid", 248, "Charles Goodwin")
 node_bestSolution("music", 393, "Josef Peterka")
 node_bestSolution("crabshow", 340, "Gabor Braun")
 node_bestSolution("elevator2", 455, "Gabor Braun")
-node_bestSolution("atlantis", 544, "Gabor Braun")
+node_bestSolution("atlantis", 531, "Uoti Urpala")
  
 node_bestSolution("corals", 256, "Josef Peterka")
 node_bestSolution("labyrinth", 278, "Mark Byers")
