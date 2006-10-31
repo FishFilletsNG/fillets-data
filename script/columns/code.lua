@@ -203,7 +203,7 @@ local function prog_init()
                     rada1beg.faze = 0
                 end,
             }
-            for index, advice in advices1 do
+            for index, advice in pairs(advices1) do
                 advice:updateAnim()
             end
         end
@@ -312,7 +312,7 @@ local function prog_init()
                     rada2beg.faze = 0
                 end,
             }
-            for index, advice in advices2 do
+            for index, advice in pairs(advices2) do
                 advice:updateAnim()
             end
         end

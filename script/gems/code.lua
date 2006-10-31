@@ -85,7 +85,7 @@ local function prog_init()
         end
 
         return function()
-            for key, gem in gems do
+            for key, gem in pairs(gems) do
                 gem.glob = gem.glob + 1
                 if isIn(gem.glob, {1, 2, 3}) then
                     gem.afaze = gem.afaze + 1

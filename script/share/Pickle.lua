@@ -78,7 +78,7 @@ function unpickle_table(tables)
   end
   for tnum = 1, table.getn(tables) do
     local t = tables[tnum]
-    local tcopy = {}; for i, v in t do tcopy[i] = v end
+    local tcopy = {}; for i, v in pairs(t) do tcopy[i] = v end
     for i, v in pairs(tcopy) do
       local ni, nv
       if type(i) == "table" then ni = tables[i[1]] else ni = i end
