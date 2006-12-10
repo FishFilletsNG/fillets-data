@@ -90,6 +90,10 @@ worldmap_addDesc("wc", "es", "Encerrado en el W.C.", "Casa Pez")
 worldmap_addDesc("wc", "nl", "Opgesloten op de wc", "Vissenhuis")
 worldmap_addDesc("wc", "bg", "Затворени в клозета", "Дома на рибките")
 
+worldmap_addDesc("fdto", "en", "FDTO building", "Fish House")
+worldmap_addDesc("fdto", "cs", "Budova FDTO", "Rybí domeček")
+worldmap_addDesc("fdto", "de", "Haus FDTO", "Fischhaus")
+
 worldmap_addDesc("submarine", "en", "Drowned Submarine", "Ship Wrecks")
 worldmap_addDesc("submarine", "cs", "Utonulá ponorka", "Vrakoviště")
 worldmap_addDesc("submarine", "fr", "Le sous-marin englouti", "Les épaves")
@@ -726,5 +730,6 @@ worldmap_addDesc("score", "pl", "Special Score", "")
 worldmap_addDesc("score", "es", "Puntaje Especial", "")
 worldmap_addDesc("score", "nl", "Speciale score", "")
 worldmap_addDesc("score", "bg", "Специален резултат", "")
+
 
 

@@ -7,6 +7,7 @@ node_bestSolution("stairs", 163, "Pavel Danihelka")
 node_bestSolution("broom", 193, "Ivo Danihelka")
 node_bestSolution("reef", 169, "Pavel Danihelka")
 node_bestSolution("wc", 100, "Pavel Danihelka")
+node_bestSolution("fdto", 487, "Miroslav Olsak")
  
 node_bestSolution("submarine", 83, "Pavel Danihelka")
 node_bestSolution("party1", 236, "Mark Byers")

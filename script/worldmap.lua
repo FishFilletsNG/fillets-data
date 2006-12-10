@@ -9,6 +9,7 @@ branch_addNode("library", "stairs", "script/stairs/init.lua", 285, 252)
 branch_addNode("stairs", "broom", "script/broom/init.lua", 279, 286)
 branch_addNode("broom", "reef", "script/reef/init.lua", 292, 315)
 branch_addNode("reef", "wc", "script/wc/init.lua", 314, 338)
+branch_addNode("wc", "fdto", "script/fdto/init.lua", 345, 345, true)
 
 -- Ship Wrecks
 branch_addNode("library", "submarine", "script/submarine/init.lua", 340, 228, true)
@@ -65,7 +66,7 @@ branch_addNode("imprisoned", "society", "script/society/init.lua", 418, 346)
 branch_addNode("society", "creatures", "script/creatures/init.lua", 412, 383)
 branch_addNode("creatures", "cancan", "script/cancan/init.lua", 386, 406)
 branch_addNode("cancan", "pearls", "script/pearls/init.lua", 352, 408)
-branch_addNode("pearls", "turtle", "script/turtle/init.lua", 337, 375,
+branch_addNode("pearls", "turtle", "script/turtle/init.lua", 327, 385,
         false, "script/turtle/demo_poster.lua")
 
 -- Treasure Cave
