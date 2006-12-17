@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="Fish Fillets NG är ett pyssel program för Linux" />
+<meta name="keywords" content="Fish Fillets NG, Linux game, puzzle" />
+<title>Fish Fillets - Next Generation</title>
+<link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<table width="100%">
+<tr>
+	<td><a href="http://fillets.sf.net"><img src="img/icon.png" alt="icon" width="32" height="32" border="0"></a></td>
+	<td width="100%"><h1>Fish Fillets - Next Generation</h1></td>
+</tr>
+</table>
+
+[ <a href="manual.html"> English</a> ] [ <a href="manual.cs.html">Česky</a> ] [ <a href="manual.fr.html">Français</a> ] [ <a href="manual.es.html">Español</a> ] [ <a href="manual.nl.html">Nederlands</a> ] [ <a href="manual.pl.html">Polski</a> ] [ <a href="manual.bg.html">Български</a> ] [ Svenska ]
+<br /><br />
+
+<h2>Hur man spelar</h2>
+
+<br />
+<ul>
+	<li>
+		<a href="#control">Kontroller</a>
+		<ul>
+			<li><a href="#running_a_level">Spela en nivå</a></li>
+			<li><a href="#control_keys">Kontrolltangenter</a></li>
+			<li>
+				<a href="#movement">Förflyttningar</a>
+				<ul>
+					<li><a href="#arrow_keys">Piltangenter</a></li>
+					<li><a href="#mouse">Mus</a></li>
+					<li><a href="#direct_control">Snabbkontroll</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#about_the_game">Om spelet</a>
+		<ul>
+			<li><a href="#your_goal">Ditt mål</a></li>
+			<li>
+				<a href="#movement_rules">Regler för förflyttningar</a>
+				<ul>
+					<li><a href="#pushing_objects">Skjuta objekt</a></li>
+					<li><a href="#steel_object">Stålobjekt</a></li>
+					<li><a href="#transferring_objects">Överföra objekt</a></li>
+					<li><a href="#pushing_along_other_objects">Skjuta över andra objekt</a></li>
+					<li><a href="#falling_objects">Fallande objekt</a></li>
+					<li><a href="#animated_object">Animerade objekt</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+
+
+<a name="control"></a><h3>Kontroller</h3>
+
+<a name="running_a_level"></a><h4>Spela en nivå</h4>
+
+<p>När spelet startas visas en karta över undervattensriket som innehåller en eller flera stigar. Den visar redan lösta nivåer (guld markering), nivåers som håller på att lösas (pulserande blå markering) och ej påbörjade nivåer (tomma hål).</p>
+
+<p> Nivåerna måste lösas en i taget. Det vill säga att du inte kan påbörja nivåer bortom de blinkande markeringarna. Bara när du har löst den så blinkar nästa markering och så vidare.</p>
+
+<p>Pulserande nivåer kan väljas med ett vänsterklick på markeringen. Om du vänsterklickar på en redan löst nivå så visas statistik, antalet förflyttningar, för din lösning. Du får två val: lösa den igen (klicka på hjärn-ikonen) eller titta på lösningen (ögon-ikonen).</p>
+
+
+<a name="control_keys"></a><h4>Kontrolltangenter</h4>
+
+<p>När du har spelat en nivå kan du <b>spara (F2)</b> eller <b>ladda (F3)</b> spelet och <b>avbryta (Escape)</b> eller <b>starta om (Bakåtsteg)</b> nuvarande nivå.</p>
+
+<p>När lösningen sparas så måste du komma ihåg att det bara finns en plats att spara eller ladda ifrån på varje nivå. När du sparar en ny position så kommer den äldre att skrivas över utan att du blir tillfrågad. Det rekomenderas att du bara sparar en ny position när du är säker på att du är på väg i rätt riktning.</p>
+
+<p>Andra användbara saker som du kan göra är att <b>visa hjälpen (F1)</b>, <b>visa stegräknare (F5)</b>, <b>visa/göm textning (F6)</b>, <b>öka spelhastigheten (hålla ner skift)</b>, <b>visa spelmeny (F10)</b> eller <b>byta till helskärmsläge</b>.</p>
+
+<p>Andra val finns i spelmenyn som du kommer till genom att klicka på "Optinons" i det nedre högra hörnet på världskartan eller trycka på F10-tangenten. Där kan du ändra ljud och musikvolym, du kan välja talat språk eller textat språk eller slå av dem helt.</p> 
+
+
+<a name="movement"></a><h4>Förflyttningar</h4>
+
+<p>Du kan styra dina fiskar på tre olika sätt.</p>
+
+<ol>
+	<li>
+		<a name="arrow_keys"></a><h5>Piltangenter</h5>
+
+		<p><b>Upp, ner, vänster och höger piltangen kontrollerar aktuell fisk</b>. Du kan använda <b>mellanslag för att byta fisk</b>.</p>
+
+		<p>Om fisken inte rör på sig trots att du trycker på knapparna så försöker du antagligen flytta på någonting som det inte går att flytta på eller så försöker du att flytta stålobjekt med den mindre fisken.</p>
+
+		<p>Om du håller ner en pil tangent så kommer farten på fisken att öka efter ungefär tre steg.</p>
+	</li>
+
+	<li>
+		<a name="mouse"></a><h5>Mus</h5>
+
+		<p>Peka med musen på det stället dit du vill flytta fisken, tryck ner och håll vänsterknappen. Om fisken kan så simmar den dit. Farten kommer att öka efter ungefär tre steg.</p>
+
+		<p>Om du vill flytta på någonting så håll ner höger musknapp. Den för tillfället valda fisken kommer att försöka förfytta sig till den punkt som du klickade, skjutandes undan allt som finns i vägen.</p>
+
+		<p>Du kan byta fisk genom att vänster klicka på den som du vill välja.</p>
+	</li>
+
+	<li>
+		<a name="direct_control"></a><h5>Snabbkontroll</h5>
+
+		<p><b>Tangenterna A, S, D and W styr den mindre fisken</b> och <b>tangentern J, K, L and I styr den större fisken</b>. Den enda fördelen med den här kontrollen är att du slipper byta mellan fiskarna.</p>
+	</li>
+</ol>
+
+<hr />
+<a name="about_the_game"></a><h3>Om spelet</h3>
+
+<a name="your_goal"></a><h4>Ditt mål</h4>
+
+<p>Ditt mål på de flesta nivåerna är att få ut båda fiskarna. För att uppnå det så måste du flytta omkring och arrangera om olika objekt i rummen. Du måste vara väldigt försiktig för de är mycket sköra och det är väldigt lätt att ta död på dem. Se också på <a href="#movement_rules">Regler för förflyttningar</a>.</p>
+
+<p>Spelets mål är att lösa alla nivåer.</p>
+
+
+<a name="movement_rules"></a><h4>Regler för förflyttningar</h4>
+
+<p>När du börjar att spela så kommer dina fiskar att dö lite då och då utan någon direkt orsak kan det se ut som. Här ska vi gå igenom de generella reglerna för fiskarnas liv.</p>
+
+<blockquote>
+	<i>Definitioner:</i>
+
+	<p>Den stora fisken kommer att dö om något objekt flyttas i någon annan riktning än upp och objektets nya läge helt och hållet vilar uppe på fisken.</p>
+
+	<p>Den stora fisken kommer också att dö om något objekt flyttas nedåt och i sin nya position vilar enbart på det objekt eller grupp av objekt som i sin tur enbart vilar på fisken.</p>
+
+	<p>Den lilla fisken kommer att dö av samma saker som den stora. Dessutom så kommer den att dö om ett stålobjekt eller en grupp av objekt som innehåller ett stålobjekt som vilar enbart på fisken.</p>
+</blockquote>
+
+<p>Nästa kapitel kommer att förklara vad det här egentligen betyder.</p>
+
+<a name="pushing_objects"></a><h5>Skjuta objekt</h5>
+
+<p>Fiskarna är bara i fara när de flyttar på objekt. Den enklaste situationen är att lyfta ett objekt, det finns ingen fara med det. Om fisken i figuren till vänster simmar uppåt så lyfts objektet. Om den simmar åt höger eller vänster så händer ingenting om den inte simmar så långt att den inte längre befinner sig under objektet, vilket då kommer att sjunka ner till botten utan att orsaka skada. Den enda farliga riktningen är nedåt, objektet som fisken höll upp kommer då att sjunka nedåt på fisken och döda den.</p>
+
+<p>Om fisken vill skjuta ett objekt så måste det ha stöd av något annat fast eller rörligt objekt. Fisken kan inte hålla upp objektet som den skjuter på. Fisken i mitten bilden kan inte simma åt vänster, för det kommer att döda den.</p>
+
+<p>En fisk kan bara skjuta på ett fritt objekt om den får stöd i den nya positionen. Ett exempel på en sådan situation visas i den högra bilden.</p>
+
+<img src="img/manual/pushing_objects.png" width="630" height="212" alt="skjuta objekt" />
+
+<a name="steel_object"></a><h5>Stålobjekt</h5>
+
+<p>På en del nivåer kan du se stålobjekt. De ser ut som cylindern i den här bilden.<img src="img/manual/steel_object.png" width="15" height="45" alt="steel object" /> Stålobjekt kan bara lyftas och skjutas av den större fisken. Den mindre fisken kan inte flytta dem och om den hamnar under ett stålobjekt så kommer den att dödas även om den hade klarat andra objekt.</p>
+
+<a name="transferring_objects"></a><h5>Överföra objekt</h5>
+
+<p>Fiskarna kan föra över objekt mellan varandra. Om en fisk håller upp ett objekt och den andra kommer i en position där den också håller upp objektet så kan den första simma iväg. Vilken som helst av fiskarna i bilden till vänster kan simma iväg och objektet kommer att ligga kvar ovan på den andra fisken.</p>
+
+<p>Se upp med överföring av stålobjekt. I bilden till höger så kan bara den mindre fisken simma iväg.</p>
+
+<img src="img/manual/transferring_objects.png" width="421" height="212" alt="överföra objekt" />
+
+<a name="pushing_along_other_objects"></a><h5>Skjuta över andra objekt</h5>
+
+<p>Nivåskaparnas favorittrick är att låta en fisk skjuta ett ojekt som inte ligger direkt på en fisk (vilket är omöjligt) utan ovan på ett annat objekt som hålls upp av den andra fisken. Det är verkligen möjligt och det visas i bilden till vänster.</p>
+
+<p>Men du måste vara försiktig så att du inte flyttar på objektet som ligger direkt på en fisk. Den mindre fisken i mitten bilden kan inte skjuta på därför att det skulle döda den större fisken. Den kan bara skjuta på det L formade objektet från det andra hållet.</p>
+
+<p>Det är också omöjligt att lägga ett objekt ovanpå en fisk. Detta visas i den högra bilden.</p>
+
+<img src="img/manual/pushing_along_other_objects.png" width="630" height="212" alt="skjuta över andra objekt" />
+
+<a name="falling_objects"></a><h5>Fallande objekt</h5>
+
+<p>Fallande objekt är alltid dödliga. Det gör det samma hur längt objektet faller, om det träffar en fisk eller något som vilar på en fisk så dör den.</p>
+
+<p>Det objekt som ligger direkt på en fisk kan bara skjutas om det faller ner eller vilar något annat direkt efteråt. Det här visas i den vänstra och mitten bilden.</p>
+
+<p>Titta noga efter situationer där det ser ut som om objektet kommer att träffa fisken men i själva verket träffar något annat. I den situtationen är fisken säker fast än det kanske inte ser så ut. Ett exempel på den sådan situation visas i den högra bilden.</p>
+
+<img src="img/manual/falling_objects.png" width="625" height="212" alt="fallande objekt" />
+
+<a name="animated_object"></a><h5>Animerade objekt</h5>
+
+<p>En den objekt is spelet är animerade, till exempel en bläckfisk som spelar balalaika, dansande anemoner, vikingar som pratar med varandra och så vidare. Allt sånt är till för att göra spelet lite mera livligt. Allt är helt irrelevant för lösningen. Det finns bara två sorters objekt i spelet: normala och stålobjekt. Inget objekt interagerar med något annat objekt. Det gör det samma hur objektet ser ut, alla tar upp några rutor och det är det enda som har någon betydelse.</p>
+
+</body>
+
+</html>
