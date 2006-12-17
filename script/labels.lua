@@ -45,6 +45,11 @@ label_text("solver_worse", "bg",
 Най-добро постижение: %1
 Автор: %2
 ]])
+label_text("solver_worse", "sv",
+[[
+Bästa lösning:      %1
+Löst av %2
+]])
 
 
 label_text("solver_better", "en",
@@ -92,6 +97,11 @@ label_text("solver_better", "bg",
 Подобрихте рекорда!
 Запишете се на http://fillets.sf.net/halloffame.php
 ]])
+label_text("solver_better", "sv",
+[[
+Du har en BÄTTRE lösning!
+Gå till http://fillets.sf.net/halloffame.php
+]])
 
 
 label_text("solver_equals", "en",
@@ -130,6 +140,10 @@ label_text("solver_equals", "bg",
 [[
 Вашето решение е същото като рекорда.
 ]])
+label_text("solver_equals", "sv",
+[[
+Din lösning är lika bra som den bästa vi känner till.
+]])
 
 
 -- menu
@@ -142,6 +156,7 @@ label_text("menu_sound", "pl", "Głośność dźwięku");
 label_text("menu_sound", "es", "Volumen de sonido");
 label_text("menu_sound", "nl", "Geluidsterkte");
 label_text("menu_sound", "bg", "Сила на звука");
+label_text("menu_sound", "sv", "Ljudvolym");
 
 label_text("menu_music", "en", "Music volume");
 label_text("menu_music", "cs", "Hlasitost hudby");
@@ -152,6 +167,7 @@ label_text("menu_music", "pl", "Głośność muzyki");
 label_text("menu_music", "es", "Volumen de la música");
 label_text("menu_music", "nl", "Muziek Volume");
 label_text("menu_music", "bg", "Сила на фоновата музика");
+label_text("menu_music", "sv", "Musikvolym");
 
 label_text("menu_lang", "en", "Choose language");
 label_text("menu_lang", "cs", "Výběr jazyka");
@@ -162,6 +178,7 @@ label_text("menu_lang", "pl", "Wybierz język");
 label_text("menu_lang", "es", "Escoge lenguaje");
 label_text("menu_lang", "nl", "Kies een taal");
 label_text("menu_lang", "bg", "Избор на език");
+label_text("menu_lang", "sv", "Välj språk");
 
 label_text("menu_speech", "en", "Choose speech");
 label_text("menu_speech", "cs", "Výběr mluvy");
@@ -172,6 +189,7 @@ label_text("menu_speech", "pl", "Wybierz dialogi");
 label_text("menu_speech", "es", "Escoge el diálogo")
 label_text("menu_speech", "nl", "Kies een spreektaal");
 label_text("menu_speech", "bg", "Озвучаване на диалозите");
+label_text("menu_speech", "sv", "Välj talat språk");
 
 label_text("menu_subtitles", "en", "Show/hide subtitles");
 label_text("menu_subtitles", "cs", "Zobraz/skryj titulky");
@@ -182,6 +200,7 @@ label_text("menu_subtitles", "pl", "Pokazuj/ukryj napisy");
 label_text("menu_subtitles", "es", "Mostrar/esconder subtítulos");
 label_text("menu_subtitles", "nl", "Laat de ondertiteling wel/niet zien");
 label_text("menu_subtitles", "bg", "Субтитри");
+label_text("menu_subtitles", "sv", "Visa/göm textning");
 
 label_text("menu_back", "en", "Back");
 label_text("menu_back", "cs", "Zpět");
@@ -192,6 +211,7 @@ label_text("menu_back", "pl", "Powrót");
 label_text("menu_back", "es", "Atrás");
 label_text("menu_back", "nl", "Terug");
 label_text("menu_back", "bg", "Обратно");
+label_text("menu_back", "sv", "Tillbaka");
 
 
 -- help
@@ -311,5 +331,18 @@ label_text("help", "bg",
 карта на нивата - F10
 цял екран - F11
 ускоряване на играта - Shift
+]])
+label_text("help", "sv",
+[[
+                HJÄLP
+Omstart av nivå - Bakåtsteg
+Hjälp - F1 
+Spara spel - F2
+Ladda spel - F3
+Visa/göm stegräknare - F5
+Visa/göm textning - F6
+Spelmeny - F10 
+Helskärmsläge - F11
+Snabbare spel - Skift
 ]])
 
