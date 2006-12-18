@@ -7,7 +7,7 @@ dialogStr("Det här är FiskDetektivTräningOrganisationens hus.")
 dialogId("rozkladaci-v", "font_big", "I think we can take it to pieces.")
 dialogStr("Jag tror att vi kan plocka isär det")
 
-dialogId("drzel-m", "font_small", "But our home holds together despite UFO crashed to it")
+dialogId("drzel-m", "font_small", "But our home holds together despite UFO crashed into it.")
 dialogStr("Men vårt hus håller ju ihop trotts att ett UFO har kraschat där.")
 
 dialogId("nacekala-m", "font_small", "Sorry, it isn't a good idea.")
@@ -25,40 +25,40 @@ dialogStr("FDTO - Ingen känner till oss!")
 dialogId("nejlepsi-b", "font_white", "FDTO - We are the best!")
 dialogStr("FDTO - Vi är bäst!")
 
-dialogId("mrka-m", "font_small", "The horse winks very nice.")
+dialogId("mrka-m", "font_small", "The seahorse winks very nice.")
 dialogStr("Hästen vinkar trevligt.")
 
-dialogId("nemrka-v", "font_big", "No he doesn't")
+dialogId("nemrka-v", "font_big", "No it doesn't.")
 dialogStr("Nej det gör han inte.")
 
-dialogId("ted1-m", "font_small", "Look ... right now!")
+dialogId("ted1-m", "font_small", "Look... right now!")
 dialogStr("Titta ... precis nu!")
 
-dialogId("ted2-m", "font_small", "Look ... right now!")
+dialogId("ted2-m", "font_small", "Look... right now!")
 dialogStr("Titta ... precis nu!")
 
-dialogId("ted3-m", "font_small", "Look ... right now!")
+dialogId("ted3-m", "font_small", "Look... right now!")
 dialogStr("Titta ... precis nu!")
 
-dialogId("ted4-m", "font_small", "Look ... right now!")
+dialogId("ted4-m", "font_small", "Look... right now!")
 dialogStr("Titta ... precis nu!")
 
-dialogId("nebyl-v", "font_big", "It would be better if it never exists.")
+dialogId("nebyl-v", "font_big", "It would be better if it never existed.")
 dialogStr("Det skulle ha varit bättre om det aldrig hade existerat.")
 
 dialogId("hybeme-v", "font_big", "See, we are iconographic here and we are moving.")
 dialogStr("Titta, vi är ikongrafik och rör på oss.")
 
-dialogId("agenti-m", "font_small", "Yes, we are their ablest agents.")
+dialogId("agenti-m", "font_small", "Yes, we are their ablest agents...")
 dialogStr("Ja, vi är deras mest lämpade agenter.")
 
-dialogId("podvodou-v", "font_big", "underwater.")
+dialogId("podvodou-v", "font_big", "...underwater.")
 dialogStr("Under vattnet.")
 
 dialogId("mene-m", "font_small", "You may be less able.")
 dialogStr("Du kanske är mindre lämpad.")
 
-dialogId("kecas-v", "font_big", "Why are you driveling?")
+dialogId("kecas-v", "font_big", "Why are you drivelling?")
 dialogStr("Varför pladdrar du?")
 
 dialogId("cely-m", "font_small", "You aren't complete there.")
@@ -70,6 +70,6 @@ dialogStr("Vad gör du med de där små bollarna när antennen är här borta?")
 dialogId("proc-m", "font_small", "Why we are destroying this building when it is clear than we have to put one ball to this horse?")
 dialogStr("Varför plockar vi isär byggnaden när det är helt klart att vi måste lägga en boll till hästen.")
 
-dialogId("rozbil-v", "font_big", "What? Trafic light is broken.")
+dialogId("rozbil-v", "font_big", "What? The traffic light is broken.")
 dialogStr("Vadå? Trafikljuset är trasigt.")
 
