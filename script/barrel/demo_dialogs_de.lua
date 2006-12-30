@@ -1,10 +1,10 @@
 
 dialogId("dlg-x-poster1", "font_poster", "Greetings from the rubbish heap to our beloved boss.")
-dialogStr("Viele Grüße vom Müllhaufen an unseren geliebten Chef.")
+dialogStr("Viele GrÃ¼ÃŸe vom MÃ¼llhaufen an unseren geliebten Chef.")
 
 
 dialogId("dlg-x-poster2", "font_poster", "Yours sincerely")
-dialogStr("Mit freundlichen Grüßen")
+dialogStr("Mit freundlichen GrÃ¼ÃŸen")
 
 
 dialogId("dlg-x-poster3", "font_poster", "Agents")
@@ -12,5 +12,5 @@ dialogStr("Agenten")
 
 
 dialogId("dlg-x-poster4", "font_poster", "PS: It's great to be here. We irradiate ourselves and swim in the sea a lot. We have many new friends.")
-dialogStr("PS: Hier ist es großartig. Wir strahlen übers ganze Gesicht und schwimmen oft im Meer. Wir haben viele neue Freunde.")
+dialogStr("PS: Hier ist es groÃŸartig. Wir strahlen Ã¼bers ganze Gesicht und schwimmen oft im Meer. Wir haben viele neue Freunde.")
 

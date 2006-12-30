@@ -1,4 +1,3 @@
-
 dialogId("bar-v-videt0", "font_big", "Somebody from Greenpeace should see this.")
 dialogStr("Das sollte mal jemand von Greenpeace sehen.")
 
