@@ -63,7 +63,7 @@ node_bestSolution("engine", 256, "Gabor Braun")
 node_bestSolution("steel", 185, "Josef Peterka")
 node_bestSolution("corridor", 528, "Gabor Braun")
 node_bestSolution("experiments", 714, "Gabor Braun")
-node_bestSolution("propulsion", 3634, "Josef Peterka")
+node_bestSolution("propulsion", 2046, "Gabor Braun")
  
 node_bestSolution("aztec", 376, "Mark Byers")
 node_bestSolution("gems", 59, "Mark Byers")
