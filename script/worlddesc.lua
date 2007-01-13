@@ -104,6 +104,7 @@ worldmap_addDesc("fdto", "cs", "Budova FDTO", "Rybí domeček")
 worldmap_addDesc("fdto", "de", "Haus FDTO", "Fischhaus")
 worldmap_addDesc("fdto", "pl", "Kwatera FDTO", "Rybi domek")
 worldmap_addDesc("fdto", "sv", "FDTO högkvarter", "Fiskhuset")
+worldmap_addDesc("fdto", "bg", "Сградата на ООРД", "Дома на рибките")
 
 worldmap_addDesc("submarine", "en", "Drowned Submarine", "Ship Wrecks")
 worldmap_addDesc("submarine", "cs", "Utonulá ponorka", "Vrakoviště")
