@@ -99,7 +99,7 @@ worldmap_addDesc("wc", "nl", "Opgesloten op de wc", "Vissenhuis")
 worldmap_addDesc("wc", "bg", "Затворени в клозета", "Дома на рибките")
 worldmap_addDesc("wc", "sv", "Inlåst i garderoben", "Fiskhuset")
 
-worldmap_addDesc("fdto", "en", "FDTO building", "Fish House")
+worldmap_addDesc("fdto", "en", "FDTO Building", "Fish House")
 worldmap_addDesc("fdto", "cs", "Budova FDTO", "Rybí domeček")
 worldmap_addDesc("fdto", "de", "Haus FDTO", "Fischhaus")
 worldmap_addDesc("fdto", "pl", "Kwatera FDTO", "Rybi domek")
