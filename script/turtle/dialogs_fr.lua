@@ -32,7 +32,7 @@ dialogStr("Qu'as-tu fait ?")
 
 
 dialogId("zel-m-coto2", "font_small", "What is it supposed to mean?")
-dialogStr("Qu'est-ce que ça veut dire ?")
+dialogStr("Qu'est-ce que c'est censé vouloir dire ?")
 
 
 dialogId("zel-v-coto0", "font_big", "Where are you swimming?")
@@ -40,7 +40,7 @@ dialogStr("Où est-ce que tu nages ?")
 
 
 dialogId("zel-v-coto1", "font_big", "What should it mean?")
-dialogStr("Qu'est-ce que ça veut dire ?")
+dialogStr("Qu'est-ce que ça devrait signifier ?")
 
 
 dialogId("zel-v-coto2", "font_big", "What happened to you?")
@@ -68,15 +68,15 @@ dialogStr("Qu'est-ce qui nous arrive ?")
 
 
 dialogId("zel-m-cimtoje", "font_small", "What can it mean?")
-dialogStr("Se pourrait-il ?")
+dialogStr("Qu'est-ce que ça peut vouloir dire ?")
 
 
 dialogId("zel-m-tazelva", "font_small", "This must be that turtle!")
-dialogStr("C'est à cause de cette tortue !")
+dialogStr("C'est sans doute à cause de cette tortue !")
 
 
 dialogId("zel-v-tazelva", "font_big", "This must be that turtle!")
-dialogStr("Ce doit être cette tortue !")
+dialogStr("C'est sans doute à cause cette tortue !")
 
 
 dialogId("zel-m-jasne", "font_small", "So there can be no doubts now - this is it. The one we are looking for!")
@@ -88,7 +88,7 @@ dialogStr("Sans aucun doute, c'est la tortue que nous recherchons !")
 
 
 dialogId("zel-m-potvora0", "font_small", "That beast!")
-dialogStr("Cette brute !")
+dialogStr("Quelle brute !")
 
 
 dialogId("zel-m-potvora1", "font_small", "Stop it, you devil!")
@@ -100,7 +100,7 @@ dialogStr("C'est la goutte qui fait déborder le vase !")
 
 
 dialogId("zel-v-stacit1", "font_big", "Are you enjoying yourself?")
-dialogStr("Est-ce que tu te reconnais toi-même ?")
+dialogStr("Est-ce que tu t'amuses bien ?")
 
 
 dialogId("zel-v-bizarni", "font_big", "So many bizarre shapes can only be found in a coral reef.")
@@ -120,5 +120,5 @@ dialogStr("Facile - Les créateurs ont conçu d'épineux problèmes et ont laiss
 
 
 dialogId("zel-v-ukol", "font_big", "Our goal in this room is to get out that turtle.")
-dialogStr("Notre but est de faire sortir cette tortue.")
+dialogStr("Notre but est de faire sortir de cette tortue.")
 

@@ -1,10 +1,10 @@
 
 dialogId("sch-m-spadlo", "font_small", "Something fell here again.")
-dialogStr("Quelque chose est tombé ici aussi.")
+dialogStr("Quelque chose est encore tombé ici.")
 
 
 dialogId("sch-v-lastura", "font_big", "It`s some kind of shell. We`ll probably have to push it upstairs again.")
-dialogStr("C'est une sorte de coquillage. Nous devons probablement lui faire monter les escaliers.")
+dialogStr("C'est une sorte de coquillage. Nous devons probablement encore lui faire monter les escaliers.")
 
 
 dialogId("sch-v-setkani", "font_big", "I can see it now: 'Shell Meets Flowerpot`. That`s almost like an iron and a sewing machine meeting on an operating table.")
@@ -12,7 +12,7 @@ dialogStr("Je comprends maintenant : 'le coquillage rencontre la plante'. Un peu
 
 
 dialogId("sch-m-moc0", "font_small", "I`m sorry, I got a bit carried away.")
-dialogStr("Je suis désolée, j'ai un truc à pousser.")
+dialogStr("Je suis désolée, je me suis laissée emporter.")
 
 
 dialogId("sch-m-moc1", "font_small", "Sorry, I was momentarily distracted.")

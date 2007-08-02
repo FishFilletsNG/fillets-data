@@ -1,14 +1,14 @@
 
 dialogId("bot-m-vidis", "font_small", "Can you see that seahorse?")
-dialogStr("Peux-tu voir cet hippocampe ?")
+dialogStr("Vois-tu cet hippocampe ?")
 
 
 dialogId("bot-v-uveznen0", "font_big", "It is blocked by amphoras.")
-dialogStr("Il est bloqué par les amphores.")
+dialogStr("Il est bloqué par des amphores.")
 
 
 dialogId("bot-v-uveznen1", "font_big", "It got itself drunk among the amphoras.")
-dialogStr("Il est devenu saoul au milieu des amphores.")
+dialogStr("Il s'est saoulé au milieu des amphores.")
 
 
 dialogId("bot-m-zajem", "font_small", "I wonder if there is anything left in them.")
@@ -20,15 +20,15 @@ dialogStr("Tu vas devoir vérifier par toi même.")
 
 
 dialogId("bot-m-vidim", "font_small", "Finally, I can see some new kind of skull.")
-dialogStr("Finalement, je peux voir de nouveau type de crâne.")
+dialogStr("Je peux enfin voir un nouveau type de crâne.")
 
 
 dialogId("bot-v-vsim", "font_big", "Did you notice that totem? It is the Mexican god Shelloxuatl.")
-dialogStr("Tu as remarqué ce totem ? C'est le dieux mexicain Shelloxuatl.")
+dialogStr("Tu as remarqué ce totem ? C'est le dieu mexicain Shelloxuatl.")
 
 
 dialogId("bot-m-vypada", "font_small", "It looks like it.")
-dialogStr("Il ressemble à ça.")
+dialogStr("Ça y ressemble.")
 
 
 dialogId("bot-m-padaji", "font_small", "These amphores fall unbearably slow.")

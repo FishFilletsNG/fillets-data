@@ -4,7 +4,7 @@ dialogStr("Nous nageons à travers des décharges depuis six niveaux maintenant.
 
 
 dialogId("sm-v-jine0", "font_big", "This one looks really very waste-like.")
-dialogStr("Celle là est vraiment bordélique.")
+dialogStr("Celle-là a l'air vraiment bordélique.")
 
 
 dialogId("sm-v-jine1", "font_big", "But no, I think that there is something strange about it.")
@@ -12,11 +12,11 @@ dialogStr("Mais non, je pense qu'il y a quelque chose qui ne va pas.")
 
 
 dialogId("sm-v-jine2", "font_big", "No, I think there is something here, that cannot be found anywhere else.")
-dialogStr("Non, je pense qu'il y a quelque chose ici, qui ne peut être trouvé nul part ailleurs.")
+dialogStr("Non, je pense qu'il y a quelque chose ici, qui ne peut être trouvé nulle part ailleurs.")
 
 
 dialogId("sm-v-budik", "font_big", "Look at that clock. Doesn`t it resemble a child-comforter a little?")
-dialogStr("Jette un oeil au réveil. il ressemble à une tétine.")
+dialogStr("Jette un oeil au réveil. il ressemble à une loupiote.")
 
 
 dialogId("sm-m-normalni", "font_small", "Do you feel all right?")
@@ -28,7 +28,7 @@ dialogStr("C'est un tas d'ordures.")
 
 
 dialogId("sm-m-kramy1", "font_small", "This must be a wreck of a flea shop.")
-dialogStr("Ce doit être l'épave d'un magasin de puce.")
+dialogStr("Ce doit être l'épave d'un magasin de brocante.")
 
 
 dialogId("sm-v-kramy2", "font_big", "It`s worse here than in an oil spill.")
@@ -56,7 +56,7 @@ dialogStr("Et que fait-il dans la décharge ?")
 
 
 dialogId("sm-v-duchodce0", "font_big", "He`s probably retired.")
-dialogStr("Il s'est probablement retiré.")
+dialogStr("Il est probablement à la retraite.")
 
 
 dialogId("sm-v-duchodce1", "font_big", "The corpses were no longer profitable and so they started a recycling business.")
@@ -80,7 +80,7 @@ dialogStr("Pourquoi ?")
 
 
 dialogId("sm-v-podivej", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn`t it the most fitting example of what I was talking about?")
-dialogStr("Regarde la. Elle n'arrête pas de nager mais reste à la même place. Est-ce qu'elle n'est pas le meilleur exemple de ce que je dis ?")
+dialogStr("Regarde-la. Elle n'arrête pas de nager mais reste à la même place. Est-ce qu'elle n'est pas le meilleur exemple de ce que je dis ?")
 
 
 dialogId("sm-x-meduza", "font_magenta", "I am jogging to lose weight, you fools!")

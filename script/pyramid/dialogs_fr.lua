@@ -8,23 +8,23 @@ dialogStr("Les pyramides... Regarde comme les motifs classiques se mélangent da
 
 
 dialogId("pyr-m-plaz", "font_small", "What is that crawling around over there?")
-dialogStr("C'est quoi cette reptation à l'extérieur ?")
+dialogStr("Qu'est-ce qui rampe là-bas ?")
 
 
 dialogId("pyr-v-druha", "font_big", "You can`t see it from here. It`s on the other side of wall.")
-dialogStr("Tu peux le voir d'ici ? C'est de l'autre coté du mur.")
+dialogStr("Tu ne peux pas le voir d'ici. C'est de l'autre côté du mur.")
 
 
 dialogId("pyr-m-nudi", "font_small", "Look, the woman is bored!")
-dialogStr("Regarde, la femme est ennuyée.")
+dialogStr("Regarde, la femme s'ennuie.")
 
 
 dialogId("pyr-v-sark", "font_big", "Do you think that this is taking us too long?")
-dialogStr("Tu penses qu'elle nous a trop parlé ?")
+dialogStr("Tu penses que ça nous prend trop de temps ?")
 
 
 dialogId("pyr-m-zkus", "font_small", "Try it yourself, if you`re so clever.")
-dialogStr("Essaye toi même, si tu es si intelligent.")
+dialogStr("Essaie toi même, si tu es si malin.")
 
 
 dialogId("pyr-m-comy", "font_small", "What should we say?")
@@ -44,5 +44,5 @@ dialogStr("Qu'est ce qu'il y a d'écrit sur ces tablettes ?")
 
 
 dialogId("pyr-v-sbohem", "font_big", "So long and thanks for all the fish.")
-dialogStr("Et ainsi de suite et merci à tous les poissons.")
+dialogStr("Au revoir et merci pour tous les poissons.")
 

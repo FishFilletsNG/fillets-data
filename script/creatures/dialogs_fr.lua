@@ -4,11 +4,11 @@ dialogStr("Regarde tous ces homards...")
 
 
 dialogId("kor-v-spitu", "font_big", "They sleep for thousands of years... in eternal stillness...")
-dialogStr("Ils dorment depuis des milliers d'années... en paix éternelle...")
+dialogStr("Ils dorment depuis des milliers d'années... dans un calme éternel...")
 
 
 dialogId("kor-m-avlada", "font_small", "...and the government tries to cover it up.")
-dialogStr("... et le gouvernement essaie de couvrir ça.")
+dialogStr("... et le gouvernement essaie de cacher ça.")
 
 
 dialogId("kor-v-nicje", "font_big", "...nothing can wake them up...")
@@ -16,11 +16,11 @@ dialogStr("... rien ne peut les réveiller...")
 
 
 dialogId("kor-m-pokud", "font_small", "Unless we activate that octopus.")
-dialogStr("Sauf si nous activons la pieuvre.")
+dialogStr("Sauf si nous réveillons cette pieuvre.")
 
 
 dialogId("kor-v-podivej", "font_big", "Look, everything here is so still and quiet.")
-dialogStr("Ecoute, tout est si calme et si silencieux.")
+dialogStr("Écoute, tout est si calme et si silencieux.")
 
 
 dialogId("kor-m-vzdyt", "font_small", "But the anemones are moving.")
@@ -36,11 +36,11 @@ dialogStr("J'y trouve un certain symbolisme.")
 
 
 dialogId("kor-v-bermudy", "font_big", "That`s interesting. This type of coral normally grows only in the Bermuda Triangle.")
-dialogStr("C'est intéressant. Cette famille de corail ne pousse normalement que dans le triangles des Bermudes.")
+dialogStr("C'est intéressant. Ce type de corail ne pousse normalement que dans le triangles des Bermudes.")
 
 
 dialogId("kor-v-inteligentni", "font_big", "Did you know that some types of coral are almost as intelligent as fish?")
-dialogStr("Est-ce que tu savais que ce corail est aussi intelligent qu'un poisson ?")
+dialogStr("Est-ce que tu savais que certains types de corail sont aussi intelligents qu'un poisson ?")
 
 
 dialogId("kor-v-jedovate", "font_big", "Be careful, most types of coral are poisonous.")
@@ -48,7 +48,7 @@ dialogStr("Attention, un grand nombre de coraux sont toxiques.")
 
 
 dialogId("kor-m-dusi", "font_small", "What do you think, is there such a thing as a 'coral-soul`?")
-dialogStr("Penses-tu qu'il y a quelque chose comme une 'âme corallienne' ?")
+dialogStr("Penses-tu qu'il existe une 'âme corallienne' ?")
 
 
 dialogId("kor-m-pocit", "font_small", "Do you have the feeling that those coral are watching us?")
@@ -68,19 +68,19 @@ dialogStr("Ouais, C'est un bon joueur.")
 
 
 dialogId("kor-v-odvaz", "font_big", "That`s cool. What if we pushed him again?")
-dialogStr("C'est cool. Et si nous le poussons encore ?")
+dialogStr("C'est rigolo. Et si nous le poussons encore ?")
 
 
 dialogId("kor-m-vsimlsis", "font_small", "Did you see what the lobsters were doing?")
-dialogStr("Vois-tu ce que font les homards ?")
+dialogStr("As-tu vu ce que faisaient les homards ?")
 
 
 dialogId("kor-v-avidelas", "font_big", "And how those anemones were dancing?")
-dialogStr("Et comment ces anémones dansent ?")
+dialogStr("Et comment ces anémones dansaient ?")
 
 
 dialogId("kor-m-tovis", "font_small", "Well, you know, it`s not all that much fun down here at the bottom of the ocean.")
-dialogStr("Bien, tu sais, ce n'est pas tout que plus de vie arrive au fond de l'océan.")
+dialogStr("Et bien tu sais, on ne s'amuse pas tant que ça ici au fond de l'océan.")
 
 
 dialogId("kor-v-vali", "font_big", "He`s good, isn`t he?")
@@ -88,11 +88,11 @@ dialogStr("Il est bon, n'est-ce pas ?")
 
 
 dialogId("kor-m-nachob", "font_small", "Not bad for an octopus...")
-dialogStr("Pas mal pour une poulpe...")
+dialogStr("Pas mal pour un poulpe...")
 
 
 dialogId("kor-m-jinou", "font_small", "Do you think he knows any other tune?")
-dialogStr("Crois-tu qu'il connaisse d'autres airs ?")
+dialogStr("Crois-tu qu'il connaisse d'autres morceaux ?")
 
 
 dialogId("kor-m-neprehani", "font_small", "Don`t you think we`ve had enough already?")
@@ -108,11 +108,11 @@ dialogStr("J'en suis malade et fatigué...")
 
 
 dialogId("kor-v-kostice", "font_big", "I`m fed up to the gills with this.")
-dialogStr("J'ai mal aux branchies avec ça.")
+dialogStr("Ça me tape sur les branchies.")
 
 
 dialogId("kor-v-odsud", "font_big", "I can`t budge this from where I am. I`d have to try to move it from the left side.")
-dialogStr("Je ne peux pas décoller ça d'où je suis. Je dois essayer de le déplacer depuis le coté gauche.")
+dialogStr("Je ne peux pas bouger ça d'où je suis. Je dois essayer de le déplacer depuis le coté gauche.")
 
 
 dialogId("kor-m-budesmuset", "font_small", "Well you`ll have to go that way through those anemones.")
@@ -124,5 +124,5 @@ dialogStr("Ce n'est pas comme ça que je le voyais...")
 
 
 dialogId("kor-m-tudiru", "font_small", "We should have plugged that hole beforehand.")
-dialogStr("Nous devrions d'abord boucher ce trou.")
+dialogStr("Nous aurions dû d'abord boucher ce trou.")
 

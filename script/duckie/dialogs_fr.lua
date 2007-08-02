@@ -4,23 +4,23 @@ dialogStr("Ce canard ne te paraît pas suspect ?")
 
 
 dialogId("odp-m-zda0", "font_small", "I think it looks dumb.")
-dialogStr("Je pense qu'il est sonné.")
+dialogStr("Je pense qu'il a l'air stupide.")
 
 
 dialogId("odp-m-zda1", "font_small", "I think it looks inflatable.")
-dialogStr("Je pense qu'il est ballonné.")
+dialogStr("Je pense qu'il est gonflable.")
 
 
 dialogId("odp-v-snehulak", "font_big", "Can you see that snowman?")
-dialogStr("Tu peux voir ce bonhomme-de-neige ?")
+dialogStr("Tu vois ce bonhomme de neige ?")
 
 
 dialogId("odp-m-blaznis", "font_small", "What do you mean? Snowmen belong to the Mess Hall.")
-dialogStr("Que veux-tu dire ? Les bonhomme-de-neiges sont restés dans le hall.")
+dialogStr("Que veux-tu dire ? Les bonhommes de neige sont restés dans le hall.")
 
 
 dialogId("odp-m-kohout", "font_small", "Try to open that tap!")
-dialogStr("Essaye d'ouvrir ce robinet !")
+dialogStr("Essaie d'ouvrir ce robinet !")
 
 
 dialogId("odp-v-vtip", "font_big", "Now, this was a joke. Heh, heh.")
@@ -36,7 +36,7 @@ dialogStr("Mais un magnifique fond ondulant.")
 
 
 dialogId("odp-v-pohni", "font_big", "Move on, so that we can get going.")
-dialogStr("Pousse-toi, ainsi nous pourrons y aller.")
+dialogStr("Avance, ainsi nous pourrons y aller.")
 
 
 dialogId("odp-v-coja", "font_big", "And what about me?")
@@ -44,5 +44,5 @@ dialogStr("Et moi alors ?")
 
 
 dialogId("odp-v-nestacim", "font_big", "Am I not enough for you now, or what?")
-dialogStr("Je ne suis plus rien pour toi, ou quoi ?")
+dialogStr("Je ne suis plus assez pour toi, ou quoi ?")
 

@@ -12,7 +12,7 @@ dialogStr("Mais seulement vers le bas.")
 
 
 dialogId("zd1-m-last", "font_small", "Do you see that shell?")
-dialogStr("Tu vois ce coquillage.")
+dialogStr("Tu vois ce coquillage?")
 
 
 dialogId("zd1-v-talis", "font_big", "It`s an age-old talisman for elevator builders who always said 'Build well. Build with Shell`.")
@@ -24,7 +24,7 @@ dialogStr("Ce coquillage, n'est-il pas un petit peu familier.")
 
 
 dialogId("zd1-v-styd", "font_big", "They should be ashamed of themselves. This is subliminal advertising.")
-dialogStr("Ils doivent avoir honte d'eux-mêmes. C'est une publicité subliminale.")
+dialogStr("Ils devraient avoir honte d'eux-mêmes. C'est une publicité subliminale.")
 
 
 dialogId("zd1-v-lebka", "font_big", "That skull looks familiar.")
@@ -36,15 +36,15 @@ dialogStr("Tous les crânes humains se ressemblent... Contrairement aux squelett
 
 
 dialogId("zd1-m-cesta", "font_small", "This is a tough path.")
-dialogStr("C'est un large chemin.")
+dialogStr("C'est un chemin difficile.")
 
 
 dialogId("zd1-v-krecek", "font_big", "I feel like a mouse on a treadmill.")
-dialogStr("Je me sens comme une souris dans une meule.")
+dialogStr("Je me sens comme un hamster dans sa roue.")
 
 
 dialogId("zd1-m-slap", "font_small", "A treadmill for fish? But we only have fins.")
-dialogStr("Une meule pour poisson ? Nous n'avons que des nageoires.")
+dialogStr("Une roue pour poisson ? Nous n'avons que des nageoires.")
 
 
 dialogId("zd1-x-huhu1", "font_lightgrey", "Hoo, hooooo, hoooo... I`m over heeeere...")
@@ -52,15 +52,15 @@ dialogStr("Hoo, hooooo, hoooo... Je suis iciii...")
 
 
 dialogId("zd1-x-huhu2", "font_lightgrey", "Hoooo, if you want I`ll tell you how to solve all the levels...")
-dialogStr("Hoooo, Si vous voulez je vous dirais comment résoudre tous les niveaux...")
+dialogStr("Hoooo, Si vous voulez je vous dirai comment résoudre tous les niveaux...")
 
 
 dialogId("zd1-x-huhu3", "font_lightgrey", "Hooo, ho, hooo, I know why the city sank!")
-dialogStr("Hooo, ho, hooo, Je sais pourquoi la cité a sombré !")
+dialogStr("Hooo, ho, hooo, je sais pourquoi la cité a sombré !")
 
 
 dialogId("zd1-x-huhu4", "font_lightgrey", "Hoooo, why isn`t anyone paying attention to me?")
-dialogStr("Hoooo, Pourquoi personne ne fait attention à moi ?")
+dialogStr("Hoooo, pourquoi personne ne fait attention à moi ?")
 
 
 dialogId("zd1-x-huhu5", "font_lightgrey", "Hoooo ho hooo! Why are you ignoring me?")

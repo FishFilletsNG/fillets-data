@@ -16,7 +16,7 @@ dialogStr("Quel drôle d'objet.")
 
 
 dialogId("pap-v-prekvapeni", "font_big", "I think that UFO is going to be full of such surprises.")
-dialogStr("Je pense que les ovnis sont pleins de surprises similaires.")
+dialogStr("Je pense que cet ovni va regorger de surprises similaires.")
 
 
 dialogId("pap-m-teorie", "font_small", "Stop developing your theories and start solving.")
@@ -48,7 +48,7 @@ dialogStr("Pour moi, ça ressemble à un pistolet.")
 
 
 dialogId("pap-v-laserova", "font_big", "Maybe it`s a laser weapon.")
-dialogStr("Peut-être c'est un pistolet laser.")
+dialogStr("Peut-être que c'est un pistolet laser.")
 
 
 dialogId("pap-m-jejedno", "font_small", "It doesn`t matter. We don`t need it.")
@@ -68,7 +68,7 @@ dialogStr("Il y a trop d'acier ici.")
 
 
 dialogId("pap-v-vufu", "font_big", "Don`t forget that we are inside of the flying saucer!")
-dialogStr("N'oublie pas que nous sommes à bord d'une soucoupe volante.")
+dialogStr("N'oublie pas que nous sommes à bord de la soucoupe volante.")
 
 
 dialogId("pap-m-naucit", "font_small", "Maybe I could learn how to manipulate these steel tubes.")
@@ -76,7 +76,7 @@ dialogStr("Peut-être que je pourrais apprendre à porter ces tubes d'acier.")
 
 
 dialogId("pap-m-nepohnu", "font_small", "No, I can`t move it.")
-dialogStr("Non, je ne peux le déplacer.")
+dialogStr("Non, je ne peux pas le déplacer.")
 
 
 dialogId("pap-v-tesno", "font_big", "It`s quite tight here.")
@@ -92,5 +92,5 @@ dialogStr("Ce champs magnétique à probablement des effets fortifiants.")
 
 
 dialogId("pap-m-nedobre", "font_small", "It`s doing me no good.")
-dialogStr("Il ne me procure aucun bien être.")
+dialogStr("Il ne me fait rien.")
 

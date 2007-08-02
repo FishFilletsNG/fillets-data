@@ -12,7 +12,7 @@ dialogStr("Le titre du niveau.")
 
 
 dialogId("pot-v-slus", "font_big", "It suits you.")
-dialogStr("Ca te va bien.")
+dialogStr("Ça te va bien.")
 
 
 dialogId("pot-m-dik", "font_small", "Thanks, you too.")
@@ -24,7 +24,7 @@ dialogStr("Très joli chapeau.")
 
 
 dialogId("pot-m-klob", "font_small", "Your stetson is quite good, too.")
-dialogStr("Ton chapeau stetson est pas mal aussi.")
+dialogStr("Ton chapeau de cowboy est pas mal aussi.")
 
 
 dialogId("pot-v-hlave", "font_big", "What is that on your head?")
@@ -32,11 +32,11 @@ dialogStr("Qu'as-tu au dessus de la tête ?")
 
 
 dialogId("pot-m-zima", "font_small", "My ears were freezing.")
-dialogStr("Mes ouïes sont gelées.")
+dialogStr("Mes ouïes gelaient.")
 
 
 dialogId("pot-m-pujc", "font_small", "That`s some hat! Can I borrow it?")
-dialogStr("Parmi ces chapeaux, pourrais-je en coiffer un.")
+dialogStr("Ça c'est un chapeau! Je peux te l'emprunter?")
 
 
 dialogId("pot-v-leda", "font_big", "If you lend me yours.")
@@ -44,7 +44,7 @@ dialogStr("Si tu me prêtes les tiens.")
 
 
 dialogId("pot-m-velik", "font_small", "This sure is a big stetson.")
-dialogStr("C'est sûrement un bon chapeau stetson.")
+dialogStr("C'est un grand chapeau de cowboy.")
 
 
 dialogId("pot-v-kras", "font_big", "And a beatiful one, too.")
@@ -76,7 +76,7 @@ dialogStr("On dirait qu'il n'y a personne.")
 
 
 dialogId("pot-m-moc", "font_small", "I don`t like it here.")
-dialogStr("Je n'aime pas ça.")
+dialogStr("Je n'aime pas cet endroit.")
 
 
 dialogId("pot-v-plav", "font_big", "Stop talking and swim. Old ship interiors are highly interesting places.")

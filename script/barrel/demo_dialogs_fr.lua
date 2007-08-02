@@ -12,5 +12,5 @@ dialogStr("Agents")
 
 
 dialogId("dlg-x-poster4", "font_poster", "PS: It's great to be here. We irradiate ourselves and swim in the sea a lot. We have many new friends.")
-dialogStr("PS: C'est maginfique d'ętre ici. Nous nous sommes irradiés et nos nageons beaucoup. Nous avons beaucoup de nouveaux amis.")
+dialogStr("PS: C'est formidable d'ętre ici. Nous nous sommes irradiés et nous nageons beaucoup. Nous avons beaucoup de nouveaux amis.")
 

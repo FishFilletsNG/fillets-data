@@ -12,7 +12,7 @@ dialogStr("Il y a tant de perles ici.")
 
 
 dialogId("jed-v-poslani0", "font_big", "Listen... Don`t forget our mission!")
-dialogStr("Ecoute... N'oublie pas notre mission !")
+dialogStr("Écoute... N'oublie pas notre mission !")
 
 
 dialogId("jed-v-poslani1", "font_big", "We are no pearl-hunters.")
@@ -24,7 +24,7 @@ dialogStr("Secoue-toi ! Nous avons une mission à accomplir.")
 
 
 dialogId("jed-m-flakas", "font_small", "You are just sitting up there and I have to do all the work myself!")
-dialogStr("Tu n'as qu'à t'asseoir là haut et je fais tout le boulot moi-même.")
+dialogStr("Tu restes assis là haut et je dois faire tout le boulot moi-même.")
 
 
 dialogId("jed-v-uzivat0", "font_big", "Didn`t you say that you like the pearls?")
@@ -32,7 +32,7 @@ dialogStr("Tu n'as pas dis que tu aimais les perles ?")
 
 
 dialogId("jed-v-uzivat1", "font_big", "Aren`t you happy with so many pearls?")
-dialogStr("Tu n'es pas heureuses entourée de tant de perles ?")
+dialogStr("Tu n'es pas heureuse entourée de tant de perles ?")
 
 
 dialogId("jed-m-perlorodka0", "font_small", "I need one more pearl.")
@@ -52,7 +52,7 @@ dialogStr("Mon plus cher ami, ne pourrais-tu pas me prêter juste une petite per
 
 
 dialogId("jed-m-trubka", "font_small", "I wonder if it wouldn`t be easier to shorten that steel pipe.")
-dialogStr("Je me demande si il ne serait pas plus facile de raccourcir ce tuyau en acier.")
+dialogStr("Je me demande s'il ne serait pas plus facile de raccourcir ce tuyau en acier.")
 
 
 dialogId("jed-v-ocet", "font_big", "Cleopatra is rumored to dissolve pearls in vinegar.")
@@ -68,9 +68,9 @@ dialogStr("Et bien, je voulais simplement apporter un peu de culture.")
 
 
 dialogId("jed-v-poter", "font_big", "Watching you, I have to think about how I played marbles with tadpoles.")
-dialogStr("Regarde toi, tu me fais penser au temps ou je jouais au bille avec des têtards.")
+dialogStr("Regarde toi, tu me fais penser au temps ou je jouais aux billes avec des têtards.")
 
 
 dialogId("jed-m-kulicka", "font_small", "You haven`t got a spare marble in your pocket, do you?")
-dialogStr("Tu n'as jamais eut de bille de rechange dans tes poches ?")
+dialogStr("Tu n'as pas de bille de rechange dans tes poches ?")
 

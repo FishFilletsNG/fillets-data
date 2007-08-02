@@ -1,10 +1,10 @@
 
 dialogId("kni-m-svicny", "font_small", "From the treasury to the candlestick warehouse. Now, that is what I call progress.")
-dialogStr("De la chambre du trésor à la réserve de bougie. Maintenant, je pense que nous avançons.")
+dialogStr("De la chambre du trésor à la réserve de bougie. Ça c'est du progrès!")
 
 
 dialogId("kni-v-ber", "font_big", "You have to look on the bright side. There is nothing that looks like a grail here.")
-dialogStr("Regarde du coté de la lumière. Il n'y a rien qui ressemble au Graal ici.")
+dialogStr("Regarde le bon côté des choses. Il n'y a rien qui ressemble au Graal ici.")
 
 
 dialogId("kni-v-prolezt", "font_big", "It seems that I`ll have to go through that horrible maze.")
@@ -20,7 +20,7 @@ dialogStr("Laisse moi tranquille, têtard chétif.")
 
 
 dialogId("kni-m-hromado", "font_small", "Cut the crap, you misshaped heap of muscles and scales, will you?")
-dialogStr("Espèce d'excrément, tas difforme de muscles et d'écailles.")
+dialogStr("Boucle-la, tas difforme de muscles et d'écailles.")
 
 
 dialogId("kni-v-vypni", "font_big", "Could you restart the level, please? We don`t seem to be getting along very well now.")
@@ -48,7 +48,7 @@ dialogStr("Et pourquoi ?")
 
 
 dialogId("kni-m-cetky", "font_small", "I grew to understand that jewels and gold are but cheap trinkets.")
-dialogStr("J'ai compris que les joyaux et l'or ne sont que des babioles sans valeurs.")
+dialogStr("J'ai compris que les joyaux et l'or ne sont que des babioles sans valeur.")
 
 
 dialogId("kni-m-kramy", "font_small", "I can`t bear the darned stuff any longer!")

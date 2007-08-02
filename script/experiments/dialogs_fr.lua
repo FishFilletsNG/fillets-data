@@ -8,15 +8,15 @@ dialogStr("Apparemment, même les ovnis sont équipés de labo.")
 
 
 dialogId("bank-m-labolator3", "font_small", "This looks like a laboratory.")
-dialogStr("Ca ressemble à un laboratoire.")
+dialogStr("Ça ressemble à un laboratoire.")
 
 
 dialogId("bank-v-pokusy1", "font_big", "These experiments seem quite suspicious to me.")
-dialogStr("Ces expériences me paraissent parfaitement louches.")
+dialogStr("Ces expériences me paraissent carrément louches.")
 
 
 dialogId("bank-v-pokusy2", "font_big", "I think that someone`s carrying out some rather suspicious experiments here.")
-dialogStr("Je pense qu'une personne mène des expérimentations louches ici.")
+dialogStr("Je pense qu'une personne mène des expériences louches ici.")
 
 
 dialogId("bank-m-jejda", "font_small", "My gosh, what`s this?!?")
@@ -44,7 +44,7 @@ dialogStr("Ne touche plus à rien en bas et viens m'aider !")
 
 
 dialogId("bank-m-organismy", "font_small", "I would never have thought that we`d find so many living things inside a UFO...")
-dialogStr("Je n'aurais jamais penser que nous trouverions autant de choses vivantes dans un ovni.")
+dialogStr("Je n'aurais jamais pensé que nous trouverions autant de choses vivantes dans un ovni.")
 
 
 dialogId("bank-v-potvory", "font_big", "There are an incredible number of different creatures here!")
@@ -76,19 +76,19 @@ dialogStr("Il y a une drôle d'odeur qui sort de ce tube à essai...")
 
 
 dialogId("bank-m-hlavakolem", "font_small", "All of this is making my head spin...")
-dialogStr("Tout ceci me tourne la tête...")
+dialogStr("Tout ceci me fait tourner la tête...")
 
 
 dialogId("bank-v-neproplavu1", "font_big", "I can`t swim through here. We`re going to have to push this aside.")
-dialogStr("Je ne peux pas nager au travers. Nous allons devoir écarter ce truc.")
+dialogStr("Je ne peux pas nager par ici. Nous allons devoir écarter ce truc.")
 
 
 dialogId("bank-v-neproplavu2", "font_big", "I can`t swim through here. We`re going to have to push this down.")
-dialogStr("Je ne peux pas nager au travers. Nous allons devoir faire tomber ce truc.")
+dialogStr("Je ne peux pas nager par ici. Nous allons devoir faire tomber ce truc.")
 
 
 dialogId("bank-v-nahazet", "font_big", "We`re going to need to throw on a lot more of these things.")
-dialogStr("Nous allons avoir besoin de nous débarrasser de beaucoup de ces choses.")
+dialogStr("Nous allons avoir besoin d'utiliser beaucoup plus de ces choses.")
 
 
 dialogId("bank-v-jeste", "font_big", "More.")
@@ -96,15 +96,15 @@ dialogStr("Encore.")
 
 
 dialogId("bank-m-prohlednout", "font_small", "We have to look everything here over very carefully.")
-dialogStr("Nous devons observer chaque chose avec toute notre attention.")
+dialogStr("Nous devons observer chaque chose méticuleusement.")
 
 
 dialogId("bank-v-vypad1", "font_big", "I`d rather get out of here.")
-dialogStr("Je préférerai sortir d'ici.")
+dialogStr("Je préférerais sortir d'ici.")
 
 
 dialogId("bank-v-vypad2", "font_big", "You know, I`d really rather get out of here.")
-dialogStr("Tu sais, je préférerai vraiment sortir d'ici.")
+dialogStr("Tu sais, je préférerais vraiment sortir d'ici.")
 
 
 dialogId("bank-v-flaska", "font_big", "The odor from this bottle is making me sick.")
@@ -116,7 +116,7 @@ dialogStr("Oups, ça casse...")
 
 
 dialogId("bank-m-tvorove", "font_small", "I think that some of these creatures here are a result of genetic engineering.")
-dialogStr("Je pense que ces créatures sont issues de manipulations génétiques.")
+dialogStr("Je pense que certaines de ces créatures sont issues de manipulations génétiques.")
 
 
 dialogId("bank-m-prehnal1", "font_small", "This is just too much!")
@@ -128,5 +128,5 @@ dialogStr("Que c'est morbide !")
 
 
 dialogId("bank-m-mrtvolka", "font_small", "This corpse looks familiar to me.")
-dialogStr("Ce corps m'est familier.")
+dialogStr("Ce cadavre m'est familier.")
 

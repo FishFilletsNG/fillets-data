@@ -32,7 +32,7 @@ dialogStr("Je pense que nous devrions chercher le Graal ailleurs...")
 
 
 dialogId("jes-m-deprese", "font_small", "Don`t be depressive. We will solve this in no time.")
-dialogStr("Et pas de dépression. Nous allons trouver la solution en un rien de temps.")
+dialogStr("Ne te bile pas. Nous allons trouver la solution en un rien de temps.")
 
 
 dialogId("jes-v-nevim", "font_big", "I am not so sure.")
@@ -40,11 +40,11 @@ dialogStr("Je ne suis pas si sûr.")
 
 
 dialogId("jes-m-takvidis", "font_small", "See? You are here.")
-dialogStr("Tu vois ? tu y est.")
+dialogStr("Tu vois ? Tu y est.")
 
 
 dialogId("jes-m-potvora0", "font_small", "What kind of color-shifting monster is this?")
-dialogStr("De quel type est ce monstre qui change de couleur ?")
+dialogStr("Qu'est ce que ce monstre qui change de couleur ?")
 
 
 dialogId("jes-m-potvora1", "font_small", "This is an abomination.")
@@ -56,15 +56,15 @@ dialogStr("C'est une offense à la Nature.")
 
 
 dialogId("jes-v-potvora0", "font_big", "It is called the Flashy hammerhead.")
-dialogStr("Il est appelé tape-à-l'oeil poisson-marteau.")
+dialogStr("C'est un poisson-marteau tape-à-l'oeil.")
 
 
 dialogId("jes-v-potvora1", "font_big", "It is called the Glossy repulsor.")
-dialogStr("Il est appelé repoussant lustré.")
+dialogStr("C'est un repoussant lustré.")
 
 
 dialogId("jes-v-potvora2", "font_big", "It is called the Politician fish.")
-dialogStr("Il est appelé poisson politicien.")
+dialogStr("C'est un poisson politicien.")
 
 
 dialogId("jes-m-netopyr0", "font_small", "This bat is kind of strange.")
@@ -76,7 +76,7 @@ dialogStr("C'est une chauve-souris très flegmatique.")
 
 
 dialogId("jes-m-netopyr1", "font_small", "This is a stuffed bat.")
-dialogStr("C'est une véritable chauve-souris.")
+dialogStr("C'est une chauve-souris empaillée.")
 
 
 dialogId("jes-v-netopyr1", "font_big", "It`s a sculpture of bat.")

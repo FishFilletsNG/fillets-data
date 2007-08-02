@@ -20,7 +20,7 @@ dialogStr("Je ne peux pas. l'interrupteur est tombé.")
 
 
 dialogId("ch-v-pockej2", "font_big", "Turn on the lights yourself, if you`re so smart.")
-dialogStr("Allume la lumière toi même, si tu es si pressée.")
+dialogStr("Allume la lumière toi même, si tu es si maligne.")
 
 
 dialogId("ch-v-halo0", "font_big", "Where are you?")
@@ -44,7 +44,7 @@ dialogStr("Je suis là.")
 
 
 dialogId("ch-m-tady2", "font_small", "I am right over here.")
-dialogStr("Je suis là voyons.")
+dialogStr("Je suis juste là.")
 
 
 dialogId("ch-m-bojim0", "font_small", "Where are you, I am afraid.")
@@ -88,7 +88,7 @@ dialogStr("Finalement, la lumière est revenue.")
 
 
 dialogId("ch-v-pozor", "font_big", "Be careful. It bites!")
-dialogStr("Attention. Ca mords.")
+dialogStr("Attention. Ça mord.")
 
 
 dialogId("ch-v-robopes", "font_big", "Look! That must be... ROBODOG!")
@@ -96,7 +96,7 @@ dialogStr("Regarde ! Ce doit être... ROBOCHIEN !")
 
 
 dialogId("ch-m-ten", "font_small", "What? THAT robodog?!?")
-dialogStr("Pardon ? CA robochien ?!?")
+dialogStr("Pardon ? ÇA robochien ?!?")
 
 
 dialogId("ch-v-zapada", "font_big", "Well now it all makes sense.")
@@ -104,23 +104,23 @@ dialogStr("Et bien, maintenant je comprends tout.")
 
 
 dialogId("ch-m-odpoved0", "font_small", "Including the Cuban missile crisis and Nostradamus` prophecies.")
-dialogStr("Tu inclus la crise des missiles de Cuba et les prophéties de Nostradamus.")
+dialogStr("Y compris la crise des missiles de Cuba et les prophéties de Nostradamus.")
 
 
 dialogId("ch-m-odpoved1", "font_small", "Including the murder of John Lennon and the Tunguzian meteor.")
-dialogStr("Tu inclus le meurtre de John Lennon et la météorite de Tunguza.")
+dialogStr("Y compris le meurtre de John Lennon et la météorite de Tunguza.")
 
 
 dialogId("ch-m-odpoved2", "font_small", "Including the Challenger explosion and the Battle of Bull Run.")
-dialogStr("Tu inclus l'explosion de la navette Challenger et le mythe du King.")
+dialogStr("Y compris l'explosion de la navette Challenger et le mythe du King.")
 
 
 dialogId("ch-m-odpoved3", "font_small", "Including the Chernobyl meltdown and the wreck of Noah`s Ark.")
-dialogStr("Tu inclus la catastrophe de TChernobyl et l'épave de l'arche de Noé.")
+dialogStr("Y compris la catastrophe de TChernobyl et l'épave de l'arche de Noé.")
 
 
 dialogId("ch-v-smysl", "font_big", "Now I can see the rationale behind this game.")
-dialogStr("Maintenant je peux voir le coté rationnel de ce jeu.")
+dialogStr("Maintenant je peux voir le côté rationnel de ce jeu.")
 
 
 dialogId("ch-m-vubec", "font_small", "And also the meaning of life, the universe and everything.")
@@ -128,11 +128,11 @@ dialogStr("Et aussi le sens de la vie, de l'univers et du reste.")
 
 
 dialogId("ch-x-click1", "font_darkgrey", "CLICK")
-dialogStr("CLICK")
+dialogStr("CLIC")
 
 
 dialogId("ch-x-click2", "font_lightgrey", "CLICK")
-dialogStr("CLICK")
+dialogStr("CLIC")
 
 
 dialogId("ch-r-nevsimej0", "font_robodog", "Don`t listen to them, player. They are kidding you.")
@@ -144,7 +144,7 @@ dialogStr("Ne les écoute pas, joueur. Ils essaient d'être drôles.")
 
 
 dialogId("ch-r-nevsimej2", "font_robodog", "Don`t listen to them, player. They are trying to fool you.")
-dialogStr("Ne les écoute pas, joueur. Ils vont te rendre fou.")
+dialogStr("Ne les écoute pas, joueur. Ils essaient de t'embobiner.")
 
 
 dialogId("ch-r-hracka", "font_robodog", "I am but a humble cybernetic toy.")
@@ -164,7 +164,7 @@ dialogStr("Même s'il était prévu que je sois une station orbitale.")
 
 
 dialogId("ch-r-ikdyz3", "font_robodog", "Though orginally I was to be a piece of cake.")
-dialogStr("Même si j'aurais dû être un morceau de gâteau.")
+dialogStr("Même si j'aurais dû être du gâteau.")
 
 
 dialogId("ch-r-anavic0", "font_robodog", "And I visited Cuba only once.")
@@ -180,5 +180,5 @@ dialogStr("Et qui se soucie de quelques soldats.")
 
 
 dialogId("ch-r-anavic3", "font_robodog", "And they told me that the regulatory rod wasn`t important.")
-dialogStr("Et ils m'ont dit que ce bouton de régulation n'était pas important.")
+dialogStr("Et ils m'ont dit que ce levier de réglage n'était pas important.")
 

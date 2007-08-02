@@ -4,7 +4,7 @@ dialogStr("Bonjour, poissons !")
 
 
 dialogId("dlg-x-poster2", "font_poster", "Again, you didn't disappoint us. General Committee decided to decorate you with the highest orders. They are made of milk chocolate. Due to confidentiality, eat them immediately.")
-dialogStr("A nouveau, vous ne nous avez pas déçu. Le comité Général a décidé de vous décorer de la plus haute distinction. Les médailles sont en chocolat. Pour cause de confidentialité, mangez les immédiatement.")
+dialogStr("À nouveau, vous ne nous avez pas déçu. Le Comité Général a décidé de vous décorer de la plus haute distinction. Les médailles sont en chocolat. Pour cause de confidentialité, mangez-les immédiatement.")
 
 
 dialogId("dlg-x-boss", "font_poster", "BOSS")

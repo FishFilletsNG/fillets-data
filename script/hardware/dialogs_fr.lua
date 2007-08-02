@@ -1,6 +1,6 @@
 
 dialogId("pz-v-zaskladanej", "font_big", "I`m completely blocked in here.")
-dialogStr("Je suis complètement bloqué ici.")
+dialogStr("Je suis complètement coincé ici.")
 
 
 dialogId("pz-m-co", "font_small", "What are you doing up there?")
@@ -16,7 +16,7 @@ dialogStr("Il y a beaucoup de clés matérielles ici.")
 
 
 dialogId("pz-v-co1", "font_big", "What do you have down there?")
-dialogStr("Qu'est-ce que tu as fait en bas ?")
+dialogStr("Qu'est-ce que tu as en bas ?")
 
 
 dialogId("pz-v-co2", "font_big", "What`s down there?")
@@ -32,7 +32,7 @@ dialogStr("Il y a des circuits intégrés ici.")
 
 
 dialogId("pz-m-spoje3", "font_small", "I am surrounded by electronics here.")
-dialogStr("Je suis encerclée d'électronique ici.")
+dialogStr("Je suis entourée d'électronique ici.")
 
 
 dialogId("pz-m-pocitace", "font_small", "Computers. They`ve always fascinated me. But now I`m sick of them.")

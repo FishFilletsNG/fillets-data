@@ -1,6 +1,6 @@
 
 dialogId("disk-v-tady", "font_big", "It looks as if we finally got there.")
-dialogStr("Il semblerait que nous y soyons finalemnt arriver.")
+dialogStr("Il semblerait que nous y soyons finalement arrivés.")
 
 
 dialogId("disk-m-tady", "font_small", "Do you think this is it?")
@@ -8,15 +8,15 @@ dialogStr("Penses-tu que c'est ça ?")
 
 
 dialogId("disk-m-vejit", "font_small", "How could it all fit on one three and a half inch floppy?")
-dialogStr("Comment cela pourrait-il tenir sur une disquette trois pouces et demi ?")
+dialogStr("Comment cela pouvait-il tenir sur une disquette trois pouces et demi ?")
 
 
 dialogId("disk-v-metrova", "font_big", "Look how much bigger than me it is. It is a three and a half meter floppy.")
-dialogStr("Regarde, elle est bien plus grande que moi. Ce serait plutôt une disquette trente pieds et demi.")
+dialogStr("Regarde, elle est bien plus grande que moi. Ce serait plutôt une disquette trois mètres et demi.")
 
 
 dialogId("disk-m-velka", "font_small", "That`s better. Big plan, big disk. That makes sense.")
-dialogStr("Effectivement. Gros plan, grosse disquette. Ca se tient.")
+dialogStr("Effectivement. Gros plan, grosse disquette. Ça se tient.")
 
 
 dialogId("disk-m-zvednem", "font_small", "Do you think we can lift it up?")
@@ -36,11 +36,11 @@ dialogStr("Tais-toi, ou je te casse une patte !")
 
 
 dialogId("disk-v-kriz", "font_big", "Can you see that steel cross? This is the grave of our hopes.")
-dialogStr("Peux-tu voir cette croix en acier ? C'est pour enterrer nos espoirs.")
+dialogStr("Tu vois cette croix en acier ? C'est pour enterrer nos espoirs.")
 
 
 dialogId("disk-m-depres", "font_small", "Don`t be always so gloomy. I can`t bear it.")
-dialogStr("Ne sois pas toujours si lugubre. Je ne peux pas la porter.")
+dialogStr("Ne sois pas toujours si lugubre. Je ne peux pas le supporter.")
 
 
 dialogId("disk-m-nahrat", "font_small", "Wouldn`t it be enough to download that plan from the floppy to our notebook?")
@@ -52,7 +52,7 @@ dialogStr("Pourquoi pas, vas-y sors le.")
 
 
 dialogId("disk-m-sakra", "font_small", "Oh, darn! I left it at home.")
-dialogStr("Oh, zut. Je l'ai laissé à la maison.")
+dialogStr("Oh, zut! Je l'ai laissé à la maison.")
 
 
 dialogId("disk-v-vratime", "font_big", "Shall we return for it?")
@@ -64,7 +64,7 @@ dialogStr("Jamais. C'est peut-être marrant pour toi, mais moi j'ai les nageoire
 
 
 dialogId("disk-v-nane", "font_big", "Suit yourself. I am curious how are you going to do it now.")
-dialogStr("Réfléchis un peu. Je suis curieux de voir comment tu vas le faire.")
+dialogStr("Comme tu veux. Je suis curieux de voir comment tu vas le faire.")
 
 
 dialogId("disk-m-zmatlo", "font_small", "What if there is no plan on this floppy? What if it is here only to confound us?")
@@ -80,7 +80,7 @@ dialogStr("Quelle sorte de petites créatures est-ce ?")
 
 
 dialogId("disk-v-viry", "font_big", "These must be computer viruses.")
-dialogStr("Ceux sont des virus informatiques.")
+dialogStr("Ce sont sans doute des virus informatiques.")
 
 
 dialogId("disk-m-potvory", "font_small", "Yuck. Some monsters.")
@@ -88,7 +88,7 @@ dialogStr("Argh. Des monstres.")
 
 
 dialogId("disk-v-pozor", "font_big", "Above all, we must be careful not to take them with the disk. The player wouldn`t be happy if we pour them on their desktop.")
-dialogStr("Après tout, nous devons prendre gare à ne pas les emporter avec la disquette. Le joueur(euse) ne serait pas content(e) si nous les déversons sur son bureau.")
+dialogStr("Avant tout, nous devons prendre gare à ne pas les emporter avec la disquette. Le joueur(euse) ne serait pas content(e) si nous les déversons sur son bureau.")
 
 
 dialogId("disk-m-ukol", "font_small", "Our goal is to push out that disk.")
@@ -116,5 +116,5 @@ dialogStr("Aïe.")
 
 
 dialogId("disk-x-uzne", "font_darkgrey", "Leave me alone!")
-dialogStr("Laisser moi tranquille !")
+dialogStr("Laissez-moi tranquille !")
 

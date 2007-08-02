@@ -1,6 +1,6 @@
 
 dialogId("map-v-mapa", "font_big", "Oh well. So that map really exists after all!")
-dialogStr("Ainsi cette carte existe bel et bien !")
+dialogStr("Alors comme ça cette carte existe bel et bien !")
 
 
 dialogId("map-m-mapa", "font_small", "Okay. Here is the map.")
@@ -12,7 +12,7 @@ dialogStr("Notre but est clairement d'emporter cette carte.")
 
 
 dialogId("map-v-jasne", "font_big", "Of course. It would be too easy, if we should just swim away.")
-dialogStr("Bien sûr. Il aurait été trop facile de simplement sortir en nageant.")
+dialogStr("Bien sûr. Il aurait été trop facile de sortir en nageant tout droit.")
 
 
 dialogId("map-m-neplacej", "font_small", "Don`t talk nonsense and try to think instead.")
@@ -36,7 +36,7 @@ dialogStr("Nous verrons quand nous réussirons à sortir cette satanée carte.")
 
 
 dialogId("map-m-sneci", "font_small", "We`d need more of these snails.")
-dialogStr("Nous avons besoin de plus d'escargots.")
+dialogStr("Nous aurions besoin de plus d'escargots.")
 
 
 dialogId("map-x-hlemyzdi", "font_yellow", "You mean Escargots, don`t you?")
@@ -44,7 +44,7 @@ dialogStr("Vous voulez dire Snails, n'est-ce pas ?")
 
 
 dialogId("map-v-oci", "font_big", "We`d need more glass eyes.")
-dialogStr("Nous avons besoin d'autres yeux de verre.")
+dialogStr("Nous aurions besoin de plus d'yeux de verre.")
 
 
 dialogId("map-v-restart", "font_big", "The easiest way to do it would be to get to the upper part of this level. Let`s try to restart it, maybe we will appear there.")
@@ -52,11 +52,11 @@ dialogStr("La manière la plus simple serait de commencer de la partie supérieu
 
 
 dialogId("map-m-pravidla", "font_small", "Don`t pretend that you didn`t understand the rules after so many solved levels.")
-dialogStr("Ne prétends pas que tu ne comprends pas les règles après tant de niveaux résolus.")
+dialogStr("Ne prétends pas que tu ne comprends pas les règles après avoir résolu tant de niveaux.")
 
 
 dialogId("map-m-pohnout", "font_small", "So we managed to move it.")
-dialogStr("Enfin nous avons réussit à la bouger.")
+dialogStr("Enfin nous avons réussi à la bouger.")
 
 
 dialogId("map-v-dal", "font_big", "Let`s keep up the good work.")

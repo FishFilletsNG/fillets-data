@@ -24,7 +24,7 @@ dialogStr("Une de vos principales missions est de trouver l'ordinateur caché da
 
 
 dialogId("kd-zelva", "font_white", "You should also find and detain the mysterious coral turtle. It escaped from the FDTO interrogation facility. It is not armed, but it supposedly has telepathic abilities.")
-dialogStr("Vous devrez de même dénicher et arrêter la mystérieuse tortue corallienne. Elle s'est échappée de la chambre d'interrogation de la FDTO. Elle n'est pas armée, mais nous supposons qu'elle possède des pouvoirs télépathiques.")
+dialogStr("Vous devrez de même dénicher et arrêter la mystérieuse tortue corallienne. Elle s'est échappée de la chambre d'interrogation de la FDTO. Elle n'est pas armée, mais il est possible qu'elle possède des pouvoirs télépathiques.")
 
 
 dialogId("kd-elektr", "font_white", "We have been notified that a certain nuclear power plant has been dumping its radioactive waste illegally. Check it out.")
@@ -32,11 +32,11 @@ dialogStr("Nous avons été informés qu'une centrale nucléaire rejette illéga
 
 
 dialogId("kd-gral", "font_white", "And don`t forget to find the holy grail.")
-dialogStr("Et n'oubliez pas de ramenez LE Graal.")
+dialogStr("Et n'oubliez pas de ramener LE Graal.")
 
 
 dialogId("kd-zaver", "font_white", "And as usual: If anyone from your team is injured or killed, Altar will deny any knowledge of your existence and the level will be restarted.")
-dialogStr("Et comme d'habitude : si l'un d'entre vous est blessé ou tuez, Altar niera toute connaissance de votre existence et le niveau devra être rejouez.")
+dialogStr("Et comme d'habitude : si l'un d'entre vous est blessé ou tuez, Altar niera toute connaissance de votre existence et le niveau devra être rejoué.")
 
 
 dialogId("kd-znici", "font_white", "This disk will self-destruct in five seconds.")

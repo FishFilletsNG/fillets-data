@@ -1,6 +1,6 @@
 
 dialogId("lod-v-silenost0", "font_big", "I have a suspicion that we are about to discover something terrible.")
-dialogStr("Je crains que nous allons découvrir quelque chose de terrible.")
+dialogStr("Je crains que nous allions au devant de quelque chose de terrible.")
 
 
 dialogId("lod-v-silenost1", "font_big", "I always knew that: the gods must be mad.")
@@ -16,7 +16,7 @@ dialogStr("Je pense que tu as raison.")
 
 
 dialogId("lod-m-pravda1", "font_small", "I am afraid that you are right.")
-dialogStr("J'ai bien peur que tu ais raison.")
+dialogStr("J'ai bien peur que tu aies raison.")
 
 
 dialogId("lod-m-pravda2", "font_small", "Yes, it is shocking.")
@@ -140,19 +140,19 @@ dialogStr("Raté !")
 
 
 dialogId("b1-zasah1", "font_yellow", "Hit!")
-dialogStr("touché !")
+dialogStr("Touché !")
 
 
 dialogId("b1-zasah2", "font_yellow", "Hit!")
-dialogStr("touché !")
+dialogStr("Touché !")
 
 
 dialogId("b1-zasah3", "font_yellow", "Hit!")
-dialogStr("touché !")
+dialogStr("Touché !")
 
 
 dialogId("b1-zasah4", "font_yellow", "Hit!")
-dialogStr("touché !")
+dialogStr("Touché !")
 
 
 dialogId("b1-potop1", "font_yellow", "Sank!")
@@ -188,7 +188,7 @@ dialogStr("Je ne triche pas.")
 
 
 dialogId("b1-spletl", "font_yellow", "It was a mistake, probably...")
-dialogStr("C'est une erreur, probablement...")
+dialogStr("C'était une erreur, probablement...")
 
 
 dialogId("b2-voda1", "font_cyan", "Miss!")

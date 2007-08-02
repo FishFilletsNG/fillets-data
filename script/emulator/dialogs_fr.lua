@@ -1,6 +1,6 @@
 
 dialogId("zx-m-pametnici", "font_small", "So this is a level for real connoisseurs.")
-dialogStr("Ainsi c'est un niveau pour les vrais connaisseurs.")
+dialogStr("Voici un niveau pour les vrais connaisseurs.")
 
 
 dialogId("zx-v-osmibit", "font_big", "Yeah, I feel like I can feel the eight bit wind of history.")
@@ -12,11 +12,11 @@ dialogStr("Peux-tu voir ces graphiques pixélisés tout autour de nous ? Je dois
 
 
 dialogId("zx-v-hry", "font_big", "This is an opportunity to play the merry old games of ZX Spectrum.")
-dialogStr("C'est une opportunité pour jouer aux joyeux jeux du ZX Spectrum.")
+dialogStr("C'est une opportunité pour jouer aux joyeux vieux jeux du ZX Spectrum.")
 
 
 dialogId("zx-m-premyslis", "font_small", "What are you thinking about now?")
-dialogStr("A quoi penses-tu en ce moment ?")
+dialogStr("À quoi penses-tu en ce moment ?")
 
 
 dialogId("zx-v-pamet", "font_big", "Well, I just realized that the animations of us two alone would fill up the RAM of a ZX Spectrum.")
@@ -24,11 +24,11 @@ dialogStr("Et bien, je viens de réaliser que nos animations seules pourraient r
 
 
 dialogId("zx-v-otazka", "font_big", "Do you know that your question alone in WAV format would overfill the RAM of ZX Spectrum? And imagine how many such sounds are in this game.")
-dialogStr("Est-ce que tu sais que ta question seule au format WAV risque de ne pas tenir dans la RAM du ZX Spectrum ? Et imagine la quantité de sons qu'il y a dans ce jeu.")
+dialogStr("Est-ce que tu sais que ta question seule au format WAV ne tiendrait pas dans la RAM du ZX Spectrum ? Et imagine la quantité de sons qu'il y a dans ce jeu.")
 
 
 dialogId("zx-m-necodosebe", "font_small", "But still, these games had something to them, didn`t they?")
-dialogStr("Et puis, ces jeux ont-ils encore quelque chose pour eux ?")
+dialogStr("Ces jeux avaient néanmoins un petit quelque chose, non ?")
 
 
 dialogId("zx-m-knight", "font_small", "Can you see that Knight Lorer?")
@@ -40,11 +40,11 @@ dialogStr("Et là ce doit être le Manic Miner.")
 
 
 dialogId("zx-m-jetpack", "font_small", "I really didn`t know I`d ever be putting the Jetpack together again.")
-dialogStr("Je ne pensais vraiment pas que tant de chose nous séparait encore.")
+dialogStr("Je ne pensais vraiment pas que tant de choses nous séparaient encore.")
 
 
 dialogId("zx-v-roboti", "font_big", "This line of robots looks familiar.")
-dialogStr("Cette ligne de robots m'est familière.")
+dialogStr("Cette rangée de robots m'est familière.")
 
 
 dialogId("zx-m-highway", "font_small", "Oh sure, they are from the Highway Encounter.")
@@ -52,9 +52,9 @@ dialogStr("Bien sûr, ils viennent de Highway Encounter.")
 
 
 dialogId("zx-v-nahravani", "font_big", "I wonder what is loading right now.")
-dialogStr("Je me demande à quoi correspond le chargement en cours.")
+dialogStr("Je me demande ce qui est en train de se charger.")
 
 
 dialogId("zx-m-ocel", "font_small", "The single biggest advantage of this room is that it contains no steel.")
-dialogStr("Le seul avantage de cette pièce est qu'il n'y a pas d'acier.")
+dialogStr("Le seul avantage substantiel de cette pièce est qu'il n'y a pas d'acier.")
 

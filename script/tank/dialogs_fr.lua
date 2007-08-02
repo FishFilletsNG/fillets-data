@@ -12,19 +12,19 @@ dialogStr("C'est une bien maigre consolation.")
 
 
 dialogId("sv-v-chtel", "font_big", "Thinking about it, I always wanted to see the inside of a tank.")
-dialogStr("En y repensant, J'ai toujours voulu voir un char de l'intérieur.")
+dialogStr("En y repensant, j'ai toujours voulu voir un char de l'intérieur.")
 
 
 dialogId("sv-m-doscasu", "font_small", "It seems you will have plenty of opportunity to look around.")
-dialogStr("Et bien tu vas avoir toute l'opportunité de le faire.")
+dialogStr("Et bien tu vas avoir tout le temps de le faire.")
 
 
 dialogId("sv-m-tank", "font_small", "I wonder how this tank got into the sea.")
-dialogStr("Comment ce char est tombé dans la mer ?")
+dialogStr("Comment ce char est-il tombé dans la mer ?")
 
 
 dialogId("sv-v-obojzivelny", "font_big", "Maybe it was an amphibious tank.")
-dialogStr("Il est peut-être amphibie.")
+dialogStr("Il était peut-être amphibie.")
 
 
 dialogId("sv-m-kecy", "font_small", "An amphibious tank? Just imagine: On the moonless night, the uncomprehending defenders bewilderedly watch the mass of snorkels emerging from the surf, searching in vain for the landing craft...")
@@ -44,11 +44,11 @@ dialogStr("C'est possible.")
 
 
 dialogId("sv-m-munice", "font_small", "Do you think that this ammunition could harm us?")
-dialogStr("Penses-tu que les munitions peuvent nous blesser ?")
+dialogStr("Penses-tu que ces munitions peuvent nous blesser ?")
 
 
 dialogId("sv-v-nevim", "font_big", "I don`t know, but I`ll try to keep my distance from it.")
-dialogStr("Je ne sais pas. Mais sûrement. Je vais garder mes distances.")
+dialogStr("Je ne sais pas. Mais je vais garder mes distances.")
 
 
 dialogId("sv-v-zebrik", "font_big", "I think we are going to need that ladder.")
@@ -56,7 +56,7 @@ dialogStr("Je pense que nous aurons besoin de cette échelle.")
 
 
 dialogId("sv-m-ven", "font_small", "To climb out? But we have only fins.")
-dialogStr("Pour grimper ? Nous avons déjà nos nageoires.")
+dialogStr("Pour grimper ? Mais nous n'avons que nos nageoires.")
 
 
 dialogId("sv-v-ucpat", "font_big", "No. To plug that hole.")

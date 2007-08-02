@@ -1,6 +1,6 @@
 
 dialogId("sec-v-ven0", "font_big", "I am trapped here.")
-dialogStr("Là, je suis enfermé.")
+dialogStr("Je suis enfermé ici.")
 
 
 dialogId("sec-v-ven1", "font_big", "I want to get out.")
@@ -12,7 +12,7 @@ dialogStr("Comment vais-je sortir d'ici ?")
 
 
 dialogId("sec-m-ven0", "font_small", "See, now you got out.")
-dialogStr("Tu vois, maintenant tu es dehors.")
+dialogStr("Tu vois, maintenant tu es sorti.")
 
 
 dialogId("sec-m-ven1", "font_small", "So, we are together again.")

@@ -8,15 +8,15 @@ dialogStr("C'est magnifique.")
 
 
 dialogId("sl-v-vkapse", "font_big", "Now we only have to find out why it sank and we are done.")
-dialogStr("Il ne nous reste plus qu'à trouver pourquoi elle a sombré et c'est bon.")
+dialogStr("Il ne nous reste plus qu'à trouver pourquoi elle a sombré et c'est fini.")
 
 
 dialogId("sl-m-trvat", "font_small", "But it may take us a little while.")
-dialogStr("Mais ça va nous prendre du temps.")
+dialogStr("Mais ça pourrait nous prendre un peu de temps.")
 
 
 dialogId("sl-v-nechme", "font_big", "Leave me alone. I adore the classic beauty of this temple.")
-dialogStr("Laisse moi tranquille. J'adore la beauté classique de ce temple.")
+dialogStr("Laisse-moi tranquille. J'adore la beauté classique de ce temple.")
 
 
 dialogId("sl-m-sedi", "font_small", "Who is sitting on that chair?")
@@ -28,11 +28,11 @@ dialogStr("C'est une copie du Zeus de Feidios. Une des sept merveilles du monde.
 
 
 dialogId("sl-m-tehdy", "font_small", "Hmm. It was another age.")
-dialogStr("Hmm. Il est d'une autre ère.")
+dialogStr("Hmm. C'est d'une autre ère.")
 
 
 dialogId("sl-v-opatrne", "font_big", "Be careful! Try not to damage it!")
-dialogStr("Attention ! Essaie de ne pas le casser !")
+dialogStr("Attention ! Essaie de ne pas l'abimer !")
 
 
 dialogId("sl-v-skoda", "font_big", "Such a waste!")

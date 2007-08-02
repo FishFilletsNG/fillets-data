@@ -12,7 +12,7 @@ dialogStr("Tu ne connais pas David ? Il est l'un des artistes qui a travaillé s
 
 
 dialogId("wc-m-sochar", "font_small", "David was no graphic artist. He was a sculpturer. His sculptures are one of the best-known Renaissance artifacts.")
-dialogStr("David n'est pas dessinateur. Il est sculpteur. Ces sculptures sont parmi les plus connues de la Renaissance.")
+dialogStr("David n'était pas dessinateur. Il était sculpteur. Ses sculptures sont parmi les plus réputées de la Renaissance.")
 
 
 dialogId("wc-v-zmatek", "font_big", "You`ve got it all wrong.")

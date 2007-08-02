@@ -1,6 +1,6 @@
 
 dialogId("vrak-v-vraky0", "font_big", "These shipwrecks grow more and more arrogant.")
-dialogStr("Ces épaves de bateaux sont de plus en plus énervantes.")
+dialogStr("Ces épaves de bateaux sont de plus en plus arrogantes.")
 
 
 dialogId("vrak-v-vraky1", "font_big", "These sunken ships really irritate me.")
@@ -28,11 +28,11 @@ dialogStr("Tu vois ? Tu n'aurais pas dû acheter tant de livres.")
 
 
 dialogId("vrak-m-kupovat1", "font_small", "You buy every book you can lay your hand on and now you have problems.")
-dialogStr("Tu achètes tout les livres qui te passent sous les mains et maintenant tu as des problèmes.")
+dialogStr("Tu achètes tous les livres qui te passent sous les mains et maintenant tu as des problèmes.")
 
 
 dialogId("vrak-m-naco", "font_small", "Why do you have to have so many of them?")
-dialogStr("Pourquoi dois-tu en posséder autant ?")
+dialogStr("Pourquoi en as-tu tant ?")
 
 
 dialogId("vrak-m-knihy0", "font_small", "ESP")
@@ -56,7 +56,7 @@ dialogStr("La télépathie en dix leçons.")
 
 
 dialogId("vrak-m-knihy5", "font_small", "Unwilling clairvoyant.")
-dialogStr("Clairvoyant fou.")
+dialogStr("Clairvoyant malgré soi.")
 
 
 dialogId("vrak-m-knihy6", "font_small", "Outreaching Daniken.")
@@ -64,7 +64,7 @@ dialogStr("Inaccessible Daniken.")
 
 
 dialogId("vrak-v-vyhodit", "font_big", "I`d throw out these, for example.")
-dialogStr("Je jette ça, par exemple.")
+dialogStr("Je jette ceux-là, par exemple.")
 
 
 dialogId("vrak-v-knihy0", "font_big", "The Three Little Shrimp")
@@ -100,11 +100,11 @@ dialogStr("Je ne rentre pas là dedans.")
 
 
 dialogId("vrak-m-cteni0", "font_small", "Why do we have so many books if we cannot pull them out anyway?")
-dialogStr("Pourquoi avons-nous tant de livres si nous ne pouvons pas les pousser de toute façon ?")
+dialogStr("Pourquoi avons-nous tant de livres si nous ne pouvons pas les sortir de toute façon ?")
 
 
 dialogId("vrak-m-cteni1", "font_small", "If you did some work-outs instead of reading about silly affairs you could fit yourself in.")
-dialogStr("Si tu faisais des travaux d'extérieur au lieu de lire ces idioties, tu pourrais passer.")
+dialogStr("Si tu faisais du sport au lieu de lire ces idioties, tu pourrais passer.")
 
 
 dialogId("vrak-m-cteni2", "font_small", "I told you not to buy that Complete Dictionary of the Abnormal.")
@@ -112,7 +112,7 @@ dialogStr("Je t'avais dis de ne pas acheter ce dictionnaire complet de l'anormal
 
 
 dialogId("vrak-v-policky", "font_big", "Let`s think. We can`t get these books off the shelf.")
-dialogStr("Pense un peu. Nous ne pouvons pas sortir les livres des étagères.")
+dialogStr("Réfléchissons. Nous ne pouvons pas sortir les livres des étagères.")
 
 
 dialogId("vrak-m-predmety", "font_small", "There are only two objects here which we can move with any results.")
@@ -120,7 +120,7 @@ dialogStr("Il y a seulement deux objets que nous pouvons bouger de manière sign
 
 
 dialogId("vrak-m-ostnatec", "font_small", "How did that prickler get here?")
-dialogStr("Comment ce plein d'épines est arrivé ici ?")
+dialogStr("Comment ce hérisson est-il arrivé ici ?")
 
 
 dialogId("vrak-m-zivocich", "font_small", "You are in the way, strange life form!")

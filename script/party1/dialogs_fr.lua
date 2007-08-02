@@ -1,6 +1,6 @@
 
 dialogId("pt1-m-parnicek", "font_small", "Look. The party boat.")
-dialogStr("Regarde. une bateau partie.")
+dialogStr("Regarde. Un bateau-fête.")
 
 
 dialogId("pt1-v-predtucha", "font_big", "I have a feeling that this is not going to be a normal picnic.")
@@ -8,7 +8,7 @@ dialogStr("J'ai l'intuition que ça ne va pas être un pique-nique normal.")
 
 
 dialogId("pt1-m-predtucha", "font_small", "You and your feelings. Surely it`s full of kind and friendly people.")
-dialogStr("Toi et ton intuition. Il y aura sûrement toute sorte de personnes sympathiques.")
+dialogStr("Toi et ton intuition. Il y aura sûrement toutes sortes de personnes sympathiques.")
 
 
 dialogId("pt1-m-kostlivec", "font_small", "Maybe, you were right. This is a strange picnic.")
@@ -32,11 +32,11 @@ dialogStr("Je ne pense pas qu'ils puissent nous attraper. Les squelettes ne nage
 
 
 dialogId("pt1-v-pryc1", "font_big", "Stop thinking about it and move your fins so that we can get out of here.")
-dialogStr("N'y pense plus et remue toi les nageoires, ainsi nous pourrons sortir d'ici.")
+dialogStr("N'y pense plus et remue-toi les nageoires pour nous sortir d'ici.")
 
 
 dialogId("pt1-v-valec", "font_big", "You want to support that steel tube with a glass?")
-dialogStr("Tu veux porter ce tube d'acier avec du verre ?")
+dialogStr("Tu veux porter ce tube d'acier avec un verre ?")
 
 
 dialogId("pt1-m-nemuzu", "font_small", "I can`t do anything else for you.")

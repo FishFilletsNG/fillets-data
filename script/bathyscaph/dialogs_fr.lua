@@ -8,7 +8,7 @@ dialogStr("Joli microscope.")
 
 
 dialogId("bat-v-zved0", "font_big", "Shouldn`t I lift this?")
-dialogStr("Ne devrai-je pas soulever ceci ?")
+dialogStr("Ne devrais-je pas soulever ceci ?")
 
 
 dialogId("bat-v-zved1", "font_big", "Do you want me to lift this up?")
@@ -16,7 +16,7 @@ dialogStr("Veux-tu que je soulève ça ?")
 
 
 dialogId("bat-v-vyp", "font_big", "Shouldn`t I turn that off?")
-dialogStr("Ne devrai-je pas éteindre ce truc ?")
+dialogStr("Ne devrais-je pas éteindre ce truc ?")
 
 
 dialogId("bat-v-klid", "font_big", "Now it is quiet here.")
@@ -28,11 +28,11 @@ dialogStr("Nous ne pouvons pas atteindre le récepteur d'ici.")
 
 
 dialogId("bat-s-prome0", "font_snail", "That is going to be for me...")
-dialogStr("Ca va être pour ma pomme...")
+dialogStr("Ça va être pour ma pomme...")
 
 
 dialogId("bat-s-prome1", "font_snail", "That is going to be my brother...")
-dialogStr("C'est pour mon frère...")
+dialogStr("Ça va être mon frère...")
 
 
 dialogId("bat-s-prome2", "font_snail", "Could you handle that call for me, please?")
@@ -44,7 +44,7 @@ dialogStr("J'espère que je ne suis pas sur le chemin ici.")
 
 
 dialogId("bat-s-snek1", "font_snail", "Really, I can easily crawl away. Just say the word.")
-dialogStr("Vraiment, je peux nager plus loin. N'hésite pas à le demander.")
+dialogStr("Vraiment, je peux nager plus loin. N'hésitez pas à le demander.")
 
 
 dialogId("bat-s-snek2", "font_snail", "I really don`t want to be an obstacle.")
@@ -80,9 +80,9 @@ dialogStr("Allô, allô !")
 
 
 dialogId("bat-p-zhov0", "font_statue", "Hello, chief inspector Clouseau speaking. I am looking for the dangerous shellfish, who... Oh no, not now, Kato, you yellow ape!")
-dialogStr("Allô, chef inspecteur Clouseau à l'appareil. Je suis à la recherche du dangereux crustacé, qui ... Oh non, pas maintenant, Kato, tu vas rire jaune.")
+dialogStr("Allô, chef inspecteur Clouseau à l'appareil. Je suis à la recherche du dangereux crustacé, qui ... Oh non, pas maintenant, Kato, espèce de singe!")
 
 
 dialogId("bat-p-zhov1", "font_green", "Hello, you have reached the number 4202-21913271. Nobody from the family of Roundfish is presently present. Please, leave the message after the beep. What happened?")
-dialogStr("Allô, vous appelez le 4202-21913271. Toute la famille Roundfish est actuellement absente. S'il vous plaît, veuillez laissez un message après le beep. Que se passe-t-il ?")
+dialogStr("Allô, vous appelez le 4202-21913271. Toute la famille Roundfish est actuellement absente. S'il vous plaît, veuillez laissez un message après le bip. Que s'est-il passé ?")
 

@@ -12,7 +12,7 @@ dialogStr("Crrruel Captaine Silverrrr...")
 
 
 dialogId("k1-pap-drahokamy", "font_parrot", "Trrreasurre, you foools...")
-dialogStr("Trrrésorr, espèce d'idiots...")
+dialogStr("Trrrésorr, bande d'idiots...")
 
 
 dialogId("k1-pap-kruci", "font_parrot", "Good grrrief!")
@@ -44,23 +44,23 @@ dialogStr("Dangerrrreuse ssssituation, n'est-ce pas ?")
 
 
 dialogId("k1-pap-sakris", "font_parrot", "Dang it!")
-dialogStr("Fais le danser !")
+dialogStr("Bouscule-le !")
 
 
 dialogId("k1-pap-sestlustej", "font_parrot", "You`rrre too fat, you can`t make it thrrrrough.")
-dialogStr("Tu es trrrrop gros, tu ne peux pas le fairrrre passer.")
+dialogStr("Tu es trrrrop gros, tu ne peux pas passer.")
 
 
 dialogId("k1-pap-sucharek", "font_parrot", "Polly wants a crrracker!")
-dialogStr("Polly veut un pétard !")
+dialogStr("Polly veut un pétarrrd !")
 
 
 dialogId("k1-pap-trhnisi", "font_parrot", "Beat it, sirrr...")
-dialogStr("Frapper le, sirrr...")
+dialogStr("Frappez-le, maîtrrre...")
 
 
 dialogId("k1-pap-vodprejskni", "font_parrot", "Leave me alone and get lost!")
-dialogStr("Laisseez moi seul et foutez le camp !")
+dialogStr("Laissez-moi seul et foutez le camp !")
 
 
 dialogId("k1-m-copak", "font_small", "What could be inside?")
@@ -72,7 +72,7 @@ dialogStr("Qui sait ...")
 
 
 dialogId("k1-m-myslis", "font_small", "Could this be the legendary Silver`s treasure?")
-dialogStr("Se pourrait-il que ce soit le trésor légendaire du capitaine Silver ?")
+dialogStr("Se pourrait-il que ce soit le trésor du légendaire capitaine Silver ?")
 
 
 dialogId("k1-v-bedna", "font_big", "In such a small chest? The boss surely wouldn`t contact us for such a little case.")
@@ -104,15 +104,15 @@ dialogStr("Attention ! Ne le blesse pas !")
 
 
 dialogId("k1-m-tospisona", "font_small", "It`s more the other way around!")
-dialogStr("Il doit y avoir un autre chemin !")
+dialogStr("C'est plutôt le contraire !")
 
 
 dialogId("k1-m-chobotnice", "font_small", "That`s some octopus! I wonder who`s her owner?")
-dialogStr("C'est une sorte de pieuvre ! Je me demande qui est le propriétaire .")
+dialogStr("C'est un sacré poulpe ! Je me demande qui est le propriétaire .")
 
 
 dialogId("k1-v-patrila", "font_big", "Maybe it belonged to the person who lived in this cabin.")
-dialogStr("Peut-être qu'elle appartient à la personne qui vivait dans cette cabine.")
+dialogStr("Peut-être qu'il appartient à la personne qui vivait dans cette cabine.")
 
 
 dialogId("k1-m-podivin", "font_small", "Whoever lived here sure was weird.")

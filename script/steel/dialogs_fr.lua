@@ -4,5 +4,5 @@ dialogStr("C'est si calme ici...")
 
 
 dialogId("steel-m-1", "font_small", "Boy is it quiet...")
-dialogStr("Garçon, ce silence est-il...")
+dialogStr("Qu'est-ce que c'est calme...")
 

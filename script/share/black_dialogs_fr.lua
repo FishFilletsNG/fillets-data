@@ -24,7 +24,7 @@ dialogStr("Hmmm... Et maintenant je suis seul.")
 
 
 dialogId("smrt-v-5", "font_big", "Did she know she has such a sexy skeleton?")
-dialogStr("Sait-elle qu'elle a un squelette vraiment sexy ?")
+dialogStr("Savait-elle qu'elle a un squelette vraiment sexy ?")
 
 
 dialogId("smrt-v-6", "font_big", "Terrible end of the little fish...")
@@ -32,11 +32,11 @@ dialogStr("Terrible fin d'un petit poisson...")
 
 
 dialogId("smrt-v-7", "font_big", "What can be the constant of decay of the fish skeleton?")
-dialogStr("Quelle constance dans la décrépitude du squelette de poisson.")
+dialogStr("Quelle est la demi-vie d'un squelette de poisson?")
 
 
 dialogId("smrt-m-0", "font_small", "So much for him.")
-dialogStr("Trop pour lui.")
+dialogStr("Dommage pour lui.")
 
 
 dialogId("smrt-m-1", "font_small", "Oh, nooo.")
@@ -48,7 +48,7 @@ dialogStr("Et maintenant je suis seule.")
 
 
 dialogId("smrt-m-3", "font_small", "That must have hurt.")
-dialogStr("Ca devait être mortel.")
+dialogStr("Ça devait être mortel.")
 
 
 dialogId("smrt-m-4", "font_small", "He didn`t deserve such a terrible end...")
@@ -88,7 +88,7 @@ dialogStr("Relance le niveau ! L'après-vie est très ennuyeux.")
 
 
 dialogId("smrt-m-zahrobi", "font_small", "Restart the level! This afterlife is too scary.")
-dialogStr("Relance le niveau ! L'après-vie est très effrayant.")
+dialogStr("Relance le niveau ! L'après-vie est trop effrayant.")
 
 
 dialogId("smrt-v-posmrtny", "font_big", "Hellooo? Can you hear me hereafter? Is there life after death?")
@@ -100,9 +100,9 @@ dialogStr("Je ne sais pas. Je ne crois pas.")
 
 
 dialogId("smrt-m-autorest", "font_small", "I am not going to solve it alone. Don`t trouble yourself with restart, I`ll do it myself.")
-dialogStr("Je ne pourrais pas finir toute seule. T'occupe pas du redémarrage, je le fais moi-même.")
+dialogStr("Je ne pourrais pas finir toute seule. T'occupes pas du redémarrage, je le fais moi-même.")
 
 
 dialogId("smrt-v-autorest", "font_big", "And she is gone. I`m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
-dialogStr("Et elle est partie. Je suis sûr que tu l'appréciais plus que moi. Certainement tu n'as rien contre relancer le niveau.")
+dialogStr("Et elle est partie. Je suis sûr que tu l'appréciais autant que moi. Tu ne vois aucun inconvénient à relancer le niveau.")
 

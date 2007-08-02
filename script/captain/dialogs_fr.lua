@@ -8,7 +8,7 @@ dialogStr("C'était sûrement la cabine du capitaine.")
 
 
 dialogId("vl-v-kaj2", "font_big", "What would you expect after so many years?")
-dialogStr("Qu'est-ce que tu espérais après tant d'années.")
+dialogStr("À quoi t'attendais-tu après tant d'années?")
 
 
 dialogId("vl-m-hak", "font_small", "Do you think that Silver had this hook in place of his hand?")
@@ -40,11 +40,11 @@ dialogStr("Ce bandeau est très important. Le crâne humain avec une orbite vide
 
 
 dialogId("vl-leb-kecy2", "font_lightgrey", "After that unfortunate accident with a teaspoon I have a completely different viewpoint of the world.")
-dialogStr("Après ce fortuit accident avec une cuillère à thé, ma vision du monde à complètement changé.")
+dialogStr("Après ce malheureux accident avec une cuillère à thé, ma vision du monde à complètement changé.")
 
 
 dialogId("vl-leb-kecy3", "font_lightgrey", "Why am I here, after all? As if they can`t put some chest here... or a chamber pot.")
-dialogStr("Pourquoi suis-je ici après tout ? Comme s'il ne pouvait pas ici mettre un coffre... ou un pot de chambre.")
+dialogStr("Pourquoi suis-je ici après tout ? Comme s'ils ne pouvaient pas mettre un coffre ici... ou un pot de chambre.")
 
 
 dialogId("vl-leb-kecy4", "font_lightgrey", "Do you appreciate my facial expressions? Not bad for a skeleton, is it?")

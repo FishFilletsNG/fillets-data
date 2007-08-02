@@ -4,7 +4,7 @@ dialogStr("Veuillez noter que ce niveau contient cent neuf objets.")
 
 
 dialogId("zav-v-trpyt", "font_big", "And all of them gleam beautifully.")
-dialogStr("Et c'est magnifique comme ils brillent tous.")
+dialogStr("Ils brillent tous merveilleusement.")
 
 
 dialogId("zav-m-pohnout", "font_small", "Please note, that I can`t move a fin here.")
@@ -20,7 +20,7 @@ dialogStr("Ce sera bien plus joli quand nous sortirons.")
 
 
 dialogId("zav-v-zaval", "font_big", "This is very dangerous cave-in. We are lucky to be alive.")
-dialogStr("C'est une grotte très dangereuse. Nous avons eut de la chance en restant vivant.")
+dialogStr("C'est une grotte très dangereuse. Nous avons eu de la chance d'être toujours vivant.")
 
 
 dialogId("zav-m-hopskok", "font_small", "Don`t speak too soon. We`re still in here.")
@@ -28,7 +28,7 @@ dialogStr("Ne parle pas trop vite. Nous ne sommes pas encore dehors.")
 
 
 dialogId("zav-m-kameny", "font_small", "Don`t you think that these stones are arranged in a different way?")
-dialogStr("Ne penses-tu pas que ces pierres étaient rangées d'une autre manière ?")
+dialogStr("Ne penses-tu pas que ces pierres sont rangées d'une autre manière ?")
 
 
 dialogId("zav-v-zeleny", "font_big", "You are right. That green one was surely over there!")
@@ -48,5 +48,5 @@ dialogStr("Regarde, notre joueur(se) satisfait son besoin de couleurs.")
 
 
 dialogId("zav-v-zachranit", "font_big", "Maybe he could try to save us instead now.")
-dialogStr("Peut-être qu'il ou elle pourrait plutôt sauvegarder maintenant.")
+dialogStr("Peut-être qu'il ou elle pourrait plutôt nous sauver maintenant.")
 

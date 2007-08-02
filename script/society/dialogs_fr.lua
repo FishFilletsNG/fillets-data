@@ -4,7 +4,7 @@ dialogStr("Bon, cet escargot bloque le chemin.")
 
 
 dialogId("mik-v-projet", "font_big", "I can`t swim through.")
-dialogStr("Je ne peux pas nager au travers.")
+dialogStr("Je ne peux pas passer.")
 
 
 dialogId("mik-m-krab", "font_small", "Those crabs are too talkative.")
@@ -40,7 +40,7 @@ dialogStr("Oui.")
 
 
 dialogId("mik-m-nezlob", "font_small", "Don`t be mad at them.")
-dialogStr("T'énerve pas sur eux.")
+dialogStr("T'énerves pas sur eux.")
 
 
 dialogId("mik-m-myslit", "font_small", "Now we can calmly ponder how to get out of here.")

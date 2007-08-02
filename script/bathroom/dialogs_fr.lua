@@ -1,14 +1,14 @@
 
 dialogId("br-v-komfort", "font_big", "It`s quite comfortable for a wasteyard.")
-dialogStr("Plutôt confortable pour un taudis.")
+dialogStr("Plutôt confortable pour une décharge.")
 
 
 dialogId("br-m-bydli", "font_small", "What do you think, does anybody live here?")
-dialogStr("Que crois-tu, que personne ne vit ici ?")
+dialogStr("Qu'en penses-tu, est-ce que quelqu'un vit ici ?")
 
 
 dialogId("br-v-santusak", "font_big", "Some underwater homeless.")
-dialogStr("une sorte de sans-abris des mers.")
+dialogStr("une sorte de sans-abri des mers.")
 
 
 dialogId("br-m-podvodnik", "font_small", "We call them shell-less.")
@@ -16,7 +16,7 @@ dialogStr("Nous les appelons les sans-coquilles.")
 
 
 dialogId("br-m-vsim0", "font_small", "Did you notice that...")
-dialogStr("As-tu noté que...")
+dialogStr("As-tu remarqué que...")
 
 
 dialogId("br-m-vsim1", "font_small", "Don`t you think that...")
@@ -52,7 +52,7 @@ dialogStr("J'ai vu beaucoup de choses inutiles, mais une douche sous-marine...")
 
 
 dialogId("br-v-lazen", "font_big", "Maybe it sprays air, like in the bubble bath.")
-dialogStr("Peut-être qu'elle lance de l'air, comme pour le bain à bulles.")
+dialogStr("Peut-être qu'elle souffle de l'air, comme pour le bain à bulles.")
 
 
 dialogId("br-m-zapnout", "font_small", "Do you think we could turn it on?")
@@ -64,29 +64,29 @@ dialogStr("Difficilement. Mais nous pouvons la faire tomber.")
 
 
 dialogId("br-m-poklady", "font_small", "Now this is real treasure.")
-dialogStr("Maintenant c'est un vrai trésor.")
+dialogStr("Ça c'est un vrai trésor.")
 
 
 dialogId("br-v-nechat", "font_big", "We should have left it alone.")
-dialogStr("Nous devrions le laissez seul.")
+dialogStr("Nous aurions dû le laisser seul.")
 
 
 dialogId("br-m-nefunguje", "font_small", "And it doesn`t work anyway.")
-dialogStr("Et il ne marchera pas de toute façon.")
+dialogStr("Et il ne marche pas de toute façon.")
 
 
 dialogId("br-m-ahoj", "font_small", "Hello, inside there.")
-dialogStr("Hé ho, à l'intérieur.")
+dialogStr("Hé ho, là dedans.")
 
 
 dialogId("br-v-draha", "font_big", "This must be better than a rollercoaster.")
-dialogStr("Ce doit être mieux que le rouleau des vagues.")
+dialogStr("Ça doit être mieux qu'une montagne russe.")
 
 
 dialogId("br-m-zkusit", "font_small", "I would love to try it myself.")
-dialogStr("J'adorerai l'essayer moi-même.")
+dialogStr("J'adorerais l'essayer moi-même.")
 
 
 dialogId("br-m-bavi", "font_small", "He seems to be enjoying himself.")
-dialogStr("Il semble beaucoup apprécier lui-même.")
+dialogStr("Il semble beaucoup s'apprécier.")
 

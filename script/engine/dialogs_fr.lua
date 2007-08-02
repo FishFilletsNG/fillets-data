@@ -4,7 +4,7 @@ dialogStr("Je pense que nous pouvons glaner quelques informations à propos de l
 
 
 dialogId("mot-v-konvencni", "font_big", "This looks more like conventional propulsion for the landing craft.")
-dialogStr("Ceci ressemble plus à la propulsion conventionnelle d'un véhicule terrestre.")
+dialogStr("Ceci ressemble plus à la propulsion conventionnelle d'un véhicule d'atterrissage.")
 
 
 dialogId("mot-m-tak", "font_small", "So. We found the drive. We have achieved one of the objectives of our mission.")
@@ -20,7 +20,7 @@ dialogStr("Je suis déçue qu'aucune de ces merveilles technologiques ne marche.
 
 
 dialogId("mot-m-akce1", "font_small", "I`d like to see some of these extraterrestrial gizmos in action.")
-dialogStr("J'aimerai voir quelques uns de ces gadgets extraterrestres en fonctionnement.")
+dialogStr("J'aimerais voir fonctionner quelques uns de ces gadgets extraterrestres.")
 
 
 dialogId("mot-m-akce2", "font_small", "I wonder if this motor could work under water.")
@@ -32,7 +32,7 @@ dialogStr("Peut-être qu'il vaut mieux pour nous qu'il ne puisse pas.")
 
 
 dialogId("mot-v-funkce1", "font_big", "I am rather glad we cannot turn anything on here.")
-dialogStr("Je me réjouis que nous ne pouvons rien tourner ici.")
+dialogStr("Je suis assez rassuré de ne rien pouvoir allumer ici.")
 
 
 dialogId("mot-v-funkce2", "font_big", "We should be happy that we could not switch anything on yet.")
@@ -48,27 +48,27 @@ dialogStr("Je ne peux blesser personne ici.")
 
 
 dialogId("mot-m-zvuky0", "font_small", "What have you done? Turn off that roar!")
-dialogStr("Qu'as-tu fait ? Eteint ce tintamarre.")
+dialogStr("Qu'as-tu fait ? Éteins ce tintamarre.")
 
 
 dialogId("mot-m-zvuky1", "font_small", "This is terrible! Turn it off before it`s too late!")
-dialogStr("C'est horrible ! Eteint le avant qu'il ne soit trop tard !")
+dialogStr("C'est horrible ! Éteins-le avant qu'il ne soit trop tard !")
 
 
 dialogId("mot-v-nemuzu0", "font_big", "I can`t! I can`t take it out!")
-dialogStr("Je ne peux pas ! Impossible de la retirer !")
+dialogStr("Je ne peux pas ! Impossible de l'arrêter !")
 
 
 dialogId("mot-v-nemuzu1", "font_big", "I don`t know how! I can`t take it out!")
-dialogStr("Je ne sais pas comment ! Impossible de la retirer !")
+dialogStr("Je ne sais pas comment ! Impossible de l'arrêter !")
 
 
 dialogId("mot-m-mayday", "font_small", "Mayday! Mayday!")
-dialogStr("Mayday! Mayday!")
+dialogStr("SOS! SOS!")
 
 
 dialogId("mot-v-konecne0", "font_big", "Finally.")
-dialogStr("Finalement.")
+dialogStr("Enfin.")
 
 
 dialogId("mot-v-konecne1", "font_big", "What a relief.")
@@ -76,11 +76,11 @@ dialogStr("Quel soulagement.")
 
 
 dialogId("mot-v-zvuky0", "font_big", "What are you doing? Where are we going?")
-dialogStr("Qu'est-ce que tu fais ? Où est-ce que l'on va ?")
+dialogStr("Qu'est-ce que tu fais ? Où allons nous ?")
 
 
 dialogId("mot-v-zvuky1", "font_big", "What have you activated? Where is it taking us?")
-dialogStr("Qu'est-ce que tu as activé ? Où est-ce qu'on nous emmène ?")
+dialogStr("Qu'est-ce que tu as déclenché ? Où est-ce qu'on nous emmène ?")
 
 
 dialogId("mot-m-nemuzu0", "font_small", "How can I turn it off?!")
@@ -96,9 +96,9 @@ dialogStr("Merci.")
 
 
 dialogId("mot-m-konecne1", "font_small", "Finally.")
-dialogStr("Finalemment.")
+dialogStr("Enfin.")
 
 
 dialogId("mot-v-znovu0", "font_big", "I am only afraid we`ll have to turn it on again.")
-dialogStr("J'ai seulement peur que nous le rallumions.")
+dialogStr("J'ai seulement peur que nous ayons à le rallumer.")
 

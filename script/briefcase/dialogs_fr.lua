@@ -4,19 +4,19 @@ dialogStr("Oh non, ça recommence...")
 
 
 dialogId("kuf-v-noco", "font_big", "You know there`s nothing we can do about it.")
-dialogStr("Tu sais, nous n'y pouvons rien.")
+dialogStr("Tu sais que nous n'y pouvons rien.")
 
 
 dialogId("kuf-v-hod", "font_big", "Let`s push it down so we can take a look at it.")
-dialogStr("Poussons le, ainsi nous pourrons regarder.")
+dialogStr("Poussons le pour pouvoir l'examiner.")
 
 
 dialogId("kuf-v-doprace", "font_big", "Well, let`s get to work.")
-dialogStr("Et bien, allons bosser.")
+dialogStr("Et bien, au boulot.")
 
 
 dialogId("kuf-v-dotoho", "font_big", "So, now we can finally get started.")
-dialogStr("Maintenant on peut y aller.")
+dialogStr("Maintenant on peut vraiment s'y mettre.")
 
 
 dialogId("kuf-m-ven", "font_small", "Our first task is to get out of this room.")
@@ -24,7 +24,7 @@ dialogStr("Commençons par sortir de cette pièce.")
 
 
 dialogId("kuf-v-ukol", "font_big", "This, by the way, is going to be our task in all the other rooms as well.")
-dialogStr("Soit dit en passant, ce sera aussi notre tâche à travers toutes les autres salles.")
+dialogStr("Au fait : ce sera aussi notre objectif dans toutes les autres salles.")
 
 
 dialogId("kuf-v-jeste", "font_big", "Should we watch it again?")
@@ -32,11 +32,11 @@ dialogStr("Devons-nous le regarder à nouveau ?")
 
 
 dialogId("kuf-m-disk", "font_small", "How? The disk self-destructed.")
-dialogStr("Comment ? le message s'est autodétruit.")
+dialogStr("Comment ? Le message s'est autodétruit.")
 
 
 dialogId("kuf-v-restart", "font_big", "We could restart the level.")
-dialogStr("Nous pouvons recommencer le niveau.")
+dialogStr("Nous pourrions recommencer le niveau.")
 
 
 dialogId("kuf-m-pravda", "font_small", "That`s true...")
@@ -44,7 +44,7 @@ dialogStr("C'est vrai...")
 
 
 dialogId("kuf-m-dodilny", "font_small", "Come on, let`s take the player into the workshop and show him the work safety regulations.")
-dialogStr("Viens, emmenons le joueur dans l'atelier et montrons-lui le travail sans risque.")
+dialogStr("Viens, emmenons le joueur dans l'atelier et montrons-lui les règles de sécurité au travail.")
 
 
 dialogId("kuf-v-napad", "font_big", "Good idea.")
@@ -64,7 +64,7 @@ dialogStr("Pour le moment ne touche à rien, regarde et apprends. Nous allons te
 
 
 dialogId("help2", "font_big", "Before entering the workshop, let`s save the game - just press the F2 key.")
-dialogStr("Avant de rentrer dans l'atelier, sauvegarde le jeu - juste en appuyant sur la touche F2.")
+dialogStr("Avant de rentrer dans l'atelier, sauvegardons le jeu - il suffit d'appuye sur la touche F2.")
 
 
 dialogId("help3", "font_small", "First we`ll show you what can hurt us.")
@@ -76,7 +76,7 @@ dialogStr("Je suis volontaire pour être la victime.")
 
 
 dialogId("help5", "font_small", "First of all, we shouldn`t drop things on each other.")
-dialogStr("En premier lieu, nous ne pouvons pas lâcher des objet l'un sur l'autre.")
+dialogStr("En premier lieu, nous ne devons pas lâcher des objet l'un sur l'autre.")
 
 
 dialogId("help6", "font_small", "We also can`t swim downwards when carrying an object, because it would fall on us.")
@@ -84,11 +84,11 @@ dialogStr("Nous ne pouvons pas nager vers le bas quand nous portons un objet, pa
 
 
 dialogId("help7", "font_big", "Now we`ll start again - or we can load the saved game by pressing the F3 key.")
-dialogStr("Maintenant nous recommençons - ou nous pouvons charger la sauvegarde en appuyant sur la touche F3.")
+dialogStr("Maintenant nous recommençons à zéro - ou nous pouvons charger la sauvegarde en appuyant sur la touche F3.")
 
 
 dialogId("help8", "font_big", "And now we`re back where we last saved the game.")
-dialogStr("Et maintenant nous sommes revenus à la position sauvegardée.")
+dialogStr("Et maintenant nous sommes revenus à la dernière position sauvegardée.")
 
 
 dialogId("help9", "font_small", "Another thing we must not do is push objects along our back.")
@@ -96,7 +96,7 @@ dialogStr("Nous ne pouvons pas non plus pousser des objets le long de notre dos.
 
 
 dialogId("help10", "font_small", "Some objects are shaped in such a way that we could hold them and push them at the same time - but we`re not allowed to do this either.")
-dialogStr("Certains objets sont dessinés de manière à ce que l'on peux les porter et les pousser en même temps - Mais nous ne sommes pas autoriser à le faire.")
+dialogStr("Certains objets ont une forme telle que l'on peux les porter et les pousser en même temps - Mais nous ne sommes pas autorisés à le faire.")
 
 
 dialogId("help11", "font_big", "Again, we load a saved game by pressing the F3 key.")
@@ -104,7 +104,7 @@ dialogStr("Une nouvelle fois nous chargeons la sauvegarde en appuyant sur la tou
 
 
 dialogId("help12", "font_small", "We also can`t drop additional objects on a pile that one of us is carrying.")
-dialogStr("Nous ne pouvons pas lâcher de nouveau objet sur un tas qui est porté par l'un de nous.")
+dialogStr("Nous ne pouvons pas lâcher de nouvel objet sur un tas qui est porté par l'un de nous.")
 
 
 dialogId("help13", "font_small", "And unlike my bigger partner, I can`t move or even carry steel objects.")
@@ -120,7 +120,7 @@ dialogStr("Nous pouvons toujours soulever des objets et les laisser tomber.")
 
 
 dialogId("help16", "font_small", "We can push an object along each other`s back only if the object will then be pushed onto another support...")
-dialogStr("Nous pouvons transporter un objet sur notre dos seulement si l'objet va s'appuyer sur autre chose.")
+dialogStr("Nous pouvons faire glisser un objet sur notre dos seulement si l'objet va s'appuyer sur autre chose.")
 
 
 dialogId("help17", "font_small", "... and even let it drop on each other in this case.")
@@ -140,7 +140,7 @@ dialogStr("Nous pouvons nager librement sous un objet que nous supportons tous l
 
 
 dialogId("help21", "font_small", "And we can push objects off of each other`s back, as long as the object falls down immediately.")
-dialogStr("Et nous pouvons pousser les objets de nos dos respectif si l'objet tombe immédiatement.")
+dialogStr("Et nous pouvons pousser les objets de nos dos respectifs dans la mesure où l'objet tombe immédiatement.")
 
 
 dialogId("help22", "font_big", "That`s about it for the rules. If you want to know more, press F1 and read the help section.")
@@ -148,5 +148,5 @@ dialogStr("Voilà pour les règles. Si vous voulez en savoir plus, appuyer sur F
 
 
 dialogId("help23", "font_small", "In summary, we can only lift objects, let them drop, push them along a solid surface, push them onto a surface, and push them off of each other.")
-dialogStr("En résumé, nous pouvons seulement soulevez les objets, les laisser tomber, les pousser le long d'une surface solide, les pousser sur une surface, et les faire tomber de l'un de nous.")
+dialogStr("En résumé, nous pouvons seulement soulever les objets, les laisser tomber, les pousser le long d'une surface solide, les pousser sur une surface, et les faire tomber de l'un de nous.")
 

@@ -1,6 +1,6 @@
 
 dialogId("re-v-koraly0", "font_big", "I have never seen such violet corals.")
-dialogStr("Je n'ai jamais vu ce type de corail violet.")
+dialogStr("Je n'ai jamais vu des coraux si violets.")
 
 
 dialogId("re-v-koraly1", "font_big", "I don`t like violet corals.")
@@ -12,7 +12,7 @@ dialogStr("J'aime le corail violet.")
 
 
 dialogId("re-m-libi1", "font_small", "They look nice to me.")
-dialogStr("Il me va bien.")
+dialogStr("Ils me plaisent bien.")
 
 
 dialogId("re-m-libi2", "font_small", "I hope there will be even more interesting corals in the levels to come.")
@@ -20,7 +20,7 @@ dialogStr("J'espère qu'il y aura du corail plus intéressant dans les prochains
 
 
 dialogId("re-v-pokoj", "font_big", "God forbid.")
-dialogStr("Dieu soit loué.")
+dialogStr("Qui sait.")
 
 
 dialogId("re-v-ocel", "font_big", "We will have to lift this steel...")
@@ -36,7 +36,7 @@ dialogStr("N'allons-nous pas remonter le moral de ce crabe un petit peu ?")
 
 
 dialogId("re-v-nevsimej", "font_big", "Ignore it.")
-dialogStr("Ignore le.")
+dialogStr("Ignore-le.")
 
 
 dialogId("re-v-nech", "font_big", "Leave that crab alone.")

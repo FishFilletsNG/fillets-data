@@ -8,7 +8,7 @@ dialogStr("date de la publication de Dragon's Lair, Règles pour les débutants,
 
 
 dialogId("dlg-x-poster4", "font_orange", "The world of role-playing games will soon change forever.")
-dialogStr("Le monde du jeu de rôle sera transformé à jamais.")
+dialogStr("Le monde des jeux de rôle sera transformé à jamais.")
 
 
 dialogId("dlg-x-poster5", "font_orange", "Dragon's Lair Plus is not only a new version.")
@@ -24,15 +24,15 @@ dialogStr("De nombreuses nouvelles possibilités. Nouvelles carrières. Nouveau 
 
 
 dialogId("dlg-x-poster8", "font_orange", "A game for 21. century.")
-dialogStr("Un jeu pour le 21 siècle.")
+dialogStr("Un jeu pour le 21ème siècle.")
 
 
 dialogId("dlg-x-poster9", "font_orange", "GAMES HAVE CHANGED")
-dialogStr("LES JEUX DOIVENT CHANGER")
+dialogStr("LES JEUX ONT CHANGÉ")
 
 
 dialogId("dlg-x-poster10", "font_poster", "This is what we get from the computer after inserting the waterproof diskette that was found during our investigation of secret criminal organisation.")
-dialogStr("C'est ce que nous avons obtenu en insérant la disquette étanche que nous avons trouvée lors de nos investigations à propos d'une organisation secrète et criminelle.")
+dialogStr("C'est ce que nous avons obtenu en insérant la disquette étanche que nous avons trouvée lors de notre enquête sur une organisation secrète et criminelle.")
 
 
 dialogId("dlg-x-poster11", "font_poster", "We are shocked. Do not let journalists know it.")
@@ -44,5 +44,5 @@ dialogStr("Nous devons éviter la panique.")
 
 
 dialogId("dlg-x-poster13", "font_poster", "And subscribe two copies for us.")
-dialogStr("Et commander deux copie pour nous.")
+dialogStr("Et commander deux copies pour nous.")
 

@@ -4,7 +4,7 @@ dialogStr("Il fait pas un peu froid ?")
 
 
 dialogId("tr-v-jid1", "font_big", "No wonder. This is the Winter Mess Hall.")
-dialogStr("T'inquiète pas. C'est un salon d'hiver")
+dialogStr("T'inquiètes pas. C'est un salon d'hiver")
 
 
 dialogId("tr-m-chlad2", "font_small", "I`m cold.")
@@ -24,7 +24,7 @@ dialogStr("Tu devrais commencer à réfléchir à comment déplacer les tables."
 
 
 dialogId("tr-m-ztuhl", "font_small", "Everything is so frozen here...")
-dialogStr("Tout est si froid ici...")
+dialogStr("Tout est si glacé ici...")
 
 
 dialogId("tr-m-au1", "font_small", "Ow!")

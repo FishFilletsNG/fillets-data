@@ -1,6 +1,6 @@
 
 dialogId("1st-m-cotobylo", "font_small", "What was that?")
-dialogStr("Qu'est ce que c'est ?")
+dialogStr("Qu'est ce que c'était ?")
 
 
 dialogId("1st-v-netusim", "font_big", "I have no idea.")
@@ -20,7 +20,7 @@ dialogStr("Pourquoi rien ne se passe ?")
 
 
 dialogId("1st-m-hej", "font_small", "Hey, player!")
-dialogStr("Hé, Joueur !")
+dialogStr("Hé, joueur(se) !")
 
 
 dialogId("1st-v-navod1", "font_big", "You can control us with arrow keys and use the space bar to switch fish.")
@@ -36,7 +36,7 @@ dialogStr("... si nous pouvons y aller sans déplacer d'objet...")
 
 
 dialogId("1st-m-navod6", "font_small", "...we`ll follow your clicks.")
-dialogStr("... nous suivrons tes cliques.")
+dialogStr("... nous suivrons tes clics.")
 
 
 dialogId("1st-v-navod7", "font_big", "And when you right-click somewhere, we`ll try to get there, pushing aside all obstacles in our way.")
@@ -48,7 +48,7 @@ dialogStr("Ton but est de nous faire sortir tous les deux.")
 
 
 dialogId("1st-v-davej", "font_big", "And be careful not to hurt us. If you drop something on us or...")
-dialogStr("Attention à ne pas nous blesser. Si tu nous fait tomber quelque chose dessus ou ...")
+dialogStr("Attention à ne pas nous blesser. Si tu nous fais tomber quelque chose dessus ou ...")
 
 
 dialogId("1st-m-nechtoho", "font_small", "Oh, stop it. We`ll tell him in the next level.")
@@ -84,7 +84,7 @@ dialogStr("Malheur, je ne peux pas passer.")
 
 
 dialogId("1st-v-pribral", "font_big", "I must have gained some weight.")
-dialogStr("J'ai du prendre du poids.")
+dialogStr("J'ai dû prendre du poids.")
 
 
 dialogId("1st-v-posunout", "font_big", "Could you push the chair a little bit to the left?")
@@ -96,7 +96,7 @@ dialogStr("Oups ! Quelle erreur. Nous devons sortir tous les deux pour pouvoir c
 
 
 dialogId("1st-v-nedostanu", "font_big", "There`s no way I can get out now. You`ll have to restart the level.")
-dialogStr("Aucun moyen de sortir maintenant. Tu dois refaire le niveau.")
+dialogStr("Plus moyen de sortir maintenant. Tu dois refaire le niveau.")
 
 
 dialogId("1st-v-stiskni", "font_big", "You have to press the long arrow on your keyboard.")
@@ -104,7 +104,7 @@ dialogStr("Tu dois appuyer sur la longue flèche du clavier.")
 
 
 dialogId("1st-m-backspace", "font_small", "Humans call it a backspace key.")
-dialogStr("Les Hommes l'appelle touche retour.")
+dialogStr("Les Hommes l'appellent touche retour.")
 
 
 dialogId("1st-v-jedno", "font_big", "Whatever. It was funnier in Czech.")
@@ -116,7 +116,7 @@ dialogStr("L'option redémarrage se trouve aussi dans le panneau de contrôle.")
 
 
 dialogId("1st-m-pokud", "font_small", "If you think you would rather restart the level, no problem.")
-dialogStr("Si tu penses qu'il est préférable de refaire le niveau, pas de soucis.")
+dialogStr("Si tu penses qu'il est préférable de refaire le niveau, pas de souci.")
 
 
 dialogId("1st-v-znovu", "font_big", "You just have to press the long arrow on your keyboard.")
@@ -124,5 +124,5 @@ dialogStr("Tu n'as qu'à appuyer sur la longue flèche du clavier.")
 
 
 dialogId("1st-x-ocel", "font_darkgrey", "I`m a heavy steel cylinder. It`s not easy to move me around. Such a tiny fish, like the orange one over there, simply has no chance. I could smash her without any problem.")
-dialogStr("Je suis un lourd cylindre en acier. Il n'est pas facile de me déplacer. Un petit poisson comme l'orange, n'a aucune chance. Je peux l'écraser sans peine.")
+dialogStr("Je suis un lourd cylindre en acier. Il n'est pas facile de me déplacer. Un petit poisson comme l'orange n'a aucune chance. Je peux l'écraser sans peine.")
 

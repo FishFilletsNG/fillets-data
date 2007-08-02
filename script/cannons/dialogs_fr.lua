@@ -8,7 +8,7 @@ dialogStr("Tu veux dire dans l'eau.")
 
 
 dialogId("del-m-ci", "font_small", "Whose ship was she? Maybe she served under admiral Nelson... or captain Hornblower.")
-dialogStr("Quel navire était-elle ? Peut-être servait-elle l'amiral Nelson... ou le capitaine Hornblower.")
+dialogStr("À qui était ce navire ? Peut-être à l'amiral Nelson... ou au capitaine Hornblower.")
 
 
 dialogId("del-v-splet", "font_big", "No, I think you`re about a hundred years off.")
@@ -20,17 +20,17 @@ dialogStr("Je sens que nous allons avoir besoin de cette épée.")
 
 
 dialogId("del-m-tus", "font_small", "You and your 'feelings`. Besides, we`re not supposed to be giving any hints.")
-dialogStr("Toi et tes intuitions. De plus, nous sommes pas sensés donner des indices.")
+dialogStr("Toi et tes intuitions. De plus, nous sommes pas censés donner des indices.")
 
 
 dialogId("del-m-jedn0", "font_small", "That was a little too simple, wasn`t it?")
-dialogStr("Un petit tout simple, non ?")
+dialogStr("C'était un peu trop simple, non ?")
 
 
 dialogId("del-m-jedn1", "font_small", "Could it possibly be so simple?")
-dialogStr("Est-il possible que ce soit si simple")
+dialogStr("Est-il possible que ce soit si simple ?")
 
 
 dialogId("del-m-jedn2", "font_small", "There must be some kind of mistake.")
-dialogStr("Il y a comme une erreur.")
+dialogStr("Il doit y avoir une erreur.")
 

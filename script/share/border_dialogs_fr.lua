@@ -24,9 +24,9 @@ dialogStr("L'Agence compte sur nous. Nous ne devons pas échouer.")
 
 
 dialogId("cil-v-hlaska3", "font_big", "Certainly, we are not going to run away with the end in sight.")
-dialogStr("Evidemment, nous n'allons pas abandonner si près de la fin.")
+dialogStr("Évidemment, nous n'allons pas abandonner si près du but.")
 
 
 dialogId("cil-m-hlaska3", "font_small", "Certainly, we are not going to run away with the end in sight.")
-dialogStr("Evidemment, nous n'allons pas abandonner si près de la fin.")
+dialogStr("Évidemment, nous n'allons pas abandonner si près de la fin.")
 

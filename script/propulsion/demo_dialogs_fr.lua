@@ -4,5 +4,5 @@ dialogStr("Un écureuil - Cette notion va effectivement apparaître comme fondam
 
 
 dialogId("dlg-x-poster2", "font_poster", "Yes, a few cases of squirrel kidnaps were reported in past 5 years, especially from Arizona, Utah and Southern Moravia, but no one really took them seriously. Now we know the whole appalling truth. Technical description is included.")
-dialogStr("Oui, plusieurs cas d'écureuils kidnappés ont été enregistrés dans les cinq dernières années, spécialement en Arizona, Utah et en Moravie du sud. Mais personne ne les a pris au sérieux. Maintenant nous connaissons l'effroyable et entière vérité. La description technique est incluse.")
+dialogStr("Oui, plusieurs cas d'enlèvements d'écureuils ont été enregistrés ces cinq dernières années, en particulier en Arizona, Utah et Moravie du sud. Mais personne ne les a pris au sérieux. Maintenant nous connaissons l'effroyable et entière vérité. La description technique est incluse.")
 

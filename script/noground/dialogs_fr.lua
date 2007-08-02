@@ -12,7 +12,7 @@ dialogStr("Quoiqu'il en soit il n'y a que quatre carrés de mur ici.")
 
 
 dialogId("nog-v-smetiste0", "font_big", "This trash heap is weird...")
-dialogStr("Cet amoncellement de déchets est curieux...")
+dialogStr("Cet amas de déchets est curieux...")
 
 
 dialogId("nog-v-smetiste1", "font_big", "This garbage heap still looks kind of strange...")
