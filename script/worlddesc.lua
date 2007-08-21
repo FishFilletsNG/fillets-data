@@ -209,6 +209,7 @@ worldmap_addDesc("tank", "es", "Tanque Anfibio", "Ruinas del Barco")
 worldmap_addDesc("tank", "nl", "Amfibievoertuig", "Scheepswrakken")
 worldmap_addDesc("tank", "bg", "Танкът - амфибия", "Корабни останки")
 worldmap_addDesc("tank", "sv", "Amfibietank", "Skeppsvrak")
+worldmap_addDesc("tank", "sl", "Amfibijski tank", "Ladijske razbitine")
 
 worldmap_addDesc("viking2", "en", "Eight Vikings in a Boat", "Ship Wrecks")
 worldmap_addDesc("viking2", "cs", "Osm vikingů a pes", "Vrakoviště")
@@ -220,6 +221,7 @@ worldmap_addDesc("viking2", "es", "Ocho Vikingos en un Bote", "Ruinas del Barco"
 worldmap_addDesc("viking2", "nl", "Acht vikingen in een boot", "Scheepswrakken")
 worldmap_addDesc("viking2", "bg", "Осем викинки в една лодка", "Корабни останки")
 worldmap_addDesc("viking2", "sv", "Åtta vikingar i en båt", "Skeppsvrak")
+worldmap_addDesc("viking2", "sl", "Osem vikingov v čolnu", "Ladijske razbitine")
 
 worldmap_addDesc("party2", "en", "Return from the Party", "Ship Wrecks")
 worldmap_addDesc("party2", "cs", "Návrat z výletu", "Vrakoviště")
@@ -231,6 +233,7 @@ worldmap_addDesc("party2", "es", "Regreso de la Fiesta", "Ruinas del Barco")
 worldmap_addDesc("party2", "nl", "Terugkeer van het feest", "Scheepswrakken")
 worldmap_addDesc("party2", "bg", "Завръщане от партито", "Корабни останки")
 worldmap_addDesc("party2", "sv", "Hem efter festen", "Skeppsvrak")
+worldmap_addDesc("party2", "sl", "Vrnitev z zabave", "Ladijske razbitine")
 
 worldmap_addDesc("gods", "en", "The Gods Must Be Mad", "Ship Wrecks")
 worldmap_addDesc("gods", "cs", "Bohové musí být šílení", "Vrakoviště")
@@ -242,6 +245,7 @@ worldmap_addDesc("gods", "es", "Los Dioses Deben de Estar Locos", "Ruinas del Ba
 worldmap_addDesc("gods", "nl", "De goden zijn gek", "Scheepswrakken")
 worldmap_addDesc("gods", "bg", "Боговете сигурно са полудели", "Корабни останки")
 worldmap_addDesc("gods", "sv", "Gudarna måste vara tokiga", "Skeppsvrak")
+worldmap_addDesc("gods", "sl", "Bogovi morajo biti noriu", "Ladijske razbitine")
 
 worldmap_addDesc("elevator1", "en", "House with an Elevator", "City In the Deep")
 worldmap_addDesc("elevator1", "cs", "Dům s výtahem", "Město v hlubinách")
@@ -253,6 +257,7 @@ worldmap_addDesc("elevator1", "es", "Casa con Ascensor", "Ciudad en lo Profundo"
 worldmap_addDesc("elevator1", "nl", "Huis met een lift", "De verzonken stad")
 worldmap_addDesc("elevator1", "bg", "Къща с асансьор", "Потъналият град")
 worldmap_addDesc("elevator1", "sv", "Hus med en hiss", "Staden i djupet")
+worldmap_addDesc("elevator1", "sl", "Hiša z dvigalom", "Mesto v Globini")
 
 worldmap_addDesc("city", "en", "Welcome To Our City", "City In the Deep")
 worldmap_addDesc("city", "cs", "Vítejte ve městě!", "Město v hlubinách")
@@ -263,6 +268,7 @@ worldmap_addDesc("city", "pl", "Witajcie w naszym mieście", "Miasto w głębina
 worldmap_addDesc("city", "es", "Bienvenido a nuestra Ciudad", "Ciudad en lo Profundo")
 worldmap_addDesc("city", "nl", "Welkom in onze stad", "De verzonken stad")
 worldmap_addDesc("city", "sv", "Välkommen till vår stad", "Staden i djupet")
+worldmap_addDesc("city", "sl", "Dobrodošli v našem mestu", "Mesto v Globini")
 
 worldmap_addDesc("ufo", "en", "Independence Day", "City In the Deep")
 worldmap_addDesc("ufo", "cs", "Den nezávislosti", "Město v hlubinách")
@@ -274,6 +280,7 @@ worldmap_addDesc("ufo", "es", "Día de la Independencia", "Ciudad en lo Profundo
 worldmap_addDesc("ufo", "nl", "Independence Day", "De verzonken stad")
 worldmap_addDesc("ufo", "bg", "Денят на независимостта", "Потъналият град")
 worldmap_addDesc("ufo", "sv", "Självständighetsdagen", "Staden i djupet")
+worldmap_addDesc("ufo", "sl", "Dan neodvisnosti", "Mesto v Globini")
 
 worldmap_addDesc("columns", "en", "The Columns", "City In the Deep")
 worldmap_addDesc("columns", "cs", "Na kolonádě", "Město v hlubinách")
