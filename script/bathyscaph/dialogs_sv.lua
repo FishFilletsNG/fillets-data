@@ -1,6 +1,6 @@
 
 dialogId("bat-m-tohle", "font_small", "So this is an exploratory bathyscaph.")
-dialogStr("Så det här ett forskarfartyg av typen bathyscaph.")
+dialogStr("Så det här är ett forskningsfartyg av typen batyskaf.")
 
 
 dialogId("bat-m-mikro", "font_small", "A nice microscope.")

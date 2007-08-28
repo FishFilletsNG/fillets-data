@@ -196,7 +196,7 @@ worldmap_addDesc("bathyscaph", "pl", "Batyskaf", "Cmentarzysko statków")
 worldmap_addDesc("bathyscaph", "es", "Batiscafo", "Ruinas del Barco")
 worldmap_addDesc("bathyscaph", "nl", "Bathyscaphe", "Scheepswrakken")
 worldmap_addDesc("bathyscaph", "bg", "Батискаф", "Корабни останки")
-worldmap_addDesc("bathyscaph", "sv", "Bathyscaph", "Skeppsvrak")
+worldmap_addDesc("bathyscaph", "sv", "Batyskaf", "Skeppsvrak")
 worldmap_addDesc("bathyscaph", "sl", "Batiskaf", "Ladijske razbitine")
 
 worldmap_addDesc("tank", "en", "Amphibious Tank", "Ship Wrecks")

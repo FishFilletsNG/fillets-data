@@ -1,6 +1,6 @@
 
 dialogId("sv-m-pomohli", "font_small", "This is some improvement. From bathyscaph to tank, this is like from a line into a net.")
-dialogStr("Det här var bättre. Från bathyscaph till en tank, det som att byta från en lina till ett nät.")
+dialogStr("Det här var bättre. Från en batyskaf till en tank, det är som att byta från en lina till ett nät.")
 
 
 dialogId("sv-v-bezsneku", "font_big", "At least there are no oh-so-obliging snails here.")
