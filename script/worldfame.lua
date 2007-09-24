@@ -79,3 +79,7 @@ node_bestSolution("windoze", 553, "Gabor Braun")
 node_bestSolution("hardware", 635, "Gabor Braun")
 node_bestSolution("floppy", 998, "Gabor Braun")
  
+node_bestSolution("hole", 499, "Miroslav Olsak")
+node_bestSolution("hanoi", 446, "Miroslav Olsak")
+node_bestSolution("rush", 870, "Miroslav Olsak")
+node_bestSolution("nowall", 566, "Miroslav Olsak")

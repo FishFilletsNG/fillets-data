@@ -116,15 +116,6 @@ worldmap_addDesc("wc", "sv", "Inlåst i garderoben", "Fiskhuset")
 worldmap_addDesc("wc", "sl", "Zaprti na stranišču", "Ribja hiša")
 worldmap_addDesc("wc", "pt_BR", "Trancado no Banheiro", "Peixaria")
 
-worldmap_addDesc("fdto", "en", "FDTO Building", "Fish House")
-worldmap_addDesc("fdto", "cs", "Budova FDTO", "Rybí domeček")
-worldmap_addDesc("fdto", "de", "Haus FDTO", "Fischhaus")
-worldmap_addDesc("fdto", "pl", "Kwatera FDTO", "Rybi domek")
-worldmap_addDesc("fdto", "sv", "FDTO högkvarter", "Fiskhuset")
-worldmap_addDesc("fdto", "bg", "Сградата на ООРД", "Дома на рибките")
-worldmap_addDesc("fdto", "sl", "Zgradba RDA", "Ribja hiša")
-worldmap_addDesc("fdto", "pt_BR", "Casa FDTO?", "Peixaria")
-
 worldmap_addDesc("submarine", "en", "Drowned Submarine", "Ship Wrecks")
 worldmap_addDesc("submarine", "cs", "Utonulá ponorka", "Vrakoviště")
 worldmap_addDesc("submarine", "fr", "Le sous-marin englouti", "Les épaves")
@@ -904,5 +895,24 @@ worldmap_addDesc("score", "bg", "Специален резултат", "")
 worldmap_addDesc("score", "sv", "Specialpoäng", "")
 worldmap_addDesc("score", "pt_BR", "Pontuação Especial", "")
 
+worldmap_addDesc("fdto", "en", "FDTO Building", "Branch of New Generation")
+worldmap_addDesc("fdto", "cs", "Budova FDTO", "Větev Nové generace")
+worldmap_addDesc("fdto", "de", "Haus FDTO", "NG")
+worldmap_addDesc("fdto", "pl", "Kwatera FDTO", "NG")
+worldmap_addDesc("fdto", "sv", "FDTO högkvarter", "NG")
+worldmap_addDesc("fdto", "bg", "Сградата на ООРД", "NG")
+worldmap_addDesc("fdto", "sl", "Zgradba RDA", "NG")
+worldmap_addDesc("fdto", "pt_BR", "Casa FDTO?", "NG")
 
+worldmap_addDesc("hole", "en", "Hard Hole", "Branch of New Generation")
+worldmap_addDesc("hole", "cs", "Nepříjemná propast", "Větev Nové generace")
+
+worldmap_addDesc("hanoi", "en", "Separated", "Branch of New Generation")
+worldmap_addDesc("hanoi", "cs", "Odděleni", "Větev Nové Generace")
+
+worldmap_addDesc("rush", "en", "Filled Car Park", "Branch of New Generation")
+worldmap_addDesc("rush", "cs", "Zaplněné parkoviště", "Větev Nové Generace")
+
+worldmap_addDesc("nowall", "en", "No Wall at All", "Branch of New Generation")
+worldmap_addDesc("nowall", "cs", "Vůbec žádná zeď", "Větev Nové Generace")
 

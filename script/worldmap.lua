@@ -9,7 +9,13 @@ branch_addNode("library", "stairs", "script/stairs/init.lua", 285, 252)
 branch_addNode("stairs", "broom", "script/broom/init.lua", 279, 286)
 branch_addNode("broom", "reef", "script/reef/init.lua", 292, 315)
 branch_addNode("reef", "wc", "script/wc/init.lua", 314, 338)
+
+-- Branch of New Generation
 branch_addNode("wc", "fdto", "script/fdto/init.lua", 345, 345, true)
+branch_addNode("fdto", "hole", "script/hole/init.lua", 378, 362)
+branch_addNode("hole", "hanoi", "script/hanoi/init.lua", 418, 415)
+branch_addNode("hanoi", "rush", "script/rush/init.lua", 420, 442)
+branch_addNode("rush", "nowall", "script/nowall/init.lua", 401, 461)
 
 -- Ship Wrecks
 branch_addNode("library", "submarine", "script/submarine/init.lua", 340, 228, true)
