@@ -11,11 +11,11 @@ branch_addNode("broom", "reef", "script/reef/init.lua", 292, 315)
 branch_addNode("reef", "wc", "script/wc/init.lua", 314, 338)
 
 -- Branch of New Generation
-branch_addNode("wc", "fdto", "script/fdto/init.lua", 345, 345, true)
-branch_addNode("fdto", "hole", "script/hole/init.lua", 378, 362)
-branch_addNode("hole", "hanoi", "script/hanoi/init.lua", 418, 415)
-branch_addNode("hanoi", "rush", "script/rush/init.lua", 420, 442)
-branch_addNode("rush", "nowall", "script/nowall/init.lua", 401, 461)
+branch_addNode("broom", "hanoi", "script/hanoi/init.lua", 312, 266, true)
+branch_addNode("hanoi", "rush", "script/rush/init.lua", 350, 265)
+branch_addNode("rush", "fdto", "script/fdto/init.lua", 388, 264)
+branch_addNode("fdto", "nowall", "script/nowall/init.lua", 424, 269)
+branch_addNode("nowall", "hole", "script/hole/init.lua", 461, 278)
 
 -- Ship Wrecks
 branch_addNode("library", "submarine", "script/submarine/init.lua", 340, 228, true)
@@ -33,8 +33,8 @@ branch_addNode("party2", "gods", "script/gods/init.lua", 391, 124,
 
 -- Silver's Ship
 branch_addNode("wreck", "cabin1", "script/cabin1/init.lua", 464, 227, true)
-branch_addNode("cabin1", "snowman", "script/snowman/init.lua", 487, 256)
-branch_addNode("snowman", "cannons", "script/cannons/init.lua", 521, 271)
+branch_addNode("cabin1", "snowman", "script/snowman/init.lua", 487, 252)
+branch_addNode("snowman", "cannons", "script/cannons/init.lua", 521, 261)
 branch_addNode("cannons", "kitchen", "script/kitchen/init.lua", 558, 254)
 branch_addNode("kitchen", "cabin2", "script/cabin2/init.lua", 571, 210)
 branch_addNode("cabin2", "captain", "script/captain/init.lua", 550, 175)
@@ -65,23 +65,23 @@ branch_addNode("experiments", "propulsion", "script/propulsion/init.lua", 118, 1
         false, "script/propulsion/demo_poster.lua")
 
 -- Coral reef
-branch_addNode("reef", "corals", "script/corals/init.lua", 329, 294, true)
-branch_addNode("corals", "labyrinth", "script/labyrinth/init.lua", 367, 296)
-branch_addNode("labyrinth", "imprisoned", "script/imprisoned/init.lua", 401, 314)
-branch_addNode("imprisoned", "society", "script/society/init.lua", 418, 346)
-branch_addNode("society", "creatures", "script/creatures/init.lua", 412, 383)
-branch_addNode("creatures", "cancan", "script/cancan/init.lua", 386, 406)
-branch_addNode("cancan", "pearls", "script/pearls/init.lua", 352, 408)
-branch_addNode("pearls", "turtle", "script/turtle/init.lua", 327, 385,
+branch_addNode("reef", "corals", "script/corals/init.lua", 325, 300, true)
+branch_addNode("corals", "labyrinth", "script/labyrinth/init.lua", 359, 304)
+branch_addNode("labyrinth", "imprisoned", "script/imprisoned/init.lua", 390, 330)
+branch_addNode("imprisoned", "society", "script/society/init.lua", 409, 359)
+branch_addNode("society", "creatures", "script/creatures/init.lua", 414, 387)
+branch_addNode("creatures", "cancan", "script/cancan/init.lua", 390, 417)
+branch_addNode("cancan", "pearls", "script/pearls/init.lua", 357, 404)
+branch_addNode("pearls", "turtle", "script/turtle/init.lua", 343, 369,
         false, "script/turtle/demo_poster.lua")
 
 -- Treasure Cave
-branch_addNode("labyrinth", "aztec", "script/aztec/init.lua", 407, 282, true)
-branch_addNode("aztec", "gems", "script/gems/init.lua", 441, 291)
-branch_addNode("gems", "chest", "script/chest/init.lua", 469, 319)
-branch_addNode("chest", "alibaba", "script/alibaba/init.lua", 494, 341)
-branch_addNode("alibaba", "cave", "script/cave/init.lua", 529, 334)
-branch_addNode("cave", "grail", "script/grail/init.lua", 558, 318,
+branch_addNode("labyrinth", "aztec", "script/aztec/init.lua", 393, 298, true)
+branch_addNode("aztec", "gems", "script/gems/init.lua", 425, 313)
+branch_addNode("gems", "chest", "script/chest/init.lua", 455, 326)
+branch_addNode("chest", "alibaba", "script/alibaba/init.lua", 484, 344)
+branch_addNode("alibaba", "cave", "script/cave/init.lua", 520, 350)
+branch_addNode("cave", "grail", "script/grail/init.lua", 549, 322,
         false, "script/grail/demo_poster.lua")
 
 -- Dump
