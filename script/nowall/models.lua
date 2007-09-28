@@ -2,7 +2,7 @@
 createRoom(30, 34, "images/"..codename.."/pozadi.png")
 --setRoomWaves(5, 10, 5)
 
-room = addModel("item_fixed", 0, -35,
+room = addModel("item_fixed", 0, -37,
 [[
 .
 ]])
