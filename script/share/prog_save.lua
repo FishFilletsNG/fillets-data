@@ -49,6 +49,11 @@ if not undo_stack then
     undo_stack = {}
 end
 function script_saveUndo(moves)
+    for index, model in pairs(getModelsTable()) do
+        local extra = model_getExtraParams(model.index)
+        model.__extra_params = extra
+    end
+
     local serialized = pickle(getModelsTable())
     table.insert(undo_stack, {moves=moves, serialized=serialized})
 end
@@ -64,6 +69,7 @@ function script_loadUndo()
     assignModelAttributes(saved_table)
     for index, model in pairs(getModelsTable()) do
         model_change_setLocation(model.index, model.X, model.Y)
+        model_change_setExtraParams(model.index, model.__extra_params)
 
         if model:isLeft() ~= model.lookLeft then
             model:change_turnSide()
