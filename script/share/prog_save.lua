@@ -21,15 +21,10 @@ function script_load()
     level_load(saved_moves)
 end
 
-function script_loadState()
-    if not saved_models then
-        error("global variable 'saved_models' is not set")
-    end
+local function assignModelAttributes(saved_table)
     local models = getModelsTable()
-    local saved_table = unpickle_table(saved_models)
-
     --NOTE: don't save objects with cross references
-    --NOTE: objects address will be different after load
+    --NOTE: objects addresses will be different after load
     for model_key, model in pairs(saved_table) do
         for param_key, param in pairs(model) do
             models[model_key][param_key] = param
@@ -37,4 +32,41 @@ function script_loadState()
     end
 end
 
+function script_loadState()
+    undo_stack = {}
+    if not saved_models then
+        error("global variable 'saved_models' is not set")
+    end
+    local saved_table = unpickle_table(saved_models)
+    assignModelAttributes(saved_table)
+end
 
+--
+-- Functions to enable undo
+--
+if not undo_stack then
+    --TODO: purge the undo_stack on real restart
+    undo_stack = {}
+end
+function script_saveUndo(moves)
+    local serialized = pickle(getModelsTable())
+    table.insert(undo_stack, {moves=moves, serialized=serialized})
+end
+
+function script_loadUndo()
+    local saved = table.remove(undo_stack)
+    if not saved then
+        return
+    end
+    level_load(saved.moves)
+
+    local saved_table = unpickle_string(saved.serialized)
+    assignModelAttributes(saved_table)
+    for index, model in pairs(getModelsTable()) do
+        model_change_setLocation(model.index, model.X, model.Y)
+
+        if model:isLeft() ~= model.lookLeft then
+            model:change_turnSide()
+        end
+    end
+end
