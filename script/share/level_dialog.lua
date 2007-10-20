@@ -46,7 +46,7 @@ function dialogLoad(prefix, soundPrefix)
             DialogState.filename = dialogFile
             file_include(dialogFile)
         else
-            if string.len(lang) <= 2 then
+            if string.len(lang) <= 2 and lang == options_getParam("lang") then
                 print(string.format("DEBUG: missing translation"..
                     "; lang=%q; file=%q", lang, dialogFile))
             end
