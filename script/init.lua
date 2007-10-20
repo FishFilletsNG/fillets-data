@@ -13,6 +13,9 @@ local winCodes = {
     Spani = "es",
     Dutch = "nl",
     Bulga = "bg",
+    Swedi = "sv",
+    Slove = "sl",
+    Portu = "pt",
 }
 
 if winCodes[lang] then
