@@ -1,5 +1,5 @@
 
-dialogId("pot-v-lod", "font_big", "Could this be Captain Silver`s ship?")
+dialogId("pot-v-lod", "font_big", "Could this be Captain Silver’s ship?")
 dialogStr("Czyżby to był statek Kapitana Silvera?")
 
 
@@ -35,7 +35,7 @@ dialogId("pot-m-zima", "font_small", "My ears were freezing.")
 dialogStr("Było mi zimno w uszy...")
 
 
-dialogId("pot-m-pujc", "font_small", "That`s some hat! Can I borrow it?")
+dialogId("pot-m-pujc", "font_small", "That’s some hat! Can I borrow it?")
 dialogStr("Ale fajny kapelusz! Daj ponosić!")
 
 
@@ -51,15 +51,15 @@ dialogId("pot-v-kras", "font_big", "And a beatiful one, too.")
 dialogStr("I bardzo ładny.")
 
 
-dialogId("pot-v-nehnu", "font_big", "I can`t move this.")
+dialogId("pot-v-nehnu", "font_big", "I can’t move this.")
 dialogStr("Nie ruszę tego.")
 
 
-dialogId("pot-v-trub", "font_big", "I can`t move that cylinder.")
+dialogId("pot-v-trub", "font_big", "I can’t move that cylinder.")
 dialogStr("Nie podniosę tej rury.")
 
 
-dialogId("pot-m-nezb", "font_small", "I think we`re going to have to go inside that ship.")
+dialogId("pot-m-nezb", "font_small", "I think we’re going to have to go inside that ship.")
 dialogStr("Chyba będziemy musieli wpłynąć do środka.")
 
 
@@ -71,11 +71,11 @@ dialogId("pot-m-zatuch", "font_small", "The air in here smells so stale.")
 dialogStr("Pachnie stęchlizną.")
 
 
-dialogId("pot-v-nikdo", "font_big", "It seems that nobody`s here.")
+dialogId("pot-v-nikdo", "font_big", "It seems that nobody’s here.")
 dialogStr("Zdaje się, że nikogo tu nie ma.")
 
 
-dialogId("pot-m-moc", "font_small", "I don`t like it here.")
+dialogId("pot-m-moc", "font_small", "I don’t like it here.")
 dialogStr("Nie podoba mi się tutaj.")
 
 
@@ -95,6 +95,6 @@ dialogId("pot-m-vidis", "font_small", "What do you see?")
 dialogStr("Co tam widzisz?")
 
 
-dialogId("pot-v-vidim", "font_big", "I can see many interesting levels which we`ll have to solve.")
+dialogId("pot-v-vidim", "font_big", "I can see many interesting levels which we’ll have to solve.")
 dialogStr("Widzę mnóstwo interesujących poziomów do rozwiązania.")
 

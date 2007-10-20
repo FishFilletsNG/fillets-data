@@ -1,5 +1,5 @@
 
-dialogId("rea-m-cojavim", "font_small", "How should I know? A cinematoscope? A child`s toy? A shooting gallery?")
+dialogId("rea-m-cojavim", "font_small", "How should I know? A cinematoscope? A child’s toy? A shooting gallery?")
 dialogStr("Woher soll ich das wissen? Ein Kino? Ein Kinderspielzeug? Ein Schiessstand?")
 
 

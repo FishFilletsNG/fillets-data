@@ -7,9 +7,9 @@ dialogId("ves-v-vyp", "font_big", "We should turn it off!")
 
 dialogId("ves-m-uz", "font_small", "Oh, noo...")
 
-dialogId("ves-v-pokoj", "font_big", "And it`s over.")
+dialogId("ves-v-pokoj", "font_big", "And it’s over.")
 
-dialogId("ves-m-dik", "font_small", "Thank you player. We couldn`t bear it any longer.")
+dialogId("ves-m-dik", "font_small", "Thank you player. We couldn’t bear it any longer.")
 
 dialogId("ves-v-stejne", "font_big", "But we have to push it down anyway.")
 

@@ -1,5 +1,5 @@
 
-dialogId("odp-v-kachna", "font_big", "Doesn`t this duck look suspicious to you?")
+dialogId("odp-v-kachna", "font_big", "Doesn’t this duck look suspicious to you?")
 dialogStr("Tycker du inte att den där ankan ser misstänk ut?")
 
 

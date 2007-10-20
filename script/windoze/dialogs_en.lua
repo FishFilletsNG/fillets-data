@@ -1,7 +1,7 @@
 
-dialogId("win-v-plocha", "font_big", "This is how it looks when you don`t keep your desktop tidy.")
+dialogId("win-v-plocha", "font_big", "This is how it looks when you don’t keep your desktop tidy.")
 
-dialogId("win-m-costim0", "font_small", "Wouldn`t it help us if we select Desktop/Line up Icons?")
+dialogId("win-m-costim0", "font_small", "Wouldn’t it help us if we select Desktop/Line up Icons?")
 
 dialogId("win-m-costim1", "font_small", "What if we try to minimize the biggest windows?")
 
@@ -13,7 +13,7 @@ dialogId("win-m-costim4", "font_small", "What about giving up altogether and swi
 
 dialogId("win-v-pocitala", "font_big", "Did you count these windows around us?")
 
-dialogId("win-m-nemusim", "font_small", "I don`t need to count them. There are ninety five of them.")
+dialogId("win-m-nemusim", "font_small", "I don’t need to count them. There are ninety five of them.")
 
 dialogId("win-m-blok", "font_small", "Can you see that Notepad? Now is a good time to send a message to the player!")
 
@@ -21,7 +21,7 @@ dialogId("win-v-premyslej", "font_big", "Stop that folly and try to think instea
 
 dialogId("win-m-dira", "font_small", "This system has to have a hole somewhere.")
 
-dialogId("win-v-tamhle", "font_big", "Sure. It`s in the lower right corner.")
+dialogId("win-v-tamhle", "font_big", "Sure. It’s in the lower right corner.")
 
 dialogId("win-m-okno", "font_small", "Can you see that big window on the right?!")
 
@@ -39,21 +39,21 @@ dialogId("win-m-nic3", "font_small", "Only a beep from time to time...")
 
 dialogId("win-v-hav", "font_big", "But fortunately the authors got back to it and gave it this modern facelift.")
 
-dialogId("win-m-zahrat", "font_small", "But I`d like to play it sometime, anyway!")
+dialogId("win-m-zahrat", "font_small", "But I’d like to play it sometime, anyway!")
 
-dialogId("win-m-vga", "font_small", "I can`t move this window. Down there, it`s a steel cylinder, though it`s only in sixteen color VGA.")
+dialogId("win-m-vga", "font_small", "I can’t move this window. Down there, it’s a steel cylinder, though it’s only in sixteen color VGA.")
 
 dialogId("win-v-pockej", "font_big", "Wait a moment, player. We have to make something clear. These two fish, they are our younger selves.")
 
 dialogId("win-m-zavrene", "font_small", "You are right. They are trapped there, poor souls.")
 
-dialogId("win-v-osvobodit", "font_big", "We can`t leave them there. We have to get them out!")
+dialogId("win-v-osvobodit", "font_big", "We can’t leave them there. We have to get them out!")
 
 dialogId("win-m-ven", "font_small", "Yes, but the player has to get us out.")
 
-dialogId("win-v-citim", "font_big", "So we`ll go on strike. Personally, I fully sympathize with the bigger fish inside.")
+dialogId("win-v-citim", "font_big", "So we’ll go on strike. Personally, I fully sympathize with the bigger fish inside.")
 
-dialogId("win-m-vzit", "font_small", "You`re right. I can imagine what the smaller one feels.")
+dialogId("win-m-vzit", "font_small", "You’re right. I can imagine what the smaller one feels.")
 
 dialogId("win-v-nehrajem", "font_big", "We are not going to play, until you save those two, player.")
 

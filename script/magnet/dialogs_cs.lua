@@ -3,7 +3,7 @@ dialogId("pap-v-ha", "font_big", "Look. Another energy source.")
 dialogStr("Ha. Další zdroj energie.")
 
 
-dialogId("pap-m-magnet", "font_small", "Don`t worry. This magnet is here only to hinder us.")
+dialogId("pap-m-magnet", "font_small", "Don’t worry. This magnet is here only to hinder us.")
 dialogStr("Dej pokoj, ten magnet je tady jen proto, aby nám překážel.")
 
 
@@ -47,11 +47,11 @@ dialogId("pap-m-pistole", "font_small", "It looks like a pistol to me.")
 dialogStr("Připomíná to pistoli.")
 
 
-dialogId("pap-v-laserova", "font_big", "Maybe it`s a laser weapon.")
+dialogId("pap-v-laserova", "font_big", "Maybe it’s a laser weapon.")
 dialogStr("Třeba je to laserová zbraň.")
 
 
-dialogId("pap-m-jejedno", "font_small", "It doesn`t matter. We don`t need it.")
+dialogId("pap-m-jejedno", "font_small", "It doesn’t matter. We don’t need it.")
 dialogStr("To je jedno, tu snad nepotřebujeme.")
 
 
@@ -59,7 +59,7 @@ dialogId("pap-v-nemir", "font_big", "Stop pointing at me with it!")
 dialogStr("Hlavně s ní nemiř na mě!")
 
 
-dialogId("pap-m-nejde", "font_small", "As if you don`t know that you can`t turn objects in this game.")
+dialogId("pap-m-nejde", "font_small", "As if you don’t know that you can’t turn objects in this game.")
 dialogStr("Jako bys nevěděl, že v této hře nejde předměty otáčet!")
 
 
@@ -67,7 +67,7 @@ dialogId("pap-m-ocel", "font_small", "There are too many steel constructions her
 dialogStr("Je tu nějak moc těch ocelových konstrukcí.")
 
 
-dialogId("pap-v-vufu", "font_big", "Don`t forget that we are inside of the flying saucer!")
+dialogId("pap-v-vufu", "font_big", "Don’t forget that we are inside of the flying saucer!")
 dialogStr("Nezapomínej, že jsme uvnitř létajícího talíře!")
 
 
@@ -75,11 +75,11 @@ dialogId("pap-m-naucit", "font_small", "Maybe I could learn how to manipulate th
 dialogStr("Možná bych se mohla naučit manipulovat s těmi ocelovými válci.")
 
 
-dialogId("pap-m-nepohnu", "font_small", "No, I can`t move it.")
+dialogId("pap-m-nepohnu", "font_small", "No, I can’t move it.")
 dialogStr("Ne, s tím nepohnu.")
 
 
-dialogId("pap-v-tesno", "font_big", "It`s quite tight here.")
+dialogId("pap-v-tesno", "font_big", "It’s quite tight here.")
 dialogStr("Je  tu nějak těsno.")
 
 
@@ -91,6 +91,6 @@ dialogId("pap-v-pole", "font_big", "This magnetic field probably has some invigo
 dialogStr("To magnetické pole má asi povzbuzující účinky.")
 
 
-dialogId("pap-m-nedobre", "font_small", "It`s doing me no good.")
+dialogId("pap-m-nedobre", "font_small", "It’s doing me no good.")
 dialogStr("Mně to teda moc dobře nedělá.")
 

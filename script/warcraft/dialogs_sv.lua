@@ -7,7 +7,7 @@ dialogId("war-m-ocel", "font_small", "How did the steel get into this castle?")
 dialogStr("Hur kom stålet in i borgen?")
 
 
-dialogId("war-v-vesnicane", "font_big", "Hold on, I`ll bring some peasants to help you.")
+dialogId("war-v-vesnicane", "font_big", "Hold on, I’ll bring some peasants to help you.")
 dialogStr("Vänta, jag hämtar några bönder för att hjälpa dig.")
 
 
@@ -15,7 +15,7 @@ dialogId("war-m-peoni", "font_small", "These are not peasants but peons.")
 dialogStr("Det är inte bönder, det är meniga.")
 
 
-dialogId("war-v-doly", "font_big", "Do you think that these mines contain captain Silver`s treasure?")
+dialogId("war-v-doly", "font_big", "Do you think that these mines contain captain Silver’s treasure?")
 dialogStr("Tror du att de här gruvorna innehåller kapten Silvers skatter?")
 
 
@@ -35,15 +35,15 @@ dialogId("war-v-pohadka", "font_big", "When MS Word or another boring applicatio
 dialogStr("När MS Word eller andra tråkiga program körs på den här datorn så brukar vi spel karaktärer samlas i C:\\WINDOWS\\CONFIG biblioteket och prata.")
 
 
-dialogId("war-m-pichat", "font_small", "When we don`t know what to do, we play hide-and-seek in the registry. That`s why your Windows sometimes crashes if you don`t play any games for a long period of time.")
+dialogId("war-m-pichat", "font_small", "When we don’t know what to do, we play hide-and-seek in the registry. That’s why your Windows sometimes crashes if you don’t play any games for a long period of time.")
 dialogStr("När vi inte har någonting att göra brukar vi leka kura gömma i registret. Det är därför som Windows kraschar ibland om du inte har spelat på länge.")
 
 
-dialogId("war-v-prozradit", "font_big", "You shouldn`t give that away. I only wanted to say that it looks very similar to this level. So many computer game characters.")
+dialogId("war-v-prozradit", "font_big", "You shouldn’t give that away. I only wanted to say that it looks very similar to this level. So many computer game characters.")
 dialogStr("Du borde inte ha avslöjat det. Jag tänkte bara tala om att det liknar den här nivån. Så många datorspels figurer.")
 
 
-dialogId("war-m-aznato", "font_small", "But it`s not so difficult to get out of there.")
+dialogId("war-m-aznato", "font_small", "But it’s not so difficult to get out of there.")
 dialogStr("Men det är inte så svårt att ta sig ut.")
 
 

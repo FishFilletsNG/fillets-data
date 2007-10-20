@@ -16,7 +16,7 @@ dialogStr("Виж, смачкал ни е рафтовете.")
 dialogId("vrak-m-vrak2", "font_small", "Look, it invaded our library.")
 dialogStr("Гледай, нападнал е библиотеката ни.")
 
-dialogId("vrak-m-kupovat0", "font_small", "See? You shouldn`t have bought so many books.")
+dialogId("vrak-m-kupovat0", "font_small", "See? You shouldn’t have bought so many books.")
 dialogStr("Виждаш ли, че не трябва да купуваш толкова много книги?")
 
 dialogId("vrak-m-kupovat1", "font_small", "You buy every book you can lay your hand on and now you have problems.")
@@ -46,7 +46,7 @@ dialogStr("Неволно подслушано.")
 dialogId("vrak-m-knihy6", "font_small", "Outreaching Daniken.")
 dialogStr("Достигане на недостижимото.")
 
-dialogId("vrak-v-vyhodit", "font_big", "I`d throw out these, for example.")
+dialogId("vrak-v-vyhodit", "font_big", "I’d throw out these, for example.")
 dialogStr("Тези бих ги изхвърлил.")
 
 dialogId("vrak-v-knihy0", "font_big", "The Three Little Shrimp")
@@ -67,10 +67,10 @@ dialogStr("Лигавата сепия и седемте джуджета")
 dialogId("vrak-m-pohadky", "font_small", "Never! My lovely fairy-tales.")
 dialogStr("Никога! Любимите ми приказки.")
 
-dialogId("vrak-v-nevejdu0", "font_big", "I can`t hide myself here.")
+dialogId("vrak-v-nevejdu0", "font_big", "I can’t hide myself here.")
 dialogStr("Не мога да се скрия тук.")
 
-dialogId("vrak-v-nevejdu1", "font_big", "I can`t fit in here.")
+dialogId("vrak-v-nevejdu1", "font_big", "I can’t fit in here.")
 dialogStr("Не се събирам тук.")
 
 dialogId("vrak-m-cteni0", "font_small", "Why do we have so many books if we cannot pull them out anyway?")
@@ -82,7 +82,7 @@ dialogStr("Ако беше тренирал вместо да четеш евт�
 dialogId("vrak-m-cteni2", "font_small", "I told you not to buy that Complete Dictionary of the Abnormal.")
 dialogStr("Казвах ти да не купуваш онзи „Пълен речник на ненормалното“.")
 
-dialogId("vrak-v-policky", "font_big", "Let`s think. We can`t get these books off the shelf.")
+dialogId("vrak-v-policky", "font_big", "Let’s think. We can’t get these books off the shelf.")
 dialogStr("Да помислим. Не можем да свалим тези книги от рафта.")
 
 dialogId("vrak-m-predmety", "font_small", "There are only two objects here which we can move with any results.")
@@ -97,7 +97,7 @@ dialogStr("Пречиш ми да мина, странна форма на жи�
 dialogId("vrak-v-potvurka", "font_big", "You are an obstacle, strange creature!")
 dialogStr("Пречиш ми, създание странно!")
 
-dialogId("vrak-v-snek", "font_big", "Can`t you push that snail to me?")
+dialogId("vrak-v-snek", "font_big", "Can’t you push that snail to me?")
 dialogStr("Не можеш ли да бутнеш онзи охлюв върху мен?")
 
 dialogId("vrak-m-ocel", "font_small", "How am I to get there through that steel?!")

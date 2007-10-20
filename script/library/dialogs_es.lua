@@ -23,7 +23,7 @@ dialogId("vrak-m-vrak2", "font_small", "Look, it invaded our library.")
 dialogStr("Mira, invadió nuestra librería.")
 
 
-dialogId("vrak-m-kupovat0", "font_small", "See? You shouldn`t have bought so many books.")
+dialogId("vrak-m-kupovat0", "font_small", "See? You shouldn’t have bought so many books.")
 dialogStr("¿Ves? No deberías de haber comprado tantos libros.")
 
 
@@ -63,7 +63,7 @@ dialogId("vrak-m-knihy6", "font_small", "Outreaching Daniken.")
 dialogStr("Daniken inalcanzable.")
 
 
-dialogId("vrak-v-vyhodit", "font_big", "I`d throw out these, for example.")
+dialogId("vrak-v-vyhodit", "font_big", "I’d throw out these, for example.")
 dialogStr("Yo tiraría esos, por ejemplo.")
 
 
@@ -91,11 +91,11 @@ dialogId("vrak-m-pohadky", "font_small", "Never! My lovely fairy-tales.")
 dialogStr("¡Nunca! Mis queridas historias de hadas.")
 
 
-dialogId("vrak-v-nevejdu0", "font_big", "I can`t hide myself here.")
+dialogId("vrak-v-nevejdu0", "font_big", "I can’t hide myself here.")
 dialogStr("No me puedo esconder aquí.")
 
 
-dialogId("vrak-v-nevejdu1", "font_big", "I can`t fit in here.")
+dialogId("vrak-v-nevejdu1", "font_big", "I can’t fit in here.")
 dialogStr("No quepo aquí.")
 
 
@@ -111,7 +111,7 @@ dialogId("vrak-m-cteni2", "font_small", "I told you not to buy that Complete Dic
 dialogStr("Te dije que no compraras ese Completo Diccionario de lo Anormal.")
 
 
-dialogId("vrak-v-policky", "font_big", "Let`s think. We can`t get these books off the shelf.")
+dialogId("vrak-v-policky", "font_big", "Let’s think. We can’t get these books off the shelf.")
 dialogStr("Pensemos. No podemos sacar esos libros del estante.")
 
 
@@ -131,7 +131,7 @@ dialogId("vrak-v-potvurka", "font_big", "You are an obstacle, strange creature!"
 dialogStr("¡Eres un obstáculo, extraña criatura!")
 
 
-dialogId("vrak-v-snek", "font_big", "Can`t you push that snail to me?")
+dialogId("vrak-v-snek", "font_big", "Can’t you push that snail to me?")
 dialogStr("¿Me puedes empujar ese caracol?")
 
 

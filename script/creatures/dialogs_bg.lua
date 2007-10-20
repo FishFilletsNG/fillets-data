@@ -19,13 +19,13 @@ dialogStr("Погледни, всичко тук е толкова тихо и �
 dialogId("kor-m-vzdyt", "font_small", "But the anemones are moving.")
 dialogStr("Но анемоните се движат.")
 
-dialogId("kor-v-treba", "font_big", "Maybe they`re in the throes of death.")
+dialogId("kor-v-treba", "font_big", "Maybe they’re in the throes of death.")
 dialogStr("Може би са предсмъртни гърчове.")
 
 dialogId("kor-v-shledavam", "font_big", "I find a certain symbolism in that.")
 dialogStr("Намирам известен символизъм в това.")
 
-dialogId("kor-v-bermudy", "font_big", "That`s interesting. This type of coral normally grows only in the Bermuda Triangle.")
+dialogId("kor-v-bermudy", "font_big", "That’s interesting. This type of coral normally grows only in the Bermuda Triangle.")
 dialogStr("Интересно. Този вид корали обикновено растат само в Бермудския триъгълник.")
 
 dialogId("kor-v-inteligentni", "font_big", "Did you know that some types of coral are almost as intelligent as fish?")
@@ -34,7 +34,7 @@ dialogStr("Знаеш ли, че някои видове корали са ум�
 dialogId("kor-v-jedovate", "font_big", "Be careful, most types of coral are poisonous.")
 dialogStr("Внимавай. Повечето корали са отровни.")
 
-dialogId("kor-m-dusi", "font_small", "What do you think, is there such a thing as a 'coral-soul`?")
+dialogId("kor-m-dusi", "font_small", "What do you think, is there such a thing as a 'coral-soul’?")
 dialogStr("Как мислиш, дали коралите имат душа?")
 
 dialogId("kor-m-pocit", "font_small", "Do you have the feeling that those coral are watching us?")
@@ -43,13 +43,13 @@ dialogStr("Нямаш ли чувството, че тези корали ни �
 dialogId("kor-m-bizarni", "font_small", "I wonder why the coral have such a bizarre shape.")
 dialogStr("Чудя се защо коралът има такава странна форма.")
 
-dialogId("kor-v-juchacka", "font_big", "That was some number, wasn`t it?")
+dialogId("kor-v-juchacka", "font_big", "That was some number, wasn’t it?")
 dialogStr("Това беше някакво число, нали?")
 
-dialogId("kor-m-hraje", "font_small", "Yeah, he`s a great player.")
+dialogId("kor-m-hraje", "font_small", "Yeah, he’s a great player.")
 dialogStr("Уха, голям е музикант.")
 
-dialogId("kor-v-odvaz", "font_big", "That`s cool. What if we pushed him again?")
+dialogId("kor-v-odvaz", "font_big", "That’s cool. What if we pushed him again?")
 dialogStr("Харесва ми. Дали да не го бутнем пак?")
 
 dialogId("kor-m-vsimlsis", "font_small", "Did you see what the lobsters were doing?")
@@ -58,10 +58,10 @@ dialogStr("Видя ли какво направиха омарите?")
 dialogId("kor-v-avidelas", "font_big", "And how those anemones were dancing?")
 dialogStr("И как танцуваха анемоните?")
 
-dialogId("kor-m-tovis", "font_small", "Well, you know, it`s not all that much fun down here at the bottom of the ocean.")
+dialogId("kor-m-tovis", "font_small", "Well, you know, it’s not all that much fun down here at the bottom of the ocean.")
 dialogStr("Е, нямаме много развлечения на дъното на океана.")
 
-dialogId("kor-v-vali", "font_big", "He`s good, isn`t he?")
+dialogId("kor-v-vali", "font_big", "He’s good, isn’t he?")
 dialogStr("Добър е, нали?")
 
 dialogId("kor-m-nachob", "font_small", "Not bad for an octopus...")
@@ -70,25 +70,25 @@ dialogStr("Не е зле като за октопод...")
 dialogId("kor-m-jinou", "font_small", "Do you think he knows any other tune?")
 dialogStr("Мислиш ли, че знае и друга мелодия?")
 
-dialogId("kor-m-neprehani", "font_small", "Don`t you think we`ve had enough already?")
+dialogId("kor-m-neprehani", "font_small", "Don’t you think we’ve had enough already?")
 dialogStr("Не мислиш ли, че ни стига толкова?")
 
-dialogId("kor-m-lezekrkem", "font_small", "I`m getting sick of it...")
+dialogId("kor-m-lezekrkem", "font_small", "I’m getting sick of it...")
 dialogStr("Започва да ми писва...")
 
-dialogId("kor-v-lezekrkem", "font_big", "I`m sick and tired of it...")
+dialogId("kor-v-lezekrkem", "font_big", "I’m sick and tired of it...")
 dialogStr("Това ми омръзна до болка...")
 
-dialogId("kor-v-kostice", "font_big", "I`m fed up to the gills with this.")
+dialogId("kor-v-kostice", "font_big", "I’m fed up to the gills with this.")
 dialogStr("Дойде ми до гуша.")
 
-dialogId("kor-v-odsud", "font_big", "I can`t budge this from where I am. I`d have to try to move it from the left side.")
+dialogId("kor-v-odsud", "font_big", "I can’t budge this from where I am. I’d have to try to move it from the left side.")
 dialogStr("Не мога да го поместя оттук. Ще трябва да го бутна отляво.")
 
-dialogId("kor-m-budesmuset", "font_small", "Well you`ll have to go that way through those anemones.")
+dialogId("kor-m-budesmuset", "font_small", "Well you’ll have to go that way through those anemones.")
 dialogStr("Ще трябва да минеш през анемоните.")
 
-dialogId("kor-m-neniono", "font_small", "That`s not what I had in mind...")
+dialogId("kor-m-neniono", "font_small", "That’s not what I had in mind...")
 dialogStr("Не това имах предвид...")
 
 dialogId("kor-m-tudiru", "font_small", "We should have plugged that hole beforehand.")

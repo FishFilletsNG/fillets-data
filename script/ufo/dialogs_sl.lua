@@ -20,13 +20,13 @@ dialogStr("Moj bog! Kaj pa naj jaz počnem v takšni stopnji?")
 dialogId("ufo-v-vpredu", "font_big", "You would let me go in front, for a change.")
 dialogStr("Za spremembi bi mi pustila da vodim.")
 
-dialogId("ufo-m-zvlastni", "font_small", "It`s interesting that this tangled steel forestalls our entry into that UFO more effectively than any security system.")
+dialogId("ufo-m-zvlastni", "font_small", "It’s interesting that this tangled steel forestalls our entry into that UFO more effectively than any security system.")
 dialogStr("Zanimivo je da to zamotano jeklo. ne prepreči našega vstopa v NLP nič bolj učinkovito kot kakšen varnostni sistem.")
 
 dialogId("ufo-v-rikam", "font_big", "I keep telling you that our life is controlled by some higher, strange consciousness.")
 dialogStr("Dopovedujem to, da najino življenje nadzoruje neka višja, čudna zavest.")
 
-dialogId("ufo-m-vidim", "font_small", "I can see that, too. But I am not that sure it`s higher.")
+dialogId("ufo-m-vidim", "font_small", "I can see that, too. But I am not that sure it’s higher.")
 dialogStr("To lahko jaz tudi vidim. Ampak nisem čisto prepričana, da je višja.")
 
 dialogId("ufo-v-dovnitr", "font_big", "What can we find inside, once we manage to get there?")
@@ -41,8 +41,8 @@ dialogStr("Najpomembneje, morava odkriti zakaj so sploh prišli.")
 dialogId("ufo-v-zjistit1", "font_big", "You know, most of all I wonder why they crashed just here.")
 dialogStr("Veš, najbolj od vsega me zanima, zakaj so strmoglavili ravno tukaj.")
 
-dialogId("ufo-m-tady", "font_small", "Didn`t you see it? Everything happens just here.")
+dialogId("ufo-m-tady", "font_small", "Didn’t you see it? Everything happens just here.")
 dialogStr("Ali ne vidiš tega? Vse se zgodi samo tukaj.")
 
-dialogId("ufo-m-nevim", "font_small", "I don`t know why the UFOs keep crashing at our house, either.")
+dialogId("ufo-m-nevim", "font_small", "I don’t know why the UFOs keep crashing at our house, either.")
 dialogStr("Jaz tudi ne vem, zakaj NLP-ji ne nehajo strmoglavljati na najino hišo.")

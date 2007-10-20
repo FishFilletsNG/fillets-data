@@ -10,7 +10,7 @@ dialogStr("Има нещо странно тук.")
 dialogId("sm-v-jine2", "font_big", "No, I think there is something here, that cannot be found anywhere else.")
 dialogStr("Мисля, че тук има нещо, което не сме виждали досега.")
 
-dialogId("sm-v-budik", "font_big", "Look at that clock. Doesn`t it resemble a child-comforter a little?")
+dialogId("sm-v-budik", "font_big", "Look at that clock. Doesn’t it resemble a child-comforter a little?")
 dialogStr("Погледни онзи часовник. Не ти ли прилича малко на бебешка залъгалка?")
 
 dialogId("sm-m-normalni", "font_small", "Do you feel all right?")
@@ -22,7 +22,7 @@ dialogStr("Това е купчина боклук.")
 dialogId("sm-m-kramy1", "font_small", "This must be a wreck of a flea shop.")
 dialogStr("Това трябва да са останки от битпазар.")
 
-dialogId("sm-v-kramy2", "font_big", "It`s worse here than in an oil spill.")
+dialogId("sm-v-kramy2", "font_big", "It’s worse here than in an oil spill.")
 dialogStr("Това е по-зле от петролен разлив.")
 
 dialogId("sm-v-kramy3", "font_big", "There is so much filth here.")
@@ -34,13 +34,13 @@ dialogStr("Виждаш ли онази лодка?")
 dialogId("sm-m-dedek", "font_small", "The one with that old man?")
 dialogStr("Онази със стареца?")
 
-dialogId("sm-v-charon", "font_big", "It`s old Charon, ferryman of the dead.")
+dialogId("sm-v-charon", "font_big", "It’s old Charon, ferryman of the dead.")
 dialogStr("Това е Харон — лодкарят на мъртвите.")
 
 dialogId("sm-m-codela", "font_small", "And what does he do in the wasteyard?")
 dialogStr("Какво ли прави в сметището?")
 
-dialogId("sm-v-duchodce0", "font_big", "He`s probably retired.")
+dialogId("sm-v-duchodce0", "font_big", "He’s probably retired.")
 dialogStr("Вероятно е в пенсия.")
 
 dialogId("sm-v-duchodce1", "font_big", "The corpses were no longer profitable and so they started a recycling business.")
@@ -58,7 +58,7 @@ dialogStr("Всичко е безполезно, например онази м�
 dialogId("sm-m-proc", "font_small", "Why?")
 dialogStr("Защо?")
 
-dialogId("sm-v-podivej", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn`t it the most fitting example of what I was talking about?")
+dialogId("sm-v-podivej", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn’t it the most fitting example of what I was talking about?")
 dialogStr("Ами погледни я. Продължава да тича, а всъщност стои на място. Не е ли точно пример за това, за което говорех?")
 
 dialogId("sm-x-meduza", "font_magenta", "I am jogging to lose weight, you fools!")

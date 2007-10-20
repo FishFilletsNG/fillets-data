@@ -13,7 +13,7 @@ dialogId("lod-m-pravda2", "font_small", "Yes, it is shocking.")
 
 dialogId("lod-m-costim", "font_small", "What are we to do about it?")
 
-dialogId("lod-v-internovat", "font_big", "We can`t leave it this way. We must incarcerate them.")
+dialogId("lod-v-internovat", "font_big", "We can’t leave it this way. We must incarcerate them.")
 
 dialogId("lod-m-co", "font_small", "What must we do?")
 
@@ -45,7 +45,7 @@ dialogId("lod-m-ozizlana", "font_small", "A pld probably sucked upon it.")
 
 dialogId("lod-v-hravost", "font_big", "Mother was right. Abnormal playfulness is the root of all evil.")
 
-dialogId("lod-m-palka", "font_small", "That`s true. It would be much easier if that table tennis bat was somewhere else.")
+dialogId("lod-m-palka", "font_small", "That’s true. It would be much easier if that table tennis bat was somewhere else.")
 
 dialogId("lod-v-micky", "font_big", "By the way, did you notice that the real golf ball is in the upper left corner while that thing in the lower right corner is a cricket ball?")
 
@@ -55,7 +55,7 @@ dialogId("lod-v-kdovi", "font_big", "Who knows.")
 
 dialogId("lod-m-micek", "font_small", "I thought it was a table tennis ball up there.")
 
-dialogId("lod-v-rozliseni", "font_big", "It`s hard to say with this screen resolution.")
+dialogId("lod-v-rozliseni", "font_big", "It’s hard to say with this screen resolution.")
 
 dialogId("lod-m-bohove", "font_small", "This time our goal is to get out one of those gods.")
 
@@ -91,7 +91,7 @@ dialogId("b1-dobre", "font_yellow", "Well!")
 
 dialogId("b1-znovu", "font_yellow", "Shall we play another one?")
 
-dialogId("b1-nepodvadim", "font_yellow", "I don`t cheat.")
+dialogId("b1-nepodvadim", "font_yellow", "I don’t cheat.")
 
 dialogId("b1-spletl", "font_yellow", "It was a mistake, probably...")
 
@@ -129,11 +129,11 @@ dialogId("b2-rikal1", "font_cyan", "You already tried this!")
 
 dialogId("b2-rikal2", "font_cyan", "You already said that!")
 
-dialogId("b2-nemuze", "font_cyan", "It can`t be a miss on this space.")
+dialogId("b2-nemuze", "font_cyan", "It can’t be a miss on this space.")
 
 dialogId("b2-podvadis", "font_cyan", "You cheat!!!")
 
-dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss`!")
+dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss’!")
 
 dialogId("b1-1", "", "")
 

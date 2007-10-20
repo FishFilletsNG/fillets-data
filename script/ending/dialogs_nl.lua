@@ -11,7 +11,7 @@ dialogId("z-v-sef", "font_big", "The boss called a moment ago. He was very satis
 dialogStr("De baas heeft net gebeld. Hij was erg tevreden met ons optreden.")
 
 
-dialogId("z-m-nemluv", "font_small", "Don`t mention the boss to me. He sits somewhere in his cozy office and we have to do all the dirty work.")
+dialogId("z-m-nemluv", "font_small", "Don’t mention the boss to me. He sits somewhere in his cozy office and we have to do all the dirty work.")
 dialogStr("Ik wil niks horen over de baas. Die zit ergens lekker achter een bureautje en wij moeten de rotklusjes opknappen.")
 
 
@@ -19,19 +19,19 @@ dialogId("z-v-slyset", "font_big", "Shhh, he could hear us.")
 dialogStr("Ssst, hij kan ons misschien wel horen.")
 
 
-dialogId("z-m-netusi", "font_small", "How could he? He surely doesn`t even know how long it took us.")
+dialogId("z-m-netusi", "font_small", "How could he? He surely doesn’t even know how long it took us.")
 dialogStr("Hoe dan? Hij weet vast niet eens hoe lang we erover gedaan hebben.")
 
 
-dialogId("z-m-dlouho", "font_small", "Really? It didn`t seem that long to me.")
+dialogId("z-m-dlouho", "font_small", "Really? It didn’t seem that long to me.")
 dialogStr("Hoe bedoel je? Mij leek het niet zo lang, hoor.")
 
 
-dialogId("z-v-pozdrav", "font_big", "Dear player. We would like to communicate to you the high regards of the authors of this game. If you didn`t solve it by some cheat, you are really very, very good. It`s a pity we cannot see you from here, but...")
+dialogId("z-v-pozdrav", "font_big", "Dear player. We would like to communicate to you the high regards of the authors of this game. If you didn’t solve it by some cheat, you are really very, very good. It’s a pity we cannot see you from here, but...")
 dialogStr("Beste speler. We willen je graag de groeten doen van de makers van dit spel. Als je niet hebt valsgespeeld ben je echt heeeeeeel, heeeeeel erg goed. Het is jammer dat we je van hieraf niet kunnen zien, maar...")
 
 
-dialogId("z-m-oblicej", "font_small", "Could you please put your face in front of the hard disk LED? You might not know it but it is a kind of computer`s eye through which...")
+dialogId("z-m-oblicej", "font_small", "Could you please put your face in front of the hard disk LED? You might not know it but it is a kind of computer’s eye through which...")
 dialogStr("Kun je alsjeblieft je gezicht voor het hardeschijfLEDje houden? Misschien wist je het niet, maar dat is zo'n beetje het oog van de computer...")
 
 

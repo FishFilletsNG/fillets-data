@@ -4,7 +4,7 @@ dialogStr("Vedi quel cavalluccio marino?")
 
 
 dialogId("bot-v-uveznen0", "font_big", "It is blocked by amphoras.")
-dialogStr("E` incastrato tra le anfore.")
+dialogStr("E’ incastrato tra le anfore.")
 
 
 dialogId("bot-v-uveznen1", "font_big", "It got itself drunk among the amphoras.")
@@ -39,7 +39,7 @@ dialogId("bot-v-vsak0", "font_big", "Well, you are not a bear, after all.")
 dialogStr("Beh, tu dovrai sopportare, invece.")
 
 
-dialogId("bot-v-vsak1", "font_big", "Don`t forget that we are under water.")
+dialogId("bot-v-vsak1", "font_big", "Don’t forget that we are under water.")
 dialogStr("Non dimenticare che ci troviamo sott'acqua.")
 
 
@@ -56,5 +56,5 @@ dialogStr("Quel teschio sembra emanare qualcosa di strano.")
 
 
 dialogId("bot-m-zivy", "font_small", "Is it alive or is it some kind of spell?")
-dialogStr("E` vivo o si tratterà di una qualche incantesimo?")
+dialogStr("E’ vivo o si tratterà di una qualche incantesimo?")
 

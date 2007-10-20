@@ -19,7 +19,7 @@ dialogStr("Да. Аз съм чувал, че там хапели туристи
 dialogId("deu-l-los", "font_elk", "Ya rusky los.")
 dialogStr("Я русский лос.")
 
-dialogId("deu-v-radsi", "font_big", "I`d like this elk much more if it wasn`t blocking our way so much.")
+dialogId("deu-v-radsi", "font_big", "I’d like this elk much more if it wasn’t blocking our way so much.")
 dialogStr("Този лос щеше да ми харесва много повече ако не блокираше пътя.")
 
 dialogId("deu-l-pozalsta", "font_elk", "Pozhalsta, izvinitye.")

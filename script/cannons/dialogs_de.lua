@@ -11,19 +11,19 @@ dialogId("del-m-ci", "font_small", "Whose ship was she? Maybe she served under a
 dialogStr("Wessen Schiff war das? Vielleicht diente es unter Admiral Nelson... oder Kapitän Hornblower.")
 
 
-dialogId("del-v-splet", "font_big", "No, I think you`re about a hundred years off.")
+dialogId("del-v-splet", "font_big", "No, I think you’re about a hundred years off.")
 dialogStr("Nein. Ich glaube, du liegst ungefähr einhundert Jahre daneben.")
 
 
-dialogId("del-v-mec", "font_big", "I have a feeling we`re going to need that sword.")
+dialogId("del-v-mec", "font_big", "I have a feeling we’re going to need that sword.")
 dialogStr("Ich hab das Gefühl, wir werden das Schwert brauchen.")
 
 
-dialogId("del-m-tus", "font_small", "You and your 'feelings`. Besides, we`re not supposed to be giving any hints.")
+dialogId("del-m-tus", "font_small", "You and your 'feelings’. Besides, we’re not supposed to be giving any hints.")
 dialogStr("Du und deine \"Gefühle\". Außerdem sollen wir keine Tipps geben.")
 
 
-dialogId("del-m-jedn0", "font_small", "That was a little too simple, wasn`t it?")
+dialogId("del-m-jedn0", "font_small", "That was a little too simple, wasn’t it?")
 dialogStr("Das war ein bisschen zu einfach, oder?")
 
 

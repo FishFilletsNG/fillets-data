@@ -23,7 +23,7 @@ dialogId("vrak-m-vrak2", "font_small", "Look, it invaded our library.")
 dialogStr("Podívej, vlezly nám až do knihovny.")
 
 
-dialogId("vrak-m-kupovat0", "font_small", "See? You shouldn`t have bought so many books.")
+dialogId("vrak-m-kupovat0", "font_small", "See? You shouldn’t have bought so many books.")
 dialogStr("To máš z toho, že kupuješ tolik knížek.")
 
 
@@ -63,7 +63,7 @@ dialogId("vrak-m-knihy6", "font_small", "Outreaching Daniken.")
 dialogStr("Co Daniken netušil.")
 
 
-dialogId("vrak-v-vyhodit", "font_big", "I`d throw out these, for example.")
+dialogId("vrak-v-vyhodit", "font_big", "I’d throw out these, for example.")
 dialogStr("Já bych vyhodil třeba támhlety.")
 
 
@@ -91,11 +91,11 @@ dialogId("vrak-m-pohadky", "font_small", "Never! My lovely fairy-tales.")
 dialogStr("Nikdy! Moje oblíbené pohádky!")
 
 
-dialogId("vrak-v-nevejdu0", "font_big", "I can`t hide myself here.")
+dialogId("vrak-v-nevejdu0", "font_big", "I can’t hide myself here.")
 dialogStr("Sem se neschovám.")
 
 
-dialogId("vrak-v-nevejdu1", "font_big", "I can`t fit in here.")
+dialogId("vrak-v-nevejdu1", "font_big", "I can’t fit in here.")
 dialogStr("Sem se nevejdu.")
 
 
@@ -111,7 +111,7 @@ dialogId("vrak-m-cteni2", "font_small", "I told you not to buy that Complete Dic
 dialogStr("Říkala jsem ti, ať nekupuješ ten Velký slovník abnormálních výrazů.")
 
 
-dialogId("vrak-v-policky", "font_big", "Let`s think. We can`t get these books off the shelf.")
+dialogId("vrak-v-policky", "font_big", "Let’s think. We can’t get these books off the shelf.")
 dialogStr("Zamysleme se. Ty knihy nedostaneme z poliček.")
 
 
@@ -131,7 +131,7 @@ dialogId("vrak-v-potvurka", "font_big", "You are an obstacle, strange creature!"
 dialogStr("Zavazíš, potvůrko!")
 
 
-dialogId("vrak-v-snek", "font_big", "Can`t you push that snail to me?")
+dialogId("vrak-v-snek", "font_big", "Can’t you push that snail to me?")
 dialogStr("Nemůžeš toho šneka posunout sem ke mně?")
 
 

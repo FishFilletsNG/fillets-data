@@ -4,7 +4,7 @@ dialogStr("Penso che siamo finalmente sulle tracce della città misteriosa.")
 
 
 dialogId("sl-m-velkolepe", "font_small", "It looks magnificent.")
-dialogStr("E` magnifico.")
+dialogStr("E’ magnifico.")
 
 
 dialogId("sl-v-vkapse", "font_big", "Now we only have to find out why it sank and we are done.")
@@ -23,8 +23,8 @@ dialogId("sl-m-sedi", "font_small", "Who is sitting on that chair?")
 dialogStr("Chi è seduto su quella sedia?")
 
 
-dialogId("sl-v-feidios", "font_big", "It`s a copy of Feidios` Zeus. One of the seven wonders of the world.")
-dialogStr("E` una copia dello Zeus di Feidios. Una delle sette meraviglie dell'antichità.")
+dialogId("sl-v-feidios", "font_big", "It’s a copy of Feidios’ Zeus. One of the seven wonders of the world.")
+dialogStr("E’ una copia dello Zeus di Feidios. Una delle sette meraviglie dell'antichità.")
 
 
 dialogId("sl-m-tehdy", "font_small", "Hmm. It was another age.")
@@ -43,10 +43,10 @@ dialogId("sl-v-pust", "font_big", "And now ease it down, carefully.")
 dialogStr("Ed ora adagialo, cautamente.")
 
 
-dialogId("sl-v-barbarka", "font_big", "You barbarian! Can`t you be a little bit cautious?!")
+dialogId("sl-v-barbarka", "font_big", "You barbarian! Can’t you be a little bit cautious?!")
 dialogStr("Barbara! Non puoi stare un po' attenta?!")
 
 
-dialogId("sl-m-nelibila", "font_small", "I didn`t like this sculpture anyway.")
+dialogId("sl-m-nelibila", "font_small", "I didn’t like this sculpture anyway.")
 dialogStr("Comunque non mi piaceva questa scultura.")
 

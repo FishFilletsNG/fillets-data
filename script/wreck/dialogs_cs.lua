@@ -1,5 +1,5 @@
 
-dialogId("pot-v-lod", "font_big", "Could this be Captain Silver`s ship?")
+dialogId("pot-v-lod", "font_big", "Could this be Captain Silver’s ship?")
 dialogStr("Že by to byla ta Silverova loď?")
 
 
@@ -35,7 +35,7 @@ dialogId("pot-m-zima", "font_small", "My ears were freezing.")
 dialogStr("Byla mi zima na uši...")
 
 
-dialogId("pot-m-pujc", "font_small", "That`s some hat! Can I borrow it?")
+dialogId("pot-m-pujc", "font_small", "That’s some hat! Can I borrow it?")
 dialogStr("Ty máš ale klobouk! Půjčíš mi ho?")
 
 
@@ -51,15 +51,15 @@ dialogId("pot-v-kras", "font_big", "And a beatiful one, too.")
 dialogStr("A taky krásný.")
 
 
-dialogId("pot-v-nehnu", "font_big", "I can`t move this.")
+dialogId("pot-v-nehnu", "font_big", "I can’t move this.")
 dialogStr("S tím ani nehnu.")
 
 
-dialogId("pot-v-trub", "font_big", "I can`t move that cylinder.")
+dialogId("pot-v-trub", "font_big", "I can’t move that cylinder.")
 dialogStr("S tou trubkou nepohnu.")
 
 
-dialogId("pot-m-nezb", "font_small", "I think we`re going to have to go inside that ship.")
+dialogId("pot-m-nezb", "font_small", "I think we’re going to have to go inside that ship.")
 dialogStr("Asi nám nezbude než vlézt do té lodi.")
 
 
@@ -71,11 +71,11 @@ dialogId("pot-m-zatuch", "font_small", "The air in here smells so stale.")
 dialogStr("Páchne to tu zatuchlinou.")
 
 
-dialogId("pot-v-nikdo", "font_big", "It seems that nobody`s here.")
+dialogId("pot-v-nikdo", "font_big", "It seems that nobody’s here.")
 dialogStr("Zdá se, že tu nikdo není.")
 
 
-dialogId("pot-m-moc", "font_small", "I don`t like it here.")
+dialogId("pot-m-moc", "font_small", "I don’t like it here.")
 dialogStr("Moc se mi tu nelíbí.")
 
 
@@ -95,6 +95,6 @@ dialogId("pot-m-vidis", "font_small", "What do you see?")
 dialogStr("Co tam vidíš?")
 
 
-dialogId("pot-v-vidim", "font_big", "I can see many interesting levels which we`ll have to solve.")
+dialogId("pot-v-vidim", "font_big", "I can see many interesting levels which we’ll have to solve.")
 dialogStr("Vidím spoustu zajímavých místností, které budeme muset řešit.")
 

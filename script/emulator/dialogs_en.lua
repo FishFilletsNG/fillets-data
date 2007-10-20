@@ -13,13 +13,13 @@ dialogId("zx-v-pamet", "font_big", "Well, I just realized that the animations of
 
 dialogId("zx-v-otazka", "font_big", "Do you know that your question alone in WAV format would overfill the RAM of ZX Spectrum? And imagine how many such sounds are in this game.")
 
-dialogId("zx-m-necodosebe", "font_small", "But still, these games had something to them, didn`t they?")
+dialogId("zx-m-necodosebe", "font_small", "But still, these games had something to them, didn’t they?")
 
 dialogId("zx-m-knight", "font_small", "Can you see that Knight Lorer?")
 
 dialogId("zx-v-manicminer", "font_big", "And that must be the Manic Miner.")
 
-dialogId("zx-m-jetpack", "font_small", "I really didn`t know I`d ever be putting the Jetpack together again.")
+dialogId("zx-m-jetpack", "font_small", "I really didn’t know I’d ever be putting the Jetpack together again.")
 
 dialogId("zx-v-roboti", "font_big", "This line of robots looks familiar.")
 

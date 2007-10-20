@@ -1,5 +1,5 @@
 
-dialogId("poh-v-takhle", "font_big", "So that`s how it is!")
+dialogId("poh-v-takhle", "font_big", "So that’s how it is!")
 dialogStr("¡Así que así es!")
 
 
@@ -15,7 +15,7 @@ dialogId("poh-m-reaktor", "font_small", "And what was that nuclear power plant f
 dialogStr("¿Y para qué era esa planta de energía nuclear?")
 
 
-dialogId("poh-v-automat", "font_big", "Can`t you see? It powers that Coca-Cola vending machine over there.")
+dialogId("poh-v-automat", "font_big", "Can’t you see? It powers that Coca-Cola vending machine over there.")
 dialogStr("¿No puedes ver? Da energía a esa máquina vendedora de Coca-cola que está ahí.")
 
 
@@ -51,7 +51,7 @@ dialogId("poh-m-dobre", "font_small", "Okay, we shall take this one.")
 dialogStr("De acuerdo, tomaremos ésta.")
 
 
-dialogId("poh-v-forma", "font_big", "Look, there is some strange life form, over there. Shouldn`t we try to contact them?")
+dialogId("poh-v-forma", "font_big", "Look, there is some strange life form, over there. Shouldn’t we try to contact them?")
 dialogStr("Mira, hay una extraña forma de vida, por ahí. ¿No deberíamos tratar de contactarlos?")
 
 
@@ -63,7 +63,7 @@ dialogId("poh-v-pomoct", "font_big", "Well. But they could at least help us.")
 dialogStr("Bien. Pero al menos ellos podrían ayudarnos.")
 
 
-dialogId("poh-m-dobryden0", "font_small", "Good afternoon, excuse me, please, couldn`t I loot your drive?")
+dialogId("poh-m-dobryden0", "font_small", "Good afternoon, excuse me, please, couldn’t I loot your drive?")
 dialogStr("Buenas tardes, discúlpenme, por favor, ¿Podría destruír su nave?")
 
 

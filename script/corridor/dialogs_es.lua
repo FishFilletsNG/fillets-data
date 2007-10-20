@@ -11,15 +11,15 @@ dialogId("ch-m-rozsvit2", "font_small", "Cut it out and turn on the lights.")
 dialogStr("Basta y enciende las luces.")
 
 
-dialogId("ch-v-pockej0", "font_big", "Wait, I`ll try to find the switch.")
+dialogId("ch-v-pockej0", "font_big", "Wait, I’ll try to find the switch.")
 dialogStr("Espera, trataré de encontrar el interruptor.")
 
 
-dialogId("ch-v-pockej1", "font_big", "I can`t. The dang switch fell down.")
+dialogId("ch-v-pockej1", "font_big", "I can’t. The dang switch fell down.")
 dialogStr("No puedo. El maldito interruptor se cayó.")
 
 
-dialogId("ch-v-pockej2", "font_big", "Turn on the lights yourself, if you`re so smart.")
+dialogId("ch-v-pockej2", "font_big", "Turn on the lights yourself, if you’re so smart.")
 dialogStr("Enciende las luces tú mismo, si eres tan listo.")
 
 
@@ -51,27 +51,27 @@ dialogId("ch-m-bojim0", "font_small", "Where are you, I am afraid.")
 dialogStr("Donde estás, estoy preocupado.")
 
 
-dialogId("ch-m-bojim1", "font_small", "I`m afraid of the dark.")
+dialogId("ch-m-bojim1", "font_small", "I’m afraid of the dark.")
 dialogStr("Tengo miedo a la oscuridad.")
 
 
-dialogId("ch-m-bojim2", "font_small", "Please don`t leave. It`s so dark in here.")
+dialogId("ch-m-bojim2", "font_small", "Please don’t leave. It’s so dark in here.")
 dialogStr("Por favor no te vallas. Está tan oscuro aquí.")
 
 
-dialogId("ch-v-neboj0", "font_big", "Don`t be afraid. I`m here.")
+dialogId("ch-v-neboj0", "font_big", "Don’t be afraid. I’m here.")
 dialogStr("No te preocupes. Estoy aquí.")
 
 
-dialogId("ch-v-neboj1", "font_big", "Stop whining. We`ll manage.")
+dialogId("ch-v-neboj1", "font_big", "Stop whining. We’ll manage.")
 dialogStr("Deja de quejarte. Lo vamos a superar.")
 
 
-dialogId("ch-v-neboj2", "font_big", "There`s nothing to be afraid of.")
+dialogId("ch-v-neboj2", "font_big", "There’s nothing to be afraid of.")
 dialogStr("No hay de qué preocuparse.")
 
 
-dialogId("ch-m-doufam", "font_small", "I hope it doesn`t kick me...")
+dialogId("ch-m-doufam", "font_small", "I hope it doesn’t kick me...")
 dialogStr("Espero que no me patee...")
 
 
@@ -79,7 +79,7 @@ dialogId("ch-m-blik0", "font_small", "This flickering light is beginning to make
 dialogStr("Esta luz parpadeante me está molestando la vista.")
 
 
-dialogId("ch-m-blik1", "font_small", "I never thought I`d be so glad to see you again.")
+dialogId("ch-m-blik1", "font_small", "I never thought I’d be so glad to see you again.")
 dialogStr("Nunca pensé que estaría tan feliz de verte de nuevo.")
 
 
@@ -103,7 +103,7 @@ dialogId("ch-v-zapada", "font_big", "Well now it all makes sense.")
 dialogStr("Bueno, ahora todo tiene sentido.")
 
 
-dialogId("ch-m-odpoved0", "font_small", "Including the Cuban missile crisis and Nostradamus` prophecies.")
+dialogId("ch-m-odpoved0", "font_small", "Including the Cuban missile crisis and Nostradamus’ prophecies.")
 dialogStr("Incluyendo la crisis de los misiles cubanos y las profecías de Nostradamus.")
 
 
@@ -115,7 +115,7 @@ dialogId("ch-m-odpoved2", "font_small", "Including the Challenger explosion and 
 dialogStr("Incluyendo la explosión del Challenger y la batalla de Bull Run.")
 
 
-dialogId("ch-m-odpoved3", "font_small", "Including the Chernobyl meltdown and the wreck of Noah`s Ark.")
+dialogId("ch-m-odpoved3", "font_small", "Including the Chernobyl meltdown and the wreck of Noah’s Ark.")
 dialogStr("Incluyendo la catástrofe de Chernobyl y el destrozo del Arca de Noé.")
 
 
@@ -135,15 +135,15 @@ dialogId("ch-x-click2", "font_lightgrey", "CLICK")
 dialogStr("CLICK")
 
 
-dialogId("ch-r-nevsimej0", "font_robodog", "Don`t listen to them, player. They are kidding you.")
+dialogId("ch-r-nevsimej0", "font_robodog", "Don’t listen to them, player. They are kidding you.")
 dialogStr("No los escuches, jugador. Están bromeando.")
 
 
-dialogId("ch-r-nevsimej1", "font_robodog", "Don`t listen to them, player. They are trying to be funny.")
+dialogId("ch-r-nevsimej1", "font_robodog", "Don’t listen to them, player. They are trying to be funny.")
 dialogStr("No los escuches, jugador. Ellos están tratando de ser graciosos.")
 
 
-dialogId("ch-r-nevsimej2", "font_robodog", "Don`t listen to them, player. They are trying to fool you.")
+dialogId("ch-r-nevsimej2", "font_robodog", "Don’t listen to them, player. They are trying to fool you.")
 dialogStr("No los escuches, jugador. Están tratando de engañarte.")
 
 
@@ -171,7 +171,7 @@ dialogId("ch-r-anavic0", "font_robodog", "And I visited Cuba only once.")
 dialogStr("Y visité Cuba sólo una vez.")
 
 
-dialogId("ch-r-anavic1", "font_robodog", "And everybody knows somebody else murdered him, they can`t prove anything.")
+dialogId("ch-r-anavic1", "font_robodog", "And everybody knows somebody else murdered him, they can’t prove anything.")
 dialogStr("Y todos saben que alguien más lo asesinó, no lo pueden probar todo.")
 
 
@@ -179,6 +179,6 @@ dialogId("ch-r-anavic2", "font_robodog", "And who cares about a few soldiers.")
 dialogStr("Y a quien le importan algunos pocos soldados.")
 
 
-dialogId("ch-r-anavic3", "font_robodog", "And they told me that the regulatory rod wasn`t important.")
+dialogId("ch-r-anavic3", "font_robodog", "And they told me that the regulatory rod wasn’t important.")
 dialogStr("Y ellos me dijeron que el botón de regulación no era importante.")
 

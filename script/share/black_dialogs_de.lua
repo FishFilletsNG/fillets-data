@@ -51,11 +51,11 @@ dialogId("smrt-m-3", "font_small", "That must have hurt.")
 dialogStr("Das muss wehgetan haben.")
 
 
-dialogId("smrt-m-4", "font_small", "He didn`t deserve such a terrible end...")
+dialogId("smrt-m-4", "font_small", "He didn’t deserve such a terrible end...")
 dialogStr("So ein schreckliches Ende hat er nicht verdient...")
 
 
-dialogId("smrt-m-5", "font_small", "So, let`s start again...")
+dialogId("smrt-m-5", "font_small", "So, let’s start again...")
 dialogStr("So, lass uns neustarten...")
 
 
@@ -75,7 +75,7 @@ dialogId("smrt-m-6", "font_small", "And I never told him I loved him.")
 dialogStr("Und ich habe ihm nie gesagt, dass ich ihn liebe.")
 
 
-dialogId("smrt-m-restart", "font_small", "Luckily, it`s possible to restart the level.")
+dialogId("smrt-m-restart", "font_small", "Luckily, it’s possible to restart the level.")
 dialogStr("Zum Glück ist es möglich, die Ebene neuzustarten.")
 
 
@@ -95,14 +95,14 @@ dialogId("smrt-v-posmrtny", "font_big", "Hellooo? Can you hear me hereafter? Is 
 dialogStr("Haaaaloo? Kannst Du mich noch hören? Gibt es ein Leben nach dem Tod?")
 
 
-dialogId("smrt-m-posmrtny", "font_small", "I don`t know. I don`t think so.")
+dialogId("smrt-m-posmrtny", "font_small", "I don’t know. I don’t think so.")
 dialogStr("Ich weiß nicht. Ich glaube nicht.")
 
 
-dialogId("smrt-m-autorest", "font_small", "I am not going to solve it alone. Don`t trouble yourself with restart, I`ll do it myself.")
+dialogId("smrt-m-autorest", "font_small", "I am not going to solve it alone. Don’t trouble yourself with restart, I’ll do it myself.")
 dialogStr("Ich werde das nicht alleine schaffen. Bemühe Dich nicht wegen eines Neustarts, das werde ich selbst tun.")
 
 
-dialogId("smrt-v-autorest", "font_big", "And she is gone. I`m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
+dialogId("smrt-v-autorest", "font_big", "And she is gone. I’m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
 dialogStr("Und weg ist sie. Ich bin sicher, Du mochtest sie genauso wie ich. Sicherlich hast Du nichts gegen einen Neustart der Ebene.")
 

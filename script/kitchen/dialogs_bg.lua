@@ -7,10 +7,10 @@ dialogStr("Да, открихме корабната кухня.")
 dialogId("kuch-m-objev2", "font_small", "Darned kitchen.")
 dialogStr("Проклета кухня.")
 
-dialogId("kuch-m-objev3", "font_small", "And now we are in the captain Silver`s kitchen.")
+dialogId("kuch-m-objev3", "font_small", "And now we are in the captain Silver’s kitchen.")
 dialogStr("И ето ни в кухнята на капитан Силвър.")
 
-dialogId("kuch-v-varil", "font_big", "I don`t think he was a cook himself.")
+dialogId("kuch-v-varil", "font_big", "I don’t think he was a cook himself.")
 dialogStr("Не мисля, че той е бил готвач.")
 
 dialogId("kuch-v-problem", "font_big", "But this is not our problem.")
@@ -22,7 +22,7 @@ dialogStr("Тук изобщо няма много проблеми. Аз мог
 dialogId("kuch-v-podivej", "font_big", "But just have a look at me.")
 dialogStr("Но само погледни мен.")
 
-dialogId("kuch-v-stolky0", "font_big", "I can`t understand how these serving tables got there.")
+dialogId("kuch-v-stolky0", "font_big", "I can’t understand how these serving tables got there.")
 dialogStr("Не разбирам как тези подноси са се озовали там.")
 
 dialogId("kuch-v-stolky1", "font_big", "These tables are in the way.")
@@ -31,10 +31,10 @@ dialogStr("Масите ми препречват пътя.")
 dialogId("kuch-v-stolky2", "font_big", "This little chamber gives me the creeps.")
 dialogStr("Тръпки ме побиват от тази тясна килия.")
 
-dialogId("kuch-v-odsud0", "font_big", "I can`t get out of here!")
+dialogId("kuch-v-odsud0", "font_big", "I can’t get out of here!")
 dialogStr("Не мога да изляза!")
 
-dialogId("kuch-m-premyslim0", "font_small", "I`m just thinking how to help you.")
+dialogId("kuch-m-premyslim0", "font_small", "I’m just thinking how to help you.")
 dialogStr("Мисля как да ти помогна.")
 
 dialogId("kuch-v-odsud1", "font_big", "Help me somehow!")
@@ -49,7 +49,7 @@ dialogStr("На път съм.")
 dialogId("kuch-m-hrnec0", "font_small", "Yuck, there is something left in this pot!")
 dialogStr("Гадост. В тази тенджера е останало нещо!")
 
-dialogId("kuch-m-hrnec1", "font_small", "This pot wasn`t even washed up.")
+dialogId("kuch-m-hrnec1", "font_small", "This pot wasn’t even washed up.")
 dialogStr("Тази тенджера даже не е измита.")
 
 dialogId("kuch-m-hrnec2", "font_small", "Nobody washes the dishes here.")
@@ -91,7 +91,7 @@ dialogStr("Каква е тази сабя тук?")
 dialogId("kuch-m-porcovani", "font_small", "Maybe they used it to cut the meat.")
 dialogStr("Сигурно са я използвали за рязане на месото.")
 
-dialogId("kuch-v-nedela", "font_big", "Certainly. But you don`t cut meat with a sword in the kitchen, usually.")
+dialogId("kuch-v-nedela", "font_big", "Certainly. But you don’t cut meat with a sword in the kitchen, usually.")
 dialogStr("Сигурно. Но ти обикновено не режеш месото със сабя.")
 
 dialogId("kuch-m-kuchari", "font_small", "We are lucky there are no cooks here. They could try to cook us.")

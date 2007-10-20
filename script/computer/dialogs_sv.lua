@@ -1,5 +1,5 @@
 
-dialogId("poc-m-lezt0", "font_small", "That`s another fine mess.")
+dialogId("poc-m-lezt0", "font_small", "That’s another fine mess.")
 dialogStr("Vilken röra!")
 
 
@@ -31,7 +31,7 @@ dialogId("poc-v-nenajde", "font_big", "You can find many strange things in such 
 dialogStr("Man kan hitta många konstiga saker i en sådan här tipp.")
 
 
-dialogId("poc-m-myslis", "font_small", "Do you think this is the computer that`s at stake in this game?")
+dialogId("poc-m-myslis", "font_small", "Do you think this is the computer that’s at stake in this game?")
 dialogStr("Tror du att det är den här datorn som det här spelet handlar om?")
 
 
@@ -63,7 +63,7 @@ dialogId("poc-v-stahni", "font_big", "So what are we waiting for? Put that suspi
 dialogStr("Vad väntar vi på? Ställ datorn på disketten så drar vi!")
 
 
-dialogId("poc-m-ukryta", "font_small", "It won`t be as easy as that. The data is surely going to be hidden somewhere. We have to go in.")
+dialogId("poc-m-ukryta", "font_small", "It won’t be as easy as that. The data is surely going to be hidden somewhere. We have to go in.")
 dialogStr("Det kan inte vara så enkelt. Informationen kommer säkert att var gömd någonstans. Vi måste ta oss in.")
 
 

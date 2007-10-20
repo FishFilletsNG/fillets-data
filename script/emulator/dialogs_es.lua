@@ -27,7 +27,7 @@ dialogId("zx-v-otazka", "font_big", "Do you know that your question alone in WAV
 dialogStr("¿Sabes que sólo tu pregunta en formato de archivo WAV sobrepasaría la memoria RAM del Spectrum ZX? E imagina cuantos de esos sonidos hay en este juego.")
 
 
-dialogId("zx-m-necodosebe", "font_small", "But still, these games had something to them, didn`t they?")
+dialogId("zx-m-necodosebe", "font_small", "But still, these games had something to them, didn’t they?")
 dialogStr("Pero aún, esos juegos tenían algo, ¿Cierto?")
 
 
@@ -39,7 +39,7 @@ dialogId("zx-v-manicminer", "font_big", "And that must be the Manic Miner.")
 dialogStr("Y ese debe ser el Manic Miner.")
 
 
-dialogId("zx-m-jetpack", "font_small", "I really didn`t know I`d ever be putting the Jetpack together again.")
+dialogId("zx-m-jetpack", "font_small", "I really didn’t know I’d ever be putting the Jetpack together again.")
 dialogStr("Realmente no sabía que estuviera siempre juntando el Jetpack de nuevo.")
 
 

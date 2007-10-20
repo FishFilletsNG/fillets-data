@@ -15,7 +15,7 @@ dialogId("sm-v-jine2", "font_big", "No, I think there is something here, that ca
 dialogStr("Nej, jag tycker att det finns något här som inte finns någon annanstans.")
 
 
-dialogId("sm-v-budik", "font_big", "Look at that clock. Doesn`t it resemble a child-comforter a little?")
+dialogId("sm-v-budik", "font_big", "Look at that clock. Doesn’t it resemble a child-comforter a little?")
 dialogStr("Titta på klockan. Liknar den inte litegrann en napp?")
 
 
@@ -31,7 +31,7 @@ dialogId("sm-m-kramy1", "font_small", "This must be a wreck of a flea shop.")
 dialogStr("Det här måste vara resterna av en loppmarknad.")
 
 
-dialogId("sm-v-kramy2", "font_big", "It`s worse here than in an oil spill.")
+dialogId("sm-v-kramy2", "font_big", "It’s worse here than in an oil spill.")
 dialogStr("Det är värre än i ett oljespill.")
 
 
@@ -47,7 +47,7 @@ dialogId("sm-m-dedek", "font_small", "The one with that old man?")
 dialogStr("Den med den gamla gubben i?")
 
 
-dialogId("sm-v-charon", "font_big", "It`s old Charon, ferryman of the dead.")
+dialogId("sm-v-charon", "font_big", "It’s old Charon, ferryman of the dead.")
 dialogStr("Det är gamle Karon, färjkarlen för de döda.")
 
 
@@ -55,7 +55,7 @@ dialogId("sm-m-codela", "font_small", "And what does he do in the wasteyard?")
 dialogStr("Och vad gör han på soptippen?")
 
 
-dialogId("sm-v-duchodce0", "font_big", "He`s probably retired.")
+dialogId("sm-v-duchodce0", "font_big", "He’s probably retired.")
 dialogStr("Har har antagligen gått i pension.")
 
 
@@ -79,7 +79,7 @@ dialogId("sm-m-proc", "font_small", "Why?")
 dialogStr("Vad då?")
 
 
-dialogId("sm-v-podivej", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn`t it the most fitting example of what I was talking about?")
+dialogId("sm-v-podivej", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn’t it the most fitting example of what I was talking about?")
 dialogStr("Titta på den bara. Den springer framåt men är ändå kvar på samma ställe. Är det inte det mest passande exemplet på vad jag just sa?")
 
 

@@ -27,7 +27,7 @@ dialogId("bar-v-sud", "font_big", "And the cause is doubtless this giant barrel.
 dialogStr("En de oorzaak is zonder twijfel deze gigantische ton. Die moeten we hier weg zien te krijgen.")
 
 
-dialogId("bar-m-panb", "font_small", "Yes. Let`s get to work. We can drop it on the Mr. B.`s front yard afterwards.")
+dialogId("bar-m-panb", "font_small", "Yes. Let’s get to work. We can drop it on the Mr. B.’s front yard afterwards.")
 dialogStr("Ja. Aan de slag. We kunnen hem straks bij Meneer B. in de voortuin afleveren.")
 
 
@@ -35,7 +35,7 @@ dialogId("bar-m-rada", "font_small", "I think I am growing to like them.")
 dialogStr("Ik begin ze nou toch wel aardig te vinden.")
 
 
-dialogId("bar-v-kdyby0", "font_big", "If only they wouldn`t stand in our way so much.")
+dialogId("bar-v-kdyby0", "font_big", "If only they wouldn’t stand in our way so much.")
 dialogStr("Als ze nou niet zo in de weg stonden.")
 
 
@@ -43,11 +43,11 @@ dialogId("bar-v-kdyby1", "font_big", "If only they were where we need them.")
 dialogStr("Als ze nou daar waren waar we ze nodig hebben.")
 
 
-dialogId("bar-v-sbirka", "font_big", "Such a lovely collection of monstrosities. I`ll be sorry to leave.")
+dialogId("bar-v-sbirka", "font_big", "Such a lovely collection of monstrosities. I’ll be sorry to leave.")
 dialogStr("Wat een mooie verzameling monsterlijkheden. Ik ga het straks nog jammer vinden om ze achter te laten.")
 
 
-dialogId("bar-m-dost0", "font_small", "That won`t happen any time soon.")
+dialogId("bar-m-dost0", "font_small", "That won’t happen any time soon.")
 dialogStr("Het duurt nog wel even voor het zover is.")
 
 
@@ -59,7 +59,7 @@ dialogId("bar-v-lih", "font_big", "If we take them with us and store them in alc
 dialogStr("Als we ze mee nemen en in alcohol bewaren, dan kunnen we een rariteiten kabinet beginnen.")
 
 
-dialogId("bar-m-fdto", "font_small", "And FDTO isn`t enough for you?")
+dialogId("bar-m-fdto", "font_small", "And FDTO isn’t enough for you?")
 dialogStr("De VDTO betaalt niet genoeg?")
 
 
@@ -67,7 +67,7 @@ dialogId("bar-x-vypr", "font_white", "I can hear everything!")
 dialogStr("Ik hoor alles!")
 
 
-dialogId("bar-m-promin", "font_small", "Sorry, boss. I didn`t mean to offend.")
+dialogId("bar-m-promin", "font_small", "Sorry, boss. I didn’t mean to offend.")
 dialogStr("Sorry, baas. Zo bedoelde ik het niet.")
 
 

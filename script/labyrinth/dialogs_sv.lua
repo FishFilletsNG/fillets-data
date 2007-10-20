@@ -11,7 +11,7 @@ dialogId("bl-m-funkce", "font_small", "The position of assistant deputy design c
 dialogStr("Titeln assisterande vise designkoordinator introducerades tack vare den här nivån. Så att dess skapare skulle kunna bli nämnd.")
 
 
-dialogId("bl-v-pozadi", "font_big", "Enough about the game background. Let`s get to work.")
+dialogId("bl-v-pozadi", "font_big", "Enough about the game background. Let’s get to work.")
 dialogStr("Tillräckligt om bakgrunden. Dags att sätta igång.")
 
 
@@ -27,11 +27,11 @@ dialogId("bl-m-visi", "font_small", "And what does it hang on?")
 dialogStr("Och vad hänger den på?")
 
 
-dialogId("bl-v-nevim0", "font_big", "I don`t know. But we have to get it down anyway.")
+dialogId("bl-v-nevim0", "font_big", "I don’t know. But we have to get it down anyway.")
 dialogStr("Jag vet inte. Men vi måste få ner den på något sätt.")
 
 
-dialogId("bl-v-nevim1", "font_big", "I don`t know. Do we have to put it down?")
+dialogId("bl-v-nevim1", "font_big", "I don’t know. Do we have to put it down?")
 dialogStr("Jag vet inte. Behöver vi knuffa ner den?")
 
 
@@ -55,11 +55,11 @@ dialogId("bl-m-snecku0", "font_small", "Shalimuddy, shalimuddy, put your horns o
 dialogStr("Buller i, buller i bock, hur många horn står upp..")
 
 
-dialogId("bl-v-dost0", "font_big", "Stop it! As if you don`t know that no object will move if we don`t push it first!")
+dialogId("bl-v-dost0", "font_big", "Stop it! As if you don’t know that no object will move if we don’t push it first!")
 dialogStr("Sluta! Som om du inte visste att inga objekt kommer att röra på sig innan vi först skjuter på!")
 
 
-dialogId("bl-m-snecku1", "font_small", "But I can try, can`t I? Shalimuddy, Shalimuddy...")
+dialogId("bl-m-snecku1", "font_small", "But I can try, can’t I? Shalimuddy, Shalimuddy...")
 dialogStr("Men jag kan ju alltid försöka, eller hur? Buller i, buller i...")
 
 
@@ -67,10 +67,10 @@ dialogId("bl-v-dost1", "font_big", "Stop it! It makes my scales itch!")
 dialogStr("Sluta! Det får mina fjäll att börja klia!")
 
 
-dialogId("bl-m-snecku2", "font_small", "Don`t listen then. Shalimuddy, shalimuddy, put your...")
+dialogId("bl-m-snecku2", "font_small", "Don’t listen then. Shalimuddy, shalimuddy, put your...")
 dialogStr("Sluta lyssna då. Buller i, buller i bock...")
 
 
-dialogId("bl-v-dost2", "font_big", "Stop it! Or I`ll drop that coral on your head!")
+dialogId("bl-v-dost2", "font_big", "Stop it! Or I’ll drop that coral on your head!")
 dialogStr("Sluta! Eller så kommer jag att släppa korallen i huvudet på dig!")
 

@@ -1,5 +1,5 @@
 
-dialogId("dr1-v-urcite", "font_big", "Definitely. It`s one of the earliest drakkars. Judging by the shape of the head, number of spirals and color of the water I think it belonged to the grandfather of Eric the Red.")
+dialogId("dr1-v-urcite", "font_big", "Definitely. It’s one of the earliest drakkars. Judging by the shape of the head, number of spirals and color of the water I think it belonged to the grandfather of Eric the Red.")
 dialogStr("Definitiv. Es ist eine der ersten Drakkars. Nach der Form des Kopfes, der Anzahl der Spiralen und der Farbe des Wassers nach zu urteilen, gehörte es dem Grossvater von Erik dem Roten, denke ich.")
 
 

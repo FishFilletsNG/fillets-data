@@ -27,7 +27,7 @@ dialogId("sec-m-kamen", "font_small", "Try to loosen some stone in the wall.")
 dialogStr("Zkus, jestli neuvolníš nějaký kámen ve zdi!")
 
 
-dialogId("sec-m-krab", "font_small", "Isn`t that crab a little bit strange?")
+dialogId("sec-m-krab", "font_small", "Isn’t that crab a little bit strange?")
 dialogStr("Nezdá se ti ten krab poněkud úchylný?")
 
 
@@ -43,11 +43,11 @@ dialogId("sec-m-dole1", "font_small", "The lower one, of course.")
 dialogStr("Samozřejmě, že toho dole.")
 
 
-dialogId("sec-v-normalni0", "font_big", "I think it`s normal.")
+dialogId("sec-v-normalni0", "font_big", "I think it’s normal.")
 dialogStr("Mně připadne normální.")
 
 
-dialogId("sec-v-normalni1", "font_big", "Yes, it`s a little weird.")
+dialogId("sec-v-normalni1", "font_big", "Yes, it’s a little weird.")
 dialogStr("Je trochu zvláštní...")
 
 
@@ -83,6 +83,6 @@ dialogId("sec-v-socha", "font_big", "Did we ever see a sculpture that would be s
 dialogStr("To se ještě nestalo, aby ta socha celou dobu mlčela.")
 
 
-dialogId("sec-m-situace", "font_small", "I think it`s only waiting for the best opportunity.")
+dialogId("sec-m-situace", "font_small", "I think it’s only waiting for the best opportunity.")
 dialogStr("Myslím, že jen vyčkává vhodné situace.")
 

@@ -4,16 +4,16 @@ dialogStr("Най-сетне го намерихме.")
 dialogId("tru-m-co", "font_small", "What?")
 dialogStr("Кое?")
 
-dialogId("tru-v-poklad", "font_big", "Captain Silver`s treasure, of course.")
+dialogId("tru-v-poklad", "font_big", "Captain Silver’s treasure, of course.")
 dialogStr("Съкровището на капитан Силвър, разбира се.")
 
 dialogId("tru-v-gral", "font_big", "The Holy Grail, of course.")
 dialogStr("Светия Граал, естествено.")
 
-dialogId("tru-v-vkupe", "font_big", "It`s neatly in one place: the treasure and the Grail.")
+dialogId("tru-v-vkupe", "font_big", "It’s neatly in one place: the treasure and the Grail.")
 dialogStr("Всичко на едно място - и съкровището, и Граала.")
 
-dialogId("tru-m-zrada", "font_small", "I think it`s much too easy to be true.")
+dialogId("tru-m-zrada", "font_small", "I think it’s much too easy to be true.")
 dialogStr("Струва ми се много лесно за да е вярно.")
 
 dialogId("tru-m-oznamit", "font_small", "I think that if it really was our goal, the game would let the player know.")
@@ -31,7 +31,7 @@ dialogStr("Добре де, добре. ВЕРОЯТНО не е това, ко�
 dialogId("tru-m-nejistota", "font_small", "That's better. There remains a bit of uncertainty.")
 dialogStr("Така е по-добре. Остава малко неяснота.")
 
-dialogId("tru-m-truhla0", "font_small", "Couldn`t we close that chest?")
+dialogId("tru-m-truhla0", "font_small", "Couldn’t we close that chest?")
 dialogStr("Не може ли да затворим онзи сандък?")
 
 dialogId("tru-m-truhla1", "font_small", "What if we try to close that chest?")
@@ -43,19 +43,19 @@ dialogStr("Щеше да е много по-лесно ако сандъкът �
 dialogId("tru-v-truhla1", "font_big", "Try to push its lid.")
 dialogStr("Опитай да му бутнеш капака.")
 
-dialogId("tru-m-vzit0", "font_small", "Won`t we take something with us?")
+dialogId("tru-m-vzit0", "font_small", "Won’t we take something with us?")
 dialogStr("Няма ли да вземем нещо за нас")
 
 dialogId("tru-m-vzit1", "font_small", "What about taking some treasure with us?")
 dialogStr("Дали да не вземем малко скъпоценности за нас?")
 
-dialogId("tru-m-vzit2", "font_small", "Aren`t you sorry to leave all this treasure behind?")
+dialogId("tru-m-vzit2", "font_small", "Aren’t you sorry to leave all this treasure behind?")
 dialogStr("Не ти ли е тъжно да изоставиш цялото това съкровище?")
 
 dialogId("tru-v-vzit0", "font_big", "We will be glad if we manage to get out ourselves.")
 dialogStr("Ще ни бъде достатъчно да се измъкнем оттук.")
 
-dialogId("tru-v-vzit1", "font_big", "Don`t forget our mission.")
+dialogId("tru-v-vzit1", "font_big", "Don’t forget our mission.")
 dialogStr("Не забравяй за мисията.")
 
 dialogId("tru-v-vzit2", "font_big", "The treasure would only hinder us.")

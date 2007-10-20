@@ -28,11 +28,11 @@ dialogStr("Можем да опитаме да я върнем на място."
 dialogId("sp-m-vratit0", "font_small", "And then? Shall we drink the water that poured in, or what?")
 dialogStr("И после? Ще изпием нахлулата вода или какво?")
 
-dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of our esteem of the citizens` heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.")
+dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of our esteem of the citizens’ heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.")
 dialogStr("Може да я върнем на място в знак на уважение към героичните усилия на гражданите да удържат града над водата. Като мемориал на тяхната усърдна, изкусна и... упорита натура.")
 
-dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.` The Providence itself unplugged that hole. Just imagine you`d hear such things at home. Day by day.")
-dialogStr("На какво!? 'Накъде бързаш? Ще поръчвам осем меча.` Самото провидение е отпушило тази дупка. Представи си само да слушаш такива неща у дома. Всеки ден.")
+dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
+dialogStr("На какво!? 'Накъде бързаш? Ще поръчвам осем меча.’ Самото провидение е отпушило тази дупка. Представи си само да слушаш такива неща у дома. Всеки ден.")
 
 dialogId("sp-m-kalet", "font_small", "And moreover: is it likely that anybody would ever come here? Only sepias will nibble it occasionally.")
 dialogStr("Освен това, дали е вероятно някой някога да дойде тук? Само сепии ще кълват от време на време.")
@@ -49,7 +49,7 @@ dialogStr("Може би си права. Може би ще е по-добре 
 dialogId("sp-m-taky", "font_small", "I think so, too.")
 dialogStr("И аз мисля така.")
 
-dialogId("sp-v-dotoho", "font_big", "Let `s get to work.")
+dialogId("sp-v-dotoho", "font_big", "Let ’s get to work.")
 dialogStr("Да се хващаме на работа.")
 
 dialogId("sp-m-nechat", "font_small", "What if we just leave that plug here?")
@@ -58,7 +58,7 @@ dialogStr("Дали да не зарежем тази запушалка къд�
 dialogId("sp-v-centrala", "font_big", "What would the Agency say?")
 dialogStr("Какво ли ще каже Управлението?")
 
-dialogId("sp-v-jedno", "font_big", "I don`t think I mind what the boss is going to think about me.")
+dialogId("sp-v-jedno", "font_big", "I don’t think I mind what the boss is going to think about me.")
 dialogStr("Не мисля, че ми пука какво ще си помисли шефа за мене.")
 
 dialogId("sp-m-vydrz", "font_small", "Hold on. We are sure to solve it.")

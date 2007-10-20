@@ -7,15 +7,15 @@ dialogId("zav-v-trpyt", "font_big", "And all of them gleam beautifully.")
 dialogStr("Y todos ellos brillan de forma hermosa.")
 
 
-dialogId("zav-m-pohnout", "font_small", "Please note, that I can`t move a fin here.")
+dialogId("zav-m-pohnout", "font_small", "Please note, that I can’t move a fin here.")
 dialogStr("Toma nota, que no puedo mover ni una aleta aquí.")
 
 
-dialogId("zav-m-krasa", "font_small", "It`s beautiful! Everything gleams so much...")
+dialogId("zav-m-krasa", "font_small", "It’s beautiful! Everything gleams so much...")
 dialogStr("¡Es hermoso! Todo el lugar resplandece...")
 
 
-dialogId("zav-v-venku", "font_big", "It`ll be much nicer when we get out.")
+dialogId("zav-v-venku", "font_big", "It’ll be much nicer when we get out.")
 dialogStr("Será mucho más hermoso cuando salgamos.")
 
 
@@ -23,11 +23,11 @@ dialogId("zav-v-zaval", "font_big", "This is very dangerous cave-in. We are luck
 dialogStr("Esta es una gruta muy peligrosa. Tenemos suerte de estar vivos.")
 
 
-dialogId("zav-m-hopskok", "font_small", "Don`t speak too soon. We`re still in here.")
+dialogId("zav-m-hopskok", "font_small", "Don’t speak too soon. We’re still in here.")
 dialogStr("No te anticipes. Todavía estamos aquí.")
 
 
-dialogId("zav-m-kameny", "font_small", "Don`t you think that these stones are arranged in a different way?")
+dialogId("zav-m-kameny", "font_small", "Don’t you think that these stones are arranged in a different way?")
 dialogStr("¿No crees que esas piedras están organizadas de una forma distinta?")
 
 
@@ -39,7 +39,7 @@ dialogId("zav-v-restart", "font_big", "I think that these jewels arrange themsel
 dialogStr("Creo que esas joyas se ordenan a si mismas en una forma distinta después de reiniciar.")
 
 
-dialogId("zav-m-pravda", "font_small", "Yeah, you`re right. Maybe they form some sensible pattern sometimes.")
+dialogId("zav-m-pravda", "font_small", "Yeah, you’re right. Maybe they form some sensible pattern sometimes.")
 dialogStr("Si, tienes razón. Quizás forman algún patron en especial algunas veces.")
 
 

@@ -37,10 +37,10 @@ dialogStr("И сега съм сама.")
 dialogId("smrt-m-3", "font_small", "That must have hurt.")
 dialogStr("Това трябва да е заболяло.")
 
-dialogId("smrt-m-4", "font_small", "He didn`t deserve such a terrible end...")
+dialogId("smrt-m-4", "font_small", "He didn’t deserve such a terrible end...")
 dialogStr("Той не заслужаваше толкова ужасен край...")
 
-dialogId("smrt-m-5", "font_small", "So, let`s start again...")
+dialogId("smrt-m-5", "font_small", "So, let’s start again...")
 dialogStr("Да опитаме отново, а?")
 
 dialogId("smrt-x-obe", "font_parrot", "Aye, caramba!")
@@ -55,7 +55,7 @@ dialogStr("Млък! Ти си мъртъв.")
 dialogId("smrt-m-6", "font_small", "And I never told him I loved him.")
 dialogStr("Така и не му казах, че го обичам.")
 
-dialogId("smrt-m-restart", "font_small", "Luckily, it`s possible to restart the level.")
+dialogId("smrt-m-restart", "font_small", "Luckily, it’s possible to restart the level.")
 dialogStr("За щастие можем да рестартираме нивото.")
 
 dialogId("smrt-v-restart", "font_big", "Fortunately, we can restart the level.")
@@ -70,12 +70,12 @@ dialogStr("Рестартирай нивото! Задгробният живо�
 dialogId("smrt-v-posmrtny", "font_big", "Hellooo? Can you hear me hereafter? Is there life after death?")
 dialogStr("Ехооо. Чуваш ли ме отвъд? Има ли живот след смъртта?")
 
-dialogId("smrt-m-posmrtny", "font_small", "I don`t know. I don`t think so.")
+dialogId("smrt-m-posmrtny", "font_small", "I don’t know. I don’t think so.")
 dialogStr("Не знам. Не мисля, че има.")
 
-dialogId("smrt-m-autorest", "font_small", "I am not going to solve it alone. Don`t trouble yourself with restart, I`ll do it myself.")
+dialogId("smrt-m-autorest", "font_small", "I am not going to solve it alone. Don’t trouble yourself with restart, I’ll do it myself.")
 dialogStr("Няма да мина нивото сама. Не се тормози да рестартираш. И сама мога.")
 
-dialogId("smrt-v-autorest", "font_big", "And she is gone. I`m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
+dialogId("smrt-v-autorest", "font_big", "And she is gone. I’m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
 dialogStr("И вече я няма. Сигурен съм, че и ти я харесваше колкото мен. Сигурно нямаш нищо против да рестартираш нивото?")
 

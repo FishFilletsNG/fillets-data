@@ -15,7 +15,7 @@ dialogId("jes-v-nestezuj", "font_big", "That may be true, but I think we are goi
 dialogStr("Może i tak, ale myślę, że będziemy go potrzebować.")
 
 
-dialogId("jes-v-uzke", "font_big", "It`s too narrow for me. You have to do it on your own down there.")
+dialogId("jes-v-uzke", "font_big", "It’s too narrow for me. You have to do it on your own down there.")
 dialogStr("Za wąsko dla mnie. Musisz sama odwalić robotę tam na dole.")
 
 
@@ -31,7 +31,7 @@ dialogId("jes-v-gral", "font_big", "I think that we should be looking for the Gr
 dialogStr("Chyba będziemy musieli gdzie indziej poszukać Graala...")
 
 
-dialogId("jes-m-deprese", "font_small", "Don`t be depressive. We will solve this in no time.")
+dialogId("jes-m-deprese", "font_small", "Don’t be depressive. We will solve this in no time.")
 dialogStr("Nie łam się. Raz dwa to rozwiążemy.")
 
 
@@ -79,26 +79,26 @@ dialogId("jes-m-netopyr1", "font_small", "This is a stuffed bat.")
 dialogStr("Ten nietoperz jest chyba wypchany.")
 
 
-dialogId("jes-v-netopyr1", "font_big", "It`s a sculpture of bat.")
+dialogId("jes-v-netopyr1", "font_big", "It’s a sculpture of bat.")
 dialogStr("Może to rzeźba nietoperza.")
 
 
-dialogId("jes-m-netopyr2", "font_small", "It`s a stalagmite shaped as a bat.")
+dialogId("jes-m-netopyr2", "font_small", "It’s a stalagmite shaped as a bat.")
 dialogStr("Może to stalagmit w kształcie nietoperza.")
 
 
-dialogId("jes-v-netopyr2", "font_big", "It`s a plain stalagmite.")
+dialogId("jes-v-netopyr2", "font_big", "It’s a plain stalagmite.")
 dialogStr("To zwykły stalagmit.")
 
 
-dialogId("jes-m-netopyr3", "font_small", "It`s just an ordinary piece of rock.")
+dialogId("jes-m-netopyr3", "font_small", "It’s just an ordinary piece of rock.")
 dialogStr("To tylko zwykły kawałek skały.")
 
 
-dialogId("jes-v-nechut0", "font_big", "I think you are going to need that 'monster`.")
-dialogStr("Chyba będziesz potrzebować tego 'potwora`.")
+dialogId("jes-v-nechut0", "font_big", "I think you are going to need that 'monster’.")
+dialogStr("Chyba będziesz potrzebować tego 'potwora’.")
 
 
-dialogId("jes-v-nechut1", "font_big", "I think you will have to overcome your dislike of that 'abomination`.")
-dialogStr("Chyba będziesz musiała przełamać swoją 'odrazę`.")
+dialogId("jes-v-nechut1", "font_big", "I think you will have to overcome your dislike of that 'abomination’.")
+dialogStr("Chyba będziesz musiała przełamać swoją 'odrazę’.")
 

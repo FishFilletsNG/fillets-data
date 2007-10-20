@@ -3,7 +3,7 @@ dialogId("uts-m-otresy", "font_small", "My goodness, the impact created cave-in!
 dialogStr("Meine Güte, durch den Aufschlag ist die Höhle eingestürzt!")
 
 
-dialogId("uts-v-projet0", "font_big", "I can`t go through this cave-in, we have to find another exit.")
+dialogId("uts-v-projet0", "font_big", "I can’t go through this cave-in, we have to find another exit.")
 dialogStr("Ich komme da nicht durch, wir müssen einen anderen Ausgang finden.")
 
 
@@ -11,7 +11,7 @@ dialogId("uts-v-projet1", "font_big", "This is not the way.")
 dialogStr("Das geht nicht.")
 
 
-dialogId("uts-v-sam", "font_big", "I won`t make it alone.")
+dialogId("uts-v-sam", "font_big", "I won’t make it alone.")
 dialogStr("Ich schaffe das nicht alleine.")
 
 
@@ -35,7 +35,7 @@ dialogId("uts-m-nezvedneme", "font_small", "It will be difficult to pick up that
 dialogStr("Es wird schwierig, die Schnecke von dort aufzuheben.")
 
 
-dialogId("uts-v-konecne", "font_big", "Finally, it`s there.")
+dialogId("uts-v-konecne", "font_big", "Finally, it’s there.")
 dialogStr("Endlich ist sie da.")
 
 
@@ -51,7 +51,7 @@ dialogId("uts-m-tvorove", "font_small", "There are going to be many interesting 
 dialogStr("Dort werden viele interessante Wesen zu untersuchen sein.")
 
 
-dialogId("uts-v-mikroskop", "font_big", "Don`t we need a microscope to investigate corals?")
+dialogId("uts-v-mikroskop", "font_big", "Don’t we need a microscope to investigate corals?")
 dialogStr("Brauchen wir nicht ein Mikroskop, um Korallen zu untersuchen?")
 
 

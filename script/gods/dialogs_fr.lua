@@ -27,7 +27,7 @@ dialogId("lod-m-costim", "font_small", "What are we to do about it?")
 dialogStr("Qu'allons-nous faire alors ?")
 
 
-dialogId("lod-v-internovat", "font_big", "We can`t leave it this way. We must incarcerate them.")
+dialogId("lod-v-internovat", "font_big", "We can’t leave it this way. We must incarcerate them.")
 dialogStr("Nous ne pouvons pas les laisser continuer comme ça. Nous devons les arrêter.")
 
 
@@ -91,7 +91,7 @@ dialogId("lod-v-hravost", "font_big", "Mother was right. Abnormal playfulness is
 dialogStr("Maman avait raison. L'excès de jeu est réellement diabolique.")
 
 
-dialogId("lod-m-palka", "font_small", "That`s true. It would be much easier if that table tennis bat was somewhere else.")
+dialogId("lod-m-palka", "font_small", "That’s true. It would be much easier if that table tennis bat was somewhere else.")
 dialogStr("C'est vrai. Ce serait plus facile si cette raquette de ping-pong était ailleurs.")
 
 
@@ -111,7 +111,7 @@ dialogId("lod-m-micek", "font_small", "I thought it was a table tennis ball up t
 dialogStr("Je pense que c'est une balle de ping-pong là haut.")
 
 
-dialogId("lod-v-rozliseni", "font_big", "It`s hard to say with this screen resolution.")
+dialogId("lod-v-rozliseni", "font_big", "It’s hard to say with this screen resolution.")
 dialogStr("Difficile à dire avec un écran à cette résolution.")
 
 
@@ -183,7 +183,7 @@ dialogId("b1-znovu", "font_yellow", "Shall we play another one?")
 dialogStr("Faisons-nous une autre partie ?")
 
 
-dialogId("b1-nepodvadim", "font_yellow", "I don`t cheat.")
+dialogId("b1-nepodvadim", "font_yellow", "I don’t cheat.")
 dialogStr("Je ne triche pas.")
 
 
@@ -259,7 +259,7 @@ dialogId("b2-rikal2", "font_cyan", "You already said that!")
 dialogStr("Tu as déjà dit ça !")
 
 
-dialogId("b2-nemuze", "font_cyan", "It can`t be a miss on this space.")
+dialogId("b2-nemuze", "font_cyan", "It can’t be a miss on this space.")
 dialogStr("Il n'y a pas de manqué ici.")
 
 
@@ -267,6 +267,6 @@ dialogId("b2-podvadis", "font_cyan", "You cheat!!!")
 dialogStr("Tu as triché !!!")
 
 
-dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss`!")
+dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss’!")
 dialogStr("J'ai tiré ici - et tu as répondu 'raté' !")
 

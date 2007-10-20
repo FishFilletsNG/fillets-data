@@ -15,7 +15,7 @@ dialogId("disk-v-metrova", "font_big", "Look how much bigger than me it is. It i
 dialogStr("Titta så mycket större än jag den är. Det är en tre och en halv meter diskett.")
 
 
-dialogId("disk-m-velka", "font_small", "That`s better. Big plan, big disk. That makes sense.")
+dialogId("disk-m-velka", "font_small", "That’s better. Big plan, big disk. That makes sense.")
 dialogStr("Det är bättre. Stora planer, stora diskar. Det verkar förnuftigt.")
 
 
@@ -39,11 +39,11 @@ dialogId("disk-v-kriz", "font_big", "Can you see that steel cross? This is the g
 dialogStr("Ser du stålkorset? Det är vårt hopps grav.")
 
 
-dialogId("disk-m-depres", "font_small", "Don`t be always so gloomy. I can`t bear it.")
+dialogId("disk-m-depres", "font_small", "Don’t be always so gloomy. I can’t bear it.")
 dialogStr("Var inte så dyster. Jag står inte ut.")
 
 
-dialogId("disk-m-nahrat", "font_small", "Wouldn`t it be enough to download that plan from the floppy to our notebook?")
+dialogId("disk-m-nahrat", "font_small", "Wouldn’t it be enough to download that plan from the floppy to our notebook?")
 dialogStr("Skulle vi inte kunna ladda ner planen från disketten till vår bärbara dator?")
 
 
@@ -71,7 +71,7 @@ dialogId("disk-m-zmatlo", "font_small", "What if there is no plan on this floppy
 dialogStr("Men om det inte finns någon plan på disketten? Om det bara är här för att förvirra oss?")
 
 
-dialogId("disk-v-neverim", "font_big", "I don`t believe that. Is there some other object that would be more difficult to get out?")
+dialogId("disk-v-neverim", "font_big", "I don’t believe that. Is there some other object that would be more difficult to get out?")
 dialogStr("Jag tror inte det. Finns det något annat objekt som är svårare att få fram?")
 
 
@@ -87,7 +87,7 @@ dialogId("disk-m-potvory", "font_small", "Yuck. Some monsters.")
 dialogStr("Usch. Vilka monster.")
 
 
-dialogId("disk-v-pozor", "font_big", "Above all, we must be careful not to take them with the disk. The player wouldn`t be happy if we pour them on their desktop.")
+dialogId("disk-v-pozor", "font_big", "Above all, we must be careful not to take them with the disk. The player wouldn’t be happy if we pour them on their desktop.")
 dialogStr("Viktigast av allt, vi måste se till att inget av dem följer med disketten. Spelaren skulle inte bli glad om vi tömde ner dom på skrivbordet.")
 
 
@@ -95,7 +95,7 @@ dialogId("disk-m-ukol", "font_small", "Our goal is to push out that disk.")
 dialogStr("Vårt mål är att knuffa ut den där disketten.")
 
 
-dialogId("disk-x-nepohnes", "font_darkgrey", "You won`t move me easily!")
+dialogId("disk-x-nepohnes", "font_darkgrey", "You won’t move me easily!")
 dialogStr("Du kommer inte att kunna flytta mig så lätt!")
 
 

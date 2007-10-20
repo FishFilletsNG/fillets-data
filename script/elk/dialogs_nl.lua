@@ -27,7 +27,7 @@ dialogId("deu-l-los", "font_elk", "Ya rusky los.")
 dialogStr("Ja ruski los.")
 
 
-dialogId("deu-v-radsi", "font_big", "I`d like this elk much more if it wasn`t blocking our way so much.")
+dialogId("deu-v-radsi", "font_big", "I’d like this elk much more if it wasn’t blocking our way so much.")
 dialogStr("Ik zou deze Eland een stuk aardiger vinden als hij niet zo in de weg lag.")
 
 

@@ -13,11 +13,11 @@ dialogId("ufo-m-ne", "font_small", "My goodness! What should I do in such a leve
 
 dialogId("ufo-v-vpredu", "font_big", "You would let me go in front, for a change.")
 
-dialogId("ufo-m-zvlastni", "font_small", "It`s interesting that this tangled steel forestalls our entry into that UFO more effectively than any security system.")
+dialogId("ufo-m-zvlastni", "font_small", "It’s interesting that this tangled steel forestalls our entry into that UFO more effectively than any security system.")
 
 dialogId("ufo-v-rikam", "font_big", "I keep telling you that our life is controlled by some higher, strange consciousness.")
 
-dialogId("ufo-m-vidim", "font_small", "I can see that, too. But I am not that sure it`s higher.")
+dialogId("ufo-m-vidim", "font_small", "I can see that, too. But I am not that sure it’s higher.")
 
 dialogId("ufo-v-dovnitr", "font_big", "What can we find inside, once we manage to get there?")
 
@@ -27,6 +27,6 @@ dialogId("ufo-v-zjistit0", "font_big", "Most importantly, we should try to find 
 
 dialogId("ufo-v-zjistit1", "font_big", "You know, most of all I wonder why they crashed just here.")
 
-dialogId("ufo-m-tady", "font_small", "Didn`t you see it? Everything happens just here.")
+dialogId("ufo-m-tady", "font_small", "Didn’t you see it? Everything happens just here.")
 
-dialogId("ufo-m-nevim", "font_small", "I don`t know why the UFOs keep crashing at our house, either.")
+dialogId("ufo-m-nevim", "font_small", "I don’t know why the UFOs keep crashing at our house, either.")

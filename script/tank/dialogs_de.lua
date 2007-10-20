@@ -47,7 +47,7 @@ dialogId("sv-m-munice", "font_small", "Do you think that this ammunition could h
 dialogStr("Denkst du, dass diese Munition gefährlich ist?")
 
 
-dialogId("sv-v-nevim", "font_big", "I don`t know, but I`ll try to keep my distance from it.")
+dialogId("sv-v-nevim", "font_big", "I don’t know, but I’ll try to keep my distance from it.")
 dialogStr("Ich weiß nicht. Aber ich versuche ganz bestimmt, Abstand zu halten.")
 
 

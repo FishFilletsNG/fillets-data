@@ -11,11 +11,11 @@ dialogId("kuch-m-objev2", "font_small", "Darned kitchen.")
 dialogStr("Gräsligt kök.")
 
 
-dialogId("kuch-m-objev3", "font_small", "And now we are in the captain Silver`s kitchen.")
+dialogId("kuch-m-objev3", "font_small", "And now we are in the captain Silver’s kitchen.")
 dialogStr("Och nu är vi i kapten Silvers kök.")
 
 
-dialogId("kuch-v-varil", "font_big", "I don`t think he was a cook himself.")
+dialogId("kuch-v-varil", "font_big", "I don’t think he was a cook himself.")
 dialogStr("Jag tror inte att hans själv var kocken.")
 
 
@@ -31,7 +31,7 @@ dialogId("kuch-v-podivej", "font_big", "But just have a look at me.")
 dialogStr("Men se på mig då.")
 
 
-dialogId("kuch-v-stolky0", "font_big", "I can`t understand how these serving tables got there.")
+dialogId("kuch-v-stolky0", "font_big", "I can’t understand how these serving tables got there.")
 dialogStr("Jag förstår inte hur borden hamnade här.")
 
 
@@ -43,11 +43,11 @@ dialogId("kuch-v-stolky2", "font_big", "This little chamber gives me the creeps.
 dialogStr("Den lilla kammaren skrämmer mig.")
 
 
-dialogId("kuch-v-odsud0", "font_big", "I can`t get out of here!")
+dialogId("kuch-v-odsud0", "font_big", "I can’t get out of here!")
 dialogStr("Jag kan inte ta mig ut!")
 
 
-dialogId("kuch-m-premyslim0", "font_small", "I`m just thinking how to help you.")
+dialogId("kuch-m-premyslim0", "font_small", "I’m just thinking how to help you.")
 dialogStr("Vänta, jag funderar på hur jag ska kunna hjälpa dig.")
 
 
@@ -67,7 +67,7 @@ dialogId("kuch-m-hrnec0", "font_small", "Yuck, there is something left in this p
 dialogStr("Usch, det finns något kvar i den här krukan!")
 
 
-dialogId("kuch-m-hrnec1", "font_small", "This pot wasn`t even washed up.")
+dialogId("kuch-m-hrnec1", "font_small", "This pot wasn’t even washed up.")
 dialogStr("Krukan var inte ens diskad.")
 
 
@@ -123,7 +123,7 @@ dialogId("kuch-m-porcovani", "font_small", "Maybe they used it to cut the meat."
 dialogStr("De kanske skär kött med det.")
 
 
-dialogId("kuch-v-nedela", "font_big", "Certainly. But you don`t cut meat with a sword in the kitchen, usually.")
+dialogId("kuch-v-nedela", "font_big", "Certainly. But you don’t cut meat with a sword in the kitchen, usually.")
 dialogStr("Visst. Men man brukar ju inte skära kött med svärd i köket, vanligtvis.")
 
 

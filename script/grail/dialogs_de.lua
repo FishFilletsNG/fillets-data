@@ -7,15 +7,15 @@ dialogId("gr-v-jiste", "font_big", "How can you be so sure?")
 dialogStr("Wie kannst Du so sicher sein?")
 
 
-dialogId("gr-m-zare0", "font_small", "Can`t you see that halo?")
+dialogId("gr-m-zare0", "font_small", "Can’t you see that halo?")
 dialogStr("Siehst Du nicht den Heiligenschein?")
 
 
-dialogId("gr-m-zare1", "font_small", "Can`t you see how it glows among the others?")
+dialogId("gr-m-zare1", "font_small", "Can’t you see how it glows among the others?")
 dialogStr("Siehst Du nicht, wie er zwischen den anderen leuchtet?")
 
 
-dialogId("gr-m-zare2", "font_small", "Can`t you see how conspicuously is it placed in the center of the cave?")
+dialogId("gr-m-zare2", "font_small", "Can’t you see how conspicuously is it placed in the center of the cave?")
 dialogStr("Siehst Du nicht, wie auffällig er in der Mitte der Höhle platziert ist?")
 
 
@@ -39,15 +39,15 @@ dialogId("gr-m-tuseni", "font_small", "You and your feelings.")
 dialogStr("Du und deine Gefühle.")
 
 
-dialogId("gr-m-svaty0", "font_small", "Let`s go, we shall take that central glowing Grail with us.")
-dialogStr("Auf geht`s, wir sollten diesen leuchtenden Gral in der Mitte mitnehmen.")
+dialogId("gr-m-svaty0", "font_small", "Let’s go, we shall take that central glowing Grail with us.")
+dialogStr("Auf geht’s, wir sollten diesen leuchtenden Gral in der Mitte mitnehmen.")
 
 
-dialogId("gr-v-vsechny0", "font_big", "I`d rather take all of them.")
+dialogId("gr-v-vsechny0", "font_big", "I’d rather take all of them.")
 dialogStr("Ich würde lieber alle mitnehmen.")
 
 
-dialogId("gr-m-vsechny0", "font_small", "Hmm... It seems you were right. We`ll take them all.")
+dialogId("gr-m-vsechny0", "font_small", "Hmm... It seems you were right. We’ll take them all.")
 dialogStr("Hmm... es scheint, du hattest Recht. Wir werden sie alle nehmen.")
 
 

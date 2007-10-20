@@ -3,7 +3,7 @@ dialogId("mik-v-sakra", "font_big", "Dang, that snail is blocking the way.")
 dialogStr("Sakryš, ten šnek tam hrozně zavazí.")
 
 
-dialogId("mik-v-projet", "font_big", "I can`t swim through.")
+dialogId("mik-v-projet", "font_big", "I can’t swim through.")
 dialogStr("Teď neprojedu.")
 
 
@@ -11,7 +11,7 @@ dialogId("mik-m-krab", "font_small", "Those crabs are too talkative.")
 dialogStr("Ti krabi jsou nějak ukecaní.")
 
 
-dialogId("mik-m-poust", "font_small", "They don`t look like hermits.")
+dialogId("mik-m-poust", "font_small", "They don’t look like hermits.")
 dialogStr("Vůbec nevypadají na poustevníčky.")
 
 
@@ -31,7 +31,7 @@ dialogId("mik-v-ticho2", "font_big", "What is it now?!")
 dialogStr("Tak co je to zase?!")
 
 
-dialogId("mik-v-proto", "font_big", "That`s better.")
+dialogId("mik-v-proto", "font_big", "That’s better.")
 dialogStr("No proto.")
 
 
@@ -39,7 +39,7 @@ dialogId("mik-v-tak", "font_big", "Yes.")
 dialogStr("Tak.")
 
 
-dialogId("mik-m-nezlob", "font_small", "Don`t be mad at them.")
+dialogId("mik-m-nezlob", "font_small", "Don’t be mad at them.")
 dialogStr("Už se na ně nezlob.")
 
 
@@ -55,6 +55,6 @@ dialogId("mik-v-videt", "font_big", "All the better to see you with.")
 dialogStr("To aby tě lépe viděla.")
 
 
-dialogId("mik-m-konik", "font_small", "I`ve seen this seahorse somewhere before.")
+dialogId("mik-m-konik", "font_small", "I’ve seen this seahorse somewhere before.")
 dialogStr("Tohohle koníka jsem už někde viděla.")
 

@@ -1,5 +1,5 @@
 
-dialogId("br-v-komfort", "font_big", "It`s quite comfortable for a wasteyard.")
+dialogId("br-v-komfort", "font_big", "It’s quite comfortable for a wasteyard.")
 dialogStr("Piuttosto accogliente per essere una discarica.")
 
 
@@ -19,15 +19,15 @@ dialogId("br-m-vsim0", "font_small", "Did you notice that...")
 dialogStr("Hai notato che...")
 
 
-dialogId("br-m-vsim1", "font_small", "Don`t you think that...")
+dialogId("br-m-vsim1", "font_small", "Don’t you think that...")
 dialogStr("Non pensi che...")
 
 
-dialogId("br-m-vsim2", "font_small", "Isn`t it strange that...")
+dialogId("br-m-vsim2", "font_small", "Isn’t it strange that...")
 dialogStr("Non è strano che...")
 
 
-dialogId("br-v-nerozvadet0", "font_big", "Don`t talk about it.")
+dialogId("br-v-nerozvadet0", "font_big", "Don’t talk about it.")
 dialogStr("Non continuare.")
 
 
@@ -35,7 +35,7 @@ dialogId("br-v-nerozvadet1", "font_big", "Please, no jokes about defecation.")
 dialogStr("Ti prego, niente battute sulla defecazione.")
 
 
-dialogId("br-v-nerozvadet2", "font_big", "Yes, I know about that. We won`t comment on it.")
+dialogId("br-v-nerozvadet2", "font_big", "Yes, I know about that. We won’t comment on it.")
 dialogStr("Sì, lo so. Ma non comenteremo il fatto.")
 
 
@@ -47,7 +47,7 @@ dialogId("br-v-dost", "font_big", "Stop it, will you?")
 dialogStr("Smettila, va bene?")
 
 
-dialogId("br-m-sprcha", "font_small", "I`ve seen many useless things, but an underwater shower...")
+dialogId("br-m-sprcha", "font_small", "I’ve seen many useless things, but an underwater shower...")
 dialogStr("Ne ho viste di cose inutili, ma una doccia sott'acqua...")
 
 
@@ -71,7 +71,7 @@ dialogId("br-v-nechat", "font_big", "We should have left it alone.")
 dialogStr("Avremmo dovuto lasciarlo da solo.")
 
 
-dialogId("br-m-nefunguje", "font_small", "And it doesn`t work anyway.")
+dialogId("br-m-nefunguje", "font_small", "And it doesn’t work anyway.")
 dialogStr("E comunque non funziona.")
 
 

@@ -15,7 +15,7 @@ dialogId("sm-v-jine2", "font_big", "No, I think there is something here, that ca
 dialogStr("Jestem pewien, że jest tu coś, czego nie znajdziemy nigdzie indziej.")
 
 
-dialogId("sm-v-budik", "font_big", "Look at that clock. Doesn`t it resemble a child-comforter a little?")
+dialogId("sm-v-budik", "font_big", "Look at that clock. Doesn’t it resemble a child-comforter a little?")
 dialogStr("Spójrz na ten budzik. Nie przypomina ci on smoczka?")
 
 
@@ -31,7 +31,7 @@ dialogId("sm-m-kramy1", "font_small", "This must be a wreck of a flea shop.")
 dialogStr("To chyba wrak pchlego targu.")
 
 
-dialogId("sm-v-kramy2", "font_big", "It`s worse here than in an oil spill.")
+dialogId("sm-v-kramy2", "font_big", "It’s worse here than in an oil spill.")
 dialogStr("Tu jest gorzej niż w plamie ropy.")
 
 
@@ -47,7 +47,7 @@ dialogId("sm-m-dedek", "font_small", "The one with that old man?")
 dialogStr("Tę z tym dziadkiem?")
 
 
-dialogId("sm-v-charon", "font_big", "It`s old Charon, ferryman of the dead.")
+dialogId("sm-v-charon", "font_big", "It’s old Charon, ferryman of the dead.")
 dialogStr("To jest stary Charon, przewoźnik zmarłych.")
 
 
@@ -55,7 +55,7 @@ dialogId("sm-m-codela", "font_small", "And what does he do in the wasteyard?")
 dialogStr("A co on robi na śmietnisku?")
 
 
-dialogId("sm-v-duchodce0", "font_big", "He`s probably retired.")
+dialogId("sm-v-duchodce0", "font_big", "He’s probably retired.")
 dialogStr("Pewnie jest na emeryturze.")
 
 
@@ -79,7 +79,7 @@ dialogId("sm-m-proc", "font_small", "Why?")
 dialogStr("Dlaczego?")
 
 
-dialogId("sm-v-podivej", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn`t it the most fitting example of what I was talking about?")
+dialogId("sm-v-podivej", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn’t it the most fitting example of what I was talking about?")
 dialogStr("Przyjrzyj się jej. Wytrwale prze naprzód, a wciąż nie ruszyła się z miejsca. To najlepszy przykład tego, o czym mówiłem.")
 
 

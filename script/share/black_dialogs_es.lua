@@ -51,11 +51,11 @@ dialogId("smrt-m-3", "font_small", "That must have hurt.")
 dialogStr("Eso debió de haber dolido.")
 
 
-dialogId("smrt-m-4", "font_small", "He didn`t deserve such a terrible end...")
+dialogId("smrt-m-4", "font_small", "He didn’t deserve such a terrible end...")
 dialogStr("El no merecía un final tan terrible...")
 
 
-dialogId("smrt-m-5", "font_small", "So, let`s start again...")
+dialogId("smrt-m-5", "font_small", "So, let’s start again...")
 dialogStr("Entonces, comencemos de nuevo...")
 
 
@@ -75,7 +75,7 @@ dialogId("smrt-m-6", "font_small", "And I never told him I loved him.")
 dialogStr("Y nunca le dije que lo amaba.")
 
 
-dialogId("smrt-m-restart", "font_small", "Luckily, it`s possible to restart the level.")
+dialogId("smrt-m-restart", "font_small", "Luckily, it’s possible to restart the level.")
 dialogStr("Por suerte, es posible reiniciar el nivel.")
 
 
@@ -95,14 +95,14 @@ dialogId("smrt-v-posmrtny", "font_big", "Hellooo? Can you hear me hereafter? Is 
 dialogStr("¿Holaaa? ¿Puedes oirme por ahí? ¿Hay vida después de la muerte?")
 
 
-dialogId("smrt-m-posmrtny", "font_small", "I don`t know. I don`t think so.")
+dialogId("smrt-m-posmrtny", "font_small", "I don’t know. I don’t think so.")
 dialogStr("No lo sé. No lo creo.")
 
 
-dialogId("smrt-m-autorest", "font_small", "I am not going to solve it alone. Don`t trouble yourself with restart, I`ll do it myself.")
+dialogId("smrt-m-autorest", "font_small", "I am not going to solve it alone. Don’t trouble yourself with restart, I’ll do it myself.")
 dialogStr("No lo voy a resolver solo. No te aproblemes con reiniciar, lo haré yo mismo.")
 
 
-dialogId("smrt-v-autorest", "font_big", "And she is gone. I`m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
+dialogId("smrt-v-autorest", "font_big", "And she is gone. I’m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
 dialogStr("Y ella se ha ido. Estoy seguro que te gustaba tanto como yo. Ciertamente, no tienes nada en contra de reiniciar el nivel.")
 

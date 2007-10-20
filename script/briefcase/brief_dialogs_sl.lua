@@ -23,7 +23,7 @@ dialogStr("Morate tudi poiskati in pridržati skrivnostno koralno želvo. Pobegn
 dialogId("kd-elektr", "font_white", "We have been notified that a certain nuclear power plant has been dumping its radioactive waste illegally. Check it out.")
 dialogStr("Obveščeni smo bili, da določena jedrska elektrarna, svoje jedrske odpadke nezakonito odlaga. Preverite to.")
 
-dialogId("kd-gral", "font_white", "And don`t forget to find the holy grail.")
+dialogId("kd-gral", "font_white", "And don’t forget to find the holy grail.")
 dialogStr("In ne pozabite najti svetega keliha.")
 
 dialogId("kd-zaver", "font_white", "And as usual: If anyone from your team is injured or killed, Altar will deny any knowledge of your existence and the level will be restarted.")

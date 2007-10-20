@@ -7,7 +7,7 @@ dialogId("disk-m-vejit", "font_small", "How could it all fit on one three and a 
 
 dialogId("disk-v-metrova", "font_big", "Look how much bigger than me it is. It is a three and a half meter floppy.")
 
-dialogId("disk-m-velka", "font_small", "That`s better. Big plan, big disk. That makes sense.")
+dialogId("disk-m-velka", "font_small", "That’s better. Big plan, big disk. That makes sense.")
 
 dialogId("disk-m-zvednem", "font_small", "Do you think we can lift it up?")
 
@@ -19,9 +19,9 @@ dialogId("disk-v-ulamu", "font_big", "Shut up, or I will break off your pins!")
 
 dialogId("disk-v-kriz", "font_big", "Can you see that steel cross? This is the grave of our hopes.")
 
-dialogId("disk-m-depres", "font_small", "Don`t be always so gloomy. I can`t bear it.")
+dialogId("disk-m-depres", "font_small", "Don’t be always so gloomy. I can’t bear it.")
 
-dialogId("disk-m-nahrat", "font_small", "Wouldn`t it be enough to download that plan from the floppy to our notebook?")
+dialogId("disk-m-nahrat", "font_small", "Wouldn’t it be enough to download that plan from the floppy to our notebook?")
 
 dialogId("disk-v-mas", "font_big", "Why not. Take it out.")
 
@@ -35,7 +35,7 @@ dialogId("disk-v-nane", "font_big", "Suit yourself. I am curious how are you goi
 
 dialogId("disk-m-zmatlo", "font_small", "What if there is no plan on this floppy? What if it is here only to confound us?")
 
-dialogId("disk-v-neverim", "font_big", "I don`t believe that. Is there some other object that would be more difficult to get out?")
+dialogId("disk-v-neverim", "font_big", "I don’t believe that. Is there some other object that would be more difficult to get out?")
 
 dialogId("disk-m-tvorecci", "font_small", "What kind of little creatures are those?")
 
@@ -43,11 +43,11 @@ dialogId("disk-v-viry", "font_big", "These must be computer viruses.")
 
 dialogId("disk-m-potvory", "font_small", "Yuck. Some monsters.")
 
-dialogId("disk-v-pozor", "font_big", "Above all, we must be careful not to take them with the disk. The player wouldn`t be happy if we pour them on their desktop.")
+dialogId("disk-v-pozor", "font_big", "Above all, we must be careful not to take them with the disk. The player wouldn’t be happy if we pour them on their desktop.")
 
 dialogId("disk-m-ukol", "font_small", "Our goal is to push out that disk.")
 
-dialogId("disk-x-nepohnes", "font_darkgrey", "You won`t move me easily!")
+dialogId("disk-x-nepohnes", "font_darkgrey", "You won’t move me easily!")
 
 dialogId("disk-x-mazany", "font_darkgrey", "That was smart!")
 

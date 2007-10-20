@@ -3,7 +3,7 @@ dialogId("re-v-koraly0", "font_big", "I have never seen such violet corals.")
 dialogStr("Ik heb nog nooit zo veel violet koraal gezien.")
 
 
-dialogId("re-v-koraly1", "font_big", "I don`t like violet corals.")
+dialogId("re-v-koraly1", "font_big", "I don’t like violet corals.")
 dialogStr("Ik hou niet zo van violet koraal.")
 
 
@@ -31,7 +31,7 @@ dialogId("re-m-ahoj", "font_small", "Hi, crab!")
 dialogStr("Hallo krabje!")
 
 
-dialogId("re-m-rozveselit", "font_small", "Won`t we try to cheer that crab up a little?")
+dialogId("re-m-rozveselit", "font_small", "Won’t we try to cheer that crab up a little?")
 dialogStr("Zullen we proberen het krabje wat op te vrolijken?")
 
 
@@ -43,7 +43,7 @@ dialogId("re-v-nech", "font_big", "Leave that crab alone.")
 dialogStr("Laat die arme krab met rust.")
 
 
-dialogId("re-v-nervozni", "font_big", "Can`t you see how nervous it is?")
+dialogId("re-v-nervozni", "font_big", "Can’t you see how nervous it is?")
 dialogStr("Zie je niet hoe zenuwachtig hij is?")
 
 
@@ -71,7 +71,7 @@ dialogId("re-k-otravujete", "font_crab", "What do you want from me?!?")
 dialogStr("Wat moet je?!?")
 
 
-dialogId("re-k-nesahej", "font_crab", "Don`t touch me!")
+dialogId("re-k-nesahej", "font_crab", "Don’t touch me!")
 dialogStr("Blijf van me af!")
 
 

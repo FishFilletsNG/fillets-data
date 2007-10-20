@@ -1,13 +1,13 @@
-dialogId("tr-m-chlad1", "font_small", "I`m kind of cold.")
+dialogId("tr-m-chlad1", "font_small", "I’m kind of cold.")
 dialogStr("Малко ми е хладно.")
 
 dialogId("tr-v-jid1", "font_big", "No wonder. This is the Winter Mess Hall.")
 dialogStr("Не се учудвам. Това е Зимната Зала.")
 
-dialogId("tr-m-chlad2", "font_small", "I`m cold.")
+dialogId("tr-m-chlad2", "font_small", "I’m cold.")
 dialogStr("Студено ми е.")
 
-dialogId("tr-v-jid2", "font_big", "Well that`s what you would expect in a Winter Mess Hall, right?")
+dialogId("tr-v-jid2", "font_big", "Well that’s what you would expect in a Winter Mess Hall, right?")
 dialogStr("Ами това се очаква когато се намираш в Зимната Зала, нали?")
 
 dialogId("tr-v-prezil", "font_big", "At least the snowman has survived.")
@@ -25,7 +25,7 @@ dialogStr("Уф!")
 dialogId("tr-m-au2", "font_small", "Ouch!")
 dialogStr("Ох!")
 
-dialogId("tr-v-agres", "font_big", "I`ve never seen such an aggressive snowman.")
+dialogId("tr-v-agres", "font_big", "I’ve never seen such an aggressive snowman.")
 dialogStr("Никога не съм виждал толкова агресивен снежен човек.")
 
 dialogId("tr-x-koste", "", "")

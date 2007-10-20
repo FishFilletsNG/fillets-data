@@ -15,11 +15,11 @@ dialogId("ves-m-uz", "font_small", "Oh, noo...")
 dialogStr("Oh, nooon...")
 
 
-dialogId("ves-v-pokoj", "font_big", "And it`s over.")
+dialogId("ves-v-pokoj", "font_big", "And it’s over.")
 dialogStr("Et c'est fini.")
 
 
-dialogId("ves-m-dik", "font_small", "Thank you player. We couldn`t bear it any longer.")
+dialogId("ves-m-dik", "font_small", "Thank you player. We couldn’t bear it any longer.")
 dialogStr("Merci joueur. Nous ne pouvions pas le supporter plus longtemps.")
 
 

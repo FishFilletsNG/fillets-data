@@ -27,7 +27,7 @@ dialogId("bar-v-sud", "font_big", "And the cause is doubtless this giant barrel.
 dialogStr("A příčina je nepochybně tento olbřímí sud. Musíme ho nějak dostat ven.")
 
 
-dialogId("bar-m-panb", "font_small", "Yes. Let`s get to work. We can drop it on the Mr. B.`s front yard afterwards.")
+dialogId("bar-m-panb", "font_small", "Yes. Let’s get to work. We can drop it on the Mr. B.’s front yard afterwards.")
 dialogStr("Ano. Tak se dejme do práce. Ať ho můžeme hodit panu B. na dvorek.")
 
 
@@ -35,7 +35,7 @@ dialogId("bar-m-rada", "font_small", "I think I am growing to like them.")
 dialogStr("Vlastně je začínám mít docela ráda.")
 
 
-dialogId("bar-v-kdyby0", "font_big", "If only they wouldn`t stand in our way so much.")
+dialogId("bar-v-kdyby0", "font_big", "If only they wouldn’t stand in our way so much.")
 dialogStr("Jen kdyby se nám tu tolik nepletli.")
 
 
@@ -43,11 +43,11 @@ dialogId("bar-v-kdyby1", "font_big", "If only they were where we need them.")
 dialogStr("Jen kdyby byli tam, kde je potřebujeme.")
 
 
-dialogId("bar-v-sbirka", "font_big", "Such a lovely collection of monstrosities. I`ll be sorry to leave.")
+dialogId("bar-v-sbirka", "font_big", "Such a lovely collection of monstrosities. I’ll be sorry to leave.")
 dialogStr("Ta milá sbírka zrůdiček. Bude mi líto odsud odejít.")
 
 
-dialogId("bar-m-dost0", "font_small", "That won`t happen any time soon.")
+dialogId("bar-m-dost0", "font_small", "That won’t happen any time soon.")
 dialogStr("Na to máš ještě dost času.")
 
 
@@ -59,7 +59,7 @@ dialogId("bar-v-lih", "font_big", "If we take them with us and store them in alc
 dialogStr("Kdybychom si je vzali s sebou a naložili do lihu, tak si můžeme otevřít obludárium.")
 
 
-dialogId("bar-m-fdto", "font_small", "And FDTO isn`t enough for you?")
+dialogId("bar-m-fdto", "font_small", "And FDTO isn’t enough for you?")
 dialogStr("To ti nestačí FDTO?")
 
 
@@ -67,7 +67,7 @@ dialogId("bar-x-vypr", "font_white", "I can hear everything!")
 dialogStr("Všechno slyším!")
 
 
-dialogId("bar-m-promin", "font_small", "Sorry, boss. I didn`t mean to offend.")
+dialogId("bar-m-promin", "font_small", "Sorry, boss. I didn’t mean to offend.")
 dialogStr("Promiňte šéfe. Já to tak nemyslela.")
 
 

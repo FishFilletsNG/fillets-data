@@ -1,5 +1,5 @@
 
-dialogId("poc-m-lezt0", "font_small", "That`s another fine mess.")
+dialogId("poc-m-lezt0", "font_small", "That’s another fine mess.")
 dialogStr("Ecco un altro bel casino.")
 
 
@@ -31,12 +31,12 @@ dialogId("poc-v-nenajde", "font_big", "You can find many strange things in such 
 dialogStr("Puoi trovare un sacco di cose in un buco simile.")
 
 
-dialogId("poc-m-myslis", "font_small", "Do you think this is the computer that`s at stake in this game?")
+dialogId("poc-m-myslis", "font_small", "Do you think this is the computer that’s at stake in this game?")
 dialogStr("Pensi che sia questo il computer in palio in questo gioco?")
 
 
 dialogId("poc-v-multimed", "font_big", "Surely not! This is no powerful multimedia computer. This is but an XT machine with a twelve inch display.")
-dialogStr("Certo che no! Questo non è un potente computer multimediale. E` soltanto una macchina XT con monitor da dodici pollici.")
+dialogStr("Certo che no! Questo non è un potente computer multimediale. E’ soltanto una macchina XT con monitor da dodici pollici.")
 
 
 dialogId("poc-v-vyresil", "font_big", "The one who solves, I mean who has solved this, will receive, I mean will have received, MMX based machine with a 3Dfx card, plenty of RAM, a huge hard disk...")
@@ -63,7 +63,7 @@ dialogId("poc-v-stahni", "font_big", "So what are we waiting for? Put that suspi
 dialogStr("E allora, che aspettiamo? metti i dati sospetti sul dischetto e andiamocene.")
 
 
-dialogId("poc-m-ukryta", "font_small", "It won`t be as easy as that. The data is surely going to be hidden somewhere. We have to go in.")
+dialogId("poc-m-ukryta", "font_small", "It won’t be as easy as that. The data is surely going to be hidden somewhere. We have to go in.")
 dialogStr("Non sarà così tanto facile. I dati saranno sicuramente nascosti da qualche parte. Dovremo andare dentro.")
 
 

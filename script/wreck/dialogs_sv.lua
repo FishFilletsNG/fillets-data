@@ -1,5 +1,5 @@
 
-dialogId("pot-v-lod", "font_big", "Could this be Captain Silver`s ship?")
+dialogId("pot-v-lod", "font_big", "Could this be Captain Silver’s ship?")
 dialogStr("Kan det här vara kapten Silvers skepp?")
 
 
@@ -35,7 +35,7 @@ dialogId("pot-m-zima", "font_small", "My ears were freezing.")
 dialogStr("Jag frös om öronen.")
 
 
-dialogId("pot-m-pujc", "font_small", "That`s some hat! Can I borrow it?")
+dialogId("pot-m-pujc", "font_small", "That’s some hat! Can I borrow it?")
 dialogStr("Vilken hatt! Kan jag låna den?")
 
 
@@ -51,15 +51,15 @@ dialogId("pot-v-kras", "font_big", "And a beatiful one, too.")
 dialogStr("Och den är snygg också.")
 
 
-dialogId("pot-v-nehnu", "font_big", "I can`t move this.")
+dialogId("pot-v-nehnu", "font_big", "I can’t move this.")
 dialogStr("Jag kan inte flytta den här.")
 
 
-dialogId("pot-v-trub", "font_big", "I can`t move that cylinder.")
+dialogId("pot-v-trub", "font_big", "I can’t move that cylinder.")
 dialogStr("Jag kan inte flytta på röret.")
 
 
-dialogId("pot-m-nezb", "font_small", "I think we`re going to have to go inside that ship.")
+dialogId("pot-m-nezb", "font_small", "I think we’re going to have to go inside that ship.")
 dialogStr("Jag tror att jag behöver simma in i skeppet.")
 
 
@@ -71,11 +71,11 @@ dialogId("pot-m-zatuch", "font_small", "The air in here smells so stale.")
 dialogStr("Här luktar det instängt.")
 
 
-dialogId("pot-v-nikdo", "font_big", "It seems that nobody`s here.")
+dialogId("pot-v-nikdo", "font_big", "It seems that nobody’s here.")
 dialogStr("Det ser ut som om ingen är här.")
 
 
-dialogId("pot-m-moc", "font_small", "I don`t like it here.")
+dialogId("pot-m-moc", "font_small", "I don’t like it here.")
 dialogStr("Jag tycker inte om det här.")
 
 
@@ -95,6 +95,6 @@ dialogId("pot-m-vidis", "font_small", "What do you see?")
 dialogStr("Vad ser du?")
 
 
-dialogId("pot-v-vidim", "font_big", "I can see many interesting levels which we`ll have to solve.")
+dialogId("pot-v-vidim", "font_big", "I can see many interesting levels which we’ll have to solve.")
 dialogStr("Jag kan se flera intressanta nivåer som vi behöver lösa.")
 

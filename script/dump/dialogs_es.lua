@@ -15,7 +15,7 @@ dialogId("sm-v-jine2", "font_big", "No, I think there is something here, that ca
 dialogStr("No, pienso que hay algo aquí, que no puede ser encontrado en ninguna otra parte.")
 
 
-dialogId("sm-v-budik", "font_big", "Look at that clock. Doesn`t it resemble a child-comforter a little?")
+dialogId("sm-v-budik", "font_big", "Look at that clock. Doesn’t it resemble a child-comforter a little?")
 dialogStr("Mira el reloj. ¿No se parece un poco a un chupete?")
 
 
@@ -31,7 +31,7 @@ dialogId("sm-m-kramy1", "font_small", "This must be a wreck of a flea shop.")
 dialogStr("Estas deben ser las ruinas de la Feria de las Pulgas.")
 
 
-dialogId("sm-v-kramy2", "font_big", "It`s worse here than in an oil spill.")
+dialogId("sm-v-kramy2", "font_big", "It’s worse here than in an oil spill.")
 dialogStr("Es peor aquí que en un derrame de aceite.")
 
 
@@ -47,7 +47,7 @@ dialogId("sm-m-dedek", "font_small", "The one with that old man?")
 dialogStr("¿El que está con ese señor de edad?")
 
 
-dialogId("sm-v-charon", "font_big", "It`s old Charon, ferryman of the dead.")
+dialogId("sm-v-charon", "font_big", "It’s old Charon, ferryman of the dead.")
 dialogStr("Es el viejo Charon, conductor del ferry de la muerte.")
 
 
@@ -55,7 +55,7 @@ dialogId("sm-m-codela", "font_small", "And what does he do in the wasteyard?")
 dialogStr("¿Y qué hace él en el vertedero?")
 
 
-dialogId("sm-v-duchodce0", "font_big", "He`s probably retired.")
+dialogId("sm-v-duchodce0", "font_big", "He’s probably retired.")
 dialogStr("El está retirado, probablemente.")
 
 
@@ -79,7 +79,7 @@ dialogId("sm-m-proc", "font_small", "Why?")
 dialogStr("¿Por qué?")
 
 
-dialogId("sm-v-podivej", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn`t it the most fitting example of what I was talking about?")
+dialogId("sm-v-podivej", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn’t it the most fitting example of what I was talking about?")
 dialogStr("Sólo míralo. Sigue corriendo hacia adelante pero se queda en el mismo lugar. ¿No es acaso el ejemplo más acorde con lo que he estado hablando?")
 
 

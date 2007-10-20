@@ -7,15 +7,15 @@ dialogId("zav-v-trpyt", "font_big", "And all of them gleam beautifully.")
 dialogStr("A wszystkie z nich ślicznie się błyszczą.")
 
 
-dialogId("zav-m-pohnout", "font_small", "Please note, that I can`t move a fin here.")
+dialogId("zav-m-pohnout", "font_small", "Please note, that I can’t move a fin here.")
 dialogStr("Proszę zauważyć, że nie mogę tu ruszyć płetwą.")
 
 
-dialogId("zav-m-krasa", "font_small", "It`s beautiful! Everything gleams so much...")
+dialogId("zav-m-krasa", "font_small", "It’s beautiful! Everything gleams so much...")
 dialogStr("To piękne! Wszystko tu błyszczy...")
 
 
-dialogId("zav-v-venku", "font_big", "It`ll be much nicer when we get out.")
+dialogId("zav-v-venku", "font_big", "It’ll be much nicer when we get out.")
 dialogStr("Byłoby piękniej, gdybyśmy się stąd wydostali.")
 
 
@@ -23,11 +23,11 @@ dialogId("zav-v-zaval", "font_big", "This is very dangerous cave-in. We are luck
 dialogStr("To był bardzo niebezpieczny zawał. Cieszmy się, że żyjemy.")
 
 
-dialogId("zav-m-hopskok", "font_small", "Don`t speak too soon. We`re still in here.")
+dialogId("zav-m-hopskok", "font_small", "Don’t speak too soon. We’re still in here.")
 dialogStr("Nie mów hop... jeszcze stąd nie wypłynęliśmy.")
 
 
-dialogId("zav-m-kameny", "font_small", "Don`t you think that these stones are arranged in a different way?")
+dialogId("zav-m-kameny", "font_small", "Don’t you think that these stones are arranged in a different way?")
 dialogStr("Nie wydaje ci się, że te kamienie są nieco inaczej ułożone?")
 
 
@@ -39,7 +39,7 @@ dialogId("zav-v-restart", "font_big", "I think that these jewels arrange themsel
 dialogStr("Myślę, że te klejnoty układają się inaczej z każdym restartem.")
 
 
-dialogId("zav-m-pravda", "font_small", "Yeah, you`re right. Maybe they form some sensible pattern sometimes.")
+dialogId("zav-m-pravda", "font_small", "Yeah, you’re right. Maybe they form some sensible pattern sometimes.")
 dialogStr("Pewnie tak. Może z czasem ułożą się w jakiś sensowny wzór.")
 
 

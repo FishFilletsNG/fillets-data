@@ -13,7 +13,7 @@ dialogId("deu-v-slysel", "font_big", "Yes. I too have heard that they bite touri
 
 dialogId("deu-l-los", "font_elk", "Ya rusky los.")
 
-dialogId("deu-v-radsi", "font_big", "I`d like this elk much more if it wasn`t blocking our way so much.")
+dialogId("deu-v-radsi", "font_big", "I’d like this elk much more if it wasn’t blocking our way so much.")
 
 dialogId("deu-l-pozalsta", "font_elk", "Pozhalsta, izvinitye.")
 

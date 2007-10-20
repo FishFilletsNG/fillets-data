@@ -27,7 +27,7 @@ dialogId("kor-m-vzdyt", "font_small", "But the anemones are moving.")
 dialogStr("Ma gli anemoni si muovono.")
 
 
-dialogId("kor-v-treba", "font_big", "Maybe they`re in the throes of death.")
+dialogId("kor-v-treba", "font_big", "Maybe they’re in the throes of death.")
 dialogStr("Forse sono in preda alle convulsioni della morte.")
 
 
@@ -35,7 +35,7 @@ dialogId("kor-v-shledavam", "font_big", "I find a certain symbolism in that.")
 dialogStr("Scorgo un certo simbolismo in ciò.")
 
 
-dialogId("kor-v-bermudy", "font_big", "That`s interesting. This type of coral normally grows only in the Bermuda Triangle.")
+dialogId("kor-v-bermudy", "font_big", "That’s interesting. This type of coral normally grows only in the Bermuda Triangle.")
 dialogStr("Interessante, questo tipo di corallo, di solito, cresce solo nel Triangolo delle Bermude.")
 
 
@@ -47,7 +47,7 @@ dialogId("kor-v-jedovate", "font_big", "Be careful, most types of coral are pois
 dialogStr("Attenta, molti coralli sono velenosi.")
 
 
-dialogId("kor-m-dusi", "font_small", "What do you think, is there such a thing as a 'coral-soul`?")
+dialogId("kor-m-dusi", "font_small", "What do you think, is there such a thing as a 'coral-soul’?")
 dialogStr("Che ne pensi, esisterà qualcosa come \"l'anima del corallo\"?")
 
 
@@ -59,15 +59,15 @@ dialogId("kor-m-bizarni", "font_small", "I wonder why the coral have such a biza
 dialogStr("Mi domando perché i caoralli hanno forme così bizzarre.")
 
 
-dialogId("kor-v-juchacka", "font_big", "That was some number, wasn`t it?")
+dialogId("kor-v-juchacka", "font_big", "That was some number, wasn’t it?")
 dialogStr("Che numero, eh?")
 
 
-dialogId("kor-m-hraje", "font_small", "Yeah, he`s a great player.")
+dialogId("kor-m-hraje", "font_small", "Yeah, he’s a great player.")
 dialogStr("Già, un grande interprete.")
 
 
-dialogId("kor-v-odvaz", "font_big", "That`s cool. What if we pushed him again?")
+dialogId("kor-v-odvaz", "font_big", "That’s cool. What if we pushed him again?")
 dialogStr("Forte... e se lo spingessimo di nuovo?")
 
 
@@ -79,11 +79,11 @@ dialogId("kor-v-avidelas", "font_big", "And how those anemones were dancing?")
 dialogStr("E come denzavano gli anemoni?")
 
 
-dialogId("kor-m-tovis", "font_small", "Well, you know, it`s not all that much fun down here at the bottom of the ocean.")
+dialogId("kor-m-tovis", "font_small", "Well, you know, it’s not all that much fun down here at the bottom of the ocean.")
 dialogStr("Beh, vedi, non è tutto questo gran spasso quaggiù in fondo all'oceano.")
 
 
-dialogId("kor-v-vali", "font_big", "He`s good, isn`t he?")
+dialogId("kor-v-vali", "font_big", "He’s good, isn’t he?")
 dialogStr("Non è bravo?")
 
 
@@ -95,31 +95,31 @@ dialogId("kor-m-jinou", "font_small", "Do you think he knows any other tune?")
 dialogStr("Pensi che conosca qualche altro pezzo?")
 
 
-dialogId("kor-m-neprehani", "font_small", "Don`t you think we`ve had enough already?")
+dialogId("kor-m-neprehani", "font_small", "Don’t you think we’ve had enough already?")
 dialogStr("Non pensi che ne abbiamo già avuto abbastanza?")
 
 
-dialogId("kor-m-lezekrkem", "font_small", "I`m getting sick of it...")
+dialogId("kor-m-lezekrkem", "font_small", "I’m getting sick of it...")
 dialogStr("Sta incominciando a stufare...")
 
 
-dialogId("kor-v-lezekrkem", "font_big", "I`m sick and tired of it...")
+dialogId("kor-v-lezekrkem", "font_big", "I’m sick and tired of it...")
 dialogStr("Mi sta proprio stufando...")
 
 
-dialogId("kor-v-kostice", "font_big", "I`m fed up to the gills with this.")
+dialogId("kor-v-kostice", "font_big", "I’m fed up to the gills with this.")
 dialogStr("Ne ho fin sopra le branchie, ormai.")
 
 
-dialogId("kor-v-odsud", "font_big", "I can`t budge this from where I am. I`d have to try to move it from the left side.")
+dialogId("kor-v-odsud", "font_big", "I can’t budge this from where I am. I’d have to try to move it from the left side.")
 dialogStr("Non riesco a spostarlo da qui. Devo provare a spostarlo dal lato sinistro.")
 
 
-dialogId("kor-m-budesmuset", "font_small", "Well you`ll have to go that way through those anemones.")
+dialogId("kor-m-budesmuset", "font_small", "Well you’ll have to go that way through those anemones.")
 dialogStr("Allora dovrai farti strada attraverso quegli anemoni.")
 
 
-dialogId("kor-m-neniono", "font_small", "That`s not what I had in mind...")
+dialogId("kor-m-neniono", "font_small", "That’s not what I had in mind...")
 dialogStr("Non era quello che pensavo...")
 
 

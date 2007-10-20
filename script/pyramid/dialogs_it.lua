@@ -11,7 +11,7 @@ dialogId("pyr-m-plaz", "font_small", "What is that crawling around over there?")
 dialogStr("Cos'è quel coso strisciante là?")
 
 
-dialogId("pyr-v-druha", "font_big", "You can`t see it from here. It`s on the other side of wall.")
+dialogId("pyr-v-druha", "font_big", "You can’t see it from here. It’s on the other side of wall.")
 dialogStr("Ma se non puoi vederlo da qui! È dall'altra parte del muro.")
 
 
@@ -27,11 +27,11 @@ dialogId("pyr-m-comy", "font_small", "What should we say?")
 dialogStr("Cosa dovremmo dire?")
 
 
-dialogId("pyr-m-nic", "font_small", "You don`t have to carry anything.")
+dialogId("pyr-m-nic", "font_small", "You don’t have to carry anything.")
 dialogStr("Lei non deve portare niente.")
 
 
-dialogId("pyr-v-sfing", "font_big", "Don`t be afraid.")
+dialogId("pyr-v-sfing", "font_big", "Don’t be afraid.")
 dialogStr("Non essere dispiaciuta.")
 
 

@@ -1,5 +1,5 @@
 
-dialogId("kos-m-uklid0", "font_small", "It`s been a long time since we`ve been here...")
+dialogId("kos-m-uklid0", "font_small", "It’s been a long time since we’ve been here...")
 dialogStr("Hier zijn we al een tijdje niet meer geweest...")
 
 
@@ -7,7 +7,7 @@ dialogId("kos-m-uklid1", "font_small", "Nobody has cleaned up in here for a long
 dialogStr("Hier heeft al een hele tijd niemand meer opgeruimd.")
 
 
-dialogId("kos-m-uklid2", "font_small", "I knew we`d have to clean this room up.")
+dialogId("kos-m-uklid2", "font_small", "I knew we’d have to clean this room up.")
 dialogStr("Ik dacht al dat we deze ruimte een keertje moesten opruimen.")
 
 
@@ -19,11 +19,11 @@ dialogId("kos-v-poradek1", "font_big", "At least things will finally be in order
 dialogStr("In ieder geval zal hier de boel eindelijk wat op orde zijn.")
 
 
-dialogId("kos-v-poradek2", "font_big", "I`ll have to do the sweeping.")
+dialogId("kos-v-poradek2", "font_big", "I’ll have to do the sweeping.")
 dialogStr("Ik zal wat moeten vegen.")
 
 
-dialogId("kos-v-koste0", "font_big", "It`s a good thing we have that broom.")
+dialogId("kos-v-koste0", "font_big", "It’s a good thing we have that broom.")
 dialogStr("Gelukkig hebben we deze bezem.")
 
 
@@ -35,7 +35,7 @@ dialogId("kos-v-koste2", "font_big", "Could you please hand me that broom? And t
 dialogStr("Geef me alsjeblieft die bezem aan. En probeer hem niet op m'n kop te laten vallen!")
 
 
-dialogId("kos-m-zamet0", "font_small", "I think it`ll be fine if you just sweep it all down there.")
+dialogId("kos-m-zamet0", "font_small", "I think it’ll be fine if you just sweep it all down there.")
 dialogStr("Het lijkt me goed genoeg als je alles naar beneden veegt.")
 
 
@@ -43,7 +43,7 @@ dialogId("kos-m-zamet1", "font_small", "It should all fit.")
 dialogStr("Het past daar allemaal.")
 
 
-dialogId("kos-m-zamet2", "font_small", "Just sweep it down and we`ll be out of here.")
+dialogId("kos-m-zamet2", "font_small", "Just sweep it down and we’ll be out of here.")
 dialogStr("Veeg het gewoon naar beneden en dan kunnen we er vandoor.")
 
 

@@ -11,7 +11,7 @@ dialogId("zr-m-prestan", "font_small", "Stop looking at yourself in the mirror a
 dialogStr("Přestaň se prohlížet v zrcadle a radši něco dělej.")
 
 
-dialogId("zr-m-takfajn", "font_small", "That`s great! He just goes on his merry little way, but what about me?")
+dialogId("zr-m-takfajn", "font_small", "That’s great! He just goes on his merry little way, but what about me?")
 dialogStr("Tak fajn, on si odjede - a co já?")
 
 
@@ -43,7 +43,7 @@ dialogId("zr-m-nepovykuj", "font_small", "Stop your screaming and help me get ou
 dialogStr("Nech toho povykování a dostaň mě odsud.")
 
 
-dialogId("zr-m-tadyjsem", "font_small", "Here I am. I can`t get out.")
+dialogId("zr-m-tadyjsem", "font_small", "Here I am. I can’t get out.")
 dialogStr("Tady jsem. Nemůžu se dostat ven.")
 
 
@@ -51,7 +51,7 @@ dialogId("zr-m-komu", "font_small", "Whose eyes are those?")
 dialogStr("Komu můžou patřit ty oči?")
 
 
-dialogId("zr-v-nevim", "font_big", "I don`t know. Maybe the periscope is connected to some other dimension.")
+dialogId("zr-v-nevim", "font_big", "I don’t know. Maybe the periscope is connected to some other dimension.")
 dialogStr("Nevím, snad ten periskop vede do jiné dimenze...")
 
 
@@ -59,6 +59,6 @@ dialogId("zr-v-opatrne", "font_big", "Careful...")
 dialogStr("Opatrně...")
 
 
-dialogId("zr-v-vzdyt", "font_big", "Don`t say I didn`t warn you!")
+dialogId("zr-v-vzdyt", "font_big", "Don’t say I didn’t warn you!")
 dialogStr("Vždyť jsem ti to říkal!")
 

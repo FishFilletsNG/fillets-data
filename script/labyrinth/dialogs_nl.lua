@@ -11,7 +11,7 @@ dialogId("bl-m-funkce", "font_small", "The position of assistant deputy design c
 dialogStr("De positie van assistent vicedesigncoordinator is in het leven geroepen vanwege dit veld. Zodat de auteur ervan z'n naam in de aftiteling kreeg.")
 
 
-dialogId("bl-v-pozadi", "font_big", "Enough about the game background. Let`s get to work.")
+dialogId("bl-v-pozadi", "font_big", "Enough about the game background. Let’s get to work.")
 dialogStr("Genoeg achtergrondinformatie. Aan het werk.")
 
 
@@ -27,11 +27,11 @@ dialogId("bl-m-visi", "font_small", "And what does it hang on?")
 dialogStr("En waar zit het aan vast?")
 
 
-dialogId("bl-v-nevim0", "font_big", "I don`t know. But we have to get it down anyway.")
+dialogId("bl-v-nevim0", "font_big", "I don’t know. But we have to get it down anyway.")
 dialogStr("Ik heb geen idee. Maar we moeten het wel los zien te krijgen.")
 
 
-dialogId("bl-v-nevim1", "font_big", "I don`t know. Do we have to put it down?")
+dialogId("bl-v-nevim1", "font_big", "I don’t know. Do we have to put it down?")
 dialogStr("Ik weet het niet. Moeten we het los maken?")
 
 
@@ -55,11 +55,11 @@ dialogId("bl-m-snecku0", "font_small", "Shalimuddy, shalimuddy, put your horns o
 dialogStr("Slakje, slakje, kom eruit...")
 
 
-dialogId("bl-v-dost0", "font_big", "Stop it! As if you don`t know that no object will move if we don`t push it first!")
+dialogId("bl-v-dost0", "font_big", "Stop it! As if you don’t know that no object will move if we don’t push it first!")
 dialogStr("Hou op! Alsof je niet weet dat dingen hier niet bewegen tenzij wij ertegen duwen!")
 
 
-dialogId("bl-m-snecku1", "font_small", "But I can try, can`t I? Shalimuddy, Shalimuddy...")
+dialogId("bl-m-snecku1", "font_small", "But I can try, can’t I? Shalimuddy, Shalimuddy...")
 dialogStr("Maar ik kan het toch proberen. Slakje, slakje...")
 
 
@@ -67,11 +67,11 @@ dialogId("bl-v-dost1", "font_big", "Stop it! It makes my scales itch!")
 dialogStr("Hou je mond! Mijn schubben jeuken ervan!")
 
 
-dialogId("bl-m-snecku2", "font_small", "Don`t listen then. Shalimuddy, shalimuddy, put your...")
+dialogId("bl-m-snecku2", "font_small", "Don’t listen then. Shalimuddy, shalimuddy, put your...")
 dialogStr("Luister dan gewoon niet. Slakje, slakje, kom...")
 
 
-dialogId("bl-v-dost2", "font_big", "Stop it! Or I`ll drop that coral on your head!")
+dialogId("bl-v-dost2", "font_big", "Stop it! Or I’ll drop that coral on your head!")
 dialogStr("Kop dicht!!! Of ik laat dit stuk koraal op je harses vallen!")
 
 

@@ -23,7 +23,7 @@ dialogId("vrak-m-vrak2", "font_small", "Look, it invaded our library.")
 dialogStr("Titta! Den invaderade vårt bibliotek.")
 
 
-dialogId("vrak-m-kupovat0", "font_small", "See? You shouldn`t have bought so many books.")
+dialogId("vrak-m-kupovat0", "font_small", "See? You shouldn’t have bought so many books.")
 dialogStr("Ser du? Du skulle inte ha tagit med dig så många böcker")
 
 
@@ -63,7 +63,7 @@ dialogId("vrak-m-knihy6", "font_small", "Outreaching Daniken.")
 dialogStr("Nå Daniken.")
 
 
-dialogId("vrak-v-vyhodit", "font_big", "I`d throw out these, for example.")
+dialogId("vrak-v-vyhodit", "font_big", "I’d throw out these, for example.")
 dialogStr("Jag skulle slänga ut de här till exempel:")
 
 
@@ -91,11 +91,11 @@ dialogId("vrak-m-pohadky", "font_small", "Never! My lovely fairy-tales.")
 dialogStr("Min första sagobåt.")
 
 
-dialogId("vrak-v-nevejdu0", "font_big", "I can`t hide myself here.")
+dialogId("vrak-v-nevejdu0", "font_big", "I can’t hide myself here.")
 dialogStr("Jag kan inte gömma mig här.")
 
 
-dialogId("vrak-v-nevejdu1", "font_big", "I can`t fit in here.")
+dialogId("vrak-v-nevejdu1", "font_big", "I can’t fit in here.")
 dialogStr("Jag får inte plats här.")
 
 
@@ -111,7 +111,7 @@ dialogId("vrak-m-cteni2", "font_small", "I told you not to buy that Complete Dic
 dialogStr("Jag har ju sagt till dig att du inte skulle köpa ett helt uppslagsverk om det onaturliga.")
 
 
-dialogId("vrak-v-policky", "font_big", "Let`s think. We can`t get these books off the shelf.")
+dialogId("vrak-v-policky", "font_big", "Let’s think. We can’t get these books off the shelf.")
 dialogStr("Tänk efter. Vi kan inte få ner böckerna från hyllorna.")
 
 
@@ -131,7 +131,7 @@ dialogId("vrak-v-potvurka", "font_big", "You are an obstacle, strange creature!"
 dialogStr("Du är ett hinder, konstiga djur!")
 
 
-dialogId("vrak-v-snek", "font_big", "Can`t you push that snail to me?")
+dialogId("vrak-v-snek", "font_big", "Can’t you push that snail to me?")
 dialogStr("Kan du inte knuffa snigeln mot mig?")
 
 

@@ -11,11 +11,11 @@ dialogId("pra-v-nahore", "font_big", "Hey, arrange it up there somehow. But be c
 dialogStr("Hej, flytta runt lite där uppe. Men var försiktig!")
 
 
-dialogId("pra-m-nepohnu", "font_small", "I can`t move this. This is steel.")
+dialogId("pra-m-nepohnu", "font_small", "I can’t move this. This is steel.")
 dialogStr("Jag kan inte flytta den här. Den är av stål.")
 
 
-dialogId("pra-m-zpatky", "font_small", "Come back, you can`t go further!")
+dialogId("pra-m-zpatky", "font_small", "Come back, you can’t go further!")
 dialogStr("Kom tillbaka, du kan inte simma längre!")
 
 
@@ -23,11 +23,11 @@ dialogId("pra-v-zapeklita", "font_big", "Hmm... This is tricky. If we push aside
 dialogStr("Hmm... Det här är svårt. Om du knuffar honungen åt sidan kommer vi att bli krossade av burken med aprikosmarmelad.")
 
 
-dialogId("pra-m-vyrazit", "font_small", "Couldn`t we push it aside with that axe?")
+dialogId("pra-m-vyrazit", "font_small", "Couldn’t we push it aside with that axe?")
 dialogStr("Kan vi inte knuffa den åt sidan med yxan?")
 
 
-dialogId("pra-v-dobrynapad", "font_big", "That`s a good idea.")
+dialogId("pra-v-dobrynapad", "font_big", "That’s a good idea.")
 dialogStr("Det är en bra idé.")
 
 
@@ -35,11 +35,11 @@ dialogId("pra-m-chytit", "font_small", "Now I cannot take the axe. The can is in
 dialogStr("Nu kommer jag inte åt yxan. Burken är ivägen.")
 
 
-dialogId("pra-v-vzit", "font_big", "You mustn`t push the axe!")
+dialogId("pra-v-vzit", "font_big", "You mustn’t push the axe!")
 dialogStr("Jag får inte knuffa på yxan!")
 
 
-dialogId("pra-m-prisun", "font_small", "If you can push that can to me, I`ll shove the axe on it and everything will be okay.")
+dialogId("pra-m-prisun", "font_small", "If you can push that can to me, I’ll shove the axe on it and everything will be okay.")
 dialogStr("Om du kan knuffar burken mot mig. Jag skjuter yxan på den och allt kommer att gå bra.")
 
 
@@ -55,7 +55,7 @@ dialogId("pra-v-ukladani", "font_big", "Remember what we have said about saving 
 dialogStr("Kom ihåg vad vi sa om att spara ett läge.")
 
 
-dialogId("pra-m-uvazovat", "font_small", "I shouldn`t be thinking about this.")
+dialogId("pra-m-uvazovat", "font_small", "I shouldn’t be thinking about this.")
 dialogStr("Jag borde inte tänka på det här.")
 
 
@@ -71,7 +71,7 @@ dialogId("pra-v-zavazis", "font_big", "You are standing in my way there. Try to 
 dialogStr("Du står ivägen. Försök att gömma dig någon annanstans.")
 
 
-dialogId("pra-m-strach", "font_small", "Here? I`m little bit afraid. Will I get out?")
+dialogId("pra-m-strach", "font_small", "Here? I’m little bit afraid. Will I get out?")
 dialogStr("Hallå? Jag är lite rädd. Kommer jag ut?")
 
 
@@ -91,7 +91,7 @@ dialogId("pra-m-jakudelat", "font_small", "But we will not tell you how to do it
 dialogStr("Men vi kommer inte att säga hur det ska göras.")
 
 
-dialogId("pra-v-nezapomen", "font_big", "Just remember that although we cannot push objects along each other`s back, we can push them down or onto some solid structure.")
+dialogId("pra-v-nezapomen", "font_big", "Just remember that although we cannot push objects along each other’s back, we can push them down or onto some solid structure.")
 dialogStr("Kom ihåg, vi kan inte knuffa saker utmed våra ryggar, men vi kan knuffa ner dem på någon stabil yta .")
 
 
@@ -99,7 +99,7 @@ dialogId("pra-v-objet", "font_big", "What if I go the upper way?")
 dialogStr("Om vi skulle ta den övre vägen?")
 
 
-dialogId("pra-m-neradit", "font_small", "Shhhh. That`s too many hints.")
+dialogId("pra-m-neradit", "font_small", "Shhhh. That’s too many hints.")
 dialogStr("Schhhh. Det är för många tips.")
 
 

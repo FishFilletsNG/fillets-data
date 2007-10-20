@@ -15,7 +15,7 @@ dialogId("jes-v-nestezuj", "font_big", "That may be true, but I think we are goi
 dialogStr("Misschien, maar ik denk dat we het nog nodig zullen hebben.")
 
 
-dialogId("jes-v-uzke", "font_big", "It`s too narrow for me. You have to do it on your own down there.")
+dialogId("jes-v-uzke", "font_big", "It’s too narrow for me. You have to do it on your own down there.")
 dialogStr("Het is te krap voor mij. Je zult het daar beneden helemaal in je eentje moeten regelen.")
 
 
@@ -31,7 +31,7 @@ dialogId("jes-v-gral", "font_big", "I think that we should be looking for the Gr
 dialogStr("Ik denk dat we de Graal ergens anders moeten zoeken...")
 
 
-dialogId("jes-m-deprese", "font_small", "Don`t be depressive. We will solve this in no time.")
+dialogId("jes-m-deprese", "font_small", "Don’t be depressive. We will solve this in no time.")
 dialogStr("Wees eens wat optimistischer. We lossen dit zo op.")
 
 
@@ -79,26 +79,26 @@ dialogId("jes-m-netopyr1", "font_small", "This is a stuffed bat.")
 dialogStr("Dit is een opgezette vleermuis.")
 
 
-dialogId("jes-v-netopyr1", "font_big", "It`s a sculpture of bat.")
+dialogId("jes-v-netopyr1", "font_big", "It’s a sculpture of bat.")
 dialogStr("Dit is een beeld van een vleermuis.")
 
 
-dialogId("jes-m-netopyr2", "font_small", "It`s a stalagmite shaped as a bat.")
+dialogId("jes-m-netopyr2", "font_small", "It’s a stalagmite shaped as a bat.")
 dialogStr("Het is een stalagmiet in de vorm van een vleermuis.")
 
 
-dialogId("jes-v-netopyr2", "font_big", "It`s a plain stalagmite.")
+dialogId("jes-v-netopyr2", "font_big", "It’s a plain stalagmite.")
 dialogStr("Het is gewoon een stalagmiet.")
 
 
-dialogId("jes-m-netopyr3", "font_small", "It`s just an ordinary piece of rock.")
+dialogId("jes-m-netopyr3", "font_small", "It’s just an ordinary piece of rock.")
 dialogStr("Het een volkomen normaal stuk rots.")
 
 
-dialogId("jes-v-nechut0", "font_big", "I think you are going to need that 'monster`.")
+dialogId("jes-v-nechut0", "font_big", "I think you are going to need that 'monster’.")
 dialogStr("Ik denk dat je dat monster nodig gaat hebben.")
 
 
-dialogId("jes-v-nechut1", "font_big", "I think you will have to overcome your dislike of that 'abomination`.")
-dialogStr("Ik denk dat je je afkeer van dat `misbaksel' zult moeten overwinnen.")
+dialogId("jes-v-nechut1", "font_big", "I think you will have to overcome your dislike of that 'abomination’.")
+dialogStr("Ik denk dat je je afkeer van dat ’misbaksel' zult moeten overwinnen.")
 

@@ -11,11 +11,11 @@ dialogId("1st-v-ven", "font_big", "We should go and have a look outside.")
 dialogStr("Měli bychom se podívat ven.")
 
 
-dialogId("1st-m-pockej", "font_small", "Wait! I`m going with you.")
+dialogId("1st-m-pockej", "font_small", "Wait! I’m going with you.")
 dialogStr("Počkej na mě, jdu s tebou!")
 
 
-dialogId("1st-m-proc", "font_small", "Why isn`t anything happening?")
+dialogId("1st-m-proc", "font_small", "Why isn’t anything happening?")
 dialogStr("Proč se nic neděje?")
 
 
@@ -35,11 +35,11 @@ dialogId("1st-v-navod5", "font_big", "...if we can get there without moving anyt
 dialogStr("...aniž bychom něčím hýbali...")
 
 
-dialogId("1st-m-navod6", "font_small", "...we`ll follow your clicks.")
+dialogId("1st-m-navod6", "font_small", "...we’ll follow your clicks.")
 dialogStr("...tak tam jedeme.")
 
 
-dialogId("1st-v-navod7", "font_big", "And when you right-click somewhere, we`ll try to get there, pushing aside all obstacles in our way.")
+dialogId("1st-v-navod7", "font_big", "And when you right-click somewhere, we’ll try to get there, pushing aside all obstacles in our way.")
 dialogStr("A když někam klikneš pravým, tak tím směrem zkrátka zkusíme jet, překážky nepřekážky...")
 
 
@@ -51,7 +51,7 @@ dialogId("1st-v-davej", "font_big", "And be careful not to hurt us. If you drop 
 dialogStr("A dávej pozor, ať nám neublížíš. Když nám něco hodíš na hlavu nebo...")
 
 
-dialogId("1st-m-nechtoho", "font_small", "Oh, stop it. We`ll tell him in the next level.")
+dialogId("1st-m-nechtoho", "font_small", "Oh, stop it. We’ll tell him in the next level.")
 dialogStr("Už toho nech, to mu řekneme v příští místnosti.")
 
 
@@ -59,11 +59,11 @@ dialogId("1st-v-takdobre", "font_big", "Okay.")
 dialogStr("Tak dobře.")
 
 
-dialogId("1st-m-neprojedu", "font_small", "I can`t get through here. That steel cylinder is in the way.")
+dialogId("1st-m-neprojedu", "font_small", "I can’t get through here. That steel cylinder is in the way.")
 dialogStr("Tudy neprojedu. Zavazí mi ten ocelový válec.")
 
 
-dialogId("1st-m-nepohnu", "font_small", "I can`t move that cylinder. Can you help me?")
+dialogId("1st-m-nepohnu", "font_small", "I can’t move that cylinder. Can you help me?")
 dialogStr("S tou ocelí nepohnu. Nechceš mi pomoct?")
 
 
@@ -79,7 +79,7 @@ dialogId("1st-m-diky", "font_small", "Thanks, now I can go with you.")
 dialogStr("Díky, už můžu jít s tebou.")
 
 
-dialogId("1st-v-nemuzu", "font_big", "Darn it, I can`t get through.")
+dialogId("1st-v-nemuzu", "font_big", "Darn it, I can’t get through.")
 dialogStr("Zatraceně, nemůžu tudy prolézt.")
 
 
@@ -95,7 +95,7 @@ dialogId("1st-v-chyba", "font_big", "Ooops! That was a mistake. Both of us have 
 dialogStr("Tak to byla chyba. Správné řešení musí být takové, abychom odjeli oba.")
 
 
-dialogId("1st-v-nedostanu", "font_big", "There`s no way I can get out now. You`ll have to restart the level.")
+dialogId("1st-v-nedostanu", "font_big", "There’s no way I can get out now. You’ll have to restart the level.")
 dialogStr("Já už se teď ven nedostanu. Musíš celou místnost hrát znovu.")
 
 
@@ -123,6 +123,6 @@ dialogId("1st-v-znovu", "font_big", "You just have to press the long arrow on yo
 dialogStr("Chceš-li to zkustit znovu, stiskni tlačítko zpětného výmazu.")
 
 
-dialogId("1st-x-ocel", "font_darkgrey", "I`m a heavy steel cylinder. It`s not easy to move me around. Such a tiny fish, like the orange one over there, simply has no chance. I could smash her without any problem.")
+dialogId("1st-x-ocel", "font_darkgrey", "I’m a heavy steel cylinder. It’s not easy to move me around. Such a tiny fish, like the orange one over there, simply has no chance. I could smash her without any problem.")
 dialogStr("Jsem těžký ocelový válec. Pohnout se mnou není nic jednoduchého. Taková malá rybka, jako je támhleta oranžová, vůbec nemá šanci. Rozmáčknul bych ji jedna dvě.")
 

@@ -19,7 +19,7 @@ dialogId("bot-m-padaji", "font_small", "These amphores fall unbearably slow.")
 
 dialogId("bot-v-vsak0", "font_big", "Well, you are not a bear, after all.")
 
-dialogId("bot-v-vsak1", "font_big", "Don`t forget that we are under water.")
+dialogId("bot-v-vsak1", "font_big", "Don’t forget that we are under water.")
 
 dialogId("bot-m-ble", "font_small", "Yuck. The authors could have spared us that animation.")
 

@@ -13,7 +13,7 @@ dialogId("sec-v-zavreny", "font_big", "I am closed in a room without doors!")
 
 dialogId("sec-m-kamen", "font_small", "Try to loosen some stone in the wall.")
 
-dialogId("sec-m-krab", "font_small", "Isn`t that crab a little bit strange?")
+dialogId("sec-m-krab", "font_small", "Isn’t that crab a little bit strange?")
 
 dialogId("sec-v-ktery", "font_big", "Which one do you mean?")
 
@@ -21,9 +21,9 @@ dialogId("sec-m-dole0", "font_small", "The upper one, of course.")
 
 dialogId("sec-m-dole1", "font_small", "The lower one, of course.")
 
-dialogId("sec-v-normalni0", "font_big", "I think it`s normal.")
+dialogId("sec-v-normalni0", "font_big", "I think it’s normal.")
 
-dialogId("sec-v-normalni1", "font_big", "Yes, it`s a little weird.")
+dialogId("sec-v-normalni1", "font_big", "Yes, it’s a little weird.")
 
 dialogId("sec-m-balonky", "font_small", "We should be glad we have all these balls.")
 
@@ -41,4 +41,4 @@ dialogId("sec-m-program", "font_small", "But of course, they are controlled by c
 
 dialogId("sec-v-socha", "font_big", "Did we ever see a sculpture that would be silent for so long?")
 
-dialogId("sec-m-situace", "font_small", "I think it`s only waiting for the best opportunity.")
+dialogId("sec-m-situace", "font_small", "I think it’s only waiting for the best opportunity.")

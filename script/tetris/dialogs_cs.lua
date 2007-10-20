@@ -27,7 +27,7 @@ dialogId("tet-m-jaklepsi", "font_small", "What do you mean, better?")
 dialogStr("Jak lepší?")
 
 
-dialogId("tet-v-hybat", "font_big", "At least, you won`t have to move all the pieces to the right.")
+dialogId("tet-v-hybat", "font_big", "At least, you won’t have to move all the pieces to the right.")
 dialogStr("No, přinejmenším tak, aby se tam dalo hýbat kostkou nejen doprava.")
 
 

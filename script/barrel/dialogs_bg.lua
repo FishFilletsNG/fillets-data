@@ -19,22 +19,22 @@ dialogStr("Е, може би си прав.")
 dialogId("bar-v-sud", "font_big", "And the cause is doubtless this giant barrel. We have to get it out somehow.")
 dialogStr("А причината без съмнение е този голям варел. Трябва някак да го разкараме.")
 
-dialogId("bar-m-panb", "font_small", "Yes. Let`s get to work. We can drop it on the Mr. B.`s front yard afterwards.")
+dialogId("bar-m-panb", "font_small", "Yes. Let’s get to work. We can drop it on the Mr. B.’s front yard afterwards.")
 dialogStr("Да. Да се залавяме за работа. След това може да го хвърлим в предния двор ма г-н Ш.")
 
 dialogId("bar-m-rada", "font_small", "I think I am growing to like them.")
 dialogStr("Май започвам да ги харесвам.")
 
-dialogId("bar-v-kdyby0", "font_big", "If only they wouldn`t stand in our way so much.")
+dialogId("bar-v-kdyby0", "font_big", "If only they wouldn’t stand in our way so much.")
 dialogStr("Само ако не ни пречеха толкова...")
 
 dialogId("bar-v-kdyby1", "font_big", "If only they were where we need them.")
 dialogStr("Ако и бяха където трябва...")
 
-dialogId("bar-v-sbirka", "font_big", "Such a lovely collection of monstrosities. I`ll be sorry to leave.")
+dialogId("bar-v-sbirka", "font_big", "Such a lovely collection of monstrosities. I’ll be sorry to leave.")
 dialogStr("Каква прекрасна сбирка от уроди. Направо не ми се тръгва")
 
-dialogId("bar-m-dost0", "font_small", "That won`t happen any time soon.")
+dialogId("bar-m-dost0", "font_small", "That won’t happen any time soon.")
 dialogStr("И без това скоро няма да си ходим.")
 
 dialogId("bar-m-dost1", "font_small", "You are going to have plenty of time to enjoy them.")
@@ -43,13 +43,13 @@ dialogStr("Ще имаш достатъчно време за да им се р�
 dialogId("bar-v-lih", "font_big", "If we take them with us and store them in alcohol, we could found ourselves a freak show.")
 dialogStr("Ако ги вземем с нас консервирани в спирт можем да основем някое откачено шоу.")
 
-dialogId("bar-m-fdto", "font_small", "And FDTO isn`t enough for you?")
+dialogId("bar-m-fdto", "font_small", "And FDTO isn’t enough for you?")
 dialogStr("ГЛШ не ти ли стига?")
 
 dialogId("bar-x-vypr", "font_white", "I can hear everything!")
 dialogStr("Чувам всичко!")
 
-dialogId("bar-m-promin", "font_small", "Sorry, boss. I didn`t mean to offend.")
+dialogId("bar-m-promin", "font_small", "Sorry, boss. I didn’t mean to offend.")
 dialogStr("Съжалявам, шефе. Не исках да те обидя.")
 
 dialogId("bar-m-mutanti", "font_small", "You know, I finally realized that even mutants have a soul.")

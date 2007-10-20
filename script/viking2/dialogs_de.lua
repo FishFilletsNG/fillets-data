@@ -3,7 +3,7 @@ dialogId("dr1-m-dlouho", "font_small", "This ship must have sunk long time ago."
 dialogStr("Dieses Schiff muss vor langer Zeit gesunken sein.")
 
 
-dialogId("dr1-v-urcite", "font_big", "Definitely. It`s one of the earliest drakkars. Judging by the shape of the head, number of spirals and color of the water I think it belonged to the grandfather of Eric the Red.")
+dialogId("dr1-v-urcite", "font_big", "Definitely. It’s one of the earliest drakkars. Judging by the shape of the head, number of spirals and color of the water I think it belonged to the grandfather of Eric the Red.")
 dialogStr("Definitiv. Es ist eine der ersten Drakkars. Nach der Form des Kopfes, der Anzahl der Spiralen und der Farbe des Wassers nach zu urteilen, gehörte es dem Großvater von Erik dem Roten, denke ich.")
 
 
@@ -27,7 +27,7 @@ dialogId("dr1-v-thorson", "font_big", "It is even possible it belonged to Thorso
 dialogStr("Es ist sogar möglich, dass es Thorson dem Harten gehörte.")
 
 
-dialogId("dr1-x-erik", "font_lightgrey", "I always thought I was the fishing boat of Eric the Unready... But today I learned the truth. Yes, it`s never too late to start a new life!")
+dialogId("dr1-x-erik", "font_lightgrey", "I always thought I was the fishing boat of Eric the Unready... But today I learned the truth. Yes, it’s never too late to start a new life!")
 dialogStr("Ich dachte immer ich bin das Fischerboot Eric des Unfertigen... Aber heute habe ich die Wahrheit erfahren. Ja, es ist nie zu spät, ein neues Leben anzufangen!")
 
 
@@ -55,7 +55,7 @@ dialogId("dr-8-ztichni2", "font_viking8", "Will you shut up already!")
 dialogStr("Wirst du wohl endlich ruhig sein!")
 
 
-dialogId("dr-8-nenechas", "font_viking8", "So, you`re not going to shut up, are you?")
+dialogId("dr-8-nenechas", "font_viking8", "So, you’re not going to shut up, are you?")
 dialogStr("So, du willst deine Klappe nicht halten, oder?")
 
 
@@ -95,7 +95,7 @@ dialogId("dr-2-uzbudeme2", "font_viking2", "When are we going to get to Valhalla
 dialogStr("Wann kommen wir in Walhalla an?")
 
 
-dialogId("dr-1-aztambudem", "font_viking1", "I`ll let you know once we get there.")
+dialogId("dr-1-aztambudem", "font_viking1", "I’ll let you know once we get there.")
 dialogStr("Ich lasse es euch wissen, wenn wir da sind.")
 
 
@@ -107,7 +107,7 @@ dialogId("dr-1-pockej", "font_viking1", "Wait till we get to Valhalla.")
 dialogStr("Warte, bis wir in Walhalla sind.")
 
 
-dialogId("dr-2-netrva", "font_viking2", "Isn`t this journey to Valhalla taking a bit too long?")
+dialogId("dr-2-netrva", "font_viking2", "Isn’t this journey to Valhalla taking a bit too long?")
 dialogStr("Dauert diese Reise nach Walhalla nicht ein bisschen zu lange?")
 
 
@@ -123,7 +123,7 @@ dialogId("dr-1-bojovnik", "font_viking1", "A warrior has to trust his commander!
 dialogStr("Ein Kämpfer muss seinem Kommandanten vertrauen!")
 
 
-dialogId("dr-1-achjo", "font_viking1", "Ahhh, I`m in charge of a ship full of cowards.")
+dialogId("dr-1-achjo", "font_viking1", "Ahhh, I’m in charge of a ship full of cowards.")
 dialogStr("Ahhh, Ich habe das Kommando über ein Schiff voller Feiglinge!")
 
 
@@ -131,7 +131,7 @@ dialogId("dr-1-procja", "font_viking1", "Why did I have to get a ship full of la
 dialogStr("Warum musste ich ein Schiff voller lachender Blödmänner bekommen?")
 
 
-dialogId("dr-1-chechtajici", "font_viking1", "Laughing buffoons, a slobbering dog. I think I`ll go drown myself.")
+dialogId("dr-1-chechtajici", "font_viking1", "Laughing buffoons, a slobbering dog. I think I’ll go drown myself.")
 dialogStr("Lachende Blödmänner, ein sabbernder Hund. Ich glaub ich geh mich ertränken.")
 
 
@@ -151,7 +151,7 @@ dialogId("dr-4-magazin", "font_viking4", "V-v-viking Fashion M-m-monthly r-recom
 dialogStr("D-d-das Wikinger M-m-modemagazin empfiehlt ei-einen blonden Zopf a-als Ergänzung zu einem d-dunklem Helm und einem bb-blauen Schild.")
 
 
-dialogId("dr-3-stakovou", "font_viking3", "I simply don`t agree with such a fad.")
+dialogId("dr-3-stakovou", "font_viking3", "I simply don’t agree with such a fad.")
 dialogStr("Den Quatsch mach ich einfach nicht mit.")
 
 
@@ -159,7 +159,7 @@ dialogId("dr-3-radeji", "font_viking3", "You should stick to the Viking traditio
 dialogStr("Du solltest dich lieber an die Wikinger-Traditionen halten.")
 
 
-dialogId("dr-4-moderni", "font_viking4", "B-b-but I`m c-c-cool!")
+dialogId("dr-4-moderni", "font_viking4", "B-b-but I’m c-c-cool!")
 dialogStr("A-a-aber ich bin c-c-cool!")
 
 
@@ -175,7 +175,7 @@ dialogId("dr-4-taky", "font_viking4", "But h-he also h-had a b-b-braid.")
 dialogStr("Aber er ha-hatte auch einen Z-z-zopf.")
 
 
-dialogId("dr-3-nemel", "font_viking3", "He did not. And that`s final.")
+dialogId("dr-3-nemel", "font_viking3", "He did not. And that’s final.")
 dialogStr("Hatte er nicht und basta!")
 
 
@@ -187,7 +187,7 @@ dialogId("dr-3-samozrejme", "font_viking3", "Definitely.")
 dialogStr("Definitiv.")
 
 
-dialogId("dr-4-budu", "font_viking4", "I`ll th-th-think it o-over.")
+dialogId("dr-4-budu", "font_viking4", "I’ll th-th-think it o-over.")
 dialogStr("Ich werd d-d-drüber nachdenken.")
 
 
@@ -199,11 +199,11 @@ dialogId("dr-4-ne", "font_viking4", "N-no, b-b-braids are d-definitely b-b-bette
 dialogStr("N-nein, Z-z-zöpfe sind definitiv b-b-besser.")
 
 
-dialogId("dr-3-mladez", "font_viking3", "Today`s youth - absolutely unbelievable.")
+dialogId("dr-3-mladez", "font_viking3", "Today’s youth - absolutely unbelievable.")
 dialogStr("Die heutige Jugend - absolut unglaublich.")
 
 
-dialogId("dr-3-chlap", "font_viking3", "A warrior with braids. It`s unheard of.")
+dialogId("dr-3-chlap", "font_viking3", "A warrior with braids. It’s unheard of.")
 dialogStr("Ein Kämpfer mit Zöpfen. Das gabs noch nie.")
 
 

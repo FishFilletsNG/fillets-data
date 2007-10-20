@@ -1,9 +1,9 @@
 
-dialogId("win-v-plocha", "font_big", "This is how it looks when you don`t keep your desktop tidy.")
+dialogId("win-v-plocha", "font_big", "This is how it looks when you don’t keep your desktop tidy.")
 dialogStr("Questo è quello che succede quando non tieni il desktop in ordine.")
 
-dialogId("win-m-costim0", "font_small", "Wouldn`t it help us if we select Desktop/Line up Icons?")
-dialogStr("Senti, non sarebbe utile selezionare `Desktop/Allinea Icone'?")
+dialogId("win-m-costim0", "font_small", "Wouldn’t it help us if we select Desktop/Line up Icons?")
+dialogStr("Senti, non sarebbe utile selezionare ’Desktop/Allinea Icone'?")
 
 dialogId("win-m-costim1", "font_small", "What if we try to minimize the biggest windows?")
 dialogStr("E se provassimo a minimizzare la finestra più grande?")
@@ -20,7 +20,7 @@ dialogStr("Che ne dici di mandare tutto a monte e fare una nuotatina al pub?")
 dialogId("win-v-pocitala", "font_big", "Did you count these windows around us?")
 dialogStr("Hai contato le finestre qua intorno?")
 
-dialogId("win-m-nemusim", "font_small", "I don`t need to count them. There are ninety five of them.")
+dialogId("win-m-nemusim", "font_small", "I don’t need to count them. There are ninety five of them.")
 dialogStr("Non ho bisogno di contarle. Sono novantacinque.")
 
 dialogId("win-m-blok", "font_small", "Can you see that Notepad? Now is a good time to send a message to the player!")
@@ -32,7 +32,7 @@ dialogStr("Finiscila di dire idiozie e prova apensare, invece.")
 dialogId("win-m-dira", "font_small", "This system has to have a hole somewhere.")
 dialogStr("Questo sistema deve avere una falla, da qualche parte.")
 
-dialogId("win-v-tamhle", "font_big", "Sure. It`s in the lower right corner.")
+dialogId("win-v-tamhle", "font_big", "Sure. It’s in the lower right corner.")
 dialogStr("Certo, è nell'angolo in basso a destra.")
 
 dialogId("win-m-okno", "font_small", "Can you see that big window on the right?!")
@@ -59,10 +59,10 @@ dialogStr("Giusto un bip di tanto in tanto...")
 dialogId("win-v-hav", "font_big", "But fortunately the authors got back to it and gave it this modern facelift.")
 dialogStr("Ma fortunatamente gli autori ci sono tornati su e gli hanno dato questo moderno aspetto.")
 
-dialogId("win-m-zahrat", "font_small", "But I`d like to play it sometime, anyway!")
+dialogId("win-m-zahrat", "font_small", "But I’d like to play it sometime, anyway!")
 dialogStr("Però mi piacerebbe lo stesso giocarci qualche volta!")
 
-dialogId("win-m-vga", "font_small", "I can`t move this window. Down there, it`s a steel cylinder, though it`s only in sixteen color VGA.")
+dialogId("win-m-vga", "font_small", "I can’t move this window. Down there, it’s a steel cylinder, though it’s only in sixteen color VGA.")
 dialogStr("Non riesco a muovere questa finestra. Là in basso, c'è un cilindro di acciaio, anche se è solo in VGA a sedici colori.")
 
 dialogId("win-v-pockej", "font_big", "Wait a moment, player. We have to make something clear. These two fish, they are our younger selves.")
@@ -71,16 +71,16 @@ dialogStr("Aspetta, giocatore. Dobbiamo chiarire qualcosa. Questi due pesci, sia
 dialogId("win-m-zavrene", "font_small", "You are right. They are trapped there, poor souls.")
 dialogStr("È vero. Sono intrappolati là, poverini.")
 
-dialogId("win-v-osvobodit", "font_big", "We can`t leave them there. We have to get them out!")
+dialogId("win-v-osvobodit", "font_big", "We can’t leave them there. We have to get them out!")
 dialogStr("Non possiamo lasciarli lì. Dobbiamo liberarli!")
 
 dialogId("win-m-ven", "font_small", "Yes, but the player has to get us out.")
 dialogStr("Sì, ma è noi che il giocatore deve liberare.")
 
-dialogId("win-v-citim", "font_big", "So we`ll go on strike. Personally, I fully sympathize with the bigger fish inside.")
+dialogId("win-v-citim", "font_big", "So we’ll go on strike. Personally, I fully sympathize with the bigger fish inside.")
 dialogStr("Allora indirremo uno sciopero. Per quanto mi riguarda, quel grosso pesce là dentro ha tutto il mio appoggio.")
 
-dialogId("win-m-vzit", "font_small", "You`re right. I can imagine what the smaller one feels.")
+dialogId("win-m-vzit", "font_small", "You’re right. I can imagine what the smaller one feels.")
 dialogStr("Giusto. Posso immaginare come il pesce piccolo possa sentirsi.")
 
 dialogId("win-v-nehrajem", "font_big", "We are not going to play, until you save those two, player.")

@@ -10,7 +10,7 @@ dialogStr("Изчезвай.")
 dialogId("dir-m-rada3", "font_small", "My patience is running out.")
 dialogStr("Търпението ми се изчерпва.")
 
-dialogId("dir-m-rada4", "font_small", "Arrgh... I`ll smash it to pieces.")
+dialogId("dir-m-rada4", "font_small", "Arrgh... I’ll smash it to pieces.")
 dialogStr("Арргх... Ще го натроша на парчета.")
 
 dialogId("dir-v-rada0", "font_big", "Ignore it, let it talk.")
@@ -49,7 +49,7 @@ dialogStr("съборите някоя стена.")
 dialogId("dir-hs-konec1", "font_statue", "break off a few stones from the wall and plug the holes with them.")
 dialogStr("извадите няколко камъка от стените и запълните дупките с тях.")
 
-dialogId("dir-hs-konec2", "font_statue", "plug those holes with something so that that hooked steel wouldn`t get stuck there.")
+dialogId("dir-hs-konec2", "font_statue", "plug those holes with something so that that hooked steel wouldn’t get stuck there.")
 dialogStr("запълните дупките с нещо, за да не се закача стоманената тръба.")
 
 dialogId("dir-hs-konec3", "font_statue", "smash that pillar by the exit.")

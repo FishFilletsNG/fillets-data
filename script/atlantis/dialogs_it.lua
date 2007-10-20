@@ -29,11 +29,11 @@ dialogStr("Possiamo provare a rimetterlo a posto.")
 dialogId("sp-m-vratit0", "font_small", "And then? Shall we drink the water that poured in, or what?")
 dialogStr("E dopo? Beviamo tutta l'acqua che si è riversata, o che?")
 
-dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of our esteem of the citizens` heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.")
+dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of our esteem of the citizens’ heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.")
 dialogStr("Possiamo rimetterlo a posto come gesto di stima nei confronti degli eroici sforzi della cittadinanza per tenere la città a galla. A ricordo della loro industriosità, accortezza e... tenacia.")
 
-dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.` The Providence itself unplugged that hole. Just imagine you`d hear such things at home. Day by day.")
-dialogStr("Di che? `Dove corri? A ordinare otto spade!' È la provvidenza ad aver tolto il tappo. Pensa se sentissi cose simili a casa tua. Ogni giorno.")
+dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
+dialogStr("Di che? ’Dove corri? A ordinare otto spade!' È la provvidenza ad aver tolto il tappo. Pensa se sentissi cose simili a casa tua. Ogni giorno.")
 
 dialogId("sp-m-kalet", "font_small", "And moreover: is it likely that anybody would ever come here? Only sepias will nibble it occasionally.")
 dialogStr("E poi, ti sembra che qualcuno tornerà mai qui? C'è solo qualche seppia che lo mordicchia ogni tanto.")
@@ -50,7 +50,7 @@ dialogStr("Forse hai ragione. Forse sarebbe meglio portarcelo dietro.")
 dialogId("sp-m-taky", "font_small", "I think so, too.")
 dialogStr("Sono d'accordo.")
 
-dialogId("sp-v-dotoho", "font_big", "Let `s get to work.")
+dialogId("sp-v-dotoho", "font_big", "Let ’s get to work.")
 dialogStr("Al lavoro.")
 
 dialogId("sp-m-nechat", "font_small", "What if we just leave that plug here?")
@@ -59,7 +59,7 @@ dialogStr("Perché non lo lasciamo lì e basta?")
 dialogId("sp-v-centrala", "font_big", "What would the Agency say?")
 dialogStr("Cosa direbbe l'Agenzia?")
 
-dialogId("sp-v-jedno", "font_big", "I don`t think I mind what the boss is going to think about me.")
+dialogId("sp-v-jedno", "font_big", "I don’t think I mind what the boss is going to think about me.")
 dialogStr("Non me ne importa molto di cosa penserà il capo di me.")
 
 dialogId("sp-m-vydrz", "font_small", "Hold on. We are sure to solve it.")

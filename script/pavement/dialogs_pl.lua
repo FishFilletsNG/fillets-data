@@ -15,7 +15,7 @@ dialogId("dir-m-rada3", "font_small", "My patience is running out.")
 dialogStr("Moja cierpliwość się powoli kończy.")
 
 
-dialogId("dir-m-rada4", "font_small", "Arrgh... I`ll smash it to pieces.")
+dialogId("dir-m-rada4", "font_small", "Arrgh... I’ll smash it to pieces.")
 dialogStr("Grrr... rozniosę go na drobny pył.")
 
 
@@ -67,7 +67,7 @@ dialogId("dir-hs-konec1", "font_statue", "break off a few stones from the wall a
 dialogStr("wyłamali z muru kilka cegieł i zapchali nimi dziury?")
 
 
-dialogId("dir-hs-konec2", "font_statue", "plug those holes with something so that that hooked steel wouldn`t get stuck there.")
+dialogId("dir-hs-konec2", "font_statue", "plug those holes with something so that that hooked steel wouldn’t get stuck there.")
 dialogStr("załatali czymś te dziury, coby ta rura wam w nie nie wpadła?")
 
 

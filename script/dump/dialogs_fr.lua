@@ -15,7 +15,7 @@ dialogId("sm-v-jine2", "font_big", "No, I think there is something here, that ca
 dialogStr("Non, je pense qu'il y a quelque chose ici, qui ne peut être trouvé nulle part ailleurs.")
 
 
-dialogId("sm-v-budik", "font_big", "Look at that clock. Doesn`t it resemble a child-comforter a little?")
+dialogId("sm-v-budik", "font_big", "Look at that clock. Doesn’t it resemble a child-comforter a little?")
 dialogStr("Jette un oeil au réveil. il ressemble à une loupiote.")
 
 
@@ -31,7 +31,7 @@ dialogId("sm-m-kramy1", "font_small", "This must be a wreck of a flea shop.")
 dialogStr("Ce doit être l'épave d'un magasin de brocante.")
 
 
-dialogId("sm-v-kramy2", "font_big", "It`s worse here than in an oil spill.")
+dialogId("sm-v-kramy2", "font_big", "It’s worse here than in an oil spill.")
 dialogStr("Ici, c'est pire qu'une marée noire.")
 
 
@@ -47,7 +47,7 @@ dialogId("sm-m-dedek", "font_small", "The one with that old man?")
 dialogStr("Celui avec le vieux monsieur.")
 
 
-dialogId("sm-v-charon", "font_big", "It`s old Charon, ferryman of the dead.")
+dialogId("sm-v-charon", "font_big", "It’s old Charon, ferryman of the dead.")
 dialogStr("C'est le vieux Charon, passeur des morts.")
 
 
@@ -55,7 +55,7 @@ dialogId("sm-m-codela", "font_small", "And what does he do in the wasteyard?")
 dialogStr("Et que fait-il dans la décharge ?")
 
 
-dialogId("sm-v-duchodce0", "font_big", "He`s probably retired.")
+dialogId("sm-v-duchodce0", "font_big", "He’s probably retired.")
 dialogStr("Il est probablement à la retraite.")
 
 
@@ -79,7 +79,7 @@ dialogId("sm-m-proc", "font_small", "Why?")
 dialogStr("Pourquoi ?")
 
 
-dialogId("sm-v-podivej", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn`t it the most fitting example of what I was talking about?")
+dialogId("sm-v-podivej", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn’t it the most fitting example of what I was talking about?")
 dialogStr("Regarde-la. Elle n'arrête pas de nager mais reste à la même place. Est-ce qu'elle n'est pas le meilleur exemple de ce que je dis ?")
 
 

@@ -15,15 +15,15 @@ dialogId("bank-v-pokusy1", "font_big", "These experiments seem quite suspicious 
 dialogStr("Koukám, že se tady provádějí dost podezřelé pokusy.")
 
 
-dialogId("bank-v-pokusy2", "font_big", "I think that someone`s carrying out some rather suspicious experiments here.")
+dialogId("bank-v-pokusy2", "font_big", "I think that someone’s carrying out some rather suspicious experiments here.")
 dialogStr("Myslím, že se zde provádějí velmi podezřelé pokusy.")
 
 
-dialogId("bank-m-jejda", "font_small", "My gosh, what`s this?!?")
+dialogId("bank-m-jejda", "font_small", "My gosh, what’s this?!?")
 dialogStr("Jejda, co je tohle?!?")
 
 
-dialogId("bank-v-zije", "font_big", "Everything`s alive here.")
+dialogId("bank-v-zije", "font_big", "Everything’s alive here.")
 dialogStr("Všude to tady žije.")
 
 
@@ -31,7 +31,7 @@ dialogId("bank-m-nerus", "font_small", "Shhhhh, I need to examine this laborator
 dialogStr("Neruš, vědecky zkoumám.")
 
 
-dialogId("bank-m-bojim", "font_small", "I`m little bit afraid of that thing behind the door...")
+dialogId("bank-m-bojim", "font_small", "I’m little bit afraid of that thing behind the door...")
 dialogStr("Trochu se bojím té věci za dveřmi...")
 
 
@@ -39,11 +39,11 @@ dialogId("bank-m-ocicka", "font_small", "Why does it have three eyes?")
 dialogStr("Proč to má tři oči?")
 
 
-dialogId("bank-v-pomoc", "font_big", "Stop what you`re doing down there and come help me!")
+dialogId("bank-v-pomoc", "font_big", "Stop what you’re doing down there and come help me!")
 dialogStr("Nech toho tam dole a pojď mi radši pomoct!")
 
 
-dialogId("bank-m-organismy", "font_small", "I would never have thought that we`d find so many living things inside a UFO...")
+dialogId("bank-m-organismy", "font_small", "I would never have thought that we’d find so many living things inside a UFO...")
 dialogStr("Netušila jsem, že uvnitř UFA najdeme tolik živých organismů...")
 
 
@@ -55,11 +55,11 @@ dialogId("bank-v-mnozeni", "font_big", "My goodness, look at those things reprod
 dialogStr("Proboha, tady se něco strašně množí!")
 
 
-dialogId("bank-m-nesetkala", "font_small", "I`ve never seen this kind of organism before.")
+dialogId("bank-m-nesetkala", "font_small", "I’ve never seen this kind of organism before.")
 dialogStr("S tímto typem organismu jsem se ještě nesetkala.")
 
 
-dialogId("bank-m-kouka", "font_small", "Help! It`s looking at me!")
+dialogId("bank-m-kouka", "font_small", "Help! It’s looking at me!")
 dialogStr("Pomoc, ono to na mne kouká!")
 
 
@@ -71,7 +71,7 @@ dialogId("bank-m-nervozni", "font_small", "That hand gives me the creeps...")
 dialogStr("Jsem z té ruky trochu nervózní...")
 
 
-dialogId("bank-m-zkumavka", "font_small", "There`s a strange odor coming from this test-tube...")
+dialogId("bank-m-zkumavka", "font_small", "There’s a strange odor coming from this test-tube...")
 dialogStr("Z té zkumavky je něco podezřelého cítit...")
 
 
@@ -79,15 +79,15 @@ dialogId("bank-m-hlavakolem", "font_small", "All of this is making my head spin.
 dialogStr("Z toho všeho tady už mi jde hlava kolem...")
 
 
-dialogId("bank-v-neproplavu1", "font_big", "I can`t swim through here. We`re going to have to push this aside.")
+dialogId("bank-v-neproplavu1", "font_big", "I can’t swim through here. We’re going to have to push this aside.")
 dialogStr("Tudy neproplavu, budeme to muset odsunout.")
 
 
-dialogId("bank-v-neproplavu2", "font_big", "I can`t swim through here. We`re going to have to push this down.")
+dialogId("bank-v-neproplavu2", "font_big", "I can’t swim through here. We’re going to have to push this down.")
 dialogStr("Tudy neproplavu, budeme to muset shodit.")
 
 
-dialogId("bank-v-nahazet", "font_big", "We`re going to need to throw on a lot more of these things.")
+dialogId("bank-v-nahazet", "font_big", "We’re going to need to throw on a lot more of these things.")
 dialogStr("Budeme tam těch věcí muset naházet asi víc.")
 
 
@@ -99,11 +99,11 @@ dialogId("bank-m-prohlednout", "font_small", "We have to look everything here ov
 dialogStr("Musíme si tu všechno důkladně prohlédnout.")
 
 
-dialogId("bank-v-vypad1", "font_big", "I`d rather get out of here.")
-dialogStr("Raději bych rychle vypad`.")
+dialogId("bank-v-vypad1", "font_big", "I’d rather get out of here.")
+dialogStr("Raději bych rychle vypad’.")
 
 
-dialogId("bank-v-vypad2", "font_big", "You know, I`d really rather get out of here.")
+dialogId("bank-v-vypad2", "font_big", "You know, I’d really rather get out of here.")
 dialogStr("No, já bych nejraději už vypadl.")
 
 

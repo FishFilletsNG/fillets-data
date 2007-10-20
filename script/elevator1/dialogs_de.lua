@@ -15,11 +15,11 @@ dialogId("zd1-m-last", "font_small", "Do you see that shell?")
 dialogStr("Siehst du diese Muschel?")
 
 
-dialogId("zd1-v-talis", "font_big", "It`s an age-old talisman for elevator builders who always said 'Build well. Build with Shell`.")
-dialogStr("Das ist ein uralter Glücksbringer für Fahrstuhlbauer, die immer gesagt haben \"Baue schnell, bau` mit Shell\".")
+dialogId("zd1-v-talis", "font_big", "It’s an age-old talisman for elevator builders who always said 'Build well. Build with Shell’.")
+dialogStr("Das ist ein uralter Glücksbringer für Fahrstuhlbauer, die immer gesagt haben \"Baue schnell, bau’ mit Shell\".")
 
 
-dialogId("zd1-m-poved", "font_small", "Isn`t that shell a little bit familiar?")
+dialogId("zd1-m-poved", "font_small", "Isn’t that shell a little bit familiar?")
 dialogStr("Kommt dir die Muschel bekannt vor?")
 
 
@@ -28,7 +28,7 @@ dialogStr("Die sollten sich schämen. Das ist unterschwellige Werbung.")
 
 
 dialogId("zd1-v-lebka", "font_big", "That skull looks familiar.")
-dialogStr("Den Schädel kenn` ich irgendwoher.")
+dialogStr("Den Schädel kenn’ ich irgendwoher.")
 
 
 dialogId("zd1-m-stejne", "font_small", "All human skulls look the same... Unlike fish skeletons.")
@@ -47,11 +47,11 @@ dialogId("zd1-m-slap", "font_small", "A treadmill for fish? But we only have fin
 dialogStr("Eine Tretmühle für Fische? Aber wir haben doch nur Flossen.")
 
 
-dialogId("zd1-x-huhu1", "font_lightgrey", "Hoo, hooooo, hoooo... I`m over heeeere...")
+dialogId("zd1-x-huhu1", "font_lightgrey", "Hoo, hooooo, hoooo... I’m over heeeere...")
 dialogStr("Huhu, Huhuuu... Ich bin hier drüüüüben...")
 
 
-dialogId("zd1-x-huhu2", "font_lightgrey", "Hoooo, if you want I`ll tell you how to solve all the levels...")
+dialogId("zd1-x-huhu2", "font_lightgrey", "Hoooo, if you want I’ll tell you how to solve all the levels...")
 dialogStr("Huhu, wenn ihr wollt, werde ich euch sagen, wie ihr alle Ebenen löst...")
 
 
@@ -59,7 +59,7 @@ dialogId("zd1-x-huhu3", "font_lightgrey", "Hooo, ho, hooo, I know why the city s
 dialogStr("Huhu, Huhuuu, ich weiß, warum die Stadt versunken ist!")
 
 
-dialogId("zd1-x-huhu4", "font_lightgrey", "Hoooo, why isn`t anyone paying attention to me?")
+dialogId("zd1-x-huhu4", "font_lightgrey", "Hoooo, why isn’t anyone paying attention to me?")
 dialogStr("Huhuuu, warum beachtet mich niemand?")
 
 

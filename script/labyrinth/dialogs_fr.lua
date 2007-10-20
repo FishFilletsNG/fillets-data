@@ -11,7 +11,7 @@ dialogId("bl-m-funkce", "font_small", "The position of assistant deputy design c
 dialogStr("Le poste d'assistant pour la coordination du design a été créé à cause de ce niveau. Ainsi l'auteur a son propre mérite.")
 
 
-dialogId("bl-v-pozadi", "font_big", "Enough about the game background. Let`s get to work.")
+dialogId("bl-v-pozadi", "font_big", "Enough about the game background. Let’s get to work.")
 dialogStr("Ca Suffit avec l'équipe du jeu et maintenant bossons un peu.")
 
 
@@ -27,11 +27,11 @@ dialogId("bl-m-visi", "font_small", "And what does it hang on?")
 dialogStr("Et à quoi est-il suspendu ?")
 
 
-dialogId("bl-v-nevim0", "font_big", "I don`t know. But we have to get it down anyway.")
+dialogId("bl-v-nevim0", "font_big", "I don’t know. But we have to get it down anyway.")
 dialogStr("Je ne sais pas. Mais nous devons le faire tomber de toute façon.")
 
 
-dialogId("bl-v-nevim1", "font_big", "I don`t know. Do we have to put it down?")
+dialogId("bl-v-nevim1", "font_big", "I don’t know. Do we have to put it down?")
 dialogStr("Je ne sais pas. Est-ce que nous devons le faire tomber ?")
 
 
@@ -55,11 +55,11 @@ dialogId("bl-m-snecku0", "font_small", "Shalimuddy, shalimuddy, put your horns o
 dialogStr("Escargot content, escargot heureux, sors tes cornes...")
 
 
-dialogId("bl-v-dost0", "font_big", "Stop it! As if you don`t know that no object will move if we don`t push it first!")
+dialogId("bl-v-dost0", "font_big", "Stop it! As if you don’t know that no object will move if we don’t push it first!")
 dialogStr("Arrête ça ! Comme si tu ne savais pas qu'aucun objet ne bouge si nous ne l'avons pas poussé avant !")
 
 
-dialogId("bl-m-snecku1", "font_small", "But I can try, can`t I? Shalimuddy, Shalimuddy...")
+dialogId("bl-m-snecku1", "font_small", "But I can try, can’t I? Shalimuddy, Shalimuddy...")
 dialogStr("Mais je peux essayer, non ? Escargot content, escargot heureux...")
 
 
@@ -67,10 +67,10 @@ dialogId("bl-v-dost1", "font_big", "Stop it! It makes my scales itch!")
 dialogStr("Arrête ! Ça me hérisse les écailles.")
 
 
-dialogId("bl-m-snecku2", "font_small", "Don`t listen then. Shalimuddy, shalimuddy, put your...")
+dialogId("bl-m-snecku2", "font_small", "Don’t listen then. Shalimuddy, shalimuddy, put your...")
 dialogStr("N'écoute pas alors. Escargot content, escargot heureux, sors tes...")
 
 
-dialogId("bl-v-dost2", "font_big", "Stop it! Or I`ll drop that coral on your head!")
+dialogId("bl-v-dost2", "font_big", "Stop it! Or I’ll drop that coral on your head!")
 dialogStr("Arrête ça ! Ou je te lâche ce corail sur la tête !")
 

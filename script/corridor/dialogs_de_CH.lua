@@ -1,5 +1,5 @@
 
-dialogId("ch-m-odpoved0", "font_small", "Including the Cuban missile crisis and Nostradamus` prophecies.")
+dialogId("ch-m-odpoved0", "font_small", "Including the Cuban missile crisis and Nostradamus’ prophecies.")
 dialogStr("Einschliesslich der Kubakrise und Nostradamus Prophezeiungen.")
 
 
@@ -11,6 +11,6 @@ dialogId("ch-m-odpoved2", "font_small", "Including the Challenger explosion and 
 dialogStr("Einschliesslich der Challenger-Explosion und der Schlacht im Teutoburger Wald.")
 
 
-dialogId("ch-r-anavic1", "font_robodog", "And everybody knows somebody else murdered him, they can`t prove anything.")
+dialogId("ch-r-anavic1", "font_robodog", "And everybody knows somebody else murdered him, they can’t prove anything.")
 dialogStr("Und jeder weiss, dass jemand anders ihn umgebracht hat, die können nichts beweisen.")
 

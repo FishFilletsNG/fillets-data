@@ -11,7 +11,7 @@ dialogId("jed-m-perly1", "font_small", "There are so many pearls here.")
 dialogStr("Det finns så många pärlor här.")
 
 
-dialogId("jed-v-poslani0", "font_big", "Listen... Don`t forget our mission!")
+dialogId("jed-v-poslani0", "font_big", "Listen... Don’t forget our mission!")
 dialogStr("Hör upp... Glöm inte vårt uppdrag!")
 
 
@@ -27,11 +27,11 @@ dialogId("jed-m-flakas", "font_small", "You are just sitting up there and I have
 dialogStr("Du bara sitter där uppe när jag måste göra allt jobb själv!")
 
 
-dialogId("jed-v-uzivat0", "font_big", "Didn`t you say that you like the pearls?")
+dialogId("jed-v-uzivat0", "font_big", "Didn’t you say that you like the pearls?")
 dialogStr("Sa du inte att du gillade pärlor?")
 
 
-dialogId("jed-v-uzivat1", "font_big", "Aren`t you happy with so many pearls?")
+dialogId("jed-v-uzivat1", "font_big", "Aren’t you happy with so many pearls?")
 dialogStr("Är du inte glad över så många pärlor?")
 
 
@@ -47,11 +47,11 @@ dialogId("jed-m-perlorodka1", "font_small", "One more pearl, please.")
 dialogStr("En till pärla, tack!")
 
 
-dialogId("jed-m-perlorodka2", "font_small", "My dearest friend, couldn`t you possibly lend me just one little pearl?")
+dialogId("jed-m-perlorodka2", "font_small", "My dearest friend, couldn’t you possibly lend me just one little pearl?")
 dialogStr("Min käraste vän, skulle du kunna låna mig bara en liten pärla?")
 
 
-dialogId("jed-m-trubka", "font_small", "I wonder if it wouldn`t be easier to shorten that steel pipe.")
+dialogId("jed-m-trubka", "font_small", "I wonder if it wouldn’t be easier to shorten that steel pipe.")
 dialogStr("Jag undrar om det inte skulle bli enklare att korta av stålröret.")
 
 
@@ -71,6 +71,6 @@ dialogId("jed-v-poter", "font_big", "Watching you, I have to think about how I p
 dialogStr("Efter att ha sett dig, så behöver jag minnas hur det var att spela kula med grodyngel.")
 
 
-dialogId("jed-m-kulicka", "font_small", "You haven`t got a spare marble in your pocket, do you?")
+dialogId("jed-m-kulicka", "font_small", "You haven’t got a spare marble in your pocket, do you?")
 dialogStr("Du har inte en kula i reserv i fickan, eller?")
 

@@ -27,15 +27,15 @@ dialogId("ufo-v-vpredu", "font_big", "You would let me go in front, for a change
 dialogStr("Du würdest mich zu Abwechslung mal vorlassen.")
 
 
-dialogId("ufo-m-zvlastni", "font_small", "It`s interesting that this tangled steel forestalls our entry into that UFO more effectively than any security system.")
+dialogId("ufo-m-zvlastni", "font_small", "It’s interesting that this tangled steel forestalls our entry into that UFO more effectively than any security system.")
 dialogStr("Interessant, dass dieses Stahlgewühl uns den Zugang zum UFO effektiver verhindert, als jedes Sicherheitssystem.")
 
 
 dialogId("ufo-v-rikam", "font_big", "I keep telling you that our life is controlled by some higher, strange consciousness.")
-dialogStr("Ich sag` dir doch, dass unser Leben durch ein höheres, fremdartiges Bewusstsein gesteuert wird.")
+dialogStr("Ich sag’ dir doch, dass unser Leben durch ein höheres, fremdartiges Bewusstsein gesteuert wird.")
 
 
-dialogId("ufo-m-vidim", "font_small", "I can see that, too. But I am not that sure it`s higher.")
+dialogId("ufo-m-vidim", "font_small", "I can see that, too. But I am not that sure it’s higher.")
 dialogStr("Das sehe ich auch. Aber ich bin mir nicht sicher, dass es höher ist.")
 
 
@@ -55,10 +55,10 @@ dialogId("ufo-v-zjistit1", "font_big", "You know, most of all I wonder why they 
 dialogStr("Weißt du, am meisten frage ich mich, warum sie genau hier abgestürzt sind.")
 
 
-dialogId("ufo-m-tady", "font_small", "Didn`t you see it? Everything happens just here.")
+dialogId("ufo-m-tady", "font_small", "Didn’t you see it? Everything happens just here.")
 dialogStr("Hast du nicht bemerkt? Alles passiert genau hier.")
 
 
-dialogId("ufo-m-nevim", "font_small", "I don`t know why the UFOs keep crashing at our house, either.")
+dialogId("ufo-m-nevim", "font_small", "I don’t know why the UFOs keep crashing at our house, either.")
 dialogStr("Ich weiß auch nicht, warum die UFOs weiter auf unser Haus abstürzen.")
 

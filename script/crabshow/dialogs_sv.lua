@@ -27,7 +27,7 @@ dialogId("sec-m-kamen", "font_small", "Try to loosen some stone in the wall.")
 dialogStr("Försök att lossa på någon sten i väggen.")
 
 
-dialogId("sec-m-krab", "font_small", "Isn`t that crab a little bit strange?")
+dialogId("sec-m-krab", "font_small", "Isn’t that crab a little bit strange?")
 dialogStr("Ser inte krabban lite konstig ut?")
 
 
@@ -43,11 +43,11 @@ dialogId("sec-m-dole1", "font_small", "The lower one, of course.")
 dialogStr("Den under, självklart.")
 
 
-dialogId("sec-v-normalni0", "font_big", "I think it`s normal.")
+dialogId("sec-v-normalni0", "font_big", "I think it’s normal.")
 dialogStr("Jag tycker den är normal.")
 
 
-dialogId("sec-v-normalni1", "font_big", "Yes, it`s a little weird.")
+dialogId("sec-v-normalni1", "font_big", "Yes, it’s a little weird.")
 dialogStr("Ja, den är lite underlig.")
 
 
@@ -83,6 +83,6 @@ dialogId("sec-v-socha", "font_big", "Did we ever see a sculpture that would be s
 dialogStr("Har vi någonstans sett en skulptur som varit tyst så länge?")
 
 
-dialogId("sec-m-situace", "font_small", "I think it`s only waiting for the best opportunity.")
+dialogId("sec-m-situace", "font_small", "I think it’s only waiting for the best opportunity.")
 dialogStr("Jag tror att den bara väntar på bättre tider.")
 

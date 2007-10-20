@@ -7,19 +7,19 @@ dialogStr("Това прилича на конвенционална тяга з
 dialogId("mot-m-tak", "font_small", "So. We found the drive. We have achieved one of the objectives of our mission.")
 dialogStr("Е, намерихме двигателя. Изпълнихме една от целите на мисията.")
 
-dialogId("mot-v-zavery", "font_big", "Don`t be so hasty. We haven`t searched the whole wreck yet.")
+dialogId("mot-v-zavery", "font_big", "Don’t be so hasty. We haven’t searched the whole wreck yet.")
 dialogStr("Не прибързвай. Още не сме претърсили всички останки.")
 
 dialogId("mot-m-akce0", "font_small", "I am sorry that none of these technical marvels around us work.")
 dialogStr("Съжалявам, че никое от тези технически чудеса около нас не работи.")
 
-dialogId("mot-m-akce1", "font_small", "I`d like to see some of these extraterrestrial gizmos in action.")
+dialogId("mot-m-akce1", "font_small", "I’d like to see some of these extraterrestrial gizmos in action.")
 dialogStr("Бих искала да видя някоя от тези извънземни джаджи в действие.")
 
 dialogId("mot-m-akce2", "font_small", "I wonder if this motor could work under water.")
 dialogStr("Чудя се дали този мотор може да работи под вода?")
 
-dialogId("mot-v-funkce0", "font_big", "Maybe it`s better for us if it doesn`t work.")
+dialogId("mot-v-funkce0", "font_big", "Maybe it’s better for us if it doesn’t work.")
 dialogStr("За нас може би е по-добре ако не работи.")
 
 dialogId("mot-v-funkce1", "font_big", "I am rather glad we cannot turn anything on here.")
@@ -31,19 +31,19 @@ dialogStr("Би трябвало да сме доволни, че все още 
 dialogId("mot-v-klic", "font_big", "Careful with that wrench.")
 dialogStr("Внимавай с този гаечен ключ.")
 
-dialogId("mot-m-ublizit", "font_small", "I can`t harm anything here.")
+dialogId("mot-m-ublizit", "font_small", "I can’t harm anything here.")
 dialogStr("Едва ли ще повредя нищо.")
 
 dialogId("mot-m-zvuky0", "font_small", "What have you done? Turn off that roar!")
 dialogStr("Какво направи? Изключи този рев!")
 
-dialogId("mot-m-zvuky1", "font_small", "This is terrible! Turn it off before it`s too late!")
+dialogId("mot-m-zvuky1", "font_small", "This is terrible! Turn it off before it’s too late!")
 dialogStr("Това е ужасно! Изключи го преди да е станало късно!")
 
-dialogId("mot-v-nemuzu0", "font_big", "I can`t! I can`t take it out!")
+dialogId("mot-v-nemuzu0", "font_big", "I can’t! I can’t take it out!")
 dialogStr("Не мога! Не мога да го извадя!")
 
-dialogId("mot-v-nemuzu1", "font_big", "I don`t know how! I can`t take it out!")
+dialogId("mot-v-nemuzu1", "font_big", "I don’t know how! I can’t take it out!")
 dialogStr("Не знам как! Не мога да го извадя!")
 
 dialogId("mot-m-mayday", "font_small", "Mayday! Mayday!")
@@ -64,7 +64,7 @@ dialogStr("Какво си активирала? Къде ни води?")
 dialogId("mot-m-nemuzu0", "font_small", "How can I turn it off?!")
 dialogStr("Как да го изключа?!")
 
-dialogId("mot-m-nemuzu1", "font_small", "I can`t turn it off!")
+dialogId("mot-m-nemuzu1", "font_small", "I can’t turn it off!")
 dialogStr("Не мога да го изключа!")
 
 dialogId("mot-m-konecne0", "font_small", "Thanks.")
@@ -73,7 +73,7 @@ dialogStr("Благодаря.")
 dialogId("mot-m-konecne1", "font_small", "Finally.")
 dialogStr("Най-сетне.")
 
-dialogId("mot-v-znovu0", "font_big", "I am only afraid we`ll have to turn it on again.")
+dialogId("mot-v-znovu0", "font_big", "I am only afraid we’ll have to turn it on again.")
 dialogStr("Безпокоя се само, че ще се наложи пак до го включим.")
 
 dialogId("mot-x-motor", "", "")

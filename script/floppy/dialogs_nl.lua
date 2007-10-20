@@ -15,7 +15,7 @@ dialogId("disk-v-metrova", "font_big", "Look how much bigger than me it is. It i
 dialogStr("Moet je zien hoeveel groter het is dan ik. Het is een drieeneenkwart-METER diskette.")
 
 
-dialogId("disk-m-velka", "font_small", "That`s better. Big plan, big disk. That makes sense.")
+dialogId("disk-m-velka", "font_small", "That’s better. Big plan, big disk. That makes sense.")
 dialogStr("Dat is beter. Grootse plannen, grootse diskette. Logisch.")
 
 
@@ -39,11 +39,11 @@ dialogId("disk-v-kriz", "font_big", "Can you see that steel cross? This is the g
 dialogStr("Zie je dat stalen kruis? Dat is het graf van onze hoop.")
 
 
-dialogId("disk-m-depres", "font_small", "Don`t be always so gloomy. I can`t bear it.")
+dialogId("disk-m-depres", "font_small", "Don’t be always so gloomy. I can’t bear it.")
 dialogStr("Wees toch niet zo'n zwartkijker. Ik kan daar niet tegen.")
 
 
-dialogId("disk-m-nahrat", "font_small", "Wouldn`t it be enough to download that plan from the floppy to our notebook?")
+dialogId("disk-m-nahrat", "font_small", "Wouldn’t it be enough to download that plan from the floppy to our notebook?")
 dialogStr("Zou het niet goed genoeg zijn als we dat plan van de floppy downloaden en op ons notebook zetten?")
 
 
@@ -71,7 +71,7 @@ dialogId("disk-m-zmatlo", "font_small", "What if there is no plan on this floppy
 dialogStr("En wat als er niks op deze floppie staat? Wat als die hier alleen maar is om ons voor de gek te houden?")
 
 
-dialogId("disk-v-neverim", "font_big", "I don`t believe that. Is there some other object that would be more difficult to get out?")
+dialogId("disk-v-neverim", "font_big", "I don’t believe that. Is there some other object that would be more difficult to get out?")
 dialogStr("Daar geloof ik niks van. Is er nog iets dat nog moeilijker hieruit te krijgen is?")
 
 
@@ -87,7 +87,7 @@ dialogId("disk-m-potvory", "font_small", "Yuck. Some monsters.")
 dialogStr("Bah. Monstertjes.")
 
 
-dialogId("disk-v-pozor", "font_big", "Above all, we must be careful not to take them with the disk. The player wouldn`t be happy if we pour them on their desktop.")
+dialogId("disk-v-pozor", "font_big", "Above all, we must be careful not to take them with the disk. The player wouldn’t be happy if we pour them on their desktop.")
 dialogStr("We moeten wel voorzichtig zijn en ze niet perongeluk meenemen. De speler zou niet blij zijn als die op zijn of haar bureaublad belanden.")
 
 
@@ -95,7 +95,7 @@ dialogId("disk-m-ukol", "font_small", "Our goal is to push out that disk.")
 dialogStr("Het is ons doel om deze diskette mee te nemen.")
 
 
-dialogId("disk-x-nepohnes", "font_darkgrey", "You won`t move me easily!")
+dialogId("disk-x-nepohnes", "font_darkgrey", "You won’t move me easily!")
 dialogStr("Mij krijg je niet zo snel van m'n plek!")
 
 

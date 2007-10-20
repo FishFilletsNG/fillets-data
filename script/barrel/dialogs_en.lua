@@ -13,27 +13,27 @@ dialogId("bar-m-no", "font_small", "Well, you may be right.")
 
 dialogId("bar-v-sud", "font_big", "And the cause is doubtless this giant barrel. We have to get it out somehow.")
 
-dialogId("bar-m-panb", "font_small", "Yes. Let`s get to work. We can drop it on the Mr. B.`s front yard afterwards.")
+dialogId("bar-m-panb", "font_small", "Yes. Let’s get to work. We can drop it on the Mr. B.’s front yard afterwards.")
 
 dialogId("bar-m-rada", "font_small", "I think I am growing to like them.")
 
-dialogId("bar-v-kdyby0", "font_big", "If only they wouldn`t stand in our way so much.")
+dialogId("bar-v-kdyby0", "font_big", "If only they wouldn’t stand in our way so much.")
 
 dialogId("bar-v-kdyby1", "font_big", "If only they were where we need them.")
 
-dialogId("bar-v-sbirka", "font_big", "Such a lovely collection of monstrosities. I`ll be sorry to leave.")
+dialogId("bar-v-sbirka", "font_big", "Such a lovely collection of monstrosities. I’ll be sorry to leave.")
 
-dialogId("bar-m-dost0", "font_small", "That won`t happen any time soon.")
+dialogId("bar-m-dost0", "font_small", "That won’t happen any time soon.")
 
 dialogId("bar-m-dost1", "font_small", "You are going to have plenty of time to enjoy them.")
 
 dialogId("bar-v-lih", "font_big", "If we take them with us and store them in alcohol, we could found ourselves a freak show.")
 
-dialogId("bar-m-fdto", "font_small", "And FDTO isn`t enough for you?")
+dialogId("bar-m-fdto", "font_small", "And FDTO isn’t enough for you?")
 
 dialogId("bar-x-vypr", "font_white", "I can hear everything!")
 
-dialogId("bar-m-promin", "font_small", "Sorry, boss. I didn`t mean to offend.")
+dialogId("bar-m-promin", "font_small", "Sorry, boss. I didn’t mean to offend.")
 
 dialogId("bar-m-mutanti", "font_small", "You know, I finally realized that even mutants have a soul.")
 

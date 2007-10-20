@@ -11,7 +11,7 @@ dialogId("bl-m-funkce", "font_small", "The position of assistant deputy design c
 dialogStr("Die Stelle des Assistentenstellvertreters des Entwurfskoordinators wurde aufgrund dieser Ebene eingeführt. Damit wurde der Verfasser geehrt.")
 
 
-dialogId("bl-v-pozadi", "font_big", "Enough about the game background. Let`s get to work.")
+dialogId("bl-v-pozadi", "font_big", "Enough about the game background. Let’s get to work.")
 dialogStr("Genug zum Hintergrund des Spiels und ran an die Arbeit.")
 
 
@@ -27,11 +27,11 @@ dialogId("bl-m-visi", "font_small", "And what does it hang on?")
 dialogStr("Wo hängt die denn dran?")
 
 
-dialogId("bl-v-nevim0", "font_big", "I don`t know. But we have to get it down anyway.")
+dialogId("bl-v-nevim0", "font_big", "I don’t know. But we have to get it down anyway.")
 dialogStr("Ich weiß nicht. Jedenfalls müssen wir sie da runterkriegen.")
 
 
-dialogId("bl-v-nevim1", "font_big", "I don`t know. Do we have to put it down?")
+dialogId("bl-v-nevim1", "font_big", "I don’t know. Do we have to put it down?")
 dialogStr("Ich weiß nicht. Müssen wir sie da runterholen?")
 
 
@@ -55,11 +55,11 @@ dialogId("bl-m-snecku0", "font_small", "Shalimuddy, shalimuddy, put your horns o
 dialogStr("Schnecklein, Schnecklein komm heraus...")
 
 
-dialogId("bl-v-dost0", "font_big", "Stop it! As if you don`t know that no object will move if we don`t push it first!")
+dialogId("bl-v-dost0", "font_big", "Stop it! As if you don’t know that no object will move if we don’t push it first!")
 dialogStr("Hör auf! Du weißt doch, dass sich Gegenstände nur bewegen, wenn wir sie schieben!")
 
 
-dialogId("bl-m-snecku1", "font_small", "But I can try, can`t I? Shalimuddy, Shalimuddy...")
+dialogId("bl-m-snecku1", "font_small", "But I can try, can’t I? Shalimuddy, Shalimuddy...")
 dialogStr("Aber ich kann es doch versuchen, oder? Schnecklein, Schnecklein...")
 
 
@@ -67,10 +67,10 @@ dialogId("bl-v-dost1", "font_big", "Stop it! It makes my scales itch!")
 dialogStr("Hör auf!! Da sträuben sich mir ja die Schuppen!")
 
 
-dialogId("bl-m-snecku2", "font_small", "Don`t listen then. Shalimuddy, shalimuddy, put your...")
+dialogId("bl-m-snecku2", "font_small", "Don’t listen then. Shalimuddy, shalimuddy, put your...")
 dialogStr("Dann hör nicht zu. Schnecklein, Schnecklein, komm...")
 
 
-dialogId("bl-v-dost2", "font_big", "Stop it! Or I`ll drop that coral on your head!")
+dialogId("bl-v-dost2", "font_big", "Stop it! Or I’ll drop that coral on your head!")
 dialogStr("Hör auf!!! Oder ich schmeiß dir die Koralle auf den Kopf!")
 

@@ -15,7 +15,7 @@ dialogId("sm-v-jine2", "font_big", "No, I think there is something here, that ca
 dialogStr("Naja, ich glaube wir finden hier etwas, was es sonst nirgends gibt.")
 
 
-dialogId("sm-v-budik", "font_big", "Look at that clock. Doesn`t it resemble a child-comforter a little?")
+dialogId("sm-v-budik", "font_big", "Look at that clock. Doesn’t it resemble a child-comforter a little?")
 dialogStr("Schau mal - die Uhr. Sieht sie nicht aus wie ein Nuckel?")
 
 
@@ -31,7 +31,7 @@ dialogId("sm-m-kramy1", "font_small", "This must be a wreck of a flea shop.")
 dialogStr("Das müssen die Reste eines Flohmarktes sein.")
 
 
-dialogId("sm-v-kramy2", "font_big", "It`s worse here than in an oil spill.")
+dialogId("sm-v-kramy2", "font_big", "It’s worse here than in an oil spill.")
 dialogStr("Das ist ja schlimmer als in einem Ölteppich.")
 
 
@@ -47,7 +47,7 @@ dialogId("sm-m-dedek", "font_small", "The one with that old man?")
 dialogStr("Das mit dem alten Mann?")
 
 
-dialogId("sm-v-charon", "font_big", "It`s old Charon, ferryman of the dead.")
+dialogId("sm-v-charon", "font_big", "It’s old Charon, ferryman of the dead.")
 dialogStr("Das ist der alte Charon, Fährmann der Toten.")
 
 
@@ -55,7 +55,7 @@ dialogId("sm-m-codela", "font_small", "And what does he do in the wasteyard?")
 dialogStr("Und was macht er auf einem Müllplatz?")
 
 
-dialogId("sm-v-duchodce0", "font_big", "He`s probably retired.")
+dialogId("sm-v-duchodce0", "font_big", "He’s probably retired.")
 dialogStr("Er ist wahrscheinlich in Rente gegangen.")
 
 
@@ -79,7 +79,7 @@ dialogId("sm-m-proc", "font_small", "Why?")
 dialogStr("Warum?")
 
 
-dialogId("sm-v-podivej", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn`t it the most fitting example of what I was talking about?")
+dialogId("sm-v-podivej", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn’t it the most fitting example of what I was talking about?")
 dialogStr("Schau sie dir doch mal an. Sie rennt auf der Stelle. Ist das nicht das passendste Beispiel für Sinnlosigkeit?")
 
 

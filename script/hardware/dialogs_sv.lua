@@ -1,5 +1,5 @@
 
-dialogId("pz-v-zaskladanej", "font_big", "I`m completely blocked in here.")
+dialogId("pz-v-zaskladanej", "font_big", "I’m completely blocked in here.")
 dialogStr("Jag är helt instängd här.")
 
 
@@ -19,7 +19,7 @@ dialogId("pz-v-co1", "font_big", "What do you have down there?")
 dialogStr("Vad har du där nere?")
 
 
-dialogId("pz-v-co2", "font_big", "What`s down there?")
+dialogId("pz-v-co2", "font_big", "What’s down there?")
 dialogStr("Vad finns där nere?")
 
 
@@ -35,15 +35,15 @@ dialogId("pz-m-spoje3", "font_small", "I am surrounded by electronics here.")
 dialogStr("Jag är omringad av elektronik.")
 
 
-dialogId("pz-m-pocitace", "font_small", "Computers. They`ve always fascinated me. But now I`m sick of them.")
+dialogId("pz-m-pocitace", "font_small", "Computers. They’ve always fascinated me. But now I’m sick of them.")
 dialogStr("Datorer. De har alltid fascinerat mig. Men nu har jag tröttnat på dem.")
 
 
-dialogId("pz-x-pocitac", "font_white", "Fish. I`ve always hated them. And now my circuits are overloaded with them.")
+dialogId("pz-x-pocitac", "font_white", "Fish. I’ve always hated them. And now my circuits are overloaded with them.")
 dialogStr("Fisk. Jag har alltid hatat dem. Och nu är mina kretsar överbelastade med dem.")
 
 
-dialogId("pz-v-hej", "font_big", "Hey, how are you? It`s quite boring here.")
+dialogId("pz-v-hej", "font_big", "Hey, how are you? It’s quite boring here.")
 dialogStr("Hej, hur mår du? Det är ganska tråkigt här.")
 
 
@@ -59,6 +59,6 @@ dialogId("pz-v-dat", "font_big", "We have to put these keys somewhere.")
 dialogStr("Vi måste stoppa de här nycklarna någonstans.")
 
 
-dialogId("pz-m-nepasuje", "font_small", "It doesn`t seem to fit.")
+dialogId("pz-m-nepasuje", "font_small", "It doesn’t seem to fit.")
 dialogStr("Den verkar inte passa.")
 

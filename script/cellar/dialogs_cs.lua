@@ -11,11 +11,11 @@ dialogId("pra-v-nahore", "font_big", "Hey, arrange it up there somehow. But be c
 dialogStr("Hej, urovnej mi to tam nahoře nějak. Ale opatrně!")
 
 
-dialogId("pra-m-nepohnu", "font_small", "I can`t move this. This is steel.")
+dialogId("pra-m-nepohnu", "font_small", "I can’t move this. This is steel.")
 dialogStr("S tímhle já nepohnu, to je ocel.")
 
 
-dialogId("pra-m-zpatky", "font_small", "Come back, you can`t go further!")
+dialogId("pra-m-zpatky", "font_small", "Come back, you can’t go further!")
 dialogStr("Pojeď zpátky, dál nemůžeš!")
 
 
@@ -23,11 +23,11 @@ dialogId("pra-v-zapeklita", "font_big", "Hmm... This is tricky. If we push aside
 dialogStr("Hmmm... zapeklitá věc. Jakmile odstrčíme med, spadne na nás meruňková marmeláda.")
 
 
-dialogId("pra-m-vyrazit", "font_small", "Couldn`t we push it aside with that axe?")
+dialogId("pra-m-vyrazit", "font_small", "Couldn’t we push it aside with that axe?")
 dialogStr("Co takhle to vyrazit tou sekyrou?")
 
 
-dialogId("pra-v-dobrynapad", "font_big", "That`s a good idea.")
+dialogId("pra-v-dobrynapad", "font_big", "That’s a good idea.")
 dialogStr("Dobrý nápad.")
 
 
@@ -35,11 +35,11 @@ dialogId("pra-m-chytit", "font_small", "Now I cannot take the axe. The can is in
 dialogStr("Teď už tu sekeru nemůžu chytit, když jsme tam dali sklenici.")
 
 
-dialogId("pra-v-vzit", "font_big", "You mustn`t push the axe!")
+dialogId("pra-v-vzit", "font_big", "You mustn’t push the axe!")
 dialogStr("Tu sekeru nemůžeš vzít!")
 
 
-dialogId("pra-m-prisun", "font_small", "If you can push that can to me, I`ll shove the axe on it and everything will be okay.")
+dialogId("pra-m-prisun", "font_small", "If you can push that can to me, I’ll shove the axe on it and everything will be okay.")
 dialogStr("Když mi sem přisuneš sklenici, hodím ji na ni, to bude v pohodě.")
 
 
@@ -55,7 +55,7 @@ dialogId("pra-v-ukladani", "font_big", "Remember what we have said about saving 
 dialogStr("Nezapomeň, co jsme ti říkali o ukládání pozice.")
 
 
-dialogId("pra-m-uvazovat", "font_small", "I shouldn`t be thinking about this.")
+dialogId("pra-m-uvazovat", "font_small", "I shouldn’t be thinking about this.")
 dialogStr("O tomhle bych ani neměla uvažovat.")
 
 
@@ -71,7 +71,7 @@ dialogId("pra-v-zavazis", "font_big", "You are standing in my way there. Try to 
 dialogStr("Tam mi zavazíš, zkus se schovat jinde.")
 
 
-dialogId("pra-m-strach", "font_small", "Here? I`m little bit afraid. Will I get out?")
+dialogId("pra-m-strach", "font_small", "Here? I’m little bit afraid. Will I get out?")
 dialogStr("Tady? Mám trochu strach. Dostanu se pak ven?")
 
 
@@ -91,7 +91,7 @@ dialogId("pra-m-jakudelat", "font_small", "But we will not tell you how to do it
 dialogStr("Ale jak to udělat, v tom ti nebudeme radit.")
 
 
-dialogId("pra-v-nezapomen", "font_big", "Just remember that although we cannot push objects along each other`s back, we can push them down or onto some solid structure.")
+dialogId("pra-v-nezapomen", "font_big", "Just remember that although we cannot push objects along each other’s back, we can push them down or onto some solid structure.")
 dialogStr("Jen nezapomeň, že i když po sobě nemůžeme předměty posouvat, můžeme je na něco nasouvat a nebo je ze sebe shazovat.")
 
 
@@ -99,7 +99,7 @@ dialogId("pra-v-objet", "font_big", "What if I go the upper way?")
 dialogStr("Co kdybych to objel vrchem.")
 
 
-dialogId("pra-m-neradit", "font_small", "Shhhh. That`s too many hints.")
+dialogId("pra-m-neradit", "font_small", "Shhhh. That’s too many hints.")
 dialogStr("Pssst. Řekli jsme neradit.")
 
 

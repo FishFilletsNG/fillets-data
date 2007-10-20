@@ -17,7 +17,7 @@ dialogStr("Pusti me samega. Obožujem klasično lepoto tega svetišča.")
 dialogId("sl-m-sedi", "font_small", "Who is sitting on that chair?")
 dialogStr("Kdo sedi na tem stolu?")
 
-dialogId("sl-v-feidios", "font_big", "It`s a copy of Feidios` Zeus. One of the seven wonders of the world.")
+dialogId("sl-v-feidios", "font_big", "It’s a copy of Feidios’ Zeus. One of the seven wonders of the world.")
 dialogStr("Kopija je Feidiosovega Zevsa. Eno od sedmih čudes sveta.")
 
 dialogId("sl-m-tehdy", "font_small", "Hmm. It was another age.")
@@ -35,8 +35,8 @@ dialogStr("Sedaj ga previdno spuščaj.")
 dialogId("sl-m-jekot", "", "")
 dialogStr("")
 
-dialogId("sl-v-barbarka", "font_big", "You barbarian! Can`t you be a little bit cautious?!")
+dialogId("sl-v-barbarka", "font_big", "You barbarian! Can’t you be a little bit cautious?!")
 dialogStr("Ti barbarka! Ne moreš biti malo bolj previdna?!")
 
-dialogId("sl-m-nelibila", "font_small", "I didn`t like this sculpture anyway.")
+dialogId("sl-m-nelibila", "font_small", "I didn’t like this sculpture anyway.")
 dialogStr("Tako ali tako nisem marala te skulpture.")

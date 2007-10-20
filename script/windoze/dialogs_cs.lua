@@ -1,9 +1,9 @@
 
-dialogId("win-v-plocha", "font_big", "This is how it looks when you don`t keep your desktop tidy.")
+dialogId("win-v-plocha", "font_big", "This is how it looks when you don’t keep your desktop tidy.")
 dialogStr("Tak to vypadá, když si někdo neudržuje na ploše pořádek.")
 
 
-dialogId("win-m-costim0", "font_small", "Wouldn`t it help us if we select Desktop/Line up Icons?")
+dialogId("win-m-costim0", "font_small", "Wouldn’t it help us if we select Desktop/Line up Icons?")
 dialogStr("Hele, nepomohlo by nám, kdybychom zvolili funkci: Vyrovnat ikony?")
 
 
@@ -27,7 +27,7 @@ dialogId("win-v-pocitala", "font_big", "Did you count these windows around us?")
 dialogStr("Počítala jsi ty okna všude kolem?")
 
 
-dialogId("win-m-nemusim", "font_small", "I don`t need to count them. There are ninety five of them.")
+dialogId("win-m-nemusim", "font_small", "I don’t need to count them. There are ninety five of them.")
 dialogStr("To nemusím počítat. Je jich devadesát pět.")
 
 
@@ -43,7 +43,7 @@ dialogId("win-m-dira", "font_small", "This system has to have a hole somewhere."
 dialogStr("Někde ten systém přece musí mít díru.")
 
 
-dialogId("win-v-tamhle", "font_big", "Sure. It`s in the lower right corner.")
+dialogId("win-v-tamhle", "font_big", "Sure. It’s in the lower right corner.")
 dialogStr("Jistě, támhle vpravo dole.")
 
 
@@ -79,11 +79,11 @@ dialogId("win-v-hav", "font_big", "But fortunately the authors got back to it an
 dialogStr("Ještě, že se k ní autoři po létech vrátili a dali jí tento moderní háv.")
 
 
-dialogId("win-m-zahrat", "font_small", "But I`d like to play it sometime, anyway!")
+dialogId("win-m-zahrat", "font_small", "But I’d like to play it sometime, anyway!")
 dialogStr("Stejně bych si to někdy zkusila zahrát!")
 
 
-dialogId("win-m-vga", "font_small", "I can`t move this window. Down there, it`s a steel cylinder, though it`s only in sixteen color VGA.")
+dialogId("win-m-vga", "font_small", "I can’t move this window. Down there, it’s a steel cylinder, though it’s only in sixteen color VGA.")
 dialogStr("Já s tímhle oknem nepohnu. Támhle dole, to je ocelový válec, i když jen v šestnáctibarevném VGA.")
 
 
@@ -95,7 +95,7 @@ dialogId("win-m-zavrene", "font_small", "You are right. They are trapped there, 
 dialogStr("Máš pravdu. Jsou tam chudinky zavřené.")
 
 
-dialogId("win-v-osvobodit", "font_big", "We can`t leave them there. We have to get them out!")
+dialogId("win-v-osvobodit", "font_big", "We can’t leave them there. We have to get them out!")
 dialogStr("Přece je tam nenecháme! Musíme je osvobodit.")
 
 
@@ -103,11 +103,11 @@ dialogId("win-m-ven", "font_small", "Yes, but the player has to get us out.")
 dialogStr("No jo, ale hráč má za úkol dostat ven nás.")
 
 
-dialogId("win-v-citim", "font_big", "So we`ll go on strike. Personally, I fully sympathize with the bigger fish inside.")
+dialogId("win-v-citim", "font_big", "So we’ll go on strike. Personally, I fully sympathize with the bigger fish inside.")
 dialogStr("Tak budeme stávkovat. Já osobně plně cítím s tou velkou rybičkou uvnitř.")
 
 
-dialogId("win-m-vzit", "font_small", "You`re right. I can imagine what the smaller one feels.")
+dialogId("win-m-vzit", "font_small", "You’re right. I can imagine what the smaller one feels.")
 dialogStr("Máš pravdu. Já se také dokážu vžít do té malé.")
 
 

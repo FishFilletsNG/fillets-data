@@ -7,7 +7,7 @@ dialogId("kni-v-ber", "font_big", "You have to look on the bright side. There is
 dialogStr("Du muss positiv denken. Hier ist wenigsten kein Gral im Weg.")
 
 
-dialogId("kni-v-prolezt", "font_big", "It seems that I`ll have to go through that horrible maze.")
+dialogId("kni-v-prolezt", "font_big", "It seems that I’ll have to go through that horrible maze.")
 dialogStr("Schein so, als ob ich durch dieses schreckliche Labyrinth muss.")
 
 
@@ -23,7 +23,7 @@ dialogId("kni-m-hromado", "font_small", "Cut the crap, you misshaped heap of mus
 dialogStr("Pass bloß auf, du unförmiger Haufen Muskeln und Schuppen!")
 
 
-dialogId("kni-v-vypni", "font_big", "Could you restart the level, please? We don`t seem to be getting along very well now.")
+dialogId("kni-v-vypni", "font_big", "Could you restart the level, please? We don’t seem to be getting along very well now.")
 dialogStr("Kannst du die Ebene bitte neustarten? Wir scheinen uns grad nicht gut zu vertragen.")
 
 
@@ -51,6 +51,6 @@ dialogId("kni-m-cetky", "font_small", "I grew to understand that jewels and gold
 dialogStr("Ich habe begriffen, dass Edelsteine und Gold nur billiger Schmuck sind.")
 
 
-dialogId("kni-m-kramy", "font_small", "I can`t bear the darned stuff any longer!")
+dialogId("kni-m-kramy", "font_small", "I can’t bear the darned stuff any longer!")
 dialogStr("Ich kann das Zeug nicht mehr sehen!")
 

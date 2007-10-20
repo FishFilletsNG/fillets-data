@@ -1,5 +1,5 @@
 
-dialogId("poh-v-takhle", "font_big", "So that`s how it is!")
+dialogId("poh-v-takhle", "font_big", "So that’s how it is!")
 
 dialogId("poh-m-tosnadne", "font_small", "Oh, no!")
 
@@ -7,7 +7,7 @@ dialogId("poh-v-biosila", "font_big", "Biological power. We should have thought 
 
 dialogId("poh-m-reaktor", "font_small", "And what was that nuclear power plant for?")
 
-dialogId("poh-v-automat", "font_big", "Can`t you see? It powers that Coca-Cola vending machine over there.")
+dialogId("poh-v-automat", "font_big", "Can’t you see? It powers that Coca-Cola vending machine over there.")
 
 dialogId("poh-m-motor", "font_small", "And what about that motor?")
 
@@ -25,13 +25,13 @@ dialogId("poh-v-klec", "font_big", "The cage in the middle is probably the most 
 
 dialogId("poh-m-dobre", "font_small", "Okay, we shall take this one.")
 
-dialogId("poh-v-forma", "font_big", "Look, there is some strange life form, over there. Shouldn`t we try to contact them?")
+dialogId("poh-v-forma", "font_big", "Look, there is some strange life form, over there. Shouldn’t we try to contact them?")
 
 dialogId("poh-m-princip", "font_small", "Our mission was clear - principles and construction of the interstellar propulsion. Not a single word about contact.")
 
 dialogId("poh-v-pomoct", "font_big", "Well. But they could at least help us.")
 
-dialogId("poh-m-dobryden0", "font_small", "Good afternoon, excuse me, please, couldn`t I loot your drive?")
+dialogId("poh-m-dobryden0", "font_small", "Good afternoon, excuse me, please, couldn’t I loot your drive?")
 
 dialogId("poh-m-dobryden1", "font_small", "Hmm, good afternoon sir, could I ask you to help us to dismantle your propulsion unit, please?")
 

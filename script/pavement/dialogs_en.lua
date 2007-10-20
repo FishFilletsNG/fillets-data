@@ -7,7 +7,7 @@ dialogId("dir-m-rada2", "font_small", "Get lost.")
 
 dialogId("dir-m-rada3", "font_small", "My patience is running out.")
 
-dialogId("dir-m-rada4", "font_small", "Arrgh... I`ll smash it to pieces.")
+dialogId("dir-m-rada4", "font_small", "Arrgh... I’ll smash it to pieces.")
 
 dialogId("dir-v-rada0", "font_big", "Ignore it, let it talk.")
 
@@ -33,7 +33,7 @@ dialogId("dir-hs-konec0", "font_statue", "demolish some wall.")
 
 dialogId("dir-hs-konec1", "font_statue", "break off a few stones from the wall and plug the holes with them.")
 
-dialogId("dir-hs-konec2", "font_statue", "plug those holes with something so that that hooked steel wouldn`t get stuck there.")
+dialogId("dir-hs-konec2", "font_statue", "plug those holes with something so that that hooked steel wouldn’t get stuck there.")
 
 dialogId("dir-hs-konec3", "font_statue", "smash that pillar by the exit.")
 

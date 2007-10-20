@@ -7,7 +7,7 @@ dialogId("kni-v-ber", "font_big", "You have to look on the bright side. There is
 dialogStr("Ber to z té lepší stránky. Tady například není nic, co by se podobalo grálu.")
 
 
-dialogId("kni-v-prolezt", "font_big", "It seems that I`ll have to go through that horrible maze.")
+dialogId("kni-v-prolezt", "font_big", "It seems that I’ll have to go through that horrible maze.")
 dialogStr("Zdá se, že budu muset prolézt tím strašným bludištěm.")
 
 
@@ -23,7 +23,7 @@ dialogId("kni-m-hromado", "font_small", "Cut the crap, you misshaped heap of mus
 dialogStr("Na ty tvoje řeči jsem tak akorát zvědavá, ty hromado svalů a ploutví.")
 
 
-dialogId("kni-v-vypni", "font_big", "Could you restart the level, please? We don`t seem to be getting along very well now.")
+dialogId("kni-v-vypni", "font_big", "Could you restart the level, please? We don’t seem to be getting along very well now.")
 dialogStr("Mohl bys, prosím tě, restartovat level? Zdá se, že nám to teď spolu moc nejde.")
 
 
@@ -51,6 +51,6 @@ dialogId("kni-m-cetky", "font_small", "I grew to understand that jewels and gold
 dialogStr("Pochopila jsem, že šperky a zlato jsou jenom laciné cetky.")
 
 
-dialogId("kni-m-kramy", "font_small", "I can`t bear the darned stuff any longer!")
+dialogId("kni-m-kramy", "font_small", "I can’t bear the darned stuff any longer!")
 dialogStr("Už ty krámy nemůžu ani vidět!")
 

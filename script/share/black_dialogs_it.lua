@@ -32,10 +32,10 @@ dialogStr("E ora sono sola.")
 dialogId("smrt-m-3", "font_small", "That must have hurt.")
 dialogStr("Dev'essere doloroso.")
 
-dialogId("smrt-m-4", "font_small", "He didn`t deserve such a terrible end...")
+dialogId("smrt-m-4", "font_small", "He didn’t deserve such a terrible end...")
 dialogStr("Non si meritava una fine così terribile...")
 
-dialogId("smrt-m-5", "font_small", "So, let`s start again...")
+dialogId("smrt-m-5", "font_small", "So, let’s start again...")
 dialogStr("Allora... ricominciamo da capo...")
 
 dialogId("smrt-x-obe", "font_parrot", "Aye, caramba!")
@@ -50,10 +50,10 @@ dialogStr("Taci, sei morta.")
 dialogId("smrt-m-6", "font_small", "And I never told him I loved him.")
 dialogStr("E non gli ho mai detto che l'amavo.")
 
-dialogId("smrt-m-restart", "font_small", "Luckily, it`s possible to restart the level.")
+dialogId("smrt-m-restart", "font_small", "Luckily, it’s possible to restart the level.")
 dialogStr("Per fortuna si può ricominciare il livello.")
 
-dialogId("smrt-m-restart", "font_small", "Luckily, it`s possible to restart the level.")
+dialogId("smrt-m-restart", "font_small", "Luckily, it’s possible to restart the level.")
 dialogStr("Fortunatamente, possiamo ricominciare il livello.")
 
 dialogId("smrt-v-zahrobi", "font_big", "Restart the level! The afterlife is too tedious.")
@@ -65,11 +65,11 @@ dialogStr("Ricomincia il livello! L'aldilà mi spaventa.")
 dialogId("smrt-v-posmrtny", "font_big", "Hellooo? Can you hear me hereafter? Is there life after death?")
 dialogStr("Ehilaa? Riesci a sentirmi? Esiste la vita dopo la morte?")
 
-dialogId("smrt-m-posmrtny", "font_small", "I don`t know. I don`t think so.")
+dialogId("smrt-m-posmrtny", "font_small", "I don’t know. I don’t think so.")
 dialogStr("Non so. Non mi pare.. .")
 
-dialogId("smrt-m-autorest", "font_small", "I am not going to solve it alone. Don`t trouble yourself with restart, I`ll do it myself.")
+dialogId("smrt-m-autorest", "font_small", "I am not going to solve it alone. Don’t trouble yourself with restart, I’ll do it myself.")
 dialogStr("Non ho intenzione di continuare da sola. Non preuccoparti di ricominciare, ci penso io.")
 
-dialogId("smrt-v-autorest", "font_big", "And she is gone. I`m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
+dialogId("smrt-v-autorest", "font_big", "And she is gone. I’m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
 dialogStr("Ed ecco che se ne va. Sono sicuro che le volevi bene tanto quanto me. Sicuramente non avrai nulla in contrario a ricominciare il livello.")

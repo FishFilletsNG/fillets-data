@@ -11,7 +11,7 @@ dialogId("zr-m-prestan", "font_small", "Stop looking at yourself in the mirror a
 dialogStr("Arrête de t'admirer dans le miroir, et rends-toi utile.")
 
 
-dialogId("zr-m-takfajn", "font_small", "That`s great! He just goes on his merry little way, but what about me?")
+dialogId("zr-m-takfajn", "font_small", "That’s great! He just goes on his merry little way, but what about me?")
 dialogStr("Magnifique ! Il s'en va joyeusement, et moi alors ?")
 
 
@@ -43,7 +43,7 @@ dialogId("zr-m-nepovykuj", "font_small", "Stop your screaming and help me get ou
 dialogStr("Cesse de hurler et aide-moi à sortir de là.")
 
 
-dialogId("zr-m-tadyjsem", "font_small", "Here I am. I can`t get out.")
+dialogId("zr-m-tadyjsem", "font_small", "Here I am. I can’t get out.")
 dialogStr("Voilà. Je ne peux pas sortir.")
 
 
@@ -51,7 +51,7 @@ dialogId("zr-m-komu", "font_small", "Whose eyes are those?")
 dialogStr("À qui sont ces yeux?")
 
 
-dialogId("zr-v-nevim", "font_big", "I don`t know. Maybe the periscope is connected to some other dimension.")
+dialogId("zr-v-nevim", "font_big", "I don’t know. Maybe the periscope is connected to some other dimension.")
 dialogStr("Je ne sais pas. Le périscope est peut-être connecté à une autre dimension.")
 
 
@@ -59,6 +59,6 @@ dialogId("zr-v-opatrne", "font_big", "Careful...")
 dialogStr("Attenti...")
 
 
-dialogId("zr-v-vzdyt", "font_big", "Don`t say I didn`t warn you!")
+dialogId("zr-v-vzdyt", "font_big", "Don’t say I didn’t warn you!")
 dialogStr("Tu ne pourras pas dire que je ne t'ai pas prévenue !")
 

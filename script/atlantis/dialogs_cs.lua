@@ -39,12 +39,12 @@ dialogId("sp-m-vratit0", "font_small", "And then? Shall we drink the water that 
 dialogStr("A co potom? Myslíš, že tu vodu, co sem natekla, vypijem?")
 
 
-dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of our esteem of the citizens` heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.")
+dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of our esteem of the citizens’ heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.")
 dialogStr("Můžem ho vrátit na místo jako vyjádření našeho obdivu k hrdinskému úsilí obyvatel města udržet ho nad hladinou. Jako pomník jejich důmyslu, zručnosti a ... vytrvalosti.")
 
 
-dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.` The Providence itself unplugged that hole. Just imagine you`d hear such things at home. Day by day.")
-dialogStr("Čeho že? 'Kam běžíš? Pro sedm mečů!` Ten špunt podle mě vytáhla sama prozřetelnost. Představ si, že bys takové věci slýchal doma. Den co den.")
+dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
+dialogStr("Čeho že? 'Kam běžíš? Pro sedm mečů!’ Ten špunt podle mě vytáhla sama prozřetelnost. Představ si, že bys takové věci slýchal doma. Den co den.")
 
 
 dialogId("sp-m-kalet", "font_small", "And moreover: is it likely that anybody would ever come here? Only sepias will nibble it occasionally.")
@@ -67,7 +67,7 @@ dialogId("sp-m-taky", "font_small", "I think so, too.")
 dialogStr("To si taky myslím.")
 
 
-dialogId("sp-v-dotoho", "font_big", "Let `s get to work.")
+dialogId("sp-v-dotoho", "font_big", "Let ’s get to work.")
 dialogStr("Dáme se do toho.")
 
 
@@ -79,7 +79,7 @@ dialogId("sp-v-centrala", "font_big", "What would the Agency say?")
 dialogStr("Co by tomu řekla centrála?")
 
 
-dialogId("sp-v-jedno", "font_big", "I don`t think I mind what the boss is going to think about me.")
+dialogId("sp-v-jedno", "font_big", "I don’t think I mind what the boss is going to think about me.")
 dialogStr("Už mi začíná být jedno, co si o mně šéf pomyslí.")
 
 

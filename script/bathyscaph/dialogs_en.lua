@@ -3,15 +3,15 @@ dialogId("bat-m-tohle", "font_small", "So this is an exploratory bathyscaph.")
 
 dialogId("bat-m-mikro", "font_small", "A nice microscope.")
 
-dialogId("bat-v-zved0", "font_big", "Shouldn`t I lift this?")
+dialogId("bat-v-zved0", "font_big", "Shouldn’t I lift this?")
 
 dialogId("bat-v-zved1", "font_big", "Do you want me to lift this up?")
 
-dialogId("bat-v-vyp", "font_big", "Shouldn`t I turn that off?")
+dialogId("bat-v-vyp", "font_big", "Shouldn’t I turn that off?")
 
 dialogId("bat-v-klid", "font_big", "Now it is quiet here.")
 
-dialogId("bat-m-sluch", "font_small", "We can`t get to the receiver from here.")
+dialogId("bat-m-sluch", "font_small", "We can’t get to the receiver from here.")
 
 dialogId("bat-s-prome0", "font_snail", "That is going to be for me...")
 
@@ -23,7 +23,7 @@ dialogId("bat-s-snek0", "font_snail", "I hope I am not in the way here.")
 
 dialogId("bat-s-snek1", "font_snail", "Really, I can easily crawl away. Just say the word.")
 
-dialogId("bat-s-snek2", "font_snail", "I really don`t want to be an obstacle.")
+dialogId("bat-s-snek2", "font_snail", "I really don’t want to be an obstacle.")
 
 dialogId("bat-s-snek3", "font_snail", "Just tell me if you want me to move away.")
 
@@ -35,7 +35,7 @@ dialogId("bat-p-2", "font_pizla", "Are you there, brother?")
 
 dialogId("bat-p-3", "font_pizla", "The snail Escargot speaking.")
 
-dialogId("bat-p-4", "font_pizla", "I can`t hear you.")
+dialogId("bat-p-4", "font_pizla", "I can’t hear you.")
 
 dialogId("bat-p-5", "font_pizla", "Hello, hello!")
 

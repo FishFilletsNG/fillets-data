@@ -7,7 +7,7 @@ dialogId("pt1-v-predtucha", "font_big", "I have a feeling that this is not going
 dialogStr("Ik heb het gevoel dat dit geen gewone picknick is.")
 
 
-dialogId("pt1-m-predtucha", "font_small", "You and your feelings. Surely it`s full of kind and friendly people.")
+dialogId("pt1-m-predtucha", "font_small", "You and your feelings. Surely it’s full of kind and friendly people.")
 dialogStr("Jij en je gevoel ook altijd. Het stikt hier vast van de aardige mensen.")
 
 
@@ -19,7 +19,7 @@ dialogId("pt1-m-vylezt0", "font_small", "Do you think they could get out of this
 dialogStr("Denk je dat ze uit deze boot kunnen komen?")
 
 
-dialogId("pt1-m-vylezt1", "font_small", "I hope they can`t get out of that boat.")
+dialogId("pt1-m-vylezt1", "font_small", "I hope they can’t get out of that boat.")
 dialogStr("Ik hoop dat ze niet uit die boot kunnen komen.")
 
 
@@ -27,7 +27,7 @@ dialogId("pt1-m-vylezt2", "font_small", "What if they start to pursue us?")
 dialogStr("En wat als ze ons proberen te pakken?")
 
 
-dialogId("pt1-v-pryc0", "font_big", "I don`t think they could get us. Skeletons can`t swim very well.")
+dialogId("pt1-v-pryc0", "font_big", "I don’t think they could get us. Skeletons can’t swim very well.")
 dialogStr("Ik denk niet dat ze ons zouden kunnen vangen. Skeletten kunnen niet zo goed zwemmen.")
 
 
@@ -39,7 +39,7 @@ dialogId("pt1-v-valec", "font_big", "You want to support that steel tube with a 
 dialogStr("Je wil die stalen buis ondersteunen met een glas?")
 
 
-dialogId("pt1-m-nemuzu", "font_small", "I can`t do anything else for you.")
+dialogId("pt1-m-nemuzu", "font_small", "I can’t do anything else for you.")
 dialogStr("Ik kan niks voor je doen.")
 
 

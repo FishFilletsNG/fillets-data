@@ -3,7 +3,7 @@ dialogId("pap-v-ha", "font_big", "Look. Another energy source.")
 dialogStr("Schau. Noch eine Energiequelle.")
 
 
-dialogId("pap-m-magnet", "font_small", "Don`t worry. This magnet is here only to hinder us.")
+dialogId("pap-m-magnet", "font_small", "Don’t worry. This magnet is here only to hinder us.")
 dialogStr("Keine Angst, der Magnet ist nur hier, um uns zu behindern.")
 
 
@@ -47,11 +47,11 @@ dialogId("pap-m-pistole", "font_small", "It looks like a pistol to me.")
 dialogStr("Sieht aus wie eine Pistole.")
 
 
-dialogId("pap-v-laserova", "font_big", "Maybe it`s a laser weapon.")
+dialogId("pap-v-laserova", "font_big", "Maybe it’s a laser weapon.")
 dialogStr("Vielleicht ist es eine Laserwaffe.")
 
 
-dialogId("pap-m-jejedno", "font_small", "It doesn`t matter. We don`t need it.")
+dialogId("pap-m-jejedno", "font_small", "It doesn’t matter. We don’t need it.")
 dialogStr("Egal, wir brauchen sie nicht.")
 
 
@@ -59,7 +59,7 @@ dialogId("pap-v-nemir", "font_big", "Stop pointing at me with it!")
 dialogStr("Hör auf, damit auf mich zu zielen!")
 
 
-dialogId("pap-m-nejde", "font_small", "As if you don`t know that you can`t turn objects in this game.")
+dialogId("pap-m-nejde", "font_small", "As if you don’t know that you can’t turn objects in this game.")
 dialogStr("Als wenn du nicht wüsstest, dass man in diesem Spiel keine Gegenstände drehen kann.")
 
 
@@ -67,7 +67,7 @@ dialogId("pap-m-ocel", "font_small", "There are too many steel constructions her
 dialogStr("Hier sind zu viele Stahlkonstruktionen.")
 
 
-dialogId("pap-v-vufu", "font_big", "Don`t forget that we are inside of the flying saucer!")
+dialogId("pap-v-vufu", "font_big", "Don’t forget that we are inside of the flying saucer!")
 dialogStr("Vergiss nicht, dass wir innerhalb einer fliegenden Untertasse sind!")
 
 
@@ -75,11 +75,11 @@ dialogId("pap-m-naucit", "font_small", "Maybe I could learn how to manipulate th
 dialogStr("Vielleicht kann ich lernen, die Stahlrohre zu verschieben.")
 
 
-dialogId("pap-m-nepohnu", "font_small", "No, I can`t move it.")
+dialogId("pap-m-nepohnu", "font_small", "No, I can’t move it.")
 dialogStr("Nein, ich kann sie nicht bewegen.")
 
 
-dialogId("pap-v-tesno", "font_big", "It`s quite tight here.")
+dialogId("pap-v-tesno", "font_big", "It’s quite tight here.")
 dialogStr("Ziemlich eng hier.")
 
 
@@ -91,6 +91,6 @@ dialogId("pap-v-pole", "font_big", "This magnetic field probably has some invigo
 dialogStr("Dieses Magnetfeld hat wahrscheinlich eine belebende Wirkung.")
 
 
-dialogId("pap-m-nedobre", "font_small", "It`s doing me no good.")
+dialogId("pap-m-nedobre", "font_small", "It’s doing me no good.")
 dialogStr("Mir wird schlecht davon.")
 

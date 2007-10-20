@@ -7,15 +7,15 @@ dialogId("gr-v-jiste", "font_big", "How can you be so sure?")
 dialogStr("Jak si můžeš být tak jistá?")
 
 
-dialogId("gr-m-zare0", "font_small", "Can`t you see that halo?")
+dialogId("gr-m-zare0", "font_small", "Can’t you see that halo?")
 dialogStr("Nevidíš svatozář?")
 
 
-dialogId("gr-m-zare1", "font_small", "Can`t you see how it glows among the others?")
+dialogId("gr-m-zare1", "font_small", "Can’t you see how it glows among the others?")
 dialogStr("Nevidíš, jak mezi těmi ostatními září?")
 
 
-dialogId("gr-m-zare2", "font_small", "Can`t you see how conspicuously is it placed in the center of the cave?")
+dialogId("gr-m-zare2", "font_small", "Can’t you see how conspicuously is it placed in the center of the cave?")
 dialogStr("Copak nevidíš, jak výrazně je umístěn ve středu celé jeskyně na vyvýšeném místě?")
 
 
@@ -39,15 +39,15 @@ dialogId("gr-m-tuseni", "font_small", "You and your feelings.")
 dialogStr("Ty a ty tvoje tušení...")
 
 
-dialogId("gr-m-svaty0", "font_small", "Let`s go, we shall take that central glowing Grail with us.")
+dialogId("gr-m-svaty0", "font_small", "Let’s go, we shall take that central glowing Grail with us.")
 dialogStr("Pojď, odneseme odsud ten prostřední zářící grál se svatozáří.")
 
 
-dialogId("gr-v-vsechny0", "font_big", "I`d rather take all of them.")
+dialogId("gr-v-vsechny0", "font_big", "I’d rather take all of them.")
 dialogStr("Já bych je raději odnesl všechny.")
 
 
-dialogId("gr-m-vsechny0", "font_small", "Hmm... It seems you were right. We`ll take them all.")
+dialogId("gr-m-vsechny0", "font_small", "Hmm... It seems you were right. We’ll take them all.")
 dialogStr("Hmmm... zdá se, že jsi měl pravdu. Vezmeme je všechny.")
 
 

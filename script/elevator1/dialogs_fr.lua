@@ -15,11 +15,11 @@ dialogId("zd1-m-last", "font_small", "Do you see that shell?")
 dialogStr("Tu vois ce coquillage?")
 
 
-dialogId("zd1-v-talis", "font_big", "It`s an age-old talisman for elevator builders who always said 'Build well. Build with Shell`.")
+dialogId("zd1-v-talis", "font_big", "It’s an age-old talisman for elevator builders who always said 'Build well. Build with Shell’.")
 dialogStr("C'est un talisman ancien pour les constructeurs d'ascenseurs qui disent toujours 'Construire bien. Construire avec des coquillages'.")
 
 
-dialogId("zd1-m-poved", "font_small", "Isn`t that shell a little bit familiar?")
+dialogId("zd1-m-poved", "font_small", "Isn’t that shell a little bit familiar?")
 dialogStr("Ce coquillage, n'est-il pas un petit peu familier.")
 
 
@@ -47,11 +47,11 @@ dialogId("zd1-m-slap", "font_small", "A treadmill for fish? But we only have fin
 dialogStr("Une roue pour poisson ? Nous n'avons que des nageoires.")
 
 
-dialogId("zd1-x-huhu1", "font_lightgrey", "Hoo, hooooo, hoooo... I`m over heeeere...")
+dialogId("zd1-x-huhu1", "font_lightgrey", "Hoo, hooooo, hoooo... I’m over heeeere...")
 dialogStr("Hoo, hooooo, hoooo... Je suis iciii...")
 
 
-dialogId("zd1-x-huhu2", "font_lightgrey", "Hoooo, if you want I`ll tell you how to solve all the levels...")
+dialogId("zd1-x-huhu2", "font_lightgrey", "Hoooo, if you want I’ll tell you how to solve all the levels...")
 dialogStr("Hoooo, Si vous voulez je vous dirai comment résoudre tous les niveaux...")
 
 
@@ -59,7 +59,7 @@ dialogId("zd1-x-huhu3", "font_lightgrey", "Hooo, ho, hooo, I know why the city s
 dialogStr("Hooo, ho, hooo, je sais pourquoi la cité a sombré !")
 
 
-dialogId("zd1-x-huhu4", "font_lightgrey", "Hoooo, why isn`t anyone paying attention to me?")
+dialogId("zd1-x-huhu4", "font_lightgrey", "Hoooo, why isn’t anyone paying attention to me?")
 dialogStr("Hoooo, pourquoi personne ne fait attention à moi ?")
 
 

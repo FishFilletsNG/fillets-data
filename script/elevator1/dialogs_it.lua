@@ -15,10 +15,10 @@ dialogId("zd1-m-last", "font_small", "Do you see that shell?")
 dialogStr("Vedi quella conchiglia?")
 
 
-dialogId("zd1-v-talis", "font_big", "It`s an age-old talisman for elevator builders who always said 'Build well. Build with Shell`.")
-dialogStr("È un antico talismano dei costruttori di ascensori che dicevano sempre `Crea una meraviglia. Usa la Conchiglia'")
+dialogId("zd1-v-talis", "font_big", "It’s an age-old talisman for elevator builders who always said 'Build well. Build with Shell’.")
+dialogStr("È un antico talismano dei costruttori di ascensori che dicevano sempre ’Crea una meraviglia. Usa la Conchiglia'")
 
-dialogId("zd1-m-poved", "font_small", "Isn`t that shell a little bit familiar?")
+dialogId("zd1-m-poved", "font_small", "Isn’t that shell a little bit familiar?")
 dialogStr("Non ti sembra familiare?")
 
 
@@ -35,7 +35,7 @@ dialogStr("I teschi umani sembrano tutti uguali... Diversamente dagli scheletri 
 
 
 dialogId("zd1-m-cesta", "font_small", "This is a tough path.")
-dialogStr("E` un percorso difficile.")
+dialogStr("E’ un percorso difficile.")
 
 
 dialogId("zd1-v-krecek", "font_big", "I feel like a mouse on a treadmill.")
@@ -46,11 +46,11 @@ dialogId("zd1-m-slap", "font_small", "A treadmill for fish? But we only have fin
 dialogStr("Una ruota per pesci? Ma se abbiamo solo pinne.")
 
 
-dialogId("zd1-x-huhu1", "font_lightgrey", "Hoo, hooooo, hoooo... I`m over heeeere...")
+dialogId("zd1-x-huhu1", "font_lightgrey", "Hoo, hooooo, hoooo... I’m over heeeere...")
 dialogStr("Ooh, oooooh, ooooh... sono quiii...")
 
 
-dialogId("zd1-x-huhu2", "font_lightgrey", "Hoooo, if you want I`ll tell you how to solve all the levels...")
+dialogId("zd1-x-huhu2", "font_lightgrey", "Hoooo, if you want I’ll tell you how to solve all the levels...")
 dialogStr("Ooooh, se volete vi dico come risolvere tutti i livelli...")
 
 
@@ -58,7 +58,7 @@ dialogId("zd1-x-huhu3", "font_lightgrey", "Hooo, ho, hooo, I know why the city s
 dialogStr("Oooh, oh, oooh, io so perché la città è sprofondata!")
 
 
-dialogId("zd1-x-huhu4", "font_lightgrey", "Hoooo, why isn`t anyone paying attention to me?")
+dialogId("zd1-x-huhu4", "font_lightgrey", "Hoooo, why isn’t anyone paying attention to me?")
 dialogStr("Ooooh, perché nessuno mi presta attenzione?")
 
 

@@ -1,9 +1,9 @@
 
-dialogId("ob-m-neverim", "font_small", "I don`t believe we can make it...")
+dialogId("ob-m-neverim", "font_small", "I don’t believe we can make it...")
 dialogStr("Ik denk niet dat het gaat lukken...")
 
 
-dialogId("ob-m-nedosataneme", "font_small", "We aren`t going to get out of here.")
+dialogId("ob-m-nedosataneme", "font_small", "We aren’t going to get out of here.")
 dialogStr("Hier komen we nooit uit.")
 
 
@@ -35,7 +35,7 @@ dialogId("ob-m-teorie", "font_small", "Just spare me your theories, please.")
 dialogStr("Bespaar me alsjeblieft jouw theorieën.")
 
 
-dialogId("ob-v-mamto", "font_big", "I`ve got it. If we push that one...")
+dialogId("ob-v-mamto", "font_big", "I’ve got it. If we push that one...")
 dialogStr("Ik weet het! Als we dat ding nou daarheen schuiven...")
 
 
@@ -63,7 +63,7 @@ dialogId("ob-m-zase", "font_small", "Not again.")
 dialogStr("Niet alweer.")
 
 
-dialogId("ob-v-nebavi", "font_big", "I`m tired of this.")
+dialogId("ob-v-nebavi", "font_big", "I’m tired of this.")
 dialogStr("Ik ben dit zat.")
 
 
@@ -71,11 +71,11 @@ dialogId("ob-v-hrej", "font_big", "Just play, we want to get out.")
 dialogStr("Speel nou, we willen eruit.")
 
 
-dialogId("ob-v-sami", "font_big", "If the player keeps doing nothing, we`ll have to solve it ourselves.")
+dialogId("ob-v-sami", "font_big", "If the player keeps doing nothing, we’ll have to solve it ourselves.")
 dialogStr("Als de speler niet opschiet, dan moeten we het maar zelf oplossen.")
 
 
-dialogId("ob-m-pst", "font_small", "Shhh, don`t disturb the player. He or she might be thinking again...")
+dialogId("ob-m-pst", "font_small", "Shhh, don’t disturb the player. He or she might be thinking again...")
 dialogStr("Ssst, laat de speler met rust. Hij of zij is misschien weer diep aan het nadenken...")
 
 
@@ -91,7 +91,7 @@ dialogId("ob-m-jesteneco", "font_small", "Will there be some action soon?")
 dialogStr("Komt er nog wat van?")
 
 
-dialogId("ob-m-nedeje", "font_small", "Why aren`t we doing anything?")
+dialogId("ob-m-nedeje", "font_small", "Why aren’t we doing anything?")
 dialogStr("Waarom doen we niks?")
 
 
@@ -103,7 +103,7 @@ dialogId("ob-m-ceka", "font_small", "Does he expect us to solve this on our own?
 dialogStr("Verwacht hij of zij dat we dit zelf oplossen?")
 
 
-dialogId("ob-v-nerus", "font_big", "Don`t be disruptive. The player is thinking again...")
+dialogId("ob-v-nerus", "font_big", "Don’t be disruptive. The player is thinking again...")
 dialogStr("Niet storen. De speler is weer aan het nadenken...")
 
 
@@ -111,7 +111,7 @@ dialogId("ob-m-jetam", "font_small", "Is there a player there at all?")
 dialogStr("Is er wel echt een speler?")
 
 
-dialogId("ob-v-leskne", "font_big", "I don`t know. The screen glares too much from inside.")
+dialogId("ob-v-leskne", "font_big", "I don’t know. The screen glares too much from inside.")
 dialogStr("Ik weet het niet. Er is te veel reflectie aan de binnenkant van het scherm.")
 
 
@@ -135,7 +135,7 @@ dialogId("ob-m-mysleli", "font_small", "We were just afraid that you might have 
 dialogStr("We waren alleen een beetje bang dat je ons was vergeten.")
 
 
-dialogId("ob-v-nehybes", "font_big", "Look, why don`t you move us a little bit?")
+dialogId("ob-v-nehybes", "font_big", "Look, why don’t you move us a little bit?")
 dialogStr("Kom op, waarom verplaats je ons niet een stukje?")
 
 
@@ -151,15 +151,15 @@ dialogId("ob-v-halo", "font_big", "Hellooo! We are here! Did you forget about us
 dialogStr("Haallooo! Hier zijn we! Ben je ons vergeten?")
 
 
-dialogId("ob-m-tezky", "font_small", "Difficult, isn`t it?")
+dialogId("ob-m-tezky", "font_small", "Difficult, isn’t it?")
 dialogStr("Moeilijk, he?")
 
 
-dialogId("ob-v-jidlo", "font_big", "Look player, couldn`t you bring us something to eat? Put it in the TEMP directory, we`ll eat it immediately.")
+dialogId("ob-v-jidlo", "font_big", "Look player, couldn’t you bring us something to eat? Put it in the TEMP directory, we’ll eat it immediately.")
 dialogStr("Luister, speler, kun je ons niet wat te eten geven? Zet het maar in de tmp map. We eten het gelijk op.")
 
 
-dialogId("ob-m-strach", "font_small", "When you stop playing, don`t turn off the computer, please. It`s so dark and scary when you do.")
+dialogId("ob-m-strach", "font_small", "When you stop playing, don’t turn off the computer, please. It’s so dark and scary when you do.")
 dialogStr("Als je ophoudt met spelen, zet dan alsjeblieft je computer niet uit. Dan wordt het zo eng en donker.")
 
 
@@ -187,7 +187,7 @@ dialogId("ob-v-kdoresi", "font_big", "The other players who are solving this gam
 dialogStr("De andere spelers, die het spel proberen op te lossen. Misschien hebben die al meer velden weten op te lossen.")
 
 
-dialogId("ob-m-pravdepodobne", "font_small", "It`s very likely.")
+dialogId("ob-m-pravdepodobne", "font_small", "It’s very likely.")
 dialogStr("Waarschijnlijk wel.")
 
 

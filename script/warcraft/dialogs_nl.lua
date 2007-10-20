@@ -7,7 +7,7 @@ dialogId("war-m-ocel", "font_small", "How did the steel get into this castle?")
 dialogStr("Hoe komt dat staal in het kasteel?")
 
 
-dialogId("war-v-vesnicane", "font_big", "Hold on, I`ll bring some peasants to help you.")
+dialogId("war-v-vesnicane", "font_big", "Hold on, I’ll bring some peasants to help you.")
 dialogStr("Wacht, ik stuur wat landvolk om je te helpen.")
 
 
@@ -15,7 +15,7 @@ dialogId("war-m-peoni", "font_small", "These are not peasants but peons.")
 dialogStr("Dat zijn geen boeren maar pionnen.")
 
 
-dialogId("war-v-doly", "font_big", "Do you think that these mines contain captain Silver`s treasure?")
+dialogId("war-v-doly", "font_big", "Do you think that these mines contain captain Silver’s treasure?")
 dialogStr("Denk je dat de schat van Silver ergens in deze mijnen verstopt zit?")
 
 
@@ -35,15 +35,15 @@ dialogId("war-v-pohadka", "font_big", "When MS Word or another boring applicatio
 dialogStr("Als er saaie programma's gedraaid worden op deze computer, zoals bij voorbeeld OpenOffice.org ofzo, dan gaan wij, de computerspelpersonages, met z'n allen naar \/etc\/ om gezellig te kletsen.")
 
 
-dialogId("war-m-pichat", "font_small", "When we don`t know what to do, we play hide-and-seek in the registry. That`s why your Windows sometimes crashes if you don`t play any games for a long period of time.")
+dialogId("war-m-pichat", "font_small", "When we don’t know what to do, we play hide-and-seek in the registry. That’s why your Windows sometimes crashes if you don’t play any games for a long period of time.")
 dialogStr("Als we niks kunnen bedenken om te doen, dan spelen we verstoppertje in je kernel. Daarom krijg je soms segmentation faults als je niet vaak genoeg spelletjes doet.")
 
 
-dialogId("war-v-prozradit", "font_big", "You shouldn`t give that away. I only wanted to say that it looks very similar to this level. So many computer game characters.")
+dialogId("war-v-prozradit", "font_big", "You shouldn’t give that away. I only wanted to say that it looks very similar to this level. So many computer game characters.")
 dialogStr("Dat had je niet moeten verklappen. Ik wilde alleen maar zeggen dat het veel op dit veld lijkt. Zoveel computerspelpersonages bij elkaar.")
 
 
-dialogId("war-m-aznato", "font_small", "But it`s not so difficult to get out of there.")
+dialogId("war-m-aznato", "font_small", "But it’s not so difficult to get out of there.")
 dialogStr("Maar daar kom je makkelijker weer uit.")
 
 

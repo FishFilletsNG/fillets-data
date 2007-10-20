@@ -4,7 +4,7 @@ dialogStr("Ich habe die Vermutung, dass wir gerade etwas Schreckliches entdecken
 
 
 dialogId("lod-v-silenost1", "font_big", "I always knew that: the gods must be mad.")
-dialogStr("Ich hab`s immer gewusst: Die Götter müssen verrückt sein.")
+dialogStr("Ich hab’s immer gewusst: Die Götter müssen verrückt sein.")
 
 
 dialogId("lod-v-silenost2", "font_big", "God is mad and the whole world is his plaything.")
@@ -27,7 +27,7 @@ dialogId("lod-m-costim", "font_small", "What are we to do about it?")
 dialogStr("Was können wir dagegen tun?")
 
 
-dialogId("lod-v-internovat", "font_big", "We can`t leave it this way. We must incarcerate them.")
+dialogId("lod-v-internovat", "font_big", "We can’t leave it this way. We must incarcerate them.")
 dialogStr("Wir können es nicht so lassen. Wir müssen sie einlochen.")
 
 
@@ -91,7 +91,7 @@ dialogId("lod-v-hravost", "font_big", "Mother was right. Abnormal playfulness is
 dialogStr("Mutter hatte Recht. Krankhafter Spieltrieb ist die Wurzel allen Übels.")
 
 
-dialogId("lod-m-palka", "font_small", "That`s true. It would be much easier if that table tennis bat was somewhere else.")
+dialogId("lod-m-palka", "font_small", "That’s true. It would be much easier if that table tennis bat was somewhere else.")
 dialogStr("Das ist wahr. Es wäre viel leichter, wenn der Tischtennisschläger irgendwo anders wäre.")
 
 
@@ -111,7 +111,7 @@ dialogId("lod-m-micek", "font_small", "I thought it was a table tennis ball up t
 dialogStr("Ich habe gedacht, da oben ist ein Tennisball.")
 
 
-dialogId("lod-v-rozliseni", "font_big", "It`s hard to say with this screen resolution.")
+dialogId("lod-v-rozliseni", "font_big", "It’s hard to say with this screen resolution.")
 dialogStr("Schwierig zu sagen, bei dieser Bildschirmauflösung.")
 
 
@@ -183,7 +183,7 @@ dialogId("b1-znovu", "font_yellow", "Shall we play another one?")
 dialogStr("Wollen wir noch eins spielen?")
 
 
-dialogId("b1-nepodvadim", "font_yellow", "I don`t cheat.")
+dialogId("b1-nepodvadim", "font_yellow", "I don’t cheat.")
 dialogStr("Ich schummle nicht!")
 
 
@@ -259,7 +259,7 @@ dialogId("b2-rikal2", "font_cyan", "You already said that!")
 dialogStr("Das hast du schon gesagt!")
 
 
-dialogId("b2-nemuze", "font_cyan", "It can`t be a miss on this space.")
+dialogId("b2-nemuze", "font_cyan", "It can’t be a miss on this space.")
 dialogStr("Auf dem Feld kann es nicht daneben gehen!")
 
 
@@ -267,6 +267,6 @@ dialogId("b2-podvadis", "font_cyan", "You cheat!!!")
 dialogStr("Du schummelst!!!")
 
 
-dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss`!")
+dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss’!")
 dialogStr("Das habe ich versucht - und du hast \"Daneben\" gesagt!")
 

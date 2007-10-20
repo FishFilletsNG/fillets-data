@@ -17,7 +17,7 @@ dialogId("d1-z-v2", "", "")
 
 dialogId("dr-m-tojesnad", "font_small", "This must be a Viking ship!")
 
-dialogId("dr-v-jiste", "font_big", "Sure, it`s a drakkar.")
+dialogId("dr-v-jiste", "font_big", "Sure, it’s a drakkar.")
 
 dialogId("dr-m-musela", "font_small", "She must have sunk fast. The oarsmen are still in their places.")
 

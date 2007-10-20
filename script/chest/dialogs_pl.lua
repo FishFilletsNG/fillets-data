@@ -7,7 +7,7 @@ dialogId("tru-m-co", "font_small", "What?")
 dialogStr("Co mianowicie?")
 
 
-dialogId("tru-v-poklad", "font_big", "Captain Silver`s treasure, of course.")
+dialogId("tru-v-poklad", "font_big", "Captain Silver’s treasure, of course.")
 dialogStr("Skarb kapitana Silvera.")
 
 
@@ -15,11 +15,11 @@ dialogId("tru-v-gral", "font_big", "The Holy Grail, of course.")
 dialogStr("Świętego Graala, oczywiście.")
 
 
-dialogId("tru-v-vkupe", "font_big", "It`s neatly in one place: the treasure and the Grail.")
+dialogId("tru-v-vkupe", "font_big", "It’s neatly in one place: the treasure and the Grail.")
 dialogStr("Wszystko na swoim miejscu: skarb i Graal.")
 
 
-dialogId("tru-m-zrada", "font_small", "I think it`s much too easy to be true.")
+dialogId("tru-m-zrada", "font_small", "I think it’s much too easy to be true.")
 dialogStr("Coś mi się wydaje, że to zbyt piękne, by było prawdziwe.")
 
 
@@ -43,7 +43,7 @@ dialogId("tru-m-nejistota", "font_small", "That's better. There remains a bit of
 dialogStr("Tak lepiej. Wciąż pozostaje nieco nadziei.")
 
 
-dialogId("tru-m-truhla0", "font_small", "Couldn`t we close that chest?")
+dialogId("tru-m-truhla0", "font_small", "Couldn’t we close that chest?")
 dialogStr("Może zamknijmy ten kufer?")
 
 
@@ -59,7 +59,7 @@ dialogId("tru-v-truhla1", "font_big", "Try to push its lid.")
 dialogStr("Spróbuj popchnąć wieko.")
 
 
-dialogId("tru-m-vzit0", "font_small", "Won`t we take something with us?")
+dialogId("tru-m-vzit0", "font_small", "Won’t we take something with us?")
 dialogStr("Może weźmiemy ze sobą parę drobiazgów?")
 
 
@@ -67,7 +67,7 @@ dialogId("tru-m-vzit1", "font_small", "What about taking some treasure with us?"
 dialogStr("Bierzemy ze sobą ten skarb?")
 
 
-dialogId("tru-m-vzit2", "font_small", "Aren`t you sorry to leave all this treasure behind?")
+dialogId("tru-m-vzit2", "font_small", "Aren’t you sorry to leave all this treasure behind?")
 dialogStr("Nie szkoda ci zostawiać tu tego skarbu?")
 
 
@@ -75,7 +75,7 @@ dialogId("tru-v-vzit0", "font_big", "We will be glad if we manage to get out our
 dialogStr("Będzie dobrze, jeśli sami stąd wyjdziemy.")
 
 
-dialogId("tru-v-vzit1", "font_big", "Don`t forget our mission.")
+dialogId("tru-v-vzit1", "font_big", "Don’t forget our mission.")
 dialogStr("Nie zapomnij o naszej misji.")
 
 

@@ -11,10 +11,10 @@ dialogStr("Ampak zgolj navzdol.")
 dialogId("zd1-m-last", "font_small", "Do you see that shell?")
 dialogStr("Ali vidiš tisto školjko?")
 
-dialogId("zd1-v-talis", "font_big", "It`s an age-old talisman for elevator builders who always said 'Build well. Build with Shell`.")
+dialogId("zd1-v-talis", "font_big", "It’s an age-old talisman for elevator builders who always said 'Build well. Build with Shell’.")
 dialogStr("Tisto je pradaven talisman graditeljev dvigal, ki so vedno govorili 'Gradite dobro. Gradite s Školjko'.")
 
-dialogId("zd1-m-poved", "font_small", "Isn`t that shell a little bit familiar?")
+dialogId("zd1-m-poved", "font_small", "Isn’t that shell a little bit familiar?")
 dialogStr("Ti ni ta školjka malo znana?")
 
 dialogId("zd1-v-styd", "font_big", "They should be ashamed of themselves. This is subliminal advertising.")
@@ -35,16 +35,16 @@ dialogStr("Počutim se kot miš na tekalni stezi.")
 dialogId("zd1-m-slap", "font_small", "A treadmill for fish? But we only have fins.")
 dialogStr("Tekalna steza za ribe? Če pa imamo samo plavuti.")
 
-dialogId("zd1-x-huhu1", "font_lightgrey", "Hoo, hooooo, hoooo... I`m over heeeere...")
+dialogId("zd1-x-huhu1", "font_lightgrey", "Hoo, hooooo, hoooo... I’m over heeeere...")
 dialogStr("Hoo, hooooo, hoooo... Tukaj seeeeeeeem...")
 
-dialogId("zd1-x-huhu2", "font_lightgrey", "Hoooo, if you want I`ll tell you how to solve all the levels...")
+dialogId("zd1-x-huhu2", "font_lightgrey", "Hoooo, if you want I’ll tell you how to solve all the levels...")
 dialogStr("Hoooo, če želita vama lahko povem kako rešiti vse stopnje...")
 
 dialogId("zd1-x-huhu3", "font_lightgrey", "Hooo, ho, hooo, I know why the city sank!")
 dialogStr("Hooo, ho, hooo, Vem zakaj se je mesto potopilo!")
 
-dialogId("zd1-x-huhu4", "font_lightgrey", "Hoooo, why isn`t anyone paying attention to me?")
+dialogId("zd1-x-huhu4", "font_lightgrey", "Hoooo, why isn’t anyone paying attention to me?")
 dialogStr("Hoooo, zakaj me se nihče ne zmeni zame?")
 
 dialogId("zd1-x-huhu5", "font_lightgrey", "Hoooo ho hooo! Why are you ignoring me?")

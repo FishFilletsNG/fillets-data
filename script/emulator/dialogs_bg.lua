@@ -19,7 +19,7 @@ dialogStr("Ами, току-що осъзнах, че само нашите дв
 dialogId("zx-v-otazka", "font_big", "Do you know that your question alone in WAV format would overfill the RAM of ZX Spectrum? And imagine how many such sounds are in this game.")
 dialogStr("Знаеш ли, че само въпросът ти в WAV формат ще препълни паметта на ZX Spectrum? Представи си колко такива звуци има в тази игра.")
 
-dialogId("zx-m-necodosebe", "font_small", "But still, these games had something to them, didn`t they?")
+dialogId("zx-m-necodosebe", "font_small", "But still, these games had something to them, didn’t they?")
 dialogStr("И все пак, имаше нещо в тези игри, нали?")
 
 dialogId("zx-m-knight", "font_small", "Can you see that Knight Lorer?")
@@ -28,7 +28,7 @@ dialogStr("Виждаш ли? „Knight Lorer\".")
 dialogId("zx-v-manicminer", "font_big", "And that must be the Manic Miner.")
 dialogStr("А това трябва да е „Manic Miner\".")
 
-dialogId("zx-m-jetpack", "font_small", "I really didn`t know I`d ever be putting the Jetpack together again.")
+dialogId("zx-m-jetpack", "font_small", "I really didn’t know I’d ever be putting the Jetpack together again.")
 dialogStr("Не подозирах че отново ще си сложа реактивна раница.")
 
 dialogId("zx-v-roboti", "font_big", "This line of robots looks familiar.")

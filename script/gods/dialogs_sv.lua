@@ -27,7 +27,7 @@ dialogId("lod-m-costim", "font_small", "What are we to do about it?")
 dialogStr("Vad ska vi göra åt det?")
 
 
-dialogId("lod-v-internovat", "font_big", "We can`t leave it this way. We must incarcerate them.")
+dialogId("lod-v-internovat", "font_big", "We can’t leave it this way. We must incarcerate them.")
 dialogStr("Vi kan inte lämna det så här. Vi måste spärra in dem.")
 
 
@@ -91,7 +91,7 @@ dialogId("lod-v-hravost", "font_big", "Mother was right. Abnormal playfulness is
 dialogStr("Mamma hade rätt. Onormal lekfullhet är roten till allt ont.")
 
 
-dialogId("lod-m-palka", "font_small", "That`s true. It would be much easier if that table tennis bat was somewhere else.")
+dialogId("lod-m-palka", "font_small", "That’s true. It would be much easier if that table tennis bat was somewhere else.")
 dialogStr("Det är sant. Det hade varit mycket enklare om bordtennisracketet hade varit något annat.")
 
 
@@ -111,7 +111,7 @@ dialogId("lod-m-micek", "font_small", "I thought it was a table tennis ball up t
 dialogStr("Jag trodde det var en tennisboll där uppe.")
 
 
-dialogId("lod-v-rozliseni", "font_big", "It`s hard to say with this screen resolution.")
+dialogId("lod-v-rozliseni", "font_big", "It’s hard to say with this screen resolution.")
 dialogStr("Det är svårt att säga med den här skärmupplösningen.")
 
 
@@ -183,7 +183,7 @@ dialogId("b1-znovu", "font_yellow", "Shall we play another one?")
 dialogStr("Ska vi spela igen?")
 
 
-dialogId("b1-nepodvadim", "font_yellow", "I don`t cheat.")
+dialogId("b1-nepodvadim", "font_yellow", "I don’t cheat.")
 dialogStr("Jag fuskar inte!")
 
 
@@ -259,7 +259,7 @@ dialogId("b2-rikal2", "font_cyan", "You already said that!")
 dialogStr("Du har redan sagt det!")
 
 
-dialogId("b2-nemuze", "font_cyan", "It can`t be a miss on this space.")
+dialogId("b2-nemuze", "font_cyan", "It can’t be a miss on this space.")
 dialogStr("Det kan inte vara en miss på den här rutan!")
 
 
@@ -267,6 +267,6 @@ dialogId("b2-podvadis", "font_cyan", "You cheat!!!")
 dialogStr("Du fuskar!!!")
 
 
-dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss`!")
+dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss’!")
 dialogStr("Jag har redan försök - och du sa \"miss\"!")
 

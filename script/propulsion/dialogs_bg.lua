@@ -1,4 +1,4 @@
-dialogId("poh-v-takhle", "font_big", "So that`s how it is!")
+dialogId("poh-v-takhle", "font_big", "So that’s how it is!")
 dialogStr("Това било значи!")
 
 dialogId("poh-m-tosnadne", "font_small", "Oh, no!")
@@ -10,7 +10,7 @@ dialogStr("Биологична енергия. Трябваше да се до�
 dialogId("poh-m-reaktor", "font_small", "And what was that nuclear power plant for?")
 dialogStr("А ядреният реактор за какво беше?")
 
-dialogId("poh-v-automat", "font_big", "Can`t you see? It powers that Coca-Cola vending machine over there.")
+dialogId("poh-v-automat", "font_big", "Can’t you see? It powers that Coca-Cola vending machine over there.")
 dialogStr("Не виждаш ли? Захранва машината за Кока-Кола ей там.")
 
 dialogId("poh-m-motor", "font_small", "And what about that motor?")
@@ -37,7 +37,7 @@ dialogStr("Клетката в средата вероятно е най-важ�
 dialogId("poh-m-dobre", "font_small", "Okay, we shall take this one.")
 dialogStr("Добре, това трябва да го вземем.")
 
-dialogId("poh-v-forma", "font_big", "Look, there is some strange life form, over there. Shouldn`t we try to contact them?")
+dialogId("poh-v-forma", "font_big", "Look, there is some strange life form, over there. Shouldn’t we try to contact them?")
 dialogStr("Погледни, там има някаква странна форма на живот. Не трябва ли да се опитаме да осъществим контакт?")
 
 dialogId("poh-m-princip", "font_small", "Our mission was clear - principles and construction of the interstellar propulsion. Not a single word about contact.")
@@ -46,7 +46,7 @@ dialogStr("Задачата ни е съвсем ясна - принципи и 
 dialogId("poh-v-pomoct", "font_big", "Well. But they could at least help us.")
 dialogStr("Да. Но те могат да ни помогнат.")
 
-dialogId("poh-m-dobryden0", "font_small", "Good afternoon, excuse me, please, couldn`t I loot your drive?")
+dialogId("poh-m-dobryden0", "font_small", "Good afternoon, excuse me, please, couldn’t I loot your drive?")
 dialogStr("Добър де. Извинете, моля, не може ли да забършем двигателя Ви?")
 
 dialogId("poh-m-dobryden1", "font_small", "Hmm, good afternoon sir, could I ask you to help us to dismantle your propulsion unit, please?")

@@ -20,7 +20,7 @@ dialogStr("Sono chiuso in una stanza senza porte!")
 dialogId("sec-m-kamen", "font_small", "Try to loosen some stone in the wall.")
 dialogStr("Prova a smuovere qualche pietra nel muro!")
 
-dialogId("sec-m-krab", "font_small", "Isn`t that crab a little bit strange?")
+dialogId("sec-m-krab", "font_small", "Isn’t that crab a little bit strange?")
 dialogStr("Non è un po' strano quel granchio?")
 
 dialogId("sec-v-ktery", "font_big", "Which one do you mean?")
@@ -32,10 +32,10 @@ dialogStr("Quello in alto, ovviamente.")
 dialogId("sec-m-dole1", "font_small", "The lower one, of course.")
 dialogStr("Quello in basso, ovviamente.")
 
-dialogId("sec-v-normalni0", "font_big", "I think it`s normal.")
+dialogId("sec-v-normalni0", "font_big", "I think it’s normal.")
 dialogStr("Per me è normale.")
 
-dialogId("sec-v-normalni1", "font_big", "Yes, it`s a little weird.")
+dialogId("sec-v-normalni1", "font_big", "Yes, it’s a little weird.")
 dialogStr("Sì, è un po' strano...")
 
 dialogId("sec-m-balonky", "font_small", "We should be glad we have all these balls.")
@@ -62,6 +62,6 @@ dialogStr("E invece sono controllati da un programma per compute. Proprio come l
 dialogId("sec-v-socha", "font_big", "Did we ever see a sculpture that would be silent for so long?")
 dialogStr("Abbiamo mai visto una scultura star zitta per così tanto tempo?")
 
-dialogId("sec-m-situace", "font_small", "I think it`s only waiting for the best opportunity.")
+dialogId("sec-m-situace", "font_small", "I think it’s only waiting for the best opportunity.")
 dialogStr("Penso che stia solo aspettando una buona occasione.")
 

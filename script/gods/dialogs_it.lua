@@ -20,7 +20,7 @@ dialogStr("Sì, è scioccante.")
 dialogId("lod-m-costim", "font_small", "What are we to do about it?")
 dialogStr("Cosa possiamo fare?")
 
-dialogId("lod-v-internovat", "font_big", "We can`t leave it this way. We must incarcerate them.")
+dialogId("lod-v-internovat", "font_big", "We can’t leave it this way. We must incarcerate them.")
 dialogStr("Non possiamo lasciar correre. Dobbiamo rinchiuderli.")
 
 dialogId("lod-m-co", "font_small", "What must we do?")
@@ -67,7 +67,7 @@ dialogStr("Probabilmente un pld se l'è sgranocchiata.")
 dialogId("lod-v-hravost", "font_big", "Mother was right. Abnormal playfulness is the root of all evil.")
 dialogStr("Mia madre aveva ragione. La troppa giocosità è la radice di tutti i mali.")
 
-dialogId("lod-m-palka", "font_small", "That`s true. It would be much easier if that table tennis bat was somewhere else.")
+dialogId("lod-m-palka", "font_small", "That’s true. It would be much easier if that table tennis bat was somewhere else.")
 dialogStr("È vero. Sarebbe molto più facile se quella racchetta da ping-pong non fosse stata lì.")
 
 dialogId("lod-v-micky", "font_big", "By the way, did you notice that the real golf ball is in the upper left corner while that thing in the lower right corner is a cricket ball?")
@@ -82,7 +82,7 @@ dialogStr("Chi lo sa!")
 dialogId("lod-m-micek", "font_small", "I thought it was a table tennis ball up there.")
 dialogStr("Pensavo che quella lassù fosse una pallina da ping-pong.")
 
-dialogId("lod-v-rozliseni", "font_big", "It`s hard to say with this screen resolution.")
+dialogId("lod-v-rozliseni", "font_big", "It’s hard to say with this screen resolution.")
 dialogStr("Difficile a dirsi, con questa risoluzione dello schermo.")
 
 dialogId("lod-m-bohove", "font_small", "This time our goal is to get out one of those gods.")
@@ -136,7 +136,7 @@ dialogStr("Bene!")
 dialogId("b1-znovu", "font_yellow", "Shall we play another one?")
 dialogStr("Un'altra?")
 
-dialogId("b1-nepodvadim", "font_yellow", "I don`t cheat.")
+dialogId("b1-nepodvadim", "font_yellow", "I don’t cheat.")
 dialogStr("Io non imbroglio!!!")
 
 dialogId("b1-spletl", "font_yellow", "It was a mistake, probably...")
@@ -188,19 +188,19 @@ dialogId("b2-znovu", "font_cyan", "Shall we try it again?")
 dialogStr("Ne facciamo un'altra?")
 
 dialogId("b2-rikal1", "font_cyan", "You already tried this!")
-dialogStr("Questa era `un'altra'!")
+dialogStr("Questa era ’un'altra'!")
 
 dialogId("b2-rikal2", "font_cyan", "You already said that!")
 dialogStr("L'hai già chiesto!")
 
-dialogId("b2-nemuze", "font_cyan", "It can`t be a miss on this space.")
+dialogId("b2-nemuze", "font_cyan", "It can’t be a miss on this space.")
 dialogStr("Non può essere acqua qui!")
 
 dialogId("b2-podvadis", "font_cyan", "You cheat!!!")
 dialogStr("Tu imbrogli!!!")
 
-dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss`!")
-dialogStr("Ho provato - e tu hai detto `acqua'!")
+dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss’!")
+dialogStr("Ho provato - e tu hai detto ’acqua'!")
 
 dialogId("b1-1", "", "")
 dialogStr("")

@@ -1,5 +1,5 @@
 
-dialogId("steel-m-0", "font_small", "It`s so quiet here...")
+dialogId("steel-m-0", "font_small", "It’s so quiet here...")
 dialogStr("C'est si calme ici...")
 
 

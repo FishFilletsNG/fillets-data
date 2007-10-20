@@ -321,7 +321,7 @@ worldmap_addDesc("pavement", "bg", "Неравен паваж", "Потънал�
 worldmap_addDesc("pavement", "sv", "Ojämn trottoar", "Staden i djupet")
 worldmap_addDesc("pavement", "pt_BR", "Pavimento Irregular", "A Cidade Profunda")
 
-worldmap_addDesc("pyramid", "en", "Mr. Cheops` House", "City In the Deep")
+worldmap_addDesc("pyramid", "en", "Mr. Cheops’ House", "City In the Deep")
 worldmap_addDesc("pyramid", "cs", "Dům pana Cheopse", "Město v hlubinách")
 worldmap_addDesc("pyramid", "fr", "Chez Mr. Kheops", "Citée des profondeurs")
 worldmap_addDesc("pyramid", "de", "Das Haus des Herrn Cheops", "Stadt in der Tiefe")
@@ -501,7 +501,7 @@ worldmap_addDesc("noground", "bg", "Почти без стени", "Боклук
 worldmap_addDesc("noground", "sv", "Nästan inga väggar", "Avfall")
 worldmap_addDesc("noground", "pt_BR", "Quase Sem Muro", "Aterro")
 
-worldmap_addDesc("bathroom", "en", "Plumbman`s Refuse", "Dump")
+worldmap_addDesc("bathroom", "en", "Plumbman’s Refuse", "Dump")
 worldmap_addDesc("bathroom", "cs", "Instalatérský odpad", "Smetiště")
 worldmap_addDesc("bathroom", "fr", "Le refus du bonhomme de plomb", "le dépotoir")
 worldmap_addDesc("bathroom", "de", "Der Abfall des Installateurs", "Halde")
@@ -561,7 +561,7 @@ worldmap_addDesc("barrel", "bg", "Оскърбен Greenpeace", "Боклук")
 worldmap_addDesc("barrel", "sv", "Uppretat Greenpeace", "Avfall")
 worldmap_addDesc("barrel", "pt_BR", "Greenpeace Revoltado", "Aterro")
 
-worldmap_addDesc("cabin1", "en", "The First Mate`s Cabin", "Silver's Ship")
+worldmap_addDesc("cabin1", "en", "The First Mate’s Cabin", "Silver's Ship")
 worldmap_addDesc("cabin1", "cs", "Kajuta prvního důstojníka", "Silverova loď")
 worldmap_addDesc("cabin1", "fr", "La cabine du premier matelot", "Le navire de Silver")
 worldmap_addDesc("cabin1", "de", "Die Kajüte des ersten Offiziers", "Silvers Schiff")
@@ -609,7 +609,7 @@ worldmap_addDesc("kitchen", "bg", "Корабната кухня", "Корабъ
 worldmap_addDesc("kitchen", "sv", "Skeppsköket", "Silvers skepp")
 worldmap_addDesc("kitchen", "pt_BR", "A Cozinha do Navio", "O Navio de Silver")
 
-worldmap_addDesc("cabin2", "en", "Second Mate`s Cabin", "Silver's Ship")
+worldmap_addDesc("cabin2", "en", "Second Mate’s Cabin", "Silver's Ship")
 worldmap_addDesc("cabin2", "cs", "Kajuta druhého důstojníka", "Silverova loď")
 worldmap_addDesc("cabin2", "fr", "La cabine du second", "Le navire de Silver")
 worldmap_addDesc("cabin2", "de", "Die Kajüte des zweiten Offiziers", "Silvers Schiff")
@@ -621,7 +621,7 @@ worldmap_addDesc("cabin2", "bg", "Каютата на втория помощн�
 worldmap_addDesc("cabin2", "sv", "Andre officerens hytt", "Silvers skepp")
 worldmap_addDesc("cabin2", "pt_BR", "A Cabine do Segundo Oficial", "O Navio de Silver")
 
-worldmap_addDesc("captain", "en", "Captain`s Cabin", "Silver's Ship")
+worldmap_addDesc("captain", "en", "Captain’s Cabin", "Silver's Ship")
 worldmap_addDesc("captain", "cs", "Kapitánova kajuta", "Silverova loď")
 worldmap_addDesc("captain", "fr", "La cabine du Capitaine", "Le navire de Silver")
 worldmap_addDesc("captain", "de", "Kapitänskajüte", "Silvers Schiff")
@@ -633,7 +633,7 @@ worldmap_addDesc("captain", "bg", "Каютата на капитана", "Ко�
 worldmap_addDesc("captain", "sv", "Kaptens hytt", "Silvers skepp")
 worldmap_addDesc("captain", "pt_BR", "A Cabine do Capitão", "O Navio de Silver")
 
-worldmap_addDesc("map", "en", "Silver`s Hideout", "Silver's Ship")
+worldmap_addDesc("map", "en", "Silver’s Hideout", "Silver's Ship")
 worldmap_addDesc("map", "cs", "Silverova tajná skrýš", "Silverova loď")
 worldmap_addDesc("map", "fr", "La cache de Silver", "Le navire de Silver")
 worldmap_addDesc("map", "de", "Silvers Versteck", "Silvers Schiff")
@@ -751,7 +751,7 @@ worldmap_addDesc("gems", "bg", "Блестяща пещера", "Пещерат�
 worldmap_addDesc("gems", "sv", "Skimrande gruvras", "Skattgrottan")
 worldmap_addDesc("gems", "pt_BR", "Caverna Luminosa", "A Caverna do Tesouro")
 
-worldmap_addDesc("chest", "en", "Giant`s Chest", "Treasure Cave")
+worldmap_addDesc("chest", "en", "Giant’s Chest", "Treasure Cave")
 worldmap_addDesc("chest", "cs", "Truhlička obra Koloděje", "Jeskyně pokladů")
 worldmap_addDesc("chest", "fr", "Le coffre géant", "La grotte au trésor")
 worldmap_addDesc("chest", "de", "Die Truhe des Giganten", "Schatzhöhle")

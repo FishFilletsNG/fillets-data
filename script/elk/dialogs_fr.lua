@@ -23,6 +23,6 @@ dialogId("deu-v-slysel", "font_big", "Yes. I too have heard that they bite touri
 dialogStr("Oui. J'ai même entendu dire qu'ils mordaient les touristes là bas.")
 
 
-dialogId("deu-v-radsi", "font_big", "I`d like this elk much more if it wasn`t blocking our way so much.")
+dialogId("deu-v-radsi", "font_big", "I’d like this elk much more if it wasn’t blocking our way so much.")
 dialogStr("J'apprécierais bien plus cet élan s'il ne bloquait pas tant notre chemin.")
 

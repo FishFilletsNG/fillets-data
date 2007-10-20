@@ -27,7 +27,7 @@ dialogId("lod-m-costim", "font_small", "What are we to do about it?")
 dialogStr("Wat kunnen we eraan doen?")
 
 
-dialogId("lod-v-internovat", "font_big", "We can`t leave it this way. We must incarcerate them.")
+dialogId("lod-v-internovat", "font_big", "We can’t leave it this way. We must incarcerate them.")
 dialogStr("Zo kunnen we de boel niet achterlaten. We moeten ze onschadelijk maken.")
 
 
@@ -91,7 +91,7 @@ dialogId("lod-v-hravost", "font_big", "Mother was right. Abnormal playfulness is
 dialogStr("Moeder had gelijk. Abnormaal speelgedrag is de bron van het Kwaad.")
 
 
-dialogId("lod-m-palka", "font_small", "That`s true. It would be much easier if that table tennis bat was somewhere else.")
+dialogId("lod-m-palka", "font_small", "That’s true. It would be much easier if that table tennis bat was somewhere else.")
 dialogStr("Dat is waar. Het zou veel makkelijker zijn als dat tafeltennis betje ergens anders was.")
 
 
@@ -111,7 +111,7 @@ dialogId("lod-m-micek", "font_small", "I thought it was a table tennis ball up t
 dialogStr("Ik dacht dat dat daarboven een tennisbal was.")
 
 
-dialogId("lod-v-rozliseni", "font_big", "It`s hard to say with this screen resolution.")
+dialogId("lod-v-rozliseni", "font_big", "It’s hard to say with this screen resolution.")
 dialogStr("Het is moeilijk te zien bij deze schermresolutie.")
 
 
@@ -183,7 +183,7 @@ dialogId("b1-znovu", "font_yellow", "Shall we play another one?")
 dialogStr("Zullen we nog een keertje spelen?")
 
 
-dialogId("b1-nepodvadim", "font_yellow", "I don`t cheat.")
+dialogId("b1-nepodvadim", "font_yellow", "I don’t cheat.")
 dialogStr("Ik speel niet vals!")
 
 
@@ -259,7 +259,7 @@ dialogId("b2-rikal2", "font_cyan", "You already said that!")
 dialogStr("Dat heb je al een keer gezegd!")
 
 
-dialogId("b2-nemuze", "font_cyan", "It can`t be a miss on this space.")
+dialogId("b2-nemuze", "font_cyan", "It can’t be a miss on this space.")
 dialogStr("Op dat vakje kan het niet mis zijn!")
 
 
@@ -267,6 +267,6 @@ dialogId("b2-podvadis", "font_cyan", "You cheat!!!")
 dialogStr("Je speelt vals!!!")
 
 
-dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss`!")
-dialogStr("Dat vakje heb ik al geprobeerd - en jij zei `Plons'!")
+dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss’!")
+dialogStr("Dat vakje heb ik al geprobeerd - en jij zei ’Plons'!")
 

@@ -31,7 +31,7 @@ dialogId("kd-elektr", "font_white", "We have been notified that a certain nuclea
 dialogStr("Hemos sido notificados que una cierta planta de energía nuclear ha estado arrojando sus desechos radioactivos en forma ilegal. Revísenlo.")
 
 
-dialogId("kd-gral", "font_white", "And don`t forget to find the holy grail.")
+dialogId("kd-gral", "font_white", "And don’t forget to find the holy grail.")
 dialogStr("Y no olviden encontrar el Santo Grial.")
 
 

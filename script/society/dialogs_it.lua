@@ -3,7 +3,7 @@ dialogId("mik-v-sakra", "font_big", "Dang, that snail is blocking the way.")
 dialogStr("Ecco, la lumaca ci blocca la strada.")
 
 
-dialogId("mik-v-projet", "font_big", "I can`t swim through.")
+dialogId("mik-v-projet", "font_big", "I can’t swim through.")
 dialogStr("Non riesco a passarci.")
 
 
@@ -11,7 +11,7 @@ dialogId("mik-m-krab", "font_small", "Those crabs are too talkative.")
 dialogStr("Questi paguri sono logorroici.")
 
 
-dialogId("mik-m-poust", "font_small", "They don`t look like hermits.")
+dialogId("mik-m-poust", "font_small", "They don’t look like hermits.")
 dialogStr("Non sembrano per niente dei granchi solitari.")
 
 
@@ -31,7 +31,7 @@ dialogId("mik-v-ticho2", "font_big", "What is it now?!")
 dialogStr("Che c'è ora?!")
 
 
-dialogId("mik-v-proto", "font_big", "That`s better.")
+dialogId("mik-v-proto", "font_big", "That’s better.")
 dialogStr("Meglio.")
 
 
@@ -39,7 +39,7 @@ dialogId("mik-v-tak", "font_big", "Yes.")
 dialogStr("Così.")
 
 
-dialogId("mik-m-nezlob", "font_small", "Don`t be mad at them.")
+dialogId("mik-m-nezlob", "font_small", "Don’t be mad at them.")
 dialogStr("Non arrabbiarti con loro.")
 
 
@@ -55,6 +55,6 @@ dialogId("mik-v-videt", "font_big", "All the better to see you with.")
 dialogStr("Per vederti meglio.")
 
 
-dialogId("mik-m-konik", "font_small", "I`ve seen this seahorse somewhere before.")
+dialogId("mik-m-konik", "font_small", "I’ve seen this seahorse somewhere before.")
 dialogStr("Ho già visto questo cavalluccio da qualche parte.")
 

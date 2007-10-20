@@ -8,10 +8,10 @@ dialogStr("Nimam pojma.")
 dialogId("1st-v-ven", "font_big", "We should go and have a look outside.")
 dialogStr("Morala bi iti in pogledati kaj je zunaj.")
 
-dialogId("1st-m-pockej", "font_small", "Wait! I`m going with you.")
+dialogId("1st-m-pockej", "font_small", "Wait! I’m going with you.")
 dialogStr("Čakaj! S tabo grem.")
 
-dialogId("1st-m-proc", "font_small", "Why isn`t anything happening?")
+dialogId("1st-m-proc", "font_small", "Why isn’t anything happening?")
 dialogStr("Zakaj se nič ne dogaja?")
 
 dialogId("1st-m-hej", "font_small", "Hey, player!")
@@ -26,10 +26,10 @@ dialogStr("Ali pa ju naju nadziraš z miško -- levi klik nekje...")
 dialogId("1st-v-navod5", "font_big", "...if we can get there without moving anything...")
 dialogStr("...in če lahko prideva tja ne da bi kaj premaknila...")
 
-dialogId("1st-m-navod6", "font_small", "...we`ll follow your clicks.")
+dialogId("1st-m-navod6", "font_small", "...we’ll follow your clicks.")
 dialogStr("...bova sledila tvojim klikom.")
 
-dialogId("1st-v-navod7", "font_big", "And when you right-click somewhere, we`ll try to get there, pushing aside all obstacles in our way.")
+dialogId("1st-v-navod7", "font_big", "And when you right-click somewhere, we’ll try to get there, pushing aside all obstacles in our way.")
 dialogStr("In ko klikneš z desno miškino tipko, bova poskusila priti tja in bova poskusila premakniti vse ovire, ki so nama na poti.")
 
 dialogId("1st-m-navod8", "font_small", "Your goal should be to get both of us outside.")
@@ -38,16 +38,16 @@ dialogStr("Tvoj cilj je, da naju oba spraviš ven.")
 dialogId("1st-v-davej", "font_big", "And be careful not to hurt us. If you drop something on us or...")
 dialogStr("In bodi previden, da naju ne poškoduješ. če spustiš kaj na naju ali...")
 
-dialogId("1st-m-nechtoho", "font_small", "Oh, stop it. We`ll tell him in the next level.")
+dialogId("1st-m-nechtoho", "font_small", "Oh, stop it. We’ll tell him in the next level.")
 dialogStr("Oh, nehaj. V naslednji stopnji mu bova povedala.")
 
 dialogId("1st-v-takdobre", "font_big", "Okay.")
 dialogStr("V redu.")
 
-dialogId("1st-m-neprojedu", "font_small", "I can`t get through here. That steel cylinder is in the way.")
+dialogId("1st-m-neprojedu", "font_small", "I can’t get through here. That steel cylinder is in the way.")
 dialogStr("Ne morem tja. Jekleni valj je na poti.")
 
-dialogId("1st-m-nepohnu", "font_small", "I can`t move that cylinder. Can you help me?")
+dialogId("1st-m-nepohnu", "font_small", "I can’t move that cylinder. Can you help me?")
 dialogStr("Ne morem premakniti cilindra. Mi lahko ti pomagaš?")
 
 dialogId("1st-v-takukaz", "font_big", "No problem...")
@@ -59,7 +59,7 @@ dialogStr("Vau, premaknil si ga! Jaz tega nikoli ne bi zmogla!")
 dialogId("1st-m-diky", "font_small", "Thanks, now I can go with you.")
 dialogStr("Hvala, sedaj lahko grem s tabo.")
 
-dialogId("1st-v-nemuzu", "font_big", "Darn it, I can`t get through.")
+dialogId("1st-v-nemuzu", "font_big", "Darn it, I can’t get through.")
 dialogStr("Škoda, da ne morem skozi.")
 
 dialogId("1st-v-pribral", "font_big", "I must have gained some weight.")
@@ -71,7 +71,7 @@ dialogStr("Ali lahko potisneš stol čisto malo na levo?")
 dialogId("1st-v-chyba", "font_big", "Ooops! That was a mistake. Both of us have to be able to leave in order to continue.")
 dialogStr("Ups! To je bila napaka. Oba morava oditi, če želiš nadaljevati.")
 
-dialogId("1st-v-nedostanu", "font_big", "There`s no way I can get out now. You`ll have to restart the level.")
+dialogId("1st-v-nedostanu", "font_big", "There’s no way I can get out now. You’ll have to restart the level.")
 dialogStr("Nikakor ne morem ven. Ponovno morate zagnati stopnjo.")
 
 dialogId("1st-v-stiskni", "font_big", "You have to press the long arrow on your keyboard.")
@@ -92,5 +92,5 @@ dialogStr("Če mislite, da bi bilo bolje ponovno začeti stopnjo ni problema.")
 dialogId("1st-v-znovu", "font_big", "You just have to press the long arrow on your keyboard.")
 dialogStr("Morate samo pritisniti dolgo puščico na vaši tipkovnici.")
 
-dialogId("1st-x-ocel", "font_darkgrey", "I`m a heavy steel cylinder. It`s not easy to move me around. Such a tiny fish, like the orange one over there, simply has no chance. I could smash her without any problem.")
+dialogId("1st-x-ocel", "font_darkgrey", "I’m a heavy steel cylinder. It’s not easy to move me around. Such a tiny fish, like the orange one over there, simply has no chance. I could smash her without any problem.")
 dialogStr("Jaz sem težek jeklen cilinder. Ni me lahko premikati okoli. Takšna majhna riba, kot je oranžna tam čez, sploh nima nobene možnosti. Lahko bi jo zmečkal brez kakršnihkoli težav.")

@@ -3,7 +3,7 @@ dialogId("re-v-koraly0", "font_big", "I have never seen such violet corals.")
 dialogStr("Tak fialové korály jsem ještě neviděl.")
 
 
-dialogId("re-v-koraly1", "font_big", "I don`t like violet corals.")
+dialogId("re-v-koraly1", "font_big", "I don’t like violet corals.")
 dialogStr("Nemám rád fialové korály.")
 
 
@@ -31,7 +31,7 @@ dialogId("re-m-ahoj", "font_small", "Hi, crab!")
 dialogStr("Ahoj, krabe!")
 
 
-dialogId("re-m-rozveselit", "font_small", "Won`t we try to cheer that crab up a little?")
+dialogId("re-m-rozveselit", "font_small", "Won’t we try to cheer that crab up a little?")
 dialogStr("Nezkusíme toho kraba trochu rozveselit?")
 
 
@@ -43,7 +43,7 @@ dialogId("re-v-nech", "font_big", "Leave that crab alone.")
 dialogStr("Nech toho kraba na pokoji.")
 
 
-dialogId("re-v-nervozni", "font_big", "Can`t you see how nervous it is?")
+dialogId("re-v-nervozni", "font_big", "Can’t you see how nervous it is?")
 dialogStr("Nevidíš, jak je nervózní?")
 
 
@@ -71,7 +71,7 @@ dialogId("re-k-otravujete", "font_crab", "What do you want from me?!?")
 dialogStr("Co tady otravujete?!?")
 
 
-dialogId("re-k-nesahej", "font_crab", "Don`t touch me!")
+dialogId("re-k-nesahej", "font_crab", "Don’t touch me!")
 dialogStr("Nesahej na mě!")
 
 

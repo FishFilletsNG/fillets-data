@@ -3,7 +3,7 @@ dialogId("dr-m-tojesnad", "font_small", "This must be a Viking ship!")
 dialogStr("Det här måste vara ett vikingaskepp!")
 
 
-dialogId("dr-v-jiste", "font_big", "Sure, it`s a drakkar.")
+dialogId("dr-v-jiste", "font_big", "Sure, it’s a drakkar.")
 dialogStr("Visst, det är ett långskepp.")
 
 

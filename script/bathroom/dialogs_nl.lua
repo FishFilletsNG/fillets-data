@@ -1,5 +1,5 @@
 
-dialogId("br-v-komfort", "font_big", "It`s quite comfortable for a wasteyard.")
+dialogId("br-v-komfort", "font_big", "It’s quite comfortable for a wasteyard.")
 dialogStr("Wel comfortabel voor een vuilnisbelt.")
 
 
@@ -19,15 +19,15 @@ dialogId("br-m-vsim0", "font_small", "Did you notice that...")
 dialogStr("Is het je opgevallen dat...")
 
 
-dialogId("br-m-vsim1", "font_small", "Don`t you think that...")
+dialogId("br-m-vsim1", "font_small", "Don’t you think that...")
 dialogStr("Zou je denken dat...")
 
 
-dialogId("br-m-vsim2", "font_small", "Isn`t it strange that...")
+dialogId("br-m-vsim2", "font_small", "Isn’t it strange that...")
 dialogStr("Is het niet gek dat...")
 
 
-dialogId("br-v-nerozvadet0", "font_big", "Don`t talk about it.")
+dialogId("br-v-nerozvadet0", "font_big", "Don’t talk about it.")
 dialogStr("Hou je mond!")
 
 
@@ -35,7 +35,7 @@ dialogId("br-v-nerozvadet1", "font_big", "Please, no jokes about defecation.")
 dialogStr("Alsjeblieft, geen grapjes meer over stoelgang.")
 
 
-dialogId("br-v-nerozvadet2", "font_big", "Yes, I know about that. We won`t comment on it.")
+dialogId("br-v-nerozvadet2", "font_big", "Yes, I know about that. We won’t comment on it.")
 dialogStr("Ja, ik weet het. We zeggen niks.")
 
 
@@ -47,7 +47,7 @@ dialogId("br-v-dost", "font_big", "Stop it, will you?")
 dialogStr("Hou alsjeblieft op!")
 
 
-dialogId("br-m-sprcha", "font_small", "I`ve seen many useless things, but an underwater shower...")
+dialogId("br-m-sprcha", "font_small", "I’ve seen many useless things, but an underwater shower...")
 dialogStr("Ik heb al een hoop nutteloze dingen gezien, maar een onderwaterdouche slaat echt alles.")
 
 
@@ -71,7 +71,7 @@ dialogId("br-v-nechat", "font_big", "We should have left it alone.")
 dialogStr("We hadden van dat ding af moeten blijven.")
 
 
-dialogId("br-m-nefunguje", "font_small", "And it doesn`t work anyway.")
+dialogId("br-m-nefunguje", "font_small", "And it doesn’t work anyway.")
 dialogStr("En hij doet het toch niet.")
 
 

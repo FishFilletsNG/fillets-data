@@ -10,7 +10,7 @@ dialogStr("Как може всичко да се събере на едно д�
 dialogId("disk-v-metrova", "font_big", "Look how much bigger than me it is. It is a three and a half meter floppy.")
 dialogStr("Погледни го колко по-голямо е от мен. Това е дърво и половинметрова дискета.")
 
-dialogId("disk-m-velka", "font_small", "That`s better. Big plan, big disk. That makes sense.")
+dialogId("disk-m-velka", "font_small", "That’s better. Big plan, big disk. That makes sense.")
 dialogStr("Така е по-добре. Голям план — голяма дискета. Има смисъл.")
 
 dialogId("disk-m-zvednem", "font_small", "Do you think we can lift it up?")
@@ -28,10 +28,10 @@ dialogStr("Млъкни или ще ти счупя краката!")
 dialogId("disk-v-kriz", "font_big", "Can you see that steel cross? This is the grave of our hopes.")
 dialogStr("Виждаш ли онзи стоманен кръст? Там са погребани надеждите ни.")
 
-dialogId("disk-m-depres", "font_small", "Don`t be always so gloomy. I can`t bear it.")
+dialogId("disk-m-depres", "font_small", "Don’t be always so gloomy. I can’t bear it.")
 dialogStr("Не бъди винаги толкова черноглед. Не ми понася.")
 
-dialogId("disk-m-nahrat", "font_small", "Wouldn`t it be enough to download that plan from the floppy to our notebook?")
+dialogId("disk-m-nahrat", "font_small", "Wouldn’t it be enough to download that plan from the floppy to our notebook?")
 dialogStr("Няма ли да е достатъчно ако изтеглим плана от флопито на нашия ноутбук?")
 
 dialogId("disk-v-mas", "font_big", "Why not. Take it out.")
@@ -52,7 +52,7 @@ dialogStr("Както искаш. Любопитен съм как ще се с�
 dialogId("disk-m-zmatlo", "font_small", "What if there is no plan on this floppy? What if it is here only to confound us?")
 dialogStr("Ами ако във флопито няма план? Ако е тук само за да ни обърка?")
 
-dialogId("disk-v-neverim", "font_big", "I don`t believe that. Is there some other object that would be more difficult to get out?")
+dialogId("disk-v-neverim", "font_big", "I don’t believe that. Is there some other object that would be more difficult to get out?")
 dialogStr("Не ми се вярва. Има ли обект, който да е по-труден за изваждане?")
 
 dialogId("disk-m-tvorecci", "font_small", "What kind of little creatures are those?")
@@ -64,13 +64,13 @@ dialogStr("Трябва да са компютърни вируси.")
 dialogId("disk-m-potvory", "font_small", "Yuck. Some monsters.")
 dialogStr("Гадост. Пак изчадия.")
 
-dialogId("disk-v-pozor", "font_big", "Above all, we must be careful not to take them with the disk. The player wouldn`t be happy if we pour them on their desktop.")
+dialogId("disk-v-pozor", "font_big", "Above all, we must be careful not to take them with the disk. The player wouldn’t be happy if we pour them on their desktop.")
 dialogStr("Преди всичко трябва да внимаваме да не ги вземем заедно с диска. Играчът няма да е много доволен ако ги разсипем по работния му плот.")
 
 dialogId("disk-m-ukol", "font_small", "Our goal is to push out that disk.")
 dialogStr("Целта ни е да избутаме този диск навън.")
 
-dialogId("disk-x-nepohnes", "font_darkgrey", "You won`t move me easily!")
+dialogId("disk-x-nepohnes", "font_darkgrey", "You won’t move me easily!")
 dialogStr("Няма да ме преместиш лесно!")
 
 dialogId("disk-x-mazany", "font_darkgrey", "That was smart!")

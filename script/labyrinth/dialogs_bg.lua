@@ -7,7 +7,7 @@ dialogStr("Тази стая е доста необичайна.")
 dialogId("bl-m-funkce", "font_small", "The position of assistant deputy design coordinator was introduced because of this level. So that its author got his own credit.")
 dialogStr("Постът асистент заместник координатор по дизайна бил измислен специално заради това ниво. Така авторът получил специално признание..")
 
-dialogId("bl-v-pozadi", "font_big", "Enough about the game background. Let`s get to work.")
+dialogId("bl-v-pozadi", "font_big", "Enough about the game background. Let’s get to work.")
 dialogStr("Стига толкова за историята на играта. Да се залавяме за работа.")
 
 dialogId("bl-m-koral0", "font_small", "This is a very strange coral.")
@@ -19,10 +19,10 @@ dialogStr("Много специфичен корал.")
 dialogId("bl-m-visi", "font_small", "And what does it hang on?")
 dialogStr("И на какво виси?")
 
-dialogId("bl-v-nevim0", "font_big", "I don`t know. But we have to get it down anyway.")
+dialogId("bl-v-nevim0", "font_big", "I don’t know. But we have to get it down anyway.")
 dialogStr("Не знам, но трябва да го откачим някак.")
 
-dialogId("bl-v-nevim1", "font_big", "I don`t know. Do we have to put it down?")
+dialogId("bl-v-nevim1", "font_big", "I don’t know. Do we have to put it down?")
 dialogStr("Не знам. Трябва ли да го свалим долу?")
 
 dialogId("bl-m-tvar", "font_small", "How could that coral acquire such a bizarre shape?")
@@ -40,18 +40,18 @@ dialogStr("Нямам представа. Питай играча.")
 dialogId("bl-m-snecku0", "font_small", "Shalimuddy, shalimuddy, put your horns out...")
 dialogStr("Охлювче, бохлювче, покажи си рогцата...")
 
-dialogId("bl-v-dost0", "font_big", "Stop it! As if you don`t know that no object will move if we don`t push it first!")
+dialogId("bl-v-dost0", "font_big", "Stop it! As if you don’t know that no object will move if we don’t push it first!")
 dialogStr("Спри! Все едно не знаеш, че нищо в играта не се мести само — трябва първо да го бутнем!")
 
-dialogId("bl-m-snecku1", "font_small", "But I can try, can`t I? Shalimuddy, Shalimuddy...")
+dialogId("bl-m-snecku1", "font_small", "But I can try, can’t I? Shalimuddy, Shalimuddy...")
 dialogStr("Мога да опитам, нали? Охлювче, бохлювче...")
 
 dialogId("bl-v-dost1", "font_big", "Stop it! It makes my scales itch!")
 dialogStr("Стига! Люспите ме засърбяха!")
 
-dialogId("bl-m-snecku2", "font_small", "Don`t listen then. Shalimuddy, shalimuddy, put your...")
+dialogId("bl-m-snecku2", "font_small", "Don’t listen then. Shalimuddy, shalimuddy, put your...")
 dialogStr("Тогава не слушай. Охлювче, бохлювче, покажи си...")
 
-dialogId("bl-v-dost2", "font_big", "Stop it! Or I`ll drop that coral on your head!")
+dialogId("bl-v-dost2", "font_big", "Stop it! Or I’ll drop that coral on your head!")
 dialogStr("Престани! Ще пусна този корал на главата ти!")
 

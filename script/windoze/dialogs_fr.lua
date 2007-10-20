@@ -1,9 +1,9 @@
 
-dialogId("win-v-plocha", "font_big", "This is how it looks when you don`t keep your desktop tidy.")
+dialogId("win-v-plocha", "font_big", "This is how it looks when you don’t keep your desktop tidy.")
 dialogStr("Voilà à quoi ça ressemble quand vous ne rangez pas votre bureau.")
 
 
-dialogId("win-m-costim0", "font_small", "Wouldn`t it help us if we select Desktop/Line up Icons?")
+dialogId("win-m-costim0", "font_small", "Wouldn’t it help us if we select Desktop/Line up Icons?")
 dialogStr("Est-ce que ça ne n'aiderait pas de lancer Bureau/Réorganiser les icônes ?")
 
 
@@ -27,7 +27,7 @@ dialogId("win-v-pocitala", "font_big", "Did you count these windows around us?")
 dialogStr("Est-ce que tu as compté les fenêtres autour de nous ?")
 
 
-dialogId("win-m-nemusim", "font_small", "I don`t need to count them. There are ninety five of them.")
+dialogId("win-m-nemusim", "font_small", "I don’t need to count them. There are ninety five of them.")
 dialogStr("Je n'ai pas besoin de les compter. Il y en a quatre-vingt quinze.")
 
 
@@ -43,7 +43,7 @@ dialogId("win-m-dira", "font_small", "This system has to have a hole somewhere."
 dialogStr("Ce système doit avoir une faille quelque part.")
 
 
-dialogId("win-v-tamhle", "font_big", "Sure. It`s in the lower right corner.")
+dialogId("win-v-tamhle", "font_big", "Sure. It’s in the lower right corner.")
 dialogStr("Bien sûr, dans le coin inférieur droit.")
 
 
@@ -79,11 +79,11 @@ dialogId("win-v-hav", "font_big", "But fortunately the authors got back to it an
 dialogStr("Mais heureusement que les auteurs l'ont refait pour lui donner cette apparence moderne.")
 
 
-dialogId("win-m-zahrat", "font_small", "But I`d like to play it sometime, anyway!")
+dialogId("win-m-zahrat", "font_small", "But I’d like to play it sometime, anyway!")
 dialogStr("Mais parfois j'aimerais y jouer malgré tout!")
 
 
-dialogId("win-m-vga", "font_small", "I can`t move this window. Down there, it`s a steel cylinder, though it`s only in sixteen color VGA.")
+dialogId("win-m-vga", "font_small", "I can’t move this window. Down there, it’s a steel cylinder, though it’s only in sixteen color VGA.")
 dialogStr("Je ne peux pas bouger cette fenêtre. Là en bas, c'est un cylindre en acier, bien que seulement en seize couleurs VGA.")
 
 
@@ -95,7 +95,7 @@ dialogId("win-m-zavrene", "font_small", "You are right. They are trapped there, 
 dialogStr("Tu as raison. Il sont prisonniers, les pauvres diables.")
 
 
-dialogId("win-v-osvobodit", "font_big", "We can`t leave them there. We have to get them out!")
+dialogId("win-v-osvobodit", "font_big", "We can’t leave them there. We have to get them out!")
 dialogStr("Nous ne pouvons pas les laisser ainsi. Nous devons les libérer !")
 
 
@@ -103,11 +103,11 @@ dialogId("win-m-ven", "font_small", "Yes, but the player has to get us out.")
 dialogStr("Oui, mais le joueur(se) doit nous faire sortir.")
 
 
-dialogId("win-v-citim", "font_big", "So we`ll go on strike. Personally, I fully sympathize with the bigger fish inside.")
+dialogId("win-v-citim", "font_big", "So we’ll go on strike. Personally, I fully sympathize with the bigger fish inside.")
 dialogStr("Et bien faisons la grève. Personnellement, je comprends très bien le gros poisson qui se trouve à l'intérieur.")
 
 
-dialogId("win-m-vzit", "font_small", "You`re right. I can imagine what the smaller one feels.")
+dialogId("win-m-vzit", "font_small", "You’re right. I can imagine what the smaller one feels.")
 dialogStr("Tu as raison. Je peux imaginer ce que ressent le plus petit.")
 
 

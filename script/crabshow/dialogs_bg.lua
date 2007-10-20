@@ -19,7 +19,7 @@ dialogStr("Затворен съм в стая без врати!")
 dialogId("sec-m-kamen", "font_small", "Try to loosen some stone in the wall.")
 dialogStr("Опитай да размърдаш някоя тухла в зида.")
 
-dialogId("sec-m-krab", "font_small", "Isn`t that crab a little bit strange?")
+dialogId("sec-m-krab", "font_small", "Isn’t that crab a little bit strange?")
 dialogStr("Този рак не е ли малко странен?")
 
 dialogId("sec-v-ktery", "font_big", "Which one do you mean?")
@@ -31,10 +31,10 @@ dialogStr("Разбира се, че горния.")
 dialogId("sec-m-dole1", "font_small", "The lower one, of course.")
 dialogStr("Разбира се, че долния.")
 
-dialogId("sec-v-normalni0", "font_big", "I think it`s normal.")
+dialogId("sec-v-normalni0", "font_big", "I think it’s normal.")
 dialogStr("Изглежда ми нормален.")
 
-dialogId("sec-v-normalni1", "font_big", "Yes, it`s a little weird.")
+dialogId("sec-v-normalni1", "font_big", "Yes, it’s a little weird.")
 dialogStr("Да, малко е особен.")
 
 dialogId("sec-m-balonky", "font_small", "We should be glad we have all these balls.")
@@ -61,6 +61,6 @@ dialogStr("Естествено. Контролират се от компютъ
 dialogId("sec-v-socha", "font_big", "Did we ever see a sculpture that would be silent for so long?")
 dialogStr("Виждали ли сме скулптура, която да мълчи толкова дълго?")
 
-dialogId("sec-m-situace", "font_small", "I think it`s only waiting for the best opportunity.")
+dialogId("sec-m-situace", "font_small", "I think it’s only waiting for the best opportunity.")
 dialogStr("Мисля, че просто чака подходящия момент.")
 

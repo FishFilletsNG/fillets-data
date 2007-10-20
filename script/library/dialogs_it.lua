@@ -23,7 +23,7 @@ dialogId("vrak-m-vrak2", "font_small", "Look, it invaded our library.")
 dialogStr("Guarda, ci ha invaso la biblioteca.")
 
 
-dialogId("vrak-m-kupovat0", "font_small", "See? You shouldn`t have bought so many books.")
+dialogId("vrak-m-kupovat0", "font_small", "See? You shouldn’t have bought so many books.")
 dialogStr("Visto? Non avresti dovuto comprare così tanti libri.")
 
 
@@ -63,7 +63,7 @@ dialogId("vrak-m-knihy6", "font_small", "Outreaching Daniken.")
 dialogStr("\"Irraggiungibile Daniken\"")
 
 
-dialogId("vrak-v-vyhodit", "font_big", "I`d throw out these, for example.")
+dialogId("vrak-v-vyhodit", "font_big", "I’d throw out these, for example.")
 dialogStr("Potrei liberarmi di questi, per esempio...")
 
 
@@ -91,11 +91,11 @@ dialogId("vrak-m-pohadky", "font_small", "Never! My lovely fairy-tales.")
 dialogStr("Mai! Le mie adorate favole.")
 
 
-dialogId("vrak-v-nevejdu0", "font_big", "I can`t hide myself here.")
+dialogId("vrak-v-nevejdu0", "font_big", "I can’t hide myself here.")
 dialogStr("Non posso nascondermi qui.")
 
 
-dialogId("vrak-v-nevejdu1", "font_big", "I can`t fit in here.")
+dialogId("vrak-v-nevejdu1", "font_big", "I can’t fit in here.")
 dialogStr("Qui non ci sto.")
 
 
@@ -111,7 +111,7 @@ dialogId("vrak-m-cteni2", "font_small", "I told you not to buy that Complete Dic
 dialogStr("Ti avevo detto di non comprare l'intera Enciclopedia del Paranormale.")
 
 
-dialogId("vrak-v-policky", "font_big", "Let`s think. We can`t get these books off the shelf.")
+dialogId("vrak-v-policky", "font_big", "Let’s think. We can’t get these books off the shelf.")
 dialogStr("Ragioniamo. Non possiamo tirar giù questi libri dagli scaffali.")
 
 
@@ -131,7 +131,7 @@ dialogId("vrak-v-potvurka", "font_big", "You are an obstacle, strange creature!"
 dialogStr("Ci ostacoli, bizzarra creatura!")
 
 
-dialogId("vrak-v-snek", "font_big", "Can`t you push that snail to me?")
+dialogId("vrak-v-snek", "font_big", "Can’t you push that snail to me?")
 dialogStr("Potresti spingere quel lumacone verso di me?")
 
 

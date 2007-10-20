@@ -7,7 +7,7 @@ dialogId("rea-v-coto", "font_big", "What could it be?")
 dialogStr("Qu'est-ce que ça pourrait être ?")
 
 
-dialogId("rea-m-nevim", "font_small", "I have no idea, but it`s disgusting.")
+dialogId("rea-m-nevim", "font_small", "I have no idea, but it’s disgusting.")
 dialogStr("Aucune idée, mais c'est dégoûtant.")
 
 
@@ -15,7 +15,7 @@ dialogId("rea-m-comyslis", "font_small", "What do you think about these rods?")
 dialogStr("Que penses-tu de ces tiges ?")
 
 
-dialogId("rea-v-patrne", "font_big", "They look like they`re some kind of fuel rods or maybe regulators for the nuclear reactor.")
+dialogId("rea-v-patrne", "font_big", "They look like they’re some kind of fuel rods or maybe regulators for the nuclear reactor.")
 dialogStr("Elles ressemblent à des barres énergétiques ou peut-être des régulateurs pour le réacteur nucléaire.")
 
 
@@ -31,7 +31,7 @@ dialogId("rea-v-tozni", "font_big", "That sounds reasonable...")
 dialogStr("Ça semble raisonnable...")
 
 
-dialogId("rea-m-anebo", "font_small", "Then again, maybe this isn`t a nuclear reactor.")
+dialogId("rea-m-anebo", "font_small", "Then again, maybe this isn’t a nuclear reactor.")
 dialogStr("Et puis aussi, ce n'est peut-être pas un réacteur nucléaire.")
 
 
@@ -39,15 +39,15 @@ dialogId("rea-v-acoby", "font_big", "So what is it, then?")
 dialogStr("Donc, qu'est-ce que c'est alors?")
 
 
-dialogId("rea-m-cojavim", "font_small", "How should I know? A cinematoscope? A child`s toy? A shooting gallery?")
+dialogId("rea-m-cojavim", "font_small", "How should I know? A cinematoscope? A child’s toy? A shooting gallery?")
 dialogStr("Comment le saurais-je ? Un cinéma ? Un jouet pour enfant ? un stand de tir ?")
 
 
-dialogId("rea-v-radeji", "font_big", "I`d rather stick to a more rational explanation.")
+dialogId("rea-v-radeji", "font_big", "I’d rather stick to a more rational explanation.")
 dialogStr("Je préférerais une explication plus rationnelle.")
 
 
-dialogId("rea-m-jakmuzes", "font_small", "But how do you know what`s a rational explanation and what isn`t?")
+dialogId("rea-m-jakmuzes", "font_small", "But how do you know what’s a rational explanation and what isn’t?")
 dialogStr("Mais comment distingues-tu une explication rationnelle d'une qui ne l'est pas ?")
 
 
@@ -59,10 +59,10 @@ dialogId("rea-v-takvidis", "font_big", "You see?")
 dialogStr("Tu vois ?")
 
 
-dialogId("rea-m-doufam", "font_small", "I hope we don`t start some unpleasant reaction.")
+dialogId("rea-m-doufam", "font_small", "I hope we don’t start some unpleasant reaction.")
 dialogStr("J'espère que nous n'avons pas déclenché de mauvaise réaction.")
 
 
-dialogId("rea-v-nemudruj", "font_big", "Don`t think. Just push the rods.")
+dialogId("rea-v-nemudruj", "font_big", "Don’t think. Just push the rods.")
 dialogStr("Ne pense pas. Pousse simplement les tiges.")
 

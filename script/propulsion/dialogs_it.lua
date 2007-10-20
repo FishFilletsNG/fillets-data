@@ -1,5 +1,5 @@
 
-dialogId("poh-v-takhle", "font_big", "So that`s how it is!")
+dialogId("poh-v-takhle", "font_big", "So that’s how it is!")
 dialogStr("Ecco come stanno le cose!")
 
 dialogId("poh-m-tosnadne", "font_small", "Oh, no!")
@@ -11,7 +11,7 @@ dialogStr("Bioenergia. Avremmo già dovuto capirlo. Ne avevamo tutti gli indizi.
 dialogId("poh-m-reaktor", "font_small", "And what was that nuclear power plant for?")
 dialogStr("E a che serviva quel reattore nucleare?")
 
-dialogId("poh-v-automat", "font_big", "Can`t you see? It powers that Coca-Cola vending machine over there.")
+dialogId("poh-v-automat", "font_big", "Can’t you see? It powers that Coca-Cola vending machine over there.")
 dialogStr("Non lo vedi? Serve a dalimentare quel distributore di Coca-Cola.")
 
 dialogId("poh-m-motor", "font_small", "And what about that motor?")
@@ -38,7 +38,7 @@ dialogStr("Probabilmente la più importante è la gabbia in mezzo.")
 dialogId("poh-m-dobre", "font_small", "Okay, we shall take this one.")
 dialogStr("Bene, prendiamo quella.")
 
-dialogId("poh-v-forma", "font_big", "Look, there is some strange life form, over there. Shouldn`t we try to contact them?")
+dialogId("poh-v-forma", "font_big", "Look, there is some strange life form, over there. Shouldn’t we try to contact them?")
 dialogStr("Guarda, ci sono delle strane forme di vita di là. Perché non proviamo ad avere un contatto?")
 
 dialogId("poh-m-princip", "font_small", "Our mission was clear - principles and construction of the interstellar propulsion. Not a single word about contact.")
@@ -47,7 +47,7 @@ dialogStr("La nostra missione è chiara - principi e costruzione della propoulsi
 dialogId("poh-v-pomoct", "font_big", "Well. But they could at least help us.")
 dialogStr("Va bene. Ma almeno potrebbero aiutarci.")
 
-dialogId("poh-m-dobryden0", "font_small", "Good afternoon, excuse me, please, couldn`t I loot your drive?")
+dialogId("poh-m-dobryden0", "font_small", "Good afternoon, excuse me, please, couldn’t I loot your drive?")
 dialogStr("Buongiorno, mi scusino, non è che potrei appropriarmi del vostro motore?")
 
 dialogId("poh-m-dobryden1", "font_small", "Hmm, good afternoon sir, could I ask you to help us to dismantle your propulsion unit, please?")

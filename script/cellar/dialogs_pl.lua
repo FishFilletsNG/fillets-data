@@ -11,11 +11,11 @@ dialogId("pra-v-nahore", "font_big", "Hey, arrange it up there somehow. But be c
 dialogStr("Hej, poukładaj to jakoś na górze. Tylko uważaj!")
 
 
-dialogId("pra-m-nepohnu", "font_small", "I can`t move this. This is steel.")
+dialogId("pra-m-nepohnu", "font_small", "I can’t move this. This is steel.")
 dialogStr("Nie mogę tego poruszyć, to stal.")
 
 
-dialogId("pra-m-zpatky", "font_small", "Come back, you can`t go further!")
+dialogId("pra-m-zpatky", "font_small", "Come back, you can’t go further!")
 dialogStr("Wracaj, dalej nie możesz!")
 
 
@@ -23,11 +23,11 @@ dialogId("pra-v-zapeklita", "font_big", "Hmm... This is tricky. If we push aside
 dialogStr("Hmmm... tu mamy zagwozdkę. Jeśli popchniemy miód, zmiażdży nas ten słoik konfitury morelowej.")
 
 
-dialogId("pra-m-vyrazit", "font_small", "Couldn`t we push it aside with that axe?")
+dialogId("pra-m-vyrazit", "font_small", "Couldn’t we push it aside with that axe?")
 dialogStr("Może moglibyśmy popchnąć go tym toporkiem?")
 
 
-dialogId("pra-v-dobrynapad", "font_big", "That`s a good idea.")
+dialogId("pra-v-dobrynapad", "font_big", "That’s a good idea.")
 dialogStr("Dobry pomysł.")
 
 
@@ -35,11 +35,11 @@ dialogId("pra-m-chytit", "font_small", "Now I cannot take the axe. The can is in
 dialogStr("Teraz nie mogę podnieść toporka, dżem mi przeszkadza.")
 
 
-dialogId("pra-v-vzit", "font_big", "You mustn`t push the axe!")
+dialogId("pra-v-vzit", "font_big", "You mustn’t push the axe!")
 dialogStr("Nie popychaj tej siekiery!")
 
 
-dialogId("pra-m-prisun", "font_small", "If you can push that can to me, I`ll shove the axe on it and everything will be okay.")
+dialogId("pra-m-prisun", "font_small", "If you can push that can to me, I’ll shove the axe on it and everything will be okay.")
 dialogStr("Jeśli podepchniesz mi ten słoik, oprę na nim toporek i wszystko będzie dobrze.")
 
 
@@ -55,7 +55,7 @@ dialogId("pra-v-ukladani", "font_big", "Remember what we have said about saving 
 dialogStr("Pamiętaj, co mówiliśmy na temat zapisywania gry.")
 
 
-dialogId("pra-m-uvazovat", "font_small", "I shouldn`t be thinking about this.")
+dialogId("pra-m-uvazovat", "font_small", "I shouldn’t be thinking about this.")
 dialogStr("Nie powinnam nawet o tym myśleć.")
 
 
@@ -71,7 +71,7 @@ dialogId("pra-v-zavazis", "font_big", "You are standing in my way there. Try to 
 dialogStr("Przeszkadzasz mi tam, spróbuj schować się gdzie indziej.")
 
 
-dialogId("pra-m-strach", "font_small", "Here? I`m little bit afraid. Will I get out?")
+dialogId("pra-m-strach", "font_small", "Here? I’m little bit afraid. Will I get out?")
 dialogStr("Tutaj? Trochę się boję. Jesteś pewien, że będę mogła stąd wypłynąć?")
 
 
@@ -91,7 +91,7 @@ dialogId("pra-m-jakudelat", "font_small", "But we will not tell you how to do it
 dialogStr("Ale jak to zrobić, tego już ci nie powiemy.")
 
 
-dialogId("pra-v-nezapomen", "font_big", "Just remember that although we cannot push objects along each other`s back, we can push them down or onto some solid structure.")
+dialogId("pra-v-nezapomen", "font_big", "Just remember that although we cannot push objects along each other’s back, we can push them down or onto some solid structure.")
 dialogStr("Pamiętaj tylko, że nie możemy wprawdzie popychać przedmiotów po swoich grzebietach, ale możemy je z nich spychać w dół albo na jakąś stałą powierzchnię.")
 
 
@@ -99,7 +99,7 @@ dialogId("pra-v-objet", "font_big", "What if I go the upper way?")
 dialogStr("A może górą?")
 
 
-dialogId("pra-m-neradit", "font_small", "Shhhh. That`s too many hints.")
+dialogId("pra-m-neradit", "font_small", "Shhhh. That’s too many hints.")
 dialogStr("Ćśśś, nie podpowiadaj tyle.")
 
 

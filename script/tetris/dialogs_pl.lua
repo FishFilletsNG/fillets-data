@@ -27,7 +27,7 @@ dialogId("tet-m-jaklepsi", "font_small", "What do you mean, better?")
 dialogStr("Co masz na myśli?")
 
 
-dialogId("tet-v-hybat", "font_big", "At least, you won`t have to move all the pieces to the right.")
+dialogId("tet-v-hybat", "font_big", "At least, you won’t have to move all the pieces to the right.")
 dialogStr("No, przynajmniej o tyle, że nie trzeba by było przesuwać wszystkich klocków w prawo.")
 
 

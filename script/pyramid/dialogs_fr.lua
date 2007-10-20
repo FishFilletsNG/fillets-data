@@ -11,7 +11,7 @@ dialogId("pyr-m-plaz", "font_small", "What is that crawling around over there?")
 dialogStr("Qu'est-ce qui rampe là-bas ?")
 
 
-dialogId("pyr-v-druha", "font_big", "You can`t see it from here. It`s on the other side of wall.")
+dialogId("pyr-v-druha", "font_big", "You can’t see it from here. It’s on the other side of wall.")
 dialogStr("Tu ne peux pas le voir d'ici. C'est de l'autre côté du mur.")
 
 
@@ -23,7 +23,7 @@ dialogId("pyr-v-sark", "font_big", "Do you think that this is taking us too long
 dialogStr("Tu penses que ça nous prend trop de temps ?")
 
 
-dialogId("pyr-m-zkus", "font_small", "Try it yourself, if you`re so clever.")
+dialogId("pyr-m-zkus", "font_small", "Try it yourself, if you’re so clever.")
 dialogStr("Essaie toi même, si tu es si malin.")
 
 
@@ -31,11 +31,11 @@ dialogId("pyr-m-comy", "font_small", "What should we say?")
 dialogStr("Que devons-nous dire ?")
 
 
-dialogId("pyr-m-nic", "font_small", "You don`t have to carry anything.")
+dialogId("pyr-m-nic", "font_small", "You don’t have to carry anything.")
 dialogStr("Tu n'es pas obligé de porter quoi que ce soit.")
 
 
-dialogId("pyr-v-sfing", "font_big", "Don`t be afraid.")
+dialogId("pyr-v-sfing", "font_big", "Don’t be afraid.")
 dialogStr("N'aie pas peur.")
 
 

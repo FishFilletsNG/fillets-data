@@ -39,7 +39,7 @@ dialogId("bot-v-vsak0", "font_big", "Well, you are not a bear, after all.")
 dialogStr("Nou en, je bent toch geen mens.")
 
 
-dialogId("bot-v-vsak1", "font_big", "Don`t forget that we are under water.")
+dialogId("bot-v-vsak1", "font_big", "Don’t forget that we are under water.")
 dialogStr("Vergeet niet dat we onderwater zijn.")
 
 

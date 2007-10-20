@@ -8,7 +8,7 @@ dialogStr("Nehaj se pačit in mi pridi pomagat.")
 dialogId("zr-m-prestan", "font_small", "Stop looking at yourself in the mirror and make yourself useful.")
 dialogStr("Nehaj se gledat v ogledalo in se naredi uporabnega.")
 
-dialogId("zr-m-takfajn", "font_small", "That`s great! He just goes on his merry little way, but what about me?")
+dialogId("zr-m-takfajn", "font_small", "That’s great! He just goes on his merry little way, but what about me?")
 dialogStr("To je čudovito! On samo gre po svoji veseli poti, ampak kaj pa jaz?")
 
 dialogId("zr-m-tojeon", "font_small", "As usual. He just leaves me behind.")
@@ -32,17 +32,17 @@ dialogStr("Nehaj kričati in me že spravi od tu.")
 dialogId("zr-m-nepovykuj", "font_small", "Stop your screaming and help me get out of here.")
 dialogStr("Nehaj kričati in mi pomagaj priti od tu.")
 
-dialogId("zr-m-tadyjsem", "font_small", "Here I am. I can`t get out.")
+dialogId("zr-m-tadyjsem", "font_small", "Here I am. I can’t get out.")
 dialogStr("Tukaj sem. Ne morem ven.")
 
 dialogId("zr-m-komu", "font_small", "Whose eyes are those?")
 dialogStr("Čigave so te oči?")
 
-dialogId("zr-v-nevim", "font_big", "I don`t know. Maybe the periscope is connected to some other dimension.")
+dialogId("zr-v-nevim", "font_big", "I don’t know. Maybe the periscope is connected to some other dimension.")
 dialogStr("Ne vem. Mogoče je periskop povezan s kako drugo dimenzijo.")
 
 dialogId("zr-v-opatrne", "font_big", "Careful...")
 dialogStr("Previdno...")
 
-dialogId("zr-v-vzdyt", "font_big", "Don`t say I didn`t warn you!")
+dialogId("zr-v-vzdyt", "font_big", "Don’t say I didn’t warn you!")
 dialogStr("Ne reči da te nisem opozoril!")

@@ -1,5 +1,5 @@
 
-dialogId("pot-v-lod", "font_big", "Could this be Captain Silver`s ship?")
+dialogId("pot-v-lod", "font_big", "Could this be Captain Silver’s ship?")
 dialogStr("Se pourrait-il que ce soit le navire du capitaine Silver ?")
 
 
@@ -35,7 +35,7 @@ dialogId("pot-m-zima", "font_small", "My ears were freezing.")
 dialogStr("Mes ouïes gelaient.")
 
 
-dialogId("pot-m-pujc", "font_small", "That`s some hat! Can I borrow it?")
+dialogId("pot-m-pujc", "font_small", "That’s some hat! Can I borrow it?")
 dialogStr("Ça c'est un chapeau! Je peux te l'emprunter?")
 
 
@@ -51,15 +51,15 @@ dialogId("pot-v-kras", "font_big", "And a beatiful one, too.")
 dialogStr("Et magnifique en plus.")
 
 
-dialogId("pot-v-nehnu", "font_big", "I can`t move this.")
+dialogId("pot-v-nehnu", "font_big", "I can’t move this.")
 dialogStr("Je ne peux pas bouger ça.")
 
 
-dialogId("pot-v-trub", "font_big", "I can`t move that cylinder.")
+dialogId("pot-v-trub", "font_big", "I can’t move that cylinder.")
 dialogStr("Je ne peux pas bouger ce cylindre.")
 
 
-dialogId("pot-m-nezb", "font_small", "I think we`re going to have to go inside that ship.")
+dialogId("pot-m-nezb", "font_small", "I think we’re going to have to go inside that ship.")
 dialogStr("J'ai l'impression que nous devons rentrer dans ce navire.")
 
 
@@ -71,11 +71,11 @@ dialogId("pot-m-zatuch", "font_small", "The air in here smells so stale.")
 dialogStr("Ici, l'air sent le renfermé.")
 
 
-dialogId("pot-v-nikdo", "font_big", "It seems that nobody`s here.")
+dialogId("pot-v-nikdo", "font_big", "It seems that nobody’s here.")
 dialogStr("On dirait qu'il n'y a personne.")
 
 
-dialogId("pot-m-moc", "font_small", "I don`t like it here.")
+dialogId("pot-m-moc", "font_small", "I don’t like it here.")
 dialogStr("Je n'aime pas cet endroit.")
 
 
@@ -95,6 +95,6 @@ dialogId("pot-m-vidis", "font_small", "What do you see?")
 dialogStr("Que vois-tu ?")
 
 
-dialogId("pot-v-vidim", "font_big", "I can see many interesting levels which we`ll have to solve.")
+dialogId("pot-v-vidim", "font_big", "I can see many interesting levels which we’ll have to solve.")
 dialogStr("Je peux voir plusieurs niveaux intéressants que nous allons devoir résoudre.")
 

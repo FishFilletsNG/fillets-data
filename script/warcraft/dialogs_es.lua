@@ -7,7 +7,7 @@ dialogId("war-m-ocel", "font_small", "How did the steel get into this castle?")
 dialogStr("¿Cómo llegó el acero a este castillo?")
 
 
-dialogId("war-v-vesnicane", "font_big", "Hold on, I`ll bring some peasants to help you.")
+dialogId("war-v-vesnicane", "font_big", "Hold on, I’ll bring some peasants to help you.")
 dialogStr("Espera un poco, voy a traer algunos paisanos para ayudarte.")
 
 
@@ -15,7 +15,7 @@ dialogId("war-m-peoni", "font_small", "These are not peasants but peons.")
 dialogStr("Esos no son paisanos... son obreros.")
 
 
-dialogId("war-v-doly", "font_big", "Do you think that these mines contain captain Silver`s treasure?")
+dialogId("war-v-doly", "font_big", "Do you think that these mines contain captain Silver’s treasure?")
 dialogStr("¿Crees que estas minas tengan el tesoro del capitán Silver?")
 
 
@@ -35,15 +35,15 @@ dialogId("war-v-pohadka", "font_big", "When MS Word or another boring applicatio
 dialogStr("Cuando el MS Word u otra aplicación aburrida está funcionando en esta máquina, nosotros, los personajes de juegos de computador, entramos al directorio C:\\WINDOWS\\CONFIG y hablamos.")
 
 
-dialogId("war-m-pichat", "font_small", "When we don`t know what to do, we play hide-and-seek in the registry. That`s why your Windows sometimes crashes if you don`t play any games for a long period of time.")
+dialogId("war-m-pichat", "font_small", "When we don’t know what to do, we play hide-and-seek in the registry. That’s why your Windows sometimes crashes if you don’t play any games for a long period of time.")
 dialogStr("Cuando no sabemos que hacer, jugamos a las escondidas en el registro. Por eso tu Windows algunas veces se cae si no juegas nada por un largo período de tiempo.")
 
 
-dialogId("war-v-prozradit", "font_big", "You shouldn`t give that away. I only wanted to say that it looks very similar to this level. So many computer game characters.")
+dialogId("war-v-prozradit", "font_big", "You shouldn’t give that away. I only wanted to say that it looks very similar to this level. So many computer game characters.")
 dialogStr("No deberías de haber ido tan lejos. Yo solo quería decir que luce muy similar a este nivel. Tantos personajes de juegos de computador.")
 
 
-dialogId("war-m-aznato", "font_small", "But it`s not so difficult to get out of there.")
+dialogId("war-m-aznato", "font_small", "But it’s not so difficult to get out of there.")
 dialogStr("Pero no es tan difícil salir de aquí.")
 
 

@@ -11,7 +11,7 @@ dialogId("mot-m-tak", "font_small", "So. We found the drive. We have achieved on
 dialogStr("Så. Vi hittade drivsystemet. Vi har uppnått ett av målen på det här uppdraget.")
 
 
-dialogId("mot-v-zavery", "font_big", "Don`t be so hasty. We haven`t searched the whole wreck yet.")
+dialogId("mot-v-zavery", "font_big", "Don’t be so hasty. We haven’t searched the whole wreck yet.")
 dialogStr("Var inte för snabb. Vi har inte letat igenom hela vraket ännu.")
 
 
@@ -19,7 +19,7 @@ dialogId("mot-m-akce0", "font_small", "I am sorry that none of these technical m
 dialogStr("Förlåt men inget av dessa tekniska under omkring oss fungerar.")
 
 
-dialogId("mot-m-akce1", "font_small", "I`d like to see some of these extraterrestrial gizmos in action.")
+dialogId("mot-m-akce1", "font_small", "I’d like to see some of these extraterrestrial gizmos in action.")
 dialogStr("Jag skulle vilja någon utomjordisk grej igång!.")
 
 
@@ -27,7 +27,7 @@ dialogId("mot-m-akce2", "font_small", "I wonder if this motor could work under w
 dialogStr("Jag undrar om den här motorn fungerar under vattnet.")
 
 
-dialogId("mot-v-funkce0", "font_big", "Maybe it`s better for us if it doesn`t work.")
+dialogId("mot-v-funkce0", "font_big", "Maybe it’s better for us if it doesn’t work.")
 dialogStr("Det kanske är bäst för oss om den inte gör det.")
 
 
@@ -43,7 +43,7 @@ dialogId("mot-v-klic", "font_big", "Careful with that wrench.")
 dialogStr("Var försiktig med skiftnyckeln.")
 
 
-dialogId("mot-m-ublizit", "font_small", "I can`t harm anything here.")
+dialogId("mot-m-ublizit", "font_small", "I can’t harm anything here.")
 dialogStr("Jag kan inte skada någonting här.")
 
 
@@ -51,15 +51,15 @@ dialogId("mot-m-zvuky0", "font_small", "What have you done? Turn off that roar!"
 dialogStr("Vad har du gjort? Stäng av oväsendet!")
 
 
-dialogId("mot-m-zvuky1", "font_small", "This is terrible! Turn it off before it`s too late!")
+dialogId("mot-m-zvuky1", "font_small", "This is terrible! Turn it off before it’s too late!")
 dialogStr("Det är förskräckligt! Stäng av innan det är för sent!")
 
 
-dialogId("mot-v-nemuzu0", "font_big", "I can`t! I can`t take it out!")
+dialogId("mot-v-nemuzu0", "font_big", "I can’t! I can’t take it out!")
 dialogStr("Jag kan inte! Jag kan inte få stopp!")
 
 
-dialogId("mot-v-nemuzu1", "font_big", "I don`t know how! I can`t take it out!")
+dialogId("mot-v-nemuzu1", "font_big", "I don’t know how! I can’t take it out!")
 dialogStr("Jag vet inte hur! Jag kan inte få stopp!")
 
 
@@ -87,7 +87,7 @@ dialogId("mot-m-nemuzu0", "font_small", "How can I turn it off?!")
 dialogStr("Hur kan jag stanna den?!")
 
 
-dialogId("mot-m-nemuzu1", "font_small", "I can`t turn it off!")
+dialogId("mot-m-nemuzu1", "font_small", "I can’t turn it off!")
 dialogStr("Jag får inte stopp på den!")
 
 
@@ -99,6 +99,6 @@ dialogId("mot-m-konecne1", "font_small", "Finally.")
 dialogStr("Äntligen.")
 
 
-dialogId("mot-v-znovu0", "font_big", "I am only afraid we`ll have to turn it on again.")
+dialogId("mot-v-znovu0", "font_big", "I am only afraid we’ll have to turn it on again.")
 dialogStr("Jag är rädd för att vi måste starta den igen.")
 

@@ -7,7 +7,7 @@ dialogId("zel-v-zelva1", "font_big", "Yes, this is it. The telepathic turtle.")
 dialogStr("Oui, c'est bien ça. La tortue télépathique.")
 
 
-dialogId("zel-m-fotky0", "font_small", "Well, I don`t know. Judging from those photos, it could be it.")
+dialogId("zel-m-fotky0", "font_small", "Well, I don’t know. Judging from those photos, it could be it.")
 dialogStr("Et bien je ne sais pas. A en juger par ces photos, ce pourrait être elle.")
 
 
@@ -19,7 +19,7 @@ dialogId("zel-v-zmistnosti0", "font_big", "In any case we have to get it out of 
 dialogStr("Dans tous les cas nous devons la sortir de la pièce.")
 
 
-dialogId("zel-v-zmistnosti1", "font_big", "Let`s take out that turtle.")
+dialogId("zel-v-zmistnosti1", "font_big", "Let’s take out that turtle.")
 dialogStr("Faisons sortir cette tortue.")
 
 
@@ -47,23 +47,23 @@ dialogId("zel-v-coto2", "font_big", "What happened to you?")
 dialogStr("Qu'est-ce qui t'arrive ?")
 
 
-dialogId("zel-m-nevim0", "font_small", "I don`t know...")
+dialogId("zel-m-nevim0", "font_small", "I don’t know...")
 dialogStr("Je ne sais pas...")
 
 
-dialogId("zel-m-nevim1", "font_small", "I can`t realize...")
+dialogId("zel-m-nevim1", "font_small", "I can’t realize...")
 dialogStr("Je ne me rends pas compte...")
 
 
-dialogId("zel-v-nevim0", "font_big", "I don`t know what`s happening to me...")
+dialogId("zel-v-nevim0", "font_big", "I don’t know what’s happening to me...")
 dialogStr("Je ne sais pas ce qui m'arrive...")
 
 
-dialogId("zel-v-nevim1", "font_big", "I didn`t want to...")
+dialogId("zel-v-nevim1", "font_big", "I didn’t want to...")
 dialogStr("Je ne voulais pas...")
 
 
-dialogId("zel-v-cosedeje", "font_big", "What`s happening to us?")
+dialogId("zel-v-cosedeje", "font_big", "What’s happening to us?")
 dialogStr("Qu'est-ce qui nous arrive ?")
 
 
@@ -107,7 +107,7 @@ dialogId("zel-v-bizarni", "font_big", "So many bizarre shapes can only be found 
 dialogStr("Tant de formes bizarres ne se trouve que dans un récif de corail.")
 
 
-dialogId("zel-m-priroda", "font_small", "These corals are Mother Nature`s wonders.")
+dialogId("zel-m-priroda", "font_small", "These corals are Mother Nature’s wonders.")
 dialogStr("Ces coraux sont des merveilles de Mère Nature.")
 
 
@@ -115,7 +115,7 @@ dialogId("zel-v-tvary", "font_big", "Where do so many bizarre shapes come from?"
 dialogStr("D'où peuvent bien venir tant de formes étranges ?")
 
 
-dialogId("zel-m-jednoduse", "font_small", "It`s easy - designers create tricky problems and leave the drawing to the graphic artists.")
+dialogId("zel-m-jednoduse", "font_small", "It’s easy - designers create tricky problems and leave the drawing to the graphic artists.")
 dialogStr("Facile - Les créateurs ont conçu d'épineux problèmes et ont laissé les artistes les dessiner.")
 
 

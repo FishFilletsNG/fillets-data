@@ -5,9 +5,9 @@ dialogId("kuch-m-objev1", "font_small", "Yeah, we discovered the ship kitchen.")
 
 dialogId("kuch-m-objev2", "font_small", "Darned kitchen.")
 
-dialogId("kuch-m-objev3", "font_small", "And now we are in the captain Silver`s kitchen.")
+dialogId("kuch-m-objev3", "font_small", "And now we are in the captain Silver’s kitchen.")
 
-dialogId("kuch-v-varil", "font_big", "I don`t think he was a cook himself.")
+dialogId("kuch-v-varil", "font_big", "I don’t think he was a cook himself.")
 
 dialogId("kuch-v-problem", "font_big", "But this is not our problem.")
 
@@ -15,15 +15,15 @@ dialogId("kuch-m-noproblem", "font_small", "There are not many problems here. I 
 
 dialogId("kuch-v-podivej", "font_big", "But just have a look at me.")
 
-dialogId("kuch-v-stolky0", "font_big", "I can`t understand how these serving tables got there.")
+dialogId("kuch-v-stolky0", "font_big", "I can’t understand how these serving tables got there.")
 
 dialogId("kuch-v-stolky1", "font_big", "These tables are in the way.")
 
 dialogId("kuch-v-stolky2", "font_big", "This little chamber gives me the creeps.")
 
-dialogId("kuch-v-odsud0", "font_big", "I can`t get out of here!")
+dialogId("kuch-v-odsud0", "font_big", "I can’t get out of here!")
 
-dialogId("kuch-m-premyslim0", "font_small", "I`m just thinking how to help you.")
+dialogId("kuch-m-premyslim0", "font_small", "I’m just thinking how to help you.")
 
 dialogId("kuch-v-odsud1", "font_big", "Help me somehow!")
 
@@ -33,7 +33,7 @@ dialogId("kuch-m-premyslim2", "font_small", "I am on my way.")
 
 dialogId("kuch-m-hrnec0", "font_small", "Yuck, there is something left in this pot!")
 
-dialogId("kuch-m-hrnec1", "font_small", "This pot wasn`t even washed up.")
+dialogId("kuch-m-hrnec1", "font_small", "This pot wasn’t even washed up.")
 
 dialogId("kuch-m-hrnec2", "font_small", "Nobody washes the dishes here.")
 
@@ -61,7 +61,7 @@ dialogId("kuch-v-mec", "font_big", "Why is that sword here?")
 
 dialogId("kuch-m-porcovani", "font_small", "Maybe they used it to cut the meat.")
 
-dialogId("kuch-v-nedela", "font_big", "Certainly. But you don`t cut meat with a sword in the kitchen, usually.")
+dialogId("kuch-v-nedela", "font_big", "Certainly. But you don’t cut meat with a sword in the kitchen, usually.")
 
 dialogId("kuch-m-kuchari", "font_small", "We are lucky there are no cooks here. They could try to cook us.")
 

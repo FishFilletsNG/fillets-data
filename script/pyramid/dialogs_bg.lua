@@ -7,7 +7,7 @@ dialogStr("Пирамидите... Забележи как се преливат
 dialogId("pyr-m-plaz", "font_small", "What is that crawling around over there?")
 dialogStr("Какво е онова гъмжило там?")
 
-dialogId("pyr-v-druha", "font_big", "You can`t see it from here. It`s on the other side of wall.")
+dialogId("pyr-v-druha", "font_big", "You can’t see it from here. It’s on the other side of wall.")
 dialogStr("Не можеш да го видиш оттук. От другата страна на стената е.")
 
 dialogId("pyr-m-nudi", "font_small", "Look, the woman is bored!")
@@ -16,16 +16,16 @@ dialogStr("Виж, жената е отегчена!")
 dialogId("pyr-v-sark", "font_big", "Do you think that this is taking us too long?")
 dialogStr("Мислиш ли, че се бавим твърде много тук?")
 
-dialogId("pyr-m-zkus", "font_small", "Try it yourself, if you`re so clever.")
+dialogId("pyr-m-zkus", "font_small", "Try it yourself, if you’re so clever.")
 dialogStr("Опитай ти щом се имаш за много умен.")
 
 dialogId("pyr-m-comy", "font_small", "What should we say?")
 dialogStr("Как да ти кажа...")
 
-dialogId("pyr-m-nic", "font_small", "You don`t have to carry anything.")
+dialogId("pyr-m-nic", "font_small", "You don’t have to carry anything.")
 dialogStr("Няма нужда да носиш нищо.")
 
-dialogId("pyr-v-sfing", "font_big", "Don`t be afraid.")
+dialogId("pyr-v-sfing", "font_big", "Don’t be afraid.")
 dialogStr("Не се плаши.")
 
 dialogId("pyr-m-dest", "font_small", "What is it written on these tablets?")

@@ -7,11 +7,11 @@ dialogId("cil-m-hlaska0", "font_small", "I think we have a job to do here.")
 dialogStr("Creo que tenemos trabajo que hacer aquí.")
 
 
-dialogId("cil-v-hlaska1", "font_big", "We didn`t fulfill our mission yet.")
+dialogId("cil-v-hlaska1", "font_big", "We didn’t fulfill our mission yet.")
 dialogStr("No hemos completado nuestra misión todavía.")
 
 
-dialogId("cil-m-hlaska1", "font_small", "We didn`t fulfill our mission yet.")
+dialogId("cil-m-hlaska1", "font_small", "We didn’t fulfill our mission yet.")
 dialogStr("No hemos completado nuestra misión todavía.")
 
 

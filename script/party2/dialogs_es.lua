@@ -7,7 +7,7 @@ dialogId("pt2-v-zmena", "font_big", "Can you see it? Something has changed while
 dialogStr("¿Puedes verlo? Algo ha cambiado mientras estábamos lejos. En serio, alguien nos está mirando.")
 
 
-dialogId("pt2-m-hrac", "font_small", "Why do you keep looking at us? Can`t you see it makes us nervous?")
+dialogId("pt2-m-hrac", "font_small", "Why do you keep looking at us? Can’t you see it makes us nervous?")
 dialogStr("¿Porqué nos sigues mirando? ¿No ves que nos pones nerviosos?")
 
 
@@ -19,7 +19,7 @@ dialogId("pt2-m-piknik1", "font_small", "The picnic is over.")
 dialogStr("El picnic se acabó.")
 
 
-dialogId("pt2-m-piknik2", "font_small", "That`s all that is left from the picnic.")
+dialogId("pt2-m-piknik2", "font_small", "That’s all that is left from the picnic.")
 dialogStr("Eso es todo lo que quedó del picnic.")
 
 
@@ -43,10 +43,10 @@ dialogId("pt2-v-nemohou1", "font_big", "I think they are quite harmless now.")
 dialogStr("Creo que son bastante inofensivos ahora.")
 
 
-dialogId("pt2-v-minule0", "font_big", "It won`t be that easy like the last time.")
+dialogId("pt2-v-minule0", "font_big", "It won’t be that easy like the last time.")
 dialogStr("No será tan fácil como la última vez.")
 
 
-dialogId("pt2-v-minule1", "font_big", "It seems it`s going to be more difficult this time.")
+dialogId("pt2-v-minule1", "font_big", "It seems it’s going to be more difficult this time.")
 dialogStr("Parece que será más difícil esta vez.")
 

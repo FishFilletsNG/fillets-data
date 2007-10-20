@@ -5,13 +5,13 @@ dialogStr("Quell'oggetto là dev'essere il Sacro Graal!")
 dialogId("gr-v-jiste", "font_big", "How can you be so sure?")
 dialogStr("Come puoi esserne certa?")
 
-dialogId("gr-m-zare0", "font_small", "Can`t you see that halo?")
+dialogId("gr-m-zare0", "font_small", "Can’t you see that halo?")
 dialogStr("Non vedi l'aureola?")
 
-dialogId("gr-m-zare1", "font_small", "Can`t you see how it glows among the others?")
+dialogId("gr-m-zare1", "font_small", "Can’t you see how it glows among the others?")
 dialogStr("Non vedi come brilla in mezzo agli altri?")
 
-dialogId("gr-m-zare2", "font_small", "Can`t you see how conspicuously is it placed in the center of the cave?")
+dialogId("gr-m-zare2", "font_small", "Can’t you see how conspicuously is it placed in the center of the cave?")
 dialogStr("Non vedi come è stato messo in bella mostra al centro della caverna?")
 
 dialogId("gr-v-nic0", "font_big", "The halo means nothing. The Holy Grail could look quite plain.")
@@ -29,13 +29,13 @@ dialogStr("Sento che non sarà come sembra.")
 dialogId("gr-m-tuseni", "font_small", "You and your feelings.")
 dialogStr("Tu e i tuoi presentimenti...")
 
-dialogId("gr-m-svaty0", "font_small", "Let`s go, we shall take that central glowing Grail with us.")
+dialogId("gr-m-svaty0", "font_small", "Let’s go, we shall take that central glowing Grail with us.")
 dialogStr("Andiamo, prenderemo quel Graal luccicante là in mezzo con noi.")
 
-dialogId("gr-v-vsechny0", "font_big", "I`d rather take all of them.")
+dialogId("gr-v-vsechny0", "font_big", "I’d rather take all of them.")
 dialogStr("Io piuttosto li prenderei tutti.")
 
-dialogId("gr-m-vsechny0", "font_small", "Hmm... It seems you were right. We`ll take them all.")
+dialogId("gr-m-vsechny0", "font_small", "Hmm... It seems you were right. We’ll take them all.")
 dialogStr("Mmm... sembra che avessi ragione. Li prenderemo tutti.")
 
 dialogId("gr-m-svaty1", "font_small", "Our goal in this level is to push out the Holy Grail.")

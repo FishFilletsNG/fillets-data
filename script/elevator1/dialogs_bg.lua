@@ -10,10 +10,10 @@ dialogStr("Обаче само надолу.")
 dialogId("zd1-m-last", "font_small", "Do you see that shell?")
 dialogStr("Виждаш ли онази черупка?")
 
-dialogId("zd1-v-talis", "font_big", "It`s an age-old talisman for elevator builders who always said 'Build well. Build with Shell`.")
+dialogId("zd1-v-talis", "font_big", "It’s an age-old talisman for elevator builders who always said 'Build well. Build with Shell’.")
 dialogStr("Това е много стар талисман на строителите на асансьори, чийто девиз е бил: „Строй добре, строй с Шел“.")
 
-dialogId("zd1-m-poved", "font_small", "Isn`t that shell a little bit familiar?")
+dialogId("zd1-m-poved", "font_small", "Isn’t that shell a little bit familiar?")
 dialogStr("Онази черупка не ти ли е позната?")
 
 dialogId("zd1-v-styd", "font_big", "They should be ashamed of themselves. This is subliminal advertising.")
@@ -34,16 +34,16 @@ dialogStr("Чувствам се като мишка във въртележка
 dialogId("zd1-m-slap", "font_small", "A treadmill for fish? But we only have fins.")
 dialogStr("Въртележка за риби? Но ние имаме само перки.")
 
-dialogId("zd1-x-huhu1", "font_lightgrey", "Hoo, hooooo, hoooo... I`m over heeeere...")
+dialogId("zd1-x-huhu1", "font_lightgrey", "Hoo, hooooo, hoooo... I’m over heeeere...")
 dialogStr("Хуу, Хууууу, Хууу... Туук съ-ъ-ъм...")
 
-dialogId("zd1-x-huhu2", "font_lightgrey", "Hoooo, if you want I`ll tell you how to solve all the levels...")
+dialogId("zd1-x-huhu2", "font_lightgrey", "Hoooo, if you want I’ll tell you how to solve all the levels...")
 dialogStr("Хуууу, мога да ви кажа как да минете всички нива...")
 
 dialogId("zd1-x-huhu3", "font_lightgrey", "Hooo, ho, hooo, I know why the city sank!")
 dialogStr("Хууу, ху, хууу, знам защо е потънал градът!")
 
-dialogId("zd1-x-huhu4", "font_lightgrey", "Hoooo, why isn`t anyone paying attention to me?")
+dialogId("zd1-x-huhu4", "font_lightgrey", "Hoooo, why isn’t anyone paying attention to me?")
 dialogStr("Хуууу, защо никой не ми обръща внимание?")
 
 dialogId("zd1-x-huhu5", "font_lightgrey", "Hoooo ho hooo! Why are you ignoring me?")

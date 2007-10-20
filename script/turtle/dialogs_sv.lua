@@ -7,7 +7,7 @@ dialogId("zel-v-zelva1", "font_big", "Yes, this is it. The telepathic turtle.")
 dialogStr("Ja, där är den. Den telepatiska sköldpaddan.")
 
 
-dialogId("zel-m-fotky0", "font_small", "Well, I don`t know. Judging from those photos, it could be it.")
+dialogId("zel-m-fotky0", "font_small", "Well, I don’t know. Judging from those photos, it could be it.")
 dialogStr("Tja, jag vet inte. Att döma från fotona så kan det vara den.")
 
 
@@ -19,7 +19,7 @@ dialogId("zel-v-zmistnosti0", "font_big", "In any case we have to get it out of 
 dialogStr("Hur som helst så måste vi få ut den ur rummet.")
 
 
-dialogId("zel-v-zmistnosti1", "font_big", "Let`s take out that turtle.")
+dialogId("zel-v-zmistnosti1", "font_big", "Let’s take out that turtle.")
 dialogStr("Låt oss få ut sköldpaddan.")
 
 
@@ -47,23 +47,23 @@ dialogId("zel-v-coto2", "font_big", "What happened to you?")
 dialogStr("Vad har hänt dig?")
 
 
-dialogId("zel-m-nevim0", "font_small", "I don`t know...")
+dialogId("zel-m-nevim0", "font_small", "I don’t know...")
 dialogStr("Jag vet inte...")
 
 
-dialogId("zel-m-nevim1", "font_small", "I can`t realize...")
+dialogId("zel-m-nevim1", "font_small", "I can’t realize...")
 dialogStr("Jag förstår inte...")
 
 
-dialogId("zel-v-nevim0", "font_big", "I don`t know what`s happening to me...")
+dialogId("zel-v-nevim0", "font_big", "I don’t know what’s happening to me...")
 dialogStr("Jag vet inte vad det är som händer med mig...")
 
 
-dialogId("zel-v-nevim1", "font_big", "I didn`t want to...")
+dialogId("zel-v-nevim1", "font_big", "I didn’t want to...")
 dialogStr("Jag vill inte...")
 
 
-dialogId("zel-v-cosedeje", "font_big", "What`s happening to us?")
+dialogId("zel-v-cosedeje", "font_big", "What’s happening to us?")
 dialogStr("Vad händer med oss?")
 
 
@@ -107,7 +107,7 @@ dialogId("zel-v-bizarni", "font_big", "So many bizarre shapes can only be found 
 dialogStr("Så många bisarra former kan bara hittas på ett korallrev.")
 
 
-dialogId("zel-m-priroda", "font_small", "These corals are Mother Nature`s wonders.")
+dialogId("zel-m-priroda", "font_small", "These corals are Mother Nature’s wonders.")
 dialogStr("De här korallerna är moder naturs under.")
 
 
@@ -115,7 +115,7 @@ dialogId("zel-v-tvary", "font_big", "Where do so many bizarre shapes come from?"
 dialogStr("Var kommer alla dessa bisarra former ifrån?")
 
 
-dialogId("zel-m-jednoduse", "font_small", "It`s easy - designers create tricky problems and leave the drawing to the graphic artists.")
+dialogId("zel-m-jednoduse", "font_small", "It’s easy - designers create tricky problems and leave the drawing to the graphic artists.")
 dialogStr("Det är enkelt - skaparna gör kluriga problem och lämnar ritningarna till grafikerna.")
 
 

@@ -51,11 +51,11 @@ dialogId("smrt-m-3", "font_small", "That must have hurt.")
 dialogStr("Dat zal pijn gedaan hebben.")
 
 
-dialogId("smrt-m-4", "font_small", "He didn`t deserve such a terrible end...")
+dialogId("smrt-m-4", "font_small", "He didn’t deserve such a terrible end...")
 dialogStr("Zo'n vreselijke dood verdiende hij niet...")
 
 
-dialogId("smrt-m-5", "font_small", "So, let`s start again...")
+dialogId("smrt-m-5", "font_small", "So, let’s start again...")
 dialogStr("Zo, laten we maar opnieuw beginnen...")
 
 
@@ -75,7 +75,7 @@ dialogId("smrt-m-6", "font_small", "And I never told him I loved him.")
 dialogStr("En ik heb hem nooit verteld hoeveel ik van hem hou.")
 
 
-dialogId("smrt-m-restart", "font_small", "Luckily, it`s possible to restart the level.")
+dialogId("smrt-m-restart", "font_small", "Luckily, it’s possible to restart the level.")
 dialogStr("Gelukkig kun je het veld opnieuw spelen.")
 
 
@@ -95,14 +95,14 @@ dialogId("smrt-v-posmrtny", "font_big", "Hellooo? Can you hear me hereafter? Is 
 dialogStr("Hallo? Kun je me nog horen? Is er leven na de dood?")
 
 
-dialogId("smrt-m-posmrtny", "font_small", "I don`t know. I don`t think so.")
+dialogId("smrt-m-posmrtny", "font_small", "I don’t know. I don’t think so.")
 dialogStr("Ik weet het niet zeker. Ik denk van niet.")
 
 
-dialogId("smrt-m-autorest", "font_small", "I am not going to solve it alone. Don`t trouble yourself with restart, I`ll do it myself.")
+dialogId("smrt-m-autorest", "font_small", "I am not going to solve it alone. Don’t trouble yourself with restart, I’ll do it myself.")
 dialogStr("Ik ga dit in m'n eentje nooit oplossen. Doe geen moeite om te herstarten, ik doe het zelf wel.")
 
 
-dialogId("smrt-v-autorest", "font_big", "And she is gone. I`m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
+dialogId("smrt-v-autorest", "font_big", "And she is gone. I’m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
 dialogStr("Daar gaat ze. Jij vond haar vast net zo aardig als ik. Dus je hebt er vast niks tegen opnieuw te beginnen met dit veld.")
 

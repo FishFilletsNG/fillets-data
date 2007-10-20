@@ -11,11 +11,11 @@ dialogId("1st-v-ven", "font_big", "We should go and have a look outside.")
 dialogStr("Powinniśmy chyba wyjść i się rozejrzeć.")
 
 
-dialogId("1st-m-pockej", "font_small", "Wait! I`m going with you.")
+dialogId("1st-m-pockej", "font_small", "Wait! I’m going with you.")
 dialogStr("Czekaj, płynę z tobą.")
 
 
-dialogId("1st-m-proc", "font_small", "Why isn`t anything happening?")
+dialogId("1st-m-proc", "font_small", "Why isn’t anything happening?")
 dialogStr("Czemu nic się nie dzieje?")
 
 
@@ -35,11 +35,11 @@ dialogId("1st-v-navod5", "font_big", "...if we can get there without moving anyt
 dialogStr("...jeżeli możemy tam swobodnie dopłynąć...")
 
 
-dialogId("1st-m-navod6", "font_small", "...we`ll follow your clicks.")
+dialogId("1st-m-navod6", "font_small", "...we’ll follow your clicks.")
 dialogStr("...to tam popłyniemy.")
 
 
-dialogId("1st-v-navod7", "font_big", "And when you right-click somewhere, we`ll try to get there, pushing aside all obstacles in our way.")
+dialogId("1st-v-navod7", "font_big", "And when you right-click somewhere, we’ll try to get there, pushing aside all obstacles in our way.")
 dialogStr("A gdy klikniesz gdzieś prawym przyciskiem, popłyniemy tam spychając z drogi wszelkie przeszkody.")
 
 
@@ -51,7 +51,7 @@ dialogId("1st-v-davej", "font_big", "And be careful not to hurt us. If you drop 
 dialogStr("Ale uważaj, żeby nie zrobić nam krzywdy. Jeśli coś na nas upuścisz, albo...")
 
 
-dialogId("1st-m-nechtoho", "font_small", "Oh, stop it. We`ll tell him in the next level.")
+dialogId("1st-m-nechtoho", "font_small", "Oh, stop it. We’ll tell him in the next level.")
 dialogStr("No, już wystarczy. Powiemy mu w następnym poziomie.")
 
 
@@ -59,11 +59,11 @@ dialogId("1st-v-takdobre", "font_big", "Okay.")
 dialogStr("No dobra.")
 
 
-dialogId("1st-m-neprojedu", "font_small", "I can`t get through here. That steel cylinder is in the way.")
+dialogId("1st-m-neprojedu", "font_small", "I can’t get through here. That steel cylinder is in the way.")
 dialogStr("Tędy się nie przecisnę. Ta stalowa rura blokuje mi drogę.")
 
 
-dialogId("1st-m-nepohnu", "font_small", "I can`t move that cylinder. Can you help me?")
+dialogId("1st-m-nepohnu", "font_small", "I can’t move that cylinder. Can you help me?")
 dialogStr("Nie dam rady przesunąć tej rury. Pomożesz mi?")
 
 
@@ -79,7 +79,7 @@ dialogId("1st-m-diky", "font_small", "Thanks, now I can go with you.")
 dialogStr("Dzięki, teraz już mogę płynąć z tobą.")
 
 
-dialogId("1st-v-nemuzu", "font_big", "Darn it, I can`t get through.")
+dialogId("1st-v-nemuzu", "font_big", "Darn it, I can’t get through.")
 dialogStr("Pies to trącał, nie mogę przepłynąć.")
 
 
@@ -95,7 +95,7 @@ dialogId("1st-v-chyba", "font_big", "Ooops! That was a mistake. Both of us have 
 dialogStr("To był błąd. Aby ukończyć poziom, oboje musimy opuścić pomieszczenie.")
 
 
-dialogId("1st-v-nedostanu", "font_big", "There`s no way I can get out now. You`ll have to restart the level.")
+dialogId("1st-v-nedostanu", "font_big", "There’s no way I can get out now. You’ll have to restart the level.")
 dialogStr("Ja już się stąd nie wydostanę. Musisz zrestartować poziom.")
 
 
@@ -123,6 +123,6 @@ dialogId("1st-v-znovu", "font_big", "You just have to press the long arrow on yo
 dialogStr("Po prostu naciśnij ten klawisz z długą strzałką.")
 
 
-dialogId("1st-x-ocel", "font_darkgrey", "I`m a heavy steel cylinder. It`s not easy to move me around. Such a tiny fish, like the orange one over there, simply has no chance. I could smash her without any problem.")
+dialogId("1st-x-ocel", "font_darkgrey", "I’m a heavy steel cylinder. It’s not easy to move me around. Such a tiny fish, like the orange one over there, simply has no chance. I could smash her without any problem.")
 dialogStr("Jestem ciężką, stalową rurą. Niełatwo mnie przesunąć. Taka mała rybka jak ta pomarańczowa nie ma najmniejszych szans. Mogłabym ją zmiażdżyć bez mrugnięcia okiem.")
 

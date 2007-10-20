@@ -1,5 +1,5 @@
 
-dialogId("poc-m-lezt0", "font_small", "That`s another fine mess.")
+dialogId("poc-m-lezt0", "font_small", "That’s another fine mess.")
 dialogStr("Kam jsme to zase vlezli?")
 
 
@@ -31,7 +31,7 @@ dialogId("poc-v-nenajde", "font_big", "You can find many strange things in such 
 dialogStr("Co všechno se na takovém smetišti nenajde.")
 
 
-dialogId("poc-m-myslis", "font_small", "Do you think this is the computer that`s at stake in this game?")
+dialogId("poc-m-myslis", "font_small", "Do you think this is the computer that’s at stake in this game?")
 dialogStr("Myslíš, že tohle je ten počítač, o který se tu hraje?")
 
 
@@ -63,7 +63,7 @@ dialogId("poc-v-stahni", "font_big", "So what are we waiting for? Put that suspi
 dialogStr("Tak na co čekáme? Stáhni na disketu ta podezřelá data a můžeme jít.")
 
 
-dialogId("poc-m-ukryta", "font_small", "It won`t be as easy as that. The data is surely going to be hidden somewhere. We have to go in.")
+dialogId("poc-m-ukryta", "font_small", "It won’t be as easy as that. The data is surely going to be hidden somewhere. We have to go in.")
 dialogStr("To nebude tak jednoduché. Data v něm budou určitě dobře ukryta. Budu se muset dostat dovnitř.")
 
 

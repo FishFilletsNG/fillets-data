@@ -25,7 +25,7 @@ dialogStr("")
 dialogId("dr-m-tojesnad", "font_small", "This must be a Viking ship!")
 dialogStr("Това трябва да е викингски кораб!")
 
-dialogId("dr-v-jiste", "font_big", "Sure, it`s a drakkar.")
+dialogId("dr-v-jiste", "font_big", "Sure, it’s a drakkar.")
 dialogStr("Естествено, това е драккар.")
 
 dialogId("dr-m-musela", "font_small", "She must have sunk fast. The oarsmen are still in their places.")

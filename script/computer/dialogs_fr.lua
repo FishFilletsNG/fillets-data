@@ -1,5 +1,5 @@
 
-dialogId("poc-m-lezt0", "font_small", "That`s another fine mess.")
+dialogId("poc-m-lezt0", "font_small", "That’s another fine mess.")
 dialogStr("Une autre belle pagaille.")
 
 
@@ -31,7 +31,7 @@ dialogId("poc-v-nenajde", "font_big", "You can find many strange things in such 
 dialogStr("Tu peux trouver beaucoup de choses bizarres dans un tel dépotoir.")
 
 
-dialogId("poc-m-myslis", "font_small", "Do you think this is the computer that`s at stake in this game?")
+dialogId("poc-m-myslis", "font_small", "Do you think this is the computer that’s at stake in this game?")
 dialogStr("Penses-tu que c'est l'ordinateur qui est misé dans ce jeu ?")
 
 
@@ -63,7 +63,7 @@ dialogId("poc-v-stahni", "font_big", "So what are we waiting for? Put that suspi
 dialogStr("Qu'est que nous attendons alors ? Récupérons les données sur la disquette et partons.")
 
 
-dialogId("poc-m-ukryta", "font_small", "It won`t be as easy as that. The data is surely going to be hidden somewhere. We have to go in.")
+dialogId("poc-m-ukryta", "font_small", "It won’t be as easy as that. The data is surely going to be hidden somewhere. We have to go in.")
 dialogStr("Ce n'est pas aussi simple que ça. Les données sont sûrement cachées. Nous devons entrer à l'intérieur.")
 
 

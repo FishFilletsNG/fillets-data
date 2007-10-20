@@ -11,7 +11,7 @@ dialogId("pyr-m-plaz", "font_small", "What is that crawling around over there?")
 dialogStr("Co tam pełznie?")
 
 
-dialogId("pyr-v-druha", "font_big", "You can`t see it from here. It`s on the other side of wall.")
+dialogId("pyr-v-druha", "font_big", "You can’t see it from here. It’s on the other side of wall.")
 dialogStr("Przecież tego nie widzisz, to jest po drugiej stronie muru!")
 
 
@@ -23,7 +23,7 @@ dialogId("pyr-v-sark", "font_big", "Do you think that this is taking us too long
 dialogStr("Nie wydaje ci się, że trochę długo nam to zajmuje?")
 
 
-dialogId("pyr-m-zkus", "font_small", "Try it yourself, if you`re so clever.")
+dialogId("pyr-m-zkus", "font_small", "Try it yourself, if you’re so clever.")
 dialogStr("Sam spróbuj, skoro jesteś taki sprytny.")
 
 
@@ -31,11 +31,11 @@ dialogId("pyr-m-comy", "font_small", "What should we say?")
 dialogStr("A co my mamy powiedzieć?")
 
 
-dialogId("pyr-m-nic", "font_small", "You don`t have to carry anything.")
+dialogId("pyr-m-nic", "font_small", "You don’t have to carry anything.")
 dialogStr("Ty tu nie musisz nic nosić.")
 
 
-dialogId("pyr-v-sfing", "font_big", "Don`t be afraid.")
+dialogId("pyr-v-sfing", "font_big", "Don’t be afraid.")
 dialogStr("Nie bój się.")
 
 

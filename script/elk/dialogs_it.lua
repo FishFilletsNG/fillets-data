@@ -27,7 +27,7 @@ dialogId("deu-l-los", "font_elk", "Ya rusky los.")
 dialogStr("Ja ruskij los.")
 
 
-dialogId("deu-v-radsi", "font_big", "I`d like this elk much more if it wasn`t blocking our way so much.")
+dialogId("deu-v-radsi", "font_big", "I’d like this elk much more if it wasn’t blocking our way so much.")
 dialogStr("Avrei preferito quest'alce se non mi fosse stato tra i piedi.")
 
 

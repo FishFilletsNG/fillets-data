@@ -1,4 +1,4 @@
-dialogId("odp-v-kachna", "font_big", "Doesn`t this duck look suspicious to you?")
+dialogId("odp-v-kachna", "font_big", "Doesn’t this duck look suspicious to you?")
 dialogStr("Това пате не ти ли изглежда подозрително?")
 
 dialogId("odp-m-zda0", "font_small", "I think it looks dumb.")

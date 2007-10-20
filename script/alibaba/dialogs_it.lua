@@ -5,7 +5,7 @@ dialogStr("Dal tesoro al deposito candele. Questo è quello che si chiama un pro
 dialogId("kni-v-ber", "font_big", "You have to look on the bright side. There is nothing that looks like a grail here.")
 dialogStr("Devi vederla dal lato positivo. Qua non c'è niente che sembri il Graal.")
 
-dialogId("kni-v-prolezt", "font_big", "It seems that I`ll have to go through that horrible maze.")
+dialogId("kni-v-prolezt", "font_big", "It seems that I’ll have to go through that horrible maze.")
 dialogStr("Sembra che io debba passare in quell'orribile labirinto.")
 
 dialogId("kni-m-tloustka", "font_small", "Your fat body. It always hinders us.")
@@ -17,7 +17,7 @@ dialogStr("Lasciami stare, girino rinsecchito.")
 dialogId("kni-m-hromado", "font_small", "Cut the crap, you misshaped heap of muscles and scales, will you?")
 dialogStr("Chiudi il becco, brutto ammasso di muscoli e scaglie.")
 
-dialogId("kni-v-vypni", "font_big", "Could you restart the level, please? We don`t seem to be getting along very well now.")
+dialogId("kni-v-vypni", "font_big", "Could you restart the level, please? We don’t seem to be getting along very well now.")
 dialogStr("Potresti ricominciare il livello, per favore? L'atmosfera si sta guastando.")
 
 dialogId("kni-m-hrncirstvi", "font_small", "I feel like I am in the pottery warehouse.")
@@ -38,5 +38,5 @@ dialogStr("E perché?")
 dialogId("kni-m-cetky", "font_small", "I grew to understand that jewels and gold are but cheap trinkets.")
 dialogStr("Sono giunta a comprendere che gioielli e oro sono solo fronzoli di poco conto.")
 
-dialogId("kni-m-kramy", "font_small", "I can`t bear the darned stuff any longer!")
+dialogId("kni-m-kramy", "font_small", "I can’t bear the darned stuff any longer!")
 dialogStr("Non ci sto più dentro!")

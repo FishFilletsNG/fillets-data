@@ -1,5 +1,5 @@
 
-dialogId("kos-m-uklid0", "font_small", "It`s been a long time since we`ve been here...")
+dialogId("kos-m-uklid0", "font_small", "It’s been a long time since we’ve been here...")
 dialogStr("È da tanto che non veninamo qui...")
 
 
@@ -7,7 +7,7 @@ dialogId("kos-m-uklid1", "font_small", "Nobody has cleaned up in here for a long
 dialogStr("È tanto che qui nessuno viene a pulire.")
 
 
-dialogId("kos-m-uklid2", "font_small", "I knew we`d have to clean this room up.")
+dialogId("kos-m-uklid2", "font_small", "I knew we’d have to clean this room up.")
 dialogStr("Sapevo che avremmo dovuto pulire questa stanza.")
 
 
@@ -19,11 +19,11 @@ dialogId("kos-v-poradek1", "font_big", "At least things will finally be in order
 dialogStr("Almeno faremo ordine una volta per tutte.")
 
 
-dialogId("kos-v-poradek2", "font_big", "I`ll have to do the sweeping.")
+dialogId("kos-v-poradek2", "font_big", "I’ll have to do the sweeping.")
 dialogStr("Dovrò passare la scopa.")
 
 
-dialogId("kos-v-koste0", "font_big", "It`s a good thing we have that broom.")
+dialogId("kos-v-koste0", "font_big", "It’s a good thing we have that broom.")
 dialogStr("Buon per noi che abbiamo quella scopa.")
 
 
@@ -35,7 +35,7 @@ dialogId("kos-v-koste2", "font_big", "Could you please hand me that broom? And t
 dialogStr("Potresti passarmi quella scopa? E cerca di non darmela in testa.")
 
 
-dialogId("kos-m-zamet0", "font_small", "I think it`ll be fine if you just sweep it all down there.")
+dialogId("kos-m-zamet0", "font_small", "I think it’ll be fine if you just sweep it all down there.")
 dialogStr("Basta che spazzi tutto là sotto.")
 
 
@@ -43,7 +43,7 @@ dialogId("kos-m-zamet1", "font_small", "It should all fit.")
 dialogStr("Dovrebbe starci tutto.")
 
 
-dialogId("kos-m-zamet2", "font_small", "Just sweep it down and we`ll be out of here.")
+dialogId("kos-m-zamet2", "font_small", "Just sweep it down and we’ll be out of here.")
 dialogStr("Buttà tutto laggiù e ce ne potremo andare.")
 
 

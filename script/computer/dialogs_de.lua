@@ -1,5 +1,5 @@
 
-dialogId("poc-m-lezt0", "font_small", "That`s another fine mess.")
+dialogId("poc-m-lezt0", "font_small", "That’s another fine mess.")
 dialogStr("Was für eine Sauerei!")
 
 
@@ -8,7 +8,7 @@ dialogStr("Wo sind wir hier?")
 
 
 dialogId("poc-m-lezt2", "font_small", "Wow, what a place!")
-dialogStr("Boa, wie sieht`s hier denn aus?")
+dialogStr("Boa, wie sieht’s hier denn aus?")
 
 
 dialogId("poc-v-kam0", "font_big", "Where can man - I mean fish - get by climbing into a toilet?")
@@ -31,7 +31,7 @@ dialogId("poc-v-nenajde", "font_big", "You can find many strange things in such 
 dialogStr("Man kann viele seltsame Dinge auf so einer Müllkippe finden.")
 
 
-dialogId("poc-m-myslis", "font_small", "Do you think this is the computer that`s at stake in this game?")
+dialogId("poc-m-myslis", "font_small", "Do you think this is the computer that’s at stake in this game?")
 dialogStr("Denkst du, dass es in diesem Spiel um diesen Rechner geht?")
 
 
@@ -63,7 +63,7 @@ dialogId("poc-v-stahni", "font_big", "So what are we waiting for? Put that suspi
 dialogStr("Worauf warten wir? Speicher die verdächtigen Daten auf Diskette und weg hier!")
 
 
-dialogId("poc-m-ukryta", "font_small", "It won`t be as easy as that. The data is surely going to be hidden somewhere. We have to go in.")
+dialogId("poc-m-ukryta", "font_small", "It won’t be as easy as that. The data is surely going to be hidden somewhere. We have to go in.")
 dialogStr("So leicht wird das nicht sein. Die Daten sind sicherlich irgendwo versteckt. Wir müssen reingehen.")
 
 

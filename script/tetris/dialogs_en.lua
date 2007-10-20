@@ -13,7 +13,7 @@ dialogId("tet-v-lepsi", "font_big", "I think we could do a better tetris than th
 
 dialogId("tet-m-jaklepsi", "font_small", "What do you mean, better?")
 
-dialogId("tet-v-hybat", "font_big", "At least, you won`t have to move all the pieces to the right.")
+dialogId("tet-v-hybat", "font_big", "At least, you won’t have to move all the pieces to the right.")
 
 dialogId("tet-m-predmety", "font_small", "The truth is we have an ample supply of suitable objects here.")
 

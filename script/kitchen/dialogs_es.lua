@@ -11,11 +11,11 @@ dialogId("kuch-m-objev2", "font_small", "Darned kitchen.")
 dialogStr("Maldita cocina.")
 
 
-dialogId("kuch-m-objev3", "font_small", "And now we are in the captain Silver`s kitchen.")
+dialogId("kuch-m-objev3", "font_small", "And now we are in the captain Silver’s kitchen.")
 dialogStr("Y ahora estamos en la cocina del capitán Silver.")
 
 
-dialogId("kuch-v-varil", "font_big", "I don`t think he was a cook himself.")
+dialogId("kuch-v-varil", "font_big", "I don’t think he was a cook himself.")
 dialogStr("No creo que él haya sido cocinero.")
 
 
@@ -31,7 +31,7 @@ dialogId("kuch-v-podivej", "font_big", "But just have a look at me.")
 dialogStr("Pero mira hacia acá un poco.")
 
 
-dialogId("kuch-v-stolky0", "font_big", "I can`t understand how these serving tables got there.")
+dialogId("kuch-v-stolky0", "font_big", "I can’t understand how these serving tables got there.")
 dialogStr("No puedo entender como esas tablas llegaron allí.")
 
 
@@ -43,11 +43,11 @@ dialogId("kuch-v-stolky2", "font_big", "This little chamber gives me the creeps.
 dialogStr("Ese pequeño compartimento me da escalofríos.")
 
 
-dialogId("kuch-v-odsud0", "font_big", "I can`t get out of here!")
+dialogId("kuch-v-odsud0", "font_big", "I can’t get out of here!")
 dialogStr("¡No puedo salir de aquí!")
 
 
-dialogId("kuch-m-premyslim0", "font_small", "I`m just thinking how to help you.")
+dialogId("kuch-m-premyslim0", "font_small", "I’m just thinking how to help you.")
 dialogStr("Sólo estoy pensando en como ayudarte.")
 
 
@@ -67,7 +67,7 @@ dialogId("kuch-m-hrnec0", "font_small", "Yuck, there is something left in this p
 dialogStr("Que asco, hay algo que quedó en este recipiente.")
 
 
-dialogId("kuch-m-hrnec1", "font_small", "This pot wasn`t even washed up.")
+dialogId("kuch-m-hrnec1", "font_small", "This pot wasn’t even washed up.")
 dialogStr("Este recipiente ni siquiera ha sido lavado.")
 
 
@@ -123,7 +123,7 @@ dialogId("kuch-m-porcovani", "font_small", "Maybe they used it to cut the meat."
 dialogStr("Quizás la usaban para cortar la carne.")
 
 
-dialogId("kuch-v-nedela", "font_big", "Certainly. But you don`t cut meat with a sword in the kitchen, usually.")
+dialogId("kuch-v-nedela", "font_big", "Certainly. But you don’t cut meat with a sword in the kitchen, usually.")
 dialogStr("Seguro. Pero tu usualmente no cortas carne con una espada en la cocina.")
 
 

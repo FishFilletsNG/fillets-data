@@ -4,13 +4,13 @@ dialogStr("Онова нещо там трябва да е Светият Гра
 dialogId("gr-v-jiste", "font_big", "How can you be so sure?")
 dialogStr("Защо си толкова сигурна?")
 
-dialogId("gr-m-zare0", "font_small", "Can`t you see that halo?")
+dialogId("gr-m-zare0", "font_small", "Can’t you see that halo?")
 dialogStr("Не виждаш ли ореола?")
 
-dialogId("gr-m-zare1", "font_small", "Can`t you see how it glows among the others?")
+dialogId("gr-m-zare1", "font_small", "Can’t you see how it glows among the others?")
 dialogStr("Не виждаш ли как свети сред останалите?")
 
-dialogId("gr-m-zare2", "font_small", "Can`t you see how conspicuously is it placed in the center of the cave?")
+dialogId("gr-m-zare2", "font_small", "Can’t you see how conspicuously is it placed in the center of the cave?")
 dialogStr("Не виждаш ли колко очевидно е поставен в центъра на пещерата?")
 
 dialogId("gr-v-nic0", "font_big", "The halo means nothing. The Holy Grail could look quite plain.")
@@ -28,13 +28,13 @@ dialogStr("Чувствам, че няма да е каквото изглежд
 dialogId("gr-m-tuseni", "font_small", "You and your feelings.")
 dialogStr("Ти и твоите чувства.")
 
-dialogId("gr-m-svaty0", "font_small", "Let`s go, we shall take that central glowing Grail with us.")
+dialogId("gr-m-svaty0", "font_small", "Let’s go, we shall take that central glowing Grail with us.")
 dialogStr("Да тръгваме, ще вземем централния светещ Граал с нас.")
 
-dialogId("gr-v-vsechny0", "font_big", "I`d rather take all of them.")
+dialogId("gr-v-vsechny0", "font_big", "I’d rather take all of them.")
 dialogStr("Аз бих ги взел всичките.")
 
-dialogId("gr-m-vsechny0", "font_small", "Hmm... It seems you were right. We`ll take them all.")
+dialogId("gr-m-vsechny0", "font_small", "Hmm... It seems you were right. We’ll take them all.")
 dialogStr("Хм... Изглежда си прав. Ще ги вземем всичките.")
 
 dialogId("gr-m-svaty1", "font_small", "Our goal in this level is to push out the Holy Grail.")

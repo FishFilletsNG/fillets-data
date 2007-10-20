@@ -1,5 +1,5 @@
 
-dialogId("poc-m-lezt0", "font_small", "That`s another fine mess.")
+dialogId("poc-m-lezt0", "font_small", "That’s another fine mess.")
 
 dialogId("poc-m-lezt1", "font_small", "What kind of place is this?")
 
@@ -15,7 +15,7 @@ dialogId("poc-v-kam3", "font_big", "I thought it would be worse when I was climb
 
 dialogId("poc-v-nenajde", "font_big", "You can find many strange things in such a dump.")
 
-dialogId("poc-m-myslis", "font_small", "Do you think this is the computer that`s at stake in this game?")
+dialogId("poc-m-myslis", "font_small", "Do you think this is the computer that’s at stake in this game?")
 
 dialogId("poc-v-multimed", "font_big", "Surely not! This is no powerful multimedia computer. This is but an XT machine with a twelve inch display.")
 
@@ -31,7 +31,7 @@ dialogId("poc-m-mohlby", "font_small", "This could be it.")
 
 dialogId("poc-v-stahni", "font_big", "So what are we waiting for? Put that suspicious data on the diskette and off we go.")
 
-dialogId("poc-m-ukryta", "font_small", "It won`t be as easy as that. The data is surely going to be hidden somewhere. We have to go in.")
+dialogId("poc-m-ukryta", "font_small", "It won’t be as easy as that. The data is surely going to be hidden somewhere. We have to go in.")
 
 dialogId("poc-v-dira", "font_big", "And what about getting in through that opening?")
 

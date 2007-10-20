@@ -15,15 +15,15 @@ dialogId("bank-v-pokusy1", "font_big", "These experiments seem quite suspicious 
 dialogStr("De här experimentet ser misstänkt ut.")
 
 
-dialogId("bank-v-pokusy2", "font_big", "I think that someone`s carrying out some rather suspicious experiments here.")
+dialogId("bank-v-pokusy2", "font_big", "I think that someone’s carrying out some rather suspicious experiments here.")
 dialogStr("Jag tycker det ser ut som om någon utför ett misstänksamt experiment här.")
 
 
-dialogId("bank-m-jejda", "font_small", "My gosh, what`s this?!?")
+dialogId("bank-m-jejda", "font_small", "My gosh, what’s this?!?")
 dialogStr("Herre gud, vad är det?!?")
 
 
-dialogId("bank-v-zije", "font_big", "Everything`s alive here.")
+dialogId("bank-v-zije", "font_big", "Everything’s alive here.")
 dialogStr("Allt lever här.")
 
 
@@ -31,7 +31,7 @@ dialogId("bank-m-nerus", "font_small", "Shhhhh, I need to examine this laborator
 dialogStr("Schhh, jag behöver undersöka laboratoriet.")
 
 
-dialogId("bank-m-bojim", "font_small", "I`m little bit afraid of that thing behind the door...")
+dialogId("bank-m-bojim", "font_small", "I’m little bit afraid of that thing behind the door...")
 dialogStr("Jag är rädd för vad som kan finnas bakom dörren...")
 
 
@@ -39,11 +39,11 @@ dialogId("bank-m-ocicka", "font_small", "Why does it have three eyes?")
 dialogStr("Varför har den tre ögon?")
 
 
-dialogId("bank-v-pomoc", "font_big", "Stop what you`re doing down there and come help me!")
+dialogId("bank-v-pomoc", "font_big", "Stop what you’re doing down there and come help me!")
 dialogStr("Sluta upp med vad du håller på med där nere, kom upp och hjälp mig istället!")
 
 
-dialogId("bank-m-organismy", "font_small", "I would never have thought that we`d find so many living things inside a UFO...")
+dialogId("bank-m-organismy", "font_small", "I would never have thought that we’d find so many living things inside a UFO...")
 dialogStr("Jag trodde aldrig att vi skulle hitta så många levande varelser inuti ett UFO...")
 
 
@@ -55,11 +55,11 @@ dialogId("bank-v-mnozeni", "font_big", "My goodness, look at those things reprod
 dialogStr("Herre gud, se hur de förökar sig!")
 
 
-dialogId("bank-m-nesetkala", "font_small", "I`ve never seen this kind of organism before.")
+dialogId("bank-m-nesetkala", "font_small", "I’ve never seen this kind of organism before.")
 dialogStr("Jag har aldrig sätt en sådan här organism förut.")
 
 
-dialogId("bank-m-kouka", "font_small", "Help! It`s looking at me!")
+dialogId("bank-m-kouka", "font_small", "Help! It’s looking at me!")
 dialogStr("Hjälp! Den tittar på mig!")
 
 
@@ -71,7 +71,7 @@ dialogId("bank-m-nervozni", "font_small", "That hand gives me the creeps...")
 dialogStr("Den handen skrämmer mig...")
 
 
-dialogId("bank-m-zkumavka", "font_small", "There`s a strange odor coming from this test-tube...")
+dialogId("bank-m-zkumavka", "font_small", "There’s a strange odor coming from this test-tube...")
 dialogStr("Det kommer en konstig lukt från det här provröret...")
 
 
@@ -79,15 +79,15 @@ dialogId("bank-m-hlavakolem", "font_small", "All of this is making my head spin.
 dialogStr("Allt det här gör mig snurrig...")
 
 
-dialogId("bank-v-neproplavu1", "font_big", "I can`t swim through here. We`re going to have to push this aside.")
+dialogId("bank-v-neproplavu1", "font_big", "I can’t swim through here. We’re going to have to push this aside.")
 dialogStr("Jag kan inte simma igenom här. Vi måste knuffa den åt sidan.")
 
 
-dialogId("bank-v-neproplavu2", "font_big", "I can`t swim through here. We`re going to have to push this down.")
+dialogId("bank-v-neproplavu2", "font_big", "I can’t swim through here. We’re going to have to push this down.")
 dialogStr("Jag kan inte simma igenom här. Vi blir tvungna att knuffa den här åt sidan.")
 
 
-dialogId("bank-v-nahazet", "font_big", "We`re going to need to throw on a lot more of these things.")
+dialogId("bank-v-nahazet", "font_big", "We’re going to need to throw on a lot more of these things.")
 dialogStr("Vi måste slänga ner flera av den här sorten.")
 
 
@@ -99,11 +99,11 @@ dialogId("bank-m-prohlednout", "font_small", "We have to look everything here ov
 dialogStr("Vi måste undersöka allt här mycket noggrant.")
 
 
-dialogId("bank-v-vypad1", "font_big", "I`d rather get out of here.")
+dialogId("bank-v-vypad1", "font_big", "I’d rather get out of here.")
 dialogStr("Jag vill hellre ut här ifrån.")
 
 
-dialogId("bank-v-vypad2", "font_big", "You know, I`d really rather get out of here.")
+dialogId("bank-v-vypad2", "font_big", "You know, I’d really rather get out of here.")
 dialogStr("Vet du, jag skulle hellre vilja ut härifrån.")
 
 

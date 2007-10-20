@@ -11,15 +11,15 @@ dialogId("ch-m-rozsvit2", "font_small", "Cut it out and turn on the lights.")
 dialogStr("Jé, nech si ty srandičky! Rozsviť!")
 
 
-dialogId("ch-v-pockej0", "font_big", "Wait, I`ll try to find the switch.")
+dialogId("ch-v-pockej0", "font_big", "Wait, I’ll try to find the switch.")
 dialogStr("Počkej, zkusím dotápat k vypínači.")
 
 
-dialogId("ch-v-pockej1", "font_big", "I can`t. The dang switch fell down.")
+dialogId("ch-v-pockej1", "font_big", "I can’t. The dang switch fell down.")
 dialogStr("Nejde to, ten zatracenej vypínač spadnul.")
 
 
-dialogId("ch-v-pockej2", "font_big", "Turn on the lights yourself, if you`re so smart.")
+dialogId("ch-v-pockej2", "font_big", "Turn on the lights yourself, if you’re so smart.")
 dialogStr("Rozsviť si sama, když jsi tak chytrá.")
 
 
@@ -51,27 +51,27 @@ dialogId("ch-m-bojim0", "font_small", "Where are you, I am afraid.")
 dialogStr("Kde jsi, mám strach...")
 
 
-dialogId("ch-m-bojim1", "font_small", "I`m afraid of the dark.")
+dialogId("ch-m-bojim1", "font_small", "I’m afraid of the dark.")
 dialogStr("Já se tmy bojím.")
 
 
-dialogId("ch-m-bojim2", "font_small", "Please don`t leave. It`s so dark in here.")
+dialogId("ch-m-bojim2", "font_small", "Please don’t leave. It’s so dark in here.")
 dialogStr("Neodcházej, je tady strašná tma...")
 
 
-dialogId("ch-v-neboj0", "font_big", "Don`t be afraid. I`m here.")
+dialogId("ch-v-neboj0", "font_big", "Don’t be afraid. I’m here.")
 dialogStr("Neboj, já jsem tady.")
 
 
-dialogId("ch-v-neboj1", "font_big", "Stop whining. We`ll manage.")
+dialogId("ch-v-neboj1", "font_big", "Stop whining. We’ll manage.")
 dialogStr("Nefňukej, to zvládnem.")
 
 
-dialogId("ch-v-neboj2", "font_big", "There`s nothing to be afraid of.")
+dialogId("ch-v-neboj2", "font_big", "There’s nothing to be afraid of.")
 dialogStr("Ničeho se neboj.")
 
 
-dialogId("ch-m-doufam", "font_small", "I hope it doesn`t kick me...")
+dialogId("ch-m-doufam", "font_small", "I hope it doesn’t kick me...")
 dialogStr("Doufám, že mě to nekopne...")
 
 
@@ -79,7 +79,7 @@ dialogId("ch-m-blik0", "font_small", "This flickering light is beginning to make
 dialogStr("Už mě z toho blikání bolí oči.")
 
 
-dialogId("ch-m-blik1", "font_small", "I never thought I`d be so glad to see you again.")
+dialogId("ch-m-blik1", "font_small", "I never thought I’d be so glad to see you again.")
 dialogStr("Nikdy bych neřekla, že budu tak ráda, že tě vidím.")
 
 
@@ -103,7 +103,7 @@ dialogId("ch-v-zapada", "font_big", "Well now it all makes sense.")
 dialogStr("Tak teď už do sebe všechno jasně zapadá.")
 
 
-dialogId("ch-m-odpoved0", "font_small", "Including the Cuban missile crisis and Nostradamus` prophecies.")
+dialogId("ch-m-odpoved0", "font_small", "Including the Cuban missile crisis and Nostradamus’ prophecies.")
 dialogStr("Včetně karibské krize a Nostradamova proroctví.")
 
 
@@ -115,7 +115,7 @@ dialogId("ch-m-odpoved2", "font_small", "Including the Challenger explosion and 
 dialogStr("Včetně havárie raketoplánu Challenger a bitvy u Chlumce.")
 
 
-dialogId("ch-m-odpoved3", "font_small", "Including the Chernobyl meltdown and the wreck of Noah`s Ark.")
+dialogId("ch-m-odpoved3", "font_small", "Including the Chernobyl meltdown and the wreck of Noah’s Ark.")
 dialogStr("Včetně havárie v Černobylu a ztroskotání Noemovy archy.")
 
 
@@ -135,15 +135,15 @@ dialogId("ch-x-click2", "font_lightgrey", "CLICK")
 dialogStr("CVAK")
 
 
-dialogId("ch-r-nevsimej0", "font_robodog", "Don`t listen to them, player. They are kidding you.")
+dialogId("ch-r-nevsimej0", "font_robodog", "Don’t listen to them, player. They are kidding you.")
 dialogStr("Nevšímej si jich, hráči, dělají si z tebe legraci.")
 
 
-dialogId("ch-r-nevsimej1", "font_robodog", "Don`t listen to them, player. They are trying to be funny.")
+dialogId("ch-r-nevsimej1", "font_robodog", "Don’t listen to them, player. They are trying to be funny.")
 dialogStr("Nevšímej si jich, hráči, tropí si z tebe žerty.")
 
 
-dialogId("ch-r-nevsimej2", "font_robodog", "Don`t listen to them, player. They are trying to fool you.")
+dialogId("ch-r-nevsimej2", "font_robodog", "Don’t listen to them, player. They are trying to fool you.")
 dialogStr("Nevšímej si jich, hráči, tropí si z tebe řiť.")
 
 
@@ -171,7 +171,7 @@ dialogId("ch-r-anavic0", "font_robodog", "And I visited Cuba only once.")
 dialogStr("A u té karibské krize jsem se jen nachomýtl.")
 
 
-dialogId("ch-r-anavic1", "font_robodog", "And everybody knows somebody else murdered him, they can`t prove anything.")
+dialogId("ch-r-anavic1", "font_robodog", "And everybody knows somebody else murdered him, they can’t prove anything.")
 dialogStr("A z té vraždy usvědčili přece někoho jiného, mně nic nedokážou, nikdo mě neviděl.")
 
 
@@ -179,6 +179,6 @@ dialogId("ch-r-anavic2", "font_robodog", "And who cares about a few soldiers.")
 dialogStr("A pro těch pár sedláků se nikdo nezblázní.")
 
 
-dialogId("ch-r-anavic3", "font_robodog", "And they told me that the regulatory rod wasn`t important.")
+dialogId("ch-r-anavic3", "font_robodog", "And they told me that the regulatory rod wasn’t important.")
 dialogStr("A navíc říkali, že ta regulační tyč není v reaktoru důležitá.")
 

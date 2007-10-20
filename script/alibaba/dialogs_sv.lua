@@ -7,7 +7,7 @@ dialogId("kni-v-ber", "font_big", "You have to look on the bright side. There is
 dialogStr("Du måste se det från den ljusa sidan. Det finns inget som ser ut som en gral här.")
 
 
-dialogId("kni-v-prolezt", "font_big", "It seems that I`ll have to go through that horrible maze.")
+dialogId("kni-v-prolezt", "font_big", "It seems that I’ll have to go through that horrible maze.")
 dialogStr("Det ser ut som om jag måste simma genom den hemska labyrinten.")
 
 
@@ -23,7 +23,7 @@ dialogId("kni-m-hromado", "font_small", "Cut the crap, you misshaped heap of mus
 dialogStr("Sila snacket, din felproportionerade hög av muskler och skal, seriöst!")
 
 
-dialogId("kni-v-vypni", "font_big", "Could you restart the level, please? We don`t seem to be getting along very well now.")
+dialogId("kni-v-vypni", "font_big", "Could you restart the level, please? We don’t seem to be getting along very well now.")
 dialogStr("Kan du starta om nivån, snälla? Vi verkar inte komma så bra överens längre.")
 
 
@@ -51,6 +51,6 @@ dialogId("kni-m-cetky", "font_small", "I grew to understand that jewels and gold
 dialogStr("Jag växte och förstog att juveler och guld bara är billigt krafs.")
 
 
-dialogId("kni-m-kramy", "font_small", "I can`t bear the darned stuff any longer!")
+dialogId("kni-m-kramy", "font_small", "I can’t bear the darned stuff any longer!")
 dialogStr("Jag orkar inte längre!")
 

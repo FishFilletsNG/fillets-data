@@ -3,7 +3,7 @@ dialogId("ncp-m-tesno0", "font_small", "Look, how I am supposed to get out of he
 dialogStr("Dis-moi, comment vais-je sortir d'ici ?")
 
 
-dialogId("ncp-m-tesno1", "font_small", "It`s quite tight in here.")
+dialogId("ncp-m-tesno1", "font_small", "It’s quite tight in here.")
 dialogStr("Je suis plutôt à l'étroit ici.")
 
 
@@ -15,7 +15,7 @@ dialogId("ncp-v-sasanka", "font_big", "Stop playing with anemones and help me to
 dialogStr("Arrête de jouer avec l'anémone et aide moi à nous sortir d'ici.")
 
 
-dialogId("ncp-m-nekoukej", "font_small", "Don`t be surprised.")
+dialogId("ncp-m-nekoukej", "font_small", "Don’t be surprised.")
 dialogStr("Ne sois pas étonné.")
 
 
@@ -43,11 +43,11 @@ dialogId("ncp-v-tak", "font_big", "So!")
 dialogStr("Eh !")
 
 
-dialogId("ncp-m-muzes", "font_small", "Now you can get out, can`t you?")
+dialogId("ncp-m-muzes", "font_small", "Now you can get out, can’t you?")
 dialogStr("Maintenant tu peux sortir, non ?")
 
 
-dialogId("ncp-v-neprojedu", "font_big", "Hmm, I can`t get through here...")
+dialogId("ncp-v-neprojedu", "font_big", "Hmm, I can’t get through here...")
 dialogStr("Hmm, je ne peux pas passer ici...")
 
 

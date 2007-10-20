@@ -51,11 +51,11 @@ dialogId("smrt-m-3", "font_small", "That must have hurt.")
 dialogStr("To musiało boleć.")
 
 
-dialogId("smrt-m-4", "font_small", "He didn`t deserve such a terrible end...")
+dialogId("smrt-m-4", "font_small", "He didn’t deserve such a terrible end...")
 dialogStr("Biedaczysko, nie zasłużył na taki koniec...")
 
 
-dialogId("smrt-m-5", "font_small", "So, let`s start again...")
+dialogId("smrt-m-5", "font_small", "So, let’s start again...")
 dialogStr("Spróbujmy jeszcze raz...")
 
 
@@ -75,7 +75,7 @@ dialogId("smrt-m-6", "font_small", "And I never told him I loved him.")
 dialogStr("Nigdy mu nie powiedziałam, że go kocham...")
 
 
-dialogId("smrt-m-restart", "font_small", "Luckily, it`s possible to restart the level.")
+dialogId("smrt-m-restart", "font_small", "Luckily, it’s possible to restart the level.")
 dialogStr("Na szczęście wystarczy zrestartować poziom.")
 
 
@@ -95,14 +95,14 @@ dialogId("smrt-v-posmrtny", "font_big", "Hellooo? Can you hear me hereafter? Is 
 dialogStr("Halooo. Słyszysz mnie tam gdzie jesteś? Jest to życie po śmierci, czy go nie ma?")
 
 
-dialogId("smrt-m-posmrtny", "font_small", "I don`t know. I don`t think so.")
+dialogId("smrt-m-posmrtny", "font_small", "I don’t know. I don’t think so.")
 dialogStr("Nie wiem. Chyba nie.")
 
 
-dialogId("smrt-m-autorest", "font_small", "I am not going to solve it alone. Don`t trouble yourself with restart, I`ll do it myself.")
+dialogId("smrt-m-autorest", "font_small", "I am not going to solve it alone. Don’t trouble yourself with restart, I’ll do it myself.")
 dialogStr("Sama nie dam rady. Nie trudź się restartem, ja to zrobię.")
 
 
-dialogId("smrt-v-autorest", "font_big", "And she is gone. I`m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
+dialogId("smrt-v-autorest", "font_big", "And she is gone. I’m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
 dialogStr("No i po niej... Jestem pewien, że lubiłeś ją co najmniej tak, jak ja. Nie masz więc nic przeciwko rozpoczęciu pozioimu od nowa?")
 

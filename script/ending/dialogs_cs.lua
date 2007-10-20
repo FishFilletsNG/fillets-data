@@ -11,7 +11,7 @@ dialogId("z-v-sef", "font_big", "The boss called a moment ago. He was very satis
 dialogStr("Před chvílí volal šéf. Byl s námi moc spokojen.")
 
 
-dialogId("z-m-nemluv", "font_small", "Don`t mention the boss to me. He sits somewhere in his cozy office and we have to do all the dirty work.")
+dialogId("z-m-nemluv", "font_small", "Don’t mention the boss to me. He sits somewhere in his cozy office and we have to do all the dirty work.")
 dialogStr("O šéfovi mi ani nemluv. On si sedí někde v teploučku, zatím co my jsme se dřely.")
 
 
@@ -19,19 +19,19 @@ dialogId("z-v-slyset", "font_big", "Shhh, he could hear us.")
 dialogStr("Pssst, může nás slyšet.")
 
 
-dialogId("z-m-netusi", "font_small", "How could he? He surely doesn`t even know how long it took us.")
+dialogId("z-m-netusi", "font_small", "How could he? He surely doesn’t even know how long it took us.")
 dialogStr("Jak by nás mohl slyšet. Určitě ani netuší, jak dlouho nám to trvalo.")
 
 
-dialogId("z-m-dlouho", "font_small", "Really? It didn`t seem that long to me.")
+dialogId("z-m-dlouho", "font_small", "Really? It didn’t seem that long to me.")
 dialogStr("Jé, tak dlouho mi to ani nepřipadlo.")
 
 
-dialogId("z-v-pozdrav", "font_big", "Dear player. We would like to communicate to you the high regards of the authors of this game. If you didn`t solve it by some cheat, you are really very, very good. It`s a pity we cannot see you from here, but...")
+dialogId("z-v-pozdrav", "font_big", "Dear player. We would like to communicate to you the high regards of the authors of this game. If you didn’t solve it by some cheat, you are really very, very good. It’s a pity we cannot see you from here, but...")
 dialogStr("Hráči, máme ti vyřídit pozdrav a uznání od autorů hry. Jestli jsi to neřešil nějakým podvodem, tak jsi opravdu dobrej. Nebo dokonce dobrá? My tě tady odsud moc nevidíme.")
 
 
-dialogId("z-m-oblicej", "font_small", "Could you please put your face in front of the hard disk LED? You might not know it but it is a kind of computer`s eye through which...")
+dialogId("z-m-oblicej", "font_small", "Could you please put your face in front of the hard disk LED? You might not know it but it is a kind of computer’s eye through which...")
 dialogStr("Mohl bys dát obličej před kontrolku harddisku? Možná to nevíš, ale to je takové oko počítače, kterým tě...")
 
 

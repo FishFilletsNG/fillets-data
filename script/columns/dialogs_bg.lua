@@ -16,7 +16,7 @@ dialogStr("Остави ме намира. Възхищавам се на кла
 dialogId("sl-m-sedi", "font_small", "Who is sitting on that chair?")
 dialogStr("Кой седи в стола?")
 
-dialogId("sl-v-feidios", "font_big", "It`s a copy of Feidios` Zeus. One of the seven wonders of the world.")
+dialogId("sl-v-feidios", "font_big", "It’s a copy of Feidios’ Zeus. One of the seven wonders of the world.")
 dialogStr("Копие на статуята на Зевс от Фидий. Едно от седемте чудеса на света.")
 
 dialogId("sl-m-tehdy", "font_small", "Hmm. It was another age.")
@@ -34,9 +34,9 @@ dialogStr("Кротко сега, внимавай.")
 dialogId("sl-m-jekot", "", "")
 dialogStr("")
 
-dialogId("sl-v-barbarka", "font_big", "You barbarian! Can`t you be a little bit cautious?!")
+dialogId("sl-v-barbarka", "font_big", "You barbarian! Can’t you be a little bit cautious?!")
 dialogStr("Варварче! Не може ли да бъдеш малко по-внимателна?!")
 
-dialogId("sl-m-nelibila", "font_small", "I didn`t like this sculpture anyway.")
+dialogId("sl-m-nelibila", "font_small", "I didn’t like this sculpture anyway.")
 dialogStr("И без това не харесвах тази статуя.")
 

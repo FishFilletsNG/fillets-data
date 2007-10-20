@@ -27,7 +27,7 @@ dialogId("lod-m-costim", "font_small", "What are we to do about it?")
 dialogStr("I co z tym zrobimy?")
 
 
-dialogId("lod-v-internovat", "font_big", "We can`t leave it this way. We must incarcerate them.")
+dialogId("lod-v-internovat", "font_big", "We can’t leave it this way. We must incarcerate them.")
 dialogStr("Nie możemy tego tak zostawić. Musimy ich internować.")
 
 
@@ -91,7 +91,7 @@ dialogId("lod-v-hravost", "font_big", "Mother was right. Abnormal playfulness is
 dialogStr("Mama miała rację: uzależnienie od gier jest źródłem wszelkiego zła.")
 
 
-dialogId("lod-m-palka", "font_small", "That`s true. It would be much easier if that table tennis bat was somewhere else.")
+dialogId("lod-m-palka", "font_small", "That’s true. It would be much easier if that table tennis bat was somewhere else.")
 dialogStr("To prawda. Byłoby dużo prościej, gdyby ta paletka od ping-ponga była gdzie indziej.")
 
 
@@ -111,7 +111,7 @@ dialogId("lod-m-micek", "font_small", "I thought it was a table tennis ball up t
 dialogStr("Myślałam, że ta na górze po prawej to piłka do ping-ponga.")
 
 
-dialogId("lod-v-rozliseni", "font_big", "It`s hard to say with this screen resolution.")
+dialogId("lod-v-rozliseni", "font_big", "It’s hard to say with this screen resolution.")
 dialogStr("Trudno powiedzieć przy tej rozdzielczości.")
 
 
@@ -183,7 +183,7 @@ dialogId("b1-znovu", "font_yellow", "Shall we play another one?")
 dialogStr("Gramy od nowa?")
 
 
-dialogId("b1-nepodvadim", "font_yellow", "I don`t cheat.")
+dialogId("b1-nepodvadim", "font_yellow", "I don’t cheat.")
 dialogStr("Ja nie oszukuję!!!")
 
 
@@ -259,7 +259,7 @@ dialogId("b2-rikal2", "font_cyan", "You already said that!")
 dialogStr("Już tu strzelałeś!")
 
 
-dialogId("b2-nemuze", "font_cyan", "It can`t be a miss on this space.")
+dialogId("b2-nemuze", "font_cyan", "It can’t be a miss on this space.")
 dialogStr("Niemożliwe, żeby tu było pudło!")
 
 
@@ -267,7 +267,7 @@ dialogId("b2-podvadis", "font_cyan", "You cheat!!!")
 dialogStr("Oszukujesz!!!")
 
 
-dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss`!")
+dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss’!")
 dialogStr("Już tu strzelałem... i powiedziałeś 'pudło'!")
 
 

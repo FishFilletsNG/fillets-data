@@ -22,7 +22,7 @@ dialogStr("Трябва също да намерите и задържите м�
 dialogId("kd-elektr", "font_white", "We have been notified that a certain nuclear power plant has been dumping its radioactive waste illegally. Check it out.")
 dialogStr("Получихме информация, че ядрен реактор незаконно изхвърля отпадъците си. Проверете.")
 
-dialogId("kd-gral", "font_white", "And don`t forget to find the holy grail.")
+dialogId("kd-gral", "font_white", "And don’t forget to find the holy grail.")
 dialogStr("И не забравяйте да откриете светия Граал.")
 
 dialogId("kd-zaver", "font_white", "And as usual: If anyone from your team is injured or killed, Altar will deny any knowledge of your existence and the level will be restarted.")

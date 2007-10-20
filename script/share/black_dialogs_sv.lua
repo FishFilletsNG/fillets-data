@@ -51,11 +51,11 @@ dialogId("smrt-m-3", "font_small", "That must have hurt.")
 dialogStr("Det måste ha gjort ont.")
 
 
-dialogId("smrt-m-4", "font_small", "He didn`t deserve such a terrible end...")
+dialogId("smrt-m-4", "font_small", "He didn’t deserve such a terrible end...")
 dialogStr("Han förtjänade inte ett sånt plågsamt slut...")
 
 
-dialogId("smrt-m-5", "font_small", "So, let`s start again...")
+dialogId("smrt-m-5", "font_small", "So, let’s start again...")
 dialogStr("OK, låt oss starta om...")
 
 
@@ -75,7 +75,7 @@ dialogId("smrt-m-6", "font_small", "And I never told him I loved him.")
 dialogStr("Och jag han aldrig säga att jag älskade honom.")
 
 
-dialogId("smrt-m-restart", "font_small", "Luckily, it`s possible to restart the level.")
+dialogId("smrt-m-restart", "font_small", "Luckily, it’s possible to restart the level.")
 dialogStr("Turligt nog så kan man starta om nivån.")
 
 
@@ -95,14 +95,14 @@ dialogId("smrt-v-posmrtny", "font_big", "Hellooo? Can you hear me hereafter? Is 
 dialogStr("Hallåååå? Kan du fortfarande höra mig? Finns det ett liv efter detta?")
 
 
-dialogId("smrt-m-posmrtny", "font_small", "I don`t know. I don`t think so.")
+dialogId("smrt-m-posmrtny", "font_small", "I don’t know. I don’t think so.")
 dialogStr("Jag vet inte. Jag tror inte det.")
 
 
-dialogId("smrt-m-autorest", "font_small", "I am not going to solve it alone. Don`t trouble yourself with restart, I`ll do it myself.")
+dialogId("smrt-m-autorest", "font_small", "I am not going to solve it alone. Don’t trouble yourself with restart, I’ll do it myself.")
 dialogStr("Jag kommer inte att kunna lösa det själv. Bry dig inte om att starta om, jag gör det själv.")
 
 
-dialogId("smrt-v-autorest", "font_big", "And she is gone. I`m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
+dialogId("smrt-v-autorest", "font_big", "And she is gone. I’m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
 dialogStr("Och hon är borta. Du gillade väl henne lika mycket som jag. Du har säkert inget emot att start om nivån.")
 

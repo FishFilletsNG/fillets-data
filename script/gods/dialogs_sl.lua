@@ -20,7 +20,7 @@ dialogStr("Ja, to je šokantno.")
 dialogId("lod-m-costim", "font_small", "What are we to do about it?")
 dialogStr("Kaj imava midva opraviti s tem?")
 
-dialogId("lod-v-internovat", "font_big", "We can`t leave it this way. We must incarcerate them.")
+dialogId("lod-v-internovat", "font_big", "We can’t leave it this way. We must incarcerate them.")
 dialogStr("Ne moreva jih kar tako pustiti. Morava jih zapreti.")
 
 dialogId("lod-m-co", "font_small", "What must we do?")
@@ -68,7 +68,7 @@ dialogStr("Verjetno ga je roza pošast posesala.")
 dialogId("lod-v-hravost", "font_big", "Mother was right. Abnormal playfulness is the root of all evil.")
 dialogStr("Mama je imela prav. Nenormalna igrivost je izvor vsega zla.")
 
-dialogId("lod-m-palka", "font_small", "That`s true. It would be much easier if that table tennis bat was somewhere else.")
+dialogId("lod-m-palka", "font_small", "That’s true. It would be much easier if that table tennis bat was somewhere else.")
 dialogStr("To je res. Dosti lažje bi bilo, če bi bil ta lopar za namizni tenis nekje drugje.")
 
 dialogId("lod-v-micky", "font_big", "By the way, did you notice that the real golf ball is in the upper left corner while that thing in the lower right corner is a cricket ball?")
@@ -83,7 +83,7 @@ dialogStr("Kdo ve.")
 dialogId("lod-m-micek", "font_small", "I thought it was a table tennis ball up there.")
 dialogStr("Mislila sem da je bila tam žogica za namizni tenis.")
 
-dialogId("lod-v-rozliseni", "font_big", "It`s hard to say with this screen resolution.")
+dialogId("lod-v-rozliseni", "font_big", "It’s hard to say with this screen resolution.")
 dialogStr("Težko je reči s to ločljivostjo zaslona.")
 
 dialogId("lod-m-bohove", "font_small", "This time our goal is to get out one of those gods.")
@@ -137,7 +137,7 @@ dialogStr("No!")
 dialogId("b1-znovu", "font_yellow", "Shall we play another one?")
 dialogStr("Greva še eno?")
 
-dialogId("b1-nepodvadim", "font_yellow", "I don`t cheat.")
+dialogId("b1-nepodvadim", "font_yellow", "I don’t cheat.")
 dialogStr("Ne goljufam.")
 
 dialogId("b1-spletl", "font_yellow", "It was a mistake, probably...")
@@ -194,13 +194,13 @@ dialogStr("To si že poskusil!")
 dialogId("b2-rikal2", "font_cyan", "You already said that!")
 dialogStr("To si že rekel!")
 
-dialogId("b2-nemuze", "font_cyan", "It can`t be a miss on this space.")
+dialogId("b2-nemuze", "font_cyan", "It can’t be a miss on this space.")
 dialogStr("Na tem mestu, ne more biti 'zgrešeno'.")
 
 dialogId("b2-podvadis", "font_cyan", "You cheat!!!")
 dialogStr("Ti goljufaš!!!")
 
-dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss`!")
+dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss’!")
 dialogStr("To sem že poskusil - in ti si rekel 'zgrešeno'!")
 
 dialogId("b1-1", "", "")

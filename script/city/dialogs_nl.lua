@@ -35,7 +35,7 @@ dialogId("vit-hs-lod0", "font_statue", "The ship from Lemury has now docked at p
 dialogStr("Het schip uit Lemuria heeft zojuist aangelegd bij steiger 5. Dit schip gaat verder naar Utopia, Mu en Atlantis.")
 
 
-dialogId("vit-hs-pojis0", "font_statue", "With First Fishermen Insurance, your house is covered against damage caused by fire, tornadoes, hurricanes, acts of God and dragons` raids. Because fishermen think of everything, choose First Fisherman.")
+dialogId("vit-hs-pojis0", "font_statue", "With First Fishermen Insurance, your house is covered against damage caused by fire, tornadoes, hurricanes, acts of God and dragons’ raids. Because fishermen think of everything, choose First Fisherman.")
 dialogStr("Met een Vissers Verzekering is uw huis verzekerd tegen schade als gevolg van brand, tornado's, wervelwinden, goddelijk interventie en drakenaanvallen. Omdat vissers overal aan denken, verzeker uw huis bij Vissers.")
 
 
@@ -51,11 +51,11 @@ dialogId("vit-hs-reklama3", "font_statue", "Why so many swords?")
 dialogStr("Waarom zoveel zwaarden?")
 
 
-dialogId("vit-hs-reklama4", "font_white", "You haven`t heard?!? For every eight swords you purchase, you get a pair of bronze earrings absolutely FREE!")
+dialogId("vit-hs-reklama4", "font_white", "You haven’t heard?!? For every eight swords you purchase, you get a pair of bronze earrings absolutely FREE!")
 dialogStr("Heb je het niet gehoord? Bij elke acht zwaarden krijg je helemaal GRATIS een paar bronzen oorbellen!")
 
 
-dialogId("vit-hs-reklama5", "font_statue", "Wait for me. I`m coming with you!")
+dialogId("vit-hs-reklama5", "font_statue", "Wait for me. I’m coming with you!")
 dialogStr("Wacht op mij. Ik ga mee!")
 
 
@@ -75,8 +75,8 @@ dialogId("vit-hs-demoni0", "font_statue", "Citizens, our employees will be stopp
 dialogStr("Waarde burgers, onze werknemers komen morgen na middennacht bij alle huizen langs om demonen en geesten uit te drijven. We vragen vriendelijk om uw medewerking.")
 
 
-dialogId("vit-hs-kacir", "font_statue", "Our chief heretic Demikuls will present a lecture this evening in the small auditorium entitled `Do the gods really exist? or Rest assured they cannot harm you!`")
-dialogStr("Onze hoofdketter Demikuls zal vanavond in het kleine auditorium een seminarium geven getiteld `Bestaan de goden echt? of Wees gerust dat ze u geen kwaad kunnen doen!'")
+dialogId("vit-hs-kacir", "font_statue", "Our chief heretic Demikuls will present a lecture this evening in the small auditorium entitled ’Do the gods really exist? or Rest assured they cannot harm you!’")
+dialogStr("Onze hoofdketter Demikuls zal vanavond in het kleine auditorium een seminarium geven getiteld ’Bestaan de goden echt? of Wees gerust dat ze u geen kwaad kunnen doen!'")
 
 
 dialogId("vit-hs-jidelna1", "font_statue", "Come visit our seafood restaurant located at the Main Square. Delicious fish specialties and...")
@@ -99,19 +99,19 @@ dialogId("vit-m-nechutne", "font_small", "How disgusting!")
 dialogStr("Wat afgrijselijk!")
 
 
-dialogId("vit-v-nevsimla", "font_big", "That sculpture obviously hasn`t noticed that the city sank a long time ago.")
+dialogId("vit-v-nevsimla", "font_big", "That sculpture obviously hasn’t noticed that the city sank a long time ago.")
 dialogStr("Dit beeld heeft duidelijk niet door dat de stad al een hele tijd geleden onderwater gelopen is.")
 
 
-dialogId("vit-v-automat", "font_big", "It`s probably some kind of automaton. It still thinks that the city is alive.")
+dialogId("vit-v-automat", "font_big", "It’s probably some kind of automaton. It still thinks that the city is alive.")
 dialogStr("Het is waarschijnlijk geautomatiseerd ofzo. Het denkt dat de stad nog leeft.")
 
 
-dialogId("vit-m-nebo", "font_small", "Or it just can`t face the truth.")
+dialogId("vit-m-nebo", "font_small", "Or it just can’t face the truth.")
 dialogStr("Of het kan de waarheid niet aan.")
 
 
-dialogId("vit-m-hlava", "font_small", "I`m getting a headache from that head.")
+dialogId("vit-m-hlava", "font_small", "I’m getting a headache from that head.")
 dialogStr("Ik krijg hoofdpijn van dat hoofd.")
 
 
@@ -119,11 +119,11 @@ dialogId("vit-v-hlava", "font_big", "That head is giving me a headache.")
 dialogStr("Dat hoofd doet mijn hoofd pijn.")
 
 
-dialogId("vit-m-nezkusime", "font_small", "Let`s try to shut that head up somehow.")
+dialogId("vit-m-nezkusime", "font_small", "Let’s try to shut that head up somehow.")
 dialogStr("Laten we proberen dat hoofd het zwijgen op te leggen.")
 
 
-dialogId("vit-v-proc", "font_big", "Why? We`re getting invaluable information about the everyday life of our ancestors.")
+dialogId("vit-v-proc", "font_big", "Why? We’re getting invaluable information about the everyday life of our ancestors.")
 dialogStr("Hoezo? We krijgen allemaal waardevolle informatie over het dagelijkse leven van onze voorouders.")
 
 

@@ -27,7 +27,7 @@ dialogId("bar-v-sud", "font_big", "And the cause is doubtless this giant barrel.
 dialogStr("A przyczyną jest bez wątpienia ta wielka beczka. Musimy ją stąd jakoś wydostać.")
 
 
-dialogId("bar-m-panb", "font_small", "Yes. Let`s get to work. We can drop it on the Mr. B.`s front yard afterwards.")
+dialogId("bar-m-panb", "font_small", "Yes. Let’s get to work. We can drop it on the Mr. B.’s front yard afterwards.")
 dialogStr("Dobra, to bierzmy się do roboty. A potem możemy ją wrzucić do ogródka pana B.")
 
 
@@ -35,7 +35,7 @@ dialogId("bar-m-rada", "font_small", "I think I am growing to like them.")
 dialogStr("Chyba zaczynam je lubić...")
 
 
-dialogId("bar-v-kdyby0", "font_big", "If only they wouldn`t stand in our way so much.")
+dialogId("bar-v-kdyby0", "font_big", "If only they wouldn’t stand in our way so much.")
 dialogStr("Gdyby jeszcze nie tarasowały nam drogi...")
 
 
@@ -43,11 +43,11 @@ dialogId("bar-v-kdyby1", "font_big", "If only they were where we need them.")
 dialogStr("Gdyby tylko były tam, gdzie ich potrzebujemy...")
 
 
-dialogId("bar-v-sbirka", "font_big", "Such a lovely collection of monstrosities. I`ll be sorry to leave.")
+dialogId("bar-v-sbirka", "font_big", "Such a lovely collection of monstrosities. I’ll be sorry to leave.")
 dialogStr("Taka śliczna kolekcja potworności... żal mi będzie odpływać.")
 
 
-dialogId("bar-m-dost0", "font_small", "That won`t happen any time soon.")
+dialogId("bar-m-dost0", "font_small", "That won’t happen any time soon.")
 dialogStr("Spokojnie, masz jeszcze sporo czasu, żeby się napatrzeć.")
 
 
@@ -59,7 +59,7 @@ dialogId("bar-v-lih", "font_big", "If we take them with us and store them in alc
 dialogStr("Gdybyśmy je wzięli ze sobą i zakonserwowali w formalinie, moglibyśmy otworzyć panoptikum.")
 
 
-dialogId("bar-m-fdto", "font_small", "And FDTO isn`t enough for you?")
+dialogId("bar-m-fdto", "font_small", "And FDTO isn’t enough for you?")
 dialogStr("FDTO ci nie wystarczy?")
 
 
@@ -67,7 +67,7 @@ dialogId("bar-x-vypr", "font_white", "I can hear everything!")
 dialogStr("Wszystko słyszę!")
 
 
-dialogId("bar-m-promin", "font_small", "Sorry, boss. I didn`t mean to offend.")
+dialogId("bar-m-promin", "font_small", "Sorry, boss. I didn’t mean to offend.")
 dialogStr("Przepraszam, szefie. Nie chciałam szefa obrazić.")
 
 

@@ -1,5 +1,5 @@
 
-dialogId("pz-v-zaskladanej", "font_big", "I`m completely blocked in here.")
+dialogId("pz-v-zaskladanej", "font_big", "I’m completely blocked in here.")
 dialogStr("Jestem tu kompletnie zablokowany.")
 
 
@@ -19,7 +19,7 @@ dialogId("pz-v-co1", "font_big", "What do you have down there?")
 dialogStr("A co tam masz na dole?")
 
 
-dialogId("pz-v-co2", "font_big", "What`s down there?")
+dialogId("pz-v-co2", "font_big", "What’s down there?")
 dialogStr("A tam na dole co jest?")
 
 
@@ -35,15 +35,15 @@ dialogId("pz-m-spoje3", "font_small", "I am surrounded by electronics here.")
 dialogStr("Jestem otoczona elektroniką...")
 
 
-dialogId("pz-m-pocitace", "font_small", "Computers. They`ve always fascinated me. But now I`m sick of them.")
+dialogId("pz-m-pocitace", "font_small", "Computers. They’ve always fascinated me. But now I’m sick of them.")
 dialogStr("Komputery. Zawsze mnie fascynowały. Ale teraz mam ich już dość.")
 
 
-dialogId("pz-x-pocitac", "font_white", "Fish. I`ve always hated them. And now my circuits are overloaded with them.")
+dialogId("pz-x-pocitac", "font_white", "Fish. I’ve always hated them. And now my circuits are overloaded with them.")
 dialogStr("Ryby. Zawsze ich nienawidziłem. A teraz moje obwody są ich pełne.")
 
 
-dialogId("pz-v-hej", "font_big", "Hey, how are you? It`s quite boring here.")
+dialogId("pz-v-hej", "font_big", "Hey, how are you? It’s quite boring here.")
 dialogStr("Hej, jak tam na dole? Tu jest strasznie nudno.")
 
 
@@ -59,6 +59,6 @@ dialogId("pz-v-dat", "font_big", "We have to put these keys somewhere.")
 dialogStr("Musimy gdzieś upchnąć te klucze.")
 
 
-dialogId("pz-m-nepasuje", "font_small", "It doesn`t seem to fit.")
+dialogId("pz-m-nepasuje", "font_small", "It doesn’t seem to fit.")
 dialogStr("Nijak to tam nie pasuje.")
 

@@ -39,12 +39,12 @@ dialogId("sp-m-vratit0", "font_small", "And then? Shall we drink the water that 
 dialogStr("En dan? Moeten we al het water dat hier naarbinnen is gestroomd opdrinken, ofzo?")
 
 
-dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of our esteem of the citizens` heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.")
+dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of our esteem of the citizens’ heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.")
 dialogStr("We zouden het ding terug kunnen stoppen als blijk van ons respect voor de heldhaftige pogingen van de burgers om de boel drijvende te houden. Als gedenkteken aan hun ijver, handigheid en... doorzettingsvermogen.")
 
 
-dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.` The Providence itself unplugged that hole. Just imagine you`d hear such things at home. Day by day.")
-dialogStr("Aan wat? `Waar ga jij zo snel naar toe? Ik moet acht zwaarden bestellen.' De Voorzienigheid zelve heeft die stop eruit getrokken. Stel je voor dat je zulke dingen de hele dag overal moest aanhoren, dag in dag uit.")
+dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
+dialogStr("Aan wat? ’Waar ga jij zo snel naar toe? Ik moet acht zwaarden bestellen.' De Voorzienigheid zelve heeft die stop eruit getrokken. Stel je voor dat je zulke dingen de hele dag overal moest aanhoren, dag in dag uit.")
 
 
 dialogId("sp-m-kalet", "font_small", "And moreover: is it likely that anybody would ever come here? Only sepias will nibble it occasionally.")
@@ -67,7 +67,7 @@ dialogId("sp-m-taky", "font_small", "I think so, too.")
 dialogStr("Ja, dat denk ik ook.")
 
 
-dialogId("sp-v-dotoho", "font_big", "Let `s get to work.")
+dialogId("sp-v-dotoho", "font_big", "Let ’s get to work.")
 dialogStr("Aan de slag.")
 
 
@@ -79,7 +79,7 @@ dialogId("sp-v-centrala", "font_big", "What would the Agency say?")
 dialogStr("Wat zou de Organisatie erover zeggen?")
 
 
-dialogId("sp-v-jedno", "font_big", "I don`t think I mind what the boss is going to think about me.")
+dialogId("sp-v-jedno", "font_big", "I don’t think I mind what the boss is going to think about me.")
 dialogStr("Ik denk niet dat het me veel kan schelen wat de baas van me denkt.")
 
 

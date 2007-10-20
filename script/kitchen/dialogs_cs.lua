@@ -11,11 +11,11 @@ dialogId("kuch-m-objev2", "font_small", "Darned kitchen.")
 dialogStr("Zatracená kuchyně.")
 
 
-dialogId("kuch-m-objev3", "font_small", "And now we are in the captain Silver`s kitchen.")
+dialogId("kuch-m-objev3", "font_small", "And now we are in the captain Silver’s kitchen.")
 dialogStr("Tak, a jsme v kuchyni kapitána Silvera.")
 
 
-dialogId("kuch-v-varil", "font_big", "I don`t think he was a cook himself.")
+dialogId("kuch-v-varil", "font_big", "I don’t think he was a cook himself.")
 dialogStr("Nemyslím, že si vařil sám.")
 
 
@@ -31,7 +31,7 @@ dialogId("kuch-v-podivej", "font_big", "But just have a look at me.")
 dialogStr("No tak se podívej, kde jsem já.")
 
 
-dialogId("kuch-v-stolky0", "font_big", "I can`t understand how these serving tables got there.")
+dialogId("kuch-v-stolky0", "font_big", "I can’t understand how these serving tables got there.")
 dialogStr("Nechápu, jak sem dostali ty servírovací stolky.")
 
 
@@ -43,11 +43,11 @@ dialogId("kuch-v-stolky2", "font_big", "This little chamber gives me the creeps.
 dialogStr("Mám už z téhle komůrky silně klaustrofobní pocit.")
 
 
-dialogId("kuch-v-odsud0", "font_big", "I can`t get out of here!")
+dialogId("kuch-v-odsud0", "font_big", "I can’t get out of here!")
 dialogStr("Nemůžu se odsud dostat!")
 
 
-dialogId("kuch-m-premyslim0", "font_small", "I`m just thinking how to help you.")
+dialogId("kuch-m-premyslim0", "font_small", "I’m just thinking how to help you.")
 dialogStr("Zrovna přemýšlím, jak ti pomoci.")
 
 
@@ -67,7 +67,7 @@ dialogId("kuch-m-hrnec0", "font_small", "Yuck, there is something left in this p
 dialogStr("Fuj, v tom hrnci je něco připečené!")
 
 
-dialogId("kuch-m-hrnec1", "font_small", "This pot wasn`t even washed up.")
+dialogId("kuch-m-hrnec1", "font_small", "This pot wasn’t even washed up.")
 dialogStr("Ten hrnec není ani umytý.")
 
 
@@ -123,7 +123,7 @@ dialogId("kuch-m-porcovani", "font_small", "Maybe they used it to cut the meat."
 dialogStr("Asi ho používali k porcování masa.")
 
 
-dialogId("kuch-v-nedela", "font_big", "Certainly. But you don`t cut meat with a sword in the kitchen, usually.")
+dialogId("kuch-v-nedela", "font_big", "Certainly. But you don’t cut meat with a sword in the kitchen, usually.")
 dialogStr("To jistě. Ale s mečem se to obvykle nedělá v kuchyni.")
 
 

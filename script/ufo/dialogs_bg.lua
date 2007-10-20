@@ -19,13 +19,13 @@ dialogStr("Божичко! И какво трябва да правя аз в п
 dialogId("ufo-v-vpredu", "font_big", "You would let me go in front, for a change.")
 dialogStr("За разнообразие можеш да ме пуснеш да водя.")
 
-dialogId("ufo-m-zvlastni", "font_small", "It`s interesting that this tangled steel forestalls our entry into that UFO more effectively than any security system.")
+dialogId("ufo-m-zvlastni", "font_small", "It’s interesting that this tangled steel forestalls our entry into that UFO more effectively than any security system.")
 dialogStr("Интересно, че тази оплетена стомана препречва входа към НЛО-то по-добре от всякакви охранителни системи.")
 
 dialogId("ufo-v-rikam", "font_big", "I keep telling you that our life is controlled by some higher, strange consciousness.")
 dialogStr("Казвам ти, че животът ни се контролира от някое странно, висше съзнание.")
 
-dialogId("ufo-m-vidim", "font_small", "I can see that, too. But I am not that sure it`s higher.")
+dialogId("ufo-m-vidim", "font_small", "I can see that, too. But I am not that sure it’s higher.")
 dialogStr("Виждам. Само не съм сигурно, че е висше.")
 
 dialogId("ufo-v-dovnitr", "font_big", "What can we find inside, once we manage to get there?")
@@ -40,9 +40,9 @@ dialogStr("Най-важното е да опитаме да открием за
 dialogId("ufo-v-zjistit1", "font_big", "You know, most of all I wonder why they crashed just here.")
 dialogStr("Знаеш ли, най-много ме интересува защо са паднали точно тук.")
 
-dialogId("ufo-m-tady", "font_small", "Didn`t you see it? Everything happens just here.")
+dialogId("ufo-m-tady", "font_small", "Didn’t you see it? Everything happens just here.")
 dialogStr("Не виждаш ли? Абсолютно всичко се случва точно тук.")
 
-dialogId("ufo-m-nevim", "font_small", "I don`t know why the UFOs keep crashing at our house, either.")
+dialogId("ufo-m-nevim", "font_small", "I don’t know why the UFOs keep crashing at our house, either.")
 dialogStr("И аз не знам защо НЛО-та продължават да се разбиват в къщата ни.")
 

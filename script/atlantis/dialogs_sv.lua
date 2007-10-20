@@ -39,11 +39,11 @@ dialogId("sp-m-vratit0", "font_small", "And then? Shall we drink the water that 
 dialogStr("Och sen då? Ska vi dricka upp allt vatten som läckt in, eller?")
 
 
-dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of our esteem of the citizens` heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.")
+dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of our esteem of the citizens’ heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.")
 dialogStr("Vi kan stoppa tillbaks den som ett tecken på våran vördnad för innevånarnas heroiska insattser för att behålla den flytande. Som ett minne till deras tänkande, uthålliga och.. bevarande natur.")
 
 
-dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.` The Providence itself unplugged that hole. Just imagine you`d hear such things at home. Day by day.")
+dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
 dialogStr("Av vad? \"Vart är du på väg? Jag måste beställa åtta svärd.\" Innevånarna själva drog ur proppen. Bara tänk dig att du måste lyssna på detta i ditt hem. Dag ut och dag in.")
 
 
@@ -67,7 +67,7 @@ dialogId("sp-m-taky", "font_small", "I think so, too.")
 dialogStr("Jag tror också det.")
 
 
-dialogId("sp-v-dotoho", "font_big", "Let `s get to work.")
+dialogId("sp-v-dotoho", "font_big", "Let ’s get to work.")
 dialogStr("Dags att jobba.")
 
 
@@ -79,7 +79,7 @@ dialogId("sp-v-centrala", "font_big", "What would the Agency say?")
 dialogStr("Vad skulle byrån säga?")
 
 
-dialogId("sp-v-jedno", "font_big", "I don`t think I mind what the boss is going to think about me.")
+dialogId("sp-v-jedno", "font_big", "I don’t think I mind what the boss is going to think about me.")
 dialogStr("Jag tror inte att jag bryr mig om vad bossen kommer att säga.")
 
 

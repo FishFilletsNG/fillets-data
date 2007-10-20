@@ -15,7 +15,7 @@ dialogId("jes-v-nestezuj", "font_big", "That may be true, but I think we are goi
 dialogStr("Det kanske är sant, men tänk på att vi kommer att behöva det.")
 
 
-dialogId("jes-v-uzke", "font_big", "It`s too narrow for me. You have to do it on your own down there.")
+dialogId("jes-v-uzke", "font_big", "It’s too narrow for me. You have to do it on your own down there.")
 dialogStr("Det är för trångt för mig. Du måste fixa det själv där nere.")
 
 
@@ -31,7 +31,7 @@ dialogId("jes-v-gral", "font_big", "I think that we should be looking for the Gr
 dialogStr("Jag tror att vi bör söka efter gralen någon annanstans...")
 
 
-dialogId("jes-m-deprese", "font_small", "Don`t be depressive. We will solve this in no time.")
+dialogId("jes-m-deprese", "font_small", "Don’t be depressive. We will solve this in no time.")
 dialogStr("Bli inte deprimerad. Vi kommer att lösa det här på nolltid.")
 
 
@@ -79,26 +79,26 @@ dialogId("jes-m-netopyr1", "font_small", "This is a stuffed bat.")
 dialogStr("Det är en uppstoppad fladdermus.")
 
 
-dialogId("jes-v-netopyr1", "font_big", "It`s a sculpture of bat.")
+dialogId("jes-v-netopyr1", "font_big", "It’s a sculpture of bat.")
 dialogStr("Det är en fladdermusskulptur.")
 
 
-dialogId("jes-m-netopyr2", "font_small", "It`s a stalagmite shaped as a bat.")
+dialogId("jes-m-netopyr2", "font_small", "It’s a stalagmite shaped as a bat.")
 dialogStr("Det är en stalagmit formad som en fladdermus.")
 
 
-dialogId("jes-v-netopyr2", "font_big", "It`s a plain stalagmite.")
+dialogId("jes-v-netopyr2", "font_big", "It’s a plain stalagmite.")
 dialogStr("Det är en vanlig stalagmit.")
 
 
-dialogId("jes-m-netopyr3", "font_small", "It`s just an ordinary piece of rock.")
+dialogId("jes-m-netopyr3", "font_small", "It’s just an ordinary piece of rock.")
 dialogStr("Det är bara en helt vanlig gråsten.")
 
 
-dialogId("jes-v-nechut0", "font_big", "I think you are going to need that 'monster`.")
+dialogId("jes-v-nechut0", "font_big", "I think you are going to need that 'monster’.")
 dialogStr("Jag tror att vi behöver det där \"monstret\".")
 
 
-dialogId("jes-v-nechut1", "font_big", "I think you will have to overcome your dislike of that 'abomination`.")
+dialogId("jes-v-nechut1", "font_big", "I think you will have to overcome your dislike of that 'abomination’.")
 dialogStr("Jag tror att vi måste komma över ditt ogillande av \"abnormiteter\".")
 

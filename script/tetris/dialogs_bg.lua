@@ -19,7 +19,7 @@ dialogStr("Мисля, че ние можем да направим по-доб�
 dialogId("tet-m-jaklepsi", "font_small", "What do you mean, better?")
 dialogStr("Какво имаш предвид под по-добър?")
 
-dialogId("tet-v-hybat", "font_big", "At least, you won`t have to move all the pieces to the right.")
+dialogId("tet-v-hybat", "font_big", "At least, you won’t have to move all the pieces to the right.")
 dialogStr("Ами поне нямаше да ни се налага да избутваме всички парчета вдясно.")
 
 dialogId("tet-m-predmety", "font_small", "The truth is we have an ample supply of suitable objects here.")

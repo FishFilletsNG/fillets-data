@@ -3,13 +3,13 @@ dialogId("zel-v-zelva0", "font_big", "Can you see it? This must be that telepath
 
 dialogId("zel-v-zelva1", "font_big", "Yes, this is it. The telepathic turtle.")
 
-dialogId("zel-m-fotky0", "font_small", "Well, I don`t know. Judging from those photos, it could be it.")
+dialogId("zel-m-fotky0", "font_small", "Well, I don’t know. Judging from those photos, it could be it.")
 
 dialogId("zel-m-fotky1", "font_small", "I am not sure... what about those telepathic powers?")
 
 dialogId("zel-v-zmistnosti0", "font_big", "In any case we have to get it out of the room.")
 
-dialogId("zel-v-zmistnosti1", "font_big", "Let`s take out that turtle.")
+dialogId("zel-v-zmistnosti1", "font_big", "Let’s take out that turtle.")
 
 dialogId("zel-m-coto0", "font_small", "What are you doing?")
 
@@ -23,15 +23,15 @@ dialogId("zel-v-coto1", "font_big", "What should it mean?")
 
 dialogId("zel-v-coto2", "font_big", "What happened to you?")
 
-dialogId("zel-m-nevim0", "font_small", "I don`t know...")
+dialogId("zel-m-nevim0", "font_small", "I don’t know...")
 
-dialogId("zel-m-nevim1", "font_small", "I can`t realize...")
+dialogId("zel-m-nevim1", "font_small", "I can’t realize...")
 
-dialogId("zel-v-nevim0", "font_big", "I don`t know what`s happening to me...")
+dialogId("zel-v-nevim0", "font_big", "I don’t know what’s happening to me...")
 
-dialogId("zel-v-nevim1", "font_big", "I didn`t want to...")
+dialogId("zel-v-nevim1", "font_big", "I didn’t want to...")
 
-dialogId("zel-v-cosedeje", "font_big", "What`s happening to us?")
+dialogId("zel-v-cosedeje", "font_big", "What’s happening to us?")
 
 dialogId("zel-m-cimtoje", "font_small", "What can it mean?")
 
@@ -53,10 +53,10 @@ dialogId("zel-v-stacit1", "font_big", "Are you enjoying yourself?")
 
 dialogId("zel-v-bizarni", "font_big", "So many bizarre shapes can only be found in a coral reef.")
 
-dialogId("zel-m-priroda", "font_small", "These corals are Mother Nature`s wonders.")
+dialogId("zel-m-priroda", "font_small", "These corals are Mother Nature’s wonders.")
 
 dialogId("zel-v-tvary", "font_big", "Where do so many bizarre shapes come from?")
 
-dialogId("zel-m-jednoduse", "font_small", "It`s easy - designers create tricky problems and leave the drawing to the graphic artists.")
+dialogId("zel-m-jednoduse", "font_small", "It’s easy - designers create tricky problems and leave the drawing to the graphic artists.")
 
 dialogId("zel-v-ukol", "font_big", "Our goal in this room is to get out that turtle.")

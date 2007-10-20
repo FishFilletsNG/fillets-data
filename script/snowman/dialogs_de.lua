@@ -1,5 +1,5 @@
 
-dialogId("tr-m-chlad1", "font_small", "I`m kind of cold.")
+dialogId("tr-m-chlad1", "font_small", "I’m kind of cold.")
 dialogStr("Mir ist etwas kalt.")
 
 
@@ -7,11 +7,11 @@ dialogId("tr-v-jid1", "font_big", "No wonder. This is the Winter Mess Hall.")
 dialogStr("Kein Wunder. Das ist die Wintermesse.")
 
 
-dialogId("tr-m-chlad2", "font_small", "I`m cold.")
+dialogId("tr-m-chlad2", "font_small", "I’m cold.")
 dialogStr("Mir ist kalt.")
 
 
-dialogId("tr-v-jid2", "font_big", "Well that`s what you would expect in a Winter Mess Hall, right?")
+dialogId("tr-v-jid2", "font_big", "Well that’s what you would expect in a Winter Mess Hall, right?")
 dialogStr("Das erwartet man doch in einer Wintermesse, oder?")
 
 
@@ -35,6 +35,6 @@ dialogId("tr-m-au2", "font_small", "Ouch!")
 dialogStr("Aua!")
 
 
-dialogId("tr-v-agres", "font_big", "I`ve never seen such an aggressive snowman.")
+dialogId("tr-v-agres", "font_big", "I’ve never seen such an aggressive snowman.")
 dialogStr("Ich habe noch nie einen so aggressiven Schneemann gesehen.")
 

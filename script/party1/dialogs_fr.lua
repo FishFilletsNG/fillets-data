@@ -7,7 +7,7 @@ dialogId("pt1-v-predtucha", "font_big", "I have a feeling that this is not going
 dialogStr("J'ai l'intuition que ça ne va pas être un pique-nique normal.")
 
 
-dialogId("pt1-m-predtucha", "font_small", "You and your feelings. Surely it`s full of kind and friendly people.")
+dialogId("pt1-m-predtucha", "font_small", "You and your feelings. Surely it’s full of kind and friendly people.")
 dialogStr("Toi et ton intuition. Il y aura sûrement toutes sortes de personnes sympathiques.")
 
 
@@ -19,7 +19,7 @@ dialogId("pt1-m-vylezt0", "font_small", "Do you think they could get out of this
 dialogStr("Penses-tu qu'ils puissent sortir de ce bateau ?")
 
 
-dialogId("pt1-m-vylezt1", "font_small", "I hope they can`t get out of that boat.")
+dialogId("pt1-m-vylezt1", "font_small", "I hope they can’t get out of that boat.")
 dialogStr("J'espère bien que non.")
 
 
@@ -27,7 +27,7 @@ dialogId("pt1-m-vylezt2", "font_small", "What if they start to pursue us?")
 dialogStr("Et s'ils se lançaient après nous ?")
 
 
-dialogId("pt1-v-pryc0", "font_big", "I don`t think they could get us. Skeletons can`t swim very well.")
+dialogId("pt1-v-pryc0", "font_big", "I don’t think they could get us. Skeletons can’t swim very well.")
 dialogStr("Je ne pense pas qu'ils puissent nous attraper. Les squelettes ne nagent pas très bien.")
 
 
@@ -39,7 +39,7 @@ dialogId("pt1-v-valec", "font_big", "You want to support that steel tube with a 
 dialogStr("Tu veux porter ce tube d'acier avec un verre ?")
 
 
-dialogId("pt1-m-nemuzu", "font_small", "I can`t do anything else for you.")
+dialogId("pt1-m-nemuzu", "font_small", "I can’t do anything else for you.")
 dialogStr("Je ne peux rien faire d'autre pour toi.")
 
 

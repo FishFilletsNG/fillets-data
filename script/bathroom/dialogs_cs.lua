@@ -1,5 +1,5 @@
 
-dialogId("br-v-komfort", "font_big", "It`s quite comfortable for a wasteyard.")
+dialogId("br-v-komfort", "font_big", "It’s quite comfortable for a wasteyard.")
 dialogStr("Na to, že je to vlastně smetiště, je to docela komfort.")
 
 
@@ -19,15 +19,15 @@ dialogId("br-m-vsim0", "font_small", "Did you notice that...")
 dialogStr("Všiml sis, že...")
 
 
-dialogId("br-m-vsim1", "font_small", "Don`t you think that...")
+dialogId("br-m-vsim1", "font_small", "Don’t you think that...")
 dialogStr("Není ti divné, že...")
 
 
-dialogId("br-m-vsim2", "font_small", "Isn`t it strange that...")
+dialogId("br-m-vsim2", "font_small", "Isn’t it strange that...")
 dialogStr("To je zvláštní, že...")
 
 
-dialogId("br-v-nerozvadet0", "font_big", "Don`t talk about it.")
+dialogId("br-v-nerozvadet0", "font_big", "Don’t talk about it.")
 dialogStr("Já bych to nerozváděl.")
 
 
@@ -35,7 +35,7 @@ dialogId("br-v-nerozvadet1", "font_big", "Please, no jokes about defecation.")
 dialogStr("Prosím tě, žádné fekální vtipy.")
 
 
-dialogId("br-v-nerozvadet2", "font_big", "Yes, I know about that. We won`t comment on it.")
+dialogId("br-v-nerozvadet2", "font_big", "Yes, I know about that. We won’t comment on it.")
 dialogStr("Ano, vím o tom. Nebudeme to komentovat.")
 
 
@@ -47,7 +47,7 @@ dialogId("br-v-dost", "font_big", "Stop it, will you?")
 dialogStr("Prosím tě, nech toho!")
 
 
-dialogId("br-m-sprcha", "font_small", "I`ve seen many useless things, but an underwater shower...")
+dialogId("br-m-sprcha", "font_small", "I’ve seen many useless things, but an underwater shower...")
 dialogStr("Viděla jsem tu hodně zbytečností, ale podvodní sprcha...")
 
 
@@ -71,7 +71,7 @@ dialogId("br-v-nechat", "font_big", "We should have left it alone.")
 dialogStr("Měli jsme ji nechat tam, kde byla.")
 
 
-dialogId("br-m-nefunguje", "font_small", "And it doesn`t work anyway.")
+dialogId("br-m-nefunguje", "font_small", "And it doesn’t work anyway.")
 dialogStr("A navíc stejně nefunguje.")
 
 

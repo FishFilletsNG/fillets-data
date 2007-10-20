@@ -4,19 +4,19 @@ dialogStr("Това значи е изследователски батиска�
 dialogId("bat-m-mikro", "font_small", "A nice microscope.")
 dialogStr("Хубав микроскоп.")
 
-dialogId("bat-v-zved0", "font_big", "Shouldn`t I lift this?")
+dialogId("bat-v-zved0", "font_big", "Shouldn’t I lift this?")
 dialogStr("Дали да не вдигна това?")
 
 dialogId("bat-v-zved1", "font_big", "Do you want me to lift this up?")
 dialogStr("Искаш ли да повдигна това?")
 
-dialogId("bat-v-vyp", "font_big", "Shouldn`t I turn that off?")
+dialogId("bat-v-vyp", "font_big", "Shouldn’t I turn that off?")
 dialogStr("Дали да не изключа това?")
 
 dialogId("bat-v-klid", "font_big", "Now it is quiet here.")
 dialogStr("Сега стана тихо.")
 
-dialogId("bat-m-sluch", "font_small", "We can`t get to the receiver from here.")
+dialogId("bat-m-sluch", "font_small", "We can’t get to the receiver from here.")
 dialogStr("От тук не можем да стигнем до приемника.")
 
 dialogId("bat-s-prome0", "font_snail", "That is going to be for me...")
@@ -34,7 +34,7 @@ dialogStr("Надявам се, че не ти преча тук.")
 dialogId("bat-s-snek1", "font_snail", "Really, I can easily crawl away. Just say the word.")
 dialogStr("Наистина. С лекота мога да се махна. Само кажи.")
 
-dialogId("bat-s-snek2", "font_snail", "I really don`t want to be an obstacle.")
+dialogId("bat-s-snek2", "font_snail", "I really don’t want to be an obstacle.")
 dialogStr("Наистина не искам да преча.")
 
 dialogId("bat-s-snek3", "font_snail", "Just tell me if you want me to move away.")
@@ -52,7 +52,7 @@ dialogStr("Тук ли си, братко?")
 dialogId("bat-p-3", "font_pizla", "The snail Escargot speaking.")
 dialogStr("Тук е охлюва Ескаргот.")
 
-dialogId("bat-p-4", "font_pizla", "I can`t hear you.")
+dialogId("bat-p-4", "font_pizla", "I can’t hear you.")
 dialogStr("Не те чувам.")
 
 dialogId("bat-p-5", "font_pizla", "Hello, hello!")

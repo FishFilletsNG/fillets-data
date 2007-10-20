@@ -7,7 +7,7 @@ dialogId("bat-m-mikro", "font_small", "A nice microscope.")
 dialogStr("Hübsches Mikroskop.")
 
 
-dialogId("bat-v-zved0", "font_big", "Shouldn`t I lift this?")
+dialogId("bat-v-zved0", "font_big", "Shouldn’t I lift this?")
 dialogStr("Sollte ich das nicht aufheben?")
 
 
@@ -15,7 +15,7 @@ dialogId("bat-v-zved1", "font_big", "Do you want me to lift this up?")
 dialogStr("Möchtest du, dass ich das aufhebe?")
 
 
-dialogId("bat-v-vyp", "font_big", "Shouldn`t I turn that off?")
+dialogId("bat-v-vyp", "font_big", "Shouldn’t I turn that off?")
 dialogStr("Sollte ich das nicht ausmachen?")
 
 
@@ -23,7 +23,7 @@ dialogId("bat-v-klid", "font_big", "Now it is quiet here.")
 dialogStr("Endlich wieder Ruhe hier.")
 
 
-dialogId("bat-m-sluch", "font_small", "We can`t get to the receiver from here.")
+dialogId("bat-m-sluch", "font_small", "We can’t get to the receiver from here.")
 dialogStr("Wir können den Hörer von dort nicht mehr abnehmen.")
 
 
@@ -47,7 +47,7 @@ dialogId("bat-s-snek1", "font_snail", "Really, I can easily crawl away. Just say
 dialogStr("Wirklich, ich kann einfach wegkrabbeln. Fragen Sie einfach.")
 
 
-dialogId("bat-s-snek2", "font_snail", "I really don`t want to be an obstacle.")
+dialogId("bat-s-snek2", "font_snail", "I really don’t want to be an obstacle.")
 dialogStr("Ich möchte wirklich kein Hindernis sein.")
 
 
@@ -71,7 +71,7 @@ dialogId("bat-p-3", "font_pizla", "The snail Escargot speaking.")
 dialogStr("Hier spricht Schnecke Escargot.")
 
 
-dialogId("bat-p-4", "font_pizla", "I can`t hear you.")
+dialogId("bat-p-4", "font_pizla", "I can’t hear you.")
 dialogStr("Ich kann dich nicht hören.")
 
 

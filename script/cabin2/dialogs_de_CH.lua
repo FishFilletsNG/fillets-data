@@ -1,4 +1,4 @@
 
-dialogId("ka2-m-kdepak", "font_small", "No, you`re wrong. This cabin is one hundred and forty four squares larger...")
+dialogId("ka2-m-kdepak", "font_small", "No, you’re wrong. This cabin is one hundred and forty four squares larger...")
 dialogStr("Falsch. Diese Kajüte ist einhundertvierundvierzig Ecken grösser...")
 

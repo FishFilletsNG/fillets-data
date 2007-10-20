@@ -11,7 +11,7 @@ dialogId("jed-m-perly1", "font_small", "There are so many pearls here.")
 dialogStr("Hier sind so viele Perlen.")
 
 
-dialogId("jed-v-poslani0", "font_big", "Listen... Don`t forget our mission!")
+dialogId("jed-v-poslani0", "font_big", "Listen... Don’t forget our mission!")
 dialogStr("Hör zu... Vergiss unsere Aufgabe nicht!")
 
 
@@ -27,11 +27,11 @@ dialogId("jed-m-flakas", "font_small", "You are just sitting up there and I have
 dialogStr("Du sitzt da oben rum und ich muss die ganze Arbeit alleine machen!")
 
 
-dialogId("jed-v-uzivat0", "font_big", "Didn`t you say that you like the pearls?")
+dialogId("jed-v-uzivat0", "font_big", "Didn’t you say that you like the pearls?")
 dialogStr("Hast du nicht gesagt, du magst Perlen?")
 
 
-dialogId("jed-v-uzivat1", "font_big", "Aren`t you happy with so many pearls?")
+dialogId("jed-v-uzivat1", "font_big", "Aren’t you happy with so many pearls?")
 dialogStr("Bist du nicht glücklich mit so vielen Perlen?")
 
 
@@ -47,11 +47,11 @@ dialogId("jed-m-perlorodka1", "font_small", "One more pearl, please.")
 dialogStr("Bitte, noch eine Perle!")
 
 
-dialogId("jed-m-perlorodka2", "font_small", "My dearest friend, couldn`t you possibly lend me just one little pearl?")
+dialogId("jed-m-perlorodka2", "font_small", "My dearest friend, couldn’t you possibly lend me just one little pearl?")
 dialogStr("Mein liebster Freund, könntest du mir nicht vielleicht eine kleine Perle borgen?")
 
 
-dialogId("jed-m-trubka", "font_small", "I wonder if it wouldn`t be easier to shorten that steel pipe.")
+dialogId("jed-m-trubka", "font_small", "I wonder if it wouldn’t be easier to shorten that steel pipe.")
 dialogStr("Ich frage mich, ob es nicht einfacher wäre, das Stahlrohr zu kürzen.")
 
 
@@ -71,6 +71,6 @@ dialogId("jed-v-poter", "font_big", "Watching you, I have to think about how I p
 dialogStr("Wenn ich dir so zusehe, muss ich daran denken, wie ich mit Kaulquappen Murmeln gespielt habe.")
 
 
-dialogId("jed-m-kulicka", "font_small", "You haven`t got a spare marble in your pocket, do you?")
+dialogId("jed-m-kulicka", "font_small", "You haven’t got a spare marble in your pocket, do you?")
 dialogStr("Du hast keine Ersatzmurmel in deinen Taschen, oder?")
 

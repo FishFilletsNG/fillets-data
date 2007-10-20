@@ -5,16 +5,16 @@ dialogStr("E così l'abbiamo finalmente trovato.")
 dialogId("tru-m-co", "font_small", "What?")
 dialogStr("Cosa?")
 
-dialogId("tru-v-poklad", "font_big", "Captain Silver`s treasure, of course.")
+dialogId("tru-v-poklad", "font_big", "Captain Silver’s treasure, of course.")
 dialogStr("Il tesoro di Capitan Silver, logico.")
 
 dialogId("tru-v-gral", "font_big", "The Holy Grail, of course.")
 dialogStr("Il Sacro Graal, ovvio.")
 
-dialogId("tru-v-vkupe", "font_big", "It`s neatly in one place: the treasure and the Grail.")
+dialogId("tru-v-vkupe", "font_big", "It’s neatly in one place: the treasure and the Grail.")
 dialogStr("Semplicemente in un unico posto: il tesoro e il Graal.")
 
-dialogId("tru-m-zrada", "font_small", "I think it`s much too easy to be true.")
+dialogId("tru-m-zrada", "font_small", "I think it’s much too easy to be true.")
 dialogStr("Mi sembra troppo facile per essere vero.")
 
 dialogId("tru-m-oznamit", "font_small", "I think that if it really was our goal, the game would let the player know.")
@@ -32,7 +32,7 @@ dialogStr("E va bene. FORSE questo non è quello che cercavamo.")
 dialogId("tru-m-nejistota", "font_small", "That's better. There remains a bit of uncertainty.")
 dialogStr("Così è meglio. Ci rimane un po' di incertezza.")
 
-dialogId("tru-m-truhla0", "font_small", "Couldn`t we close that chest?")
+dialogId("tru-m-truhla0", "font_small", "Couldn’t we close that chest?")
 dialogStr("Non potremmo chiudere quello scrigno?")
 
 dialogId("tru-m-truhla1", "font_small", "What if we try to close that chest?")
@@ -44,19 +44,19 @@ dialogStr("Sarebbe molto più facile con lo scrigno chiuso.")
 dialogId("tru-v-truhla1", "font_big", "Try to push its lid.")
 dialogStr("Prova a spingere il coperchio.")
 
-dialogId("tru-m-vzit0", "font_small", "Won`t we take something with us?")
+dialogId("tru-m-vzit0", "font_small", "Won’t we take something with us?")
 dialogStr("Non prendiamo niente con noi?")
 
 dialogId("tru-m-vzit1", "font_small", "What about taking some treasure with us?")
 dialogStr("Che ne dici di prenderci una parte del tesoro?")
 
-dialogId("tru-m-vzit2", "font_small", "Aren`t you sorry to leave all this treasure behind?")
+dialogId("tru-m-vzit2", "font_small", "Aren’t you sorry to leave all this treasure behind?")
 dialogStr("Non ti dispiace lasciare indietro tutto questo tesoro?")
 
 dialogId("tru-v-vzit0", "font_big", "We will be glad if we manage to get out ourselves.")
 dialogStr("È già tanto se riusciremo a uscire noi due.")
 
-dialogId("tru-v-vzit1", "font_big", "Don`t forget our mission.")
+dialogId("tru-v-vzit1", "font_big", "Don’t forget our mission.")
 dialogStr("Non dimenticare la nostra missione.")
 
 dialogId("tru-v-vzit2", "font_big", "The treasure would only hinder us.")

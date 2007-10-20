@@ -19,7 +19,7 @@ dialogStr("Шокиращо е наистина.")
 dialogId("lod-m-costim", "font_small", "What are we to do about it?")
 dialogStr("Какво ще правим?")
 
-dialogId("lod-v-internovat", "font_big", "We can`t leave it this way. We must incarcerate them.")
+dialogId("lod-v-internovat", "font_big", "We can’t leave it this way. We must incarcerate them.")
 dialogStr("Не може да ги оставим така. Трябва да ги вкараме в затвора.")
 
 dialogId("lod-m-co", "font_small", "What must we do?")
@@ -67,7 +67,7 @@ dialogStr("Сигурно е минал през водовъртеж.")
 dialogId("lod-v-hravost", "font_big", "Mother was right. Abnormal playfulness is the root of all evil.")
 dialogStr("Мама е права. Ненормалната игривост е корен на всяко зло.")
 
-dialogId("lod-m-palka", "font_small", "That`s true. It would be much easier if that table tennis bat was somewhere else.")
+dialogId("lod-m-palka", "font_small", "That’s true. It would be much easier if that table tennis bat was somewhere else.")
 dialogStr("Вярно е. Щеше да ни е много по-лесно ако тази палка за тенис на масе беше някъде другаде.")
 
 dialogId("lod-v-micky", "font_big", "By the way, did you notice that the real golf ball is in the upper left corner while that thing in the lower right corner is a cricket ball?")
@@ -82,7 +82,7 @@ dialogStr("Кой знае.")
 dialogId("lod-m-micek", "font_small", "I thought it was a table tennis ball up there.")
 dialogStr("Мислех, че това годе е топче за тенис на маса.")
 
-dialogId("lod-v-rozliseni", "font_big", "It`s hard to say with this screen resolution.")
+dialogId("lod-v-rozliseni", "font_big", "It’s hard to say with this screen resolution.")
 dialogStr("Трудно е да се каже при тази разделителна способност на екрана.")
 
 dialogId("lod-m-bohove", "font_small", "This time our goal is to get out one of those gods.")
@@ -136,7 +136,7 @@ dialogStr("Добре!")
 dialogId("b1-znovu", "font_yellow", "Shall we play another one?")
 dialogStr("Ще изиграем ли още една игра?")
 
-dialogId("b1-nepodvadim", "font_yellow", "I don`t cheat.")
+dialogId("b1-nepodvadim", "font_yellow", "I don’t cheat.")
 dialogStr("Не мамя.")
 
 dialogId("b1-spletl", "font_yellow", "It was a mistake, probably...")
@@ -193,13 +193,13 @@ dialogStr("Това вече го опита!")
 dialogId("b2-rikal2", "font_cyan", "You already said that!")
 dialogStr("Това вече го каза!")
 
-dialogId("b2-nemuze", "font_cyan", "It can`t be a miss on this space.")
+dialogId("b2-nemuze", "font_cyan", "It can’t be a miss on this space.")
 dialogStr("Не може да пропусна от това положение.")
 
 dialogId("b2-podvadis", "font_cyan", "You cheat!!!")
 dialogStr("Мамиш!!!")
 
-dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss`!")
+dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss’!")
 dialogStr("Опитах и ти каза „пропуск“!")
 
 dialogId("b1-1", "", "")

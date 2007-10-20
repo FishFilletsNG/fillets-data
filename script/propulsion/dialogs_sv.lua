@@ -1,5 +1,5 @@
 
-dialogId("poh-v-takhle", "font_big", "So that`s how it is!")
+dialogId("poh-v-takhle", "font_big", "So that’s how it is!")
 dialogStr("Det är alltså så här!")
 
 
@@ -15,7 +15,7 @@ dialogId("poh-m-reaktor", "font_small", "And what was that nuclear power plant f
 dialogStr("Och var hade de kärnkraftverket till?")
 
 
-dialogId("poh-v-automat", "font_big", "Can`t you see? It powers that Coca-Cola vending machine over there.")
+dialogId("poh-v-automat", "font_big", "Can’t you see? It powers that Coca-Cola vending machine over there.")
 dialogStr("Förstår du inte? Den driver Coca-Cola automaten där borta.")
 
 
@@ -51,7 +51,7 @@ dialogId("poh-m-dobre", "font_small", "Okay, we shall take this one.")
 dialogStr("OK, vi ska ta den här.")
 
 
-dialogId("poh-v-forma", "font_big", "Look, there is some strange life form, over there. Shouldn`t we try to contact them?")
+dialogId("poh-v-forma", "font_big", "Look, there is some strange life form, over there. Shouldn’t we try to contact them?")
 dialogStr("Titta, det är någon sorts konstig livsform där borta. Ska vi försöka att få kontakt?")
 
 
@@ -63,7 +63,7 @@ dialogId("poh-v-pomoct", "font_big", "Well. But they could at least help us.")
 dialogStr("Nej. Men de kunde väl åtminstone hjälpa oss.")
 
 
-dialogId("poh-m-dobryden0", "font_small", "Good afternoon, excuse me, please, couldn`t I loot your drive?")
+dialogId("poh-m-dobryden0", "font_small", "Good afternoon, excuse me, please, couldn’t I loot your drive?")
 dialogStr("God eftermiddag, ursäkta mig, snälla, kan vi sno eran motor?")
 
 
