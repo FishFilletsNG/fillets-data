@@ -71,5 +71,5 @@ dialogId("proc-m", "font_small", "Why we are destroying this building when it is
 dialogStr("Varför plockar vi isär byggnaden när det är helt klart att vi måste lägga en boll till hästen.")
 
 dialogId("rozbil-v", "font_big", "What? The traffic light is broken.")
-dialogStr("Vadå? Trafikljuset är trasigt.")
+dialogStr("Vad då? Trafikljuset är trasigt.")
 

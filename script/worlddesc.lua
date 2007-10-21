@@ -899,20 +899,24 @@ worldmap_addDesc("fdto", "en", "FDTO Building", "Branch of New Generation")
 worldmap_addDesc("fdto", "cs", "Budova FDTO", "Větev Nové generace")
 worldmap_addDesc("fdto", "de", "Haus FDTO", "NG")
 worldmap_addDesc("fdto", "pl", "Kwatera FDTO", "NG")
-worldmap_addDesc("fdto", "sv", "FDTO högkvarter", "NG")
+worldmap_addDesc("fdto", "sv", "FDTO högkvarter", "Gren av en ny generation")
 worldmap_addDesc("fdto", "bg", "Сградата на ООРД", "NG")
 worldmap_addDesc("fdto", "sl", "Zgradba RDA", "NG")
 worldmap_addDesc("fdto", "pt_BR", "Casa FDTO?", "NG")
 
 worldmap_addDesc("hole", "en", "Hard Hole", "Branch of New Generation")
 worldmap_addDesc("hole", "cs", "Nepříjemná propast", "Větev Nové generace")
+worldmap_addDesc("hole", "sv", "Svårt hål", "Gren av en ny generation")
 
 worldmap_addDesc("hanoi", "en", "Separated", "Branch of New Generation")
 worldmap_addDesc("hanoi", "cs", "Odděleni", "Větev Nové Generace")
+worldmap_addDesc("hanoi", "sv", "Separerade", "Gren av en ny generation")
 
 worldmap_addDesc("rush", "en", "Filled Car Park", "Branch of New Generation")
 worldmap_addDesc("rush", "cs", "Zaplněné parkoviště", "Větev Nové Generace")
+worldmap_addDesc("rush", "sv", "Full parkering", "Gren av en ny generation")
 
 worldmap_addDesc("nowall", "en", "No Wall at All", "Branch of New Generation")
 worldmap_addDesc("nowall", "cs", "Vůbec žádná zeď", "Větev Nové Generace")
+worldmap_addDesc("nowall", "sv", "Inga väggar alls", "Gren av en ny generation")
 

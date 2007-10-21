@@ -1,6 +1,6 @@
 
 dialogId("kd-uvod", "font_white", "Good morning, fish. This is an affair of the gravest importance and so we have chosen you, our ablest underwater agents.")
-dialogStr("God morgon, fiskar. Det här en sak av största vikt och vi har valt er, våra bästa undervattensagenter.")
+dialogStr("God morgon, fiskar. Det här är en sak av största vikt och vi har valt er, våra bästa undervattensagenter.")
 
 
 dialogId("kd-ufo", "font_white", "Agents of FDTO - Fish Detective Training Organization - managed to get hold of several amateur snapshots of an extraterrestrial object which has crashed somewhere in your vicinity. Your mission, if you choose to accept it, will be to recover the UFO and acquire all the information you can about the principles and nature of interstellar propulsion.")

@@ -24,7 +24,7 @@ dialogStr("Jag tänker att vi kan göra ett bättre tetris än det här rummet."
 
 
 dialogId("tet-m-jaklepsi", "font_small", "What do you mean, better?")
-dialogStr("Vadå \"bättre\"?")
+dialogStr("Vad då \"bättre\"?")
 
 
 dialogId("tet-v-hybat", "font_big", "At least, you won’t have to move all the pieces to the right.")

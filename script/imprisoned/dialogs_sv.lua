@@ -24,7 +24,7 @@ dialogStr("Det finns så många koraller här...")
 
 
 dialogId("ncp-v-ceho", "font_big", "What?")
-dialogStr("Vadå?")
+dialogStr("Vad då?")
 
 
 dialogId("ncp-m-koraly", "font_small", "So many corals. Are you deaf or what?")

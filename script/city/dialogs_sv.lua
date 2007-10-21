@@ -144,7 +144,7 @@ dialogStr("Tänk dig, huvudet har gjort så där i alla dessa år...")
 
 
 dialogId("vit-v-noa", "font_big", "So what?")
-dialogStr("Och vadå?")
+dialogStr("Och vad då?")
 
 
 dialogId("vit-m-jak", "font_small", "Well think about how these poor crabs must feel!")
