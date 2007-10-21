@@ -257,20 +257,22 @@ label_text("menu_back", "pt_BR", "Volta");
 label_text("help", "en",
 [[
                 HELP
-restart level - Backspace
-help - F1
-save game - F2
-load game - F3
-show/hide move counter - F5
-show/hide subtitles - F6
-game menu - F10
-fullscreen - F11
-faster game - Shift
+Restart level - Backspace
+Undo - -
+Help - F1
+Save game - F2
+Load game - F3
+Show/hide move counter - F5
+Show/hide subtitles - F6
+Game menu - F10
+Fullscreen - F11
+Faster game - Shift
 ]])
 label_text("help", "cs",
 [[
               NÁPOVĚDA
 opakuj místnost - Backspace
+krok zpět - -
 nápověda - F1
 ulož hru - F2
 načti hru - F3
@@ -284,6 +286,7 @@ label_text("help", "fr",
 [[
                 AIDE
 Redémarrer le niveau - retour
+Annuler - -
 Aide - F1
 sauvegarder - F2
 charger - F3
@@ -297,6 +300,7 @@ label_text("help", "de",
 [[
                 HILFE
 Ebene neustarten - Backspace
+Rückgängig - -
 Hilfe - F1
 Spiel speichern - F2
 Spiel laden - F3
@@ -310,6 +314,7 @@ label_text("help", "it",
 [[
                    AIUTO
 ricomincia il livello - Backspace
+annulla - -
 aiuto - F1
 salva partita - F2
 carica partita - F3
@@ -323,6 +328,7 @@ label_text("help", "pl",
 [[
                 POMOC
 restart poziomu - Backspace
+cofnij - -
 pomoc - F1
 zapisz grę - F2
 wczytaj grę - F3
@@ -336,6 +342,7 @@ label_text("help", "es",
 [[
                 AYUDA
 Reiniciar nivel - Borrar
+Deshacer - -
 Ayuda - F1
 Guardar juego - F2
 Cargar juego - F3
@@ -349,6 +356,7 @@ label_text("help", "nl",
 [[
                 HELP
 hertart veld - Backspace
+ongedaan maken - -
 help - F1
 spel opslaan - F2
 spel laden - F3
@@ -362,6 +370,7 @@ label_text("help", "bg",
 [[
              ПОМОЩ
 рестартиране на нивото - Backspace
+отмени - -
 помощ - F1
 запис на позиция - F2
 зареждане на позиция - F3
@@ -375,12 +384,13 @@ label_text("help", "sv",
 [[
                 HJÄLP
 Omstart av nivå - Bakåtsteg
-Hjälp - F1 
+Ångra - -
+Hjälp - F1
 Spara spel - F2
 Ladda spel - F3
 Visa/göm stegräknare - F5
 Visa/göm textning - F6
-Spelmeny - F10 
+Spelmeny - F10
 Helskärmsläge - F11
 Snabbare spel - Skift
 ]])
@@ -388,6 +398,7 @@ label_text("help", "sl",
 [[
                 POMOČ
 Ponovno zaženi stopnjo - Backspace
+razveljavi - -
 pomoč - F1
 shrani igro - F2
 naloži igro - F3
@@ -401,6 +412,7 @@ label_text("help", "pt_BR",
 [[
                 AJUDA
 Reiniciar nível - Backspace
+Desfazer - -
 Ajuda - F1
 Salvar jogo - F2
 Carregar jogo - F3
