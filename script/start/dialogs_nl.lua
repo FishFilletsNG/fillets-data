@@ -28,7 +28,7 @@ dialogStr("Je kunt ons besturen met de pijltjestoetsen en met de spatiebalk wiss
 
 
 dialogId("1st-m-navod4", "font_small", "Or you can control us with the mouse -- left-click somewhere and...")
-dialogStr("Of je kunt ons met de muis besturen -- klik met de linker knop ergens en...")
+dialogStr("Je kunt ons ook met de muis besturen -- klik met de linker knop ergens en...")
 
 
 dialogId("1st-v-navod5", "font_big", "...if we can get there without moving anything...")
@@ -52,7 +52,7 @@ dialogStr("En wees wel voorzichtig met ons. Als je iets op ons laat vallen...")
 
 
 dialogId("1st-m-nechtoho", "font_small", "Oh, stop it. We’ll tell him in the next level.")
-dialogStr("Oh, hou op. Dat vertellen we hem in het volgende veld wel.")
+dialogStr("Oh, hou op. Dat vertellen we in het volgende veld wel.")
 
 
 dialogId("1st-v-takdobre", "font_big", "Okay.")
@@ -76,11 +76,11 @@ dialogStr("Wow, je hebt hem verplaatst. Dat zou ik nooit kunnen!")
 
 
 dialogId("1st-m-diky", "font_small", "Thanks, now I can go with you.")
-dialogStr("Bedankt, nu kan ik met je mee gaan.")
+dialogStr("Bedankt, nu kan ik mee naar buiten.")
 
 
 dialogId("1st-v-nemuzu", "font_big", "Darn it, I can’t get through.")
-dialogStr("Verdikkeme, ik kan er niet door.")
+dialogStr("Verdomme, ik kan er niet door.")
 
 
 dialogId("1st-v-pribral", "font_big", "I must have gained some weight.")
@@ -124,5 +124,5 @@ dialogStr("Druk op de knop met de lange pijl.")
 
 
 dialogId("1st-x-ocel", "font_darkgrey", "I’m a heavy steel cylinder. It’s not easy to move me around. Such a tiny fish, like the orange one over there, simply has no chance. I could smash her without any problem.")
-dialogStr("Ik ben een zware stalen cylinder. Het is niet makkelijk om mij te verplaatsen. Een klein visje als dat oranje visje daar heeft gewoon geen kans. Ik zou haar zonder meer verpletten.")
+dialogStr("Ik ben een zware stalen cylinder. Het is niet makkelijk om mij te verplaatsen. Een klein visje als dat oranje visje daar heeft gewoon geen kans. Ik zou haar gewoon verpletten.")
 

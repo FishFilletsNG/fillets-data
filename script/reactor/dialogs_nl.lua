@@ -24,7 +24,7 @@ dialogStr("Tenzij deze reactor op een heel ander principe gebaseerd is natuurlij
 
 
 dialogId("rea-m-mohl", "font_small", "It could, of course, be a nucleo-particle megadisruptor with ultramezon colliders.")
-dialogStr("Het kan ook een lepton-kern megadisruptor zijn met ultra-mesonversnellers, natuurlijk.")
+dialogStr("Het kan natuurlijk ook een lepton-kern megadisruptor zijn met ultra-mesonversnellers.")
 
 
 dialogId("rea-v-tozni", "font_big", "That sounds reasonable...")

@@ -24,7 +24,7 @@ dialogStr("Nouja, ik realiseer me net dat de animaties van ons tweeën alleen al
 
 
 dialogId("zx-v-otazka", "font_big", "Do you know that your question alone in WAV format would overfill the RAM of ZX Spectrum? And imagine how many such sounds are in this game.")
-dialogStr("Weet je dat jouw vraag alleen al in WAV formaat het werkgeheugen zou opmaken? En stel je eens voor hoeveel van dat soort geluiden er in dit spel zitten.")
+dialogStr("Weet je dat jouw vraag alleen al in wav formaat het werkgeheugen zou opmaken? En stel je eens voor hoeveel van dat soort geluiden er in dit spel zitten.")
 
 
 dialogId("zx-m-necodosebe", "font_small", "But still, these games had something to them, didn’t they?")

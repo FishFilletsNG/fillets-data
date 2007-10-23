@@ -1,6 +1,6 @@
 
 dialogId("kuch-m-objev0", "font_small", "Oh my, this is a nice kitchen.")
-dialogStr("O, dit is een mooie kombuis.")
+dialogStr("Goh, dit is een mooie kombuis.")
 
 
 dialogId("kuch-m-objev1", "font_small", "Yeah, we discovered the ship kitchen.")
@@ -88,7 +88,7 @@ dialogStr("Wat doet een stoel in deze kombuis?")
 
 
 dialogId("kuch-v-kreslo1", "font_big", "There should be no chairs in the kitchen.")
-dialogStr("Stoelen horen niet thuis in de kombuis.")
+dialogStr("Stoelen horen niet in de kombuis.")
 
 
 dialogId("kuch-m-kreslo2", "font_small", "Everybody wants to rest sometimes.")
@@ -108,7 +108,7 @@ dialogStr("Maar ik vind ze wel mooi. Misschien moeten we er een paar bestellen."
 
 
 dialogId("kuch-v-obavam", "font_big", "I am afraid that only I can get out of this space.")
-dialogStr("Ik vrees dat alleen ik hier weg kan komen.")
+dialogStr("Ik vrees dat alleen ik hieruit weg kan komen.")
 
 
 dialogId("kuch-m-zapeklite", "font_small", "It seems that even this ship contains some demanding problems.")

@@ -20,7 +20,7 @@ dialogStr("We zijn geen parelduikers.")
 
 
 dialogId("jed-v-poslani2", "font_big", "Remember! We have a mission to complete.")
-dialogStr("Denk eraan! We hebben een opdracht uit te voeren!")
+dialogStr("Vergeet niet dat we een opdracht uit te voeren hebben!")
 
 
 dialogId("jed-m-flakas", "font_small", "You are just sitting up there and I have to do all the work myself!")
@@ -68,7 +68,7 @@ dialogStr("Nou ja, ik wilde gewoon wat kennis overdragen.")
 
 
 dialogId("jed-v-poter", "font_big", "Watching you, I have to think about how I played marbles with tadpoles.")
-dialogStr("Als ik je zo bezig zie, dan moet ik met kikkerdril knikkerde toen ik klein was.")
+dialogStr("Als ik je zo bezig zie, dan moet ik denken aan hoe ik met kikkervisjes knikkerde toen ik klein was.")
 
 
 dialogId("jed-m-kulicka", "font_small", "You haven’t got a spare marble in your pocket, do you?")

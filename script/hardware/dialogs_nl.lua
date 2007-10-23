@@ -1,6 +1,6 @@
 
 dialogId("pz-v-zaskladanej", "font_big", "I’m completely blocked in here.")
-dialogStr("Ik zit hier helemaal vast.")
+dialogStr("Ik zit hier helemaal ingesloten.")
 
 
 dialogId("pz-m-co", "font_small", "What are you doing up there?")
@@ -28,7 +28,7 @@ dialogStr("Hier liggen nog wat printplaatjes.")
 
 
 dialogId("pz-m-spoje2", "font_small", "There are some integrated circuits here.")
-dialogStr("Hier heb ik wat geintegreerde-circuitborden.")
+dialogStr("Hier heb ik wat circuitborden.")
 
 
 dialogId("pz-m-spoje3", "font_small", "I am surrounded by electronics here.")
@@ -36,7 +36,7 @@ dialogStr("Ik word omgeven door electronica.")
 
 
 dialogId("pz-m-pocitace", "font_small", "Computers. They’ve always fascinated me. But now I’m sick of them.")
-dialogStr("Computers. Ik vond ze altijd fascinerend. Maar nu kan ik ze niet meer zien.")
+dialogStr("Computers. Ik vond ze altijd fascinerend, maar nu kan ik ze niet meer zien.")
 
 
 dialogId("pz-x-pocitac", "font_white", "Fish. I’ve always hated them. And now my circuits are overloaded with them.")

@@ -32,7 +32,7 @@ dialogStr("Er klopt hier iets niet...")
 
 
 dialogId("ob-m-teorie", "font_small", "Just spare me your theories, please.")
-dialogStr("Bespaar me alsjeblieft jouw theorieën.")
+dialogStr("Bespaar me alsjeblieft jouw theorie�n.")
 
 
 dialogId("ob-v-mamto", "font_big", "I’ve got it. If we push that one...")
@@ -40,7 +40,7 @@ dialogStr("Ik weet het! Als we dat ding nou daarheen schuiven...")
 
 
 dialogId("ob-m-pokracuj", "font_small", "Go on!")
-dialogStr("Hup!")
+dialogStr("Ga verder!")
 
 
 dialogId("ob-v-napad", "font_big", "Oh no, it was just an idea...")
@@ -60,7 +60,7 @@ dialogStr("Niks. Het was maar een ideetje.")
 
 
 dialogId("ob-m-zase", "font_small", "Not again.")
-dialogStr("Niet alweer.")
+dialogStr("Niet weer.")
 
 
 dialogId("ob-v-nebavi", "font_big", "I’m tired of this.")
@@ -100,7 +100,7 @@ dialogStr("Waarom zijn we zo lui?")
 
 
 dialogId("ob-m-ceka", "font_small", "Does he expect us to solve this on our own?")
-dialogStr("Verwacht hij of zij dat we dit zelf oplossen?")
+dialogStr("Verwacht de speler dat we dit zelf oplossen?")
 
 
 dialogId("ob-v-nerus", "font_big", "Don’t be disruptive. The player is thinking again...")
@@ -112,7 +112,7 @@ dialogStr("Is er wel echt een speler?")
 
 
 dialogId("ob-v-leskne", "font_big", "I don’t know. The screen glares too much from inside.")
-dialogStr("Ik weet het niet. Er is te veel reflectie aan de binnenkant van het scherm.")
+dialogStr("Ik kan het niet zien. Er is te veel reflectie aan de binnenkant van het scherm.")
 
 
 dialogId("ob-v-prestavka", "font_big", "This little break will help.")
@@ -120,7 +120,7 @@ dialogStr("Een beetje pauze is goed.")
 
 
 dialogId("ob-o-nebavi", "font_both", "We are tired of waiting!")
-dialogStr("We hebben geen zin meer in wachten!")
+dialogStr("We zijn het wachten zat!")
 
 
 dialogId("ob-o-halo", "font_both", "Hello!")
@@ -132,15 +132,15 @@ dialogStr("Geef je het op?")
 
 
 dialogId("ob-m-mysleli", "font_small", "We were just afraid that you might have forgotten about us.")
-dialogStr("We waren alleen een beetje bang dat je ons was vergeten.")
+dialogStr("We maken ons een beetje zorgen dat je ons aan het vergeten bent.")
 
 
 dialogId("ob-v-nehybes", "font_big", "Look, why don’t you move us a little bit?")
-dialogStr("Kom op, waarom verplaats je ons niet een stukje?")
+dialogStr("Kom op, waarom verplaats je ons niet een klein stukje?")
 
 
 dialogId("ob-m-resit", "font_small", "We are the game, you are supposed to solve the puzzle!")
-dialogStr("Wij zijn het spel, jij moet de puzzle oplossen.")
+dialogStr("Wij zijn het spel. Jij moet de puzzle oplossen!")
 
 
 dialogId("ob-v-akvarium", "font_big", "Buy yourself a fish tank for observations.")
@@ -208,7 +208,7 @@ dialogStr("Wat dan?")
 
 
 dialogId("ob-m-vsechno", "font_small", "Sorry for everything.")
-dialogStr("Alles is vreselijk.")
+dialogStr("Alles.")
 
 
 dialogId("ob-v-covsechno", "font_big", "What everything?")

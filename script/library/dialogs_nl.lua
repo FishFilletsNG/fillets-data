@@ -1,6 +1,6 @@
 
 dialogId("vrak-v-vraky0", "font_big", "These shipwrecks grow more and more arrogant.")
-dialogStr("De wrakken van tegenwoordig worden steeds arroganter.")
+dialogStr("De wrakken van tegenwoordig worden steeds brutaler.")
 
 
 dialogId("vrak-v-vraky1", "font_big", "These sunken ships really irritate me.")
@@ -20,7 +20,7 @@ dialogStr("Moet je zien, het heeft onze kasten stuk gemaakt.")
 
 
 dialogId("vrak-m-vrak2", "font_small", "Look, it invaded our library.")
-dialogStr("Kijk nou, het is in onze bilblioteek binnengedrongen.")
+dialogStr("Kijk nou, het is in onze bilblioteek binnengevallen.")
 
 
 dialogId("vrak-m-kupovat0", "font_small", "See? You shouldn’t have bought so many books.")
@@ -48,7 +48,7 @@ dialogStr("Herinnering aan de toekomst.")
 
 
 dialogId("vrak-m-knihy3", "font_small", "Holistic methods.")
-dialogStr("Holistische metoden.")
+dialogStr("Holistische methoden.")
 
 
 dialogId("vrak-m-knihy4", "font_small", "Teach yourself telepathy.")
@@ -56,11 +56,11 @@ dialogStr("Leer jezelf gedachten lezen.")
 
 
 dialogId("vrak-m-knihy5", "font_small", "Unwilling clairvoyant.")
-dialogStr("Onvrijwillige helderziende.")
+dialogStr("Onvrijwillig helderziend.")
 
 
 dialogId("vrak-m-knihy6", "font_small", "Outreaching Daniken.")
-dialogStr("Verder rijken dan Daniken.")
+dialogStr("Verder reiken dan Daniken.")
 
 
 dialogId("vrak-v-vyhodit", "font_big", "I’d throw out these, for example.")

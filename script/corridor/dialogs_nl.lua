@@ -60,7 +60,7 @@ dialogStr("Laat me niet alleen. Het is hier zo donker.")
 
 
 dialogId("ch-v-neboj0", "font_big", "Don’t be afraid. I’m here.")
-dialogStr("Wess niet bang. Ik ben hier.")
+dialogStr("Wees niet bang. Ik ben hier.")
 
 
 dialogId("ch-v-neboj1", "font_big", "Stop whining. We’ll manage.")
@@ -96,7 +96,7 @@ dialogStr("Kijk nou! Dat is vast... ROBOHOND!")
 
 
 dialogId("ch-m-ten", "font_small", "What? THAT robodog?!?")
-dialogStr("Wat? DIE Robohond?!?")
+dialogStr("Wat? DE Robohond?!?")
 
 
 dialogId("ch-v-zapada", "font_big", "Well now it all makes sense.")
@@ -104,7 +104,7 @@ dialogStr("Nu snap ik het!")
 
 
 dialogId("ch-m-odpoved0", "font_small", "Including the Cuban missile crisis and Nostradamus’ prophecies.")
-dialogStr("Zelfs de Cubaanse raketcrisis en de profetieen van Nostradamus.")
+dialogStr("Zelfs de Cubaanse raketcrisis en de voorspellingen van Nostradamus.")
 
 
 dialogId("ch-m-odpoved1", "font_small", "Including the murder of John Lennon and the Tunguzian meteor.")
@@ -140,7 +140,7 @@ dialogStr("Let maar niet op hen, speler, ze maken een grapje.")
 
 
 dialogId("ch-r-nevsimej1", "font_robodog", "Don’t listen to them, player. They are trying to be funny.")
-dialogStr("Let maar niet op hen, speler, ze zijn lollig aan het doen.")
+dialogStr("Let maar niet op hen, speler, ze proberen lollig te doen.")
 
 
 dialogId("ch-r-nevsimej2", "font_robodog", "Don’t listen to them, player. They are trying to fool you.")

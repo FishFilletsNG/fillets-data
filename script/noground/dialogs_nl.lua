@@ -4,11 +4,11 @@ dialogStr("Dit is een heel erg vreemde kamer.")
 
 
 dialogId("nog-m-uvedom0", "font_small", "You need to realize that the steel cylinder surrounding us is only an object.")
-dialogStr("Je moet je realiseren dat de stalen cylinder om ons heen gewoon een ding is.")
+dialogStr("Je moet je realiseren dat de stalen cylinder om ons heen een doodgewoon ding is.")
 
 
 dialogId("nog-m-uvedom1", "font_small", "All in all there are only four squares of wall here.")
-dialogStr("Alles bij elkaar zijn er hier maar vier vierkantjes muur.")
+dialogStr("Alles bij elkaar zijn er hier maar vier vlakjes muur.")
 
 
 dialogId("nog-v-smetiste0", "font_big", "This trash heap is weird...")

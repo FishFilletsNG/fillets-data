@@ -20,7 +20,7 @@ dialogStr("Verrrdorrrie!")
 
 
 dialogId("k1-pap-sucharek", "font_parrot", "Polly wants a crrracker!")
-dialogStr("Polly wil een crrrackerrr!")
+dialogStr("Lorrre wil een crrrackerrr!")
 
 
 dialogId("k1-pap-trhnisi", "font_parrot", "Beat it, sirrr...")
@@ -32,7 +32,7 @@ dialogStr("Hebben we dit niet al eens eerder gezien?")
 
 
 dialogId("ka2-m-kdepak", "font_small", "No, you’re wrong. This cabin is one hundred and forty four squares larger...")
-dialogStr("Nee hoor. Deze kajuit is honderdvierenveertig vierkantjes groter...")
+dialogStr("Nee hoor. Deze hut is honderdvierenveertig vlakjes groter...")
 
 
 dialogId("ka2-v-papousek", "font_big", "Look at that parrot!!!")
@@ -88,7 +88,7 @@ dialogStr("Ze wonen waarschijnlijk op het land. Deze skeletten zijn het bewijs v
 
 
 dialogId("ka2-v-myslet", "font_big", "Let’s try to think. Can’t we take our solution of that previous cabin and modify it a little?")
-dialogStr("Eens denken. Kunnen we niet onze oplossing van die andere kajuit nemen en die een beetje aanpassen?")
+dialogStr("Eens denken. Kunnen we niet onze oplossing van die andere hut nemen en die een beetje aanpassen?")
 
 
 dialogId("ka2-m-tezko", "font_small", "Hmm... I don’t think so.")

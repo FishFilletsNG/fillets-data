@@ -16,7 +16,7 @@ dialogStr("Dat is geweldig! Hij smeert hem gewoon. Wat moet ik nu?")
 
 
 dialogId("zr-m-tojeon", "font_small", "As usual. He just leaves me behind.")
-dialogStr("Zo gaat het altijd. Hij laat mij weer alleen achter.")
+dialogStr("Zo gaat het altijd. Hij laat me weer in de steek.")
 
 
 dialogId("zr-m-pockej", "font_small", "Wait! What about me? I want to get out of here, too!")
@@ -28,7 +28,7 @@ dialogStr("Hallo, is daar iemand, daar beneden?")
 
 
 dialogId("zr-v-halo", "font_big", "Hello, can you hear me in there?")
-dialogStr("Hallo, kun je mij horen?")
+dialogStr("Hallo, kun je me horen?")
 
 
 dialogId("zr-v-jetunekdo", "font_big", "Is anybody here?")

@@ -1,10 +1,10 @@
 
 dialogId("bat-m-tohle", "font_small", "So this is an exploratory bathyscaph.")
-dialogStr("Dat is een bathyscaphe.")
+dialogStr("Dat is een bathyscaaf.")
 
 
 dialogId("bat-m-mikro", "font_small", "A nice microscope.")
-dialogStr("Leuke microscoop.")
+dialogStr("Mooie microscoop.")
 
 
 dialogId("bat-v-zved0", "font_big", "Shouldn’t I lift this?")
@@ -32,7 +32,7 @@ dialogStr("Dat is vast voor mij...")
 
 
 dialogId("bat-s-prome1", "font_snail", "That is going to be my brother...")
-dialogStr("Dat is mijn broer...")
+dialogStr("Dat is vast mijn broer...")
 
 
 dialogId("bat-s-prome2", "font_snail", "Could you handle that call for me, please?")
@@ -40,7 +40,7 @@ dialogStr("Kun je dat telefoontje voor me aannemen, alsjeblieft?")
 
 
 dialogId("bat-s-snek0", "font_snail", "I hope I am not in the way here.")
-dialogStr("Ik hoop dat ik niet in de weg zwem.")
+dialogStr("Ik hoop dat ik niet in de weg zit.")
 
 
 dialogId("bat-s-snek1", "font_snail", "Really, I can easily crawl away. Just say the word.")
@@ -80,9 +80,9 @@ dialogStr("Hallo, hallo!")
 
 
 dialogId("bat-p-zhov0", "font_statue", "Hello, chief inspector Clouseau speaking. I am looking for the dangerous shellfish, who... Oh no, not now, Kato, you yellow ape!")
-dialogStr("Hallo, met hoofdinspecteur Clouseau. Ik ben op zoek naar een gevaarlijk schelpdier dat... O nee, niet nu, Kato, jij gele aap!")
+dialogStr("Hallo, met hoofdinspecteur Clouseau. Ik ben op zoek naar een gevaarlijk schelpdier dat... O nee, niet nu, Kato, jij aap!")
 
 
 dialogId("bat-p-zhov1", "font_green", "Hello, you have reached the number 4202-21913271. Nobody from the family of Roundfish is presently present. Please, leave the message after the beep. What happened?")
-dialogStr("Hallo, dit is nummer 4202-21913271 van de familie Rondvis. Op het moment zijn we niet thuis. Laat alstublieft een bericht achter na de pieptoon. Wat is er gebeurd?")
+dialogStr("Hallo, dit is het nummer van de familie Rondvis, 4202-21913271. Op het moment zijn we niet thuis. Je kunt een bericht achterlaten na de pieptoon. Wat is er gebeurd?")
 

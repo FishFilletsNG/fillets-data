@@ -44,7 +44,7 @@ dialogStr("Als ik de jouwe mag lenen.")
 
 
 dialogId("pot-m-velik", "font_small", "This sure is a big stetson.")
-dialogStr("Dat is een grote piratensteek.")
+dialogStr("Dat is een grote piratensteek, zeg.")
 
 
 dialogId("pot-v-kras", "font_big", "And a beatiful one, too.")

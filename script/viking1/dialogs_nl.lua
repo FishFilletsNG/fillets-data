@@ -1,10 +1,10 @@
 
 dialogId("dr-m-tojesnad", "font_small", "This must be a Viking ship!")
-dialogStr("Dit is vast een Vikingschip!")
+dialogStr("Dit is vast een vikingschip!")
 
 
 dialogId("dr-v-jiste", "font_big", "Sure, it’s a drakkar.")
-dialogStr("Natuurlijk, het is een drakkar.")
+dialogStr("Natuurlijk, het is een drakhar.")
 
 
 dialogId("dr-m-musela", "font_small", "She must have sunk fast. The oarsmen are still in their places.")

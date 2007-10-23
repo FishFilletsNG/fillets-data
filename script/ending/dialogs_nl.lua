@@ -4,11 +4,11 @@ dialogStr("Ik ben blij dat we weer thuis zijn.")
 
 
 dialogId("z-m-pocit", "font_small", "I have such a good feeling of the work well done.")
-dialogStr("Ik heb zo'n voldaan gevoel door al het werk dat we hebben verzet.")
+dialogStr("Ik heb zo'n voldaan gevoel nou we al dat werk hebben verzet.")
 
 
 dialogId("z-v-sef", "font_big", "The boss called a moment ago. He was very satisfied with our performance.")
-dialogStr("De baas heeft net gebeld. Hij was erg tevreden met ons optreden.")
+dialogStr("De baas heeft net gebeld. Hij was erg tevreden over ons optreden.")
 
 
 dialogId("z-m-nemluv", "font_small", "Don’t mention the boss to me. He sits somewhere in his cozy office and we have to do all the dirty work.")
@@ -32,7 +32,7 @@ dialogStr("Beste speler. We willen je graag de groeten doen van de makers van di
 
 
 dialogId("z-m-oblicej", "font_small", "Could you please put your face in front of the hard disk LED? You might not know it but it is a kind of computer’s eye through which...")
-dialogStr("Kun je alsjeblieft je gezicht voor het hardeschijfLEDje houden? Misschien wist je het niet, maar dat is zo'n beetje het oog van de computer...")
+dialogStr("Kun je alsjeblieft je gezicht voor het harde-schijfLEDje houden? Misschien wist je het niet, maar dat is zo'n beetje het oog van de computer...")
 
 
 dialogId("z-v-forky", "font_big", "Stop this jokes of yours. This is a very special moment. So:")

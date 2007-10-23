@@ -4,7 +4,7 @@ dialogStr("Wat een zooitje!")
 
 
 dialogId("vl-v-kaj1", "font_big", "This was surely a captain’s cabin.")
-dialogStr("Dit was vast de kajuit van de kapiteint.")
+dialogStr("Dit was vast de hut van de kapitein.")
 
 
 dialogId("vl-v-kaj2", "font_big", "What would you expect after so many years?")
@@ -36,7 +36,7 @@ dialogStr("Hebben jullie mijn oog toevallig ergens gezien?")
 
 
 dialogId("vl-leb-kecy1", "font_lightgrey", "This scarf is very important. The human skull with an empty eye socket looks really disgusting, you know.")
-dialogStr("Deze doek is erg belangrijk. Die menselijke schedel met een lege oogkas ziet er erg eng uit, weet je.")
+dialogStr("Deze doek is erg belangrijk. Die menselijke schedel met een lege oogkas ziet er vreselijk uit, weet je.")
 
 
 dialogId("vl-leb-kecy2", "font_lightgrey", "After that unfortunate accident with a teaspoon I have a completely different viewpoint of the world.")

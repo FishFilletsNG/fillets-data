@@ -32,7 +32,7 @@ dialogStr("Ik hoop alleen maar dat het niet op m'n kop zal vallen.")
 
 
 dialogId("zd2-m-lebka", "font_small", "Another skull. It’s worse than a morgue.")
-dialogStr("Nog een schedel. Het lijkt hier wel een lijkenhuis.")
+dialogStr("Nog een schedel. Het lijkt hier wel een mortuarium.")
 
 
 dialogId("zd2-v-haml", "font_big", "It’s worse than Hamlet.")

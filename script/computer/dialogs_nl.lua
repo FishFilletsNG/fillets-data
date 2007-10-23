@@ -40,7 +40,7 @@ dialogStr("Vast niet! Dit is geen krachtige multimediacomputer. Dis een ouwe XT 
 
 
 dialogId("poc-v-vyresil", "font_big", "The one who solves, I mean who has solved this, will receive, I mean will have received, MMX based machine with a 3Dfx card, plenty of RAM, a huge hard disk...")
-dialogStr("Degene die dit spel op zal lossen, ik bedoel opgelost heeft, die zal een pastbak met 3D video kaart, heel veel geheugen en enorm veel schijfruimte ontvangen, uh hebben ontvangen...")
+dialogStr("Degene die dit spel op zal lossen, ik bedoel opgelost heeft, die ontvang een patsbak met 3Dfx video kaart, heel veel werkgeheugen en een enorme harde schijf, uh zal hebben ontvangen...")
 
 
 dialogId("poc-m-kcemu", "font_small", "And what is it for? I for one know plenty of games almost as good as this one that could easily run on this XT machine.")
@@ -84,7 +84,7 @@ dialogStr("Laat die kurkentrekker vallen en help me!")
 
 
 dialogId("poc-m-kram", "font_small", "Oh my, what a sloppy machine. So big, so heavy and surely so slow.")
-dialogStr("O jee, wat een vreselijke krakbak. Zo groot, zo zwaar en vast ontzettend langzaam.")
+dialogStr("O jee, wat een vreselijke krakbak. Zo groot, zo zwaar en natuurlijk ontzettend langzaam.")
 
 
 dialogId("poc-v-mono", "font_big", "And moreover only mono.")

@@ -56,5 +56,5 @@ dialogStr("Die schedel heeft een rare uitstraling.")
 
 
 dialogId("bot-m-zivy", "font_small", "Is it alive or is it some kind of spell?")
-dialogStr("Leeft hij of is het iets van tovernarij, ofzo?")
+dialogStr("Leeft hij of is het iets met magie, ofzo?")
 

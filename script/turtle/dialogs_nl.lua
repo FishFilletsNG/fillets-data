@@ -8,7 +8,7 @@ dialogStr("Ja, dat is hem, de telepatische schildpad.")
 
 
 dialogId("zel-m-fotky0", "font_small", "Well, I don’t know. Judging from those photos, it could be it.")
-dialogStr("Nou, ik weet het niet. Hij lijkt wel een beetje op die foto's.")
+dialogStr("Nou, ik weet het niet. Maar hij lijkt wel een beetje op die foto's.")
 
 
 dialogId("zel-m-fotky1", "font_small", "I am not sure... what about those telepathic powers?")
@@ -104,7 +104,7 @@ dialogStr("Vind je dit grappig?")
 
 
 dialogId("zel-v-bizarni", "font_big", "So many bizarre shapes can only be found in a coral reef.")
-dialogStr("Zo veel rare vormen vindt je alleen in koraal riffen.")
+dialogStr("Zo veel rare vormen vindt je alleen in koraalriffen.")
 
 
 dialogId("zel-m-priroda", "font_small", "These corals are Mother Nature’s wonders.")

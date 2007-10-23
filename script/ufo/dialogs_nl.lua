@@ -20,11 +20,11 @@ dialogStr("Het had erger kunnen zijn. Ik zou me in een kamer voorstellen waar al
 
 
 dialogId("ufo-m-ne", "font_small", "My goodness! What should I do in such a level?")
-dialogStr("Lieve hemel! Wat zou ik in zo'n veld moeten doen?")
+dialogStr("Lieve hemel! Wat zou ik in zo'n veld moeten?")
 
 
 dialogId("ufo-v-vpredu", "font_big", "You would let me go in front, for a change.")
-dialogStr("Je zou mij het voortouw moeten laten nemen.")
+dialogStr("Je zou mij het voortouw moeten laten nemen, voor de verandering.")
 
 
 dialogId("ufo-m-zvlastni", "font_small", "It’s interesting that this tangled steel forestalls our entry into that UFO more effectively than any security system.")
@@ -40,7 +40,7 @@ dialogStr("Dat zou kunnen. Maar ik ben er niet zo zeker van dat het hoger is.")
 
 
 dialogId("ufo-v-dovnitr", "font_big", "What can we find inside, once we manage to get there?")
-dialogStr("Wat zullen we daar binnen vinden, als het ons eindelijk is gelukt om binnen te komen?")
+dialogStr("Wat zullen we daar binnen vinden, als het ons eindelijk is gelukt om er te komen?")
 
 
 dialogId("ufo-m-tajemstvi", "font_small", "Secrets of another civilization, new technologies, new sources of energy...")
@@ -60,6 +60,6 @@ dialogStr("Is het je niet opgevallen? Alles gebeurt toevallig precies hier.")
 
 
 dialogId("ufo-m-nevim", "font_small", "I don’t know why the UFOs keep crashing at our house, either.")
-dialogStr("Ik heb ook geen idee waarom vliegende schotels de hele tijd in onze achtertuin neerstorten.")
+dialogStr("Ik weet ook niet waarom vliegende schotels de hele tijd in onze achtertuin neerstorten.")
 
 

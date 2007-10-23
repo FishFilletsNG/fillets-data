@@ -16,7 +16,7 @@ dialogStr("Zie je die sneeuwpop?")
 
 
 dialogId("odp-m-blaznis", "font_small", "What do you mean? Snowmen belong to the Mess Hall.")
-dialogStr("Hoe bedoel je? Sneeuwpoppen horen in de eetzaal.")
+dialogStr("Hoe bedoel je? Sneeuwpoppen horen in de kajuit.")
 
 
 dialogId("odp-m-kohout", "font_small", "Try to open that tap!")

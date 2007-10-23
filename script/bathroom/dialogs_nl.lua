@@ -56,7 +56,7 @@ dialogStr("Misschien sproeit die lucht, net als in een bubbelbad.")
 
 
 dialogId("br-m-zapnout", "font_small", "Do you think we could turn it on?")
-dialogStr("Denk je dat we hem aan kunnen zetten?")
+dialogStr("Denk je dat we hem aan zouden kunnen zetten?")
 
 
 dialogId("br-v-shodit", "font_big", "Hardly. But we could push it down.")

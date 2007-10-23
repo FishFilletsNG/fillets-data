@@ -8,7 +8,7 @@ dialogStr("Dit ziet er meer uit als conventionele aandrijving voor het landingsv
 
 
 dialogId("mot-m-tak", "font_small", "So. We found the drive. We have achieved one of the objectives of our mission.")
-dialogStr("Zo. We hebben de aandrijving gevonden. We hebben een van onze opdrachten van deze missie uitgevoerd!")
+dialogStr("Zo. We hebben de aandrijving gevonden. We hebben een van onze doelen van deze missie bereikt!")
 
 
 dialogId("mot-v-zavery", "font_big", "Don’t be so hasty. We haven’t searched the whole wreck yet.")
@@ -32,11 +32,11 @@ dialogStr("Misschien is het maar goed dat hij het niet doet.")
 
 
 dialogId("mot-v-funkce1", "font_big", "I am rather glad we cannot turn anything on here.")
-dialogStr("Ik ben blij dat we hier niks kunnen activeren.")
+dialogStr("Ik ben blij dat we hier niks perongeluk aan kunnen zetten.")
 
 
 dialogId("mot-v-funkce2", "font_big", "We should be happy that we could not switch anything on yet.")
-dialogStr("We moeten blij zijn dat we hier niks kunnen activeren.")
+dialogStr("We moeten blij zijn dat we hier niks perongeluk aan kunnen zetten.")
 
 
 dialogId("mot-v-klic", "font_big", "Careful with that wrench.")
@@ -80,7 +80,7 @@ dialogStr("Wat doe je nou? Waar gaan we heen?")
 
 
 dialogId("mot-v-zvuky1", "font_big", "What have you activated? Where is it taking us?")
-dialogStr("Wat heb je geactiveerd? Waar brengt dit ding ons heen?")
+dialogStr("Waar heb je aan gezeten? Waar brengt dit ding ons heen?")
 
 
 dialogId("mot-m-nemuzu0", "font_small", "How can I turn it off?!")

@@ -108,7 +108,7 @@ dialogStr("Ik heb er schoon genoeg van...")
 
 
 dialogId("kor-v-kostice", "font_big", "I’m fed up to the gills with this.")
-dialogStr("Dat deuntje begin ik goed zat te worden.")
+dialogStr("Ik begin dat deuntje goed beu te worden.")
 
 
 dialogId("kor-v-odsud", "font_big", "I can’t budge this from where I am. I’d have to try to move it from the left side.")

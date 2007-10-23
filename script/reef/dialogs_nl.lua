@@ -1,6 +1,6 @@
 
 dialogId("uts-m-otresy", "font_small", "My goodness, the impact created cave-in!")
-dialogStr("Lieve heer, door de inslag is het hier ingestort!")
+dialogStr("Lieve Hemel, door de inslag is het hier ingestort!")
 
 
 dialogId("uts-v-projet0", "font_big", "I can’t go through this cave-in, we have to find another exit.")
@@ -12,7 +12,7 @@ dialogStr("Dit gaat niet.")
 
 
 dialogId("uts-v-sam", "font_big", "I won’t make it alone.")
-dialogStr("Dit lukt me niet alleen.")
+dialogStr("Dit lukt me niet in m'n eentje.")
 
 
 dialogId("uts-m-lastura", "font_small", "I probably should have had lifted that shell first.")
@@ -24,7 +24,7 @@ dialogStr("Misschien moeten we deze dingen omwisselen.")
 
 
 dialogId("uts-m-matrace", "font_small", "A mattress. The best thing you can get under water.")
-dialogStr("Een matras. Het aller handigste om onderwater bij je te hebben.")
+dialogStr("Een matras. Het allerhandigste om onderwater bij je te hebben.")
 
 
 dialogId("uts-m-snek", "font_small", "Now we can drop the snail on the mattress.")
@@ -40,11 +40,11 @@ dialogStr("Eindelijk is hij er.")
 
 
 dialogId("uts-m-chudak", "font_small", "The poor snail...")
-dialogStr("Arme slak...")
+dialogStr("Arm slakje...")
 
 
 dialogId("uts-v-koraly", "font_big", "We should search the coral reefs.")
-dialogStr("We moeten het koraalrif doorzoeken.")
+dialogStr("We moeten het koraalrif systematisch doorzoeken.")
 
 
 dialogId("uts-m-tvorove", "font_small", "There are going to be many interesting beings to investigate there.")
@@ -64,5 +64,5 @@ dialogStr("Bij voorbeeld koraalschildpadden.")
 
 
 dialogId("uts-m-batyskaf", "font_small", "And moreover I have a suspicion that there's a microscope in a bathyscaph.")
-dialogStr("En bovendien heb ik een donkerbruin vermoeden dat er een microscoop in een duikbootje is.")
+dialogStr("En bovendien heb ik een donkerbruin vermoeden dat er een microscoop in een bathyscaaf ligt ergens.")
 

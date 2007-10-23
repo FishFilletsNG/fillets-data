@@ -52,11 +52,11 @@ dialogStr("Goed, die nemen we mee.")
 
 
 dialogId("poh-v-forma", "font_big", "Look, there is some strange life form, over there. Shouldn’t we try to contact them?")
-dialogStr("Kijk, er zijn daar vreemde wezens. Moeten we niet proberen te communiceren?")
+dialogStr("Kijk, er zijn daar vreemde levensvormen. Moeten we niet proberen te communiceren?")
 
 
 dialogId("poh-m-princip", "font_small", "Our mission was clear - principles and construction of the interstellar propulsion. Not a single word about contact.")
-dialogStr("Onze opdracht was duidelijk - principe en constructie van de interstellaire aandrijving. Geen woord over communiceren.")
+dialogStr("Onze opdracht is duidelijk - principe en constructie van de interstellaire aandrijving. Geen woord over communiceren.")
 
 
 dialogId("poh-v-pomoct", "font_big", "Well. But they could at least help us.")

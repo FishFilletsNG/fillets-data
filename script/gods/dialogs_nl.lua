@@ -36,11 +36,11 @@ dialogStr("Hoe zullen we dat dan aanpakken?")
 
 
 dialogId("lod-v-cvok", "font_big", "Put them into the mad... I mean into the detainment facility of FDTO.")
-dialogStr("We stoppen ze in het gek... ik bedoel in het speciale verblijf van de VDTO.")
+dialogStr("We stoppen ze in het gest... ik bedoel in het speciale verblijf van de VDTO.")
 
 
 dialogId("lod-m-oba", "font_small", "You are right. Shall we take both of them?")
-dialogStr("Goed idee. Zullen we ze allebij dan maar meenemen?")
+dialogStr("Goed idee. Zullen we ze allebei dan maar meenemen?")
 
 
 dialogId("lod-v-golf", "font_big", "Of course. If we leave one of them here, any mad idea could occur to him. He could try to start playing golf, for example.")
@@ -88,11 +88,11 @@ dialogStr("Waarschijnlijk heeft er een roze monster aan gezogen.")
 
 
 dialogId("lod-v-hravost", "font_big", "Mother was right. Abnormal playfulness is the root of all evil.")
-dialogStr("Moeder had gelijk. Abnormaal speelgedrag is de bron van het Kwaad.")
+dialogStr("Mijn moeder had gelijk. Abnormaal speelgedrag is de bron van het Kwaad.")
 
 
 dialogId("lod-m-palka", "font_small", "That’s true. It would be much easier if that table tennis bat was somewhere else.")
-dialogStr("Dat is waar. Het zou veel makkelijker zijn als dat tafeltennis betje ergens anders was.")
+dialogStr("Dat is waar. Het zou veel makkelijker zijn als dat tafeltennisbatje ergens anders was.")
 
 
 dialogId("lod-v-micky", "font_big", "By the way, did you notice that the real golf ball is in the upper left corner while that thing in the lower right corner is a cricket ball?")
@@ -268,5 +268,5 @@ dialogStr("Je speelt vals!!!")
 
 
 dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss’!")
-dialogStr("Dat vakje heb ik al geprobeerd - en jij zei ’Plons'!")
+dialogStr("Dat vakje heb ik al geprobeerd - en jij zei \"Plons\"!")
 

@@ -24,7 +24,7 @@ dialogStr("Dat lijkt me onwaarschijnlijk.")
 
 
 dialogId("war-m-kam", "font_small", "Where did we get us, again?")
-dialogStr("Waar zijn we ookalweer beland?")
+dialogStr("Waar zijn we nu weer terecht gekomen?")
 
 
 dialogId("war-v-povedome", "font_big", "I find it oddly familiar here.")
@@ -48,9 +48,9 @@ dialogStr("Maar daar kom je makkelijker weer uit.")
 
 
 dialogId("war-v-blizzard", "font_big", "The makers of this game would like to express their admiration for the Blizzard Entertainment company and wish them many successful games.")
-dialogStr("De makers van dit spelletje willen graag hun bewondering uitspreken voor Blizzard Entertainment en wensen hun veel succesvolle spelletjes toe.")
+dialogStr("De makers van dit spelletje willen graag hun bewondering uitspreken voor Blizzard Entertainment en wensen hen veel succesvolle spelletjes toe.")
 
 
 dialogId("war-m-hodiny", "font_small", "And they would also like to thank them for so many hours of neatly killed time.")
-dialogStr("En ze willen hen ook graag bedanken voor al die uren netjes verspilde tijd.")
+dialogStr("En ze willen hen ook graag bedanken voor al die uren zorgvuldig verspilde tijd. De Nederlandse vertaalster van dit spelletje vindt echter wel dat Blizzard wat vriendelijker had mogen zijn tegen de makers van Freecraft.")
 

@@ -60,7 +60,7 @@ dialogStr("Deze krab zal ons vast helpen met het oplossen van dit veld.")
 
 
 dialogId("re-k-budi", "font_crab", "Who woke me up?")
-dialogStr("Wie heeft me wakker gemaakt?")
+dialogStr("Huh? Wat? Wie heeft me wakker gemaakt?")
 
 
 dialogId("re-k-spim", "font_crab", "Leave me alone, I am sleeping here!")

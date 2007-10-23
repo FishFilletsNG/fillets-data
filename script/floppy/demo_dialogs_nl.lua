@@ -20,7 +20,7 @@ dialogStr("Het is een nieuw spel.")
 
 
 dialogId("dlg-x-poster7", "font_orange", "Plenty of new possibilities. New occupations. New system of character creation, where, instead of your lives, your skills grow. New elegant mechanism of playing.")
-dialogStr("Met veel nieuwe mogelijkheiden. Nieuwe beroepen. Een nieuw systeem voor het maken van personages, waarin, in plaats van meer levens krijg, beter wordt. Een nieuwe en elegante manier van spelen.")
+dialogStr("Met veel nieuwe mogelijkheiden. Nieuwe beroepen. Een nieuw systeem voor het maken van personages, waarin je, in plaats van meer levens te krijgen, beter wordt. Een nieuwe en elegante manier van spelen.")
 
 
 dialogId("dlg-x-poster8", "font_orange", "A game for 21. century.")
@@ -40,7 +40,7 @@ dialogStr("Het is diep schokkend. Zorg dat de pers er niet achter komt.")
 
 
 dialogId("dlg-x-poster12", "font_poster", "You must prevent the panic.")
-dialogStr("Jullie moeten algemene paniek zien te voorkomen.")
+dialogStr("Jullie moeten paniek onder de bevolking zien te voorkomen.")
 
 
 dialogId("dlg-x-poster13", "font_poster", "And subscribe two copies for us.")

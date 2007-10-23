@@ -4,7 +4,7 @@ dialogStr("O nee, niet weer...")
 
 
 dialogId("kuf-v-noco", "font_big", "You know there’s nothing we can do about it.")
-dialogStr("Je weet dat we er niks tegen kunnen doen.")
+dialogStr("Je weet dat we er niks tegen kunnen beginnen.")
 
 
 dialogId("kuf-v-hod", "font_big", "Let’s push it down so we can take a look at it.")
@@ -24,7 +24,7 @@ dialogStr("Eerst moeten we uit deze ruimte zien te ontsnappen.")
 
 
 dialogId("kuf-v-ukol", "font_big", "This, by the way, is going to be our task in all the other rooms as well.")
-dialogStr("Dat is trouwens ook in alle andere ruimtes ons doel.")
+dialogStr("Dat is trouwens ook in bijna alle andere ruimtes ons doel.")
 
 
 dialogId("kuf-v-jeste", "font_big", "Should we watch it again?")
@@ -60,7 +60,7 @@ dialogStr("Nog een klein beetje hoger, zodat ik onder je door kan zwemmen.")
 
 
 dialogId("help1", "font_small", "For now, don’t touch anything, just watch and learn. We’ll show you what you should and shouldn’t do with us as well as what things we’re capable of.")
-dialogStr("Blijf nu maar even overal af. Kijk toe en leer. We laten je zien wat je wel en niet met ons moet doen en wat we kunnen.")
+dialogStr("Blijf nu maar even overal af. Let op en leer. We laten je zien wat je wel en niet met ons moet doen en wat we kunnen.")
 
 
 dialogId("help2", "font_big", "Before entering the workshop, let’s save the game - just press the F2 key.")
@@ -68,11 +68,11 @@ dialogStr("Voordat we de werkplaats binnen gaan kunnen we beter het spel opslaan
 
 
 dialogId("help3", "font_small", "First we’ll show you what can hurt us.")
-dialogStr("Eerst demonstreren we wat ons dood kan maken.")
+dialogStr("Eerst demonstreren we wat niet goed voor ons is.")
 
 
 dialogId("help4", "font_big", "I’ll volunteer to be the dummy.")
-dialogStr("Ik werp me wel op als doelwit.")
+dialogStr("Ik werp me wel op als slachtoffer.")
 
 
 dialogId("help5", "font_small", "First of all, we shouldn’t drop things on each other.")
@@ -96,7 +96,7 @@ dialogStr("Iets anders wat we beter ook niet kunnen doen is dingen over elkaars 
 
 
 dialogId("help10", "font_small", "Some objects are shaped in such a way that we could hold them and push them at the same time - but we’re not allowed to do this either.")
-dialogStr("Sommige dingen hebben zo'n vorm dat we ze tegelijk omhoog zouden kunnen houden en duwen - maar dat mag ook niet.")
+dialogStr("Sommige dingen hebben zo'n vorm dat we ze tegelijk omhoog zouden kunnen houden en duwen - maar dat kan ook niet.")
 
 
 dialogId("help11", "font_big", "Again, we load a saved game by pressing the F3 key.")
@@ -104,7 +104,7 @@ dialogStr("We laden het opgeslagen spel weer met de F3 toets.")
 
 
 dialogId("help12", "font_small", "We also can’t drop additional objects on a pile that one of us is carrying.")
-dialogStr("We kunnen ook beter geen extra dingen bovenop andere dingen gooien die door een van ons gedragen worden.")
+dialogStr("We kunnen ook beter geen extra dingen bovenop andere dingen gooien die door de ander gedragen worden.")
 
 
 dialogId("help13", "font_small", "And unlike my bigger partner, I can’t move or even carry steel objects.")
@@ -120,7 +120,7 @@ dialogStr("We kunnen altijd dingen oppakken en dan weer laten vallen.")
 
 
 dialogId("help16", "font_small", "We can push an object along each other’s back only if the object will then be pushed onto another support...")
-dialogStr("We kunnen wel iets langs elkaars rug duwen als het daarna gelijk weer op een andere steun terecht komt...")
+dialogStr("We kunnen wel iets langs elkaars rug duwen als het daarna gelijk weer op een ander steunpunt terecht komt...")
 
 
 dialogId("help17", "font_small", "... and even let it drop on each other in this case.")
@@ -132,7 +132,7 @@ dialogStr("Dit kan ik zelfs in mijn eentje... Ik kan eronder zwemmen... of het o
 
 
 dialogId("help19", "font_small", "We can also push one object along the top of another object which we are supporting, but we can’t move the object that is directly on our back.")
-dialogStr("We kunnen ook iets over een ding duwen dat we ondersteunen, zolang we niet het object proberen te verschuiven dat direct op onze rug ligt.")
+dialogStr("We kunnen ook iets over een ding duwen dat door de ander wordt ondersteund, zolang we niet het object proberen te verschuiven dat direct op zijn of haar rug ligt.")
 
 
 dialogId("help20", "font_big", "We can also swim freely under an object which we are supporting and pass it to the other fish.")

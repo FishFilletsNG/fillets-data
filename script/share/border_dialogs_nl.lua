@@ -16,11 +16,11 @@ dialogStr("We hebben onze opdracht nog niet uitgevoerd.")
 
 
 dialogId("cil-m-hlaska2", "font_small", "The Agency relies upon us. We must not fail.")
-dialogStr("De Organisatie heeft ons nodig. We moeten het halen.")
+dialogStr("De Organisatie heeft ons nodig. We moeten de missie volbrengen.")
 
 
 dialogId("cil-v-hlaska2", "font_big", "The Agency relies upon us. We must not fail.")
-dialogStr("De Organisatie heeft ons nodig. We moeten het halen.")
+dialogStr("De Organisatie heeft ons nodig. We moeten de missie volbrengen.")
 
 
 dialogId("cil-v-hlaska3", "font_big", "Certainly, we are not going to run away with the end in sight.")

@@ -64,7 +64,7 @@ dialogStr("Lijkentransport leverde niet meer genoeg geld op en dus zijn ze maar 
 
 
 dialogId("sm-v-sbirka", "font_big", "Can you see that collection of useless stuff, weird objects and refuse... All of them were useful things, carefully and skillfully manufactured.")
-dialogStr("Zie je deze verzameling nutteloze troep, vreemde rotzooi, en afval... Dit was vroeger allemaal nuttig spul, zorgvuldig en met liefde gemaakt.")
+dialogStr("Zie je deze verzameling nutteloze troep, rare dingen en afval... Dit was vroeger allemaal nuttig spul, zorgvuldig en met liefde gemaakt.")
 
 
 dialogId("sm-m-namaloval", "font_small", "Or painted.")

@@ -11,12 +11,8 @@ dialogId("zav-m-pohnout", "font_small", "Please note, that I can’t move a fin 
 dialogStr("Sta even stil bij het feit dat ik geen vin kan verroeren.")
 
 
-dialogId("zav-m-krasa", "font_small", "It’s beautiful! Everything gleams so much...")
-dialogStr("Het is prachtig! Alles glinstert zo...")
-
-
 dialogId("zav-v-venku", "font_big", "It’ll be much nicer when we get out.")
-dialogStr("Het zou veel fijner zijn als we hieruit konden komen.")
+dialogStr("Het zal vast veel worden zijn als we hier weg zijn.")
 
 
 dialogId("zav-v-zaval", "font_big", "This is very dangerous cave-in. We are lucky to be alive.")

@@ -1,6 +1,6 @@
 
 dialogId("pt2-m-parnik", "font_small", "That ghostly boat, again.")
-dialogStr("Alweer dit spookschip.")
+dialogStr("Alweer dat spookschip.")
 
 
 dialogId("pt2-v-zmena", "font_big", "Can you see it? Something has changed while we were away. I tell you, somebody is watching us.")
@@ -40,11 +40,11 @@ dialogStr("Ik denk niet dat ze ons nog kwaad zullen doen.")
 
 
 dialogId("pt2-v-nemohou1", "font_big", "I think they are quite harmless now.")
-dialogStr("Ik denk dat ze nu redelijk ongevaarlijk zijn.")
+dialogStr("Ik denk dat ze nu grotendeels ongevaarlijk zijn.")
 
 
 dialogId("pt2-v-minule0", "font_big", "It won’t be that easy like the last time.")
-dialogStr("Het wordt niet zo eenvoudig als de vorige keer.")
+dialogStr("Het wordt niet zo simpel als de vorige keer.")
 
 
 dialogId("pt2-v-minule1", "font_big", "It seems it’s going to be more difficult this time.")

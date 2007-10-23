@@ -4,7 +4,7 @@ dialogStr("Ik heb het een beetje koud.")
 
 
 dialogId("tr-v-jid1", "font_big", "No wonder. This is the Winter Mess Hall.")
-dialogStr("Geen wonder, dit is de wintereetzaal.")
+dialogStr("Geen wonder, dit is de winterkajuit.")
 
 
 dialogId("tr-m-chlad2", "font_small", "I’m cold.")
@@ -12,7 +12,7 @@ dialogStr("Ik heb het koud.")
 
 
 dialogId("tr-v-jid2", "font_big", "Well that’s what you would expect in a Winter Mess Hall, right?")
-dialogStr("Dat verwacht je toch ook van de wintereetzaal, toch?")
+dialogStr("Dat verwacht je toch ook van de winterkajuit, toch?")
 
 
 dialogId("tr-v-prezil", "font_big", "At least the snowman has survived.")

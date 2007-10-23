@@ -84,7 +84,7 @@ dialogStr("de objecten zo zouden verplaatsen dat jullie weg kunnen zwemmen.")
 
 
 dialogId("dir-hs-konec6", "font_statue", "solve it somehow and get to the next level.")
-dialogStr("het de eenofandere manier zouden oplossen en het volgende veld zouden bereiken.")
+dialogStr("het op de een of andere manier zouden oplossen en het volgende veld zouden bereiken.")
 
 
 dialogId("dir-hs-konec7", "font_statue", "start to think about it really hard.")

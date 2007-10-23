@@ -4,7 +4,7 @@ dialogStr("We raden aan het bijgevoegde materiaal zorgvuldig te testen op Heilig
 
 
 dialogId("dlg-x-poster2", "font_poster", "Bombing some of the grails with ultradirty words, we measured sometimes even 3 Santa Clauses, some of them withstanded the circumstances pressure of 0.8 jobs for the period of one minute!")
-dialogStr("We hebben de Gralen gebombardeerd met vreselijke schuttingtaal en bij een aantal zagen we een respons meer dan 3 Sinterklaas. Sommige waren in staat de werkdruk van 0.8 banen gedurende een hele minuut te weerstaan.")
+dialogStr("We hebben de Gralen gebombardeerd met vreselijke schuttingtaal en bij een aantal zagen we een respons van meer dan 3 Sinterklaas. Sommige waren in staat de werkdruk van 0.8 banen gedurende een hele minuut te weerstaan.")
 
 
 dialogId("dlg-x-poster3", "font_poster", "It is also possible that we have encountered the whole Holy Service.")

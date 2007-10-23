@@ -4,7 +4,7 @@ dialogStr("Dit schip moet al een hele tijd geleden gezonken zijn.")
 
 
 dialogId("dr1-v-urcite", "font_big", "Definitely. It’s one of the earliest drakkars. Judging by the shape of the head, number of spirals and color of the water I think it belonged to the grandfather of Eric the Red.")
-dialogStr("Inderdaad. Het is een van de vroegste drakkars. De vorm van het hoofd, het aantal spiralen, en de kleur van het water doen vermoeden dat het van de grootvader van Eric de Rode was.")
+dialogStr("Inderdaad. Het is een van de vroegste drakhars. De vorm van het hoofd, het aantal spiralen, en de kleur van het water doen vermoeden dat het van de grootvader van Erik de Rode was.")
 
 
 dialogId("dr1-v-olaf", "font_big", "Or to the father-in-law of Olaf the Brave.")
@@ -28,7 +28,7 @@ dialogStr("Het zou zelfs kunnen dat het eigendom was van Thorsen de Harde.")
 
 
 dialogId("dr1-x-erik", "font_lightgrey", "I always thought I was the fishing boat of Eric the Unready... But today I learned the truth. Yes, it’s never too late to start a new life!")
-dialogStr("Ik dacht altijd dat ik de visserschuit van Eric de Onvoorbereidde was.... Maar vandaag weet ik eindelijk de waarheid. Ja, het is nooit te laat om met een nieuw leven te beginnen!")
+dialogStr("Ik dacht altijd dat ik de vissersschuit van Erik de Onvoorbereide was.... Maar vandaag weet ik eindelijk de waarheid. Ja, het is nooit te laat om met een nieuw leven te beginnen!")
 
 
 dialogId("dr-m-podivej", "font_small", "Look at that poor dog.")
@@ -100,7 +100,7 @@ dialogStr("Je hoort het wel als we er zijn.")
 
 
 dialogId("dr-2-odskocit", "font_viking2", "Can I go relieve myself, sir?")
-dialogStr("Baas, ik moet even een boodschap doen.")
+dialogStr("Baas, ik moet naar de wc.")
 
 
 dialogId("dr-1-pockej", "font_viking1", "Wait till we get to Valhalla.")
@@ -136,7 +136,7 @@ dialogStr("Grinnekende malloten, een kwijlend hondje. Ik denk dat ik mezelf maar
 
 
 dialogId("dr-3-spravny", "font_viking3", "Real Vikings have beards.")
-dialogStr("Echte Vikingen hebben baarden.")
+dialogStr("Echte vikingen hebben baarden.")
 
 
 dialogId("dr-4-copy", "font_viking4", "B-b-braids are in n-nowadays.")
@@ -156,7 +156,7 @@ dialogStr("Ik doe niet aan modegrillen.")
 
 
 dialogId("dr-3-radeji", "font_viking3", "You should stick to the Viking traditions instead.")
-dialogStr("Je kunt het beter bij de echt Viking tradities houden.")
+dialogStr("Je kunt je beter aan de echt vikingtradities houden.")
 
 
 dialogId("dr-4-moderni", "font_viking4", "B-b-but I’m c-c-cool!")
@@ -208,7 +208,7 @@ dialogStr("Een krijger met vlechten. Dat geloof je toch niet.")
 
 
 dialogId("dr-3-mladi", "font_viking3", "You youngsters just think you can get away with anything today.")
-dialogStr("Jullie jongelingen denken dat jullie alles kunnen maken.")
+dialogStr("Jullie jongkies denken dat jullie alles kunnen maken.")
 
 
 dialogId("dr-4-stejne", "font_viking4", "Well, I still look cool.")

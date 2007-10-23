@@ -20,7 +20,7 @@ dialogStr("Krrrijg nou wat!")
 
 
 dialogId("k1-pap-drahousek", "font_parrot", "That’s rrrrrridiculous! Polly is his masterrr’s darrrling.")
-dialogStr("Lasterrr! Polly is de favorrriet van de meesterrrr.")
+dialogStr("Prrraatjes! Lorrre is de favorrriet van de meesterrrr.")
 
 
 dialogId("k1-pap-nestrkej", "font_parrot", "Don’t ppppush me!")
@@ -32,7 +32,7 @@ dialogStr("Dat is beterrr!")
 
 
 dialogId("k1-pap-prcice", "font_parrot", "And it’s currrtains forrr you!")
-dialogStr("Een gorrrdijn voorrr jou!")
+dialogStr("Het gorrrdijn valt voorrr jou!")
 
 
 dialogId("k1-pap-prekazet", "font_parrot", "I’m going to be in yourrr way herrre.")
@@ -48,11 +48,11 @@ dialogStr("Verrrdorrrie!")
 
 
 dialogId("k1-pap-sestlustej", "font_parrot", "You’rrre too fat, you can’t make it thrrrrough.")
-dialogStr("Dikke vis, je past errr niet doorrr.")
+dialogStr("Bolle rrrondvis, je past errr niet doorrr.")
 
 
 dialogId("k1-pap-sucharek", "font_parrot", "Polly wants a crrracker!")
-dialogStr("Polly wil en crrrackerrr.")
+dialogStr("Lorrre wil en crrrackerrr.")
 
 
 dialogId("k1-pap-trhnisi", "font_parrot", "Beat it, sirrr...")
@@ -112,7 +112,7 @@ dialogStr("Dat is pas een oktopus! Ik vraag me af van wie ze is.")
 
 
 dialogId("k1-v-patrila", "font_big", "Maybe it belonged to the person who lived in this cabin.")
-dialogStr("Misschien was ze van degene die in deze kajuit woonde.")
+dialogStr("Misschien was ze van degene die in deze hut woonde.")
 
 
 dialogId("k1-m-podivin", "font_small", "Whoever lived here sure was weird.")
@@ -128,7 +128,7 @@ dialogStr("Kijk dan, hij had hier een menselijke schedel liggen!")
 
 
 dialogId("k1-v-jejeho", "font_big", "Well, maybe it’s his own skull.")
-dialogStr("Nou ja, misschien is het wel z'n eigen schedel.")
+dialogStr("Nou ja, misschien is het wel zijn eigen schedel.")
 
 
 dialogId("k1-m-mysli", "font_small", "You think so?")
@@ -136,7 +136,7 @@ dialogStr("Zou je denken?")
 
 
 dialogId("k1-v-citis", "font_big", "Can you sense the atmosphere of rot and decay? The sunken wreck, the parrot’s skeleton, the human skull, and the broken cradle...")
-dialogStr("Voel je de atmosfeer van verval? Het gezonken wrak, het skelet van de papegaai, de menselijke schedel, en de kapotte wieg...")
+dialogStr("Voel je de atmosfeer van verval? Het gezonken wrak, het skelet van de papegaai, de menselijke schedel, en de gebroken wieg...")
 
 
 dialogId("k1-m-kolebku", "font_small", "Where do you see the cradle?")

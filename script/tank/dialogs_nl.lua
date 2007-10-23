@@ -1,6 +1,6 @@
 
 dialogId("sv-m-pomohli", "font_small", "This is some improvement. From bathyscaph to tank, this is like from a line into a net.")
-dialogStr("Dit is een stuk beter. Van mini-onderzeeër naar tank, van de regen in de drup.")
+dialogStr("Dit is een stuk beter. Van bathyscaaf naar tank, van de regen in de drup.")
 
 
 dialogId("sv-v-bezsneku", "font_big", "At least there are no oh-so-obliging snails here.")
@@ -12,15 +12,15 @@ dialogStr("Dat is een schale troost.")
 
 
 dialogId("sv-v-chtel", "font_big", "Thinking about it, I always wanted to see the inside of a tank.")
-dialogStr("Nu ik erover nadenk, ik wilde altijd al een keertje de binnenkant van een tank bekijken.")
+dialogStr("Ik realiseer me net dat ik altijd al een keertje de binnenkant van een tank heb willen zien.")
 
 
 dialogId("sv-m-doscasu", "font_small", "It seems you will have plenty of opportunity to look around.")
-dialogStr("Nu heb je de kans hebt om eens flink rond te kijken.")
+dialogStr("Nu heb je de kans om eens flink rond te kijken.")
 
 
 dialogId("sv-m-tank", "font_small", "I wonder how this tank got into the sea.")
-dialogStr("Hoe zou deze tank in de zee terecht zijn gekomen?")
+dialogStr("Hoe zou deze tank in zee terecht zijn gekomen?")
 
 
 dialogId("sv-v-obojzivelny", "font_big", "Maybe it was an amphibious tank.")
@@ -32,7 +32,7 @@ dialogStr("Een amfibievoertuig? Stel je voor: Het is nieuwe maan, de verbouweree
 
 
 dialogId("sv-v-proc", "font_big", "So why are you asking, if you are so darned clever?!")
-dialogStr("Waarom vraag je het dan, als je het zelf zo goed weet?!")
+dialogStr("Waarom vraag je het dan, als je het zelf allemaal zo goed weet?!")
 
 
 dialogId("sv-v-potopena", "font_big", "Maybe there is a sunken landing craft nearby.")

@@ -36,7 +36,7 @@ dialogStr("Alle menselijke schedels zien er het zelfde uit... In tegenstelling t
 
 
 dialogId("zd1-m-cesta", "font_small", "This is a tough path.")
-dialogStr("Dit is een moeilijke weg.")
+dialogStr("Dit is een moeilijk pad.")
 
 
 dialogId("zd1-v-krecek", "font_big", "I feel like a mouse on a treadmill.")

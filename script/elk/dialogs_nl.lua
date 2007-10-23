@@ -24,7 +24,7 @@ dialogStr("Ja. Ik heb ook gehoord dat ze daar touristen bijten.")
 
 
 dialogId("deu-l-los", "font_elk", "Ya rusky los.")
-dialogStr("Ja ruski los.")
+dialogStr("Ja ruski los. Ik ben een russische eland.")
 
 
 dialogId("deu-v-radsi", "font_big", "I’d like this elk much more if it wasn’t blocking our way so much.")

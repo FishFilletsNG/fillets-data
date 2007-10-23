@@ -20,7 +20,7 @@ dialogStr("Schrik niet, zeepaardje.")
 
 
 dialogId("ncp-m-komari", "font_small", "There are so many corals here...")
-dialogStr("Er zijn hier zo veel karollen...")
+dialogStr("Er zijn hier zo veel koralen...")
 
 
 dialogId("ncp-v-ceho", "font_big", "What?")
@@ -52,5 +52,5 @@ dialogStr("Hmm, hier pas ik niet tussendoor...")
 
 
 dialogId("ncp-m-barvy", "font_small", "I love colors...")
-dialogStr("Ik hou van kleuren...")
+dialogStr("Ik hou van kleurtjes...")
 

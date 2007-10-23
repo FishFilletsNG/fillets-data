@@ -1,6 +1,6 @@
 
 dialogId("mik-v-sakra", "font_big", "Dang, that snail is blocking the way.")
-dialogStr("Verdikkeme, deze slak ligt in de weg.")
+dialogStr("Verdorie, deze slak ligt in de weg.")
 
 
 dialogId("mik-v-projet", "font_big", "I can’t swim through.")

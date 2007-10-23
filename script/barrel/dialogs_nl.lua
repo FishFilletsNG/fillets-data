@@ -4,7 +4,7 @@ dialogStr("Greenpeace zou hier eens moeten komen kijken.")
 
 
 dialogId("bar-m-videt1", "font_small", "Somebody from Three Miles Island should see this.")
-dialogStr("Dat zouden die lui van Three Miles Island moeten zien, zeg.")
+dialogStr("Dit zouden die lui van Three Miles Island moeten zien, zeg.")
 
 
 dialogId("bar-v-co", "font_big", "What are we supposed to do with it?")
@@ -16,7 +16,7 @@ dialogStr("Laten we ze allemaal uitroeien. Zulke misbaksels hebben niet het rech
 
 
 dialogId("bar-v-priciny", "font_big", "I think we have to eliminate the cause and not the results.")
-dialogStr("Ik denk dat we de oorzaak moeten aanpakken, niet de gevolgen.")
+dialogStr("Dat is gemeen! Ik denk bovendien dat we de oorzaak moeten aanpakken, niet de gevolgen.")
 
 
 dialogId("bar-m-no", "font_small", "Well, you may be right.")
@@ -24,11 +24,11 @@ dialogStr("Nou ja, misschien heb je wel gelijk.")
 
 
 dialogId("bar-v-sud", "font_big", "And the cause is doubtless this giant barrel. We have to get it out somehow.")
-dialogStr("En de oorzaak is zonder twijfel deze gigantische ton. Die moeten we hier weg zien te krijgen.")
+dialogStr("En de oorzaak is duidelijk dit gigantische vat. Die moeten we hier weg zien te krijgen.")
 
 
 dialogId("bar-m-panb", "font_small", "Yes. Let’s get to work. We can drop it on the Mr. B.’s front yard afterwards.")
-dialogStr("Ja. Aan de slag. We kunnen hem straks bij Meneer B. in de voortuin afleveren.")
+dialogStr("Ja. Aan de slag. We kunnen het straks bij Meneer B. in de voortuin afleveren.")
 
 
 dialogId("bar-m-rada", "font_small", "I think I am growing to like them.")
@@ -60,7 +60,7 @@ dialogStr("Als we ze mee nemen en in alcohol bewaren, dan kunnen we een rariteit
 
 
 dialogId("bar-m-fdto", "font_small", "And FDTO isn’t enough for you?")
-dialogStr("De VDTO betaalt niet genoeg?")
+dialogStr("Je salaris van de VDTO is niet genoeg?")
 
 
 dialogId("bar-x-vypr", "font_white", "I can hear everything!")
@@ -80,15 +80,15 @@ dialogStr("Misschien hebben vliegende schotels ook wel een ziel.")
 
 
 dialogId("bar-m-zmeni", "font_small", "I think that this level is going to change us forever.")
-dialogStr("Ik denk dat we nooit meer hetzelfde zullen zijn, na dit veld.")
+dialogStr("Ik denk dat dit veld ons voorgoed zal veranderen.")
 
 
 dialogId("bar-m-noha", "font_small", "That foot is not only repulsive but also shameless. Just look at it.")
-dialogStr("Die voet is niet alleen goor maar ook schaamteloos. Moet je zien!")
+dialogStr("Die voet is niet alleen vies maar ook schaamteloos. Moet je zien!")
 
 
 dialogId("bar-v-pld", "font_big", "Look at that pld. It looks the same and still it grows more and more repulsive.")
-dialogStr("Kijk eens goed naar dat roze ding. Het ziet er hetzelfde uit maar wordt toch steeds afgrijselijker.")
+dialogStr("Kijk eens goed naar dat roze ding. Het ziet er nogsteeds hetzelfde uit maar wordt toch steeds afstotelijker.")
 
 
 dialogId("bar-m-pudy", "font_small", "But even it harbors some motherly instincts. Look how it cares about the little one.")
@@ -104,11 +104,11 @@ dialogStr("Deze vis ziet er vagelijk bekend uit.")
 
 
 dialogId("bar-v-fotka", "font_big", "Maybe it was in that photo from the power plant.")
-dialogStr("Misschien van die foto in die kerncentrale.")
+dialogStr("Misschien van die foto in de kerncentrale.")
 
 
 dialogId("bar-v-krab", "font_big", "The poor crab. So many pincers and no head. Although... maybe he is better off than us.")
-dialogStr("De arme krab. Zo veel scharen en geen kop. Hoewel... misschien is die er beter aan toe dan wij.")
+dialogStr("Arme krab. Zo veel scharen en geen kop. Hoewel... misschien is hij er beter aan toe dan wij.")
 
 
 dialogId("bar-m-kachna", "font_small", "No man is alone with a little yellow duck. Not even fish.")
@@ -116,9 +116,9 @@ dialogStr("Niemand is helemaal alleen als hij een klein geel badeendje heeft. Ze
 
 
 dialogId("bar-m-barel", "font_small", "This time, our goal is to push out the barrel with that filth.")
-dialogStr("Deze keer is ons doel om die ton met afval het veld uit te duwen.")
+dialogStr("Deze keer is ons doel om dat vat met afval het veld uit te duwen.")
 
 
 dialogId("bar-v-genofond", "font_big", "But we have to leave all those creatures here. They must not harm the genepool of the healthy population.")
-dialogStr("Maar we moeten al die beestjes hier achter laten.")
+dialogStr("Maar helaas zullen we al die beestjes hier achter moeten laten.  Anders kunnen ze perongeluk de gezonde populatie besmetten.")
 

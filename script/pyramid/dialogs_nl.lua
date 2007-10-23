@@ -12,7 +12,7 @@ dialogStr("Wat kruipt daar?")
 
 
 dialogId("pyr-v-druha", "font_big", "You can’t see it from here. It’s on the other side of wall.")
-dialogStr("Je kunt het van daaruit niet zien. Het zit aan de andere kant van de muur.")
+dialogStr("Je kunt het van daaraf niet zien. Het zit aan de andere kant van de muur.")
 
 
 dialogId("pyr-m-nudi", "font_small", "Look, the woman is bored!")

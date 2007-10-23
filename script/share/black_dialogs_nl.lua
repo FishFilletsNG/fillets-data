@@ -1,6 +1,6 @@
 
 dialogId("smrt-v-0", "font_big", "Oh, shoot!")
-dialogStr("Oh, Go...!")
+dialogStr("Oh, go...!")
 
 
 dialogId("smrt-m-psst", "font_small", "Shhh, children can be playing this game!")
@@ -8,15 +8,15 @@ dialogStr("Ssst, er zouden kinderen dit spel kunnen spelen!")
 
 
 dialogId("smrt-v-1", "font_big", "Darn.")
-dialogStr("Verdikkeme.")
-
-
-dialogId("smrt-v-2", "font_big", "Dang!")
 dialogStr("Verdraaid!")
 
 
-dialogId("smrt-v-3", "font_big", "Scheisse!")
+dialogId("smrt-v-2", "font_big", "Dang!")
 dialogStr("Verdorie!")
+
+
+dialogId("smrt-v-3", "font_big", "Scheisse!")
+dialogStr("Shi...")
 
 
 dialogId("smrt-v-4", "font_big", "Hmmm... and now I am alone.")
@@ -28,7 +28,7 @@ dialogStr("Zou ze geweten hebben dat ze zo'n sexy skelet had?")
 
 
 dialogId("smrt-v-6", "font_big", "Terrible end of the little fish...")
-dialogStr("Wat een vreselijke dood voor dat kleine visje...")
+dialogStr("Wat een vreselijke dood voor zo'n kleine visje...")
 
 
 dialogId("smrt-v-7", "font_big", "What can be the constant of decay of the fish skeleton?")
@@ -76,7 +76,7 @@ dialogStr("En ik heb hem nooit verteld hoeveel ik van hem hou.")
 
 
 dialogId("smrt-m-restart", "font_small", "Luckily, it’s possible to restart the level.")
-dialogStr("Gelukkig kun je het veld opnieuw spelen.")
+dialogStr("Gelukkig kun je opnieuw aan dit veld beginnen.")
 
 
 dialogId("smrt-v-restart", "font_big", "Fortunately, we can restart the level.")
@@ -104,5 +104,5 @@ dialogStr("Ik ga dit in m'n eentje nooit oplossen. Doe geen moeite om te herstar
 
 
 dialogId("smrt-v-autorest", "font_big", "And she is gone. I’m sure you liked her as much as I did. Certainly, you have nothing against restarting the level.")
-dialogStr("Daar gaat ze. Jij vond haar vast net zo aardig als ik. Dus je hebt er vast niks tegen opnieuw te beginnen met dit veld.")
+dialogStr("Daar gaat ze. Jij vond haar vast net zo gezellig als ik. Dus je hebt er vast niks tegen opnieuw te beginnen met dit veld.")
 

@@ -20,7 +20,7 @@ dialogStr("In ieder geval zal hier de boel eindelijk wat op orde zijn.")
 
 
 dialogId("kos-v-poradek2", "font_big", "I’ll have to do the sweeping.")
-dialogStr("Ik zal wat moeten vegen.")
+dialogStr("Ik zal de vloer moeten aanvegen.")
 
 
 dialogId("kos-v-koste0", "font_big", "It’s a good thing we have that broom.")

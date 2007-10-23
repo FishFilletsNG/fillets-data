@@ -16,7 +16,7 @@ dialogStr("Kijk, nu ben je eruit.")
 
 
 dialogId("sec-m-ven1", "font_small", "So, we are together again.")
-dialogStr("Zo, we zijn weer samen.")
+dialogStr("Zo, we zijn weer bij elkaar.")
 
 
 dialogId("sec-v-zavreny", "font_big", "I am closed in a room without doors!")
@@ -60,7 +60,7 @@ dialogStr("Deze stad ziet er verdacht goed bewaard uit...")
 
 
 dialogId("sec-v-pocit", "font_big", "I have a feeling that I am missing something.")
-dialogStr("Ik het gevoeld dat ik iets over het hoofd zie.")
+dialogStr("Ik heb het gevoel dat ik iets over het hoofd zie.")
 
 
 dialogId("sec-m-pocity", "font_small", "Your feelings... think about how to get us out.")
@@ -84,5 +84,5 @@ dialogStr("Heb je ooit een beeld gezien dat zo lang stil bleef?")
 
 
 dialogId("sec-m-situace", "font_small", "I think it’s only waiting for the best opportunity.")
-dialogStr("Ik vrees dat het alleen maar wacht op een goede gelegenheid.")
+dialogStr("Ik ben bang dat het alleen maar wacht op een goede gelegenheid.")
 

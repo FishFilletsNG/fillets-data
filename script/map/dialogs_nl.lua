@@ -1,6 +1,6 @@
 
 dialogId("map-v-mapa", "font_big", "Oh well. So that map really exists after all!")
-dialogStr("Aha! Die kaart bestaat dus toch echt!")
+dialogStr("Aha! Die kaart bestaat dus toch!")
 
 
 dialogId("map-m-mapa", "font_small", "Okay. Here is the map.")
@@ -8,7 +8,7 @@ dialogStr("Mooi. De kaart is hier.")
 
 
 dialogId("map-m-ukol", "font_small", "So it’s clear now that our goal is to get that map out somehow.")
-dialogStr("Ons doel is duidelijk. Die kaart moet de kamer uit.")
+dialogStr("Ons doel is duidelijk. Die kaart moet hier weg, op de een of andere manier.")
 
 
 dialogId("map-v-jasne", "font_big", "Of course. It would be too easy, if we should just swim away.")
@@ -28,11 +28,11 @@ dialogStr("Wat zou er op die kaart staan?")
 
 
 dialogId("map-v-poklady", "font_big", "Do you think that it really shows Silver’s treasure?")
-dialogStr("Denk je het echt de schatkaart van Silver is?")
+dialogStr("Denk je dat het echt de schatkaart van Silver is?")
 
 
 dialogId("map-m-uvidime", "font_small", "We shall see when we manage to get the darned map out.")
-dialogStr("Dat zullen we wel zien als we dat verdraaide ding hieruit krijgen.")
+dialogStr("Dat zullen we wel zien als we dat verdraaide ding hieruit hebben.")
 
 
 dialogId("map-m-sneci", "font_small", "We’d need more of these snails.")
@@ -48,7 +48,7 @@ dialogStr("We hebben meer glazen ogen nodig.")
 
 
 dialogId("map-v-restart", "font_big", "The easiest way to do it would be to get to the upper part of this level. Let’s try to restart it, maybe we will appear there.")
-dialogStr("Het zou het makkelijk zijn als we bovenin dit veld waren. Laten we het veld herstarten, misschien verschijnen we dan daar.")
+dialogStr("Het zou het makkelijkst zijn als we bovenin dit veld waren. Laten we het veld herstarten, misschien verschijnen we dan daar.")
 
 
 dialogId("map-m-pravidla", "font_small", "Don’t pretend that you didn’t understand the rules after so many solved levels.")

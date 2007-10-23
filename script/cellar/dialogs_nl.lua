@@ -40,7 +40,7 @@ dialogStr("Je moet niet tegen de bijl duwen!")
 
 
 dialogId("pra-m-prisun", "font_small", "If you can push that can to me, I’ll shove the axe on it and everything will be okay.")
-dialogStr("Als je het glas mijn kant op duwt, dan schuif ik de bijl erop en dan komt alles goed.")
+dialogStr("Als je die pot mijn kant op duwt, dan schuif ik de bijl erop en dan komt alles goed.")
 
 
 dialogId("pra-v-problem", "font_big", "If you solve some specific part you can save the position.")
@@ -52,7 +52,7 @@ dialogStr("Maar alleen als je zeker weet dat het de goede oplossing is.")
 
 
 dialogId("pra-v-ukladani", "font_big", "Remember what we have said about saving positions.")
-dialogStr("Vergeet niet wat we net zeiden over de situatie opslaan.")
+dialogStr("Vergeet niet wat we net zeiden het opslaan van de situatie.")
 
 
 dialogId("pra-m-uvazovat", "font_small", "I shouldn’t be thinking about this.")
@@ -68,7 +68,7 @@ dialogStr("Als je dat laat vallen terwijl ik nog hier ben, dan kom ik er nooit u
 
 
 dialogId("pra-v-zavazis", "font_big", "You are standing in my way there. Try to hide somewhere else.")
-dialogStr("Je zeeft in de weg. Probeer je ergens anders te verstoppen.")
+dialogStr("Je zwemt in de weg. Probeer je ergens anders te verstoppen.")
 
 
 dialogId("pra-m-strach", "font_small", "Here? I’m little bit afraid. Will I get out?")
@@ -92,11 +92,11 @@ dialogStr("Maar we vertellen je lekker niet hoe het moet.")
 
 
 dialogId("pra-v-nezapomen", "font_big", "Just remember that although we cannot push objects along each other’s back, we can push them down or onto some solid structure.")
-dialogStr("Vergeet niet dat, hoewel we geen dingen over elkaars rug kunnen duwen, we wel dingen van elkaar af kunnen duwen of op een vast punt.")
+dialogStr("Vergeet niet dat we misschien geen dingen over elkaars rug kunnen duwen, maar wel van elkaar af of op een vast punt.")
 
 
 dialogId("pra-v-objet", "font_big", "What if I go the upper way?")
-dialogStr("Wat als ik de bovenste weg kies?")
+dialogStr("Wat als ik het bovenste pad kies?")
 
 
 dialogId("pra-m-neradit", "font_small", "Shhhh. That’s too many hints.")
@@ -116,7 +116,7 @@ dialogStr("En dan moet je vaak het veld opnieuw doen.")
 
 
 dialogId("pra-v-schvalne", "font_big", "We admit that we did this on purpose.")
-dialogStr("We moeten toegeven dat we dat expres hebben gedaan.")
+dialogStr("We moeten toegeven dat het expres was.")
 
 
 dialogId("pra-m-znovu", "font_small", "So that you could try it again - this time without any hints.")

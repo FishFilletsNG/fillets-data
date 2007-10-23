@@ -64,7 +64,7 @@ dialogStr("Help! Het kijkt naar me!")
 
 
 dialogId("bank-m-fuj", "font_small", "Yuck.")
-dialogStr("Bah!.")
+dialogStr("Bah.")
 
 
 dialogId("bank-m-nervozni", "font_small", "That hand gives me the creeps...")
@@ -76,7 +76,7 @@ dialogStr("Uit dit reageerbuisje komt wel een hele rare geur...")
 
 
 dialogId("bank-m-hlavakolem", "font_small", "All of this is making my head spin...")
-dialogStr("Ik ben duizelig...")
+dialogStr("Ik word hier duizelig van...")
 
 
 dialogId("bank-v-neproplavu1", "font_big", "I can’t swim through here. We’re going to have to push this aside.")

@@ -16,11 +16,11 @@ dialogStr("Misschien, maar ik denk dat we het nog nodig zullen hebben.")
 
 
 dialogId("jes-v-uzke", "font_big", "It’s too narrow for me. You have to do it on your own down there.")
-dialogStr("Het is te krap voor mij. Je zult het daar beneden helemaal in je eentje moeten regelen.")
+dialogStr("Het is te krap voor mij. Je zult het daar beneden in je eentje moeten regelen.")
 
 
 dialogId("jes-m-ryba", "font_small", "That white fish is a terrible obstacle.")
-dialogStr("Dieser weiße Fisch ist ein schreckliches Hindernis.")
+dialogStr("Die witte vis zit vreselijk in de weg.")
 
 
 dialogId("jes-v-kamen", "font_big", "Fish? I thought it was only a stone.")
@@ -28,7 +28,7 @@ dialogStr("Vis? Ik dacht dat het een steen was.")
 
 
 dialogId("jes-v-gral", "font_big", "I think that we should be looking for the Grail somewhere else...")
-dialogStr("Ik denk dat we de Graal ergens anders moeten zoeken...")
+dialogStr("Ik denk dat we de Graal ergens anders moeten vinden...")
 
 
 dialogId("jes-m-deprese", "font_small", "Don’t be depressive. We will solve this in no time.")
@@ -44,11 +44,11 @@ dialogStr("Kijk, je bent er.")
 
 
 dialogId("jes-m-potvora0", "font_small", "What kind of color-shifting monster is this?")
-dialogStr("Wat is dit voor vreselijk kleuren-wisselend monster?")
+dialogStr("Wat is dat voor vreselijk kleuren-wisselend monster?")
 
 
 dialogId("jes-m-potvora1", "font_small", "This is an abomination.")
-dialogStr("Dat is afgrijselijk.")
+dialogStr("Dit is afgrijselijk.")
 
 
 dialogId("jes-m-potvora2", "font_small", "This is an offense of Nature.")
@@ -60,7 +60,7 @@ dialogStr("Dat is de flitsende hamerkop.")
 
 
 dialogId("jes-v-potvora1", "font_big", "It is called the Glossy repulsor.")
-dialogStr("Dat is de blinkende afgrijseling.")
+dialogStr("Dat is de verschietende afgrijseling.")
 
 
 dialogId("jes-v-potvora2", "font_big", "It is called the Politician fish.")
@@ -80,7 +80,7 @@ dialogStr("Dit is een opgezette vleermuis.")
 
 
 dialogId("jes-v-netopyr1", "font_big", "It’s a sculpture of bat.")
-dialogStr("Dit is een beeld van een vleermuis.")
+dialogStr("Dat is een beeld van een vleermuis.")
 
 
 dialogId("jes-m-netopyr2", "font_small", "It’s a stalagmite shaped as a bat.")
@@ -92,7 +92,7 @@ dialogStr("Het is gewoon een stalagmiet.")
 
 
 dialogId("jes-m-netopyr3", "font_small", "It’s just an ordinary piece of rock.")
-dialogStr("Het een volkomen normaal stuk rots.")
+dialogStr("Het is een volkomen normaal stuk rots.")
 
 
 dialogId("jes-v-nechut0", "font_big", "I think you are going to need that 'monster’.")
@@ -100,5 +100,5 @@ dialogStr("Ik denk dat je dat monster nodig gaat hebben.")
 
 
 dialogId("jes-v-nechut1", "font_big", "I think you will have to overcome your dislike of that 'abomination’.")
-dialogStr("Ik denk dat je je afkeer van dat ’misbaksel' zult moeten overwinnen.")
+dialogStr("Ik denk dat je je afkeer van dat \"misbaksel\" zult moeten overwinnen.")
 

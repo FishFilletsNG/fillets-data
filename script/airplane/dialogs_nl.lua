@@ -28,5 +28,5 @@ dialogStr("Stoelen. Waarom zijn hier zoveel stoelen?")
 
 
 dialogId("let-v-budrada", "font_big", "Be thankful. Could you get out without them?")
-dialogStr("Wees blij. Zou je hier uit kunnen komen zonder?")
+dialogStr("Wees blij. Zou je zonder die dingen hier weg komen?")
 

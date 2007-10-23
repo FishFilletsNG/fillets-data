@@ -4,7 +4,7 @@ dialogStr("Zie je dat? Dit schip had twee kanonsdekken. Het was vast een oorlogs
 
 
 dialogId("del-m-voda", "font_small", "You mean, in the water.")
-dialogStr("Je bedoelt ’in het water'.")
+dialogStr("Je bedoelt \"in het water\".")
 
 
 dialogId("del-m-ci", "font_small", "Whose ship was she? Maybe she served under admiral Nelson... or captain Hornblower.")
@@ -20,7 +20,7 @@ dialogStr("Ik heb het gevoel dat we dat zwaard nodig gaan hebben.")
 
 
 dialogId("del-m-tus", "font_small", "You and your 'feelings’. Besides, we’re not supposed to be giving any hints.")
-dialogStr("Jij en je gevoel ook altijd. Bovendien hadden we besloten geen aanwijzingen te geven.")
+dialogStr("Jij en je gevoel ook altijd. En we hadden toch besloten geen aanwijzingen te geven.")
 
 
 dialogId("del-m-jedn0", "font_small", "That was a little too simple, wasn’t it?")

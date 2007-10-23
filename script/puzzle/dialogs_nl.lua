@@ -28,7 +28,7 @@ dialogStr("Bah, wat vies.")
 
 
 dialogId("puc-m-slizka", "font_small", "Repulsive, slimy, dirty and in the way.")
-dialogStr("Vies, slijmerig, goor, en in de weg.")
+dialogStr("Vies, slijmerig, goor en in de weg.")
 
 
 dialogId("puc-v-fuska0", "font_big", "It’s taxing.")
