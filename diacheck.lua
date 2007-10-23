@@ -25,6 +25,7 @@ function dialog_addDialog() end
 function dialog_addFont() end
 function demo_display() end
 function game_planAction() end
+function options_getParam() end
 -----------
 
 dofile("script/share/level_dialog.lua")
