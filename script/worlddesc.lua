@@ -908,16 +908,20 @@ worldmap_addDesc("fdto", "pt_BR", "Casa FDTO?", "NG")
 worldmap_addDesc("hole", "en", "Hard Hole", "Branch of New Generation")
 worldmap_addDesc("hole", "cs", "Nepříjemná propast", "Větev Nové generace")
 worldmap_addDesc("hole", "sv", "Svårt hål", "Gren av en ny generation")
+worldmap_addDesc("hole", "nl", "Een diep gat", "Tak van de nieuwe generatie")
 
 worldmap_addDesc("hanoi", "en", "Separated", "Branch of New Generation")
 worldmap_addDesc("hanoi", "cs", "Odděleni", "Větev Nové Generace")
 worldmap_addDesc("hanoi", "sv", "Separerade", "Gren av en ny generation")
+worldmap_addDesc("hanoi", "nl", "Uitelkaar", "Tak van de nieuwe generatie")
 
 worldmap_addDesc("rush", "en", "Filled Car Park", "Branch of New Generation")
 worldmap_addDesc("rush", "cs", "Zaplněné parkoviště", "Větev Nové Generace")
 worldmap_addDesc("rush", "sv", "Full parkering", "Gren av en ny generation")
+worldmap_addDesc("rush", "nl", "Volle parkeerplek", "Tak van de nieuwe generatie")
 
 worldmap_addDesc("nowall", "en", "No Wall at All", "Branch of New Generation")
 worldmap_addDesc("nowall", "cs", "Vůbec žádná zeď", "Větev Nové Generace")
 worldmap_addDesc("nowall", "sv", "Inga väggar alls", "Gren av en ny generation")
+worldmap_addDesc("nowall", "nl", "Helemaal geen muren", "Tak van de nieuwe generatie")
 
