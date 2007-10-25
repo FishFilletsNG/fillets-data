@@ -7,18 +7,18 @@ Solved by %2
 ]])
 label_text("solver_worse", "cs",
 [[
-Nejlepší řešení:    %1
-Dohrál %2
+Nejlep???? ??e??en??:    %1
+Dohr??l %2
 ]])
 label_text("solver_worse", "fr",
 [[
 Meilleure solution:      %1
-réalisée par %2
+r??alis??e par %2
 ]])
 label_text("solver_worse", "de",
 [[
-Beste Lösung:      %1
-gelöst durch %2
+Beste L??sung:      %1
+gel??st durch %2
 ]])
 label_text("solver_worse", "it",
 [[
@@ -32,7 +32,7 @@ Zdobyty przez %2
 ]])
 label_text("solver_worse", "es",
 [[
-Mejor solución:      %1
+Mejor soluci??n:      %1
 Solucionado por %2
 ]])
 label_text("solver_worse", "nl",
@@ -47,17 +47,17 @@ label_text("solver_worse", "bg",
 ]])
 label_text("solver_worse", "sv",
 [[
-Bästa lösning:      %1
-Löst av %2
+B??sta l??sning:      %1
+L??st av %2
 ]])
 label_text("solver_worse", "sl",
 [[
-Najboljša rešitev:      %1
-Rešil %2
+Najbolj??a re??itev:      %1
+Re??il %2
 ]])
 label_text("solver_worse", "pt_BR",
 [[
-Melhor Solução:      %1
+Melhor Solu????o:      %1
 Feito por %2
 ]])
 label_text("solver_worse", "ru",
@@ -74,17 +74,17 @@ See http://fillets.sf.net/halloffame.php
 ]])
 label_text("solver_better", "cs",
 [[
-Vymyslel jsi LEPŠÍ řešení!
+Vymyslel jsi LEP???? ??e??en??!
 Koukni na http://fillets.sf.net/halloffame.php
 ]])
 label_text("solver_better", "fr",
 [[
 Vous avez la meilleure solution !
-rendez-vous à http://fillets.sf.net/halloffame.php
+rendez-vous ?? http://fillets.sf.net/halloffame.php
 ]])
 label_text("solver_better", "de",
 [[
-Du hast eine BESSERE Lösung!
+Du hast eine BESSERE L??sung!
 Siehe http://fillets.sf.net/halloffame.php
 ]])
 label_text("solver_better", "it",
@@ -94,12 +94,12 @@ Consulta http://fillets.sf.net/halloffame.php
 ]])
 label_text("solver_better", "pl",
 [[
-Zdobyłeś LEPSZY wynik!
-Sprawdź http://fillets.sf.net/halloffame.php
+Zdoby??e?? LEPSZY wynik!
+Sprawd?? http://fillets.sf.net/halloffame.php
 ]])
 label_text("solver_better", "es",
 [[
-Tienes una MEJOR solución!
+Tienes una MEJOR soluci??n!
 Mira en http://fillets.sf.net/halloffame.php
 ]])
 label_text("solver_better", "nl",
@@ -114,17 +114,17 @@ label_text("solver_better", "bg",
 ]])
 label_text("solver_better", "sv",
 [[
-Du har en BÄTTRE lösning!
-Gå till http://fillets.sf.net/halloffame.php
+Du har en B??TTRE l??sning!
+G?? till http://fillets.sf.net/halloffame.php
 ]])
 label_text("solver_better", "sl",
 [[
-Imaš BOLJŠO rešitev!
+Ima?? BOLJ??O re??itev!
 Oglej si http://fillets.sf.net/halloffame.php
 ]])
 label_text("solver_better", "pt_BR",
 [[
-Você possui uma MELHOR Solução!
+Voc?? possui uma MELHOR Solu????o!
 Visite http://fillets.sf.net/halloffame.php
 ]])
 label_text("solver_better", "ru",
@@ -139,27 +139,27 @@ Your solution is as good as the best known one.
 ]])
 label_text("solver_equals", "cs",
 [[
-Vyrovnal jsi nejlepší známé řešení.
+Vyrovnal jsi nejlep???? zn??m?? ??e??en??.
 ]])
 label_text("solver_equals", "fr",
 [[
-Votre solution égale la meilleure connue.
+Votre solution ??gale la meilleure connue.
 ]])
 label_text("solver_equals", "it",
 [[
-La tua soluzione è pari a quella migliore.
+La tua soluzione ?? pari a quella migliore.
 ]])
 label_text("solver_equals", "de",
 [[
-Deine Lösung ist genauso gut wie die beste bekannte Lösung.
+Deine L??sung ist genauso gut wie die beste bekannte L??sung.
 ]])
 label_text("solver_equals", "pl",
 [[
-Twój wynik jest równy najlepszemu z dotychczasowych.
+Tw??j wynik jest r??wny najlepszemu z dotychczasowych.
 ]])
 label_text("solver_equals", "es",
 [[
-Tu solución es tan buena como la mejor conocida.
+Tu soluci??n es tan buena como la mejor conocida.
 ]])
 label_text("solver_equals", "nl",
 [[
@@ -171,15 +171,15 @@ label_text("solver_equals", "bg",
 ]])
 label_text("solver_equals", "sv",
 [[
-Din lösning är lika bra som den bästa vi känner till.
+Din l??sning ??r lika bra som den b??sta vi k??nner till.
 ]])
 label_text("solver_equals", "sl",
 [[
-Tvoja rešitev je enaka kot najboljša znana.
+Tvoja re??itev je enaka kot najbolj??a znana.
 ]])
 label_text("solver_equals", "pt_BR",
 [[
-Sua solução é tão boa quanto a já conhecida.
+Sua solu????o ?? t??o boa quanto a j?? conhecida.
 ]])
 label_text("solver_equals", "ru",
 [[
@@ -190,11 +190,11 @@ label_text("solver_equals", "ru",
 
 -- menu
 label_text("menu_sound", "en", "Sound volume");
-label_text("menu_sound", "cs", "Hlasitost zvuků");
+label_text("menu_sound", "cs", "Hlasitost zvuk??");
 label_text("menu_sound", "fr", "Volume sonore");
-label_text("menu_sound", "de", "Tonlautstärke");
+label_text("menu_sound", "de", "Tonlautst??rke");
 label_text("menu_sound", "it", "Volume suoni");
-label_text("menu_sound", "pl", "Głośność dźwięku");
+label_text("menu_sound", "pl", "G??o??no???? d??wi??ku");
 label_text("menu_sound", "es", "Volumen de sonido");
 label_text("menu_sound", "nl", "Geluidsterkte");
 label_text("menu_sound", "bg", "Сила на звука");
@@ -206,41 +206,41 @@ label_text("menu_sound", "pt_BR", "Volume do Som");
 label_text("menu_music", "en", "Music volume");
 label_text("menu_music", "cs", "Hlasitost hudby");
 label_text("menu_music", "fr", "Volume de la musique");
-label_text("menu_music", "de", "Musiklautstärke");
+label_text("menu_music", "de", "Musiklautst??rke");
 label_text("menu_music", "it", "Volume musica");
-label_text("menu_music", "pl", "Głośność muzyki");
-label_text("menu_music", "es", "Volumen de la música");
+label_text("menu_music", "pl", "G??o??no???? muzyki");
+label_text("menu_music", "es", "Volumen de la m??sica");
 label_text("menu_music", "nl", "Muziekvolume");
 label_text("menu_music", "bg", "Сила на фоновата музика");
 label_text("menu_music", "sv", "Musikvolym");
 label_text("menu_music", "sl", "Glasnost glasbe");
-label_text("menu_music", "pt_BR", "Volume da música");
+label_text("menu_music", "pt_BR", "Volume da m??sica");
 label_text("menu_music", "ru", "Громкость музыки");
 
 label_text("menu_lang", "en", "Choose language");
-label_text("menu_lang", "cs", "Výběr jazyka");
+label_text("menu_lang", "cs", "V??b??r jazyka");
 label_text("menu_lang", "fr", "Choix de la langue");
 label_text("menu_lang", "de", "Sprachauswahl");
 label_text("menu_lang", "it", "Scegli la lingua");
-label_text("menu_lang", "pl", "Wybierz język");
+label_text("menu_lang", "pl", "Wybierz j??zyk");
 label_text("menu_lang", "es", "Escoge lenguaje");
 label_text("menu_lang", "nl", "Ondertiteling");
 label_text("menu_lang", "bg", "Избор на език");
-label_text("menu_lang", "sv", "Välj språk");
+label_text("menu_lang", "sv", "V??lj spr??k");
 label_text("menu_lang", "sl", "Izberite jezik");
 label_text("menu_lang", "pt_BR", "Escolha o idioma");
 label_text("menu_lang", "ru", "Выберите язык игры");
 
 label_text("menu_speech", "en", "Choose speech");
-label_text("menu_speech", "cs", "Výběr mluvy");
+label_text("menu_speech", "cs", "V??b??r mluvy");
 label_text("menu_speech", "fr", "Choix des paroles");
 label_text("menu_speech", "de", "Sprache der Tonausgabe");
 label_text("menu_speech", "it", "Scegli i dialoghi");
 label_text("menu_speech", "pl", "Wybierz dialogi");
-label_text("menu_speech", "es", "Escoge el diálogo");
+label_text("menu_speech", "es", "Escoge el di??logo");
 label_text("menu_speech", "nl", "Spreektaal");
 label_text("menu_speech", "bg", "Озвучаване на диалозите");
-label_text("menu_speech", "sv", "Välj talat språk");
+label_text("menu_speech", "sv", "V??lj talat spr??k");
 label_text("menu_speech", "sl", "Izberite govor");
 label_text("menu_speech", "pt_BR", "Escolha a fala");
 label_text("menu_speech", "ru", "Выберите язык речи");
@@ -251,21 +251,21 @@ label_text("menu_subtitles", "fr", "Montrer/cacher les sous-titres");
 label_text("menu_subtitles", "de", "Untertitel zeigen/verstecken");
 label_text("menu_subtitles", "it", "Mostra/nascondi sottotitoli");
 label_text("menu_subtitles", "pl", "Pokazuj/ukryj napisy");
-label_text("menu_subtitles", "es", "Mostrar/esconder subtítulos");
+label_text("menu_subtitles", "es", "Mostrar/esconder subt??tulos");
 label_text("menu_subtitles", "nl", "Ondertiteling aan/uit");
 label_text("menu_subtitles", "bg", "Субтитри");
-label_text("menu_subtitles", "sv", "Visa/göm textning");
-label_text("menu_subtitles", "sl", "Prikaži/skrij podnapise");
+label_text("menu_subtitles", "sv", "Visa/g??m textning");
+label_text("menu_subtitles", "sl", "Prika??i/skrij podnapise");
 label_text("menu_subtitles", "pt_BR", "Mostrar/esconder legendas");
 label_text("menu_subtitles", "ru", "Показать/скрыть субтитры");
 
 label_text("menu_back", "en", "Back");
-label_text("menu_back", "cs", "Zpět");
+label_text("menu_back", "cs", "Zp??t");
 label_text("menu_back", "fr", "Retour");
-label_text("menu_back", "de", "Zurück");
+label_text("menu_back", "de", "Zur??ck");
 label_text("menu_back", "it", "Indietro");
-label_text("menu_back", "pl", "Powrót");
-label_text("menu_back", "es", "Atrás");
+label_text("menu_back", "pl", "Powr??t");
+label_text("menu_back", "es", "Atr??s");
 label_text("menu_back", "nl", "Terug");
 label_text("menu_back", "bg", "Обратно");
 label_text("menu_back", "sv", "Tillbaka");
@@ -291,22 +291,22 @@ Faster game - Shift
 ]])
 label_text("help", "cs",
 [[
-              NÁPOVĚDA
-opakuj místnost - Backspace
-krok zpět - -
-nápověda - F1
-ulož hru - F2
-načti hru - F3
-zobraz/schovej počítadlo tahů - F5
+              N??POV??DA
+opakuj m??stnost - Backspace
+krok zp??t - -
+n??pov??da - F1
+ulo?? hru - F2
+na??ti hru - F3
+zobraz/schovej po????tadlo tah?? - F5
 zobraz/schovej titulky - F6
-herní nastavení - F10
-celá obrazovka - F11
-rychlejší hra - Shift
+hern?? nastaven?? - F10
+cel?? obrazovka - F11
+rychlej???? hra - Shift
 ]])
 label_text("help", "fr",
 [[
                 AIDE
-Redémarrer le niveau - retour
+Red??marrer le niveau - retour
 Annuler - -
 Aide - F1
 sauvegarder - F2
@@ -314,20 +314,20 @@ charger - F3
 montrer/cacher le compteur de mouvements - F5
 montrer/cacher les sous-titres - F6
 menu du jeu - F10
-plein écran - F11
-accélérer le jeu - Shift
+plein ??cran - F11
+acc??l??rer le jeu - Shift
 ]])
 label_text("help", "de",
 [[
                 HILFE
 Ebene neustarten - Backspace
-Rückgängig - -
+R??ckg??ngig - -
 Hilfe - F1
 Spiel speichern - F2
 Spiel laden - F3
-Bewegungszähler zeigen/verstecken - F5
+Bewegungsz??hler zeigen/verstecken - F5
 Untertitel zeigen/verstecken - F6
-Spielmenü - F10
+Spielmen?? - F10
 Vollbild - F11
 Spiel beschleunigen - Shift
 ]])
@@ -351,12 +351,12 @@ label_text("help", "pl",
 restart poziomu - Backspace
 cofnij - -
 pomoc - F1
-zapisz grę - F2
-wczytaj grę - F3
-pokaż/ukryj licznik ruchów - F5
-pokaż/ukryj napisy - F6
+zapisz gr?? - F2
+wczytaj gr?? - F3
+poka??/ukryj licznik ruch??w - F5
+poka??/ukryj napisy - F6
 menu - F10
-pełny ekran - F11
+pe??ny ekran - F11
 przyspieszenie gry - Shift
 ]])
 label_text("help", "es",
@@ -368,8 +368,8 @@ Ayuda - F1
 Guardar juego - F2
 Cargar juego - F3
 Mostrar/esconder contador de movimientos - F5
-Mostrar/esconder subtítulos - F6
-Menú del juego - F10
+Mostrar/esconder subt??tulos - F6
+Men?? del juego - F10
 Pantalla completa - F11
 Acelerar juego - Shift
 ]])
@@ -403,36 +403,36 @@ label_text("help", "bg",
 ]])
 label_text("help", "sv",
 [[
-                HJÄLP
-Omstart av nivå - Bakåtsteg
-Ångra - -
-Hjälp - F1
+                HJ??LP
+Omstart av niv?? - Bak??tsteg
+??ngra - -
+Hj??lp - F1
 Spara spel - F2
 Ladda spel - F3
-Visa/göm stegräknare - F5
-Visa/göm textning - F6
+Visa/g??m stegr??knare - F5
+Visa/g??m textning - F6
 Spelmeny - F10
-Helskärmsläge - F11
+Helsk??rmsl??ge - F11
 Snabbare spel - Skift
 ]])
 label_text("help", "sl",
 [[
-                POMOČ
-Ponovno zaženi stopnjo - Backspace
+                POMO??
+Ponovno za??eni stopnjo - Backspace
 razveljavi - -
-pomoč - F1
+pomo?? - F1
 shrani igro - F2
-naloži igro - F3
-prikaži/skrij števec premikov - F5
-prikaži/skrij podnapise - F6
+nalo??i igro - F3
+prika??i/skrij ??tevec premikov - F5
+prika??i/skrij podnapise - F6
 menu igre - F10
 celoten zaslon - F11
-hitrejša igra - Shift
+hitrej??a igra - Shift
 ]])
 label_text("help", "pt_BR",
 [[
                 AJUDA
-Reiniciar nível - Backspace
+Reiniciar n??vel - Backspace
 Desfazer - -
 Ajuda - F1
 Salvar jogo - F2
@@ -442,4 +442,18 @@ Mostrar/esconder legendas - F6
 Menu do jogo - F10
 Tela Inteira - F11
 Acelerar jogo - Shift
+]])
+label_text("help", "ru",
+[[
+                Помощь
+Перезапустить уровень - Backspace(Забой)
+Отменить - -
+Помощь - F1
+Сохранить игру - F2
+Загрузить игру - F3
+Показать/убрать счетчик ходов - F5
+Показать/убрать субтитры - F6
+Меню игры - F10
+Полный экран - F11
+Быстрая игра - Shift
 ]])
