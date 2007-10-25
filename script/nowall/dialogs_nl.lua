@@ -12,7 +12,7 @@ dialogId("m-uvedomit", "font_small",
 dialogStr("Je moet je realiseren dat de stalen cylinder om ons heen")
 
 dialogId("v-nad", "font_big", "... rather above me ...")
-dialogStr("... of liever ... boven mij ...
+dialogStr("... of liever ... boven mij ...")
 
 dialogId("m-predmet", "font_small", "is only an object.")
 dialogStr("alleen maar een ding is.")

@@ -44,7 +44,7 @@ dialogId("m-hazet", "font_small",
 dialogStr("Asi jsem tu menší kostičku neměla házet na tu větší.")
 
 dialogId("v-kopie", "font_big",
-"Somebody could thing this room is only a copy of one room from fish fillets 2.")
+"Somebody could think this room is only a copy of one room from fish fillets 2.")
 dialogStr(
 "Někdo by si moh' myslet, že je tahle místnost jen kopie z rybiček verze 2.")
 
@@ -70,8 +70,8 @@ dialogId("m-vyhecoval", "font_small", "Possibly somebody psyched him up.")
 dialogStr("Třeba ho někdo vyhecoval.")
 
 dialogId("v-looser", "font_big",
-"Oh well, player, if you don't solve it, you are a big looser.")
-dialogStr("Jo hráči, jestli to nedáš, tak seš fakt velkej looser.")
+"Oh well, player, if you don't solve it, you are a big loser.")
+dialogStr("Jo hráči, jestli to nedáš, tak seš fakt velkej loser.")
 
 dialogId("m-nepomahas", "font_small",
 "Of course, you are not entertained, when you almost don't help me.")
@@ -89,7 +89,7 @@ dialogId("m-vicedat", "font_small",
 dialogStr("Třeba už se na disk vejde mnohem více dat než za starých časů")
 
 dialogId("v-plny", "font_big",
-"I thing what ever size the disc is, it's always full.")
+"I think what ever size the disc is, it's always full.")
 dialogStr("Já myslím, že ať je disk jakkoli velký, je pořád stejně plný")
 
 dialogId("m-citovat", "font_small", "Be ashamed, cheater.")

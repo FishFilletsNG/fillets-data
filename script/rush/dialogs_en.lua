@@ -7,9 +7,9 @@ dialogId("m-hraje", "font_small",
 "Somebody is playing games with us -- the cars are moved. Or do you do it? Or do I? I am begining to be afraid.")
 
 dialogId("v-ffneni", "font_big",
-"I wander if fish fillets is a good game to solve this room.")
+"I wonder if fish fillets is a good game to solve this room.")
 
-dialogId("m-myslis", "font_small", "How do you mean it?")
+dialogId("m-myslis", "font_small", "What do you mean it?")
 
 dialogId("v-zopakuje", "font_big",
 "The player should learn to solve it somewhere else and he should only repeat it here.")

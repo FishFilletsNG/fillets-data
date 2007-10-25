@@ -12,11 +12,11 @@ dialogStr(
 "Asi si s námi někdo pěkně hraje, když posouvá ta autíčka. Nebo to snad děláš ty? nebo snad já? Začínám se trochu bát.")
 
 dialogId("v-ffneni", "font_big",
-"I wander if fish fillets is a good game to solve this room.")
+"I wonder if fish fillets is a good game to solve this room.")
 dialogStr(
 "Domnívám se, že fish fillets není vhodná hra k řešení této místnosti.")
 
-dialogId("m-myslis", "font_small", "How do you mean it?")
+dialogId("m-myslis", "font_small", "What do you mean it?")
 dialogStr("Jak to myslíš?")
 
 dialogId("v-zopakuje", "font_big",

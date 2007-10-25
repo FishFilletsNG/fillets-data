@@ -5,7 +5,7 @@ dialogId("m-co", "font_small", "What?")
 dialogStr("Wat?")
 
 dialogId("v-jacity", "font_big", "Either I get out or you!")
-dialogStr("Een van ons kan weg!"
+dialogStr("Een van ons kan weg!")
  
 dialogId("m-bude", "font_small", "And who will it be?")
 dialogStr("En wie zal dat zijn?")
@@ -40,12 +40,12 @@ dialogId("m-hazet", "font_small",
 dialogStr("Ik moet de kleine stukjes niet op het grotere gooien.")
 
 dialogId("v-kopie", "font_big",
-"Somebody could thing this room is only a copy of one room from fish fillets 2.")
+"Somebody could think this room is only a copy of one room from fish fillets 2.")
 dialogStr("Je zou bijna denken dat dit veld een kopie is van een veld uit fish fillets 2.")
 
 dialogId("m-inspiroval", "font_small",
 "But in fact the author was only inspired by the hardware problem room.")
-dialogStr("Maar eigenlijk was de auteur alleen geïnspireerd door het veld met het hardwareprobleem.)
+dialogStr("Maar eigenlijk was de auteur alleen geïnspireerd door het veld met het hardwareprobleem.")
 
 dialogId("m-rekurzivni", "font_small",
 "Why do I have to fold up all the pieces while a simple recursive program could do it?")
@@ -64,12 +64,12 @@ dialogId("m-vyhecoval", "font_small", "Possibly somebody psyched him up.")
 dialogStr("Misschien heeft iemand hem of haar opgejut.")
 
 dialogId("v-looser", "font_big",
-"Oh well, player, if you don't solve it, you are a big looser.")
+"Oh well, player, if you don't solve it, you are a big loser.")
 dialogStr("Nou ja, speler, als je het niet oplost, dan ben je een grote loser.")
 
 dialogId("m-nepomahas", "font_small",
 "Of course, you are not entertained, when you almost don't help me.")
-logStr("Je wordt natuurlijk niet vermaakt als je me bijna niet helpt.")
+dialogStr("Je wordt natuurlijk niet vermaakt als je me bijna niet helpt.")
 
 dialogId("m-trikrat", "font_small", "You said it already three times.")
 dialogStr("Dat heb je al drie keer gezegd.")
@@ -83,7 +83,7 @@ dialogId("m-vicedat", "font_small",
 dialogStr("Misschien heeft de speler tegenwoordig meer ruimte voor data.")
 
 dialogId("v-plny", "font_big",
-"I thing what ever size the disc is, it's always full.")
+"I think what ever size the disc is, it's always full.")
 dialogStr("Ik denk dat het niet uit maakt hoe groot de schijf is, hij is altijd vol.")
 
 dialogId("m-citovat", "font_small", "Be ashamed, cheater.")

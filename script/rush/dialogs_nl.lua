@@ -10,10 +10,10 @@ dialogId("m-hraje", "font_small",
 dialogStr("Iemand is ons aan het plagen -- de auto's zijn verplaatst. Of doe jij het? Of ik? Ik krijg hier de kriebels van.")
 
 dialogId("v-ffneni", "font_big",
-"I wander if fish fillets is a good game to solve this room.")
+"I wonder if fish fillets is a good game to solve this room.")
 dialogStr("Ik vraag me af of fish fillets een goed spel is om dit veld in op te lossen.")
 
-dialogId("m-myslis", "font_small", "How do you mean it?")
+dialogId("m-myslis", "font_small", "What do you mean it?")
 dialogStr("Hoe bedoel je?")
 
 dialogId("v-zopakuje", "font_big",

@@ -28,7 +28,7 @@ dialogId("m-hazet", "font_small",
 "I should not throw the smaller piece onto the bigger one.")
 
 dialogId("v-kopie", "font_big",
-"Somebody could thing this room is only a copy of one room from fish fillets 2.")
+"Somebody could think this room is only a copy of one room from fish fillets 2.")
 
 dialogId("m-inspiroval", "font_small",
 "But in fact the author was only inspired by the hardware problem room.")
@@ -45,7 +45,7 @@ dialogId("v-budou", "font_big", "He doesn't know, what they are like.")
 dialogId("m-vyhecoval", "font_small", "Possibly somebody psyched him up.")
 
 dialogId("v-looser", "font_big",
-"Oh well, player, if you don't solve it, you are a big looser.")
+"Oh well, player, if you don't solve it, you are a big loser.")
 
 dialogId("m-nepomahas", "font_small",
 "Of course, you are not entertained, when you almost don't help me.")
@@ -59,7 +59,7 @@ dialogId("m-vicedat", "font_small",
 "Maybe nowadays player's disc can accommodate more data then in past.")
 
 dialogId("v-plny", "font_big",
-"I thing what ever size the disc is, it's always full.")
+"I think what ever size the disc is, it's always full.")
 
 dialogId("m-citovat", "font_small", "Be ashamed, cheater.")
 

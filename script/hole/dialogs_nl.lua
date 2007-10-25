@@ -14,7 +14,7 @@ dialogStr("Is daar iemand?")
 dialogId("l-halo1", "font_lightgrey", "Who are there?")
 dialogStr("Wie is daar?")
 
-dialogId("l-halo2", "font_lightgrey", "I thing, the receiver isn't function")
+dialogId("l-halo2", "font_lightgrey", "I think, the receiver does not work.")
 dialogStr("Ik denk dat de hoorn het niet doet.")
 
 dialogId("l-dejte0", "font_lightgrey",
@@ -28,7 +28,7 @@ dialogId("l-dejte2", "font_lightgrey",
          "O O O O, I am indian. Put it back immediately!")
 dialogStr("Oehoehoehoe, ik ben een indiaan! Leg dat onmiddelijk terug!")
 
-dialogId("l-dejte3", "font_lightgrey", "O O O O, Put it back immediately!")
+dialogId("l-dejte3", "font_lightgrey", "O O O O, put it back immediately!")
 dialogStr("Oehoehoehoe. Leg dat onmiddelijk terug!")
 
 dialogId("l-vinnetou", "font_lightgrey",
@@ -51,7 +51,7 @@ dialogId("v-nedame1", "font_big", "I can't demur anything.")
 dialogStr("Ik ontken niks.")
 
 dialogId("v-neber", "font_big",
-"Player, if you are an indian, don't perceive as an diskrimination pleas.")
+"Player, if you are an indian, don't perceive as an discrimination please.")
 dialogStr("Speler, als je een oorspronkelijke bewoner van Amerika bent, vat dit dan alsjeblieft niet discriminerend op.")
 
 dialogId("m-sluchatko", "font_small", "It may be magic receiver.")

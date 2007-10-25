@@ -44,7 +44,7 @@ dialogId("m-hazet", "font_small",
 dialogStr("Jag borde inte slänga de större bitarna ovanpå de små.")
 
 dialogId("v-kopie", "font_big",
-"Somebody could thing this room is only a copy of one room from fish fillets 2.")
+"Somebody could think this room is only a copy of one room from fish fillets 2.")
 dialogStr(
 "Någon kan tro att det här bara en kopia av ett rum från fish fillets 2.")
 
@@ -70,7 +70,7 @@ dialogId("m-vyhecoval", "font_small", "Possibly somebody psyched him up.")
 dialogStr("Antagligen psykade någon honom.")
 
 dialogId("v-looser", "font_big",
-"Oh well, player, if you don't solve it, you are a big looser.")
+"Oh well, player, if you don't solve it, you are a big loser.")
 dialogStr("Spelare om du inte löser det här, då är du en stor förlorare.")
 
 dialogId("m-nepomahas", "font_small",
@@ -89,7 +89,7 @@ dialogId("m-vicedat", "font_small",
 dialogStr("Kanske dagens spelares diskar rymmer mer data än tidigare")
 
 dialogId("v-plny", "font_big",
-"I thing what ever size the disc is, it's always full.")
+"I think what ever size the disc is, it's always full.")
 dialogStr("Jag tror att oberoende av disken storlek så är den alltid full.")
 
 dialogId("m-citovat", "font_small", "Be ashamed, cheater.")

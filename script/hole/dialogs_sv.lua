@@ -15,7 +15,7 @@ dialogStr("Är det någon här?")
 dialogId("l-halo1", "font_lightgrey", "Who are there?")
 dialogStr("Vem är där?")
 
-dialogId("l-halo2", "font_lightgrey", "I thing, the receiver isn't function")
+dialogId("l-halo2", "font_lightgrey", "I think, the receiver does not work.")
 dialogStr("Jag tror att mottagaren inte fungerar.")
 
 dialogId("l-dejte0", "font_lightgrey",
@@ -29,7 +29,7 @@ dialogId("l-dejte2", "font_lightgrey",
          "O O O O, I am indian. Put it back immediately!")
 dialogStr("O O O O, jag är indian. Lägg tillbaks den genast!")
 
-dialogId("l-dejte3", "font_lightgrey", "O O O O, Put it back immediately!")
+dialogId("l-dejte3", "font_lightgrey", "O O O O, put it back immediately!")
 dialogStr("O O O O, lägg tillbaks den genast")
 
 dialogId("l-vinnetou", "font_lightgrey",
@@ -52,7 +52,7 @@ dialogId("v-nedame1", "font_big", "I can't demur anything.")
 dialogStr("Jag kan inte invända något.")
 
 dialogId("v-neber", "font_big",
-"Player, if you are an indian, don't perceive as an diskrimination pleas.")
+"Player, if you are an indian, don't perceive as an discrimination please.")
 dialogStr(
 "Spelare, om du är en indian, se det inte som diskriminering, snälla.")
 

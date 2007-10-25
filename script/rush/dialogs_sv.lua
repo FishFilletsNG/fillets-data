@@ -12,11 +12,11 @@ dialogStr(
 "Någon skämtar med oss -- bilarna rör på sig. Eller gjorde du det? Eller jag? Jag börjar att bli rädd.")
 
 dialogId("v-ffneni", "font_big",
-"I wander if fish fillets is a good game to solve this room.")
+"I wonder if fish fillets is a good game to solve this room.")
 dialogStr(
 "Jag undrar om fish fillets är ett bra spel att lösa detta rum i.")
 
-dialogId("m-myslis", "font_small", "How do you mean it?")
+dialogId("m-myslis", "font_small", "What do you mean it?")
 dialogStr("Hur menar du?")
 
 dialogId("v-zopakuje", "font_big",

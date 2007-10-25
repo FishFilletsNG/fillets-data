@@ -15,7 +15,7 @@ dialogStr("Haló, je tam někdo?")
 dialogId("l-halo1", "font_lightgrey", "Who are there?")
 dialogStr("Kdo tam je?")
 
-dialogId("l-halo2", "font_lightgrey", "I thing, the receiver isn't function")
+dialogId("l-halo2", "font_lightgrey", "I think, the receiver does not work.")
 dialogStr("Dost pochybuji o funkčnosti toho sluchátka.")
 
 dialogId("l-dejte0", "font_lightgrey",
@@ -29,7 +29,7 @@ dialogId("l-dejte2", "font_lightgrey",
          "O O O O, I am indian. Put it back immediately!")
 dialogStr("O O O O, jsem indián, dejte to sem!")
 
-dialogId("l-dejte3", "font_lightgrey", "O O O O, Put it back immediately!")
+dialogId("l-dejte3", "font_lightgrey", "O O O O, put it back immediately!")
 dialogStr("O O O O, dejte to sem")
 
 dialogId("l-vinnetou", "font_lightgrey",
@@ -52,7 +52,7 @@ dialogId("v-nedame1", "font_big", "I can't demur anything.")
 dialogStr("Na to už se nedá nic namítat.")
 
 dialogId("v-neber", "font_big",
-"Player, if you are an indian, don't perceive as an diskrimination pleas.")
+"Player, if you are an indian, don't perceive as an discrimination please.")
 dialogStr(
 "Pokud, hráči, náhodou jsi indián, tak to prosím neber jako diskriminaci.")
 
