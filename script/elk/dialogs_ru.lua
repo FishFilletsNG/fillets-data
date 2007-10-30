@@ -38,25 +38,25 @@ dialogId("deu-l-los1", "font_elk", "Chto sluchilos?")
 dialogStr("Что случилось?")
 
 dialogId("deu-p-jawohl", "font_parrot", "Jawohl, mein Herr!")
-dialogStr("Конечно, мой господин!")
+dialogStr("Jawohl, mein Herr!")
 
 dialogId("deu-p-stimmt", "font_parrot", "Das stimmt, mein Herr!")
-dialogStr("Это верно, мой господин!")
+dialogStr("Das stimmt, mein Herr!")
 
 dialogId("deu-p-streng", "font_parrot", "Streng geheim!")
-dialogStr("Совершенно секретно!")
+dialogStr("Streng geheim!")
 
 dialogId("deu-p-ordnung", "font_parrot", "Das ist in Ordnung, Herr Oberleutnant!")
-dialogStr("Это в порядке, господин старший лейтенант!")
+dialogStr("Das ist in Ordnung, Herr Oberleutnant!")
 
 dialogId("deu-p-skoll", "font_parrot", "Skål!")
 dialogStr("Skål!")
 
 dialogId("deu-p-trinken0", "font_parrot", "Guten Morgen, mein Herr! Wollen Sie noch einen Tee?")
-dialogStr("Доброе утро, мой господин! Хотите ли вы еще чая?")
+dialogStr("Guten Morgen, mein Herr! Wollen Sie noch einen Tee?")
 
 dialogId("deu-p-trinken1", "font_parrot", "Guten Tag, mein Herr! Wollen Sie etwas trinken?")
-dialogStr("Добрый день, мой господин! Хотите ли вы выпить что-нибудь?")
+dialogStr("Guten Tag, mein Herr! Wollen Sie etwas trinken?")
 
 dialogId("deu-l-ja", "font_elk", "Ya los...")
 dialogStr("Я лось...")
@@ -74,5 +74,5 @@ dialogId("deu-l-necital", "font_elk", "Ja nichevo nechital.")
 dialogStr("Я ничего не читал.")
 
 dialogId("deu-l-tovarisci", "font_elk", "Tovarishchi, bratya i sestri, dorogiye druzya...")
-dialogStr("Товарищи, братья и сестры, дорогие друзя...")
+dialogStr("Товарищи, братья и сестры, дорогие друзья...")
 

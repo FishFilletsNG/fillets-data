@@ -11,7 +11,7 @@ dialogId("re-m-libi1", "font_small", "They look nice to me.")
 dialogStr("Мне приятно смотреть на них.")
 
 dialogId("re-m-libi2", "font_small", "I hope there will be even more interesting corals in the levels to come.")
-dialogStr("Надеюсь, еще больше интересных кораллов мы найдем на следующем уровне.")
+dialogStr("Надеюсь, на следующем уровне мы найдем еще больше интересных кораллов.")
 
 dialogId("re-v-pokoj", "font_big", "God forbid.")
 dialogStr("Боже упаси.")
@@ -23,7 +23,7 @@ dialogId("re-m-ahoj", "font_small", "Hi, crab!")
 dialogStr("Привет, краб!")
 
 dialogId("re-m-rozveselit", "font_small", "Won’t we try to cheer that crab up a little?")
-dialogStr("Разве мы не поприветствуем того краба хоть немного?")
+dialogStr("Разве мы не развеселим того краба хоть немного?")
 
 dialogId("re-v-nevsimej", "font_big", "Ignore it.")
 dialogStr("Не обращай на него внимания.")

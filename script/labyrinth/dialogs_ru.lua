@@ -1,5 +1,5 @@
 dialogId("bl-m-zvlastni0", "font_small", "Now this is a strange room.")
-dialogStr("Это - странная комната.")
+dialogStr("Странная комната.")
 
 dialogId("bl-v-zvlastni1", "font_big", "This is a very unusual room.")
 dialogStr("Это очень необычная комната.")
@@ -23,7 +23,7 @@ dialogId("bl-v-nevim0", "font_big", "I don’t know. But we have to get it down 
 dialogStr("Не знаю, но мы должны достать его оттуда.")
 
 dialogId("bl-v-nevim1", "font_big", "I don’t know. Do we have to put it down?")
-dialogStr("Не знаю. Можем мы поставить его вниз?")
+dialogStr("Не знаю. Мы можем опустить его вниз?")
 
 dialogId("bl-m-tvar", "font_small", "How could that coral acquire such a bizarre shape?")
 dialogStr("Как мог этот коралл приобрести такую причудливую форму?")
@@ -41,17 +41,17 @@ dialogId("bl-m-snecku0", "font_small", "Shalimuddy, shalimuddy, put your horns o
 dialogStr("Тирли, мирли, бом, покажи свои рога...")
 
 dialogId("bl-v-dost0", "font_big", "Stop it! As if you don’t know that no object will move if we don’t push it first!")
-dialogStr("Остановись!! Неужели ты не знаешь, что никакой объект не будет двигаться, пока мы не станем его двигать первыми!")
+dialogStr("Прекрати! Неужели ты не знаешь, что ни один предмет не сдвинется с места, пока мы его не толкнем?")
 
 dialogId("bl-m-snecku1", "font_small", "But I can try, can’t I? Shalimuddy, Shalimuddy...")
 dialogStr("Но я могу попробовать, не так ли? Тирли, мирли...")
 
 dialogId("bl-v-dost1", "font_big", "Stop it! It makes my scales itch!")
-dialogStr("Остановись! Моя чешуя становится дыбом!")
+dialogStr("Прекрати!! Моя чешуя становится дыбом!")
 
 dialogId("bl-m-snecku2", "font_small", "Don’t listen then. Shalimuddy, shalimuddy, put your...")
 dialogStr("Не слушай тогда. Тирли, гирли, покажи свои...")
 
 dialogId("bl-v-dost2", "font_big", "Stop it! Or I’ll drop that coral on your head!")
-dialogStr("Престань! Или я уроню этот коралл на твою голову!")
+dialogStr("Перестань! Или я уроню этот коралл на твою голову!")
 

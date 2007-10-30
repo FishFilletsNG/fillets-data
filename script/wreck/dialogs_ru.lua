@@ -1,5 +1,5 @@
 dialogId("pot-v-lod", "font_big", "Could this be Captain Silver’s ship?")
-dialogStr("Может это корабль капитана Силвера?")
+dialogStr("Может это корабль капитана Сильвера?")
 
 dialogId("pot-m-soud", "font_small", "What makes you think so?")
 dialogStr("Почему ты так думаешь?")
@@ -44,10 +44,10 @@ dialogId("pot-v-trub", "font_big", "I can’t move that cylinder.")
 dialogStr("Я не могу двигаться из-за цилиндра.")
 
 dialogId("pot-m-nezb", "font_small", "I think we’re going to have to go inside that ship.")
-dialogStr("Думаю, нам надо ехать внутри этого корабля")
+dialogStr("Думаю, нам надо ехать внутри этого корабля.")
 
 dialogId("pot-m-dovn", "font_small", "It looks like we have to go inside.")
-dialogStr("Похоже, что мы должны пойти внутрь.")
+dialogStr("Похоже, что мы должны зайти внутрь.")
 
 dialogId("pot-m-zatuch", "font_small", "The air in here smells so stale.")
 dialogStr("Воздух здесь застоялся.")
@@ -65,7 +65,7 @@ dialogId("pot-v-ponur", "font_big", "Can you sense that atmosphere of doom and d
 dialogStr("Ты чувствуешь запах смерти и разложения?")
 
 dialogId("pot-m-hnil", "font_small", "No, just the mold.")
-dialogStr("Нет, только почвы")
+dialogStr("Нет, только почвы.")
 
 dialogId("pot-m-vidis", "font_small", "What do you see?")
 dialogStr("Что ты видишь?")

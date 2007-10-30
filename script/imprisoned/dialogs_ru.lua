@@ -1,11 +1,11 @@
 dialogId("ncp-m-tesno0", "font_small", "Look, how I am supposed to get out of here?")
-dialogStr("Посмотри, каким образом я должен выйти отсюда?")
+dialogStr("Посмотри, каким образом я должна выйти отсюда?")
 
 dialogId("ncp-m-tesno1", "font_small", "It’s quite tight in here.")
-dialogStr("Это довольно сложно здесь.")
+dialogStr("Здесь так тесно.")
 
 dialogId("ncp-v-dostala", "font_big", "How did you manage to get there?")
-dialogStr("Как ты туда забрался?")
+dialogStr("Как ты туда забралась?")
 
 dialogId("ncp-v-sasanka", "font_big", "Stop playing with anemones and help me to get us out of here.")
 dialogStr("Хватит играть с анемонами и помоги мне выйти отсюда.")
