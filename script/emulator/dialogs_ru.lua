@@ -1,5 +1,5 @@
 dialogId("zx-m-pametnici", "font_small", "So this is a level for real connoisseurs.")
-dialogStr("Итак, этот уровень для знатоков." 
+dialogStr("Итак, этот уровень для знатоков.")
 
 dialogId("zx-v-osmibit", "font_big", "Yeah, I feel like I can feel the eight bit wind of history.")
 dialogStr("Да, мне нравиться, я чувствую веяние восьми битвой истории.")
