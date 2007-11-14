@@ -993,6 +993,7 @@ worldmap_addDesc("hanoi", "nl", "Uitelkaar", "Tak van de nieuwe generatie")
 worldmap_addDesc("hanoi", "ru", "Отделение", "Новая ветвь в NG")
 
 worldmap_addDesc("rush", "en", "Filled Car Park", "Branch of New Generation")
+worldmap_addDesc("rush", "de", "Voller Parkplatz", "Branch of New Generation")
 worldmap_addDesc("rush", "cs", "Zaplněné parkoviště", "Větev Nové Generace")
 worldmap_addDesc("rush", "sv", "Full parkering", "Gren av en ny generation")
 worldmap_addDesc("rush", "nl", "Volle parkeerplek", "Tak van de nieuwe generatie")
