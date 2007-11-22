@@ -80,6 +80,6 @@ node_bestSolution("floppy", 998, "Gabor Braun")
  
 node_bestSolution("hanoi", 432, "Miroslav Olšák")
 node_bestSolution("rush", 852, "Miroslav Olšák")
-node_bestSolution("fdto", 277, "Jayson Moulay")
+node_bestSolution("fdto", 251, "Ronny Standtke")
 --node_bestSolution("nowall", 566, "Miroslav Olsak")
 --node_bestSolution("hole", 499, "Miroslav Olsak")
