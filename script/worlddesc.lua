@@ -980,6 +980,7 @@ worldmap_addDesc("fdto", "pt_BR", "Casa FDTO?", "NG")
 worldmap_addDesc("fdto", "ru", "Здание FDTO", "Новая ветвь в NG")
 
 worldmap_addDesc("hole", "en", "Hard Hole", "Branch of New Generation")
+worldmap_addDesc("hole", "de", "Tiefer Graben", "Zweig der neuen Generation")
 worldmap_addDesc("hole", "cs", "Nepříjemná propast", "Větev Nové generace")
 worldmap_addDesc("hole", "sv", "Svårt hål", "Gren av en ny generation")
 worldmap_addDesc("hole", "nl", "Een diep gat", "Tak van de nieuwe generatie")
