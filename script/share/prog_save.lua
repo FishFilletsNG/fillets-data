@@ -45,7 +45,6 @@ end
 -- Functions to enable undo
 --
 if not undo_stack then
-    --TODO: purge the undo_stack on real restart
     undo_stack = {}
 end
 function script_saveUndo(moves)
@@ -55,6 +54,9 @@ function script_saveUndo(moves)
     end
 
     local serialized = pickle(getModelsTable())
+    if string.len(moves) <= 1 then
+        undo_stack = {}
+    end
     table.insert(undo_stack, {moves=moves, serialized=serialized})
 end
 
