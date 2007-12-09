@@ -47,16 +47,24 @@ end
 if not undo_stack then
     undo_stack = {}
 end
-function script_saveUndo(moves)
+function script_saveUndo(moves, forceSave)
+    -- Saves only every 10th move by default
+    local movesLen = string.len(moves)
+    if not forceSave and table.getn(undo_stack) > 0 then
+        if math.mod(movesLen, 10) ~= 1 then
+            print("movesLen", movesLen, table.getn(undo_stack))
+            return
+        end
+    end
+    if movesLen <= 1 then
+        undo_stack = {}
+    end
+
     for index, model in pairs(getModelsTable()) do
         local extra = model_getExtraParams(model.index)
         model.__extra_params = extra
     end
-
     local serialized = pickle(getModelsTable())
-    if string.len(moves) <= 1 then
-        undo_stack = {}
-    end
     table.insert(undo_stack, {moves=moves, serialized=serialized})
 end
 
