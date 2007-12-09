@@ -43,11 +43,16 @@ end
 -- Run functions
 -- -----------------------------------------------------------------
 local function updateModels()
-    -- update .X, .Y for all models
+    if not level_isNewRound() then
+        return
+    end
+
+    -- update .X, .Y for all models (used also to save old state for undo)
     local models = getModelsTable()
     for key, model in pairs(models) do
         model.X, model.Y = model:getLoc()
         model.lookLeft = model:isLeft()
+        model.__extra_params = model_getExtraParams(model.index)
 
         local action = model:getAction()
         if "move_up" == action then

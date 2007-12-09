@@ -59,11 +59,6 @@ function script_saveUndo(moves, forceSave)
         undo_stack = {}
     end
 
-    for index, model in pairs(getModelsTable()) do
-        model.X, model.Y = model:getLoc()
-        local extra = model_getExtraParams(model.index)
-        model.__extra_params = extra
-    end
     local serialized = pickle(getModelsTable())
     table.insert(undo_stack, {moves=moves, serialized=serialized})
 end
