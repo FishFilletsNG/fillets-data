@@ -60,6 +60,7 @@ function script_saveUndo(moves, forceSave)
     end
 
     for index, model in pairs(getModelsTable()) do
+        model.X, model.Y = model:getLoc()
         local extra = model_getExtraParams(model.index)
         model.__extra_params = extra
     end
