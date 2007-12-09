@@ -59,6 +59,10 @@ function script_saveUndo(moves, forceSave)
         undo_stack = {}
     end
 
+    -- saving the actual model position (after room.prepareRound())
+    for index, model in pairs(getModelsTable()) do
+        model.X, model.Y = model:getLoc()
+    end
     local serialized = pickle(getModelsTable())
     table.insert(undo_stack, {moves=moves, serialized=serialized})
 end
