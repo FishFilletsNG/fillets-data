@@ -52,7 +52,6 @@ function script_saveUndo(moves, forceSave)
     local movesLen = string.len(moves)
     if not forceSave and table.getn(undo_stack) > 0 then
         if math.mod(movesLen, 10) ~= 1 then
-            print("movesLen", movesLen, table.getn(undo_stack))
             return
         end
     end
