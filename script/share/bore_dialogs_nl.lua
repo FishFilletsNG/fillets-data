@@ -32,7 +32,7 @@ dialogStr("Er klopt hier iets niet...")
 
 
 dialogId("ob-m-teorie", "font_small", "Just spare me your theories, please.")
-dialogStr("Bespaar me alsjeblieft jouw theorie�n.")
+dialogStr("Bespaar me alsjeblieft jouw theorieën.")
 
 
 dialogId("ob-v-mamto", "font_big", "I’ve got it. If we push that one...")

@@ -45,7 +45,7 @@ dialogStr("Je zou bijna denken dat dit veld een kopie is van een veld uit fish f
 
 dialogId("m-inspiroval", "font_small",
 "But in fact the author was only inspired by the hardware problem room.")
-dialogStr("Maar eigenlijk was de auteur alleen geïnspireerd door het veld met het hardwareprobleem.")
+dialogStr("Maar eigenlijk was de auteur alleen geÃ¯nspireerd door het veld met het hardwareprobleem.")
 
 dialogId("m-rekurzivni", "font_small",
 "Why do I have to fold up all the pieces while a simple recursive program could do it?")
