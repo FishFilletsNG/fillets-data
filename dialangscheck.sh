@@ -34,7 +34,10 @@ nloc=0
 nalldirs=0
 
 for file in script/*/dialogs.lua \
-        script/*/demo_poster.lua 
+        script/*/demo_poster.lua \
+        script/share/stddialogs.lua \
+        script/briefcase/demo_briefcase.lua \
+        script/share/demo_intro.lua
     do
 	if ./diacheck.lua "$file" 
 	then
@@ -43,6 +46,12 @@ for file in script/*/dialogs.lua \
 		langs=`ls "$diadir"/*_??.lua | sed "s/.*_//g" | sed "s/\.lua//g" `
 		for lg in $langs
 		do
+			if [ "$lg" = "en" ] # translate from en
+			then
+				nalldirs=`expr $nalldirs + 1`
+			fi
+
+			
 			if [ "$lg" = "$mylang" ]
 			then
 				if $printmy 
@@ -73,7 +82,6 @@ for file in script/*/dialogs.lua \
 				fi
 			fi
 		done
-		nalldirs=`expr $nalldirs + 1`
 		printf "\n"
 
 	else
@@ -89,5 +97,5 @@ then
 	echo "Fixme:           $nfixme"
 	echo "Don't translate: $nnoloc"
 fi
-	echo "All directoris:  $nalldirs"
+	echo "All dialogs:     $nalldirs"
 

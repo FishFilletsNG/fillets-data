@@ -18,13 +18,13 @@ dialogId("vit-hs-klid2", "font_statue", "There is no imminent danger.")
 dialogStr("Здесь нет опасности.")
 
 dialogId("vit-hs-klid3", "font_statue", "The sinking of the northern part of our island is only temporary.")
-dialogStr("Передвижение с северной части острова лишь временная.")
+dialogStr("Передвижение с северной части острова лишь временное.")
 
 dialogId("vit-hs-klid4", "font_statue", "We have the situation completely under control.")
 dialogStr("Ситуация под контролем.")
 
 dialogId("vit-hs-lod0", "font_statue", "The ship from Lemury has now docked at pier #5. This ship continues on to Utopia, Mu and Atlantis.")
-dialogStr("Корабль из Лемура документирован статьёй №5. Этот корабль продолжает Утопию, Mю и Атлантику.")
+dialogStr("Корабль из Лемура описан статьёй #5. Этот корабль продолжает Утопию, Mю и Атлантику.")
 
 dialogId("vit-hs-pojis0", "font_statue", "With First Fishermen Insurance, your house is covered against damage caused by fire, tornadoes, hurricanes, acts of God and dragons’ raids. Because fishermen think of everything, choose First Fisherman.")
 dialogStr("Это Первое Рыбацкое Страхование, ваш дом разрушен пожаром, торнадо, ураганом, действием Бога или налетом драконов. Рыбаки думают обовьем, выбирайте Рыбинское Страхование.")
@@ -54,7 +54,7 @@ dialogId("vit-hs-soud0", "font_statue", "The City Court kindly invites you to th
 dialogStr("Городская Управа любезно приглашает вас на городской фестиваль вопросов и действий. Должный наряд обязателен.")
 
 dialogId("vit-hs-vodovod0", "font_statue", "The City Council has decided to build an aqueduct, thereby providing direct water service to each home.")
-dialogStr("Городской Совет принял решение построить водопровод, таким образом каждого дома будет вода.")
+dialogStr("Городской Совет принял решение построить водопровод, таким образом в каждом доме будет вода.")
 
 dialogId("vit-hs-dite0", "font_statue", "Would the mother of the child who got lost on the grounds of city treasury please come to the front desk to pick up his remains.")
 dialogStr("Маму ребёнка, который был убит около государственной казны, просим явиться и забрать останки.")

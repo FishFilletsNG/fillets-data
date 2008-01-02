@@ -39,16 +39,16 @@ dialogId("rea-m-jakmuzes", "font_small", "But how do you know what’s a rationa
 dialogStr("Но откуда ты найдешь рациональное объяснение этому?")
 
 dialogId("rea-v-kolik", "font_big", "Well just how many flying saucers, in your opinion, have a shooting gallery on board? And how many have a power plant?")
-dialogStr("Итак попробуем немного полетать, по твоему мнению, это место стрельбища? И как много энергии имеет этот агрегат?")
+dialogStr("Итак попробуем рассмотреть твою точку знения, это место стрельбища? И как много энергии имеет этот агрегат?")
 
 dialogId("rea-v-takvidis", "font_big", "You see?")
-dialogStr("Ты видишь?")
+dialogStr("Как думаешь?")
 
 dialogId("rea-m-doufam", "font_small", "I hope we don’t start some unpleasant reaction.")
 dialogStr("Я постараюсь, что бы мы не запустили какую нибудь неприятную реакцию.")
 
 dialogId("rea-v-nemudruj", "font_big", "Don’t think. Just push the rods.")
-dialogStr("Не думаю. Просто двигай брусы.")
+dialogStr("Не думай. Просто двигай брусы.")
 
 dialogId("rea-x-pldik", "font_pink", "MUAHHH... UAHH... UUUH...")
 dialogStr("МУАХХХ... УАХХ... УУУХ...")

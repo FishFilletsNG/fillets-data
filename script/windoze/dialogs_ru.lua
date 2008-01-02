@@ -89,5 +89,5 @@ dialogId("win-v-real", "font_big", "Goodness, that is a realistic game!")
 dialogStr("Господи, это реальная игра!")
 
 dialogId("win-m-jejda", "font_small", "Oh my, he took the game too seriously!")
-dialogStr("Ох, он отнесся к игре слишком серьезно!")
+dialogStr("Ох, он отнесся к игре не слишком серьезно!")
 
