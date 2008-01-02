@@ -1,3 +1,4 @@
+-- FIXME. spell
 dialogId("zx-m-pametnici", "font_small", "So this is a level for real connoisseurs.")
 dialogStr("Итак, этот уровень для ценителей.")
 
