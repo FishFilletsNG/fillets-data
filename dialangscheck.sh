@@ -34,7 +34,6 @@ nloc=0
 nalldirs=0
 
 for file in script/*/dialogs.lua \
-        script/*/demo_poster.lua \
         script/share/stddialogs.lua \
         script/briefcase/demo_briefcase.lua \
         script/share/demo_intro.lua
@@ -90,7 +89,7 @@ for file in script/*/dialogs.lua \
 		then
 			if [ ! "$findok" -eq 0 ]
 			then
-				printf "\033[31m LOCALE NOT FIND!!! ($findok dialogs)\033[0m"
+				printf "\033[31m TRANSLATE NOT FIND!!! ($findok dialogs)\033[0m"
 			fi
 		fi
 
