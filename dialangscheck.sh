@@ -41,19 +41,23 @@ for file in script/*/dialogs.lua \
     do
 	if ./diacheck.lua "$file" 
 	then
+
 		diadir=`echo "$file" | sed "s/\/[^\/]*\.lua//"`
 		printf "Dir $diadir\t"
 		langs=`ls "$diadir"/*_??.lua | sed "s/.*_//g" | sed "s/\.lua//g" `
+		findok=0
 		for lg in $langs
 		do
 			if [ "$lg" = "en" ] # translate from en
 			then
 				nalldirs=`expr $nalldirs + 1`
+				findok=`expr $findok + 1`
 			fi
 
 			
 			if [ "$lg" = "$mylang" ]
 			then
+				findok=`expr $findok - 1`
 				if $printmy 
 				then
 					printf "\033[31m$lg"
@@ -82,6 +86,14 @@ for file in script/*/dialogs.lua \
 				fi
 			fi
 		done
+		if $printmy 
+		then
+			if [ ! "$findok" -eq 0 ]
+			then
+				printf "\033[31m LOCALE NOT FIND!!! ($findok dialogs)\033[0m"
+			fi
+		fi
+
 		printf "\n"
 
 	else
