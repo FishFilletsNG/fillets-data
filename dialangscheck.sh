@@ -85,10 +85,11 @@ for file in script/*/dialogs.lua \
 				fi
 			fi
 		done
-		if $printmy 
+		if [ "$mylang" ]
 		then
-			if [ "$mylang" ]
+			if [ "$findok" != 0 ]
 			then
+	
 				printf "\033[31m TRANSLATE NOT FIND!!! ($findok dialogs)\033[0m"
 			fi
 		fi
