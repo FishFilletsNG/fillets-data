@@ -87,7 +87,7 @@ for file in script/*/dialogs.lua \
 		done
 		if $printmy 
 		then
-			if [ ! "$findok" -eq 0 ]
+			if [ "$mylang" ]
 			then
 				printf "\033[31m TRANSLATE NOT FIND!!! ($findok dialogs)\033[0m"
 			fi
@@ -100,7 +100,7 @@ for file in script/*/dialogs.lua \
 		exit $?	    
 	fi
 done
-nnoloc=`expr $nalldirs - $nfixme - $nloc`
+nnoloc=`expr "$nalldirs" - "$nfixme" - "$nloc"`
 echo "============"
 if [ "$mylang" ]
 then
