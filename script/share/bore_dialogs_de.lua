@@ -164,7 +164,7 @@ dialogStr("Wenn Du aufhörst zu spielen, mach den Rechner bitte nicht aus. Es is
 
 
 dialogId("ob-m-jakdlouho", "font_small", "How long are we going to take to solve it?")
-dialogStr("Wie lange werden wir es lösen?")
+dialogStr("Wie lange werden wir brauchen, um es zu lösen?")
 
 
 dialogId("ob-v-zvykacka", "font_big", "As long as this chewing gum tastes good.")
