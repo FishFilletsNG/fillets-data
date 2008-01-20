@@ -74,7 +74,7 @@ node_bestSolution("grail", 1725, "Gabor Braun")
 node_bestSolution("tetris", 134, "Gabor Braun")
 node_bestSolution("emulator", 620, "Gabor Braun")
 node_bestSolution("warcraft", 573, "Josef Peterka")
-node_bestSolution("windoze", 553, "Gabor Braun")
+node_bestSolution("windoze", 549, "David Glass")
 node_bestSolution("hardware", 635, "Gabor Braun")
 node_bestSolution("floppy", 998, "Gabor Braun")
  
