@@ -40,7 +40,7 @@ dialogStr("Hmm, na gut. WAHRSCHEINLICH ist das nicht, wonach wir suchen.")
 
 
 dialogId("tru-m-nejistota", "font_small", "That's better. There remains a bit of uncertainty.")
-dialogStr("So ist es besser. Das hinterlässt eine bisschen Unsicherheit.")
+dialogStr("So ist es besser. Das hinterlässt ein bisschen Unsicherheit.")
 
 
 dialogId("tru-m-truhla0", "font_small", "Couldn’t we close that chest?")
