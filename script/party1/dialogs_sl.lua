@@ -18,10 +18,10 @@ dialogId("pt1-m-vylezt1", "font_small", "I hope they can’t get out of that boa
 dialogStr("Upam da ne morejo zapustiti te ladje.")
 
 dialogId("pt1-m-vylezt2", "font_small", "What if they start to pursue us?")
-dialogStr("Kaj če naju začnejo pursue us?")
+dialogStr("Kaj če naju začnejo zasledovati?")
 
 dialogId("pt1-v-pryc0", "font_big", "I don’t think they could get us. Skeletons can’t swim very well.")
-dialogStr("Mislim, da naju ne morejo dobiti. Okostja ne morejo plavati kaj dobro.")
+dialogStr("Mislim, da naju ne morejo dobiti. Okostja ne morejo kaj dobro plavati.")
 
 dialogId("pt1-v-pryc1", "font_big", "Stop thinking about it and move your fins so that we can get out of here.")
 dialogStr("Nehaj razmišljati o tem in premakni svoje plavuti, tako da se lahko spraviva od tod.")

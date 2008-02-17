@@ -330,6 +330,7 @@ worldmap_addDesc("columns", "es", "Las Columnas", "Ciudad en lo Profundo")
 worldmap_addDesc("columns", "nl", "De pilaren", "De verzonken stad")
 worldmap_addDesc("columns", "bg", "Колоните", "Потъналият град")
 worldmap_addDesc("columns", "sv", "Pelarna", "Staden i djupet")
+worldmap_addDesc("columns", "sl", "Stebri", "Mesto v Globini")
 worldmap_addDesc("columns", "pt_BR", "As Colunas", "A Cidade Profunda")
 worldmap_addDesc("columns", "ru", "Колонны", "Город на глубине")
 
@@ -343,6 +344,7 @@ worldmap_addDesc("pavement", "es", "Pavimento en Desnivel", "Ciudad en lo Profun
 worldmap_addDesc("pavement", "nl", "Hobbelig trottoir", "De verzonken stad")
 worldmap_addDesc("pavement", "bg", "Неравен паваж", "Потъналият град")
 worldmap_addDesc("pavement", "sv", "Ojämn trottoar", "Staden i djupet")
+worldmap_addDesc("pavement", "sl", "Neraven pločnik", "Mesto v Globini")
 worldmap_addDesc("pavement", "pt_BR", "Pavimento Irregular", "A Cidade Profunda")
 worldmap_addDesc("pavement", "ru", "Неровный тротуар", "Город на глубине")
 
