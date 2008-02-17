@@ -180,7 +180,7 @@ dialogId("b2-potop3", "font_cyan", "Sank!")
 dialogStr("Potopljena!")
 
 dialogId("b2-vyhral", "font_cyan", "He, he, he... I won!")
-dialogStr("He, je, je.... Zmagal sem!")
+dialogStr("He, he, he.... Zmagal sem!")
 
 dialogId("b2-dobre", "font_cyan", "Well!")
 dialogStr("No!")
