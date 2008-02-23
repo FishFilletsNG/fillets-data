@@ -1,12 +1,12 @@
 -- FIXME. spell
 dialogId("zx-m-pametnici", "font_small", "So this is a level for real connoisseurs.")
-dialogStr("Итак, этот уровень для ценителей.")
+dialogStr("Итак, этот уровень для гурманов.")
 
 dialogId("zx-v-osmibit", "font_big", "Yeah, I feel like I can feel the eight bit wind of history.")
-dialogStr("Да, мне нравиться, я чувствую веяние восьми битной истории.")
+dialogStr("Да, мне нравится, я чувствую веяние восьми битной истории.")
 
 dialogId("zx-m-pixel", "font_small", "Can you see that pixel graphic all around us? I must confess I feel nostalgic.")
-dialogStr("Ты видишь эти пискли вокруг нас? Ты должен признать, чувствуешь ностальгию.")
+dialogStr("Ты видишь эти пиксели вокруг нас? Я должен признать, что испытываю ностальгию.")
 
 dialogId("zx-v-hry", "font_big", "This is an opportunity to play the merry old games of ZX Spectrum.")
 dialogStr("Хорошая возможность радоваться старой игре на ПК Дубна.")

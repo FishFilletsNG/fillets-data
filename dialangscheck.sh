@@ -38,7 +38,8 @@ for file in script/*/dialogs.lua \
         script/briefcase/demo_briefcase.lua \
         script/share/demo_intro.lua
     do
-	if ./diacheck.lua "$file" 
+#	if ./diacheck.lua "$file" 
+	if true
 	then
 
 		diadir=`echo "$file" | sed "s/\/[^\/]*\.lua//"`
