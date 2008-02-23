@@ -1,9 +1,9 @@
 -- FIXME. spell
 dialogId("pap-v-ha", "font_big", "Look. Another energy source.")
-dialogStr("Видешь, альтернативный источник энергии.")
+dialogStr("Смотри, альтернативный источник энергии.")
 
 dialogId("pap-m-magnet", "font_small", "Don’t worry. This magnet is here only to hinder us.")
-dialogStr("Спокойно, это только могнит, он будет лиж помехой.")
+dialogStr("Спокойно, этот магнит будет лиж помехой.")
 
 dialogId("pap-v-potrebovat", "font_big", "I think we are going to need it.")
 dialogStr("Я думаю мы должны сделать это.")
@@ -21,7 +21,7 @@ dialogId("pap-m-radio", "font_small", "This looks like a radio.")
 dialogStr("Это выглядит как радио.")
 
 dialogId("pap-v-radio", "font_big", "How could a radio get here?")
-dialogStr("Откуда сдесь могло взяться радио?")
+dialogStr("Откуда здесь могло взяться радио?")
 
 dialogId("pap-m-nechme", "font_small", "Let it be.")
 dialogStr("Останови его.")
@@ -30,7 +30,7 @@ dialogId("pap-v-divny", "font_big", "This is a strange radio.")
 dialogStr("Это радио какое-то странное.")
 
 dialogId("pap-m-coje", "font_small", "What have we here?")
-dialogStr("Что мы имеем тут?")
+dialogStr("Что это?")
 
 dialogId("pap-m-pistole", "font_small", "It looks like a pistol to me.")
 dialogStr("Мне кажется это пистолет.")
@@ -51,10 +51,10 @@ dialogId("pap-m-ocel", "font_small", "There are too many steel constructions her
 dialogStr("В этой конструкции слишком много стали.")
 
 dialogId("pap-v-vufu", "font_big", "Don’t forget that we are inside of the flying saucer!")
-dialogStr("Не забывай мы внутри летающего сенсора.")
+dialogStr("Не забывай, мы внутри летающего сенсора.")
 
 dialogId("pap-m-naucit", "font_small", "Maybe I could learn how to manipulate these steel tubes.")
-dialogStr("Может быть я научусь двигать стальными трубами.")
+dialogStr("Может быть, я научусь двигать стальные трубы.")
 
 dialogId("pap-m-nepohnu", "font_small", "No, I can’t move it.")
 dialogStr("Нет, я не смогу сдвинуть это.")

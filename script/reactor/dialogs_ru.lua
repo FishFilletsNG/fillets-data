@@ -1,12 +1,12 @@
 -- FIXME. spell
 dialogId("rea-m-proboha", "font_small", "My God, can you see that pink thing over there?")
-dialogStr("О боже, ты видишь это там за нечто?")
+dialogStr("О боже, ты видишь этот розовый предмет?")
 
 dialogId("rea-v-coto", "font_big", "What could it be?")
 dialogStr("Что бы это могло быть?")
 
 dialogId("rea-m-nevim", "font_small", "I have no idea, but it’s disgusting.")
-dialogStr("Без идей, но оно отвратительное.")
+dialogStr("У меня нет идей, но оно отвратительное.")
 
 dialogId("rea-m-comyslis", "font_small", "What do you think about these rods?")
 dialogStr("Что думаешь об эти брусках?")
@@ -24,7 +24,7 @@ dialogId("rea-v-tozni", "font_big", "That sounds reasonable...")
 dialogStr("Звучит правдоподобно...")
 
 dialogId("rea-m-anebo", "font_small", "Then again, maybe this isn’t a nuclear reactor.")
-dialogStr("Опять, возможно, это вообще не ядерный ректор.")
+dialogStr("Возможно, это вообще не ядерный ректор.")
 
 dialogId("rea-v-acoby", "font_big", "So what is it, then?")
 dialogStr("Тогда что?")
@@ -45,7 +45,7 @@ dialogId("rea-v-takvidis", "font_big", "You see?")
 dialogStr("Как думаешь?")
 
 dialogId("rea-m-doufam", "font_small", "I hope we don’t start some unpleasant reaction.")
-dialogStr("Я постараюсь, что бы мы не запустили какую нибудь неприятную реакцию.")
+dialogStr("Я постараюсь, что бы мы не запустили какую-нибудь неприятную реакцию.")
 
 dialogId("rea-v-nemudruj", "font_big", "Don’t think. Just push the rods.")
 dialogStr("Не думай. Просто двигай брусы.")

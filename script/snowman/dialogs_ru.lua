@@ -1,9 +1,9 @@
 -- FIXME. spell
 dialogId("tr-m-chlad1", "font_small", "I’m kind of cold.")
-dialogStr("Я чувствую холод.")
+dialogStr("Мне так холодно.")
 
 dialogId("tr-v-jid1", "font_big", "No wonder. This is the Winter Mess Hall.")
-dialogStr("Не здорово. Это Большой Зимний Зал.")
+dialogStr("Неудивительно. Это Большой Зимний Зал.")
 
 dialogId("tr-m-chlad2", "font_small", "I’m cold.")
 dialogStr("Мне холодно.")
