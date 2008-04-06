@@ -4,6 +4,16 @@
 printall=true
 printmy=true
 
+usage()
+{
+			printf "\n\n"
+			echo "Usage:    $0 [--full] [--my] [--lang=language]"
+			echo "======"
+			echo "Example:  $0 --full --lang=ru"
+			echo "or        $0 --my --lang=ru"
+			echo "or        $0 --lang=en"
+}
+
 for i in $*
 do
 	case $i in
@@ -19,19 +29,26 @@ do
 			mylang=`echo $i | sed "s/--lang=//"`
 		;;
 		*)
-			printf "\n\n"
-			echo "Usage:    $0 [--full] [--my] [--lang=language]"
-			echo "======"
-			echo "Example:  $0 --full --lang=ru"
-			echo "or        $0 --my --lang=ru"
-			echo "or        $0 --lang=en"
-			exit 0
+      usage
+      exit 0
 		;;
 	esac
 done
 nfixme=0
 nloc=0
 nalldirs=0
+
+printtabs()
+{
+          strlen=`echo "$1 " | wc | awk '{print $3}'`
+          #printf ">$strlen<"
+          if [ $strlen -ge 20 ]
+          then
+            printf "$1 "
+          else
+            printf "$1\t "
+          fi
+}
 
 for file in script/*/dialogs.lua \
         script/share/stddialogs.lua \
@@ -43,7 +60,7 @@ for file in script/*/dialogs.lua \
 	then
 
 		diadir=`echo "$file" | sed "s/\/[^\/]*\.lua//"`
-		printf "Dir $diadir\t"
+		printtabs "Dir $diadir\t"
 		langs=`ls "$diadir"/*_??.lua | sed "s/.*_//g" | sed "s/\.lua//g" `
 		findok=0
 		for lg in $langs
@@ -82,7 +99,7 @@ for file in script/*/dialogs.lua \
 			else
 				if $printall
 				then
-					printf "$lg "
+          printf "$lg " 
 				fi
 			fi
 		done
@@ -90,8 +107,7 @@ for file in script/*/dialogs.lua \
 		then
 			if [ "$findok" != 0 ]
 			then
-	
-				printf "\033[31m TRANSLATE NOT FIND!!! ($findok dialogs)\033[0m"
+				printf "\033[31mTRANSLATE NOT FIND!!! ($findok dialogs)\033[0m"
 			fi
 		fi
 
@@ -110,5 +126,14 @@ then
 	echo "Fixme:           $nfixme"
 	echo "Don't translate: $nnoloc"
 fi
-	echo "All dialogs:     $nalldirs"
+echo "All dialogs:     $nalldirs"
 
+###################
+# FIXME stupid code 
+if [ $printall = true ]
+then
+  if [ $printmy = true ]
+  then
+    usage
+  fi
+fi
