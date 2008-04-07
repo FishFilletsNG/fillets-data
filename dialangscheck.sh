@@ -132,7 +132,7 @@ echo "All dialogs:     $nalldirs"
 # FIXME stupid code 
 if [ $printall = true ]
 then
-  if [ $printmy = true ]
+  if [ ! "$mylang" ]
   then
     usage
   fi

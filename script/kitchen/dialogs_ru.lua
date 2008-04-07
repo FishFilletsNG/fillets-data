@@ -1,4 +1,4 @@
---FIXME
+-- FIXME. adacore
 dialogId("kuch-m-objev0", "font_small", "Oh my, this is a nice kitchen.")
 dialogStr("Милая кухня.")
 
@@ -64,7 +64,7 @@ dialogStr("Я нахожусь на своем пути.")
 
 
 dialogId("kuch-m-hrnec0", "font_small", "Yuck, there is something left in this pot!")
-dialogStr("О!в этом горшке есть что-то")
+dialogStr("О! в этом горшке есть что-то")
 
 
 dialogId("kuch-m-hrnec1", "font_small", "This pot wasn’t even washed up.")
@@ -116,7 +116,7 @@ dialogStr("Видимо корабль содержит ряд сложных п
 
 
 dialogId("kuch-v-mec", "font_big", "Why is that sword here?")
-dialogStr("Почему тот меч здесь?")
+dialogStr("Что тут делает меч?")
 
 
 dialogId("kuch-m-porcovani", "font_small", "Maybe they used it to cut the meat.")

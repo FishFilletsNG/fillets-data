@@ -1,4 +1,4 @@
--- FIXME
+-- FIXME. adacore
 dialogId("v-tady", "font_big", "It is already there!")
 dialogStr("Это уже там!")
 
@@ -6,21 +6,21 @@ dialogId("m-co", "font_small", "What?")
 dialogStr("Что?")
 
 dialogId("v-jacity", "font_big", "Either I get out or you!")
-dialogStr("Или я выхожу или вы!")
+dialogStr("Или выхожу я, или выходишь ты!")
  
 dialogId("m-bude", "font_small", "And who will it be?")
-dialogStr("И кто бы это был?")
+dialogStr("И кто это будет?")
 
 dialogId("v-mamja", "font_big", "It should be me,")
-dialogStr("Этим должен быть я,")
+dialogStr("Им должен быть я,")
 
 dialogId("v-alehrac", "font_big", "but player decides it.")
-dialogStr("но игрок решает это.")
+dialogStr("но пусть игрок решает это.")
 
 dialogId("m-predstavujes", "font_small",
 "What are you thinking of? You set the giant free and you leave me here. OK, he can move the steel, so what?")
 dialogStr(
-"О чем ты думаешь? Ты освобождаешь гиганта и оставляешь меня здесь. Хорошо, он может передвинуть сталь, ну так как?")
+"О чем ты думаешь? Ты освобождаешь толстого и оставляешь меня здесь. Хорошо, он может передвинуть сталь, и что?")
 
 dialogId("m-restartuj", "font_small",
 "He will be wating for my help in the next room. Restart it, right now!")
@@ -30,11 +30,11 @@ dialogStr(
 dialogId("v-nenifer", "font_big",
 "It isn't fair, my way was free. I only pushed to the steel the wrong way.")
 dialogStr(
-"Это не справедливо, мой был свободный. Я только подвинул эту сталь по неправильному пути.")
+"Это не справедливо, мой путь был свободный. Я только подвинул эту сталь по неправильному пути.")
 
 dialogId("v-restartovat", "font_big",
 "The small fish gets lost in the open ocean. Whithout me she won't get far away. You should restart the room immediatelly.")
-dialogStr("Маленькая рыбка потеряна в открытом океане. Без меня она не уплывет далеко. Ты должен перезапустить комнату.")
+dialogStr("Маленькая рыбка потеряна в открытом океане. Без меня она не уплывет далеко. Ты должен перезапустить уровень.")
 
 dialogId("v-orechove", "font_big", "It isn't what the doctor ordered.")
 dialogStr("Это не то, что доктор прописал.")
@@ -55,7 +55,7 @@ dialogStr("Но, фактически, автор был вдохновлен а
 dialogId("m-rekurzivni", "font_small",
 "Why do I have to fold up all the pieces while a simple recursive program could do it?")
 dialogStr(
-"Почему я должен сложить все части, если простая рекурсивная программа могла сделать это?")
+"Почему я должна складывать все части, если простая рекурсивная программа могла сделать это?")
 
 dialogId("v-bavit", "font_big", "How can the player find a pleasure in this?")
 dialogStr("Как игрок может находить удовольствие в этом?")
@@ -71,7 +71,7 @@ dialogStr("Возможно, кто-то напугал его.")
 
 dialogId("v-looser", "font_big",
 "Oh well, player, if you don't solve it, you are a big loser.")
-dialogStr("Ох, хорошо, игрок. Если ты не решаешь это, то большой неудачник.")
+dialogStr("Ох, хорошо, игрок. Если ты не решишь это, то большой неудачник.")
 
 dialogId("m-nepomahas", "font_small",
 "Of course, you are not entertained, when you almost don't help me.")
@@ -82,7 +82,7 @@ dialogStr("Ты сказал это уже три раза.")
 
 dialogId("v-jineho", "font_big",
 "If I should say always something different then we fill player's disc up.")
-dialogStr("Если буду говорить что-то другое, тогда мы заполним диск игрока.")
+dialogStr("Если буду говорить что-то другое, мы заполним диск игрока.")
 
 dialogId("m-vicedat", "font_small",
 "Maybe nowadays player's disc can accommodate more data then in past.")

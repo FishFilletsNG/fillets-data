@@ -1,3 +1,4 @@
+-- FIXME. adacore
 dialogId("pz-v-zaskladanej", "font_big", "I’m completely blocked in here.")
 dialogStr("Я полностью заблокирован здесь")
 
@@ -5,7 +6,7 @@ dialogId("pz-m-co", "font_small", "What are you doing up there?")
 dialogStr("Что ты там делаешь?")
 
 dialogId("pz-v-klice1", "font_big", "These must be some hardware keys.")
-dialogStr("Это должны быть несколько железных ключей.")
+dialogStr("Это должно быть несколько железных ключей.")
 
 dialogId("pz-v-klice2", "font_big", "There are many hardware keys here.")
 dialogStr("Здесь много таких ключей.")
