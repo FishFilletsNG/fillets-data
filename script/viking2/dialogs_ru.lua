@@ -27,7 +27,7 @@ dialogId("dr-m-podivej", "font_small", "Look at that poor dog.")
 dialogStr("Посмотри на этого бедного пса.")
 
 dialogId("dr-m-nedycha", "font_small", "Doesn't he seem to be breathing kind of strangely?")
-dialogStr("Его дыхание кажется странным?")
+dialogStr("Его дыхание не кажется странным?")
 
 dialogId("dr-v-napsa", "font_big", "For a dog under water I think he's doing rather well.")
 dialogStr("Для собаки под водой, я думаю вполне не плохое.")
@@ -60,7 +60,7 @@ dialogId("dr-5-srab3", "font_viking5", "Is the fight over?")
 dialogStr("Битва окончена?")
 
 dialogId("dr-5-srab4", "font_viking5", "Is the enemy finally gone?")
-dialogStr("Эти был повержен?")
+dialogStr("Враг был повержен?")
 
 dialogId("dr-5-srab5", "font_viking5", "Are we still fighting?")
 dialogStr("Наш бой становится спокойнее?")
@@ -87,7 +87,7 @@ dialogId("dr-1-trpelivost", "font_viking1", "Patience is the sign of a true warr
 dialogStr("Терпение это качество настоящего война.")
 
 dialogId("dr-2-urcite", "font_viking2", "Are you sure this is how to get to Valhalla?")
-dialogStr("Ты уверен что знает путь до Валохалы?")
+dialogStr("Ты уверен, что знаешь путь до Валохалы?")
 
 dialogId("dr-1-bojovnik", "font_viking1", "A warrior has to trust his commander!")
 dialogStr("Воен должен верить в своего командира.")
@@ -108,7 +108,7 @@ dialogId("dr-4-copy", "font_viking4", "B-b-braids are in n-nowadays.")
 dialogStr("К-к-коса в наши д-дни.")
 
 dialogId("dr-3-cojeto", "font_viking3", "What kind of fad is that? Braids? For crying out loud.")
-dialogStr("Что за детские фантазии? Борода? Ради бога!.")
+dialogStr("Что за детские фантазии? Косичка? Ради бога!.")
 
 dialogId("dr-4-magazin", "font_viking4", "V-v-viking Fashion M-m-monthly r-recommends a blonde braid to complement a d-d-dark helmet and b-blue shield.")
 dialogStr("М-м-манера викингов р-р-рекомендует гламурную косичку и в дополнение черный шлем и синий щит.")
@@ -129,7 +129,7 @@ dialogId("dr-3-nesmysl", "font_viking3", "Nonsense. He had a beard.")
 dialogStr("Глупости. У него была борода.")
 
 dialogId("dr-4-taky", "font_viking4", "But h-he also h-had a b-b-braid.")
-dialogStr("Но он ещё имел бороду.")
+dialogStr("У него ещё б-б-была к-к-ккоситчка.")
 
 dialogId("dr-3-nemel", "font_viking3", "He did not. And that’s final.")
 dialogStr("Не было, и точка.")
@@ -141,7 +141,7 @@ dialogId("dr-3-samozrejme", "font_viking3", "Definitely.")
 dialogStr("Определено.")
 
 dialogId("dr-4-budu", "font_viking4", "I’ll th-th-think it o-over.")
-dialogStr("Я д-д-д-думаю это к-к-конец.")
+dialogStr("Я д-д-д-думаю, это к-к-конец.")
 
 dialogId("dr-4-hmmm", "font_viking4", "Hmmm... Ehmmm... Hahmmm...")
 dialogStr("Хм... Ахмм... Хахммм...")
@@ -156,7 +156,7 @@ dialogId("dr-3-chlap", "font_viking3", "A warrior with braids. It’s unheard of
 dialogStr("Воин с косичкой. НЕСЛЫХАННО!")
 
 dialogId("dr-3-mladi", "font_viking3", "You youngsters just think you can get away with anything today.")
-dialogStr("Вы малолетки думаете, что вас сегодня вам сойдет все что угодно.")
+dialogStr("Вы малолетки думаете, что сегодня вам сойдет все что угодно.")
 
 dialogId("dr-4-stejne", "font_viking4", "Well, I still look cool.")
 dialogStr("Да, Я выгляжу готично.")

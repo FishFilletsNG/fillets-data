@@ -21,7 +21,7 @@ dialogId("sv-v-obojzivelny", "font_big", "Maybe it was an amphibious tank.")
 dialogStr("Может быть это танк амфибия.")  
 
 dialogId("sv-m-kecy", "font_small", "An amphibious tank? Just imagine: On the moonless night, the uncomprehending defenders bewilderedly watch the mass of snorkels emerging from the surf, searching in vain for the landing craft...")
-dialogStr("Танк-амфибия? Только представь: В безлунную ночь, непонимающие защитники озадачено наблюдают за грубой водолазов, которые напрасно ищут корабль...")
+dialogStr("Танк-амфибия? Только представь: В безлунную ночь, непонимающие защитники озадачено наблюдают за группой водолазов, которые напрасно ищут корабль...")
 
 dialogId("sv-v-proc", "font_big", "So why are you asking, if you are so darned clever?!")
 dialogStr("Итак, почему ты это спросила, если ты такая умная?!")
@@ -36,13 +36,13 @@ dialogId("sv-m-munice", "font_small", "Do you think that this ammunition could h
 dialogStr("Как думаешь, это амуниция сможет повредить нам?")
 
 dialogId("sv-v-nevim", "font_big", "I don’t know, but I’ll try to keep my distance from it.")
-dialogStr("Я не знаю, но я постараюсь оставить держаться от неё на расстоянии.")
+dialogStr("Я не знаю, но я постараюсь держаться от неё на расстоянии.")
 
 dialogId("sv-v-zebrik", "font_big", "I think we are going to need that ladder.")
-dialogStr("Я думаю, мы должны подняться по леснице")
+dialogStr("Я думаю, мы должны подняться по лестнице")
 
 dialogId("sv-m-ven", "font_small", "To climb out? But we have only fins.")
-dialogStr("Помнятся? Но у нас есть только плавники.")
+dialogStr("Подняться? Но у нас есть только плавники.")
 
 dialogId("sv-v-ucpat", "font_big", "No. To plug that hole.")
 dialogStr("Нет. Пройти через отверстие.")
