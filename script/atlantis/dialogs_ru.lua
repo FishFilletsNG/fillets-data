@@ -12,7 +12,7 @@ dialogId("sp-m-neopatrnost", "font_small", "Such carelessness.")
 dialogStr("Такое легкомыслие.")
 
 dialogId("sp-v-zahynuli", "font_big", "Thousands perished - the whole city disappeared in the waves because of such ineptness.")
-dialogStr("Тысячи погибших - целый город исчез в волнах из за легкомыслия.")
+dialogStr("Тысячи погибших - целый город исчез в волнах из-за легкомыслия.")
 
 dialogId("sp-m-vytazeny", "font_small", "Unplugged plug.")
 dialogStr("Вынута заглужка.")
@@ -31,10 +31,10 @@ dialogStr("И потом? Потом мы выпьем всю воду, или �
 
 
 dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of our esteem of the citizens’ heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.")
-dialogStr("Мы можем вернуть это назад, на место, для элементарного уважения граждан? Героически работающие, что бы оставить это на плаву. Это памятник их усердию, искусству и... стойкой натуре.")
+dialogStr("Мы можем вернуть это назад, на место, для элементарного уважения граждан? Героически работающих, что бы оставить это на плаву. Это будет памятник их усердию, искусству и... стойкой натуре.")
 
 dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
-dialogStr("Куда ты побежал? Мне нужно упорядочить восемь мечей? Само провидение отпустило из дупла. Только представь себе, слышишь такое дома. День за днем.")
+dialogStr("Куда ты побежал? Мне нужно упорядочить восемь мечей? Само провидение отпустило из дупла. Только представь себе, слышишь такое дома. День за днем.") -- FIXME
 
 dialogId("sp-m-kalet", "font_small", "And moreover: is it likely that anybody would ever come here? Only sepias will nibble it occasionally.")
 dialogStr("И сверх того: кто любил приходить сюда? Сепия время от времени лишалась кусочка.")
@@ -46,7 +46,7 @@ dialogId("sp-m-potize", "font_small", "We are going to feel down about it. Do yo
 dialogStr("Сейчас мы почувствовали себя неловко. Как думаешь хозяин верит в это? Снова вытащить заглушку? И что ты будешь иметь от этого? Мы установили заглушку снова. Хе хе хе.")
 
 dialogId("sp-v-vzit", "font_big", "You might be right. Maybe it would be better to take it along.")
-dialogStr("Возможно ты права. Может быть лучше взять это с собой.")
+dialogStr("Возможно ты права. Может быть лучше оставить это.")
 
 dialogId("sp-m-taky", "font_small", "I think so, too.")
 dialogStr("Я тоже так думаю.")
@@ -61,19 +61,19 @@ dialogId("sp-v-centrala", "font_big", "What would the Agency say?")
 dialogStr("Что сказало Агентство?")
 
 dialogId("sp-v-jedno", "font_big", "I don’t think I mind what the boss is going to think about me.")
-dialogStr("Я не думаю, мой босс думает за меня.")
+dialogStr("Я не думаю, мой хозяин думает за меня.")
 
 dialogId("sp-m-vydrz", "font_small", "Hold on. We are sure to solve it.")
 dialogStr("Подожди. Мы не уверены, что можно решить это.")
 
 dialogId("sp-m-spunt", "font_small", "The darned plug. What if we just make up something.")
-dialogStr("Проклятая заглушка. Что если мы попробуем полнятся по другому.")
+dialogStr("Проклятая заглушка. Что если мы попробуем подняться по другому.")
 
 dialogId("sp-v-co", "font_big", "Like what, for example?")
-dialogStr("Что например?")
+dialogStr("Как например?")  -- FIXME "что например"
 
 dialogId("sp-m-vymluva0", "font_small", "Well, we could say that the city in fact never existed.")
-dialogStr("Итак, мы можем сказать, что города та никогда и не было.")
+dialogStr("Итак, мы можем сказать, что города никогда и не было.")
 
 dialogId("sp-m-vymluva1", "font_small", "Well, we could say that the city sank because the Arctic ice had melted.")
 dialogStr("Отлично, мы можем сказать, что город утонул, потому что растаяли Арктические снега.")
