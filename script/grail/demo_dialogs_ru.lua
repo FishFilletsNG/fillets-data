@@ -1,3 +1,4 @@
+-- FIXME adascor
 dialogId("dlg-x-poster1", "font_poster", "We recommend subject the enclosed material to thorough tests of holiness. Due to the lack of equipment we performed only the basic tests and the results are more than promising.")
 dialogStr("Мы рекомендуем субъекту вложенный материал к полным тестам святости. Из-за нехватки оборудования мы выполнили только базовые тесты, и результаты подают большие надежды.")
 

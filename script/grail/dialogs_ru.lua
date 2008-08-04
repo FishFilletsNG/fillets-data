@@ -1,3 +1,4 @@
+-- FIXME adascor
 dialogId("gr-m-gral", "font_small", "That thing over there must be Holy Grail!")
 dialogStr("Это должно быть чаша Святого Грааля!")
 
