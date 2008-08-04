@@ -8,7 +8,7 @@ dialogStr("Так много жемчужин.")
 dialogId("jed-m-perly1", "font_small", "There are so many pearls here.")
 dialogStr("Здесь много жемчуга.")
 
-dialogId("jed-v-poslani0", "font_big", "Listen... Don't forget our mission!")
+dialogId("jed-v-poslani0", "font_big", "Listen... Don’t forget our mission!")
 dialogStr("Послушай... Не забывай о нашей миссии!")
 
 dialogId("jed-v-poslani1", "font_big", "We are no pearl-hunters.")
@@ -20,10 +20,10 @@ dialogStr("Вспомни! Нам надо завершить миссию.")
 dialogId("jed-m-flakas", "font_small", "You are just sitting up there and I have to do all the work myself!")
 dialogStr("Ты просто сидишь там, и мне приходится делать всю работу самому!")
 
-dialogId("jed-v-uzivat0", "font_big", "Didn't you say that you like the pearls?")
+dialogId("jed-v-uzivat0", "font_big", "Didn’t you say that you like the pearls?")
 dialogStr("Не говори, что тебе не нравятся жемчужины?")
 
-dialogId("jed-v-uzivat1", "font_big", "Aren't you happy with so many pearls?")
+dialogId("jed-v-uzivat1", "font_big", "Aren’t you happy with so many pearls?")
 dialogStr("Неужели ты не счастлив с таким множеством жемчужин?")
 
 dialogId("jed-m-perlorodka0", "font_small", "I need one more pearl.")
@@ -35,10 +35,10 @@ dialogStr("Нет.")
 dialogId("jed-m-perlorodka1", "font_small", "One more pearl, please.")
 dialogStr("Еще одна жемчужина, пожалуйста.")
 
-dialogId("jed-m-perlorodka2", "font_small", "My dearest friend, couldn't you possibly lend me just one little pearl?")
+dialogId("jed-m-perlorodka2", "font_small", "My dearest friend, couldn’t you possibly lend me just one little pearl?")
 dialogStr("Мой дорогой друг, не мог бы ты дать мне взаймы только одну маленькую жемчужину?")
 
-dialogId("jed-m-trubka", "font_small", "I wonder if it wouldn't be easier to shorten that steel pipe.")
+dialogId("jed-m-trubka", "font_small", "I wonder if it wouldn’t be easier to shorten that steel pipe.")
 dialogStr("Интересно, не было ли бы легче сократить ту стальную трубу?")
 
 dialogId("jed-v-ocet", "font_big", "Cleopatra is rumored to dissolve pearls in vinegar.")
@@ -53,6 +53,6 @@ dialogStr("Хорошо, я только хочу поучить тебя нем
 dialogId("jed-v-poter", "font_big", "Watching you, I have to think about how I played marbles with tadpoles.")
 dialogStr("Наблюдая за тобой, я вспомнил, как я играл в мраморные шарики с головастиками.")
 
-dialogId("jed-m-kulicka", "font_small", "You haven't got a spare marble in your pocket, do you?")
+dialogId("jed-m-kulicka", "font_small", "You haven’t got a spare marble in your pocket, do you?")
 dialogStr("Нет ли у тебя запасного мраморного шарика в кармане?")
 

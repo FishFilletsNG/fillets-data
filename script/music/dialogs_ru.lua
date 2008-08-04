@@ -11,10 +11,10 @@ dialogStr("Мы должны выключить это!")
 dialogId("ves-m-uz", "font_small", "Oh, noo...")
 dialogStr("О, нет...")
 
-dialogId("ves-v-pokoj", "font_big", "And it's over.")
+dialogId("ves-v-pokoj", "font_big", "And it’s over.")
 dialogStr("Это наверху.")
 
-dialogId("ves-m-dik", "font_small", "Thank you player. We couldn't bear it any longer.")
+dialogId("ves-m-dik", "font_small", "Thank you player. We couldn’t bear it any longer.")
 dialogStr("Спасибо тебе, игрок. Мы не могли нести его дальше.")
 
 dialogId("ves-v-stejne", "font_big", "But we have to push it down anyway.")
