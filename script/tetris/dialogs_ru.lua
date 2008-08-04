@@ -1,6 +1,6 @@
 -- FIXME. speel
 dialogId("tet-m-vypadala", "font_small", "So this is what the most successful game of all time originally looked like.")
-idialogStr("Итак, эта игра оказалась очень популярной в своё время.")
+dialogStr("Итак, эта игра оказалась очень популярной в своё время.")
 
 dialogId("tet-v-ucta", "font_big", "Only deep respect for its memory prevents me from saying what it looks like...")
 dialogStr("Только глубокое уважение к ее памяти мешает мне сказать, на что она похожа... ")   --- Глубокий респект тому, кто сможет в додуматься до решения в памяти...") --- ??? 
