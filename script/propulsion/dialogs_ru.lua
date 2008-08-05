@@ -23,7 +23,7 @@ dialogId("poh-v-neuveri", "font_big", "Nobody is going to believe us.")
 dialogStr("Никто нам не поверит.")
 
 dialogId("poh-m-projekt", "font_small", "Maybe yes. FDTO works on a project to make use of bioenergy.")
-dialogStr("Возможно. Детективно-Учебная Организация Рыб работает над проектом использования биоэнергии.")
+dialogStr("Возможно. Служба Подготовки Рыб-Детективов работает над проектом использования биоэнергии.")
 
 dialogId("poh-v-zarizeni", "font_big", "We have to get out this device.")
 dialogStr("Нам надо вытащить этот предмет.")
