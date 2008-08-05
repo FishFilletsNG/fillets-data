@@ -27,7 +27,7 @@ dialogId("lod-m-co", "font_small", "What must we do?")
 dialogStr("Что мы должны сделать?")
 
 dialogId("lod-v-cvok", "font_big", "Put them into the mad... I mean into the detainment facility of FDTO.")
-dialogStr("Поместить их в сумашедший... Думаю, орестовать их.")  --- ???
+dialogStr("Поместить их в сумашедший... Я думаю на поддержание аппаратуры в Службу Подготовки Рыб-Детективов .")  --- ???
 
 dialogId("lod-m-oba", "font_small", "You are right. Shall we take both of them?")
 dialogStr("Ты прав. Мы вдвоем возьмем их?")
