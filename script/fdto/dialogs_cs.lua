@@ -1,5 +1,5 @@
 dialogId("semafor-v", "font_big", "Wait, see the red on the traffic light!")
-dialogStr("Počkej, na semaforu svítí červená.")
+dialogStr("Подожди, видешь крастный свет.Počkej, na semaforu svítí červená.")
  
 dialogId("budova-m", "font_small", "This is the building of Fish Detective Training Organization.")
 dialogStr("To je budova fakt děsně tajné organizace.")
