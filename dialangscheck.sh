@@ -84,10 +84,11 @@ for file in script/*/dialogs.lua \
 				
 				if [ "`cat $diadir/*_$lg.lua | grep FIXME`" ]
 				then
+          comment=`cat $diadir/*_$lg.lua | sed -n "1p" | sed "s/.*FIXME[., ]*\(.*\)/\1/g"`
 					nfixme=`expr $nfixme + 1`
 					if $printmy 
 					then
-						printf "(FIXME)"
+						printf "($comment)"
 					fi
 				else
 					nloc=`expr $nloc + 1`
