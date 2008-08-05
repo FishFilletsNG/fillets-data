@@ -63,7 +63,7 @@ dialogId("help6", "font_small", "We also can’t swim downwards when carrying an
 dialogStr("Также мы не можем плыть вниз, если держим какой-либо предмет, потому что он упадёт и раздавит нас.")
 
 dialogId("help7", "font_big", "Now we’ll start again - or we can load the saved game by pressing the F3 key.")
-dialogStr("Теперь нам остаётся либо начать сначала, либо загрузить игру с помощью клавиши F3.")
+dialogStr("Теперь нам остаётся либо начать сначала, либо загрузить игру с помощью клавиши F3 (не нажимайте).")
 
 dialogId("help8", "font_big", "And now we’re back where we last saved the game.")
 dialogStr("Теперь мы возвращаемся к моменту, на котором сохранили игру.")
