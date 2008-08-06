@@ -154,8 +154,33 @@ end
 function addItemAnim(model, picture_00)
     -- store all "picture_*.png" sprites to object anim
     local anim_name = "default"
+
+    
     for index, filename in ipairs(imgList(picture_00)) do
-        model:addAnim(anim_name, filename)
+    
+        -- NOTE: uses select_lang.lua to determine avaiable languages
+        local langs = {}
+        local oldfunc = select_addFlag
+        function select_addFlag(lang, flag)
+            table.insert(langs, lang)
+        end
+        file_include("script/select_lang.lua")
+        select_addFlag = oldfunc
+
+        lang = options_getParam("lang") 
+          for base, adds in string.gmatch(filename, "(.*)(\....)") do
+            local imgFile = base.."_"..lang..adds
+            if file_exists(imgFile) then
+                print(string.format("DEBUG: include image translation"..
+                        "; lang=%q; file=%q", lang, imgFile))
+                model:addAnim(anim_name, imgFile)
+            else
+              --include original file
+                model:addAnim(anim_name, filename)
+--                    print(string.format("DEBUG: missing img translation"..
+  --                      "; lang=%q; file=%q, use=%q", lang, imgFile, filename))
+            end
+          end
     end
 
     model:setAnim(anim_name, 0)
