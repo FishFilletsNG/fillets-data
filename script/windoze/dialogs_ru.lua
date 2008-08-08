@@ -1,3 +1,4 @@
+--FIXME, ada
 dialogId("win-v-plocha", "font_big", "This is how it looks when you don’t keep your desktop tidy.")
 dialogStr("Вот что получается, когда вы не поддерживаете на рабочем столе порядок.")
 
@@ -17,7 +18,7 @@ dialogId("win-m-costim4", "font_small", "What about giving up altogether and swi
 dialogStr("Как насчет того, чтобы бросить все и вместо этого поплыть к бару?")
 
 dialogId("win-v-pocitala", "font_big", "Did you count these windows around us?")
-dialogStr("Ты посчитал все окна вокруг нас?")
+dialogStr("Ты посчитала все окна вокруг нас?")
 
 dialogId("win-m-nemusim", "font_small", "I don’t need to count them. There are ninety five of them.")
 dialogStr("Мне не надо их считать, их девяносто пять.")
