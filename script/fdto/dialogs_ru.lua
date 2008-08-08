@@ -30,7 +30,7 @@ dialogId("mrka-m", "font_small", "The seahorse winks very nice.")
 dialogStr("Морской конек подмигивает очень мило.")
 
 dialogId("nemrka-v", "font_big", "No it doesn't.")
-dialogStr("Нет, это не так.")
+dialogStr("Нет, совсем не мило.")
 
 dialogId("ted1-m", "font_small", "Look... right now!")
 dialogStr("Смотри... справа!")
@@ -45,7 +45,7 @@ dialogId("ted4-m", "font_small", "Look... right now!")
 dialogStr("Смотри... справа!")
 
 dialogId("nebyl-v", "font_big", "It would be better if it never existed.")
-dialogStr("Было бы лучше, если этого никогда бы не было.")
+dialogStr("Было бы лучше, если еги никогда бы не было.")
 
 dialogId("hybeme-v", "font_big", "See, we are iconographic here and we are moving.")
 dialogStr("Смотри, мы нарисованы здесь и двигаемся.")
@@ -63,7 +63,7 @@ dialogId("kecas-v", "font_big", "Why are you drivelling?")
 dialogStr("Зачем ты говоришь глупости")
 
 dialogId("cely-m", "font_small", "You aren't complete there.")
-dialogStr("Ты правда там закончил.")
+dialogStr("Ты там не дорисован.")
 
 dialogId("proc-v", "font_big", "What are you doing whith these small balls when the antenna is here?")
 dialogStr("Что ты делаешь с этими маленькими шарами, когда антенна здесь?")
