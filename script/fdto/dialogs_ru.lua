@@ -6,7 +6,7 @@ dialogId("budova-m", "font_small", "This is the building of Fish Detective Train
 dialogStr("Это здание Службы Подготовки Рыб-Детективов.")
 
 dialogId("rozkladaci-v", "font_big", "I think we can take it to pieces.")
-dialogStr("Я думаю мы можешь взять эту штуку.")
+dialogStr("Я думаю мы можем взять эту штуку.")
 
 dialogId("drzel-m", "font_small", "But our home holds together despite UFO crashed into it.")
 dialogStr("Но наш дом оставался целым, даже когда НЛО обрушилось на него.")
@@ -45,7 +45,7 @@ dialogId("ted4-m", "font_small", "Look... right now!")
 dialogStr("Смотри... справа!")
 
 dialogId("nebyl-v", "font_big", "It would be better if it never existed.")
-dialogStr("Было бы лучше, если еги никогда бы не было.")
+dialogStr("Было бы лучше, если его никогда бы не было.")
 
 dialogId("hybeme-v", "font_big", "See, we are iconographic here and we are moving.")
 dialogStr("Смотри, мы нарисованы здесь и двигаемся.")
