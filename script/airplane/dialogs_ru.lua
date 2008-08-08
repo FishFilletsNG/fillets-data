@@ -15,7 +15,7 @@ dialogId("let-v-oko", "font_big", "Can you see that eye? The silent witness to t
 dialogStr("Видишь тот глаз? Немой свидетель трагедии... Кто-то доверился этому самолёту, и стелкянный глаз — всё, что от него теперь осталось.")
 
 dialogId("let-m-oko", "font_small", "This is not a glass eye but a gyroscope. At least in this level.")
-dialogStr("Это не стеклянный глаз, а гироскоп. ot a glass eye but a gyroscope. По крайней мере, в этом уровне.")
+dialogStr("Это не стеклянный глаз, а гироскоп. По крайней мере, в этом уровне.")
 
 dialogId("let-m-sedadlo", "font_small", "Seats. Why are there so many seats here?")
 dialogStr("Кресла. Откуда они здесь?")
