@@ -9,7 +9,7 @@ dialogId("bot-v-uveznen1", "font_big", "It got itself drunk among the amphoras."
 dialogStr("Он напился из этих кувшинов.")
 
 dialogId("bot-m-zajem", "font_small", "I wonder if there is anything left in them.")
-dialogStr("Инетересно, осталось ли что-нибудь в них.")
+dialogStr("Интересно, осталось ли что-нибудь в них.")
 
 dialogId("bot-v-podivat", "font_big", "You probably have to go check for yourself.")
 dialogStr("Пойди проверь.")
@@ -33,7 +33,7 @@ dialogId("bot-v-vsak1", "font_big", "Don’t forget that we are under water.")
 dialogStr("Не забывай, что мы под водой.")
 
 dialogId("bot-m-ble", "font_small", "Yuck. The authors could have spared us that animation.")
-dialogStr("Да ну, авторы игры могли бы и избавить нас он этой анимации.")
+dialogStr("Да ну, авторы игры могли бы и избавить нас от этой анимации.")
 
 dialogId("bot-v-totem", "font_big", "This totem looks good to me.")
 dialogStr("А этот тотем мне нравится.")
