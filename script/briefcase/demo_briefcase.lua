@@ -22,15 +22,15 @@ local function nextPicture()
                 number = "0"..number
             end
         end
-    		local lang = options_getParam("lang")
-    		local fpath = "images/demo_briefcase/demo_"..number.."_"..lang..".png"
-				if file_exists(fpath) then
-					demo_display(fpath, 135, 25)
-				else
-					demo_display("images/demo_briefcase/demo_"..number..".png", 135, 25)
-				end
-       
-				picture_counter = picture_counter + 1
+        local lang = string.sub(options_getParam("lang") or "", 1, 2)
+        local fpath = "images/demo_briefcase/demo_"..number.."_"..lang..".png"
+        if file_exists(fpath) then
+          demo_display(fpath, 135, 25)
+        else
+          demo_display("images/demo_briefcase/demo_"..number..".png", 135, 25)
+        end
+
+        picture_counter = picture_counter + 1
         return true
     end)
 end
