@@ -53,7 +53,7 @@ node_bestSolution("snowman", 66, "Pavel Danihelka")
 node_bestSolution("cannons", 39, "Pavel Danihelka")
 node_bestSolution("kitchen", 564, "Josef Peterka")
 node_bestSolution("cabin2", 385, "Masaaki Irie")
-node_bestSolution("captain", 539, "Gabor Braun")
+node_bestSolution("captain", 483, "David Glass")
 node_bestSolution("map", 1541, "Gabor Braun")
  
 node_bestSolution("reactor", 163, "Pavel Danihelka")
