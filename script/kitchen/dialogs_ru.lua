@@ -1,18 +1,18 @@
 -- FIXME. adacore
 dialogId("kuch-m-objev0", "font_small", "Oh my, this is a nice kitchen.")
-dialogStr("Милая кухня.")
+dialogStr("Милый кабмуз.")
 
 
 dialogId("kuch-m-objev1", "font_small", "Yeah, we discovered the ship kitchen.")
-dialogStr("Мы обнаружили кухню на судне!")
+dialogStr("Мы обнаружили камбуз на судне!")
 
 
 dialogId("kuch-m-objev2", "font_small", "Darned kitchen.")
-dialogStr("Проклятая кухня.")
+dialogStr("Проклятый кабмуз.")
 
 
 dialogId("kuch-m-objev3", "font_small", "And now we are in the captain Silver’s kitchen.")
-dialogStr("Сейчас мы находимся в кухне капитана Силвера.")
+dialogStr("Сейчас мы находимся в камбузе капитана Силвера.")
 
 
 dialogId("kuch-v-varil", "font_big", "I don’t think he was a cook himself.")
@@ -24,7 +24,7 @@ dialogStr("Но это не наша проблема.")
 
 
 dialogId("kuch-m-noproblem", "font_small", "There are not many problems here. I can swim out at once.")
-dialogStr("Здесь нет проблем, я могу уплыть сразу.")
+dialogStr("Здесь нет проблем, я могу сразу уплыть.")
 
 
 dialogId("kuch-v-podivej", "font_big", "But just have a look at me.")
@@ -32,11 +32,11 @@ dialogStr("Но только взгляни на меня.")
 
 
 dialogId("kuch-v-stolky0", "font_big", "I can’t understand how these serving tables got there.")
-dialogStr("Я не понимаю, как эти столы оказались там.")
+dialogStr("Я не понимаю, как эти столы оказались сдесь.")
 
 
 dialogId("kuch-v-stolky1", "font_big", "These tables are in the way.")
-dialogStr("Эти столы в пути.")
+dialogStr("Столы на моем пути.")
 
 
 dialogId("kuch-v-stolky2", "font_big", "This little chamber gives me the creeps.")
@@ -64,7 +64,7 @@ dialogStr("Я нахожусь на своем пути.")
 
 
 dialogId("kuch-m-hrnec0", "font_small", "Yuck, there is something left in this pot!")
-dialogStr("О! в этом горшке есть что-то")
+dialogStr("О! в этом горшке есть что-то!")
 
 
 dialogId("kuch-m-hrnec1", "font_small", "This pot wasn’t even washed up.")
@@ -84,11 +84,11 @@ dialogStr("Особенно мне.")
 
 
 dialogId("kuch-m-kreslo0", "font_small", "What is a chair doing in a kitchen?")
-dialogStr("Что стул делает в кухне?")
+dialogStr("Что стул делает в камбузе?")
 
 
 dialogId("kuch-v-kreslo1", "font_big", "There should be no chairs in the kitchen.")
-dialogStr("В кухне не должно быть стульев.")
+dialogStr("В камбузе не должно быть стульев.")
 
 
 dialogId("kuch-m-kreslo2", "font_small", "Everybody wants to rest sometimes.")
@@ -96,7 +96,7 @@ dialogStr("Каждый хочет отдохнуть иногда.")
 
 
 dialogId("kuch-m-stolky", "font_small", "I have seen these tables somewhere.")
-dialogStr("Я видел эти столы где-то.")
+dialogStr("Я видела эти столы где-то.")
 
 
 dialogId("kuch-v-serie", "font_big", "They are mass-produced, you know.")
@@ -124,7 +124,7 @@ dialogStr("Может быть его использовали для резки
 
 
 dialogId("kuch-v-nedela", "font_big", "Certainly. But you don’t cut meat with a sword in the kitchen, usually.")
-dialogStr("Точно. Но ты обычно не режешь мясо в кухне.")
+dialogStr("Точно. Но ты обычно не режешь мясо в кабмузе.")
 
 
 dialogId("kuch-m-kuchari", "font_small", "We are lucky there are no cooks here. They could try to cook us.")
@@ -136,7 +136,7 @@ dialogStr("Здесь должен быть рецепт на пергамент
 
 
 dialogId("kuch-v-svitek1", "font_big", "There must be some culinary mystery on that parchment.")
-dialogStr("Здесь на пергаменте может быть какая-нибудь кулинарная тайна.")
+dialogStr("Здесь, на пергаменте, может быть какая-нибудь кулинарная тайна.")
 
 
 dialogId("kuch-m-recept", "font_small", "Possibly, how to cook the fish.")
