@@ -157,18 +157,7 @@ function addItemAnim(model, picture_00)
 
     local lang = string.sub(options_getParam("lang") or "", 1, 2)
     for index, filename in ipairs(imgList(picture_00)) do
-    
-    		-- NOTE: uses select_lang.lua to determine avaiable languages
-    		local langs = {}
-    		local oldfunc = select_addFlag
-    		function select_addFlag(lang, flag)
-        	table.insert(langs, lang)
-    		end
-				file_include("script/select_lang.lua")
-    		select_addFlag = oldfunc
-        
-				local localized = string.gsub(filename, "(.*)(%.[^.]*)$", "%1_"..lang.."%2", 1)
-				--print("LANG: "..lang)
+        local localized = string.gsub(filename, "(.*)(%.[^.]*)$", "%1_"..lang.."%2", 1)
         if file_exists(localized) then
             print(string.format("DEBUG: including localized image"..
                     "; lang=%q; file=%q", lang, localized))
