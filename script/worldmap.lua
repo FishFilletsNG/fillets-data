@@ -14,9 +14,10 @@ branch_addNode("reef", "wc", "script/wc/init.lua", 314, 338)
 branch_addNode("broom", "hanoi", "script/hanoi/init.lua", 312, 266, true)
 branch_addNode("hanoi", "rush", "script/rush/init.lua", 350, 265)
 branch_addNode("rush", "fdto", "script/fdto/init.lua", 388, 264)
-branch_addNode("fdto", "rotate", "script/rotate/init.lua", 424, 269)
-branch_addNode("rotate", "nowall", "script/nowall/init.lua", 458, 275)
-branch_addNode("nowall", "hole", "script/hole/init.lua", 490, 283)
+branch_addNode("fdto", "rotate", "script/rotate/init.lua", 424, 270)
+branch_addNode("rotate", "nowall", "script/nowall/init.lua", 458, 280)
+branch_addNode("nowall", "hole", "script/hole/init.lua", 490, 290)
+branch_addNode("hole", "key", "script/key/init.lua", 520, 303)
 
 -- Ship Wrecks
 branch_addNode("library", "submarine", "script/submarine/init.lua", 340, 228, true)

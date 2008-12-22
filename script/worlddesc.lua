@@ -993,6 +993,13 @@ worldmap_addDesc("hole", "sv", "Svårt hål", "Gren av en ny generation")
 worldmap_addDesc("hole", "nl", "Een diep gat", "Tak van de nieuwe generatie")
 worldmap_addDesc("hole", "ru", "Тяжёлая луза", "Новая ветвь в NG")
 
+worldmap_addDesc("key", "en", "Key and Lock", "Branch of New Generation")
+worldmap_addDesc("key", "de", "Schlüssel und Schloß", "Zweig der neuen Generation")
+worldmap_addDesc("key", "cs", "Klíč a zámek", "Větev Nové generace")
+worldmap_addDesc("key", "sv", "Key and Lock", "Gren av en ny generation")
+worldmap_addDesc("key", "nl", "Key and Lock", "Tak van de nieuwe generatie")
+worldmap_addDesc("key", "ru", "Key and Lock", "Новая ветвь в NG")
+
 worldmap_addDesc("hanoi", "en", "Separated", "Branch of New Generation")
 worldmap_addDesc("hanoi", "de", "Getrennt", "Zweig der neuen Generation")
 worldmap_addDesc("hanoi", "cs", "Odděleni", "Větev Nové Generace")
