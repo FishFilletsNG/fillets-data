@@ -43,9 +43,6 @@ dialogStr("Не притворяйся, что ты не знаешь прави
 dialogId("map-m-pohnout", "font_small", "So we managed to move it.")
 dialogStr("Мы можем двигать это.")
 
-dialogId("map-v-dal", "font_big", "Let's keep up the good work.")
-dialogStr("Давай работать в том же духе.")
-
 dialogId("map-v-dal", "font_big", "Let’s keep up the good work.")
 dialogStr("Давай, уже почти все сделано.")
 

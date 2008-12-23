@@ -32,9 +32,6 @@ dialogStr("Кажется, у них не появится сейчас мысл
 dialogId("pt2-v-nemohou1", "font_big", "I think they are quite harmless now.")
 dialogStr("Думаю, они сейчас совсем безвредны.")
 
-dialogId("pt2-v-minule0", "font_big", "It won't be that easy like the last time.")
-dialogStr("Не будет так легко, как в прошлый раз.")
-
 dialogId("pt2-v-minule0", "font_big", "It won’t be that easy like the last time.")
 dialogStr("Кажется, сейчас это будет сложнее.")
 
