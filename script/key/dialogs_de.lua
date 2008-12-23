@@ -75,7 +75,7 @@ dialogStr("Nicht den Mut verlieren.")
 
 
 dialogId("rdopt-1-0", "font_big", "Might the icicle over there being helpful?")
-dialogStr("Könnte der Eiszapfen dort oben könnte helfen?")
+dialogStr("Könnte der Eiszapfen dort oben helfen?")
 
 dialogId("rdopt-1-1", "font_small", "We wouldn't get it anyway.")
 dialogStr("Den bekommen wir eh nicht dort heraus.")
