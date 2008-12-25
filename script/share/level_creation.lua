@@ -158,7 +158,7 @@ function addItemAnim(model, picture_00)
     local lang = string.sub(options_getParam("lang") or "", 1, 2)
     for index, filename in ipairs(imgList(picture_00)) do
         local localized = string.gsub(filename, "(.*)(%.[^.]*)$", "%1_"..lang.."%2", 1)
-        if file_exists(localized) then
+        if localized ~= "" and file_exists(localized) then
             print(string.format("DEBUG: including localized image"..
                     "; lang=%q; file=%q", lang, localized))
             model:addAnim(anim_name, localized)
