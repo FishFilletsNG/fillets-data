@@ -17,7 +17,8 @@ branch_addNode("rush", "fdto", "script/fdto/init.lua", 388, 264)
 branch_addNode("fdto", "rotate", "script/rotate/init.lua", 424, 270)
 branch_addNode("rotate", "nowall", "script/nowall/init.lua", 458, 280)
 branch_addNode("nowall", "hole", "script/hole/init.lua", 490, 290)
-branch_addNode("hole", "key", "script/key/init.lua", 520, 303)
+branch_addNode("hole", "key", "script/key/init.lua", 520, 301)
+branch_addNode("key", "keys", "script/keys/init.lua", 551, 300)
 
 -- Ship Wrecks
 branch_addNode("library", "submarine", "script/submarine/init.lua", 340, 228, true)
@@ -83,7 +84,7 @@ branch_addNode("aztec", "gems", "script/gems/init.lua", 425, 313)
 branch_addNode("gems", "chest", "script/chest/init.lua", 455, 326)
 branch_addNode("chest", "alibaba", "script/alibaba/init.lua", 484, 344)
 branch_addNode("alibaba", "cave", "script/cave/init.lua", 520, 350)
-branch_addNode("cave", "grail", "script/grail/init.lua", 549, 322,
+branch_addNode("cave", "grail", "script/grail/init.lua", 552, 335,
         false, "script/grail/demo_poster.lua")
 
 -- Dump

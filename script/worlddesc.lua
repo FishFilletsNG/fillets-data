@@ -1000,6 +1000,10 @@ worldmap_addDesc("key", "sv", "Lock and Key", "Gren av en ny generation")
 worldmap_addDesc("key", "nl", "Slot en grendel", "Tak van de nieuwe generatie")
 worldmap_addDesc("key", "ru", "Lock and Key", "Новая ветвь в NG")
 
+worldmap_addDesc("keys", "en", "Locksmithery", "Branch of New Generation")
+worldmap_addDesc("hole", "de", "Schlosserei", "Zweig der neuen Generation")
+worldmap_addDesc("hole", "cs", "Zámečnictví", "Větev Nové generace")
+
 worldmap_addDesc("hanoi", "en", "Separated", "Branch of New Generation")
 worldmap_addDesc("hanoi", "de", "Getrennt", "Zweig der neuen Generation")
 worldmap_addDesc("hanoi", "cs", "Odděleni", "Větev Nové Generace")
