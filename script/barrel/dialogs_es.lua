@@ -3,7 +3,7 @@ dialogId("bar-v-videt0", "font_big", "Somebody from Greenpeace should see this."
 dialogStr("Alguien de Greenpeace debería de ver esto.")
 
 
-dialogId("bar-m-videt1", "font_small", "Somebody from Three Miles Island should see this.")
+dialogId("bar-m-videt1", "font_small", "Somebody from Three Mile Island should see this.")
 dialogStr("Alguien de las islas cercanas debería de ver esto.")
 
 

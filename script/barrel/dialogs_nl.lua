@@ -3,8 +3,8 @@ dialogId("bar-v-videt0", "font_big", "Somebody from Greenpeace should see this."
 dialogStr("Greenpeace zou hier eens moeten komen kijken.")
 
 
-dialogId("bar-m-videt1", "font_small", "Somebody from Three Miles Island should see this.")
-dialogStr("Dit zouden die lui van Three Miles Island moeten zien, zeg.")
+dialogId("bar-m-videt1", "font_small", "Somebody from Three Mile Island should see this.")
+dialogStr("Dit zouden die lui van Three Mile Island moeten zien, zeg.")
 
 
 dialogId("bar-v-co", "font_big", "What are we supposed to do with it?")
@@ -120,5 +120,5 @@ dialogStr("Deze keer is ons doel om dat vat met afval het veld uit te duwen.")
 
 
 dialogId("bar-v-genofond", "font_big", "But we have to leave all those creatures here. They must not harm the genepool of the healthy population.")
-dialogStr("Maar helaas zullen we al die beestjes hier achter moeten laten.  Anders kunnen ze perongeluk de gezonde populatie besmetten.")
+dialogStr("Maar helaas zullen we al die beestjes hier achter moeten laten.  Anders kunnen ze per ongeluk de gezonde populatie besmetten.")
 

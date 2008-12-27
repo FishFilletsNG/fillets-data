@@ -1,7 +1,7 @@
 dialogId("bar-v-videt0", "font_big", "Somebody from Greenpeace should see this.")
 dialogStr("Някой от Грийнпийс трябва да види това.")
 
-dialogId("bar-m-videt1", "font_small", "Somebody from Three Miles Island should see this.")
+dialogId("bar-m-videt1", "font_small", "Somebody from Three Mile Island should see this.")
 dialogStr("Някой от петкилометровия остров трябва да види това.")
 
 dialogId("bar-v-co", "font_big", "What are we supposed to do with it?")
