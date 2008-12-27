@@ -8,7 +8,7 @@ dialogStr("Ja, ich spüre den Acht-Bit-Wind der Geschichte.")
 
 
 dialogId("zx-m-pixel", "font_small", "Can you see that pixel graphic all around us? I must confess I feel nostalgic.")
-dialogStr("Siehst du die Pixelgrafik um uns herum? Ich muss zugeben, dass ich nostalgisch werden.")
+dialogStr("Siehst du die Pixelgrafik um uns herum? Ich muss zugeben, dass ich nostalgisch werde.")
 
 
 dialogId("zx-v-hry", "font_big", "This is an opportunity to play the merry old games of ZX Spectrum.")
