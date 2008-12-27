@@ -32,11 +32,11 @@ dialogStr("Misschien is het maar goed dat hij het niet doet.")
 
 
 dialogId("mot-v-funkce1", "font_big", "I am rather glad we cannot turn anything on here.")
-dialogStr("Ik ben blij dat we hier niks perongeluk aan kunnen zetten.")
+dialogStr("Ik ben blij dat we hier niks per ongeluk aan kunnen zetten.")
 
 
 dialogId("mot-v-funkce2", "font_big", "We should be happy that we could not switch anything on yet.")
-dialogStr("We moeten blij zijn dat we hier niks perongeluk aan kunnen zetten.")
+dialogStr("We moeten blij zijn dat we hier niks per ongeluk aan kunnen zetten.")
 
 
 dialogId("mot-v-klic", "font_big", "Careful with that wrench.")

@@ -24,7 +24,7 @@ dialogStr("Als je gelijkt hebt wil ik liever niet weten wat voor geloof dat was.
 
 
 dialogId("zd2-v-symbol", "font_big", "I am afraid that if we use that strange symbol we could unwillingly initiate some dark ritual.")
-dialogStr("Ik ben bang dat als we dat rare symbool gebruiken, dat we dan perongeluk duistere krachten zouden kunnen oproepen.")
+dialogStr("Ik ben bang dat als we dat rare symbool gebruiken, dat we dan per ongeluk duistere krachten zouden kunnen oproepen.")
 
 
 dialogId("zd2-m-douf", "font_small", "I just hope it won’t drop on my head.")

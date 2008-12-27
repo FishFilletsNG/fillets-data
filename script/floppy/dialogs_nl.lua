@@ -88,7 +88,7 @@ dialogStr("Bah. Monstertjes.")
 
 
 dialogId("disk-v-pozor", "font_big", "Above all, we must be careful not to take them with the disk. The player wouldn’t be happy if we pour them on their desktop.")
-dialogStr("We moeten wel voorzichtig zijn en ze niet perongeluk meenemen. De speler zou niet blij zijn als die op zijn of haar computer belanden.")
+dialogStr("We moeten wel voorzichtig zijn en ze niet per ongeluk meenemen. De speler zou niet blij zijn als die op zijn of haar computer belanden.")
 
 
 dialogId("disk-m-ukol", "font_small", "Our goal is to push out that disk.")
