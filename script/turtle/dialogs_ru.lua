@@ -88,6 +88,6 @@ dialogStr("Откуда берется так много причудливых 
 dialogId("zel-m-jednoduse", "font_small", "It’s easy - designers create tricky problems and leave the drawing to the graphic artists.")
 dialogStr("Очень просто - создатели придумывают трудные задачи, а рисовать оставляют художникам.")
 
-dialogId("zel-v-ukol", "font_big", "Our goal in this room is to get out that turtle.")
+dialogId("zel-v-ukol", "font_big", "Our goal in this room is to get that turtle out.")
 dialogStr("Нам надо вытащить эту черепаху!")
 

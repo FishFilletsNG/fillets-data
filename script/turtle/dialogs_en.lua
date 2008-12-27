@@ -59,4 +59,4 @@ dialogId("zel-v-tvary", "font_big", "Where do so many bizarre shapes come from?"
 
 dialogId("zel-m-jednoduse", "font_small", "It’s easy - designers create tricky problems and leave the drawing to the graphic artists.")
 
-dialogId("zel-v-ukol", "font_big", "Our goal in this room is to get out that turtle.")
+dialogId("zel-v-ukol", "font_big", "Our goal in this room is to get that turtle out.")

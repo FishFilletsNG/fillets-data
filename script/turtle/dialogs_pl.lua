@@ -119,6 +119,6 @@ dialogId("zel-m-jednoduse", "font_small", "It’s easy - designers create tricky
 dialogStr("To proste - projektanci poziomów wymyślają trudne problemy, a ich narysowanie zostawiają grafikom.")
 
 
-dialogId("zel-v-ukol", "font_big", "Our goal in this room is to get out that turtle.")
+dialogId("zel-v-ukol", "font_big", "Our goal in this room is to get that turtle out.")
 dialogStr("Tym razem mamy za zadanie wynieść tego żółwia z pomieszczenia.")
 

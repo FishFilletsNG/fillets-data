@@ -89,5 +89,5 @@ dialogStr("Da dove vengono fuori tante forme così strane?")
 dialogId("zel-m-jednoduse", "font_small", "It’s easy - designers create tricky problems and leave the drawing to the graphic artists.")
 dialogStr("Semplice - i programmatori creano dei problemi complessi e laciano ai grafici il compito di disegnarli.")
 
-dialogId("zel-v-ukol", "font_big", "Our goal in this room is to get out that turtle.")
+dialogId("zel-v-ukol", "font_big", "Our goal in this room is to get that turtle out.")
 dialogStr("Il nostro obiettivo in questa stanza è di portar fuori la tartaruga.")
