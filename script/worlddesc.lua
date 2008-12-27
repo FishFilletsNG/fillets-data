@@ -996,13 +996,13 @@ worldmap_addDesc("hole", "ru", "Тяжёлая луза", "Новая ветвь
 worldmap_addDesc("key", "en", "Lock and Key", "Branch of New Generation")
 worldmap_addDesc("key", "de", "Schlüssel und Schloß", "Zweig der neuen Generation")
 worldmap_addDesc("key", "cs", "Zámek a klíč", "Větev Nové generace")
-worldmap_addDesc("key", "sv", "Lock and Key", "Gren av en ny generation")
+worldmap_addDesc("key", "sv", "Lås och nyckel", "Gren av en ny generation")
 worldmap_addDesc("key", "nl", "Slot en grendel", "Tak van de nieuwe generatie")
-worldmap_addDesc("key", "ru", "Lock and Key", "Новая ветвь в NG")
 
 worldmap_addDesc("keys", "en", "Locksmithery", "Branch of New Generation")
 worldmap_addDesc("keys", "de", "Schlosserei", "Zweig der neuen Generation")
 worldmap_addDesc("keys", "cs", "Zámečnictví", "Větev Nové generace")
+worldmap_addDesc("keys", "sv", "Låssmide", "Gren av en ny generation")
 worldmap_addDesc("keys", "nl", "Slotenmakerij", "Tak van de nieuwe generatie")
 
 worldmap_addDesc("hanoi", "en", "Separated", "Branch of New Generation")
