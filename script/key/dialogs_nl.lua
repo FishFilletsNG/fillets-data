@@ -42,7 +42,7 @@ dialogStr("Ja, te klein voor mij.")
 
 
 dialogId("rd-3-0", "font_small", "I think we should really use the key to open the lock.")
-dialogStr("Ik denk dat we de boel met de sleutel open kunnen krijgen.")
+dialogStr("Ik denk echt dat we het met de sleutel open moeten krijgen.")
 
 dialogId("rd-3-1", "font_big", "Then go get it, smarty-pants.")
 dialogStr("Ga die sleutel dan halen, slimmert")
