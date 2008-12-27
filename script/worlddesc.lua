@@ -245,7 +245,7 @@ worldmap_addDesc("viking2", "it", "Otto vichinghi in una barca", "Navi fracassat
 worldmap_addDesc("viking2", "pl", "Ośmiu wikingów w łodzi", "Cmentarzysko statków")
 worldmap_addDesc("viking2", "es", "Ocho Vikingos en un Bote", "Ruinas del Barco")
 worldmap_addDesc("viking2", "nl", "Acht vikingen in een boot", "Scheepswrakken")
-worldmap_addDesc("viking2", "bg", "Осем викинки в една лодка", "Корабни останки")
+worldmap_addDesc("viking2", "bg", "Осем викинги в една лодка", "Корабни останки")
 worldmap_addDesc("viking2", "sv", "Åtta vikingar i en båt", "Skeppsvrak")
 worldmap_addDesc("viking2", "sl", "Osem vikingov v čolnu", "Ladijske razbitine")
 worldmap_addDesc("viking2", "pt_BR", "Oito Vikings em um Navio", "Destroços do Navio")
