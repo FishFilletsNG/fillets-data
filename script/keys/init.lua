@@ -11,7 +11,7 @@ file_include('script/'..codename..'/models.lua')
 -- ---------------------------------------------------------------
 -- Dialogs
 -- ---------------------------------------------------------------
--- file_include('script/'..codename..'/dialogs.lua')
+file_include('script/'..codename..'/dialogs.lua')
 
 
 -- ---------------------------------------------------------------
