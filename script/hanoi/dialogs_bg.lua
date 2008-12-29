@@ -41,7 +41,7 @@ dialogStr("Не трябва да поставям малкото парче в�
 
 dialogId("v-kopie", "font_big",
 "Somebody could think this room is only a copy of one room from fish fillets 2.")
-dialogStr("Някои биха помислили, че тази стая е просто копие от fish fillets 2.")
+dialogStr("Някои биха помислили, че тази стая е директно копие от „Рибни филета 2“.")
 
 dialogId("m-inspiroval", "font_small",
 "But in fact the author was only inspired by the hardware problem room.")
