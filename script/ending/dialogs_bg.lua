@@ -20,10 +20,10 @@ dialogId("z-m-dlouho", "font_small", "Really? It didn’t seem that long to me."
 dialogStr("Нима? На мен не ми се видя толкова дълго.")
 
 dialogId("z-v-pozdrav", "font_big", "Dear player. We would like to communicate to you the high regards of the authors of this game. If you didn’t solve it by some cheat, you are really very, very good. It’s a pity we cannot see you from here, but...")
-dialogStr("Скъпи играчо, бихме искали да ти предадем високите почитанията на авторите на играта. Ако не си шмекерувал, ти си наистина много, много добър. Жалко, че не можем да те видим оттук, но...")
+dialogStr("Скъпи играчо, бихме искали да Ви предадем високите почитанията на авторите на играта. Ако не сте шмекерували, Вие сте наистина много, много добъри. Жалко, че не можем да Ви видим оттук, но...")
 
 dialogId("z-m-oblicej", "font_small", "Could you please put your face in front of the hard disk LED? You might not know it but it is a kind of computer’s eye through which...")
-dialogStr("Може ли да погледнеш лампичката на твърдия диск отблизо? Сигурно не знаеш, но тя е един вид компютърно око, през което...")
+dialogStr("Може ли да погледнете лампичката на твърдия диск отблизо? Сигурно не знаете, но тя е един вид компютърно око, през което...")
 
 dialogId("z-v-forky", "font_big", "Stop this jokes of yours. This is a very special moment. So:")
 dialogStr("Спри с шегите си. Моментът е много специален. Затова:")
@@ -131,7 +131,7 @@ dialogId("z-c-tisice", "", "")
 dialogStr("")
 
 dialogId("z-c-hodin", "font_white", "To be specific, it took you %1 hours!")
-dialogStr("За да бъдем конкретни, това ти отне %1 часа!")
+dialogStr("За да бъдем конкретни, това Ви отне %1 часа!")
 
 dialogId("z-c-konkretne", "", "")
 dialogStr("")

@@ -8,7 +8,7 @@ dialogId("kuf-v-hod", "font_big", "Let’s push it down so we can take a look at
 dialogStr("Хайде да го избутаме долу за да можем да го разгледаме.")
 
 dialogId("kuf-v-doprace", "font_big", "Well, let’s get to work.")
-dialogStr("Е, хайде да се хващаме на работа.")
+dialogStr("Е, да се захващаме на работа.")
 
 dialogId("kuf-v-dotoho", "font_big", "So, now we can finally get started.")
 dialogStr("Най-сетне можем да започнем.")
@@ -56,7 +56,7 @@ dialogId("help4", "font_big", "I’ll volunteer to be the dummy.")
 dialogStr("Аз ще бъда доброволец.")
 
 dialogId("help5", "font_small", "First of all, we shouldn’t drop things on each other.")
-dialogStr("Най-важното е да не хвърляме предмети един на друг.")
+dialogStr("Най-важното е да не хвърляме предмети един върху друг.")
 
 dialogId("help6", "font_small", "We also can’t swim downwards when carrying an object, because it would fall on us.")
 dialogStr("Не можем и да плуваме надолу когато носим нещо, защото ще падне върху ни.")
@@ -77,13 +77,13 @@ dialogId("help11", "font_big", "Again, we load a saved game by pressing the F3 k
 dialogStr("Да повторим - с F3 се зарежда записаната игра.")
 
 dialogId("help12", "font_small", "We also can’t drop additional objects on a pile that one of us is carrying.")
-dialogStr("Не можем и да пискаме обекти върху куп, поддържан само от един от нас.")
+dialogStr("Не можем и да пускаме обекти върху куп, поддържан само от един от нас.")
 
 dialogId("help13", "font_small", "And unlike my bigger partner, I can’t move or even carry steel objects.")
 dialogStr("И за разлика от по-големия ми партньор, аз не мога да местя или държа стоманени обекти.")
 
 dialogId("help14", "font_big", "We have loaded our saved game for the last time. Now we’ll show you all the things we’re capable of.")
-dialogStr("Така. Заредихме записаната игра за последен път..")
+dialogStr("Така. Заредихме записаната игра за последен път. Сега ще ти покажем всички трикове, на които сме способни.")
 
 dialogId("help15", "font_small", "We can always pick up objects and then let them fall.")
 dialogStr("Можем да повдигаме обекти и после да ги оставяме да паднат.")

@@ -17,7 +17,7 @@ dialogId("1st-m-hej", "font_small", "Hey, player!")
 dialogStr("Ало, играча!")
 
 dialogId("1st-v-navod1", "font_big", "You can control us with arrow keys and use the space bar to switch fish.")
-dialogStr("Можеш да ни управляваш с клавишите-стрелки. Използвай „интервал“ за да превключваш помежду ни.")
+dialogStr("Можете да ни управлявате с клавишите-стрелки. Използвайте „интервал“ за да превключвате помежду ни.")
 
 dialogId("1st-m-navod4", "font_small", "Or you can control us with the mouse -- left-click somewhere and...")
 dialogStr("А може да използваш и мишката — щракни с левия бутон някъде...")

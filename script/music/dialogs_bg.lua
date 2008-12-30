@@ -14,7 +14,7 @@ dialogId("ves-v-pokoj", "font_big", "And it’s over.")
 dialogStr("Иии край.")
 
 dialogId("ves-m-dik", "font_small", "Thank you player. We couldn’t bear it any longer.")
-dialogStr("Благодаря ти играчо. Повече не можех да търпя.")
+dialogStr("Благодаря Ви играчо. Вече не се издържаше.")
 
 dialogId("ves-v-stejne", "font_big", "But we have to push it down anyway.")
 dialogStr("Не все пак се налага да го избутаме долу.")

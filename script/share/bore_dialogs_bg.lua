@@ -14,7 +14,7 @@ dialogId("ob-v-jit1", "font_big", "There is a solution, just we cannot see it.")
 dialogStr("Има решение, само че не можем да го видим.")
 
 dialogId("ob-v-musi", "font_big", "Chin up player, there must be a way.")
-dialogStr("Не падай духом, играчо. Трябва да има изход.")
+dialogStr("Не падайте духом. Трябва да има изход.")
 
 dialogId("ob-v-klid", "font_big", "Take it easy.")
 dialogStr("Отпусни се.")
@@ -116,7 +116,7 @@ dialogId("ob-m-tezky", "font_small", "Difficult, isn’t it?")
 dialogStr("Трудно, а?")
 
 dialogId("ob-v-jidlo", "font_big", "Look player, couldn’t you bring us something to eat? Put it in the TEMP directory, we’ll eat it immediately.")
-dialogStr("Виж, не може ли да ни дадеш нещо за ядене? Остави го в директорията TEMP, ще го изядем веднага.")
+dialogStr("Виж, не може ли да ни дадете нещо за ядене? Оставете го в директорията TEMP, ще го изядем веднага.")
 
 dialogId("ob-m-strach", "font_small", "When you stop playing, don’t turn off the computer, please. It’s so dark and scary when you do.")
 dialogStr("Когато спреш да играеш, моля те, не изключвай компютъра. Толкова е тъмно...")

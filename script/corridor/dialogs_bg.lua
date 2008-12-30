@@ -101,13 +101,13 @@ dialogId("ch-x-click2", "font_lightgrey", "CLICK")
 dialogStr("ЩРАК")
 
 dialogId("ch-r-nevsimej0", "font_robodog", "Don’t listen to them, player. They are kidding you.")
-dialogStr("Не ги слушай, те се шегуват.")
+dialogStr("Не ги слушайте, шегуват се.")
 
 dialogId("ch-r-nevsimej1", "font_robodog", "Don’t listen to them, player. They are trying to be funny.")
-dialogStr("Не ги слушай, опитват се да бъдат забавни.")
+dialogStr("Не ги слушайте, опитват се да бъдат забавни.")
 
 dialogId("ch-r-nevsimej2", "font_robodog", "Don’t listen to them, player. They are trying to fool you.")
-dialogStr("Не ги слушай, опитват се да те заблудят.")
+dialogStr("Не ги слушайте, опитват се да Ви заблудят.")
 
 dialogId("ch-r-hracka", "font_robodog", "I am but a humble cybernetic toy.")
 dialogStr("Аз съм само скромна кибернетична играчка.")

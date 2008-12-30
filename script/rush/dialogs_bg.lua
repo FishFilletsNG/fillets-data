@@ -22,7 +22,7 @@ dialogStr("Играчите би трябвало да се научат да г
 
 dialogId("m-obdivovat", "font_small",
 "On the contary, if the player solves it only here, I will admire him secretly.")
-dialogStr("От друга страна, ако успее да го реши тук, лично ще го поздравя.")
+dialogStr("От друга страна, успелите да го решат тук заслужават сппециална похвала.")
 
 dialogId("m-vysunout", "font_small",
 "We should get out the red car.")

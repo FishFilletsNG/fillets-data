@@ -65,7 +65,7 @@ dialogStr("Може да е жертва на внушение.")
 
 dialogId("v-looser", "font_big",
 "Oh well, player, if you don't solve it, you are a big loser.")
-dialogStr("Уф, ако не можеш да решиш загадката си голям загубеняк.")
+dialogStr("Уф, ако не можете да решите загадката сте голям загубеняк.")
 
 dialogId("m-nepomahas", "font_small",
 "Of course, you are not entertained, when you almost don't help me.")
@@ -87,8 +87,8 @@ dialogId("v-plny", "font_big",
 dialogStr("Големината няма значение, дисковете винаги са пълни.")
 
 dialogId("m-citovat", "font_small", "Be ashamed, cheater.")
-dialogStr("Засрами се, измамник такъв!")
+dialogStr("Засрамете се, измамник такъв!")
 
 dialogId("v-pochvalil", "font_big",
 "Finally I praise the player, that he solved it by the longer way.")
-dialogStr("Поздравления, намери по-дългото решение!")
+dialogStr("Поздравления, намерихте по-дългото решение!")

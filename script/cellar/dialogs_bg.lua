@@ -14,7 +14,7 @@ dialogId("pra-m-zpatky", "font_small", "Come back, you can’t go further!")
 dialogStr("Върни се, не можеш да продължиш напред!")
 
 dialogId("pra-v-zapeklita", "font_big", "Hmm... This is tricky. If we push aside the honey, we will be smashed by that can of apricot jam.")
-dialogStr("Хм... това е сложно. Ако избутаме меда ще бъдем размазани под консервата с кайсиево сладко.")
+dialogStr("Хм... това е сложно. Ако избутаме меда ще бъдем размазани под буркана с кайсиево сладко.")
 
 dialogId("pra-m-vyrazit", "font_small", "Couldn’t we push it aside with that axe?")
 dialogStr("Не може ли да го избутаме настрани с брадвичката?")
@@ -23,13 +23,13 @@ dialogId("pra-v-dobrynapad", "font_big", "That’s a good idea.")
 dialogStr("Това е добра идея.")
 
 dialogId("pra-m-chytit", "font_small", "Now I cannot take the axe. The can is in the way.")
-dialogStr("Сега на мога да взема брадвичката. Консервата пречи.")
+dialogStr("Сега на мога да взема брадвичката. Бурканът пречи.")
 
 dialogId("pra-v-vzit", "font_big", "You mustn’t push the axe!")
 dialogStr("Не бива да буташ брадвичката!")
 
 dialogId("pra-m-prisun", "font_small", "If you can push that can to me, I’ll shove the axe on it and everything will be okay.")
-dialogStr("Ако можеш да бутнеш онази консерва към мен ще плъзна брадвичката по нея и всичко ще е наред.")
+dialogStr("Ако можеш да бутнеш онзи буркан към мен ще плъзна брадвичката по нея и всичко ще е наред.")
 
 dialogId("pra-v-problem", "font_big", "If you solve some specific part you can save the position.")
 dialogStr("Ако решите част от ребуса можете да запишете позицията.")
@@ -50,7 +50,7 @@ dialogId("pra-m-pustis", "font_small", "If you drop that and I stay here, I will
 dialogStr("Ако пуснеш това докато съм тук, никога няма да изляза.")
 
 dialogId("pra-v-zavazis", "font_big", "You are standing in my way there. Try to hide somewhere else.")
-dialogStr("Застанала си ми на пътя. Опитай да се скриеш някъде другаде.")
+dialogStr("Застанала си ми на пътя. Опитай да се скриеш другаде.")
 
 dialogId("pra-m-strach", "font_small", "Here? I’m little bit afraid. Will I get out?")
 dialogStr("Тук? Малко ме е страх. Дали ще изляза някога?")
@@ -80,7 +80,7 @@ dialogId("pra-m-stava", "font_small", "Things like that happen sometimes.")
 dialogStr("Стават такива работи.")
 
 dialogId("pra-v-dopredu", "font_big", "Sometimes you have to think faaar ahead.")
-dialogStr("Понякога трябва да се мисли мнооого напред.")
+dialogStr("Понякога трябва да се мисли мно-о-ого напред.")
 
 dialogId("pra-m-restart", "font_small", "And often you have to restart the level then.")
 dialogStr("И често тогава се налага да се рестартира нивото.")

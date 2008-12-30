@@ -65,7 +65,7 @@ dialogId("win-m-vga", "font_small", "I can’t move this window. Down there, it�
 dialogStr("Не мога да преместя този прозорец. Там долу има стоманен цилиндър, макар и само в шестнадесет VGA цвята.")
 
 dialogId("win-v-pockej", "font_big", "Wait a moment, player. We have to make something clear. These two fish, they are our younger selves.")
-dialogStr("Чакай малко. Да сме наясно. Тази две рибки сме ние самите като по-млади.")
+dialogStr("Чакайте малко. Да сме наясно. Тази две рибки сме ние самите като по-млади.")
 
 dialogId("win-m-zavrene", "font_small", "You are right. They are trapped there, poor souls.")
 dialogStr("Така е. Затворени са там, бедничките.")
@@ -83,7 +83,7 @@ dialogId("win-m-vzit", "font_small", "You’re right. I can imagine what the sma
 dialogStr("Прав си. Представям си как се чувства по-малката.")
 
 dialogId("win-v-nehrajem", "font_big", "We are not going to play, until you save those two, player.")
-dialogStr("Ехо, играча! Няма да играем докато не освободиш онези две рибки.")
+dialogStr("Ехо, играча! Няма да играем докато не освободите онези две рибки.")
 
 dialogId("win-v-real", "font_big", "Goodness, that is a realistic game!")
 dialogStr("Боже, тази игра е доста реалистична!")
