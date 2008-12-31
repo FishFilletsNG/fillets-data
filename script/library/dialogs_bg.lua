@@ -104,5 +104,5 @@ dialogId("vrak-m-ocel", "font_small", "How am I to get there through that steel?
 dialogStr("Как да мина през тази стомана?!")
 
 dialogId("vrak-m-restart", "font_small", "What about restarting and trying it again from scratch?")
-dialogStr("Какви ще кажете да рестартирате и опитате отначало?")
+dialogStr("Какво ще кажете да рестартирате и опитате отначало?")
 
