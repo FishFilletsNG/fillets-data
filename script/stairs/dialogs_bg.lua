@@ -1,5 +1,5 @@
 dialogId("sch-m-spadlo", "font_small", "Something fell here again.")
-dialogStr("Пак нещо падна.")
+dialogStr("Нещо пак е паднало.")
 
 dialogId("sch-v-lastura", "font_big", "It’s some kind of shell. We’ll probably have to push it upstairs again.")
 dialogStr("Това е някакъв вид охлюв. Сигурно ще се наложи да качим обратно по стълбите.")
