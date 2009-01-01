@@ -1,5 +1,5 @@
 dialogId("v-tady", "font_big", "It is already there!")
-dialogStr("Вече е тук!")
+dialogStr("Всичко е ясно!")
 
 dialogId("m-co", "font_small", "What?")
 dialogStr("Кое?")
