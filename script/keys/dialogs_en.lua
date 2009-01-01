@@ -99,5 +99,5 @@ dialogId("rand-6-1", "font_small", "Good idea.")
 
 dialogId("rand-7-0", "font_big", "Why don't we just unlock?")
 
-dialogId("rand-7-1", "font_small", "Ok.")
+dialogId("rand-7-1", "font_small", "OK.")
 
