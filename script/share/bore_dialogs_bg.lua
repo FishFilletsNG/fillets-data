@@ -2,7 +2,7 @@ dialogId("ob-m-neverim", "font_small", "I don’t believe we can make it...")
 dialogStr("Не мисля, че ще се справим...")
 
 dialogId("ob-m-nedosataneme", "font_small", "We aren’t going to get out of here.")
-dialogStr("Никога няма да се излезем оттук.")
+dialogStr("Никога няма да се измъкнем оттук.")
 
 dialogId("ob-m-naveky", "font_small", "We are shut in here forever!")
 dialogStr("Ще си оставим тук завинаги!")
@@ -32,10 +32,10 @@ dialogId("ob-m-pokracuj", "font_small", "Go on!")
 dialogStr("Давай!")
 
 dialogId("ob-v-napad", "font_big", "Oh no, it was just an idea...")
-dialogStr("О, не. Беше прости идея...")
+dialogStr("О, не. Беше просто идея...")
 
 dialogId("ob-v-vyzkousej", "font_big", "What if we try that...")
-dialogStr("Ами ако ако опитаме да...")
+dialogStr("Ами ако опитаме да...")
 
 dialogId("ob-m-co", "font_small", "What?")
 dialogStr("Какво?")
@@ -65,7 +65,7 @@ dialogId("ob-m-klid", "font_small", "Take it easy.")
 dialogStr("Спокойно.")
 
 dialogId("ob-m-jesteneco", "font_small", "Will there be some action soon?")
-dialogStr("Ще имали скоро някакво раздвижване?")
+dialogStr("Ще има ли скоро някакво раздвижване?")
 
 dialogId("ob-m-nedeje", "font_small", "Why aren’t we doing anything?")
 dialogStr("Защо не правим нищо?")
@@ -95,31 +95,31 @@ dialogId("ob-o-halo", "font_both", "Hello!")
 dialogStr("Ехо!")
 
 dialogId("ob-v-nelekl", "font_big", "Did you flinch?")
-dialogStr("Избяга ли?")
+dialogStr("Избягахте ли?")
 
 dialogId("ob-m-mysleli", "font_small", "We were just afraid that you might have forgotten about us.")
-dialogStr("Просто се притеснихме, че може да си ни забравил.")
+dialogStr("Просто се притеснихме, че може да сте ни забравили.")
 
 dialogId("ob-v-nehybes", "font_big", "Look, why don’t you move us a little bit?")
-dialogStr("Виж, защо не ни поразмърдаш малко?")
+dialogStr("Вижте, защо не ни поразмърдате малко?")
 
 dialogId("ob-m-resit", "font_small", "We are the game, you are supposed to solve the puzzle!")
-dialogStr("Ние сме в играта. Предполага се, че трябва да намерим решение!")
+dialogStr("Ние сме в играта. Предполага се, че Вие трябва да намерите решение!")
 
 dialogId("ob-v-akvarium", "font_big", "Buy yourself a fish tank for observations.")
-dialogStr("Купи си аквариум за наблюдение.")
+dialogStr("Ако искате да наблюдавате рибки, купете си аквариум.")
 
 dialogId("ob-v-halo", "font_big", "Hellooo! We are here! Did you forget about us?")
-dialogStr("Ехооо! Тук сме! Забрави ли ни?")
+dialogStr("Ехооо! Тук сме! Забравихте ли ни?")
 
 dialogId("ob-m-tezky", "font_small", "Difficult, isn’t it?")
 dialogStr("Трудно, а?")
 
 dialogId("ob-v-jidlo", "font_big", "Look player, couldn’t you bring us something to eat? Put it in the TEMP directory, we’ll eat it immediately.")
-dialogStr("Виж, не може ли да ни дадете нещо за ядене? Оставете го в директорията TEMP, ще го изядем веднага.")
+dialogStr("Вижте, не може ли да ни дадете нещо за ядене? Оставете го в директорията TEMP, ще го изядем веднага.")
 
 dialogId("ob-m-strach", "font_small", "When you stop playing, don’t turn off the computer, please. It’s so dark and scary when you do.")
-dialogStr("Когато спреш да играеш, моля те, не изключвай компютъра. Толкова е тъмно...")
+dialogStr("Когато спрете да играете, моля, не изключвайте компютъра. Толкова е тъмно...")
 
 dialogId("ob-m-jakdlouho", "font_small", "How long are we going to take to solve it?")
 dialogStr("Колко ли време ще мине преди да излезем?")
