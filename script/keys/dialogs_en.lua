@@ -57,7 +57,7 @@ dialogId("rand-3-0", "font_small", "Don't you want to swim forcibly to the wall.
 
 dialogId("rand-3-1", "font_big", "Don't you want to search for a recess and break up the wall from there?")
 
-dialogId("rand-3-2", "font_small", "Might be the player wants to change the program so this would be possible?")
+dialogId("rand-3-2", "font_small", "Maybe the player wants to change the program so this would be possible?")
 
 dialogId("rand-3-3-0", "font_big", "This wouldn't be fair.")
 

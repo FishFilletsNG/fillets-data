@@ -83,7 +83,7 @@ dialogStr("Magst du nicht einfach mal kräftig gegen die Mauer schwimmen? Vielle
 dialogId("rand-3-1", "font_big", "Don't you want to search for a recess and break up the wall from there?")
 dialogStr("Magst du nicht einfach ne Nische suchen und die Mauer von dort aufbrechen?")
 
-dialogId("rand-3-2", "font_small", "Might be the player wants to change the program so this would be possible?")
+dialogId("rand-3-2", "font_small", "Maybe the player wants to change the program so this would be possible?")
 dialogStr("Vielleicht mag der Spieler ja das Programm so ändern, daß das möglich ist.")
 
 dialogId("rand-3-3-0", "font_big", "This wouldn't be fair.")
