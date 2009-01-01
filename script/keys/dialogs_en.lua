@@ -26,7 +26,7 @@ dialogId("rand-0-3", "font_big", "From what do you want to know we are getting c
 
 dialogId("rand-0-4", "font_small", "Look around, what do you see?")
 
-dialogId("rand-0-5-0", "font_big", "A brickwall.")
+dialogId("rand-0-5-0", "font_big", "A brick wall.")
 
 dialogId("rand-0-5-1", "font_big", "Steel.")
 
@@ -53,7 +53,7 @@ dialogId("rand-1-1", "font_small", "All or none. They are all looking equal.")
 dialogId("rand-2-0", "font_big", "At least the keys are not stuck to the ground.")
 
 
-dialogId("rand-3-0", "font_small", "Don't you want to swimm forcly to the wall. Possibly it will break down? ")
+dialogId("rand-3-0", "font_small", "Don't you want to swim forcibly to the wall. Possibly it will break down? ")
 
 dialogId("rand-3-1", "font_big", "Don't you want to search for a recess and break up the wall from there?")
 
@@ -68,9 +68,9 @@ dialogId("rand-3-4-0", "font_small", "That is true.")
 dialogId("rand-3-4-1", "font_small", "But the level would be solved.")
 
 
-dialogId("rand-4-0", "font_big", "Do you think these keys had been usefull in the previous level?")
+dialogId("rand-4-0", "font_big", "Do you think these keys had been useful in the previous level?")
 
-dialogId("rand-4-1", "font_small", "Of corse not.")
+dialogId("rand-4-1", "font_small", "Of course not.")
 
 dialogId("rand-4-2", "font_big", "Why not?")
 
@@ -97,7 +97,7 @@ dialogId("rand-6-0", "font_big", "We should take a key with us for a later level
 dialogId("rand-6-1", "font_small", "Good idea.")
 
 
-dialogId("rand-7-0", "font_big", "Why don't we yust unlock?")
+dialogId("rand-7-0", "font_big", "Why don't we just unlock?")
 
 dialogId("rand-7-1", "font_small", "Ok.")
 

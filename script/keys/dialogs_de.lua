@@ -39,7 +39,7 @@ dialogStr("Woher willst du dann wissen, daß wir ihm näher kommen?")
 dialogId("rand-0-4", "font_small", "Look around, what do you see?")
 dialogStr("Naja, schau dich mal um, was siehst du?")
 
-dialogId("rand-0-5-0", "font_big", "A brickwall.")
+dialogId("rand-0-5-0", "font_big", "A brick wall.")
 dialogStr("Eine Backsteinmauer.")
 
 dialogId("rand-0-5-1", "font_big", "Steel.")
@@ -77,7 +77,7 @@ dialogId("rand-2-0", "font_big", "At least the keys are not stuck to the ground.
 dialogStr("Wenigstens stecken die Schlüssel hier nicht im Boden fest.")
 
 
-dialogId("rand-3-0", "font_small", "Don't you want to swimm forcly to the wall. Possibly it will break down? ")
+dialogId("rand-3-0", "font_small", "Don't you want to swim forcibly to the wall. Possibly it will break down? ")
 dialogStr("Magst du nicht einfach mal kräftig gegen die Mauer schwimmen? Vielleicht stürzt sie ja ein?")
 
 dialogId("rand-3-1", "font_big", "Don't you want to search for a recess and break up the wall from there?")
@@ -99,10 +99,10 @@ dialogId("rand-3-4-1", "font_small", "But the level would be solved.")
 dialogStr("Aber wir hätten die Ebene gelöst.")
 
 
-dialogId("rand-4-0", "font_big", "Do you think these keys had been usefull in the previous level?")
+dialogId("rand-4-0", "font_big", "Do you think these keys had been useful in the previous level?")
 dialogStr("Meinst du, daß die Schlüssel hier in der Ebene vorher was gebracht hätten?")
 
-dialogId("rand-4-1", "font_small", "Of corse not.")
+dialogId("rand-4-1", "font_small", "Of course not.")
 dialogStr("Natürlich nicht.")
 
 dialogId("rand-4-2", "font_big", "Why not?")
@@ -141,7 +141,7 @@ dialogId("rand-6-1", "font_small", "Good idea.")
 dialogStr("Gute Idee.")
 
 
-dialogId("rand-7-0", "font_big", "Why don't we yust unlock?")
+dialogId("rand-7-0", "font_big", "Why don't we just unlock?")
 dialogStr("Warum sperren wir nicht einfach auf?")
 
 dialogId("rand-7-1", "font_small", "Ok.")
