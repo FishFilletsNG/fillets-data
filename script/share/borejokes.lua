@@ -11,15 +11,17 @@ local function rememberUsed(n)
     usedJokes[peek] = n
 end
 
--- -----------------------------------------------------------------
--- NOTE: uses 'small' and 'big' names for fishes
-local function selectJoke(n)
-    if not isReady(small) or not isReady(big) then
-        return
-    end
+local boredDialogTable = {}
 
-    switch(n){
-        [0] = function()
+function insertBoreJoke(joke)
+    table.insert(boredDialogTable, joke)
+    if usedJokesCapacity * 3 < table.getn(boredDialogTable) then
+        usedJokesCapacity = usedJokesCapacity + 1
+    end
+end
+
+insertBoreJoke(
+        function()
             if level_getDepth() ~= 15 then
                 if random(100) < 30 then
                     addm(20, "ob-m-neverim")
@@ -45,8 +47,11 @@ local function selectJoke(n)
                     end,
                 }
             end
-        end,
-        [1] = function()
+        end
+)
+
+insertBoreJoke(
+        function()
             switch(random(3)){
                 [0] = function()
                     addv(20, "ob-v-neobvykle")
@@ -69,8 +74,11 @@ local function selectJoke(n)
                     end
                 end,
             }
-        end,
-        [2] = function()
+        end
+)
+
+insertBoreJoke(
+        function()
             switch(random(3)){
                 [0] = function()
                     addv(10, "ob-v-nebavi")
@@ -93,8 +101,11 @@ local function selectJoke(n)
                     addm(5, "ob-m-klid")
                 end,
             }
-        end,
-        [3] = function()
+        end
+)
+
+insertBoreJoke(
+        function()
             switch(random(4)){
                 [0] = function()
                     addm(10, "ob-m-jesteneco")
@@ -123,8 +134,11 @@ local function selectJoke(n)
                     planBusy(big, false)
                 end,
             }
-        end,
-        [4] = function()
+        end
+)
+
+insertBoreJoke(
+        function()
             switch(random(5)){
                 [0] = function()
                     addv(10, "ob-v-prestavka")
@@ -156,8 +170,11 @@ local function selectJoke(n)
                     -- addset(Room.TrepatRoom, 0)
                 end,
             }
-        end,
-        [5] = function()
+        end
+)
+
+insertBoreJoke(
+        function()
             switch(random(6)){
                 [0] = function()
                     planBusy(small, true)
@@ -195,8 +212,17 @@ local function selectJoke(n)
                     addm(1, "ob-m-uplnevse")
                 end,
             }
-        end,
-    }
+        end
+)
+
+-- -----------------------------------------------------------------
+-- NOTE: uses 'small' and 'big' names for fishes
+local function selectJoke(n)
+    if not isReady(small) or not isReady(big) then
+        return
+    end
+
+    boredDialogTable[n+1]()
 end
 
 -- -----------------------------------------------------------------
@@ -224,9 +250,9 @@ function stdBoreJoke()
     if boredUnits() and no_dialog() then
         boredRate = 0
         delayForJoke = delayForJoke * randint(100, 150) / 100
-        n = random(6)
+        n = random(table.getn(boredDialogTable))
         while wasUsedRecently(n) do
-            n = random(6)
+            n = random(table.getn(boredDialogTable))
         end
         rememberUsed(n)
         selectJoke(n)
