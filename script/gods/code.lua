@@ -238,7 +238,7 @@ local function prog_init()
                 [1] = function()
                     pom1, buh2.px, buh2.py = hrajlode(2)
                     buh2.cekat = random(10) + 5
-                    local arg = string.char(buh2.py - 1 + string.byte("A"))..buh2.px
+                    local arg = buh2.px -- string.char(buh2.py - 1 + string.byte("A"))..buh2.px
                     planDialogSet(buh2.cekat, "b2-"..string.char(buh2.py - 1 + string.byte("a")).."@"..arg, 201, buh2, "mluveni")
                     buh2.cinnost = 2
                     buh2.cekat = buh2.cekat + random(4) + 9
@@ -411,6 +411,7 @@ local function prog_init()
     local function prog_init_buh1()
         local pom1, pom2, pomb1, pomb2 = 0, 0, false, false
 
+
         buh1.cinnost = 0
         buh1.ruka = 0
         buh1.oci = 0
@@ -421,12 +422,13 @@ local function prog_init()
         buh1.py = 0
         buh1.lodi = getNShips()
 
+
         return function()
             switch(buh1.cinnost){
                 [1] = function()
                     pom1, buh1.px, buh1.py = hrajlode(1)
                     buh1.cekat = random(10) + 5
-                    local arg = string.char(buh1.py - 1 + string.byte("A"))..buh1.px
+                    local arg = buh1.px -- string.char(buh1.py - 1 + string.byte("A"))..buh1.px
                     planDialogSet(buh1.cekat, "b1-"..string.char(buh1.py - 1 + string.byte("a")).."@"..arg, 101, buh1, "mluveni")
                     buh1.cinnost = 2
                     buh1.cekat = buh1.cekat + random(4) + 9

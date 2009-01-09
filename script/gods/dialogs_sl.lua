@@ -263,62 +263,62 @@ dialogStr("")
 dialogId("b2-10", "", "")
 dialogStr("")
 
-dialogId("b1-a", "font_yellow", "%1.")
-dialogStr("%1.")
+dialogId("b1-a", "font_yellow", "A%1.")
+dialogStr("A%1.")
 
-dialogId("b1-b", "font_yellow", "%1.")
-dialogStr("%1.")
+dialogId("b1-b", "font_yellow", "B%1.")
+dialogStr("B%1.")
 
-dialogId("b1-c", "font_yellow", "%1.")
-dialogStr("%1.")
+dialogId("b1-c", "font_yellow", "C%1.")
+dialogStr("C%1.")
 
-dialogId("b1-d", "font_yellow", "%1.")
-dialogStr("%1.")
+dialogId("b1-d", "font_yellow", "D%1.")
+dialogStr("D%1.")
 
-dialogId("b1-e", "font_yellow", "%1.")
-dialogStr("%1.")
+dialogId("b1-e", "font_yellow", "E%1.")
+dialogStr("E%1.")
 
-dialogId("b1-f", "font_yellow", "%1.")
-dialogStr("%1.")
+dialogId("b1-f", "font_yellow", "F%1.")
+dialogStr("F%1.")
 
-dialogId("b1-g", "font_yellow", "%1.")
-dialogStr("%1.")
+dialogId("b1-g", "font_yellow", "G%1.")
+dialogStr("G%1.")
 
-dialogId("b1-h", "font_yellow", "%1.")
-dialogStr("%1.")
+dialogId("b1-h", "font_yellow", "H%1.")
+dialogStr("H%1.")
 
-dialogId("b1-i", "font_yellow", "%1.")
-dialogStr("%1.")
+dialogId("b1-i", "font_yellow", "I%1.")
+dialogStr("I%1.")
 
-dialogId("b1-j", "font_yellow", "%1.")
-dialogStr("%1.")
+dialogId("b1-j", "font_yellow", "J%1.")
+dialogStr("J%1.")
 
-dialogId("b2-a", "font_cyan", "%1.")
-dialogStr("%1.")
+dialogId("b2-a", "font_cyan", "A%1.")
+dialogStr("A%1.")
 
-dialogId("b2-b", "font_cyan", "%1.")
-dialogStr("%1.")
+dialogId("b2-b", "font_cyan", "B%1.")
+dialogStr("B%1.")
 
-dialogId("b2-c", "font_cyan", "%1.")
-dialogStr("%1.")
+dialogId("b2-c", "font_cyan", "C%1.")
+dialogStr("C%1.")
 
-dialogId("b2-d", "font_cyan", "%1.")
-dialogStr("%1.")
+dialogId("b2-d", "font_cyan", "D%1.")
+dialogStr("D%1.")
 
-dialogId("b2-e", "font_cyan", "%1.")
-dialogStr("%1.")
+dialogId("b2-e", "font_cyan", "E%1.")
+dialogStr("E%1.")
 
-dialogId("b2-f", "font_cyan", "%1.")
-dialogStr("%1.")
+dialogId("b2-f", "font_cyan", "F%1.")
+dialogStr("F%1.")
 
-dialogId("b2-g", "font_cyan", "%1.")
-dialogStr("%1.")
+dialogId("b2-g", "font_cyan", "G%1.")
+dialogStr("G%1.")
 
-dialogId("b2-h", "font_cyan", "%1.")
-dialogStr("%1.")
+dialogId("b2-h", "font_cyan", "H%1.")
+dialogStr("H%1.")
 
-dialogId("b2-i", "font_cyan", "%1.")
-dialogStr("%1.")
+dialogId("b2-i", "font_cyan", "I%1.")
+dialogStr("I%1.")
 
-dialogId("b2-j", "font_cyan", "%1.")
-dialogStr("%1.")
+dialogId("b2-j", "font_cyan", "J%1.")
+dialogStr("J%1.")
