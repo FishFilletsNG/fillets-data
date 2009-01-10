@@ -67,6 +67,9 @@ branch_addNode("corridor", "experiments", "script/experiments/init.lua", 111, 15
 branch_addNode("experiments", "propulsion", "script/propulsion/init.lua", 118, 192,
         false, "script/propulsion/demo_poster.lua")
 
+-- UFO Exit
+branch_addNode("reactor", "electromagnet", "script/electromagnet/init.lua", 198, 244, true)
+
 -- Coral reef
 branch_addNode("reef", "corals", "script/corals/init.lua", 325, 300, true)
 branch_addNode("corals", "labyrinth", "script/labyrinth/init.lua", 359, 304)
