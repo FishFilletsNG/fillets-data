@@ -23,10 +23,10 @@ dialogId("zx-m-necodosebe", "font_small", "But still, these games had something 
 dialogStr("И все пак, имаше нещо в тези игри, нали?")
 
 dialogId("zx-m-knight", "font_small", "Can you see that Knight Lorer?")
-dialogStr("Виждаш ли? „Knight Lorer\".")
+dialogStr("Виждаш ли? „Knight Lorer“.")
 
 dialogId("zx-v-manicminer", "font_big", "And that must be the Manic Miner.")
-dialogStr("А това трябва да е „Manic Miner\".")
+dialogStr("А това трябва да е „Manic Miner“.")
 
 dialogId("zx-m-jetpack", "font_small", "I really didn’t know I’d ever be putting the Jetpack together again.")
 dialogStr("Не подозирах че отново ще си сложа реактивна раница.")
@@ -35,7 +35,7 @@ dialogId("zx-v-roboti", "font_big", "This line of robots looks familiar.")
 dialogStr("Тази редица роботи ми изглежда позната.")
 
 dialogId("zx-m-highway", "font_small", "Oh sure, they are from the Highway Encounter.")
-dialogStr("Ами да, от „Highway Encounter\" са.")
+dialogStr("Ами да, от „Highway Encounter“ са.")
 
 dialogId("zx-v-nahravani", "font_big", "I wonder what is loading right now.")
 dialogStr("Интересно какво се зарежда в момента.")

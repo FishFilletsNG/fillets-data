@@ -5,7 +5,7 @@ dialogId("pot-m-soud", "font_small", "What makes you think so?")
 dialogStr("Защо мислиш така?")
 
 dialogId("pot-v-jmeno", "font_big", "The title of this level.")
-dialogStr("Името на нивото.")
+dialogStr("Заради името на нивото.")
 
 dialogId("pot-v-slus", "font_big", "It suits you.")
 dialogStr("Отива ти.")
@@ -20,22 +20,22 @@ dialogId("pot-m-klob", "font_small", "Your stetson is quite good, too.")
 dialogStr("И твоята е много добра.")
 
 dialogId("pot-v-hlave", "font_big", "What is that on your head?")
-dialogStr("Какво е това на главата ти?")
+dialogStr("Шапка ли си навлякла?")
 
 dialogId("pot-m-zima", "font_small", "My ears were freezing.")
 dialogStr("Ушите ми замръзнаха.")
 
 dialogId("pot-m-pujc", "font_small", "That’s some hat! Can I borrow it?")
-dialogStr("Това е шапка. Може ли да я взема на заем?")
+dialogStr("Ето това е шапка! Може ли да я понося?")
 
 dialogId("pot-v-leda", "font_big", "If you lend me yours.")
-dialogStr("Ако ми заемеш твоята.")
+dialogStr("Ако ми дадеш твоята.")
 
 dialogId("pot-m-velik", "font_small", "This sure is a big stetson.")
-dialogStr("Това е доста голям цилиндър.")
+dialogStr("Това бомбе е доста голямо.")
 
 dialogId("pot-v-kras", "font_big", "And a beatiful one, too.")
-dialogStr("И доста красив.")
+dialogStr("И доста красиво.")
 
 dialogId("pot-v-nehnu", "font_big", "I can’t move this.")
 dialogStr("Не мога да го помръдна.")

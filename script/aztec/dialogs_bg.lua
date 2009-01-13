@@ -5,25 +5,25 @@ dialogId("bot-v-uveznen0", "font_big", "It is blocked by amphoras.")
 dialogStr("Заклещено е между амфорите.")
 
 dialogId("bot-v-uveznen1", "font_big", "It got itself drunk among the amphoras.")
-dialogStr("Напило се е сред амфорите.")
+dialogStr("Насвяткало се е сред амфорите.")
 
 dialogId("bot-m-zajem", "font_small", "I wonder if there is anything left in them.")
 dialogStr("Чудя се дали в тях е останало нещо.")
 
 dialogId("bot-v-podivat", "font_big", "You probably have to go check for yourself.")
-dialogStr("Ще ти се наложи сама да провериш.")
+dialogStr("Ще се наложи сама да провериш.")
 
 dialogId("bot-m-vidim", "font_small", "Finally, I can see some new kind of skull.")
 dialogStr("Най-сетне! Нов вид череп.")
 
 dialogId("bot-v-vsim", "font_big", "Did you notice that totem? It is the Mexican god Shelloxuatl.")
-dialogStr("Забеляза ли онзи тотем? Това е мексиканският бог Модиксуатл.")
+dialogStr("Забеляза ли онзи тотем? Това е мексиканският бог Мидоксуатл.")
 
 dialogId("bot-m-vypada", "font_small", "It looks like it.")
 dialogStr("На това прилича.")
 
 dialogId("bot-m-padaji", "font_small", "These amphores fall unbearably slow.")
-dialogStr("Тези амфори падат непоносимо бавно.")
+dialogStr("Тези амфори падат ужасно бавно.")
 
 dialogId("bot-v-vsak0", "font_big", "Well, you are not a bear, after all.")
 dialogStr("Все пак и ти нямаш нос.")

@@ -1,5 +1,5 @@
 dialogId("kuch-m-objev0", "font_small", "Oh my, this is a nice kitchen.")
-dialogStr("О, боже. Тази кухня не е лоша.")
+dialogStr("Еха! Тази кухня не е лоша.")
 
 dialogId("kuch-m-objev1", "font_small", "Yeah, we discovered the ship kitchen.")
 dialogStr("Да, открихме корабната кухня.")
@@ -11,7 +11,7 @@ dialogId("kuch-m-objev3", "font_small", "And now we are in the captain Silver’
 dialogStr("И ето ни в кухнята на капитан Силвър.")
 
 dialogId("kuch-v-varil", "font_big", "I don’t think he was a cook himself.")
-dialogStr("Не мисля, че той е бил готвач.")
+dialogStr("Не мисля, че е бил готвач.")
 
 dialogId("kuch-v-problem", "font_big", "But this is not our problem.")
 dialogStr("Това не е наш проблем.")
@@ -20,10 +20,10 @@ dialogId("kuch-m-noproblem", "font_small", "There are not many problems here. I 
 dialogStr("Тук изобщо няма много проблеми. Аз мога да си изляза веднага.")
 
 dialogId("kuch-v-podivej", "font_big", "But just have a look at me.")
-dialogStr("Но само погледни мен.")
+dialogStr("Но пък виж мен.")
 
 dialogId("kuch-v-stolky0", "font_big", "I can’t understand how these serving tables got there.")
-dialogStr("Не разбирам как тези подноси са се озовали там.")
+dialogStr("Не разбирам как тези маси са се озовали тук.")
 
 dialogId("kuch-v-stolky1", "font_big", "These tables are in the way.")
 dialogStr("Масите ми препречват пътя.")
@@ -74,7 +74,7 @@ dialogId("kuch-m-stolky", "font_small", "I have seen these tables somewhere.")
 dialogStr("Виждал съм някъде тези маси.")
 
 dialogId("kuch-v-serie", "font_big", "They are mass-produced, you know.")
-dialogStr("Масово производство, нали.")
+dialogStr("Ширпотреба.")
 
 dialogId("kuch-m-pekne", "font_small", "But they are nice. We should order a few too.")
 dialogStr("Все пак са хубави. Трябва да си поръчаме няколко.")
@@ -95,7 +95,7 @@ dialogId("kuch-v-nedela", "font_big", "Certainly. But you don’t cut meat with 
 dialogStr("Сигурно. Но ти обикновено не режеш месото със сабя.")
 
 dialogId("kuch-m-kuchari", "font_small", "We are lucky there are no cooks here. They could try to cook us.")
-dialogStr("Добре, че тук няма готвачи. Можеха да опитат да ни сготвят.")
+dialogStr("Добре, че наоколо няма готвачи. Можеха да опитат да ни сготвят.")
 
 dialogId("kuch-v-svitek0", "font_big", "There must be some recipe on that parchment.")
 dialogStr("На този пергамент има някаква рецепта.")
