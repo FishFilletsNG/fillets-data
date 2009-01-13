@@ -155,16 +155,8 @@ function addItemAnim(model, picture_00)
     -- store all "picture_*.png" sprites to object anim
     local anim_name = "default"
 
-    local lang = string.sub(options_getParam("lang") or "", 1, 2)
     for index, filename in ipairs(imgList(picture_00)) do
-        local localized = string.gsub(filename, "(.*)(%.[^.]*)$", "%1_"..lang.."%2", 1)
-        if localized ~= "" and file_exists(localized) then
-            print(string.format("DEBUG: including localized image"..
-                    "; lang=%q; file=%q", lang, localized))
-            model:addAnim(anim_name, localized)
-        else
-            model:addAnim(anim_name, filename)
-        end
+        model:addAnim(anim_name, filename)
     end
 
     model:setAnim(anim_name, 0)
