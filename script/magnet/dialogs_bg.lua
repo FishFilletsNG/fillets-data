@@ -44,7 +44,7 @@ dialogId("pap-v-nemir", "font_big", "Stop pointing at me with it!")
 dialogStr("Стига си го насочвала към мен!")
 
 dialogId("pap-m-nejde", "font_small", "As if you don’t know that you can’t turn objects in this game.")
-dialogStr("Все едни не знаеш, че в тази игра обектите не могат да се въртят.")
+dialogStr("Все едно не знаеш, че в тази игра обектите не могат да се въртят.")
 
 dialogId("pap-m-ocel", "font_small", "There are too many steel constructions here.")
 dialogStr("Тук има твърде много стоманени конструкции.")

@@ -1,5 +1,5 @@
 dialogId("rea-m-proboha", "font_small", "My God, can you see that pink thing over there?")
-dialogStr("Боже мой, виждаш ли онова розовото нещо там?")
+dialogStr("Боже мой, виждаш ли онова розово нещо там?")
 
 dialogId("rea-v-coto", "font_big", "What could it be?")
 dialogStr("Какво ли може да е?")
@@ -14,7 +14,7 @@ dialogId("rea-v-patrne", "font_big", "They look like they’re some kind of fuel
 dialogStr("Изглежда са някакъв вид горивни пръти или може би регулатори за ядрения реактор.")
 
 dialogId("rea-v-ledaze", "font_big", "Unless, of course, this reactor works on some completely different principle.")
-dialogStr("Освен ако този реактори не работи на съвсем друг принцип.")
+dialogStr("Освен ако този реактор не работи на съвсем друг принцип.")
 
 dialogId("rea-m-mohl", "font_small", "It could, of course, be a nucleo-particle megadisruptor with ultramezon colliders.")
 dialogStr("Би могъл, разбира се, да е мегаускорител на елементарни частици с ултрамезонни магнити.")

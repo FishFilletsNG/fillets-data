@@ -23,7 +23,7 @@ dialogId("vit-hs-klid4", "font_statue", "We have the situation completely under 
 dialogStr("Ситуацията е напълно под контрол.")
 
 dialogId("vit-hs-lod0", "font_statue", "The ship from Lemury has now docked at pier #5. This ship continues on to Utopia, Mu and Atlantis.")
-dialogStr("Корабът от Лемурия е акостирал на док №5. Следващите спирки са  Утопия, Мю и Атлантида.")
+dialogStr("Корабът от Лемурия е акостирал на док номер 5. Следващите спирки са  Утопия, Мю и Атлантида.")
 
 dialogId("vit-hs-pojis0", "font_statue", "With First Fishermen Insurance, your house is covered against damage caused by fire, tornadoes, hurricanes, acts of God and dragons’ raids. Because fishermen think of everything, choose First Fisherman.")
 dialogStr("С Първа Рибарска Застрахователна Компания къщата ви е защитена срещу пожар, торнадо, урагани, божии наказания и нашествия на дракони. Изберете Първа Рибарска — те мислят за всичко.")

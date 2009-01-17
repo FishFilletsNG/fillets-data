@@ -23,10 +23,10 @@ dialogId("ufo-m-zvlastni", "font_small", "It’s interesting that this tangled s
 dialogStr("Интересно, че тази оплетена стомана препречва входа към НЛО-то по-добре от всякакви охранителни системи.")
 
 dialogId("ufo-v-rikam", "font_big", "I keep telling you that our life is controlled by some higher, strange consciousness.")
-dialogStr("Казвам ти, че животът ни се контролира от някое странно, висше съзнание.")
+dialogStr("Казвам ти, животът ни се контролира от някое странно, висше създание.")
 
 dialogId("ufo-m-vidim", "font_small", "I can see that, too. But I am not that sure it’s higher.")
-dialogStr("Виждам. Само не съм сигурно, че е висше.")
+dialogStr("Виждам. Само не съм сигурна, че е висше.")
 
 dialogId("ufo-v-dovnitr", "font_big", "What can we find inside, once we manage to get there?")
 dialogStr("Какво ли ще намерим вътре, след като влезем?")
