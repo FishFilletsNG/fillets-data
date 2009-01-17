@@ -2,7 +2,7 @@ dialogId("tr-m-chlad1", "font_small", "I’m kind of cold.")
 dialogStr("Нещо ми е хладно.")
 
 dialogId("tr-v-jid1", "font_big", "No wonder. This is the Winter Mess Hall.")
-dialogStr("Не се учудвам. Това е Зимната Зала.")
+dialogStr("Не се учудвам. Това е Зимна бъркотия.")
 
 dialogId("tr-m-chlad2", "font_small", "I’m cold.")
 dialogStr("Студено ми е.")

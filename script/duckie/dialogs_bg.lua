@@ -8,10 +8,10 @@ dialogId("odp-m-zda1", "font_small", "I think it looks inflatable.")
 dialogStr("Изглежда ми надуваемо.")
 
 dialogId("odp-v-snehulak", "font_big", "Can you see that snowman?")
-dialogStr("Виждаш ли онзи снежен чошек?")
+dialogStr("Виждаш ли онзи снежен човек?")
 
 dialogId("odp-m-blaznis", "font_small", "What do you mean? Snowmen belong to the Mess Hall.")
-dialogStr("Какво имаш оредвид? Снежните човеци са в Голямата бъркотия.")
+dialogStr("Какво имаш предвид? Снежните човеци са в Зимна бъркотия.")
 
 dialogId("odp-m-kohout", "font_small", "Try to open that tap!")
 dialogStr("Опитай да извадиш онзи чеп!")
