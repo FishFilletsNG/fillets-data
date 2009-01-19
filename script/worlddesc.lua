@@ -1044,4 +1044,5 @@ worldmap_addDesc("rotate", "ru", "Поверните это", "Новая вет
 worldmap_addDesc("electromagnet", "en", "Electromagnet", "UFO Exit")
 worldmap_addDesc("electromagnet", "cs", "Elektromagnet", "UFO únik")
 worldmap_addDesc("electromagnet", "bg", "Електромагнит", "Изход от НЛО")
+worldmap_addDesc("electromagnet", "sv", "Elektromagnet", "UFOutgång")
 
