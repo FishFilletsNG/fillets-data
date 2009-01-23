@@ -2,7 +2,7 @@ dialogId("zx-m-pametnici", "font_small", "So this is a level for real connoisseu
 dialogStr("Това ниво е за истински познавачи.")
 
 dialogId("zx-v-osmibit", "font_big", "Yeah, I feel like I can feel the eight bit wind of history.")
-dialogStr("Аха, направо чувствам осем битовия вятър на историята.")
+dialogStr("Аха, направо усещам осем битовия вятър на историята.")
 
 dialogId("zx-m-pixel", "font_small", "Can you see that pixel graphic all around us? I must confess I feel nostalgic.")
 dialogStr("Виждаш ли пикселите наоколо? Признавам, че започвам да се чувствам носталгично.")

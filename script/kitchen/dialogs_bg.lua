@@ -71,7 +71,7 @@ dialogId("kuch-m-kreslo2", "font_small", "Everybody wants to rest sometimes.")
 dialogStr("Всеки има нужда от почивка от време на време.")
 
 dialogId("kuch-m-stolky", "font_small", "I have seen these tables somewhere.")
-dialogStr("Виждал съм някъде тези маси.")
+dialogStr("Виждала съм някъде тези маси.")
 
 dialogId("kuch-v-serie", "font_big", "They are mass-produced, you know.")
 dialogStr("Ширпотреба.")

@@ -5,7 +5,7 @@ dialogId("sl-m-velkolepe", "font_small", "It looks magnificent.")
 dialogStr("Изглежда впечатляващо.")
 
 dialogId("sl-v-vkapse", "font_big", "Now we only have to find out why it sank and we are done.")
-dialogStr("Остава само да разберем защо е потънал и сме готови.")
+dialogStr("Остава само да разберем защо е потънал, и сме готови.")
 
 dialogId("sl-m-trvat", "font_small", "But it may take us a little while.")
 dialogStr("Това сигурно ще отнеме малко време.")
