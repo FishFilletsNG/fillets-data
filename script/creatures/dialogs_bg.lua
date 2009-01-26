@@ -1,5 +1,5 @@
 dialogId("kor-m-podivej", "font_small", "Look at all these lobsters...")
-dialogStr("Погледни всички тези омари...")
+dialogStr("Погледни всички тези раци...")
 
 dialogId("kor-v-spitu", "font_big", "They sleep for thousands of years... in eternal stillness...")
 dialogStr("Спят от хиляди години... във вечен покой...")
@@ -11,7 +11,7 @@ dialogId("kor-v-nicje", "font_big", "...nothing can wake them up...")
 dialogStr("...нищо не може да ги събуди...")
 
 dialogId("kor-m-pokud", "font_small", "Unless we activate that octopus.")
-dialogStr("Освен ако активираме октопода.")
+dialogStr("Освен ако сръчкаме октопода.")
 
 dialogId("kor-v-podivej", "font_big", "Look, everything here is so still and quiet.")
 dialogStr("Погледни, всичко тук е толкова тихо и спокойно.")
@@ -29,7 +29,7 @@ dialogId("kor-v-bermudy", "font_big", "That’s interesting. This type of coral 
 dialogStr("Интересно. Този вид корали обикновено растат само в Бермудския триъгълник.")
 
 dialogId("kor-v-inteligentni", "font_big", "Did you know that some types of coral are almost as intelligent as fish?")
-dialogStr("Знаеш ли, че някои видове корали са умни почти като риба?")
+dialogStr("Знаеш ли, че някои видове корали са умни почти колкото риби?")
 
 dialogId("kor-v-jedovate", "font_big", "Be careful, most types of coral are poisonous.")
 dialogStr("Внимавай. Повечето корали са отровни.")
@@ -41,10 +41,10 @@ dialogId("kor-m-pocit", "font_small", "Do you have the feeling that those coral 
 dialogStr("Нямаш ли чувството, че тези корали ни наблюдават?")
 
 dialogId("kor-m-bizarni", "font_small", "I wonder why the coral have such a bizarre shape.")
-dialogStr("Чудя се защо коралът има такава странна форма.")
+dialogStr("Чудя се защо коралите имат такава странна форма.")
 
 dialogId("kor-v-juchacka", "font_big", "That was some number, wasn’t it?")
-dialogStr("Това беше някакво число, нали?")
+dialogStr("Страхотен номер, а?")
 
 dialogId("kor-m-hraje", "font_small", "Yeah, he’s a great player.")
 dialogStr("Уха, голям е музикант.")
@@ -53,10 +53,10 @@ dialogId("kor-v-odvaz", "font_big", "That’s cool. What if we pushed him again?
 dialogStr("Харесва ми. Дали да не го бутнем пак?")
 
 dialogId("kor-m-vsimlsis", "font_small", "Did you see what the lobsters were doing?")
-dialogStr("Видя ли какво направиха омарите?")
+dialogStr("Видя ли какво направиха раците?")
 
 dialogId("kor-v-avidelas", "font_big", "And how those anemones were dancing?")
-dialogStr("И как танцуваха анемоните?")
+dialogStr("А как танцуваха анемоните?")
 
 dialogId("kor-m-tovis", "font_small", "Well, you know, it’s not all that much fun down here at the bottom of the ocean.")
 dialogStr("Е, нямаме много развлечения на дъното на океана.")

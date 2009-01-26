@@ -2,7 +2,7 @@ dialogId("mot-m-info", "font_small", "I think we can gain some information about
 dialogStr("Май тук ще намерим информация за междузвездната тяга.")
 
 dialogId("mot-v-konvencni", "font_big", "This looks more like conventional propulsion for the landing craft.")
-dialogStr("Това прилича на конвенционална тяга за приземяване.")
+dialogStr("Това прилича на конвенционален двигател за приземяване.")
 
 dialogId("mot-m-tak", "font_small", "So. We found the drive. We have achieved one of the objectives of our mission.")
 dialogStr("Е, намерихме двигателя. Изпълнихме една от целите на мисията.")
@@ -17,7 +17,7 @@ dialogId("mot-m-akce1", "font_small", "I’d like to see some of these extraterr
 dialogStr("Бих искала да видя някоя от тези извънземни джаджи в действие.")
 
 dialogId("mot-m-akce2", "font_small", "I wonder if this motor could work under water.")
-dialogStr("Чудя се дали този мотор може да работи под вода?")
+dialogStr("Чудя се дали този двигател може да работи под вода?")
 
 dialogId("mot-v-funkce0", "font_big", "Maybe it’s better for us if it doesn’t work.")
 dialogStr("За нас може би е по-добре ако не работи.")
@@ -59,7 +59,7 @@ dialogId("mot-v-zvuky0", "font_big", "What are you doing? Where are we going?")
 dialogStr("Какво правиш? Къде отиваш?")
 
 dialogId("mot-v-zvuky1", "font_big", "What have you activated? Where is it taking us?")
-dialogStr("Какво си активирала? Къде ни води?")
+dialogStr("Какво включи? Къде ни води?")
 
 dialogId("mot-m-nemuzu0", "font_small", "How can I turn it off?!")
 dialogStr("Как да го изключа?!")
@@ -74,7 +74,7 @@ dialogId("mot-m-konecne1", "font_small", "Finally.")
 dialogStr("Най-сетне.")
 
 dialogId("mot-v-znovu0", "font_big", "I am only afraid we’ll have to turn it on again.")
-dialogStr("Безпокоя се само, че ще се наложи пак до го включим.")
+dialogStr("Безпокоя се само, че ще се наложи пак да го включим.")
 
 dialogId("mot-x-motor", "", "")
 dialogStr("")
