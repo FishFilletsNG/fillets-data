@@ -20,19 +20,19 @@ dialogId("dr1-v-thorson", "font_big", "It is even possible it belonged to Thorso
 dialogStr("Възможно е дори да е бил на Твърдия Торсон.")
 
 dialogId("dr1-x-erik", "font_lightgrey", "I always thought I was the fishing boat of Eric the Unready... But today I learned the truth. Yes, it’s never too late to start a new life!")
-dialogStr("Винаги съм си мислел, че е бил риболовния кораб на Неготовия Ерик... Но днес научих истината. Да, никога не е твърде късно да започнеш нов живот!")
+dialogStr("Винаги съм си мислел, че съм риболовния кораб на Неготовия Ерик... Но днес научих истината. Да, никога не е твърде късно да започнеш нов живот!")
 
 dialogId("dr-m-podivej", "font_small", "Look at that poor dog.")
 dialogStr("Погледни бедното куче.")
 
 dialogId("dr-m-nedycha", "font_small", "Doesn't he seem to be breathing kind of strangely?")
-dialogStr("Не изглеждали като да диша малко странно?")
+dialogStr("Не изглежда ли като да диша малко странно?")
 
 dialogId("dr-v-napsa", "font_big", "For a dog under water I think he's doing rather well.")
 dialogStr("Мисля, че се справя доста добре за куче под вода.")
 
 dialogId("dr-v-nato", "font_big", "He doesn't look all that bad considering that he's been here for a few centuries.")
-dialogStr("Не изглежда никак зле, като се има предвид, че е тук от няколко века.")
+dialogStr("Не изглежда никак зле, като се има предвид че е тук от няколко века.")
 
 dialogId("dr-8-ztichni1", "font_viking8", "Shut up!")
 dialogStr("Млък!")
@@ -83,7 +83,7 @@ dialogId("dr-2-netrva", "font_viking2", "Isn’t this journey to Valhalla taking
 dialogStr("Това пътуване до Валхала не продължава ли твърде дълго?")
 
 dialogId("dr-1-trpelivost", "font_viking1", "Patience is the sign of a true warrior.")
-dialogStr("Търпението е качество на истинския воин.")
+dialogStr("Истинските воини се отличават с търпение.")
 
 dialogId("dr-2-urcite", "font_viking2", "Are you sure this is how to get to Valhalla?")
 dialogStr("Сигурен ли сте, че така ще стигнем до Валхала?")
@@ -98,10 +98,10 @@ dialogId("dr-1-procja", "font_viking1", "Why did I have to get a ship full of la
 dialogStr("Защо ми трябваше да поемам кораб пълен с клоуни?")
 
 dialogId("dr-1-chechtajici", "font_viking1", "Laughing buffoons, a slobbering dog. I think I’ll go drown myself.")
-dialogStr("Клоуни, лигаво куче. Ще ида да се удавя.")
+dialogStr("Клоуни и лигаво куче. Ще ида да се удавя.")
 
 dialogId("dr-3-spravny", "font_viking3", "Real Vikings have beards.")
-dialogStr("Истинските Викинги имат плитки.")
+dialogStr("Истинските викинги имат бради.")
 
 dialogId("dr-4-copy", "font_viking4", "B-b-braids are in n-nowadays.")
 dialogStr("П-п-плитките са на м-м-мода.")
@@ -110,13 +110,13 @@ dialogId("dr-3-cojeto", "font_viking3", "What kind of fad is that? Braids? For c
 dialogStr("Що за прищявка? Плитки? За бога!.")
 
 dialogId("dr-4-magazin", "font_viking4", "V-v-viking Fashion M-m-monthly r-recommends a blonde braid to complement a d-d-dark helmet and b-blue shield.")
-dialogStr("М-м-месечна М-м-мода за В-в-викинги пр-р-епоръчва руси плитки за допълване на т-тъмнищ шлеми с-син щит.")
+dialogStr("М-м-месечна М-м-мода за в-в-викинги пр-р-епоръчва руси плитки като допълнение към т-тъмнен шлем и с-син щит.")
 
 dialogId("dr-3-stakovou", "font_viking3", "I simply don’t agree with such a fad.")
 dialogStr("Аз просто игнорирам подобни прищевки.")
 
 dialogId("dr-3-radeji", "font_viking3", "You should stick to the Viking traditions instead.")
-dialogStr("Би трябвало да се спазват традициите на Викингите.")
+dialogStr("Викингските традиции трябв да се спазват.")
 
 dialogId("dr-4-moderni", "font_viking4", "B-b-but I’m c-c-cool!")
 dialogStr("Ам-м-а е г-г-готино!")
@@ -134,7 +134,7 @@ dialogId("dr-3-nemel", "font_viking3", "He did not. And that’s final.")
 dialogStr("Не, не е имал. Точка по въпрпоса.")
 
 dialogId("dr-4-myslis", "font_viking4", "D-d-do you think that a b-b-beard would suit me b-b-better?")
-dialogStr("М-м-мислиш ли, че п-п-плитка би ми от-т-тивала?")
+dialogStr("М-м-мислиш ли, че б-б-брада би ми отивала п-п-повече?")
 
 dialogId("dr-3-samozrejme", "font_viking3", "Definitely.")
 dialogStr("Определено.")
