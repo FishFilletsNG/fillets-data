@@ -174,7 +174,7 @@ item_named_B = addModel("item_heavy", 29, 0,
 .......XX........X
 .......XX.........
 .......XX........X
-XXXXXXXXXXXXXXXX..
+XXXXXXXXXXXXXXXX.X
 ..XXX......XXX....
 ]])
 addItemAnim(item_named_B, "images/"..codename.."/steelbig.png")
