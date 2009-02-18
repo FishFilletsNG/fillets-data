@@ -14,11 +14,13 @@ branch_addNode("reef", "wc", "script/wc/init.lua", 314, 338)
 branch_addNode("broom", "hanoi", "script/hanoi/init.lua", 312, 266, true)
 branch_addNode("hanoi", "rush", "script/rush/init.lua", 350, 265)
 branch_addNode("rush", "fdto", "script/fdto/init.lua", 388, 264)
-branch_addNode("fdto", "rotate", "script/rotate/init.lua", 424, 270)
-branch_addNode("rotate", "nowall", "script/nowall/init.lua", 458, 280)
-branch_addNode("nowall", "hole", "script/hole/init.lua", 490, 290)
-branch_addNode("hole", "key", "script/key/init.lua", 520, 301)
-branch_addNode("key", "keys", "script/keys/init.lua", 551, 300)
+branch_addNode("fdto", "rotate", "script/rotate/init.lua", 424, 269)
+branch_addNode("rotate", "nowall", "script/nowall/init.lua", 458, 275)
+branch_addNode("nowall", "hole", "script/hole/init.lua", 490, 283)
+branch_addNode("hole", "key", "script/key/init.lua", 525, 286)
+branch_addNode("key", "keys", "script/keys/init.lua", 567, 297)
+branch_addNode("keys", "linux", "script/linux/init.lua", 574, 267,
+        false, "script/linux/demo_poster.lua")
 
 -- Ship Wrecks
 branch_addNode("library", "submarine", "script/submarine/init.lua", 340, 228, true)
@@ -38,7 +40,7 @@ branch_addNode("party2", "gods", "script/gods/init.lua", 391, 124,
 branch_addNode("wreck", "cabin1", "script/cabin1/init.lua", 464, 227, true)
 branch_addNode("cabin1", "snowman", "script/snowman/init.lua", 487, 252)
 branch_addNode("snowman", "cannons", "script/cannons/init.lua", 521, 261)
-branch_addNode("cannons", "kitchen", "script/kitchen/init.lua", 558, 254)
+branch_addNode("cannons", "kitchen", "script/kitchen/init.lua", 541, 232)
 branch_addNode("kitchen", "cabin2", "script/cabin2/init.lua", 571, 210)
 branch_addNode("cabin2", "captain", "script/captain/init.lua", 550, 175)
 branch_addNode("captain", "map", "script/map/init.lua", 510, 199,
@@ -84,10 +86,10 @@ branch_addNode("pearls", "turtle", "script/turtle/init.lua", 343, 369,
 -- Treasure Cave
 branch_addNode("labyrinth", "aztec", "script/aztec/init.lua", 393, 298, true)
 branch_addNode("aztec", "gems", "script/gems/init.lua", 425, 313)
-branch_addNode("gems", "chest", "script/chest/init.lua", 455, 326)
-branch_addNode("chest", "alibaba", "script/alibaba/init.lua", 484, 344)
-branch_addNode("alibaba", "cave", "script/cave/init.lua", 520, 350)
-branch_addNode("cave", "grail", "script/grail/init.lua", 552, 335,
+branch_addNode("gems", "chest", "script/chest/init.lua", 445, 345)
+branch_addNode("chest", "alibaba", "script/alibaba/init.lua", 475, 365)
+branch_addNode("alibaba", "cave", "script/cave/init.lua", 510, 360)
+branch_addNode("cave", "grail", "script/grail/init.lua", 539, 332,
         false, "script/grail/demo_poster.lua")
 
 -- Dump

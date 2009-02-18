@@ -1041,6 +1041,9 @@ worldmap_addDesc("rotate", "nl", "Draai Het", "Gren av en ny generation")
 worldmap_addDesc("rotate", "bg", "Завъртете това", "Нова генерация")
 worldmap_addDesc("rotate", "ru", "Поверните это", "Новая ветвь в NG")
 
+worldmap_addDesc("linux", "en", "Linux people must be mad", "Branch of New Generation")
+worldmap_addDesc("linux", "cs", "Linuxáci musí být šílení", "Větev Nové Generace")
+
 worldmap_addDesc("electromagnet", "en", "Electromagnet", "UFO Exit")
 worldmap_addDesc("electromagnet", "cs", "Elektromagnet", "UFO únik")
 worldmap_addDesc("electromagnet", "bg", "Електромагнит", "Изход от НЛО")
