@@ -46,19 +46,19 @@ dialogId("1-odpadnou", "font_linuxer1", "If you join three bubbles of the same c
 dialogId("m-vtipni", "font_small", "If only the linuxers would be funny.")
 dialogId("1-rozdil", "font_linuxer1", "I know one super joke, do you know the difference between chattr and chmod?")
 dialogId("text14", "font_white", "man chattr > 1; man chmod > 2; diff 1 2")
-dialogId("2-trapnejsi", "font_linuxer2", "It is more embarrassing than the last comic strip on root.cz.")
+dialogId("2-trapnejsi", "font_linuxer2", "It is more embarrassing than the last comic strip on userfriendly.org.")
 dialogId("1-trilobyte", "font_linuxer1", "And do you know what is eight trilobites? It is one trilobyte.")
 dialogId("text15", "font_white", "Ha ha ha")
 
 
 
 dialogId("2-nezaujata", "font_linuxer2", "Look, this room is trying not be opinionated. There is a penguin at the background. But if there would be logo of Debian, Fedora, ...")
-dialogId("1-prvni", "font_linuxer1", "Why did you said Debian first?")
+dialogId("1-prvni", "font_linuxer1", "Why did you say Debian first?")
 dialogId("2-abecedy", "font_linuxer2", "I am reciting by the alphabet.")
 
 dialogId("1-archlinux", "font_linuxer1", "So you should start with Arch Linux.")
 dialogId("2-zapomel", "font_linuxer2", "Sorry, I forgot it. So Arch Linux, Debian, ...")
-dialogId("1-podruhe", "font_linuxer1", "Why did you said Debian twice?")
+dialogId("1-podruhe", "font_linuxer1", "Why did you say Debian twice?")
 
 dialogId("2-naprogramovana", "font_linuxer2", "This game was programmed on Debian.")
 dialogId("1-ubuntu", "font_linuxer1", "Why wasn't it done on Ubuntu?")
@@ -68,7 +68,7 @@ dialogId("1-zkousel", "font_linuxer1", "Did you try Ubuntu?")
 dialogId("2-root", "font_linuxer2", "No, but it sufficient for me what I heard. Can you log in there as the root?")
 dialogId("1-nepotrebuje", "font_linuxer1", "Ubuntu doesn't need antiquities as the root user is.")
 dialogId("2-postavene", "font_linuxer2", "But it is based on them.")
-dialogId("1-rozhrani", "font_linuxer1", "An interface between user and unix exists in every distribution.")
+dialogId("1-rozhrani", "font_linuxer1", "An interface between user and Unix exists in every distribution.")
 
 dialogId("2-slackware", "font_linuxer2", "What about Slackware?")
 dialogId("1-balickovaci", "font_linuxer1", "Oh yes, but its packaging system is lousy.")
@@ -77,7 +77,7 @@ dialogId("2-svuj", "font_linuxer2", "At least it is owned by Slackware.")
 
 dialogId("2-hadi", "font_linuxer2", "Do you know why are there the snakes?")
 dialogId("1-jazyka", "font_linuxer1", "Of course, it is the logo of the best programming language.")
-dialogId("2-C", "font_linuxer2", "What? The C's logo are snakes?")
+dialogId("2-C", "font_linuxer2", "When did C get logo with snakes?")
 dialogId("1-prekonane", "font_linuxer1", "The C is outdated a long time ago. Now there is C++ and Java.")
 dialogId("2-pomala", "font_linuxer2", "Java is interpreted programming language so it is very slow. Your Python is the same case.")
 dialogId("1-pohodli", "font_linuxer1", "I am not interested about speed but the programming comfort.")
