@@ -115,7 +115,7 @@ dialogStr("Ubuntu takové starobylosti jako je root vůbec nepotřebuje.")
 dialogId("2-postavene", "font_linuxer2", "But it is based on them.")
 dialogStr("Ale je na nich postavené.")
 dialogId("1-rozhrani", "font_linuxer1", "An interface between user and Unix exists in every distribution.")
-dialogStr("Každá distribuce má určité rozhraní mezi unixem a uživatelem.")
+dialogStr("Každá distribuce má určité rozhraní mezi Unixem a uživatelem.")
 
 dialogId("2-slackware", "font_linuxer2", "What about Slackware?")
 dialogStr("Co takhle Slackware?")
