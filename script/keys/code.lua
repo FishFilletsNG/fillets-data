@@ -12,12 +12,17 @@ local function prog_init()
     -- -------------------------------------------------------------
     local function prog_init_room()
         return function()
+            local pocetodemk = 0
             for i = 0,3 do
                 if (klic[i].Y <= 10 and klic[i].dir == dir_up) or (klic[i].afaze ~= 0 and klic[i].afaze ~= 3) then
                     klic[i].afaze = klic[i].afaze+1
                     if klic[i].afaze == 6 then klic[i].afaze = 0 end
                     klic[i]:updateAnim()
+                    pocetodemk = pocetodemk+1
                 end
+            end
+            if pocetodemk > 0 and not klic[0]:isTalking() then
+                klic[0]:talk("unlocking-"..random(4), pocetodemk*VOLUME_FULL/4)
             end
 
             if num_starts < 3 and not room.was_intro then

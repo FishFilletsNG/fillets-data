@@ -101,3 +101,9 @@ dialogId("rand-7-0", "font_big", "Why don't we just unlock?")
 
 dialogId("rand-7-1", "font_small", "OK.")
 
+
+-- sounds
+dialogId("unlocking-0", "", "")
+dialogId("unlocking-1", "", "")
+dialogId("unlocking-2", "", "")
+dialogId("unlocking-3", "", "")
