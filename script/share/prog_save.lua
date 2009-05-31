@@ -33,7 +33,7 @@ local function assignModelAttributes(saved_table)
 end
 
 function script_loadState()
-    undo_stack = {}
+    undo_clear_table = true
     if not saved_models then
         error("global variable 'saved_models' is not set")
     end
@@ -44,19 +44,33 @@ end
 --
 -- Functions to enable undo
 --
+local UNDO_MAX_OVERWRITES = 10
 if not undo_stack then
+    undo_clear_table = false
+    undo_num_overwrites = 0
     undo_stack = {}
 end
 function script_saveUndo(moves, forceSave)
-    -- Saves only every 10th move by default
-    local movesLen = string.len(moves)
-    if not forceSave and table.getn(undo_stack) > 0 then
-        if math.mod(movesLen, 10) ~= 1 then
-            return
-        end
+    if forceSave then
+        undo_num_overwrites = 0
     end
-    if movesLen <= 1 then
+
+    -- A discontinuity in the moves will clear the undo stack.
+    -- That limits the memory usage.
+    local movesLen = string.len(moves)
+    if movesLen <= 1 or undo_clear_table then
+        undo_clear_table = false
+        undo_num_overwrites = 0
         undo_stack = {}
+    end
+
+    if undo_num_overwrites > 0 then
+        undo_num_overwrites = undo_num_overwrites - 1
+        table.remove(undo_stack)
+    elseif undo_num_overwrites == 0 then
+        undo_num_overwrites = UNDO_MAX_OVERWRITES
+    else
+        undo_num_overwrites = undo_num_overwrites + 1
     end
 
     -- saving the actual model position (after room.prepareRound())
@@ -69,6 +83,11 @@ end
 
 function script_loadUndo()
     local saved = table.remove(undo_stack)
+    -- The undo overwrites will be postponed.
+    -- They should not overwrite the previous undo and this position.
+    undo_num_overwrites = -1
+    undo_clear_table = false
+
     if not saved then
         return
     end
