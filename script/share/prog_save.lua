@@ -114,6 +114,11 @@ local function preventRedo()
 end
 
 function script_saveUndo(moves, forceSave)
+    local prev = undo.stack[undo.index - 1]
+    if prev and prev.moves == moves then
+        return
+    end
+
     setupOverwrites(forceSave)
 
     undo.stack[undo.index] = collectUndoState(moves)
@@ -124,7 +129,7 @@ end
 function script_loadUndo(steps)
     -- Undo has steps == 1
     -- Redo has steps == -1
-    local saved = undo.stack[undo.index - steps]
+    local saved = undo.stack[undo.index - 1 - steps]
     if not saved then
         return
     end
