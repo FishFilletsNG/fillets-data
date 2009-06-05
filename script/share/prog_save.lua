@@ -135,18 +135,18 @@ function script_loadUndo(moves, steps)
     -- Undo has steps == 1
     -- Redo has steps == -1
 
-    local shift = 0
+    local pos = undo.index - steps
     if isTopState(moves) then
-        shift = -1
+        pos = pos - 1
     end
-    local saved = undo.stack[undo.index + shift - steps]
+    local saved = undo.stack[pos]
     if not saved then
         return
     end
     -- The next saved undo will overwrite the just loaded undo.
     -- And it itself will not be overwritten,
     -- to keep the max distance between undos.
-    undo.index = undo.index - steps
+    undo.index = pos
     undo.num_overwrites = -1
     undo.seen_restarts = getRestartCount()
 
