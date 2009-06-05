@@ -143,11 +143,9 @@ function script_loadUndo(moves, steps)
     if not saved then
         return
     end
-    -- The next saved undo will overwrite the just loaded undo.
-    -- And it itself will not be overwritten,
-    -- to keep the max distance between undos.
-    undo.index = pos
-    undo.num_overwrites = -1
+    -- The currently loaded state will be preserved.
+    undo.index = pos + 1
+    undo.num_overwrites = 0
     undo.seen_restarts = getRestartCount()
 
     applyUndoState(saved)
