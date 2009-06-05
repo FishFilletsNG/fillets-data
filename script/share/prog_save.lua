@@ -114,9 +114,13 @@ local function preventRedo()
     undo.stack[undo.index + 1] = nil
 end
 
-function script_saveUndo(moves, forceSave)
+local function isTopState(moves)
     local prev = undo.stack[undo.index - 1]
-    if prev and prev.moves == moves then
+    return prev and prev.moves == moves
+end
+
+function script_saveUndo(moves, forceSave)
+    if isTopState(moves) then
         return
     end
 
@@ -127,10 +131,15 @@ function script_saveUndo(moves, forceSave)
     preventRedo()
 end
 
-function script_loadUndo(steps)
+function script_loadUndo(moves, steps)
     -- Undo has steps == 1
     -- Redo has steps == -1
-    local saved = undo.stack[undo.index - 1 - steps]
+
+    local shift = 0
+    if isTopState(moves) then
+        shift = -1
+    end
+    local saved = undo.stack[undo.index + shift - steps]
     if not saved then
         return
     end
