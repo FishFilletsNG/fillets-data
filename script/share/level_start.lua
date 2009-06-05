@@ -42,10 +42,12 @@ end
 -- -----------------------------------------------------------------
 -- Run functions
 -- -----------------------------------------------------------------
+local wasRestart = true
 local function updateModels()
-    if not level_isNewRound() then
+    if not wasRestart and not level_isNewRound() then
         return
     end
+    wasRestart = false
 
     -- update .X, .Y for all models (used also to save old state for undo)
     local models = getModelsTable()

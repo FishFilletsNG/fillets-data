@@ -73,6 +73,7 @@ local function collectUndoState(moves)
     -- Saving the actual model position (after room.prepareRound())
     for index, model in pairs(getModelsTable()) do
         model.X, model.Y = model:getLoc()
+        model.lookLeft = model:isLeft()
     end
     local serialized = pickle(getModelsTable())
     return {moves=moves, serialized=serialized}
