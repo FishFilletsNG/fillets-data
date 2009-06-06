@@ -54,7 +54,6 @@ local function updateModels()
     for key, model in pairs(models) do
         model.X, model.Y = model:getLoc()
         model.lookLeft = model:isLeft()
-        model.__extra_params = model_getExtraParams(model.index)
 
         local action = model:getAction()
         if "move_up" == action then

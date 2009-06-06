@@ -75,6 +75,7 @@ local function collectUndoState(moves)
     for index, model in pairs(getModelsTable()) do
         model.X, model.Y = model:getLoc()
         model.lookLeft = model:isLeft()
+        model.__extra_params = model_getExtraParams(model.index)
     end
     local serialized = pickle(getModelsTable())
     return {moves=moves, serialized=serialized}
