@@ -52,6 +52,7 @@ if not undo then
     undo.num_overwrites = -1
     -- The undo.index points where to save the next undo.
     undo.index = 0
+    undo.hold = -1
 end
 
 local function applyUndoState(state)
@@ -119,6 +120,19 @@ local function isTopState(moves)
     return prev and prev.moves == moves
 end
 
+local function checkPossiblyMistyped()
+    -- Returns true when the keypress is mistyped.
+    if undo.hold < 0 then
+        undo.hold = 2
+        return false
+    elseif undo.hold == 0 then
+        return false
+    else
+        undo.hold = undo.hold - 1
+        return true
+    end
+end
+
 function script_saveUndo(moves, forceSave)
     if isTopState(moves) then
         return
@@ -131,12 +145,25 @@ function script_saveUndo(moves, forceSave)
     preventRedo()
 end
 
-function script_loadUndo(moves, steps)
+function script_loadFinalUndo()
+    -- Reloads the state from the last saved undo.
+    undo.hold = -1
+    local saved = undo.stack[undo.index - 1]
+    if not saved then
+        return
+    end
+    applyUndoState(saved)
+end
+
+function script_loadUndo(lastMoves, steps)
     -- Undo has steps == 1
     -- Redo has steps == -1
+    if checkPossiblyMistyped() then
+        return
+    end
 
     local pos = undo.index - steps
-    if isTopState(moves) then
+    if isTopState(lastMoves) then
         pos = pos - 1
     end
     local saved = undo.stack[pos]
