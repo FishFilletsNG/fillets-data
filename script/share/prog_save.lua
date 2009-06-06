@@ -57,6 +57,7 @@ end
 
 local function applyUndoState(state)
     level_load(state.moves)
+    game_changeBg(state.bg)
 
     local saved_table = unpickle_string(state.serialized)
     assignModelAttributes(saved_table)
@@ -78,7 +79,8 @@ local function collectUndoState(moves)
         model.__extra_params = model_getExtraParams(model.index)
     end
     local serialized = pickle(getModelsTable())
-    return {moves=moves, serialized=serialized}
+    local bg = game_getBg()
+    return {moves=moves, serialized=serialized, bg=bg}
 end
 
 local function setupOverwrites(forceSave)
