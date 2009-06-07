@@ -29,7 +29,7 @@ end
 
 -- -----------------------------------------------------------------
 local function animateHead(model)
-    model:useSpecialAnim("", 0)
+    model_useSpecialAnim(model.index, "", 0)
     if model:isAlive() then
         local state = model:getState()
         if "talking" == state or model_isTalking(TALK_INDEX_BOTH) then
