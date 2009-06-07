@@ -279,7 +279,7 @@ label_text("help", "en",
 [[
                 HELP
 Restart level - Backspace
-Undo - -
+Undo - -/+
 Help - F1
 Save game - F2
 Load game - F3
@@ -293,7 +293,7 @@ label_text("help", "cs",
 [[
               NÁPOVĚDA
 opakuj místnost - Backspace
-krok zpět - -
+krok zpět - -/+
 nápověda - F1
 ulož hru - F2
 načti hru - F3
@@ -307,7 +307,7 @@ label_text("help", "fr",
 [[
                 AIDE
 Redémarrer le niveau - retour
-Annuler - -
+Annuler - -/+
 Aide - F1
 sauvegarder - F2
 charger - F3
@@ -321,7 +321,7 @@ label_text("help", "de",
 [[
                 HILFE
 Ebene neustarten - Backspace
-Rückgängig - -
+Rückgängig - -/+
 Hilfe - F1
 Spiel speichern - F2
 Spiel laden - F3
@@ -335,7 +335,7 @@ label_text("help", "it",
 [[
                    AIUTO
 ricomincia il livello - Backspace
-annulla - -
+annulla - -/+
 aiuto - F1
 salva partita - F2
 carica partita - F3
@@ -349,7 +349,7 @@ label_text("help", "pl",
 [[
                 POMOC
 restart poziomu - Backspace
-cofnij - -
+cofnij - -/+
 pomoc - F1
 zapisz grę - F2
 wczytaj grę - F3
@@ -363,7 +363,7 @@ label_text("help", "es",
 [[
                 AYUDA
 Reiniciar nivel - Borrar
-Deshacer - -
+Deshacer - -/+
 Ayuda - F1
 Guardar juego - F2
 Cargar juego - F3
@@ -377,7 +377,7 @@ label_text("help", "nl",
 [[
                 HELP
 hertart veld - Backspace
-ongedaan maken - -
+ongedaan maken - -/+
 help - F1
 spel opslaan - F2
 spel laden - F3
@@ -391,7 +391,7 @@ label_text("help", "bg",
 [[
              ПОМОЩ
 рестартиране на нивото - Backspace
-отмени - -
+отмени - -/+
 помощ - F1
 запис на позиция - F2
 зареждане на позиция - F3
@@ -405,7 +405,7 @@ label_text("help", "sv",
 [[
                 HJÄLP
 Omstart av nivå - Bakåtsteg
-Ångra - -
+Ångra - -/+
 Hjälp - F1
 Spara spel - F2
 Ladda spel - F3
@@ -419,7 +419,7 @@ label_text("help", "sl",
 [[
                 POMOČ
 Ponovno zaženi stopnjo - Backspace
-razveljavi - -
+razveljavi - -/+
 pomoč - F1
 shrani igro - F2
 naloži igro - F3
@@ -433,7 +433,7 @@ label_text("help", "pt_BR",
 [[
                 AJUDA
 Reiniciar nível - Backspace
-Desfazer - -
+Desfazer - -/+
 Ajuda - F1
 Salvar jogo - F2
 Carregar jogo - F3
@@ -447,7 +447,7 @@ label_text("help", "ru",
 [[
                 Помощь
 Перезапустить уровень - Backspace(Забой)
-Отменить - -
+Отменить - -/+
 Помощь - F1
 Сохранить игру - F2
 Загрузить игру - F3
