@@ -115,6 +115,7 @@ local function setupOverwrites(forceSave)
 end
 
 local function preventRedo()
+    undo.stack[undo.index] = nil
     undo.stack[undo.index + 1] = nil
 end
 
