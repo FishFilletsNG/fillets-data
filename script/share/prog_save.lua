@@ -83,12 +83,7 @@ local function collectUndoState(moves)
     return {moves=moves, serialized=serialized, bg=bg}
 end
 
-local function setupOverwrites(forceSave)
-    -- Sets undo.index to do an overwrite or not.
-    if forceSave then
-        undo.num_overwrites = 0
-    end
-
+local function limitUndoLength()
     -- Any level restart or load will clear the undo stack.
     -- That limits the memory usage.
     if undo.seen_restarts ~= getRestartCount() then
@@ -97,6 +92,14 @@ local function setupOverwrites(forceSave)
         undo.index = 0
         undo.stack = {}
     end
+end
+
+local function setupOverwrites(keepLast)
+    -- Sets undo.index to do an overwrite or not.
+    if keepLast then
+        undo.num_overwrites = 0
+    end
+
     if undo.index == 0 then
         -- The first known state should be preserved.
         undo.num_overwrites = -1
@@ -137,12 +140,13 @@ local function checkPossiblyMistyped()
     end
 end
 
-function script_saveUndo(moves, forceSave)
+function script_saveUndo(moves, keepLast)
+    limitUndoLength()
     if isTopState(moves) then
         return
     end
 
-    setupOverwrites(forceSave)
+    setupOverwrites(keepLast)
 
     undo.stack[undo.index] = collectUndoState(moves)
     undo.index = undo.index + 1
