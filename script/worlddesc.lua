@@ -13,6 +13,7 @@ worldmap_addDesc("menu", "sv", "Meny", "Fish Fillets - Next Generation")
 worldmap_addDesc("menu", "sl", "Menu igre", "Fish Fillets - Next Generation")
 worldmap_addDesc("menu", "pt_BR", "Menu", "Fish Fillets - Next Generation")
 worldmap_addDesc("menu", "ru", "Меню", "Fish Fillets - Next Generation")
+worldmap_addDesc("menu", "eo", "Menuo, ", "Fish Fillets - Next Generation")
 
 worldmap_addDesc("start", "en", "How It All Started", "Fish House")
 worldmap_addDesc("start", "cs", "Jak to všechno začalo", "Rybí domeček")
@@ -27,6 +28,7 @@ worldmap_addDesc("start", "sv", "Hur allt började", "Fiskhuset")
 worldmap_addDesc("start", "sl", "Kako se je vse začelo", "Ribja hiša")
 worldmap_addDesc("start", "pt_BR", "Como Tudo Começou", "Peixaria")
 worldmap_addDesc("start", "ru", "Как всё начиналось", "Рыбий дом")
+worldmap_addDesc("start", "eo", "Kiel ĉio komenciĝis", "Fiŝa domo")
 
 worldmap_addDesc("briefcase", "en", "Briefcase Message", "Fish House")
 worldmap_addDesc("briefcase", "cs", "Podivná zásilka", "Rybí domeček")
@@ -1002,6 +1004,7 @@ worldmap_addDesc("key", "cs", "Zámek a klíč", "Větev Nové generace")
 worldmap_addDesc("key", "sv", "Lås och nyckel", "Gren av en ny generation")
 worldmap_addDesc("key", "nl", "Slot en grendel", "Tak van de nieuwe generatie")
 worldmap_addDesc("key", "bg", "Под ключ", "Нова генерация")
+worldmap_addDesc("key", "ru", "Замок и Ключ", "Новая ветвь в NG")
 
 worldmap_addDesc("keys", "en", "Locksmithery", "Branch of New Generation")
 worldmap_addDesc("keys", "de", "Schlosserei", "Zweig der neuen Generation")
@@ -1009,6 +1012,7 @@ worldmap_addDesc("keys", "cs", "Zámečnictví", "Větev Nové generace")
 worldmap_addDesc("keys", "sv", "Låssmide", "Gren av en ny generation")
 worldmap_addDesc("keys", "nl", "Slotenmakerij", "Tak van de nieuwe generatie")
 worldmap_addDesc("keys", "bg", "Ключарница", "Нова генерация")
+worldmap_addDesc("keys", "ru", "Слесарь", "Новая ветвь в NG")
 
 worldmap_addDesc("hanoi", "en", "Separated", "Branch of New Generation")
 worldmap_addDesc("hanoi", "de", "Getrennt", "Zweig der neuen Generation")
@@ -1043,9 +1047,11 @@ worldmap_addDesc("rotate", "ru", "Поверните это", "Новая вет
 
 worldmap_addDesc("linux", "en", "Linuxers Must Be Mad", "Branch of New Generation")
 worldmap_addDesc("linux", "cs", "Linuxáci musí být šílení", "Větev Nové Generace")
+worldmap_addDesc("linux", "ru", "Линуксойд должен быть сумашедшим", "Новая ветвь в NG")
 
 worldmap_addDesc("electromagnet", "en", "Electromagnet", "UFO Exit")
 worldmap_addDesc("electromagnet", "cs", "Elektromagnet", "UFO únik")
 worldmap_addDesc("electromagnet", "bg", "Електромагнит", "Изход от НЛО")
 worldmap_addDesc("electromagnet", "sv", "Elektromagnet", "UFOutgång")
+worldmap_addDesc("electromagnet", "ru", "Электромагнит", "Ветка из НЛО")
 
