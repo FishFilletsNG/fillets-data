@@ -87,8 +87,8 @@ dialogStr("Ха ха ха")
 
 dialogId("2-nezaujata", "font_linuxer2", "Look, this room is trying not be opinionated. There is a penguin at the background. But if there would be logo of Debian, Fedora, ...")
 dialogStr("Ето виж. Тази стая се опитва да е справедлива. Има пингвин за фон. Но ако имаше лого на Debian, Fedora, ...")
-dialogId("1-prvni", "font_linuxer1", "Защо спомена Debian на първо място?")
-dialogStr("Proč jsi řekl jako první Debian?")
+dialogId("1-prvni", "font_linuxer1", "Why did you say Debian first?")
+dialogStr("Защо спомена Debian на първо място?")
 dialogId("2-abecedy", "font_linuxer2", "I am reciting by the alphabet.")
 dialogStr("Карам по азбучен ред.")
 
