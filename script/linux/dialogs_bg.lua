@@ -6,7 +6,7 @@ dialogId("m-zadarmo", "font_small", "To top it all they did it for free.")
 dialogStr("На всичкото отгоре го правят за без пари.")
 
 dialogId("m-zamykali", "font_small", "It is clear now, they were locking to protect from us.")
-dialogStr("Вече е ясно, преградите са да се пазят от нас.")
+dialogStr("Вече е ясно, преградите са за да се пазят от нас.")
 dialogId("v-horydoly", "font_big", "They were building mountains, valleys, ...")
 dialogStr("Създават планини, долини...")
 dialogId("m-linuxaci", "font_small", "The linuxers!")
@@ -16,7 +16,7 @@ dialogStr("Остава ни само една задача: да ги разк�
 
 
 dialogId("v-musime", "font_big", "We must put them away.")
-dialogStr("Трябва да ги разхараме.")
+dialogStr("Трябва да ги разкараме.")
 dialogId("m-radi", "font_small", "I think we should be happy if we manage to get one.")
 dialogStr("Мисля, че трябва да сме доволни ако се докопаме до някой.")
 dialogId("v-radeji", "font_big", "But if we manage both we should be more happy.")
@@ -25,11 +25,11 @@ dialogStr("Но ако получим и двата ще сме още по-до
 dialogId("m-nemyslis", "font_small", "Do you think that one linuxer out is enough?")
 dialogStr("Дали ще е достатъчно да отстраним само единия линуксаджия?")
 dialogId("v-forkovat", "font_big", "No I don't. The remaining could fork himself.")
-dialogStr("Не мисля. Другият може да се клонира.")
+dialogStr("Не мисля. Другият може да се клонира с fork().")
 
 
 dialogId("m-ukolem", "font_small", "Our goal is to reconcile the linuxers.")
-dialogStr("Целта ни е да укротим линуксаджиите.")
+dialogStr("Целта ни е да укротим линуксаджиите")
 dialogId("v-alespon", "font_big", "or at least to put them away.")
 dialogStr("или поне да ги разкараме.")
 
@@ -41,7 +41,7 @@ dialogStr("Да, ама те са хакнали играта и не можем
 
 
 dialogId("v-snazit", "font_big", "Wow, you had to try hard to put only one linuxer away. You got over the steel construction.")
-dialogStr("Брех! Трудно е разкараш дори и един линуксаджия. Премина стоманената конструкция.")
+dialogStr("Брех! Трудно е да разкараш дори и един линуксаджия. Добре, че премина стоманената конструкция.")
 dialogId("m-nestaci", "font_small", "But it isn't enough to win.")
 dialogStr("Обаче не е достатъчно.")
 
@@ -59,7 +59,7 @@ dialogStr("Ние не говорим за теб, а за другите.")
 
 
 dialogId("m-samem", "font_small", "It is interesting they are quarreling about the same problems.")
-dialogStr("Интересно е, че се карат все за едни и същи проблеми.")
+dialogStr("Интересно е, че се карат все за едни и същи неща.")
 dialogId("v-argumenty", "font_big", "And they are using the same arguments.")
 dialogStr("С едни и същи аргументи.")
 
@@ -68,7 +68,7 @@ dialogStr("Какво имаш на дъното?")
 dialogId("2-bubliny", "font_linuxer2", "It is frozen bubbles.")
 dialogStr("Замръзнали мехурчета.")
 dialogId("1-odpadnou", "font_linuxer1", "If you join three bubbles of the same color they will fall away.")
-dialogStr("Ако съединиш три мехурчета от един и същ цвят, те ще пропаднат.")
+dialogStr("Ако съединиш три мехурчета от един и същ цвят, ще пропаднат.")
 
 dialogId("m-vtipni", "font_small", "If only the linuxers would be funny.")
 dialogStr("Само ако можеше линуксаджиите да са забавни.")
@@ -79,7 +79,7 @@ dialogStr("man chattr > 1; man chmod > 2; diff 1 2")
 dialogId("2-trapnejsi", "font_linuxer2", "It is more embarrassing than the last comic strip on userfriendly.org.")
 dialogStr("По-неловко е дори от последния комикс на userfriendly.org.")
 dialogId("1-trilobyte", "font_linuxer1", "And do you know what is eight trilobites? It is one trilobyte.")
-dialogStr("А знаеш ли на какво се равняват осем трилобита? На един трилобайт.")
+dialogStr("А знаеш ли какво правят осем трилобита? Един трилобайт.")
 dialogId("text15", "font_white", "Ha ha ha")
 dialogStr("Ха ха ха")
 
@@ -100,11 +100,11 @@ dialogId("1-podruhe", "font_linuxer1", "Why did you say Debian twice?")
 dialogStr("Защо споменаваш Debian два пъти?")
 
 dialogId("2-naprogramovana", "font_linuxer2", "This game was programmed on Debian.")
-dialogStr("Програмирането на тази игра е направено под Debian.")
+dialogStr("Тази игра е написана под Debian.")
 dialogId("1-ubuntu", "font_linuxer1", "Why wasn't it done on Ubuntu?")
 dialogStr("Защо не под Ubuntu?")
 dialogId("2-vykradacka", "font_linuxer2", "Ubuntu is only a bad copy of Debian.")
-dialogStr("Убунти е просто лошо копие на Debian.")
+dialogStr("Ubuntu е просто лошо копие на Debian.")
 
 dialogId("1-zkousel", "font_linuxer1", "Did you try Ubuntu?")
 dialogStr("Опитвал ли си Ubuntu?")
@@ -115,7 +115,7 @@ dialogStr("Ubuntu няма нужда от антики като админис�
 dialogId("2-postavene", "font_linuxer2", "But it is based on them.")
 dialogStr("Но е базирано на антиките?.")
 dialogId("1-rozhrani", "font_linuxer1", "An interface between user and Unix exists in every distribution.")
-dialogStr("Във всяка дистрибуция има интерфайс между потребителя и операционната система.")
+dialogStr("Във всяка дистрибуция има интерфейс между потребителя и операционната система.")
 
 dialogId("2-slackware", "font_linuxer2", "What about Slackware?")
 dialogStr("Ами Slackware?")
@@ -130,27 +130,27 @@ dialogStr("Знаеш ли защо има змии?")
 dialogId("1-jazyka", "font_linuxer1", "Of course, it is the logo of the best programming language.")
 dialogStr("Естествено, това е логото на най-добрия език за програмиране.")
 dialogId("2-C", "font_linuxer2", "When did C get logo with snakes?")
-dialogStr("Откога C има лого със змии?")
+dialogStr("Откога в логото на Си има змии?")
 dialogId("1-prekonane", "font_linuxer1", "The C is outdated a long time ago. Now there is C++ and Java.")
-dialogStr("C отдавна остаря. Сега има C++ и Java.")
+dialogStr("Cи отдавна остаря. Сега има C++ и Java.")
 dialogId("2-pomala", "font_linuxer2", "Java is interpreted programming language so it is very slow. Your Python is the same case.")
 dialogStr("Java се интерпретира, следователно е много бавен. Както и Python.")
 dialogId("1-pohodli", "font_linuxer1", "I am not interested about speed but the programming comfort.")
-dialogStr("Скоростта не е толкова важна, важно е удобството при програмиране.")
+dialogStr("Не ме интересува скоростта, а удобството при програмиране.")
 dialogId("2-prave", "font_linuxer2", "Yes, you aren't.")
-dialogStr("Как пък не.")
+dialogStr("Очевидно.")
 
 
 dialogId("1-wilber", "font_linuxer1", "Look, Wilber!")
 dialogStr("Погледни, Wilber!")
 dialogId("2-maskot", "font_linuxer2", "It is the mascot of a great graphic application.")
-dialogStr("Това е символа на една велика програма за графика.")
+dialogStr("Това е символът на една велика програма за графика.")
 dialogId("1-dohnat", "font_linuxer1", "Which is trying to catch up Photoshop.")
 dialogStr("Която се опитва да догони Photoshop.")
 dialogId("2-neni", "font_linuxer2", "The GIMP is not Photoshop. It works on a different basis.")
 dialogStr("GIMP не е Photoshop. Работи по друг начин.")
 dialogId("1-zamaskovali", "font_linuxer1", "The GIMP developers assert it to conceal their inability.")
-dialogStr("Да, програмистите на GIMP непрекъснато повтарят, че догонването не им е по силите.")
+dialogStr("Да, програмистите на GIMP непрекъснато повтарят, за да скрият, че им е по силите.")
 
 
 dialogId("1-nebavi", "font_linuxer1", "I am bored by this music.")
