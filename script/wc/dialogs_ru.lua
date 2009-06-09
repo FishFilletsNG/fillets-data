@@ -1,6 +1,6 @@
 
 dialogId("wc-v-oblibene", "font_big", "The toilet is David’s favorite place.")
-dialogStr("Туалет — любимое место Дэвида.")
+dialogStr("Туалет— любимое место Дэвида.")
 
 dialogId("wc-m-coze", "font_small", "What?")
 dialogStr("Кого?")
@@ -9,7 +9,7 @@ dialogId("wc-v-neznas", "font_big", "You don’t know David? It’s one of the a
 dialogStr("Ты не знаешь Дэвида? Это один из художников, работавших над этой игрой.")
 
 dialogId("wc-m-sochar", "font_small", "David was no graphic artist. He was a sculpturer. His sculptures are one of the best-known Renaissance artifacts.")
-dialogStr("Давид был скульптором, а не художником. Его скульптуры — одни из наиболее известных памятников эпохи Возрождения.")
+dialogStr("Дэвид был скульптором, а не художником. Его скульптуры — одни из наиболее известных памятников эпохи Возрождения.")
 
 dialogId("wc-v-zmatek", "font_big", "You’ve got it all wrong.")
 dialogStr("Ты всё поняла не так.")
