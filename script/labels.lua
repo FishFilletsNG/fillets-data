@@ -65,6 +65,11 @@ label_text("solver_worse", "ru",
 Лучшее решение: %1
 Автор: %2
 ]])
+label_text("solver_worse", "eo",
+[[
+La pli bona decido: %1
+Aŭtoro: %2
+]])
 
 
 label_text("solver_better", "en",
@@ -132,6 +137,11 @@ label_text("solver_better", "ru",
 Ваше решение превосходит МИРОВОЙ РЕКОРД!
 Смотрите http://fillets.sf.net/halloffame.php
 ]])
+label_text("solver_better", "eo",
+[[
+Via solvo superpaŝi la UNIVERSON RECORDON!
+Rigardi http://fillets.sf.net/halloffame.php
+]])
 
 label_text("solver_equals", "en",
 [[
@@ -186,6 +196,11 @@ label_text("solver_equals", "ru",
 Ваше решение по количеству ходов
 наравне с наилучшим из ныне известных.
 ]])
+label_text("solver_equals", "eo",
+[[
+Via solvo laŭ kiomo de iroj 
+estas egale kun plej el nun famaj. 
+]])
 
 
 -- menu
@@ -201,6 +216,7 @@ label_text("menu_sound", "bg", "Сила на звука");
 label_text("menu_sound", "sv", "Ljudvolym");
 label_text("menu_sound", "sl", "Glasnost zvokov");
 label_text("menu_sound", "ru", "Громкость звука");
+label_text("menu_sound", "eo", "Laŭto de sono");
 label_text("menu_sound", "pt_BR", "Volume do Som");
 
 label_text("menu_music", "en", "Music volume");
@@ -216,6 +232,7 @@ label_text("menu_music", "sv", "Musikvolym");
 label_text("menu_music", "sl", "Glasnost glasbe");
 label_text("menu_music", "pt_BR", "Volume da música");
 label_text("menu_music", "ru", "Громкость музыки");
+label_text("menu_music", "eo", "Laŭto de muziko");
 
 label_text("menu_lang", "en", "Choose language");
 label_text("menu_lang", "cs", "Výběr jazyka");
@@ -230,6 +247,7 @@ label_text("menu_lang", "sv", "Välj språk");
 label_text("menu_lang", "sl", "Izberite jezik");
 label_text("menu_lang", "pt_BR", "Escolha o idioma");
 label_text("menu_lang", "ru", "Выберите язык игры");
+label_text("menu_lang", "eo", "Elektu la lingvon de ludo");
 
 label_text("menu_speech", "en", "Choose speech");
 label_text("menu_speech", "cs", "Výběr mluvy");
@@ -244,6 +262,7 @@ label_text("menu_speech", "sv", "Välj talat språk");
 label_text("menu_speech", "sl", "Izberite govor");
 label_text("menu_speech", "pt_BR", "Escolha a fala");
 label_text("menu_speech", "ru", "Выберите язык речи");
+label_text("menu_speech", "eo", "Elektu la lingvon de parolo");
 
 label_text("menu_subtitles", "en", "Show/hide subtitles");
 label_text("menu_subtitles", "cs", "Zobraz/skryj titulky");
@@ -258,6 +277,7 @@ label_text("menu_subtitles", "sv", "Visa/göm textning");
 label_text("menu_subtitles", "sl", "Prikaži/skrij podnapise");
 label_text("menu_subtitles", "pt_BR", "Mostrar/esconder legendas");
 label_text("menu_subtitles", "ru", "Показать/скрыть субтитры");
+label_text("menu_subtitles", "eo", "Montri/malmontri subtitrojn");
 
 label_text("menu_back", "en", "Back");
 label_text("menu_back", "cs", "Zpět");
@@ -272,6 +292,7 @@ label_text("menu_back", "sv", "Tillbaka");
 label_text("menu_back", "sl", "Nazaj");
 label_text("menu_back", "pt_BR", "Volta");
 label_text("menu_back", "ru", "Назад");
+label_text("menu_back", "eo", "Reĵeti");
 
 
 -- help
@@ -443,6 +464,21 @@ Menu do jogo - F10
 Tela Inteira - F11
 Acelerar jogo - Shift
 ]])
+label_text("help", "eo",
+[[
+                Helpo
+Restartigi nivelon - Backspace
+Nuligi - -
+Helpo - F1
+Konservi ludon - F2
+Ŝargi ludon - F3
+Montri/malmontri kalkuliston de iroj - F5
+Montri/malmontri subtitrojn - F6
+Menuo de ludo - F10
+Plena ekrano - F11
+Plirapidigi ludon - Shift
+]])
+
 label_text("help", "ru",
 [[
                 Помощь

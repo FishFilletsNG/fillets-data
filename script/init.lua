@@ -16,7 +16,8 @@ local winCodes = {
     Swedi = "sv",
     Slove = "sl",
     Portu = "pt",
-    Russi = "ru"
+    Russi = "ru",
+    Esper = "eo"
 }
 
 if winCodes[lang] then
