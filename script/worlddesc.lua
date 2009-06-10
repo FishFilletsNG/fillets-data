@@ -1049,6 +1049,7 @@ worldmap_addDesc("linux", "en", "Linuxers Must Be Mad", "Branch of New Generatio
 worldmap_addDesc("linux", "cs", "Linuxáci musí být šílení", "Větev Nové Generace")
 worldmap_addDesc("linux", "ru", "Линуксойд должен быть сумашедшим", "Новая ветвь в NG")
 +worldmap_addDesc("linux", "sv", "Linuxanvändare måste vara tokiga", "Gren av en ny generation")
+worldmap_addDesc("linux", "bg", "Линуксаджиите сигурно са полудели", "Нова генерация")
 
 worldmap_addDesc("electromagnet", "en", "Electromagnet", "UFO Exit")
 worldmap_addDesc("electromagnet", "cs", "Elektromagnet", "UFO únik")
