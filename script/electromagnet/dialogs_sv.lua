@@ -139,7 +139,7 @@ dialogStr("Vad är den ensamma saken där uppe?")
 dialogId("rand-6-1", "font_big", "An unidentified alien artefact. Which one do you mean exactly?")
 dialogStr("En oidentifierad utomjordisk artefakt. Vilken av dem är det du menar exakt?")
 
-dialogId("rand-6-2", "font_small", "The angularly one which is in our way. The one spanning half the level.")
+dialogId("rand-6-2", "font_small", "The angular one which is in our way. The one spanning half the level.")
 dialogStr("Den krokiga som är i vägen för oss. Den som går över halva nivån.")
 
 dialogId("rand-6-3", "font_big", "As I said, it is an unidentified alien artefact.")

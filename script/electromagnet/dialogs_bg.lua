@@ -139,7 +139,7 @@ dialogStr("Какво ли е онова самотно нещо горе?")
 dialogId("rand-6-1", "font_big", "An unidentified alien artefact. Which one do you mean exactly?")
 dialogStr("Неидентифициран извънземен обект. Кое точно имаш предвид?")
 
-dialogId("rand-6-2", "font_small", "The angularly one which is in our way. The one spanning half the level.")
+dialogId("rand-6-2", "font_small", "The angular one which is in our way. The one spanning half the level.")
 dialogStr("Ъгловатото, което ни пречи. Това, дето е се е разпростряло из половината ниво.")
 
 dialogId("rand-6-3", "font_big", "As I said, it is an unidentified alien artefact.")

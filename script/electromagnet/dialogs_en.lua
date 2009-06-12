@@ -95,7 +95,7 @@ dialogId("rand-6-0", "font_small", "What is the lonely thing up there?")
 
 dialogId("rand-6-1", "font_big", "An unidentified alien artefact. Which one do you mean exactly?")
 
-dialogId("rand-6-2", "font_small", "The angularly one which is in our way. The one spanning half the level.")
+dialogId("rand-6-2", "font_small", "The angular one which is in our way. The one spanning half the level.")
 
 dialogId("rand-6-3", "font_big", "As I said, it is an unidentified alien artefact.")
 

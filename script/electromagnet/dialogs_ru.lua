@@ -140,7 +140,7 @@ dialogStr("Что там за одинокая штука?")
 dialogId("rand-6-1", "font_big", "An unidentified alien artefact. Which one do you mean exactly?")
 dialogStr("Неопознанный инопланетный артефакт. Что именно ты имеешь введу?")
 
-dialogId("rand-6-2", "font_small", "The angularly one which is in our way. The one spanning half the level.")
+dialogId("rand-6-2", "font_small", "The angular one which is in our way. The one spanning half the level.")
 dialogStr("В углу нашего выхода. Ну тот, что занимает половину уровня.")
 
 dialogId("rand-6-3", "font_big", "As I said, it is an unidentified alien artefact.")

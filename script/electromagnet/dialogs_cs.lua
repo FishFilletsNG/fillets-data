@@ -1,212 +1,213 @@
+
 -- Init
 dialogId("init-0", "font_big", "We are locked.")
-dialogStr("Wir sind eingesperrt.")
+dialogStr("Jsme zamčeni.")
 
 dialogId("init-1", "font_small", "We will find a way out here.")
-dialogStr("Wir kommen schon raus hier.")
+dialogStr("Najdeme cestu ven.")
 
 dialogId("init-2", "font_big", "Why are you so sure about that?")
-dialogStr("Was macht dich da so sicher?")
+dialogStr("Jak si můžeš být tak jistá?")
 
 dialogId("init-3-0", "font_small", "We always found a way out.")
-dialogStr("Wir finden immer einen Weg heraus.")
+dialogStr("Vždycky jsme si cestu našli.")
 
 dialogId("init-3-1", "font_small", "We have come so far, we will not fail here.")
-dialogStr("Wir sind schon so weit gekommen, da werden wir hier nicht scheitern.")
+dialogStr("Došli jsme už hodně daleko. Nevzdáme to zde.")
 
 dialogId("init-3-2", "font_small", "The topic of this branch is: ”UFO-Exit”, what means we will get out here.")
-dialogStr("Die Überschrift dieses Zweiges lautet: „UFO-Ausgang”, was bedeutet, daß wir hier rauskommen werden.")
+dialogStr("Název této větve je „UFO-únik”. To znamená, že se odsud dostaneme.")
 
 dialogId("init-3-3", "font_small", "What would be the point of an unsolvable level?")
-dialogStr("Welchen Anreiz hätte eine nicht lösbare Ebene?")
+dialogStr("K čemu by byla neřešitelná místnost?")
 
 dialogId("init-4", "font_big", "I don’t know if this is a valid argument.")
-dialogStr("Ich weiß ja nicht so recht, ob man das als Argument gelten lassen kann.")
+dialogStr("Nevím, jestli je to platný argument.")
 
 
 -- Random text
 dialogId("rand-0-0", "font_small", "We should turn off the electromagnet.")
-dialogStr("Wir sollten den Elektromagneten ausschalten.")
+dialogStr("Měli bychom vypnout ten elektromagnet.")
 
 dialogId("rand-0-1", "font_big", "How would we do this. We are just able to move items.")
-dialogStr("Wie sollen wir das anstellen, wir können doch nur Gegenstände verschieben.")
+dialogStr("Jak to chceš udělat? Můžeme pouze hýbat předměty.")
 
 dialogId("rand-0-2", "font_small", "So let’s move the lever down there.")
-dialogStr("Dann lass uns mal den Hebel da unten verschieben.")
+dialogStr("Tak pohneme tou pákou tam dole.")
 
 dialogId("rand-0-3", "font_big", "You think the lever has any impact on the magnets?")
-dialogStr("Und du meinst, dieser Hebel hat eine Auswirkung auf die Magnete?")
+dialogStr("Myslíš, že ta páka má nějaký vliv na ty magnety?")
 
 dialogId("rand-0-4", "font_small", "At least it should be connected with the magnetic field right up.")
-dialogStr("Zumindestens sollte er mit dem Magnetfeld rechts oben verbunden sein.")
+dialogStr("Minimálně by měla být spojena s tím magnetickým polem vpravo nahoře.")
 
 dialogId("rand-0-5", "font_big", "That could be.")
-dialogStr("Das ist möglich.")
+dialogStr("To je možné.")
 
 
 dialogId("rand-1-0", "font_small", "Perhaps we have to find out what is the point of all these magnets in this level?")
-dialogStr("Vielleicht sollen wir herausfinden, was all die Magnete in dieser Ebene bringen?")
+dialogStr("Možná bychom měli zjistit proč tu jsou ty magnety.")
 
 dialogId("rand-1-1", "font_big", "I don’t think so. The brief said we should find out, how the interstellar propulsion works.")
-dialogStr("Ich glaube nicht. Im Auftrag heißt es, daß wir rausfinden sollen, wie der interstellare Antrieb funktioniert.")
+dialogStr("Nemyslím. Podle instrukcí máme zjistit jak funguje jejich mezihvězdný pohon.")
 
 dialogId("rand-1-2", "font_small", "What if the magnets are part of the interstellar propulsion?")
-dialogStr("Und wenn die Magnete Bestandteil des interstellaren Antriebs sind?")
+dialogStr("Co když ty magnety jsou součástí toho mezihvězdného pohonu?")
 
 dialogId("rand-1-3", "font_big", "Then we should find it out. But in my opinion they are only here to be in our way.")
-dialogStr("Dann sollten wir es natürlich schon herausfinden. Aber ich glaube, die dienen nur dazu uns den Weg zu versperren.")
+dialogStr("To bychom je měli prozkoumat. Ale podle mě, jsou tu jen, aby nám překážely.")
 
 
 dialogId("rand-2-0", "font_small", "Look, alien garbage.")
-dialogStr("Schau mal, außerirdischer Müll.")
+dialogStr("Podívej, mimozemské odpadky.")
 
 dialogId("rand-2-1", "font_big", "Where?")
-dialogStr("Wo?")
+dialogStr("Kde?")
 
 dialogId("rand-2-2", "font_small", "Well, the small can down there.")
-dialogStr("Na, die kleine Dose da unten.")
+dialogStr("Přece ta malá plechovka tam dole.")
 
 dialogId("rand-2-3-0", "font_big", "Perhaps it is still full.")
-dialogStr("Vielleicht ist sie noch voll?")
+dialogStr("Možná, že je stále plná.")
 
 dialogId("rand-2-3-1", "font_big", "It is an artefact and not garbage.")
-dialogStr("Das ist ein Artefakt und kein Müll.")
+dialogStr("To je artefakt a ne odpad.")
 
 dialogId("rand-2-3-2", "font_big", "I don’t think it is really a can. It’s likely a cloaked alien control unit.")
-dialogStr("Ich glaube nicht, daß das wirklich eine Dose ist. Das ist bestimmt eine getarnte außerirdische Steuereinheit.")
+dialogStr("To nebude skutečná plechovka. To je pravděpodobně maskovaná mimozemská řídící jednotka.")
 
 dialogId("rand-2-4", "font_small", "Anyway it is nevertheless garbage for me and in the way.")
-dialogStr("Egal. Für mich ist das Ding trotzdem Müll und im Weg.")
+dialogStr("Pro mě je to stejně pořád odpad a v mé cestě.")
 
 
 dialogId("rand-3-0", "font_big", "Look at the crystal.")
-dialogStr("Schau dir den Kristall da an.")
+dialogStr("Podívej se na ten krystal.")
 
 dialogId("rand-3-1", "font_small", "Nice. What material do you think it is?")
-dialogStr("Hübsch. Was meinst du, was das für ein Material ist?")
+dialogStr("Hezký. Jaký materiál myslíš, že to je?")
 
 dialogId("rand-3-2-0", "font_big", "Dilicium.")
-dialogStr("Dilizium.")
+dialogStr("Dilicium.")
 
 dialogId("rand-3-2-1", "font_big", "Dihydrogenmonoxid.")
 dialogStr("Dihydrogenmonoxid.")
 
 dialogId("rand-3-2-2", "font_big", "Sodium chloride.")
-dialogStr("Natriumchlorid.")
+dialogStr("Chlorid sodný.")
 
 dialogId("rand-3-2-3", "font_big", "Non-ferrous heavy metal.")
-dialogStr("Buntmetall.")
+dialogStr("Barevný kov.")
 
 dialogId("rand-3-2-4", "font_big", "Glass glued with colored paper.")
-dialogStr("Mit buntem Papier beklebtes Glas.")
+dialogStr("Sklo přilepené na barevným papír.")
 
 dialogId("rand-3-2-5", "font_big", "An alien alloy.")
-dialogStr("Eine außerirdische Legierung.")
+dialogStr("Mimozemská slitina.")
 
 dialogId("rand-3-3", "font_small", "I don’t think so.")
-dialogStr("Ich glaube ja nicht.")
+dialogStr("Nemyslím si.")
 
 
 dialogId("rand-4-0", "font_big", "Why do the magnets hold at fixed distance and don’t attract each other stronger?")
-dialogStr("Warum halten die Magnete eigentlich einen festen Abstand und ziehen sich nicht stärker an?")
+dialogStr("Proč udržují ty magnety pevnou vzdálenost od sebe? Proč se nepřitáhnou?")
 
 dialogId("rand-4-1", "font_small", "They are alien magnets, they work differently.")
-dialogStr("Es sind auszerirdische Magnete, die funktionieren anders.")
+dialogStr("To jsou mimozemské magnety. Ty fungují jinak.")
 
 dialogId("rand-4-2", "font_big", "I see.")
-dialogStr("Ach so.")
+dialogStr("Aha.")
 
 
 dialogId("rand-5-0", "font_big", "Another fuel rod.")
-dialogStr("Noch so ein Brennstab.")
+dialogStr("Další palivový článek.")
 
 dialogId("rand-5-1", "font_small", "I hope we are far enough from the last level if the reactor explodes.")
-dialogStr("Ich hoffe wir sind weit genug von der letzten Ebene antfernt, falls der Reaktor durchgeht.")
+dialogStr("Doufám, že jsme dostatečně daleko od minulé místnosti. Co kdyby ten reaktor vybuchl.")
 
 dialogId("rand-5-2", "font_big", "Perhaps we shouldn’t have moved all fuel rods into the reactor.")
-dialogStr("Vielleicht hätten wir doch nicht alle Brennstäbe in den Reaktor schieben sollen.")
+dialogStr("Možná jsme neměli zasouvat všechny ty palivové články do toho reaktoru.")
 
 dialogId("rand-5-3-0", "font_small", "Then we would still be there.")
-dialogStr("Dann wären wir aber noch dort.")
+dialogStr("To bychom tam zůstali.")
 
 dialogId("rand-5-3-1", "font_small", "Perhaps it was not a reactor.")
-dialogStr("Vielleicht war es ja doch kein Reaktor.")
+dialogStr("Možná to nebyl reaktor.")
 
 
 dialogId("rand-6-0", "font_small", "What is the lonely thing up there?")
-dialogStr("Was ist das eigentlich für ein komisches Ding da oben?")
+dialogStr("Co je ta osamělá věc tam nahoře?")
 
 dialogId("rand-6-1", "font_big", "An unidentified alien artefact. Which one do you mean exactly?")
-dialogStr("Ein unidentifiziertes außerirdisches Artefakt. Welches genau meinst du?")
+dialogStr("Neidentifikovaný mimozemský předmět. Jaký přesně myslíš?")
 
 dialogId("rand-6-2", "font_small", "The angular one which is in our way. The one spanning half the level.")
-dialogStr("Das eckige, was uns im Weg ist. Das, was über die halbe Ebene geht.")
+dialogStr("Ten hranatý, co nám překáží v cestě. Ten co překlenuje polovinu místnosti.")
 
 dialogId("rand-6-3", "font_big", "As I said, it is an unidentified alien artefact.")
-dialogStr("Wie ich schon sagte, das ist ein unidentifiziertes außerirdisches Artefakt.")
+dialogStr("Jak jsem řekl, je to neidentifikovaný mimozemský předmět.")
 
 dialogId("rand-6-4", "font_small", "Yes. But what is its purpose?")
-dialogStr("Ja, aber welchen Zweck hat es?")
+dialogStr("Ano, ale co je jeho účelem?")
 
 dialogId("rand-6-5", "font_big", "If I knew that, it wouldn’t be unidentified alien artefact anymore but only an alien artefact.")
-dialogStr("Wenn ich das wüsste, dann wäre es kein unidentifiziertes außerirdisches Artefakt mehr, sondern nur noch ein außerirdisches Artefakt.")
+dialogStr("Kdybych to věděl, nebyl by to neidentifikovaný mimozemský předmět, ale pouze mimozemský předmět.")
 
 
 -- When standing in the alienmagnet
 dialogId("s-hurt-0", "font_small", "Ow.")
-dialogStr("Aua.")
+dialogStr("Au!")
 
 dialogId("s-hurt-1", "font_small", "Ouch.")
-dialogStr("Autsch.")
+dialogStr("Auvajs.")
 
 dialogId("s-hurt-2", "font_small", "Ouchy.")
 dialogStr("Au.")
 
 dialogId("b-hurt-0", "font_big", "That tickles.")
-dialogStr("Das kitzelt.")
+dialogStr("To lechtá.")
 
 dialogId("b-hurt-1", "font_big", "That prickles.")
-dialogStr("Das kribbelt.")
+dialogStr("To štípe.")
 
 dialogId("b-hurt-2", "font_big", "That is hot.")
-dialogStr("Das ist heiß.")
+dialogStr("To topí.")
 
 -- When shooting the laser
 dialogId("shoot-0-0", "font_small", "Pay attention!")
-dialogStr("Pass doch auf!")
+dialogStr("Dávej pozor!")
 
 dialogId("shoot-0-1", "font_small", "That weapon is loaded.")
-dialogStr("Die Waffe ist ja geladen.")
+dialogStr("Ta zbraň je nabitá.")
 
 dialogId("shoot-0-2", "font_small", "Look at the hole the laser left.")
-dialogStr("Schau dir mal das Loch an, daß der Laser hinterlassen hat.")
+dialogStr("Podívej se na tu díru, co ten laser zanechal.")
 
 dialogId("shoot-0-3", "font_small", "You nearly had shot me.")
-dialogStr("Beinahe hättest du mich getroffen.")
+dialogStr("Málem jsi mě zasáhl.")
 
 dialogId("shoot-1", "font_big", "Ups. Sorry.")
-dialogStr("Ups. Entschuldigung.")
+dialogStr("Jejda. Promiň.")
 
 dialogId("shoot-2-0", "font_small", "It is no miracle that the weapon shoots if you use its trigger to move something.")
-dialogStr("Ist ja auch kein Wunder, daß die Waffe schießt, wenn du den Abzug nimmst, um etwas zu verschieben.")
+dialogStr("Není divu, že ta zbraň střílí, když odsunuješ věci její spouští.")
 
 dialogId("shoot-2-1", "font_small", "You shouldn’t use an shooting iron as crowbar replacement!")
-dialogStr("Man sollte ein Schießeisen halt nicht als Brechstangenersatz verwenden!")
+dialogStr("Neměl by jsi používat střelnou zbraň jako páčidlo.")
 
 dialogId("shoot-3-0", "font_big", "It was’nt my fault. You gave me that thing there.")
-dialogStr("Das war nicht meine Schuld. Du hast mir das Ding so hingehalten.")
+dialogStr("To není moje vina. Ty jsi mi to tak dala.")
 
 dialogId("shoot-3-1", "font_big", "I’ll try to remember.")
-dialogStr("Ich werde versuchen es mir zu merken.")
+dialogStr("Zkusím si to zapamatovat.")
 
 dialogId("shoot-4", "font_small", "The good thing is, nothing happened to me.")
-dialogStr("Gut, daß nichts passiert ist.")
+dialogStr("Dobře, naštěstí se nic nestalo.")
 
 dialogId("shoot-5", "font_big", "Why aren’t the aliens so peaceful that they don’t need weapons?")
-dialogStr("Wieso sind die Außerirdischen eigentlich nicht so friedfertig, daß sie keine Waffen brauchen?")
+dialogStr("Proč nejsou mimozemšťani tak mírumilovní, aby nepotřebovali zbraně?")
 
 dialogId("shoot-6", "font_small", "I have this question with humans.")
-dialogStr("Das frage ich mich immer bei den Menschen.")
+dialogStr("Stejnou otázku mívám u lidí.")
 
 -- Lasersound
 dialogId("laser", "", "")
