@@ -3,6 +3,6 @@ dialogId("del-v-dve", "font_big", "See? This ship had two gun decks. It must hav
 dialogStr("Siehst du? Dieses Schiff hatte zwei Kanonendecks. Es muss ein Kriegsschiff gewesen sein. Der beissende Geruch von Schiesspulver scheint noch in der Luft zu liegen...")
 
 
-dialogId("del-m-tus", "font_small", "You and your 'feelings’. Besides, we’re not supposed to be giving any hints.")
+dialogId("del-m-tus", "font_small", "You and your ‘feelings’. Besides, we’re not supposed to be giving any hints.")
 dialogStr("Du und deine \"Gefühle\". Ausserdem sollen wir keine Tips geben.")
 

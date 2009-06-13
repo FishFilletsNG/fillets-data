@@ -95,10 +95,10 @@ dialogId("jes-m-netopyr3", "font_small", "It’s just an ordinary piece of rock.
 dialogStr("Es sólamente un pedazo de roca ordinaria.")
 
 
-dialogId("jes-v-nechut0", "font_big", "I think you are going to need that 'monster’.")
+dialogId("jes-v-nechut0", "font_big", "I think you are going to need that ‘monster’.")
 dialogStr("Creo que vas a necesitar ese \"Monstruo\".")
 
 
-dialogId("jes-v-nechut1", "font_big", "I think you will have to overcome your dislike of that 'abomination’.")
+dialogId("jes-v-nechut1", "font_big", "I think you will have to overcome your dislike of that ‘abomination’.")
 dialogStr("Pienso que tendrás que sobreponerte a tu desagrado de esa \"abominación\".")
 

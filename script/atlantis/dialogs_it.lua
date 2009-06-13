@@ -32,7 +32,7 @@ dialogStr("E dopo? Beviamo tutta l'acqua che si è riversata, o che?")
 dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of our esteem of the citizens’ heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.")
 dialogStr("Possiamo rimetterlo a posto come gesto di stima nei confronti degli eroici sforzi della cittadinanza per tenere la città a galla. A ricordo della loro industriosità, accortezza e... tenacia.")
 
-dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
+dialogId("sp-m-vratit1", "font_small", "Of what? ‘Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
 dialogStr("Di che? ’Dove corri? A ordinare otto spade!' È la provvidenza ad aver tolto il tappo. Pensa se sentissi cose simili a casa tua. Ogni giorno.")
 
 dialogId("sp-m-kalet", "font_small", "And moreover: is it likely that anybody would ever come here? Only sepias will nibble it occasionally.")

@@ -7,7 +7,7 @@ dialogId("sch-v-lastura", "font_big", "It’s some kind of shell. We’ll probab
 dialogStr("Het is een soort schelpdier. We zullen het wel weer de trap op moeten duwen.")
 
 
-dialogId("sch-v-setkani", "font_big", "I can see it now: 'Shell Meets Flowerpot’. That’s almost like an iron and a sewing machine meeting on an operating table.")
+dialogId("sch-v-setkani", "font_big", "I can see it now: ‘Shell Meets Flowerpot’. That’s almost like an iron and a sewing machine meeting on an operating table.")
 dialogStr("Dat wordt dan \"Schelpdier Ontmoet Bloempot\". Dat is bijna net zo erg als een strijkijzer en een naaimachine die elkaar op een operatietafel ontmoeten.")
 
 

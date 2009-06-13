@@ -267,6 +267,6 @@ dialogId("b2-podvadis", "font_cyan", "You cheat!!!")
 dialogStr("¡¡Hiciste trampa!!")
 
 
-dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss’!")
+dialogId("b2-spatne", "font_cyan", "I have tried that - and you said ‘miss’!")
 dialogStr("¡Ya intenté eso, y tu dijiste \"Errado\"!")
 

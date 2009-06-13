@@ -14,7 +14,7 @@ dialogStr("Нет, я думаю ему уже больше сотни лет.")
 dialogId("del-v-mec", "font_big", "I have a feeling we’re going to need that sword.")
 dialogStr("У меня появилось чувство, что мы нам нужен меч.")
 
-dialogId("del-m-tus", "font_small", "You and your 'feelings’. Besides, we’re not supposed to be giving any hints.")
+dialogId("del-m-tus", "font_small", "You and your ‘feelings’. Besides, we’re not supposed to be giving any hints.")
 dialogStr("Тебе и твоим 'Чувствам'. Тем более, мы не должны давать никаких подсказок.")
 
 dialogId("del-m-jedn0", "font_small", "That was a little too simple, wasn’t it?")

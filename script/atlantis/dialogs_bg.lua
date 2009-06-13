@@ -31,7 +31,7 @@ dialogStr("И после? Ще изпием нахлулата вода или �
 dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of our esteem of the citizens’ heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.")
 dialogStr("Може да я върнем на място в знак на уважение към героичните усилия на гражданите да удържат града над водата. Като мемориал на тяхната усърдна, изкусна и... упорита натура.")
 
-dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
+dialogId("sp-m-vratit1", "font_small", "Of what? ‘Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
 dialogStr("На какво!? 'Накъде бързаш? Ще поръчвам осем меча.’ Самото провидение е отпушило тази дупка. Представи си само да слушаш такива неща у дома. Всеки ден.")
 
 dialogId("sp-m-kalet", "font_small", "And moreover: is it likely that anybody would ever come here? Only sepias will nibble it occasionally.")

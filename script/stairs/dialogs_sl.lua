@@ -5,7 +5,7 @@ dialogStr("Nekaj je spet padlo sem.")
 dialogId("sch-v-lastura", "font_big", "It’s some kind of shell. We’ll probably have to push it upstairs again.")
 dialogStr("Neke vrste školjka je. Verjetno jo bova morala spet potisniti navzgor po stopnicah.")
 
-dialogId("sch-v-setkani", "font_big", "I can see it now: 'Shell Meets Flowerpot’. That’s almost like an iron and a sewing machine meeting on an operating table.")
+dialogId("sch-v-setkani", "font_big", "I can see it now: ‘Shell Meets Flowerpot’. That’s almost like an iron and a sewing machine meeting on an operating table.")
 dialogStr("Zdaj jo lahko vidim: 'Školjka sreča Cvetlični lonec’. To je skoraj tako kot se srečata likalnik in šivalni stroj na operacijski mizi.")
 
 dialogId("sch-m-moc0", "font_small", "I’m sorry, I got a bit carried away.")

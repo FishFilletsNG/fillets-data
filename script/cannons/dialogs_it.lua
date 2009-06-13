@@ -19,7 +19,7 @@ dialogId("del-v-mec", "font_big", "I have a feeling we’re going to need that s
 dialogStr("Sento che avremo bisogno di quella spada.")
 
 
-dialogId("del-m-tus", "font_small", "You and your 'feelings’. Besides, we’re not supposed to be giving any hints.")
+dialogId("del-m-tus", "font_small", "You and your ‘feelings’. Besides, we’re not supposed to be giving any hints.")
 dialogStr("Tu e i tuoi presentimenti. Tra l'altro, noi non dovremmo dare nessun suggerimento.")
 
 

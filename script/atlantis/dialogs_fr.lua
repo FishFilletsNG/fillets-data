@@ -43,7 +43,7 @@ dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of 
 dialogStr("Nous pouvons le remettre en place, comme une marque de notre estime pour l'effort héroïque des citoyens pour empêcher la catastrophe. En mémoire de leur nature industrieuse, ingénieuse et... persévérante.")
 
 
-dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
+dialogId("sp-m-vratit1", "font_small", "Of what? ‘Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
 dialogStr("Pardon ? ’Où cours-tu ? Je dois passer commande de huit épées.’ La Providence elle-même à débouché ce trou. Imagines-tu entendre ce genre de choses à la maison. Jour après jour.")
 
 

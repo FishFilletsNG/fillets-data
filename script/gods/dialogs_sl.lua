@@ -200,7 +200,7 @@ dialogStr("Na tem mestu, ne more biti 'zgrešeno'.")
 dialogId("b2-podvadis", "font_cyan", "You cheat!!!")
 dialogStr("Ti goljufaš!!!")
 
-dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss’!")
+dialogId("b2-spatne", "font_cyan", "I have tried that - and you said ‘miss’!")
 dialogStr("To sem že poskusil - in ti si rekel 'zgrešeno'!")
 
 dialogId("b1-1", "", "")

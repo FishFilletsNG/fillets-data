@@ -43,7 +43,7 @@ dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of 
 dialogStr("We zouden hem terug kunnen stoppen als blijk van ons respect voor de heldhaftige pogingen van de burgers om de boel drijvende te houden. Als gedenkteken aan hun ijver, vindingrijkheid en... doorzettingsvermogen.")
 
 
-dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
+dialogId("sp-m-vratit1", "font_small", "Of what? ‘Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
 dialogStr("Aan wat? \"Waar ga jij zo snel naar toe? Ik moet acht zwaarden bestellen.\" De Voorzienigheid zelve heeft die stop eruit getrokken. Stel je voor dat je zulke dingen de hele dag overal moest aanhoren, dag in dag uit.")
 
 

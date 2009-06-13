@@ -4,7 +4,7 @@ dialogStr("Нещо пак е паднало.")
 dialogId("sch-v-lastura", "font_big", "It’s some kind of shell. We’ll probably have to push it upstairs again.")
 dialogStr("Това е някакъв вид охлюв. Сигурно ще се наложи да качим обратно по стълбите.")
 
-dialogId("sch-v-setkani", "font_big", "I can see it now: 'Shell Meets Flowerpot’. That’s almost like an iron and a sewing machine meeting on an operating table.")
+dialogId("sch-v-setkani", "font_big", "I can see it now: ‘Shell Meets Flowerpot’. That’s almost like an iron and a sewing machine meeting on an operating table.")
 dialogStr("Имам видение: 'Черупка среща саксия’. Почти като ютия и шевна машина срещнали се на операционната маса.")
 
 dialogId("sch-m-moc0", "font_small", "I’m sorry, I got a bit carried away.")

@@ -19,7 +19,7 @@ dialogId("del-v-mec", "font_big", "I have a feeling we’re going to need that s
 dialogStr("Jag har en känsla av att vi behöver svärdet.")
 
 
-dialogId("del-m-tus", "font_small", "You and your 'feelings’. Besides, we’re not supposed to be giving any hints.")
+dialogId("del-m-tus", "font_small", "You and your ‘feelings’. Besides, we’re not supposed to be giving any hints.")
 dialogStr("Du och dina \"känslor\". Dessutom borde vi inte ge någon hjälp.")
 
 

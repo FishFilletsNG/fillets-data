@@ -33,7 +33,7 @@ dialogStr("И потом? Потом мы выпьем всю воду, или �
 dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of our esteem of the citizens’ heroic effort to keep it afloat. As a memorial to their industrious, adroit and... persistent nature.")
 dialogStr("Мы можем вернуть это назад, на место, для элементарного уважения граждан? Героически работающих, что бы оставить это на плаву. Это будет памятник их усердию, искусству и... стойкой натуре.")
 
-dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
+dialogId("sp-m-vratit1", "font_small", "Of what? ‘Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
 dialogStr("Куда ты побежал? Мне нужно упорядочить восемь мечей? Само провидение отпустило из дупла. Только представь себе, слышишь такое дома. День за днем.") -- FIXME
 
 dialogId("sp-m-kalet", "font_small", "And moreover: is it likely that anybody would ever come here? Only sepias will nibble it occasionally.")

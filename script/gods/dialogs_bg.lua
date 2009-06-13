@@ -199,7 +199,7 @@ dialogStr("Не може да пропусна от това положение.
 dialogId("b2-podvadis", "font_cyan", "You cheat!!!")
 dialogStr("Мамиш!!!")
 
-dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss’!")
+dialogId("b2-spatne", "font_cyan", "I have tried that - and you said ‘miss’!")
 dialogStr("Опитах и ти каза „пропуск“!")
 
 dialogId("b1-1", "", "")

@@ -13,7 +13,7 @@ dialogStr("Не, мисля, че бъркаш със стотина годин�
 dialogId("del-v-mec", "font_big", "I have a feeling we’re going to need that sword.")
 dialogStr("Имам чувството, че този меч ще ни е нужен.")
 
-dialogId("del-m-tus", "font_small", "You and your 'feelings’. Besides, we’re not supposed to be giving any hints.")
+dialogId("del-m-tus", "font_small", "You and your ‘feelings’. Besides, we’re not supposed to be giving any hints.")
 dialogStr("Ти и твоите „чувства“. Освен това не би трябвало да подсказваме.")
 
 dialogId("del-m-jedn0", "font_small", "That was a little too simple, wasn’t it?")

@@ -200,7 +200,7 @@ dialogStr("Я не мог промахнуться здесь.")
 dialogId("b2-podvadis", "font_cyan", "You cheat!!!")
 dialogStr("Ты жульничаешь!!!")
 
-dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss’!")
+dialogId("b2-spatne", "font_cyan", "I have tried that - and you said ‘miss’!")
 dialogStr("Я попробовал, и ты сказал: 'мимо?!'")
 
 dialogId("b1-1", "", "")

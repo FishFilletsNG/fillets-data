@@ -199,7 +199,7 @@ dialogStr("Non può essere acqua qui!")
 dialogId("b2-podvadis", "font_cyan", "You cheat!!!")
 dialogStr("Tu imbrogli!!!")
 
-dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss’!")
+dialogId("b2-spatne", "font_cyan", "I have tried that - and you said ‘miss’!")
 dialogStr("Ho provato - e tu hai detto ’acqua'!")
 
 dialogId("b1-1", "", "")

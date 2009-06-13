@@ -19,7 +19,7 @@ dialogId("del-v-mec", "font_big", "I have a feeling we’re going to need that s
 dialogStr("Ik heb het gevoel dat we dat zwaard nodig gaan hebben.")
 
 
-dialogId("del-m-tus", "font_small", "You and your 'feelings’. Besides, we’re not supposed to be giving any hints.")
+dialogId("del-m-tus", "font_small", "You and your ‘feelings’. Besides, we’re not supposed to be giving any hints.")
 dialogStr("Jij en je gevoel ook altijd. En we hadden toch besloten geen aanwijzingen te geven.")
 
 

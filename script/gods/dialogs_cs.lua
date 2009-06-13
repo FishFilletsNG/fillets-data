@@ -267,7 +267,7 @@ dialogId("b2-podvadis", "font_cyan", "You cheat!!!")
 dialogStr("Ty podvádíš!!!")
 
 
-dialogId("b2-spatne", "font_cyan", "I have tried that - and you said 'miss’!")
+dialogId("b2-spatne", "font_cyan", "I have tried that - and you said ‘miss’!")
 dialogStr("Tohle jsem už zkoušel - a ty jsi řekl 'voda'!")
 
 

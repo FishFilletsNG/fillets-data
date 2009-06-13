@@ -71,8 +71,8 @@ dialogStr("È una normale stalagmite.")
 dialogId("jes-m-netopyr3", "font_small", "It’s just an ordinary piece of rock.")
 dialogStr("È solo un pezzo di roccia qualsiasi.")
 
-dialogId("jes-v-nechut0", "font_big", "I think you are going to need that 'monster’.")
+dialogId("jes-v-nechut0", "font_big", "I think you are going to need that ‘monster’.")
 dialogStr("Penso che avrai bisogno di quel ’mostro'.")
 
-dialogId("jes-v-nechut1", "font_big", "I think you will have to overcome your dislike of that 'abomination’.")
+dialogId("jes-v-nechut1", "font_big", "I think you will have to overcome your dislike of that ‘abomination’.")
 dialogStr("Penso che dovrai vincere la tua avversione per quell'’abominio'.")

@@ -43,7 +43,7 @@ dialogId("sp-v-vratit1", "font_big", "We can put it back in place as a token of 
 dialogStr("Můžem ho vrátit na místo jako vyjádření našeho obdivu k hrdinskému úsilí obyvatel města udržet ho nad hladinou. Jako pomník jejich důmyslu, zručnosti a ... vytrvalosti.")
 
 
-dialogId("sp-m-vratit1", "font_small", "Of what? 'Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
+dialogId("sp-m-vratit1", "font_small", "Of what? ‘Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
 dialogStr("Čeho že? 'Kam běžíš? Pro sedm mečů!’ Ten špunt podle mě vytáhla sama prozřetelnost. Představ si, že bys takové věci slýchal doma. Den co den.")
 
 
