@@ -20,8 +20,7 @@ dialogId("m-otazka2", "font_small", "And why are the stars moving?")
 dialogId("m-otazka3", "font_small", "It is rotating very quick.")
 dialogId("m-otazka4", "font_small", "I thought we are in the space.")
 
-dialogId("v-odpoved0", "font_big",
-"You can't be there, it is just another elevator.")
+dialogId("v-odpoved0", "font_big", "You can't be there, it is just another elevator.")
 dialogId("v-odpoved1", "font_big", "Because it's night now.")
 dialogId("v-odpoved2", "font_big",
 "Because the globe is rotating around its axis.")

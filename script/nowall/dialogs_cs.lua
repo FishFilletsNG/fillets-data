@@ -32,8 +32,7 @@ dialogStr("Netočí se to nějak moc rychle?")
 dialogId("m-otazka4", "font_small", "I thought we are in the space.")
 dialogStr("Já myslela, že jsme ve vesmíru.")
 
-dialogId("v-odpoved0", "font_big",
-"You can't be there, it is just another elevator.")
+dialogId("v-odpoved0", "font_big", "You can't be there, it is just another elevator.")
 dialogStr("Jak by ses tam dostala, to je jenom další výtah.")
 dialogId("v-odpoved1", "font_big", "Because it's night now.")
 dialogStr("Protože je noc.")

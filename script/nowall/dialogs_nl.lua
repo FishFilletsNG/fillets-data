@@ -36,8 +36,7 @@ dialogStr("Hij roteert heel snel.")
 dialogId("m-otazka4", "font_small", "I thought we are in the space.")
 dialogStr("Ik dacht dat we in de ruimte waren.")
 
-dialogId("v-odpoved0", "font_big",
-"You can't be there, it is just another elevator.")
+dialogId("v-odpoved0", "font_big", "You can't be there, it is just another elevator.")
 dialogStr("Dat kan niet, het is gewoon een lift.")
 
 dialogId("v-odpoved1", "font_big", "Because it's night now.")
