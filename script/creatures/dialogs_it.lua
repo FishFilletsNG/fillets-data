@@ -47,7 +47,7 @@ dialogId("kor-v-jedovate", "font_big", "Be careful, most types of coral are pois
 dialogStr("Attenta, molti coralli sono velenosi.")
 
 
-dialogId("kor-m-dusi", "font_small", "What do you think, is there such a thing as a 'coral-soul’?")
+dialogId("kor-m-dusi", "font_small", "What do you think, is there such a thing as a ‘coral-soul’?")
 dialogStr("Che ne pensi, esisterà qualcosa come \"l'anima del corallo\"?")
 
 

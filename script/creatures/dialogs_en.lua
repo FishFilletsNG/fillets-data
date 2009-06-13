@@ -23,7 +23,7 @@ dialogId("kor-v-inteligentni", "font_big", "Did you know that some types of cora
 
 dialogId("kor-v-jedovate", "font_big", "Be careful, most types of coral are poisonous.")
 
-dialogId("kor-m-dusi", "font_small", "What do you think, is there such a thing as a 'coral-soul’?")
+dialogId("kor-m-dusi", "font_small", "What do you think, is there such a thing as a ‘coral-soul’?")
 
 dialogId("kor-m-pocit", "font_small", "Do you have the feeling that those coral are watching us?")
 

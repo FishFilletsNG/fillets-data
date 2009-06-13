@@ -47,7 +47,7 @@ dialogId("kor-v-jedovate", "font_big", "Be careful, most types of coral are pois
 dialogStr("Uważaj, większość korali jest trująca.")
 
 
-dialogId("kor-m-dusi", "font_small", "What do you think, is there such a thing as a 'coral-soul’?")
+dialogId("kor-m-dusi", "font_small", "What do you think, is there such a thing as a ‘coral-soul’?")
 dialogStr("Myślisz, że korale mają duszę?")
 
 

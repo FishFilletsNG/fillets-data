@@ -34,7 +34,7 @@ dialogStr("Знаеш ли, че някои видове корали са ум�
 dialogId("kor-v-jedovate", "font_big", "Be careful, most types of coral are poisonous.")
 dialogStr("Внимавай. Повечето корали са отровни.")
 
-dialogId("kor-m-dusi", "font_small", "What do you think, is there such a thing as a 'coral-soul’?")
+dialogId("kor-m-dusi", "font_small", "What do you think, is there such a thing as a ‘coral-soul’?")
 dialogStr("Как мислиш, дали коралите имат душа?")
 
 dialogId("kor-m-pocit", "font_small", "Do you have the feeling that those coral are watching us?")
