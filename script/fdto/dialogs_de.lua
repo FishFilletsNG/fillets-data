@@ -10,7 +10,7 @@ dialogStr("Ich glaube, wir können es in Einzelteile zerlegen.")
 dialogId("drzel-m", "font_small", "But our home holds together despite UFO crashed into it.")
 dialogStr("Aber unser Haus hält zusammen, obwohl ein UFO reingestürzt ist.")
 
-dialogId("nacekala-m", "font_small", "Sorry, it isn't a good idea.")
+dialogId("nacekala-m", "font_small", "Sorry, it isn’t a good idea.")
 dialogStr("Tut mir leid, das ist keine gute Idee.")
 
 dialogId("vidis-v", "font_big", "Do you see it?")
@@ -28,7 +28,7 @@ dialogStr("FDTO - Wir sind die Besten!")
 dialogId("mrka-m", "font_small", "The seahorse winks very nice.")
 dialogStr("Das Seepferdchen zwinkert so schön.")
 
-dialogId("nemrka-v", "font_big", "No it doesn't.")
+dialogId("nemrka-v", "font_big", "No it doesn’t.")
 dialogStr("Tut es nicht!")
 
 dialogId("ted1-m", "font_small", "Look... right now!")
@@ -61,7 +61,7 @@ dialogStr("Du bist wahrscheinlich nicht so gut.")
 dialogId("kecas-v", "font_big", "Why are you drivelling?")
 dialogStr("Was faselst du da?")
 
-dialogId("cely-m", "font_small", "You aren't complete there.")
+dialogId("cely-m", "font_small", "You aren’t complete there.")
 dialogStr("Dein Bild ist unvollständig.")
 
 dialogId("proc-v", "font_big", "What are you doing whith these small balls when the antenna is here?")

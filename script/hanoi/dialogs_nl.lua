@@ -22,13 +22,13 @@ dialogStr("Waar ben je mee bezig? Je bevrijdt die reus, maar je laat mij hier ac
 dialogId("m-restartuj", "font_small", "He will be wating for my help in the next room. Restart it, right now!")
 dialogStr("Hij heeft mijn hulp bij het volgende veld nodig. Herstart de boel, nu meteen!")
 
-dialogId("v-nenifer", "font_big", "It isn't fair, my way was free. I only pushed to the steel the wrong way.")
+dialogId("v-nenifer", "font_big", "It isn’t fair, my way was free. I only pushed to the steel the wrong way.")
 dialogStr("Het is niet eerlijk. Ik kon eruit. Ik heb alleen dat staal de verkeerde kant op geduwd.")
 
-dialogId("v-restartovat", "font_big", "The small fish gets lost in the open ocean. Whithout me she won't get far away. You should restart the room immediatelly.")
+dialogId("v-restartovat", "font_big", "The small fish gets lost in the open ocean. Whithout me she won’t get far away. You should restart the room immediatelly.")
 dialogStr("De kleine vis raakt de weg kwijt op de open zee. Zonder mij komt ze niet ver. Je kunt het beste het veld onmiddelijk herstarten.")
 
-dialogId("v-orechove", "font_big", "It isn't what the doctor ordered.")
+dialogId("v-orechove", "font_big", "It isn’t what the doctor ordered.")
 dialogStr("Dat is niet wat de dokter heeft voorgeschreven.")
 
 dialogId("m-hazet", "font_small", "I should not throw the smaller piece onto the bigger one.")
@@ -49,28 +49,28 @@ dialogStr("Hoe kan de speler hier nou lol in hebben?")
 dialogId("m-tesise", "font_small", "He may look foward for next rooms.")
 dialogStr("Hij of zij kijkt misschien uit naar de volgende velden.")
 
-dialogId("v-budou", "font_big", "He doesn't know, what they are like.")
+dialogId("v-budou", "font_big", "He doesn’t know, what they are like.")
 dialogStr("Hij of zij is er benieuwd naar.")
 
 dialogId("m-vyhecoval", "font_small", "Possibly somebody psyched him up.")
 dialogStr("Misschien heeft iemand hem of haar opgejut.")
 
-dialogId("v-looser", "font_big", "Oh well, player, if you don't solve it, you are a big loser.")
+dialogId("v-looser", "font_big", "Oh well, player, if you don’t solve it, you are a big loser.")
 dialogStr("Nou ja, speler, als je het niet oplost, dan ben je een grote loser.")
 
-dialogId("m-nepomahas", "font_small", "Of course, you are not entertained, when you almost don't help me.")
+dialogId("m-nepomahas", "font_small", "Of course, you are not entertained, when you almost don’t help me.")
 dialogStr("Je wordt natuurlijk niet vermaakt als je me bijna niet helpt.")
 
 dialogId("m-trikrat", "font_small", "You said it already three times.")
 dialogStr("Dat heb je al drie keer gezegd.")
 
-dialogId("v-jineho", "font_big", "If I should say always something different then we fill player's disc up.")
+dialogId("v-jineho", "font_big", "If I should say always something different then we fill player’s disc up.")
 dialogStr("Als ik steeds iets anders moet zeggen, dan is de harde schijf van de speler zo snel vol.")
 
-dialogId("m-vicedat", "font_small", "Maybe nowadays player's disc can accommodate more data then in past.")
+dialogId("m-vicedat", "font_small", "Maybe nowadays player’s disc can accommodate more data then in past.")
 dialogStr("Misschien heeft de speler tegenwoordig meer ruimte voor data.")
 
-dialogId("v-plny", "font_big", "I think what ever size the disc is, it's always full.")
+dialogId("v-plny", "font_big", "I think what ever size the disc is, it’s always full.")
 dialogStr("Ik denk dat het niet uit maakt hoe groot de schijf is, hij is altijd vol.")
 
 dialogId("m-citovat", "font_small", "Be ashamed, cheater.")

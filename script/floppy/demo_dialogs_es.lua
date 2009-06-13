@@ -3,7 +3,7 @@ dialogId("dlg-x-poster1", "font_orange", "THE GREATEST EARTHQUAKE SINCE 1990")
 dialogStr("EL TERREMOTO MAS GRANDE DESDE 1990")
 
 
-dialogId("dlg-x-poster2", "font_orange", "when Dragon's Lair was issued, Rules for beginners, version 1.0.")
+dialogId("dlg-x-poster2", "font_orange", "when Dragon’s Lair was issued, Rules for beginners, version 1.0.")
 dialogStr("cuando Dragon's Lair fué presentado, Reglas para principiantes, versión 1.0.")
 
 
@@ -11,11 +11,11 @@ dialogId("dlg-x-poster4", "font_orange", "The world of role-playing games will s
 dialogStr("El mundo de los juegos de rol pronto cambiará para siempre.")
 
 
-dialogId("dlg-x-poster5", "font_orange", "Dragon's Lair Plus is not only a new version.")
+dialogId("dlg-x-poster5", "font_orange", "Dragon’s Lair Plus is not only a new version.")
 dialogStr("Dragon's Lair Plus no sólo es una nueva versión.")
 
 
-dialogId("dlg-x-poster6", "font_orange", "It's a new game.")
+dialogId("dlg-x-poster6", "font_orange", "It’s a new game.")
 dialogStr("Es un juego nuevo.")
 
 

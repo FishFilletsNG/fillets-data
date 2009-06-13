@@ -15,7 +15,7 @@ dialogId("zd1-m-last", "font_small", "Do you see that shell?")
 dialogStr("Vedi quella conchiglia?")
 
 
-dialogId("zd1-v-talis", "font_big", "It’s an age-old talisman for elevator builders who always said 'Build well. Build with Shell’.")
+dialogId("zd1-v-talis", "font_big", "It’s an age-old talisman for elevator builders who always said ’Build well. Build with Shell’.")
 dialogStr("È un antico talismano dei costruttori di ascensori che dicevano sempre ’Crea una meraviglia. Usa la Conchiglia'")
 
 dialogId("zd1-m-poved", "font_small", "Isn’t that shell a little bit familiar?")

@@ -30,7 +30,7 @@ dialogStr("Приближаваме създателя на ключалката
 dialogId("rand-0-1", "font_big", "Oh? Where is he?")
 dialogStr("Нима? Къде е?")
 
-dialogId("rand-0-2", "font_small", "I don't know.")
+dialogId("rand-0-2", "font_small", "I don’t know.")
 dialogStr("Не знам.")
 
 dialogId("rand-0-3", "font_big", "From what do you want to know we are getting closer than.")
@@ -77,16 +77,16 @@ dialogId("rand-2-0", "font_big", "At least the keys are not stuck to the ground.
 dialogStr("Добре поне, че ключовете не са забити в земята.")
 
 
-dialogId("rand-3-0", "font_small", "Don't you want to swim forcibly to the wall. Possibly it will break down? ")
+dialogId("rand-3-0", "font_small", "Don’t you want to swim forcibly to the wall. Possibly it will break down? ")
 dialogStr("Защо не опиташ да разбиеш стената с глава?")
 
-dialogId("rand-3-1", "font_big", "Don't you want to search for a recess and break up the wall from there?")
+dialogId("rand-3-1", "font_big", "Don’t you want to search for a recess and break up the wall from there?")
 dialogStr("Може би ако потърсиш пукнатина и опиташ да срутиш стената...")
 
 dialogId("rand-3-2", "font_small", "Maybe the player wants to change the program so this would be possible?")
 dialogStr("Може би някой от играчите ще промени програмата, така че това да стане възможно?")
 
-dialogId("rand-3-3-0", "font_big", "This wouldn't be fair.")
+dialogId("rand-3-3-0", "font_big", "This wouldn’t be fair.")
 dialogStr("Няма да е честно.")
 
 dialogId("rand-3-3-1", "font_big", "This would be boring.")
@@ -141,7 +141,7 @@ dialogId("rand-6-1", "font_small", "Good idea.")
 dialogStr("Добра идея.")
 
 
-dialogId("rand-7-0", "font_big", "Why don't we just unlock?")
+dialogId("rand-7-0", "font_big", "Why don’t we just unlock?")
 dialogStr("Защо просто не отключим?")
 
 dialogId("rand-7-1", "font_small", "OK.")

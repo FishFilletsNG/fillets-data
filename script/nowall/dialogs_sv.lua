@@ -32,9 +32,9 @@ dialogStr("Den snurrar mycket snabbt.")
 dialogId("m-otazka4", "font_small", "I thought we are in the space.")
 dialogStr("Jag tror att vi är i rymden.")
 
-dialogId("v-odpoved0", "font_big", "You can't be there, it is just another elevator.")
+dialogId("v-odpoved0", "font_big", "You can’t be there, it is just another elevator.")
 dialogStr("Du kan inte vara där, det är bara en till hiss.")
-dialogId("v-odpoved1", "font_big", "Because it's night now.")
+dialogId("v-odpoved1", "font_big", "Because it’s night now.")
 dialogStr("För att det är natt nu.")
 dialogId("v-odpoved2", "font_big",
 "Because the globe is rotating around its axis.")

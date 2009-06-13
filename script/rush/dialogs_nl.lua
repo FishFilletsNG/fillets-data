@@ -22,8 +22,8 @@ dialogStr("Juist niet. Als de speler het alleen hier oplost, dan zal ik hem of h
 dialogId("m-vysunout", "font_small", "We should get out the red car.")
 dialogStr("We zouden die rode auto hier weg moeten werken.")
 
-dialogId("v-chytra", "font_big", "Don't be clever when somebody else already is.")
+dialogId("v-chytra", "font_big", "Don’t be clever when somebody else already is.")
 dialogStr("Doe niet zo slim als iemand anders dat al is.")
 
-dialogId("v-codelas", "font_big", "What are you doing? You aren't out yet.")
+dialogId("v-codelas", "font_big", "What are you doing? You aren’t out yet.")
 dialogStr("Waar ben je mee bezig? Je bent hier nog lang niet uit.")

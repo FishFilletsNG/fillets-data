@@ -31,7 +31,7 @@ dialogId("wc-m-vlezt", "font_small", "Luckily, I needn’t climb inside.")
 dialogStr("Per fortuna, non devo arrampicarmici dentro.")
 
 
-dialogId("wc-m-hrbitov", "font_small", "I don’t feel very well here. I feel like I'm in the cemetery.")
+dialogId("wc-m-hrbitov", "font_small", "I don’t feel very well here. I feel like I’m in the cemetery.")
 dialogStr("Non mi sento tanto bene qui. Mi sembra di stare al cimitero.")
 
 

@@ -3,7 +3,7 @@ dialogId("dlg-x-poster1", "font_poster", "Occupation of the captive we are sendi
 dialogStr("Het dagelijkse beroep van een arrestant die we naar jullie toe sturen is zeegod. Behalve voor de verdwijningen van de vliegtuigen en het schepen (de zeeslag zaak) is hij ook verantwoordelijk voor andere misdaden, onder andere het verplaatsen van de continenten (codenaam \"Ren, continentje, ren\") en de meteor in Tunguzka (codenaam duveltje uit een doosje).")
 
 
-dialogId("dlg-x-poster2", "font_poster", "We managed to intervene just in the nick of time: we have found a brand new unwrapped box with a table game called STAR WARS in the captive's house.")
+dialogId("dlg-x-poster2", "font_poster", "We managed to intervene just in the nick of time: we have found a brand new unwrapped box with a table game called STAR WARS in the captive’s house.")
 dialogStr("Het is ons op het nippertje gelukt om in te grijpen: we hebben in het huis van de verdachte een gloednieuwe, zojuist uitgepakte doos gevonden met een bordspel genaamd STAR WARS.")
 
 

@@ -43,13 +43,13 @@ dialogId("v-nedame0", "font_big",
         "How can it be yours, if you are not indian?")
 dialogStr("Wie kann das dir gehören, wenn du kein Indianer bist?")
 
-dialogId("m-nedame1", "font_small", "You can't be indian because you are not red?")
+dialogId("m-nedame1", "font_small", "You can’t be indian because you are not red?")
 dialogStr("Du kannst kein Indianer sein, du bist nicht rot.")
 
-dialogId("v-nedame1", "font_big", "I can't demur anything.")
+dialogId("v-nedame1", "font_big", "I can’t demur anything.")
 dialogStr("Ich streite nichts ab.")
 
-dialogId("v-neber", "font_big", "Player, if you are an indian, don't perceive as an discrimination please.")
+dialogId("v-neber", "font_big", "Player, if you are an indian, don’t perceive as an discrimination please.")
 dialogStr("Spieler, wenn du ein Indianer bist, betrachte das bitte nicht als Diskriminierung.")
 
 dialogId("m-sluchatko", "font_small", "It may be magic receiver.")

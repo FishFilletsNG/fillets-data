@@ -39,7 +39,7 @@ dialogId("tru-v-nejspis", "font_big", "Well, all right. PROBABLY this is not wha
 dialogStr("Tja, OK. TROLIGEN är det här inte vad vi söker.")
 
 
-dialogId("tru-m-nejistota", "font_small", "That's better. There remains a bit of uncertainty.")
+dialogId("tru-m-nejistota", "font_small", "That’s better. There remains a bit of uncertainty.")
 dialogStr("Bättre. Det finns fortfarande en viss osäkerhet.")
 
 

@@ -28,7 +28,7 @@ dialogStr("Не, грешиш. Тази каюта е сто четирдесе�
 dialogId("ka2-v-papousek", "font_big", "Look at that parrot!!!")
 dialogStr("Погледни този папагал!!!")
 
-dialogId("ka2-m-kostra", "font_small", "So what? It's a normal skeleton.")
+dialogId("ka2-m-kostra", "font_small", "So what? It’s a normal skeleton.")
 dialogStr("И какво? Нормален скелет.")
 
 dialogId("ka2-m-posledni", "font_small", "Can you see it? This room is almost the last in the row. Could this really be that treasure?")

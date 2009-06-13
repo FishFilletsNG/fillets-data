@@ -24,15 +24,15 @@ dialogId("m-restartuj", "font_small", "He will be wating for my help in the next
 dialogStr(
 "V další místnosti bude určitě zase čekat na moji záchranu. Restartuj to. Hned teď!")
 
-dialogId("v-nenifer", "font_big", "It isn't fair, my way was free. I only pushed to the steel the wrong way.")
+dialogId("v-nenifer", "font_big", "It isn’t fair, my way was free. I only pushed to the steel the wrong way.")
 dialogStr(
 "Tohle není fér, měl jsem volnou cestu. Jenom jsem nešikovně strčil do té oceli.")
 
-dialogId("v-restartovat", "font_big", "The small fish gets lost in the open ocean. Whithout me she won't get far away. You should restart the room immediatelly.")
+dialogId("v-restartovat", "font_big", "The small fish gets lost in the open ocean. Whithout me she won’t get far away. You should restart the room immediatelly.")
 dialogStr(
 "Ta malá rybka se v širém moři ztratí. Beze mne se daleko nedostane. Měl bys okamžitě restartovat místnost.")
 
-dialogId("v-orechove", "font_big", "It isn't what the doctor ordered.")
+dialogId("v-orechove", "font_big", "It isn’t what the doctor ordered.")
 dialogStr("To není to pravé ořechové.")
 
 dialogId("m-hazet", "font_small", "I should not throw the smaller piece onto the bigger one.")
@@ -55,28 +55,28 @@ dialogStr("Jak to toho hráče může jestě bavit?")
 dialogId("m-tesise", "font_small", "He may look foward for next rooms.")
 dialogStr("Asi se těší na další místnosti.")
 
-dialogId("v-budou", "font_big", "He doesn't know, what they are like.")
+dialogId("v-budou", "font_big", "He doesn’t know, what they are like.")
 dialogStr("To ještě neví jaké budou.")
 
 dialogId("m-vyhecoval", "font_small", "Possibly somebody psyched him up.")
 dialogStr("Třeba ho někdo vyhecoval.")
 
-dialogId("v-looser", "font_big", "Oh well, player, if you don't solve it, you are a big loser.")
+dialogId("v-looser", "font_big", "Oh well, player, if you don’t solve it, you are a big loser.")
 dialogStr("Jo hráči, jestli to nedáš, tak seš fakt velkej loser.")
 
-dialogId("m-nepomahas", "font_small", "Of course, you are not entertained, when you almost don't help me.")
+dialogId("m-nepomahas", "font_small", "Of course, you are not entertained, when you almost don’t help me.")
 dialogStr("Samozřejme, že tě to nebaví, když mi skoro nepomáháš.")
 
 dialogId("m-trikrat", "font_small", "You said it already three times.")
 dialogStr("To už jsi říkal třikrát.")
 
-dialogId("v-jineho", "font_big", "If I should say always something different then we fill player's disc up.")
+dialogId("v-jineho", "font_big", "If I should say always something different then we fill player’s disc up.")
 dialogStr("Kdybych měl říkat pořád něco jiného, tak hráčovi ucpem disk")
 
-dialogId("m-vicedat", "font_small", "Maybe nowadays player's disc can accommodate more data then in past.")
+dialogId("m-vicedat", "font_small", "Maybe nowadays player’s disc can accommodate more data then in past.")
 dialogStr("Třeba už se na disk vejde mnohem více dat než za starých časů")
 
-dialogId("v-plny", "font_big", "I think what ever size the disc is, it's always full.")
+dialogId("v-plny", "font_big", "I think what ever size the disc is, it’s always full.")
 dialogStr("Já myslím, že ať je disk jakkoli velký, je pořád stejně plný")
 
 dialogId("m-citovat", "font_small", "Be ashamed, cheater.")

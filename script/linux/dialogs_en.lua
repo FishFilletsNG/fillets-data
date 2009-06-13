@@ -13,26 +13,26 @@ dialogId("m-radi", "font_small", "I think we should be happy if we manage to get
 dialogId("v-radeji", "font_big", "But if we manage both we should be more happy.")
 
 dialogId("m-nemyslis", "font_small", "Do you think that one linuxer out is enough?")
-dialogId("v-forkovat", "font_big", "No I don't. The remaining could fork himself.")
+dialogId("v-forkovat", "font_big", "No I don’t. The remaining could fork himself.")
 
 
 dialogId("m-ukolem", "font_small", "Our goal is to reconcile the linuxers.")
 dialogId("v-alespon", "font_big", "or at least to put them away.")
 
 
-dialogId("m-vykaslat", "font_small", "In my opinion it would be better to give up on the linuxers. Anyway they weren't in the work description.")
-dialogId("v-nabourali", "font_big", "But they hacked this game and we can't win while they will be there.")
+dialogId("m-vykaslat", "font_small", "In my opinion it would be better to give up on the linuxers. Anyway they weren’t in the work description.")
+dialogId("v-nabourali", "font_big", "But they hacked this game and we can’t win while they will be there.")
 
 
 dialogId("v-snazit", "font_big", "Wow, you had to try hard to put only one linuxer away. You got over the steel construction.")
-dialogId("m-nestaci", "font_small", "But it isn't enough to win.")
+dialogId("m-nestaci", "font_small", "But it isn’t enough to win.")
 
 
 dialogId("v-vyrobil", "font_big", "I would like to tell the player to not take this room seriously. After all a linuxer made it.")
 dialogId("m-sileny", "font_small", "He was probably mad.")
 
-dialogId("v-osobne", "font_big", "Player, if you are a linuxer don't take the madness personally.")
-dialogId("m-ostatni", "font_small", "We aren't talking about you, we are talking about the others.")
+dialogId("v-osobne", "font_big", "Player, if you are a linuxer don’t take the madness personally.")
+dialogId("m-ostatni", "font_small", "We aren’t talking about you, we are talking about the others.")
 
 
 
@@ -61,12 +61,12 @@ dialogId("2-zapomel", "font_linuxer2", "Sorry, I forgot it. So Arch Linux, Debia
 dialogId("1-podruhe", "font_linuxer1", "Why did you say Debian twice?")
 
 dialogId("2-naprogramovana", "font_linuxer2", "This game was programmed on Debian.")
-dialogId("1-ubuntu", "font_linuxer1", "Why wasn't it done on Ubuntu?")
+dialogId("1-ubuntu", "font_linuxer1", "Why wasn’t it done on Ubuntu?")
 dialogId("2-vykradacka", "font_linuxer2", "Ubuntu is only a bad copy of Debian.")
 
 dialogId("1-zkousel", "font_linuxer1", "Did you try Ubuntu?")
 dialogId("2-root", "font_linuxer2", "No, but it sufficient for me what I heard. Can you log in there as the root?")
-dialogId("1-nepotrebuje", "font_linuxer1", "Ubuntu doesn't need antiquities as the root user is.")
+dialogId("1-nepotrebuje", "font_linuxer1", "Ubuntu doesn’t need antiquities as the root user is.")
 dialogId("2-postavene", "font_linuxer2", "But it is based on them.")
 dialogId("1-rozhrani", "font_linuxer1", "An interface between user and Unix exists in every distribution.")
 
@@ -81,7 +81,7 @@ dialogId("2-C", "font_linuxer2", "When did C get logo with snakes?")
 dialogId("1-prekonane", "font_linuxer1", "The C is outdated a long time ago. Now there is C++ and Java.")
 dialogId("2-pomala", "font_linuxer2", "Java is interpreted programming language so it is very slow. Your Python is the same case.")
 dialogId("1-pohodli", "font_linuxer1", "I am not interested about speed but the programming comfort.")
-dialogId("2-prave", "font_linuxer2", "Yes, you aren't.")
+dialogId("2-prave", "font_linuxer2", "Yes, you aren’t.")
 
 
 dialogId("1-wilber", "font_linuxer1", "Look, Wilber!")

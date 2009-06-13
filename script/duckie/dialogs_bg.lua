@@ -19,7 +19,7 @@ dialogStr("Опитай да извадиш онзи чеп!")
 dialogId("odp-v-vtip", "font_big", "Now, this was a joke. Heh, heh.")
 dialogStr("Това се казва шега. Ха, ха.")
 
-dialogId("odp-m-predmet", "font_small", "And there isn't even a funny animated object here.")
+dialogId("odp-m-predmet", "font_small", "And there isn’t even a funny animated object here.")
 dialogStr("Вътре даже няма мърдаща фигурка.")
 
 dialogId("odp-v-pozadi", "font_big", "But a beautifully wavy background.")

@@ -6,7 +6,7 @@ dialogId("rozkladaci-v", "font_big", "I think we can take it to pieces.")
 
 dialogId("drzel-m", "font_small", "But our home holds together despite UFO crashed into it.")
 
-dialogId("nacekala-m", "font_small", "Sorry, it isn't a good idea.")
+dialogId("nacekala-m", "font_small", "Sorry, it isn’t a good idea.")
 
 dialogId("vidis-v", "font_big", "Do you see it?")
 
@@ -18,7 +18,7 @@ dialogId("nejlepsi-b", "font_white", "FDTO - We are the best!")
 
 dialogId("mrka-m", "font_small", "The seahorse winks very nice.")
 
-dialogId("nemrka-v", "font_big", "No it doesn't.")
+dialogId("nemrka-v", "font_big", "No it doesn’t.")
 
 dialogId("ted1-m", "font_small", "Look... right now!")
 
@@ -40,7 +40,7 @@ dialogId("mene-m", "font_small", "You may be less able.")
 
 dialogId("kecas-v", "font_big", "Why are you drivelling?")
 
-dialogId("cely-m", "font_small", "You aren't complete there.")
+dialogId("cely-m", "font_small", "You aren’t complete there.")
 
 dialogId("proc-v", "font_big", "What are you doing whith these small balls when the antenna is here?")
 

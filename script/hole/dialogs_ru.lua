@@ -37,13 +37,13 @@ dialogStr("Извини, нам это очень надо.")
 dialogId("v-nedame0", "font_big", "How can it be yours, if you are not indian?")
 dialogStr("Как это может быть вашим, если вы не индийцы?")
 
-dialogId("m-nedame1", "font_small", "You can't be indian because you are not red?")
+dialogId("m-nedame1", "font_small", "You can’t be indian because you are not red?")
 dialogStr("Вы не можете быть индийцами, потому что вы не красные?")
 
-dialogId("v-nedame1", "font_big", "I can't demur anything.")
+dialogId("v-nedame1", "font_big", "I can’t demur anything.")
 dialogStr("Я не возражаю.")
 
-dialogId("v-neber", "font_big", "Player, if you are an indian, don't perceive as an discrimination please.")
+dialogId("v-neber", "font_big", "Player, if you are an indian, don’t perceive as an discrimination please.")
 dialogStr("Игрок, если ты индиец, не воспринимай, пожалуйста, это как дискриминацию.")
 
 dialogId("m-sluchatko", "font_small", "It may be magic receiver.")

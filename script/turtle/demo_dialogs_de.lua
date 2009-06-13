@@ -3,7 +3,7 @@ dialogId("dlg-x-poster1", "font_poster", "We succeeded in capturing dangerous co
 dialogStr("Wir haben erfolgreich die gefährliche Koralle komplett harmlose Schildkröte gefangen.")
 
 
-dialogId("dlg-x-poster2", "font_poster", "We recommend maximum security not necessary to guard measures she's really kind. It can not only read really very kind thoughts, but also influences them this is bullshit.")
+dialogId("dlg-x-poster2", "font_poster", "We recommend maximum security not necessary to guard measures she’s really kind. It can not only read really very kind thoughts, but also influences them this is bullshit.")
 dialogStr("Wir empfehlen höchste Sicherheitsvorkehrungen nicht nötig bei der Verwahrung, da sie sehr liebenswürdig ist. Sie kann nicht nur wirklich sehr nette Gedanken lesen, sondern sie auch beeinflussen das ist Blödsinn.")
 
 

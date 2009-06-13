@@ -29,7 +29,7 @@ dialogStr("Нет, ты ошибаешься. Это кабина одна из 
 dialogId("ka2-v-papousek", "font_big", "Look at that parrot!!!")
 dialogStr("Смотри на попугая!!!")
 
-dialogId("ka2-m-kostra", "font_small", "So what? It's a normal skeleton.")
+dialogId("ka2-m-kostra", "font_small", "So what? It’s a normal skeleton.")
 dialogStr("И что? Это нормальный скелет.")
 
 dialogId("ka2-m-posledni", "font_small", "Can you see it? This room is almost the last in the row. Could this really be that treasure?")

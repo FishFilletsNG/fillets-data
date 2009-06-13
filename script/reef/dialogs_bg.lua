@@ -46,6 +46,6 @@ dialogStr("Да, коралите са малки. Но там може да и�
 dialogId("uts-m-zelvy", "font_small", "Coral turtles, for example.")
 dialogStr("Коралови костенурки, например.")
 
-dialogId("uts-m-batyskaf", "font_small", "And moreover I have a suspicion that there's a microscope in a bathyscaph.")
+dialogId("uts-m-batyskaf", "font_small", "And moreover I have a suspicion that there’s a microscope in a bathyscaph.")
 dialogStr("Освен това, подозирам, че в батискафа има микроскоп.")
 

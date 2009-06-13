@@ -22,8 +22,8 @@ dialogStr("Im Gegenteil! Wenn der Spieler es nur hier löst, werde ich ihn heiml
 dialogId("m-vysunout", "font_small", "We should get out the red car.")
 dialogStr("Wir sollten das rote Auto herausbekommen.")
 
-dialogId("v-chytra", "font_big", "Don't be clever when somebody else already is.")
+dialogId("v-chytra", "font_big", "Don’t be clever when somebody else already is.")
 dialogStr("Tu nicht so schlau, wenn die anderen es schon sind.")
 
-dialogId("v-codelas", "font_big", "What are you doing? You aren't out yet.")
+dialogId("v-codelas", "font_big", "What are you doing? You aren’t out yet.")
 dialogStr("Was tust du? Du bist noch nicht draussen.")

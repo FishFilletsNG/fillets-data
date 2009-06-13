@@ -31,4 +31,4 @@ dialogId("uts-m-zivocich", "font_small", "Yes, they are small. But there can be 
 
 dialogId("uts-m-zelvy", "font_small", "Coral turtles, for example.")
 
-dialogId("uts-m-batyskaf", "font_small", "And moreover I have a suspicion that there's a microscope in a bathyscaph.")
+dialogId("uts-m-batyskaf", "font_small", "And moreover I have a suspicion that there’s a microscope in a bathyscaph.")

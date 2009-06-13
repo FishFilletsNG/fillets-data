@@ -22,8 +22,8 @@ dialogStr("От друга страна, успелите да го решат �
 dialogId("m-vysunout", "font_small", "We should get out the red car.")
 dialogStr("Трябва да измъкнем червената кола.")
 
-dialogId("v-chytra", "font_big", "Don't be clever when somebody else already is.")
+dialogId("v-chytra", "font_big", "Don’t be clever when somebody else already is.")
 dialogStr("Не се прави на умница.")
 
-dialogId("v-codelas", "font_big", "What are you doing? You aren't out yet.")
+dialogId("v-codelas", "font_big", "What are you doing? You aren’t out yet.")
 dialogStr("v-codelas", "font_big", "Какво правиш? Още не сме се измъкнали.")

@@ -24,7 +24,7 @@ dialogStr("Но ако получим и двата ще сме още по-до
 
 dialogId("m-nemyslis", "font_small", "Do you think that one linuxer out is enough?")
 dialogStr("Дали ще е достатъчно да отстраним само единия линуксаджия?")
-dialogId("v-forkovat", "font_big", "No I don't. The remaining could fork himself.")
+dialogId("v-forkovat", "font_big", "No I don’t. The remaining could fork himself.")
 dialogStr("Не мисля. Другият може да се клонира с fork().")
 
 
@@ -34,15 +34,15 @@ dialogId("v-alespon", "font_big", "or at least to put them away.")
 dialogStr("или поне да ги разкараме.")
 
 
-dialogId("m-vykaslat", "font_small", "In my opinion it would be better to give up on the linuxers. Anyway they weren't in the work description.")
+dialogId("m-vykaslat", "font_small", "In my opinion it would be better to give up on the linuxers. Anyway they weren’t in the work description.")
 dialogStr("Според мен ще е по-добре да зарежем линуксаджиите. И без това ги няма упоменати в мисията.")
-dialogId("v-nabourali", "font_big", "But they hacked this game and we can't win while they will be there.")
+dialogId("v-nabourali", "font_big", "But they hacked this game and we can’t win while they will be there.")
 dialogStr("Да, ама те са хакнали играта и не можем да преминем докато са тук.")
 
 
 dialogId("v-snazit", "font_big", "Wow, you had to try hard to put only one linuxer away. You got over the steel construction.")
 dialogStr("Брех! Трудно е да разкараш дори и един линуксаджия. Добре, че премина стоманената конструкция.")
-dialogId("m-nestaci", "font_small", "But it isn't enough to win.")
+dialogId("m-nestaci", "font_small", "But it isn’t enough to win.")
 dialogStr("Обаче не е достатъчно.")
 
 
@@ -51,9 +51,9 @@ dialogStr("Бих посъветвал играча да не приема та�
 dialogId("m-sileny", "font_small", "He was probably mad.")
 dialogStr("Сигурно е бил луд.")
 
-dialogId("v-osobne", "font_big", "Player, if you are a linuxer don't take the madness personally.")
+dialogId("v-osobne", "font_big", "Player, if you are a linuxer don’t take the madness personally.")
 dialogStr("Играчо, ако си линуксаджия не приемай това като лична обида.")
-dialogId("m-ostatni", "font_small", "We aren't talking about you, we are talking about the others.")
+dialogId("m-ostatni", "font_small", "We aren’t talking about you, we are talking about the others.")
 dialogStr("Ние не говорим за теб, а за другите.")
 
 
@@ -101,7 +101,7 @@ dialogStr("Защо споменаваш Debian два пъти?")
 
 dialogId("2-naprogramovana", "font_linuxer2", "This game was programmed on Debian.")
 dialogStr("Тази игра е написана под Debian.")
-dialogId("1-ubuntu", "font_linuxer1", "Why wasn't it done on Ubuntu?")
+dialogId("1-ubuntu", "font_linuxer1", "Why wasn’t it done on Ubuntu?")
 dialogStr("Защо не под Ubuntu?")
 dialogId("2-vykradacka", "font_linuxer2", "Ubuntu is only a bad copy of Debian.")
 dialogStr("Ubuntu е просто лошо копие на Debian.")
@@ -110,7 +110,7 @@ dialogId("1-zkousel", "font_linuxer1", "Did you try Ubuntu?")
 dialogStr("Опитвал ли си Ubuntu?")
 dialogId("2-root", "font_linuxer2", "No, but it sufficient for me what I heard. Can you log in there as the root?")
 dialogStr("Не, стига ми каквото съм чувал. Можеш ли да влезеш като администратор?")
-dialogId("1-nepotrebuje", "font_linuxer1", "Ubuntu doesn't need antiquities as the root user is.")
+dialogId("1-nepotrebuje", "font_linuxer1", "Ubuntu doesn’t need antiquities as the root user is.")
 dialogStr("Ubuntu няма нужда от антики като администраторския достъп.")
 dialogId("2-postavene", "font_linuxer2", "But it is based on them.")
 dialogStr("Но е базирано на антиките?.")
@@ -137,7 +137,7 @@ dialogId("2-pomala", "font_linuxer2", "Java is interpreted programming language 
 dialogStr("Java се интерпретира, следователно е много бавен. Както и Python.")
 dialogId("1-pohodli", "font_linuxer1", "I am not interested about speed but the programming comfort.")
 dialogStr("Не ме интересува скоростта, а удобството при програмиране.")
-dialogId("2-prave", "font_linuxer2", "Yes, you aren't.")
+dialogId("2-prave", "font_linuxer2", "Yes, you aren’t.")
 dialogStr("Очевидно.")
 
 

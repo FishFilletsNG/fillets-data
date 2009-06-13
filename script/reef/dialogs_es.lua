@@ -63,6 +63,6 @@ dialogId("uts-m-zelvy", "font_small", "Coral turtles, for example.")
 dialogStr("Tortugas de coral, por ejemplo.")
 
 
-dialogId("uts-m-batyskaf", "font_small", "And moreover I have a suspicion that there's a microscope in a bathyscaph.")
+dialogId("uts-m-batyskaf", "font_small", "And moreover I have a suspicion that there’s a microscope in a bathyscaph.")
 dialogStr("Y además sospecho que hay un microscopio en un batiscafo.")
 

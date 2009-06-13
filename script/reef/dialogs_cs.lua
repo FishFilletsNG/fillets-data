@@ -63,6 +63,6 @@ dialogId("uts-m-zelvy", "font_small", "Coral turtles, for example.")
 dialogStr("Třeba korálové želvy.")
 
 
-dialogId("uts-m-batyskaf", "font_small", "And moreover I have a suspicion that there's a microscope in a bathyscaph.")
+dialogId("uts-m-batyskaf", "font_small", "And moreover I have a suspicion that there’s a microscope in a bathyscaph.")
 dialogStr("A navíc mi něco říká, že mikroskop je v jednom batyskafu.")
 

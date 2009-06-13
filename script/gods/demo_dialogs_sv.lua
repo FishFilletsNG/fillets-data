@@ -3,7 +3,7 @@ dialogId("dlg-x-poster1", "font_poster", "Occupation of the captive we are sendi
 dialogStr("Yrket som fången vi skickar till er har är havsgud. Förutom försvunna flygplan och skepp (så kallade havsslagsfall) är han ansvarig för andra brott inklusive, flyttande av kontinenter (kodnamn Spring, kontinent, spring) och meteoriten i Tunguzka (kodnamn Jumping Jack) är några av dem.")
 
 
-dialogId("dlg-x-poster2", "font_poster", "We managed to intervene just in the nick of time: we have found a brand new unwrapped box with a table game called STAR WARS in the captive's house.")
+dialogId("dlg-x-poster2", "font_poster", "We managed to intervene just in the nick of time: we have found a brand new unwrapped box with a table game called STAR WARS in the captive’s house.")
 dialogStr("Vi lyckades avstyra i sista stund: vi har hittat en helt ny ouppackad låda med ett spel kallat STAR WARS i den fängslades hus")
 
 

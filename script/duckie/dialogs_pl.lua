@@ -27,7 +27,7 @@ dialogId("odp-v-vtip", "font_big", "Now, this was a joke. Heh, heh.")
 dialogStr("Ha ha, ale śmieszne.")
 
 
-dialogId("odp-m-predmet", "font_small", "And there isn't even a funny animated object here.")
+dialogId("odp-m-predmet", "font_small", "And there isn’t even a funny animated object here.")
 dialogStr("U, nie ma tu żadnych animowanych przedmiotów.")
 
 

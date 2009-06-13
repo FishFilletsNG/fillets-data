@@ -15,7 +15,7 @@ dialogId("dr-v-mozna", "font_big", "Maybe they sank her on purpose. Warriors wou
 dialogStr("Vielleicht wurde sie auch mit Absicht versenkt. Kämpfer würden ihrem Führer immer auf dem Weg nach Walhalla folgen.")
 
 
-dialogId("dr-m-hruza", "font_small", "That's awful. They look like they're still alive.")
+dialogId("dr-m-hruza", "font_small", "That’s awful. They look like they’re still alive.")
 dialogStr("Das ist schrecklich. Die sehen aus, als wären sie immer noch lebendig.")
 
 

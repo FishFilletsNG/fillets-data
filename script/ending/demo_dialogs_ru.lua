@@ -2,7 +2,7 @@
 dialogId("dlg-x-poster1", "font_poster", "Good morning, fish!")
 dialogStr("Доброе утро, рыбы!")
 
-dialogId("dlg-x-poster2", "font_poster", "Again, you didn't disappoint us. General Committee decided to decorate you with the highest orders. They are made of milk chocolate. Due to confidentiality, eat them immediately.")
+dialogId("dlg-x-poster2", "font_poster", "Again, you didn’t disappoint us. General Committee decided to decorate you with the highest orders. They are made of milk chocolate. Due to confidentiality, eat them immediately.")
 dialogStr("Снова вы не разочаровали меня. Главная Комиссия решила наградить вас большим орденом. Это будет молочная шоколадка. Это должно быть секретно, съешьте её немедленно.")
 
 dialogId("dlg-x-boss", "font_poster", "BOSS")

@@ -39,7 +39,7 @@ dialogId("ka2-v-papousek", "font_big", "Look at that parrot!!!")
 dialogStr("Titta på den papegojan!!!")
 
 
-dialogId("ka2-m-kostra", "font_small", "So what? It's a normal skeleton.")
+dialogId("ka2-m-kostra", "font_small", "So what? It’s a normal skeleton.")
 dialogStr("Och? Det är ett normalt skelett.")
 
 

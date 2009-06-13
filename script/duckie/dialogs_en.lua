@@ -13,7 +13,7 @@ dialogId("odp-m-kohout", "font_small", "Try to open that tap!")
 
 dialogId("odp-v-vtip", "font_big", "Now, this was a joke. Heh, heh.")
 
-dialogId("odp-m-predmet", "font_small", "And there isn't even a funny animated object here.")
+dialogId("odp-m-predmet", "font_small", "And there isn’t even a funny animated object here.")
 
 dialogId("odp-v-pozadi", "font_big", "But a beautifully wavy background.")
 

@@ -15,7 +15,7 @@ dialogId("wc-v-hygiena", "font_big", "The flushing toilet is more hygienic and w
 
 dialogId("wc-m-vlezt", "font_small", "Luckily, I needn’t climb inside.")
 
-dialogId("wc-m-hrbitov", "font_small", "I don’t feel very well here. I feel like I'm in the cemetery.")
+dialogId("wc-m-hrbitov", "font_small", "I don’t feel very well here. I feel like I’m in the cemetery.")
 
 dialogId("wc-v-coze", "font_big", "What do you mean?")
 

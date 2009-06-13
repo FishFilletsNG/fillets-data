@@ -19,7 +19,7 @@ dialogId("tru-m-zpochybnit", "font_small", "But I have casted doubts on it. This
 
 dialogId("tru-v-nejspis", "font_big", "Well, all right. PROBABLY this is not what we are looking for.")
 
-dialogId("tru-m-nejistota", "font_small", "That's better. There remains a bit of uncertainty.")
+dialogId("tru-m-nejistota", "font_small", "That’s better. There remains a bit of uncertainty.")
 
 dialogId("tru-m-truhla0", "font_small", "Couldn’t we close that chest?")
 

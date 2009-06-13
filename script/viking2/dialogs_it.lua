@@ -26,13 +26,13 @@ dialogStr("Ho sempre pensato di essere l'imbarcazione da pesca di Eric l'Imprepa
 dialogId("dr-m-podivej", "font_small", "Look at that poor dog.")
 dialogStr("Guarda quel povero cane.")
 
-dialogId("dr-m-nedycha", "font_small", "Doesn't he seem to be breathing kind of strangely?")
+dialogId("dr-m-nedycha", "font_small", "Doesn’t he seem to be breathing kind of strangely?")
 dialogStr("Non sembra che respiri male?")
 
-dialogId("dr-v-napsa", "font_big", "For a dog under water I think he's doing rather well.")
+dialogId("dr-v-napsa", "font_big", "For a dog under water I think he’s doing rather well.")
 dialogStr("Per un cane sott'acqua, penso che se la cavi piuttosto bene.")
 
-dialogId("dr-v-nato", "font_big", "He doesn't look all that bad considering that he's been here for a few centuries.")
+dialogId("dr-v-nato", "font_big", "He doesn’t look all that bad considering that he’s been here for a few centuries.")
 dialogStr("Non sembra tanto male considerando che è rimastoqui per alcuni secoli.")
 
 dialogId("dr-8-ztichni1", "font_viking8", "Shut up!")

@@ -10,7 +10,7 @@ dialogStr("Мисля, че можем да я разглобим на част�
 dialogId("drzel-m", "font_small", "But our home holds together despite UFO crashed into it.")
 dialogStr("Но къщата ни си е още цяла, нищо че в нея се разби НЛО.")
 
-dialogId("nacekala-m", "font_small", "Sorry, it isn't a good idea.")
+dialogId("nacekala-m", "font_small", "Sorry, it isn’t a good idea.")
 dialogStr("Съжалявам, идеята не е добра.")
 
 dialogId("vidis-v", "font_big", "Do you see it?")
@@ -28,7 +28,7 @@ dialogStr("ООРД - ние сме върхът!")
 dialogId("mrka-m", "font_small", "The seahorse winks very nice.")
 dialogStr("Морското конче намига много приятно.")
 
-dialogId("nemrka-v", "font_big", "No it doesn't.")
+dialogId("nemrka-v", "font_big", "No it doesn’t.")
 dialogStr("Не, не е приятно.")
 
 dialogId("ted1-m", "font_small", "Look... right now!")
@@ -61,7 +61,7 @@ dialogStr("Ти май не си чак толкова способен.")
 dialogId("kecas-v", "font_big", "Why are you drivelling?")
 dialogStr("Защо ме изкарваш идиот?")
 
-dialogId("cely-m", "font_small", "You aren't complete there.")
+dialogId("cely-m", "font_small", "You aren’t complete there.")
 dialogStr("Не сме приключили с това ниво.")
 
 dialogId("proc-v", "font_big", "What are you doing whith these small balls when the antenna is here?")

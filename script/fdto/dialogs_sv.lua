@@ -10,7 +10,7 @@ dialogStr("Jag tror att vi kan plocka isär det")
 dialogId("drzel-m", "font_small", "But our home holds together despite UFO crashed into it.")
 dialogStr("Men vårt hus håller ju ihop trotts att ett UFO har kraschat där.")
 
-dialogId("nacekala-m", "font_small", "Sorry, it isn't a good idea.")
+dialogId("nacekala-m", "font_small", "Sorry, it isn’t a good idea.")
 dialogStr("Tyvärr, det är ingen bra idé.")
 
 dialogId("vidis-v", "font_big", "Do you see it?")
@@ -28,7 +28,7 @@ dialogStr("FDTO - Vi är bäst!")
 dialogId("mrka-m", "font_small", "The seahorse winks very nice.")
 dialogStr("Hästen vinkar trevligt.")
 
-dialogId("nemrka-v", "font_big", "No it doesn't.")
+dialogId("nemrka-v", "font_big", "No it doesn’t.")
 dialogStr("Nej det gör han inte.")
 
 dialogId("ted1-m", "font_small", "Look... right now!")
@@ -61,7 +61,7 @@ dialogStr("Du kanske är mindre lämpad.")
 dialogId("kecas-v", "font_big", "Why are you drivelling?")
 dialogStr("Varför pladdrar du?")
 
-dialogId("cely-m", "font_small", "You aren't complete there.")
+dialogId("cely-m", "font_small", "You aren’t complete there.")
 dialogStr("Du är inte här helt och hållet.")
 
 dialogId("proc-v", "font_big", "What are you doing whith these small balls when the antenna is here?")

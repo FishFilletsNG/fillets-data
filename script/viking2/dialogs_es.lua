@@ -35,15 +35,15 @@ dialogId("dr-m-podivej", "font_small", "Look at that poor dog.")
 dialogStr("Mira ese pobre perro.")
 
 
-dialogId("dr-m-nedycha", "font_small", "Doesn't he seem to be breathing kind of strangely?")
+dialogId("dr-m-nedycha", "font_small", "Doesn’t he seem to be breathing kind of strangely?")
 dialogStr("¿No parece estar respirando en forma extraña?")
 
 
-dialogId("dr-v-napsa", "font_big", "For a dog under water I think he's doing rather well.")
+dialogId("dr-v-napsa", "font_big", "For a dog under water I think he’s doing rather well.")
 dialogStr("Siendo un perro bajo el agua creo que lo está haciendo bien.")
 
 
-dialogId("dr-v-nato", "font_big", "He doesn't look all that bad considering that he's been here for a few centuries.")
+dialogId("dr-v-nato", "font_big", "He doesn’t look all that bad considering that he’s been here for a few centuries.")
 dialogStr("El no se ve tan mal considerando que ha estado aquí por unas pocas centurias.")
 
 

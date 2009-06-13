@@ -20,7 +20,7 @@ dialogStr("Prova ad aprire quel tappo!")
 dialogId("odp-v-vtip", "font_big", "Now, this was a joke. Heh, heh.")
 dialogStr("Era uno scherzo, eh eh.")
 
-dialogId("odp-m-predmet", "font_small", "And there isn't even a funny animated object here.")
+dialogId("odp-m-predmet", "font_small", "And there isn’t even a funny animated object here.")
 dialogStr("E non c'è neanche un bell'oggetto animato qui.")
 
 dialogId("odp-v-pozadi", "font_big", "But a beautifully wavy background.")

@@ -15,7 +15,7 @@ dialogId("dr-v-mozna", "font_big", "Maybe they sank her on purpose. Warriors wou
 dialogStr("Možná, že ji potopili schválně. Bojovníci doprovázejí svého velitele do Valhaly...")
 
 
-dialogId("dr-m-hruza", "font_small", "That's awful. They look like they're still alive.")
+dialogId("dr-m-hruza", "font_small", "That’s awful. They look like they’re still alive.")
 dialogStr("Hrůza... sedí tu jako živí...")
 
 

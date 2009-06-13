@@ -26,13 +26,13 @@ dialogStr("Я всегда думала, что являюсь рыбной ло
 dialogId("dr-m-podivej", "font_small", "Look at that poor dog.")
 dialogStr("Посмотри на этого бедного пса.")
 
-dialogId("dr-m-nedycha", "font_small", "Doesn't he seem to be breathing kind of strangely?")
+dialogId("dr-m-nedycha", "font_small", "Doesn’t he seem to be breathing kind of strangely?")
 dialogStr("Его дыхание не кажется странным?")
 
-dialogId("dr-v-napsa", "font_big", "For a dog under water I think he's doing rather well.")
+dialogId("dr-v-napsa", "font_big", "For a dog under water I think he’s doing rather well.")
 dialogStr("Для собаки под водой, я думаю вполне не плохое.")
 
-dialogId("dr-v-nato", "font_big", "He doesn't look all that bad considering that he's been here for a few centuries.")
+dialogId("dr-v-nato", "font_big", "He doesn’t look all that bad considering that he’s been here for a few centuries.")
 dialogStr("Он выглядит плохо, но это не так страшно, потому что он находиться здесь около столетия.")
 
 dialogId("dr-8-ztichni1", "font_viking8", "Shut up!")

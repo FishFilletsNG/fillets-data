@@ -11,7 +11,7 @@ dialogStr("Dev'essere affondata in fretta. I rematori sono ancora ai loro posti.
 dialogId("dr-v-mozna", "font_big", "Maybe they sank her on purpose. Warriors would always accompany their leader on his way to Valhalla.")
 dialogStr("Forse sono affondati di proposito. I guerrieri accompagnavano sempre i loro capi nella via per il Walhalla.")
 
-dialogId("dr-m-hruza", "font_small", "That's awful. They look like they're still alive.")
+dialogId("dr-m-hruza", "font_small", "That’s awful. They look like they’re still alive.")
 dialogStr("Spaventoso. Sembra che siano ancora vivi.")
 
 dialogId("d1-1-hudba0", "font_viking1", "The music is gone!")

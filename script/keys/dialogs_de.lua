@@ -30,7 +30,7 @@ dialogStr("Jetzt kommen wir dem Erschaffer des Schloßes der Ebene vorher schon 
 dialogId("rand-0-1", "font_big", "Oh? Where is he?")
 dialogStr("So? Wo ist er denn?")
 
-dialogId("rand-0-2", "font_small", "I don't know.")
+dialogId("rand-0-2", "font_small", "I don’t know.")
 dialogStr("Ich weiß es nicht.")
 
 dialogId("rand-0-3", "font_big", "From what do you want to know we are getting closer than.")
@@ -77,16 +77,16 @@ dialogId("rand-2-0", "font_big", "At least the keys are not stuck to the ground.
 dialogStr("Wenigstens stecken die Schlüssel hier nicht im Boden fest.")
 
 
-dialogId("rand-3-0", "font_small", "Don't you want to swim forcibly to the wall. Possibly it will break down? ")
+dialogId("rand-3-0", "font_small", "Don’t you want to swim forcibly to the wall. Possibly it will break down? ")
 dialogStr("Magst du nicht einfach mal kräftig gegen die Mauer schwimmen? Vielleicht stürzt sie ja ein?")
 
-dialogId("rand-3-1", "font_big", "Don't you want to search for a recess and break up the wall from there?")
+dialogId("rand-3-1", "font_big", "Don’t you want to search for a recess and break up the wall from there?")
 dialogStr("Magst du nicht einfach ne Nische suchen und die Mauer von dort aufbrechen?")
 
 dialogId("rand-3-2", "font_small", "Maybe the player wants to change the program so this would be possible?")
 dialogStr("Vielleicht mag der Spieler ja das Programm so ändern, daß das möglich ist.")
 
-dialogId("rand-3-3-0", "font_big", "This wouldn't be fair.")
+dialogId("rand-3-3-0", "font_big", "This wouldn’t be fair.")
 dialogStr("Das wäre aber nicht fair.")
 
 dialogId("rand-3-3-1", "font_big", "This would be boring.")
@@ -141,7 +141,7 @@ dialogId("rand-6-1", "font_small", "Good idea.")
 dialogStr("Gute Idee.")
 
 
-dialogId("rand-7-0", "font_big", "Why don't we just unlock?")
+dialogId("rand-7-0", "font_big", "Why don’t we just unlock?")
 dialogStr("Warum sperren wir nicht einfach auf?")
 
 dialogId("rand-7-1", "font_small", "OK.")

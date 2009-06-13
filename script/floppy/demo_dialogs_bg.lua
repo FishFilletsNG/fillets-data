@@ -1,19 +1,19 @@
 dialogId("dlg-x-poster1", "font_orange", "THE GREATEST EARTHQUAKE SINCE 1990")
 dialogStr("НАЙ-ГОЛЯМОТО ЗЕМЕТРЕСЕНИЕ ОТ 1990 НАСАМ")
 
-dialogId("dlg-x-poster2", "font_orange", "when Dragon's Lair was issued, Rules for beginners, version 1.0.")
+dialogId("dlg-x-poster2", "font_orange", "when Dragon’s Lair was issued, Rules for beginners, version 1.0.")
 dialogStr("издаването на „Гнездото на дракона“, Ръководство за начинаещи, версия 1.0.")
 
-dialogId("dlg-x-poster3", "font_orange", "DRAGON'S LAIR PLUS")
+dialogId("dlg-x-poster3", "font_orange", "DRAGON’S LAIR PLUS")
 dialogStr("ГНЕЗДОТО НА ДРАКОНА ПЛЮС")
 
 dialogId("dlg-x-poster4", "font_orange", "The world of role-playing games will soon change forever.")
 dialogStr("Светът на ролевите игри скоро няма да бъде същият.")
 
-dialogId("dlg-x-poster5", "font_orange", "Dragon's Lair Plus is not only a new version.")
+dialogId("dlg-x-poster5", "font_orange", "Dragon’s Lair Plus is not only a new version.")
 dialogStr("Гнездото на дракона Плюс не е просто нова версия.")
 
-dialogId("dlg-x-poster6", "font_orange", "It's a new game.")
+dialogId("dlg-x-poster6", "font_orange", "It’s a new game.")
 dialogStr("Това е нова игра.")
 
 dialogId("dlg-x-poster7", "font_orange", "Plenty of new possibilities. New occupations. New system of character creation, where, instead of your lives, your skills grow. New elegant mechanism of playing.")

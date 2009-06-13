@@ -19,7 +19,7 @@ dialogStr("Мислиш ли, че можем да я повдигнем?")
 dialogId("disk-v-tezko", "font_big", "It will be difficult.")
 dialogStr("Трудно ще е.")
 
-dialogId("disk-v-nejde", "font_big", "I don't think it can be done. Why would they be hiding it here, if we could lift it?")
+dialogId("disk-v-nejde", "font_big", "I don’t think it can be done. Why would they be hiding it here, if we could lift it?")
 dialogStr("Не мисля, че е възможно. Дори и да можем, защо биха го крили тук?")
 
 dialogId("disk-v-ulamu", "font_big", "Shut up, or I will break off your pins!")

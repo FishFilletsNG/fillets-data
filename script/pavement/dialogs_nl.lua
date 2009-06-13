@@ -31,7 +31,7 @@ dialogId("dir-v-rada2", "font_big", "This was some advice, again.")
 dialogStr("Dat was alweer advies.")
 
 
-dialogId("dir-v-rada3", "font_big", "It's a shame I have no ears. I could plug them.")
+dialogId("dir-v-rada3", "font_big", "It’s a shame I have no ears. I could plug them.")
 dialogStr("Jammer dat we geen oren hebben. We zouden er iets in kunnen stoppen.")
 
 

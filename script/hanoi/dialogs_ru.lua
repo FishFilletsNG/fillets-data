@@ -25,14 +25,14 @@ dialogId("m-restartuj", "font_small", "He will be wating for my help in the next
 dialogStr(
 "Он будет ждать моей помощи в следующей комнате. Начни это заново прямо сейчас!")
 
-dialogId("v-nenifer", "font_big", "It isn't fair, my way was free. I only pushed to the steel the wrong way.")
+dialogId("v-nenifer", "font_big", "It isn’t fair, my way was free. I only pushed to the steel the wrong way.")
 dialogStr(
 "Это не справедливо, мой путь был свободный. Я только подвинул эту сталь по неправильному пути.")
 
-dialogId("v-restartovat", "font_big", "The small fish gets lost in the open ocean. Whithout me she won't get far away. You should restart the room immediatelly.")
+dialogId("v-restartovat", "font_big", "The small fish gets lost in the open ocean. Whithout me she won’t get far away. You should restart the room immediatelly.")
 dialogStr("Маленькая рыбка потеряна в открытом океане. Без меня она не уплывет далеко. Ты должен перезапустить уровень.")
 
-dialogId("v-orechove", "font_big", "It isn't what the doctor ordered.")
+dialogId("v-orechove", "font_big", "It isn’t what the doctor ordered.")
 dialogStr("Это не то, что доктор прописал.")
 
 dialogId("m-hazet", "font_small", "I should not throw the smaller piece onto the bigger one.")
@@ -55,28 +55,28 @@ dialogStr("Как игрок может находить удовольстви�
 dialogId("m-tesise", "font_small", "He may look foward for next rooms.")
 dialogStr("Он может смотреть вперед для следующих комнат.")
 
-dialogId("v-budou", "font_big", "He doesn't know, what they are like.")
+dialogId("v-budou", "font_big", "He doesn’t know, what they are like.")
 dialogStr("Он не знает, что они хотели.")
 
 dialogId("m-vyhecoval", "font_small", "Possibly somebody psyched him up.")
 dialogStr("Возможно, кто-то напугал его.")
 
-dialogId("v-looser", "font_big", "Oh well, player, if you don't solve it, you are a big loser.")
+dialogId("v-looser", "font_big", "Oh well, player, if you don’t solve it, you are a big loser.")
 dialogStr("Ох, хорошо, игрок. Если ты не решишь это, то большой неудачник.")
 
-dialogId("m-nepomahas", "font_small", "Of course, you are not entertained, when you almost don't help me.")
+dialogId("m-nepomahas", "font_small", "Of course, you are not entertained, when you almost don’t help me.")
 dialogStr("Конечно, тебя не развлекает, когда ты почти не помогаешь мне.")
 
 dialogId("m-trikrat", "font_small", "You said it already three times.")
 dialogStr("Ты сказал это уже три раза.")
 
-dialogId("v-jineho", "font_big", "If I should say always something different then we fill player's disc up.")
+dialogId("v-jineho", "font_big", "If I should say always something different then we fill player’s disc up.")
 dialogStr("Если буду говорить что-то другое, мы заполним диск игрока.")
 
-dialogId("m-vicedat", "font_small", "Maybe nowadays player's disc can accommodate more data then in past.")
+dialogId("m-vicedat", "font_small", "Maybe nowadays player’s disc can accommodate more data then in past.")
 dialogStr("Возможно, сейчас диск игрока может расположить больше данных, чем в прошлом.")
 
-dialogId("v-plny", "font_big", "I think what ever size the disc is, it's always full.")
+dialogId("v-plny", "font_big", "I think what ever size the disc is, it’s always full.")
 dialogStr("Я думаю, что когда измеряют диск, он всегда полный.")
 
 dialogId("m-citovat", "font_small", "Be ashamed, cheater.")

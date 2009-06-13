@@ -44,13 +44,13 @@ dialogId("v-nedame0", "font_big",
 "How can it be yours, if you are not indian?")
 dialogStr("Jak může být tvoje, když nejsi indián?")
 
-dialogId("m-nedame1", "font_small", "You can't be indian because you are not red?")
+dialogId("m-nedame1", "font_small", "You can’t be indian because you are not red?")
 dialogStr("Jak můžeš být indián, když nejsi červený?")
 
-dialogId("v-nedame1", "font_big", "I can't demur anything.")
+dialogId("v-nedame1", "font_big", "I can’t demur anything.")
 dialogStr("Na to už se nedá nic namítat.")
 
-dialogId("v-neber", "font_big", "Player, if you are an indian, don't perceive as an discrimination please.")
+dialogId("v-neber", "font_big", "Player, if you are an indian, don’t perceive as an discrimination please.")
 dialogStr(
 "Pokud, hráči, náhodou jsi indián, tak to prosím neber jako diskriminaci.")
 

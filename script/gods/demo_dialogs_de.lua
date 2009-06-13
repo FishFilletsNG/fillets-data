@@ -3,7 +3,7 @@ dialogId("dlg-x-poster1", "font_poster", "Occupation of the captive we are sendi
 dialogStr("Die Berufstätigkeit des Gefangenen, den wir ihnen schicken, ist Meeresgott. Außer des Verschwindens von Flugzeugen und Schiffen (dem sogenannten Schiffe-Versenken-Fall) ist er weiterer Verbrechen schuldig, darunter: Verschieben von Kontinenten (Kennzeichen Run,Continent,Run) und eines Meteoriten in Tunguska (Kennzeichen Jumping Jack).")
 
 
-dialogId("dlg-x-poster2", "font_poster", "We managed to intervene just in the nick of time: we have found a brand new unwrapped box with a table game called STAR WARS in the captive's house.")
+dialogId("dlg-x-poster2", "font_poster", "We managed to intervene just in the nick of time: we have found a brand new unwrapped box with a table game called STAR WARS in the captive’s house.")
 dialogStr("Wir schafften es, im letzten Augenblick einzugreifen: Wir haben eine brandneue Schachtel mit dem Tischspiel \"STAR WARS\" im Haus des Gefangenen gefunden.")
 
 

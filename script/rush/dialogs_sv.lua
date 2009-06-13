@@ -27,8 +27,8 @@ dialogStr(
 dialogId("m-vysunout", "font_small", "We should get out the red car.")
 dialogStr("Vi borde få bort den röda bilen.")
 
-dialogId("v-chytra", "font_big", "Don't be clever when somebody else already is.")
+dialogId("v-chytra", "font_big", "Don’t be clever when somebody else already is.")
 dialogStr("Försök inte att var smart när någon annan redan löst det.")
 
-dialogId("v-codelas", "font_big", "What are you doing? You aren't out yet.")
+dialogId("v-codelas", "font_big", "What are you doing? You aren’t out yet.")
 dialogStr("Vad gör du? Du är inte ute än.")

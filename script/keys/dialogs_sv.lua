@@ -30,7 +30,7 @@ dialogStr("Vi kommer närmare skaparen av låsen i den förra nivån.")
 dialogId("rand-0-1", "font_big", "Oh? Where is he?")
 dialogStr("Nå? Var finns han?")
 
-dialogId("rand-0-2", "font_small", "I don't know.")
+dialogId("rand-0-2", "font_small", "I don’t know.")
 dialogStr("Jag vet inte.")
 
 dialogId("rand-0-3", "font_big", "From what do you want to know we are getting closer than.")
@@ -77,16 +77,16 @@ dialogId("rand-2-0", "font_big", "At least the keys are not stuck to the ground.
 dialogStr("Nycklarna sitter åtminstone inte fast i marken.")
 
 
-dialogId("rand-3-0", "font_small", "Don't you want to swim forcibly to the wall. Possibly it will break down? ")
+dialogId("rand-3-0", "font_small", "Don’t you want to swim forcibly to the wall. Possibly it will break down? ")
 dialogStr("Kan du inte simma in i väggen i full fart. Den rasar kanske ihop?")
 
-dialogId("rand-3-1", "font_big", "Don't you want to search for a recess and break up the wall from there?")
+dialogId("rand-3-1", "font_big", "Don’t you want to search for a recess and break up the wall from there?")
 dialogStr("Kan du inte leta efter en spricka och bryta upp väggen därifrån?")
 
 dialogId("rand-3-2", "font_small", "Maybe the player wants to change the program so this would be possible?")
 dialogStr("Spelaren kanske vill ändra i programmet så att det blir möjligt.")
 
-dialogId("rand-3-3-0", "font_big", "This wouldn't be fair.")
+dialogId("rand-3-3-0", "font_big", "This wouldn’t be fair.")
 dialogStr("Det skulle inte vara just.")
 
 dialogId("rand-3-3-1", "font_big", "This would be boring.")
@@ -141,7 +141,7 @@ dialogId("rand-6-1", "font_small", "Good idea.")
 dialogStr("Bra idé.")
 
 
-dialogId("rand-7-0", "font_big", "Why don't we just unlock?")
+dialogId("rand-7-0", "font_big", "Why don’t we just unlock?")
 dialogStr("Varför låser vi inte bara upp?")
 
 dialogId("rand-7-1", "font_small", "OK.")

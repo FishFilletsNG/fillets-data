@@ -23,7 +23,7 @@ dialogStr("Унитаз более гигиеничен, а под водой �
 dialogId("wc-m-vlezt", "font_small", "Luckily, I needn’t climb inside.")
 dialogStr("К счастью, мне не надо забираться внутрь.")
 
-dialogId("wc-m-hrbitov", "font_small", "I don’t feel very well here. I feel like I'm in the cemetery.")
+dialogId("wc-m-hrbitov", "font_small", "I don’t feel very well here. I feel like I’m in the cemetery.")
 dialogStr("Мне не очень здесь нравится. Будто я в могиле.")
 
 dialogId("wc-v-coze", "font_big", "What do you mean?")

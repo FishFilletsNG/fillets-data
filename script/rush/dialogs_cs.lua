@@ -27,8 +27,8 @@ dialogStr(
 dialogId("m-vysunout", "font_small", "We should get out the red car.")
 dialogStr("Asi bychom měli vysunout ven to červené autíčko.")
 
-dialogId("v-chytra", "font_big", "Don't be clever when somebody else already is.")
+dialogId("v-chytra", "font_big", "Don’t be clever when somebody else already is.")
 dialogStr("Nebuď chytrá, od toho tu máme někoho jiného.")
 
-dialogId("v-codelas", "font_big", "What are you doing? You aren't out yet.")
+dialogId("v-codelas", "font_big", "What are you doing? You aren’t out yet.")
 dialogStr("Co děláš? Ještě nejsi venku.")

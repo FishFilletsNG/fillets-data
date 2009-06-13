@@ -23,8 +23,8 @@ dialogStr("Если игрок решит это только здесь, я б�
 dialogId("m-vysunout", "font_small", "We should get out the red car.")
 dialogStr("Мы должны выйти из красной машины.")
 
-dialogId("v-chytra", "font_big", "Don't be clever when somebody else already is.")
+dialogId("v-chytra", "font_big", "Don’t be clever when somebody else already is.")
 dialogStr("Не умничай, когда кто-то уже есть.")
 
-dialogId("v-codelas", "font_big", "What are you doing? You aren't out yet.")
+dialogId("v-codelas", "font_big", "What are you doing? You aren’t out yet.")
 dialogStr("Что ты делаешь? Ты еще не ушел.")

@@ -13,7 +13,7 @@ dialogId("disk-m-zvednem", "font_small", "Do you think we can lift it up?")
 
 dialogId("disk-v-tezko", "font_big", "It will be difficult.")
 
-dialogId("disk-v-nejde", "font_big", "I don't think it can be done. Why would they be hiding it here, if we could lift it?")
+dialogId("disk-v-nejde", "font_big", "I don’t think it can be done. Why would they be hiding it here, if we could lift it?")
 
 dialogId("disk-v-ulamu", "font_big", "Shut up, or I will break off your pins!")
 

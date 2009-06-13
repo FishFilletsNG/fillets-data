@@ -31,7 +31,7 @@ dialogStr("Postupně se blížíme k stvořiteli toho zámku z minulé místnost
 dialogId("rand-0-1", "font_big", "Oh? Where is he?")
 dialogStr("Vážně? Kde je?")
 
-dialogId("rand-0-2", "font_small", "I don't know.")
+dialogId("rand-0-2", "font_small", "I don’t know.")
 dialogStr("Nevím.")
 
 dialogId("rand-0-3", "font_big", "From what do you want to know we are getting closer than.")
@@ -78,16 +78,16 @@ dialogId("rand-2-0", "font_big", "At least the keys are not stuck to the ground.
 dialogStr("Alespoň, že ty klíče nejsou přilepeny k podlaze.")
 
 
-dialogId("rand-3-0", "font_small", "Don't you want to swim forcibly to the wall. Possibly it will break down? ")
+dialogId("rand-3-0", "font_small", "Don’t you want to swim forcibly to the wall. Possibly it will break down? ")
 dialogStr("Nechceš se rozplavat proti té zdi? Možná by se zhroutila.")
 
-dialogId("rand-3-1", "font_big", "Don't you want to search for a recess and break up the wall from there?")
+dialogId("rand-3-1", "font_big", "Don’t you want to search for a recess and break up the wall from there?")
 dialogStr("Nechceš si najít puklinu a rozbít tu zeď odtud?")
 
 dialogId("rand-3-2", "font_small", "Maybe the player wants to change the program so this would be possible?")
 dialogStr("Možná by hráč mohl změnit program, aby to bylo možné?")
 
-dialogId("rand-3-3-0", "font_big", "This wouldn't be fair.")
+dialogId("rand-3-3-0", "font_big", "This wouldn’t be fair.")
 dialogStr("To by nebylo fér.")
 
 dialogId("rand-3-3-1", "font_big", "This would be boring.")
@@ -142,7 +142,7 @@ dialogId("rand-6-1", "font_small", "Good idea.")
 dialogStr("Dobrý nápad.")
 
 
-dialogId("rand-7-0", "font_big", "Why don't we just unlock?")
+dialogId("rand-7-0", "font_big", "Why don’t we just unlock?")
 dialogStr("Proč prostě neodemkneme?")
 
 dialogId("rand-7-1", "font_small", "OK.")

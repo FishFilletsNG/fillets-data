@@ -24,7 +24,7 @@ dialogStr("Men om vi får bort båda kommer vi bli lyckligare.")
 
 dialogId("m-nemyslis", "font_small", "Do you think that one linuxer out is enough?")
 dialogStr("Tror du att en linuxanvändare är tillräckligt?")
-dialogId("v-forkovat", "font_big", "No I don't. The remaining could fork himself.")
+dialogId("v-forkovat", "font_big", "No I don’t. The remaining could fork himself.")
 dialogStr("Nej det tror jag inte. Den sista skulle bara gaffla av sig.")
 
 
@@ -34,15 +34,15 @@ dialogId("v-alespon", "font_big", "or at least to put them away.")
 dialogStr("eller åtminstone att ta bort dem.")
 
 
-dialogId("m-vykaslat", "font_small", "In my opinion it would be better to give up on the linuxers. Anyway they weren't in the work description.")
+dialogId("m-vykaslat", "font_small", "In my opinion it would be better to give up on the linuxers. Anyway they weren’t in the work description.")
 dialogStr("Jag tycker att det skulle vara bättre om vi gav upp om linuxanvändarna. Hur som helst fanns de inte i jobbeskrivningen")
-dialogId("v-nabourali", "font_big", "But they hacked this game and we can't win while they will be there.")
+dialogId("v-nabourali", "font_big", "But they hacked this game and we can’t win while they will be there.")
 dialogStr("Men de hackade det här spelet och vi kan inte vinna så länge de är här.")
 
 
 dialogId("v-snazit", "font_big", "Wow, you had to try hard to put only one linuxer away. You got over the steel construction.")
 dialogStr("Hurra, du fick kämpa rejält för att få bort den ena linuxanvändaren. Du kom över stålkonstruktionen.")
-dialogId("m-nestaci", "font_small", "But it isn't enough to win.")
+dialogId("m-nestaci", "font_small", "But it isn’t enough to win.")
 dialogStr("Men det räcker inte för att vinna.")
 
 
@@ -51,9 +51,9 @@ dialogStr("Jag skulle vilja säga till spelaren att inte ta den här nivån på 
 dialogId("m-sileny", "font_small", "He was probably mad.")
 dialogStr("Han var antagligen tokig.")
 
-dialogId("v-osobne", "font_big", "Player, if you are a linuxer don't take the madness personally.")
+dialogId("v-osobne", "font_big", "Player, if you are a linuxer don’t take the madness personally.")
 dialogStr("Spelare, om du är en linuxanvändare så ta inte galenskapen personligen.")
-dialogId("m-ostatni", "font_small", "We aren't talking about you, we are talking about the others.")
+dialogId("m-ostatni", "font_small", "We aren’t talking about you, we are talking about the others.")
 dialogStr("Vi pratade inte om dig, vi pratade om andra.")
 
 
@@ -101,7 +101,7 @@ dialogStr("Varför sa du Debian två gånger?")
 
 dialogId("2-naprogramovana", "font_linuxer2", "This game was programmed on Debian.")
 dialogStr("Det här programmet utvecklades på Debian.")
-dialogId("1-ubuntu", "font_linuxer1", "Why wasn't it done on Ubuntu?")
+dialogId("1-ubuntu", "font_linuxer1", "Why wasn’t it done on Ubuntu?")
 dialogStr("Varför gjordes det inte på Ubuntu?")
 dialogId("2-vykradacka", "font_linuxer2", "Ubuntu is only a bad copy of Debian.")
 dialogStr("Ubuntu är bara en dålig kopia av Debian.")
@@ -110,7 +110,7 @@ dialogId("1-zkousel", "font_linuxer1", "Did you try Ubuntu?")
 dialogStr("Har du testat Ubuntu?")
 dialogId("2-root", "font_linuxer2", "No, but it sufficient for me what I heard. Can you log in there as the root?")
 dialogStr("Nej, men det borde vara tillräckligt för mig, har jag hört. Kan man logga in som root?")
-dialogId("1-nepotrebuje", "font_linuxer1", "Ubuntu doesn't need antiquities as the root user is.")
+dialogId("1-nepotrebuje", "font_linuxer1", "Ubuntu doesn’t need antiquities as the root user is.")
 dialogStr("Ubuntu behöver inte antikviteter som root användare.")
 dialogId("2-postavene", "font_linuxer2", "But it is based on them.")
 dialogStr("Men det bygger på dem.")
@@ -137,7 +137,7 @@ dialogId("2-pomala", "font_linuxer2", "Java is interpreted programming language 
 dialogStr("Java är ett interpreterande programmspråk så det är mycket långsamt. Samma sak med ditt Python.")
 dialogId("1-pohodli", "font_linuxer1", "I am not interested about speed but the programming comfort.")
 dialogStr("Jag är inte intresserad av snabbhet utan av programmeringskomforten.")
-dialogId("2-prave", "font_linuxer2", "Yes, you aren't.")
+dialogId("2-prave", "font_linuxer2", "Yes, you aren’t.")
 dialogStr("Ja, det är du.")
 
 

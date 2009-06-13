@@ -3,7 +3,7 @@ dialogId("dlg-x-poster1", "font_poster", "Occupation of the captive we are sendi
 dialogStr("Jeniec, którego wam przesyłamy, jest bogiem oceanu. Poza zaginionymi statkami i samolotami (tzw. sprawa Statków), jest odpowiedzialny za inne przestępstwa, między innymi wędrówkę kontynentów (kryptonim Lądy Przez Morza) i Meteoryt Tunguski (kryptonim Hop Siup).")
 
 
-dialogId("dlg-x-poster2", "font_poster", "We managed to intervene just in the nick of time: we have found a brand new unwrapped box with a table game called STAR WARS in the captive's house.")
+dialogId("dlg-x-poster2", "font_poster", "We managed to intervene just in the nick of time: we have found a brand new unwrapped box with a table game called STAR WARS in the captive’s house.")
 dialogStr("Zdążyliśmy z naszą interwencją w ostatniej chwili. W domu zatrzymanego odkryliśmy nowiutkie, jeszcze nie rozpakowane pudełko zawierające grę planszową o nazwie Gwiezdne Wojny.")
 
 

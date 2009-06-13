@@ -23,7 +23,7 @@ dialogStr("Stranišče na izplakovanje je dosti bolj higienično in kadar je pod
 dialogId("wc-m-vlezt", "font_small", "Luckily, I needn’t climb inside.")
 dialogStr("Na srečo mi ni treba splezati noter.")
 
-dialogId("wc-m-hrbitov", "font_small", "I don’t feel very well here. I feel like I'm in the cemetery.")
+dialogId("wc-m-hrbitov", "font_small", "I don’t feel very well here. I feel like I’m in the cemetery.")
 dialogStr("Ne počutim se prav dobro tukaj. Občutek imam, kot da sem na pokopališču.")
 
 dialogId("wc-v-coze", "font_big", "What do you mean?")

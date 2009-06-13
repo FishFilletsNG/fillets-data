@@ -22,7 +22,7 @@ dialogStr("Да помислим.")
 dialogId("dir-v-rada2", "font_big", "This was some advice, again.")
 dialogStr("Посъветваха ни. Отново.")
 
-dialogId("dir-v-rada3", "font_big", "It's a shame I have no ears. I could plug them.")
+dialogId("dir-v-rada3", "font_big", "It’s a shame I have no ears. I could plug them.")
 dialogStr("Срамота е, че нямам уши. Можех да ги запуша.")
 
 dialogId("dir-v-rada4", "font_big", "I am fed up to my gills with its nonsense.")

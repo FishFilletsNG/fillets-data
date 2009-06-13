@@ -28,7 +28,7 @@ dialogStr("Аз обаче се усъмних. Това го е объркал�
 dialogId("tru-v-nejspis", "font_big", "Well, all right. PROBABLY this is not what we are looking for.")
 dialogStr("Добре де, добре. МОЖЕ БИ не търсим това.")
 
-dialogId("tru-m-nejistota", "font_small", "That's better. There remains a bit of uncertainty.")
+dialogId("tru-m-nejistota", "font_small", "That’s better. There remains a bit of uncertainty.")
 dialogStr("Така е по-добре. Остава малко неясно.")
 
 dialogId("tru-m-truhla0", "font_small", "Couldn’t we close that chest?")

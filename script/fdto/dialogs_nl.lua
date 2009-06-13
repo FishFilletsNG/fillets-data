@@ -10,7 +10,7 @@ dialogStr("Ik denk dat we het kunnen afbreken.")
 dialogId("drzel-m", "font_small", "But our home holds together despite UFO crashed into it.")
 dialogStr("Maar ons huis is nog heel, ondanks de vliegende schotel die erop neergestort is.")
 
-dialogId("nacekala-m", "font_small", "Sorry, it isn't a good idea.")
+dialogId("nacekala-m", "font_small", "Sorry, it isn’t a good idea.")
 dialogStr("Sorry, dat is geen goed idee.")
 
 dialogId("vidis-v", "font_big", "Do you see it?")
@@ -28,7 +28,7 @@ dialogStr("VDTO - Wij zijn de besten!")
 dialogId("mrka-m", "font_small", "The seahorse winks very nice.")
 dialogStr("Dat zeepaardje knipoogt heel vriendelijk.")
 
-dialogId("nemrka-v", "font_big", "No it doesn't.")
+dialogId("nemrka-v", "font_big", "No it doesn’t.")
 dialogStr("Niet waar.")
 
 dialogId("ted1-m", "font_small", "Look... right now!")
@@ -61,7 +61,7 @@ dialogStr("Jij bent misschien wat minder goed.")
 dialogId("kecas-v", "font_big", "Why are you drivelling?")
 dialogStr("Wat kwebbel je nou?")
 
-dialogId("cely-m", "font_small", "You aren't complete there.")
+dialogId("cely-m", "font_small", "You aren’t complete there.")
 dialogStr("Je bent er niet helemaal.")
 
 dialogId("proc-v", "font_big", "What are you doing whith these small balls when the antenna is here?")

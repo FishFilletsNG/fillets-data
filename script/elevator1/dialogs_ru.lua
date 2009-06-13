@@ -11,7 +11,7 @@ dialogStr("Но только вниз.")
 dialogId("zd1-m-last", "font_small", "Do you see that shell?")
 dialogStr("Видишь ту ракушку?")
 
-dialogId("zd1-v-talis", "font_big", "It’s an age-old talisman for elevator builders who always said 'Build well. Build with Shell’.")
+dialogId("zd1-v-talis", "font_big", "It’s an age-old talisman for elevator builders who always said ’Build well. Build with Shell’.")
 dialogStr("Это старинный талисман строителей лифтов, которые всегда говорили: «Build well. Build with Shell».")
 
 dialogId("zd1-m-poved", "font_small", "Isn’t that shell a little bit familiar?")

@@ -10,7 +10,7 @@ dialogStr("Chyba da się to rozmontować.")
 dialogId("drzel-m", "font_small", "But our home holds together despite UFO crashed into it.")
 dialogStr("Za to nasz domek jest w jednym kawałku, mimo że spadło na niego UFO.")
 
-dialogId("nacekala-m", "font_small", "Sorry, it isn't a good idea.")
+dialogId("nacekala-m", "font_small", "Sorry, it isn’t a good idea.")
 dialogStr("Aha, i mam tak czekać w nieskończoność?")
 
 dialogId("vidis-v", "font_big", "Do you see it?")
@@ -28,7 +28,7 @@ dialogStr("FDTO - jesteśmy najlepsi!")
 dialogId("mrka-m", "font_small", "The seahorse winks very nice.")
 dialogStr("Ten konik tak ładnie mruga.")
 
-dialogId("nemrka-v", "font_big", "No it doesn't.")
+dialogId("nemrka-v", "font_big", "No it doesn’t.")
 dialogStr("Nie mruga.")
 
 dialogId("ted1-m", "font_small", "Look... right now!")
@@ -61,7 +61,7 @@ dialogStr("Ty jesteś trochę mniej zdolny.")
 dialogId("kecas-v", "font_big", "Why are you drivelling?")
 dialogStr("Niby dlaczego.")
 
-dialogId("cely-m", "font_small", "You aren't complete there.")
+dialogId("cely-m", "font_small", "You aren’t complete there.")
 dialogStr("Jesteś nieco niekompletny.")
 
 dialogId("proc-v", "font_big", "What are you doing whith these small balls when the antenna is here?")

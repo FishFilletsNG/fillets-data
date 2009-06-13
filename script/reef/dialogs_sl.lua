@@ -47,5 +47,5 @@ dialogStr("Ja, saj so majhne. Ampak tam so lahko tudi druga živa bitja.")
 dialogId("uts-m-zelvy", "font_small", "Coral turtles, for example.")
 dialogStr("Na primer Koralne želve.")
 
-dialogId("uts-m-batyskaf", "font_small", "And moreover I have a suspicion that there's a microscope in a bathyscaph.")
+dialogId("uts-m-batyskaf", "font_small", "And moreover I have a suspicion that there’s a microscope in a bathyscaph.")
 dialogStr("In poleg tega imam na sumu, da je mikroskop v batiskafu.")

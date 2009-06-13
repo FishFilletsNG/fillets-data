@@ -27,7 +27,7 @@ dialogId("disk-v-tezko", "font_big", "It will be difficult.")
 dialogStr("Das wird schwierig.")
 
 
-dialogId("disk-v-nejde", "font_big", "I don't think it can be done. Why would they be hiding it here, if we could lift it?")
+dialogId("disk-v-nejde", "font_big", "I don’t think it can be done. Why would they be hiding it here, if we could lift it?")
 dialogStr("Ich denke, es ist nicht möglich. Warum sollten sie sie hier verstecken, wenn wir sie anheben können?")
 
 

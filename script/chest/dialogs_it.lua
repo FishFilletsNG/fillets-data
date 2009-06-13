@@ -29,7 +29,7 @@ dialogStr("Ma io ho messo in dubbio la cosa. Ciò potrebbe confonderlo.")
 dialogId("tru-v-nejspis", "font_big", "Well, all right. PROBABLY this is not what we are looking for.")
 dialogStr("E va bene. FORSE questo non è quello che cercavamo.")
 
-dialogId("tru-m-nejistota", "font_small", "That's better. There remains a bit of uncertainty.")
+dialogId("tru-m-nejistota", "font_small", "That’s better. There remains a bit of uncertainty.")
 dialogStr("Così è meglio. Ci rimane un po' di incertezza.")
 
 dialogId("tru-m-truhla0", "font_small", "Couldn’t we close that chest?")

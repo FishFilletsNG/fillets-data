@@ -34,7 +34,7 @@ dialogStr("Он, наверно, быстро затонул. Гребцы до 
 dialogId("dr-v-mozna", "font_big", "Maybe they sank her on purpose. Warriors would always accompany their leader on his way to Valhalla.")
 dialogStr("Возможно, они специально потопили его. Воины всегда сопровождают своего лидера на пути в Валхаллу.")
 
-dialogId("dr-m-hruza", "font_small", "That's awful. They look like they're still alive.")
+dialogId("dr-m-hruza", "font_small", "That’s awful. They look like they’re still alive.")
 dialogStr("Это ужасно. Они выглядят как живые.")
 
 dialogId("d1-1-hudba0", "font_viking1", "The music is gone!")

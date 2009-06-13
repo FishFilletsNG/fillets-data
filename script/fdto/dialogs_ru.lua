@@ -11,7 +11,7 @@ dialogStr("Я думаю мы можем взять эту штуку.")
 dialogId("drzel-m", "font_small", "But our home holds together despite UFO crashed into it.")
 dialogStr("Но наш дом оставался целым, даже когда НЛО обрушилось на него.")
 
-dialogId("nacekala-m", "font_small", "Sorry, it isn't a good idea.")
+dialogId("nacekala-m", "font_small", "Sorry, it isn’t a good idea.")
 dialogStr("Прости, это плохая идея.")
 
 dialogId("vidis-v", "font_big", "Do you see it?")
@@ -29,7 +29,7 @@ dialogStr("СПРД - мы лучшие!")
 dialogId("mrka-m", "font_small", "The seahorse winks very nice.")
 dialogStr("Морской конек подмигивает очень мило.")
 
-dialogId("nemrka-v", "font_big", "No it doesn't.")
+dialogId("nemrka-v", "font_big", "No it doesn’t.")
 dialogStr("Нет, совсем не мило.")
 
 dialogId("ted1-m", "font_small", "Look... right now!")
@@ -62,7 +62,7 @@ dialogStr("Может быть ты менее квалифицированны�
 dialogId("kecas-v", "font_big", "Why are you drivelling?")
 dialogStr("Зачем ты говоришь глупости")
 
-dialogId("cely-m", "font_small", "You aren't complete there.")
+dialogId("cely-m", "font_small", "You aren’t complete there.")
 dialogStr("Ты там не дорисован.")
 
 dialogId("proc-v", "font_big", "What are you doing whith these small balls when the antenna is here?")

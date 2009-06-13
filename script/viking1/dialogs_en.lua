@@ -23,7 +23,7 @@ dialogId("dr-m-musela", "font_small", "She must have sunk fast. The oarsmen are 
 
 dialogId("dr-v-mozna", "font_big", "Maybe they sank her on purpose. Warriors would always accompany their leader on his way to Valhalla.")
 
-dialogId("dr-m-hruza", "font_small", "That's awful. They look like they're still alive.")
+dialogId("dr-m-hruza", "font_small", "That’s awful. They look like they’re still alive.")
 
 dialogId("d1-1-hudba0", "font_viking1", "The music is gone!")
 

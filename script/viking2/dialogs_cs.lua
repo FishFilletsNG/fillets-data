@@ -35,15 +35,15 @@ dialogId("dr-m-podivej", "font_small", "Look at that poor dog.")
 dialogStr("Podívej, ten chudáček pejsek.")
 
 
-dialogId("dr-m-nedycha", "font_small", "Doesn't he seem to be breathing kind of strangely?")
+dialogId("dr-m-nedycha", "font_small", "Doesn’t he seem to be breathing kind of strangely?")
 dialogStr("Nedýchá nějak nemocně?")
 
 
-dialogId("dr-v-napsa", "font_big", "For a dog under water I think he's doing rather well.")
+dialogId("dr-v-napsa", "font_big", "For a dog under water I think he’s doing rather well.")
 dialogStr("Na psa pod vodou dýchá celkem slušně.")
 
 
-dialogId("dr-v-nato", "font_big", "He doesn't look all that bad considering that he's been here for a few centuries.")
+dialogId("dr-v-nato", "font_big", "He doesn’t look all that bad considering that he’s been here for a few centuries.")
 dialogStr("Na to, že tu musí být několik století, je celkem čilý.")
 
 

@@ -29,7 +29,7 @@ dialogStr("Но у меня есть некоторые сомнение об э
 dialogId("tru-v-nejspis", "font_big", "Well, all right. PROBABLY this is not what we are looking for.")
 dialogStr("Итак, все правильно. ВЕРОЯТНО это не то что мы искали.") --FIXME 
 
-dialogId("tru-m-nejistota", "font_small", "That's better. There remains a bit of uncertainty.")
+dialogId("tru-m-nejistota", "font_small", "That’s better. There remains a bit of uncertainty.")
 dialogStr("Так лучше. Но остаются некоторые неясности.")
 
 dialogId("tru-m-truhla0", "font_small", "Couldn’t we close that chest?")

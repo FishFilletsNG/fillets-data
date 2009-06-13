@@ -17,11 +17,11 @@ dialogId("dr1-x-erik", "font_lightgrey", "I always thought I was the fishing boa
 
 dialogId("dr-m-podivej", "font_small", "Look at that poor dog.")
 
-dialogId("dr-m-nedycha", "font_small", "Doesn't he seem to be breathing kind of strangely?")
+dialogId("dr-m-nedycha", "font_small", "Doesn’t he seem to be breathing kind of strangely?")
 
-dialogId("dr-v-napsa", "font_big", "For a dog under water I think he's doing rather well.")
+dialogId("dr-v-napsa", "font_big", "For a dog under water I think he’s doing rather well.")
 
-dialogId("dr-v-nato", "font_big", "He doesn't look all that bad considering that he's been here for a few centuries.")
+dialogId("dr-v-nato", "font_big", "He doesn’t look all that bad considering that he’s been here for a few centuries.")
 
 dialogId("dr-8-ztichni1", "font_viking8", "Shut up!")
 

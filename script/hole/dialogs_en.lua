@@ -30,11 +30,11 @@ dialogId("m-nedame0", "font_small",
 dialogId("v-nedame0", "font_big",
         "How can it be yours, if you are not indian?")
 
-dialogId("m-nedame1", "font_small", "You can't be indian because you are not red?")
+dialogId("m-nedame1", "font_small", "You can’t be indian because you are not red?")
 
-dialogId("v-nedame1", "font_big", "I can't demur anything.")
+dialogId("v-nedame1", "font_big", "I can’t demur anything.")
 
-dialogId("v-neber", "font_big", "Player, if you are an indian, don't perceive as an discrimination please.")
+dialogId("v-neber", "font_big", "Player, if you are an indian, don’t perceive as an discrimination please.")
 
 dialogId("m-sluchatko", "font_small", "It may be magic receiver.")
 

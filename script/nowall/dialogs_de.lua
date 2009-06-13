@@ -36,10 +36,10 @@ dialogStr("Es dreht sich sehr schnell.")
 dialogId("m-otazka4", "font_small", "I thought we are in the space.")
 dialogStr("Ich dachte, wir sind im Weltall.")
 
-dialogId("v-odpoved0", "font_big", "You can't be there, it is just another elevator.")
+dialogId("v-odpoved0", "font_big", "You can’t be there, it is just another elevator.")
 dialogStr("Das kann nicht sein, das ist nur ein weiterer Fahrstuhl.")
 
-dialogId("v-odpoved1", "font_big", "Because it's night now.")
+dialogId("v-odpoved1", "font_big", "Because it’s night now.")
 dialogStr("Weil jetzt Nacht ist.")
 
 dialogId("v-odpoved2", "font_big",
