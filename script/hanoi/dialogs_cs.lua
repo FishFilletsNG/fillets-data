@@ -40,7 +40,7 @@ dialogStr("Asi jsem tu menší kostičku neměla házet na tu větší.")
 
 dialogId("v-kopie", "font_big", "Somebody could think this room is only a copy of one room from fish fillets 2.")
 dialogStr(
-"Někdo by si moh' myslet, že je tahle místnost jen kopie z rybiček verze 2.")
+"Někdo by si mohl myslet, že je tahle místnost jen kopie z rybiček verze 2.")
 
 dialogId("m-inspiroval", "font_small", "But in fact the author was only inspired by the hardware problem room.")
 dialogStr("Jenže autor se opravdu inspiroval jenom hardwérovým problémem.")
