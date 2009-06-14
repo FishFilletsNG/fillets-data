@@ -1039,6 +1039,7 @@ worldmap_addDesc("nowall", "bg", "Съвсем без стени", "Нова г�
 worldmap_addDesc("nowall", "ru", "Нигде нет стен.", "Новая ветвь в NG")
 
 worldmap_addDesc("rotate", "en", "Rotate It", "Branch of New generation")
+worldmap_addDesc("rotate", "de", "Dreh es", "Zweig der neuen Generation")
 worldmap_addDesc("rotate", "cs", "Roztočte to", "Větev Nové generace")
 worldmap_addDesc("rotate", "sv", "Rotera den", "Gren av en ny generation")
 worldmap_addDesc("rotate", "nl", "Draai Het", "Gren av en ny generation")
@@ -1046,12 +1047,14 @@ worldmap_addDesc("rotate", "bg", "Завъртете това", "Нова ген
 worldmap_addDesc("rotate", "ru", "Поверните это", "Новая ветвь в NG")
 
 worldmap_addDesc("linux", "en", "Linuxers Must Be Mad", "Branch of New Generation")
+worldmap_addDesc("linux", "de", "Linuxbenutzer müssen verrückt sein", "Zweig der neuen Generation")
 worldmap_addDesc("linux", "cs", "Linuxáci musí být šílení", "Větev Nové Generace")
 worldmap_addDesc("linux", "ru", "Линуксойд должен быть сумашедшим", "Новая ветвь в NG")
 worldmap_addDesc("linux", "sv", "Linuxanvändare måste vara tokiga", "Gren av en ny generation")
 worldmap_addDesc("linux", "bg", "Линуксаджиите сигурно са полудели", "Нова генерация")
 
 worldmap_addDesc("electromagnet", "en", "Electromagnet", "UFO Exit")
+worldmap_addDesc("electromagnet", "de", "Elektromagnet", "Zweig der neuen Generation")
 worldmap_addDesc("electromagnet", "cs", "Elektromagnet", "UFO únik")
 worldmap_addDesc("electromagnet", "bg", "Електромагнит", "Изход от НЛО")
 worldmap_addDesc("electromagnet", "sv", "Elektromagnet", "UFOutgång")
