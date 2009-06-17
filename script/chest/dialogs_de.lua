@@ -20,7 +20,7 @@ dialogStr("Alles schön auf einem Haufen: der Schatz und der Gral.")
 
 
 dialogId("tru-m-zrada", "font_small", "I think it’s much too easy to be true.")
-dialogStr("Ich glaube, das ist zu einfach, um war zu sein.")
+dialogStr("Ich glaube, das ist zu einfach, um wahr zu sein.")
 
 
 dialogId("tru-m-oznamit", "font_small", "I think that if it really was our goal, the game would let the player know.")
