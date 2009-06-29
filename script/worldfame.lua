@@ -86,3 +86,5 @@ node_bestSolution("nowall", 418, "Masaaki Irie")
 node_bestSolution("hole", 499, "Miroslav Olšák")
 node_bestSolution("key", 834, "Masaaki Irie")
 node_bestSolution("keys", 283, "Masaaki Irie")
+
+node_bestSolution("electromagnet", 482, "Josef Peterka")
