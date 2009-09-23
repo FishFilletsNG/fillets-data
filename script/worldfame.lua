@@ -84,7 +84,7 @@ node_bestSolution("fdto", 251, "Ronny Standtke")
 node_bestSolution("rotate", 213, "Masaaki Irie")
 node_bestSolution("nowall", 418, "Masaaki Irie")
 node_bestSolution("hole", 465, "Brian Raiter")
-node_bestSolution("key", 660, "Brian Raiter")
+node_bestSolution("key", 596, "Brian Raiter")
 node_bestSolution("keys", 283, "Masaaki Irie")
 node_bestSolution("linux", 663, "Masaaki Irie")
 
