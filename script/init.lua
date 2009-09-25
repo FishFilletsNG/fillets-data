@@ -81,8 +81,11 @@ function hf()
         local num_steps = nil
         local solution = "solved/"..codename..".lua"
         if file_exists(solution) then
+            saved_moves = nil
             file_include(solution)
-            num_steps = string.len(saved_moves)
+            if saved_moves then
+                num_steps = string.len(saved_moves)
+            end
         end
 
         table.insert(descs, {
@@ -103,6 +106,8 @@ function hf()
     <th>Codename</th>
     <th>Best solution</th>
     <th>Solution author</th>
+    <th>Your solution</th>
+    <th>Difference</th>
 </tr>]])
 end
 
@@ -111,19 +116,24 @@ end
     end
 
     local function formatSpace()
-        print('<tr><td colspan="5">&nbsp;</td></tr>')
+        print('<tr><td colspan="7">&nbsp;</td></tr>')
     end
 
-    local function formatTotal(total)
-        print(string.format('<tr><td colspan="3">&nbsp;<b>Total</b></td><td align="center">%s</td><td>&nbsp;</td></tr>', total))
+    local function formatTotal(total, player_total)
+        print(string.format('<tr><td colspan="3">&nbsp;<b>Total</b></td><td align="center">%s</td><td>&nbsp;</td><td align="center">%s</td><td align="center">%s</td></tr>', total, player_total, player_total - total))
     end
 
-    local function formatRow(index, levelname, codename, moves, author)
+    local function formatRow(index, levelname, codename, moves, author, player_steps)
         if index < 10 then
             index = '0'..index
         end
-        print(string.format('<tr><td align="right">%s&nbsp;</td><td>&nbsp;%s</td><td>&nbsp;%s</td><td align="right">%s&nbsp;</td><td align="left">&nbsp;%s</td></tr>',
-        index, levelname, codename, moves, author))
+        local diff = "-"
+        if moves and player_steps then
+            diff = player_steps - moves
+        end
+        print(string.format('<tr><td align="right">%s&nbsp;</td><td>&nbsp;%s</td><td>&nbsp;%s</td><td align="right">%s&nbsp;</td><td>&nbsp;%s</td><td align="right">&nbsp;%s</td><td align="right">&nbsp;%s</td></tr>',
+            index, levelname, codename, moves or "-", author or "-",
+            player_steps or "-", diff or "-"))
     end
 
 
@@ -135,8 +145,8 @@ end
     local player_total = 0
     local lastBranch = descs[1].branch
     for index, level in ipairs(descs) do
-        local moves = "-"
-        local author = "-"
+        local moves = nil
+        local author = nil
         local solution = solutions[level.codename]
         if solution then
             moves = solution.moves
@@ -151,11 +161,12 @@ end
             formatSpace()
             lastBranch = level.branch
         end
-        formatRow(index, level.levelname, level.codename, moves, author)
+        formatRow(index, level.levelname, level.codename, moves, author,
+            level.num_steps)
     end
 
     formatSpace()
-    formatTotal(total)
+    formatTotal(total, player_total)
 
     formatSuffix()
 
