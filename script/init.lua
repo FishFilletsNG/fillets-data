@@ -53,3 +53,113 @@ function score()
         "(loss: ".. 100 * (userSteps - bestSteps) / bestSteps .."%)")
 end
 
+-- Prints the Hall of Fame table as HTML.
+function hf()
+    local OUTPUT_LANG = "en"
+    local origImpls = {
+        node_bestSolution = node_bestSolution,
+        woldmap_addDesc = woldmap_addDesc,
+    }
+    local solutions = {}
+    local descs = {}
+    function node_bestSolution(codename, moves, author)
+        solutions[codename] = {
+            moves = moves,
+            author = author,
+        }
+    end
+
+    function worldmap_addDesc(codename, lang, levelname, branch)
+        if lang ~= OUTPUT_LANG then
+            return
+        end
+        if codename == "menu" or codename == "score"
+                or codename == "ending" then
+            return
+        end
+
+        local num_steps = nil
+        local solution = "solved/"..codename..".lua"
+        if file_exists(solution) then
+            file_include(solution)
+            num_steps = string.len(saved_moves)
+        end
+
+        table.insert(descs, {
+            codename=codename,
+            lang=lang,
+            levelname=levelname,
+            branch=branch,
+            num_steps=num_steps,
+        })
+    end
+
+    local function formatPrefix()
+        print([[
+<table border="1">
+<tr>
+    <th>Level</th>
+    <th>Name</th>
+    <th>Codename</th>
+    <th>Best solution</th>
+    <th>Solution author</th>
+</tr>]])
+end
+
+    local function formatSuffix()
+        print('</table>')
+    end
+
+    local function formatSpace()
+        print('<tr><td colspan="5">&nbsp;</td></tr>')
+    end
+
+    local function formatTotal(total)
+        print(string.format('<tr><td colspan="3">&nbsp;<b>Total</b></td><td align="center">%s</td><td>&nbsp;</td></tr>', total))
+    end
+
+    local function formatRow(index, levelname, codename, moves, author)
+        if index < 10 then
+            index = '0'..index
+        end
+        print(string.format('<tr><td align="right">%s&nbsp;</td><td>&nbsp;%s</td><td>&nbsp;%s</td><td align="right">%s&nbsp;</td><td align="left">&nbsp;%s</td></tr>',
+        index, levelname, codename, moves, author))
+    end
+
+
+    file_include("script/worlddesc.lua")
+    file_include("script/worldfame.lua")
+
+    formatPrefix()
+    local total = 0
+    local player_total = 0
+    local lastBranch = descs[1].branch
+    for index, level in ipairs(descs) do
+        local moves = "-"
+        local author = "-"
+        local solution = solutions[level.codename]
+        if solution then
+            moves = solution.moves
+            author = solution.author
+            total = total + moves
+        end
+        if level.num_steps then
+            player_total = player_total + level.num_steps
+        end
+
+        if lastBranch ~= level.branch then
+            formatSpace()
+            lastBranch = level.branch
+        end
+        formatRow(index, level.levelname, level.codename, moves, author)
+    end
+
+    formatSpace()
+    formatTotal(total)
+
+    formatSuffix()
+
+    for k, v in pairs(origImpls) do
+        _G[k] = v
+    end
+end
