@@ -1038,7 +1038,7 @@ worldmap_addDesc("nowall", "nl", "Helemaal geen muren", "Tak van de nieuwe gener
 worldmap_addDesc("nowall", "bg", "Съвсем без стени", "Нова генерация")
 worldmap_addDesc("nowall", "ru", "Нигде нет стен.", "Новая ветвь в NG")
 
-worldmap_addDesc("rotate", "en", "Rotate It", "Branch of New generation")
+worldmap_addDesc("rotate", "en", "Rotate It", "Branch of New Generation")
 worldmap_addDesc("rotate", "de", "Dreh es", "Zweig der neuen Generation")
 worldmap_addDesc("rotate", "cs", "Roztočte to", "Větev Nové generace")
 worldmap_addDesc("rotate", "sv", "Rotera den", "Gren av en ny generation")
