@@ -98,7 +98,15 @@ function hf()
     end
 
     local function formatPrefix()
-        print([[
+        local version = getParam("package") .. " " .. getParam("version")
+        print(string.format([[
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Hall of Fame Statistics</title>
+</head>
+<body>
+<h3>%s</h3>
 <table border="1">
 <tr>
     <th>Level</th>
@@ -108,11 +116,14 @@ function hf()
     <th>Solution author</th>
     <th>Your solution</th>
     <th>Difference</th>
-</tr>]])
+</tr>]], version))
 end
 
     local function formatSuffix()
-        print('</table>')
+        print([[
+</table>
+</body>
+</html>]])
     end
 
     local function formatSpace()
@@ -163,12 +174,21 @@ end
         end
         formatRow(index, level.levelname, level.codename, moves, author,
             level.num_steps)
+
+        if index == 70 then
+            -- subtotal
+            formatTotal(total, player_total)
+        end
     end
 
     formatSpace()
     formatTotal(total, player_total)
 
     formatSuffix()
+    --TODO: allow lua to flush the output
+    for i = 0, 8192 do
+        print()
+    end
 
     for k, v in pairs(origImpls) do
         _G[k] = v
