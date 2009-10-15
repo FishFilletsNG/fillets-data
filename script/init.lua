@@ -133,7 +133,7 @@ end
     end
 
     local function formatTotal(total, player_total)
-        print(string.format('<tr><td colspan="3">&nbsp;<b>Total</b></td><td align="center">%s</td><td>&nbsp;</td><td align="center">%s</td><td align="center">%s</td></tr>', total, player_total, player_total - total))
+        print(string.format('<tr><td colspan="3">&nbsp;<b>Total</b></td><td align="right">%s</td><td>&nbsp;</td><td align="right">%s</td><td align="right">%s</td></tr>', total, player_total, player_total - total))
     end
 
     local function formatRow(index, levelname, codename, moves, author, player_steps)
@@ -179,6 +179,7 @@ end
 
         if index == 70 then
             -- subtotal
+            formatSpace()
             formatTotal(total, player_total)
         end
     end
