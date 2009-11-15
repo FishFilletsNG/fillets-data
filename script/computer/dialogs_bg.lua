@@ -5,10 +5,10 @@ dialogId("poc-m-lezt1", "font_small", "What kind of place is this?")
 dialogStr("Що за място е това?")
 
 dialogId("poc-m-lezt2", "font_small", "Wow, what a place!")
-dialogStr("Леле както място!")
+dialogStr("Леле какво място!")
 
 dialogId("poc-v-kam0", "font_big", "Where can man - I mean fish - get by climbing into a toilet?")
-dialogStr("Къде ли можел човек, т.е. риба, да отиде като се гмурне в тоалетната.")
+dialogStr("Ето къде можел човек, т.е. риба, да отиде като се гмурне в тоалетната.")
 
 dialogId("poc-v-kam1", "font_big", "It looks like a cozy little dump.")
 dialogStr("Прилича на уютно малко сметище.")
@@ -17,13 +17,13 @@ dialogId("poc-v-kam2", "font_big", "Look, what kind of things people have flushe
 dialogStr("Гледай какви неща изхвърлят хората в тоалетната.")
 
 dialogId("poc-v-kam3", "font_big", "I thought it would be worse when I was climbing in.")
-dialogStr("Мислех, че ще бъде по-зле когато скачах вътре.")
+dialogStr("Мислех, че ще бъде по-зле като скочих вътре.")
 
 dialogId("poc-v-nenajde", "font_big", "You can find many strange things in such a dump.")
 dialogStr("В боклучарник като този могат да се намерят много странни неща.")
 
 dialogId("poc-m-myslis", "font_small", "Do you think this is the computer that’s at stake in this game?")
-dialogStr("Мислиш ли, че това е компютърът-печалба в играта?")
+dialogStr("Мислиш ли, че този компютър е наградата в играта?")
 
 dialogId("poc-v-multimed", "font_big", "Surely not! This is no powerful multimedia computer. This is but an XT machine with a twelve inch display.")
 dialogStr("Със сигурност не! Това не е мощен мултимедиен компютър. Това е XT машина с 12-инчов екран.")
