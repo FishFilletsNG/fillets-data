@@ -9,7 +9,7 @@ dialogStr("Najdeme cestu ven.")
 dialogId("init-2", "font_big", "Why are you so sure about that?")
 dialogStr("Jak si můžeš být tak jistá?")
 
-dialogId("init-3-0", "font_small", "We always found a way out.")
+dialogId("init-3-0", "font_small", "We’ve always found a way out.")
 dialogStr("Vždycky jsme si cestu našli.")
 
 dialogId("init-3-1", "font_small", "We have come so far, we will not fail here.")

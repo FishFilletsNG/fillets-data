@@ -8,7 +8,7 @@ dialogStr("Wir kommen schon raus hier.")
 dialogId("init-2", "font_big", "Why are you so sure about that?")
 dialogStr("Was macht dich da so sicher?")
 
-dialogId("init-3-0", "font_small", "We always found a way out.")
+dialogId("init-3-0", "font_small", "We’ve always found a way out.")
 dialogStr("Wir finden immer einen Weg heraus.")
 
 dialogId("init-3-1", "font_small", "We have come so far, we will not fail here.")

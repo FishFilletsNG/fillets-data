@@ -9,7 +9,7 @@ dialogStr("Сейчас найдём выход отсюда.")
 dialogId("init-2", "font_big", "Why are you so sure about that?")
 dialogStr("Почему ты так уверена в этом?")
 
-dialogId("init-3-0", "font_small", "We always found a way out.")
+dialogId("init-3-0", "font_small", "We’ve always found a way out.")
 dialogStr("Мы всегда находим выход.")
 
 dialogId("init-3-1", "font_small", "We have come so far, we will not fail here.")

@@ -8,7 +8,7 @@ dialogStr("Vi kommer att hitta en väg ut.")
 dialogId("init-2", "font_big", "Why are you so sure about that?")
 dialogStr("Hur kan du var så säker på det?")
 
-dialogId("init-3-0", "font_small", "We always found a way out.")
+dialogId("init-3-0", "font_small", "We’ve always found a way out.")
 dialogStr("Vi hittar alltid en väg ut.")
 
 dialogId("init-3-1", "font_small", "We have come so far, we will not fail here.")
