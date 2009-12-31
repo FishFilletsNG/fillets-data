@@ -95,7 +95,7 @@ dialogStr("Dihydrogenmonoxid.")
 dialogId("rand-3-2-2", "font_big", "Sodium chloride.")
 dialogStr("Chlorid sodný.")
 
-dialogId("rand-3-2-3", "font_big", "Non-ferrous heavy metal.")
+dialogId("rand-3-2-3", "font_big", "Non-ferrous metal.")
 dialogStr("Barevný kov.")
 
 dialogId("rand-3-2-4", "font_big", "Glass with colored paper glued on it.")
