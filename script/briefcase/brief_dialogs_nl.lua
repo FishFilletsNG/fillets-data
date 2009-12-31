@@ -16,7 +16,7 @@ dialogStr("Deze zaak houdt wellicht verband met het mysterie van de Bermuda Drie
 
 
 dialogId("kd-silver", "font_white", "One of the lost ships is rumored to have belonged to the legendary Captain Silver. There are still many uncertainties surrounding this famous pirate. Most of all we are interested in the map which shows the location of his buried treasure.")
-dialogStr("Een van de verloren schepen zou het schip van de legendarische Kapitein Silver zijn geweest. Er is nogsteeds een hoop onduidelijkheid omtrend deze beruchte piraat. We zijn vooral geïnteresseerd in de kaart waar de verstopplaats van zijn schat op is aangegeven.")
+dialogStr("Een van de verloren schepen zou het schip van de legendarische Kapitein Silver zijn geweest. Er is nog steeds een hoop onduidelijkheid omtrend deze beruchte piraat. We zijn vooral geïnteresseerd in de kaart waar de verstopplaats van zijn schat op is aangegeven.")
 
 
 dialogId("kd-pocitac", "font_white", "One of your most important tasks is to find the computer hidden in the deep by a certain criminal organization. It contains data about a project which could change the entire world.")

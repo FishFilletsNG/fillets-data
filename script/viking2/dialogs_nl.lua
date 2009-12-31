@@ -84,7 +84,7 @@ dialogStr("Is de vijand eindelijk weg?")
 
 
 dialogId("dr-5-srab5", "font_viking5", "Are we still fighting?")
-dialogStr("Zijn we nogsteeds aan het vechten?")
+dialogStr("Zijn we nog steeds aan het vechten?")
 
 
 dialogId("dr-2-uzbudeme1", "font_viking2", "Are we in Valhalla yet, chief?")
@@ -212,5 +212,5 @@ dialogStr("Jullie jongkies denken dat jullie alles kunnen maken.")
 
 
 dialogId("dr-4-stejne", "font_viking4", "Well, I still look cool.")
-dialogStr("Nou ja, ik zie er nogsteeds cool uit.")
+dialogStr("Nou ja, ik zie er nog steeds cool uit.")
 

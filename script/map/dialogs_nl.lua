@@ -52,7 +52,7 @@ dialogStr("Het zou het makkelijkst zijn als we bovenin dit veld waren. Laten we 
 
 
 dialogId("map-m-pravidla", "font_small", "Don’t pretend that you didn’t understand the rules after so many solved levels.")
-dialogStr("Doe nou niet alsof je de regels nogsteeds niet door hebt na zoveel opgeloste velden.")
+dialogStr("Doe nou niet alsof je de regels nog steeds niet door hebt na zoveel opgeloste velden.")
 
 
 dialogId("map-m-pohnout", "font_small", "So we managed to move it.")

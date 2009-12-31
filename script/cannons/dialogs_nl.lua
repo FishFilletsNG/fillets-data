@@ -1,6 +1,6 @@
 
 dialogId("del-v-dve", "font_big", "See? This ship had two gun decks. It must have been a man-of-war. The acrid smell of gunpowder still seems to linger in the air...")
-dialogStr("Zie je dat? Dit schip had twee kanonsdekken. Het was vast een oorlogsschip. De geur van buskruit hangt hier nogsteeds in de lucht...")
+dialogStr("Zie je dat? Dit schip had twee kanonsdekken. Het was vast een oorlogsschip. De geur van buskruit hangt hier nog steeds in de lucht...")
 
 
 dialogId("del-m-voda", "font_small", "You mean, in the water.")

@@ -88,7 +88,7 @@ dialogStr("Die voet is niet alleen vies maar ook schaamteloos. Moet je zien!")
 
 
 dialogId("bar-v-pld", "font_big", "Look at that pld. It looks the same and still it grows more and more repulsive.")
-dialogStr("Kijk eens goed naar dat roze ding. Het ziet er nogsteeds hetzelfde uit maar wordt toch steeds afstotelijker.")
+dialogStr("Kijk eens goed naar dat roze ding. Het ziet er nog steeds hetzelfde uit maar wordt toch steeds afstotelijker.")
 
 
 dialogId("bar-m-pudy", "font_small", "But even it harbors some motherly instincts. Look how it cares about the little one.")

@@ -20,7 +20,7 @@ dialogStr("Dat was een gevaarlijke instorting. We hebben geluk dat we nog leven.
 
 
 dialogId("zav-m-hopskok", "font_small", "Don’t speak too soon. We’re still in here.")
-dialogStr("Preis de dag niet voor het avond is. We zitten hier nogsteeds opgesloten.")
+dialogStr("Preis de dag niet voor het avond is. We zitten hier nog steeds opgesloten.")
 
 
 dialogId("zav-m-kameny", "font_small", "Don’t you think that these stones are arranged in a different way?")
