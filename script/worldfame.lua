@@ -37,7 +37,7 @@ node_bestSolution("imprisoned", 275, "Josef Peterka")
 node_bestSolution("society", 110, "Radovan Málek")
 node_bestSolution("creatures", 447, "Josef Peterka")
 node_bestSolution("cancan", 578, "Mark Byers")
-node_bestSolution("pearls", 487, "Gabor Braun")
+node_bestSolution("pearls", 477, "Masaaki Irie")
 node_bestSolution("turtle", 688, "Josef Peterka")
  
 node_bestSolution("computer", 156, "Josef Peterka")
