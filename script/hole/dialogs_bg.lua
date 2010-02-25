@@ -49,7 +49,7 @@ dialogStr("Не може да си индианец - не си червенок
 dialogId("v-nedame1", "font_big", "I can’t demur anything.")
 dialogStr("Не мога да отрека.")
 
-dialogId("v-neber", "font_big", "Player, if you are an indian, don’t perceive as an discrimination please.")
+dialogId("v-neber", "font_big", "Player, if you are an indian, don’t perceive it as an discrimination please.")
 dialogStr("Молим играчът да не приема действието в играта като проява на дискриминация.")
 
 dialogId("m-sluchatko", "font_small", "It may be magic receiver.")

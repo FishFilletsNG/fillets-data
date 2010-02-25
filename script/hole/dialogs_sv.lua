@@ -50,7 +50,7 @@ dialogStr("Du kan inte vara indian, för du är inte röd?")
 dialogId("v-nedame1", "font_big", "I can’t demur anything.")
 dialogStr("Jag kan inte invända något.")
 
-dialogId("v-neber", "font_big", "Player, if you are an indian, don’t perceive as an discrimination please.")
+dialogId("v-neber", "font_big", "Player, if you are an indian, don’t perceive it as an discrimination please.")
 dialogStr(
 "Spelare, om du är en indian, se det inte som diskriminering, snälla.")
 

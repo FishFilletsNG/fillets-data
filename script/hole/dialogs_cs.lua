@@ -50,7 +50,7 @@ dialogStr("Jak můžeš být indián, když nejsi červený?")
 dialogId("v-nedame1", "font_big", "I can’t demur anything.")
 dialogStr("Na to už se nedá nic namítat.")
 
-dialogId("v-neber", "font_big", "Player, if you are an indian, don’t perceive as an discrimination please.")
+dialogId("v-neber", "font_big", "Player, if you are an indian, don’t perceive it as an discrimination please.")
 dialogStr(
 "Pokud, hráči, náhodou jsi indián, tak to prosím neber jako diskriminaci.")
 

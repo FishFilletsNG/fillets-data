@@ -49,7 +49,7 @@ dialogStr("Je kunt geen indiaan zijn omdat je niet rood bent?")
 dialogId("v-nedame1", "font_big", "I can’t demur anything.")
 dialogStr("Ik ontken niks.")
 
-dialogId("v-neber", "font_big", "Player, if you are an indian, don’t perceive as an discrimination please.")
+dialogId("v-neber", "font_big", "Player, if you are an indian, don’t perceive it as an discrimination please.")
 dialogStr("Speler, als je een oorspronkelijke bewoner van Amerika bent, vat dit dan alsjeblieft niet discriminerend op.")
 
 dialogId("m-sluchatko", "font_small", "It may be magic receiver.")
