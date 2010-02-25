@@ -1,7 +1,7 @@
 dialogId("m-strasidelna", "font_small", "It is a haunted room.")
 dialogStr("Это обитаемая комната.")
 
-dialogId("v-bojim", "font_big","I fear it will be dificult to move things over this hole.")
+dialogId("v-bojim", "font_big", "I fear it will be dificult to move things over this hole.")
 dialogStr("Боюсь, он будет перемащать предметы над этй дырой.")
 
 dialogId("s-prejete", "font_green", "Here you are, as you wish.")
@@ -10,7 +10,7 @@ dialogStr("Вы здесь, как пожелали.")
 dialogId("l-halo0", "font_lightgrey", "Is anybody there?")
 dialogStr("Кто-то там находится?")
 
-dialogId("l-halo1", "font_lightgrey", "Who are there?")
+dialogId("l-halo1", "font_lightgrey", "Who is there?")
 dialogStr("Кто там?")
 
 dialogId("l-halo2", "font_lightgrey", "I think, the receiver does not work.")
@@ -37,7 +37,7 @@ dialogStr("Извини, нам это очень надо.")
 dialogId("v-nedame0", "font_big", "How can it be yours, if you are not indian?")
 dialogStr("Как это может быть вашим, если вы не индийцы?")
 
-dialogId("m-nedame1", "font_small", "You can’t be indian because you are not red?")
+dialogId("m-nedame1", "font_small", "You can’t be an indian because you are not red.")
 dialogStr("Вы не можете быть индийцами, потому что вы не красные?")
 
 dialogId("v-nedame1", "font_big", "I can’t demur anything.")
@@ -46,7 +46,7 @@ dialogStr("Я не возражаю.")
 dialogId("v-neber", "font_big", "Player, if you are an indian, don’t perceive it as an discrimination please.")
 dialogStr("Игрок, если ты индиец, не воспринимай, пожалуйста, это как дискриминацию.")
 
-dialogId("m-sluchatko", "font_small", "It may be magic receiver.")
+dialogId("m-sluchatko", "font_small", "It may be a magic receiver.")
 dialogStr("Это может быть магический приемник?.")
 
 dialogId("v-zkus", "font_big", "Try it.")
