@@ -32,30 +32,6 @@ end
 
 -- -----------------------------------------------------------------
 function borderShoutLoad()
-    --TODO: add 'en' sound
-    dialog_addDialog("sp-shout_small_00", "en", "")
-    dialog_addDialog("sp-shout_small_01", "en", "")
-    dialog_addDialog("sp-shout_small_02", "en", "")
-    dialog_addDialog("sp-shout_small_03", "en", "")
-    dialog_addDialog("sp-shout_small_04", "en", "")
-
-    dialog_addDialog("sp-shout_big_00", "en", "")
-    dialog_addDialog("sp-shout_big_01", "en", "")
-    dialog_addDialog("sp-shout_big_02", "en", "")
-    dialog_addDialog("sp-shout_big_03", "en", "")
-    dialog_addDialog("sp-shout_big_04", "en", "")
-
-
-    dialog_addDialog("sp-shout_small_00", "cs", "sound/share/border/cs/sp-shout_small_00.ogg")
-    dialog_addDialog("sp-shout_small_01", "cs", "sound/share/border/cs/sp-shout_small_01.ogg")
-    dialog_addDialog("sp-shout_small_02", "cs", "sound/share/border/cs/sp-shout_small_02.ogg")
-    dialog_addDialog("sp-shout_small_03", "cs", "sound/share/border/cs/sp-shout_small_03.ogg")
-    dialog_addDialog("sp-shout_small_04", "cs", "sound/share/border/cs/sp-shout_small_04.ogg")
-
-    dialog_addDialog("sp-shout_big_00", "cs", "sound/share/border/cs/sp-shout_big_00.ogg")
-    dialog_addDialog("sp-shout_big_01", "cs", "sound/share/border/cs/sp-shout_big_01.ogg")
-    dialog_addDialog("sp-shout_big_02", "cs", "sound/share/border/cs/sp-shout_big_02.ogg")
-    dialog_addDialog("sp-shout_big_03", "cs", "sound/share/border/cs/sp-shout_big_03.ogg")
-    dialog_addDialog("sp-shout_big_04", "cs", "sound/share/border/cs/sp-shout_big_04.ogg")
+    dialogLoad("script/share/shout_", "sound/share/border/")
 end
 
