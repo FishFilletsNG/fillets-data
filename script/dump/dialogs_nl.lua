@@ -68,7 +68,7 @@ dialogStr("Zie je deze verzameling nutteloze troep, rare dingen en afval... Dit 
 
 
 dialogId("sm-m-namaloval", "font_small", "Or painted.")
-dialogStr("Of geverft.")
+dialogStr("Of geverfd.")
 
 
 dialogId("sm-v-marnost", "font_big", "Everything is in vain, like that medusa over there.")

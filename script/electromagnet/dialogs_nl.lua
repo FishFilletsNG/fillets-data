@@ -15,7 +15,7 @@ dialogId("init-3-1", "font_small", "We have come so far, we will not fail here."
 dialogStr("We zijn al zo ver gekomen, dan zullen we hier toch niet verzaken.")
 
 dialogId("init-3-2", "font_small", "The topic of this branch is: ”UFO-Exit”, which means we will get out of here.")
-dialogStr("De titel van dit veld is ‘UFO-Uitgang’, wat betekent dat we hier uitgaan.")
+dialogStr("De titel van dit veld is “UFO-Uitgang”, wat betekent dat we hier uitgaan.")
 
 dialogId("init-3-3", "font_small", "What would be the point of an unsolvable level?")
 dialogStr("Wat zou de lol zijn van een onoplosbare puzzel?")
@@ -140,7 +140,7 @@ dialogId("rand-6-1", "font_big", "An unidentified alien artefact. Which one do y
 dialogStr("Een ongeïdentificeerd buitenaards artefact. Welk ding bedoel je?")
 
 dialogId("rand-6-2", "font_small", "The angular one which is in our way, the one spanning half the level.")
-dialogStr("Die hoekige die ons in de weg ligt, die daar over de helft van het veld ligt.")
+dialogStr("Dat hoekige dat ons in de weg ligt, dat daar over de helft van het veld ligt.")
 
 dialogId("rand-6-3", "font_big", "As I said, it is an unidentified alien artefact.")
 dialogStr("Zoals ik al zei, het is een ongeïdentificeerd buitenaards artefact.")

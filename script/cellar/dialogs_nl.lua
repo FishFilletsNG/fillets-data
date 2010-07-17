@@ -52,7 +52,7 @@ dialogStr("Maar alleen als je zeker weet dat het de goede oplossing is.")
 
 
 dialogId("pra-v-ukladani", "font_big", "Remember what we have said about saving positions.")
-dialogStr("Vergeet niet wat we net zeiden het opslaan van de situatie.")
+dialogStr("Vergeet niet wat we net zeiden over het opslaan van de situatie.")
 
 
 dialogId("pra-m-uvazovat", "font_small", "I shouldn’t be thinking about this.")

@@ -96,7 +96,7 @@ dialogStr("Iedereen wil wel eens even zitten.")
 
 
 dialogId("kuch-m-stolky", "font_small", "I have seen these tables somewhere.")
-dialogStr("Ik heb deze tafels als eens eerder gezien.")
+dialogStr("Ik heb deze tafels al eens eerder gezien.")
 
 
 dialogId("kuch-v-serie", "font_big", "They are mass-produced, you know.")

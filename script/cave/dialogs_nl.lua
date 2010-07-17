@@ -100,5 +100,5 @@ dialogStr("Ik denk dat je dat monster nodig gaat hebben.")
 
 
 dialogId("jes-v-nechut1", "font_big", "I think you will have to overcome your dislike of that ‘abomination’.")
-dialogStr("Ik denk dat je je afkeer van dat \"misbaksel\" zult moeten overwinnen.")
+dialogStr("Ik denk dat je je afkeer van dat “misbaksel” zult moeten overwinnen.")
 

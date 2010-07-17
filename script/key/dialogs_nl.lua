@@ -45,7 +45,7 @@ dialogId("rd-3-0", "font_small", "I think we should really use the key to open t
 dialogStr("Ik denk echt dat we het met de sleutel open moeten krijgen.")
 
 dialogId("rd-3-1", "font_big", "Then go get it, smarty-pants.")
-dialogStr("Ga die sleutel dan halen, slimmert")
+dialogStr("Ga die sleutel dan halen, slimmert.")
 
 dialogId("rd-3-2", "font_small", "Be nice to me, or I might swim out alone.")
 dialogStr("Doe wat aardiger tegen mij, anders zwem ik hier in mijn eentje weg.")

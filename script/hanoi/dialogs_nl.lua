@@ -5,7 +5,7 @@ dialogId("m-co", "font_small", "What?")
 dialogStr("Wat?")
 
 dialogId("v-jacity", "font_big", "Either I get out or you!")
-dialogStr("Een van ons kan weg!")
+dialogStr("Één van ons kan weg!")
  
 dialogId("m-bude", "font_small", "And who will it be?")
 dialogStr("En wie zal dat zijn?")

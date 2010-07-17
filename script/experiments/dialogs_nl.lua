@@ -20,7 +20,7 @@ dialogStr("Ik denk dat iemand hier nogal verdachte experimenten aan het doen is.
 
 
 dialogId("bank-m-jejda", "font_small", "My gosh, what’s this?!?")
-dialogStr("Lieve Hemel, wat is dit?!?")
+dialogStr("Lieve hemel, wat is dit?!?")
 
 
 dialogId("bank-v-zije", "font_big", "Everything’s alive here.")

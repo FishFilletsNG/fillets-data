@@ -1,6 +1,6 @@
 
 dialogId("kor-m-podivej", "font_small", "Look at all these lobsters...")
-dialogStr("Moet je al die kreeften zie...")
+dialogStr("Moet je al die kreeften zien...")
 
 
 dialogId("kor-v-spitu", "font_big", "They sleep for thousands of years... in eternal stillness...")

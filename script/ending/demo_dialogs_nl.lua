@@ -16,5 +16,5 @@ dialogStr("PS: Ik heb begrip voor het gedoe met het kleine roze monstertje, maar
 
 
 dialogId("dlg-x-poster4", "font_poster", "PPS: Tell me, where did you find such a good player that he managed it all? I wish he won the computer or at least some of the other prizes.")
-dialogStr("PPS: Vertel eens, waar heb je zo'n goeie speler vandaan gehaald die alles heeft weten op te lossen? Ik wou dat hij of zij de computer had gewonnen, of in ieder geval eenofandere prijs.")
+dialogStr("PPS: Vertel eens, waar heb je zo'n goeie speler vandaan gehaald die alles heeft weten op te lossen? Ik wou dat hij of zij de computer had gewonnen, of in ieder geval één van de andere prijzen.")
 

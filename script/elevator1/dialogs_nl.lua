@@ -16,7 +16,7 @@ dialogStr("Zie je deze schelp?")
 
 
 dialogId("zd1-v-talis", "font_big", "It’s an age-old talisman for elevator builders who always said ’Build well. Build with Shell’.")
-dialogStr("Er is een eeuwen oud liftenbouwers gezegde: Een stevig bouwerk bouw je met schelp.")
+dialogStr("Er is een eeuwenoud liftenbouwersgezegde: Een stevig bouwerk bouw je met schelp.")
 
 
 dialogId("zd1-m-poved", "font_small", "Isn’t that shell a little bit familiar?")

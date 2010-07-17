@@ -76,7 +76,7 @@ dialogStr("Waarde burgers, onze werknemers komen morgen na middennacht bij alle 
 
 
 dialogId("vit-hs-kacir", "font_statue", "Our chief heretic Demikuls will present a lecture this evening in the small auditorium entitled ’Do the gods really exist? or Rest assured they cannot harm you!’")
-dialogStr("Onze hoofdketter Demikuls zal vanavond in het kleine auditorium een seminarium geven getiteld \"Bestaan de goden echt? of Wees gerust dat ze u geen kwaad kunnen doen!\"")
+dialogStr("Onze hoofdketter Demikuls zal vanavond in het kleine auditorium een seminarium geven getiteld “Bestaan de goden echt? of Wees gerust dat ze u geen kwaad kunnen doen!”")
 
 
 dialogId("vit-hs-jidelna1", "font_statue", "Come visit our seafood restaurant located at the Main Square. Delicious fish specialties and...")

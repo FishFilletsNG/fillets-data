@@ -2,7 +2,7 @@ dialogId("m-strasidelna", "font_small", "It is a haunted room.")
 dialogStr("Het is een spookveld.")
 
 dialogId("v-bojim", "font_big", "I fear it will be dificult to move things over this hole.")
-dialogStr("Ik ben bang dat het moeilijk wordt om dingen over dit gat heen te duwen")
+dialogStr("Ik ben bang dat het moeilijk wordt om dingen over dit gat heen te duwen.")
 
 dialogId("s-prejete", "font_green", "Here you are, as you wish.")
 dialogStr("Alsjeblieft.")

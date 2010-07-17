@@ -148,7 +148,7 @@ dialogStr("Let maar niet op hen, speler, ze proberen je voor de gek te houden.")
 
 
 dialogId("ch-r-hracka", "font_robodog", "I am but a humble cybernetic toy.")
-dialogStr("Ik ben maar een nederig cybernetisch speledingetje.")
+dialogStr("Ik ben maar een nederig, cybernetisch speledingetje.")
 
 
 dialogId("ch-r-ikdyz0", "font_robodog", "Though originally I was to be a scooter.")

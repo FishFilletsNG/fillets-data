@@ -32,7 +32,7 @@ dialogStr("Het komt me hier allemaal bekend voor.")
 
 
 dialogId("war-v-pohadka", "font_big", "When MS Word or another boring application is running on this machine, we, the computer game characters, get together in the C:\\WINDOWS\\CONFIG directory and talk.")
-dialogStr("Als er saaie programma's gedraaid worden op deze computer, zoals bij voorbeeld OpenOffice.org ofzo, dan gaan wij, de computerspelpersonages, met z'n allen naar \/etc\/ om gezellig te kletsen.")
+dialogStr("Als er saaie programma's gedraaid worden op deze computer, zoals bij voorbeeld OpenOffice.org ofzo, dan gaan wij, de computerspelpersonages, met z'n allen naar \/etc om gezellig te kletsen.")
 
 
 dialogId("war-m-pichat", "font_small", "When we don’t know what to do, we play hide-and-seek in the registry. That’s why your Windows sometimes crashes if you don’t play any games for a long period of time.")

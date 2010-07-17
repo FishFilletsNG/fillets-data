@@ -8,7 +8,7 @@ dialogStr("Ik wil hier uit.")
 
 
 dialogId("sec-v-ven2", "font_big", "How I can get out of here?")
-dialogStr("Hoe komt ik hier uit?")
+dialogStr("Hoe kom ik hier uit?")
 
 
 dialogId("sec-m-ven0", "font_small", "See, now you got out.")
@@ -76,7 +76,7 @@ dialogStr("Hun ogen bewegen steeds op dezelfde manier. Het lijkt wel alsof ze do
 
 
 dialogId("sec-m-program", "font_small", "But of course, they are controlled by computer program. Just like the undulating of water and your silly talk.")
-dialogStr("Natuurlijk, ze worden door een computer programma bestuurd. Net als de golven in het water en jouw geklets.")
+dialogStr("Natuurlijk, ze worden door een computerprogramma bestuurd. Net als de golven in het water en jouw geklets.")
 
 
 dialogId("sec-v-socha", "font_big", "Did we ever see a sculpture that would be silent for so long?")

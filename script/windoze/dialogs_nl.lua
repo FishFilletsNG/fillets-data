@@ -1,6 +1,6 @@
 
 dialogId("win-v-plocha", "font_big", "This is how it looks when you don’t keep your desktop tidy.")
-dialogStr("Zo ziet het eruit als je windows gebruikt en je desktop niet netjes houdt.")
+dialogStr("Zo ziet het eruit als je je desktop niet netjes houdt.")
 
 
 dialogId("win-m-costim0", "font_small", "Wouldn’t it help us if we select Desktop/Line up Icons?")
@@ -84,7 +84,7 @@ dialogStr("Maar ik wil het wel graag een keertje spelen, hoor!")
 
 
 dialogId("win-m-vga", "font_small", "I can’t move this window. Down there, it’s a steel cylinder, though it’s only in sixteen color VGA.")
-dialogStr("Ik kan dit venster niet bewegen. Daar beneden zit een stalen cylinder, ook al is het maar in zestien-kleurenVGA.")
+dialogStr("Ik kan dit venster niet bewegen. Daar beneden zit een stalen cylinder, ook al is het maar in zestien-kleuren VGA.")
 
 
 dialogId("win-v-pockej", "font_big", "Wait a moment, player. We have to make something clear. These two fish, they are our younger selves.")
@@ -92,7 +92,7 @@ dialogStr("Momentje, speler. We moeten even iets uitleggen. Deze twee vissen, da
 
 
 dialogId("win-m-zavrene", "font_small", "You are right. They are trapped there, poor souls.")
-dialogStr("Je hebt gelijk. We zitten daar opgesloten, arme wij.")
+dialogStr("Je hebt gelijk. We zitten daar opgesloten. Arme wij.")
 
 
 dialogId("win-v-osvobodit", "font_big", "We can’t leave them there. We have to get them out!")

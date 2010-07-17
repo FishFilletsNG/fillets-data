@@ -4,7 +4,7 @@ dialogStr("De oorlog gaat hier op de oceaanbodem gewoon door.")
 
 
 dialogId("deu-v-nepratelstvi", "font_big", "The hostility will never ebb.")
-dialogStr("De vijanderlijkheden houden nooit op.")
+dialogStr("De vijandigheden houden nooit op.")
 
 
 dialogId("deu-m-bojovat", "font_small", "They will fight to the last... parrot.")
@@ -16,7 +16,7 @@ dialogStr("En eland.")
 
 
 dialogId("deu-m-zvlastni", "font_small", "Now, this is strange. I thought that elks only live in Sweden.")
-dialogStr("Dat is raar. Ik dacht dat elenden alleen in Zweden voorkwamen.")
+dialogStr("Dat is raar. Ik dacht dat elanden alleen in Zweden voorkwamen.")
 
 
 dialogId("deu-v-slysel", "font_big", "Yes. I too have heard that they bite tourists there.")
@@ -28,7 +28,7 @@ dialogStr("Ja ruski los. Ik ben een russische eland.")
 
 
 dialogId("deu-v-radsi", "font_big", "I’d like this elk much more if it wasn’t blocking our way so much.")
-dialogStr("Ik zou deze Eland een stuk aardiger vinden als hij niet zo in de weg lag.")
+dialogStr("Ik zou deze eland een stuk aardiger vinden als hij niet zo in de weg lag.")
 
 
 dialogId("deu-l-pozalsta", "font_elk", "Pozhalsta, izvinitye.")

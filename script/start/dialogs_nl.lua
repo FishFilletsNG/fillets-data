@@ -112,7 +112,7 @@ dialogStr("Laat maar. In het tjechisch was het grappiger.")
 
 
 dialogId("1st-v-najit", "font_big", "The restart option is also located on the control panel.")
-dialogStr("De optie om te herstarten zit ook op het controle paneel.")
+dialogStr("De optie om te herstarten zit ook op het controlepaneel.")
 
 
 dialogId("1st-m-pokud", "font_small", "If you think you would rather restart the level, no problem.")

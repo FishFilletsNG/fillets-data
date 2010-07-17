@@ -1,6 +1,6 @@
 
 dialogId("wc-v-oblibene", "font_big", "The toilet is David’s favorite place.")
-dialogStr("De wc is de lievelingsplek van David.")
+dialogStr("De WC is de lievelingsplek van David.")
 
 
 dialogId("wc-m-coze", "font_small", "What?")
@@ -24,7 +24,7 @@ dialogStr("Heb ik je niet geprobeerd duidelijk te maken dat WIJ geen wc met spoe
 
 
 dialogId("wc-v-hygiena", "font_big", "The flushing toilet is more hygienic and when under water even more ecological.")
-dialogStr("Een spoelbak is hygienischer en onderwater ook milieuvriendelijker.")
+dialogStr("Een spoelbak is hygiënischer en onderwater ook milieuvriendelijker.")
 
 
 dialogId("wc-m-vlezt", "font_small", "Luckily, I needn’t climb inside.")

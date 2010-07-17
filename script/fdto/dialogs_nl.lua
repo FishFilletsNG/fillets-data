@@ -2,7 +2,7 @@ dialogId("semafor-v", "font_big", "Wait, see the red on the traffic light!")
 dialogStr("Wacht, zie je dat rode stoplicht niet!")
  
 dialogId("budova-m", "font_small", "This is the building of Fish Detective Training Organization.")
-dialogStr("Dit is het gebouw van VissenDetective Training Organisatie.")
+dialogStr("Dit is het gebouw van Vissen Detective Training Organisatie.")
 
 dialogId("rozkladaci-v", "font_big", "I think we can take it to pieces.")
 dialogStr("Ik denk dat we het kunnen afbreken.")

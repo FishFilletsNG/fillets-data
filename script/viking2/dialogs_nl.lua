@@ -208,7 +208,7 @@ dialogStr("Een krijger met vlechten. Dat geloof je toch niet.")
 
 
 dialogId("dr-3-mladi", "font_viking3", "You youngsters just think you can get away with anything today.")
-dialogStr("Jullie jongkies denken dat jullie alles kunnen maken.")
+dialogStr("Jullie jonkies denken dat jullie alles kunnen maken.")
 
 
 dialogId("dr-4-stejne", "font_viking4", "Well, I still look cool.")

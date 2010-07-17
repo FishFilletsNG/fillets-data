@@ -20,7 +20,7 @@ dialogStr("Gelukkig kan ik het niet goed zien.")
 
 
 dialogId("zd2-m-nevid1", "font_small", "If you are right, I’d rather not know what kind of religion it was.")
-dialogStr("Als je gelijkt hebt wil ik liever niet weten wat voor geloof dat was.")
+dialogStr("Als je gelijk hebt wil ik liever niet weten wat voor geloof dat was.")
 
 
 dialogId("zd2-v-symbol", "font_big", "I am afraid that if we use that strange symbol we could unwillingly initiate some dark ritual.")

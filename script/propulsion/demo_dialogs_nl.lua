@@ -4,5 +4,5 @@ dialogStr("Eekhoorntje - een begrip dat de komende paar jaren flink wat stof zal
 
 
 dialogId("dlg-x-poster2", "font_poster", "Yes, a few cases of squirrel kidnaps were reported in past 5 years, especially from Arizona, Utah and Southern Moravia, but no one really took them seriously. Now we know the whole appalling truth. Technical description is included.")
-dialogStr("Ja, in de afgelopen vijf jaar zijn een aantal gevallen van eekhoorontvoeringen gemeld, vooral vanuit Arizona, Utah en Zuid Moravia. Maar niemand nam die meldingen erg serieus. Nu weten we de volledige, vreselijke waarheid. Hier is de technische beschrijving.")
+dialogStr("Ja, in de afgelopen vijf jaar zijn een aantal gevallen van eekhoornontvoeringen gemeld, vooral vanuit Arizona, Utah en Zuid Moravië. Maar niemand nam die meldingen erg serieus. Nu weten we de volledige, vreselijke waarheid. Hier is de technische beschrijving.")
 

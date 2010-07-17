@@ -32,7 +32,7 @@ dialogStr("Het lijkt wel alsof ik in een servieskast zit.")
 
 
 dialogId("kni-v-amforstvi", "font_big", "You mean, amphory warehouse.")
-dialogStr("Je bedoelt een amforishe opslag.")
+dialogStr("Je bedoelt een amforische opslag.")
 
 
 dialogId("kni-m-amfornictvi", "font_small", "No, it should be amphora warehouse.")

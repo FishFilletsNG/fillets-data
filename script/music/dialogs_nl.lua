@@ -20,7 +20,7 @@ dialogStr("Eindelijk stilte.")
 
 
 dialogId("ves-m-dik", "font_small", "Thank you player. We couldn’t bear it any longer.")
-dialogStr("Bedankt, speler. We hadden het niet veel langer uit gehouden.")
+dialogStr("Bedankt, speler. We hadden het niet veel langer uitgehouden.")
 
 
 dialogId("ves-v-stejne", "font_big", "But we have to push it down anyway.")

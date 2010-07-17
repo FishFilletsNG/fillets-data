@@ -20,7 +20,7 @@ dialogStr("Dat zul je waarschijnlijk zelf moeten uitzoeken.")
 
 
 dialogId("bot-m-vidim", "font_small", "Finally, I can see some new kind of skull.")
-dialogStr("Eindelijk, ik zie eenofander nieuw type schedel.")
+dialogStr("Eindelijk, ik zie één of ander nieuw type schedel.")
 
 
 dialogId("bot-v-vsim", "font_big", "Did you notice that totem? It is the Mexican god Shelloxuatl.")
@@ -32,7 +32,7 @@ dialogStr("Daar lijkt het wel op.")
 
 
 dialogId("bot-m-padaji", "font_small", "These amphores fall unbearably slow.")
-dialogStr("Deze Amforen vallen onmenselijk langzaam.")
+dialogStr("Deze amforen vallen onmenselijk langzaam.")
 
 
 dialogId("bot-v-vsak0", "font_big", "Well, you are not a bear, after all.")

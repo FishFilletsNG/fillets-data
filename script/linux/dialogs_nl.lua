@@ -1,5 +1,5 @@
 dialogId("m-tatinek", "font_small", "Father was right. The linux users must be mad.")
-dialogStr("Vader had gelijk. Die linuxgebruikers zijn gek.")
+dialogStr("Vader had gelijk. Die Linuxgebruikers zijn gek.")
 dialogId("v-kdojiny", "font_big", "Who else would make so many barriers.")
 dialogStr("Wie zou er anders zo veel hindernissen maken.")
 dialogId("m-zadarmo", "font_small", "To top it all off they did it for free.")
@@ -12,7 +12,7 @@ dialogStr("Ze hebben bergen en dalen gebouwd...")
 dialogId("m-linuxaci", "font_small", "The linux users!")
 dialogStr("De Linuxgebruikers!")
 dialogId("v-ven", "font_big", "There is one last task: to put them away.")
-dialogStr("Er rest ons nog een taak: ze afvoeren.")
+dialogStr("Er rest ons nog één taak: ze afvoeren.")
 
 
 dialogId("v-musime", "font_big", "We must put them away.")
@@ -23,36 +23,36 @@ dialogId("v-radeji", "font_big", "But if we manage both we would be happier.")
 dialogStr("Maar als we beide meekrijgen zijn we blijer.")
 
 dialogId("m-nemyslis", "font_small", "Do you think that gettin one linux user out is enough?")
-dialogStr("Denk je dat één linuxgebruiker genoeg is?")
+dialogStr("Denk je dat één Linuxgebruiker genoeg is?")
 dialogId("v-forkovat", "font_big", "No I don’t. The remaining one could fork himself.")
 dialogStr("Nee, dat denk ik niet. De andere kan zichzelf forken.")
 
 
 dialogId("m-ukolem", "font_small", "Our goal is to reconcile the linux users.")
-dialogStr("Ons doel is dus om de linuxgebruikers tot verzoening te brengen.")
+dialogStr("Ons doel is dus om de Linuxgebruikers tot verzoening te brengen.")
 dialogId("v-alespon", "font_big", "Or at least to get them out.")
 dialogStr("Of in ieder geval om ze weg te brengen.")
 
 
 dialogId("m-vykaslat", "font_small", "In my opinion it would be better to give up on the linux users. Anyway, they weren’t in the assignment.")
-dialogStr("Ik denk dat we die linuxgebruikers beter kunnen laten zitten. Die stonden ook niet in de opdracht.")
+dialogStr("Ik denk dat we die Linuxgebruikers beter kunnen laten zitten. Die stonden ook niet in de opdracht.")
 dialogId("v-nabourali", "font_big", "But they hacked this game and we can’t win while they’re here.")
 dialogStr("Maar ze hebben in het spel gehackt en nu kunnen we niet winnen zolang ze hier zijn.")
 
 
 dialogId("v-snazit", "font_big", "Wow, you had to try pretty hard to put only one linux user away. You got over the steel construction.")
-dialogStr("Wow, je moest hard werken om een linuxgebruiker weg te krijgen. Je bent over die staalconstructie heen gekomen.")
+dialogStr("Wow, je moest hard werken om een Linuxgebruiker weg te krijgen. Je bent over die staalconstructie heen gekomen.")
 dialogId("m-nestaci", "font_small", "But it isn’t enough to win.")
-dialogStr("maar het is niet genoeg om te winnen")
+dialogStr("Maar het is niet genoeg om te winnen")
 
 
 dialogId("v-vyrobil", "font_big", "I would like to tell the player to not take this room too seriously. After all a linux user made it.")
-dialogStr("Ik wil graag aan de speler duidelijk maken dat hij of zij dit veld niet serieus moet nemen. Het is allemaal door een linuxgebruiker gemaakt.")
+dialogStr("Ik wil graag aan de speler duidelijk maken dat hij of zij dit veld niet serieus moet nemen. Het is allemaal door een Linuxgebruiker gemaakt.")
 dialogId("m-sileny", "font_small", "He was probably mad.")
 dialogStr("Die was vast niet goed snik.")
 
 dialogId("v-osobne", "font_big", "Player, if you are a linux user, don’t take this madness personally.")
-dialogStr("Speler, als je linux gebruikt, neem de gekheid dan niet serieus.")
+dialogStr("Speler, als je Linux gebruikt, neem de gekheid dan niet serieus.")
 dialogId("m-ostatni", "font_small", "We aren’t talking about you, we are talking about the others.")
 dialogStr("We hebben het niet over jou, we hebben het over de rest.")
 
@@ -71,7 +71,7 @@ dialogId("1-odpadnou", "font_linuxer1", "If you join three bubbles of the same c
 dialogStr("Als je drie bellen van dezelfde kleur aan elkaar maakt vallen ze weg.")
 
 dialogId("m-vtipni", "font_small", "If only the linux users would be funny.")
-dialogStr("Als de linuxgebruikers nou grappig waren...")
+dialogStr("Als de Linuxgebruikers nou grappig waren...")
 dialogId("1-rozdil", "font_linuxer1", "I know one super joke, do you know the difference between chattr and chmod?")
 dialogStr("Ik weet een goeie grap. Wat is het verschil tussen chattr en chmod?")
 dialogId("text14", "font_white", "man chattr > 1; man chmod > 2; diff 1 2")
@@ -154,11 +154,11 @@ dialogStr("De GIMP-ontwikkelaars beweren dat om hun incompetentie te verbergen."
 
 
 dialogId("1-nebavi", "font_linuxer1", "I am bored with this music.")
-dialogStr("Deze Muziek begint me te vervelen.")
+dialogStr("Deze muziek begint me te vervelen.")
 dialogId("2-skriptik", "font_linuxer2", "Couldn’t you write a script for this?")
 dialogStr("Kun je daar geen scriptje voor schrijven?")
 dialogId("v-prepinani", "font_big", "And I am bored with the music switching.")
-dialogStr("Und die Musikwechsel langweilen mich.")
+dialogStr("En ik ben het zat dat de muziek steeds wisselt.")
 
 dialogId("text0", "font_white",  "mplayer kufrik.ogg")
 dialogStr("mplayer kufrik.ogg")

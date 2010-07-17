@@ -1,6 +1,6 @@
 
 dialogId("pot-v-lod", "font_big", "Could this be Captain Silver’s ship?")
-dialogStr("Zou dit het schip van Kapitein Silver zijn?")
+dialogStr("Zou dit het schip van kapitein Silver zijn?")
 
 
 dialogId("pot-m-soud", "font_small", "What makes you think so?")
@@ -24,7 +24,7 @@ dialogStr("Een mooie hoed.")
 
 
 dialogId("pot-m-klob", "font_small", "Your stetson is quite good, too.")
-dialogStr("Jou piratensteek is ook niet slecht.")
+dialogStr("Jouw piratensteek is ook niet slecht.")
 
 
 dialogId("pot-v-hlave", "font_big", "What is that on your head?")

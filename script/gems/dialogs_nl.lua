@@ -12,7 +12,7 @@ dialogStr("Sta even stil bij het feit dat ik geen vin kan verroeren.")
 
 
 dialogId("zav-v-venku", "font_big", "It’ll be much nicer when we get out.")
-dialogStr("Het zal vast veel worden zijn als we hier weg zijn.")
+dialogStr("Het wordt vast beter als we hier weg zijn.")
 
 
 dialogId("zav-v-zaval", "font_big", "This is very dangerous cave-in. We are lucky to be alive.")
@@ -20,7 +20,7 @@ dialogStr("Dat was een gevaarlijke instorting. We hebben geluk dat we nog leven.
 
 
 dialogId("zav-m-hopskok", "font_small", "Don’t speak too soon. We’re still in here.")
-dialogStr("Preis de dag niet voor het avond is. We zitten hier nog steeds opgesloten.")
+dialogStr("Prijs de dag niet voor het avond is. We zitten hier nog steeds opgesloten.")
 
 
 dialogId("zav-m-kameny", "font_small", "Don’t you think that these stones are arranged in a different way?")

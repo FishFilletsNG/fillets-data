@@ -8,11 +8,11 @@ dialogStr("Wat doe je daarboven?")
 
 
 dialogId("pz-v-klice1", "font_big", "These must be some hardware keys.")
-dialogStr("Dit zijn vast hardware-sleutels, ofzo.")
+dialogStr("Dit zijn vast hardwaresleutels, ofzo.")
 
 
 dialogId("pz-v-klice2", "font_big", "There are many hardware keys here.")
-dialogStr("Er zijn hier een hoop hardware-sleutels.")
+dialogStr("Er zijn hier een hoop hardwaresleutels.")
 
 
 dialogId("pz-v-co1", "font_big", "What do you have down there?")

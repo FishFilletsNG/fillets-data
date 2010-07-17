@@ -4,7 +4,7 @@ dialogStr("Ik denk dat we hier misschien wat aanwijzingen kunnen vinden over rui
 
 
 dialogId("mot-v-konvencni", "font_big", "This looks more like conventional propulsion for the landing craft.")
-dialogStr("Dit ziet er meer uit als conventionele aandrijving voor het landingsvoertuigje.")
+dialogStr("Dit ziet er meer uit als een conventionele aandrijving voor het landingsvoertuigje.")
 
 
 dialogId("mot-m-tak", "font_small", "So. We found the drive. We have achieved one of the objectives of our mission.")

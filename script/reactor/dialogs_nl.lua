@@ -4,7 +4,7 @@ dialogStr("Zie je dat roze ding daar?")
 
 
 dialogId("rea-v-coto", "font_big", "What could it be?")
-dialogStr("Wat is dat in 's Hemelsnaam?")
+dialogStr("Wat is dat in 's hemelsnaam?")
 
 
 dialogId("rea-m-nevim", "font_small", "I have no idea, but it’s disgusting.")

@@ -24,7 +24,7 @@ dialogStr("Misschien moet je eens nadenken over hoe je die tafels moet verplaats
 
 
 dialogId("tr-m-ztuhl", "font_small", "Everything is so frozen here...")
-dialogStr("Alles zier er hier zo bevroren uit...")
+dialogStr("Alles ziet er hier zo bevroren uit...")
 
 
 dialogId("tr-m-au1", "font_small", "Ow!")

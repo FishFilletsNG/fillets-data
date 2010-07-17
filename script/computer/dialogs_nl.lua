@@ -12,7 +12,7 @@ dialogStr("Wow, wat een rare boel!")
 
 
 dialogId("poc-v-kam0", "font_big", "Where can man - I mean fish - get by climbing into a toilet?")
-dialogStr("Waar kan een mens - uh, een vis - terechtkomen door een wc in te zwemmen?")
+dialogStr("Waar kan een mens - uh, een vis - terechtkomen door een WC in te zwemmen?")
 
 
 dialogId("poc-v-kam1", "font_big", "It looks like a cozy little dump.")
@@ -20,11 +20,11 @@ dialogStr("Het ziet er wel gezellig uit.")
 
 
 dialogId("poc-v-kam2", "font_big", "Look, what kind of things people have flushed down the toilet.")
-dialogStr("Moet je zien wat mensen allemaal door de wc spoelen.")
+dialogStr("Moet je zien wat mensen allemaal door de WC spoelen.")
 
 
 dialogId("poc-v-kam3", "font_big", "I thought it would be worse when I was climbing in.")
-dialogStr("Toen we naarbinnen zwommen was ik bang dat het een stuk erger zou zijn.")
+dialogStr("Toen we naar binnen zwommen was ik bang dat het een stuk erger zou zijn.")
 
 
 dialogId("poc-v-nenajde", "font_big", "You can find many strange things in such a dump.")
@@ -36,11 +36,11 @@ dialogStr("Denk je dat dit de computer is die op het spel staat?")
 
 
 dialogId("poc-v-multimed", "font_big", "Surely not! This is no powerful multimedia computer. This is but an XT machine with a twelve inch display.")
-dialogStr("Vast niet! Dit is geen krachtige multimediacomputer. Dis een ouwe XT met een 12 inch schermpje.")
+dialogStr("Vast niet! Dit is geen krachtige multimediacomputer. Dit is een ouwe XT met een 12 inch schermpje.")
 
 
 dialogId("poc-v-vyresil", "font_big", "The one who solves, I mean who has solved this, will receive, I mean will have received, MMX based machine with a 3Dfx card, plenty of RAM, a huge hard disk...")
-dialogStr("Degene die dit spel op zal lossen, ik bedoel opgelost heeft, die ontvang een patsbak met 3Dfx video kaart, heel veel werkgeheugen en een enorme harde schijf, uh zal hebben ontvangen...")
+dialogStr("Degene die dit spel op zal lossen, ik bedoel opgelost heeft, die ontvangt een patsbak met 3Dfx videokaart, heel veel werkgeheugen en een enorme harde schijf, uh zal hebben ontvangen...")
 
 
 dialogId("poc-m-kcemu", "font_small", "And what is it for? I for one know plenty of games almost as good as this one that could easily run on this XT machine.")

@@ -8,7 +8,7 @@ dialogStr("Het is een soort schelpdier. We zullen het wel weer de trap op moeten
 
 
 dialogId("sch-v-setkani", "font_big", "I can see it now: ‘Shell Meets Flowerpot’. That’s almost like an iron and a sewing machine meeting on an operating table.")
-dialogStr("Dat wordt dan \"Schelpdier Ontmoet Bloempot\". Dat is bijna net zo erg als een strijkijzer en een naaimachine die elkaar op een operatietafel ontmoeten.")
+dialogStr("Dat wordt dan “Schelpdier Ontmoet Bloempot”. Dat is bijna net zo erg als een strijkijzer en een naaimachine die elkaar op een operatietafel ontmoeten.")
 
 
 dialogId("sch-m-moc0", "font_small", "I’m sorry, I got a bit carried away.")

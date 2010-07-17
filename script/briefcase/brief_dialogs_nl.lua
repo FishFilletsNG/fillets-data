@@ -1,10 +1,10 @@
 
 dialogId("kd-uvod", "font_white", "Good morning, fish. This is an affair of the gravest importance and so we have chosen you, our ablest underwater agents.")
-dialogStr("Goeie morgen, vissen. Dit is een zeer belangrijke zaak en daarom benaderen we jullie, onze beste onderwateragenten.")
+dialogStr("Goede morgen, vissen. Dit is een zeer belangrijke zaak en daarom benaderen we jullie, onze beste onderwateragenten.")
 
 
 dialogId("kd-ufo", "font_white", "Agents of FDTO - Fish Detective Training Organization - managed to get hold of several amateur snapshots of an extraterrestrial object which has crashed somewhere in your vicinity. Your mission, if you choose to accept it, will be to recover the UFO and acquire all the information you can about the principles and nature of interstellar propulsion.")
-dialogStr("Agenten van de VDTO - VissenDetective Training Organisatie - zijn erin geslaagd om een aantal amateuropnamen te bemachtigen van een buitenaards object dat ergens bij jullie in de buurt is neergestort. Jullie missie, als jullie die accepteren, is om de vliegende schotel te bemachtigen en zoveel mogelijk informatie te vinden over de interstellaire aandrijving.")
+dialogStr("Agenten van de VDTO - Vissen Detective Training Organisatie - zijn erin geslaagd om een aantal amateuropnamen te bemachtigen van een buitenaards object dat ergens bij jullie in de buurt is neergestort. Jullie missie, als jullie die accepteren, is om de vliegende schotel te bemachtigen en zoveel mogelijk informatie te vinden over de interstellaire aandrijving.")
 
 
 dialogId("kd-mesto", "font_white", "You should also try to close some of our as yet unsolved cases. We are mostly interested in the circumstances surrounding the sinking of the mythical city, by chance in the same area.")
@@ -16,7 +16,7 @@ dialogStr("Deze zaak houdt wellicht verband met het mysterie van de Bermuda Drie
 
 
 dialogId("kd-silver", "font_white", "One of the lost ships is rumored to have belonged to the legendary Captain Silver. There are still many uncertainties surrounding this famous pirate. Most of all we are interested in the map which shows the location of his buried treasure.")
-dialogStr("Een van de verloren schepen zou het schip van de legendarische Kapitein Silver zijn geweest. Er is nog steeds een hoop onduidelijkheid omtrend deze beruchte piraat. We zijn vooral geïnteresseerd in de kaart waar de verstopplaats van zijn schat op is aangegeven.")
+dialogStr("Een van de verloren schepen zou het schip van de legendarische kapitein Silver zijn geweest. Er is nog steeds een hoop onduidelijkheid omtrend deze beruchte piraat. We zijn vooral geïnteresseerd in de kaart waar de verstopplaats van zijn schat op is aangegeven.")
 
 
 dialogId("kd-pocitac", "font_white", "One of your most important tasks is to find the computer hidden in the deep by a certain criminal organization. It contains data about a project which could change the entire world.")

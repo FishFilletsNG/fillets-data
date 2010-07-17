@@ -112,7 +112,7 @@ dialogStr("In tegenstelling tot mijn grotere partner kan ik geen stalen objecten
 
 
 dialogId("help14", "font_big", "We have loaded our saved game for the last time. Now we’ll show you all the things we’re capable of.")
-dialogStr("We hebben ons opgeslagen spel van de vorige keer geladen. Nu laten we je vanalles zien dat we kunnen.")
+dialogStr("We hebben ons opgeslagen spel van de vorige keer geladen. Nu laten we je zien wat we allemaal kunnen.")
 
 
 dialogId("help15", "font_small", "We can always pick up objects and then let them fall.")

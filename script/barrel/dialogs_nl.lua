@@ -24,7 +24,7 @@ dialogStr("Nou ja, misschien heb je wel gelijk.")
 
 
 dialogId("bar-v-sud", "font_big", "And the cause is doubtless this giant barrel. We have to get it out somehow.")
-dialogStr("En de oorzaak is duidelijk dit gigantische vat. Die moeten we hier weg zien te krijgen.")
+dialogStr("En de oorzaak is duidelijk dit gigantische vat. Dat moeten we hier weg zien te krijgen.")
 
 
 dialogId("bar-m-panb", "font_small", "Yes. Let’s get to work. We can drop it on the Mr. B.’s front yard afterwards.")
@@ -56,7 +56,7 @@ dialogStr("Je krijg genoeg tijd om rustig van ze te genieten.")
 
 
 dialogId("bar-v-lih", "font_big", "If we take them with us and store them in alcohol, we could found ourselves a freak show.")
-dialogStr("Als we ze mee nemen en in alcohol bewaren, dan kunnen we een rariteiten kabinet beginnen.")
+dialogStr("Als we ze mee nemen en in alcohol bewaren, dan kunnen we een rariteitenkabinet beginnen.")
 
 
 dialogId("bar-m-fdto", "font_small", "And FDTO isn’t enough for you?")

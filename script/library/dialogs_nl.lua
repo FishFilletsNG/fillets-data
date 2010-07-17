@@ -20,7 +20,7 @@ dialogStr("Moet je zien, het heeft onze kasten stuk gemaakt.")
 
 
 dialogId("vrak-m-vrak2", "font_small", "Look, it invaded our library.")
-dialogStr("Kijk nou, het is in onze bilblioteek binnengevallen.")
+dialogStr("Kijk nou, het is in onze biblioteek binnengevallen.")
 
 
 dialogId("vrak-m-kupovat0", "font_small", "See? You shouldn’t have bought so many books.")
@@ -68,11 +68,11 @@ dialogStr("Deze zou ik dus weggooien, bij voorbeeld.")
 
 
 dialogId("vrak-v-knihy0", "font_big", "The Three Little Shrimp")
-dialogStr("De drie klein garnaaltjes.")
+dialogStr("De Drie Kleine Garnaaltjes.")
 
 
 dialogId("vrak-v-knihy1", "font_big", "The Gingerbread Submarine")
-dialogStr("De krabbenvanger van Hamelen.")
+dialogStr("De Krabbenvanger van Hamelen.")
 
 
 dialogId("vrak-v-knihy2", "font_big", "Goldilocks and the Three Lobsters")
@@ -80,11 +80,11 @@ dialogStr("Doornannemoontje.")
 
 
 dialogId("vrak-v-knihy3", "font_big", "Sharkerella")
-dialogStr("De zeewierstaak.")
+dialogStr("De Zeewierstaak.")
 
 
 dialogId("vrak-v-knihy4", "font_big", "Slimy Squid and the Seven Dwarfs")
-dialogStr("Glibberige inktvis en de zeven dwergen.")
+dialogStr("Glibberige Inktvis en de Zeven Dwergen.")
 
 
 dialogId("vrak-m-pohadky", "font_small", "Never! My lovely fairy-tales.")

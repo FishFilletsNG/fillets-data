@@ -44,7 +44,7 @@ dialogStr("We zouden hem terug kunnen stoppen als blijk van ons respect voor de 
 
 
 dialogId("sp-m-vratit1", "font_small", "Of what? ‘Where are you running? I need to order eight swords.’ The Providence itself unplugged that hole. Just imagine you’d hear such things at home. Day by day.")
-dialogStr("Aan wat? \"Waar ga jij zo snel naar toe? Ik moet acht zwaarden bestellen.\" De Voorzienigheid zelve heeft die stop eruit getrokken. Stel je voor dat je zulke dingen de hele dag overal moest aanhoren, dag in dag uit.")
+dialogStr("Aan wat? “Waar ga jij zo snel naar toe? Ik moet acht zwaarden bestellen.” De Voorzienigheid zelve heeft die stop eruit getrokken. Stel je voor dat je zulke dingen de hele dag overal moest aanhoren, dag in dag uit.")
 
 
 dialogId("sp-m-kalet", "font_small", "And moreover: is it likely that anybody would ever come here? Only sepias will nibble it occasionally.")

@@ -8,5 +8,5 @@ dialogStr("We hebben de Gralen gebombardeerd met vreselijke schuttingtaal en bij
 
 
 dialogId("dlg-x-poster3", "font_poster", "It is also possible that we have encountered the whole Holy Service.")
-dialogStr("Het is ook mogelijk dat we een veel groter deel van het Heilig Servies hebben gevonden.")
+dialogStr("Het is ook mogelijk dat we een veel groter deel van het Heilige Servies hebben gevonden.")
 

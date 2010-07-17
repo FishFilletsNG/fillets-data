@@ -1,6 +1,6 @@
 
 dialogId("uts-m-otresy", "font_small", "My goodness, the impact created cave-in!")
-dialogStr("Lieve Hemel, door de inslag is het hier ingestort!")
+dialogStr("Lieve hemel, door de inslag is het hier ingestort!")
 
 
 dialogId("uts-v-projet0", "font_big", "I can’t go through this cave-in, we have to find another exit.")

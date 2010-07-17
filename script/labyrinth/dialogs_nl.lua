@@ -8,7 +8,7 @@ dialogStr("Dit is een ongewone ruimte.")
 
 
 dialogId("bl-m-funkce", "font_small", "The position of assistant deputy design coordinator was introduced because of this level. So that its author got his own credit.")
-dialogStr("De positie van assistent vicedesigncoordinator is in het leven geroepen vanwege dit veld. Zodat de auteur ervan z'n naam in de aftiteling kreeg.")
+dialogStr("De positie van assistent vice-designcoordinator is in het leven geroepen vanwege dit veld. Zodat de auteur ervan z'n naam in de aftiteling kreeg.")
 
 
 dialogId("bl-v-pozadi", "font_big", "Enough about the game background. Let’s get to work.")
@@ -40,7 +40,7 @@ dialogStr("Hoe heeft dat koraal zo vreemd kunnen groeien?")
 
 
 dialogId("bl-v-pestovany", "font_big", "It is carefully grown for the logical games players.")
-dialogStr("Het is zorgvuldig bijgestuurd voor de logica-spelletjesspelers.")
+dialogStr("Het is zorgvuldig bijgestuurd voor de logicaspelletjesspelers.")
 
 
 dialogId("bl-v-proc", "font_big", "Why do you want to put that coral down, anyway?")

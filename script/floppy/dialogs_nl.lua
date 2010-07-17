@@ -8,11 +8,11 @@ dialogStr("Denk je dat dat hem is?")
 
 
 dialogId("disk-m-vejit", "font_small", "How could it all fit on one three and a half inch floppy?")
-dialogStr("Hoe kan alles nou op één drieeneenhalf-inch diskette passen?")
+dialogStr("Hoe kan alles nou op één drieëneenhalf-inch diskette passen?")
 
 
 dialogId("disk-v-metrova", "font_big", "Look how much bigger than me it is. It is a three and a half meter floppy.")
-dialogStr("Moet je zien hoeveel groter het is dan ik. Het is een drieeneenhalf-METER diskette.")
+dialogStr("Moet je zien hoeveel groter het is dan ik. Het is een drieëneenhalf-METER diskette.")
 
 
 dialogId("disk-m-velka", "font_small", "That’s better. Big plan, big disk. That makes sense.")
