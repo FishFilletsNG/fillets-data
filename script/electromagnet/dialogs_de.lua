@@ -111,7 +111,7 @@ dialogId("rand-4-0", "font_big", "Why do the magnets stay at fixed distances and
 dialogStr("Warum halten die Magnete eigentlich einen festen Abstand und ziehen sich nicht stärker an?")
 
 dialogId("rand-4-1", "font_small", "They are alien magnets, they work differently.")
-dialogStr("Es sind auszerirdische Magnete, die funktionieren anders.")
+dialogStr("Es sind außerirdische Magnete, die funktionieren anders.")
 
 dialogId("rand-4-2", "font_big", "I see.")
 dialogStr("Ach so.")
