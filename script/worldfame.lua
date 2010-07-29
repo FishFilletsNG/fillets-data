@@ -80,7 +80,7 @@ node_bestSolution("floppy", 998, "Gabor Braun")
  
 node_bestSolution("hanoi", 404, "Masaaki Irie")
 node_bestSolution("rush", 852, "Miroslav Olšák")
-node_bestSolution("fdto", 247, "Brian Raiter")
+node_bestSolution("fdto", 243, "Masaaki Irie")
 node_bestSolution("rotate", 213, "Masaaki Irie")
 node_bestSolution("nowall", 418, "Masaaki Irie")
 node_bestSolution("hole", 459, "Masaaki Irie")
