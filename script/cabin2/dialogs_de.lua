@@ -32,7 +32,7 @@ dialogStr("Haben wir das nicht irgendwo schon mal gesehen?")
 
 
 dialogId("ka2-m-kdepak", "font_small", "No, you’re wrong. This cabin is one hundred and forty four squares larger...")
-dialogStr("Falsch. Diese Kajüte ist einhundertvierundvierzig Ecken größer...")
+dialogStr("Falsch. Diese Kajüte ist einhundertvierundvierzig Kästchen größer...")
 
 
 dialogId("ka2-v-papousek", "font_big", "Look at that parrot!!!")
