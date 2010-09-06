@@ -18,7 +18,7 @@ node_bestSolution("bathyscaph", 82, "Pavel Danihelka")
 node_bestSolution("tank", 402, "Josef Peterka")
 node_bestSolution("viking2", 341, "Uoti Urpala")
 node_bestSolution("party2", 283, "Gabor Braun")
-node_bestSolution("gods", 537, "Masaaki Irie")
+node_bestSolution("gods", 533, "Félix Marcotte-Gagnon")
  
 node_bestSolution("elevator1", 200, "Pavel Danihelka")
 node_bestSolution("city", 481, "Gabor Braun")
