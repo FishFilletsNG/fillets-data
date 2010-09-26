@@ -88,4 +88,4 @@ node_bestSolution("key", 560, "Masaaki Irie")
 node_bestSolution("keys", 281, "Erik Hajduk")
 node_bestSolution("linux", 665, "Masaaki Irie")
 
-node_bestSolution("electromagnet", 482, "Josef Peterka")
+node_bestSolution("electromagnet", 480, "Erik Hajduk")
