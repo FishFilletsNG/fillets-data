@@ -31,7 +31,7 @@ node_bestSolution("crabshow", 340, "Gabor Braun")
 node_bestSolution("elevator2", 455, "Gabor Braun")
 node_bestSolution("atlantis", 531, "Uoti Urpala")
  
-node_bestSolution("corals", 254, "Erik Hajduk")
+node_bestSolution("corals", 252, "David Glass")
 node_bestSolution("labyrinth", 278, "Mark Byers")
 node_bestSolution("imprisoned", 275, "Josef Peterka")
 node_bestSolution("society", 110, "Radovan Málek")
