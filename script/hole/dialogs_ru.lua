@@ -1,4 +1,4 @@
-==
+-- FIXME asm_new
 dialogId("m-strasidelna", "font_small", "It is a haunted room.")
 dialogStr("Это комната обитаема.")
 
