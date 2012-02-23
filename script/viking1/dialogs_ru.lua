@@ -32,7 +32,7 @@ dialogId("dr-m-musela", "font_small", "She must have sunk fast. The oarsmen are 
 dialogStr("Он, наверно, быстро затонул. Гребцы до сих пор на своих местах.")
 
 dialogId("dr-v-mozna", "font_big", "Maybe they sank her on purpose. Warriors would always accompany their leader on his way to Valhalla.")
-dialogStr("Возможно, они специально потопили его. Воины всегда сопровождают своего лидера на пути в Валхаллу.")
+dialogStr("Возможно, его специально потопили. Воины всегда сопровождают своего лидера на пути в Валхаллу.")
 
 dialogId("dr-m-hruza", "font_small", "That’s awful. They look like they’re still alive.")
 dialogStr("Это ужасно. Они выглядят как живые.")
@@ -44,7 +44,7 @@ dialogId("d1-1-hudba1", "font_viking1", "They stopped playing!")
 dialogStr("Они перестали играть!")
 
 dialogId("d1-1-hudba2", "font_viking1", "The music stopped again!")
-dialogStr("Музыка остановилась снова!")
+dialogStr("Музыка снова остановилась!")
 
 dialogId("d1-2-brb0", "font_viking2", "Oh, no!")
 dialogStr("О, нет!")
@@ -53,7 +53,7 @@ dialogId("d1-2-brb1", "font_viking2", "Again?")
 dialogStr("Снова?")
 
 dialogId("d1-2-brb2", "font_viking2", "Oh, not again!")
-dialogStr("О, не снова!")
+dialogStr("О, только не снова!")
 
 dialogId("d1-3-brb0", "font_viking3", "What happened?")
 dialogStr("Что случилось?")
@@ -65,7 +65,7 @@ dialogId("d1-3-brb2", "font_viking3", "Oh, no!")
 dialogStr("О, нет!")
 
 dialogId("d1-4-brb0", "font_viking4", "The bloody music stopped!")
-dialogStr("Чертова музыка остановилась!")
+dialogStr("Чёртова музыка остановилась!")
 
 dialogId("d1-4-brb1", "font_viking4", "What are they doing up there?")
 dialogStr("Что они там делают?")
@@ -80,5 +80,5 @@ dialogId("d1-5-nevadi1", "font_viking5", "Never mind that, boys. We can sing our
 dialogStr("Не обращайте внимания, ребята. Мы можем петь и без музыки!")
 
 dialogId("d1-5-nevadi2", "font_viking5", "Never mind, boys. We can sing ourself, like in the old times!")
-dialogStr("Не обращайте внимания, друзья. Мы можем петь и без музыки как в былые времена!")
+dialogStr("Не обращайте внимания, друзья. Мы можем петь и без музыки, как в былые времена!")
 

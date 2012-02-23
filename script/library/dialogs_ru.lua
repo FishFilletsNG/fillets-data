@@ -78,13 +78,13 @@ dialogId("vrak-m-cteni0", "font_small", "Why do we have so many books if we cann
 dialogStr("Зачем нам так много книг, если мы всё равно не можем их достать?")
 
 dialogId("vrak-m-cteni1", "font_small", "If you did some work-outs instead of reading about silly affairs you could fit yourself in.")
-dialogStr("Если бы занимался спортом вместо чтения всякой ерунды, ты бы пролез.")
+dialogStr("Если бы ты занимался спортом, вместо чтения всякой ерунды, ты бы пролез.")
 
 dialogId("vrak-m-cteni2", "font_small", "I told you not to buy that Complete Dictionary of the Abnormal.")
-dialogStr("Я просила тебя не покупать словарь ненормативной лексики.")
+dialogStr("Я же просила тебя не покупать Самый полный словарь ненормативной лексики.")
 
 dialogId("vrak-v-policky", "font_big", "Let’s think. We can’t get these books off the shelf.")
-dialogStr("Давай подумаем. Я не могу сбросить эти книги с полки.")
+dialogStr("Давай подумаем. Мы не можем сбросить эти книги с полки.")
 
 dialogId("vrak-m-predmety", "font_small", "There are only two objects here which we can move with any results.")
 dialogStr("Здесь только два предмета, которые мы можем двигать, не опасаясь за последствия.")
@@ -105,5 +105,5 @@ dialogId("vrak-m-ocel", "font_small", "How am I to get there through that steel?
 dialogStr("Как я пройду через этот металл?!")
 
 dialogId("vrak-m-restart", "font_small", "What about restarting and trying it again from scratch?")
-dialogStr("Как насчёт того, чтобы перезапустить уровень и начать всё с нуля?")
+dialogStr("Как насчёт того, чтобы перезапустить уровень и попробовать ещё раз?")
 

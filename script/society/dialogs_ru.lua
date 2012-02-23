@@ -1,17 +1,17 @@
 dialogId("mik-v-sakra", "font_big", "Dang, that snail is blocking the way.")
-dialogStr("Эта улитка преграждает путь.")
+dialogStr("Чёрт, улитка преграждает путь.")
 
 dialogId("mik-v-projet", "font_big", "I can’t swim through.")
 dialogStr("Я не могу проплыть.")
 
 dialogId("mik-m-krab", "font_small", "Those crabs are too talkative.")
-dialogStr("Эти крабы сликом болтливые.")
+dialogStr("Эти крабы слишком болтливые.")
 
 dialogId("mik-m-poust", "font_small", "They don’t look like hermits.")
 dialogStr("Они не похожи на отшельников.")
 
 dialogId("mik-m-tusit", "font_small", "I had no idea that hermit crabs could be so talkative.")
-dialogStr("Я не думал, что крабы отшельники могут быть болтливыми.")
+dialogStr("Я представить не могла, что крабы-отшельники могут быть настолько болтливыми.")
 
 dialogId("mik-v-ticho0", "font_big", "Shut up!")
 dialogStr("Заткнись!")
@@ -35,13 +35,13 @@ dialogId("mik-m-myslit", "font_small", "Now we can calmly ponder how to get out 
 dialogStr("Теперь мы можем спокойно обдумать, как выбраться отсюда.")
 
 dialogId("mik-m-proc", "font_small", "White fish, why do you have such big eyes?")
-dialogStr("Белая рыба, почему у вас такие большие глаза?")
+dialogStr("Белая рыба, почему у Вас такие большие глаза?")
 
 dialogId("mik-v-videt", "font_big", "All the better to see you with.")
 dialogStr("Чтобы лучше видеть тебя.")
 
 dialogId("mik-m-konik", "font_small", "I’ve seen this seahorse somewhere before.")
-dialogStr("Я видел этого морского конька раньше.")
+dialogStr("Я уже где-то видела этого морского конька.")
 
 dialogId("mik-x-stebet0", "", "")
 dialogStr("")

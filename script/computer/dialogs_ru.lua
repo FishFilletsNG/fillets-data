@@ -1,6 +1,6 @@
 
 dialogId("poc-m-lezt0", "font_small", "That’s another fine mess.")
-dialogStr("Еще один забавный беспорядок.")
+dialogStr("Ещё один забавный беспорядок.")
 
 dialogId("poc-m-lezt1", "font_small", "What kind of place is this?")
 dialogStr("Что это за место?")
@@ -33,7 +33,7 @@ dialogId("poc-v-vyresil", "font_big", "The one who solves, I mean who has solved
 dialogStr("Тот, кто пройдет этот уровень первым (вернее, тот, кто уже прошел), получит (то есть, получил) новый MMX-компьютер с ускорителем 3Dfx, кучей оперативной памяти и огромным жёстким диском...")
 
 dialogId("poc-m-kcemu", "font_small", "And what is it for? I for one know plenty of games almost as good as this one that could easily run on this XT machine.")
-dialogStr("А зачем он нужен? Я знаю много игр, которые ничуть не хуже, чем эта, но будут спокойно работать и на XT-машине.")
+dialogStr("А зачем он нужен? Я вот знаю много игр, почти таких же хороших, как эта, которые могут спокойно работать и на XT-машине.")
 
 dialogId("poc-v-pssst", "font_big", "Shhhh!")
 dialogStr("Тссс!")
@@ -45,13 +45,13 @@ dialogId("poc-m-mohlby", "font_small", "This could be it.")
 dialogStr("Кто знает, возможно.")
 
 dialogId("poc-v-stahni", "font_big", "So what are we waiting for? Put that suspicious data on the diskette and off we go.")
-dialogStr("Тогда чего мы ждём? Перепиши нужную информацию на дискету и поплыли отсюда.")
+dialogStr("Тогда чего мы ждём? Перепиши нужную информацию на дискету, и поплыли отсюда.")
 
 dialogId("poc-m-ukryta", "font_small", "It won’t be as easy as that. The data is surely going to be hidden somewhere. We have to go in.")
 dialogStr("Всё не может быть так просто, данные должны быть спрятаны. Нам нужно идти дальше.")
 
 dialogId("poc-v-dira", "font_big", "And what about getting in through that opening?")
-dialogStr("Как насчет того, чтобы пролезть в то отверстие?")
+dialogStr("Как насчёт того, чтобы пролезть в то отверстие?")
 
 dialogId("poc-m-mechanika", "font_small", "That is a floppy disk drive.")
 dialogStr("Это флоппи-дисковод.")
@@ -60,11 +60,11 @@ dialogId("poc-m-zezadu", "font_small", "I have to get to the back of it.")
 dialogStr("Мне нужно попасть за него.")
 
 dialogId("poc-m-vyvrtka", "font_small", "Put down that corkscrew and come to help me.")
-dialogStr("Брось штопор и помоги мне.")
+dialogStr("Бросай штопор и помоги мне.")
 
 dialogId("poc-m-kram", "font_small", "Oh my, what a sloppy machine. So big, so heavy and surely so slow.")
-dialogStr("Боже, какая неопрятная машина. Такая большая, тяжёлая и, наверняка, очень медленная.")
+dialogStr("Боже, какая грязная машина. Такая большая, такая тяжёлая и наверняка такая медленная.")
 
 dialogId("poc-v-mono", "font_big", "And moreover only mono.")
-dialogStr("И к тому же, без стереозвука.")
+dialogStr("И к тому же без стереозвука.")
 

@@ -11,10 +11,10 @@ dialogId("deu-v-losa", "font_big", "And elk.")
 dialogStr("И лося.")
 
 dialogId("deu-m-zvlastni", "font_small", "Now, this is strange. I thought that elks only live in Sweden.")
-dialogStr("Странно. Я думал, что лоси живут в Швеции.")
+dialogStr("Странно. Я думала, что лоси живут только в Швеции.")
 
 dialogId("deu-v-slysel", "font_big", "Yes. I too have heard that they bite tourists there.")
-dialogStr("Да. Я тоже слышал, что они там кусают туристов.")
+dialogStr("Да. Я также слышал, что они там кусают туристов.")
 
 dialogId("deu-l-los", "font_elk", "Ya rusky los.")
 dialogStr("Я русский лось.")
@@ -26,10 +26,10 @@ dialogId("deu-l-pozalsta", "font_elk", "Pozhalsta, izvinitye.")
 dialogStr("Пожалуйста, извините.")
 
 dialogId("deu-p-schnell", "font_parrot", "Schnell, schnell.")
-dialogStr("Быстро, быстро.")
+dialogStr("Schnell, schnell.")
 
 dialogId("deu-p-los", "font_parrot", "Was ist denn los?")
-dialogStr("Что случилось?")
+dialogStr("Was ist denn los?")
 
 dialogId("deu-l-los0", "font_elk", "Ja los!")
 dialogStr("Я лось!")
@@ -74,5 +74,5 @@ dialogId("deu-l-necital", "font_elk", "Ja nichevo nechital.")
 dialogStr("Я ничего не читал.")
 
 dialogId("deu-l-tovarisci", "font_elk", "Tovarishchi, bratya i sestri, dorogiye druzya...")
-dialogStr("Товарищи, братья и сестры, дорогие друзья...")
+dialogStr("Товарищи, братья и сёстры, дорогие друзья...")
 

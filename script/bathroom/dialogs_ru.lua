@@ -30,16 +30,16 @@ dialogId("br-v-nerozvadet2", "font_big", "Yes, I know about that. We won’t com
 dialogStr("Да, я знаю. Мы не будем это комментировать.")
 
 dialogId("br-m-dva", "font_small", "Yeah, but why TWO?")
-dialogStr("Да, а почему ДВА?")
+dialogStr("Да, но почему ДВА?")
 
 dialogId("br-v-dost", "font_big", "Stop it, will you?")
-dialogStr("Пожалуйста, прекрати.")
+dialogStr("Пожалуйста, прекрати немедленно.")
 
 dialogId("br-m-sprcha", "font_small", "I’ve seen many useless things, but an underwater shower...")
 dialogStr("За свою жизнь я видела много бесполезных вещей, но подводный душ...")
 
 dialogId("br-v-lazen", "font_big", "Maybe it sprays air, like in the bubble bath.")
-dialogStr("Может быть, он распыляет пену для ванны?")
+dialogStr("Может быть, он распыляет воздух, как в джакузи.")
 
 dialogId("br-m-zapnout", "font_small", "Do you think we could turn it on?")
 dialogStr("Как ты думаешь, мы сможем его включить?")

@@ -36,17 +36,17 @@ dialogId("uts-v-koraly", "font_big", "We should search the coral reefs.")
 dialogStr("Мы должны изучить коралловые рифы.")
 
 dialogId("uts-m-tvorove", "font_small", "There are going to be many interesting beings to investigate there.")
-dialogStr("Должно быть, там много вещей, которые можно исследовать.")
+dialogStr("Должно быть, там много интересных существ, которые можно исследовать.")
 
 dialogId("uts-v-mikroskop", "font_big", "Don’t we need a microscope to investigate corals?")
 dialogStr("Разве нам не нужен микроскоп, чтобы исследовать кораллы?")
 
 dialogId("uts-m-zivocich", "font_small", "Yes, they are small. But there can be other life forms.")
-dialogStr("Да, они очень малы. Однако там могут быть и другие формы жизни.")
+dialogStr("Да, они очень малы. Однако там могут быть другие формы жизни.")
 
 dialogId("uts-m-zelvy", "font_small", "Coral turtles, for example.")
 dialogStr("Коралловые черепахи, например.")
 
 dialogId("uts-m-batyskaf", "font_small", "And moreover I have a suspicion that there’s a microscope in a bathyscaph.")
-dialogStr("А ещё у меня есть подозрение, что микросоп можно найти в батискафе.")
+dialogStr("А ещё у меня есть подозрение, что микроскоп можно найти в батискафе.")
 

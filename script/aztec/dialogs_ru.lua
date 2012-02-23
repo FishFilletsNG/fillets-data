@@ -9,16 +9,16 @@ dialogId("bot-v-uveznen1", "font_big", "It got itself drunk among the amphoras."
 dialogStr("Он напился из этих кувшинов.")
 
 dialogId("bot-m-zajem", "font_small", "I wonder if there is anything left in them.")
-dialogStr("Интересно, осталось ли что-нибудь в них.")
+dialogStr("Интересно, осталось ли что-нибудь в них?")
 
 dialogId("bot-v-podivat", "font_big", "You probably have to go check for yourself.")
-dialogStr("Пойди проверь.")
+dialogStr("Вероятно, ты хочешь проверить это на себе.")
 
 dialogId("bot-m-vidim", "font_small", "Finally, I can see some new kind of skull.")
 dialogStr("А ещё я вижу какой-то новый вид черепа.")
 
 dialogId("bot-v-vsim", "font_big", "Did you notice that totem? It is the Mexican god Shelloxuatl.")
-dialogStr("Видишь тот тотем? Это мексиканский бог Шиукоатль.")
+dialogStr("Ты заметила тот тотем? Это мексиканский бог Шеллокоатль.")
 
 dialogId("bot-m-vypada", "font_small", "It looks like it.")
 dialogStr("Да, похоже на правду.")
@@ -27,7 +27,7 @@ dialogId("bot-m-padaji", "font_small", "These amphores fall unbearably slow.")
 dialogStr("Эти сосуды падают невыносимо медленно.")
 
 dialogId("bot-v-vsak0", "font_big", "Well, you are not a bear, after all.")
-dialogStr("Ничего, подождешь. Закон Архимеда неумолим.")
+dialogStr("Ничего, подождёшь. Закон Архимеда неумолим.")
 
 dialogId("bot-v-vsak1", "font_big", "Don’t forget that we are under water.")
 dialogStr("Не забывай, что мы под водой.")
@@ -39,8 +39,8 @@ dialogId("bot-v-totem", "font_big", "This totem looks good to me.")
 dialogStr("А этот тотем мне нравится.")
 
 dialogId("bot-v-lebka", "font_big", "That skull seems to radiate something strange.")
-dialogStr("Тот череп как-то странно светится.")
+dialogStr("Тот череп изулучает что-то странное.")
 
 dialogId("bot-m-zivy", "font_small", "Is it alive or is it some kind of spell?")
-dialogStr("Он живой или это что-то вроде магии?")
+dialogStr("Он живой, или это какие-то чары?")
 

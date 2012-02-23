@@ -1,14 +1,14 @@
 dialogId("ncp-m-tesno0", "font_small", "Look, how I am supposed to get out of here?")
-dialogStr("Посмотри, каким образом я должна выйти отсюда?")
+dialogStr("Посмотри, как я смогу выйти отсюда?")
 
 dialogId("ncp-m-tesno1", "font_small", "It’s quite tight in here.")
-dialogStr("Здесь так тесно.")
+dialogStr("Здесь достаточно тесно.")
 
 dialogId("ncp-v-dostala", "font_big", "How did you manage to get there?")
 dialogStr("Как ты туда забралась?")
 
 dialogId("ncp-v-sasanka", "font_big", "Stop playing with anemones and help me to get us out of here.")
-dialogStr("Хватит играть с анемонами и помоги мне выйти отсюда.")
+dialogStr("Прекрати играть с анемонами и помоги мне выйти отсюда.")
 
 dialogId("ncp-m-nekoukej", "font_small", "Don’t be surprised.")
 dialogStr("Не удивляйся.")
@@ -20,7 +20,7 @@ dialogId("ncp-v-ceho", "font_big", "What?")
 dialogStr("Что?")
 
 dialogId("ncp-m-koraly", "font_small", "So many corals. Are you deaf or what?")
-dialogStr("Кораллов много. Глухой что ли?")
+dialogStr("Кораллов много. Глухой, что ли?")
 
 dialogId("ncp-m-tvrdy", "font_small", "Oh my, this is a hard coral.")
 dialogStr("О, это твердый коралл.")
