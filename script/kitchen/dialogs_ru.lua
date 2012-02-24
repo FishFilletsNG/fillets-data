@@ -1,4 +1,3 @@
--- FIXME. adacore
 dialogId("kuch-m-objev0", "font_small", "Oh my, this is a nice kitchen.")
 dialogStr("Милый кабмуз.")
 
@@ -12,7 +11,7 @@ dialogStr("Проклятый кабмуз.")
 
 
 dialogId("kuch-m-objev3", "font_small", "And now we are in the captain Silver’s kitchen.")
-dialogStr("Сейчас мы находимся в камбузе капитана Силвера.")
+dialogStr("Сейчас мы находимся в камбузе капитана Сильвера.")
 
 
 dialogId("kuch-v-varil", "font_big", "I don’t think he was a cook himself.")
@@ -24,7 +23,7 @@ dialogStr("Но это не наша проблема.")
 
 
 dialogId("kuch-m-noproblem", "font_small", "There are not many problems here. I can swim out at once.")
-dialogStr("Здесь нет проблем, я могу сразу уплыть.")
+dialogStr("Здесь нет проблем, я вот могу сразу уплыть.")
 
 
 dialogId("kuch-v-podivej", "font_big", "But just have a look at me.")
@@ -32,15 +31,15 @@ dialogStr("Но только взгляни на меня.")
 
 
 dialogId("kuch-v-stolky0", "font_big", "I can’t understand how these serving tables got there.")
-dialogStr("Я не понимаю, как эти столы оказались сдесь.")
+dialogStr("Я не понимаю, как эти накрытые столы оказались здесь.")
 
 
 dialogId("kuch-v-stolky1", "font_big", "These tables are in the way.")
-dialogStr("Столы на моем пути.")
+dialogStr("Столы на моём пути.")
 
 
 dialogId("kuch-v-stolky2", "font_big", "This little chamber gives me the creeps.")
-dialogStr("Эта небольшая комната движется.")
+dialogStr("Эта небольшая комната заставляет меня ползать.")
 
 
 dialogId("kuch-v-odsud0", "font_big", "I can’t get out of here!")
@@ -60,7 +59,7 @@ dialogStr("Я думаю...")
 
 
 dialogId("kuch-m-premyslim2", "font_small", "I am on my way.")
-dialogStr("Я нахожусь на своем пути.")
+dialogStr("Я в пути.")
 
 
 dialogId("kuch-m-hrnec0", "font_small", "Yuck, there is something left in this pot!")
@@ -76,7 +75,7 @@ dialogStr("Никто не мыл здесь посуду.")
 
 
 dialogId("kuch-v-kreslo0", "font_big", "If there was no chair, it would save us a lot of work.")
-dialogStr("Если бы здесь не было стула, нам пришлось бы меньше работать.")
+dialogStr("Если бы здесь не было кресла, нам пришлось бы меньше работать.")
 
 
 dialogId("kuch-v-ja", "font_big", "Especially myself.")
@@ -84,11 +83,11 @@ dialogStr("Особенно мне.")
 
 
 dialogId("kuch-m-kreslo0", "font_small", "What is a chair doing in a kitchen?")
-dialogStr("Что стул делает в камбузе?")
+dialogStr("Что кресло делает в камбузе?")
 
 
 dialogId("kuch-v-kreslo1", "font_big", "There should be no chairs in the kitchen.")
-dialogStr("В камбузе не должно быть стульев.")
+dialogStr("В камбузе не должно быть кресел.")
 
 
 dialogId("kuch-m-kreslo2", "font_small", "Everybody wants to rest sometimes.")
@@ -112,7 +111,7 @@ dialogStr("Боюсь, что только я смогу выйти отсюда
 
 
 dialogId("kuch-m-zapeklite", "font_small", "It seems that even this ship contains some demanding problems.")
-dialogStr("Видимо корабль содержит ряд сложных проблем.")
+dialogStr("Видимо, даже корабль содержит ряд сложных проблем.")
 
 
 dialogId("kuch-v-mec", "font_big", "Why is that sword here?")
@@ -120,25 +119,25 @@ dialogStr("Что тут делает меч?")
 
 
 dialogId("kuch-m-porcovani", "font_small", "Maybe they used it to cut the meat.")
-dialogStr("Может быть его использовали для резки мяса.")
+dialogStr("Может быть, его использовали для резки мяса.")
 
 
 dialogId("kuch-v-nedela", "font_big", "Certainly. But you don’t cut meat with a sword in the kitchen, usually.")
-dialogStr("Точно. Но ты обычно не режешь мясо в кабмузе.")
+dialogStr("Точно. Но ты обычно не режешь мясо мечом в кабмузе.")
 
 
 dialogId("kuch-m-kuchari", "font_small", "We are lucky there are no cooks here. They could try to cook us.")
-dialogStr("Мы, к счастью, здесь не готовили. Они могли приготовить нас.")
+dialogStr("Нам повезло, что здесь нет поваров. Они могли бы попытаться приготовить нас.")
 
 
 dialogId("kuch-v-svitek0", "font_big", "There must be some recipe on that parchment.")
-dialogStr("Здесь должен быть рецепт на пергаменте.")
+dialogStr("На пергаменте должен быть рецепт.")
 
 
 dialogId("kuch-v-svitek1", "font_big", "There must be some culinary mystery on that parchment.")
-dialogStr("Здесь, на пергаменте, может быть какая-нибудь кулинарная тайна.")
+dialogStr("На этом пергаменте может быть какая-нибудь кулинарная тайна.")
 
 
 dialogId("kuch-m-recept", "font_small", "Possibly, how to cook the fish.")
-dialogStr("Возможно, как готовить рыбу.")
+dialogStr("Возможно, как приготовить рыбу.")
 

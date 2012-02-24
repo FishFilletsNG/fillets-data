@@ -3,13 +3,13 @@ dialogId("sm-m-prolezame", "font_small", "We have been crawling through wasteyar
 dialogStr("Мы пробираемся через свалку уже в течение шести уровней.")
 
 dialogId("sm-v-jine0", "font_big", "This one looks really very waste-like.")
-dialogStr("Это выглядит как настоящая свалка.")
+dialogStr("Эта выглядит особенно замусоренной.")
 
 dialogId("sm-v-jine1", "font_big", "But no, I think that there is something strange about it.")
-dialogStr("Чем-то эта свалка странная.")
+dialogStr("Да, но эта свалка какая-то странная.")
 
 dialogId("sm-v-jine2", "font_big", "No, I think there is something here, that cannot be found anywhere else.")
-dialogStr("Нет, мне кажется, что здесь есть что-то, чего нельзя найти нигде иначе.")
+dialogStr("Мне кажется, что здесь есть что-то такое, чего нельзя найти нигде больше.")
 
 dialogId("sm-v-budik", "font_big", "Look at that clock. Doesn’t it resemble a child-comforter a little?")
 dialogStr("Посмотри на те часы. Они не напоминают тебе детскую соску?")
@@ -48,7 +48,7 @@ dialogId("sm-v-duchodce1", "font_big", "The corpses were no longer profitable an
 dialogStr("Трупы перестали быть прибыльными, и они запустили перерабатывающую отрасль.")
 
 dialogId("sm-v-sbirka", "font_big", "Can you see that collection of useless stuff, weird objects and refuse... All of them were useful things, carefully and skillfully manufactured.")
-dialogStr("Видишь ту кучу безсполезных вещей, странных предметов и прочего мусора? Все они когда-то были полезными и умело изготовленными вещами.")
+dialogStr("Видишь ту кучу безсполезных вещей, странных предметов и прочего мусора? А ведь все они когда-то были полезными вещами, бережно и умело изготовленными.")
 
 dialogId("sm-m-namaloval", "font_small", "Or painted.")
 dialogStr("Или нарисованными.")
@@ -60,7 +60,7 @@ dialogId("sm-m-proc", "font_small", "Why?")
 dialogStr("Почему?")
 
 dialogId("sm-v-podivej", "font_big", "Just look at it. It keeps running forward but stays in one place. Isn’t it the most fitting example of what I was talking about?")
-dialogStr("А ты посмотри на неё. Она всё плывёт и плывёт вперед, но остаётся на одном месте. Разве это не лучшая иллюстрация к тому, о чём я говорил?")
+dialogStr("А ты посмотри на неё. Она всё бежит и бежит вперёд, но остаётся на одном месте. Разве это не лучшая иллюстрация к тому, о чём я говорил?")
 
 dialogId("sm-x-meduza", "font_magenta", "I am jogging to lose weight, you fools!")
 dialogStr("Я бегаю, чтобы сбросить вес, дураки!")
