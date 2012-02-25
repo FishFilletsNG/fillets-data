@@ -10,7 +10,7 @@ dialogStr("Сокровища капитана Сильвера, конечно.
 dialogId("tru-v-gral", "font_big", "The Holy Grail, of course.")
 dialogStr("Святой Грааль, естественно.")
 
-!!dialogId("tru-v-vkupe", "font_big", "It’s neatly in one place: the treasure and the Grail.")
+dialogId("tru-v-vkupe", "font_big", "It’s neatly in one place: the treasure and the Grail.")
 dialogStr("Это ловко, в одно месте и сокровища, и Грааль.")
 
 dialogId("tru-m-zrada", "font_small", "I think it’s much too easy to be true.")
