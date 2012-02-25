@@ -63,7 +63,7 @@ dialogStr("Я в пути.")
 
 
 dialogId("kuch-m-hrnec0", "font_small", "Yuck, there is something left in this pot!")
-dialogStr("О! в этом горшке есть что-то!")
+dialogStr("Фу! В этом горшке есть что-то!")
 
 
 dialogId("kuch-m-hrnec1", "font_small", "This pot wasn’t even washed up.")
@@ -107,7 +107,7 @@ dialogStr("Они прелестны. Мы должны заказать нес�
 
 
 dialogId("kuch-v-obavam", "font_big", "I am afraid that only I can get out of this space.")
-dialogStr("Боюсь, что только я смогу выйти отсюда.")
+dialogStr("Боюсь, что только я смогу выйти из этого места.")
 
 
 dialogId("kuch-m-zapeklite", "font_small", "It seems that even this ship contains some demanding problems.")
