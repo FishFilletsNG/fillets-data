@@ -152,8 +152,9 @@ local function prog_init()
                     room.osam = 1
                     addv(5, "kuch-v-obavam")
                 elseif roompole[3] < 2 and dist(big, mecik) < 3 and random(50) == 1 then
-                    if roompole[3] == 0 or random(2) == 1 then
+                    if (roompole[3] == 0 or random(2) == 1) and (kuch_v_mec ~= 1) then
                         roompole[3] = 2
+												kuch_v_mec = 1
                         addv(5, "kuch-v-mec")
                         addm(8, "kuch-m-porcovani")
                         addv(7, "kuch-v-nedela")
