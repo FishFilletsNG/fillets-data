@@ -45,7 +45,7 @@ dialogId("1st-v-takdobre", "font_big", "Okay.")
 dialogStr("Хорошо.")
 
 dialogId("1st-m-neprojedu", "font_small", "I can’t get through here. That steel cylinder is in the way.")
-ЫdialogStr("Не могу выбраться отсюда. Этот металлический цилиндр мешается.")
+dialogStr("Не могу выбраться отсюда. Этот металлический цилиндр мешается.")
 
 dialogId("1st-m-nepohnu", "font_small", "I can’t move that cylinder. Can you help me?")
 dialogStr("Не могу его подвинуть. Пожалуйста, помоги мне.")
