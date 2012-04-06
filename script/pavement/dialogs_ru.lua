@@ -47,7 +47,7 @@ dialogId("dir-hs-konec0", "font_statue", "demolish some wall.")
 dialogStr("разрушишь некую стену.")
 
 dialogId("dir-hs-konec1", "font_statue", "break off a few stones from the wall and plug the holes with them.")
-dialogStr("вытащищь несколько камней из стены и закупоришь ими дыры.")
+dialogStr("вытащишь несколько камней из стены и закупоришь ими дыры.")
 
 dialogId("dir-hs-konec2", "font_statue", "plug those holes with something so that that hooked steel wouldn’t get stuck there.")
 dialogStr("заполнишь дыры чем-нибудь так, чтобы крючковатая сталь не застряла там.")
